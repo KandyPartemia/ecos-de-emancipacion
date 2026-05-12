@@ -62,6 +62,95 @@ a:hover {
   color: #213d2e;
 }
 
+.section-icon {
+  display: flex;
+  width: 3.5rem;
+  height: 3.5rem;
+  align-items: center;
+  justify-content: center;
+  border-radius: 9999px;
+  background: rgba(197, 145, 83, 0.2);
+  color: #ad553d;
+  margin-bottom: 1.75rem;
+}
+
+.btn-primary,
+.btn-secondary,
+.btn-light,
+.btn-gold {
+  min-height: 3rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  border-radius: 9999px;
+  padding: 0.8rem 1.45rem;
+  font-size: 0.95rem;
+  font-weight: 700;
+  line-height: 1.2;
+  transition: background-color 160ms ease, border-color 160ms ease, color 160ms ease;
+}
+
+.btn-primary {
+  background: #213d2e;
+  color: #f8efdf;
+  box-shadow: 0 24px 70px rgba(33, 24, 20, 0.14);
+}
+
+.btn-primary:hover {
+  background: #211814;
+}
+
+.btn-secondary {
+  border: 1px solid rgba(111, 77, 55, 0.32);
+  color: #213d2e;
+}
+
+.btn-secondary:hover {
+  border-color: #213d2e;
+  background: rgba(248, 239, 223, 0.62);
+}
+
+.btn-light {
+  border: 1px solid rgba(248, 239, 223, 0.28);
+  color: #f8efdf;
+}
+
+.btn-light:hover {
+  background: rgba(248, 239, 223, 0.1);
+}
+
+.btn-gold {
+  background: #c59153;
+  color: #211814;
+}
+
+.btn-gold:hover {
+  background: #e7c9a8;
+}
+
+.catalog-card {
+  border-radius: 1rem;
+  background: rgba(248, 239, 223, 0.82);
+  padding: 1.65rem;
+  box-shadow: 0 24px 70px rgba(33, 24, 20, 0.12);
+}
+
+.status-pill {
+  display: inline-flex;
+  min-height: 2rem;
+  align-items: center;
+  gap: 0.35rem;
+  border-radius: 9999px;
+  border: 1px solid rgba(173, 85, 61, 0.25);
+  padding: 0.4rem 0.7rem;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #6f4d37;
+}
+
 .bg-field-pattern {
   background:
     linear-gradient(90deg, rgba(33, 61, 46, 0.12) 1px, transparent 1px),
