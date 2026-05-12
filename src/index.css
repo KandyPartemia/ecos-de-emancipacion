@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-cream: #f8efdf;
+  --color-clay: #e7c9a8;
+  --color-earth: #6f4d37;
+  --color-terracotta: #ad553d;
+  --color-gold: #c59153;
+  --color-forest: #213d2e;
+  --color-ink: #211814;
+  --font-serif: "Cormorant Garamond", Georgia, serif;
+  --font-sans: "Source Serif 4", Georgia, serif;
+  --shadow-soft: 0 24px 70px rgba(33, 24, 20, 0.14);
+}
+
+:root {
+  color-scheme: light;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background: #f8efdf;
+}
+
+a {
+  text-underline-offset: 0.25em;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+::selection {
+  background: #c59153;
+  color: #211814;
+}
+
+.section-kicker {
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: #ad553d;
+}
+
+.section-title {
+  margin-top: 1rem;
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-size: clamp(2.5rem, 6vw, 5.75rem);
+  font-weight: 600;
+  line-height: 0.95;
+  color: #213d2e;
+}
+
+.bg-field-pattern {
+  background:
+    linear-gradient(90deg, rgba(33, 61, 46, 0.12) 1px, transparent 1px),
+    linear-gradient(0deg, rgba(111, 77, 55, 0.12) 1px, transparent 1px),
+    #f8efdf;
+  background-size: 42px 42px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+  }
+}
