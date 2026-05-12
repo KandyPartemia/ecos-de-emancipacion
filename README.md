@@ -1,6 +1,8 @@
 # Ecos de Emancipación
 
-Landing page creada con Vite, React y Tailwind CSS para presentar la propuesta educativa, cultural y pedagógica de la Maestra Kandy Partemia González Torreblanca.
+Ecos de Emancipación: un espacio de la Maestra Kandy Partemia con reflexiones, recursos y rutas para docentes, familias y jóvenes que buscan pensar la educación con conciencia y esperanza.
+
+Proyecto creado con Vite, React y Tailwind CSS para presentar la propuesta educativa, cultural y pedagógica de la Maestra Kandy Partemia González Torreblanca.
 
 ## Requisitos
 
@@ -27,14 +29,13 @@ Los textos principales están en `src/App.jsx`.
 - `pillars`: edita los pilares pedagógicos.
 - `projects`: edita los proyectos vivos.
 - `paths`: edita las rutas de "Empieza aquí".
-- `contents`: edita la sección de últimos contenidos.
 - Los textos del hero, manifiesto, invitación final y footer están en sus componentes correspondientes dentro del mismo archivo.
 
 ## Cómo editar enlaces
 
-Los enlaces actuales son internos y apuntan a secciones de la misma página, por ejemplo `#manifiesto`, `#proyectos` y `#empieza`.
+Los enlaces están declarados como constantes editables en `src/App.jsx`, dentro de `LINKS`.
 
-Cuando existan enlaces reales, reemplaza los atributos `href` en `src/App.jsx`. No añadas enlaces externos si no están confirmados.
+No añadas enlaces externos si no están confirmados.
 
 ## Cómo editar colores
 
@@ -68,4 +69,4 @@ package.json
 
 ## Notas de contenido
 
-La sección de últimos contenidos está preparada para editarse después. Evita inventar fechas, publicaciones, enlaces, biografías o datos no confirmados.
+Evita inventar fechas, publicaciones, enlaces, biografías o datos no confirmados.

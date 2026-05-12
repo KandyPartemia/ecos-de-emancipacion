@@ -1,6 +1,6 @@
 # Reglas para agentes de IA
 
-Este proyecto es una landing editorial para **Ecos de Emancipación**, propuesta educativa, cultural y pedagógica de la Maestra Kandy Partemia González Torreblanca.
+Este proyecto es un sitio editorial para **Ecos de Emancipación**, propuesta educativa, cultural y pedagógica de la Maestra Kandy Partemia González Torreblanca.
 
 ## Tono
 

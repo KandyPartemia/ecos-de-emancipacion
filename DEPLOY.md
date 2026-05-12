@@ -1,6 +1,6 @@
 # Publicar gratis en Vercel
 
-Esta landing puede publicarse gratis en Vercel con una URL tipo `.vercel.app`, sin comprar dominio.
+Este sitio puede publicarse gratis en Vercel con una URL tipo `.vercel.app`, sin comprar dominio.
 
 ## Opción recomendada: desde GitHub
 
