@@ -19,6 +19,7 @@ import {
   Home,
   Instagram,
   KeyRound,
+  Lightbulb,
   Leaf,
   Library,
   Menu,
@@ -62,7 +63,7 @@ const quickLinks = [
   { title: 'Proyectos', href: '#proyectos', icon: Play },
   { title: 'Tienda docente', href: '#tienda', icon: ShoppingBag },
   { title: 'Escuela', href: '#escuela', icon: School },
-  { title: 'Recursos', href: '#recursos', icon: FileStack },
+  { title: 'Empieza aquí', href: '#empieza', icon: Lightbulb },
   { title: 'Contacto', href: '#contacto', icon: MessageCircle },
 ];
 
@@ -91,28 +92,52 @@ const pillars = [
 
 const projects = [
   {
-    title: 'Canal pedagógico',
-    text: 'Videos y conversaciones para acompañar la formación educativa.',
+    title: 'Ecos de Emancipación',
+    text: 'Canal y casa editorial para pensar educación, comunidad y esperanza.',
+    status: 'Activo',
+    action: 'Ver canal',
+    href: LINKS.youtube,
+    external: true,
     icon: Play,
   },
   {
-    title: 'Recursos docentes',
-    text: 'Guías, cuadernos y herramientas para planear con sentido.',
+    title: 'Pedagogía del Sujeto',
+    text: 'Propuesta para mirar a cada persona como conciencia, historia y posibilidad.',
+    status: 'En construcción',
+    action: 'Leer propuesta',
+    href: '#manifiesto',
+    icon: UserRound,
+  },
+  {
+    title: 'Recursos para docentes',
+    text: 'Cuadernos, preguntas y materiales para el aula como territorio vivo.',
+    status: 'En construcción',
+    action: 'Explorar recursos',
+    href: '#tienda',
     icon: NotebookTabs,
   },
   {
-    title: 'Familias',
-    text: 'Rutas para acompañar, escuchar y orientar sin miedo.',
+    title: 'Familias que acompañan',
+    text: 'Rutas sencillas para orientar sin miedo, culpa ni recetas vacías.',
+    status: 'En construcción',
+    action: 'Leer propuesta',
+    href: '#empieza',
     icon: Home,
   },
   {
-    title: 'Filosofía cotidiana',
-    text: 'Preguntas para pensar la escuela, la dignidad y la vida común.',
+    title: 'Filosofía para pensar la vida',
+    text: 'Preguntas para mirar la escuela, la dignidad y el mundo cotidiano.',
+    status: 'Activo',
+    action: 'Leer propuesta',
+    href: '#pilares',
     icon: Compass,
   },
   {
-    title: 'Palabra poética',
-    text: 'Escritura y sensibilidad para nombrar memoria y territorio.',
+    title: 'Producciones poéticas y musicales',
+    text: 'Palabra sensible para nombrar memoria, territorio y transformación.',
+    status: 'Próximamente',
+    action: 'Próximamente',
+    href: '#',
     icon: Feather,
   },
 ];
@@ -191,21 +216,27 @@ const schoolModules = [
 
 const paths = [
   {
-    audience: 'Docentes',
-    title: 'Diseñar con sentido comunitario',
-    text: 'Parte de una pregunta del territorio y cierra con una acción situada.',
+    audience: 'Soy docente',
+    title: 'Mirar el aula como territorio',
+    text: 'Encuentra rutas, preguntas y recursos para mirar el aula como territorio de posibilidad.',
+    action: 'Explorar recursos',
+    href: '#tienda',
     icon: BookOpen,
   },
   {
-    audience: 'Familias',
-    title: 'Conversar desde la memoria',
-    text: 'Recupera historias de casa para construir vínculos entre generaciones.',
+    audience: 'Soy madre, padre o tutor',
+    title: 'Acompañar sin miedo',
+    text: 'Acompaña sin miedo, sin culpa y con herramientas sencillas para fortalecer el aprendizaje.',
+    action: 'Ver ruta familias',
+    href: '#escuela',
     icon: Home,
   },
   {
-    audience: 'Jóvenes',
-    title: 'Tomar la palabra',
-    text: 'Nombra aquello que deseas transformar en tu escuela o comunidad.',
+    audience: 'Soy estudiante o joven curioso',
+    title: 'Pensar mi lugar en el mundo',
+    text: 'Encuentra ideas para pensar tu vida, tu escuela y tu lugar en el mundo.',
+    action: 'Empezar ruta',
+    href: '#escuela',
     icon: Sparkles,
   },
 ];
@@ -213,6 +244,22 @@ const paths = [
 function ExternalLink({ href, children, className, label }) {
   return (
     <a href={href} target="_blank" rel="noreferrer" className={className} aria-label={label}>
+      {children}
+    </a>
+  );
+}
+
+function SmartLink({ href, children, className, label, external = false }) {
+  if (external) {
+    return (
+      <a href={href} target="_blank" rel="noreferrer" className={className} aria-label={label}>
+        {children}
+      </a>
+    );
+  }
+
+  return (
+    <a href={href} className={className} aria-label={label}>
       {children}
     </a>
   );
@@ -279,7 +326,7 @@ function Header() {
 function Hero() {
   return (
     <section id="inicio" className="relative isolate px-5 py-5 sm:px-10 lg:px-14">
-      <div className="absolute inset-0 -z-10 bg-[radial-gradient(circle_at_18%_18%,rgba(197,145,83,0.2),transparent_28%),linear-gradient(145deg,#f8efdf_0%,#f1dfc3_48%,#d9b98f_100%)]" />
+      <div className="absolute inset-0 -z-10 bg-[radial-gradient(circle_at_18%_18%,rgba(196,154,74,0.2),transparent_28%),linear-gradient(145deg,#F4EFE7_0%,#E8DCCB_52%,#d7c4ab_100%)]" />
       <div className="absolute inset-x-0 bottom-0 -z-10 h-24 bg-gradient-to-t from-cream to-transparent" />
       <Header />
 
@@ -361,16 +408,21 @@ function QuickExplore() {
 function About() {
   return (
     <section id="quien-soy" className="section-pad">
-      <div className="mx-auto grid max-w-7xl gap-8 lg:grid-cols-[0.8fr_1.2fr] lg:items-center">
-        <div className="rounded-[1.5rem] bg-forest p-7 text-cream shadow-soft">
-          <UserRound className="text-gold" size={34} aria-hidden="true" />
-          <h2 className="mt-7 font-serif text-4xl leading-none sm:text-5xl">Maestra Kandy Partemia González Torreblanca</h2>
+      <div className="mx-auto grid max-w-7xl gap-8 lg:grid-cols-[0.85fr_1.15fr] lg:items-center">
+        <div className="rounded-[1.5rem] bg-forest p-5 text-cream shadow-soft">
+          <div className="flex min-h-[18rem] flex-col justify-between rounded-[1rem] border border-cream/15 bg-cream/[0.06] p-6">
+            <UserRound className="text-gold" size={34} aria-hidden="true" />
+            <div>
+              <p className="text-xs font-semibold uppercase tracking-[0.16em] text-gold">Retrato editorial próximamente</p>
+              <h2 className="mt-4 font-serif text-4xl leading-none sm:text-5xl">Maestra Kandy Partemia González Torreblanca</h2>
+            </div>
+          </div>
         </div>
         <div>
           <p className="section-kicker">Quién soy</p>
           <h3 className="section-title">Una voz pedagógica con raíz comunitaria.</h3>
           <p className="mt-6 max-w-3xl leading-8 text-earth">
-            Ecos de Emancipación presenta una propuesta educativa, cultural y pedagógica para pensar la escuela desde la vida cotidiana, la dignidad y la esperanza.
+            Soy Kandy Partemia González Torreblanca, maestra de telesecundaria, escritora y creadora de Ecos de Emancipación. Desde el aula, la comunidad y la vida cotidiana, construyo una propuesta para acompañar a docentes, familias y jóvenes en el desarrollo de conciencia, dignidad y esperanza.
           </p>
         </div>
       </div>
@@ -389,10 +441,17 @@ function Manifesto() {
           <p className="section-kicker">Manifiesto breve</p>
           <h2 className="section-title">Educar es escuchar lo que el territorio ya sabe.</h2>
         </div>
-        <div className="rounded-2xl bg-cream/75 p-6 shadow-soft sm:p-8">
-          <p className="text-lg leading-8 text-earth">
-            Ecos de Emancipación acompaña procesos educativos que no separan el aula de la comunidad. Cree en la memoria, la ternura como práctica pública y la cultura como camino para nombrar injusticias sin renunciar a transformarlas.
-          </p>
+        <div className="grid gap-3 sm:grid-cols-2">
+          {[
+            'La educación es un acto de conciencia, no solo transmisión de contenidos.',
+            'La escuela puede ser territorio de posibilidad cuando escucha la vida cotidiana.',
+            'El sujeto está en el centro: piensa, recuerda, decide y transforma.',
+            'La esperanza se vuelve real cuando se comparte en comunidad.',
+          ].map((item) => (
+            <p key={item} className="rounded-2xl bg-cream/75 p-5 leading-7 text-earth shadow-soft">
+              {item}
+            </p>
+          ))}
         </div>
       </div>
     </section>
@@ -435,12 +494,19 @@ function Projects() {
             <ArrowUpRight size={17} aria-hidden="true" />
           </ExternalLink>
         </div>
-        <div className="mt-10 grid gap-4 md:grid-cols-2 xl:grid-cols-5">
-          {projects.map(({ title, text, icon: Icon }) => (
+        <div className="mt-10 grid gap-4 md:grid-cols-2 xl:grid-cols-3">
+          {projects.map(({ title, text, status, action, href, external, icon: Icon }) => (
             <article key={title} className="compact-card">
-              <Icon className="text-terracotta" size={25} aria-hidden="true" />
+              <div className="flex items-start justify-between gap-4">
+                <Icon className="text-terracotta" size={25} aria-hidden="true" />
+                <span className="status-pill">{status}</span>
+              </div>
               <h3 className="mt-5 font-serif text-2xl leading-tight text-forest">{title}</h3>
               <p className="mt-3 leading-7 text-earth">{text}</p>
+              <SmartLink href={href} external={external} className="mt-5 inline-flex items-center gap-2 text-sm font-semibold text-forest" label={action}>
+                {action}
+                <ArrowUpRight size={16} aria-hidden="true" />
+              </SmartLink>
             </article>
           ))}
         </div>
@@ -552,7 +618,7 @@ function StartHere() {
           <h2 className="section-title">Tres rutas para actuar hoy.</h2>
         </div>
         <div className="mt-10 grid gap-4 lg:grid-cols-3">
-          {paths.map(({ audience, title, text, icon: Icon }) => (
+          {paths.map(({ audience, title, text, action, href, icon: Icon }) => (
             <article key={audience} className="compact-card">
               <div className="flex items-center gap-4">
                 <div className="flex h-12 w-12 items-center justify-center rounded-full bg-gold/20 text-terracotta">
@@ -562,6 +628,10 @@ function StartHere() {
               </div>
               <h3 className="mt-6 font-serif text-3xl leading-tight text-forest">{title}</h3>
               <p className="mt-4 leading-8 text-earth">{text}</p>
+              <a className="mt-6 inline-flex items-center gap-2 text-sm font-semibold text-forest" href={href}>
+                {action}
+                <ArrowUpRight size={16} aria-hidden="true" />
+              </a>
             </article>
           ))}
         </div>
@@ -576,10 +646,10 @@ function Invitation() {
       <div className="mx-auto max-w-7xl rounded-[1.6rem] bg-forest px-6 py-10 text-center text-cream shadow-soft sm:px-12 sm:py-14">
         <HandHeart className="mx-auto text-gold" size={38} aria-hidden="true" />
         <h2 className="mx-auto mt-6 max-w-4xl font-serif text-4xl leading-tight sm:text-6xl">
-          Educación con raíz, belleza y responsabilidad colectiva.
+          Si esta propuesta resonó contigo, compártela.
         </h2>
         <p className="mx-auto mt-6 max-w-2xl leading-8 text-cream/78">
-          Sigue el proyecto, solicita información o abre conversación para caminar una ruta pedagógica posible.
+          Compártela con una maestra, una madre, un padre o una persona joven que necesite recordar que la educación todavía puede ser territorio de esperanza.
         </p>
         <div className="mt-8 flex flex-col justify-center gap-3 sm:flex-row">
           <ExternalLink className="btn-light" href={LINKS.youtube} label="Seguir en YouTube">

@@ -1,17 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=DM+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600&display=swap');
 @import "tailwindcss";
 
 @theme {
-  --color-cream: #f8efdf;
-  --color-clay: #e7c9a8;
-  --color-earth: #6f4d37;
-  --color-terracotta: #ad553d;
-  --color-gold: #c59153;
-  --color-forest: #213d2e;
-  --color-ink: #211814;
+  --color-cream: #f4efe7;
+  --color-clay: #e8dccb;
+  --color-earth: #6f665c;
+  --color-terracotta: #a84e32;
+  --color-gold: #c49a4a;
+  --color-forest: #3f5f4a;
+  --color-ink: #2b2118;
   --font-serif: "Cormorant Garamond", Georgia, serif;
-  --font-sans: "Source Serif 4", Georgia, serif;
-  --shadow-soft: 0 24px 70px rgba(33, 24, 20, 0.14);
+  --font-sans: "DM Sans", system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, monospace;
+  --shadow-soft: 0 24px 70px rgba(21, 18, 14, 0.12);
 }
 
 :root {
@@ -29,7 +30,8 @@ html {
 body {
   margin: 0;
   min-width: 320px;
-  background: #f8efdf;
+  background: #f4efe7;
+  font-family: "DM Sans", system-ui, sans-serif;
 }
 
 a {
@@ -41,8 +43,8 @@ a:hover {
 }
 
 ::selection {
-  background: #c59153;
-  color: #211814;
+  background: #c49a4a;
+  color: #15120e;
 }
 
 .section-kicker {
@@ -50,7 +52,8 @@ a:hover {
   font-weight: 700;
   letter-spacing: 0.22em;
   text-transform: uppercase;
-  color: #ad553d;
+  color: #a84e32;
+  font-family: "IBM Plex Mono", ui-monospace, monospace;
 }
 
 .section-pad {
@@ -75,7 +78,7 @@ a:hover {
   font-size: clamp(2.35rem, 5.3vw, 5.35rem);
   font-weight: 600;
   line-height: 0.95;
-  color: #213d2e;
+  color: #3f5f4a;
 }
 
 .section-icon {
@@ -85,8 +88,8 @@ a:hover {
   align-items: center;
   justify-content: center;
   border-radius: 9999px;
-  background: rgba(197, 145, 83, 0.2);
-  color: #ad553d;
+  background: rgba(196, 154, 74, 0.2);
+  color: #a84e32;
   margin-bottom: 1.75rem;
 }
 
@@ -108,48 +111,48 @@ a:hover {
 }
 
 .btn-primary {
-  background: #213d2e;
-  color: #f8efdf;
-  box-shadow: 0 24px 70px rgba(33, 24, 20, 0.14);
+  background: #3f5f4a;
+  color: #f4efe7;
+  box-shadow: 0 24px 70px rgba(21, 18, 14, 0.14);
 }
 
 .btn-primary:hover {
-  background: #211814;
+  background: #15120e;
 }
 
 .btn-secondary {
-  border: 1px solid rgba(111, 77, 55, 0.32);
-  color: #213d2e;
+  border: 1px solid rgba(111, 102, 92, 0.34);
+  color: #3f5f4a;
 }
 
 .btn-secondary:hover {
-  border-color: #213d2e;
-  background: rgba(248, 239, 223, 0.62);
+  border-color: #3f5f4a;
+  background: rgba(244, 239, 231, 0.68);
 }
 
 .btn-light {
-  border: 1px solid rgba(248, 239, 223, 0.28);
-  color: #f8efdf;
+  border: 1px solid rgba(244, 239, 231, 0.28);
+  color: #f4efe7;
 }
 
 .btn-light:hover {
-  background: rgba(248, 239, 223, 0.1);
+  background: rgba(244, 239, 231, 0.1);
 }
 
 .btn-gold {
-  background: #c59153;
-  color: #211814;
+  background: #c49a4a;
+  color: #15120e;
 }
 
 .btn-gold:hover {
-  background: #e7c9a8;
+  background: #e8dccb;
 }
 
 .catalog-card {
   border-radius: 1rem;
-  background: rgba(248, 239, 223, 0.82);
+  background: rgba(244, 239, 231, 0.82);
   padding: 1.65rem;
-  box-shadow: 0 24px 70px rgba(33, 24, 20, 0.12);
+  box-shadow: 0 24px 70px rgba(21, 18, 14, 0.12);
 }
 
 .status-pill {
@@ -158,13 +161,13 @@ a:hover {
   align-items: center;
   gap: 0.35rem;
   border-radius: 9999px;
-  border: 1px solid rgba(173, 85, 61, 0.25);
+  border: 1px solid rgba(168, 78, 50, 0.25);
   padding: 0.4rem 0.7rem;
   font-size: 0.72rem;
   font-weight: 700;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: #6f4d37;
+  color: #6f665c;
 }
 
 .quick-card {
@@ -173,17 +176,17 @@ a:hover {
   flex-direction: column;
   justify-content: space-between;
   border-radius: 1rem;
-  border: 1px solid rgba(111, 77, 55, 0.16);
-  background: rgba(248, 239, 223, 0.78);
-  color: #213d2e;
+  border: 1px solid rgba(111, 102, 92, 0.16);
+  background: rgba(244, 239, 231, 0.78);
+  color: #3f5f4a;
   padding: 1rem;
-  box-shadow: 0 16px 45px rgba(33, 24, 20, 0.08);
+  box-shadow: 0 16px 45px rgba(21, 18, 14, 0.08);
   text-decoration: none;
 }
 
 .quick-card:hover {
-  border-color: rgba(173, 85, 61, 0.35);
-  background: rgba(248, 239, 223, 0.96);
+  border-color: rgba(168, 78, 50, 0.35);
+  background: rgba(244, 239, 231, 0.96);
   text-decoration: none;
 }
 
@@ -196,17 +199,17 @@ a:hover {
 
 .compact-card {
   border-radius: 1rem;
-  border: 1px solid rgba(111, 77, 55, 0.14);
+  border: 1px solid rgba(111, 102, 92, 0.14);
   background: rgba(255, 255, 255, 0.42);
   padding: 1.5rem;
-  box-shadow: 0 16px 48px rgba(33, 24, 20, 0.08);
+  box-shadow: 0 16px 48px rgba(21, 18, 14, 0.08);
 }
 
 .bg-field-pattern {
   background:
-    linear-gradient(90deg, rgba(33, 61, 46, 0.12) 1px, transparent 1px),
-    linear-gradient(0deg, rgba(111, 77, 55, 0.12) 1px, transparent 1px),
-    #f8efdf;
+    linear-gradient(90deg, rgba(63, 95, 74, 0.12) 1px, transparent 1px),
+    linear-gradient(0deg, rgba(111, 102, 92, 0.12) 1px, transparent 1px),
+    #f4efe7;
   background-size: 42px 42px;
 }
 
