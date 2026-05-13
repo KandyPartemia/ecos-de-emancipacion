@@ -12,21 +12,17 @@ import {
   Eye,
   Facebook,
   Feather,
-  FileStack,
   FileText,
   GraduationCap,
   HandHeart,
   Home,
   Instagram,
   KeyRound,
-  Lightbulb,
   Leaf,
-  Library,
+  Map,
   Menu,
   MessageCircle,
-  MessagesSquare,
   NotebookTabs,
-  Package,
   Play,
   School,
   ShoppingBag,
@@ -34,7 +30,6 @@ import {
   Tag,
   UserRound,
   UsersRound,
-  Video,
   X,
   Youtube,
 } from 'lucide-react';
@@ -46,8 +41,18 @@ const LINKS = {
   whatsapp: 'https://wa.me/message/XRGTMKCKFGWZP1?src=qr',
 };
 
+const IMAGES = {
+  hero: '/images/hero-kandy.webp',
+  about: '/images/quien-soy-kandy.webp',
+  classroom: '/images/aula-estudiantes.webp',
+  store: '/images/tienda-docente.webp',
+  school: '/images/escuela-ecos.webp',
+  families: '/images/familias-acompanan.webp',
+  youth: '/images/jovenes-criterio.webp',
+  map: '/images/06_mapa-universo-ecos.png',
+};
+
 const navItems = [
-  { label: 'Quién soy', href: '#quien-soy' },
   { label: 'Manifiesto', href: '#manifiesto' },
   { label: 'Pilares', href: '#pilares' },
   { label: 'Proyectos', href: '#proyectos' },
@@ -56,15 +61,32 @@ const navItems = [
   { label: 'Empieza aquí', href: '#empieza' },
 ];
 
+const mobileNavItems = [
+  { label: 'Quién soy', href: '#quien-soy' },
+  { label: 'Mapa Ecos', href: '#mapa-ecos' },
+  ...navItems,
+  { label: 'Familias', href: '#familias' },
+  { label: 'Jóvenes', href: '#jovenes' },
+  { label: 'Contacto', href: '#contacto' },
+];
+
 const quickLinks = [
   { title: 'Quién soy', href: '#quien-soy', icon: UserRound },
-  { title: 'Manifiesto', href: '#manifiesto', icon: Leaf },
+  { title: 'Mapa Ecos', href: '#mapa-ecos', icon: Map },
   { title: 'Pilares', href: '#pilares', icon: CircleDot },
   { title: 'Proyectos', href: '#proyectos', icon: Play },
   { title: 'Tienda docente', href: '#tienda', icon: ShoppingBag },
-  { title: 'Escuela', href: '#escuela', icon: School },
-  { title: 'Empieza aquí', href: '#empieza', icon: Lightbulb },
+  { title: 'Escuela Ecos', href: '#escuela', icon: School },
+  { title: 'Familias', href: '#familias', icon: Home },
+  { title: 'Jóvenes', href: '#jovenes', icon: Sparkles },
   { title: 'Contacto', href: '#contacto', icon: MessageCircle },
+];
+
+const manifestoPoints = [
+  'La educación es un acto de conciencia, no solo transmisión de contenidos.',
+  'La escuela puede ser territorio de posibilidad cuando escucha la vida cotidiana.',
+  'El sujeto está en el centro: piensa, recuerda, decide y transforma.',
+  'La esperanza se vuelve real cuando se comparte en comunidad.',
 ];
 
 const pillars = [
@@ -81,7 +103,7 @@ const pillars = [
   {
     title: 'Vida cotidiana',
     text: 'Casa, aula y comunidad como lugares donde se produce saber.',
-    icon: Home,
+    icon: BookOpen,
   },
   {
     title: 'Comunidad y esperanza',
@@ -121,7 +143,7 @@ const projects = [
     text: 'Rutas sencillas para orientar sin miedo, culpa ni recetas vacías.',
     status: 'En construcción',
     action: 'Leer propuesta',
-    href: '#empieza',
+    href: '#familias',
     icon: Home,
   },
   {
@@ -137,7 +159,7 @@ const projects = [
     text: 'Palabra sensible para nombrar memoria, territorio y transformación.',
     status: 'Próximamente',
     action: 'Próximamente',
-    href: '#',
+    href: '#proyectos',
     icon: Feather,
   },
 ];
@@ -158,24 +180,9 @@ const storeItems = [
     text: 'Plantillas para organizar ideas, rutas didácticas y proyectos.',
     icon: FileText,
   },
-  {
-    title: 'Cartas de dilemas para adolescentes',
-    text: 'Situaciones breves para conversar sobre decisiones y cuidado.',
-    icon: MessagesSquare,
-  },
-  {
-    title: 'Guías para familias',
-    text: 'Orientaciones claras para acompañar procesos desde casa.',
-    icon: Home,
-  },
-  {
-    title: 'Materiales imprimibles para aula',
-    text: 'Recursos sencillos para activar lectura, escritura y memoria.',
-    icon: Package,
-  },
 ];
 
-const schoolModules = [
+const schoolRoutes = [
   {
     title: 'Ruta docente',
     subtitle: 'Pedagogía del sujeto en el aula',
@@ -194,24 +201,6 @@ const schoolModules = [
     text: 'Preguntas, identidad, proyecto de vida y palabra propia.',
     icon: Sparkles,
   },
-  {
-    title: 'Biblioteca de materiales',
-    subtitle: 'Lecturas y fichas',
-    text: 'Repositorio futuro de guías y recursos de consulta.',
-    icon: Library,
-  },
-  {
-    title: 'Videos formativos',
-    subtitle: 'Cápsulas y sesiones',
-    text: 'Contenidos para profundizar en temas pedagógicos.',
-    icon: Video,
-  },
-  {
-    title: 'PDFs y cuadernos',
-    subtitle: 'Trabajo descargable',
-    text: 'Materiales para estudiar, imprimir y adaptar cuando estén disponibles.',
-    icon: FileStack,
-  },
 ];
 
 const paths = [
@@ -228,7 +217,7 @@ const paths = [
     title: 'Acompañar sin miedo',
     text: 'Acompaña sin miedo, sin culpa y con herramientas sencillas para fortalecer el aprendizaje.',
     action: 'Ver ruta familias',
-    href: '#escuela',
+    href: '#familias',
     icon: Home,
   },
   {
@@ -236,7 +225,7 @@ const paths = [
     title: 'Pensar mi lugar en el mundo',
     text: 'Encuentra ideas para pensar tu vida, tu escuela y tu lugar en el mundo.',
     action: 'Empezar ruta',
-    href: '#escuela',
+    href: '#jovenes',
     icon: Sparkles,
   },
 ];
@@ -271,11 +260,14 @@ function App() {
       <Hero />
       <QuickExplore />
       <About />
+      <UniverseMap />
       <Manifesto />
       <Pillars />
       <Projects />
       <Store />
       <SchoolSection />
+      <Families />
+      <Youth />
       <StartHere />
       <Invitation />
       <Footer />
@@ -312,7 +304,7 @@ function Header() {
       </div>
       {isOpen && (
         <div className="mt-4 grid gap-2 rounded-2xl border border-earth/15 bg-cream/95 p-3 shadow-soft lg:hidden">
-          {navItems.map((item) => (
+          {mobileNavItems.map((item) => (
             <a key={item.href} className="rounded-xl px-4 py-3 text-forest" href={item.href} onClick={() => setIsOpen(false)}>
               {item.label}
             </a>
@@ -326,12 +318,12 @@ function Header() {
 function Hero() {
   return (
     <section id="inicio" className="relative isolate px-5 py-5 sm:px-10 lg:px-14">
-      <div className="absolute inset-0 -z-10 bg-[radial-gradient(circle_at_18%_18%,rgba(196,154,74,0.2),transparent_28%),linear-gradient(145deg,#F4EFE7_0%,#E8DCCB_52%,#d7c4ab_100%)]" />
+      <div className="absolute inset-0 -z-10 bg-[linear-gradient(145deg,#F4EFE7_0%,#E8DCCB_52%,#d7c4ab_100%)]" />
       <div className="absolute inset-x-0 bottom-0 -z-10 h-24 bg-gradient-to-t from-cream to-transparent" />
       <Header />
 
-      <div className="mx-auto grid max-w-7xl items-center gap-7 pb-8 pt-8 sm:pb-12 sm:pt-14 lg:min-h-[74vh] lg:grid-cols-[1.05fr_0.95fr] lg:gap-12">
-        <div>
+      <div className="mx-auto grid max-w-7xl items-center gap-7 pb-8 pt-7 sm:pb-12 sm:pt-14 lg:min-h-[76vh] lg:grid-cols-[0.9fr_1.1fr] lg:gap-12">
+        <div className="relative z-10">
           <p className="mb-4 max-w-xl text-xs font-semibold uppercase tracking-[0.22em] text-terracotta sm:text-sm">
             Educación y conciencia crítica
           </p>
@@ -357,26 +349,16 @@ function Hero() {
           </a>
         </div>
 
-        <div className="relative mx-auto w-full max-w-md rounded-[1.6rem] border border-cream/70 bg-cream/35 p-4 shadow-soft backdrop-blur-sm lg:max-w-none">
-          <div className="rounded-[1.2rem] border border-earth/15 bg-field-pattern p-4">
-            <div className="rounded-[0.95rem] bg-forest px-5 py-6 text-cream sm:px-7 sm:py-8">
-              <div className="flex items-center justify-between">
-                <Leaf className="text-gold" size={30} aria-hidden="true" />
-                <span className="rounded-full border border-gold/35 px-3 py-1 text-xs font-semibold uppercase tracking-[0.14em] text-gold">
-                  Portal vivo
-                </span>
-              </div>
-              <p className="mt-8 font-serif text-2xl leading-tight sm:text-3xl">
-                Aula, comunidad y palabra para imaginar otras formas de aprender.
-              </p>
-              <div className="mt-7 grid grid-cols-3 gap-2 text-center text-xs text-cream/78">
-                <span className="rounded-full bg-cream/10 px-2 py-2">Docentes</span>
-                <span className="rounded-full bg-cream/10 px-2 py-2">Familias</span>
-                <span className="rounded-full bg-cream/10 px-2 py-2">Jóvenes</span>
-              </div>
-            </div>
-          </div>
-        </div>
+        <figure className="hero-image-card">
+          <img
+            src={IMAGES.hero}
+            alt="Maestra Kandy Partemia en una composición editorial cálida de Ecos de Emancipación"
+            className="h-full w-full object-cover object-[50%_24%]"
+          />
+          <figcaption className="absolute bottom-4 left-4 rounded-full bg-cream/90 px-4 py-2 text-xs font-semibold uppercase tracking-[0.14em] text-forest">
+            Portal vivo
+          </figcaption>
+        </figure>
       </div>
     </section>
   );
@@ -392,7 +374,7 @@ function QuickExplore() {
             <h2 className="mt-2 font-serif text-3xl leading-tight text-forest sm:text-4xl">Elige por dónde entrar.</h2>
           </div>
         </div>
-        <div className="grid grid-cols-2 gap-3 md:grid-cols-4">
+        <div className="grid grid-cols-2 gap-3 md:grid-cols-3 xl:grid-cols-9">
           {quickLinks.map(({ title, href, icon: Icon }) => (
             <a key={title} href={href} className="quick-card">
               <Icon size={22} aria-hidden="true" />
@@ -408,19 +390,17 @@ function QuickExplore() {
 function About() {
   return (
     <section id="quien-soy" className="section-pad">
-      <div className="mx-auto grid max-w-7xl gap-8 lg:grid-cols-[0.85fr_1.15fr] lg:items-center">
-        <div className="rounded-[1.5rem] bg-forest p-5 text-cream shadow-soft">
-          <div className="flex min-h-[18rem] flex-col justify-between rounded-[1rem] border border-cream/15 bg-cream/[0.06] p-6">
-            <UserRound className="text-gold" size={34} aria-hidden="true" />
-            <div>
-              <p className="text-xs font-semibold uppercase tracking-[0.16em] text-gold">Retrato editorial próximamente</p>
-              <h2 className="mt-4 font-serif text-4xl leading-none sm:text-5xl">Maestra Kandy Partemia González Torreblanca</h2>
-            </div>
-          </div>
-        </div>
+      <div className="mx-auto grid max-w-7xl gap-8 lg:grid-cols-[0.82fr_1.18fr] lg:items-center">
+        <figure className="editorial-image aspect-[4/5]">
+          <img
+            src={IMAGES.about}
+            alt="Retrato editorial de la Maestra Kandy Partemia González Torreblanca"
+            className="h-full w-full object-cover object-[50%_22%]"
+          />
+        </figure>
         <div>
           <p className="section-kicker">Quién soy</p>
-          <h3 className="section-title">Una voz pedagógica con raíz comunitaria.</h3>
+          <h2 className="section-title">Una voz pedagógica con raíz comunitaria.</h2>
           <p className="mt-6 max-w-3xl leading-8 text-earth">
             Soy Kandy Partemia González Torreblanca, maestra de telesecundaria, escritora y creadora de Ecos de Emancipación. Desde el aula, la comunidad y la vida cotidiana, construyo una propuesta para acompañar a docentes, familias y jóvenes en el desarrollo de conciencia, dignidad y esperanza.
           </p>
@@ -430,10 +410,30 @@ function About() {
   );
 }
 
+function UniverseMap() {
+  return (
+    <section id="mapa-ecos" className="section-pad bg-clay/55">
+      <div className="mx-auto max-w-7xl">
+        <div className="mb-8 max-w-3xl">
+          <p className="section-kicker">Mapa del universo Ecos</p>
+          <h2 className="section-title">Una mirada de conjunto para entrar al proyecto.</h2>
+        </div>
+        <figure className="overflow-hidden rounded-[1.5rem] border border-earth/15 bg-cream p-3 shadow-soft">
+          <img
+            src={IMAGES.map}
+            alt="Mapa visual del universo Ecos de Emancipación con rutas, conceptos y áreas del proyecto"
+            className="h-auto w-full rounded-[1rem]"
+          />
+        </figure>
+      </div>
+    </section>
+  );
+}
+
 function Manifesto() {
   return (
-    <section id="manifiesto" className="section-pad bg-clay/45">
-      <div className="mx-auto grid max-w-7xl gap-8 md:grid-cols-[0.8fr_1.2fr] md:items-center">
+    <section id="manifiesto" className="section-pad">
+      <div className="mx-auto grid max-w-7xl gap-8 md:grid-cols-[0.78fr_1.22fr] md:items-center">
         <div>
           <div className="section-icon">
             <Leaf size={25} aria-hidden="true" />
@@ -442,13 +442,8 @@ function Manifesto() {
           <h2 className="section-title">Educar es escuchar lo que el territorio ya sabe.</h2>
         </div>
         <div className="grid gap-3 sm:grid-cols-2">
-          {[
-            'La educación es un acto de conciencia, no solo transmisión de contenidos.',
-            'La escuela puede ser territorio de posibilidad cuando escucha la vida cotidiana.',
-            'El sujeto está en el centro: piensa, recuerda, decide y transforma.',
-            'La esperanza se vuelve real cuando se comparte en comunidad.',
-          ].map((item) => (
-            <p key={item} className="rounded-2xl bg-cream/75 p-5 leading-7 text-earth shadow-soft">
+          {manifestoPoints.map((item) => (
+            <p key={item} className="rounded-2xl bg-white/50 p-5 leading-7 text-earth shadow-soft">
               {item}
             </p>
           ))}
@@ -461,20 +456,27 @@ function Manifesto() {
 function Pillars() {
   return (
     <section id="pilares" className="section-pad bg-forest text-cream">
-      <div className="mx-auto max-w-7xl">
-        <div className="max-w-3xl">
+      <div className="mx-auto grid max-w-7xl gap-9 lg:grid-cols-[0.95fr_1.05fr] lg:items-center">
+        <div>
           <p className="section-kicker text-gold">Pilares</p>
           <h2 className="section-title text-cream">Raíces para sostener una pedagogía esperanzadora.</h2>
+          <div className="mt-9 grid gap-4 sm:grid-cols-2">
+            {pillars.map(({ title, text, icon: Icon }) => (
+              <article key={title} className="rounded-2xl border border-cream/15 bg-cream/[0.06] p-6">
+                <Icon className="text-gold" size={28} aria-hidden="true" />
+                <h3 className="mt-6 font-serif text-2xl">{title}</h3>
+                <p className="mt-3 leading-7 text-cream/78">{text}</p>
+              </article>
+            ))}
+          </div>
         </div>
-        <div className="mt-10 grid gap-4 sm:grid-cols-2 xl:grid-cols-4">
-          {pillars.map(({ title, text, icon: Icon }) => (
-            <article key={title} className="rounded-2xl border border-cream/15 bg-cream/[0.06] p-6">
-              <Icon className="text-gold" size={28} aria-hidden="true" />
-              <h3 className="mt-6 font-serif text-2xl">{title}</h3>
-              <p className="mt-3 leading-7 text-cream/78">{text}</p>
-            </article>
-          ))}
-        </div>
+        <figure className="editorial-image min-h-[22rem] lg:min-h-[38rem]">
+          <img
+            src={IMAGES.classroom}
+            alt="Estudiantes en un aula como símbolo de práctica educativa, acompañamiento y comunidad"
+            className="h-full w-full object-cover object-center"
+          />
+        </figure>
       </div>
     </section>
   );
@@ -516,28 +518,27 @@ function Projects() {
 }
 
 function Store() {
-  const featured = storeItems.slice(0, 3);
-
   return (
     <section id="tienda" className="section-pad bg-clay">
-      <div className="mx-auto max-w-7xl">
-        <div className="grid gap-8 lg:grid-cols-[0.85fr_1.15fr]">
-          <div>
-            <div className="section-icon">
-              <ShoppingBag size={25} aria-hidden="true" />
-            </div>
-            <p className="section-kicker text-forest">Tienda docente</p>
-            <h2 className="section-title">Recursos para la práctica educativa.</h2>
-            <p className="mt-5 leading-8 text-earth">
-              Materiales, cuadernos, guías, tarjetas y herramientas para acompañar la práctica docente desde la conciencia, la ternura y el pensamiento crítico.
-            </p>
-            <ExternalLink className="btn-primary mt-7" href={LINKS.whatsapp} label="Solicitar información sobre tienda docente">
-              Solicitar información
-              <MessageCircle size={18} aria-hidden="true" />
-            </ExternalLink>
+      <div className="mx-auto grid max-w-7xl gap-8 lg:grid-cols-[0.85fr_1.15fr] lg:items-center">
+        <figure className="editorial-image min-h-[20rem] lg:min-h-[34rem]">
+          <img
+            src={IMAGES.store}
+            alt="Materiales y recursos docentes preparados con estética editorial cálida"
+            className="h-full w-full object-cover object-center"
+          />
+        </figure>
+        <div>
+          <div className="section-icon">
+            <ShoppingBag size={25} aria-hidden="true" />
           </div>
-          <div className="grid gap-4 md:grid-cols-3">
-            {featured.map(({ title, text, icon: Icon }) => (
+          <p className="section-kicker text-forest">Tienda docente</p>
+          <h2 className="section-title">Recursos para la práctica educativa.</h2>
+          <p className="mt-5 leading-8 text-earth">
+            Un espacio para reunir materiales, cuadernos, guías, tarjetas, recursos imprimibles y herramientas que acompañen la práctica docente desde la conciencia, la ternura y el pensamiento crítico.
+          </p>
+          <div className="mt-8 grid gap-4 md:grid-cols-3">
+            {storeItems.map(({ title, text, icon: Icon }) => (
               <article key={title} className="catalog-card">
                 <div className="flex items-start justify-between gap-3">
                   <Icon className="text-terracotta" size={27} aria-hidden="true" />
@@ -551,12 +552,10 @@ function Store() {
               </article>
             ))}
           </div>
-        </div>
-        <div id="recursos" className="mt-8 rounded-2xl border border-earth/15 bg-cream/55 p-5">
-          <p className="font-serif text-2xl text-forest">Más recursos en preparación</p>
-          <p className="mt-2 leading-7 text-earth">
-            Cartas de dilemas, guías para familias y materiales imprimibles se integrarán cuando estén listos para compartirse públicamente.
-          </p>
+          <ExternalLink className="btn-primary mt-7" href={LINKS.whatsapp} label="Solicitar información sobre tienda docente">
+            Solicitar información
+            <MessageCircle size={18} aria-hidden="true" />
+          </ExternalLink>
         </div>
       </div>
     </section>
@@ -564,38 +563,30 @@ function Store() {
 }
 
 function SchoolSection() {
-  const featured = schoolModules.slice(0, 3);
-
   return (
     <section id="escuela" className="section-pad bg-forest text-cream">
-      <div className="mx-auto max-w-7xl">
-        <div className="grid gap-9 lg:grid-cols-[0.9fr_1.1fr]">
-          <div>
-            <div className="flex h-14 w-14 items-center justify-center rounded-full bg-gold/18 text-gold">
-              <School size={26} aria-hidden="true" />
-            </div>
-            <p className="section-kicker mt-7 text-gold">Escuela Ecos de Emancipación</p>
-            <h2 className="section-title text-cream">Formación digital en preparación.</h2>
-            <p className="mt-5 leading-8 text-cream/78">
-              Una futura escuela digital para profundizar en pedagogía del sujeto, conciencia crítica, vida cotidiana, recursos docentes y formación para familias.
-            </p>
-            <div className="mt-7 rounded-2xl border border-gold/25 bg-cream/[0.06] p-5">
-              <div className="flex items-start gap-4">
-                <KeyRound className="mt-1 shrink-0 text-gold" size={22} aria-hidden="true" />
-                <p className="leading-7 text-cream/82">
-                  Área exclusiva en construcción. Más adelante contará con acceso privado a videos, PDFs y materiales.
-                </p>
-              </div>
-            </div>
-            <ExternalLink className="btn-gold mt-7" href={LINKS.whatsapp} label="Solicitar acceso a Escuela Ecos de Emancipación">
-              Solicitar acceso
-              <DoorOpen size={18} aria-hidden="true" />
-            </ExternalLink>
+      <div className="mx-auto grid max-w-7xl gap-9 lg:grid-cols-[0.98fr_1.02fr] lg:items-center">
+        <div>
+          <div className="flex h-14 w-14 items-center justify-center rounded-full bg-gold/18 text-gold">
+            <School size={26} aria-hidden="true" />
           </div>
-          <div className="grid gap-4 md:grid-cols-3">
-            {featured.map(({ title, subtitle, text, icon: Icon }) => (
-              <article key={title} className="rounded-2xl border border-cream/15 bg-cream/[0.06] p-6">
-                <Icon className="text-gold" size={28} aria-hidden="true" />
+          <p className="section-kicker mt-7 text-gold">Escuela Ecos de Emancipación</p>
+          <h2 className="section-title text-cream">Formación digital en preparación.</h2>
+          <p className="mt-5 leading-8 text-cream/78">
+            Una futura escuela digital para profundizar en pedagogía del sujeto, conciencia crítica, vida cotidiana, recursos docentes y formación para familias.
+          </p>
+          <div className="mt-7 rounded-2xl border border-gold/25 bg-cream/[0.06] p-5">
+            <div className="flex items-start gap-4">
+              <KeyRound className="mt-1 shrink-0 text-gold" size={22} aria-hidden="true" />
+              <p className="leading-7 text-cream/82">
+                Área exclusiva en construcción. Más adelante contará con acceso privado a videos, PDFs y materiales.
+              </p>
+            </div>
+          </div>
+          <div className="mt-8 grid gap-4 md:grid-cols-3">
+            {schoolRoutes.map(({ title, subtitle, text, icon: Icon }) => (
+              <article key={title} className="rounded-2xl border border-cream/15 bg-cream/[0.06] p-5">
+                <Icon className="text-gold" size={27} aria-hidden="true" />
                 <p className="mt-5 text-xs font-semibold uppercase tracking-[0.14em] text-gold">En preparación</p>
                 <h3 className="mt-3 font-serif text-2xl leading-tight">{title}</h3>
                 <p className="mt-1 font-semibold text-cream/85">{subtitle}</p>
@@ -603,7 +594,72 @@ function SchoolSection() {
               </article>
             ))}
           </div>
+          <ExternalLink className="btn-gold mt-7" href={LINKS.whatsapp} label="Solicitar acceso a Escuela Ecos de Emancipación">
+            Solicitar acceso
+            <DoorOpen size={18} aria-hidden="true" />
+          </ExternalLink>
         </div>
+        <figure className="editorial-image min-h-[20rem] lg:min-h-[38rem]">
+          <img
+            src={IMAGES.school}
+            alt="Escuela Ecos de Emancipación como espacio visual para formación digital futura"
+            className="h-full w-full object-cover object-center"
+          />
+        </figure>
+      </div>
+    </section>
+  );
+}
+
+function Families() {
+  return (
+    <section id="familias" className="section-pad">
+      <div className="mx-auto grid max-w-7xl gap-8 lg:grid-cols-[1.1fr_0.9fr] lg:items-center">
+        <figure className="editorial-image min-h-[20rem] lg:min-h-[34rem]">
+          <img
+            src={IMAGES.families}
+            alt="Familias acompañando procesos de aprendizaje en un entorno cálido"
+            className="h-full w-full object-cover object-center"
+          />
+        </figure>
+        <div>
+          <p className="section-kicker">Familias que acompañan</p>
+          <h2 className="section-title">Acompañar sin miedo también se aprende.</h2>
+          <p className="mt-5 leading-8 text-earth">
+            Recursos y reflexiones para acompañar el aprendizaje en casa sin miedo, sin culpa y con herramientas sencillas.
+          </p>
+          <a className="mt-7 inline-flex items-center gap-2 text-sm font-semibold text-forest" href="#empieza">
+            Ver caminos de entrada
+            <ArrowUpRight size={16} aria-hidden="true" />
+          </a>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+function Youth() {
+  return (
+    <section id="jovenes" className="section-pad bg-clay/45">
+      <div className="mx-auto grid max-w-7xl gap-8 lg:grid-cols-[0.9fr_1.1fr] lg:items-center">
+        <div>
+          <p className="section-kicker">Jóvenes con criterio</p>
+          <h2 className="section-title">Pensar la vida, la escuela y el propio lugar.</h2>
+          <p className="mt-5 leading-8 text-earth">
+            Ideas, preguntas y caminos para que las y los jóvenes piensen su vida, su escuela y su lugar en el mundo.
+          </p>
+          <a className="mt-7 inline-flex items-center gap-2 text-sm font-semibold text-forest" href="#empieza">
+            Empezar ruta joven
+            <ArrowUpRight size={16} aria-hidden="true" />
+          </a>
+        </div>
+        <figure className="editorial-image min-h-[20rem] lg:min-h-[34rem]">
+          <img
+            src={IMAGES.youth}
+            alt="Jóvenes reflexionando con criterio sobre su escuela y su lugar en el mundo"
+            className="h-full w-full object-cover object-center"
+          />
+        </figure>
       </div>
     </section>
   );

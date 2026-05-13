@@ -205,6 +205,34 @@ a:hover {
   box-shadow: 0 16px 48px rgba(21, 18, 14, 0.08);
 }
 
+.hero-image-card {
+  position: relative;
+  min-height: 20rem;
+  overflow: hidden;
+  border-radius: 1.35rem;
+  border: 1px solid rgba(244, 239, 231, 0.72);
+  background: rgba(244, 239, 231, 0.5);
+  box-shadow: 0 24px 70px rgba(21, 18, 14, 0.16);
+}
+
+.hero-image-card::after,
+.editorial-image::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: linear-gradient(180deg, rgba(21, 18, 14, 0) 58%, rgba(21, 18, 14, 0.16) 100%);
+}
+
+.editorial-image {
+  position: relative;
+  overflow: hidden;
+  border-radius: 1.35rem;
+  border: 1px solid rgba(111, 102, 92, 0.14);
+  background: rgba(244, 239, 231, 0.62);
+  box-shadow: 0 24px 70px rgba(21, 18, 14, 0.12);
+}
+
 .bg-field-pattern {
   background:
     linear-gradient(90deg, rgba(63, 95, 74, 0.12) 1px, transparent 1px),
@@ -216,6 +244,10 @@ a:hover {
 @media (max-width: 639px) {
   .section-title {
     font-size: clamp(2.2rem, 12vw, 3.65rem);
+  }
+
+  .hero-image-card {
+    min-height: 18rem;
   }
 
   .catalog-card,
