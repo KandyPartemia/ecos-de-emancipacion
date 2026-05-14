@@ -54,22 +54,18 @@ const IMAGES = {
 };
 
 const navItems = [
+  { label: 'Inicio', href: '#inicio' },
   { label: 'Manifiesto', href: '#manifiesto' },
+  { label: 'Resonancias', href: '#resonancias' },
   { label: 'Pilares', href: '#pilares' },
-  { label: 'Proyectos', href: '#proyectos' },
-  { label: 'Tienda', href: '#tienda' },
   { label: 'Escuela', href: '#escuela' },
-  { label: 'Empieza aquí', href: '#empieza' },
+  { label: 'Recursos', href: '#recursos' },
+  { label: 'Plenitud en Canto', href: '#plenitud-en-canto' },
+  { label: 'Tienda', href: '#tienda' },
+  { label: 'Empieza Aquí', href: '#empieza', cta: true },
 ];
 
-const mobileNavItems = [
-  { label: 'Quién soy', href: '#quien-soy' },
-  { label: 'Mapa Ecos', href: '#mapa-ecos' },
-  ...navItems,
-  { label: 'Familias', href: '#familias' },
-  { label: 'Jóvenes', href: '#jovenes' },
-  { label: 'Contacto', href: '#contacto' },
-];
+const mobileNavItems = navItems;
 
 const quickLinks = [
   { title: 'Quién soy', href: '#quien-soy', icon: UserRound },
@@ -225,6 +221,42 @@ const projects = [
   },
 ];
 
+const resonanceCards = [
+  {
+    title: 'Vida cotidiana',
+    text: 'Textos breves para mirar lo simple como territorio de conciencia.',
+    icon: Leaf,
+  },
+  {
+    title: 'Espiritualidad situada',
+    text: 'Palabra serena para cuidar el alma sin perder raíz ni pensamiento crítico.',
+    icon: Sparkles,
+  },
+  {
+    title: 'Educación y conciencia',
+    text: 'Reflexiones para docentes, familias y jóvenes que buscan otra forma de mirar.',
+    icon: BookOpenText,
+  },
+];
+
+const resourceCards = [
+  {
+    title: 'Guías y formatos',
+    text: 'Materiales editables y herramientas en preparación para acompañar procesos educativos.',
+    icon: FileText,
+  },
+  {
+    title: 'Lecturas y autores',
+    text: 'Rutas de lectura para profundizar en pedagogía, conciencia crítica y vida cotidiana.',
+    icon: BookOpen,
+  },
+  {
+    title: 'Audios y herramientas',
+    text: 'Recursos sonoros, preguntas y ejercicios para pensar, cuidar y seguir caminando.',
+    icon: NotebookTabs,
+  },
+];
+
 const storeItems = [
   {
     title: 'Cuaderno de resonancias docentes',
@@ -356,23 +388,29 @@ function SmartLink({ href, children, className, label, external = false }) {
 
 function App() {
   return (
-    <main className="min-h-screen overflow-hidden bg-cream text-ink">
-      <Hero />
-      <QuickExplore />
-      <About />
-      <UniverseMap />
-      <Manifesto />
-      <Pillars />
-      <Projects />
-      <Store />
-      <SchoolSection />
-      <Families />
-      <Youth />
-      <StartHere />
-      <Invitation />
-      <Footer />
-      <BackToTop />
-    </main>
+    <>
+      <Header />
+      <main className="min-h-screen overflow-hidden bg-cream pt-[4.75rem] text-ink sm:pt-[5rem]">
+        <Hero />
+        <QuickExplore />
+        <About />
+        <UniverseMap />
+        <Manifesto />
+        <Resonances />
+        <Pillars />
+        <Projects />
+        <Resources />
+        <PlenitudeSong />
+        <Store />
+        <SchoolSection />
+        <Families />
+        <Youth />
+        <StartHere />
+        <Invitation />
+        <Footer />
+        <BackToTop />
+      </main>
+    </>
   );
 }
 
@@ -380,38 +418,53 @@ function Header() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="mx-auto max-w-7xl border-b border-earth/20 pb-4 text-sm">
-      <div className="flex items-center justify-between gap-4">
-        <a className="font-serif text-xl text-forest" href="#inicio" aria-label="Ecos de Emancipación">
-          Ecos de Emancipación
-        </a>
-        <div className="hidden items-center gap-5 text-earth lg:flex">
-          {navItems.map((item) => (
-            <a key={item.href} href={item.href}>
-              {item.label}
+    <header className="fixed inset-x-0 top-0 z-50 border-b border-earth/15 bg-cream/92 px-4 py-3 shadow-[0_18px_55px_rgba(21,18,14,0.08)] backdrop-blur-xl sm:px-8 lg:px-10">
+      <nav className="mx-auto max-w-7xl text-sm" aria-label="Menú principal">
+        <div className="flex items-center justify-between gap-3">
+          <a className="shrink-0 font-serif text-xl leading-none text-forest sm:text-2xl" href="#inicio" aria-label="Ecos de Emancipación">
+            Ecos de Emancipación
+          </a>
+          <ul className="hidden items-center gap-1 text-earth xl:flex">
+            {navItems.map((item) => (
+              <li key={item.href}>
+                <a className={item.cta ? 'nav-cta' : 'nav-link'} href={item.href}>
+                  {item.label}
+                </a>
+              </li>
+            ))}
+          </ul>
+          <div className="flex items-center gap-2 xl:hidden">
+            <a className="nav-cta hidden min-[430px]:inline-flex" href="#empieza">
+              Empieza Aquí
             </a>
-          ))}
+            <button
+              type="button"
+              className="inline-flex h-11 w-11 items-center justify-center rounded-full border border-earth/25 text-forest"
+              aria-label={isOpen ? 'Cerrar menú' : 'Abrir menú'}
+              aria-expanded={isOpen}
+              onClick={() => setIsOpen((value) => !value)}
+            >
+              {isOpen ? <X size={20} aria-hidden="true" /> : <Menu size={20} aria-hidden="true" />}
+            </button>
+          </div>
         </div>
-        <button
-          type="button"
-          className="inline-flex h-11 w-11 items-center justify-center rounded-full border border-earth/25 text-forest lg:hidden"
-          aria-label={isOpen ? 'Cerrar menú' : 'Abrir menú'}
-          aria-expanded={isOpen}
-          onClick={() => setIsOpen((value) => !value)}
-        >
-          {isOpen ? <X size={20} aria-hidden="true" /> : <Menu size={20} aria-hidden="true" />}
-        </button>
-      </div>
-      {isOpen && (
-        <div className="mt-4 grid gap-2 rounded-2xl border border-earth/15 bg-cream/95 p-3 shadow-soft lg:hidden">
-          {mobileNavItems.map((item) => (
-            <a key={item.href} className="rounded-xl px-4 py-3 text-forest" href={item.href} onClick={() => setIsOpen(false)}>
-              {item.label}
-            </a>
-          ))}
-        </div>
-      )}
-    </nav>
+        {isOpen && (
+          <ul className="mt-3 grid max-h-[72vh] gap-1 overflow-y-auto rounded-2xl border border-earth/15 bg-cream/98 p-2 shadow-soft xl:hidden">
+            {mobileNavItems.map((item) => (
+              <li key={item.href}>
+                <a
+                  className={item.cta ? 'mobile-nav-cta' : 'mobile-nav-link'}
+                  href={item.href}
+                  onClick={() => setIsOpen(false)}
+                >
+                  {item.label}
+                </a>
+              </li>
+            ))}
+          </ul>
+        )}
+      </nav>
+    </header>
   );
 }
 
@@ -420,7 +473,6 @@ function Hero() {
     <section id="inicio" className="relative isolate px-5 py-5 sm:px-10 lg:px-14">
       <div className="absolute inset-0 -z-10 bg-[linear-gradient(145deg,#F4EFE7_0%,#E8DCCB_52%,#d7c4ab_100%)]" />
       <div className="absolute inset-x-0 bottom-0 -z-10 h-24 bg-gradient-to-t from-cream to-transparent" />
-      <Header />
 
       <div className="mx-auto grid max-w-7xl items-center gap-5 pb-6 pt-5 sm:gap-7 sm:pb-12 sm:pt-14 lg:min-h-[76vh] lg:grid-cols-[0.9fr_1.1fr] lg:gap-12">
         <div className="relative z-10">
@@ -661,6 +713,32 @@ function Manifesto() {
   );
 }
 
+function Resonances() {
+  return (
+    <section id="resonancias" className="section-pad bg-clay/45">
+      <div className="mx-auto grid max-w-7xl gap-8 lg:grid-cols-[0.75fr_1.25fr] lg:items-start">
+        <div>
+          <p className="section-kicker">Resonancias</p>
+          <h2 className="section-title">Palabra escrita para volver a mirar.</h2>
+          <p className="mt-5 max-w-2xl leading-8 text-earth">
+            Reflexiones escritas para mirar la vida cotidiana, la espiritualidad, la educación y la conciencia desde una palabra amorosa, crítica y emancipadora.
+          </p>
+        </div>
+        <div className="grid gap-3 sm:grid-cols-3">
+          {resonanceCards.map(({ title, text, icon: Icon }) => (
+            <article key={title} className="compact-card">
+              <Icon className="text-terracotta" size={25} aria-hidden="true" />
+              <h3 className="mt-5 font-serif text-2xl leading-tight text-forest">{title}</h3>
+              <p className="mt-3 leading-7 text-earth">{text}</p>
+              <span className="mt-5 inline-flex text-sm font-semibold text-terracotta">En preparación</span>
+            </article>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
+
 function Pillars() {
   return (
     <section id="pilares" className="section-pad bg-forest text-cream">
@@ -730,6 +808,60 @@ function Projects() {
         >
           {showAllProjects ? 'Ver menos proyectos' : 'Ver más proyectos'}
         </button>
+      </div>
+    </section>
+  );
+}
+
+function Resources() {
+  return (
+    <section id="recursos" className="section-pad bg-clay/55">
+      <div className="mx-auto max-w-7xl">
+        <div className="grid gap-8 lg:grid-cols-[0.9fr_1.1fr] lg:items-end">
+          <div>
+            <p className="section-kicker">Recursos</p>
+            <h2 className="section-title">Materiales para acompañar procesos.</h2>
+          </div>
+          <p className="leading-8 text-earth">
+            Materiales, guías, lecturas, audios y herramientas para acompañar procesos de conciencia, aprendizaje y transformación interior.
+          </p>
+        </div>
+        <div className="mt-8 grid gap-3 md:grid-cols-3">
+          {resourceCards.map(({ title, text, icon: Icon }) => (
+            <article key={title} className="compact-card">
+              <div className="flex h-12 w-12 items-center justify-center rounded-full bg-gold/20 text-terracotta">
+                <Icon size={23} aria-hidden="true" />
+              </div>
+              <h3 className="mt-5 font-serif text-2xl leading-tight text-forest">{title}</h3>
+              <p className="mt-3 leading-7 text-earth">{text}</p>
+            </article>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
+
+function PlenitudeSong() {
+  return (
+    <section id="plenitud-en-canto" className="section-pad">
+      <div className="mx-auto grid max-w-7xl gap-8 rounded-[1.35rem] border border-earth/15 bg-white/40 p-5 shadow-soft sm:p-8 lg:grid-cols-[0.72fr_1.28fr] lg:items-center">
+        <div className="flex min-h-56 items-center justify-center rounded-2xl bg-forest text-cream">
+          <div className="text-center">
+            <Play className="mx-auto text-gold" size={38} aria-hidden="true" />
+            <p className="mt-5 font-serif text-4xl leading-none">Plenitud en Canto</p>
+          </div>
+        </div>
+        <div>
+          <p className="section-kicker">Plenitud en Canto</p>
+          <h2 className="section-title">Música consciente para acompañar el alma.</h2>
+          <p className="mt-5 leading-8 text-earth">
+            Música consciente para elevar la vida cotidiana, acompañar el alma y sembrar esperanza a través de la palabra cantada.
+          </p>
+          <p className="mt-5 inline-flex rounded-full border border-gold/35 px-4 py-2 text-sm font-semibold text-forest">
+            Sección en preparación
+          </p>
+        </div>
       </div>
     </section>
   );

@@ -25,6 +25,7 @@
 
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 6rem;
 }
 
 body {
@@ -59,6 +60,11 @@ a {
 
 a:hover {
   text-decoration: underline;
+}
+
+section,
+footer {
+  scroll-margin-top: 6rem;
 }
 
 ::selection {
@@ -165,6 +171,87 @@ a:hover {
 
 .btn-gold:hover {
   background: #e8dccb;
+}
+
+.nav-link,
+.nav-cta,
+.mobile-nav-link,
+.mobile-nav-cta {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  transition: background-color 160ms ease, border-color 160ms ease, color 160ms ease;
+}
+
+.nav-link {
+  min-height: 2.4rem;
+  border-radius: 9999px;
+  padding: 0.55rem 0.72rem;
+  color: #4f463d;
+  font-size: 0.83rem;
+  font-weight: 700;
+}
+
+.nav-link:hover,
+.nav-link:focus-visible {
+  background: rgba(196, 154, 74, 0.14);
+  color: #3f5f4a;
+  outline: none;
+  text-decoration: none;
+}
+
+.nav-cta {
+  min-height: 2.45rem;
+  border-radius: 9999px;
+  background: #3f5f4a;
+  color: #f4efe7;
+  padding: 0.55rem 1rem;
+  font-size: 0.83rem;
+  font-weight: 800;
+  box-shadow: 0 12px 32px rgba(21, 18, 14, 0.12);
+}
+
+.nav-cta:hover,
+.nav-cta:focus-visible {
+  background: #15120e;
+  color: #f4efe7;
+  outline: none;
+  text-decoration: none;
+}
+
+.mobile-nav-link,
+.mobile-nav-cta {
+  width: 100%;
+  min-height: 2.75rem;
+  border-radius: 0.9rem;
+  padding: 0.75rem 1rem;
+  font-weight: 700;
+}
+
+.mobile-nav-link {
+  justify-content: flex-start;
+  color: #3f5f4a;
+}
+
+.mobile-nav-link:hover,
+.mobile-nav-link:focus-visible {
+  background: rgba(196, 154, 74, 0.16);
+  outline: none;
+  text-decoration: none;
+}
+
+.mobile-nav-cta {
+  margin-top: 0.2rem;
+  background: #3f5f4a;
+  color: #f4efe7;
+}
+
+.mobile-nav-cta:hover,
+.mobile-nav-cta:focus-visible {
+  background: #15120e;
+  outline: none;
+  text-decoration: none;
 }
 
 .catalog-card {
