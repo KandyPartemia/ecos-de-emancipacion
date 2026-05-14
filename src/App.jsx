@@ -82,6 +82,73 @@ const quickLinks = [
   { title: 'Contacto', href: '#contacto', icon: MessageCircle },
 ];
 
+const universeNodes = [
+  {
+    id: 'quien-soy',
+    title: 'Quién soy',
+    text: 'Identidad, trayectoria y visión pedagógica de la Maestra Kandy Partemia.',
+    href: '#quien-soy',
+    icon: UserRound,
+    position: 'left-[50%] top-[8%] -translate-x-1/2',
+  },
+  {
+    id: 'escuela',
+    title: 'Escuela Ecos',
+    text: 'Rutas formativas, videos, PDFs y materiales para profundizar en educación, conciencia y vida cotidiana.',
+    href: '#escuela',
+    icon: School,
+    position: 'left-[78%] top-[22%] -translate-x-1/2',
+  },
+  {
+    id: 'tienda',
+    title: 'Tienda docente',
+    text: 'Cuadernos, tarjetas, guías, mapas y recursos para acompañar la práctica educativa.',
+    href: '#tienda',
+    icon: ShoppingBag,
+    position: 'left-[84%] top-[55%] -translate-x-1/2',
+  },
+  {
+    id: 'comunidad',
+    title: 'Comunidad',
+    text: 'Redes, diálogo, resonancias y vínculos para construir pensamiento compartido.',
+    href: '#contacto',
+    icon: HandHeart,
+    position: 'left-[66%] top-[82%] -translate-x-1/2',
+  },
+  {
+    id: 'jovenes',
+    title: 'Jóvenes con criterio',
+    text: 'Preguntas, ideas y caminos para pensar la vida, la escuela y el lugar propio en el mundo.',
+    href: '#jovenes',
+    icon: Sparkles,
+    position: 'left-[34%] top-[82%] -translate-x-1/2',
+  },
+  {
+    id: 'familias',
+    title: 'Familias que acompañan',
+    text: 'Herramientas sencillas para acompañar el aprendizaje en casa sin miedo ni culpa.',
+    href: '#familias',
+    icon: Home,
+    position: 'left-[16%] top-[55%] -translate-x-1/2',
+  },
+  {
+    id: 'blog',
+    title: 'Blog / contenidos',
+    text: 'Reflexiones, artículos, materiales y publicaciones futuras.',
+    href: '#proyectos',
+    icon: BookOpenText,
+    position: 'left-[22%] top-[22%] -translate-x-1/2',
+  },
+  {
+    id: 'contacto',
+    title: 'Contacto',
+    text: 'Puentes para seguir la propuesta, escribir, compartir o solicitar información.',
+    href: '#contacto',
+    icon: MessageCircle,
+    position: 'left-[50%] top-[91%] -translate-x-1/2',
+  },
+];
+
 const manifestoPoints = [
   'La educación es un acto de conciencia, no solo transmisión de contenidos.',
   'La escuela puede ser territorio de posibilidad cuando escucha la vida cotidiana.',
@@ -411,20 +478,108 @@ function About() {
 }
 
 function UniverseMap() {
+  const [activeNodeId, setActiveNodeId] = useState(universeNodes[0].id);
+  const activeNode = universeNodes.find((node) => node.id === activeNodeId) ?? universeNodes[0];
+  const ActiveIcon = activeNode.icon;
+
   return (
     <section id="mapa-ecos" className="section-pad bg-clay/55">
       <div className="mx-auto max-w-7xl">
         <div className="mb-8 max-w-3xl">
           <p className="section-kicker">Mapa del universo Ecos</p>
           <h2 className="section-title">Una mirada de conjunto para entrar al proyecto.</h2>
+          <p className="mt-5 leading-8 text-earth">
+            Explora las áreas que sostienen el proyecto. Cada nodo abre una ruta para comprender, acompañar o participar.
+          </p>
         </div>
-        <figure className="overflow-hidden rounded-[1.5rem] border border-earth/15 bg-cream p-3 shadow-soft">
-          <img
-            src={IMAGES.map}
-            alt="Mapa visual del universo Ecos de Emancipación con rutas, conceptos y áreas del proyecto"
-            className="h-auto w-full rounded-[1rem]"
-          />
-        </figure>
+
+        <div className="hidden lg:grid lg:grid-cols-[1.2fr_0.8fr] lg:items-stretch lg:gap-6">
+          <div className="universe-map" aria-label="Mapa interactivo del universo Ecos de Emancipación">
+            <div className="universe-ring universe-ring-one" aria-hidden="true" />
+            <div className="universe-ring universe-ring-two" aria-hidden="true" />
+            <div className="universe-lines" aria-hidden="true" />
+            <div className="universe-center" aria-hidden="true">
+              <Leaf size={34} />
+              <span>Ecos de Emancipación</span>
+            </div>
+
+            {universeNodes.map(({ id, title, icon: Icon, position }) => {
+              const isActive = activeNodeId === id;
+              return (
+                <button
+                  key={id}
+                  type="button"
+                  className={`universe-node ${position} ${isActive ? 'is-active' : ''}`}
+                  aria-expanded={isActive}
+                  aria-controls="universe-node-detail"
+                  onClick={() => setActiveNodeId(id)}
+                >
+                  <Icon size={20} aria-hidden="true" />
+                  <span>{title}</span>
+                </button>
+              );
+            })}
+          </div>
+
+          <aside id="universe-node-detail" className="universe-detail">
+            <div className="flex h-14 w-14 items-center justify-center rounded-full bg-gold/20 text-terracotta">
+              <ActiveIcon size={26} aria-hidden="true" />
+            </div>
+            <p className="mt-8 text-xs font-semibold uppercase tracking-[0.16em] text-terracotta">Nodo activo</p>
+            <h3 className="mt-3 font-serif text-4xl leading-none text-forest">{activeNode.title}</h3>
+            <p className="mt-5 leading-8 text-earth">{activeNode.text}</p>
+            <a className="btn-primary mt-8" href={activeNode.href}>
+              Ir a la sección
+              <ArrowUpRight size={18} aria-hidden="true" />
+            </a>
+            <figure className="mt-8 overflow-hidden rounded-2xl border border-earth/15 bg-cream/70 p-2">
+              <img
+                src={IMAGES.map}
+                alt="Referencia visual original del mapa del universo Ecos"
+                className="h-auto w-full rounded-xl opacity-80"
+              />
+            </figure>
+          </aside>
+        </div>
+
+        <div className="grid gap-3 lg:hidden">
+          {universeNodes.map(({ id, title, text, href, icon: Icon }) => {
+            const isActive = activeNodeId === id;
+            return (
+              <article key={id} className="rounded-2xl border border-earth/15 bg-cream/80 shadow-soft">
+                <button
+                  type="button"
+                  className="flex w-full items-center justify-between gap-4 p-5 text-left text-forest"
+                  aria-expanded={isActive}
+                  aria-controls={`mobile-universe-${id}`}
+                  onClick={() => setActiveNodeId(isActive ? '' : id)}
+                >
+                  <span className="flex items-center gap-3 font-serif text-2xl leading-none">
+                    <Icon className="text-terracotta" size={23} aria-hidden="true" />
+                    {title}
+                  </span>
+                  <ArrowDown className={`shrink-0 transition ${isActive ? 'rotate-180' : ''}`} size={18} aria-hidden="true" />
+                </button>
+                {isActive && (
+                  <div id={`mobile-universe-${id}`} className="border-t border-earth/15 px-5 pb-5 pt-4">
+                    <p className="leading-7 text-earth">{text}</p>
+                    <a className="mt-5 inline-flex items-center gap-2 text-sm font-semibold text-forest" href={href}>
+                      Ir a la sección
+                      <ArrowUpRight size={16} aria-hidden="true" />
+                    </a>
+                  </div>
+                )}
+              </article>
+            );
+          })}
+          <figure className="mt-4 overflow-hidden rounded-2xl border border-earth/15 bg-cream p-2 shadow-soft">
+            <img
+              src={IMAGES.map}
+              alt="Referencia visual original del mapa del universo Ecos"
+              className="h-auto w-full rounded-xl"
+            />
+          </figure>
+        </div>
       </div>
     </section>
   );
