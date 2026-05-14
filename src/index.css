@@ -381,8 +381,33 @@ footer {
 }
 
 .sound-visual {
+  position: relative;
   min-height: 13rem;
   overflow: hidden;
+  background: rgba(244, 239, 231, 0.62);
+}
+
+.sound-video-label {
+  position: absolute;
+  left: 1rem;
+  top: 1rem;
+  z-index: 4;
+  border-radius: 9999px;
+  background: rgba(244, 239, 231, 0.88);
+  padding: 0.38rem 0.7rem;
+  color: #3f5f4a;
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.sound-iframe {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  min-height: 13rem;
+  border: 0;
 }
 
 .sound-placeholder {
@@ -697,6 +722,16 @@ footer {
   .sound-visual,
   .sound-placeholder {
     min-height: 11.5rem;
+  }
+
+  .sound-iframe {
+    min-height: 11.5rem;
+  }
+
+  .sound-video-label {
+    left: 0.75rem;
+    top: 0.75rem;
+    font-size: 0.66rem;
   }
 
   .sound-card .btn-secondary {

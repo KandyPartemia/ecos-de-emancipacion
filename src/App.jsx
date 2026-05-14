@@ -62,7 +62,7 @@ const navItems = [
   { label: 'Pilares', href: '#pilares' },
   { label: 'Escuela', href: '#escuela' },
   { label: 'Recursos', href: '#recursos' },
-  { label: 'Plenitud en Canto', href: '#plenitud-en-canto' },
+  { label: 'Universo musical', href: '#universo-musical' },
   { label: 'Tienda', href: '#tienda' },
   { label: 'Empieza Aquí', href: '#empieza', cta: true },
 ];
@@ -259,20 +259,22 @@ const resourceCards = [
   },
 ];
 
-const soundChannels = [
+const musicChannels = [
   {
     title: 'Plenitud en Canto',
     description: 'Música para acompañar el alma, la gratitud, la serenidad y la vida cotidiana.',
-    url: 'https://youtube.com/@plenitudencanto?si=gyY36w-0_hLRqvOv',
+    channelUrl: 'https://youtube.com/@plenitudencanto?si=gyY36w-0_hLRqvOv',
+    popularVideoUrl: '',
+    popularVideoId: '',
     tone: 'calm',
-    image: null,
   },
   {
     title: 'Resonancias de Libertad',
     description: 'Canciones con conciencia, memoria, dignidad y esperanza para pensar el mundo desde una sensibilidad emancipadora.',
-    url: 'https://youtube.com/@resonanciasdelibertad?si=Do7lwwBVMA6y3SZV',
+    channelUrl: 'https://youtube.com/@resonanciasdelibertad?si=Do7lwwBVMA6y3SZV',
+    popularVideoUrl: '',
+    popularVideoId: '',
     tone: 'freedom',
-    image: null,
   },
 ];
 
@@ -419,10 +421,9 @@ function App() {
         <Pillars />
         <Projects />
         <Resources />
-        <PlenitudeSong />
         <Store />
         <SchoolSection />
-        <SoundUniverse />
+        <MusicUniverse />
         <Families />
         <Youth />
         <StartHere />
@@ -862,31 +863,6 @@ function Resources() {
   );
 }
 
-function PlenitudeSong() {
-  return (
-    <section id="plenitud-en-canto" className="section-pad">
-      <div className="mx-auto grid max-w-7xl gap-8 rounded-[1.35rem] border border-earth/15 bg-white/40 p-5 shadow-soft sm:p-8 lg:grid-cols-[0.72fr_1.28fr] lg:items-center">
-        <div className="flex min-h-56 items-center justify-center rounded-2xl bg-forest text-cream">
-          <div className="text-center">
-            <Play className="mx-auto text-gold" size={38} aria-hidden="true" />
-            <p className="mt-5 font-serif text-4xl leading-none">Plenitud en Canto</p>
-          </div>
-        </div>
-        <div>
-          <p className="section-kicker">Plenitud en Canto</p>
-          <h2 className="section-title">Música consciente para acompañar el alma.</h2>
-          <p className="mt-5 leading-8 text-earth">
-            Música consciente para elevar la vida cotidiana, acompañar el alma y sembrar esperanza a través de la palabra cantada.
-          </p>
-          <p className="mt-5 inline-flex rounded-full border border-gold/35 px-4 py-2 text-sm font-semibold text-forest">
-            Sección en preparación
-          </p>
-        </div>
-      </div>
-    </section>
-  );
-}
-
 function Store() {
   return (
     <section id="tienda" className="section-pad bg-clay">
@@ -1040,35 +1016,43 @@ function SchoolSection() {
   );
 }
 
-function SoundUniverse() {
+function MusicUniverse() {
   const getSoundIcon = (tone) => (tone === 'freedom' ? Mic2 : Music);
 
   return (
-    <section id="universo-sonoro" className="section-pad bg-clay/45">
+    <section id="universo-musical" className="section-pad bg-clay/45">
       <div className="mx-auto max-w-7xl">
         <div className="grid gap-6 lg:grid-cols-[0.78fr_1.22fr] lg:items-end">
           <div>
-            <p className="section-kicker">Universo sonoro</p>
+            <p className="section-kicker">Universo musical</p>
             <h2 className="section-title">La palabra también canta.</h2>
           </div>
           <div>
             <p className="leading-8 text-earth">
-              Ecos de Emancipación también habita la música. Aquí convergen dos espacios sonoros que acompañan, inspiran y despiertan conciencia desde distintos matices: la interioridad, la esperanza, la memoria y la libertad.
+              Ecos de Emancipación también canta. En este universo musical convergen dos espacios que acompañan la vida interior, la memoria, la conciencia y la esperanza: Plenitud en Canto y Resonancias de Libertad.
             </p>
           </div>
         </div>
 
         <div className="mt-8 grid gap-4 lg:grid-cols-2">
-          {soundChannels.map(({ title, description, url, tone, image }) => {
+          {musicChannels.map(({ title, description, channelUrl, popularVideoId, tone }) => {
             const Icon = getSoundIcon(tone);
 
             return (
               <article key={title} className={`sound-card sound-card-${tone}`}>
-                <div className="sound-visual" aria-hidden="true">
-                  {image ? (
-                    <img src={image} alt="" className="h-full w-full object-cover" />
+                <div className="sound-visual">
+                  <p className="sound-video-label">Video destacado</p>
+                  {popularVideoId ? (
+                    <iframe
+                      className="sound-iframe"
+                      src={`https://www.youtube.com/embed/${popularVideoId}`}
+                      title={`Video destacado de ${title}`}
+                      loading="lazy"
+                      allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                      allowFullScreen
+                    />
                   ) : (
-                    <div className="sound-placeholder">
+                    <div className="sound-placeholder" aria-hidden="true">
                       <Icon size={42} aria-hidden="true" />
                       <span className="sound-wave sound-wave-one" />
                       <span className="sound-wave sound-wave-two" />
@@ -1080,7 +1064,7 @@ function SoundUniverse() {
                   <p className="text-xs font-bold uppercase tracking-[0.16em] text-terracotta">Canal sonoro</p>
                   <h3 className="mt-3 font-serif text-3xl leading-tight text-forest sm:text-4xl">{title}</h3>
                   <p className="mt-4 leading-7 text-earth">{description}</p>
-                  <ExternalLink className="btn-secondary mt-6 self-start" href={url} label={`Ir al canal ${title}`}>
+                  <ExternalLink className="btn-secondary mt-6 self-start" href={channelUrl} label={`Ir al canal ${title}`}>
                     Ir al canal
                     <ArrowUpRight size={17} aria-hidden="true" />
                   </ExternalLink>
