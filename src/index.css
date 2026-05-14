@@ -224,6 +224,36 @@ a:hover {
   box-shadow: 0 16px 48px rgba(21, 18, 14, 0.08);
 }
 
+.school-start-card {
+  display: flex;
+  min-height: 12rem;
+  flex-direction: column;
+  border-radius: 1rem;
+  border: 1px solid rgba(244, 239, 231, 0.16);
+  background: rgba(244, 239, 231, 0.08);
+  padding: 1.15rem;
+  color: #f4efe7;
+}
+
+.school-start-card svg {
+  color: #c49a4a;
+  flex-shrink: 0;
+}
+
+.school-start-card h4 {
+  margin-top: 1rem;
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-size: 1.55rem;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.school-start-card p {
+  margin-top: 0.75rem;
+  color: rgba(244, 239, 231, 0.78);
+  line-height: 1.65;
+}
+
 .hero-image-card {
   position: relative;
   min-height: 20rem;
@@ -458,6 +488,21 @@ a:hover {
   .catalog-card p,
   .compact-card p {
     line-height: 1.65;
+  }
+
+  .school-start-card {
+    min-height: auto;
+    padding: 1rem;
+  }
+
+  .school-start-card h4 {
+    margin-top: 0.85rem;
+    font-size: 1.35rem;
+  }
+
+  .school-start-card p {
+    margin-top: 0.55rem;
+    font-size: 0.95rem;
   }
 }
 

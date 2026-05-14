@@ -40,6 +40,8 @@ const LINKS = {
   whatsapp: 'https://wa.me/message/XRGTMKCKFGWZP1?src=qr',
 };
 
+const NEWSLETTER_FORM_URL = '#';
+
 const IMAGES = {
   hero: '/images/hero-kandy.webp',
   about: '/images/quien-soy-kandy.webp',
@@ -259,6 +261,45 @@ const schoolRoutes = [
     subtitle: 'Pensar la vida y la escuela',
     text: 'Preguntas, identidad, proyecto de vida y palabra propia.',
     icon: Sparkles,
+  },
+];
+
+const schoolStartModules = [
+  {
+    title: '¿Qué es Escuela Ecos?',
+    text: 'Una puerta de entrada para comprender la propuesta formativa de Ecos de Emancipación.',
+    icon: DoorOpen,
+  },
+  {
+    title: '¿Cómo funcionan las rutas?',
+    text: 'Rutas para docentes, familias y jóvenes, pensadas para aprender paso a paso y desde la vida cotidiana.',
+    icon: Map,
+  },
+  {
+    title: 'Microestructuras de conciencia',
+    text: 'Pequeñas formas de pensamiento, pregunta y acción para mirar la realidad con más claridad y esperanza.',
+    icon: Brain,
+  },
+  {
+    title: 'Recursos docentes',
+    text: 'Guías, formatos, preguntas, resonancias y materiales para acompañar la práctica educativa.',
+    icon: NotebookTabs,
+  },
+  {
+    title: 'Biblioteca viva',
+    text: 'Lecturas, artículos, videos y autores para profundizar en pedagogía, conciencia crítica y vida cotidiana.',
+    icon: BookOpenText,
+  },
+  {
+    title: 'Tienda docente',
+    text: 'Cuadernos, tarjetas, mapas y recursos pedagógicos en preparación.',
+    icon: ShoppingBag,
+  },
+  {
+    title: 'Solicitar información',
+    text: 'Un puente directo para preguntar por materiales, rutas, recursos o acompañamiento.',
+    icon: MessageCircle,
+    href: LINKS.whatsapp,
   },
 ];
 
@@ -760,7 +801,7 @@ function SchoolSection() {
               </p>
             </div>
           </div>
-          <div className="mt-6 grid gap-3 md:mt-8 md:grid-cols-3 md:gap-4">
+          <div id="escuela-rutas" className="mt-6 grid gap-3 md:mt-8 md:grid-cols-3 md:gap-4">
             {schoolRoutes.map(({ title, subtitle, text, icon: Icon }) => (
               <article key={title} className="rounded-2xl border border-cream/15 bg-cream/[0.06] p-4 sm:p-5">
                 <Icon className="text-gold" size={25} aria-hidden="true" />
@@ -783,6 +824,62 @@ function SchoolSection() {
             className="h-full w-full object-cover object-center"
           />
         </figure>
+      </div>
+
+      <div id="escuela-empieza" className="mx-auto mt-9 max-w-7xl rounded-[1.35rem] border border-cream/15 bg-cream/[0.07] p-4 shadow-soft sm:mt-12 sm:p-7">
+        <div className="grid gap-6 lg:grid-cols-[0.82fr_1.18fr] lg:items-end">
+          <div>
+            <p className="section-kicker text-gold">Empieza aquí · Escuela Ecos</p>
+            <h3 className="mt-3 font-serif text-3xl leading-tight text-cream sm:text-5xl">
+              Una orientación inicial para recorrer la escuela.
+            </h3>
+            <p className="mt-4 max-w-3xl leading-7 text-cream/78 sm:leading-8">
+              Escuela Ecos de Emancipación es un espacio en construcción para recorrer rutas de estudio, videos, materiales, artículos y recursos pedagógicos desde una mirada crítica, esperanzadora y situada.
+            </p>
+          </div>
+          <a className="btn-gold justify-self-start lg:justify-self-end" href="#escuela-rutas" aria-label="Comenzar recorrido por las rutas de Escuela Ecos">
+            Comenzar recorrido
+            <ArrowDown size={18} aria-hidden="true" />
+          </a>
+        </div>
+
+        <div className="mt-6 grid gap-3 sm:grid-cols-2 xl:grid-cols-4">
+          {schoolStartModules.map(({ title, text, icon: Icon, href }) => (
+            <article key={title} className="school-start-card">
+              <Icon size={23} aria-hidden="true" />
+              <h4>{title}</h4>
+              <p>{text}</p>
+              {href && (
+                <ExternalLink className="mt-4 inline-flex items-center gap-2 text-sm font-bold text-gold" href={href} label="Solicitar información por WhatsApp">
+                  Solicitar información
+                  <ArrowUpRight size={15} aria-hidden="true" />
+                </ExternalLink>
+              )}
+            </article>
+          ))}
+        </div>
+
+        <div className="mt-6 grid gap-4 rounded-2xl border border-gold/20 bg-ink/20 p-4 sm:p-5 lg:grid-cols-[1fr_auto] lg:items-center">
+          <div>
+            <p className="section-kicker text-gold">Carta trimestral de Ecos</p>
+            <h3 className="mt-3 font-serif text-3xl leading-tight text-cream">Una carta para pensar sin saturación.</h3>
+            <p className="mt-3 max-w-3xl leading-7 text-cream/78">
+              Recibe cada trimestre una carta de Ecos de Emancipación con reflexiones, recursos docentes, rutas de estudio y materiales para acompañar la conciencia crítica en la vida cotidiana.
+            </p>
+            <p className="mt-3 text-sm font-semibold text-gold">
+              Sin saturación. Solo una carta cada trimestre para pensar, cuidar y seguir caminando.
+            </p>
+          </div>
+          <div className="flex flex-col gap-2 lg:items-end">
+            <a className="btn-gold" href={NEWSLETTER_FORM_URL} aria-label="Quiero recibir la carta trimestral de Ecos">
+              Quiero recibir la carta trimestral
+              <ArrowUpRight size={18} aria-hidden="true" />
+            </a>
+            {NEWSLETTER_FORM_URL === '#' && (
+              <span className="text-sm font-semibold text-cream/70">Formulario en preparación</span>
+            )}
+          </div>
+        </div>
       </div>
     </section>
   );
