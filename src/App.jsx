@@ -40,7 +40,7 @@ const LINKS = {
   whatsapp: 'https://wa.me/message/XRGTMKCKFGWZP1?src=qr',
 };
 
-const NEWSLETTER_FORM_URL = '#';
+const NEWSLETTER_FORM_URL = 'https://forms.gle/gP9vBgFaYdUgZNXg7';
 
 const IMAGES = {
   hero: '/images/hero-kandy.webp',
@@ -871,13 +871,16 @@ function SchoolSection() {
             </p>
           </div>
           <div className="flex flex-col gap-2 lg:items-end">
-            <a className="btn-gold" href={NEWSLETTER_FORM_URL} aria-label="Quiero recibir la carta trimestral de Ecos">
+            <a
+              className="btn-gold"
+              href={NEWSLETTER_FORM_URL}
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Quiero recibir la carta trimestral de Ecos"
+            >
               Quiero recibir la carta trimestral
               <ArrowUpRight size={18} aria-hidden="true" />
             </a>
-            {NEWSLETTER_FORM_URL === '#' && (
-              <span className="text-sm font-semibold text-cream/70">Formulario en preparación</span>
-            )}
           </div>
         </div>
       </div>
