@@ -381,18 +381,18 @@ function Hero() {
       <div className="absolute inset-x-0 bottom-0 -z-10 h-24 bg-gradient-to-t from-cream to-transparent" />
       <Header />
 
-      <div className="mx-auto grid max-w-7xl items-center gap-7 pb-8 pt-7 sm:pb-12 sm:pt-14 lg:min-h-[76vh] lg:grid-cols-[0.9fr_1.1fr] lg:gap-12">
+      <div className="mx-auto grid max-w-7xl items-center gap-5 pb-6 pt-5 sm:gap-7 sm:pb-12 sm:pt-14 lg:min-h-[76vh] lg:grid-cols-[0.9fr_1.1fr] lg:gap-12">
         <div className="relative z-10">
-          <p className="mb-4 max-w-xl text-xs font-semibold uppercase tracking-[0.22em] text-terracotta sm:text-sm">
+          <p className="mb-3 max-w-xl text-xs font-semibold uppercase tracking-[0.22em] text-terracotta sm:mb-4 sm:text-sm">
             Educación y conciencia crítica
           </p>
           <h1 className="max-w-4xl font-serif text-4xl leading-[0.95] text-forest sm:text-6xl lg:text-8xl">
             Ecos de Emancipación
           </h1>
-          <p className="mt-5 max-w-2xl text-base leading-7 text-earth sm:text-xl sm:leading-8">
+          <p className="mt-4 max-w-2xl text-base leading-7 text-earth sm:mt-5 sm:text-xl sm:leading-8">
             Educación, conciencia crítica y esperanza para docentes, familias y jóvenes.
           </p>
-          <div className="mt-6 flex flex-col gap-3 min-[420px]:flex-row">
+          <div className="mt-5 flex flex-col gap-3 min-[420px]:flex-row sm:mt-6">
             <ExternalLink className="btn-primary" href={LINKS.youtube} label="Seguir en YouTube">
               <Youtube size={18} aria-hidden="true" />
               Seguir en YouTube
@@ -402,7 +402,7 @@ function Hero() {
               Escribirme por WhatsApp
             </ExternalLink>
           </div>
-          <a className="mt-7 inline-flex items-center gap-2 text-sm font-semibold text-forest" href="#explora">
+          <a className="mt-5 inline-flex items-center gap-2 text-sm font-semibold text-forest sm:mt-7" href="#explora">
             Explorar
             <ArrowDown size={17} aria-hidden="true" />
           </a>
@@ -425,7 +425,7 @@ function Hero() {
 
 function QuickExplore() {
   return (
-    <section id="explora" className="px-5 pb-12 pt-4 sm:px-10 lg:px-14 lg:pb-18">
+    <section id="explora" className="px-5 pb-9 pt-3 sm:px-10 sm:pb-12 sm:pt-4 lg:px-14 lg:pb-18">
       <div className="mx-auto max-w-7xl">
         <div className="mb-5 flex items-end justify-between gap-5">
           <div>
@@ -433,7 +433,7 @@ function QuickExplore() {
             <h2 className="mt-2 font-serif text-3xl leading-tight text-forest sm:text-4xl">Elige por dónde entrar.</h2>
           </div>
         </div>
-        <div className="grid grid-cols-2 gap-3 md:grid-cols-3 xl:grid-cols-9">
+        <div className="grid grid-cols-2 gap-2.5 md:grid-cols-3 md:gap-3 xl:grid-cols-9">
           {quickLinks.map(({ title, href, icon: Icon }) => (
             <a key={title} href={href} className="quick-card">
               <Icon size={22} aria-hidden="true" />
@@ -450,7 +450,7 @@ function About() {
   return (
     <section id="quien-soy" className="section-pad">
       <div className="mx-auto grid max-w-7xl gap-8 lg:grid-cols-[0.82fr_1.18fr] lg:items-center">
-        <figure className="editorial-image aspect-[4/5]">
+        <figure className="editorial-image aspect-[5/4] sm:aspect-[4/5]">
           <img
             src={IMAGES.about}
             alt="Retrato editorial de la Maestra Kandy Partemia González Torreblanca"
@@ -474,8 +474,12 @@ function About() {
 
 function UniverseMap() {
   const [activeNodeId, setActiveNodeId] = useState(universeNodes[0].id);
+  const [showFullMobileMap, setShowFullMobileMap] = useState(false);
   const activeNode = universeNodes.find((node) => node.id === activeNodeId) ?? universeNodes[0];
   const ActiveIcon = activeNode.icon;
+  const mobileUniverseNodes = showFullMobileMap
+    ? universeNodes
+    : universeNodes.filter(({ id }) => ['quien-soy', 'escuela', 'tienda', 'jovenes'].includes(id));
 
   return (
     <section id="mapa-ecos" className="section-pad bg-clay/55">
@@ -537,28 +541,28 @@ function UniverseMap() {
           </aside>
         </div>
 
-        <div className="grid gap-3 lg:hidden">
-          {universeNodes.map(({ id, title, text, href, icon: Icon }) => {
+        <div className="grid gap-2.5 lg:hidden">
+          {mobileUniverseNodes.map(({ id, title, text, href, icon: Icon }) => {
             const isActive = activeNodeId === id;
             return (
               <article key={id} className="rounded-2xl border border-earth/15 bg-cream/80 shadow-soft">
                 <button
                   type="button"
-                  className="flex w-full items-center justify-between gap-4 p-5 text-left text-forest"
+                  className="flex w-full items-center justify-between gap-3 p-4 text-left text-forest"
                   aria-expanded={isActive}
                   aria-controls={`mobile-universe-${id}`}
                   onClick={() => setActiveNodeId(isActive ? '' : id)}
                 >
-                  <span className="flex items-center gap-3 font-serif text-2xl leading-none">
-                    <Icon className="text-terracotta" size={23} aria-hidden="true" />
+                  <span className="flex items-center gap-3 font-serif text-xl font-semibold leading-none">
+                    <Icon className="text-terracotta" size={21} aria-hidden="true" />
                     {title}
                   </span>
                   <ArrowDown className={`shrink-0 transition ${isActive ? 'rotate-180' : ''}`} size={18} aria-hidden="true" />
                 </button>
                 {isActive && (
-                  <div id={`mobile-universe-${id}`} className="border-t border-earth/15 px-5 pb-5 pt-4">
+                  <div id={`mobile-universe-${id}`} className="border-t border-earth/15 px-4 pb-4 pt-3">
                     <p className="leading-7 text-earth">{text}</p>
-                    <a className="mt-5 inline-flex items-center gap-2 text-sm font-semibold text-forest" href={href}>
+                    <a className="mt-4 inline-flex items-center gap-2 text-sm font-semibold text-forest" href={href}>
                       Ir a la sección
                       <ArrowUpRight size={16} aria-hidden="true" />
                     </a>
@@ -567,6 +571,14 @@ function UniverseMap() {
               </article>
             );
           })}
+          <button
+            type="button"
+            className="mt-2 inline-flex min-h-11 items-center justify-center rounded-full border border-earth/20 bg-cream/80 px-5 py-2.5 text-sm font-bold text-forest shadow-soft"
+            aria-expanded={showFullMobileMap}
+            onClick={() => setShowFullMobileMap((value) => !value)}
+          >
+            {showFullMobileMap ? 'Ver menos nodos' : 'Ver mapa completo'}
+          </button>
           <figure className="mt-4 overflow-hidden rounded-2xl border border-earth/15 bg-cream p-2 shadow-soft">
             <img
               src={IMAGES.map}
@@ -615,12 +627,12 @@ function Pillars() {
         <div>
           <p className="section-kicker text-gold">Pilares</p>
           <h2 className="section-title text-cream">Raíces para sostener una pedagogía esperanzadora.</h2>
-          <div className="mt-9 grid gap-4 sm:grid-cols-2">
+          <div className="mt-7 grid gap-3 sm:mt-9 sm:grid-cols-2 sm:gap-4">
             {pillars.map(({ title, text, icon: Icon }) => (
-              <article key={title} className="rounded-2xl border border-cream/15 bg-cream/[0.06] p-6">
-                <Icon className="text-gold" size={28} aria-hidden="true" />
-                <h3 className="mt-6 font-serif text-2xl">{title}</h3>
-                <p className="mt-3 leading-7 text-cream/78">{text}</p>
+              <article key={title} className="rounded-2xl border border-cream/15 bg-cream/[0.06] p-4 sm:p-6">
+                <Icon className="text-gold" size={26} aria-hidden="true" />
+                <h3 className="mt-4 font-serif text-2xl sm:mt-6">{title}</h3>
+                <p className="mt-2 leading-7 text-cream/78 sm:mt-3">{text}</p>
               </article>
             ))}
           </div>
@@ -638,6 +650,8 @@ function Pillars() {
 }
 
 function Projects() {
+  const [showAllProjects, setShowAllProjects] = useState(false);
+
   return (
     <section id="proyectos" className="section-pad">
       <div className="mx-auto max-w-7xl">
@@ -651,9 +665,9 @@ function Projects() {
             <ArrowUpRight size={17} aria-hidden="true" />
           </ExternalLink>
         </div>
-        <div className="mt-10 grid gap-4 md:grid-cols-2 xl:grid-cols-3">
-          {projects.map(({ title, text, status, action, href, external, icon: Icon }) => (
-            <article key={title} className="compact-card">
+        <div className="mt-8 grid gap-3 md:mt-10 md:grid-cols-2 md:gap-4 xl:grid-cols-3">
+          {projects.map(({ title, text, status, action, href, external, icon: Icon }, index) => (
+            <article key={title} className={`compact-card ${index >= 3 && !showAllProjects ? 'hidden md:block' : ''}`}>
               <div className="flex items-start justify-between gap-4">
                 <Icon className="text-terracotta" size={25} aria-hidden="true" />
                 <span className="status-pill">{status}</span>
@@ -667,6 +681,14 @@ function Projects() {
             </article>
           ))}
         </div>
+        <button
+          type="button"
+          className="mx-auto mt-6 flex min-h-11 items-center justify-center rounded-full border border-earth/20 bg-cream/80 px-5 py-2.5 text-sm font-bold text-forest shadow-soft md:hidden"
+          aria-expanded={showAllProjects}
+          onClick={() => setShowAllProjects((value) => !value)}
+        >
+          {showAllProjects ? 'Ver menos proyectos' : 'Ver más proyectos'}
+        </button>
       </div>
     </section>
   );
@@ -692,7 +714,7 @@ function Store() {
           <p className="mt-5 leading-8 text-earth">
             Un espacio para reunir materiales, cuadernos, guías, tarjetas, recursos imprimibles y herramientas que acompañen la práctica docente desde la conciencia, la ternura y el pensamiento crítico.
           </p>
-          <div className="mt-8 grid gap-4 md:grid-cols-3">
+          <div className="mt-6 grid gap-3 md:mt-8 md:grid-cols-3 md:gap-4">
             {storeItems.map(({ title, text, icon: Icon }) => (
               <article key={title} className="catalog-card">
                 <div className="flex items-start justify-between gap-3">
@@ -707,7 +729,7 @@ function Store() {
               </article>
             ))}
           </div>
-          <ExternalLink className="btn-primary mt-7" href={LINKS.whatsapp} label="Solicitar información sobre tienda docente">
+          <ExternalLink className="btn-primary mt-6 sm:mt-7" href={LINKS.whatsapp} label="Solicitar información sobre tienda docente">
             Solicitar información
             <MessageCircle size={18} aria-hidden="true" />
           </ExternalLink>
@@ -730,7 +752,7 @@ function SchoolSection() {
           <p className="mt-5 leading-8 text-cream/78">
             Una futura escuela digital para profundizar en pedagogía del sujeto, conciencia crítica, vida cotidiana, recursos docentes y formación para familias.
           </p>
-          <div className="mt-7 rounded-2xl border border-gold/25 bg-cream/[0.06] p-5">
+          <div className="mt-6 rounded-2xl border border-gold/25 bg-cream/[0.06] p-4 sm:mt-7 sm:p-5">
             <div className="flex items-start gap-4">
               <KeyRound className="mt-1 shrink-0 text-gold" size={22} aria-hidden="true" />
               <p className="leading-7 text-cream/82">
@@ -738,14 +760,14 @@ function SchoolSection() {
               </p>
             </div>
           </div>
-          <div className="mt-8 grid gap-4 md:grid-cols-3">
+          <div className="mt-6 grid gap-3 md:mt-8 md:grid-cols-3 md:gap-4">
             {schoolRoutes.map(({ title, subtitle, text, icon: Icon }) => (
-              <article key={title} className="rounded-2xl border border-cream/15 bg-cream/[0.06] p-5">
-                <Icon className="text-gold" size={27} aria-hidden="true" />
-                <p className="mt-5 text-xs font-semibold uppercase tracking-[0.14em] text-gold">En preparación</p>
+              <article key={title} className="rounded-2xl border border-cream/15 bg-cream/[0.06] p-4 sm:p-5">
+                <Icon className="text-gold" size={25} aria-hidden="true" />
+                <p className="mt-4 text-xs font-semibold uppercase tracking-[0.14em] text-gold sm:mt-5">En preparación</p>
                 <h3 className="mt-3 font-serif text-2xl leading-tight">{title}</h3>
                 <p className="mt-1 font-semibold text-cream/85">{subtitle}</p>
-                <p className="mt-3 leading-7 text-cream/76">{text}</p>
+                <p className="mt-2 leading-7 text-cream/76 sm:mt-3">{text}</p>
               </article>
             ))}
           </div>
@@ -828,7 +850,7 @@ function StartHere() {
           <p className="section-kicker">Empieza aquí</p>
           <h2 className="section-title">Tres rutas para actuar hoy.</h2>
         </div>
-        <div className="mt-10 grid gap-4 lg:grid-cols-3">
+        <div className="mt-8 grid gap-3 lg:mt-10 lg:grid-cols-3 lg:gap-4">
           {paths.map(({ audience, title, text, action, href, icon: Icon }) => (
             <article key={audience} className="compact-card">
               <div className="flex items-center gap-4">
@@ -837,9 +859,9 @@ function StartHere() {
                 </div>
                 <span className="rounded-full bg-gold/20 px-4 py-2 text-sm font-semibold text-forest">{audience}</span>
               </div>
-              <h3 className="mt-6 font-serif text-3xl leading-tight text-forest">{title}</h3>
-              <p className="mt-4 leading-8 text-earth">{text}</p>
-              <a className="mt-6 inline-flex items-center gap-2 text-sm font-semibold text-forest" href={href}>
+              <h3 className="mt-5 font-serif text-2xl leading-tight text-forest sm:mt-6 sm:text-3xl">{title}</h3>
+              <p className="mt-3 leading-7 text-earth sm:mt-4 sm:leading-8">{text}</p>
+              <a className="mt-5 inline-flex items-center gap-2 text-sm font-semibold text-forest sm:mt-6" href={href}>
                 {action}
                 <ArrowUpRight size={16} aria-hidden="true" />
               </a>
@@ -853,16 +875,16 @@ function StartHere() {
 
 function Invitation() {
   return (
-    <section id="contacto" className="px-5 py-14 sm:px-10 sm:py-20 lg:px-14">
-      <div className="mx-auto max-w-7xl rounded-[1.6rem] bg-forest px-6 py-10 text-center text-cream shadow-soft sm:px-12 sm:py-14">
+    <section id="contacto" className="px-5 py-10 sm:px-10 sm:py-20 lg:px-14">
+      <div className="mx-auto max-w-7xl rounded-[1.4rem] bg-forest px-5 py-8 text-center text-cream shadow-soft sm:rounded-[1.6rem] sm:px-12 sm:py-14">
         <HandHeart className="mx-auto text-gold" size={38} aria-hidden="true" />
-        <h2 className="mx-auto mt-6 max-w-4xl font-serif text-4xl leading-tight sm:text-6xl">
+        <h2 className="mx-auto mt-5 max-w-4xl font-serif text-3xl leading-tight sm:mt-6 sm:text-6xl">
           Si esta propuesta resonó contigo, compártela.
         </h2>
-        <p className="mx-auto mt-6 max-w-2xl leading-8 text-cream/78">
+        <p className="mx-auto mt-4 max-w-2xl leading-7 text-cream/78 sm:mt-6 sm:leading-8">
           Compártela con una maestra, una madre, un padre o una persona joven que necesite recordar que la educación todavía puede ser territorio de esperanza.
         </p>
-        <div className="mt-8 flex flex-col justify-center gap-3 sm:flex-row">
+        <div className="mt-6 flex flex-col justify-center gap-3 sm:mt-8 sm:flex-row">
           <ExternalLink className="btn-light" href={LINKS.youtube} label="Seguir en YouTube">
             <Youtube size={18} aria-hidden="true" />
             Seguir en YouTube
@@ -890,8 +912,8 @@ function Footer() {
   ];
 
   return (
-    <footer className="border-t border-earth/20 px-5 py-10 sm:px-10 lg:px-14">
-      <div className="mx-auto flex max-w-7xl flex-col gap-7 text-sm text-earth lg:flex-row lg:items-center lg:justify-between">
+    <footer className="border-t border-earth/20 px-5 py-8 sm:px-10 sm:py-10 lg:px-14">
+      <div className="mx-auto flex max-w-7xl flex-col gap-5 text-sm text-earth lg:flex-row lg:items-center lg:justify-between">
         <div>
           <p className="font-serif text-xl text-forest">Ecos de Emancipación</p>
           <p className="mt-2 max-w-2xl">
