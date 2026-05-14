@@ -30,8 +30,27 @@ html {
 body {
   margin: 0;
   min-width: 320px;
-  background: #f4efe7;
+  background:
+    radial-gradient(circle at 12% 18%, rgba(196, 154, 74, 0.12), transparent 24rem),
+    radial-gradient(circle at 88% 8%, rgba(63, 95, 74, 0.1), transparent 22rem),
+    radial-gradient(circle at 72% 72%, rgba(168, 78, 50, 0.08), transparent 24rem),
+    linear-gradient(135deg, rgba(255, 255, 255, 0.34) 0 25%, transparent 25% 100%),
+    #f4efe7;
   font-family: "DM Sans", system-ui, sans-serif;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  opacity: 0.18;
+  background-image:
+    linear-gradient(rgba(21, 18, 14, 0.08) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(21, 18, 14, 0.06) 1px, transparent 1px);
+  background-size: 3px 3px, 5px 5px;
+  mix-blend-mode: multiply;
 }
 
 a {

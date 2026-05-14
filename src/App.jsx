@@ -7,7 +7,6 @@ import {
   BookOpenText,
   Brain,
   CircleDot,
-  Compass,
   DoorOpen,
   Eye,
   Facebook,
@@ -149,13 +148,6 @@ const universeNodes = [
   },
 ];
 
-const manifestoPoints = [
-  'La educación es un acto de conciencia, no solo transmisión de contenidos.',
-  'La escuela puede ser territorio de posibilidad cuando escucha la vida cotidiana.',
-  'El sujeto está en el centro: piensa, recuerda, decide y transforma.',
-  'La esperanza se vuelve real cuando se comparte en comunidad.',
-];
-
 const pillars = [
   {
     title: 'Conciencia crítica',
@@ -190,14 +182,6 @@ const projects = [
     icon: Play,
   },
   {
-    title: 'Pedagogía del Sujeto',
-    text: 'Propuesta para mirar a cada persona como conciencia, historia y posibilidad.',
-    status: 'En construcción',
-    action: 'Leer propuesta',
-    href: '#manifiesto',
-    icon: UserRound,
-  },
-  {
     title: 'Recursos para docentes',
     text: 'Cuadernos, preguntas y materiales para el aula como territorio vivo.',
     status: 'En construcción',
@@ -214,20 +198,28 @@ const projects = [
     icon: Home,
   },
   {
-    title: 'Filosofía para pensar la vida',
-    text: 'Preguntas para mirar la escuela, la dignidad y el mundo cotidiano.',
-    status: 'Activo',
-    action: 'Leer propuesta',
-    href: '#pilares',
-    icon: Compass,
+    title: 'Jóvenes con criterio',
+    text: 'Preguntas e ideas para pensar la vida, la escuela y el lugar propio.',
+    status: 'En construcción',
+    action: 'Ver ruta',
+    href: '#jovenes',
+    icon: Sparkles,
   },
   {
-    title: 'Producciones poéticas y musicales',
+    title: 'Producción poética y musical',
     text: 'Palabra sensible para nombrar memoria, territorio y transformación.',
     status: 'Próximamente',
     action: 'Próximamente',
     href: '#proyectos',
     icon: Feather,
+  },
+  {
+    title: 'Blog / contenidos',
+    text: 'Reflexiones, artículos, materiales y publicaciones futuras.',
+    status: 'En construcción',
+    action: 'Leer propuesta',
+    href: '#pilares',
+    icon: FileText,
   },
 ];
 
@@ -471,6 +463,9 @@ function About() {
           <p className="mt-6 max-w-3xl leading-8 text-earth">
             Soy Kandy Partemia González Torreblanca, maestra de telesecundaria, escritora y creadora de Ecos de Emancipación. Desde el aula, la comunidad y la vida cotidiana, construyo una propuesta para acompañar a docentes, familias y jóvenes en el desarrollo de conciencia, dignidad y esperanza.
           </p>
+          <p className="mt-8 border-l-4 border-gold pl-5 font-serif text-3xl leading-tight text-terracotta">
+            Educar también es abrir caminos de conciencia.
+          </p>
         </div>
       </div>
     </section>
@@ -596,12 +591,17 @@ function Manifesto() {
           <p className="section-kicker">Manifiesto breve</p>
           <h2 className="section-title">Educar es escuchar lo que el territorio ya sabe.</h2>
         </div>
-        <div className="grid gap-3 sm:grid-cols-2">
-          {manifestoPoints.map((item) => (
-            <p key={item} className="rounded-2xl bg-white/50 p-5 leading-7 text-earth shadow-soft">
-              {item}
-            </p>
-          ))}
+        <div className="rounded-[1.35rem] border border-earth/15 bg-white/50 p-6 shadow-soft sm:p-8">
+          <p className="font-serif text-3xl leading-tight text-forest sm:text-4xl">
+            Ecos de Emancipación nace de una convicción: la educación no solo transmite contenidos; también puede despertar conciencia, dignificar la vida cotidiana y abrir caminos de esperanza compartida.
+          </p>
+          <div className="mt-7 grid gap-3 sm:grid-cols-3">
+            {['Conciencia', 'Vida cotidiana', 'Esperanza compartida'].map((item) => (
+              <span key={item} className="rounded-full border border-gold/30 px-4 py-3 text-center text-sm font-semibold text-earth">
+                {item}
+              </span>
+            ))}
+          </div>
         </div>
       </div>
     </section>
@@ -867,9 +867,9 @@ function Invitation() {
             <Youtube size={18} aria-hidden="true" />
             Seguir en YouTube
           </ExternalLink>
-          <ExternalLink className="btn-gold" href={LINKS.whatsapp} label="Solicitar información">
+          <ExternalLink className="btn-gold" href={LINKS.whatsapp} label="Escribirme por WhatsApp">
             <MessageCircle size={18} aria-hidden="true" />
-            Solicitar información
+            Escribirme por WhatsApp
           </ExternalLink>
           <ExternalLink className="btn-light" href={LINKS.instagram} label="Ver Instagram">
             <Instagram size={18} aria-hidden="true" />
