@@ -73,12 +73,36 @@ footer {
 }
 
 .section-kicker {
-  font-size: 0.78rem;
-  font-weight: 700;
-  letter-spacing: 0.22em;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.72rem;
+  margin-bottom: 0.35rem;
+  font-size: 0.92rem;
+  font-weight: 800;
+  letter-spacing: 0.16em;
   text-transform: uppercase;
-  color: #a84e32;
+  color: #8f3f2a;
   font-family: "IBM Plex Mono", ui-monospace, monospace;
+  line-height: 1.1;
+}
+
+.section-kicker::before {
+  content: "";
+  display: inline-block;
+  width: 2.35rem;
+  height: 2px;
+  border-radius: 9999px;
+  background: currentColor;
+  opacity: 0.72;
+}
+
+.section-kicker.text-gold {
+  color: #d8b566;
+  text-shadow: 0 1px 18px rgba(196, 154, 74, 0.18);
+}
+
+.section-kicker.text-forest {
+  color: #2f4f3b;
 }
 
 .section-pad {
@@ -495,8 +519,14 @@ footer {
   }
 
   .section-kicker {
-    font-size: 0.72rem;
-    letter-spacing: 0.18em;
+    gap: 0.55rem;
+    margin-bottom: 0.15rem;
+    font-size: 0.78rem;
+    letter-spacing: 0.14em;
+  }
+
+  .section-kicker::before {
+    width: 1.55rem;
   }
 
   .section-title {
