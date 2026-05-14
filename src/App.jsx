@@ -21,6 +21,8 @@ import {
   Map,
   Menu,
   MessageCircle,
+  Mic2,
+  Music,
   NotebookTabs,
   Play,
   School,
@@ -257,6 +259,23 @@ const resourceCards = [
   },
 ];
 
+const soundChannels = [
+  {
+    title: 'Plenitud en Canto',
+    description: 'Música para acompañar el alma, la gratitud, la serenidad y la vida cotidiana.',
+    url: 'https://youtube.com/@plenitudencanto?si=gyY36w-0_hLRqvOv',
+    tone: 'calm',
+    image: null,
+  },
+  {
+    title: 'Resonancias de Libertad',
+    description: 'Canciones con conciencia, memoria, dignidad y esperanza para pensar el mundo desde una sensibilidad emancipadora.',
+    url: 'https://youtube.com/@resonanciasdelibertad?si=Do7lwwBVMA6y3SZV',
+    tone: 'freedom',
+    image: null,
+  },
+];
+
 const storeItems = [
   {
     title: 'Cuaderno de resonancias docentes',
@@ -403,6 +422,7 @@ function App() {
         <PlenitudeSong />
         <Store />
         <SchoolSection />
+        <SoundUniverse />
         <Families />
         <Youth />
         <StartHere />
@@ -1015,6 +1035,64 @@ function SchoolSection() {
             </a>
           </div>
         </div>
+      </div>
+    </section>
+  );
+}
+
+function SoundUniverse() {
+  const getSoundIcon = (tone) => (tone === 'freedom' ? Mic2 : Music);
+
+  return (
+    <section id="universo-sonoro" className="section-pad bg-clay/45">
+      <div className="mx-auto max-w-7xl">
+        <div className="grid gap-6 lg:grid-cols-[0.78fr_1.22fr] lg:items-end">
+          <div>
+            <p className="section-kicker">Universo sonoro</p>
+            <h2 className="section-title">La palabra también canta.</h2>
+          </div>
+          <div>
+            <p className="leading-8 text-earth">
+              Ecos de Emancipación también habita la música. Aquí convergen dos espacios sonoros que acompañan, inspiran y despiertan conciencia desde distintos matices: la interioridad, la esperanza, la memoria y la libertad.
+            </p>
+          </div>
+        </div>
+
+        <div className="mt-8 grid gap-4 lg:grid-cols-2">
+          {soundChannels.map(({ title, description, url, tone, image }) => {
+            const Icon = getSoundIcon(tone);
+
+            return (
+              <article key={title} className={`sound-card sound-card-${tone}`}>
+                <div className="sound-visual" aria-hidden="true">
+                  {image ? (
+                    <img src={image} alt="" className="h-full w-full object-cover" />
+                  ) : (
+                    <div className="sound-placeholder">
+                      <Icon size={42} aria-hidden="true" />
+                      <span className="sound-wave sound-wave-one" />
+                      <span className="sound-wave sound-wave-two" />
+                      <span className="sound-wave sound-wave-three" />
+                    </div>
+                  )}
+                </div>
+                <div className="flex flex-1 flex-col p-5 sm:p-6">
+                  <p className="text-xs font-bold uppercase tracking-[0.16em] text-terracotta">Canal sonoro</p>
+                  <h3 className="mt-3 font-serif text-3xl leading-tight text-forest sm:text-4xl">{title}</h3>
+                  <p className="mt-4 leading-7 text-earth">{description}</p>
+                  <ExternalLink className="btn-secondary mt-6 self-start" href={url} label={`Ir al canal ${title}`}>
+                    Ir al canal
+                    <ArrowUpRight size={17} aria-hidden="true" />
+                  </ExternalLink>
+                </div>
+              </article>
+            );
+          })}
+        </div>
+
+        <p className="mx-auto mt-8 max-w-2xl text-center font-serif text-2xl leading-tight text-terracotta">
+          La palabra también canta cuando busca tocar la conciencia.
+        </p>
       </div>
     </section>
   );
