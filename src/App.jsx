@@ -150,7 +150,7 @@ const universeNodes = [
     id: 'empieza',
     title: 'Empieza Aquí',
     text: 'Ruta inicial para quienes llegan por primera vez y quieren comprender el corazón del proyecto.',
-    href: '#empieza',
+    href: '#empieza-aqui',
     icon: DoorOpen,
     position: 'left-[25%] top-[16%] -translate-x-1/2',
   },
@@ -624,20 +624,28 @@ function UniverseMap() {
               <span>Ecos de Emancipación</span>
             </div>
 
-            {universeNodes.map(({ id, title, icon: Icon, position }) => {
+            {universeNodes.map(({ id, title, href, icon: Icon, position }) => {
               const isActive = activeNodeId === id;
               return (
-                <button
+                <a
                   key={id}
-                  type="button"
+                  href={href}
                   className={`universe-node ${position} ${isActive ? 'is-active' : ''}`}
-                  aria-expanded={isActive}
+                  aria-label={`Ir a ${title}`}
                   aria-controls="universe-node-detail"
+                  onMouseEnter={() => setActiveNodeId(id)}
+                  onFocus={() => setActiveNodeId(id)}
                   onClick={() => setActiveNodeId(id)}
+                  onKeyDown={(event) => {
+                    if (event.key === ' ') {
+                      event.preventDefault();
+                      event.currentTarget.click();
+                    }
+                  }}
                 >
                   <Icon size={20} aria-hidden="true" />
                   <span>{title}</span>
-                </button>
+                </a>
               );
             })}
           </div>
@@ -1147,7 +1155,7 @@ function Youth() {
 function StartHere() {
   return (
     <section id="empieza" className="section-pad">
-      <div className="mx-auto max-w-7xl">
+      <div id="empieza-aqui" className="mx-auto max-w-7xl scroll-mt-24">
         <div className="max-w-3xl">
           <p className="section-kicker">Empieza aquí</p>
           <h2 className="section-title">Tres rutas para actuar hoy.</h2>
