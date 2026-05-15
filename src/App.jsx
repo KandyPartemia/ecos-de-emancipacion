@@ -7,6 +7,7 @@ import {
   BookOpenText,
   Brain,
   CircleDot,
+  Compass,
   DoorOpen,
   Eye,
   Facebook,
@@ -437,6 +438,7 @@ function App() {
         <StartHere />
         <Invitation />
         <Footer />
+        <BackToMap />
         <BackToTop />
       </main>
     </>
@@ -604,7 +606,7 @@ function UniverseMap() {
     : universeNodes.filter(({ id }) => ['inicio', 'manifiesto', 'resonancias', 'escuela'].includes(id));
 
   return (
-    <section id="mapa-ecos" className="section-pad bg-clay/55">
+    <section id="mapa-universo" className="section-pad bg-clay/55">
       <div className="mx-auto max-w-7xl">
         <div className="mb-8 max-w-3xl">
           <p className="section-kicker">Mapa del universo Ecos</p>
@@ -650,24 +652,15 @@ function UniverseMap() {
             })}
           </div>
 
-          <aside id="universe-node-detail" className="universe-detail">
-            <div className="flex h-14 w-14 items-center justify-center rounded-full bg-gold/20 text-terracotta">
-              <ActiveIcon size={26} aria-hidden="true" />
+          <aside id="universe-node-detail" className={`universe-detail universe-visual-panel universe-visual-${activeNode.id}`} aria-live="polite">
+            <div className="universe-visual-art" aria-hidden="true">
+              <span className="universe-visual-ring universe-visual-ring-one" />
+              <span className="universe-visual-ring universe-visual-ring-two" />
+              <ActiveIcon size={76} strokeWidth={1.35} />
             </div>
-            <p className="mt-8 text-xs font-semibold uppercase tracking-[0.16em] text-terracotta">Nodo activo</p>
+            <p className="mt-8 text-xs font-semibold uppercase tracking-[0.16em] text-terracotta">Sección activa</p>
             <h3 className="mt-3 font-serif text-4xl leading-none text-forest">{activeNode.title}</h3>
             <p className="mt-5 leading-8 text-earth">{activeNode.text}</p>
-            <a className="btn-primary mt-8" href={activeNode.href}>
-              Ir a la sección
-              <ArrowUpRight size={18} aria-hidden="true" />
-            </a>
-            <figure className="mt-8 overflow-hidden rounded-2xl border border-earth/15 bg-cream/70 p-2">
-              <img
-                src={IMAGES.map}
-                alt="Mapa del universo Ecos de Emancipación con las secciones Inicio, Manifiesto, Resonancias, Pilares, Escuela, Recursos, Universo musical, Tienda y Empieza Aquí"
-                className="h-auto w-full rounded-xl opacity-80"
-              />
-            </figure>
           </aside>
         </div>
 
@@ -1240,6 +1233,19 @@ function Footer() {
         </div>
       </div>
     </footer>
+  );
+}
+
+function BackToMap() {
+  return (
+    <a
+      href="#mapa-universo"
+      aria-label="Volver al mapa del universo Ecos"
+      title="Volver al mapa del universo Ecos"
+      className="map-floating-button"
+    >
+      <Compass size={20} aria-hidden="true" />
+    </a>
   );
 }
 

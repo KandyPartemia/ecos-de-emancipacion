@@ -604,6 +604,102 @@ footer {
   box-shadow: 0 24px 70px rgba(21, 18, 14, 0.1);
 }
 
+.universe-visual-panel {
+  position: relative;
+  overflow: hidden;
+  background:
+    radial-gradient(circle at 78% 18%, rgba(196, 154, 74, 0.24), transparent 10rem),
+    radial-gradient(circle at 18% 82%, rgba(63, 95, 74, 0.12), transparent 12rem),
+    rgba(244, 239, 231, 0.82);
+}
+
+.universe-visual-art {
+  position: relative;
+  display: flex;
+  min-height: 16rem;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  border-radius: 1.25rem;
+  border: 1px solid rgba(196, 154, 74, 0.24);
+  background:
+    linear-gradient(135deg, rgba(244, 239, 231, 0.88), rgba(232, 220, 203, 0.58)),
+    #f4efe7;
+  color: #3f5f4a;
+}
+
+.universe-visual-art svg {
+  position: relative;
+  z-index: 2;
+  color: currentColor;
+}
+
+.universe-visual-ring {
+  position: absolute;
+  border: 1px solid currentColor;
+  border-radius: 9999px;
+  opacity: 0.16;
+}
+
+.universe-visual-ring-one {
+  width: 9rem;
+  height: 9rem;
+}
+
+.universe-visual-ring-two {
+  width: 14rem;
+  height: 14rem;
+}
+
+.universe-visual-manifiesto .universe-visual-art,
+.universe-visual-tienda .universe-visual-art {
+  color: #8f3f2a;
+}
+
+.universe-visual-resonancias .universe-visual-art,
+.universe-visual-universo-musical .universe-visual-art {
+  background:
+    radial-gradient(circle at center, rgba(196, 154, 74, 0.18), transparent 9rem),
+    linear-gradient(135deg, rgba(63, 95, 74, 0.96), rgba(43, 33, 24, 0.86));
+  color: #f4efe7;
+}
+
+.universe-visual-pilares .universe-visual-art,
+.universe-visual-escuela .universe-visual-art {
+  background:
+    radial-gradient(circle at 52% 35%, rgba(244, 239, 231, 0.2), transparent 9rem),
+    linear-gradient(135deg, rgba(63, 95, 74, 0.9), rgba(196, 154, 74, 0.42));
+  color: #f4efe7;
+}
+
+.map-floating-button {
+  position: fixed;
+  left: 1.25rem;
+  bottom: 1.25rem;
+  z-index: 50;
+  display: inline-flex;
+  width: 3rem;
+  height: 3rem;
+  align-items: center;
+  justify-content: center;
+  border-radius: 9999px;
+  border: 1px solid rgba(196, 154, 74, 0.45);
+  background: #3f5f4a;
+  color: #f4efe7;
+  box-shadow: 0 18px 45px rgba(21, 18, 14, 0.18);
+  text-decoration: none;
+  transition: transform 160ms ease, background-color 160ms ease, color 160ms ease;
+}
+
+.map-floating-button:hover,
+.map-floating-button:focus-visible {
+  background: #15120e;
+  color: #f4efe7;
+  outline: none;
+  text-decoration: none;
+  transform: translateY(-0.12rem);
+}
+
 .bg-field-pattern {
   background:
     linear-gradient(90deg, rgba(63, 95, 74, 0.12) 1px, transparent 1px),
@@ -738,6 +834,13 @@ footer {
 
   .sound-card .btn-secondary {
     width: 100%;
+  }
+
+  .map-floating-button {
+    left: 0.85rem;
+    bottom: 0.85rem;
+    width: 2.75rem;
+    height: 2.75rem;
   }
 }
 
