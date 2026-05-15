@@ -52,7 +52,7 @@ const IMAGES = {
   school: '/images/escuela-ecos.webp',
   families: '/images/familias-acompanan.webp',
   youth: '/images/jovenes-criterio.webp',
-  map: '/images/06_mapa-universo-ecos.png',
+  map: '/images/06_mapa-universo-ecos_v2_2x.webp',
 };
 
 const navItems = [
@@ -70,81 +70,89 @@ const navItems = [
 const mobileNavItems = navItems;
 
 const quickLinks = [
-  { title: 'Quién soy', href: '#quien-soy', icon: UserRound },
-  { title: 'Mapa Ecos', href: '#mapa-ecos', icon: Map },
+  { title: 'Inicio', href: '#inicio', icon: Home },
+  { title: 'Manifiesto', href: '#manifiesto', icon: Leaf },
+  { title: 'Resonancias', href: '#resonancias', icon: BookOpenText },
   { title: 'Pilares', href: '#pilares', icon: CircleDot },
-  { title: 'Proyectos', href: '#proyectos', icon: Play },
-  { title: 'Tienda docente', href: '#tienda', icon: ShoppingBag },
-  { title: 'Escuela Ecos', href: '#escuela', icon: School },
-  { title: 'Familias', href: '#familias', icon: Home },
-  { title: 'Jóvenes', href: '#jovenes', icon: Sparkles },
-  { title: 'Contacto', href: '#contacto', icon: MessageCircle },
+  { title: 'Escuela', href: '#escuela', icon: School },
+  { title: 'Recursos', href: '#recursos', icon: NotebookTabs },
+  { title: 'Universo musical', href: '#universo-musical', icon: Music },
+  { title: 'Tienda', href: '#tienda', icon: ShoppingBag },
+  { title: 'Empieza Aquí', href: '#empieza', icon: DoorOpen },
 ];
 
 const universeNodes = [
   {
-    id: 'quien-soy',
-    title: 'Quién soy',
-    text: 'Identidad, trayectoria y visión pedagógica de la Maestra Kandy Partemia.',
-    href: '#quien-soy',
-    icon: UserRound,
+    id: 'inicio',
+    title: 'Inicio',
+    text: 'Entrada general al universo Ecos de Emancipación.',
+    href: '#inicio',
+    icon: Home,
     position: 'left-[50%] top-[8%] -translate-x-1/2',
   },
   {
+    id: 'manifiesto',
+    title: 'Manifiesto',
+    text: 'Declaración ética, espiritual y pedagógica del proyecto.',
+    href: '#manifiesto',
+    icon: Leaf,
+    position: 'left-[75%] top-[16%] -translate-x-1/2',
+  },
+  {
+    id: 'resonancias',
+    title: 'Resonancias',
+    text: 'Reflexiones, relatos, artículos poéticos, textos pedagógicos y meditaciones escritas para despertar conciencia.',
+    href: '#resonancias',
+    icon: BookOpenText,
+    position: 'left-[88%] top-[42%] -translate-x-1/2',
+  },
+  {
+    id: 'pilares',
+    title: 'Pilares',
+    text: 'Fundamentos del proyecto: conciencia, emancipación, espiritualidad, pedagogía, amor, justicia y pensamiento crítico.',
+    href: '#pilares',
+    icon: CircleDot,
+    position: 'left-[82%] top-[69%] -translate-x-1/2',
+  },
+  {
     id: 'escuela',
-    title: 'Escuela Ecos',
-    text: 'Rutas formativas, videos, PDFs y materiales para profundizar en educación, conciencia y vida cotidiana.',
+    title: 'Escuela',
+    text: 'Talleres, cursos, rutas formativas, comunidad de aprendizaje y propuestas pedagógicas.',
     href: '#escuela',
     icon: School,
-    position: 'left-[78%] top-[22%] -translate-x-1/2',
+    position: 'left-[62%] top-[88%] -translate-x-1/2',
+  },
+  {
+    id: 'recursos',
+    title: 'Recursos',
+    text: 'Guías, cuadernos, audios, lecturas, materiales descargables y herramientas para acompañar procesos de transformación.',
+    href: '#recursos',
+    icon: NotebookTabs,
+    position: 'left-[38%] top-[88%] -translate-x-1/2',
+  },
+  {
+    id: 'universo-musical',
+    title: 'Universo musical',
+    text: 'Canciones, álbumes y proyectos sonoros vinculados a la conciencia, la esperanza, la plenitud y la transformación interior.',
+    href: '#universo-musical',
+    icon: Music,
+    position: 'left-[18%] top-[69%] -translate-x-1/2',
   },
   {
     id: 'tienda',
-    title: 'Tienda docente',
-    text: 'Cuadernos, tarjetas, guías, mapas y recursos para acompañar la práctica educativa.',
+    title: 'Tienda',
+    text: 'Libros, cuadernos, recursos digitales, materiales formativos y productos del ecosistema.',
     href: '#tienda',
     icon: ShoppingBag,
-    position: 'left-[84%] top-[55%] -translate-x-1/2',
+    position: 'left-[12%] top-[42%] -translate-x-1/2',
   },
   {
-    id: 'comunidad',
-    title: 'Comunidad',
-    text: 'Redes, diálogo, resonancias y vínculos para construir pensamiento compartido.',
-    href: '#contacto',
-    icon: HandHeart,
-    position: 'left-[66%] top-[82%] -translate-x-1/2',
-  },
-  {
-    id: 'jovenes',
-    title: 'Jóvenes con criterio',
-    text: 'Preguntas, ideas y caminos para pensar la vida, la escuela y el lugar propio en el mundo.',
-    href: '#jovenes',
-    icon: Sparkles,
-    position: 'left-[34%] top-[82%] -translate-x-1/2',
-  },
-  {
-    id: 'familias',
-    title: 'Familias que acompañan',
-    text: 'Herramientas sencillas para acompañar el aprendizaje en casa sin miedo ni culpa.',
-    href: '#familias',
-    icon: Home,
-    position: 'left-[16%] top-[55%] -translate-x-1/2',
-  },
-  {
-    id: 'blog',
-    title: 'Blog / contenidos',
-    text: 'Reflexiones, artículos, materiales y publicaciones futuras.',
-    href: '#proyectos',
-    icon: BookOpenText,
-    position: 'left-[22%] top-[22%] -translate-x-1/2',
-  },
-  {
-    id: 'contacto',
-    title: 'Contacto',
-    text: 'Puentes para seguir la propuesta, escribir, compartir o solicitar información.',
-    href: '#contacto',
-    icon: MessageCircle,
-    position: 'left-[50%] top-[91%] -translate-x-1/2',
+    id: 'empieza',
+    title: 'Empieza Aquí',
+    text: 'Ruta inicial para quienes llegan por primera vez y quieren comprender el corazón del proyecto.',
+    href: '#empieza',
+    icon: DoorOpen,
+    position: 'left-[25%] top-[16%] -translate-x-1/2',
   },
 ];
 
@@ -214,11 +222,11 @@ const projects = [
     icon: Feather,
   },
   {
-    title: 'Blog / contenidos',
-    text: 'Reflexiones, artículos, materiales y publicaciones futuras.',
+    title: 'Resonancias',
+    text: 'Reflexiones, relatos, artículos poéticos y meditaciones escritas para despertar conciencia.',
     status: 'En construcción',
-    action: 'Leer propuesta',
-    href: '#pilares',
+    action: 'Leer resonancias',
+    href: '#resonancias',
     icon: FileText,
   },
 ];
@@ -593,7 +601,7 @@ function UniverseMap() {
   const ActiveIcon = activeNode.icon;
   const mobileUniverseNodes = showFullMobileMap
     ? universeNodes
-    : universeNodes.filter(({ id }) => ['quien-soy', 'escuela', 'tienda', 'jovenes'].includes(id));
+    : universeNodes.filter(({ id }) => ['inicio', 'manifiesto', 'resonancias', 'escuela'].includes(id));
 
   return (
     <section id="mapa-ecos" className="section-pad bg-clay/55">
@@ -648,7 +656,7 @@ function UniverseMap() {
             <figure className="mt-8 overflow-hidden rounded-2xl border border-earth/15 bg-cream/70 p-2">
               <img
                 src={IMAGES.map}
-                alt="Referencia visual original del mapa del universo Ecos"
+                alt="Mapa del universo Ecos de Emancipación con las secciones Inicio, Manifiesto, Resonancias, Pilares, Escuela, Recursos, Universo musical, Tienda y Empieza Aquí"
                 className="h-auto w-full rounded-xl opacity-80"
               />
             </figure>
@@ -696,7 +704,7 @@ function UniverseMap() {
           <figure className="mt-4 overflow-hidden rounded-2xl border border-earth/15 bg-cream p-2 shadow-soft">
             <img
               src={IMAGES.map}
-              alt="Referencia visual original del mapa del universo Ecos"
+              alt="Mapa del universo Ecos de Emancipación con las secciones Inicio, Manifiesto, Resonancias, Pilares, Escuela, Recursos, Universo musical, Tienda y Empieza Aquí"
               className="h-auto w-full rounded-xl"
             />
           </figure>
