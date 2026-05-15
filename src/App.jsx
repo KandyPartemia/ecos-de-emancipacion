@@ -157,6 +157,63 @@ const universeNodes = [
   },
 ];
 
+const SECTION_VISUALS = {
+  inicio: {
+    image: null,
+    assetName: 'inicio-visual.webp',
+    label: 'Camino de entrada',
+    tone: 'inicio',
+  },
+  manifiesto: {
+    image: null,
+    assetName: 'manifiesto-visual.webp',
+    label: 'Palabra y sentido',
+    tone: 'manifiesto',
+  },
+  resonancias: {
+    image: null,
+    assetName: 'resonancias-visual.webp',
+    label: 'Ondas de palabra',
+    tone: 'resonancias',
+  },
+  pilares: {
+    image: null,
+    assetName: 'pilares-visual.webp',
+    label: 'Raiz y fundamento',
+    tone: 'pilares',
+  },
+  escuela: {
+    image: null,
+    assetName: 'escuela-visual.webp',
+    label: 'Aprendizaje compartido',
+    tone: 'escuela',
+  },
+  recursos: {
+    image: null,
+    assetName: 'recursos-visual.webp',
+    label: 'Herramientas vivas',
+    tone: 'recursos',
+  },
+  'universo-musical': {
+    image: null,
+    assetName: 'universo-musical-visual.webp',
+    label: 'Canto y resonancia',
+    tone: 'universo-musical',
+  },
+  tienda: {
+    image: null,
+    assetName: 'tienda-visual.webp',
+    label: 'Editorial y materiales',
+    tone: 'tienda',
+  },
+  empieza: {
+    image: null,
+    assetName: 'empieza-aqui-visual.webp',
+    label: 'Ruta inicial',
+    tone: 'empieza',
+  },
+};
+
 const pillars = [
   {
     title: 'Conciencia crítica',
@@ -601,6 +658,7 @@ function UniverseMap() {
   const [showFullMobileMap, setShowFullMobileMap] = useState(false);
   const activeNode = universeNodes.find((node) => node.id === activeNodeId) ?? universeNodes[0];
   const ActiveIcon = activeNode.icon;
+  const activeVisual = SECTION_VISUALS[activeNode.id] ?? SECTION_VISUALS.inicio;
   const mobileUniverseNodes = showFullMobileMap
     ? universeNodes
     : universeNodes.filter(({ id }) => ['inicio', 'manifiesto', 'resonancias', 'escuela'].includes(id));
@@ -616,6 +674,7 @@ function UniverseMap() {
           </p>
         </div>
 
+        <div id="mapa-interactivo" className="scroll-mt-24">
         <div className="hidden lg:grid lg:grid-cols-[1.2fr_0.8fr] lg:items-stretch lg:gap-6">
           <div className="universe-map" aria-label="Mapa interactivo del universo Ecos de Emancipación">
             <div className="universe-ring universe-ring-one" aria-hidden="true" />
@@ -652,15 +711,29 @@ function UniverseMap() {
             })}
           </div>
 
-          <aside id="universe-node-detail" className={`universe-detail universe-visual-panel universe-visual-${activeNode.id}`} aria-live="polite">
+          <aside id="universe-node-detail" className={`universe-detail universe-visual-panel universe-visual-${activeVisual.tone}`} aria-live="polite">
             <div className="universe-visual-art" aria-hidden="true">
-              <span className="universe-visual-ring universe-visual-ring-one" />
-              <span className="universe-visual-ring universe-visual-ring-two" />
-              <ActiveIcon size={76} strokeWidth={1.35} />
+              {activeVisual.image ? (
+                <img src={activeVisual.image} alt="" className="h-full w-full object-cover" />
+              ) : (
+                <>
+                  <span className="universe-visual-ring universe-visual-ring-one" />
+                  <span className="universe-visual-ring universe-visual-ring-two" />
+                  <ActiveIcon size={76} strokeWidth={1.35} />
+                  <span className="universe-visual-label">{activeVisual.label}</span>
+                </>
+              )}
             </div>
             <p className="mt-8 text-xs font-semibold uppercase tracking-[0.16em] text-terracotta">Sección activa</p>
             <h3 className="mt-3 font-serif text-4xl leading-none text-forest">{activeNode.title}</h3>
             <p className="mt-5 leading-8 text-earth">{activeNode.text}</p>
+            <figure className="universe-static-map mt-8 overflow-hidden rounded-2xl border border-earth/15 bg-cream/70 p-2">
+              <img
+                src={IMAGES.map}
+                alt="Mapa del universo Ecos de Emancipación con las secciones Inicio, Manifiesto, Resonancias, Pilares, Escuela, Recursos, Universo musical, Tienda y Empieza Aquí"
+                className="h-auto w-full rounded-xl opacity-90"
+              />
+            </figure>
           </aside>
         </div>
 
@@ -709,6 +782,7 @@ function UniverseMap() {
               className="h-auto w-full rounded-xl"
             />
           </figure>
+        </div>
         </div>
       </div>
     </section>
@@ -1239,7 +1313,7 @@ function Footer() {
 function BackToMap() {
   return (
     <a
-      href="#mapa-universo"
+      href="#mapa-interactivo"
       aria-label="Volver al mapa del universo Ecos"
       title="Volver al mapa del universo Ecos"
       className="map-floating-button"

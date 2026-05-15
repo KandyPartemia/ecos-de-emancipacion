@@ -634,6 +634,25 @@ footer {
   color: currentColor;
 }
 
+.universe-visual-art img {
+  min-height: 16rem;
+}
+
+.universe-visual-label {
+  position: absolute;
+  bottom: 1rem;
+  left: 1rem;
+  z-index: 2;
+  border-radius: 9999px;
+  background: rgba(244, 239, 231, 0.88);
+  color: #3f5f4a;
+  padding: 0.5rem 0.85rem;
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
 .universe-visual-ring {
   position: absolute;
   border: 1px solid currentColor;
@@ -670,6 +689,18 @@ footer {
     radial-gradient(circle at 52% 35%, rgba(244, 239, 231, 0.2), transparent 9rem),
     linear-gradient(135deg, rgba(63, 95, 74, 0.9), rgba(196, 154, 74, 0.42));
   color: #f4efe7;
+}
+
+.universe-visual-recursos .universe-visual-art,
+.universe-visual-empieza .universe-visual-art {
+  background:
+    radial-gradient(circle at 30% 32%, rgba(196, 154, 74, 0.28), transparent 8rem),
+    linear-gradient(135deg, rgba(244, 239, 231, 0.92), rgba(168, 78, 50, 0.2));
+  color: #3f5f4a;
+}
+
+.universe-static-map img {
+  display: block;
 }
 
 .map-floating-button {
