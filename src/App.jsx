@@ -159,58 +159,67 @@ const universeNodes = [
 
 const SECTION_VISUALS = {
   inicio: {
-    image: null,
-    assetName: 'inicio-visual.webp',
+    image: '/images/ecos-inicio-visual.webp',
+    assetName: 'ecos-inicio-visual.webp',
     label: 'Camino de entrada',
     tone: 'inicio',
+    alt: 'Imagen simbólica de la sección Inicio de Ecos de Emancipación',
   },
   manifiesto: {
-    image: null,
-    assetName: 'manifiesto-visual.webp',
+    image: '/images/ecos-manifiesto-visual.webp',
+    assetName: 'ecos-manifiesto-visual.webp',
     label: 'Palabra y sentido',
     tone: 'manifiesto',
+    alt: 'Imagen simbólica de la sección Manifiesto de Ecos de Emancipación',
   },
   resonancias: {
-    image: null,
-    assetName: 'resonancias-visual.webp',
+    image: '/images/ecos-resonancias-visual.webp',
+    assetName: 'ecos-resonancias-visual.webp',
     label: 'Ondas de palabra',
     tone: 'resonancias',
+    alt: 'Imagen simbólica de la sección Resonancias de Ecos de Emancipación',
   },
   pilares: {
-    image: null,
-    assetName: 'pilares-visual.webp',
+    image: '/images/ecos-pilares-visual.webp',
+    assetName: 'ecos-pilares-visual.webp',
     label: 'Raiz y fundamento',
     tone: 'pilares',
+    alt: 'Imagen simbólica de la sección Pilares de Ecos de Emancipación',
   },
   escuela: {
-    image: null,
-    assetName: 'escuela-visual.webp',
+    image: '/images/ecos-escuela-visual.webp',
+    assetName: 'ecos-escuela-visual.webp',
     label: 'Aprendizaje compartido',
     tone: 'escuela',
+    alt: 'Imagen simbólica de la sección Escuela de Ecos de Emancipación',
   },
   recursos: {
-    image: null,
-    assetName: 'recursos-visual.webp',
+    image: '/images/ecos-recursos-visual.webp',
+    assetName: 'ecos-recursos-visual.webp',
     label: 'Herramientas vivas',
     tone: 'recursos',
+    alt: 'Imagen simbólica de la sección Recursos de Ecos de Emancipación',
   },
   'universo-musical': {
-    image: null,
-    assetName: 'universo-musical-visual.webp',
+    image: '/images/ecos-universo-musical-visual.webp',
+    assetName: 'ecos-universo-musical-visual.webp',
     label: 'Canto y resonancia',
     tone: 'universo-musical',
+    alt: 'Imagen simbólica de la sección Universo musical de Ecos de Emancipación',
   },
   tienda: {
-    image: null,
-    assetName: 'tienda-visual.webp',
+    image: '/images/ecos-tienda-visual.webp',
+    assetName: 'ecos-tienda-visual.webp',
     label: 'Editorial y materiales',
     tone: 'tienda',
+    alt: 'Imagen simbólica de la sección Tienda de Ecos de Emancipación',
   },
   empieza: {
-    image: null,
-    assetName: 'empieza-aqui-visual.webp',
+    image: '/images/ecos-empieza-aqui-visual.webp',
+    assetName: 'ecos-empieza-aqui-visual.webp',
     label: 'Ruta inicial',
     tone: 'empieza',
+    alt: 'Imagen simbólica de la sección Empieza Aquí de Ecos de Emancipación',
   },
 };
 
@@ -712,9 +721,9 @@ function UniverseMap() {
           </div>
 
           <aside id="universe-node-detail" className={`universe-detail universe-visual-panel universe-visual-${activeVisual.tone}`} aria-live="polite">
-            <div className="universe-visual-art" aria-hidden="true">
+            <div className="universe-visual-art" aria-hidden={activeVisual.image ? undefined : 'true'}>
               {activeVisual.image ? (
-                <img src={activeVisual.image} alt="" className="h-full w-full object-cover" />
+                <img src={activeVisual.image} alt={activeVisual.alt} className="h-full w-full object-cover" />
               ) : (
                 <>
                   <span className="universe-visual-ring universe-visual-ring-one" />
