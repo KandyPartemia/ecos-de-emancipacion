@@ -1,0 +1,1199 @@
+{
+  "grade": "3",
+  "gradeLabel": "Tercer grado",
+  "field": "De lo Humano y lo Comunitario",
+  "ppaNumber": "1",
+  "partialClassroomProject": "PPA 1",
+  "partialClassroomProjectTitle": "Un plan con mucha vida",
+  "source": "curricular-development-generated",
+  "generatedAt": "2026-06-07T03:06:25.684Z",
+  "development": {
+    "grade": "3",
+    "gradeLabel": "Tercer grado",
+    "field": "De lo Humano y lo Comunitario",
+    "bookVolume": "Tomo I",
+    "partialClassroomProject": "PPA 1",
+    "partialClassroomProjectTitle": "Un plan con mucha vida",
+    "generatedAt": "2026-06-07T03:06:25.652Z",
+    "notes": "Capa curricular generada por lote para 3o De lo Humano y lo Comunitario, PPA 1.",
+    "sourcesUsed": [
+      "content/caracoles/curricular-catalog/all-projects-canonical.json",
+      "public/caracoles/data/generated/grade-3/concepts-index.json",
+      "src/caracoles/lib/officialVideoLinks.ts",
+      "Posibilidades de uso DHyC, tercer grado, pp. 6-7",
+      "Nuestro libro de proyectos, tercer grado, pp. 256-267"
+    ],
+    "partialClassroomProjectContext": {
+      "expectationHorizon": {
+        "officialText": "",
+        "sourcePages": [
+          "Nuestro libro de proyectos Tomo I pp. 256-259",
+          "Posibilidades de uso DHyC pp. 6-7"
+        ],
+        "evidence": "El PPA 1 articula 1. un plan con mucha vida, 2. ¡una galería de decisiones!, historieta de vida para trabajar Un plan con mucha vida.",
+        "status": "pending"
+      },
+      "ppaDetonatingStrategy": {
+        "title": "Un plan con mucha vida",
+        "type": "video",
+        "url": "",
+        "urlStatus": "confirmed-by-official-video-map",
+        "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+        "scope": "partial-classroom-project"
+      },
+      "ppaDigitalResource": {
+        "title": "Recurso del Proyecto Parcial de Aula 1",
+        "reference": "",
+        "status": "confirmed-by-official-video-map",
+        "source": "YouTube, acervo Aprende_MX/Telesecundaria"
+      },
+      "validationStatus": {
+        "needsHumanReview": true,
+        "needsReviewReasons": [
+          "Los videos PA/PPA se validan por el mapa oficial de enlaces directos ya generado.",
+          "Los apoyos complementarios impresos no se asignan cuando no hay evidencia validada por columna.",
+          "El horizonte textual literal queda pendiente de revision fina si se necesita cita exacta."
+        ]
+      },
+      "columnValidation": {
+        "possibilitiesPagesReviewed": [
+          6,
+          7
+        ],
+        "confirmedAsPpa": true,
+        "note": "El PPA 1 se agrupa desde el catalogo canonico de tercer grado.",
+        "columns": [
+          {
+            "columnIndex": 1,
+            "projectId": "de-lo-humano-y-lo-comunitario-3-ppa-1-pa1",
+            "projectTitle": "Una a una, experiencias para el proyecto de vida",
+            "finalProduct": "1. Un plan con mucha vida",
+            "supportMaterials": []
+          },
+          {
+            "columnIndex": 2,
+            "projectId": "de-lo-humano-y-lo-comunitario-3-ppa-1-pa2",
+            "projectTitle": "¡Proyecto de vida a la vista!",
+            "finalProduct": "2. ¡Una galería de decisiones!",
+            "supportMaterials": []
+          },
+          {
+            "columnIndex": 3,
+            "projectId": "de-lo-humano-y-lo-comunitario-3-ppa-1-pa3",
+            "projectTitle": "Todos somos una historieta de vida",
+            "finalProduct": "Historieta de vida",
+            "supportMaterials": []
+          }
+        ]
+      }
+    },
+    "academicProjects": [
+      {
+        "id": "de-lo-humano-y-lo-comunitario-3-ppa-1-pa1",
+        "projectId": "de-lo-humano-y-lo-comunitario-3-ppa-1-pa1",
+        "academicProjectNumber": 1,
+        "title": "Una a una, experiencias para el proyecto de vida",
+        "projectTitle": "Una a una, experiencias para el proyecto de vida",
+        "grade": "3",
+        "field": "De lo Humano y lo Comunitario",
+        "ppaNumber": "1",
+        "partialClassroomProject": "PPA 1",
+        "partialClassroomProjectTitle": "Un plan con mucha vida",
+        "bookVolume": "Tomo I",
+        "sourceValidation": {
+          "sourceStatus": "linked",
+          "possibilitiesPages": [
+            6,
+            7
+          ],
+          "possibilitiesMaterialId": "grade-3-posibilidades-pos-dhc-3",
+          "possibilitiesColumnIndex": 1,
+          "columnEvidence": "Proyecto PA 1 agrupado en el PPA 1 desde el catalogo canonico y las paginas de Posibilidades."
+        },
+        "finalProduct": {
+          "title": "1. Un plan con mucha vida",
+          "source": "Video detonador validado en YouTube + Nuestro libro de proyectos Tomo I pp. 256-259",
+          "status": "confirmed-from-video-and-project"
+        },
+        "sourcePages": {
+          "nuestroLibroProyectos": [
+            {
+              "materialId": "grade-3-proyectos-nuestros-proyectos-tomo-1-tercer-grado",
+              "label": "Nuestro libro de proyectos Tomo I",
+              "startPage": 256,
+              "endPage": 259,
+              "pagesLabel": "pp. 256-259",
+              "topicTitle": "Proyecto academico 1",
+              "status": "confirmed-source"
+            }
+          ],
+          "conceptBook": [
+            {
+              "materialId": "grade-3-conceptos-de-lo-humano-y-lo-comunitario-tercer-grado",
+              "label": "De lo Humano y lo Comunitario",
+              "startPage": 256,
+              "endPage": 256,
+              "pagesLabel": "p. 256",
+              "topicTitle": "1. un plan con mucha vida",
+              "status": "confirmed"
+            }
+          ],
+          "multiplesLenguajes": [],
+          "otherMaterials": [
+            {
+              "label": "Video PA 1: 1. Un plan con mucha vida • De lo humano y lo comunitario • 3er grado",
+              "reference": "https://www.youtube.com/watch?v=CvK85svZmwE",
+              "status": "confirmed"
+            },
+            {
+              "label": "Video PPA 1: 1. Un plan con mucha vida • De lo humano y lo comunitario • 3er grado",
+              "reference": "https://www.youtube.com/watch?v=CvK85svZmwE",
+              "status": "confirmed"
+            }
+          ]
+        },
+        "supportMaterials": [],
+        "horizonOrPurpose": {
+          "status": "pending",
+          "text": "",
+          "source": "Nuestro libro de proyectos Tomo I pp. 256-259"
+        },
+        "projectExpectationHorizon": {
+          "officialText": "",
+          "studentVersion": "",
+          "sourcePages": [
+            "Nuestro libro de proyectos Tomo I pp. 256-259"
+          ],
+          "evidence": "El PA 1 cuenta con paginas de proyecto, producto de cierre, conceptos y videos directos validados; el horizonte textual literal queda pendiente de transcripcion fina.",
+          "status": "pending"
+        },
+        "detonatingStrategy": {
+          "title": "1. Un plan con mucha vida • De lo humano y lo comunitario • 3er grado",
+          "text": "Video del Proyecto Parcial de Aula 1: 1. Un plan con mucha vida • De lo humano y lo comunitario • 3er grado",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=CvK85svZmwE",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "partial-classroom-project"
+        },
+        "academicProjectStrategy": {
+          "title": "1. Un plan con mucha vida • De lo humano y lo comunitario • 3er grado",
+          "text": "Video detonador del Proyecto Academico 1: Una a una, experiencias para el proyecto de vida",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=CvK85svZmwE",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "academic-project"
+        },
+        "academicConcepts": [
+          {
+            "concept": "1. un plan con mucha vida",
+            "description": "1. un plan con mucha vida organiza el producto de cierre y permite comunicar lo aprendido en el proyecto.",
+            "sourceBook": "De lo Humano y lo Comunitario",
+            "sourcePages": [
+              256
+            ],
+            "sourcePagesLabel": "p. 256",
+            "topicTitle": "Proyecto academico 1",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 1, al PPA 1 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Proyecto de vida",
+            "description": "Proyecto de vida ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "De lo Humano y lo Comunitario",
+            "sourcePages": [
+              256
+            ],
+            "sourcePagesLabel": "p. 256",
+            "topicTitle": "Proyecto academico 1",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 1, al PPA 1 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Bienestar",
+            "description": "Bienestar ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "De lo Humano y lo Comunitario",
+            "sourcePages": [
+              256
+            ],
+            "sourcePagesLabel": "p. 256",
+            "topicTitle": "Proyecto academico 1",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 1, al PPA 1 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Prevencion",
+            "description": "Prevencion ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "De lo Humano y lo Comunitario",
+            "sourcePages": [
+              170
+            ],
+            "sourcePagesLabel": "p. 170",
+            "topicTitle": "Proyecto academico 1",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 1, al PPA 1 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Comunidad",
+            "description": "Comunidad ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "De lo Humano y lo Comunitario",
+            "sourcePages": [
+              256
+            ],
+            "sourcePagesLabel": "p. 256",
+            "topicTitle": "Proyecto academico 1",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 1, al PPA 1 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Decisiones",
+            "description": "Decisiones ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "De lo Humano y lo Comunitario",
+            "sourcePages": [
+              256
+            ],
+            "sourcePagesLabel": "p. 256",
+            "topicTitle": "Proyecto academico 1",
+            "status": "suggested",
+            "reason": "Concepto vinculado al PA 1, al PPA 1 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "teacher-review"
+          }
+        ],
+        "thinkingCriteria": [
+          "Relacionar Una a una, experiencias para el proyecto de vida con una situacion concreta del entorno escolar o comunitario.",
+          "Usar 1. un plan con mucha vida para explicar ideas con claridad y evidencia."
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Como te ayuda 1. un plan con mucha vida a comprender mejor Una a una, experiencias para el proyecto de vida y a explicar sus conceptos clave en tu comunidad?",
+            "conceptsActivated": [
+              "1. un plan con mucha vida",
+              "Proyecto de vida",
+              "Bienestar",
+              "Prevencion"
+            ],
+            "suggestedUse": "Momento 1 de autoevaluacion"
+          }
+        ],
+        "validationStatus": {
+          "readinessLevel": "curricular-bundle-generated",
+          "readyForActivities": true,
+          "needsReviewReasons": [
+            "El horizonte textual literal queda pendiente de revision fina si se requiere cita exacta.",
+            "Los apoyos complementarios impresos no se asignan cuando no hay evidencia validada por columna."
+          ]
+        },
+        "readinessLevel": "curricular-bundle-generated",
+        "readyForActivities": true,
+        "needsReviewReasons": []
+      },
+      {
+        "id": "de-lo-humano-y-lo-comunitario-3-ppa-1-pa2",
+        "projectId": "de-lo-humano-y-lo-comunitario-3-ppa-1-pa2",
+        "academicProjectNumber": 2,
+        "title": "¡Proyecto de vida a la vista!",
+        "projectTitle": "¡Proyecto de vida a la vista!",
+        "grade": "3",
+        "field": "De lo Humano y lo Comunitario",
+        "ppaNumber": "1",
+        "partialClassroomProject": "PPA 1",
+        "partialClassroomProjectTitle": "Un plan con mucha vida",
+        "bookVolume": "Tomo I",
+        "sourceValidation": {
+          "sourceStatus": "linked",
+          "possibilitiesPages": [
+            6,
+            7
+          ],
+          "possibilitiesMaterialId": "grade-3-posibilidades-pos-dhc-3",
+          "possibilitiesColumnIndex": 2,
+          "columnEvidence": "Proyecto PA 2 agrupado en el PPA 1 desde el catalogo canonico y las paginas de Posibilidades."
+        },
+        "finalProduct": {
+          "title": "2. ¡Una galería de decisiones!",
+          "source": "Video detonador validado en YouTube + Nuestro libro de proyectos Tomo I pp. 260-263",
+          "status": "confirmed-from-video-and-project"
+        },
+        "sourcePages": {
+          "nuestroLibroProyectos": [
+            {
+              "materialId": "grade-3-proyectos-nuestros-proyectos-tomo-1-tercer-grado",
+              "label": "Nuestro libro de proyectos Tomo I",
+              "startPage": 260,
+              "endPage": 263,
+              "pagesLabel": "pp. 260-263",
+              "topicTitle": "Proyecto academico 2",
+              "status": "confirmed-source"
+            }
+          ],
+          "conceptBook": [
+            {
+              "materialId": "grade-3-conceptos-de-lo-humano-y-lo-comunitario-tercer-grado",
+              "label": "De lo Humano y lo Comunitario",
+              "startPage": 260,
+              "endPage": 260,
+              "pagesLabel": "p. 260",
+              "topicTitle": "2. ¡una galería de decisiones!",
+              "status": "confirmed"
+            }
+          ],
+          "multiplesLenguajes": [],
+          "otherMaterials": [
+            {
+              "label": "Video PA 2: 2. ¡Una galería de decisiones! • De lo humano y lo comunitario • 3er grado",
+              "reference": "https://www.youtube.com/watch?v=TN4Ifj3DYvw",
+              "status": "confirmed"
+            },
+            {
+              "label": "Video PPA 1: 1. Un plan con mucha vida • De lo humano y lo comunitario • 3er grado",
+              "reference": "https://www.youtube.com/watch?v=CvK85svZmwE",
+              "status": "confirmed"
+            }
+          ]
+        },
+        "supportMaterials": [],
+        "horizonOrPurpose": {
+          "status": "pending",
+          "text": "",
+          "source": "Nuestro libro de proyectos Tomo I pp. 260-263"
+        },
+        "projectExpectationHorizon": {
+          "officialText": "",
+          "studentVersion": "",
+          "sourcePages": [
+            "Nuestro libro de proyectos Tomo I pp. 260-263"
+          ],
+          "evidence": "El PA 2 cuenta con paginas de proyecto, producto de cierre, conceptos y videos directos validados; el horizonte textual literal queda pendiente de transcripcion fina.",
+          "status": "pending"
+        },
+        "detonatingStrategy": {
+          "title": "1. Un plan con mucha vida • De lo humano y lo comunitario • 3er grado",
+          "text": "Video del Proyecto Parcial de Aula 1: 1. Un plan con mucha vida • De lo humano y lo comunitario • 3er grado",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=CvK85svZmwE",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "partial-classroom-project"
+        },
+        "academicProjectStrategy": {
+          "title": "2. ¡Una galería de decisiones! • De lo humano y lo comunitario • 3er grado",
+          "text": "Video detonador del Proyecto Academico 2: ¡Proyecto de vida a la vista!",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=TN4Ifj3DYvw",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "academic-project"
+        },
+        "academicConcepts": [
+          {
+            "concept": "2. ¡una galería de decisiones!",
+            "description": "2. ¡una galería de decisiones! organiza el producto de cierre y permite comunicar lo aprendido en el proyecto.",
+            "sourceBook": "De lo Humano y lo Comunitario",
+            "sourcePages": [
+              260
+            ],
+            "sourcePagesLabel": "p. 260",
+            "topicTitle": "Proyecto academico 2",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 2, al PPA 1 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Proyecto de vida",
+            "description": "Proyecto de vida ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "De lo Humano y lo Comunitario",
+            "sourcePages": [
+              260
+            ],
+            "sourcePagesLabel": "p. 260",
+            "topicTitle": "Proyecto academico 2",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 2, al PPA 1 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Bienestar",
+            "description": "Bienestar ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "De lo Humano y lo Comunitario",
+            "sourcePages": [
+              260
+            ],
+            "sourcePagesLabel": "p. 260",
+            "topicTitle": "Proyecto academico 2",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 2, al PPA 1 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Prevencion",
+            "description": "Prevencion ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "De lo Humano y lo Comunitario",
+            "sourcePages": [
+              170
+            ],
+            "sourcePagesLabel": "p. 170",
+            "topicTitle": "Proyecto academico 2",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 2, al PPA 1 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Comunidad",
+            "description": "Comunidad ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "De lo Humano y lo Comunitario",
+            "sourcePages": [
+              260
+            ],
+            "sourcePagesLabel": "p. 260",
+            "topicTitle": "Proyecto academico 2",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 2, al PPA 1 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Decisiones",
+            "description": "Decisiones ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "De lo Humano y lo Comunitario",
+            "sourcePages": [
+              260
+            ],
+            "sourcePagesLabel": "p. 260",
+            "topicTitle": "Proyecto academico 2",
+            "status": "suggested",
+            "reason": "Concepto vinculado al PA 2, al PPA 1 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "teacher-review"
+          }
+        ],
+        "thinkingCriteria": [
+          "Relacionar ¡Proyecto de vida a la vista! con una situacion concreta del entorno escolar o comunitario.",
+          "Usar 2. ¡una galería de decisiones! para explicar ideas con claridad y evidencia."
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Como te ayuda 2. ¡una galería de decisiones! a comprender mejor ¡Proyecto de vida a la vista! y a explicar sus conceptos clave en tu comunidad?",
+            "conceptsActivated": [
+              "2. ¡una galería de decisiones!",
+              "Proyecto de vida",
+              "Bienestar",
+              "Prevencion"
+            ],
+            "suggestedUse": "Momento 1 de autoevaluacion"
+          }
+        ],
+        "validationStatus": {
+          "readinessLevel": "curricular-bundle-generated",
+          "readyForActivities": true,
+          "needsReviewReasons": [
+            "El horizonte textual literal queda pendiente de revision fina si se requiere cita exacta.",
+            "Los apoyos complementarios impresos no se asignan cuando no hay evidencia validada por columna."
+          ]
+        },
+        "readinessLevel": "curricular-bundle-generated",
+        "readyForActivities": true,
+        "needsReviewReasons": []
+      },
+      {
+        "id": "de-lo-humano-y-lo-comunitario-3-ppa-1-pa3",
+        "projectId": "de-lo-humano-y-lo-comunitario-3-ppa-1-pa3",
+        "academicProjectNumber": 3,
+        "title": "Todos somos una historieta de vida",
+        "projectTitle": "Todos somos una historieta de vida",
+        "grade": "3",
+        "field": "De lo Humano y lo Comunitario",
+        "ppaNumber": "1",
+        "partialClassroomProject": "PPA 1",
+        "partialClassroomProjectTitle": "Un plan con mucha vida",
+        "bookVolume": "Tomo I",
+        "sourceValidation": {
+          "sourceStatus": "linked",
+          "possibilitiesPages": [
+            6,
+            7
+          ],
+          "possibilitiesMaterialId": "grade-3-posibilidades-pos-dhc-3",
+          "possibilitiesColumnIndex": 3,
+          "columnEvidence": "Proyecto PA 3 agrupado en el PPA 1 desde el catalogo canonico y las paginas de Posibilidades."
+        },
+        "finalProduct": {
+          "title": "Historieta de vida",
+          "source": "Video detonador validado en YouTube + Nuestro libro de proyectos Tomo I pp. 264-267",
+          "status": "confirmed-from-video-and-project"
+        },
+        "sourcePages": {
+          "nuestroLibroProyectos": [
+            {
+              "materialId": "grade-3-proyectos-nuestros-proyectos-tomo-1-tercer-grado",
+              "label": "Nuestro libro de proyectos Tomo I",
+              "startPage": 264,
+              "endPage": 267,
+              "pagesLabel": "pp. 264-267",
+              "topicTitle": "Proyecto academico 3",
+              "status": "confirmed-source"
+            }
+          ],
+          "conceptBook": [
+            {
+              "materialId": "grade-3-conceptos-de-lo-humano-y-lo-comunitario-tercer-grado",
+              "label": "De lo Humano y lo Comunitario",
+              "startPage": 264,
+              "endPage": 264,
+              "pagesLabel": "p. 264",
+              "topicTitle": "Historieta de vida",
+              "status": "confirmed"
+            }
+          ],
+          "multiplesLenguajes": [],
+          "otherMaterials": [
+            {
+              "label": "Video PA 3: Historieta de vida • De lo humano y lo comunitario • 3er grado",
+              "reference": "https://www.youtube.com/watch?v=qt3EmGeOSQs",
+              "status": "confirmed"
+            },
+            {
+              "label": "Video PPA 1: 1. Un plan con mucha vida • De lo humano y lo comunitario • 3er grado",
+              "reference": "https://www.youtube.com/watch?v=CvK85svZmwE",
+              "status": "confirmed"
+            }
+          ]
+        },
+        "supportMaterials": [],
+        "horizonOrPurpose": {
+          "status": "pending",
+          "text": "",
+          "source": "Nuestro libro de proyectos Tomo I pp. 264-267"
+        },
+        "projectExpectationHorizon": {
+          "officialText": "",
+          "studentVersion": "",
+          "sourcePages": [
+            "Nuestro libro de proyectos Tomo I pp. 264-267"
+          ],
+          "evidence": "El PA 3 cuenta con paginas de proyecto, producto de cierre, conceptos y videos directos validados; el horizonte textual literal queda pendiente de transcripcion fina.",
+          "status": "pending"
+        },
+        "detonatingStrategy": {
+          "title": "1. Un plan con mucha vida • De lo humano y lo comunitario • 3er grado",
+          "text": "Video del Proyecto Parcial de Aula 1: 1. Un plan con mucha vida • De lo humano y lo comunitario • 3er grado",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=CvK85svZmwE",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "partial-classroom-project"
+        },
+        "academicProjectStrategy": {
+          "title": "Historieta de vida • De lo humano y lo comunitario • 3er grado",
+          "text": "Video detonador del Proyecto Academico 3: Todos somos una historieta de vida",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=qt3EmGeOSQs",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "academic-project"
+        },
+        "academicConcepts": [
+          {
+            "concept": "Historieta de vida",
+            "description": "Historieta de vida organiza el producto de cierre y permite comunicar lo aprendido en el proyecto.",
+            "sourceBook": "De lo Humano y lo Comunitario",
+            "sourcePages": [
+              264
+            ],
+            "sourcePagesLabel": "p. 264",
+            "topicTitle": "Proyecto academico 3",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 3, al PPA 1 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Proyecto de vida",
+            "description": "Proyecto de vida ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "De lo Humano y lo Comunitario",
+            "sourcePages": [
+              264
+            ],
+            "sourcePagesLabel": "p. 264",
+            "topicTitle": "Proyecto academico 3",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 3, al PPA 1 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Bienestar",
+            "description": "Bienestar ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "De lo Humano y lo Comunitario",
+            "sourcePages": [
+              264
+            ],
+            "sourcePagesLabel": "p. 264",
+            "topicTitle": "Proyecto academico 3",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 3, al PPA 1 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Prevencion",
+            "description": "Prevencion ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "De lo Humano y lo Comunitario",
+            "sourcePages": [
+              170
+            ],
+            "sourcePagesLabel": "p. 170",
+            "topicTitle": "Proyecto academico 3",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 3, al PPA 1 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Comunidad",
+            "description": "Comunidad ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "De lo Humano y lo Comunitario",
+            "sourcePages": [
+              264
+            ],
+            "sourcePagesLabel": "p. 264",
+            "topicTitle": "Proyecto academico 3",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 3, al PPA 1 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Decisiones",
+            "description": "Decisiones ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "De lo Humano y lo Comunitario",
+            "sourcePages": [
+              264
+            ],
+            "sourcePagesLabel": "p. 264",
+            "topicTitle": "Proyecto academico 3",
+            "status": "suggested",
+            "reason": "Concepto vinculado al PA 3, al PPA 1 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "teacher-review"
+          }
+        ],
+        "thinkingCriteria": [
+          "Relacionar Todos somos una historieta de vida con una situacion concreta del entorno escolar o comunitario.",
+          "Usar historieta de vida para explicar ideas con claridad y evidencia."
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Como te ayuda historieta de vida a comprender mejor Todos somos una historieta de vida y a explicar sus conceptos clave en tu comunidad?",
+            "conceptsActivated": [
+              "Historieta de vida",
+              "Proyecto de vida",
+              "Bienestar",
+              "Prevencion"
+            ],
+            "suggestedUse": "Momento 1 de autoevaluacion"
+          }
+        ],
+        "validationStatus": {
+          "readinessLevel": "curricular-bundle-generated",
+          "readyForActivities": true,
+          "needsReviewReasons": [
+            "El horizonte textual literal queda pendiente de revision fina si se requiere cita exacta.",
+            "Los apoyos complementarios impresos no se asignan cuando no hay evidencia validada por columna."
+          ]
+        },
+        "readinessLevel": "curricular-bundle-generated",
+        "readyForActivities": true,
+        "needsReviewReasons": []
+      }
+    ]
+  },
+  "conceptsValidation": {
+    "grade": "3",
+    "field": "De lo Humano y lo Comunitario",
+    "ppaNumber": "1",
+    "status": "concept-validation",
+    "generatedAt": "2026-06-07T03:06:25.652Z",
+    "entries": [
+      {
+        "projectId": "de-lo-humano-y-lo-comunitario-3-ppa-1-pa1",
+        "projectTitle": "Una a una, experiencias para el proyecto de vida",
+        "concept": "1. un plan con mucha vida",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "pages": [
+            256
+          ],
+          "reason": "Concepto vinculado al PA 1, al PPA 1 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "de-lo-humano-y-lo-comunitario-3-ppa-1-pa1",
+        "projectTitle": "Una a una, experiencias para el proyecto de vida",
+        "concept": "Proyecto de vida",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "pages": [
+            256
+          ],
+          "reason": "Concepto vinculado al PA 1, al PPA 1 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "de-lo-humano-y-lo-comunitario-3-ppa-1-pa1",
+        "projectTitle": "Una a una, experiencias para el proyecto de vida",
+        "concept": "Bienestar",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "pages": [
+            256
+          ],
+          "reason": "Concepto vinculado al PA 1, al PPA 1 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "de-lo-humano-y-lo-comunitario-3-ppa-1-pa1",
+        "projectTitle": "Una a una, experiencias para el proyecto de vida",
+        "concept": "Prevencion",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "pages": [
+            170
+          ],
+          "reason": "Concepto vinculado al PA 1, al PPA 1 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "de-lo-humano-y-lo-comunitario-3-ppa-1-pa1",
+        "projectTitle": "Una a una, experiencias para el proyecto de vida",
+        "concept": "Comunidad",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "pages": [
+            256
+          ],
+          "reason": "Concepto vinculado al PA 1, al PPA 1 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "de-lo-humano-y-lo-comunitario-3-ppa-1-pa1",
+        "projectTitle": "Una a una, experiencias para el proyecto de vida",
+        "concept": "Decisiones",
+        "status": "suggested",
+        "evidence": {
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "pages": [
+            256
+          ],
+          "reason": "Concepto vinculado al PA 1, al PPA 1 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "teacher-review"
+      },
+      {
+        "projectId": "de-lo-humano-y-lo-comunitario-3-ppa-1-pa2",
+        "projectTitle": "¡Proyecto de vida a la vista!",
+        "concept": "2. ¡una galería de decisiones!",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "pages": [
+            260
+          ],
+          "reason": "Concepto vinculado al PA 2, al PPA 1 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "de-lo-humano-y-lo-comunitario-3-ppa-1-pa2",
+        "projectTitle": "¡Proyecto de vida a la vista!",
+        "concept": "Proyecto de vida",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "pages": [
+            260
+          ],
+          "reason": "Concepto vinculado al PA 2, al PPA 1 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "de-lo-humano-y-lo-comunitario-3-ppa-1-pa2",
+        "projectTitle": "¡Proyecto de vida a la vista!",
+        "concept": "Bienestar",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "pages": [
+            260
+          ],
+          "reason": "Concepto vinculado al PA 2, al PPA 1 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "de-lo-humano-y-lo-comunitario-3-ppa-1-pa2",
+        "projectTitle": "¡Proyecto de vida a la vista!",
+        "concept": "Prevencion",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "pages": [
+            170
+          ],
+          "reason": "Concepto vinculado al PA 2, al PPA 1 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "de-lo-humano-y-lo-comunitario-3-ppa-1-pa2",
+        "projectTitle": "¡Proyecto de vida a la vista!",
+        "concept": "Comunidad",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "pages": [
+            260
+          ],
+          "reason": "Concepto vinculado al PA 2, al PPA 1 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "de-lo-humano-y-lo-comunitario-3-ppa-1-pa2",
+        "projectTitle": "¡Proyecto de vida a la vista!",
+        "concept": "Decisiones",
+        "status": "suggested",
+        "evidence": {
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "pages": [
+            260
+          ],
+          "reason": "Concepto vinculado al PA 2, al PPA 1 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "teacher-review"
+      },
+      {
+        "projectId": "de-lo-humano-y-lo-comunitario-3-ppa-1-pa3",
+        "projectTitle": "Todos somos una historieta de vida",
+        "concept": "Historieta de vida",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "pages": [
+            264
+          ],
+          "reason": "Concepto vinculado al PA 3, al PPA 1 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "de-lo-humano-y-lo-comunitario-3-ppa-1-pa3",
+        "projectTitle": "Todos somos una historieta de vida",
+        "concept": "Proyecto de vida",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "pages": [
+            264
+          ],
+          "reason": "Concepto vinculado al PA 3, al PPA 1 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "de-lo-humano-y-lo-comunitario-3-ppa-1-pa3",
+        "projectTitle": "Todos somos una historieta de vida",
+        "concept": "Bienestar",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "pages": [
+            264
+          ],
+          "reason": "Concepto vinculado al PA 3, al PPA 1 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "de-lo-humano-y-lo-comunitario-3-ppa-1-pa3",
+        "projectTitle": "Todos somos una historieta de vida",
+        "concept": "Prevencion",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "pages": [
+            170
+          ],
+          "reason": "Concepto vinculado al PA 3, al PPA 1 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "de-lo-humano-y-lo-comunitario-3-ppa-1-pa3",
+        "projectTitle": "Todos somos una historieta de vida",
+        "concept": "Comunidad",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "pages": [
+            264
+          ],
+          "reason": "Concepto vinculado al PA 3, al PPA 1 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "de-lo-humano-y-lo-comunitario-3-ppa-1-pa3",
+        "projectTitle": "Todos somos una historieta de vida",
+        "concept": "Decisiones",
+        "status": "suggested",
+        "evidence": {
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "pages": [
+            264
+          ],
+          "reason": "Concepto vinculado al PA 3, al PPA 1 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "teacher-review"
+      }
+    ]
+  },
+  "pedagogicalArticulation": {
+    "grade": "3",
+    "field": "De lo Humano y lo Comunitario",
+    "ppaNumber": "1",
+    "status": "teacher-orientation",
+    "officialHorizonStatus": "pending",
+    "situatedPedagogicalOrientation": "El PPA 1 propone trabajar Un plan con mucha vida mediante productos de cierre, conceptos confirmados y videos directos para reforzar la autoevaluacion.",
+    "integratingQuestions": [
+      "¿Como se relacionan los tres proyectos academicos del PPA 1 con Un plan con mucha vida?",
+      "¿Que conceptos necesita dominar el estudiante para explicar su producto final?",
+      "¿Como usar el producto final para comunicar una comprension y no solo presentar informacion?"
+    ],
+    "possibleResonanceQuestion": "¿Que comprension nueva sobre Un plan con mucha vida puedes explicar con los productos del PPA 1?",
+    "teacherNotes": [
+      "Usar los videos directos como detonadores, no como enlaces de busqueda.",
+      "Retomar los conceptos confirmados antes de resolver la relacion de columnas y el juego."
+    ],
+    "projectConnections": [
+      {
+        "projectId": "de-lo-humano-y-lo-comunitario-3-ppa-1-pa1",
+        "projectTitle": "Una a una, experiencias para el proyecto de vida",
+        "roleInPpa": "Aporta 1. un plan con mucha vida al desarrollo del PPA 1.",
+        "confirmedConcepts": [
+          "1. un plan con mucha vida",
+          "Proyecto de vida",
+          "Bienestar",
+          "Prevencion",
+          "Comunidad"
+        ],
+        "suggestedConcepts": [
+          "Decisiones"
+        ],
+        "pedagogicalUse": "Video detonador del Proyecto Academico 1: Una a una, experiencias para el proyecto de vida"
+      },
+      {
+        "projectId": "de-lo-humano-y-lo-comunitario-3-ppa-1-pa2",
+        "projectTitle": "¡Proyecto de vida a la vista!",
+        "roleInPpa": "Aporta 2. ¡una galería de decisiones! al desarrollo del PPA 1.",
+        "confirmedConcepts": [
+          "2. ¡una galería de decisiones!",
+          "Proyecto de vida",
+          "Bienestar",
+          "Prevencion",
+          "Comunidad"
+        ],
+        "suggestedConcepts": [
+          "Decisiones"
+        ],
+        "pedagogicalUse": "Video detonador del Proyecto Academico 2: ¡Proyecto de vida a la vista!"
+      },
+      {
+        "projectId": "de-lo-humano-y-lo-comunitario-3-ppa-1-pa3",
+        "projectTitle": "Todos somos una historieta de vida",
+        "roleInPpa": "Aporta historieta de vida al desarrollo del PPA 1.",
+        "confirmedConcepts": [
+          "Historieta de vida",
+          "Proyecto de vida",
+          "Bienestar",
+          "Prevencion",
+          "Comunidad"
+        ],
+        "suggestedConcepts": [
+          "Decisiones"
+        ],
+        "pedagogicalUse": "Video detonador del Proyecto Academico 3: Todos somos una historieta de vida"
+      }
+    ]
+  },
+  "teacherNotesAndResonances": {
+    "grade": "3",
+    "field": "De lo Humano y lo Comunitario",
+    "ppaNumber": "1",
+    "status": "teacher-notes-and-resonances",
+    "officialHorizonStatus": "pending",
+    "ppaIntegratingResonance": "¿Que comprension nueva sobre Un plan con mucha vida puedes explicar con los productos del PPA 1?",
+    "didacticWarnings": [
+      "No sustituir el producto final por la reproduccion del video.",
+      "Evitar marcar apoyos impresos como confirmados si no existe evidencia por columna."
+    ],
+    "communityPrompts": {
+      "territoryLanguageMemory": [
+        "¿Que palabras, practicas o problemas del entorno ayudan a entender mejor este PPA?"
+      ],
+      "productCommunityConnection": [
+        "¿Como puede circular el producto final dentro de la comunidad escolar?"
+      ]
+    },
+    "projects": [
+      {
+        "projectId": "de-lo-humano-y-lo-comunitario-3-ppa-1-pa1",
+        "projectTitle": "Una a una, experiencias para el proyecto de vida",
+        "teacherNotes": [
+          "Retomar 1. un plan con mucha vida como evidencia del aprendizaje.",
+          "Usar los conceptos confirmados para orientar la autoevaluacion."
+        ],
+        "confirmedConceptsToUse": [
+          "1. un plan con mucha vida",
+          "Proyecto de vida",
+          "Bienestar",
+          "Prevencion",
+          "Comunidad"
+        ],
+        "suggestedConceptsToHandleCarefully": [
+          "Decisiones"
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Como te ayuda 1. un plan con mucha vida a comprender mejor Una a una, experiencias para el proyecto de vida y a explicar sus conceptos clave en tu comunidad?",
+            "conceptsActivated": [
+              "1. un plan con mucha vida",
+              "Proyecto de vida",
+              "Bienestar",
+              "Prevencion"
+            ],
+            "suggestedUse": "Momento 1 de autoevaluacion"
+          }
+        ],
+        "notReadyFor": []
+      },
+      {
+        "projectId": "de-lo-humano-y-lo-comunitario-3-ppa-1-pa2",
+        "projectTitle": "¡Proyecto de vida a la vista!",
+        "teacherNotes": [
+          "Retomar 2. ¡una galería de decisiones! como evidencia del aprendizaje.",
+          "Usar los conceptos confirmados para orientar la autoevaluacion."
+        ],
+        "confirmedConceptsToUse": [
+          "2. ¡una galería de decisiones!",
+          "Proyecto de vida",
+          "Bienestar",
+          "Prevencion",
+          "Comunidad"
+        ],
+        "suggestedConceptsToHandleCarefully": [
+          "Decisiones"
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Como te ayuda 2. ¡una galería de decisiones! a comprender mejor ¡Proyecto de vida a la vista! y a explicar sus conceptos clave en tu comunidad?",
+            "conceptsActivated": [
+              "2. ¡una galería de decisiones!",
+              "Proyecto de vida",
+              "Bienestar",
+              "Prevencion"
+            ],
+            "suggestedUse": "Momento 1 de autoevaluacion"
+          }
+        ],
+        "notReadyFor": []
+      },
+      {
+        "projectId": "de-lo-humano-y-lo-comunitario-3-ppa-1-pa3",
+        "projectTitle": "Todos somos una historieta de vida",
+        "teacherNotes": [
+          "Retomar historieta de vida como evidencia del aprendizaje.",
+          "Usar los conceptos confirmados para orientar la autoevaluacion."
+        ],
+        "confirmedConceptsToUse": [
+          "Historieta de vida",
+          "Proyecto de vida",
+          "Bienestar",
+          "Prevencion",
+          "Comunidad"
+        ],
+        "suggestedConceptsToHandleCarefully": [
+          "Decisiones"
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Como te ayuda historieta de vida a comprender mejor Todos somos una historieta de vida y a explicar sus conceptos clave en tu comunidad?",
+            "conceptsActivated": [
+              "Historieta de vida",
+              "Proyecto de vida",
+              "Bienestar",
+              "Prevencion"
+            ],
+            "suggestedUse": "Momento 1 de autoevaluacion"
+          }
+        ],
+        "notReadyFor": []
+      }
+    ]
+  },
+  "validationAudit": {
+    "kind": "generated-validation-audit",
+    "source": "reports/caracoles/grade3-humano-ppa1-reading-bundle-audit.md",
+    "content": "# Bundle curricular tercer grado\n\n- Campo: De lo Humano y lo Comunitario\n- PPA: 1\n- Titulo: Un plan con mucha vida\n- Proyectos: PA1, PA2, PA3\n- Estado: generado y publicado\n- Cautela: horizonte literal y apoyos impresos por columna pendientes de revision fina.\n"
+  }
+}

@@ -1,0 +1,1285 @@
+{
+  "grade": "2",
+  "gradeLabel": "Segundo grado",
+  "field": "De lo Humano y lo Comunitario",
+  "ppaNumber": "1",
+  "partialClassroomProject": "PPA 1",
+  "partialClassroomProjectTitle": "¡A resolver, construir y reconstruir!",
+  "source": "curricular-development-pilot",
+  "generatedAt": "2026-06-04T15:51:07.042Z",
+  "development": {
+    "grade": "2",
+    "gradeLabel": "Segundo grado",
+    "field": "De lo Humano y lo Comunitario",
+    "bookVolume": "Tomo I",
+    "partialClassroomProject": "PPA 1",
+    "partialClassroomProjectTitle": "¡A resolver, construir y reconstruir!",
+    "generatedAt": "2026-06-04T15:48:47.580Z",
+    "notes": "Capa curricular generada por lote para 2o De lo Humano y lo Comunitario, PPA 1.",
+    "sourcesUsed": [
+      "public/caracoles/data/generated/grade-2/selectable-projects.json",
+      "content/caracoles/generated-private/grade-2/pages-index.full.json",
+      "Posibilidades de uso DHyC, segundo grado, pp. 6-7",
+      "Nuestro libro de proyectos Tomo I, segundo grado, pp. 247-261",
+      "De lo Humano y lo Comunitario, segundo grado, pp. 183-198; Nuestro libro de proyectos Tomo I pp. 249-260."
+    ],
+    "partialClassroomProjectContext": {
+      "expectationHorizon": {
+        "officialText": "",
+        "sourcePages": [
+          "Nuestro libro de proyectos Tomo I pp. 247-248",
+          "Posibilidades de uso DHyC pp. 6-7"
+        ],
+        "evidence": "El PPA 1 articula proyecto de vida, plan de accion y potencial personal para tomar decisiones con sentido.",
+        "status": "pending"
+      },
+      "ppaDetonatingStrategy": {
+        "title": "¡A resolver, construir y reconstruir!",
+        "type": "video",
+        "url": "",
+        "urlStatus": "pending-url",
+        "reference": "bit.ly/3VfglUk",
+        "source": "Nuestro libro de proyectos Tomo I pp. 247-248 + Posibilidades de uso DHyC pp. 6-7",
+        "scope": "partial-classroom-project",
+        "youtubeSearchQuery": "¡A resolver, construir y reconstruir! De lo Humano y lo Comunitario 2do grado Telesecundaria"
+      },
+      "ppaDigitalResource": {
+        "title": "Recurso informatico del bloque PPA 1",
+        "reference": "bit.ly/3WQBMwg",
+        "status": "pending-validation",
+        "source": "Nuestro libro de proyectos Tomo I pp. 247-261"
+      },
+      "validationStatus": {
+        "needsHumanReview": true,
+        "needsReviewReasons": [
+          "Las pp. 6-7 de Posibilidades pertenecen al mismo PPA 1.",
+          "La asignacion de apoyos por columna se fija por inferencia curricular documentada de izquierda a derecha.",
+          "Los enlaces cortos del video del PPA y del recurso informatico se mantienen en cautela hasta localizar un destino oficial confirmado."
+        ]
+      },
+      "columnValidation": {
+        "possibilitiesPagesReviewed": [
+          6,
+          7
+        ],
+        "confirmedAsPpa": true,
+        "note": "Las pp. 6-7 corresponden al PPA 1 ¡A resolver, construir y reconstruir!. Las tres columnas se sostienen por el orden de proyectos, productos y apoyos del mismo bloque.",
+        "columns": [
+          {
+            "columnIndex": 1,
+            "projectId": "de-lo-humano-y-lo-comunitario-2-ppa-1-pa1",
+            "projectTitle": "Entrevistas para un proyecto de vida",
+            "finalProduct": "Producto de cierre del proyecto",
+            "supportMaterials": [
+              "Proyecto de vida y comunidad, pp. 183-186"
+            ]
+          },
+          {
+            "columnIndex": 2,
+            "projectId": "de-lo-humano-y-lo-comunitario-2-ppa-1-pa2",
+            "projectTitle": "¡Para actuar necesitamos un plan!",
+            "finalProduct": "Producto de cierre del proyecto",
+            "supportMaterials": [
+              "Planeacion para tomar decisiones, pp. 187-190"
+            ]
+          },
+          {
+            "columnIndex": 3,
+            "projectId": "de-lo-humano-y-lo-comunitario-2-ppa-1-pa3",
+            "projectTitle": "Direccionando mi potencial",
+            "finalProduct": "Producto de cierre del proyecto",
+            "supportMaterials": [
+              "Sentido de pertenencia e identidad, pp. 195-198"
+            ]
+          }
+        ]
+      }
+    },
+    "academicProjects": [
+      {
+        "id": "de-lo-humano-y-lo-comunitario-2-ppa-1-pa1",
+        "projectId": "de-lo-humano-y-lo-comunitario-2-ppa-1-pa1",
+        "academicProjectNumber": 1,
+        "title": "Entrevistas para un proyecto de vida",
+        "projectTitle": "Entrevistas para un proyecto de vida",
+        "grade": "2",
+        "field": "De lo Humano y lo Comunitario",
+        "ppaNumber": "1",
+        "partialClassroomProject": "PPA 1",
+        "partialClassroomProjectTitle": "¡A resolver, construir y reconstruir!",
+        "bookVolume": "Tomo I",
+        "sourceValidation": {
+          "sourceStatus": "linked",
+          "possibilitiesPages": [
+            6,
+            7
+          ],
+          "possibilitiesMaterialId": "grade-2-posibilidades-pos-dhc-2",
+          "possibilitiesColumnIndex": 1,
+          "columnEvidence": "Bloque PPA 1 ¡A resolver, construir y reconstruir! localizado en pp. 6-7; la columna 1 se confirma por el orden de proyectos, productos y continuidad del mismo bloque."
+        },
+        "finalProduct": {
+          "title": "Producto de cierre del proyecto",
+          "source": "Posibilidades de uso DHyC pp. 6-7 + Nuestro libro de proyectos Tomo I pp. 249-252",
+          "status": "confirmed"
+        },
+        "sourcePages": {
+          "nuestroLibroProyectos": [
+            {
+              "materialId": "grade-2-proyectos-nuestro-libro-de-proyectos-tomo-1-segundo-grado",
+              "label": "Nuestro libro de proyectos Tomo I",
+              "startPage": 249,
+              "endPage": 252,
+              "pagesLabel": "pp. 249-252",
+              "topicTitle": "Proyecto academico 1",
+              "status": "confirmed-source"
+            }
+          ],
+          "conceptBook": [
+            {
+              "materialId": "grade-2-conceptos-de-lo-humano-y-lo-comunitario-segundo-grado",
+              "label": "De lo Humano y lo Comunitario",
+              "startPage": 183,
+              "endPage": 186,
+              "pagesLabel": "pp. 183-186",
+              "topicTitle": "Proyecto de vida y toma de decisiones",
+              "status": "confirmed-by-column-inference"
+            },
+            {
+              "materialId": "grade-2-conceptos-de-lo-humano-y-lo-comunitario-segundo-grado",
+              "label": "De lo Humano y lo Comunitario",
+              "startPage": 187,
+              "endPage": 190,
+              "pagesLabel": "pp. 187-190",
+              "topicTitle": "Metas, intereses y decisiones personales",
+              "status": "confirmed-by-column-inference"
+            }
+          ],
+          "multiplesLenguajes": [
+            {
+              "materialId": "grade-2-apoyo-multiples-lenguajes-segundo-grado",
+              "label": "Multiples Lenguajes",
+              "startPage": 183,
+              "endPage": 186,
+              "pagesLabel": "pp. 183-186",
+              "topicTitle": "Proyecto de vida y comunidad",
+              "status": "confirmed-by-field-source"
+            }
+          ],
+          "otherMaterials": [
+            {
+              "label": "Video PA 1: 1. ¡A resolver, construir y reconstruir! • De lo humano y lo comunitario • 2do grado",
+              "reference": "https://www.youtube.com/watch?v=dnES1cUil8k",
+              "status": "confirmed"
+            },
+            {
+              "label": "Video PPA 1: 1. ¡A resolver, construir y reconstruir! • De lo humano y lo comunitario • 2do grado",
+              "reference": "https://www.youtube.com/watch?v=dnES1cUil8k",
+              "status": "confirmed"
+            }
+          ]
+        },
+        "supportMaterials": [
+          {
+            "title": "Proyecto de vida y comunidad",
+            "kind": "Multiples Lenguajes",
+            "pages": "pp. 183-186",
+            "status": "confirmed-by-field-source"
+          }
+        ],
+        "horizonOrPurpose": {
+          "status": "pending",
+          "text": "",
+          "source": "Nuestro libro de proyectos Tomo I p. 249"
+        },
+        "projectExpectationHorizon": {
+          "officialText": "",
+          "studentVersion": "",
+          "sourcePages": [
+            "Nuestro libro de proyectos Tomo I p. 249"
+          ],
+          "evidence": "El proyecto ya cuenta con producto, conceptos y articulacion pedagogica, pero el horizonte textual exacto sigue pendiente de confirmacion literal.",
+          "status": "pending"
+        },
+        "detonatingStrategy": {
+          "title": "1. ¡A resolver, construir y reconstruir! • De lo humano y lo comunitario • 2do grado",
+          "text": "Video del Proyecto Parcial de Aula 1: 1. ¡A resolver, construir y reconstruir! • De lo humano y lo comunitario • 2do grado",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=dnES1cUil8k",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "partial-classroom-project"
+        },
+        "academicProjectStrategy": {
+          "title": "1. ¡A resolver, construir y reconstruir! • De lo humano y lo comunitario • 2do grado",
+          "text": "Video detonador del Proyecto Academico 1: Entrevistas para un proyecto de vida",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=dnES1cUil8k",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "academic-project"
+        },
+        "academicConcepts": [
+          {
+            "concept": "producto de cierre del proyecto",
+            "description": "Producto de cierre del proyecto como producto de cierre para organizar y comunicar aprendizajes del proyecto.",
+            "sourceBook": "Nuestro libro de proyectos Tomo I",
+            "sourcePages": [
+              249,
+              252
+            ],
+            "sourcePagesLabel": "pp. 249-252",
+            "topicTitle": "Proyecto academico 1",
+            "status": "confirmed",
+            "reason": "Posibilidades y el propio proyecto fijan Producto de cierre del proyecto como producto final del PA 1.",
+            "pedagogicalUse": "Da una forma concreta de socializar lo comprendido sobre el proyecto de vida y las decisiones que orientan metas personales y comunitarias.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "proyecto de vida",
+            "description": "Proyecto de vida es una idea clave para comprender el proyecto de vida y las decisiones que orientan metas personales y comunitarias.",
+            "sourceBook": "De lo Humano y lo Comunitario",
+            "sourcePages": [
+              183,
+              186
+            ],
+            "sourcePagesLabel": "pp. 183-186",
+            "topicTitle": "Proyecto de vida y toma de decisiones",
+            "status": "confirmed",
+            "reason": "La fuente validada \"Proyecto de vida y toma de decisiones\" aporta base suficiente para trabajar proyecto de vida dentro del proyecto 1.",
+            "pedagogicalUse": "Ayuda a fortalecer producto de cierre del proyecto y a explicar el proyecto de vida y las decisiones que orientan metas personales y comunitarias con mayor claridad mediante proyecto de vida.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "metas",
+            "description": "Metas es una idea clave para comprender el proyecto de vida y las decisiones que orientan metas personales y comunitarias.",
+            "sourceBook": "De lo Humano y lo Comunitario",
+            "sourcePages": [
+              187,
+              190
+            ],
+            "sourcePagesLabel": "pp. 187-190",
+            "topicTitle": "Metas, intereses y decisiones personales",
+            "status": "confirmed",
+            "reason": "La fuente validada \"Metas, intereses y decisiones personales\" aporta base suficiente para trabajar metas dentro del proyecto 1.",
+            "pedagogicalUse": "Ayuda a fortalecer producto de cierre del proyecto y a explicar el proyecto de vida y las decisiones que orientan metas personales y comunitarias con mayor claridad mediante metas.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "decisiones",
+            "description": "Decisiones es una idea clave para comprender el proyecto de vida y las decisiones que orientan metas personales y comunitarias.",
+            "sourceBook": "De lo Humano y lo Comunitario",
+            "sourcePages": [
+              183,
+              186
+            ],
+            "sourcePagesLabel": "pp. 183-186",
+            "topicTitle": "Proyecto de vida y toma de decisiones",
+            "status": "confirmed",
+            "reason": "La fuente validada \"Proyecto de vida y toma de decisiones\" aporta base suficiente para trabajar decisiones dentro del proyecto 1.",
+            "pedagogicalUse": "Ayuda a fortalecer producto de cierre del proyecto y a explicar el proyecto de vida y las decisiones que orientan metas personales y comunitarias con mayor claridad mediante decisiones.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "entrevista",
+            "description": "Entrevista es una idea clave para comprender el proyecto de vida y las decisiones que orientan metas personales y comunitarias.",
+            "sourceBook": "Nuestro libro de proyectos Tomo I",
+            "sourcePages": [
+              183,
+              186
+            ],
+            "sourcePagesLabel": "pp. 183-186",
+            "topicTitle": "Proyecto de vida y toma de decisiones",
+            "status": "confirmed",
+            "reason": "La fuente validada \"Proyecto de vida y toma de decisiones\" aporta base suficiente para trabajar entrevista dentro del proyecto 1.",
+            "pedagogicalUse": "Ayuda a fortalecer producto de cierre del proyecto y a explicar el proyecto de vida y las decisiones que orientan metas personales y comunitarias con mayor claridad mediante entrevista.",
+            "activityReadiness": "usable-for-autoevaluation"
+          }
+        ],
+        "thinkingCriteria": [
+          "Relacionar el proyecto de vida y las decisiones que orientan metas personales y comunitarias con situaciones cercanas a la comunidad.",
+          "Usar producto de cierre del proyecto para explicar y no solo para recopilar informacion.",
+          "Distinguir entre mencionar conceptos y comprender como dialogan entre si dentro del proyecto."
+        ],
+        "validationStatus": {
+          "readinessLevel": "development-partial",
+          "readyForActivities": false,
+          "needsReviewReasons": [
+            "El bloque 1 ya es usable como lectura docente, pero el video del PPA 1 y el recurso informatico siguen pendientes de validacion de destino final.",
+            "La asignacion de apoyos de Posibilidades se sostiene por inferencia curricular documentada y no por OCR perfectamente separado por columnas.",
+            "No mover a actividades interactivas ni desbloquear juegos completos hasta ampliar validacion de videos y recursos complementarios."
+          ]
+        },
+        "readinessLevel": "development-partial",
+        "readyForActivities": false,
+        "needsReviewReasons": [
+          "No mover a actividades interactivas ni desbloquear juegos completos."
+        ],
+        "roleInPpa": "Abre el bloque con preguntas sobre aspiraciones, intereses y experiencias que ayudan a construir un proyecto de vida.",
+        "pedagogicalUse": "Conviene trabajar Entrevistas para un proyecto de vida como una oportunidad para profundizar en el proyecto de vida y las decisiones que orientan metas personales y comunitarias sin separar contenido, comunidad y producto final.",
+        "teacherNotes": [
+          "Conviene partir de ejemplos cercanos y después pasar al lenguaje mas abstracto del campo.",
+          "El producto Producto de cierre del proyecto gana fuerza cuando se usa para explicar y no solo para exhibir informacion.",
+          "Es mejor seleccionar pocos conceptos bien comprendidos que saturar el trabajo con terminos aislados."
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Qué comprendes mejor sobre el proyecto de vida y las decisiones que orientan metas personales y comunitarias después de elaborar producto de cierre del proyecto?"
+          },
+          {
+            "type": "community",
+            "prompt": "¿Qué diálogos comunitarios podrían fortalecerse si compartimos producto de cierre del proyecto y lo ponemos en conversación con otras personas?"
+          }
+        ],
+        "notReadyFor": [
+          "full-games",
+          "summative-exam"
+        ]
+      },
+      {
+        "id": "de-lo-humano-y-lo-comunitario-2-ppa-1-pa2",
+        "projectId": "de-lo-humano-y-lo-comunitario-2-ppa-1-pa2",
+        "academicProjectNumber": 2,
+        "title": "¡Para actuar necesitamos un plan!",
+        "projectTitle": "¡Para actuar necesitamos un plan!",
+        "grade": "2",
+        "field": "De lo Humano y lo Comunitario",
+        "ppaNumber": "1",
+        "partialClassroomProject": "PPA 1",
+        "partialClassroomProjectTitle": "¡A resolver, construir y reconstruir!",
+        "bookVolume": "Tomo I",
+        "sourceValidation": {
+          "sourceStatus": "linked",
+          "possibilitiesPages": [
+            6,
+            7
+          ],
+          "possibilitiesMaterialId": "grade-2-posibilidades-pos-dhc-2",
+          "possibilitiesColumnIndex": 2,
+          "columnEvidence": "Bloque PPA 1 ¡A resolver, construir y reconstruir! localizado en pp. 6-7; la columna 2 se confirma por el orden de proyectos, productos y continuidad del mismo bloque."
+        },
+        "finalProduct": {
+          "title": "Producto de cierre del proyecto",
+          "source": "Posibilidades de uso DHyC pp. 6-7 + Nuestro libro de proyectos Tomo I pp. 253-256",
+          "status": "confirmed"
+        },
+        "sourcePages": {
+          "nuestroLibroProyectos": [
+            {
+              "materialId": "grade-2-proyectos-nuestro-libro-de-proyectos-tomo-1-segundo-grado",
+              "label": "Nuestro libro de proyectos Tomo I",
+              "startPage": 253,
+              "endPage": 256,
+              "pagesLabel": "pp. 253-256",
+              "topicTitle": "Proyecto academico 2",
+              "status": "confirmed-source"
+            }
+          ],
+          "conceptBook": [
+            {
+              "materialId": "grade-2-conceptos-de-lo-humano-y-lo-comunitario-segundo-grado",
+              "label": "De lo Humano y lo Comunitario",
+              "startPage": 187,
+              "endPage": 190,
+              "pagesLabel": "pp. 187-190",
+              "topicTitle": "Tomar decisiones y organizar acciones",
+              "status": "confirmed-by-column-inference"
+            },
+            {
+              "materialId": "grade-2-conceptos-de-lo-humano-y-lo-comunitario-segundo-grado",
+              "label": "De lo Humano y lo Comunitario",
+              "startPage": 191,
+              "endPage": 194,
+              "pagesLabel": "pp. 191-194",
+              "topicTitle": "Plan de accion y seguimiento de metas",
+              "status": "confirmed-by-column-inference"
+            }
+          ],
+          "multiplesLenguajes": [
+            {
+              "materialId": "grade-2-apoyo-multiples-lenguajes-segundo-grado",
+              "label": "Multiples Lenguajes",
+              "startPage": 187,
+              "endPage": 190,
+              "pagesLabel": "pp. 187-190",
+              "topicTitle": "Planeacion para tomar decisiones",
+              "status": "confirmed-by-field-source"
+            }
+          ],
+          "otherMaterials": [
+            {
+              "label": "Video PA 2: Plan de acción • De lo humano y lo comunitario • 2do grado",
+              "reference": "https://www.youtube.com/watch?v=ZHhNGay_zas",
+              "status": "confirmed"
+            },
+            {
+              "label": "Video PPA 1: 1. ¡A resolver, construir y reconstruir! • De lo humano y lo comunitario • 2do grado",
+              "reference": "https://www.youtube.com/watch?v=dnES1cUil8k",
+              "status": "confirmed"
+            }
+          ]
+        },
+        "supportMaterials": [
+          {
+            "title": "Planeacion para tomar decisiones",
+            "kind": "Multiples Lenguajes",
+            "pages": "pp. 187-190",
+            "status": "confirmed-by-field-source"
+          }
+        ],
+        "horizonOrPurpose": {
+          "status": "pending",
+          "text": "",
+          "source": "Nuestro libro de proyectos Tomo I p. 253"
+        },
+        "projectExpectationHorizon": {
+          "officialText": "",
+          "studentVersion": "",
+          "sourcePages": [
+            "Nuestro libro de proyectos Tomo I p. 253"
+          ],
+          "evidence": "El proyecto ya cuenta con producto, conceptos y articulacion pedagogica, pero el horizonte textual exacto sigue pendiente de confirmacion literal.",
+          "status": "pending"
+        },
+        "detonatingStrategy": {
+          "title": "1. ¡A resolver, construir y reconstruir! • De lo humano y lo comunitario • 2do grado",
+          "text": "Video del Proyecto Parcial de Aula 1: 1. ¡A resolver, construir y reconstruir! • De lo humano y lo comunitario • 2do grado",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=dnES1cUil8k",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "partial-classroom-project"
+        },
+        "academicProjectStrategy": {
+          "title": "Plan de acción • De lo humano y lo comunitario • 2do grado",
+          "text": "Video detonador del Proyecto Academico 2: ¡Para actuar necesitamos un plan!",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=ZHhNGay_zas",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "academic-project"
+        },
+        "academicConcepts": [
+          {
+            "concept": "producto de cierre del proyecto",
+            "description": "Producto de cierre del proyecto como producto de cierre para organizar y comunicar aprendizajes del proyecto.",
+            "sourceBook": "Nuestro libro de proyectos Tomo I",
+            "sourcePages": [
+              253,
+              256
+            ],
+            "sourcePagesLabel": "pp. 253-256",
+            "topicTitle": "Proyecto academico 2",
+            "status": "confirmed",
+            "reason": "Posibilidades y el propio proyecto fijan Producto de cierre del proyecto como producto final del PA 2.",
+            "pedagogicalUse": "Da una forma concreta de socializar lo comprendido sobre la planeacion de acciones para organizar decisiones y resolver necesidades cercanas.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "plan de accion",
+            "description": "Plan de accion es una idea clave para comprender la planeacion de acciones para organizar decisiones y resolver necesidades cercanas.",
+            "sourceBook": "De lo Humano y lo Comunitario",
+            "sourcePages": [
+              191,
+              194
+            ],
+            "sourcePagesLabel": "pp. 191-194",
+            "topicTitle": "Plan de accion y seguimiento de metas",
+            "status": "confirmed",
+            "reason": "La fuente validada \"Plan de accion y seguimiento de metas\" aporta base suficiente para trabajar plan de accion dentro del proyecto 2.",
+            "pedagogicalUse": "Ayuda a fortalecer producto de cierre del proyecto y a explicar la planeacion de acciones para organizar decisiones y resolver necesidades cercanas con mayor claridad mediante plan de accion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "organizacion",
+            "description": "Organizacion es una idea clave para comprender la planeacion de acciones para organizar decisiones y resolver necesidades cercanas.",
+            "sourceBook": "De lo Humano y lo Comunitario",
+            "sourcePages": [
+              191,
+              194
+            ],
+            "sourcePagesLabel": "pp. 191-194",
+            "topicTitle": "Plan de accion y seguimiento de metas",
+            "status": "confirmed",
+            "reason": "La fuente validada \"Plan de accion y seguimiento de metas\" aporta base suficiente para trabajar organizacion dentro del proyecto 2.",
+            "pedagogicalUse": "Ayuda a fortalecer producto de cierre del proyecto y a explicar la planeacion de acciones para organizar decisiones y resolver necesidades cercanas con mayor claridad mediante organizacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "seguimiento",
+            "description": "Seguimiento es una idea clave para comprender la planeacion de acciones para organizar decisiones y resolver necesidades cercanas.",
+            "sourceBook": "De lo Humano y lo Comunitario",
+            "sourcePages": [
+              191,
+              194
+            ],
+            "sourcePagesLabel": "pp. 191-194",
+            "topicTitle": "Plan de accion y seguimiento de metas",
+            "status": "confirmed",
+            "reason": "La fuente validada \"Plan de accion y seguimiento de metas\" aporta base suficiente para trabajar seguimiento dentro del proyecto 2.",
+            "pedagogicalUse": "Ayuda a fortalecer producto de cierre del proyecto y a explicar la planeacion de acciones para organizar decisiones y resolver necesidades cercanas con mayor claridad mediante seguimiento.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "responsabilidad",
+            "description": "Responsabilidad es una idea clave para comprender la planeacion de acciones para organizar decisiones y resolver necesidades cercanas.",
+            "sourceBook": "De lo Humano y lo Comunitario",
+            "sourcePages": [
+              187,
+              190
+            ],
+            "sourcePagesLabel": "pp. 187-190",
+            "topicTitle": "Tomar decisiones y organizar acciones",
+            "status": "confirmed",
+            "reason": "La fuente validada \"Tomar decisiones y organizar acciones\" aporta base suficiente para trabajar responsabilidad dentro del proyecto 2.",
+            "pedagogicalUse": "Ayuda a fortalecer producto de cierre del proyecto y a explicar la planeacion de acciones para organizar decisiones y resolver necesidades cercanas con mayor claridad mediante responsabilidad.",
+            "activityReadiness": "usable-for-autoevaluation"
+          }
+        ],
+        "thinkingCriteria": [
+          "Relacionar la planeacion de acciones para organizar decisiones y resolver necesidades cercanas con situaciones cercanas a la comunidad.",
+          "Usar producto de cierre del proyecto para explicar y no solo para recopilar informacion.",
+          "Distinguir entre mencionar conceptos y comprender como dialogan entre si dentro del proyecto."
+        ],
+        "validationStatus": {
+          "readinessLevel": "development-partial",
+          "readyForActivities": false,
+          "needsReviewReasons": [
+            "El bloque 1 ya es usable como lectura docente, pero el video del PPA 1 y el recurso informatico siguen pendientes de validacion de destino final.",
+            "La asignacion de apoyos de Posibilidades se sostiene por inferencia curricular documentada y no por OCR perfectamente separado por columnas.",
+            "No mover a actividades interactivas ni desbloquear juegos completos hasta ampliar validacion de videos y recursos complementarios."
+          ]
+        },
+        "readinessLevel": "development-partial",
+        "readyForActivities": false,
+        "needsReviewReasons": [
+          "No mover a actividades interactivas ni desbloquear juegos completos."
+        ],
+        "roleInPpa": "Profundiza el bloque al convertir las decisiones en pasos organizados y realizables.",
+        "pedagogicalUse": "Conviene trabajar ¡Para actuar necesitamos un plan! como una oportunidad para profundizar en la planeacion de acciones para organizar decisiones y resolver necesidades cercanas sin separar contenido, comunidad y producto final.",
+        "teacherNotes": [
+          "Conviene partir de ejemplos cercanos y después pasar al lenguaje mas abstracto del campo.",
+          "El producto Producto de cierre del proyecto gana fuerza cuando se usa para explicar y no solo para exhibir informacion.",
+          "Es mejor seleccionar pocos conceptos bien comprendidos que saturar el trabajo con terminos aislados."
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Qué comprendes mejor sobre la planeacion de acciones para organizar decisiones y resolver necesidades cercanas después de elaborar producto de cierre del proyecto?"
+          },
+          {
+            "type": "community",
+            "prompt": "¿Qué diálogos comunitarios podrían fortalecerse si compartimos producto de cierre del proyecto y lo ponemos en conversación con otras personas?"
+          }
+        ],
+        "notReadyFor": [
+          "full-games",
+          "summative-exam"
+        ]
+      },
+      {
+        "id": "de-lo-humano-y-lo-comunitario-2-ppa-1-pa3",
+        "projectId": "de-lo-humano-y-lo-comunitario-2-ppa-1-pa3",
+        "academicProjectNumber": 3,
+        "title": "Direccionando mi potencial",
+        "projectTitle": "Direccionando mi potencial",
+        "grade": "2",
+        "field": "De lo Humano y lo Comunitario",
+        "ppaNumber": "1",
+        "partialClassroomProject": "PPA 1",
+        "partialClassroomProjectTitle": "¡A resolver, construir y reconstruir!",
+        "bookVolume": "Tomo I",
+        "sourceValidation": {
+          "sourceStatus": "linked",
+          "possibilitiesPages": [
+            6,
+            7
+          ],
+          "possibilitiesMaterialId": "grade-2-posibilidades-pos-dhc-2",
+          "possibilitiesColumnIndex": 3,
+          "columnEvidence": "Bloque PPA 1 ¡A resolver, construir y reconstruir! localizado en pp. 6-7; la columna 3 se confirma por el orden de proyectos, productos y continuidad del mismo bloque."
+        },
+        "finalProduct": {
+          "title": "Producto de cierre del proyecto",
+          "source": "Posibilidades de uso DHyC pp. 6-7 + Nuestro libro de proyectos Tomo I pp. 257-261",
+          "status": "confirmed"
+        },
+        "sourcePages": {
+          "nuestroLibroProyectos": [
+            {
+              "materialId": "grade-2-proyectos-nuestro-libro-de-proyectos-tomo-1-segundo-grado",
+              "label": "Nuestro libro de proyectos Tomo I",
+              "startPage": 257,
+              "endPage": 261,
+              "pagesLabel": "pp. 257-261",
+              "topicTitle": "Proyecto academico 3",
+              "status": "confirmed-source"
+            }
+          ],
+          "conceptBook": [
+            {
+              "materialId": "grade-2-conceptos-de-lo-humano-y-lo-comunitario-segundo-grado",
+              "label": "De lo Humano y lo Comunitario",
+              "startPage": 195,
+              "endPage": 198,
+              "pagesLabel": "pp. 195-198",
+              "topicTitle": "Sentido de pertenencia e identidad",
+              "status": "confirmed-by-column-inference"
+            },
+            {
+              "materialId": "grade-2-conceptos-de-lo-humano-y-lo-comunitario-segundo-grado",
+              "label": "De lo Humano y lo Comunitario",
+              "startPage": 183,
+              "endPage": 186,
+              "pagesLabel": "pp. 183-186",
+              "topicTitle": "Proyecto de vida y decisiones",
+              "status": "confirmed-by-column-inference"
+            }
+          ],
+          "multiplesLenguajes": [
+            {
+              "materialId": "grade-2-apoyo-multiples-lenguajes-segundo-grado",
+              "label": "Multiples Lenguajes",
+              "startPage": 195,
+              "endPage": 198,
+              "pagesLabel": "pp. 195-198",
+              "topicTitle": "Sentido de pertenencia e identidad",
+              "status": "confirmed-by-field-source"
+            }
+          ],
+          "otherMaterials": [
+            {
+              "label": "Video PA 3: Brújula personal • De lo humano y lo comunitario • 2do grado",
+              "reference": "https://www.youtube.com/watch?v=9mvoEOcerWU",
+              "status": "confirmed"
+            },
+            {
+              "label": "Video PPA 1: 1. ¡A resolver, construir y reconstruir! • De lo humano y lo comunitario • 2do grado",
+              "reference": "https://www.youtube.com/watch?v=dnES1cUil8k",
+              "status": "confirmed"
+            }
+          ]
+        },
+        "supportMaterials": [
+          {
+            "title": "Sentido de pertenencia e identidad",
+            "kind": "Multiples Lenguajes",
+            "pages": "pp. 195-198",
+            "status": "confirmed-by-field-source"
+          }
+        ],
+        "horizonOrPurpose": {
+          "status": "pending",
+          "text": "",
+          "source": "Nuestro libro de proyectos Tomo I p. 257"
+        },
+        "projectExpectationHorizon": {
+          "officialText": "",
+          "studentVersion": "",
+          "sourcePages": [
+            "Nuestro libro de proyectos Tomo I p. 257"
+          ],
+          "evidence": "El proyecto ya cuenta con producto, conceptos y articulacion pedagogica, pero el horizonte textual exacto sigue pendiente de confirmacion literal.",
+          "status": "pending"
+        },
+        "detonatingStrategy": {
+          "title": "1. ¡A resolver, construir y reconstruir! • De lo humano y lo comunitario • 2do grado",
+          "text": "Video del Proyecto Parcial de Aula 1: 1. ¡A resolver, construir y reconstruir! • De lo humano y lo comunitario • 2do grado",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=dnES1cUil8k",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "partial-classroom-project"
+        },
+        "academicProjectStrategy": {
+          "title": "Brújula personal • De lo humano y lo comunitario • 2do grado",
+          "text": "Video detonador del Proyecto Academico 3: Direccionando mi potencial",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=9mvoEOcerWU",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "academic-project"
+        },
+        "academicConcepts": [
+          {
+            "concept": "producto de cierre del proyecto",
+            "description": "Producto de cierre del proyecto como producto de cierre para organizar y comunicar aprendizajes del proyecto.",
+            "sourceBook": "Nuestro libro de proyectos Tomo I",
+            "sourcePages": [
+              257,
+              261
+            ],
+            "sourcePagesLabel": "pp. 257-261",
+            "topicTitle": "Proyecto academico 3",
+            "status": "confirmed",
+            "reason": "Posibilidades y el propio proyecto fijan Producto de cierre del proyecto como producto final del PA 3.",
+            "pedagogicalUse": "Da una forma concreta de socializar lo comprendido sobre el reconocimiento del potencial personal para dirigir metas y fortalecer el sentido de pertenencia.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "potencial",
+            "description": "Potencial es una idea clave para comprender el reconocimiento del potencial personal para dirigir metas y fortalecer el sentido de pertenencia.",
+            "sourceBook": "De lo Humano y lo Comunitario",
+            "sourcePages": [
+              183,
+              186
+            ],
+            "sourcePagesLabel": "pp. 183-186",
+            "topicTitle": "Proyecto de vida y decisiones",
+            "status": "confirmed",
+            "reason": "La fuente validada \"Proyecto de vida y decisiones\" aporta base suficiente para trabajar potencial dentro del proyecto 3.",
+            "pedagogicalUse": "Ayuda a fortalecer producto de cierre del proyecto y a explicar el reconocimiento del potencial personal para dirigir metas y fortalecer el sentido de pertenencia con mayor claridad mediante potencial.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "identidad",
+            "description": "Identidad es una idea clave para comprender el reconocimiento del potencial personal para dirigir metas y fortalecer el sentido de pertenencia.",
+            "sourceBook": "De lo Humano y lo Comunitario",
+            "sourcePages": [
+              195,
+              198
+            ],
+            "sourcePagesLabel": "pp. 195-198",
+            "topicTitle": "Sentido de pertenencia e identidad",
+            "status": "confirmed",
+            "reason": "La fuente validada \"Sentido de pertenencia e identidad\" aporta base suficiente para trabajar identidad dentro del proyecto 3.",
+            "pedagogicalUse": "Ayuda a fortalecer producto de cierre del proyecto y a explicar el reconocimiento del potencial personal para dirigir metas y fortalecer el sentido de pertenencia con mayor claridad mediante identidad.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "pertenencia",
+            "description": "Pertenencia es una idea clave para comprender el reconocimiento del potencial personal para dirigir metas y fortalecer el sentido de pertenencia.",
+            "sourceBook": "De lo Humano y lo Comunitario",
+            "sourcePages": [
+              195,
+              198
+            ],
+            "sourcePagesLabel": "pp. 195-198",
+            "topicTitle": "Sentido de pertenencia e identidad",
+            "status": "confirmed",
+            "reason": "La fuente validada \"Sentido de pertenencia e identidad\" aporta base suficiente para trabajar pertenencia dentro del proyecto 3.",
+            "pedagogicalUse": "Ayuda a fortalecer producto de cierre del proyecto y a explicar el reconocimiento del potencial personal para dirigir metas y fortalecer el sentido de pertenencia con mayor claridad mediante pertenencia.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "autoconocimiento",
+            "description": "Autoconocimiento es una idea clave para comprender el reconocimiento del potencial personal para dirigir metas y fortalecer el sentido de pertenencia.",
+            "sourceBook": "De lo Humano y lo Comunitario",
+            "sourcePages": [
+              183,
+              186
+            ],
+            "sourcePagesLabel": "pp. 183-186",
+            "topicTitle": "Proyecto de vida y decisiones",
+            "status": "confirmed",
+            "reason": "La fuente validada \"Proyecto de vida y decisiones\" aporta base suficiente para trabajar autoconocimiento dentro del proyecto 3.",
+            "pedagogicalUse": "Ayuda a fortalecer producto de cierre del proyecto y a explicar el reconocimiento del potencial personal para dirigir metas y fortalecer el sentido de pertenencia con mayor claridad mediante autoconocimiento.",
+            "activityReadiness": "usable-for-autoevaluation"
+          }
+        ],
+        "thinkingCriteria": [
+          "Relacionar el reconocimiento del potencial personal para dirigir metas y fortalecer el sentido de pertenencia con situaciones cercanas a la comunidad.",
+          "Usar producto de cierre del proyecto para explicar y no solo para recopilar informacion.",
+          "Distinguir entre mencionar conceptos y comprender como dialogan entre si dentro del proyecto."
+        ],
+        "validationStatus": {
+          "readinessLevel": "development-partial",
+          "readyForActivities": false,
+          "needsReviewReasons": [
+            "El bloque 1 ya es usable como lectura docente, pero el video del PPA 1 y el recurso informatico siguen pendientes de validacion de destino final.",
+            "La asignacion de apoyos de Posibilidades se sostiene por inferencia curricular documentada y no por OCR perfectamente separado por columnas.",
+            "No mover a actividades interactivas ni desbloquear juegos completos hasta ampliar validacion de videos y recursos complementarios."
+          ]
+        },
+        "readinessLevel": "development-partial",
+        "readyForActivities": false,
+        "needsReviewReasons": [
+          "No mover a actividades interactivas ni desbloquear juegos completos."
+        ],
+        "roleInPpa": "Cierra el bloque al relacionar potencial, pertenencia y decisiones para orientar el proyecto de vida.",
+        "pedagogicalUse": "Conviene trabajar Direccionando mi potencial como una oportunidad para profundizar en el reconocimiento del potencial personal para dirigir metas y fortalecer el sentido de pertenencia sin separar contenido, comunidad y producto final.",
+        "teacherNotes": [
+          "Conviene partir de ejemplos cercanos y después pasar al lenguaje mas abstracto del campo.",
+          "El producto Producto de cierre del proyecto gana fuerza cuando se usa para explicar y no solo para exhibir informacion.",
+          "Es mejor seleccionar pocos conceptos bien comprendidos que saturar el trabajo con terminos aislados."
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Qué comprendes mejor sobre el reconocimiento del potencial personal para dirigir metas y fortalecer el sentido de pertenencia después de elaborar producto de cierre del proyecto?"
+          },
+          {
+            "type": "community",
+            "prompt": "¿Qué diálogos comunitarios podrían fortalecerse si compartimos producto de cierre del proyecto y lo ponemos en conversación con otras personas?"
+          }
+        ],
+        "notReadyFor": [
+          "full-games",
+          "summative-exam"
+        ]
+      }
+    ]
+  },
+  "conceptsValidation": {
+    "grade": "2",
+    "field": "De lo Humano y lo Comunitario",
+    "ppaNumber": "1",
+    "status": "concept-validation",
+    "generatedAt": "2026-06-04T15:48:47.580Z",
+    "entries": [
+      {
+        "projectId": "de-lo-humano-y-lo-comunitario-2-ppa-1-pa1",
+        "projectTitle": "Entrevistas para un proyecto de vida",
+        "concept": "producto de cierre del proyecto",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Nuestro libro de proyectos Tomo I",
+          "pages": [
+            249,
+            252
+          ],
+          "reason": "Posibilidades y el propio proyecto fijan Producto de cierre del proyecto como producto final del PA 1."
+        },
+        "pedagogicalUse": "Da una forma concreta de socializar lo comprendido sobre el proyecto de vida y las decisiones que orientan metas personales y comunitarias.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "de-lo-humano-y-lo-comunitario-2-ppa-1-pa1",
+        "projectTitle": "Entrevistas para un proyecto de vida",
+        "concept": "proyecto de vida",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "pages": [
+            183,
+            186
+          ],
+          "reason": "La fuente validada \"Proyecto de vida y toma de decisiones\" aporta base suficiente para trabajar proyecto de vida dentro del proyecto 1."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer producto de cierre del proyecto y a explicar el proyecto de vida y las decisiones que orientan metas personales y comunitarias con mayor claridad mediante proyecto de vida.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "de-lo-humano-y-lo-comunitario-2-ppa-1-pa1",
+        "projectTitle": "Entrevistas para un proyecto de vida",
+        "concept": "metas",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "pages": [
+            187,
+            190
+          ],
+          "reason": "La fuente validada \"Metas, intereses y decisiones personales\" aporta base suficiente para trabajar metas dentro del proyecto 1."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer producto de cierre del proyecto y a explicar el proyecto de vida y las decisiones que orientan metas personales y comunitarias con mayor claridad mediante metas.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "de-lo-humano-y-lo-comunitario-2-ppa-1-pa1",
+        "projectTitle": "Entrevistas para un proyecto de vida",
+        "concept": "decisiones",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "pages": [
+            183,
+            186
+          ],
+          "reason": "La fuente validada \"Proyecto de vida y toma de decisiones\" aporta base suficiente para trabajar decisiones dentro del proyecto 1."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer producto de cierre del proyecto y a explicar el proyecto de vida y las decisiones que orientan metas personales y comunitarias con mayor claridad mediante decisiones.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "de-lo-humano-y-lo-comunitario-2-ppa-1-pa1",
+        "projectTitle": "Entrevistas para un proyecto de vida",
+        "concept": "entrevista",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Nuestro libro de proyectos Tomo I",
+          "pages": [
+            183,
+            186
+          ],
+          "reason": "La fuente validada \"Proyecto de vida y toma de decisiones\" aporta base suficiente para trabajar entrevista dentro del proyecto 1."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer producto de cierre del proyecto y a explicar el proyecto de vida y las decisiones que orientan metas personales y comunitarias con mayor claridad mediante entrevista.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "de-lo-humano-y-lo-comunitario-2-ppa-1-pa2",
+        "projectTitle": "¡Para actuar necesitamos un plan!",
+        "concept": "producto de cierre del proyecto",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Nuestro libro de proyectos Tomo I",
+          "pages": [
+            253,
+            256
+          ],
+          "reason": "Posibilidades y el propio proyecto fijan Producto de cierre del proyecto como producto final del PA 2."
+        },
+        "pedagogicalUse": "Da una forma concreta de socializar lo comprendido sobre la planeacion de acciones para organizar decisiones y resolver necesidades cercanas.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "de-lo-humano-y-lo-comunitario-2-ppa-1-pa2",
+        "projectTitle": "¡Para actuar necesitamos un plan!",
+        "concept": "plan de accion",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "pages": [
+            191,
+            194
+          ],
+          "reason": "La fuente validada \"Plan de accion y seguimiento de metas\" aporta base suficiente para trabajar plan de accion dentro del proyecto 2."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer producto de cierre del proyecto y a explicar la planeacion de acciones para organizar decisiones y resolver necesidades cercanas con mayor claridad mediante plan de accion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "de-lo-humano-y-lo-comunitario-2-ppa-1-pa2",
+        "projectTitle": "¡Para actuar necesitamos un plan!",
+        "concept": "organizacion",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "pages": [
+            191,
+            194
+          ],
+          "reason": "La fuente validada \"Plan de accion y seguimiento de metas\" aporta base suficiente para trabajar organizacion dentro del proyecto 2."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer producto de cierre del proyecto y a explicar la planeacion de acciones para organizar decisiones y resolver necesidades cercanas con mayor claridad mediante organizacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "de-lo-humano-y-lo-comunitario-2-ppa-1-pa2",
+        "projectTitle": "¡Para actuar necesitamos un plan!",
+        "concept": "seguimiento",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "pages": [
+            191,
+            194
+          ],
+          "reason": "La fuente validada \"Plan de accion y seguimiento de metas\" aporta base suficiente para trabajar seguimiento dentro del proyecto 2."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer producto de cierre del proyecto y a explicar la planeacion de acciones para organizar decisiones y resolver necesidades cercanas con mayor claridad mediante seguimiento.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "de-lo-humano-y-lo-comunitario-2-ppa-1-pa2",
+        "projectTitle": "¡Para actuar necesitamos un plan!",
+        "concept": "responsabilidad",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "pages": [
+            187,
+            190
+          ],
+          "reason": "La fuente validada \"Tomar decisiones y organizar acciones\" aporta base suficiente para trabajar responsabilidad dentro del proyecto 2."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer producto de cierre del proyecto y a explicar la planeacion de acciones para organizar decisiones y resolver necesidades cercanas con mayor claridad mediante responsabilidad.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "de-lo-humano-y-lo-comunitario-2-ppa-1-pa3",
+        "projectTitle": "Direccionando mi potencial",
+        "concept": "producto de cierre del proyecto",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Nuestro libro de proyectos Tomo I",
+          "pages": [
+            257,
+            261
+          ],
+          "reason": "Posibilidades y el propio proyecto fijan Producto de cierre del proyecto como producto final del PA 3."
+        },
+        "pedagogicalUse": "Da una forma concreta de socializar lo comprendido sobre el reconocimiento del potencial personal para dirigir metas y fortalecer el sentido de pertenencia.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "de-lo-humano-y-lo-comunitario-2-ppa-1-pa3",
+        "projectTitle": "Direccionando mi potencial",
+        "concept": "potencial",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "pages": [
+            183,
+            186
+          ],
+          "reason": "La fuente validada \"Proyecto de vida y decisiones\" aporta base suficiente para trabajar potencial dentro del proyecto 3."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer producto de cierre del proyecto y a explicar el reconocimiento del potencial personal para dirigir metas y fortalecer el sentido de pertenencia con mayor claridad mediante potencial.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "de-lo-humano-y-lo-comunitario-2-ppa-1-pa3",
+        "projectTitle": "Direccionando mi potencial",
+        "concept": "identidad",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "pages": [
+            195,
+            198
+          ],
+          "reason": "La fuente validada \"Sentido de pertenencia e identidad\" aporta base suficiente para trabajar identidad dentro del proyecto 3."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer producto de cierre del proyecto y a explicar el reconocimiento del potencial personal para dirigir metas y fortalecer el sentido de pertenencia con mayor claridad mediante identidad.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "de-lo-humano-y-lo-comunitario-2-ppa-1-pa3",
+        "projectTitle": "Direccionando mi potencial",
+        "concept": "pertenencia",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "pages": [
+            195,
+            198
+          ],
+          "reason": "La fuente validada \"Sentido de pertenencia e identidad\" aporta base suficiente para trabajar pertenencia dentro del proyecto 3."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer producto de cierre del proyecto y a explicar el reconocimiento del potencial personal para dirigir metas y fortalecer el sentido de pertenencia con mayor claridad mediante pertenencia.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "de-lo-humano-y-lo-comunitario-2-ppa-1-pa3",
+        "projectTitle": "Direccionando mi potencial",
+        "concept": "autoconocimiento",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "pages": [
+            183,
+            186
+          ],
+          "reason": "La fuente validada \"Proyecto de vida y decisiones\" aporta base suficiente para trabajar autoconocimiento dentro del proyecto 3."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer producto de cierre del proyecto y a explicar el reconocimiento del potencial personal para dirigir metas y fortalecer el sentido de pertenencia con mayor claridad mediante autoconocimiento.",
+        "activityReadiness": "usable-for-autoevaluation"
+      }
+    ]
+  },
+  "pedagogicalArticulation": {
+    "grade": "2",
+    "field": "De lo Humano y lo Comunitario",
+    "ppaNumber": "1",
+    "status": "teacher-orientation",
+    "officialHorizonStatus": "pending",
+    "situatedPedagogicalOrientation": "El PPA 1 articula proyecto de vida, plan de accion y potencial personal para tomar decisiones con sentido.",
+    "integratingQuestions": [
+      "Como dialogan producto de cierre del proyecto, producto de cierre del proyecto, producto de cierre del proyecto dentro del mismo PPA 1?",
+      "Que cambia en la comprension de el proyecto de vida, la toma de decisiones y la planeacion de acciones personales cuando el grupo pone en relacion conceptos, producto y comunidad?",
+      "Como convertir el producto final en una herramienta de explicacion y no solo de presentacion?"
+    ],
+    "projectConnections": [
+      {
+        "projectId": "de-lo-humano-y-lo-comunitario-2-ppa-1-pa1",
+        "projectTitle": "Entrevistas para un proyecto de vida",
+        "roleInPpa": "Abre el bloque con preguntas sobre aspiraciones, intereses y experiencias que ayudan a construir un proyecto de vida.",
+        "confirmedConcepts": [
+          "producto de cierre del proyecto",
+          "proyecto de vida",
+          "metas",
+          "decisiones",
+          "entrevista"
+        ],
+        "suggestedConcepts": [],
+        "pedagogicalUse": "Conviene trabajar Entrevistas para un proyecto de vida como una oportunidad para profundizar en el proyecto de vida y las decisiones que orientan metas personales y comunitarias sin separar contenido, comunidad y producto final."
+      },
+      {
+        "projectId": "de-lo-humano-y-lo-comunitario-2-ppa-1-pa2",
+        "projectTitle": "¡Para actuar necesitamos un plan!",
+        "roleInPpa": "Profundiza el bloque al convertir las decisiones en pasos organizados y realizables.",
+        "confirmedConcepts": [
+          "producto de cierre del proyecto",
+          "plan de accion",
+          "organizacion",
+          "seguimiento",
+          "responsabilidad"
+        ],
+        "suggestedConcepts": [],
+        "pedagogicalUse": "Conviene trabajar ¡Para actuar necesitamos un plan! como una oportunidad para profundizar en la planeacion de acciones para organizar decisiones y resolver necesidades cercanas sin separar contenido, comunidad y producto final."
+      },
+      {
+        "projectId": "de-lo-humano-y-lo-comunitario-2-ppa-1-pa3",
+        "projectTitle": "Direccionando mi potencial",
+        "roleInPpa": "Cierra el bloque al relacionar potencial, pertenencia y decisiones para orientar el proyecto de vida.",
+        "confirmedConcepts": [
+          "producto de cierre del proyecto",
+          "potencial",
+          "identidad",
+          "pertenencia",
+          "autoconocimiento"
+        ],
+        "suggestedConcepts": [],
+        "pedagogicalUse": "Conviene trabajar Direccionando mi potencial como una oportunidad para profundizar en el reconocimiento del potencial personal para dirigir metas y fortalecer el sentido de pertenencia sin separar contenido, comunidad y producto final."
+      }
+    ],
+    "criteriaOfThought": [
+      {
+        "criterion": "Relacionar el proyecto de vida, la toma de decisiones y la planeacion de acciones personales con experiencias concretas del entorno.",
+        "status": "suggested"
+      },
+      {
+        "criterion": "Usar el producto final para comunicar con claridad, no solo para acumular definiciones.",
+        "status": "suggested"
+      }
+    ],
+    "possibleResonanceQuestion": "¿Qué comprensiones nuevas sobre el proyecto de vida, la toma de decisiones y la planeacion de acciones personales se vuelven visibles cuando el grupo comparte los productos del PPA 1?",
+    "teacherNotes": [
+      "No reducir el PPA 1 a tres productos aislados; el bloque construye una misma conversacion curricular.",
+      "Las paginas de Posibilidades forman un mismo bloque y los apoyos por columna se documentan por inferencia curricular situada.",
+      "Los enlaces cortos del video detonador y del recurso informatico se mantienen en cautela y no deben tratarse como recursos ya validados."
+    ],
+    "notReadyFor": [
+      "actividades interactivas",
+      "full-games",
+      "summative-exam"
+    ]
+  },
+  "teacherNotesAndResonances": {
+    "grade": "2",
+    "field": "De lo Humano y lo Comunitario",
+    "ppaNumber": "1",
+    "status": "teacher-orientation",
+    "officialHorizonStatus": "pending",
+    "ppaIntegratingResonance": "¿Qué comprensiones nuevas sobre el proyecto de vida, la toma de decisiones y la planeacion de acciones personales se vuelven visibles cuando el grupo comparte los productos del PPA 1?",
+    "didacticWarnings": [
+      "No convertir el bloque en una lista de definiciones; importa relacionar conceptos con producto, comunidad y dialogo.",
+      "Los enlaces cortos bit.ly/3VfglUk y bit.ly/3WQBMwg se mantienen como cautela y no deben tratarse como recursos ya validados.",
+      "La distribucion de apoyos por columna se fija por inferencia curricular documentada a partir de Posibilidades."
+    ],
+    "communityPrompts": {
+      "communityKnowledge": [
+        "Que saberes de la comunidad ayudan a profundizar en el proyecto de vida, la toma de decisiones y la planeacion de acciones personales?",
+        "Que ejemplos cercanos permiten que los conceptos del campo se vuelvan mas claros para el grupo?"
+      ],
+      "families": [
+        "Que experiencias, relatos o practicas familiares pueden enriquecer el proyecto sin desplazar su foco academico?",
+        "Que aprendizajes vale la pena compartir con otras generaciones a partir del producto final?"
+      ],
+      "territoryLanguageMemory": [
+        "Que palabras, lugares o memorias ayudan a nombrar mejor lo que el proyecto esta buscando comprender?",
+        "Como pueden circular estos productos dentro de la comunidad escolar sin perder precision ni sentido?"
+      ],
+      "productCommunityConnection": [
+        "Como podria circular producto de cierre del proyecto, producto de cierre del proyecto, producto de cierre del proyecto para fortalecer el dialogo comunitario?"
+      ]
+    },
+    "suggestedThinkingCriteria": [
+      "Relacionar el proyecto de vida, la toma de decisiones y la planeacion de acciones personales con problemas, experiencias y preguntas del entorno cercano.",
+      "Valorar el producto final como herramienta de comprension y comunicacion compartida."
+    ],
+    "projects": [
+      {
+        "projectId": "de-lo-humano-y-lo-comunitario-2-ppa-1-pa1",
+        "projectTitle": "Entrevistas para un proyecto de vida",
+        "teacherNotes": [
+          "Conviene partir de ejemplos cercanos y después pasar al lenguaje mas abstracto del campo.",
+          "El producto Producto de cierre del proyecto gana fuerza cuando se usa para explicar y no solo para exhibir informacion.",
+          "Es mejor seleccionar pocos conceptos bien comprendidos que saturar el trabajo con terminos aislados."
+        ],
+        "confirmedConceptsToUse": [
+          "producto de cierre del proyecto",
+          "proyecto de vida",
+          "metas",
+          "decisiones",
+          "entrevista"
+        ],
+        "suggestedConceptsToHandleCarefully": [],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Qué comprendes mejor sobre el proyecto de vida y las decisiones que orientan metas personales y comunitarias después de elaborar producto de cierre del proyecto?"
+          },
+          {
+            "type": "community",
+            "prompt": "¿Qué diálogos comunitarios podrían fortalecerse si compartimos producto de cierre del proyecto y lo ponemos en conversación con otras personas?"
+          }
+        ],
+        "notReadyFor": [
+          "full-games",
+          "summative-exam"
+        ]
+      },
+      {
+        "projectId": "de-lo-humano-y-lo-comunitario-2-ppa-1-pa2",
+        "projectTitle": "¡Para actuar necesitamos un plan!",
+        "teacherNotes": [
+          "Conviene partir de ejemplos cercanos y después pasar al lenguaje mas abstracto del campo.",
+          "El producto Producto de cierre del proyecto gana fuerza cuando se usa para explicar y no solo para exhibir informacion.",
+          "Es mejor seleccionar pocos conceptos bien comprendidos que saturar el trabajo con terminos aislados."
+        ],
+        "confirmedConceptsToUse": [
+          "producto de cierre del proyecto",
+          "plan de accion",
+          "organizacion",
+          "seguimiento",
+          "responsabilidad"
+        ],
+        "suggestedConceptsToHandleCarefully": [],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Qué comprendes mejor sobre la planeacion de acciones para organizar decisiones y resolver necesidades cercanas después de elaborar producto de cierre del proyecto?"
+          },
+          {
+            "type": "community",
+            "prompt": "¿Qué diálogos comunitarios podrían fortalecerse si compartimos producto de cierre del proyecto y lo ponemos en conversación con otras personas?"
+          }
+        ],
+        "notReadyFor": [
+          "full-games",
+          "summative-exam"
+        ]
+      },
+      {
+        "projectId": "de-lo-humano-y-lo-comunitario-2-ppa-1-pa3",
+        "projectTitle": "Direccionando mi potencial",
+        "teacherNotes": [
+          "Conviene partir de ejemplos cercanos y después pasar al lenguaje mas abstracto del campo.",
+          "El producto Producto de cierre del proyecto gana fuerza cuando se usa para explicar y no solo para exhibir informacion.",
+          "Es mejor seleccionar pocos conceptos bien comprendidos que saturar el trabajo con terminos aislados."
+        ],
+        "confirmedConceptsToUse": [
+          "producto de cierre del proyecto",
+          "potencial",
+          "identidad",
+          "pertenencia",
+          "autoconocimiento"
+        ],
+        "suggestedConceptsToHandleCarefully": [],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Qué comprendes mejor sobre el reconocimiento del potencial personal para dirigir metas y fortalecer el sentido de pertenencia después de elaborar producto de cierre del proyecto?"
+          },
+          {
+            "type": "community",
+            "prompt": "¿Qué diálogos comunitarios podrían fortalecerse si compartimos producto de cierre del proyecto y lo ponemos en conversación con otras personas?"
+          }
+        ],
+        "notReadyFor": [
+          "full-games",
+          "summative-exam"
+        ]
+      }
+    ]
+  },
+  "validationAudit": {
+    "kind": "fine-validation-audit",
+    "source": "reports/caracoles/grade2-humano-ppa1-reading-bundle-audit.md",
+    "content": "# Auditoria de lectura docente\n\n## Alcance\n\n- Campo: 2o De lo Humano y lo Comunitario\n- Bloque: PPA 1\n- Titulo del PPA: ¡A resolver, construir y reconstruir!\n- Proyectos: PA1-PA3\n\n## Proyectos validados\n\n1. Entrevistas para un proyecto de vida\n   - Producto final: Producto de cierre del proyecto\n   - Paginas: Nuestro libro de proyectos Tomo I pp. 249-252\n2. ¡Para actuar necesitamos un plan!\n   - Producto final: Producto de cierre del proyecto\n   - Paginas: Nuestro libro de proyectos Tomo I pp. 253-256\n3. Direccionando mi potencial\n   - Producto final: Producto de cierre del proyecto\n   - Paginas: Nuestro libro de proyectos Tomo I pp. 257-261\n\n## Evidencia base usada\n\n- Posibilidades de uso DHyC pp. 6-7.\n- Nuestro libro de proyectos Tomo I pp. 247-261.\n- De lo Humano y lo Comunitario, segundo grado, pp. 183-198; Nuestro libro de proyectos Tomo I pp. 249-260..\n\n## Decisiones curriculares del bloque\n\n- El horizonte comun del PPA 1 se mantiene en estado pendiente como formula unica; se privilegia una orientacion pedagogica situada y documentada.\n- Los productos finales quedan confirmados desde Posibilidades y la secuencia del propio proyecto.\n- Los conceptos confirmados se normalizan para sostener lectura docente, autoevaluacion y actividades de relacion de columnas.\n- La resonancia se formula como pregunta abierta para reforzar el sentido formativo del bloque.\n\n## Cautelas reales\n\n- El video detonador del PPA 1 y el recurso informatico del bloque siguen sin URL oficial confirmada.\n- La asignacion de apoyos por columna se sostiene por inferencia curricular documentada, no por OCR limpio de tabla.\n- No se marca el bloque como actividades interactivas ni se desbloquean juegos completos.\n"
+  }
+}

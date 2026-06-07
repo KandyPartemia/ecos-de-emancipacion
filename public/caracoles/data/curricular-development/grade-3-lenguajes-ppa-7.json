@@ -1,0 +1,1195 @@
+{
+  "grade": "3",
+  "gradeLabel": "Tercer grado",
+  "field": "Lenguajes",
+  "ppaNumber": "7",
+  "partialClassroomProject": "PPA 7",
+  "partialClassroomProjectTitle": "Arte, lengua y cultura: las manifestaciones de nuestro lugar",
+  "source": "curricular-development-generated",
+  "generatedAt": "2026-06-07T03:06:27.473Z",
+  "development": {
+    "grade": "3",
+    "gradeLabel": "Tercer grado",
+    "field": "Lenguajes",
+    "bookVolume": "Tomo II",
+    "partialClassroomProject": "PPA 7",
+    "partialClassroomProjectTitle": "Arte, lengua y cultura: las manifestaciones de nuestro lugar",
+    "generatedAt": "2026-06-07T03:06:27.407Z",
+    "notes": "Capa curricular generada por lote para 3o Lenguajes, PPA 7.",
+    "sourcesUsed": [
+      "content/caracoles/curricular-catalog/all-projects-canonical.json",
+      "public/caracoles/data/generated/grade-3/concepts-index.json",
+      "src/caracoles/lib/officialVideoLinks.ts",
+      "Posibilidades de uso Lenguajes, tercer grado, p. 18",
+      "Nuestro libro de proyectos, tercer grado, pp. 29-40"
+    ],
+    "partialClassroomProjectContext": {
+      "expectationHorizon": {
+        "officialText": "",
+        "sourcePages": [
+          "Nuestro libro de proyectos Tomo II pp. 29-32",
+          "Posibilidades de uso Lenguajes p. 18"
+        ],
+        "evidence": "El PPA 7 articula 7. arte, lengua y cultura: las manifestaciones de nuestro lugar, ensayo con emojis, canción colectiva para trabajar Arte, lengua y cultura: las manifestaciones de nuestro lugar.",
+        "status": "pending"
+      },
+      "ppaDetonatingStrategy": {
+        "title": "Arte, lengua y cultura: las manifestaciones de nuestro lugar",
+        "type": "video",
+        "url": "",
+        "urlStatus": "confirmed-by-official-video-map",
+        "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+        "scope": "partial-classroom-project"
+      },
+      "ppaDigitalResource": {
+        "title": "Recurso del Proyecto Parcial de Aula 7",
+        "reference": "",
+        "status": "confirmed-by-official-video-map",
+        "source": "YouTube, acervo Aprende_MX/Telesecundaria"
+      },
+      "validationStatus": {
+        "needsHumanReview": true,
+        "needsReviewReasons": [
+          "Los videos PA/PPA se validan por el mapa oficial de enlaces directos ya generado.",
+          "Los apoyos complementarios impresos no se asignan cuando no hay evidencia validada por columna.",
+          "El horizonte textual literal queda pendiente de revision fina si se necesita cita exacta."
+        ]
+      },
+      "columnValidation": {
+        "possibilitiesPagesReviewed": [
+          18
+        ],
+        "confirmedAsPpa": true,
+        "note": "El PPA 7 se agrupa desde el catalogo canonico de tercer grado.",
+        "columns": [
+          {
+            "columnIndex": 1,
+            "projectId": "lenguajes-3-ppa-7-pa19",
+            "projectTitle": "Las situaciones diarias de nuestras comunidades y la literatura",
+            "finalProduct": "7. Arte, lengua y cultura: las manifestaciones de nuestro lugar",
+            "supportMaterials": []
+          },
+          {
+            "columnIndex": 2,
+            "projectId": "lenguajes-3-ppa-7-pa20",
+            "projectTitle": "Valoración, comprensión y opinión sobre una manifestación artística",
+            "finalProduct": "Ensayo con emojis",
+            "supportMaterials": []
+          },
+          {
+            "columnIndex": 3,
+            "projectId": "lenguajes-3-ppa-7-pa21",
+            "projectTitle": "¡Una canción para mi cultura!",
+            "finalProduct": "Canción colectiva",
+            "supportMaterials": []
+          }
+        ]
+      }
+    },
+    "academicProjects": [
+      {
+        "id": "lenguajes-3-ppa-7-pa19",
+        "projectId": "lenguajes-3-ppa-7-pa19",
+        "academicProjectNumber": 19,
+        "title": "Las situaciones diarias de nuestras comunidades y la literatura",
+        "projectTitle": "Las situaciones diarias de nuestras comunidades y la literatura",
+        "grade": "3",
+        "field": "Lenguajes",
+        "ppaNumber": "7",
+        "partialClassroomProject": "PPA 7",
+        "partialClassroomProjectTitle": "Arte, lengua y cultura: las manifestaciones de nuestro lugar",
+        "bookVolume": "Tomo II",
+        "sourceValidation": {
+          "sourceStatus": "linked",
+          "possibilitiesPages": [
+            18
+          ],
+          "possibilitiesMaterialId": "grade-3-posibilidades-pos-len-3",
+          "possibilitiesColumnIndex": 1,
+          "columnEvidence": "Proyecto PA 19 agrupado en el PPA 7 desde el catalogo canonico y las paginas de Posibilidades."
+        },
+        "finalProduct": {
+          "title": "7. Arte, lengua y cultura: las manifestaciones de nuestro lugar",
+          "source": "Video detonador validado en YouTube + Nuestro libro de proyectos Tomo II pp. 29-32",
+          "status": "confirmed-from-video-and-project"
+        },
+        "sourcePages": {
+          "nuestroLibroProyectos": [
+            {
+              "materialId": "grade-3-proyectos-nuestros-proyectos-tomo-2-tercer-grado",
+              "label": "Nuestro libro de proyectos Tomo II",
+              "startPage": 29,
+              "endPage": 32,
+              "pagesLabel": "pp. 29-32",
+              "topicTitle": "Proyecto academico 19",
+              "status": "confirmed-source"
+            }
+          ],
+          "conceptBook": [
+            {
+              "materialId": "grade-3-conceptos-lenguajes-tercer-grado",
+              "label": "Lenguajes",
+              "startPage": 29,
+              "endPage": 29,
+              "pagesLabel": "p. 29",
+              "topicTitle": "7. arte, lengua y cultura: las manifestaciones de nuestro lugar",
+              "status": "confirmed"
+            }
+          ],
+          "multiplesLenguajes": [],
+          "otherMaterials": [
+            {
+              "label": "Video PA 19: 7. Arte, lengua y cultura: las manifestaciones de nuestro lugar • Lenguajes • 3er grado",
+              "reference": "https://www.youtube.com/watch?v=VSQPEFeAP1A",
+              "status": "confirmed"
+            },
+            {
+              "label": "Video PPA 7: 7. Arte, lengua y cultura: las manifestaciones de nuestro lugar • Lenguajes • 3er grado",
+              "reference": "https://www.youtube.com/watch?v=VSQPEFeAP1A",
+              "status": "confirmed"
+            }
+          ]
+        },
+        "supportMaterials": [],
+        "horizonOrPurpose": {
+          "status": "pending",
+          "text": "",
+          "source": "Nuestro libro de proyectos Tomo II pp. 29-32"
+        },
+        "projectExpectationHorizon": {
+          "officialText": "",
+          "studentVersion": "",
+          "sourcePages": [
+            "Nuestro libro de proyectos Tomo II pp. 29-32"
+          ],
+          "evidence": "El PA 19 cuenta con paginas de proyecto, producto de cierre, conceptos y videos directos validados; el horizonte textual literal queda pendiente de transcripcion fina.",
+          "status": "pending"
+        },
+        "detonatingStrategy": {
+          "title": "7. Arte, lengua y cultura: las manifestaciones de nuestro lugar • Lenguajes • 3er grado",
+          "text": "Video del Proyecto Parcial de Aula 7: 7. Arte, lengua y cultura: las manifestaciones de nuestro lugar • Lenguajes • 3er grado",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=VSQPEFeAP1A",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "partial-classroom-project"
+        },
+        "academicProjectStrategy": {
+          "title": "7. Arte, lengua y cultura: las manifestaciones de nuestro lugar • Lenguajes • 3er grado",
+          "text": "Video detonador del Proyecto Academico 19: Las situaciones diarias de nuestras comunidades y la literatura",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=VSQPEFeAP1A",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "academic-project"
+        },
+        "academicConcepts": [
+          {
+            "concept": "7. arte, lengua y cultura: las manifestaciones de nuestro lugar",
+            "description": "7. arte, lengua y cultura: las manifestaciones de nuestro lugar organiza el producto de cierre y permite comunicar lo aprendido en el proyecto.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              29
+            ],
+            "sourcePagesLabel": "p. 29",
+            "topicTitle": "Proyecto academico 19",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 19, al PPA 7 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Lenguaje",
+            "description": "Lenguaje ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              29
+            ],
+            "sourcePagesLabel": "p. 29",
+            "topicTitle": "Proyecto academico 19",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 19, al PPA 7 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Cultura",
+            "description": "Cultura ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              154
+            ],
+            "sourcePagesLabel": "p. 154",
+            "topicTitle": "Proyecto academico 19",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 19, al PPA 7 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Comunicacion",
+            "description": "Comunicacion ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              29
+            ],
+            "sourcePagesLabel": "p. 29",
+            "topicTitle": "Proyecto academico 19",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 19, al PPA 7 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Lectura",
+            "description": "Lectura ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              29
+            ],
+            "sourcePagesLabel": "p. 29",
+            "topicTitle": "Proyecto academico 19",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 19, al PPA 7 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Escritura",
+            "description": "Escritura ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              29
+            ],
+            "sourcePagesLabel": "p. 29",
+            "topicTitle": "Proyecto academico 19",
+            "status": "suggested",
+            "reason": "Concepto vinculado al PA 19, al PPA 7 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "teacher-review"
+          }
+        ],
+        "thinkingCriteria": [
+          "Relacionar Las situaciones diarias de nuestras comunidades y la literatura con una situacion concreta del entorno escolar o comunitario.",
+          "Usar 7. arte, lengua y cultura: las manifestaciones de nuestro lugar para explicar ideas con claridad y evidencia."
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Como te ayuda 7. arte, lengua y cultura: las manifestaciones de nuestro lugar a comprender mejor Las situaciones diarias de nuestras comunidades y la literatura y a explicar sus conceptos clave en tu comunidad?",
+            "conceptsActivated": [
+              "7. arte, lengua y cultura: las manifestaciones de nuestro lugar",
+              "Lenguaje",
+              "Cultura",
+              "Comunicacion"
+            ],
+            "suggestedUse": "Momento 1 de autoevaluacion"
+          }
+        ],
+        "validationStatus": {
+          "readinessLevel": "curricular-bundle-generated",
+          "readyForActivities": true,
+          "needsReviewReasons": [
+            "El horizonte textual literal queda pendiente de revision fina si se requiere cita exacta.",
+            "Los apoyos complementarios impresos no se asignan cuando no hay evidencia validada por columna."
+          ]
+        },
+        "readinessLevel": "curricular-bundle-generated",
+        "readyForActivities": true,
+        "needsReviewReasons": []
+      },
+      {
+        "id": "lenguajes-3-ppa-7-pa20",
+        "projectId": "lenguajes-3-ppa-7-pa20",
+        "academicProjectNumber": 20,
+        "title": "Valoración, comprensión y opinión sobre una manifestación artística",
+        "projectTitle": "Valoración, comprensión y opinión sobre una manifestación artística",
+        "grade": "3",
+        "field": "Lenguajes",
+        "ppaNumber": "7",
+        "partialClassroomProject": "PPA 7",
+        "partialClassroomProjectTitle": "Arte, lengua y cultura: las manifestaciones de nuestro lugar",
+        "bookVolume": "Tomo II",
+        "sourceValidation": {
+          "sourceStatus": "linked",
+          "possibilitiesPages": [
+            18
+          ],
+          "possibilitiesMaterialId": "grade-3-posibilidades-pos-len-3",
+          "possibilitiesColumnIndex": 2,
+          "columnEvidence": "Proyecto PA 20 agrupado en el PPA 7 desde el catalogo canonico y las paginas de Posibilidades."
+        },
+        "finalProduct": {
+          "title": "Ensayo con emojis",
+          "source": "Video detonador validado en YouTube + Nuestro libro de proyectos Tomo II pp. 33-36",
+          "status": "confirmed-from-video-and-project"
+        },
+        "sourcePages": {
+          "nuestroLibroProyectos": [
+            {
+              "materialId": "grade-3-proyectos-nuestros-proyectos-tomo-2-tercer-grado",
+              "label": "Nuestro libro de proyectos Tomo II",
+              "startPage": 33,
+              "endPage": 36,
+              "pagesLabel": "pp. 33-36",
+              "topicTitle": "Proyecto academico 20",
+              "status": "confirmed-source"
+            }
+          ],
+          "conceptBook": [
+            {
+              "materialId": "grade-3-conceptos-lenguajes-tercer-grado",
+              "label": "Lenguajes",
+              "startPage": 33,
+              "endPage": 33,
+              "pagesLabel": "p. 33",
+              "topicTitle": "Ensayo con emojis",
+              "status": "confirmed"
+            }
+          ],
+          "multiplesLenguajes": [],
+          "otherMaterials": [
+            {
+              "label": "Video PA 20: Ensayo con emojis • Lenguajes • 3er. grado",
+              "reference": "https://www.youtube.com/watch?v=-bArB2M9yV4",
+              "status": "confirmed"
+            },
+            {
+              "label": "Video PPA 7: 7. Arte, lengua y cultura: las manifestaciones de nuestro lugar • Lenguajes • 3er grado",
+              "reference": "https://www.youtube.com/watch?v=VSQPEFeAP1A",
+              "status": "confirmed"
+            }
+          ]
+        },
+        "supportMaterials": [],
+        "horizonOrPurpose": {
+          "status": "pending",
+          "text": "",
+          "source": "Nuestro libro de proyectos Tomo II pp. 33-36"
+        },
+        "projectExpectationHorizon": {
+          "officialText": "",
+          "studentVersion": "",
+          "sourcePages": [
+            "Nuestro libro de proyectos Tomo II pp. 33-36"
+          ],
+          "evidence": "El PA 20 cuenta con paginas de proyecto, producto de cierre, conceptos y videos directos validados; el horizonte textual literal queda pendiente de transcripcion fina.",
+          "status": "pending"
+        },
+        "detonatingStrategy": {
+          "title": "7. Arte, lengua y cultura: las manifestaciones de nuestro lugar • Lenguajes • 3er grado",
+          "text": "Video del Proyecto Parcial de Aula 7: 7. Arte, lengua y cultura: las manifestaciones de nuestro lugar • Lenguajes • 3er grado",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=VSQPEFeAP1A",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "partial-classroom-project"
+        },
+        "academicProjectStrategy": {
+          "title": "Ensayo con emojis • Lenguajes • 3er. grado",
+          "text": "Video detonador del Proyecto Academico 20: Valoración, comprensión y opinión sobre una manifestación artística",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=-bArB2M9yV4",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "academic-project"
+        },
+        "academicConcepts": [
+          {
+            "concept": "Ensayo con emojis",
+            "description": "Ensayo con emojis organiza el producto de cierre y permite comunicar lo aprendido en el proyecto.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              33
+            ],
+            "sourcePagesLabel": "p. 33",
+            "topicTitle": "Proyecto academico 20",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 20, al PPA 7 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Lenguaje",
+            "description": "Lenguaje ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              33
+            ],
+            "sourcePagesLabel": "p. 33",
+            "topicTitle": "Proyecto academico 20",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 20, al PPA 7 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Cultura",
+            "description": "Cultura ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              154
+            ],
+            "sourcePagesLabel": "p. 154",
+            "topicTitle": "Proyecto academico 20",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 20, al PPA 7 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Comunicacion",
+            "description": "Comunicacion ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              33
+            ],
+            "sourcePagesLabel": "p. 33",
+            "topicTitle": "Proyecto academico 20",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 20, al PPA 7 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Lectura",
+            "description": "Lectura ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              33
+            ],
+            "sourcePagesLabel": "p. 33",
+            "topicTitle": "Proyecto academico 20",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 20, al PPA 7 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Escritura",
+            "description": "Escritura ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              33
+            ],
+            "sourcePagesLabel": "p. 33",
+            "topicTitle": "Proyecto academico 20",
+            "status": "suggested",
+            "reason": "Concepto vinculado al PA 20, al PPA 7 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "teacher-review"
+          }
+        ],
+        "thinkingCriteria": [
+          "Relacionar Valoración, comprensión y opinión sobre una manifestación artística con una situacion concreta del entorno escolar o comunitario.",
+          "Usar ensayo con emojis para explicar ideas con claridad y evidencia."
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Como te ayuda ensayo con emojis a comprender mejor Valoración, comprensión y opinión sobre una manifestación artística y a explicar sus conceptos clave en tu comunidad?",
+            "conceptsActivated": [
+              "Ensayo con emojis",
+              "Lenguaje",
+              "Cultura",
+              "Comunicacion"
+            ],
+            "suggestedUse": "Momento 1 de autoevaluacion"
+          }
+        ],
+        "validationStatus": {
+          "readinessLevel": "curricular-bundle-generated",
+          "readyForActivities": true,
+          "needsReviewReasons": [
+            "El horizonte textual literal queda pendiente de revision fina si se requiere cita exacta.",
+            "Los apoyos complementarios impresos no se asignan cuando no hay evidencia validada por columna."
+          ]
+        },
+        "readinessLevel": "curricular-bundle-generated",
+        "readyForActivities": true,
+        "needsReviewReasons": []
+      },
+      {
+        "id": "lenguajes-3-ppa-7-pa21",
+        "projectId": "lenguajes-3-ppa-7-pa21",
+        "academicProjectNumber": 21,
+        "title": "¡Una canción para mi cultura!",
+        "projectTitle": "¡Una canción para mi cultura!",
+        "grade": "3",
+        "field": "Lenguajes",
+        "ppaNumber": "7",
+        "partialClassroomProject": "PPA 7",
+        "partialClassroomProjectTitle": "Arte, lengua y cultura: las manifestaciones de nuestro lugar",
+        "bookVolume": "Tomo II",
+        "sourceValidation": {
+          "sourceStatus": "linked",
+          "possibilitiesPages": [
+            18
+          ],
+          "possibilitiesMaterialId": "grade-3-posibilidades-pos-len-3",
+          "possibilitiesColumnIndex": 3,
+          "columnEvidence": "Proyecto PA 21 agrupado en el PPA 7 desde el catalogo canonico y las paginas de Posibilidades."
+        },
+        "finalProduct": {
+          "title": "Canción colectiva",
+          "source": "Video detonador validado en YouTube + Nuestro libro de proyectos Tomo II pp. 37-40",
+          "status": "confirmed-from-video-and-project"
+        },
+        "sourcePages": {
+          "nuestroLibroProyectos": [
+            {
+              "materialId": "grade-3-proyectos-nuestros-proyectos-tomo-2-tercer-grado",
+              "label": "Nuestro libro de proyectos Tomo II",
+              "startPage": 37,
+              "endPage": 40,
+              "pagesLabel": "pp. 37-40",
+              "topicTitle": "Proyecto academico 21",
+              "status": "confirmed-source"
+            }
+          ],
+          "conceptBook": [
+            {
+              "materialId": "grade-3-conceptos-lenguajes-tercer-grado",
+              "label": "Lenguajes",
+              "startPage": 37,
+              "endPage": 37,
+              "pagesLabel": "p. 37",
+              "topicTitle": "Canción colectiva",
+              "status": "confirmed"
+            }
+          ],
+          "multiplesLenguajes": [],
+          "otherMaterials": [
+            {
+              "label": "Video PA 21: Canción colectiva • Lenguajes • 3er. grado",
+              "reference": "https://www.youtube.com/watch?v=cMlVmzIB3lU",
+              "status": "confirmed"
+            },
+            {
+              "label": "Video PPA 7: 7. Arte, lengua y cultura: las manifestaciones de nuestro lugar • Lenguajes • 3er grado",
+              "reference": "https://www.youtube.com/watch?v=VSQPEFeAP1A",
+              "status": "confirmed"
+            }
+          ]
+        },
+        "supportMaterials": [],
+        "horizonOrPurpose": {
+          "status": "pending",
+          "text": "",
+          "source": "Nuestro libro de proyectos Tomo II pp. 37-40"
+        },
+        "projectExpectationHorizon": {
+          "officialText": "",
+          "studentVersion": "",
+          "sourcePages": [
+            "Nuestro libro de proyectos Tomo II pp. 37-40"
+          ],
+          "evidence": "El PA 21 cuenta con paginas de proyecto, producto de cierre, conceptos y videos directos validados; el horizonte textual literal queda pendiente de transcripcion fina.",
+          "status": "pending"
+        },
+        "detonatingStrategy": {
+          "title": "7. Arte, lengua y cultura: las manifestaciones de nuestro lugar • Lenguajes • 3er grado",
+          "text": "Video del Proyecto Parcial de Aula 7: 7. Arte, lengua y cultura: las manifestaciones de nuestro lugar • Lenguajes • 3er grado",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=VSQPEFeAP1A",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "partial-classroom-project"
+        },
+        "academicProjectStrategy": {
+          "title": "Canción colectiva • Lenguajes • 3er. grado",
+          "text": "Video detonador del Proyecto Academico 21: ¡Una canción para mi cultura!",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=cMlVmzIB3lU",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "academic-project"
+        },
+        "academicConcepts": [
+          {
+            "concept": "Canción colectiva",
+            "description": "Canción colectiva organiza el producto de cierre y permite comunicar lo aprendido en el proyecto.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              37
+            ],
+            "sourcePagesLabel": "p. 37",
+            "topicTitle": "Proyecto academico 21",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 21, al PPA 7 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Lenguaje",
+            "description": "Lenguaje ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              37
+            ],
+            "sourcePagesLabel": "p. 37",
+            "topicTitle": "Proyecto academico 21",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 21, al PPA 7 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Cultura",
+            "description": "Cultura ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              154
+            ],
+            "sourcePagesLabel": "p. 154",
+            "topicTitle": "Proyecto academico 21",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 21, al PPA 7 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Comunicacion",
+            "description": "Comunicacion ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              37
+            ],
+            "sourcePagesLabel": "p. 37",
+            "topicTitle": "Proyecto academico 21",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 21, al PPA 7 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Lectura",
+            "description": "Lectura ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              37
+            ],
+            "sourcePagesLabel": "p. 37",
+            "topicTitle": "Proyecto academico 21",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 21, al PPA 7 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Escritura",
+            "description": "Escritura ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              37
+            ],
+            "sourcePagesLabel": "p. 37",
+            "topicTitle": "Proyecto academico 21",
+            "status": "suggested",
+            "reason": "Concepto vinculado al PA 21, al PPA 7 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "teacher-review"
+          }
+        ],
+        "thinkingCriteria": [
+          "Relacionar ¡Una canción para mi cultura! con una situacion concreta del entorno escolar o comunitario.",
+          "Usar canción colectiva para explicar ideas con claridad y evidencia."
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Como te ayuda canción colectiva a comprender mejor ¡Una canción para mi cultura! y a explicar sus conceptos clave en tu comunidad?",
+            "conceptsActivated": [
+              "Canción colectiva",
+              "Lenguaje",
+              "Cultura",
+              "Comunicacion"
+            ],
+            "suggestedUse": "Momento 1 de autoevaluacion"
+          }
+        ],
+        "validationStatus": {
+          "readinessLevel": "curricular-bundle-generated",
+          "readyForActivities": true,
+          "needsReviewReasons": [
+            "El horizonte textual literal queda pendiente de revision fina si se requiere cita exacta.",
+            "Los apoyos complementarios impresos no se asignan cuando no hay evidencia validada por columna."
+          ]
+        },
+        "readinessLevel": "curricular-bundle-generated",
+        "readyForActivities": true,
+        "needsReviewReasons": []
+      }
+    ]
+  },
+  "conceptsValidation": {
+    "grade": "3",
+    "field": "Lenguajes",
+    "ppaNumber": "7",
+    "status": "concept-validation",
+    "generatedAt": "2026-06-07T03:06:27.407Z",
+    "entries": [
+      {
+        "projectId": "lenguajes-3-ppa-7-pa19",
+        "projectTitle": "Las situaciones diarias de nuestras comunidades y la literatura",
+        "concept": "7. arte, lengua y cultura: las manifestaciones de nuestro lugar",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            29
+          ],
+          "reason": "Concepto vinculado al PA 19, al PPA 7 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-7-pa19",
+        "projectTitle": "Las situaciones diarias de nuestras comunidades y la literatura",
+        "concept": "Lenguaje",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            29
+          ],
+          "reason": "Concepto vinculado al PA 19, al PPA 7 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-7-pa19",
+        "projectTitle": "Las situaciones diarias de nuestras comunidades y la literatura",
+        "concept": "Cultura",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            154
+          ],
+          "reason": "Concepto vinculado al PA 19, al PPA 7 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-7-pa19",
+        "projectTitle": "Las situaciones diarias de nuestras comunidades y la literatura",
+        "concept": "Comunicacion",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            29
+          ],
+          "reason": "Concepto vinculado al PA 19, al PPA 7 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-7-pa19",
+        "projectTitle": "Las situaciones diarias de nuestras comunidades y la literatura",
+        "concept": "Lectura",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            29
+          ],
+          "reason": "Concepto vinculado al PA 19, al PPA 7 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-7-pa19",
+        "projectTitle": "Las situaciones diarias de nuestras comunidades y la literatura",
+        "concept": "Escritura",
+        "status": "suggested",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            29
+          ],
+          "reason": "Concepto vinculado al PA 19, al PPA 7 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "teacher-review"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-7-pa20",
+        "projectTitle": "Valoración, comprensión y opinión sobre una manifestación artística",
+        "concept": "Ensayo con emojis",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            33
+          ],
+          "reason": "Concepto vinculado al PA 20, al PPA 7 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-7-pa20",
+        "projectTitle": "Valoración, comprensión y opinión sobre una manifestación artística",
+        "concept": "Lenguaje",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            33
+          ],
+          "reason": "Concepto vinculado al PA 20, al PPA 7 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-7-pa20",
+        "projectTitle": "Valoración, comprensión y opinión sobre una manifestación artística",
+        "concept": "Cultura",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            154
+          ],
+          "reason": "Concepto vinculado al PA 20, al PPA 7 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-7-pa20",
+        "projectTitle": "Valoración, comprensión y opinión sobre una manifestación artística",
+        "concept": "Comunicacion",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            33
+          ],
+          "reason": "Concepto vinculado al PA 20, al PPA 7 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-7-pa20",
+        "projectTitle": "Valoración, comprensión y opinión sobre una manifestación artística",
+        "concept": "Lectura",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            33
+          ],
+          "reason": "Concepto vinculado al PA 20, al PPA 7 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-7-pa20",
+        "projectTitle": "Valoración, comprensión y opinión sobre una manifestación artística",
+        "concept": "Escritura",
+        "status": "suggested",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            33
+          ],
+          "reason": "Concepto vinculado al PA 20, al PPA 7 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "teacher-review"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-7-pa21",
+        "projectTitle": "¡Una canción para mi cultura!",
+        "concept": "Canción colectiva",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            37
+          ],
+          "reason": "Concepto vinculado al PA 21, al PPA 7 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-7-pa21",
+        "projectTitle": "¡Una canción para mi cultura!",
+        "concept": "Lenguaje",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            37
+          ],
+          "reason": "Concepto vinculado al PA 21, al PPA 7 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-7-pa21",
+        "projectTitle": "¡Una canción para mi cultura!",
+        "concept": "Cultura",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            154
+          ],
+          "reason": "Concepto vinculado al PA 21, al PPA 7 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-7-pa21",
+        "projectTitle": "¡Una canción para mi cultura!",
+        "concept": "Comunicacion",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            37
+          ],
+          "reason": "Concepto vinculado al PA 21, al PPA 7 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-7-pa21",
+        "projectTitle": "¡Una canción para mi cultura!",
+        "concept": "Lectura",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            37
+          ],
+          "reason": "Concepto vinculado al PA 21, al PPA 7 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-7-pa21",
+        "projectTitle": "¡Una canción para mi cultura!",
+        "concept": "Escritura",
+        "status": "suggested",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            37
+          ],
+          "reason": "Concepto vinculado al PA 21, al PPA 7 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "teacher-review"
+      }
+    ]
+  },
+  "pedagogicalArticulation": {
+    "grade": "3",
+    "field": "Lenguajes",
+    "ppaNumber": "7",
+    "status": "teacher-orientation",
+    "officialHorizonStatus": "pending",
+    "situatedPedagogicalOrientation": "El PPA 7 propone trabajar Arte, lengua y cultura: las manifestaciones de nuestro lugar mediante productos de cierre, conceptos confirmados y videos directos para reforzar la autoevaluacion.",
+    "integratingQuestions": [
+      "¿Como se relacionan los tres proyectos academicos del PPA 7 con Arte, lengua y cultura: las manifestaciones de nuestro lugar?",
+      "¿Que conceptos necesita dominar el estudiante para explicar su producto final?",
+      "¿Como usar el producto final para comunicar una comprension y no solo presentar informacion?"
+    ],
+    "possibleResonanceQuestion": "¿Que comprension nueva sobre Arte, lengua y cultura: las manifestaciones de nuestro lugar puedes explicar con los productos del PPA 7?",
+    "teacherNotes": [
+      "Usar los videos directos como detonadores, no como enlaces de busqueda.",
+      "Retomar los conceptos confirmados antes de resolver la relacion de columnas y el juego."
+    ],
+    "projectConnections": [
+      {
+        "projectId": "lenguajes-3-ppa-7-pa19",
+        "projectTitle": "Las situaciones diarias de nuestras comunidades y la literatura",
+        "roleInPpa": "Aporta 7. arte, lengua y cultura: las manifestaciones de nuestro lugar al desarrollo del PPA 7.",
+        "confirmedConcepts": [
+          "7. arte, lengua y cultura: las manifestaciones de nuestro lugar",
+          "Lenguaje",
+          "Cultura",
+          "Comunicacion",
+          "Lectura"
+        ],
+        "suggestedConcepts": [
+          "Escritura"
+        ],
+        "pedagogicalUse": "Video detonador del Proyecto Academico 19: Las situaciones diarias de nuestras comunidades y la literatura"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-7-pa20",
+        "projectTitle": "Valoración, comprensión y opinión sobre una manifestación artística",
+        "roleInPpa": "Aporta ensayo con emojis al desarrollo del PPA 7.",
+        "confirmedConcepts": [
+          "Ensayo con emojis",
+          "Lenguaje",
+          "Cultura",
+          "Comunicacion",
+          "Lectura"
+        ],
+        "suggestedConcepts": [
+          "Escritura"
+        ],
+        "pedagogicalUse": "Video detonador del Proyecto Academico 20: Valoración, comprensión y opinión sobre una manifestación artística"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-7-pa21",
+        "projectTitle": "¡Una canción para mi cultura!",
+        "roleInPpa": "Aporta canción colectiva al desarrollo del PPA 7.",
+        "confirmedConcepts": [
+          "Canción colectiva",
+          "Lenguaje",
+          "Cultura",
+          "Comunicacion",
+          "Lectura"
+        ],
+        "suggestedConcepts": [
+          "Escritura"
+        ],
+        "pedagogicalUse": "Video detonador del Proyecto Academico 21: ¡Una canción para mi cultura!"
+      }
+    ]
+  },
+  "teacherNotesAndResonances": {
+    "grade": "3",
+    "field": "Lenguajes",
+    "ppaNumber": "7",
+    "status": "teacher-notes-and-resonances",
+    "officialHorizonStatus": "pending",
+    "ppaIntegratingResonance": "¿Que comprension nueva sobre Arte, lengua y cultura: las manifestaciones de nuestro lugar puedes explicar con los productos del PPA 7?",
+    "didacticWarnings": [
+      "No sustituir el producto final por la reproduccion del video.",
+      "Evitar marcar apoyos impresos como confirmados si no existe evidencia por columna."
+    ],
+    "communityPrompts": {
+      "territoryLanguageMemory": [
+        "¿Que palabras, practicas o problemas del entorno ayudan a entender mejor este PPA?"
+      ],
+      "productCommunityConnection": [
+        "¿Como puede circular el producto final dentro de la comunidad escolar?"
+      ]
+    },
+    "projects": [
+      {
+        "projectId": "lenguajes-3-ppa-7-pa19",
+        "projectTitle": "Las situaciones diarias de nuestras comunidades y la literatura",
+        "teacherNotes": [
+          "Retomar 7. arte, lengua y cultura: las manifestaciones de nuestro lugar como evidencia del aprendizaje.",
+          "Usar los conceptos confirmados para orientar la autoevaluacion."
+        ],
+        "confirmedConceptsToUse": [
+          "7. arte, lengua y cultura: las manifestaciones de nuestro lugar",
+          "Lenguaje",
+          "Cultura",
+          "Comunicacion",
+          "Lectura"
+        ],
+        "suggestedConceptsToHandleCarefully": [
+          "Escritura"
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Como te ayuda 7. arte, lengua y cultura: las manifestaciones de nuestro lugar a comprender mejor Las situaciones diarias de nuestras comunidades y la literatura y a explicar sus conceptos clave en tu comunidad?",
+            "conceptsActivated": [
+              "7. arte, lengua y cultura: las manifestaciones de nuestro lugar",
+              "Lenguaje",
+              "Cultura",
+              "Comunicacion"
+            ],
+            "suggestedUse": "Momento 1 de autoevaluacion"
+          }
+        ],
+        "notReadyFor": []
+      },
+      {
+        "projectId": "lenguajes-3-ppa-7-pa20",
+        "projectTitle": "Valoración, comprensión y opinión sobre una manifestación artística",
+        "teacherNotes": [
+          "Retomar ensayo con emojis como evidencia del aprendizaje.",
+          "Usar los conceptos confirmados para orientar la autoevaluacion."
+        ],
+        "confirmedConceptsToUse": [
+          "Ensayo con emojis",
+          "Lenguaje",
+          "Cultura",
+          "Comunicacion",
+          "Lectura"
+        ],
+        "suggestedConceptsToHandleCarefully": [
+          "Escritura"
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Como te ayuda ensayo con emojis a comprender mejor Valoración, comprensión y opinión sobre una manifestación artística y a explicar sus conceptos clave en tu comunidad?",
+            "conceptsActivated": [
+              "Ensayo con emojis",
+              "Lenguaje",
+              "Cultura",
+              "Comunicacion"
+            ],
+            "suggestedUse": "Momento 1 de autoevaluacion"
+          }
+        ],
+        "notReadyFor": []
+      },
+      {
+        "projectId": "lenguajes-3-ppa-7-pa21",
+        "projectTitle": "¡Una canción para mi cultura!",
+        "teacherNotes": [
+          "Retomar canción colectiva como evidencia del aprendizaje.",
+          "Usar los conceptos confirmados para orientar la autoevaluacion."
+        ],
+        "confirmedConceptsToUse": [
+          "Canción colectiva",
+          "Lenguaje",
+          "Cultura",
+          "Comunicacion",
+          "Lectura"
+        ],
+        "suggestedConceptsToHandleCarefully": [
+          "Escritura"
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Como te ayuda canción colectiva a comprender mejor ¡Una canción para mi cultura! y a explicar sus conceptos clave en tu comunidad?",
+            "conceptsActivated": [
+              "Canción colectiva",
+              "Lenguaje",
+              "Cultura",
+              "Comunicacion"
+            ],
+            "suggestedUse": "Momento 1 de autoevaluacion"
+          }
+        ],
+        "notReadyFor": []
+      }
+    ]
+  },
+  "validationAudit": {
+    "kind": "generated-validation-audit",
+    "source": "reports/caracoles/grade3-lenguajes-ppa7-reading-bundle-audit.md",
+    "content": "# Bundle curricular tercer grado\n\n- Campo: Lenguajes\n- PPA: 7\n- Titulo: Arte, lengua y cultura: las manifestaciones de nuestro lugar\n- Proyectos: PA19, PA20, PA21\n- Estado: generado y publicado\n- Cautela: horizonte literal y apoyos impresos por columna pendientes de revision fina.\n"
+  }
+}

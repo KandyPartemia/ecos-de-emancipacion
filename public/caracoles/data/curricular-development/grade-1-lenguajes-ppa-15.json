@@ -1,0 +1,1589 @@
+{
+  "grade": "1",
+  "gradeLabel": "Primer grado",
+  "field": "Lenguajes",
+  "ppaNumber": "15",
+  "partialClassroomProject": "PPA 15",
+  "partialClassroomProjectTitle": "Manifestaciones artisticas y la inclusion",
+  "source": "curricular-development-pilot",
+  "generatedAt": "2026-06-04T15:51:05.249Z",
+  "development": {
+    "grade": "1",
+    "gradeLabel": "Primer grado",
+    "field": "Lenguajes",
+    "bookVolume": "Tomo III",
+    "partialClassroomProject": "PPA 15",
+    "partialClassroomProjectTitle": "Manifestaciones artisticas y la inclusion",
+    "generatedAt": "2026-05-28T23:50:44.632Z",
+    "notes": "Capa curricular aislada para 1° Lenguajes PPA 15.",
+    "sourcesUsed": [
+      "reports/caracoles/grade1-lenguajes-reading-teacher-hito-2-standard.md",
+      "content/caracoles/curricular-catalog/all-projects-canonical.json",
+      "content/caracoles/curricular-links/grade-1-project-source-links.json",
+      "content/caracoles/generated-private/grade-1/pages-index.full.json",
+      "Posibilidades de uso Lenguajes, primer grado, p. 32",
+      "Posibilidades de uso Lenguajes, primer grado, p. 33",
+      "Nuestro libro de proyectos Tomo III, primer grado, p. 72",
+      "Nuestro libro de proyectos Tomo III, primer grado, p. 73",
+      "Nuestro libro de proyectos Tomo III, primer grado, p. 85"
+    ],
+    "partialClassroomProjectContext": {
+      "expectationHorizon": {
+        "officialText": "",
+        "sourcePages": [
+          "Nuestro libro de proyectos Tomo III p. 72",
+          "Nuestro libro de proyectos Tomo III p. 73",
+          "Nuestro libro de proyectos Tomo III p. 85",
+          "Posibilidades de uso Lenguajes p. 32",
+          "Posibilidades de uso Lenguajes p. 33"
+        ],
+        "evidence": "El bloque del PPA 15 comparte un trabajo integrado, pero no se localizo un horizonte unico redactado como texto oficial independiente.",
+        "status": "pending"
+      },
+      "ppaDetonatingStrategy": {
+        "title": "Manifestaciones artisticas y la inclusion",
+        "type": "video",
+        "url": "bit.ly/3VfglUk",
+        "urlStatus": "pending-validation",
+        "source": "Posibilidades de uso Lenguajes p. 32",
+        "scope": "partial-classroom-project",
+        "youtubeSearchQuery": "Manifestaciones artisticas y la inclusion Lenguajes 1er grado Telesecundaria"
+      },
+      "ppaDigitalResource": {
+        "title": "Recurso informatico del bloque PPA 15",
+        "reference": "bit.ly/3WQBMwg",
+        "status": "pending-validation",
+        "source": "Nuestro libro de proyectos Tomo III p. 85"
+      },
+      "validationStatus": {
+        "needsHumanReview": true,
+        "needsReviewReasons": [
+          "Las pp. 32-33 de Posibilidades sostienen el bloque del PPA 15. La p. 32 contiene las tres columnas con los productos y las primeras fuentes; la p. 33 aporta continuidades y apoyos de Multiples Lenguajes. La p. 34 es solo un indice de videos y no se uso como fuente de este PPA.",
+          "Los enlaces cortos del bloque se mantienen como referencias pendientes de validacion de destino final."
+        ]
+      },
+      "columnValidation": {
+        "possibilitiesPagesReviewed": [
+          32,
+          33
+        ],
+        "confirmedAsPpa": true,
+        "note": "Las pp. 32-33 de Posibilidades sostienen el bloque del PPA 15. La p. 32 contiene las tres columnas con los productos y las primeras fuentes; la p. 33 aporta continuidades y apoyos de Multiples Lenguajes. La p. 34 es solo un indice de videos y no se uso como fuente de este PPA.",
+        "columns": [
+          {
+            "columnIndex": 1,
+            "projectId": "lenguajes-1-ppa-15-pa43",
+            "projectTitle": "Las manifestaciones artísticas de mi comunidad",
+            "finalProduct": "Texto ilustrado",
+            "supportMaterials": [
+              "Manzanas amarillas, pp. 12-15"
+            ]
+          },
+          {
+            "columnIndex": 2,
+            "projectId": "lenguajes-1-ppa-15-pa44",
+            "projectTitle": "La canción de la empatía y la diversidad",
+            "finalProduct": "Cancion colectiva",
+            "supportMaterials": [
+              "El samba: musica y baile de resistencia y dignidad, pp. 96-99"
+            ]
+          },
+          {
+            "columnIndex": 3,
+            "projectId": "lenguajes-1-ppa-15-pa45",
+            "projectTitle": "La semblanza de indígenas de orgullo",
+            "finalProduct": "Breve semblanza",
+            "supportMaterials": [
+              "Gente haciendo su chamba, pp. 74-77"
+            ]
+          }
+        ]
+      }
+    },
+    "academicProjects": [
+      {
+        "id": "lenguajes-1-ppa-15-pa43",
+        "projectId": "lenguajes-1-ppa-15-pa43",
+        "academicProjectNumber": 43,
+        "projectTitle": "Las manifestaciones artísticas de mi comunidad",
+        "grade": "1",
+        "field": "Lenguajes",
+        "ppaNumber": "15",
+        "partialClassroomProject": "PPA 15",
+        "partialClassroomProjectTitle": "Manifestaciones artisticas y la inclusion",
+        "bookVolume": "Tomo III",
+        "sourceValidation": {
+          "sourceStatus": "linked",
+          "possibilitiesPages": [
+            32,
+            33
+          ],
+          "possibilitiesMaterialId": "grade-1-posibilidades-pos-len-1",
+          "possibilitiesColumnIndex": 1,
+          "columnEvidence": "Bloque PPA 15 Manifestaciones artísticas y la inclusión localizado en pp. 32, 33, 34; PA 43 presente en el bloque, pero el OCR multicolumna no permite fijar columna con confianza automática."
+        },
+        "finalProduct": {
+          "title": "Texto ilustrado",
+          "source": "Posibilidades de uso Lenguajes p. 32-33 + Nuestro libro de proyectos Tomo III pp. 74-77",
+          "status": "confirmed"
+        },
+        "sourcePages": {
+          "nuestroLibroProyectos": [
+            {
+              "materialId": "grade-1-proyectos-nuestro-libro-de-proyectos-tomo-iii-primer-grado",
+              "label": "Nuestro libro de proyectos Tomo III",
+              "startPage": 74,
+              "endPage": 77,
+              "pagesLabel": "pp. 74-77",
+              "topicTitle": "Proyecto academico 43",
+              "status": "confirmed-source"
+            }
+          ],
+          "conceptBook": [
+            {
+              "materialId": "grade-1-conceptos-lenguajes-primer-grado",
+              "label": "Lenguajes",
+              "startPage": 276,
+              "endPage": 285,
+              "pagesLabel": "pp. 276-285",
+              "topicTitle": "Discapacidad e inclusion en las artes y soluciones creativas para la inclusion",
+              "status": "confirmed-source"
+            }
+          ],
+          "multiplesLenguajes": [
+            {
+              "materialId": "grade-1-apoyo-muiltiples-lenguajes-primer-grado",
+              "label": "Multiples Lenguajes",
+              "startPage": 12,
+              "endPage": 15,
+              "pagesLabel": "pp. 12-15",
+              "topicTitle": "Manzanas amarillas",
+              "status": "confirmed-source"
+            }
+          ],
+          "otherMaterials": [
+            {
+              "label": "Video PA 43: Texto ilustrado • Lenguajes • 1er grado",
+              "reference": "https://www.youtube.com/watch?v=joTUI0uKjTU",
+              "status": "confirmed"
+            },
+            {
+              "label": "Video PPA 15: 15. Manifestaciones artísticas y la inclusión • Lenguajes • 1er grado",
+              "reference": "https://www.youtube.com/watch?v=F0LXpX0nWec",
+              "status": "confirmed"
+            },
+            {
+              "label": "Recurso de consulta del proyecto",
+              "reference": "Como se elabora un texto ilustrado? bit.ly/3R0ForE",
+              "status": "pending-validation"
+            },
+            {
+              "label": "Recurso general del bloque",
+              "reference": "bit.ly/3RpbgXa",
+              "status": "pending-validation"
+            },
+            {
+              "label": "Recurso informatico del bloque",
+              "reference": "bit.ly/3WQBMwg",
+              "status": "pending-validation"
+            }
+          ]
+        },
+        "supportMaterials": [
+          {
+            "title": "Manzanas amarillas",
+            "kind": "Multiples Lenguajes",
+            "pages": "pp. 12-15",
+            "status": "confirmed-source"
+          }
+        ],
+        "horizonOrPurpose": {
+          "status": "official",
+          "text": "Indagar en diversas fuentes sobre manifestaciones culturales y artisticas de la comunidad y de otros lugares creadas por personas con discapacidad para elaborar un texto ilustrado sobre la construccion de una sociedad incluyente.",
+          "source": "Nuestro libro de proyectos Tomo III p. 74"
+        },
+        "detonatingStrategy": {
+          "title": "15. Manifestaciones artísticas y la inclusión • Lenguajes • 1er grado",
+          "text": "Video del Proyecto Parcial de Aula 15: 15. Manifestaciones artísticas y la inclusión • Lenguajes • 1er grado",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=F0LXpX0nWec",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "partial-classroom-project"
+        },
+        "academicProjectStrategy": {
+          "title": "Texto ilustrado • Lenguajes • 1er grado",
+          "text": "Video detonador del Proyecto Academico 43: Texto ilustrado • Lenguajes • 1er grado",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=joTUI0uKjTU",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "academic-project"
+        },
+        "academicConcepts": [
+          {
+            "concept": "texto ilustrado",
+            "status": "confirmed",
+            "sourceBook": "Posibilidades de uso Lenguajes",
+            "sourcePages": [
+              32
+            ],
+            "sourcePagesLabel": "p. 32",
+            "topicTitle": "texto ilustrado",
+            "evidenceSnippet": "l país creadas por personas con alguna discapacidad, para elaborar un texto ilustrado que exprese cómo se vinculan e inciden las distintas manifestaciones en la construcción de una sociedad incluyente. Etapa 2. ¡Ése es el problema! Lean las",
+            "reason": "La columna 1 lo nombra de forma explicita como producto del PA43.",
+            "pedagogicalUse": "Ayuda a articular informacion escrita e imagen con un proposito inclusivo claro.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "discapacidad e inclusion en las artes",
+            "status": "confirmed",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              276,
+              277,
+              278,
+              279,
+              280
+            ],
+            "sourcePagesLabel": "pp. 276-280",
+            "topicTitle": "discapacidad e inclusion en las artes",
+            "evidenceSnippet": "74 Proyecto académico 43 Las manifestaciones artísticas de mi comunidad En cada región y estado del país existen manifestaciones culturales, pues cada comunidad expresa sus costumbres y tradiciones mediante actividades artísticas, como la d",
+            "reason": "Es el encabezado principal del bloque asignado al proyecto.",
+            "pedagogicalUse": "Permite sostener la reflexion sobre inclusion desde practicas y experiencias artisticas concretas.",
+            "activityReadiness": "usable-for-resonance"
+          },
+          {
+            "concept": "lenguajes y experiencias artisticas desde la discapacidad",
+            "status": "confirmed",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              278,
+              279
+            ],
+            "sourcePagesLabel": "pp. 278-279",
+            "topicTitle": "lenguajes y experiencias artisticas desde la discapacidad",
+            "evidenceSnippet": "74 Proyecto académico 43 Las manifestaciones artísticas de mi comunidad En cada región y estado del país existen manifestaciones culturales, pues cada comunidad expresa sus costumbres y tradiciones mediante actividades artísticas, como la d",
+            "reason": "Las paginas del bloque la desarrollan de manera directa.",
+            "pedagogicalUse": "Ayuda a reconocer otras formas de crear y comunicar mas alla de los modelos dominantes.",
+            "activityReadiness": "usable-for-resonance"
+          },
+          {
+            "concept": "acciones creativas para la inclusion desde el arte",
+            "status": "confirmed",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              279,
+              280
+            ],
+            "sourcePagesLabel": "pp. 279-280",
+            "topicTitle": "acciones creativas para la inclusion desde el arte",
+            "evidenceSnippet": "74 Proyecto académico 43 Las manifestaciones artísticas de mi comunidad En cada región y estado del país existen manifestaciones culturales, pues cada comunidad expresa sus costumbres y tradiciones mediante actividades artísticas, como la d",
+            "reason": "Se explicita en la fuente del bloque como parte del cierre conceptual.",
+            "pedagogicalUse": "Conecta el texto ilustrado con propuestas y no solo con diagnosticos.",
+            "activityReadiness": "usable-for-resonance"
+          },
+          {
+            "concept": "codigos y lenguajes artisticos",
+            "status": "confirmed",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              281,
+              282,
+              283
+            ],
+            "sourcePagesLabel": "pp. 281-283",
+            "topicTitle": "codigos y lenguajes artisticos",
+            "evidenceSnippet": "74 Proyecto académico 43 Las manifestaciones artísticas de mi comunidad En cada región y estado del país existen manifestaciones culturales, pues cada comunidad expresa sus costumbres y tradiciones mediante actividades artísticas, como la d",
+            "reason": "La continuidad de la fuente asigna estos codigos como herramientas de observacion critica.",
+            "pedagogicalUse": "Sirve para elegir recursos visuales y textuales con intencion artistica y social.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "soluciones creativas para la inclusion",
+            "status": "suggested",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              284,
+              285
+            ],
+            "sourcePagesLabel": "pp. 284-285",
+            "topicTitle": "soluciones creativas para la inclusion",
+            "evidenceSnippet": "74 Proyecto académico 43 Las manifestaciones artísticas de mi comunidad En cada región y estado del país existen manifestaciones culturales, pues cada comunidad expresa sus costumbres y tradiciones mediante actividades artísticas, como la d",
+            "reason": "El cierre del bloque las menciona, pero en esta fase se mantienen como proyeccion pedagogica y no como concepto confirmado.",
+            "pedagogicalUse": "Puede ayudar a revisar si el texto ilustrado propone acciones alcanzables.",
+            "activityReadiness": "usable-for-games-later"
+          }
+        ],
+        "thinkingCriteria": [
+          "Vincular informacion, imagen y sensibilidad artistica con una postura inclusiva.",
+          "Reconocer manifestaciones artisticas de personas con discapacidad sin paternalismo ni romantizacion.",
+          "Seleccionar formas de ilustracion que aporten sentido al texto y no solo lo decoren."
+        ],
+        "validationStatus": {
+          "readinessLevel": "development-partial",
+          "readyForActivities": false,
+          "needsReviewReasons": [
+            "El apoyo de Multiples Lenguajes funciona como referencia artistica, no como concepto automatico del proyecto."
+          ]
+        },
+        "readinessLevel": "development-partial",
+        "readyForActivities": false,
+        "needsReviewReasons": [
+          "El apoyo de Multiples Lenguajes funciona como referencia artistica, no como concepto automatico del proyecto."
+        ]
+      },
+      {
+        "id": "lenguajes-1-ppa-15-pa44",
+        "projectId": "lenguajes-1-ppa-15-pa44",
+        "academicProjectNumber": 44,
+        "projectTitle": "La canción de la empatía y la diversidad",
+        "grade": "1",
+        "field": "Lenguajes",
+        "ppaNumber": "15",
+        "partialClassroomProject": "PPA 15",
+        "partialClassroomProjectTitle": "Manifestaciones artisticas y la inclusion",
+        "bookVolume": "Tomo III",
+        "sourceValidation": {
+          "sourceStatus": "linked",
+          "possibilitiesPages": [
+            32,
+            33
+          ],
+          "possibilitiesMaterialId": "grade-1-posibilidades-pos-len-1",
+          "possibilitiesColumnIndex": 2,
+          "columnEvidence": "Bloque PPA 15 Manifestaciones artísticas y la inclusión localizado en pp. 32, 33, 34; PA 44 presente en el bloque, pero el OCR multicolumna no permite fijar columna con confianza automática."
+        },
+        "finalProduct": {
+          "title": "Cancion colectiva",
+          "source": "Posibilidades de uso Lenguajes p. 32-33 + Nuestro libro de proyectos Tomo III pp. 78-81",
+          "status": "confirmed"
+        },
+        "sourcePages": {
+          "nuestroLibroProyectos": [
+            {
+              "materialId": "grade-1-proyectos-nuestro-libro-de-proyectos-tomo-iii-primer-grado",
+              "label": "Nuestro libro de proyectos Tomo III",
+              "startPage": 78,
+              "endPage": 81,
+              "pagesLabel": "pp. 78-81",
+              "topicTitle": "Proyecto academico 44",
+              "status": "confirmed-source"
+            }
+          ],
+          "conceptBook": [
+            {
+              "materialId": "grade-1-conceptos-lenguajes-primer-grado",
+              "label": "Lenguajes",
+              "startPage": 281,
+              "endPage": 283,
+              "pagesLabel": "pp. 281-283",
+              "topicTitle": "Elementos de las artes como herramienta para la inclusion",
+              "status": "confirmed-source"
+            },
+            {
+              "materialId": "grade-1-conceptos-lenguajes-primer-grado",
+              "label": "Lenguajes",
+              "startPage": 306,
+              "endPage": 309,
+              "pagesLabel": "pp. 306-309",
+              "topicTitle": "Sistemas alternativos e ideogramas corporales",
+              "status": "confirmed-source"
+            }
+          ],
+          "multiplesLenguajes": [
+            {
+              "materialId": "grade-1-apoyo-muiltiples-lenguajes-primer-grado",
+              "label": "Multiples Lenguajes",
+              "startPage": 96,
+              "endPage": 99,
+              "pagesLabel": "pp. 96-99",
+              "topicTitle": "El samba: musica y baile de resistencia y dignidad",
+              "status": "confirmed-source"
+            }
+          ],
+          "otherMaterials": [
+            {
+              "label": "Video PA 44: Canción colectiva • Lenguajes • 1er grado",
+              "reference": "https://www.youtube.com/watch?v=0X7YIonSoKo",
+              "status": "confirmed"
+            },
+            {
+              "label": "Video PPA 15: 15. Manifestaciones artísticas y la inclusión • Lenguajes • 1er grado",
+              "reference": "https://www.youtube.com/watch?v=F0LXpX0nWec",
+              "status": "confirmed"
+            },
+            {
+              "label": "Recurso de consulta del proyecto",
+              "reference": "Cuales son las caracteristicas de una cancion colectiva? bit.ly/3R0ForE",
+              "status": "pending-validation"
+            },
+            {
+              "label": "Recurso general del bloque",
+              "reference": "bit.ly/3RpbgXa",
+              "status": "pending-validation"
+            },
+            {
+              "label": "Recurso informatico del bloque",
+              "reference": "bit.ly/3WQBMwg",
+              "status": "pending-validation"
+            }
+          ]
+        },
+        "supportMaterials": [
+          {
+            "title": "El samba: musica y baile de resistencia y dignidad",
+            "kind": "Multiples Lenguajes",
+            "pages": "pp. 96-99",
+            "status": "confirmed-source"
+          }
+        ],
+        "horizonOrPurpose": {
+          "status": "official",
+          "text": "Escribir y entonar una cancion colectiva que fomente interaccion, sensibilizacion y empatia con la diversidad como herramienta creativa para impulsar la inclusion.",
+          "source": "Nuestro libro de proyectos Tomo III p. 78"
+        },
+        "detonatingStrategy": {
+          "title": "15. Manifestaciones artísticas y la inclusión • Lenguajes • 1er grado",
+          "text": "Video del Proyecto Parcial de Aula 15: 15. Manifestaciones artísticas y la inclusión • Lenguajes • 1er grado",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=F0LXpX0nWec",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "partial-classroom-project"
+        },
+        "academicProjectStrategy": {
+          "title": "Canción colectiva • Lenguajes • 1er grado",
+          "text": "Video detonador del Proyecto Academico 44: Canción colectiva • Lenguajes • 1er grado",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=0X7YIonSoKo",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "academic-project"
+        },
+        "academicConcepts": [
+          {
+            "concept": "cancion colectiva",
+            "status": "confirmed",
+            "sourceBook": "Posibilidades de uso Lenguajes",
+            "sourcePages": [
+              32
+            ],
+            "sourcePagesLabel": "p. 32",
+            "topicTitle": "cancion colectiva",
+            "evidenceSnippet": "78 Proyecto académico 44 La canción de la empatía y la diversidad Existen varias maneras de expresar emociones y sentimientos, por ejemplo, mediante cartas, platicar con alguien de confianza, enviar mensajes por medio de internet, e incluso",
+            "reason": "La columna 2 nombra de forma explicita la cancion colectiva como producto final del proyecto.",
+            "pedagogicalUse": "Permite organizar letra, sentido, ritmo y presentacion publica en colectivo.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "codigos de las artes",
+            "status": "confirmed",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              281,
+              282
+            ],
+            "sourcePagesLabel": "pp. 281-282",
+            "topicTitle": "codigos de las artes",
+            "evidenceSnippet": "78 Proyecto académico 44 La canción de la empatía y la diversidad Existen varias maneras de expresar emociones y sentimientos, por ejemplo, mediante cartas, platicar con alguien de confianza, enviar mensajes por medio de internet, e incluso",
+            "reason": "El bloque asignado los presenta como herramienta de inclusion y lectura critica.",
+            "pedagogicalUse": "Ayuda a pensar recursos sonoros, expresivos y simbolicos de la cancion.",
+            "activityReadiness": "usable-for-resonance"
+          },
+          {
+            "concept": "pensamientos, sentimientos y su integracion en los lenguajes artisticos",
+            "status": "confirmed",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              307
+            ],
+            "sourcePagesLabel": "p. 307",
+            "topicTitle": "pensamientos, sentimientos y su integracion en los lenguajes artisticos",
+            "evidenceSnippet": "78 Proyecto académico 44 La canción de la empatía y la diversidad Existen varias maneras de expresar emociones y sentimientos, por ejemplo, mediante cartas, platicar con alguien de confianza, enviar mensajes por medio de internet, e incluso",
+            "reason": "La fuente nombra de manera explicita la integracion de pensamientos y sentimientos en los lenguajes artisticos.",
+            "pedagogicalUse": "Sostiene el trabajo con mensaje, tono y expresividad de la cancion.",
+            "activityReadiness": "usable-for-resonance"
+          },
+          {
+            "concept": "diversidad e inclusion",
+            "status": "confirmed",
+            "sourceBook": "Nuestro libro de proyectos Tomo III",
+            "sourcePages": [
+              78,
+              79,
+              80
+            ],
+            "sourcePagesLabel": "pp. 78-80",
+            "topicTitle": "diversidad e inclusion",
+            "evidenceSnippet": "78 Proyecto académico 44 La canción de la empatía y la diversidad Existen varias maneras de expresar emociones y sentimientos, por ejemplo, mediante cartas, platicar con alguien de confianza, enviar mensajes por medio de internet, e incluso",
+            "reason": "La etapa 1 y los objetivos colocan inclusion y diversidad como centro del producto.",
+            "pedagogicalUse": "Ayuda a evaluar si la cancion realmente comunica respeto, empatía y reconocimiento.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "expresion musical colectiva",
+            "status": "confirmed",
+            "sourceBook": "Nuestro libro de proyectos Tomo III",
+            "sourcePages": [
+              78,
+              79,
+              80
+            ],
+            "sourcePagesLabel": "pp. 78-80",
+            "topicTitle": "expresion musical colectiva",
+            "evidenceSnippet": "78 Proyecto académico 44 La canción de la empatía y la diversidad Existen varias maneras de expresar emociones y sentimientos, por ejemplo, mediante cartas, platicar con alguien de confianza, enviar mensajes por medio de internet, e incluso",
+            "reason": "El proyecto pide escribir y entonar colectivamente una cancion con presentacion publica.",
+            "pedagogicalUse": "Sostiene la coordinacion del trabajo comunitario y la puesta en escena del mensaje.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "sistemas alternativos",
+            "status": "suggested",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              306
+            ],
+            "sourcePagesLabel": "p. 306",
+            "topicTitle": "sistemas alternativos",
+            "evidenceSnippet": "78 Proyecto académico 44 La canción de la empatía y la diversidad Existen varias maneras de expresar emociones y sentimientos, por ejemplo, mediante cartas, platicar con alguien de confianza, enviar mensajes por medio de internet, e incluso",
+            "reason": "Aparece en la fuente asignada, pero en esta fase se mantiene como apoyo y no como eje confirmado del producto.",
+            "pedagogicalUse": "Puede enriquecer la reflexion sobre inclusion y formas diversas de comunicacion.",
+            "activityReadiness": "usable-for-games-later"
+          },
+          {
+            "concept": "ideogramas corporales y claves comunicativas",
+            "status": "needsReview",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              308,
+              309
+            ],
+            "sourcePagesLabel": "pp. 308-309",
+            "topicTitle": "ideogramas corporales y claves comunicativas",
+            "evidenceSnippet": "78 Proyecto académico 44 La canción de la empatía y la diversidad Existen varias maneras de expresar emociones y sentimientos, por ejemplo, mediante cartas, platicar con alguien de confianza, enviar mensajes por medio de internet, e incluso",
+            "reason": "La fuente los menciona, pero hace falta mayor validacion para decidir su peso real dentro de la cancion colectiva.",
+            "pedagogicalUse": "Conviene tratarlos con cautela y no como base confirmada del producto.",
+            "activityReadiness": "not-usable-yet"
+          }
+        ],
+        "thinkingCriteria": [
+          "Relacionar expresion musical y mensaje social sin perder claridad ni profundidad.",
+          "Distinguir cuando una cancion comunica empatía y cuando solo repite frases bonitas.",
+          "Usar recursos artisticos para expresar inclusion de forma respetuosa y situada."
+        ],
+        "validationStatus": {
+          "readinessLevel": "development-partial",
+          "readyForActivities": false,
+          "needsReviewReasons": [
+            "Los sistemas alternativos e ideogramas corporales se mantienen en apoyo de lectura y no todos pasan a confirmacion directa del producto."
+          ]
+        },
+        "readinessLevel": "development-partial",
+        "readyForActivities": false,
+        "needsReviewReasons": [
+          "Los sistemas alternativos e ideogramas corporales se mantienen en apoyo de lectura y no todos pasan a confirmacion directa del producto."
+        ]
+      },
+      {
+        "id": "lenguajes-1-ppa-15-pa45",
+        "projectId": "lenguajes-1-ppa-15-pa45",
+        "academicProjectNumber": 45,
+        "projectTitle": "La semblanza de indígenas de orgullo",
+        "grade": "1",
+        "field": "Lenguajes",
+        "ppaNumber": "15",
+        "partialClassroomProject": "PPA 15",
+        "partialClassroomProjectTitle": "Manifestaciones artisticas y la inclusion",
+        "bookVolume": "Tomo III",
+        "sourceValidation": {
+          "sourceStatus": "linked",
+          "possibilitiesPages": [
+            32,
+            33
+          ],
+          "possibilitiesMaterialId": "grade-1-posibilidades-pos-len-1",
+          "possibilitiesColumnIndex": 3,
+          "columnEvidence": "Bloque PPA 15 Manifestaciones artísticas y la inclusión localizado en pp. 32, 33, 34; PA 45 presente en el bloque, pero el OCR multicolumna no permite fijar columna con confianza automática."
+        },
+        "finalProduct": {
+          "title": "Breve semblanza",
+          "source": "Posibilidades de uso Lenguajes p. 32-33 + Nuestro libro de proyectos Tomo III pp. 82-84",
+          "status": "confirmed"
+        },
+        "sourcePages": {
+          "nuestroLibroProyectos": [
+            {
+              "materialId": "grade-1-proyectos-nuestro-libro-de-proyectos-tomo-iii-primer-grado",
+              "label": "Nuestro libro de proyectos Tomo III",
+              "startPage": 82,
+              "endPage": 84,
+              "pagesLabel": "pp. 82-84",
+              "topicTitle": "Proyecto academico 45",
+              "status": "confirmed-source"
+            }
+          ],
+          "conceptBook": [
+            {
+              "materialId": "grade-1-conceptos-lenguajes-primer-grado",
+              "label": "Lenguajes",
+              "startPage": 84,
+              "endPage": 88,
+              "pagesLabel": "pp. 84-88",
+              "topicTitle": "Diversidad cultural y linguistica",
+              "status": "confirmed-source"
+            },
+            {
+              "materialId": "grade-1-conceptos-lenguajes-primer-grado",
+              "label": "Lenguajes",
+              "startPage": 103,
+              "endPage": 108,
+              "pagesLabel": "pp. 103-108",
+              "topicTitle": "Creaciones literarias en lenguas indigenas",
+              "status": "confirmed-source"
+            },
+            {
+              "materialId": "grade-1-conceptos-lenguajes-primer-grado",
+              "label": "Lenguajes",
+              "startPage": 184,
+              "endPage": 191,
+              "pagesLabel": "pp. 184-191",
+              "topicTitle": "Medios de expresion en lenguas indigenas",
+              "status": "confirmed-source"
+            }
+          ],
+          "multiplesLenguajes": [
+            {
+              "materialId": "grade-1-apoyo-muiltiples-lenguajes-primer-grado",
+              "label": "Multiples Lenguajes",
+              "startPage": 74,
+              "endPage": 77,
+              "pagesLabel": "pp. 74-77",
+              "topicTitle": "Gente haciendo su chamba",
+              "status": "confirmed-source"
+            }
+          ],
+          "otherMaterials": [
+            {
+              "label": "Video PA 45: Breve semblanza • Lenguajes • 1er grado",
+              "reference": "https://www.youtube.com/watch?v=bhdPEBCaEEs",
+              "status": "confirmed"
+            },
+            {
+              "label": "Video PPA 15: 15. Manifestaciones artísticas y la inclusión • Lenguajes • 1er grado",
+              "reference": "https://www.youtube.com/watch?v=F0LXpX0nWec",
+              "status": "confirmed"
+            },
+            {
+              "label": "Recurso de consulta del proyecto",
+              "reference": "Como se redacta una breve semblanza? bit.ly/3R0ForE",
+              "status": "pending-validation"
+            },
+            {
+              "label": "Recurso general del bloque",
+              "reference": "bit.ly/3RpbgXa",
+              "status": "pending-validation"
+            },
+            {
+              "label": "Recurso informatico del bloque",
+              "reference": "bit.ly/3WQBMwg",
+              "status": "pending-validation"
+            }
+          ]
+        },
+        "supportMaterials": [
+          {
+            "title": "Gente haciendo su chamba",
+            "kind": "Multiples Lenguajes",
+            "pages": "pp. 74-77",
+            "status": "confirmed-source"
+          }
+        ],
+        "horizonOrPurpose": {
+          "status": "official",
+          "text": "Conocer en distintas fuentes a personas indigenas sobresalientes y redactar una breve semblanza de su vida y obra como medio para valorar y difundir sus creaciones.",
+          "source": "Nuestro libro de proyectos Tomo III p. 82"
+        },
+        "detonatingStrategy": {
+          "title": "15. Manifestaciones artísticas y la inclusión • Lenguajes • 1er grado",
+          "text": "Video del Proyecto Parcial de Aula 15: 15. Manifestaciones artísticas y la inclusión • Lenguajes • 1er grado",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=F0LXpX0nWec",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "partial-classroom-project"
+        },
+        "academicProjectStrategy": {
+          "title": "Breve semblanza • Lenguajes • 1er grado",
+          "text": "Video detonador del Proyecto Academico 45: Breve semblanza • Lenguajes • 1er grado",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=bhdPEBCaEEs",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "academic-project"
+        },
+        "academicConcepts": [
+          {
+            "concept": "breve semblanza",
+            "status": "confirmed",
+            "sourceBook": "Posibilidades de uso Lenguajes",
+            "sourcePages": [
+              32
+            ],
+            "sourcePagesLabel": "p. 32",
+            "topicTitle": "breve semblanza",
+            "evidenceSnippet": "idad cultural, artística, política, educativa o social y redactar una breve semblanza de su vida y su obra como un medio para valorar y difundir sus creaciones. Interculturalidad crítica: expresarse es revelar el propio interior, es darse a",
+            "reason": "La columna 3 nombra de manera explicita la breve semblanza como producto del proyecto.",
+            "pedagogicalUse": "Permite organizar la redaccion del retrato biografico y su proposito de difusion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "diversidad cultural y linguistica",
+            "status": "confirmed",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              84,
+              85,
+              86,
+              87,
+              88
+            ],
+            "sourcePagesLabel": "pp. 84-88",
+            "topicTitle": "diversidad cultural y linguistica",
+            "evidenceSnippet": "82 Proyecto académico 45 La semblanza de indígenas de orgullo Históricamente, las comunidades indígenas han sido discriminadas en los ámbitos social y político. No obstante, desde hace tiempo se realizan distintas prácticas a favor de la in",
+            "reason": "El bloque asignado la desarrolla como eje de lectura y reconocimiento.",
+            "pedagogicalUse": "Ayuda a contextualizar por que la trayectoria de una persona indigena importa para toda la comunidad.",
+            "activityReadiness": "usable-for-resonance"
+          },
+          {
+            "concept": "creaciones literarias en lenguas indigenas",
+            "status": "confirmed",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              103,
+              104,
+              105,
+              106,
+              107,
+              108
+            ],
+            "sourcePagesLabel": "pp. 103-108",
+            "topicTitle": "creaciones literarias en lenguas indigenas",
+            "evidenceSnippet": "82 Proyecto académico 45 La semblanza de indígenas de orgullo Históricamente, las comunidades indígenas han sido discriminadas en los ámbitos social y político. No obstante, desde hace tiempo se realizan distintas prácticas a favor de la in",
+            "reason": "Las paginas del bloque la nombran y desarrollan de forma explicita.",
+            "pedagogicalUse": "Permite valorar obra, lengua y creacion como parte de la semblanza.",
+            "activityReadiness": "usable-for-resonance"
+          },
+          {
+            "concept": "personas indigenas destacadas por contribuir a la cultura y las artes",
+            "status": "confirmed",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              189,
+              190
+            ],
+            "sourcePagesLabel": "pp. 189-190",
+            "topicTitle": "personas indigenas destacadas por contribuir a la cultura y las artes",
+            "evidenceSnippet": "82 Proyecto académico 45 La semblanza de indígenas de orgullo Históricamente, las comunidades indígenas han sido discriminadas en los ámbitos social y político. No obstante, desde hace tiempo se realizan distintas prácticas a favor de la in",
+            "reason": "La continuidad de la p. 33 la enuncia de manera directa dentro del bloque asignado.",
+            "pedagogicalUse": "Ayuda a seleccionar a quien retratar y por que su trayectoria merece difundirse.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "semblanza: un medio para retratar",
+            "status": "confirmed",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              190,
+              191
+            ],
+            "sourcePagesLabel": "pp. 190-191",
+            "topicTitle": "semblanza: un medio para retratar",
+            "evidenceSnippet": "82 Proyecto académico 45 La semblanza de indígenas de orgullo Históricamente, las comunidades indígenas han sido discriminadas en los ámbitos social y político. No obstante, desde hace tiempo se realizan distintas prácticas a favor de la in",
+            "reason": "La pagina 190-191 nombra de forma explicita la semblanza como medio para retratar.",
+            "pedagogicalUse": "Sostiene decisiones de estructura, foco narrativo y presentacion del personaje.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "textos literarios y la diversidad cultural",
+            "status": "suggested",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              86,
+              87,
+              88
+            ],
+            "sourcePagesLabel": "pp. 86-88",
+            "topicTitle": "textos literarios y la diversidad cultural",
+            "evidenceSnippet": "82 Proyecto académico 45 La semblanza de indígenas de orgullo Históricamente, las comunidades indígenas han sido discriminadas en los ámbitos social y político. No obstante, desde hace tiempo se realizan distintas prácticas a favor de la in",
+            "reason": "Aparece en la fuente asignada y dialoga con el proyecto, pero se mantiene como apoyo y no como eje confirmado.",
+            "pedagogicalUse": "Puede ayudar a enriquecer la interpretacion del personaje y su obra.",
+            "activityReadiness": "usable-for-games-later"
+          },
+          {
+            "concept": "manifestaciones literarias en lenguas indigenas",
+            "status": "suggested",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              104,
+              105,
+              106,
+              107,
+              108
+            ],
+            "sourcePagesLabel": "pp. 104-108",
+            "topicTitle": "manifestaciones literarias en lenguas indigenas",
+            "evidenceSnippet": "82 Proyecto académico 45 La semblanza de indígenas de orgullo Históricamente, las comunidades indígenas han sido discriminadas en los ámbitos social y político. No obstante, desde hace tiempo se realizan distintas prácticas a favor de la in",
+            "reason": "Aporta profundidad al proyecto, aunque se mantiene en cautela para no saturar el nucleo confirmado.",
+            "pedagogicalUse": "Sirve para abrir criterios de lectura sobre las obras y aportes del personaje.",
+            "activityReadiness": "usable-for-games-later"
+          },
+          {
+            "concept": "sensaciones e ideas a traves de los lenguajes en lenguas indigenas",
+            "status": "needsReview",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              185,
+              186,
+              187,
+              188
+            ],
+            "sourcePagesLabel": "pp. 185-188",
+            "topicTitle": "sensaciones e ideas a traves de los lenguajes en lenguas indigenas",
+            "evidenceSnippet": "82 Proyecto académico 45 La semblanza de indígenas de orgullo Históricamente, las comunidades indígenas han sido discriminadas en los ámbitos social y político. No obstante, desde hace tiempo se realizan distintas prácticas a favor de la in",
+            "reason": "La continuidad del bloque la incluye, pero todavia no se valida como concepto confirmado del producto.",
+            "pedagogicalUse": "Conviene tratarla como apoyo de lectura y no como centro evaluativo de la semblanza.",
+            "activityReadiness": "not-usable-yet"
+          }
+        ],
+        "thinkingCriteria": [
+          "Reconocer personas y trayectorias indigenas sin caer en estereotipos o simplificaciones.",
+          "Relacionar diversidad cultural, lengua y creacion con una escritura de semblanza respetuosa.",
+          "Valorar la semblanza como medio para retratar y difundir aportes de personas concretas."
+        ],
+        "validationStatus": {
+          "readinessLevel": "development-partial",
+          "readyForActivities": false,
+          "needsReviewReasons": [
+            "Las sensaciones e ideas a traves de los lenguajes en lenguas indigenas se mantienen en revision y no se elevan a concepto confirmado."
+          ]
+        },
+        "readinessLevel": "development-partial",
+        "readyForActivities": false,
+        "needsReviewReasons": [
+          "Las sensaciones e ideas a traves de los lenguajes en lenguas indigenas se mantienen en revision y no se elevan a concepto confirmado."
+        ]
+      }
+    ]
+  },
+  "conceptsValidation": {
+    "grade": "1",
+    "field": "Lenguajes",
+    "ppaNumber": "15",
+    "status": "concept-validation",
+    "generatedAt": "2026-05-28T23:50:44.632Z",
+    "entries": [
+      {
+        "projectId": "lenguajes-1-ppa-15-pa43",
+        "projectTitle": "Las manifestaciones artísticas de mi comunidad",
+        "concept": "texto ilustrado",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Posibilidades de uso Lenguajes",
+          "pages": [
+            32
+          ],
+          "reason": "La columna 1 lo nombra de forma explicita como producto del PA43."
+        },
+        "pedagogicalUse": "Ayuda a articular informacion escrita e imagen con un proposito inclusivo claro.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-1-ppa-15-pa43",
+        "projectTitle": "Las manifestaciones artísticas de mi comunidad",
+        "concept": "discapacidad e inclusion en las artes",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            276,
+            277,
+            278,
+            279,
+            280
+          ],
+          "reason": "Es el encabezado principal del bloque asignado al proyecto."
+        },
+        "pedagogicalUse": "Permite sostener la reflexion sobre inclusion desde practicas y experiencias artisticas concretas.",
+        "activityReadiness": "usable-for-resonance"
+      },
+      {
+        "projectId": "lenguajes-1-ppa-15-pa43",
+        "projectTitle": "Las manifestaciones artísticas de mi comunidad",
+        "concept": "lenguajes y experiencias artisticas desde la discapacidad",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            278,
+            279
+          ],
+          "reason": "Las paginas del bloque la desarrollan de manera directa."
+        },
+        "pedagogicalUse": "Ayuda a reconocer otras formas de crear y comunicar mas alla de los modelos dominantes.",
+        "activityReadiness": "usable-for-resonance"
+      },
+      {
+        "projectId": "lenguajes-1-ppa-15-pa43",
+        "projectTitle": "Las manifestaciones artísticas de mi comunidad",
+        "concept": "acciones creativas para la inclusion desde el arte",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            279,
+            280
+          ],
+          "reason": "Se explicita en la fuente del bloque como parte del cierre conceptual."
+        },
+        "pedagogicalUse": "Conecta el texto ilustrado con propuestas y no solo con diagnosticos.",
+        "activityReadiness": "usable-for-resonance"
+      },
+      {
+        "projectId": "lenguajes-1-ppa-15-pa43",
+        "projectTitle": "Las manifestaciones artísticas de mi comunidad",
+        "concept": "codigos y lenguajes artisticos",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            281,
+            282,
+            283
+          ],
+          "reason": "La continuidad de la fuente asigna estos codigos como herramientas de observacion critica."
+        },
+        "pedagogicalUse": "Sirve para elegir recursos visuales y textuales con intencion artistica y social.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-1-ppa-15-pa43",
+        "projectTitle": "Las manifestaciones artísticas de mi comunidad",
+        "concept": "soluciones creativas para la inclusion",
+        "status": "suggested",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            284,
+            285
+          ],
+          "reason": "El cierre del bloque las menciona, pero en esta fase se mantienen como proyeccion pedagogica y no como concepto confirmado."
+        },
+        "pedagogicalUse": "Puede ayudar a revisar si el texto ilustrado propone acciones alcanzables.",
+        "activityReadiness": "usable-for-games-later"
+      },
+      {
+        "projectId": "lenguajes-1-ppa-15-pa44",
+        "projectTitle": "La canción de la empatía y la diversidad",
+        "concept": "cancion colectiva",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Posibilidades de uso Lenguajes",
+          "pages": [
+            32
+          ],
+          "reason": "La columna 2 nombra de forma explicita la cancion colectiva como producto final del proyecto."
+        },
+        "pedagogicalUse": "Permite organizar letra, sentido, ritmo y presentacion publica en colectivo.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-1-ppa-15-pa44",
+        "projectTitle": "La canción de la empatía y la diversidad",
+        "concept": "codigos de las artes",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            281,
+            282
+          ],
+          "reason": "El bloque asignado los presenta como herramienta de inclusion y lectura critica."
+        },
+        "pedagogicalUse": "Ayuda a pensar recursos sonoros, expresivos y simbolicos de la cancion.",
+        "activityReadiness": "usable-for-resonance"
+      },
+      {
+        "projectId": "lenguajes-1-ppa-15-pa44",
+        "projectTitle": "La canción de la empatía y la diversidad",
+        "concept": "pensamientos, sentimientos y su integracion en los lenguajes artisticos",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            307
+          ],
+          "reason": "La fuente nombra de manera explicita la integracion de pensamientos y sentimientos en los lenguajes artisticos."
+        },
+        "pedagogicalUse": "Sostiene el trabajo con mensaje, tono y expresividad de la cancion.",
+        "activityReadiness": "usable-for-resonance"
+      },
+      {
+        "projectId": "lenguajes-1-ppa-15-pa44",
+        "projectTitle": "La canción de la empatía y la diversidad",
+        "concept": "diversidad e inclusion",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Nuestro libro de proyectos Tomo III",
+          "pages": [
+            78,
+            79,
+            80
+          ],
+          "reason": "La etapa 1 y los objetivos colocan inclusion y diversidad como centro del producto."
+        },
+        "pedagogicalUse": "Ayuda a evaluar si la cancion realmente comunica respeto, empatía y reconocimiento.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-1-ppa-15-pa44",
+        "projectTitle": "La canción de la empatía y la diversidad",
+        "concept": "expresion musical colectiva",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Nuestro libro de proyectos Tomo III",
+          "pages": [
+            78,
+            79,
+            80
+          ],
+          "reason": "El proyecto pide escribir y entonar colectivamente una cancion con presentacion publica."
+        },
+        "pedagogicalUse": "Sostiene la coordinacion del trabajo comunitario y la puesta en escena del mensaje.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-1-ppa-15-pa44",
+        "projectTitle": "La canción de la empatía y la diversidad",
+        "concept": "sistemas alternativos",
+        "status": "suggested",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            306
+          ],
+          "reason": "Aparece en la fuente asignada, pero en esta fase se mantiene como apoyo y no como eje confirmado del producto."
+        },
+        "pedagogicalUse": "Puede enriquecer la reflexion sobre inclusion y formas diversas de comunicacion.",
+        "activityReadiness": "usable-for-games-later"
+      },
+      {
+        "projectId": "lenguajes-1-ppa-15-pa44",
+        "projectTitle": "La canción de la empatía y la diversidad",
+        "concept": "ideogramas corporales y claves comunicativas",
+        "status": "needsReview",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            308,
+            309
+          ],
+          "reason": "La fuente los menciona, pero hace falta mayor validacion para decidir su peso real dentro de la cancion colectiva."
+        },
+        "pedagogicalUse": "Conviene tratarlos con cautela y no como base confirmada del producto.",
+        "activityReadiness": "not-usable-yet"
+      },
+      {
+        "projectId": "lenguajes-1-ppa-15-pa45",
+        "projectTitle": "La semblanza de indígenas de orgullo",
+        "concept": "breve semblanza",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Posibilidades de uso Lenguajes",
+          "pages": [
+            32
+          ],
+          "reason": "La columna 3 nombra de manera explicita la breve semblanza como producto del proyecto."
+        },
+        "pedagogicalUse": "Permite organizar la redaccion del retrato biografico y su proposito de difusion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-1-ppa-15-pa45",
+        "projectTitle": "La semblanza de indígenas de orgullo",
+        "concept": "diversidad cultural y linguistica",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            84,
+            85,
+            86,
+            87,
+            88
+          ],
+          "reason": "El bloque asignado la desarrolla como eje de lectura y reconocimiento."
+        },
+        "pedagogicalUse": "Ayuda a contextualizar por que la trayectoria de una persona indigena importa para toda la comunidad.",
+        "activityReadiness": "usable-for-resonance"
+      },
+      {
+        "projectId": "lenguajes-1-ppa-15-pa45",
+        "projectTitle": "La semblanza de indígenas de orgullo",
+        "concept": "creaciones literarias en lenguas indigenas",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            103,
+            104,
+            105,
+            106,
+            107,
+            108
+          ],
+          "reason": "Las paginas del bloque la nombran y desarrollan de forma explicita."
+        },
+        "pedagogicalUse": "Permite valorar obra, lengua y creacion como parte de la semblanza.",
+        "activityReadiness": "usable-for-resonance"
+      },
+      {
+        "projectId": "lenguajes-1-ppa-15-pa45",
+        "projectTitle": "La semblanza de indígenas de orgullo",
+        "concept": "personas indigenas destacadas por contribuir a la cultura y las artes",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            189,
+            190
+          ],
+          "reason": "La continuidad de la p. 33 la enuncia de manera directa dentro del bloque asignado."
+        },
+        "pedagogicalUse": "Ayuda a seleccionar a quien retratar y por que su trayectoria merece difundirse.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-1-ppa-15-pa45",
+        "projectTitle": "La semblanza de indígenas de orgullo",
+        "concept": "semblanza: un medio para retratar",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            190,
+            191
+          ],
+          "reason": "La pagina 190-191 nombra de forma explicita la semblanza como medio para retratar."
+        },
+        "pedagogicalUse": "Sostiene decisiones de estructura, foco narrativo y presentacion del personaje.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-1-ppa-15-pa45",
+        "projectTitle": "La semblanza de indígenas de orgullo",
+        "concept": "textos literarios y la diversidad cultural",
+        "status": "suggested",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            86,
+            87,
+            88
+          ],
+          "reason": "Aparece en la fuente asignada y dialoga con el proyecto, pero se mantiene como apoyo y no como eje confirmado."
+        },
+        "pedagogicalUse": "Puede ayudar a enriquecer la interpretacion del personaje y su obra.",
+        "activityReadiness": "usable-for-games-later"
+      },
+      {
+        "projectId": "lenguajes-1-ppa-15-pa45",
+        "projectTitle": "La semblanza de indígenas de orgullo",
+        "concept": "manifestaciones literarias en lenguas indigenas",
+        "status": "suggested",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            104,
+            105,
+            106,
+            107,
+            108
+          ],
+          "reason": "Aporta profundidad al proyecto, aunque se mantiene en cautela para no saturar el nucleo confirmado."
+        },
+        "pedagogicalUse": "Sirve para abrir criterios de lectura sobre las obras y aportes del personaje.",
+        "activityReadiness": "usable-for-games-later"
+      },
+      {
+        "projectId": "lenguajes-1-ppa-15-pa45",
+        "projectTitle": "La semblanza de indígenas de orgullo",
+        "concept": "sensaciones e ideas a traves de los lenguajes en lenguas indigenas",
+        "status": "needsReview",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            185,
+            186,
+            187,
+            188
+          ],
+          "reason": "La continuidad del bloque la incluye, pero todavia no se valida como concepto confirmado del producto."
+        },
+        "pedagogicalUse": "Conviene tratarla como apoyo de lectura y no como centro evaluativo de la semblanza.",
+        "activityReadiness": "not-usable-yet"
+      }
+    ]
+  },
+  "pedagogicalArticulation": {
+    "grade": "1",
+    "field": "Lenguajes",
+    "ppaNumber": "15",
+    "status": "teacher-orientation",
+    "officialHorizonStatus": "pending",
+    "situatedPedagogicalOrientation": "El PPA 15 puede orientar un trabajo situado donde las artes, la inclusion, la diversidad cultural y la valoracion de las comunidades indigenas se encuentren en productos de comunicacion publica. PA43 organiza un texto ilustrado sobre manifestaciones artisticas e inclusion; PA44 transforma la reflexion en una cancion colectiva; y PA45 conduce a la redaccion de una breve semblanza sobre personas indigenas sobresalientes como medio para valorar y difundir sus creaciones.",
+    "integratingQuestions": [
+      "Si un texto ilustrado, una cancion colectiva y una breve semblanza ayudan a hablar de inclusion y diversidad, que formas de ver, nombrar y reconocer a otras personas se vuelven posibles en la comunidad?",
+      "Relacionar inclusion, artes y diversidad cultural con acciones concretas de reconocimiento comunitario.",
+      "Valorar productos artisticos y textuales como medios para comunicar dignidad y memoria.",
+      "Distinguir entre representar la diversidad y trabajarla de manera respetuosa y situada."
+    ],
+    "projectConnections": [
+      {
+        "projectId": "lenguajes-1-ppa-15-pa43",
+        "projectTitle": "Las manifestaciones artísticas de mi comunidad",
+        "roleInPpa": "Texto ilustrado",
+        "confirmedConcepts": [
+          "texto ilustrado",
+          "discapacidad e inclusion en las artes",
+          "lenguajes y experiencias artisticas desde la discapacidad",
+          "acciones creativas para la inclusion desde el arte",
+          "codigos y lenguajes artisticos"
+        ],
+        "suggestedConcepts": [
+          "soluciones creativas para la inclusion"
+        ],
+        "pedagogicalUse": "El texto ilustrado necesita combinar informacion y sensibilidad artistica con claridad de mensaje."
+      },
+      {
+        "projectId": "lenguajes-1-ppa-15-pa44",
+        "projectTitle": "La canción de la empatía y la diversidad",
+        "roleInPpa": "Cancion colectiva",
+        "confirmedConcepts": [
+          "cancion colectiva",
+          "codigos de las artes",
+          "pensamientos, sentimientos y su integracion en los lenguajes artisticos",
+          "diversidad e inclusion",
+          "expresion musical colectiva"
+        ],
+        "suggestedConcepts": [
+          "sistemas alternativos"
+        ],
+        "pedagogicalUse": "La cancion colectiva funciona mejor cuando el mensaje es claro y compartido por el grupo, no cuando solo se busca una rima facil."
+      },
+      {
+        "projectId": "lenguajes-1-ppa-15-pa45",
+        "projectTitle": "La semblanza de indígenas de orgullo",
+        "roleInPpa": "Breve semblanza",
+        "confirmedConcepts": [
+          "breve semblanza",
+          "diversidad cultural y linguistica",
+          "creaciones literarias en lenguas indigenas",
+          "personas indigenas destacadas por contribuir a la cultura y las artes",
+          "semblanza: un medio para retratar"
+        ],
+        "suggestedConcepts": [
+          "textos literarios y la diversidad cultural",
+          "manifestaciones literarias en lenguas indigenas"
+        ],
+        "pedagogicalUse": "La semblanza debe trabajar con informacion suficiente y respeto por la persona elegida, no con adjetivos vacios."
+      }
+    ],
+    "criteriaOfThought": [
+      {
+        "criterion": "Relacionar inclusion, artes y diversidad cultural con acciones concretas de reconocimiento comunitario.",
+        "status": "suggested"
+      },
+      {
+        "criterion": "Valorar productos artisticos y textuales como medios para comunicar dignidad y memoria.",
+        "status": "suggested"
+      },
+      {
+        "criterion": "Distinguir entre representar la diversidad y trabajarla de manera respetuosa y situada.",
+        "status": "suggested"
+      }
+    ],
+    "possibleResonanceQuestion": "Si un texto ilustrado, una cancion colectiva y una breve semblanza ayudan a hablar de inclusion y diversidad, que formas de ver, nombrar y reconocer a otras personas se vuelven posibles en la comunidad?",
+    "teacherNotes": [
+      "No convertir inclusion o diversidad en lemas vacios; cada producto necesita contenido, contexto y mirada critica.",
+      "Las referencias a discapacidad, lenguas indigenas y sistemas alternativos deben tratarse con respeto y sin simplificaciones.",
+      "La p. 34 de Posibilidades queda fuera del PPA 15; solo se usa como indice de videos del trimestre."
+    ],
+    "notReadyFor": [
+      "actividades interactivas",
+      "full-games",
+      "summative-exam"
+    ]
+  },
+  "teacherNotesAndResonances": {
+    "grade": "1",
+    "field": "Lenguajes",
+    "ppaNumber": "15",
+    "status": "teacher-orientation",
+    "officialHorizonStatus": "pending",
+    "ppaIntegratingResonance": "Si un texto ilustrado, una cancion colectiva y una breve semblanza ayudan a hablar de inclusion y diversidad, que formas de ver, nombrar y reconocer a otras personas se vuelven posibles en la comunidad?",
+    "didacticWarnings": [
+      "No convertir inclusion o diversidad en lemas vacios; cada producto necesita contenido, contexto y mirada critica.",
+      "Las referencias a discapacidad, lenguas indigenas y sistemas alternativos deben tratarse con respeto y sin simplificaciones.",
+      "La p. 34 de Posibilidades queda fuera del PPA 15; solo se usa como indice de videos del trimestre."
+    ],
+    "communityPrompts": {
+      "communityKnowledge": [
+        "Que manifestaciones artisticas de la comunidad ayudan a reconocer a personas, historias o grupos que a veces quedan fuera de la mirada comun?"
+      ],
+      "families": [
+        "Que canciones, relatos, personajes o practicas artisticas han servido en la familia para hablar de respeto, empatia o orgullo cultural?"
+      ],
+      "territoryLanguageMemory": [
+        "Que personas indigenas, artistas locales o experiencias de inclusion hacen falta nombrar con mas fuerza en la comunidad?"
+      ],
+      "productCommunityConnection": [
+        "Como pueden circular el texto ilustrado, la cancion y la semblanza para abrir dialogo y no solo cumplir una presentacion?"
+      ]
+    },
+    "suggestedThinkingCriteria": [
+      "Relacionar inclusion, artes y diversidad cultural con acciones concretas de reconocimiento comunitario.",
+      "Valorar productos artisticos y textuales como medios para comunicar dignidad y memoria.",
+      "Distinguir entre representar la diversidad y trabajarla de manera respetuosa y situada."
+    ],
+    "projects": [
+      {
+        "projectId": "lenguajes-1-ppa-15-pa43",
+        "projectTitle": "Las manifestaciones artísticas de mi comunidad",
+        "teacherNotes": [
+          "El texto ilustrado necesita combinar informacion y sensibilidad artistica con claridad de mensaje.",
+          "Conviene hablar de inclusion desde ejemplos y practicas reales, no solo desde definiciones abstractas.",
+          "Las manifestaciones creadas por personas con discapacidad deben presentarse con respeto, evitando exotizacion o lastima.",
+          "Manzanas amarillas puede abrir una conversacion sobre mirada artistica y sensibilidad visual.",
+          "Eviten que las ilustraciones sustituyan el pensamiento; deben dialogar con el contenido y no ocultarlo."
+        ],
+        "confirmedConceptsToUse": [
+          "texto ilustrado",
+          "discapacidad e inclusion en las artes",
+          "lenguajes y experiencias artisticas desde la discapacidad",
+          "acciones creativas para la inclusion desde el arte",
+          "codigos y lenguajes artisticos"
+        ],
+        "suggestedConceptsToHandleCarefully": [
+          "soluciones creativas para la inclusion"
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "Que manifestacion artistica de tu comunidad te gustaria mostrar para hablar de inclusion y por que?",
+            "conceptsActivated": [
+              "texto ilustrado",
+              "discapacidad e inclusion en las artes"
+            ],
+            "thinkingCriteria": [
+              "Elegir ejemplos con sentido comunitario"
+            ],
+            "suggestedUse": "Apertura."
+          },
+          {
+            "type": "collective",
+            "prompt": "Como puede una ilustracion ayudar a comprender una idea de inclusion y cuando solo la vuelve decoracion?",
+            "conceptsActivated": [
+              "texto ilustrado",
+              "codigos y lenguajes artisticos"
+            ],
+            "thinkingCriteria": [
+              "Relacionar forma y sentido"
+            ],
+            "suggestedUse": "Revision del producto."
+          },
+          {
+            "type": "community",
+            "prompt": "Que personas o experiencias de la comunidad merecen ser visibilizadas para construir una sociedad mas incluyente?",
+            "conceptsActivated": [
+              "acciones creativas para la inclusion desde el arte"
+            ],
+            "thinkingCriteria": [
+              "Vincular inclusion y territorio"
+            ],
+            "suggestedUse": "Vinculo con entorno."
+          },
+          {
+            "type": "closing",
+            "prompt": "Despues de elaborar el texto ilustrado, que aprendiste sobre la relacion entre arte, inclusion y mirada critica de lo cotidiano?",
+            "conceptsActivated": [
+              "lenguajes y experiencias artisticas desde la discapacidad"
+            ],
+            "thinkingCriteria": [
+              "Sintetizar experiencia estetica y social"
+            ],
+            "suggestedUse": "Cierre."
+          }
+        ],
+        "notReadyFor": [
+          "summative-exam",
+          "full-games",
+          "actividades interactivas"
+        ]
+      },
+      {
+        "projectId": "lenguajes-1-ppa-15-pa44",
+        "projectTitle": "La canción de la empatía y la diversidad",
+        "teacherNotes": [
+          "La cancion colectiva funciona mejor cuando el mensaje es claro y compartido por el grupo, no cuando solo se busca una rima facil.",
+          "Es importante diferenciar inclusion de simple buena intencion; la letra debe expresar posicion y cuidado.",
+          "La musica puede abrir sensibilidad, pero no debe borrar la necesidad de pensar lo que se comunica.",
+          "El samba puede servir para hablar de resistencia, dignidad y fuerza colectiva sin trasladar automaticamente su contexto.",
+          "Eviten que la actividad se vuelva karaoke escolar; lo importante es el proceso de composicion y el sentido del mensaje."
+        ],
+        "confirmedConceptsToUse": [
+          "cancion colectiva",
+          "codigos de las artes",
+          "pensamientos, sentimientos y su integracion en los lenguajes artisticos",
+          "diversidad e inclusion",
+          "expresion musical colectiva"
+        ],
+        "suggestedConceptsToHandleCarefully": [
+          "sistemas alternativos",
+          "ideogramas corporales y claves comunicativas"
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "Que te gustaria decir en una cancion para que otras personas entiendan por que la inclusion importa?",
+            "conceptsActivated": [
+              "cancion colectiva",
+              "diversidad e inclusion"
+            ],
+            "thinkingCriteria": [
+              "Relacionar expresion y mensaje social"
+            ],
+            "suggestedUse": "Apertura."
+          },
+          {
+            "type": "collective",
+            "prompt": "Como se decide, en colectivo, que palabras, imagenes o emociones deben entrar en una cancion sobre diversidad?",
+            "conceptsActivated": [
+              "cancion colectiva",
+              "pensamientos, sentimientos y su integracion en los lenguajes artisticos"
+            ],
+            "thinkingCriteria": [
+              "Construir un mensaje compartido"
+            ],
+            "suggestedUse": "Taller colectivo."
+          },
+          {
+            "type": "community",
+            "prompt": "Que experiencias de la comunidad muestran que la inclusion no es solo una idea, sino una practica que debe construirse?",
+            "conceptsActivated": [
+              "diversidad e inclusion"
+            ],
+            "thinkingCriteria": [
+              "Vincular cancion y vida comunitaria"
+            ],
+            "suggestedUse": "Dialogo con comunidad."
+          },
+          {
+            "type": "closing",
+            "prompt": "Despues de escribir y entonar la cancion, que aprendiste sobre la fuerza que tiene la musica para decir algo importante?",
+            "conceptsActivated": [
+              "codigos de las artes",
+              "expresion musical colectiva"
+            ],
+            "thinkingCriteria": [
+              "Valorar expresion artistica con proposito"
+            ],
+            "suggestedUse": "Cierre."
+          }
+        ],
+        "notReadyFor": [
+          "summative-exam",
+          "full-games",
+          "actividades interactivas"
+        ]
+      },
+      {
+        "projectId": "lenguajes-1-ppa-15-pa45",
+        "projectTitle": "La semblanza de indígenas de orgullo",
+        "teacherNotes": [
+          "La semblanza debe trabajar con informacion suficiente y respeto por la persona elegida, no con adjetivos vacios.",
+          "Conviene conversar sobre por que ciertas trayectorias han sido invisibilizadas y como la escritura puede repararlo parcialmente.",
+          "La diversidad cultural y linguistica ayuda a contextualizar la vida y obra del personaje, no solo a adornar la semblanza.",
+          "Gente haciendo su chamba puede apoyar la conversacion sobre trabajo, dignidad y comunidad sin sustituir la investigacion principal.",
+          "Eviten convertir la actividad en lista de datos biograficos; lo importante es retratar una trayectoria con sentido y valor cultural."
+        ],
+        "confirmedConceptsToUse": [
+          "breve semblanza",
+          "diversidad cultural y linguistica",
+          "creaciones literarias en lenguas indigenas",
+          "personas indigenas destacadas por contribuir a la cultura y las artes",
+          "semblanza: un medio para retratar"
+        ],
+        "suggestedConceptsToHandleCarefully": [
+          "textos literarios y la diversidad cultural",
+          "manifestaciones literarias en lenguas indigenas",
+          "sensaciones e ideas a traves de los lenguajes en lenguas indigenas"
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "Que persona indigena de orgullo te gustaria que otras personas conocieran mejor y por que vale la pena hablar de ella?",
+            "conceptsActivated": [
+              "breve semblanza",
+              "personas indigenas destacadas por contribuir a la cultura y las artes"
+            ],
+            "thinkingCriteria": [
+              "Elegir un personaje con criterio y respeto"
+            ],
+            "suggestedUse": "Apertura."
+          },
+          {
+            "type": "collective",
+            "prompt": "Como puede una semblanza evitar prejuicios y mostrar de manera justa la vida y la obra de una persona?",
+            "conceptsActivated": [
+              "semblanza: un medio para retratar",
+              "diversidad cultural y linguistica"
+            ],
+            "thinkingCriteria": [
+              "Escribir con respeto y precision"
+            ],
+            "suggestedUse": "Revision colectiva del producto."
+          },
+          {
+            "type": "community",
+            "prompt": "Que personas o experiencias de la comunidad han contribuido a la cultura, la lengua, la educacion o la vida social y merecen ser recordadas?",
+            "conceptsActivated": [
+              "creaciones literarias en lenguas indigenas"
+            ],
+            "thinkingCriteria": [
+              "Relacionar memoria y reconocimiento comunitario"
+            ],
+            "suggestedUse": "Vinculo con comunidad y familias."
+          },
+          {
+            "type": "closing",
+            "prompt": "Despues de investigar y escribir la semblanza, que aprendiste sobre la manera en que una vida puede representar una memoria colectiva mas amplia?",
+            "conceptsActivated": [
+              "diversidad cultural y linguistica",
+              "breve semblanza"
+            ],
+            "thinkingCriteria": [
+              "Sintetizar biografia y comunidad"
+            ],
+            "suggestedUse": "Cierre."
+          }
+        ],
+        "notReadyFor": [
+          "summative-exam",
+          "full-games",
+          "actividades interactivas"
+        ]
+      }
+    ]
+  }
+}

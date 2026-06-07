@@ -1,0 +1,812 @@
+{
+  "grade": "3",
+  "gradeLabel": "Tercer grado",
+  "generatedAt": "2026-05-17T20:20:48.663Z",
+  "status": "needsReview",
+  "metrics": {
+    "materialsRegistered": 13,
+    "pdfsExisting": 13,
+    "materialsExtracted": 13,
+    "pagesExtracted": 2588,
+    "pagesNeedsReview": 175,
+    "warningsTotal": 9969,
+    "projectsCandidate": 288,
+    "projectsConfirmed": 0,
+    "conceptsCandidate": 8932,
+    "uncertainRelations": 248,
+    "publicTextLeaks": 0,
+    "projectCandidatesDetected": 144,
+    "projectsWithDetectedHorizon": 0,
+    "projectNeedsReview": 144,
+    "projectAverageConfidence": 0.8,
+    "confirmedProjects": 0,
+    "incompleteProjects": 0,
+    "readyForActivities": 0,
+    "pendingReviewProjects": 144
+  },
+  "materials": [
+    {
+      "id": "grade-3-apoyo-multiples-lenguajes-tercer-grado",
+      "title": "MÚLTIPLES LENGUAJES TERCER GRADO",
+      "type": "apoyo",
+      "field": "Múltiples Lenguajes",
+      "pdfExists": true,
+      "extracted": true,
+      "pagesExtracted": 160,
+      "extractionStatus": "extracted",
+      "curricularStatus": "candidate"
+    },
+    {
+      "id": "grade-3-conceptos-de-lo-humano-y-lo-comunitario-tercer-grado",
+      "title": "DE LO HUMANO Y LO COMUNITARIO TERCER GRADO",
+      "type": "conceptos",
+      "field": "De lo Humano y lo Comunitario",
+      "pdfExists": true,
+      "extracted": true,
+      "pagesExtracted": 256,
+      "extractionStatus": "extracted",
+      "curricularStatus": "candidate"
+    },
+    {
+      "id": "grade-3-conceptos-etica-naturaleza-y-sociedades-tercer-grado",
+      "title": "ÉTICA, NATURALEZA Y SOCIEDADES TERCER GRADO",
+      "type": "conceptos",
+      "field": "Ética, Naturaleza y Sociedades",
+      "pdfExists": true,
+      "extracted": true,
+      "pagesExtracted": 352,
+      "extractionStatus": "extracted",
+      "curricularStatus": "candidate"
+    },
+    {
+      "id": "grade-3-conceptos-lenguajes-tercer-grado",
+      "title": "LENGUAJES TERCER GRADO",
+      "type": "conceptos",
+      "field": "Lenguajes",
+      "pdfExists": true,
+      "extracted": true,
+      "pagesExtracted": 320,
+      "extractionStatus": "extracted",
+      "curricularStatus": "candidate"
+    },
+    {
+      "id": "grade-3-conceptos-saberes-y-pensamiento-cientifico-tercer-grado",
+      "title": "SABERES Y PENSAMIENTO CIENTÍFICO TERCER GRADO",
+      "type": "conceptos",
+      "field": "Saberes y Pensamiento Científico",
+      "pdfExists": true,
+      "extracted": true,
+      "pagesExtracted": 336,
+      "extractionStatus": "extracted",
+      "curricularStatus": "candidate"
+    },
+    {
+      "id": "grade-3-ingles-ingles-tercer-grado",
+      "title": "INGLÉS TERCER GRADO",
+      "type": "ingles",
+      "field": "Inglés",
+      "pdfExists": true,
+      "extracted": true,
+      "pagesExtracted": 184,
+      "extractionStatus": "extracted",
+      "curricularStatus": "candidate"
+    },
+    {
+      "id": "grade-3-posibilidades-pos-dhc-3",
+      "title": "POS_DHC_3",
+      "type": "posibilidades",
+      "field": "De lo Humano y lo Comunitario",
+      "pdfExists": true,
+      "extracted": true,
+      "pagesExtracted": 22,
+      "extractionStatus": "extracted",
+      "curricularStatus": "candidate"
+    },
+    {
+      "id": "grade-3-posibilidades-pos-ens-3",
+      "title": "POS_ENS_3",
+      "type": "posibilidades",
+      "field": "Ética, Naturaleza y Sociedades",
+      "pdfExists": true,
+      "extracted": true,
+      "pagesExtracted": 29,
+      "extractionStatus": "extracted",
+      "curricularStatus": "candidate"
+    },
+    {
+      "id": "grade-3-posibilidades-pos-len-3",
+      "title": "POS_LEN_3",
+      "type": "posibilidades",
+      "field": "Lenguajes",
+      "pdfExists": true,
+      "extracted": true,
+      "pagesExtracted": 35,
+      "extractionStatus": "extracted",
+      "curricularStatus": "candidate"
+    },
+    {
+      "id": "grade-3-posibilidades-pos-sypc-3",
+      "title": "POS_SyPC_3",
+      "type": "posibilidades",
+      "field": "Saberes y Pensamiento Científico",
+      "pdfExists": true,
+      "extracted": true,
+      "pagesExtracted": 38,
+      "extractionStatus": "extracted",
+      "curricularStatus": "candidate"
+    },
+    {
+      "id": "grade-3-proyectos-nuestros-proyectos-tomo-1-tercer-grado",
+      "title": "NUESTROS PROYECTOS TOMO 1 TERCER GRADO",
+      "type": "proyectos",
+      "field": "Revisar",
+      "pdfExists": true,
+      "extracted": true,
+      "pagesExtracted": 296,
+      "extractionStatus": "extracted",
+      "curricularStatus": "needsReview"
+    },
+    {
+      "id": "grade-3-proyectos-nuestros-proyectos-tomo-2-tercer-grado",
+      "title": "NUESTROS PROYECTOS TOMO 2 TERCER GRADO",
+      "type": "proyectos",
+      "field": "Revisar",
+      "pdfExists": true,
+      "extracted": true,
+      "pagesExtracted": 272,
+      "extractionStatus": "extracted",
+      "curricularStatus": "needsReview"
+    },
+    {
+      "id": "grade-3-proyectos-nuestros-proyectos-tomo-3-tercer-grado",
+      "title": "NUESTROS PROYECTOS TOMO 3 TERCER GRADO",
+      "type": "proyectos",
+      "field": "Revisar",
+      "pdfExists": true,
+      "extracted": true,
+      "pagesExtracted": 288,
+      "extractionStatus": "extracted",
+      "curricularStatus": "needsReview"
+    }
+  ],
+  "warningGroups": {
+    "shortText": {
+      "label": "Texto extraido muy breve",
+      "severity": "medio",
+      "total": 66,
+      "materialsAffectedTotal": 13,
+      "materialsAffected": [
+        "grade-3-apoyo-multiples-lenguajes-tercer-grado",
+        "grade-3-conceptos-de-lo-humano-y-lo-comunitario-tercer-grado",
+        "grade-3-conceptos-etica-naturaleza-y-sociedades-tercer-grado",
+        "grade-3-conceptos-lenguajes-tercer-grado",
+        "grade-3-conceptos-saberes-y-pensamiento-cientifico-tercer-grado",
+        "grade-3-ingles-ingles-tercer-grado",
+        "grade-3-posibilidades-pos-dhc-3",
+        "grade-3-posibilidades-pos-ens-3",
+        "grade-3-posibilidades-pos-len-3",
+        "grade-3-posibilidades-pos-sypc-3",
+        "grade-3-proyectos-nuestros-proyectos-tomo-1-tercer-grado",
+        "grade-3-proyectos-nuestros-proyectos-tomo-2-tercer-grado",
+        "grade-3-proyectos-nuestros-proyectos-tomo-3-tercer-grado"
+      ],
+      "examples": [
+        {
+          "materialId": "grade-3-apoyo-multiples-lenguajes-tercer-grado",
+          "pageNumber": 17,
+          "detail": "Texto extraído muy breve; revisar si hay escaneo, imagen o tabla."
+        },
+        {
+          "materialId": "grade-3-apoyo-multiples-lenguajes-tercer-grado",
+          "pageNumber": 30,
+          "detail": "Texto extraído muy breve; revisar si hay escaneo, imagen o tabla."
+        },
+        {
+          "materialId": "grade-3-apoyo-multiples-lenguajes-tercer-grado",
+          "pageNumber": 31,
+          "detail": "Texto extraído muy breve; revisar si hay escaneo, imagen o tabla."
+        },
+        {
+          "materialId": "grade-3-apoyo-multiples-lenguajes-tercer-grado",
+          "pageNumber": 32,
+          "detail": "Texto extraído muy breve; revisar si hay escaneo, imagen o tabla."
+        },
+        {
+          "materialId": "grade-3-apoyo-multiples-lenguajes-tercer-grado",
+          "pageNumber": 33,
+          "detail": "Texto extraído muy breve; revisar si hay escaneo, imagen o tabla."
+        },
+        {
+          "materialId": "grade-3-apoyo-multiples-lenguajes-tercer-grado",
+          "pageNumber": 43,
+          "detail": "Texto extraído muy breve; revisar si hay escaneo, imagen o tabla."
+        },
+        {
+          "materialId": "grade-3-apoyo-multiples-lenguajes-tercer-grado",
+          "pageNumber": 50,
+          "detail": "Texto extraído muy breve; revisar si hay escaneo, imagen o tabla."
+        },
+        {
+          "materialId": "grade-3-apoyo-multiples-lenguajes-tercer-grado",
+          "pageNumber": 51,
+          "detail": "Texto extraído muy breve; revisar si hay escaneo, imagen o tabla."
+        },
+        {
+          "materialId": "grade-3-apoyo-multiples-lenguajes-tercer-grado",
+          "pageNumber": 52,
+          "detail": "Texto extraído muy breve; revisar si hay escaneo, imagen o tabla."
+        },
+        {
+          "materialId": "grade-3-apoyo-multiples-lenguajes-tercer-grado",
+          "pageNumber": 53,
+          "detail": "Texto extraído muy breve; revisar si hay escaneo, imagen o tabla."
+        }
+      ],
+      "action": "Revisar si la pagina es escaneo, tabla, portada o contenido que requiere captura manual."
+    },
+    "emptyPage": {
+      "label": "Pagina vacia o sin texto extraible",
+      "severity": "alto",
+      "total": 18,
+      "materialsAffectedTotal": 4,
+      "materialsAffected": [
+        "grade-3-conceptos-de-lo-humano-y-lo-comunitario-tercer-grado",
+        "grade-3-proyectos-nuestros-proyectos-tomo-1-tercer-grado",
+        "grade-3-proyectos-nuestros-proyectos-tomo-2-tercer-grado",
+        "grade-3-proyectos-nuestros-proyectos-tomo-3-tercer-grado"
+      ],
+      "examples": [
+        {
+          "materialId": "grade-3-conceptos-de-lo-humano-y-lo-comunitario-tercer-grado",
+          "pageNumber": 233,
+          "detail": "Página vacía o sin texto extraíble."
+        },
+        {
+          "materialId": "grade-3-proyectos-nuestros-proyectos-tomo-1-tercer-grado",
+          "pageNumber": 110,
+          "detail": "Página vacía o sin texto extraíble."
+        },
+        {
+          "materialId": "grade-3-proyectos-nuestros-proyectos-tomo-1-tercer-grado",
+          "pageNumber": 184,
+          "detail": "Página vacía o sin texto extraíble."
+        },
+        {
+          "materialId": "grade-3-proyectos-nuestros-proyectos-tomo-1-tercer-grado",
+          "pageNumber": 252,
+          "detail": "Página vacía o sin texto extraíble."
+        },
+        {
+          "materialId": "grade-3-proyectos-nuestros-proyectos-tomo-1-tercer-grado",
+          "pageNumber": 284,
+          "detail": "Página vacía o sin texto extraíble."
+        },
+        {
+          "materialId": "grade-3-proyectos-nuestros-proyectos-tomo-2-tercer-grado",
+          "pageNumber": 230,
+          "detail": "Página vacía o sin texto extraíble."
+        },
+        {
+          "materialId": "grade-3-proyectos-nuestros-proyectos-tomo-2-tercer-grado",
+          "pageNumber": 272,
+          "detail": "Página vacía o sin texto extraíble."
+        },
+        {
+          "materialId": "grade-3-proyectos-nuestros-proyectos-tomo-3-tercer-grado",
+          "pageNumber": 228,
+          "detail": "Página vacía o sin texto extraíble."
+        },
+        {
+          "materialId": "grade-3-proyectos-nuestros-proyectos-tomo-3-tercer-grado",
+          "pageNumber": 262,
+          "detail": "Página vacía o sin texto extraíble."
+        },
+        {
+          "materialId": "grade-3-conceptos-de-lo-humano-y-lo-comunitario-tercer-grado",
+          "pageNumber": 233,
+          "detail": "Pagina sin texto en indice publico ligero."
+        }
+      ],
+      "action": "Verificar el PDF fuente y decidir si la pagina debe transcribirse, ignorarse o sustituirse por referencia manual."
+    },
+    "complexTable": {
+      "label": "Tabla compleja",
+      "severity": "alto",
+      "total": 220,
+      "materialsAffectedTotal": 13,
+      "materialsAffected": [
+        "grade-3-apoyo-multiples-lenguajes-tercer-grado",
+        "grade-3-conceptos-de-lo-humano-y-lo-comunitario-tercer-grado",
+        "grade-3-conceptos-etica-naturaleza-y-sociedades-tercer-grado",
+        "grade-3-conceptos-lenguajes-tercer-grado",
+        "grade-3-conceptos-saberes-y-pensamiento-cientifico-tercer-grado",
+        "grade-3-ingles-ingles-tercer-grado",
+        "grade-3-posibilidades-pos-dhc-3",
+        "grade-3-posibilidades-pos-ens-3",
+        "grade-3-posibilidades-pos-len-3",
+        "grade-3-posibilidades-pos-sypc-3",
+        "grade-3-proyectos-nuestros-proyectos-tomo-1-tercer-grado",
+        "grade-3-proyectos-nuestros-proyectos-tomo-2-tercer-grado",
+        "grade-3-proyectos-nuestros-proyectos-tomo-3-tercer-grado"
+      ],
+      "examples": [
+        {
+          "materialId": "grade-3-apoyo-multiples-lenguajes-tercer-grado",
+          "pageNumber": 17,
+          "detail": "Texto extraído muy breve; revisar si hay escaneo, imagen o tabla."
+        },
+        {
+          "materialId": "grade-3-apoyo-multiples-lenguajes-tercer-grado",
+          "pageNumber": 30,
+          "detail": "Texto extraído muy breve; revisar si hay escaneo, imagen o tabla."
+        },
+        {
+          "materialId": "grade-3-apoyo-multiples-lenguajes-tercer-grado",
+          "pageNumber": 31,
+          "detail": "Texto extraído muy breve; revisar si hay escaneo, imagen o tabla."
+        },
+        {
+          "materialId": "grade-3-apoyo-multiples-lenguajes-tercer-grado",
+          "pageNumber": 32,
+          "detail": "Texto extraído muy breve; revisar si hay escaneo, imagen o tabla."
+        },
+        {
+          "materialId": "grade-3-apoyo-multiples-lenguajes-tercer-grado",
+          "pageNumber": 33,
+          "detail": "Texto extraído muy breve; revisar si hay escaneo, imagen o tabla."
+        },
+        {
+          "materialId": "grade-3-apoyo-multiples-lenguajes-tercer-grado",
+          "pageNumber": 43,
+          "detail": "Texto extraído muy breve; revisar si hay escaneo, imagen o tabla."
+        },
+        {
+          "materialId": "grade-3-apoyo-multiples-lenguajes-tercer-grado",
+          "pageNumber": 50,
+          "detail": "Texto extraído muy breve; revisar si hay escaneo, imagen o tabla."
+        },
+        {
+          "materialId": "grade-3-apoyo-multiples-lenguajes-tercer-grado",
+          "pageNumber": 51,
+          "detail": "Texto extraído muy breve; revisar si hay escaneo, imagen o tabla."
+        },
+        {
+          "materialId": "grade-3-apoyo-multiples-lenguajes-tercer-grado",
+          "pageNumber": 52,
+          "detail": "Texto extraído muy breve; revisar si hay escaneo, imagen o tabla."
+        },
+        {
+          "materialId": "grade-3-apoyo-multiples-lenguajes-tercer-grado",
+          "pageNumber": 53,
+          "detail": "Texto extraído muy breve; revisar si hay escaneo, imagen o tabla."
+        }
+      ],
+      "action": "Revisar manualmente la tabla antes de asociar proyectos, paginas o campos formativos."
+    },
+    "multipleColumns": {
+      "label": "Columnas multiples",
+      "severity": "alto",
+      "total": 154,
+      "materialsAffectedTotal": 4,
+      "materialsAffected": [
+        "grade-3-posibilidades-pos-dhc-3",
+        "grade-3-posibilidades-pos-ens-3",
+        "grade-3-posibilidades-pos-len-3",
+        "grade-3-posibilidades-pos-sypc-3"
+      ],
+      "examples": [
+        {
+          "materialId": "grade-3-posibilidades-pos-dhc-3",
+          "pageNumber": 2,
+          "detail": "Posible tabla compleja o columnas múltiples en Posibilidades de uso; no asociar páginas sin revisión."
+        },
+        {
+          "materialId": "grade-3-posibilidades-pos-dhc-3",
+          "pageNumber": 3,
+          "detail": "Posible tabla compleja o columnas múltiples en Posibilidades de uso; no asociar páginas sin revisión."
+        },
+        {
+          "materialId": "grade-3-posibilidades-pos-dhc-3",
+          "pageNumber": 3,
+          "detail": "Contenido tabular curricular detectado; verificar columnas y relación con Proyecto Académico."
+        },
+        {
+          "materialId": "grade-3-posibilidades-pos-dhc-3",
+          "pageNumber": 4,
+          "detail": "Posible tabla compleja o columnas múltiples en Posibilidades de uso; no asociar páginas sin revisión."
+        },
+        {
+          "materialId": "grade-3-posibilidades-pos-dhc-3",
+          "pageNumber": 4,
+          "detail": "Contenido tabular curricular detectado; verificar columnas y relación con Proyecto Académico."
+        },
+        {
+          "materialId": "grade-3-posibilidades-pos-dhc-3",
+          "pageNumber": 6,
+          "detail": "Posible tabla compleja o columnas múltiples en Posibilidades de uso; no asociar páginas sin revisión."
+        },
+        {
+          "materialId": "grade-3-posibilidades-pos-dhc-3",
+          "pageNumber": 6,
+          "detail": "Contenido tabular curricular detectado; verificar columnas y relación con Proyecto Académico."
+        },
+        {
+          "materialId": "grade-3-posibilidades-pos-dhc-3",
+          "pageNumber": 7,
+          "detail": "Posible tabla compleja o columnas múltiples en Posibilidades de uso; no asociar páginas sin revisión."
+        },
+        {
+          "materialId": "grade-3-posibilidades-pos-dhc-3",
+          "pageNumber": 8,
+          "detail": "Posible tabla compleja o columnas múltiples en Posibilidades de uso; no asociar páginas sin revisión."
+        },
+        {
+          "materialId": "grade-3-posibilidades-pos-dhc-3",
+          "pageNumber": 8,
+          "detail": "Contenido tabular curricular detectado; verificar columnas y relación con Proyecto Académico."
+        }
+      ],
+      "action": "Confirmar la columna correcta antes de construir relaciones curriculares."
+    },
+    "continuation": {
+      "label": "Continuacion 1 de 2 / 2 de 2",
+      "severity": "alto",
+      "total": 42,
+      "materialsAffectedTotal": 3,
+      "materialsAffected": [
+        "grade-3-posibilidades-pos-dhc-3",
+        "grade-3-posibilidades-pos-ens-3",
+        "grade-3-posibilidades-pos-len-3"
+      ],
+      "examples": [
+        {
+          "materialId": "grade-3-posibilidades-pos-dhc-3",
+          "pageNumber": 6,
+          "detail": "Continuación detectada tipo 1 de 2 / 2 de 2; requiere revisión humana."
+        },
+        {
+          "materialId": "grade-3-posibilidades-pos-dhc-3",
+          "pageNumber": 7,
+          "detail": "Continuación detectada tipo 1 de 2 / 2 de 2; requiere revisión humana."
+        },
+        {
+          "materialId": "grade-3-posibilidades-pos-dhc-3",
+          "pageNumber": 8,
+          "detail": "Continuación detectada tipo 1 de 2 / 2 de 2; requiere revisión humana."
+        },
+        {
+          "materialId": "grade-3-posibilidades-pos-dhc-3",
+          "pageNumber": 9,
+          "detail": "Continuación detectada tipo 1 de 2 / 2 de 2; requiere revisión humana."
+        },
+        {
+          "materialId": "grade-3-posibilidades-pos-dhc-3",
+          "pageNumber": 11,
+          "detail": "Continuación detectada tipo 1 de 2 / 2 de 2; requiere revisión humana."
+        },
+        {
+          "materialId": "grade-3-posibilidades-pos-dhc-3",
+          "pageNumber": 12,
+          "detail": "Continuación detectada tipo 1 de 2 / 2 de 2; requiere revisión humana."
+        },
+        {
+          "materialId": "grade-3-posibilidades-pos-dhc-3",
+          "pageNumber": 13,
+          "detail": "Continuación detectada tipo 1 de 2 / 2 de 2; requiere revisión humana."
+        },
+        {
+          "materialId": "grade-3-posibilidades-pos-dhc-3",
+          "pageNumber": 14,
+          "detail": "Continuación detectada tipo 1 de 2 / 2 de 2; requiere revisión humana."
+        },
+        {
+          "materialId": "grade-3-posibilidades-pos-dhc-3",
+          "pageNumber": 16,
+          "detail": "Continuación detectada tipo 1 de 2 / 2 de 2; requiere revisión humana."
+        },
+        {
+          "materialId": "grade-3-posibilidades-pos-dhc-3",
+          "pageNumber": 17,
+          "detail": "Continuación detectada tipo 1 de 2 / 2 de 2; requiere revisión humana."
+        }
+      ],
+      "action": "Unir la lectura de las paginas relacionadas y confirmar que la relacion curricular no quedo partida."
+    },
+    "uncertainRelation": {
+      "label": "Relacion dudosa desde Posibilidades de uso",
+      "severity": "alto",
+      "total": 248,
+      "materialsAffectedTotal": 4,
+      "materialsAffected": [
+        "grade-3-posibilidades-pos-dhc-3",
+        "grade-3-posibilidades-pos-ens-3",
+        "grade-3-posibilidades-pos-len-3",
+        "grade-3-posibilidades-pos-sypc-3"
+      ],
+      "examples": [
+        {
+          "materialId": "grade-3-posibilidades-pos-dhc-3",
+          "pageNumber": 1,
+          "detail": "Posibilidades de uso puede contener tablas complejas o columnas múltiples. No se asocian páginas sin revisión humana."
+        },
+        {
+          "materialId": "grade-3-posibilidades-pos-dhc-3",
+          "pageNumber": 2,
+          "detail": "Posibilidades de uso puede contener tablas complejas o columnas múltiples. No se asocian páginas sin revisión humana."
+        },
+        {
+          "materialId": "grade-3-posibilidades-pos-dhc-3",
+          "pageNumber": 3,
+          "detail": "Posibilidades de uso puede contener tablas complejas o columnas múltiples. No se asocian páginas sin revisión humana."
+        },
+        {
+          "materialId": "grade-3-posibilidades-pos-dhc-3",
+          "pageNumber": 4,
+          "detail": "Posibilidades de uso puede contener tablas complejas o columnas múltiples. No se asocian páginas sin revisión humana."
+        },
+        {
+          "materialId": "grade-3-posibilidades-pos-dhc-3",
+          "pageNumber": 5,
+          "detail": "Posibilidades de uso puede contener tablas complejas o columnas múltiples. No se asocian páginas sin revisión humana."
+        },
+        {
+          "materialId": "grade-3-posibilidades-pos-dhc-3",
+          "pageNumber": 6,
+          "detail": "Posibilidades de uso puede contener tablas complejas o columnas múltiples. No se asocian páginas sin revisión humana."
+        },
+        {
+          "materialId": "grade-3-posibilidades-pos-dhc-3",
+          "pageNumber": 7,
+          "detail": "Posibilidades de uso puede contener tablas complejas o columnas múltiples. No se asocian páginas sin revisión humana."
+        },
+        {
+          "materialId": "grade-3-posibilidades-pos-dhc-3",
+          "pageNumber": 8,
+          "detail": "Posibilidades de uso puede contener tablas complejas o columnas múltiples. No se asocian páginas sin revisión humana."
+        },
+        {
+          "materialId": "grade-3-posibilidades-pos-dhc-3",
+          "pageNumber": 9,
+          "detail": "Posibilidades de uso puede contener tablas complejas o columnas múltiples. No se asocian páginas sin revisión humana."
+        },
+        {
+          "materialId": "grade-3-posibilidades-pos-dhc-3",
+          "pageNumber": 10,
+          "detail": "Posibilidades de uso puede contener tablas complejas o columnas múltiples. No se asocian páginas sin revisión humana."
+        }
+      ],
+      "action": "Validar PPA, Proyecto Academico y paginas fuente en el documento original."
+    },
+    "missingHorizon": {
+      "label": "Horizonte no confirmado",
+      "severity": "alto",
+      "total": 288,
+      "materialsAffectedTotal": 288,
+      "materialsAffected": [
+        "grade-3-proyectos-nuestros-proyectos-tomo-1-tercer-grado-p7-0",
+        "grade-3-proyectos-nuestros-proyectos-tomo-1-tercer-grado-p7-1",
+        "grade-3-proyectos-nuestros-proyectos-tomo-1-tercer-grado-p7-2",
+        "grade-3-proyectos-nuestros-proyectos-tomo-1-tercer-grado-p7-3",
+        "grade-3-proyectos-nuestros-proyectos-tomo-1-tercer-grado-p7-4",
+        "grade-3-proyectos-nuestros-proyectos-tomo-1-tercer-grado-p7-5",
+        "grade-3-proyectos-nuestros-proyectos-tomo-1-tercer-grado-p7-6",
+        "grade-3-proyectos-nuestros-proyectos-tomo-1-tercer-grado-p7-7",
+        "grade-3-proyectos-nuestros-proyectos-tomo-1-tercer-grado-p7-8",
+        "grade-3-proyectos-nuestros-proyectos-tomo-1-tercer-grado-p7-9",
+        "grade-3-proyectos-nuestros-proyectos-tomo-1-tercer-grado-p7-10",
+        "grade-3-proyectos-nuestros-proyectos-tomo-1-tercer-grado-p7-11",
+        "grade-3-proyectos-nuestros-proyectos-tomo-1-tercer-grado-p7-12",
+        "grade-3-proyectos-nuestros-proyectos-tomo-1-tercer-grado-p8-0",
+        "grade-3-proyectos-nuestros-proyectos-tomo-1-tercer-grado-p8-1",
+        "grade-3-proyectos-nuestros-proyectos-tomo-1-tercer-grado-p8-2",
+        "grade-3-proyectos-nuestros-proyectos-tomo-1-tercer-grado-p8-3",
+        "grade-3-proyectos-nuestros-proyectos-tomo-1-tercer-grado-p8-4",
+        "grade-3-proyectos-nuestros-proyectos-tomo-1-tercer-grado-p8-5",
+        "grade-3-proyectos-nuestros-proyectos-tomo-1-tercer-grado-p8-6",
+        "grade-3-proyectos-nuestros-proyectos-tomo-1-tercer-grado-p8-7",
+        "grade-3-proyectos-nuestros-proyectos-tomo-1-tercer-grado-p8-8",
+        "grade-3-proyectos-nuestros-proyectos-tomo-1-tercer-grado-p8-9",
+        "grade-3-proyectos-nuestros-proyectos-tomo-1-tercer-grado-p8-10",
+        "grade-3-proyectos-nuestros-proyectos-tomo-1-tercer-grado-p8-11"
+      ],
+      "examples": [
+        {
+          "materialId": "grade-3-proyectos-nuestros-proyectos-tomo-1-tercer-grado-p7-0",
+          "pageNumber": null,
+          "detail": "Proyecto candidato sin horizonte confirmado."
+        },
+        {
+          "materialId": "grade-3-proyectos-nuestros-proyectos-tomo-1-tercer-grado-p7-1",
+          "pageNumber": null,
+          "detail": "Proyecto candidato sin horizonte confirmado."
+        },
+        {
+          "materialId": "grade-3-proyectos-nuestros-proyectos-tomo-1-tercer-grado-p7-2",
+          "pageNumber": null,
+          "detail": "Proyecto candidato sin horizonte confirmado."
+        },
+        {
+          "materialId": "grade-3-proyectos-nuestros-proyectos-tomo-1-tercer-grado-p7-3",
+          "pageNumber": null,
+          "detail": "Proyecto candidato sin horizonte confirmado."
+        },
+        {
+          "materialId": "grade-3-proyectos-nuestros-proyectos-tomo-1-tercer-grado-p7-4",
+          "pageNumber": null,
+          "detail": "Proyecto candidato sin horizonte confirmado."
+        },
+        {
+          "materialId": "grade-3-proyectos-nuestros-proyectos-tomo-1-tercer-grado-p7-5",
+          "pageNumber": null,
+          "detail": "Proyecto candidato sin horizonte confirmado."
+        },
+        {
+          "materialId": "grade-3-proyectos-nuestros-proyectos-tomo-1-tercer-grado-p7-6",
+          "pageNumber": null,
+          "detail": "Proyecto candidato sin horizonte confirmado."
+        },
+        {
+          "materialId": "grade-3-proyectos-nuestros-proyectos-tomo-1-tercer-grado-p7-7",
+          "pageNumber": null,
+          "detail": "Proyecto candidato sin horizonte confirmado."
+        },
+        {
+          "materialId": "grade-3-proyectos-nuestros-proyectos-tomo-1-tercer-grado-p7-8",
+          "pageNumber": null,
+          "detail": "Proyecto candidato sin horizonte confirmado."
+        },
+        {
+          "materialId": "grade-3-proyectos-nuestros-proyectos-tomo-1-tercer-grado-p7-9",
+          "pageNumber": null,
+          "detail": "Proyecto candidato sin horizonte confirmado."
+        }
+      ],
+      "action": "Localizar el horizonte de expectativas en Nuestro libro de proyectos y capturarlo mediante override manual."
+    },
+    "candidateConcept": {
+      "label": "Concepto candidato no validado",
+      "severity": "medio",
+      "total": 8932,
+      "materialsAffectedTotal": 8926,
+      "materialsAffected": [
+        "grade-3-conceptos-de-lo-humano-y-lo-comunitario-tercer-grado-p1-colección-nanahuatzin-tercer",
+        "grade-3-conceptos-de-lo-humano-y-lo-comunitario-tercer-grado-p2-colección",
+        "grade-3-conceptos-de-lo-humano-y-lo-comunitario-tercer-grado-p2-nanahuatzin",
+        "grade-3-conceptos-de-lo-humano-y-lo-comunitario-tercer-grado-p2-tercer-grado",
+        "grade-3-conceptos-de-lo-humano-y-lo-comunitario-tercer-grado-p2-dirección",
+        "grade-3-conceptos-de-lo-humano-y-lo-comunitario-tercer-grado-p2-general",
+        "grade-3-conceptos-de-lo-humano-y-lo-comunitario-tercer-grado-p2-materiales",
+        "grade-3-conceptos-de-lo-humano-y-lo-comunitario-tercer-grado-p2-educativos",
+        "grade-3-conceptos-de-lo-humano-y-lo-comunitario-tercer-grado-p2-secretaría",
+        "grade-3-conceptos-de-lo-humano-y-lo-comunitario-tercer-grado-p2-educación",
+        "grade-3-conceptos-de-lo-humano-y-lo-comunitario-tercer-grado-p2-pública",
+        "grade-3-conceptos-de-lo-humano-y-lo-comunitario-tercer-grado-p2-leticia",
+        "grade-3-conceptos-de-lo-humano-y-lo-comunitario-tercer-grado-p2-ramírez",
+        "grade-3-conceptos-de-lo-humano-y-lo-comunitario-tercer-grado-p3-presentación",
+        "grade-3-conceptos-de-lo-humano-y-lo-comunitario-tercer-grado-p3-estimadas-maestras",
+        "grade-3-conceptos-de-lo-humano-y-lo-comunitario-tercer-grado-p3-educación",
+        "grade-3-conceptos-de-lo-humano-y-lo-comunitario-tercer-grado-p3-pública",
+        "grade-3-conceptos-de-lo-humano-y-lo-comunitario-tercer-grado-p3-nueva",
+        "grade-3-conceptos-de-lo-humano-y-lo-comunitario-tercer-grado-p3-escuela",
+        "grade-3-conceptos-de-lo-humano-y-lo-comunitario-tercer-grado-p3-mexicana",
+        "grade-3-conceptos-de-lo-humano-y-lo-comunitario-tercer-grado-p3-desde",
+        "grade-3-conceptos-de-lo-humano-y-lo-comunitario-tercer-grado-p3-educar",
+        "grade-3-conceptos-de-lo-humano-y-lo-comunitario-tercer-grado-p3-estévez",
+        "grade-3-conceptos-de-lo-humano-y-lo-comunitario-tercer-grado-p3-sostener",
+        "grade-3-conceptos-de-lo-humano-y-lo-comunitario-tercer-grado-p3-enseñar"
+      ],
+      "examples": [
+        {
+          "materialId": "grade-3-conceptos-de-lo-humano-y-lo-comunitario-tercer-grado-p1-colección-nanahuatzin-tercer",
+          "pageNumber": null,
+          "detail": "Concepto candidato requiere validacion humana."
+        },
+        {
+          "materialId": "grade-3-conceptos-de-lo-humano-y-lo-comunitario-tercer-grado-p2-colección",
+          "pageNumber": null,
+          "detail": "Concepto candidato requiere validacion humana."
+        },
+        {
+          "materialId": "grade-3-conceptos-de-lo-humano-y-lo-comunitario-tercer-grado-p2-nanahuatzin",
+          "pageNumber": null,
+          "detail": "Concepto candidato requiere validacion humana."
+        },
+        {
+          "materialId": "grade-3-conceptos-de-lo-humano-y-lo-comunitario-tercer-grado-p2-tercer-grado",
+          "pageNumber": null,
+          "detail": "Concepto candidato requiere validacion humana."
+        },
+        {
+          "materialId": "grade-3-conceptos-de-lo-humano-y-lo-comunitario-tercer-grado-p2-dirección",
+          "pageNumber": null,
+          "detail": "Concepto candidato requiere validacion humana."
+        },
+        {
+          "materialId": "grade-3-conceptos-de-lo-humano-y-lo-comunitario-tercer-grado-p2-general",
+          "pageNumber": null,
+          "detail": "Concepto candidato requiere validacion humana."
+        },
+        {
+          "materialId": "grade-3-conceptos-de-lo-humano-y-lo-comunitario-tercer-grado-p2-materiales",
+          "pageNumber": null,
+          "detail": "Concepto candidato requiere validacion humana."
+        },
+        {
+          "materialId": "grade-3-conceptos-de-lo-humano-y-lo-comunitario-tercer-grado-p2-educativos",
+          "pageNumber": null,
+          "detail": "Concepto candidato requiere validacion humana."
+        },
+        {
+          "materialId": "grade-3-conceptos-de-lo-humano-y-lo-comunitario-tercer-grado-p2-secretaría",
+          "pageNumber": null,
+          "detail": "Concepto candidato requiere validacion humana."
+        },
+        {
+          "materialId": "grade-3-conceptos-de-lo-humano-y-lo-comunitario-tercer-grado-p2-educación",
+          "pageNumber": null,
+          "detail": "Concepto candidato requiere validacion humana."
+        }
+      ],
+      "action": "Confirmar termino, pagina fuente, definicion breve y relacion con el proyecto antes de usarlo como dato curricular."
+    },
+    "publicTextLeak": {
+      "label": "Fuga de texto completo en JSON publico",
+      "severity": "alto",
+      "total": 0,
+      "materialsAffectedTotal": 0,
+      "materialsAffected": [],
+      "examples": [],
+      "action": "Regenerar indices publicos ligeros y retirar campos text o cadenas largas del area public."
+    },
+    "missingPdf": {
+      "label": "PDF faltante",
+      "severity": "alto",
+      "total": 0,
+      "materialsAffectedTotal": 0,
+      "materialsAffected": [],
+      "examples": [],
+      "action": "Colocar el PDF en la ruta declarada o corregir materials-manifest.json."
+    },
+    "invalidType": {
+      "label": "Tipo de material no permitido",
+      "severity": "medio",
+      "total": 0,
+      "materialsAffectedTotal": 0,
+      "materialsAffected": [],
+      "examples": [],
+      "action": "Ajustar el tipo en el manifiesto usando el catalogo permitido."
+    },
+    "missingStrategyUrl": {
+      "label": "Estrategia detonadora sin enlace validado",
+      "severity": "medio",
+      "total": 1,
+      "materialsAffectedTotal": 1,
+      "materialsAffected": [
+        "grade-3-apoyo-multiples-lenguajes-tercer-grado"
+      ],
+      "examples": [
+        {
+          "materialId": "grade-3-apoyo-multiples-lenguajes-tercer-grado",
+          "pageNumber": null,
+          "detail": "Estrategia o apoyo sin enlace validado."
+        }
+      ],
+      "action": "Agregar enlace real despues de verificar la estrategia correspondiente."
+    }
+  },
+  "projectDetection": {
+    "generatedAt": "2026-05-17T20:28:45.828Z",
+    "candidatesDetected": 144,
+    "candidatesWithHorizon": 0,
+    "confirmedProjects": 0,
+    "needsReview": 144,
+    "averageConfidence": 0.8
+  },
+  "manualConfirmation": {
+    "generatedAt": "2026-05-17T20:34:51.799Z",
+    "confirmedProjects": 0,
+    "incompleteProjects": 0,
+    "readyForActivities": 0,
+    "pendingReviewProjects": 144
+  }
+}

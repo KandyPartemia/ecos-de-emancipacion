@@ -1,0 +1,1266 @@
+{
+  "grade": "2",
+  "gradeLabel": "Segundo grado",
+  "field": "Etica, Naturaleza y Sociedades",
+  "ppaNumber": "6",
+  "partialClassroomProject": "PPA 6",
+  "partialClassroomProjectTitle": "México moderno",
+  "source": "curricular-development-pilot",
+  "generatedAt": "2026-06-04T15:51:05.474Z",
+  "development": {
+    "grade": "2",
+    "gradeLabel": "Segundo grado",
+    "field": "Etica, Naturaleza y Sociedades",
+    "bookVolume": "Tomo II",
+    "partialClassroomProject": "PPA 6",
+    "partialClassroomProjectTitle": "México moderno",
+    "generatedAt": "2026-06-02T19:34:55.623Z",
+    "notes": "Capa curricular generada por lote para 2o Etica, Naturaleza y Sociedades, PPA 6.",
+    "sourcesUsed": [
+      "public/caracoles/data/generated/grade-2/selectable-projects.json",
+      "content/caracoles/generated-private/grade-2/pages-index.full.json",
+      "Posibilidades de uso ENS, segundo grado, pp. 16-17",
+      "Nuestro libro de proyectos Tomo II, segundo grado, pp. 170-185",
+      "Etica, Naturaleza y Sociedades, segundo grado, pp. 91-109, 230-236 y 309-318; Multiples Lenguajes p. 77 y pp. 92-97."
+    ],
+    "partialClassroomProjectContext": {
+      "expectationHorizon": {
+        "officialText": "",
+        "sourcePages": [
+          "Nuestro libro de proyectos Tomo II pp. 170-171",
+          "Posibilidades de uso ENS pp. 16-17"
+        ],
+        "evidence": "El PPA 6 enlaza ideologia, reformas liberales y Estado de derecho para explicar cambios politicos de largo alcance en Mexico.",
+        "status": "pending"
+      },
+      "ppaDetonatingStrategy": {
+        "title": "México moderno",
+        "type": "video",
+        "url": "",
+        "urlStatus": "pending-url",
+        "reference": "bit.ly/3VfglUk",
+        "source": "Nuestro libro de proyectos Tomo II pp. 170-171 + Posibilidades de uso ENS pp. 16-17",
+        "scope": "partial-classroom-project",
+        "youtubeSearchQuery": "México moderno Etica, Naturaleza y Sociedades 2do grado Telesecundaria"
+      },
+      "ppaDigitalResource": {
+        "title": "Recurso informatico del bloque PPA 6",
+        "reference": "bit.ly/3WQBMwg",
+        "status": "pending-validation",
+        "source": "Nuestro libro de proyectos Tomo II pp. 170-185"
+      },
+      "validationStatus": {
+        "needsHumanReview": true,
+        "needsReviewReasons": [
+          "Las pp. 16-17 de Posibilidades pertenecen al mismo PPA 6.",
+          "La asignacion de apoyos por columna se fija por inferencia curricular documentada de izquierda a derecha.",
+          "Los enlaces cortos del video del PPA y del recurso informatico se mantienen en cautela hasta localizar un destino oficial confirmado."
+        ]
+      },
+      "columnValidation": {
+        "possibilitiesPagesReviewed": [
+          16,
+          17
+        ],
+        "confirmedAsPpa": true,
+        "note": "Las pp. 16-17 corresponden al PPA 6 México moderno. Las tres columnas se sostienen por el orden de proyectos, productos y apoyos del mismo bloque.",
+        "columns": [
+          {
+            "columnIndex": 1,
+            "projectId": "etica-naturaleza-y-sociedades-2-ppa-6-pa16",
+            "projectTitle": "La ideología que cambió a México",
+            "finalProduct": "Historieta",
+            "supportMaterials": [
+              "Cortometrajes. El último consejo, p. 77"
+            ]
+          },
+          {
+            "columnIndex": 2,
+            "projectId": "etica-naturaleza-y-sociedades-2-ppa-6-pa17",
+            "projectTitle": "El triunfo del liberalismo mexicano",
+            "finalProduct": "Cronología de hechos",
+            "supportMaterials": [
+              "Jardines flotantes, pp. 92-97"
+            ]
+          },
+          {
+            "columnIndex": 3,
+            "projectId": "etica-naturaleza-y-sociedades-2-ppa-6-pa18",
+            "projectTitle": "El Estado de derecho y el respeto de los derechos humanos",
+            "finalProduct": "Texto narrativo",
+            "supportMaterials": []
+          }
+        ]
+      }
+    },
+    "academicProjects": [
+      {
+        "id": "etica-naturaleza-y-sociedades-2-ppa-6-pa16",
+        "projectId": "etica-naturaleza-y-sociedades-2-ppa-6-pa16",
+        "academicProjectNumber": 16,
+        "title": "La ideología que cambió a México",
+        "projectTitle": "La ideología que cambió a México",
+        "grade": "2",
+        "field": "Etica, Naturaleza y Sociedades",
+        "ppaNumber": "6",
+        "partialClassroomProject": "PPA 6",
+        "partialClassroomProjectTitle": "México moderno",
+        "bookVolume": "Tomo II",
+        "sourceValidation": {
+          "sourceStatus": "linked",
+          "possibilitiesPages": [
+            16,
+            17
+          ],
+          "possibilitiesMaterialId": "grade-2-posibilidades-pos-ens-2",
+          "possibilitiesColumnIndex": 1,
+          "columnEvidence": "Bloque PPA 6 México moderno localizado en pp. 16-17; la columna 1 se confirma por el orden de proyectos, productos y continuidad del mismo bloque."
+        },
+        "finalProduct": {
+          "title": "Historieta",
+          "source": "Posibilidades de uso ENS pp. 16-17 + Nuestro libro de proyectos Tomo II pp. 172-175",
+          "status": "confirmed"
+        },
+        "sourcePages": {
+          "nuestroLibroProyectos": [
+            {
+              "materialId": "grade-2-proyectos-nuestro-libro-de-proyectos-tomo-2-segundo-grado",
+              "label": "Nuestro libro de proyectos Tomo II",
+              "startPage": 172,
+              "endPage": 175,
+              "pagesLabel": "pp. 172-175",
+              "topicTitle": "Proyecto academico 16",
+              "status": "confirmed-source"
+            }
+          ],
+          "conceptBook": [
+            {
+              "materialId": "grade-2-conceptos-etica-naturaleza-y-sociedades-segundo-grado",
+              "label": "Etica, Naturaleza y Sociedades",
+              "startPage": 91,
+              "endPage": 97,
+              "pagesLabel": "pp. 91-97",
+              "topicTitle": "Dictadura de Santa Anna y Revolucion de Ayutla",
+              "status": "confirmed-by-column-inference"
+            },
+            {
+              "materialId": "grade-2-conceptos-etica-naturaleza-y-sociedades-segundo-grado",
+              "label": "Etica, Naturaleza y Sociedades",
+              "startPage": 98,
+              "endPage": 105,
+              "pagesLabel": "pp. 98-105",
+              "topicTitle": "Las Leyes de Reforma y la Constitucion de 1857",
+              "status": "confirmed-by-column-inference"
+            }
+          ],
+          "multiplesLenguajes": [
+            {
+              "materialId": "grade-2-apoyo-multiples-lenguajes-segundo-grado",
+              "label": "Multiples Lenguajes",
+              "startPage": 77,
+              "endPage": 77,
+              "pagesLabel": "p. 77",
+              "topicTitle": "Cortometrajes. El último consejo",
+              "status": "confirmed-by-column-inference"
+            }
+          ],
+          "otherMaterials": [
+            {
+              "label": "Video PA 16: Cuento breve • Ética, naturaleza y sociedades • 2do grado",
+              "reference": "https://www.youtube.com/watch?v=4REKkAq5faY",
+              "status": "confirmed"
+            },
+            {
+              "label": "Video PPA 6: 6. México moderno • Ética, naturaleza y sociedades • 2do grado",
+              "reference": "https://www.youtube.com/watch?v=T9i4fxG8iPs",
+              "status": "confirmed"
+            }
+          ]
+        },
+        "supportMaterials": [
+          {
+            "title": "Cortometrajes. El último consejo",
+            "kind": "Multiples Lenguajes",
+            "pages": "p. 77",
+            "status": "confirmed-by-column-inference"
+          }
+        ],
+        "horizonOrPurpose": {
+          "status": "pending",
+          "text": "",
+          "source": "Nuestro libro de proyectos Tomo II p. 172"
+        },
+        "projectExpectationHorizon": {
+          "officialText": "",
+          "studentVersion": "",
+          "sourcePages": [
+            "Nuestro libro de proyectos Tomo II p. 172"
+          ],
+          "evidence": "El proyecto ya cuenta con producto, conceptos y articulacion pedagogica, pero el horizonte textual exacto sigue pendiente de confirmacion literal.",
+          "status": "pending"
+        },
+        "detonatingStrategy": {
+          "title": "6. México moderno • Ética, naturaleza y sociedades • 2do grado",
+          "text": "Video del Proyecto Parcial de Aula 6: 6. México moderno • Ética, naturaleza y sociedades • 2do grado",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=T9i4fxG8iPs",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "partial-classroom-project"
+        },
+        "academicProjectStrategy": {
+          "title": "Cuento breve • Ética, naturaleza y sociedades • 2do grado",
+          "text": "Video detonador del Proyecto Academico 16: La ideología que cambió a México",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=4REKkAq5faY",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "academic-project"
+        },
+        "academicConcepts": [
+          {
+            "concept": "historieta",
+            "description": "Historieta como producto de cierre para organizar y comunicar aprendizajes del proyecto.",
+            "sourceBook": "Nuestro libro de proyectos Tomo II",
+            "sourcePages": [
+              172,
+              175
+            ],
+            "sourcePagesLabel": "pp. 172-175",
+            "topicTitle": "Proyecto academico 16",
+            "status": "confirmed",
+            "reason": "Posibilidades y el propio proyecto fijan Historieta como producto final del PA 16.",
+            "pedagogicalUse": "Da una forma concreta de socializar lo comprendido sobre las ideas liberales y conservadoras, la dictadura de Santa Anna y la Revolucion de Ayutla.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "liberalismo",
+            "description": "Liberalismo es una idea clave para comprender las ideas liberales y conservadoras, la dictadura de Santa Anna y la Revolucion de Ayutla.",
+            "sourceBook": "Etica, Naturaleza y Sociedades",
+            "sourcePages": [
+              91,
+              97
+            ],
+            "sourcePagesLabel": "pp. 91-97",
+            "topicTitle": "Dictadura de Santa Anna y Revolucion de Ayutla",
+            "status": "confirmed",
+            "reason": "La fuente validada \"Dictadura de Santa Anna y Revolucion de Ayutla\" aporta base suficiente para trabajar liberalismo dentro del proyecto 16.",
+            "pedagogicalUse": "Ayuda a fortalecer historieta y a explicar las ideas liberales y conservadoras, la dictadura de Santa Anna y la Revolucion de Ayutla con mayor claridad mediante liberalismo.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "conservadurismo",
+            "description": "Conservadurismo es una idea clave para comprender las ideas liberales y conservadoras, la dictadura de Santa Anna y la Revolucion de Ayutla.",
+            "sourceBook": "Etica, Naturaleza y Sociedades",
+            "sourcePages": [
+              91,
+              97
+            ],
+            "sourcePagesLabel": "pp. 91-97",
+            "topicTitle": "Dictadura de Santa Anna y Revolucion de Ayutla",
+            "status": "confirmed",
+            "reason": "La fuente validada \"Dictadura de Santa Anna y Revolucion de Ayutla\" aporta base suficiente para trabajar conservadurismo dentro del proyecto 16.",
+            "pedagogicalUse": "Ayuda a fortalecer historieta y a explicar las ideas liberales y conservadoras, la dictadura de Santa Anna y la Revolucion de Ayutla con mayor claridad mediante conservadurismo.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Revolucion de Ayutla",
+            "description": "Revolucion de Ayutla es una idea clave para comprender las ideas liberales y conservadoras, la dictadura de Santa Anna y la Revolucion de Ayutla.",
+            "sourceBook": "Etica, Naturaleza y Sociedades",
+            "sourcePages": [
+              91,
+              97
+            ],
+            "sourcePagesLabel": "pp. 91-97",
+            "topicTitle": "Dictadura de Santa Anna y Revolucion de Ayutla",
+            "status": "confirmed",
+            "reason": "La fuente validada \"Dictadura de Santa Anna y Revolucion de Ayutla\" aporta base suficiente para trabajar Revolucion de Ayutla dentro del proyecto 16.",
+            "pedagogicalUse": "Ayuda a fortalecer historieta y a explicar las ideas liberales y conservadoras, la dictadura de Santa Anna y la Revolucion de Ayutla con mayor claridad mediante Revolucion de Ayutla.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Constitucion de 1857",
+            "description": "Constitucion de 1857 es una idea clave para comprender las ideas liberales y conservadoras, la dictadura de Santa Anna y la Revolucion de Ayutla.",
+            "sourceBook": "Etica, Naturaleza y Sociedades",
+            "sourcePages": [
+              98,
+              105
+            ],
+            "sourcePagesLabel": "pp. 98-105",
+            "topicTitle": "Las Leyes de Reforma y la Constitucion de 1857",
+            "status": "confirmed",
+            "reason": "La fuente validada \"Las Leyes de Reforma y la Constitucion de 1857\" aporta base suficiente para trabajar Constitucion de 1857 dentro del proyecto 16.",
+            "pedagogicalUse": "Ayuda a fortalecer historieta y a explicar las ideas liberales y conservadoras, la dictadura de Santa Anna y la Revolucion de Ayutla con mayor claridad mediante Constitucion de 1857.",
+            "activityReadiness": "usable-for-autoevaluation"
+          }
+        ],
+        "thinkingCriteria": [
+          "Relacionar las ideas liberales y conservadoras, la dictadura de Santa Anna y la Revolucion de Ayutla con situaciones cercanas a la comunidad.",
+          "Usar historieta para explicar y no solo para recopilar informacion.",
+          "Distinguir entre mencionar conceptos y comprender como dialogan entre si dentro del proyecto."
+        ],
+        "validationStatus": {
+          "readinessLevel": "development-partial",
+          "readyForActivities": false,
+          "needsReviewReasons": [
+            "El bloque 6 ya es usable como lectura docente, pero el video del PPA 6 y el recurso informatico siguen pendientes de validacion de destino final.",
+            "La asignacion de apoyos de Posibilidades se sostiene por inferencia curricular documentada y no por OCR perfectamente separado por columnas.",
+            "No mover a actividades interactivas ni desbloquear juegos completos hasta ampliar validacion de videos y recursos complementarios."
+          ]
+        },
+        "readinessLevel": "development-partial",
+        "readyForActivities": false,
+        "needsReviewReasons": [
+          "No mover a actividades interactivas ni desbloquear juegos completos."
+        ],
+        "roleInPpa": "Abre el bloque con una lectura ideologica del cambio politico que transformo a Mexico.",
+        "pedagogicalUse": "Conviene trabajar La ideología que cambió a México como una oportunidad para profundizar en las ideas liberales y conservadoras, la dictadura de Santa Anna y la Revolucion de Ayutla sin separar contenido, comunidad y producto final.",
+        "teacherNotes": [
+          "Conviene partir de ejemplos cercanos y después pasar al lenguaje mas abstracto del campo.",
+          "El producto Historieta gana fuerza cuando se usa para explicar y no solo para exhibir informacion.",
+          "Es mejor seleccionar pocos conceptos bien comprendidos que saturar el trabajo con terminos aislados."
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Qué comprendes mejor sobre las ideas liberales y conservadoras, la dictadura de Santa Anna y la Revolucion de Ayutla después de elaborar historieta?"
+          },
+          {
+            "type": "community",
+            "prompt": "¿Qué diálogos comunitarios podrían fortalecerse si compartimos historieta y lo ponemos en conversación con otras personas?"
+          }
+        ],
+        "notReadyFor": [
+          "full-games",
+          "summative-exam"
+        ]
+      },
+      {
+        "id": "etica-naturaleza-y-sociedades-2-ppa-6-pa17",
+        "projectId": "etica-naturaleza-y-sociedades-2-ppa-6-pa17",
+        "academicProjectNumber": 17,
+        "title": "El triunfo del liberalismo mexicano",
+        "projectTitle": "El triunfo del liberalismo mexicano",
+        "grade": "2",
+        "field": "Etica, Naturaleza y Sociedades",
+        "ppaNumber": "6",
+        "partialClassroomProject": "PPA 6",
+        "partialClassroomProjectTitle": "México moderno",
+        "bookVolume": "Tomo II",
+        "sourceValidation": {
+          "sourceStatus": "linked",
+          "possibilitiesPages": [
+            16,
+            17
+          ],
+          "possibilitiesMaterialId": "grade-2-posibilidades-pos-ens-2",
+          "possibilitiesColumnIndex": 2,
+          "columnEvidence": "Bloque PPA 6 México moderno localizado en pp. 16-17; la columna 2 se confirma por el orden de proyectos, productos y continuidad del mismo bloque."
+        },
+        "finalProduct": {
+          "title": "Cronología de hechos",
+          "source": "Posibilidades de uso ENS pp. 16-17 + Nuestro libro de proyectos Tomo II pp. 176-179",
+          "status": "confirmed"
+        },
+        "sourcePages": {
+          "nuestroLibroProyectos": [
+            {
+              "materialId": "grade-2-proyectos-nuestro-libro-de-proyectos-tomo-2-segundo-grado",
+              "label": "Nuestro libro de proyectos Tomo II",
+              "startPage": 176,
+              "endPage": 179,
+              "pagesLabel": "pp. 176-179",
+              "topicTitle": "Proyecto academico 17",
+              "status": "confirmed-source"
+            }
+          ],
+          "conceptBook": [
+            {
+              "materialId": "grade-2-conceptos-etica-naturaleza-y-sociedades-segundo-grado",
+              "label": "Etica, Naturaleza y Sociedades",
+              "startPage": 98,
+              "endPage": 105,
+              "pagesLabel": "pp. 98-105",
+              "topicTitle": "Las Leyes de Reforma y la Constitucion de 1857",
+              "status": "confirmed-by-column-inference"
+            },
+            {
+              "materialId": "grade-2-conceptos-etica-naturaleza-y-sociedades-segundo-grado",
+              "label": "Etica, Naturaleza y Sociedades",
+              "startPage": 106,
+              "endPage": 109,
+              "pagesLabel": "pp. 106-109",
+              "topicTitle": "Guerra de Reforma",
+              "status": "confirmed-by-column-inference"
+            }
+          ],
+          "multiplesLenguajes": [
+            {
+              "materialId": "grade-2-apoyo-multiples-lenguajes-segundo-grado",
+              "label": "Multiples Lenguajes",
+              "startPage": 92,
+              "endPage": 97,
+              "pagesLabel": "pp. 92-97",
+              "topicTitle": "Jardines flotantes",
+              "status": "confirmed-by-column-inference"
+            }
+          ],
+          "otherMaterials": [
+            {
+              "label": "Video PA 17: 7. Victoria del liberalismo mexicano en el siglo XIX • Ética, naturaleza y sociedades • 2do grado",
+              "reference": "https://www.youtube.com/watch?v=AMTxrsr-VOc",
+              "status": "confirmed"
+            },
+            {
+              "label": "Video PPA 6: 6. México moderno • Ética, naturaleza y sociedades • 2do grado",
+              "reference": "https://www.youtube.com/watch?v=T9i4fxG8iPs",
+              "status": "confirmed"
+            }
+          ]
+        },
+        "supportMaterials": [
+          {
+            "title": "Jardines flotantes",
+            "kind": "Multiples Lenguajes",
+            "pages": "pp. 92-97",
+            "status": "confirmed-by-column-inference"
+          }
+        ],
+        "horizonOrPurpose": {
+          "status": "pending",
+          "text": "",
+          "source": "Nuestro libro de proyectos Tomo II p. 176"
+        },
+        "projectExpectationHorizon": {
+          "officialText": "",
+          "studentVersion": "",
+          "sourcePages": [
+            "Nuestro libro de proyectos Tomo II p. 176"
+          ],
+          "evidence": "El proyecto ya cuenta con producto, conceptos y articulacion pedagogica, pero el horizonte textual exacto sigue pendiente de confirmacion literal.",
+          "status": "pending"
+        },
+        "detonatingStrategy": {
+          "title": "6. México moderno • Ética, naturaleza y sociedades • 2do grado",
+          "text": "Video del Proyecto Parcial de Aula 6: 6. México moderno • Ética, naturaleza y sociedades • 2do grado",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=T9i4fxG8iPs",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "partial-classroom-project"
+        },
+        "academicProjectStrategy": {
+          "title": "7. Victoria del liberalismo mexicano en el siglo XIX • Ética, naturaleza y sociedades • 2do grado",
+          "text": "Video detonador del Proyecto Academico 17: El triunfo del liberalismo mexicano",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=AMTxrsr-VOc",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "academic-project"
+        },
+        "academicConcepts": [
+          {
+            "concept": "cronología de hechos",
+            "description": "Cronología de hechos como producto de cierre para organizar y comunicar aprendizajes del proyecto.",
+            "sourceBook": "Nuestro libro de proyectos Tomo II",
+            "sourcePages": [
+              176,
+              179
+            ],
+            "sourcePagesLabel": "pp. 176-179",
+            "topicTitle": "Proyecto academico 17",
+            "status": "confirmed",
+            "reason": "Posibilidades y el propio proyecto fijan Cronología de hechos como producto final del PA 17.",
+            "pedagogicalUse": "Da una forma concreta de socializar lo comprendido sobre la Guerra de Reforma y la consolidacion del proyecto liberal mexicano.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Leyes de Reforma",
+            "description": "Leyes de Reforma es una idea clave para comprender la Guerra de Reforma y la consolidacion del proyecto liberal mexicano.",
+            "sourceBook": "Etica, Naturaleza y Sociedades",
+            "sourcePages": [
+              98,
+              105
+            ],
+            "sourcePagesLabel": "pp. 98-105",
+            "topicTitle": "Las Leyes de Reforma y la Constitucion de 1857",
+            "status": "confirmed",
+            "reason": "La fuente validada \"Las Leyes de Reforma y la Constitucion de 1857\" aporta base suficiente para trabajar Leyes de Reforma dentro del proyecto 17.",
+            "pedagogicalUse": "Ayuda a fortalecer cronología de hechos y a explicar la Guerra de Reforma y la consolidacion del proyecto liberal mexicano con mayor claridad mediante Leyes de Reforma.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Guerra de Reforma",
+            "description": "Guerra de Reforma es una idea clave para comprender la Guerra de Reforma y la consolidacion del proyecto liberal mexicano.",
+            "sourceBook": "Etica, Naturaleza y Sociedades",
+            "sourcePages": [
+              106,
+              109
+            ],
+            "sourcePagesLabel": "pp. 106-109",
+            "topicTitle": "Guerra de Reforma",
+            "status": "confirmed",
+            "reason": "La fuente validada \"Guerra de Reforma\" aporta base suficiente para trabajar Guerra de Reforma dentro del proyecto 17.",
+            "pedagogicalUse": "Ayuda a fortalecer cronología de hechos y a explicar la Guerra de Reforma y la consolidacion del proyecto liberal mexicano con mayor claridad mediante Guerra de Reforma.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Estado laico",
+            "description": "Estado laico es una idea clave para comprender la Guerra de Reforma y la consolidacion del proyecto liberal mexicano.",
+            "sourceBook": "Etica, Naturaleza y Sociedades",
+            "sourcePages": [
+              98,
+              105
+            ],
+            "sourcePagesLabel": "pp. 98-105",
+            "topicTitle": "Las Leyes de Reforma y la Constitucion de 1857",
+            "status": "confirmed",
+            "reason": "La fuente validada \"Las Leyes de Reforma y la Constitucion de 1857\" aporta base suficiente para trabajar Estado laico dentro del proyecto 17.",
+            "pedagogicalUse": "Ayuda a fortalecer cronología de hechos y a explicar la Guerra de Reforma y la consolidacion del proyecto liberal mexicano con mayor claridad mediante Estado laico.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "triunfo liberal",
+            "description": "Triunfo liberal es una idea clave para comprender la Guerra de Reforma y la consolidacion del proyecto liberal mexicano.",
+            "sourceBook": "Etica, Naturaleza y Sociedades",
+            "sourcePages": [
+              106,
+              109
+            ],
+            "sourcePagesLabel": "pp. 106-109",
+            "topicTitle": "Guerra de Reforma",
+            "status": "confirmed",
+            "reason": "La fuente validada \"Guerra de Reforma\" aporta base suficiente para trabajar triunfo liberal dentro del proyecto 17.",
+            "pedagogicalUse": "Ayuda a fortalecer cronología de hechos y a explicar la Guerra de Reforma y la consolidacion del proyecto liberal mexicano con mayor claridad mediante triunfo liberal.",
+            "activityReadiness": "usable-for-autoevaluation"
+          }
+        ],
+        "thinkingCriteria": [
+          "Relacionar la Guerra de Reforma y la consolidacion del proyecto liberal mexicano con situaciones cercanas a la comunidad.",
+          "Usar cronología de hechos para explicar y no solo para recopilar informacion.",
+          "Distinguir entre mencionar conceptos y comprender como dialogan entre si dentro del proyecto."
+        ],
+        "validationStatus": {
+          "readinessLevel": "development-partial",
+          "readyForActivities": false,
+          "needsReviewReasons": [
+            "El bloque 6 ya es usable como lectura docente, pero el video del PPA 6 y el recurso informatico siguen pendientes de validacion de destino final.",
+            "La asignacion de apoyos de Posibilidades se sostiene por inferencia curricular documentada y no por OCR perfectamente separado por columnas.",
+            "No mover a actividades interactivas ni desbloquear juegos completos hasta ampliar validacion de videos y recursos complementarios."
+          ]
+        },
+        "readinessLevel": "development-partial",
+        "readyForActivities": false,
+        "needsReviewReasons": [
+          "No mover a actividades interactivas ni desbloquear juegos completos."
+        ],
+        "roleInPpa": "Profundiza el bloque al mostrar el triunfo del liberalismo a traves de cronologias y hechos decisivos.",
+        "pedagogicalUse": "Conviene trabajar El triunfo del liberalismo mexicano como una oportunidad para profundizar en la Guerra de Reforma y la consolidacion del proyecto liberal mexicano sin separar contenido, comunidad y producto final.",
+        "teacherNotes": [
+          "Conviene partir de ejemplos cercanos y después pasar al lenguaje mas abstracto del campo.",
+          "El producto Cronología de hechos gana fuerza cuando se usa para explicar y no solo para exhibir informacion.",
+          "Es mejor seleccionar pocos conceptos bien comprendidos que saturar el trabajo con terminos aislados."
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Qué comprendes mejor sobre la Guerra de Reforma y la consolidacion del proyecto liberal mexicano después de elaborar cronología de hechos?"
+          },
+          {
+            "type": "community",
+            "prompt": "¿Qué diálogos comunitarios podrían fortalecerse si compartimos cronología de hechos y lo ponemos en conversación con otras personas?"
+          }
+        ],
+        "notReadyFor": [
+          "full-games",
+          "summative-exam"
+        ]
+      },
+      {
+        "id": "etica-naturaleza-y-sociedades-2-ppa-6-pa18",
+        "projectId": "etica-naturaleza-y-sociedades-2-ppa-6-pa18",
+        "academicProjectNumber": 18,
+        "title": "El Estado de derecho y el respeto de los derechos humanos",
+        "projectTitle": "El Estado de derecho y el respeto de los derechos humanos",
+        "grade": "2",
+        "field": "Etica, Naturaleza y Sociedades",
+        "ppaNumber": "6",
+        "partialClassroomProject": "PPA 6",
+        "partialClassroomProjectTitle": "México moderno",
+        "bookVolume": "Tomo II",
+        "sourceValidation": {
+          "sourceStatus": "linked",
+          "possibilitiesPages": [
+            16,
+            17
+          ],
+          "possibilitiesMaterialId": "grade-2-posibilidades-pos-ens-2",
+          "possibilitiesColumnIndex": 3,
+          "columnEvidence": "Bloque PPA 6 México moderno localizado en pp. 16-17; la columna 3 se confirma por el orden de proyectos, productos y continuidad del mismo bloque."
+        },
+        "finalProduct": {
+          "title": "Texto narrativo",
+          "source": "Posibilidades de uso ENS pp. 16-17 + Nuestro libro de proyectos Tomo II pp. 180-185",
+          "status": "confirmed"
+        },
+        "sourcePages": {
+          "nuestroLibroProyectos": [
+            {
+              "materialId": "grade-2-proyectos-nuestro-libro-de-proyectos-tomo-2-segundo-grado",
+              "label": "Nuestro libro de proyectos Tomo II",
+              "startPage": 180,
+              "endPage": 185,
+              "pagesLabel": "pp. 180-185",
+              "topicTitle": "Proyecto academico 18",
+              "status": "confirmed-source"
+            }
+          ],
+          "conceptBook": [
+            {
+              "materialId": "grade-2-conceptos-etica-naturaleza-y-sociedades-segundo-grado",
+              "label": "Etica, Naturaleza y Sociedades",
+              "startPage": 309,
+              "endPage": 318,
+              "pagesLabel": "pp. 309-318",
+              "topicTitle": "Acciones para fortalecer el Estado de derecho democratico en el entorno",
+              "status": "confirmed-by-column-inference"
+            },
+            {
+              "materialId": "grade-2-conceptos-etica-naturaleza-y-sociedades-segundo-grado",
+              "label": "Etica, Naturaleza y Sociedades",
+              "startPage": 230,
+              "endPage": 236,
+              "pagesLabel": "pp. 230-236",
+              "topicTitle": "Acciones orientadas a fortalecer la igualdad, el bienestar colectivo y el respeto a los derechos humanos",
+              "status": "confirmed-by-column-inference"
+            }
+          ],
+          "multiplesLenguajes": [],
+          "otherMaterials": [
+            {
+              "label": "Video PA 18: 1. Tenemos derecho a ser diferentes • Ética, naturaleza y sociedades • 2do grado",
+              "reference": "https://www.youtube.com/watch?v=QKlekmKqMyY",
+              "status": "confirmed"
+            },
+            {
+              "label": "Video PPA 6: 6. México moderno • Ética, naturaleza y sociedades • 2do grado",
+              "reference": "https://www.youtube.com/watch?v=T9i4fxG8iPs",
+              "status": "confirmed"
+            }
+          ]
+        },
+        "supportMaterials": [],
+        "horizonOrPurpose": {
+          "status": "pending",
+          "text": "",
+          "source": "Nuestro libro de proyectos Tomo II p. 180"
+        },
+        "projectExpectationHorizon": {
+          "officialText": "",
+          "studentVersion": "",
+          "sourcePages": [
+            "Nuestro libro de proyectos Tomo II p. 180"
+          ],
+          "evidence": "El proyecto ya cuenta con producto, conceptos y articulacion pedagogica, pero el horizonte textual exacto sigue pendiente de confirmacion literal.",
+          "status": "pending"
+        },
+        "detonatingStrategy": {
+          "title": "6. México moderno • Ética, naturaleza y sociedades • 2do grado",
+          "text": "Video del Proyecto Parcial de Aula 6: 6. México moderno • Ética, naturaleza y sociedades • 2do grado",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=T9i4fxG8iPs",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "partial-classroom-project"
+        },
+        "academicProjectStrategy": {
+          "title": "1. Tenemos derecho a ser diferentes • Ética, naturaleza y sociedades • 2do grado",
+          "text": "Video detonador del Proyecto Academico 18: El Estado de derecho y el respeto de los derechos humanos",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=QKlekmKqMyY",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "academic-project"
+        },
+        "academicConcepts": [
+          {
+            "concept": "texto narrativo",
+            "description": "Texto narrativo como producto de cierre para organizar y comunicar aprendizajes del proyecto.",
+            "sourceBook": "Nuestro libro de proyectos Tomo II",
+            "sourcePages": [
+              180,
+              185
+            ],
+            "sourcePagesLabel": "pp. 180-185",
+            "topicTitle": "Proyecto academico 18",
+            "status": "confirmed",
+            "reason": "Posibilidades y el propio proyecto fijan Texto narrativo como producto final del PA 18.",
+            "pedagogicalUse": "Da una forma concreta de socializar lo comprendido sobre el Estado de derecho democratico y las acciones para favorecer democracia y derechos humanos en el entorno.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Estado de derecho",
+            "description": "Estado de derecho es una idea clave para comprender el Estado de derecho democratico y las acciones para favorecer democracia y derechos humanos en el entorno.",
+            "sourceBook": "Etica, Naturaleza y Sociedades",
+            "sourcePages": [
+              309,
+              318
+            ],
+            "sourcePagesLabel": "pp. 309-318",
+            "topicTitle": "Acciones para fortalecer el Estado de derecho democratico en el entorno",
+            "status": "confirmed",
+            "reason": "La fuente validada \"Acciones para fortalecer el Estado de derecho democratico en el entorno\" aporta base suficiente para trabajar Estado de derecho dentro del proyecto 18.",
+            "pedagogicalUse": "Ayuda a fortalecer texto narrativo y a explicar el Estado de derecho democratico y las acciones para favorecer democracia y derechos humanos en el entorno con mayor claridad mediante Estado de derecho.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "democracia",
+            "description": "Democracia es una idea clave para comprender el Estado de derecho democratico y las acciones para favorecer democracia y derechos humanos en el entorno.",
+            "sourceBook": "Etica, Naturaleza y Sociedades",
+            "sourcePages": [
+              309,
+              318
+            ],
+            "sourcePagesLabel": "pp. 309-318",
+            "topicTitle": "Acciones para fortalecer el Estado de derecho democratico en el entorno",
+            "status": "confirmed",
+            "reason": "La fuente validada \"Acciones para fortalecer el Estado de derecho democratico en el entorno\" aporta base suficiente para trabajar democracia dentro del proyecto 18.",
+            "pedagogicalUse": "Ayuda a fortalecer texto narrativo y a explicar el Estado de derecho democratico y las acciones para favorecer democracia y derechos humanos en el entorno con mayor claridad mediante democracia.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "derechos humanos",
+            "description": "Derechos humanos es una idea clave para comprender el Estado de derecho democratico y las acciones para favorecer democracia y derechos humanos en el entorno.",
+            "sourceBook": "Etica, Naturaleza y Sociedades",
+            "sourcePages": [
+              230,
+              236
+            ],
+            "sourcePagesLabel": "pp. 230-236",
+            "topicTitle": "Acciones orientadas a fortalecer la igualdad, el bienestar colectivo y el respeto a los derechos humanos",
+            "status": "confirmed",
+            "reason": "La fuente validada \"Acciones orientadas a fortalecer la igualdad, el bienestar colectivo y el respeto a los derechos humanos\" aporta base suficiente para trabajar derechos humanos dentro del proyecto 18.",
+            "pedagogicalUse": "Ayuda a fortalecer texto narrativo y a explicar el Estado de derecho democratico y las acciones para favorecer democracia y derechos humanos en el entorno con mayor claridad mediante derechos humanos.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "participacion ciudadana",
+            "description": "Participacion ciudadana es una idea clave para comprender el Estado de derecho democratico y las acciones para favorecer democracia y derechos humanos en el entorno.",
+            "sourceBook": "Etica, Naturaleza y Sociedades",
+            "sourcePages": [
+              309,
+              318
+            ],
+            "sourcePagesLabel": "pp. 309-318",
+            "topicTitle": "Acciones para fortalecer el Estado de derecho democratico en el entorno",
+            "status": "confirmed",
+            "reason": "La fuente validada \"Acciones para fortalecer el Estado de derecho democratico en el entorno\" aporta base suficiente para trabajar participacion ciudadana dentro del proyecto 18.",
+            "pedagogicalUse": "Ayuda a fortalecer texto narrativo y a explicar el Estado de derecho democratico y las acciones para favorecer democracia y derechos humanos en el entorno con mayor claridad mediante participacion ciudadana.",
+            "activityReadiness": "usable-for-autoevaluation"
+          }
+        ],
+        "thinkingCriteria": [
+          "Relacionar el Estado de derecho democratico y las acciones para favorecer democracia y derechos humanos en el entorno con situaciones cercanas a la comunidad.",
+          "Usar texto narrativo para explicar y no solo para recopilar informacion.",
+          "Distinguir entre mencionar conceptos y comprender como dialogan entre si dentro del proyecto."
+        ],
+        "validationStatus": {
+          "readinessLevel": "development-partial",
+          "readyForActivities": false,
+          "needsReviewReasons": [
+            "El bloque 6 ya es usable como lectura docente, pero el video del PPA 6 y el recurso informatico siguen pendientes de validacion de destino final.",
+            "La asignacion de apoyos de Posibilidades se sostiene por inferencia curricular documentada y no por OCR perfectamente separado por columnas.",
+            "No mover a actividades interactivas ni desbloquear juegos completos hasta ampliar validacion de videos y recursos complementarios."
+          ]
+        },
+        "readinessLevel": "development-partial",
+        "readyForActivities": false,
+        "needsReviewReasons": [
+          "No mover a actividades interactivas ni desbloquear juegos completos."
+        ],
+        "roleInPpa": "Cierra el bloque relacionando historia politica con vida democratica, legalidad y respeto a los derechos humanos.",
+        "pedagogicalUse": "Conviene trabajar El Estado de derecho y el respeto de los derechos humanos como una oportunidad para profundizar en el Estado de derecho democratico y las acciones para favorecer democracia y derechos humanos en el entorno sin separar contenido, comunidad y producto final.",
+        "teacherNotes": [
+          "Conviene partir de ejemplos cercanos y después pasar al lenguaje mas abstracto del campo.",
+          "El producto Texto narrativo gana fuerza cuando se usa para explicar y no solo para exhibir informacion.",
+          "Es mejor seleccionar pocos conceptos bien comprendidos que saturar el trabajo con terminos aislados."
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Qué comprendes mejor sobre el Estado de derecho democratico y las acciones para favorecer democracia y derechos humanos en el entorno después de elaborar texto narrativo?"
+          },
+          {
+            "type": "community",
+            "prompt": "¿Qué diálogos comunitarios podrían fortalecerse si compartimos texto narrativo y lo ponemos en conversación con otras personas?"
+          }
+        ],
+        "notReadyFor": [
+          "full-games",
+          "summative-exam"
+        ]
+      }
+    ]
+  },
+  "conceptsValidation": {
+    "grade": "2",
+    "field": "Etica, Naturaleza y Sociedades",
+    "ppaNumber": "6",
+    "status": "concept-validation",
+    "generatedAt": "2026-06-02T19:34:55.623Z",
+    "entries": [
+      {
+        "projectId": "etica-naturaleza-y-sociedades-2-ppa-6-pa16",
+        "projectTitle": "La ideología que cambió a México",
+        "concept": "historieta",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Nuestro libro de proyectos Tomo II",
+          "pages": [
+            172,
+            175
+          ],
+          "reason": "Posibilidades y el propio proyecto fijan Historieta como producto final del PA 16."
+        },
+        "pedagogicalUse": "Da una forma concreta de socializar lo comprendido sobre las ideas liberales y conservadoras, la dictadura de Santa Anna y la Revolucion de Ayutla.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "etica-naturaleza-y-sociedades-2-ppa-6-pa16",
+        "projectTitle": "La ideología que cambió a México",
+        "concept": "liberalismo",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Etica, Naturaleza y Sociedades",
+          "pages": [
+            91,
+            97
+          ],
+          "reason": "La fuente validada \"Dictadura de Santa Anna y Revolucion de Ayutla\" aporta base suficiente para trabajar liberalismo dentro del proyecto 16."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer historieta y a explicar las ideas liberales y conservadoras, la dictadura de Santa Anna y la Revolucion de Ayutla con mayor claridad mediante liberalismo.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "etica-naturaleza-y-sociedades-2-ppa-6-pa16",
+        "projectTitle": "La ideología que cambió a México",
+        "concept": "conservadurismo",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Etica, Naturaleza y Sociedades",
+          "pages": [
+            91,
+            97
+          ],
+          "reason": "La fuente validada \"Dictadura de Santa Anna y Revolucion de Ayutla\" aporta base suficiente para trabajar conservadurismo dentro del proyecto 16."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer historieta y a explicar las ideas liberales y conservadoras, la dictadura de Santa Anna y la Revolucion de Ayutla con mayor claridad mediante conservadurismo.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "etica-naturaleza-y-sociedades-2-ppa-6-pa16",
+        "projectTitle": "La ideología que cambió a México",
+        "concept": "Revolucion de Ayutla",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Etica, Naturaleza y Sociedades",
+          "pages": [
+            91,
+            97
+          ],
+          "reason": "La fuente validada \"Dictadura de Santa Anna y Revolucion de Ayutla\" aporta base suficiente para trabajar Revolucion de Ayutla dentro del proyecto 16."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer historieta y a explicar las ideas liberales y conservadoras, la dictadura de Santa Anna y la Revolucion de Ayutla con mayor claridad mediante Revolucion de Ayutla.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "etica-naturaleza-y-sociedades-2-ppa-6-pa16",
+        "projectTitle": "La ideología que cambió a México",
+        "concept": "Constitucion de 1857",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Etica, Naturaleza y Sociedades",
+          "pages": [
+            98,
+            105
+          ],
+          "reason": "La fuente validada \"Las Leyes de Reforma y la Constitucion de 1857\" aporta base suficiente para trabajar Constitucion de 1857 dentro del proyecto 16."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer historieta y a explicar las ideas liberales y conservadoras, la dictadura de Santa Anna y la Revolucion de Ayutla con mayor claridad mediante Constitucion de 1857.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "etica-naturaleza-y-sociedades-2-ppa-6-pa17",
+        "projectTitle": "El triunfo del liberalismo mexicano",
+        "concept": "cronología de hechos",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Nuestro libro de proyectos Tomo II",
+          "pages": [
+            176,
+            179
+          ],
+          "reason": "Posibilidades y el propio proyecto fijan Cronología de hechos como producto final del PA 17."
+        },
+        "pedagogicalUse": "Da una forma concreta de socializar lo comprendido sobre la Guerra de Reforma y la consolidacion del proyecto liberal mexicano.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "etica-naturaleza-y-sociedades-2-ppa-6-pa17",
+        "projectTitle": "El triunfo del liberalismo mexicano",
+        "concept": "Leyes de Reforma",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Etica, Naturaleza y Sociedades",
+          "pages": [
+            98,
+            105
+          ],
+          "reason": "La fuente validada \"Las Leyes de Reforma y la Constitucion de 1857\" aporta base suficiente para trabajar Leyes de Reforma dentro del proyecto 17."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer cronología de hechos y a explicar la Guerra de Reforma y la consolidacion del proyecto liberal mexicano con mayor claridad mediante Leyes de Reforma.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "etica-naturaleza-y-sociedades-2-ppa-6-pa17",
+        "projectTitle": "El triunfo del liberalismo mexicano",
+        "concept": "Guerra de Reforma",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Etica, Naturaleza y Sociedades",
+          "pages": [
+            106,
+            109
+          ],
+          "reason": "La fuente validada \"Guerra de Reforma\" aporta base suficiente para trabajar Guerra de Reforma dentro del proyecto 17."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer cronología de hechos y a explicar la Guerra de Reforma y la consolidacion del proyecto liberal mexicano con mayor claridad mediante Guerra de Reforma.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "etica-naturaleza-y-sociedades-2-ppa-6-pa17",
+        "projectTitle": "El triunfo del liberalismo mexicano",
+        "concept": "Estado laico",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Etica, Naturaleza y Sociedades",
+          "pages": [
+            98,
+            105
+          ],
+          "reason": "La fuente validada \"Las Leyes de Reforma y la Constitucion de 1857\" aporta base suficiente para trabajar Estado laico dentro del proyecto 17."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer cronología de hechos y a explicar la Guerra de Reforma y la consolidacion del proyecto liberal mexicano con mayor claridad mediante Estado laico.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "etica-naturaleza-y-sociedades-2-ppa-6-pa17",
+        "projectTitle": "El triunfo del liberalismo mexicano",
+        "concept": "triunfo liberal",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Etica, Naturaleza y Sociedades",
+          "pages": [
+            106,
+            109
+          ],
+          "reason": "La fuente validada \"Guerra de Reforma\" aporta base suficiente para trabajar triunfo liberal dentro del proyecto 17."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer cronología de hechos y a explicar la Guerra de Reforma y la consolidacion del proyecto liberal mexicano con mayor claridad mediante triunfo liberal.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "etica-naturaleza-y-sociedades-2-ppa-6-pa18",
+        "projectTitle": "El Estado de derecho y el respeto de los derechos humanos",
+        "concept": "texto narrativo",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Nuestro libro de proyectos Tomo II",
+          "pages": [
+            180,
+            185
+          ],
+          "reason": "Posibilidades y el propio proyecto fijan Texto narrativo como producto final del PA 18."
+        },
+        "pedagogicalUse": "Da una forma concreta de socializar lo comprendido sobre el Estado de derecho democratico y las acciones para favorecer democracia y derechos humanos en el entorno.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "etica-naturaleza-y-sociedades-2-ppa-6-pa18",
+        "projectTitle": "El Estado de derecho y el respeto de los derechos humanos",
+        "concept": "Estado de derecho",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Etica, Naturaleza y Sociedades",
+          "pages": [
+            309,
+            318
+          ],
+          "reason": "La fuente validada \"Acciones para fortalecer el Estado de derecho democratico en el entorno\" aporta base suficiente para trabajar Estado de derecho dentro del proyecto 18."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer texto narrativo y a explicar el Estado de derecho democratico y las acciones para favorecer democracia y derechos humanos en el entorno con mayor claridad mediante Estado de derecho.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "etica-naturaleza-y-sociedades-2-ppa-6-pa18",
+        "projectTitle": "El Estado de derecho y el respeto de los derechos humanos",
+        "concept": "democracia",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Etica, Naturaleza y Sociedades",
+          "pages": [
+            309,
+            318
+          ],
+          "reason": "La fuente validada \"Acciones para fortalecer el Estado de derecho democratico en el entorno\" aporta base suficiente para trabajar democracia dentro del proyecto 18."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer texto narrativo y a explicar el Estado de derecho democratico y las acciones para favorecer democracia y derechos humanos en el entorno con mayor claridad mediante democracia.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "etica-naturaleza-y-sociedades-2-ppa-6-pa18",
+        "projectTitle": "El Estado de derecho y el respeto de los derechos humanos",
+        "concept": "derechos humanos",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Etica, Naturaleza y Sociedades",
+          "pages": [
+            230,
+            236
+          ],
+          "reason": "La fuente validada \"Acciones orientadas a fortalecer la igualdad, el bienestar colectivo y el respeto a los derechos humanos\" aporta base suficiente para trabajar derechos humanos dentro del proyecto 18."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer texto narrativo y a explicar el Estado de derecho democratico y las acciones para favorecer democracia y derechos humanos en el entorno con mayor claridad mediante derechos humanos.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "etica-naturaleza-y-sociedades-2-ppa-6-pa18",
+        "projectTitle": "El Estado de derecho y el respeto de los derechos humanos",
+        "concept": "participacion ciudadana",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Etica, Naturaleza y Sociedades",
+          "pages": [
+            309,
+            318
+          ],
+          "reason": "La fuente validada \"Acciones para fortalecer el Estado de derecho democratico en el entorno\" aporta base suficiente para trabajar participacion ciudadana dentro del proyecto 18."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer texto narrativo y a explicar el Estado de derecho democratico y las acciones para favorecer democracia y derechos humanos en el entorno con mayor claridad mediante participacion ciudadana.",
+        "activityReadiness": "usable-for-autoevaluation"
+      }
+    ]
+  },
+  "pedagogicalArticulation": {
+    "grade": "2",
+    "field": "Etica, Naturaleza y Sociedades",
+    "ppaNumber": "6",
+    "status": "teacher-orientation",
+    "officialHorizonStatus": "pending",
+    "situatedPedagogicalOrientation": "El PPA 6 enlaza ideologia, reformas liberales y Estado de derecho para explicar cambios politicos de largo alcance en Mexico.",
+    "integratingQuestions": [
+      "Como dialogan historieta, cronología de hechos, texto narrativo dentro del mismo PPA 6?",
+      "Que cambia en la comprension de el liberalismo mexicano, la Reforma y el Estado de derecho como procesos historicos y eticos cuando el grupo pone en relacion conceptos, producto y comunidad?",
+      "Como convertir el producto final en una herramienta de explicacion y no solo de presentacion?"
+    ],
+    "projectConnections": [
+      {
+        "projectId": "etica-naturaleza-y-sociedades-2-ppa-6-pa16",
+        "projectTitle": "La ideología que cambió a México",
+        "roleInPpa": "Abre el bloque con una lectura ideologica del cambio politico que transformo a Mexico.",
+        "confirmedConcepts": [
+          "historieta",
+          "liberalismo",
+          "conservadurismo",
+          "Revolucion de Ayutla",
+          "Constitucion de 1857"
+        ],
+        "suggestedConcepts": [],
+        "pedagogicalUse": "Conviene trabajar La ideología que cambió a México como una oportunidad para profundizar en las ideas liberales y conservadoras, la dictadura de Santa Anna y la Revolucion de Ayutla sin separar contenido, comunidad y producto final."
+      },
+      {
+        "projectId": "etica-naturaleza-y-sociedades-2-ppa-6-pa17",
+        "projectTitle": "El triunfo del liberalismo mexicano",
+        "roleInPpa": "Profundiza el bloque al mostrar el triunfo del liberalismo a traves de cronologias y hechos decisivos.",
+        "confirmedConcepts": [
+          "cronología de hechos",
+          "Leyes de Reforma",
+          "Guerra de Reforma",
+          "Estado laico",
+          "triunfo liberal"
+        ],
+        "suggestedConcepts": [],
+        "pedagogicalUse": "Conviene trabajar El triunfo del liberalismo mexicano como una oportunidad para profundizar en la Guerra de Reforma y la consolidacion del proyecto liberal mexicano sin separar contenido, comunidad y producto final."
+      },
+      {
+        "projectId": "etica-naturaleza-y-sociedades-2-ppa-6-pa18",
+        "projectTitle": "El Estado de derecho y el respeto de los derechos humanos",
+        "roleInPpa": "Cierra el bloque relacionando historia politica con vida democratica, legalidad y respeto a los derechos humanos.",
+        "confirmedConcepts": [
+          "texto narrativo",
+          "Estado de derecho",
+          "democracia",
+          "derechos humanos",
+          "participacion ciudadana"
+        ],
+        "suggestedConcepts": [],
+        "pedagogicalUse": "Conviene trabajar El Estado de derecho y el respeto de los derechos humanos como una oportunidad para profundizar en el Estado de derecho democratico y las acciones para favorecer democracia y derechos humanos en el entorno sin separar contenido, comunidad y producto final."
+      }
+    ],
+    "criteriaOfThought": [
+      {
+        "criterion": "Relacionar el liberalismo mexicano, la Reforma y el Estado de derecho como procesos historicos y eticos con experiencias concretas del entorno.",
+        "status": "suggested"
+      },
+      {
+        "criterion": "Usar el producto final para comunicar con claridad, no solo para acumular definiciones.",
+        "status": "suggested"
+      }
+    ],
+    "possibleResonanceQuestion": "¿Qué comprensiones nuevas sobre el liberalismo mexicano, la Reforma y el Estado de derecho como procesos historicos y eticos se vuelven visibles cuando el grupo comparte los productos del PPA 6?",
+    "teacherNotes": [
+      "No reducir el PPA 6 a tres productos aislados; el bloque construye una misma conversacion curricular.",
+      "Las paginas de Posibilidades forman un mismo bloque y los apoyos por columna se documentan por inferencia curricular situada.",
+      "Los enlaces cortos del video detonador y del recurso informatico se mantienen en cautela y no deben tratarse como recursos ya validados."
+    ],
+    "notReadyFor": [
+      "actividades interactivas",
+      "full-games",
+      "summative-exam"
+    ]
+  },
+  "teacherNotesAndResonances": {
+    "grade": "2",
+    "field": "Etica, Naturaleza y Sociedades",
+    "ppaNumber": "6",
+    "status": "teacher-orientation",
+    "officialHorizonStatus": "pending",
+    "ppaIntegratingResonance": "¿Qué comprensiones nuevas sobre el liberalismo mexicano, la Reforma y el Estado de derecho como procesos historicos y eticos se vuelven visibles cuando el grupo comparte los productos del PPA 6?",
+    "didacticWarnings": [
+      "No convertir el bloque en una lista de definiciones; importa relacionar conceptos con producto, comunidad y dialogo.",
+      "Los enlaces cortos bit.ly/3VfglUk y bit.ly/3WQBMwg se mantienen como cautela y no deben tratarse como recursos ya validados.",
+      "La distribucion de apoyos por columna se fija por inferencia curricular documentada a partir de Posibilidades."
+    ],
+    "communityPrompts": {
+      "communityKnowledge": [
+        "Que saberes de la comunidad ayudan a profundizar en el liberalismo mexicano, la Reforma y el Estado de derecho como procesos historicos y eticos?",
+        "Que ejemplos cercanos permiten que los conceptos del campo se vuelvan mas claros para el grupo?"
+      ],
+      "families": [
+        "Que experiencias, relatos o practicas familiares pueden enriquecer el proyecto sin desplazar su foco academico?",
+        "Que aprendizajes vale la pena compartir con otras generaciones a partir del producto final?"
+      ],
+      "territoryLanguageMemory": [
+        "Que palabras, lugares o memorias ayudan a nombrar mejor lo que el proyecto esta buscando comprender?",
+        "Como pueden circular estos productos dentro de la comunidad escolar sin perder precision ni sentido?"
+      ],
+      "productCommunityConnection": [
+        "Como podria circular historieta, cronología de hechos, texto narrativo para fortalecer el dialogo comunitario?"
+      ]
+    },
+    "suggestedThinkingCriteria": [
+      "Relacionar el liberalismo mexicano, la Reforma y el Estado de derecho como procesos historicos y eticos con problemas, experiencias y preguntas del entorno cercano.",
+      "Valorar el producto final como herramienta de comprension y comunicacion compartida."
+    ],
+    "projects": [
+      {
+        "projectId": "etica-naturaleza-y-sociedades-2-ppa-6-pa16",
+        "projectTitle": "La ideología que cambió a México",
+        "teacherNotes": [
+          "Conviene partir de ejemplos cercanos y después pasar al lenguaje mas abstracto del campo.",
+          "El producto Historieta gana fuerza cuando se usa para explicar y no solo para exhibir informacion.",
+          "Es mejor seleccionar pocos conceptos bien comprendidos que saturar el trabajo con terminos aislados."
+        ],
+        "confirmedConceptsToUse": [
+          "historieta",
+          "liberalismo",
+          "conservadurismo",
+          "Revolucion de Ayutla",
+          "Constitucion de 1857"
+        ],
+        "suggestedConceptsToHandleCarefully": [],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Qué comprendes mejor sobre las ideas liberales y conservadoras, la dictadura de Santa Anna y la Revolucion de Ayutla después de elaborar historieta?"
+          },
+          {
+            "type": "community",
+            "prompt": "¿Qué diálogos comunitarios podrían fortalecerse si compartimos historieta y lo ponemos en conversación con otras personas?"
+          }
+        ],
+        "notReadyFor": [
+          "full-games",
+          "summative-exam"
+        ]
+      },
+      {
+        "projectId": "etica-naturaleza-y-sociedades-2-ppa-6-pa17",
+        "projectTitle": "El triunfo del liberalismo mexicano",
+        "teacherNotes": [
+          "Conviene partir de ejemplos cercanos y después pasar al lenguaje mas abstracto del campo.",
+          "El producto Cronología de hechos gana fuerza cuando se usa para explicar y no solo para exhibir informacion.",
+          "Es mejor seleccionar pocos conceptos bien comprendidos que saturar el trabajo con terminos aislados."
+        ],
+        "confirmedConceptsToUse": [
+          "cronología de hechos",
+          "Leyes de Reforma",
+          "Guerra de Reforma",
+          "Estado laico",
+          "triunfo liberal"
+        ],
+        "suggestedConceptsToHandleCarefully": [],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Qué comprendes mejor sobre la Guerra de Reforma y la consolidacion del proyecto liberal mexicano después de elaborar cronología de hechos?"
+          },
+          {
+            "type": "community",
+            "prompt": "¿Qué diálogos comunitarios podrían fortalecerse si compartimos cronología de hechos y lo ponemos en conversación con otras personas?"
+          }
+        ],
+        "notReadyFor": [
+          "full-games",
+          "summative-exam"
+        ]
+      },
+      {
+        "projectId": "etica-naturaleza-y-sociedades-2-ppa-6-pa18",
+        "projectTitle": "El Estado de derecho y el respeto de los derechos humanos",
+        "teacherNotes": [
+          "Conviene partir de ejemplos cercanos y después pasar al lenguaje mas abstracto del campo.",
+          "El producto Texto narrativo gana fuerza cuando se usa para explicar y no solo para exhibir informacion.",
+          "Es mejor seleccionar pocos conceptos bien comprendidos que saturar el trabajo con terminos aislados."
+        ],
+        "confirmedConceptsToUse": [
+          "texto narrativo",
+          "Estado de derecho",
+          "democracia",
+          "derechos humanos",
+          "participacion ciudadana"
+        ],
+        "suggestedConceptsToHandleCarefully": [],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Qué comprendes mejor sobre el Estado de derecho democratico y las acciones para favorecer democracia y derechos humanos en el entorno después de elaborar texto narrativo?"
+          },
+          {
+            "type": "community",
+            "prompt": "¿Qué diálogos comunitarios podrían fortalecerse si compartimos texto narrativo y lo ponemos en conversación con otras personas?"
+          }
+        ],
+        "notReadyFor": [
+          "full-games",
+          "summative-exam"
+        ]
+      }
+    ]
+  },
+  "validationAudit": {
+    "kind": "fine-validation-audit",
+    "source": "reports/caracoles/grade2-etica-ppa6-reading-bundle-audit.md",
+    "content": "# Auditoria de lectura docente\n\n## Alcance\n\n- Campo: 2o Etica, Naturaleza y Sociedades\n- Bloque: PPA 6\n- Titulo del PPA: México moderno\n- Proyectos: PA16-PA18\n\n## Proyectos validados\n\n16. La ideología que cambió a México\n   - Producto final: Historieta\n   - Paginas: Nuestro libro de proyectos Tomo II pp. 172-175\n17. El triunfo del liberalismo mexicano\n   - Producto final: Cronología de hechos\n   - Paginas: Nuestro libro de proyectos Tomo II pp. 176-179\n18. El Estado de derecho y el respeto de los derechos humanos\n   - Producto final: Texto narrativo\n   - Paginas: Nuestro libro de proyectos Tomo II pp. 180-185\n\n## Evidencia base usada\n\n- Posibilidades de uso ENS pp. 16-17.\n- Nuestro libro de proyectos Tomo II pp. 170-185.\n- Etica, Naturaleza y Sociedades, segundo grado, pp. 91-109, 230-236 y 309-318; Multiples Lenguajes p. 77 y pp. 92-97..\n\n## Decisiones curriculares del bloque\n\n- El horizonte comun del PPA 6 se mantiene en estado pendiente como formula unica; se privilegia una orientacion pedagogica situada y documentada.\n- Los productos finales quedan confirmados desde Posibilidades y la secuencia del propio proyecto.\n- Los conceptos confirmados se normalizan para sostener lectura docente, autoevaluacion y actividades de relacion de columnas.\n- La resonancia se formula como pregunta abierta para reforzar el sentido formativo del bloque.\n\n## Cautelas reales\n\n- El video detonador del PPA 6 y el recurso informatico del bloque siguen sin URL oficial confirmada.\n- La asignacion de apoyos por columna se sostiene por inferencia curricular documentada, no por OCR limpio de tabla.\n- No se marca el bloque como actividades interactivas ni se desbloquean juegos completos.\n"
+  }
+}

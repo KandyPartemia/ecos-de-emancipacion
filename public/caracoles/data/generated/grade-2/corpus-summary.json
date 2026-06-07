@@ -1,0 +1,811 @@
+{
+  "grade": "2",
+  "gradeLabel": "Segundo grado",
+  "generatedAt": "2026-05-17T20:20:47.067Z",
+  "status": "needsReview",
+  "metrics": {
+    "materialsRegistered": 13,
+    "pdfsExisting": 13,
+    "materialsExtracted": 13,
+    "pagesExtracted": 2559,
+    "pagesNeedsReview": 188,
+    "warningsTotal": 10029,
+    "projectsCandidate": 288,
+    "projectsConfirmed": 0,
+    "conceptsCandidate": 8923,
+    "uncertainRelations": 270,
+    "publicTextLeaks": 0,
+    "projectCandidatesDetected": 144,
+    "projectsWithDetectedHorizon": 0,
+    "projectNeedsReview": 144,
+    "projectAverageConfidence": 0.8,
+    "confirmedProjects": 0,
+    "incompleteProjects": 0,
+    "readyForActivities": 0,
+    "pendingReviewProjects": 144
+  },
+  "materials": [
+    {
+      "id": "grade-2-apoyo-multiples-lenguajes-segundo-grado",
+      "title": "múltiples lenguajes segundo grado",
+      "type": "apoyo",
+      "field": "Múltiples Lenguajes",
+      "pdfExists": true,
+      "extracted": true,
+      "pagesExtracted": 160,
+      "extractionStatus": "extracted",
+      "curricularStatus": "candidate"
+    },
+    {
+      "id": "grade-2-conceptos-de-lo-humano-y-lo-comunitario-segundo-grado",
+      "title": "de lo humano y lo comunitario segundo grado",
+      "type": "conceptos",
+      "field": "De lo Humano y lo Comunitario",
+      "pdfExists": true,
+      "extracted": true,
+      "pagesExtracted": 256,
+      "extractionStatus": "extracted",
+      "curricularStatus": "candidate"
+    },
+    {
+      "id": "grade-2-conceptos-etica-naturaleza-y-sociedades-segundo-grado",
+      "title": "ética, naturaleza y sociedades segundo grado",
+      "type": "conceptos",
+      "field": "Ética, Naturaleza y Sociedades",
+      "pdfExists": true,
+      "extracted": true,
+      "pagesExtracted": 352,
+      "extractionStatus": "extracted",
+      "curricularStatus": "candidate"
+    },
+    {
+      "id": "grade-2-conceptos-lenguajes-segundo-grado",
+      "title": "lenguajes segundo grado",
+      "type": "conceptos",
+      "field": "Lenguajes",
+      "pdfExists": true,
+      "extracted": true,
+      "pagesExtracted": 320,
+      "extractionStatus": "extracted",
+      "curricularStatus": "candidate"
+    },
+    {
+      "id": "grade-2-conceptos-saberes-y-pensamiento-cientifico-segundo-grado",
+      "title": "saberes y pensamiento cientifico segundo grado",
+      "type": "conceptos",
+      "field": "Saberes y Pensamiento Científico",
+      "pdfExists": true,
+      "extracted": true,
+      "pagesExtracted": 336,
+      "extractionStatus": "extracted",
+      "curricularStatus": "candidate"
+    },
+    {
+      "id": "grade-2-ingles-ingles-segundo-grado",
+      "title": "inglés segundo grado",
+      "type": "ingles",
+      "field": "Inglés",
+      "pdfExists": true,
+      "extracted": true,
+      "pagesExtracted": 168,
+      "extractionStatus": "extracted",
+      "curricularStatus": "candidate"
+    },
+    {
+      "id": "grade-2-posibilidades-pos-dhc-2",
+      "title": "POS_DHC_2",
+      "type": "posibilidades",
+      "field": "De lo Humano y lo Comunitario",
+      "pdfExists": true,
+      "extracted": true,
+      "pagesExtracted": 22,
+      "extractionStatus": "extracted",
+      "curricularStatus": "candidate"
+    },
+    {
+      "id": "grade-2-posibilidades-pos-ens-2",
+      "title": "POS_ENS_2",
+      "type": "posibilidades",
+      "field": "Ética, Naturaleza y Sociedades",
+      "pdfExists": true,
+      "extracted": true,
+      "pagesExtracted": 32,
+      "extractionStatus": "extracted",
+      "curricularStatus": "candidate"
+    },
+    {
+      "id": "grade-2-posibilidades-pos-len-2",
+      "title": "POS_LEN_2",
+      "type": "posibilidades",
+      "field": "Lenguajes",
+      "pdfExists": true,
+      "extracted": true,
+      "pagesExtracted": 43,
+      "extractionStatus": "extracted",
+      "curricularStatus": "candidate"
+    },
+    {
+      "id": "grade-2-posibilidades-pos-sypc-2",
+      "title": "POS_SyPC_2",
+      "type": "posibilidades",
+      "field": "Saberes y Pensamiento Científico",
+      "pdfExists": true,
+      "extracted": true,
+      "pagesExtracted": 38,
+      "extractionStatus": "extracted",
+      "curricularStatus": "candidate"
+    },
+    {
+      "id": "grade-2-proyectos-nuestro-libro-de-proyectos-tomo-1-segundo-grado",
+      "title": "nuestro libro de proyectos tomo 1 segundo grado",
+      "type": "proyectos",
+      "field": "Revisar",
+      "pdfExists": true,
+      "extracted": true,
+      "pagesExtracted": 288,
+      "extractionStatus": "extracted",
+      "curricularStatus": "needsReview"
+    },
+    {
+      "id": "grade-2-proyectos-nuestro-libro-de-proyectos-tomo-2-segundo-grado",
+      "title": "nuestro libro de proyectos tomo 2 Segundo grado",
+      "type": "proyectos",
+      "field": "Revisar",
+      "pdfExists": true,
+      "extracted": true,
+      "pagesExtracted": 256,
+      "extractionStatus": "extracted",
+      "curricularStatus": "needsReview"
+    },
+    {
+      "id": "grade-2-proyectos-nuestro-libro-de-proyectos-tomo-3-segundo-grado",
+      "title": "Nuestro Libro de Proyectos Tomo 3 segundo grado",
+      "type": "proyectos",
+      "field": "Revisar",
+      "pdfExists": true,
+      "extracted": true,
+      "pagesExtracted": 288,
+      "extractionStatus": "extracted",
+      "curricularStatus": "needsReview"
+    }
+  ],
+  "warningGroups": {
+    "shortText": {
+      "label": "Texto extraido muy breve",
+      "severity": "medio",
+      "total": 65,
+      "materialsAffectedTotal": 13,
+      "materialsAffected": [
+        "grade-2-apoyo-multiples-lenguajes-segundo-grado",
+        "grade-2-conceptos-de-lo-humano-y-lo-comunitario-segundo-grado",
+        "grade-2-conceptos-etica-naturaleza-y-sociedades-segundo-grado",
+        "grade-2-conceptos-lenguajes-segundo-grado",
+        "grade-2-conceptos-saberes-y-pensamiento-cientifico-segundo-grado",
+        "grade-2-ingles-ingles-segundo-grado",
+        "grade-2-posibilidades-pos-dhc-2",
+        "grade-2-posibilidades-pos-ens-2",
+        "grade-2-posibilidades-pos-len-2",
+        "grade-2-posibilidades-pos-sypc-2",
+        "grade-2-proyectos-nuestro-libro-de-proyectos-tomo-1-segundo-grado",
+        "grade-2-proyectos-nuestro-libro-de-proyectos-tomo-2-segundo-grado",
+        "grade-2-proyectos-nuestro-libro-de-proyectos-tomo-3-segundo-grado"
+      ],
+      "examples": [
+        {
+          "materialId": "grade-2-apoyo-multiples-lenguajes-segundo-grado",
+          "pageNumber": 1,
+          "detail": "Texto extraído muy breve; revisar si hay escaneo, imagen o tabla."
+        },
+        {
+          "materialId": "grade-2-apoyo-multiples-lenguajes-segundo-grado",
+          "pageNumber": 30,
+          "detail": "Texto extraído muy breve; revisar si hay escaneo, imagen o tabla."
+        },
+        {
+          "materialId": "grade-2-apoyo-multiples-lenguajes-segundo-grado",
+          "pageNumber": 31,
+          "detail": "Texto extraído muy breve; revisar si hay escaneo, imagen o tabla."
+        },
+        {
+          "materialId": "grade-2-apoyo-multiples-lenguajes-segundo-grado",
+          "pageNumber": 32,
+          "detail": "Texto extraído muy breve; revisar si hay escaneo, imagen o tabla."
+        },
+        {
+          "materialId": "grade-2-apoyo-multiples-lenguajes-segundo-grado",
+          "pageNumber": 33,
+          "detail": "Texto extraído muy breve; revisar si hay escaneo, imagen o tabla."
+        },
+        {
+          "materialId": "grade-2-apoyo-multiples-lenguajes-segundo-grado",
+          "pageNumber": 50,
+          "detail": "Texto extraído muy breve; revisar si hay escaneo, imagen o tabla."
+        },
+        {
+          "materialId": "grade-2-apoyo-multiples-lenguajes-segundo-grado",
+          "pageNumber": 51,
+          "detail": "Texto extraído muy breve; revisar si hay escaneo, imagen o tabla."
+        },
+        {
+          "materialId": "grade-2-apoyo-multiples-lenguajes-segundo-grado",
+          "pageNumber": 52,
+          "detail": "Texto extraído muy breve; revisar si hay escaneo, imagen o tabla."
+        },
+        {
+          "materialId": "grade-2-apoyo-multiples-lenguajes-segundo-grado",
+          "pageNumber": 53,
+          "detail": "Texto extraído muy breve; revisar si hay escaneo, imagen o tabla."
+        },
+        {
+          "materialId": "grade-2-apoyo-multiples-lenguajes-segundo-grado",
+          "pageNumber": 70,
+          "detail": "Texto extraído muy breve; revisar si hay escaneo, imagen o tabla."
+        }
+      ],
+      "action": "Revisar si la pagina es escaneo, tabla, portada o contenido que requiere captura manual."
+    },
+    "emptyPage": {
+      "label": "Pagina vacia o sin texto extraible",
+      "severity": "alto",
+      "total": 10,
+      "materialsAffectedTotal": 3,
+      "materialsAffected": [
+        "grade-2-proyectos-nuestro-libro-de-proyectos-tomo-1-segundo-grado",
+        "grade-2-proyectos-nuestro-libro-de-proyectos-tomo-2-segundo-grado",
+        "grade-2-proyectos-nuestro-libro-de-proyectos-tomo-3-segundo-grado"
+      ],
+      "examples": [
+        {
+          "materialId": "grade-2-proyectos-nuestro-libro-de-proyectos-tomo-1-segundo-grado",
+          "pageNumber": 36,
+          "detail": "Página vacía o sin texto extraíble."
+        },
+        {
+          "materialId": "grade-2-proyectos-nuestro-libro-de-proyectos-tomo-1-segundo-grado",
+          "pageNumber": 108,
+          "detail": "Página vacía o sin texto extraíble."
+        },
+        {
+          "materialId": "grade-2-proyectos-nuestro-libro-de-proyectos-tomo-2-segundo-grado",
+          "pageNumber": 86,
+          "detail": "Página vacía o sin texto extraíble."
+        },
+        {
+          "materialId": "grade-2-proyectos-nuestro-libro-de-proyectos-tomo-3-segundo-grado",
+          "pageNumber": 226,
+          "detail": "Página vacía o sin texto extraíble."
+        },
+        {
+          "materialId": "grade-2-proyectos-nuestro-libro-de-proyectos-tomo-3-segundo-grado",
+          "pageNumber": 262,
+          "detail": "Página vacía o sin texto extraíble."
+        },
+        {
+          "materialId": "grade-2-proyectos-nuestro-libro-de-proyectos-tomo-1-segundo-grado",
+          "pageNumber": 36,
+          "detail": "Pagina sin texto en indice publico ligero."
+        },
+        {
+          "materialId": "grade-2-proyectos-nuestro-libro-de-proyectos-tomo-1-segundo-grado",
+          "pageNumber": 108,
+          "detail": "Pagina sin texto en indice publico ligero."
+        },
+        {
+          "materialId": "grade-2-proyectos-nuestro-libro-de-proyectos-tomo-2-segundo-grado",
+          "pageNumber": 86,
+          "detail": "Pagina sin texto en indice publico ligero."
+        },
+        {
+          "materialId": "grade-2-proyectos-nuestro-libro-de-proyectos-tomo-3-segundo-grado",
+          "pageNumber": 226,
+          "detail": "Pagina sin texto en indice publico ligero."
+        },
+        {
+          "materialId": "grade-2-proyectos-nuestro-libro-de-proyectos-tomo-3-segundo-grado",
+          "pageNumber": 262,
+          "detail": "Pagina sin texto en indice publico ligero."
+        }
+      ],
+      "action": "Verificar el PDF fuente y decidir si la pagina debe transcribirse, ignorarse o sustituirse por referencia manual."
+    },
+    "complexTable": {
+      "label": "Tabla compleja",
+      "severity": "alto",
+      "total": 241,
+      "materialsAffectedTotal": 13,
+      "materialsAffected": [
+        "grade-2-apoyo-multiples-lenguajes-segundo-grado",
+        "grade-2-conceptos-de-lo-humano-y-lo-comunitario-segundo-grado",
+        "grade-2-conceptos-etica-naturaleza-y-sociedades-segundo-grado",
+        "grade-2-conceptos-lenguajes-segundo-grado",
+        "grade-2-conceptos-saberes-y-pensamiento-cientifico-segundo-grado",
+        "grade-2-ingles-ingles-segundo-grado",
+        "grade-2-posibilidades-pos-dhc-2",
+        "grade-2-posibilidades-pos-ens-2",
+        "grade-2-posibilidades-pos-len-2",
+        "grade-2-posibilidades-pos-sypc-2",
+        "grade-2-proyectos-nuestro-libro-de-proyectos-tomo-1-segundo-grado",
+        "grade-2-proyectos-nuestro-libro-de-proyectos-tomo-2-segundo-grado",
+        "grade-2-proyectos-nuestro-libro-de-proyectos-tomo-3-segundo-grado"
+      ],
+      "examples": [
+        {
+          "materialId": "grade-2-apoyo-multiples-lenguajes-segundo-grado",
+          "pageNumber": 1,
+          "detail": "Texto extraído muy breve; revisar si hay escaneo, imagen o tabla."
+        },
+        {
+          "materialId": "grade-2-apoyo-multiples-lenguajes-segundo-grado",
+          "pageNumber": 30,
+          "detail": "Texto extraído muy breve; revisar si hay escaneo, imagen o tabla."
+        },
+        {
+          "materialId": "grade-2-apoyo-multiples-lenguajes-segundo-grado",
+          "pageNumber": 31,
+          "detail": "Texto extraído muy breve; revisar si hay escaneo, imagen o tabla."
+        },
+        {
+          "materialId": "grade-2-apoyo-multiples-lenguajes-segundo-grado",
+          "pageNumber": 32,
+          "detail": "Texto extraído muy breve; revisar si hay escaneo, imagen o tabla."
+        },
+        {
+          "materialId": "grade-2-apoyo-multiples-lenguajes-segundo-grado",
+          "pageNumber": 33,
+          "detail": "Texto extraído muy breve; revisar si hay escaneo, imagen o tabla."
+        },
+        {
+          "materialId": "grade-2-apoyo-multiples-lenguajes-segundo-grado",
+          "pageNumber": 50,
+          "detail": "Texto extraído muy breve; revisar si hay escaneo, imagen o tabla."
+        },
+        {
+          "materialId": "grade-2-apoyo-multiples-lenguajes-segundo-grado",
+          "pageNumber": 51,
+          "detail": "Texto extraído muy breve; revisar si hay escaneo, imagen o tabla."
+        },
+        {
+          "materialId": "grade-2-apoyo-multiples-lenguajes-segundo-grado",
+          "pageNumber": 52,
+          "detail": "Texto extraído muy breve; revisar si hay escaneo, imagen o tabla."
+        },
+        {
+          "materialId": "grade-2-apoyo-multiples-lenguajes-segundo-grado",
+          "pageNumber": 53,
+          "detail": "Texto extraído muy breve; revisar si hay escaneo, imagen o tabla."
+        },
+        {
+          "materialId": "grade-2-apoyo-multiples-lenguajes-segundo-grado",
+          "pageNumber": 70,
+          "detail": "Texto extraído muy breve; revisar si hay escaneo, imagen o tabla."
+        }
+      ],
+      "action": "Revisar manualmente la tabla antes de asociar proyectos, paginas o campos formativos."
+    },
+    "multipleColumns": {
+      "label": "Columnas multiples",
+      "severity": "alto",
+      "total": 176,
+      "materialsAffectedTotal": 4,
+      "materialsAffected": [
+        "grade-2-posibilidades-pos-dhc-2",
+        "grade-2-posibilidades-pos-ens-2",
+        "grade-2-posibilidades-pos-len-2",
+        "grade-2-posibilidades-pos-sypc-2"
+      ],
+      "examples": [
+        {
+          "materialId": "grade-2-posibilidades-pos-dhc-2",
+          "pageNumber": 2,
+          "detail": "Posible tabla compleja o columnas múltiples en Posibilidades de uso; no asociar páginas sin revisión."
+        },
+        {
+          "materialId": "grade-2-posibilidades-pos-dhc-2",
+          "pageNumber": 3,
+          "detail": "Posible tabla compleja o columnas múltiples en Posibilidades de uso; no asociar páginas sin revisión."
+        },
+        {
+          "materialId": "grade-2-posibilidades-pos-dhc-2",
+          "pageNumber": 3,
+          "detail": "Contenido tabular curricular detectado; verificar columnas y relación con Proyecto Académico."
+        },
+        {
+          "materialId": "grade-2-posibilidades-pos-dhc-2",
+          "pageNumber": 4,
+          "detail": "Posible tabla compleja o columnas múltiples en Posibilidades de uso; no asociar páginas sin revisión."
+        },
+        {
+          "materialId": "grade-2-posibilidades-pos-dhc-2",
+          "pageNumber": 4,
+          "detail": "Contenido tabular curricular detectado; verificar columnas y relación con Proyecto Académico."
+        },
+        {
+          "materialId": "grade-2-posibilidades-pos-dhc-2",
+          "pageNumber": 6,
+          "detail": "Posible tabla compleja o columnas múltiples en Posibilidades de uso; no asociar páginas sin revisión."
+        },
+        {
+          "materialId": "grade-2-posibilidades-pos-dhc-2",
+          "pageNumber": 6,
+          "detail": "Contenido tabular curricular detectado; verificar columnas y relación con Proyecto Académico."
+        },
+        {
+          "materialId": "grade-2-posibilidades-pos-dhc-2",
+          "pageNumber": 7,
+          "detail": "Posible tabla compleja o columnas múltiples en Posibilidades de uso; no asociar páginas sin revisión."
+        },
+        {
+          "materialId": "grade-2-posibilidades-pos-dhc-2",
+          "pageNumber": 8,
+          "detail": "Posible tabla compleja o columnas múltiples en Posibilidades de uso; no asociar páginas sin revisión."
+        },
+        {
+          "materialId": "grade-2-posibilidades-pos-dhc-2",
+          "pageNumber": 8,
+          "detail": "Contenido tabular curricular detectado; verificar columnas y relación con Proyecto Académico."
+        }
+      ],
+      "action": "Confirmar la columna correcta antes de construir relaciones curriculares."
+    },
+    "continuation": {
+      "label": "Continuacion 1 de 2 / 2 de 2",
+      "severity": "alto",
+      "total": 55,
+      "materialsAffectedTotal": 3,
+      "materialsAffected": [
+        "grade-2-posibilidades-pos-dhc-2",
+        "grade-2-posibilidades-pos-ens-2",
+        "grade-2-posibilidades-pos-len-2"
+      ],
+      "examples": [
+        {
+          "materialId": "grade-2-posibilidades-pos-dhc-2",
+          "pageNumber": 6,
+          "detail": "Continuación detectada tipo 1 de 2 / 2 de 2; requiere revisión humana."
+        },
+        {
+          "materialId": "grade-2-posibilidades-pos-dhc-2",
+          "pageNumber": 7,
+          "detail": "Continuación detectada tipo 1 de 2 / 2 de 2; requiere revisión humana."
+        },
+        {
+          "materialId": "grade-2-posibilidades-pos-dhc-2",
+          "pageNumber": 8,
+          "detail": "Continuación detectada tipo 1 de 2 / 2 de 2; requiere revisión humana."
+        },
+        {
+          "materialId": "grade-2-posibilidades-pos-dhc-2",
+          "pageNumber": 9,
+          "detail": "Continuación detectada tipo 1 de 2 / 2 de 2; requiere revisión humana."
+        },
+        {
+          "materialId": "grade-2-posibilidades-pos-dhc-2",
+          "pageNumber": 11,
+          "detail": "Continuación detectada tipo 1 de 2 / 2 de 2; requiere revisión humana."
+        },
+        {
+          "materialId": "grade-2-posibilidades-pos-dhc-2",
+          "pageNumber": 12,
+          "detail": "Continuación detectada tipo 1 de 2 / 2 de 2; requiere revisión humana."
+        },
+        {
+          "materialId": "grade-2-posibilidades-pos-dhc-2",
+          "pageNumber": 13,
+          "detail": "Continuación detectada tipo 1 de 2 / 2 de 2; requiere revisión humana."
+        },
+        {
+          "materialId": "grade-2-posibilidades-pos-dhc-2",
+          "pageNumber": 14,
+          "detail": "Continuación detectada tipo 1 de 2 / 2 de 2; requiere revisión humana."
+        },
+        {
+          "materialId": "grade-2-posibilidades-pos-dhc-2",
+          "pageNumber": 16,
+          "detail": "Continuación detectada tipo 1 de 2 / 2 de 2; requiere revisión humana."
+        },
+        {
+          "materialId": "grade-2-posibilidades-pos-dhc-2",
+          "pageNumber": 17,
+          "detail": "Continuación detectada tipo 1 de 2 / 2 de 2; requiere revisión humana."
+        }
+      ],
+      "action": "Unir la lectura de las paginas relacionadas y confirmar que la relacion curricular no quedo partida."
+    },
+    "uncertainRelation": {
+      "label": "Relacion dudosa desde Posibilidades de uso",
+      "severity": "alto",
+      "total": 270,
+      "materialsAffectedTotal": 4,
+      "materialsAffected": [
+        "grade-2-posibilidades-pos-dhc-2",
+        "grade-2-posibilidades-pos-ens-2",
+        "grade-2-posibilidades-pos-len-2",
+        "grade-2-posibilidades-pos-sypc-2"
+      ],
+      "examples": [
+        {
+          "materialId": "grade-2-posibilidades-pos-dhc-2",
+          "pageNumber": 1,
+          "detail": "Posibilidades de uso puede contener tablas complejas o columnas múltiples. No se asocian páginas sin revisión humana."
+        },
+        {
+          "materialId": "grade-2-posibilidades-pos-dhc-2",
+          "pageNumber": 2,
+          "detail": "Posibilidades de uso puede contener tablas complejas o columnas múltiples. No se asocian páginas sin revisión humana."
+        },
+        {
+          "materialId": "grade-2-posibilidades-pos-dhc-2",
+          "pageNumber": 3,
+          "detail": "Posibilidades de uso puede contener tablas complejas o columnas múltiples. No se asocian páginas sin revisión humana."
+        },
+        {
+          "materialId": "grade-2-posibilidades-pos-dhc-2",
+          "pageNumber": 4,
+          "detail": "Posibilidades de uso puede contener tablas complejas o columnas múltiples. No se asocian páginas sin revisión humana."
+        },
+        {
+          "materialId": "grade-2-posibilidades-pos-dhc-2",
+          "pageNumber": 5,
+          "detail": "Posibilidades de uso puede contener tablas complejas o columnas múltiples. No se asocian páginas sin revisión humana."
+        },
+        {
+          "materialId": "grade-2-posibilidades-pos-dhc-2",
+          "pageNumber": 6,
+          "detail": "Posibilidades de uso puede contener tablas complejas o columnas múltiples. No se asocian páginas sin revisión humana."
+        },
+        {
+          "materialId": "grade-2-posibilidades-pos-dhc-2",
+          "pageNumber": 7,
+          "detail": "Posibilidades de uso puede contener tablas complejas o columnas múltiples. No se asocian páginas sin revisión humana."
+        },
+        {
+          "materialId": "grade-2-posibilidades-pos-dhc-2",
+          "pageNumber": 8,
+          "detail": "Posibilidades de uso puede contener tablas complejas o columnas múltiples. No se asocian páginas sin revisión humana."
+        },
+        {
+          "materialId": "grade-2-posibilidades-pos-dhc-2",
+          "pageNumber": 9,
+          "detail": "Posibilidades de uso puede contener tablas complejas o columnas múltiples. No se asocian páginas sin revisión humana."
+        },
+        {
+          "materialId": "grade-2-posibilidades-pos-dhc-2",
+          "pageNumber": 10,
+          "detail": "Posibilidades de uso puede contener tablas complejas o columnas múltiples. No se asocian páginas sin revisión humana."
+        }
+      ],
+      "action": "Validar PPA, Proyecto Academico y paginas fuente en el documento original."
+    },
+    "missingHorizon": {
+      "label": "Horizonte no confirmado",
+      "severity": "alto",
+      "total": 288,
+      "materialsAffectedTotal": 288,
+      "materialsAffected": [
+        "grade-2-proyectos-nuestro-libro-de-proyectos-tomo-1-segundo-grado-p7-0",
+        "grade-2-proyectos-nuestro-libro-de-proyectos-tomo-1-segundo-grado-p7-1",
+        "grade-2-proyectos-nuestro-libro-de-proyectos-tomo-1-segundo-grado-p7-2",
+        "grade-2-proyectos-nuestro-libro-de-proyectos-tomo-1-segundo-grado-p7-3",
+        "grade-2-proyectos-nuestro-libro-de-proyectos-tomo-1-segundo-grado-p7-4",
+        "grade-2-proyectos-nuestro-libro-de-proyectos-tomo-1-segundo-grado-p7-5",
+        "grade-2-proyectos-nuestro-libro-de-proyectos-tomo-1-segundo-grado-p7-6",
+        "grade-2-proyectos-nuestro-libro-de-proyectos-tomo-1-segundo-grado-p7-7",
+        "grade-2-proyectos-nuestro-libro-de-proyectos-tomo-1-segundo-grado-p7-8",
+        "grade-2-proyectos-nuestro-libro-de-proyectos-tomo-1-segundo-grado-p7-9",
+        "grade-2-proyectos-nuestro-libro-de-proyectos-tomo-1-segundo-grado-p7-10",
+        "grade-2-proyectos-nuestro-libro-de-proyectos-tomo-1-segundo-grado-p7-11",
+        "grade-2-proyectos-nuestro-libro-de-proyectos-tomo-1-segundo-grado-p7-12",
+        "grade-2-proyectos-nuestro-libro-de-proyectos-tomo-1-segundo-grado-p8-0",
+        "grade-2-proyectos-nuestro-libro-de-proyectos-tomo-1-segundo-grado-p8-1",
+        "grade-2-proyectos-nuestro-libro-de-proyectos-tomo-1-segundo-grado-p8-2",
+        "grade-2-proyectos-nuestro-libro-de-proyectos-tomo-1-segundo-grado-p8-3",
+        "grade-2-proyectos-nuestro-libro-de-proyectos-tomo-1-segundo-grado-p8-4",
+        "grade-2-proyectos-nuestro-libro-de-proyectos-tomo-1-segundo-grado-p8-5",
+        "grade-2-proyectos-nuestro-libro-de-proyectos-tomo-1-segundo-grado-p8-6",
+        "grade-2-proyectos-nuestro-libro-de-proyectos-tomo-1-segundo-grado-p8-7",
+        "grade-2-proyectos-nuestro-libro-de-proyectos-tomo-1-segundo-grado-p8-8",
+        "grade-2-proyectos-nuestro-libro-de-proyectos-tomo-1-segundo-grado-p8-9",
+        "grade-2-proyectos-nuestro-libro-de-proyectos-tomo-1-segundo-grado-p8-10",
+        "grade-2-proyectos-nuestro-libro-de-proyectos-tomo-1-segundo-grado-p8-11"
+      ],
+      "examples": [
+        {
+          "materialId": "grade-2-proyectos-nuestro-libro-de-proyectos-tomo-1-segundo-grado-p7-0",
+          "pageNumber": null,
+          "detail": "Proyecto candidato sin horizonte confirmado."
+        },
+        {
+          "materialId": "grade-2-proyectos-nuestro-libro-de-proyectos-tomo-1-segundo-grado-p7-1",
+          "pageNumber": null,
+          "detail": "Proyecto candidato sin horizonte confirmado."
+        },
+        {
+          "materialId": "grade-2-proyectos-nuestro-libro-de-proyectos-tomo-1-segundo-grado-p7-2",
+          "pageNumber": null,
+          "detail": "Proyecto candidato sin horizonte confirmado."
+        },
+        {
+          "materialId": "grade-2-proyectos-nuestro-libro-de-proyectos-tomo-1-segundo-grado-p7-3",
+          "pageNumber": null,
+          "detail": "Proyecto candidato sin horizonte confirmado."
+        },
+        {
+          "materialId": "grade-2-proyectos-nuestro-libro-de-proyectos-tomo-1-segundo-grado-p7-4",
+          "pageNumber": null,
+          "detail": "Proyecto candidato sin horizonte confirmado."
+        },
+        {
+          "materialId": "grade-2-proyectos-nuestro-libro-de-proyectos-tomo-1-segundo-grado-p7-5",
+          "pageNumber": null,
+          "detail": "Proyecto candidato sin horizonte confirmado."
+        },
+        {
+          "materialId": "grade-2-proyectos-nuestro-libro-de-proyectos-tomo-1-segundo-grado-p7-6",
+          "pageNumber": null,
+          "detail": "Proyecto candidato sin horizonte confirmado."
+        },
+        {
+          "materialId": "grade-2-proyectos-nuestro-libro-de-proyectos-tomo-1-segundo-grado-p7-7",
+          "pageNumber": null,
+          "detail": "Proyecto candidato sin horizonte confirmado."
+        },
+        {
+          "materialId": "grade-2-proyectos-nuestro-libro-de-proyectos-tomo-1-segundo-grado-p7-8",
+          "pageNumber": null,
+          "detail": "Proyecto candidato sin horizonte confirmado."
+        },
+        {
+          "materialId": "grade-2-proyectos-nuestro-libro-de-proyectos-tomo-1-segundo-grado-p7-9",
+          "pageNumber": null,
+          "detail": "Proyecto candidato sin horizonte confirmado."
+        }
+      ],
+      "action": "Localizar el horizonte de expectativas en Nuestro libro de proyectos y capturarlo mediante override manual."
+    },
+    "candidateConcept": {
+      "label": "Concepto candidato no validado",
+      "severity": "medio",
+      "total": 8923,
+      "materialsAffectedTotal": 8918,
+      "materialsAffected": [
+        "grade-2-conceptos-de-lo-humano-y-lo-comunitario-segundo-grado-p1-colección",
+        "grade-2-conceptos-de-lo-humano-y-lo-comunitario-segundo-grado-p2-colección",
+        "grade-2-conceptos-de-lo-humano-y-lo-comunitario-segundo-grado-p2-segundo-grado",
+        "grade-2-conceptos-de-lo-humano-y-lo-comunitario-segundo-grado-p2-dirección",
+        "grade-2-conceptos-de-lo-humano-y-lo-comunitario-segundo-grado-p2-general",
+        "grade-2-conceptos-de-lo-humano-y-lo-comunitario-segundo-grado-p2-materiales",
+        "grade-2-conceptos-de-lo-humano-y-lo-comunitario-segundo-grado-p2-educativos",
+        "grade-2-conceptos-de-lo-humano-y-lo-comunitario-segundo-grado-p2-secretaría",
+        "grade-2-conceptos-de-lo-humano-y-lo-comunitario-segundo-grado-p2-educación",
+        "grade-2-conceptos-de-lo-humano-y-lo-comunitario-segundo-grado-p2-pública",
+        "grade-2-conceptos-de-lo-humano-y-lo-comunitario-segundo-grado-p2-leticia",
+        "grade-2-conceptos-de-lo-humano-y-lo-comunitario-segundo-grado-p2-ramírez",
+        "grade-2-conceptos-de-lo-humano-y-lo-comunitario-segundo-grado-p2-amaya",
+        "grade-2-conceptos-de-lo-humano-y-lo-comunitario-segundo-grado-p3-presentación",
+        "grade-2-conceptos-de-lo-humano-y-lo-comunitario-segundo-grado-p3-estimadas-maestras",
+        "grade-2-conceptos-de-lo-humano-y-lo-comunitario-segundo-grado-p3-educación",
+        "grade-2-conceptos-de-lo-humano-y-lo-comunitario-segundo-grado-p3-pública",
+        "grade-2-conceptos-de-lo-humano-y-lo-comunitario-segundo-grado-p3-nueva",
+        "grade-2-conceptos-de-lo-humano-y-lo-comunitario-segundo-grado-p3-escuela",
+        "grade-2-conceptos-de-lo-humano-y-lo-comunitario-segundo-grado-p3-mexicana",
+        "grade-2-conceptos-de-lo-humano-y-lo-comunitario-segundo-grado-p3-desde",
+        "grade-2-conceptos-de-lo-humano-y-lo-comunitario-segundo-grado-p3-educar",
+        "grade-2-conceptos-de-lo-humano-y-lo-comunitario-segundo-grado-p3-estévez",
+        "grade-2-conceptos-de-lo-humano-y-lo-comunitario-segundo-grado-p3-sostener",
+        "grade-2-conceptos-de-lo-humano-y-lo-comunitario-segundo-grado-p3-enseñar"
+      ],
+      "examples": [
+        {
+          "materialId": "grade-2-conceptos-de-lo-humano-y-lo-comunitario-segundo-grado-p1-colección",
+          "pageNumber": null,
+          "detail": "Concepto candidato requiere validacion humana."
+        },
+        {
+          "materialId": "grade-2-conceptos-de-lo-humano-y-lo-comunitario-segundo-grado-p2-colección",
+          "pageNumber": null,
+          "detail": "Concepto candidato requiere validacion humana."
+        },
+        {
+          "materialId": "grade-2-conceptos-de-lo-humano-y-lo-comunitario-segundo-grado-p2-segundo-grado",
+          "pageNumber": null,
+          "detail": "Concepto candidato requiere validacion humana."
+        },
+        {
+          "materialId": "grade-2-conceptos-de-lo-humano-y-lo-comunitario-segundo-grado-p2-dirección",
+          "pageNumber": null,
+          "detail": "Concepto candidato requiere validacion humana."
+        },
+        {
+          "materialId": "grade-2-conceptos-de-lo-humano-y-lo-comunitario-segundo-grado-p2-general",
+          "pageNumber": null,
+          "detail": "Concepto candidato requiere validacion humana."
+        },
+        {
+          "materialId": "grade-2-conceptos-de-lo-humano-y-lo-comunitario-segundo-grado-p2-materiales",
+          "pageNumber": null,
+          "detail": "Concepto candidato requiere validacion humana."
+        },
+        {
+          "materialId": "grade-2-conceptos-de-lo-humano-y-lo-comunitario-segundo-grado-p2-educativos",
+          "pageNumber": null,
+          "detail": "Concepto candidato requiere validacion humana."
+        },
+        {
+          "materialId": "grade-2-conceptos-de-lo-humano-y-lo-comunitario-segundo-grado-p2-secretaría",
+          "pageNumber": null,
+          "detail": "Concepto candidato requiere validacion humana."
+        },
+        {
+          "materialId": "grade-2-conceptos-de-lo-humano-y-lo-comunitario-segundo-grado-p2-educación",
+          "pageNumber": null,
+          "detail": "Concepto candidato requiere validacion humana."
+        },
+        {
+          "materialId": "grade-2-conceptos-de-lo-humano-y-lo-comunitario-segundo-grado-p2-pública",
+          "pageNumber": null,
+          "detail": "Concepto candidato requiere validacion humana."
+        }
+      ],
+      "action": "Confirmar termino, pagina fuente, definicion breve y relacion con el proyecto antes de usarlo como dato curricular."
+    },
+    "publicTextLeak": {
+      "label": "Fuga de texto completo en JSON publico",
+      "severity": "alto",
+      "total": 0,
+      "materialsAffectedTotal": 0,
+      "materialsAffected": [],
+      "examples": [],
+      "action": "Regenerar indices publicos ligeros y retirar campos text o cadenas largas del area public."
+    },
+    "missingPdf": {
+      "label": "PDF faltante",
+      "severity": "alto",
+      "total": 0,
+      "materialsAffectedTotal": 0,
+      "materialsAffected": [],
+      "examples": [],
+      "action": "Colocar el PDF en la ruta declarada o corregir materials-manifest.json."
+    },
+    "invalidType": {
+      "label": "Tipo de material no permitido",
+      "severity": "medio",
+      "total": 0,
+      "materialsAffectedTotal": 0,
+      "materialsAffected": [],
+      "examples": [],
+      "action": "Ajustar el tipo en el manifiesto usando el catalogo permitido."
+    },
+    "missingStrategyUrl": {
+      "label": "Estrategia detonadora sin enlace validado",
+      "severity": "medio",
+      "total": 1,
+      "materialsAffectedTotal": 1,
+      "materialsAffected": [
+        "grade-2-apoyo-multiples-lenguajes-segundo-grado"
+      ],
+      "examples": [
+        {
+          "materialId": "grade-2-apoyo-multiples-lenguajes-segundo-grado",
+          "pageNumber": null,
+          "detail": "Estrategia o apoyo sin enlace validado."
+        }
+      ],
+      "action": "Agregar enlace real despues de verificar la estrategia correspondiente."
+    }
+  },
+  "projectDetection": {
+    "generatedAt": "2026-05-17T20:28:45.898Z",
+    "candidatesDetected": 144,
+    "candidatesWithHorizon": 0,
+    "confirmedProjects": 0,
+    "needsReview": 144,
+    "averageConfidence": 0.8
+  },
+  "manualConfirmation": {
+    "generatedAt": "2026-05-17T20:34:33.709Z",
+    "confirmedProjects": 0,
+    "incompleteProjects": 0,
+    "readyForActivities": 0,
+    "pendingReviewProjects": 144
+  }
+}

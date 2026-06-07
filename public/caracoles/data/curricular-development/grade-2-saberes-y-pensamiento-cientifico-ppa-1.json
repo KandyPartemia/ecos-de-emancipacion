@@ -1,0 +1,1274 @@
+{
+  "grade": "2",
+  "gradeLabel": "Segundo grado",
+  "field": "Saberes y Pensamiento Científico",
+  "ppaNumber": "1",
+  "partialClassroomProject": "PPA 1",
+  "partialClassroomProjectTitle": "Yo también puedo generar conocimiento científico",
+  "source": "curricular-development-pilot",
+  "generatedAt": "2026-06-04T15:51:06.461Z",
+  "development": {
+    "grade": "2",
+    "gradeLabel": "Segundo grado",
+    "field": "Saberes y Pensamiento Científico",
+    "bookVolume": "Tomo I",
+    "partialClassroomProject": "PPA 1",
+    "partialClassroomProjectTitle": "Yo también puedo generar conocimiento científico",
+    "generatedAt": "2026-06-02T18:08:11.398Z",
+    "notes": "Capa curricular generada por lote para 2o Saberes y Pensamiento Científico, PPA 1.",
+    "sourcesUsed": [
+      "public/caracoles/data/generated/grade-2/selectable-projects.json",
+      "content/caracoles/generated-private/grade-2/pages-index.full.json",
+      "Posibilidades de uso SyPC, segundo grado, pp. 6-7",
+      "Nuestro libro de proyectos Tomo I, segundo grado, pp. 109-124",
+      "Saberes y Pensamiento Científico, segundo grado, pp. 80-105 y 152-161; Múltiples Lenguajes pp. 68, 110 y 128."
+    ],
+    "partialClassroomProjectContext": {
+      "expectationHorizon": {
+        "officialText": "",
+        "sourcePages": [
+          "Nuestro libro de proyectos Tomo I pp. 109-110",
+          "Posibilidades de uso SyPC pp. 6-7"
+        ],
+        "evidence": "El PPA 1 pone en relación gráficas, análisis de tendencias y probabilidad para que el grupo lea información de la comunidad, la convierta en conocimiento comunicable y dialogue sobre equidad desde evidencia.",
+        "status": "pending"
+      },
+      "ppaDetonatingStrategy": {
+        "title": "Yo también puedo generar conocimiento científico",
+        "type": "video",
+        "url": "",
+        "urlStatus": "pending-url",
+        "reference": "bit.ly/3VfglUk",
+        "source": "Nuestro libro de proyectos Tomo I pp. 109-110 + Posibilidades de uso SyPC pp. 6-7",
+        "scope": "partial-classroom-project",
+        "youtubeSearchQuery": "Yo también puedo generar conocimiento científico Saberes y Pensamiento Científico 2do grado Telesecundaria"
+      },
+      "ppaDigitalResource": {
+        "title": "Recurso informatico del bloque PPA 1",
+        "reference": "bit.ly/3WQBMwg",
+        "status": "pending-validation",
+        "source": "Nuestro libro de proyectos Tomo I pp. 109-124"
+      },
+      "validationStatus": {
+        "needsHumanReview": true,
+        "needsReviewReasons": [
+          "Las pp. 6-7 de Posibilidades pertenecen al mismo PPA 1.",
+          "La asignacion de apoyos por columna se fija por inferencia curricular documentada de izquierda a derecha.",
+          "Los enlaces cortos del video del PPA y del recurso informatico se mantienen en cautela hasta localizar un destino oficial confirmado.",
+          "Los apoyos de Múltiples Lenguajes del bloque se conservan sólo cuando ayudan claramente al sentido del proyecto; el resto queda en cautela para no mezclar columnas."
+        ]
+      },
+      "columnValidation": {
+        "possibilitiesPagesReviewed": [
+          6,
+          7
+        ],
+        "confirmedAsPpa": true,
+        "note": "Las pp. 6-7 corresponden al PPA 1 Yo también puedo generar conocimiento científico. Las tres columnas se sostienen por el orden de proyectos, productos y apoyos del mismo bloque.",
+        "columns": [
+          {
+            "columnIndex": 1,
+            "projectId": "saberes-y-pensamiento-cientifico-2-ppa-1-pa1",
+            "projectTitle": "Nuestra comunidad en gráficas",
+            "finalProduct": "Gráficas de la comunidad",
+            "supportMaterials": []
+          },
+          {
+            "columnIndex": 2,
+            "projectId": "saberes-y-pensamiento-cientifico-2-ppa-1-pa2",
+            "projectTitle": "La ciencia y sus cálculos",
+            "finalProduct": "Artículo informativo",
+            "supportMaterials": []
+          },
+          {
+            "columnIndex": 3,
+            "projectId": "saberes-y-pensamiento-cientifico-2-ppa-1-pa3",
+            "projectTitle": "Equidad de género en gráficas",
+            "finalProduct": "Colección de datos",
+            "supportMaterials": [
+              "Matilde, la primera médica mexicana, p. 128"
+            ]
+          }
+        ]
+      }
+    },
+    "academicProjects": [
+      {
+        "id": "saberes-y-pensamiento-cientifico-2-ppa-1-pa1",
+        "projectId": "saberes-y-pensamiento-cientifico-2-ppa-1-pa1",
+        "academicProjectNumber": 1,
+        "title": "Nuestra comunidad en gráficas",
+        "projectTitle": "Nuestra comunidad en gráficas",
+        "grade": "2",
+        "field": "Saberes y Pensamiento Científico",
+        "ppaNumber": "1",
+        "partialClassroomProject": "PPA 1",
+        "partialClassroomProjectTitle": "Yo también puedo generar conocimiento científico",
+        "bookVolume": "Tomo I",
+        "sourceValidation": {
+          "sourceStatus": "linked",
+          "possibilitiesPages": [
+            6,
+            7
+          ],
+          "possibilitiesMaterialId": "grade-2-posibilidades-pos-sypc-2",
+          "possibilitiesColumnIndex": 1,
+          "columnEvidence": "Bloque PPA 1 Yo también puedo generar conocimiento científico localizado en pp. 6-7; la columna 1 se confirma por el orden de proyectos, productos y continuidad del mismo bloque."
+        },
+        "finalProduct": {
+          "title": "Gráficas de la comunidad",
+          "source": "Posibilidades de uso SyPC pp. 6-7 + Nuestro libro de proyectos Tomo I pp. 111-115",
+          "status": "confirmed"
+        },
+        "sourcePages": {
+          "nuestroLibroProyectos": [
+            {
+              "materialId": "grade-2-proyectos-nuestro-libro-de-proyectos-tomo-1-segundo-grado",
+              "label": "Nuestro libro de proyectos Tomo I",
+              "startPage": 111,
+              "endPage": 115,
+              "pagesLabel": "pp. 111-115",
+              "topicTitle": "Proyecto academico 1",
+              "status": "confirmed-source"
+            }
+          ],
+          "conceptBook": [
+            {
+              "materialId": "grade-2-conceptos-saberes-y-pensamiento-cientifico-segundo-grado",
+              "label": "Saberes y Pensamiento Científico",
+              "startPage": 80,
+              "endPage": 84,
+              "pagesLabel": "pp. 80-84",
+              "topicTitle": "Recolección, registro, análisis y comunicación de datos",
+              "status": "confirmed-by-column-inference"
+            },
+            {
+              "materialId": "grade-2-conceptos-saberes-y-pensamiento-cientifico-segundo-grado",
+              "label": "Saberes y Pensamiento Científico",
+              "startPage": 85,
+              "endPage": 91,
+              "pagesLabel": "pp. 85-91",
+              "topicTitle": "Medidas de tendencia central y de dispersión",
+              "status": "confirmed-by-column-inference"
+            }
+          ],
+          "multiplesLenguajes": [],
+          "otherMaterials": [
+            {
+              "label": "Video PA 1: Gráficas de la comunidad • Saberes y pensamiento científico • 2do grado",
+              "reference": "https://www.youtube.com/watch?v=hYM6zpkCtos",
+              "status": "confirmed"
+            },
+            {
+              "label": "Video PPA 1: 1. Yo también puedo generar conocimiento científico • Saberes y pensamiento científico• 2do grado",
+              "reference": "https://www.youtube.com/watch?v=QI6b2BcTpRc",
+              "status": "confirmed"
+            }
+          ]
+        },
+        "supportMaterials": [],
+        "horizonOrPurpose": {
+          "status": "pending",
+          "text": "",
+          "source": "Nuestro libro de proyectos Tomo I p. 111"
+        },
+        "projectExpectationHorizon": {
+          "officialText": "",
+          "studentVersion": "",
+          "sourcePages": [
+            "Nuestro libro de proyectos Tomo I p. 111"
+          ],
+          "evidence": "El proyecto ya cuenta con producto, conceptos y articulacion pedagogica, pero el horizonte textual exacto sigue pendiente de confirmacion literal.",
+          "status": "pending"
+        },
+        "detonatingStrategy": {
+          "title": "1. Yo también puedo generar conocimiento científico • Saberes y pensamiento científico• 2do grado",
+          "text": "Video del Proyecto Parcial de Aula 1: 1. Yo también puedo generar conocimiento científico • Saberes y pensamiento científico• 2do grado",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=QI6b2BcTpRc",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "partial-classroom-project"
+        },
+        "academicProjectStrategy": {
+          "title": "Gráficas de la comunidad • Saberes y pensamiento científico • 2do grado",
+          "text": "Video detonador del Proyecto Academico 1: Nuestra comunidad en gráficas",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=hYM6zpkCtos",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "academic-project"
+        },
+        "academicConcepts": [
+          {
+            "concept": "gráficas de la comunidad",
+            "description": "Gráficas de la comunidad como producto de cierre para organizar y comunicar aprendizajes del proyecto.",
+            "sourceBook": "Nuestro libro de proyectos Tomo I",
+            "sourcePages": [
+              111,
+              115
+            ],
+            "sourcePagesLabel": "pp. 111-115",
+            "topicTitle": "Proyecto academico 1",
+            "status": "confirmed",
+            "reason": "Posibilidades y el propio proyecto fijan Gráficas de la comunidad como producto final del PA 1.",
+            "pedagogicalUse": "Da una forma concreta de socializar lo comprendido sobre la recolección, registro y comunicación de datos del entorno mediante gráficas y medidas de tendencia central.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "recolección de datos",
+            "description": "Recolección de datos es una idea clave para comprender la recolección, registro y comunicación de datos del entorno mediante gráficas y medidas de tendencia central.",
+            "sourceBook": "Saberes y Pensamiento Científico",
+            "sourcePages": [
+              80,
+              84
+            ],
+            "sourcePagesLabel": "pp. 80-84",
+            "topicTitle": "Recolección, registro, análisis y comunicación de datos",
+            "status": "confirmed",
+            "reason": "La fuente validada \"Recolección, registro, análisis y comunicación de datos\" aporta base suficiente para trabajar recolección de datos dentro del proyecto 1.",
+            "pedagogicalUse": "Ayuda a fortalecer gráficas de la comunidad y a explicar la recolección, registro y comunicación de datos del entorno mediante gráficas y medidas de tendencia central con mayor claridad mediante recolección de datos.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "registro de información",
+            "description": "Registro de información es una idea clave para comprender la recolección, registro y comunicación de datos del entorno mediante gráficas y medidas de tendencia central.",
+            "sourceBook": "Saberes y Pensamiento Científico",
+            "sourcePages": [
+              80,
+              84
+            ],
+            "sourcePagesLabel": "pp. 80-84",
+            "topicTitle": "Recolección, registro, análisis y comunicación de datos",
+            "status": "confirmed",
+            "reason": "La fuente validada \"Recolección, registro, análisis y comunicación de datos\" aporta base suficiente para trabajar registro de información dentro del proyecto 1.",
+            "pedagogicalUse": "Ayuda a fortalecer gráficas de la comunidad y a explicar la recolección, registro y comunicación de datos del entorno mediante gráficas y medidas de tendencia central con mayor claridad mediante registro de información.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "comunicación de datos",
+            "description": "Comunicación de datos es una idea clave para comprender la recolección, registro y comunicación de datos del entorno mediante gráficas y medidas de tendencia central.",
+            "sourceBook": "Saberes y Pensamiento Científico",
+            "sourcePages": [
+              80,
+              84
+            ],
+            "sourcePagesLabel": "pp. 80-84",
+            "topicTitle": "Recolección, registro, análisis y comunicación de datos",
+            "status": "confirmed",
+            "reason": "La fuente validada \"Recolección, registro, análisis y comunicación de datos\" aporta base suficiente para trabajar comunicación de datos dentro del proyecto 1.",
+            "pedagogicalUse": "Ayuda a fortalecer gráficas de la comunidad y a explicar la recolección, registro y comunicación de datos del entorno mediante gráficas y medidas de tendencia central con mayor claridad mediante comunicación de datos.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "medidas de tendencia central",
+            "description": "Medidas de tendencia central es una idea clave para comprender la recolección, registro y comunicación de datos del entorno mediante gráficas y medidas de tendencia central.",
+            "sourceBook": "Saberes y Pensamiento Científico",
+            "sourcePages": [
+              85,
+              91
+            ],
+            "sourcePagesLabel": "pp. 85-91",
+            "topicTitle": "Medidas de tendencia central y de dispersión",
+            "status": "confirmed",
+            "reason": "La fuente validada \"Medidas de tendencia central y de dispersión\" aporta base suficiente para trabajar medidas de tendencia central dentro del proyecto 1.",
+            "pedagogicalUse": "Ayuda a fortalecer gráficas de la comunidad y a explicar la recolección, registro y comunicación de datos del entorno mediante gráficas y medidas de tendencia central con mayor claridad mediante medidas de tendencia central.",
+            "activityReadiness": "usable-for-autoevaluation"
+          }
+        ],
+        "thinkingCriteria": [
+          "Relacionar el dato con la vida comunitaria y no verlo como un número aislado.",
+          "Usar las gráficas para explicar patrones, no sólo para decorar el producto.",
+          "Distinguir entre observar datos y sacar conclusiones apresuradas."
+        ],
+        "validationStatus": {
+          "readinessLevel": "development-partial",
+          "readyForActivities": false,
+          "needsReviewReasons": [
+            "El bloque 1 ya es usable como lectura docente, pero el video del PPA 1 y el recurso informatico siguen pendientes de validacion de destino final.",
+            "La asignacion de apoyos de Posibilidades se sostiene por inferencia curricular documentada y no por OCR perfectamente separado por columnas.",
+            "No mover a actividades interactivas ni desbloquear juegos completos hasta ampliar validacion de videos y recursos complementarios."
+          ]
+        },
+        "readinessLevel": "development-partial",
+        "readyForActivities": false,
+        "needsReviewReasons": [
+          "No mover a actividades interactivas ni desbloquear juegos completos."
+        ],
+        "roleInPpa": "Abre el bloque al mostrar que producir conocimiento científico también implica observar la comunidad, levantar datos y comunicarlos con claridad.",
+        "pedagogicalUse": "Conviene trabajar Nuestra comunidad en gráficas como una oportunidad para profundizar en la recolección, registro y comunicación de datos del entorno mediante gráficas y medidas de tendencia central sin separar contenido, comunidad y producto final.",
+        "teacherNotes": [
+          "Conviene partir de ejemplos cercanos y después pasar al lenguaje mas abstracto del campo.",
+          "El producto Gráficas de la comunidad gana fuerza cuando se usa para explicar y no solo para exhibir informacion.",
+          "Es mejor seleccionar pocos conceptos bien comprendidos que saturar el trabajo con terminos aislados."
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Qué comprendes mejor sobre la recolección, registro y comunicación de datos del entorno mediante gráficas y medidas de tendencia central después de elaborar gráficas de la comunidad?"
+          },
+          {
+            "type": "community",
+            "prompt": "¿Qué cambia en la mirada sobre la comunidad cuando sus experiencias se vuelven datos que se pueden comparar y comunicar?"
+          }
+        ],
+        "notReadyFor": [
+          "full-games",
+          "summative-exam"
+        ]
+      },
+      {
+        "id": "saberes-y-pensamiento-cientifico-2-ppa-1-pa2",
+        "projectId": "saberes-y-pensamiento-cientifico-2-ppa-1-pa2",
+        "academicProjectNumber": 2,
+        "title": "La ciencia y sus cálculos",
+        "projectTitle": "La ciencia y sus cálculos",
+        "grade": "2",
+        "field": "Saberes y Pensamiento Científico",
+        "ppaNumber": "1",
+        "partialClassroomProject": "PPA 1",
+        "partialClassroomProjectTitle": "Yo también puedo generar conocimiento científico",
+        "bookVolume": "Tomo I",
+        "sourceValidation": {
+          "sourceStatus": "linked",
+          "possibilitiesPages": [
+            6,
+            7
+          ],
+          "possibilitiesMaterialId": "grade-2-posibilidades-pos-sypc-2",
+          "possibilitiesColumnIndex": 2,
+          "columnEvidence": "Bloque PPA 1 Yo también puedo generar conocimiento científico localizado en pp. 6-7; la columna 2 se confirma por el orden de proyectos, productos y continuidad del mismo bloque."
+        },
+        "finalProduct": {
+          "title": "Artículo informativo",
+          "source": "Posibilidades de uso SyPC pp. 6-7 + Nuestro libro de proyectos Tomo I pp. 116-119",
+          "status": "confirmed"
+        },
+        "sourcePages": {
+          "nuestroLibroProyectos": [
+            {
+              "materialId": "grade-2-proyectos-nuestro-libro-de-proyectos-tomo-1-segundo-grado",
+              "label": "Nuestro libro de proyectos Tomo I",
+              "startPage": 116,
+              "endPage": 119,
+              "pagesLabel": "pp. 116-119",
+              "topicTitle": "Proyecto academico 2",
+              "status": "confirmed-source"
+            }
+          ],
+          "conceptBook": [
+            {
+              "materialId": "grade-2-conceptos-saberes-y-pensamiento-cientifico-segundo-grado",
+              "label": "Saberes y Pensamiento Científico",
+              "startPage": 80,
+              "endPage": 84,
+              "pagesLabel": "pp. 80-84",
+              "topicTitle": "Recolección, registro, análisis y comunicación de datos",
+              "status": "confirmed-by-column-inference"
+            },
+            {
+              "materialId": "grade-2-conceptos-saberes-y-pensamiento-cientifico-segundo-grado",
+              "label": "Saberes y Pensamiento Científico",
+              "startPage": 85,
+              "endPage": 91,
+              "pagesLabel": "pp. 85-91",
+              "topicTitle": "Medidas de tendencia central y de dispersión",
+              "status": "confirmed-by-column-inference"
+            },
+            {
+              "materialId": "grade-2-conceptos-saberes-y-pensamiento-cientifico-segundo-grado",
+              "label": "Saberes y Pensamiento Científico",
+              "startPage": 92,
+              "endPage": 97,
+              "pagesLabel": "pp. 92-97",
+              "topicTitle": "Tendencias en los datos",
+              "status": "confirmed-by-column-inference"
+            }
+          ],
+          "multiplesLenguajes": [],
+          "otherMaterials": [
+            {
+              "label": "Video PA 2: Cuentacuentos de la ciencia • Saberes y pensamiento científico• 2do grado",
+              "reference": "https://www.youtube.com/watch?v=flrJwDZWyQo",
+              "status": "confirmed"
+            },
+            {
+              "label": "Video PPA 1: 1. Yo también puedo generar conocimiento científico • Saberes y pensamiento científico• 2do grado",
+              "reference": "https://www.youtube.com/watch?v=QI6b2BcTpRc",
+              "status": "confirmed"
+            }
+          ]
+        },
+        "supportMaterials": [],
+        "horizonOrPurpose": {
+          "status": "pending",
+          "text": "",
+          "source": "Nuestro libro de proyectos Tomo I p. 116"
+        },
+        "projectExpectationHorizon": {
+          "officialText": "",
+          "studentVersion": "",
+          "sourcePages": [
+            "Nuestro libro de proyectos Tomo I p. 116"
+          ],
+          "evidence": "El proyecto ya cuenta con producto, conceptos y articulacion pedagogica, pero el horizonte textual exacto sigue pendiente de confirmacion literal.",
+          "status": "pending"
+        },
+        "detonatingStrategy": {
+          "title": "1. Yo también puedo generar conocimiento científico • Saberes y pensamiento científico• 2do grado",
+          "text": "Video del Proyecto Parcial de Aula 1: 1. Yo también puedo generar conocimiento científico • Saberes y pensamiento científico• 2do grado",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=QI6b2BcTpRc",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "partial-classroom-project"
+        },
+        "academicProjectStrategy": {
+          "title": "Cuentacuentos de la ciencia • Saberes y pensamiento científico• 2do grado",
+          "text": "Video detonador del Proyecto Academico 2: La ciencia y sus cálculos",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=flrJwDZWyQo",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "academic-project"
+        },
+        "academicConcepts": [
+          {
+            "concept": "artículo informativo",
+            "description": "Artículo informativo como producto de cierre para organizar y comunicar aprendizajes del proyecto.",
+            "sourceBook": "Nuestro libro de proyectos Tomo I",
+            "sourcePages": [
+              116,
+              119
+            ],
+            "sourcePagesLabel": "pp. 116-119",
+            "topicTitle": "Proyecto academico 2",
+            "status": "confirmed",
+            "reason": "Posibilidades y el propio proyecto fijan Artículo informativo como producto final del PA 2.",
+            "pedagogicalUse": "Da una forma concreta de socializar lo comprendido sobre la lectura de tendencias y medidas de tendencia central para explicar un tema científico en un artículo informativo.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "tendencias en los datos",
+            "description": "Tendencias en los datos es una idea clave para comprender la lectura de tendencias y medidas de tendencia central para explicar un tema científico en un artículo informativo.",
+            "sourceBook": "Saberes y Pensamiento Científico",
+            "sourcePages": [
+              92,
+              97
+            ],
+            "sourcePagesLabel": "pp. 92-97",
+            "topicTitle": "Tendencias en los datos",
+            "status": "confirmed",
+            "reason": "La fuente validada \"Tendencias en los datos\" aporta base suficiente para trabajar tendencias en los datos dentro del proyecto 2.",
+            "pedagogicalUse": "Ayuda a fortalecer artículo informativo y a explicar la lectura de tendencias y medidas de tendencia central para explicar un tema científico en un artículo informativo con mayor claridad mediante tendencias en los datos.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "interpretación de datos",
+            "description": "Interpretación de datos es una idea clave para comprender la lectura de tendencias y medidas de tendencia central para explicar un tema científico en un artículo informativo.",
+            "sourceBook": "Saberes y Pensamiento Científico",
+            "sourcePages": [
+              92,
+              97
+            ],
+            "sourcePagesLabel": "pp. 92-97",
+            "topicTitle": "Tendencias en los datos",
+            "status": "confirmed",
+            "reason": "La fuente validada \"Tendencias en los datos\" aporta base suficiente para trabajar interpretación de datos dentro del proyecto 2.",
+            "pedagogicalUse": "Ayuda a fortalecer artículo informativo y a explicar la lectura de tendencias y medidas de tendencia central para explicar un tema científico en un artículo informativo con mayor claridad mediante interpretación de datos.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "medidas de dispersión",
+            "description": "Medidas de dispersión es una idea clave para comprender la lectura de tendencias y medidas de tendencia central para explicar un tema científico en un artículo informativo.",
+            "sourceBook": "Saberes y Pensamiento Científico",
+            "sourcePages": [
+              85,
+              91
+            ],
+            "sourcePagesLabel": "pp. 85-91",
+            "topicTitle": "Medidas de tendencia central y de dispersión",
+            "status": "confirmed",
+            "reason": "La fuente validada \"Medidas de tendencia central y de dispersión\" aporta base suficiente para trabajar medidas de dispersión dentro del proyecto 2.",
+            "pedagogicalUse": "Ayuda a fortalecer artículo informativo y a explicar la lectura de tendencias y medidas de tendencia central para explicar un tema científico en un artículo informativo con mayor claridad mediante medidas de dispersión.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "artículo informativo",
+            "description": "Artículo informativo es una idea clave para comprender la lectura de tendencias y medidas de tendencia central para explicar un tema científico en un artículo informativo.",
+            "sourceBook": "Nuestro libro de proyectos Tomo I",
+            "sourcePages": [
+              116,
+              117,
+              118,
+              119
+            ],
+            "sourcePagesLabel": "pp. 116-119",
+            "topicTitle": "Proyecto académico 2",
+            "status": "confirmed",
+            "reason": "La fuente validada \"Proyecto académico 2\" aporta base suficiente para trabajar artículo informativo dentro del proyecto 2.",
+            "pedagogicalUse": "Ayuda a fortalecer artículo informativo y a explicar la lectura de tendencias y medidas de tendencia central para explicar un tema científico en un artículo informativo con mayor claridad mediante artículo informativo.",
+            "activityReadiness": "usable-for-autoevaluation"
+          }
+        ],
+        "thinkingCriteria": [
+          "Explicar por escrito qué dicen los datos y por qué importan.",
+          "Diferenciar una opinión rápida de una afirmación respaldada por información.",
+          "Usar el cálculo como apoyo de la explicación y no como fin aislado."
+        ],
+        "validationStatus": {
+          "readinessLevel": "development-partial",
+          "readyForActivities": false,
+          "needsReviewReasons": [
+            "El bloque 1 ya es usable como lectura docente, pero el video del PPA 1 y el recurso informatico siguen pendientes de validacion de destino final.",
+            "La asignacion de apoyos de Posibilidades se sostiene por inferencia curricular documentada y no por OCR perfectamente separado por columnas.",
+            "No mover a actividades interactivas ni desbloquear juegos completos hasta ampliar validacion de videos y recursos complementarios."
+          ]
+        },
+        "readinessLevel": "development-partial",
+        "readyForActivities": false,
+        "needsReviewReasons": [
+          "No mover a actividades interactivas ni desbloquear juegos completos."
+        ],
+        "roleInPpa": "Profundiza el bloque al llevar el análisis de datos hacia una explicación escrita con sentido científico y social.",
+        "pedagogicalUse": "Conviene trabajar La ciencia y sus cálculos como una oportunidad para profundizar en la lectura de tendencias y medidas de tendencia central para explicar un tema científico en un artículo informativo sin separar contenido, comunidad y producto final.",
+        "teacherNotes": [
+          "Conviene partir de ejemplos cercanos y después pasar al lenguaje mas abstracto del campo.",
+          "El producto Artículo informativo gana fuerza cuando se usa para explicar y no solo para exhibir informacion.",
+          "Es mejor seleccionar pocos conceptos bien comprendidos que saturar el trabajo con terminos aislados."
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Qué comprendes mejor sobre la lectura de tendencias y medidas de tendencia central para explicar un tema científico en un artículo informativo después de elaborar artículo informativo?"
+          },
+          {
+            "type": "community",
+            "prompt": "¿Qué temas científicos cercanos se entienden mejor cuando los explicamos con datos y los compartimos por escrito?"
+          }
+        ],
+        "notReadyFor": [
+          "full-games",
+          "summative-exam"
+        ]
+      },
+      {
+        "id": "saberes-y-pensamiento-cientifico-2-ppa-1-pa3",
+        "projectId": "saberes-y-pensamiento-cientifico-2-ppa-1-pa3",
+        "academicProjectNumber": 3,
+        "title": "Equidad de género en gráficas",
+        "projectTitle": "Equidad de género en gráficas",
+        "grade": "2",
+        "field": "Saberes y Pensamiento Científico",
+        "ppaNumber": "1",
+        "partialClassroomProject": "PPA 1",
+        "partialClassroomProjectTitle": "Yo también puedo generar conocimiento científico",
+        "bookVolume": "Tomo I",
+        "sourceValidation": {
+          "sourceStatus": "linked",
+          "possibilitiesPages": [
+            6,
+            7
+          ],
+          "possibilitiesMaterialId": "grade-2-posibilidades-pos-sypc-2",
+          "possibilitiesColumnIndex": 3,
+          "columnEvidence": "Bloque PPA 1 Yo también puedo generar conocimiento científico localizado en pp. 6-7; la columna 3 se confirma por el orden de proyectos, productos y continuidad del mismo bloque."
+        },
+        "finalProduct": {
+          "title": "Colección de datos",
+          "source": "Posibilidades de uso SyPC pp. 6-7 + Nuestro libro de proyectos Tomo I pp. 120-124",
+          "status": "confirmed"
+        },
+        "sourcePages": {
+          "nuestroLibroProyectos": [
+            {
+              "materialId": "grade-2-proyectos-nuestro-libro-de-proyectos-tomo-1-segundo-grado",
+              "label": "Nuestro libro de proyectos Tomo I",
+              "startPage": 120,
+              "endPage": 124,
+              "pagesLabel": "pp. 120-124",
+              "topicTitle": "Proyecto academico 3",
+              "status": "confirmed-source"
+            }
+          ],
+          "conceptBook": [
+            {
+              "materialId": "grade-2-conceptos-saberes-y-pensamiento-cientifico-segundo-grado",
+              "label": "Saberes y Pensamiento Científico",
+              "startPage": 80,
+              "endPage": 84,
+              "pagesLabel": "pp. 80-84",
+              "topicTitle": "Recolección, registro, análisis y comunicación de datos",
+              "status": "confirmed-by-column-inference"
+            },
+            {
+              "materialId": "grade-2-conceptos-saberes-y-pensamiento-cientifico-segundo-grado",
+              "label": "Saberes y Pensamiento Científico",
+              "startPage": 98,
+              "endPage": 102,
+              "pagesLabel": "pp. 98-102",
+              "topicTitle": "Experimentos aleatorios y registro de los resultados",
+              "status": "confirmed-by-column-inference"
+            },
+            {
+              "materialId": "grade-2-conceptos-saberes-y-pensamiento-cientifico-segundo-grado",
+              "label": "Saberes y Pensamiento Científico",
+              "startPage": 103,
+              "endPage": 105,
+              "pagesLabel": "pp. 103-105",
+              "topicTitle": "Medición de probabilidad, su equivalencia y representación",
+              "status": "confirmed-by-column-inference"
+            }
+          ],
+          "multiplesLenguajes": [
+            {
+              "materialId": "grade-2-apoyo-multiples-lenguajes-segundo-grado",
+              "label": "Multiples Lenguajes",
+              "startPage": 128,
+              "endPage": 128,
+              "pagesLabel": "p. 128",
+              "topicTitle": "Matilde, la primera médica mexicana",
+              "status": "confirmed-by-column-inference"
+            }
+          ],
+          "otherMaterials": [
+            {
+              "label": "Video PA 3: Gráficas de la comunidad • Saberes y pensamiento científico • 2do grado",
+              "reference": "https://www.youtube.com/watch?v=hYM6zpkCtos",
+              "status": "confirmed"
+            },
+            {
+              "label": "Video PPA 1: 1. Yo también puedo generar conocimiento científico • Saberes y pensamiento científico• 2do grado",
+              "reference": "https://www.youtube.com/watch?v=QI6b2BcTpRc",
+              "status": "confirmed"
+            }
+          ]
+        },
+        "supportMaterials": [
+          {
+            "title": "Matilde, la primera médica mexicana",
+            "kind": "Multiples Lenguajes",
+            "pages": "p. 128",
+            "status": "confirmed-by-column-inference"
+          }
+        ],
+        "horizonOrPurpose": {
+          "status": "pending",
+          "text": "",
+          "source": "Nuestro libro de proyectos Tomo I p. 120"
+        },
+        "projectExpectationHorizon": {
+          "officialText": "",
+          "studentVersion": "",
+          "sourcePages": [
+            "Nuestro libro de proyectos Tomo I p. 120"
+          ],
+          "evidence": "El proyecto ya cuenta con producto, conceptos y articulacion pedagogica, pero el horizonte textual exacto sigue pendiente de confirmacion literal.",
+          "status": "pending"
+        },
+        "detonatingStrategy": {
+          "title": "1. Yo también puedo generar conocimiento científico • Saberes y pensamiento científico• 2do grado",
+          "text": "Video del Proyecto Parcial de Aula 1: 1. Yo también puedo generar conocimiento científico • Saberes y pensamiento científico• 2do grado",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=QI6b2BcTpRc",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "partial-classroom-project"
+        },
+        "academicProjectStrategy": {
+          "title": "Gráficas de la comunidad • Saberes y pensamiento científico • 2do grado",
+          "text": "Video detonador del Proyecto Academico 3: Equidad de género en gráficas",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=hYM6zpkCtos",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "academic-project"
+        },
+        "academicConcepts": [
+          {
+            "concept": "colección de datos",
+            "description": "Colección de datos como producto de cierre para organizar y comunicar aprendizajes del proyecto.",
+            "sourceBook": "Nuestro libro de proyectos Tomo I",
+            "sourcePages": [
+              120,
+              124
+            ],
+            "sourcePagesLabel": "pp. 120-124",
+            "topicTitle": "Proyecto academico 3",
+            "status": "confirmed",
+            "reason": "Posibilidades y el propio proyecto fijan Colección de datos como producto final del PA 3.",
+            "pedagogicalUse": "Da una forma concreta de socializar lo comprendido sobre la probabilidad, el registro de resultados y la lectura de gráficas para reflexionar sobre equidad de género.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "experimentos aleatorios",
+            "description": "Experimentos aleatorios es una idea clave para comprender la probabilidad, el registro de resultados y la lectura de gráficas para reflexionar sobre equidad de género.",
+            "sourceBook": "Saberes y Pensamiento Científico",
+            "sourcePages": [
+              98,
+              102
+            ],
+            "sourcePagesLabel": "pp. 98-102",
+            "topicTitle": "Experimentos aleatorios y registro de los resultados",
+            "status": "confirmed",
+            "reason": "La fuente validada \"Experimentos aleatorios y registro de los resultados\" aporta base suficiente para trabajar experimentos aleatorios dentro del proyecto 3.",
+            "pedagogicalUse": "Ayuda a fortalecer colección de datos y a explicar la probabilidad, el registro de resultados y la lectura de gráficas para reflexionar sobre equidad de género con mayor claridad mediante experimentos aleatorios.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "tablas de frecuencia",
+            "description": "Tablas de frecuencia es una idea clave para comprender la probabilidad, el registro de resultados y la lectura de gráficas para reflexionar sobre equidad de género.",
+            "sourceBook": "Saberes y Pensamiento Científico",
+            "sourcePages": [
+              98,
+              102
+            ],
+            "sourcePagesLabel": "pp. 98-102",
+            "topicTitle": "Experimentos aleatorios y registro de los resultados",
+            "status": "confirmed",
+            "reason": "La fuente validada \"Experimentos aleatorios y registro de los resultados\" aporta base suficiente para trabajar tablas de frecuencia dentro del proyecto 3.",
+            "pedagogicalUse": "Ayuda a fortalecer colección de datos y a explicar la probabilidad, el registro de resultados y la lectura de gráficas para reflexionar sobre equidad de género con mayor claridad mediante tablas de frecuencia.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "medición de probabilidad",
+            "description": "Medición de probabilidad es una idea clave para comprender la probabilidad, el registro de resultados y la lectura de gráficas para reflexionar sobre equidad de género.",
+            "sourceBook": "Saberes y Pensamiento Científico",
+            "sourcePages": [
+              103,
+              105
+            ],
+            "sourcePagesLabel": "pp. 103-105",
+            "topicTitle": "Medición de probabilidad, su equivalencia y representación",
+            "status": "confirmed",
+            "reason": "La fuente validada \"Medición de probabilidad, su equivalencia y representación\" aporta base suficiente para trabajar medición de probabilidad dentro del proyecto 3.",
+            "pedagogicalUse": "Ayuda a fortalecer colección de datos y a explicar la probabilidad, el registro de resultados y la lectura de gráficas para reflexionar sobre equidad de género con mayor claridad mediante medición de probabilidad.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "equidad de género",
+            "description": "Equidad de género es una idea clave para comprender la probabilidad, el registro de resultados y la lectura de gráficas para reflexionar sobre equidad de género.",
+            "sourceBook": "Nuestro libro de proyectos Tomo I",
+            "sourcePages": [
+              120,
+              121,
+              122,
+              123
+            ],
+            "sourcePagesLabel": "pp. 120-123",
+            "topicTitle": "Proyecto académico 3",
+            "status": "confirmed",
+            "reason": "La fuente validada \"Proyecto académico 3\" aporta base suficiente para trabajar equidad de género dentro del proyecto 3.",
+            "pedagogicalUse": "Ayuda a fortalecer colección de datos y a explicar la probabilidad, el registro de resultados y la lectura de gráficas para reflexionar sobre equidad de género con mayor claridad mediante equidad de género.",
+            "activityReadiness": "usable-for-autoevaluation"
+          }
+        ],
+        "thinkingCriteria": [
+          "Vincular la lectura de probabilidades con preguntas reales sobre la vida escolar y comunitaria.",
+          "Diferenciar azar, frecuencia y patrón social.",
+          "Usar la colección de datos para abrir diálogo crítico y no sólo para registrar números."
+        ],
+        "validationStatus": {
+          "readinessLevel": "development-partial",
+          "readyForActivities": false,
+          "needsReviewReasons": [
+            "El bloque 1 ya es usable como lectura docente, pero el video del PPA 1 y el recurso informatico siguen pendientes de validacion de destino final.",
+            "La asignacion de apoyos de Posibilidades se sostiene por inferencia curricular documentada y no por OCR perfectamente separado por columnas.",
+            "No mover a actividades interactivas ni desbloquear juegos completos hasta ampliar validacion de videos y recursos complementarios."
+          ]
+        },
+        "readinessLevel": "development-partial",
+        "readyForActivities": false,
+        "needsReviewReasons": [
+          "No mover a actividades interactivas ni desbloquear juegos completos."
+        ],
+        "roleInPpa": "Cierra el bloque al mostrar que el pensamiento científico puede ayudar a visibilizar desigualdades y abrir conversación sobre equidad.",
+        "pedagogicalUse": "Conviene trabajar Equidad de género en gráficas como una oportunidad para profundizar en la probabilidad, el registro de resultados y la lectura de gráficas para reflexionar sobre equidad de género sin separar contenido, comunidad y producto final.",
+        "teacherNotes": [
+          "Conviene partir de ejemplos cercanos y después pasar al lenguaje mas abstracto del campo.",
+          "El producto Colección de datos gana fuerza cuando se usa para explicar y no solo para exhibir informacion.",
+          "Es mejor seleccionar pocos conceptos bien comprendidos que saturar el trabajo con terminos aislados."
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Qué comprendes mejor sobre la probabilidad, el registro de resultados y la lectura de gráficas para reflexionar sobre equidad de género después de elaborar colección de datos?"
+          },
+          {
+            "type": "community",
+            "prompt": "¿Qué desigualdades se vuelven más visibles cuando las observamos con datos y no sólo con impresiones?"
+          }
+        ],
+        "notReadyFor": [
+          "full-games",
+          "summative-exam"
+        ]
+      }
+    ]
+  },
+  "conceptsValidation": {
+    "grade": "2",
+    "field": "Saberes y Pensamiento Científico",
+    "ppaNumber": "1",
+    "status": "concept-validation",
+    "generatedAt": "2026-06-02T18:08:11.398Z",
+    "entries": [
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-2-ppa-1-pa1",
+        "projectTitle": "Nuestra comunidad en gráficas",
+        "concept": "gráficas de la comunidad",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Nuestro libro de proyectos Tomo I",
+          "pages": [
+            111,
+            115
+          ],
+          "reason": "Posibilidades y el propio proyecto fijan Gráficas de la comunidad como producto final del PA 1."
+        },
+        "pedagogicalUse": "Da una forma concreta de socializar lo comprendido sobre la recolección, registro y comunicación de datos del entorno mediante gráficas y medidas de tendencia central.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-2-ppa-1-pa1",
+        "projectTitle": "Nuestra comunidad en gráficas",
+        "concept": "recolección de datos",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Saberes y Pensamiento Científico",
+          "pages": [
+            80,
+            84
+          ],
+          "reason": "La fuente validada \"Recolección, registro, análisis y comunicación de datos\" aporta base suficiente para trabajar recolección de datos dentro del proyecto 1."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer gráficas de la comunidad y a explicar la recolección, registro y comunicación de datos del entorno mediante gráficas y medidas de tendencia central con mayor claridad mediante recolección de datos.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-2-ppa-1-pa1",
+        "projectTitle": "Nuestra comunidad en gráficas",
+        "concept": "registro de información",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Saberes y Pensamiento Científico",
+          "pages": [
+            80,
+            84
+          ],
+          "reason": "La fuente validada \"Recolección, registro, análisis y comunicación de datos\" aporta base suficiente para trabajar registro de información dentro del proyecto 1."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer gráficas de la comunidad y a explicar la recolección, registro y comunicación de datos del entorno mediante gráficas y medidas de tendencia central con mayor claridad mediante registro de información.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-2-ppa-1-pa1",
+        "projectTitle": "Nuestra comunidad en gráficas",
+        "concept": "comunicación de datos",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Saberes y Pensamiento Científico",
+          "pages": [
+            80,
+            84
+          ],
+          "reason": "La fuente validada \"Recolección, registro, análisis y comunicación de datos\" aporta base suficiente para trabajar comunicación de datos dentro del proyecto 1."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer gráficas de la comunidad y a explicar la recolección, registro y comunicación de datos del entorno mediante gráficas y medidas de tendencia central con mayor claridad mediante comunicación de datos.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-2-ppa-1-pa1",
+        "projectTitle": "Nuestra comunidad en gráficas",
+        "concept": "medidas de tendencia central",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Saberes y Pensamiento Científico",
+          "pages": [
+            85,
+            91
+          ],
+          "reason": "La fuente validada \"Medidas de tendencia central y de dispersión\" aporta base suficiente para trabajar medidas de tendencia central dentro del proyecto 1."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer gráficas de la comunidad y a explicar la recolección, registro y comunicación de datos del entorno mediante gráficas y medidas de tendencia central con mayor claridad mediante medidas de tendencia central.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-2-ppa-1-pa2",
+        "projectTitle": "La ciencia y sus cálculos",
+        "concept": "artículo informativo",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Nuestro libro de proyectos Tomo I",
+          "pages": [
+            116,
+            119
+          ],
+          "reason": "Posibilidades y el propio proyecto fijan Artículo informativo como producto final del PA 2."
+        },
+        "pedagogicalUse": "Da una forma concreta de socializar lo comprendido sobre la lectura de tendencias y medidas de tendencia central para explicar un tema científico en un artículo informativo.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-2-ppa-1-pa2",
+        "projectTitle": "La ciencia y sus cálculos",
+        "concept": "tendencias en los datos",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Saberes y Pensamiento Científico",
+          "pages": [
+            92,
+            97
+          ],
+          "reason": "La fuente validada \"Tendencias en los datos\" aporta base suficiente para trabajar tendencias en los datos dentro del proyecto 2."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer artículo informativo y a explicar la lectura de tendencias y medidas de tendencia central para explicar un tema científico en un artículo informativo con mayor claridad mediante tendencias en los datos.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-2-ppa-1-pa2",
+        "projectTitle": "La ciencia y sus cálculos",
+        "concept": "interpretación de datos",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Saberes y Pensamiento Científico",
+          "pages": [
+            92,
+            97
+          ],
+          "reason": "La fuente validada \"Tendencias en los datos\" aporta base suficiente para trabajar interpretación de datos dentro del proyecto 2."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer artículo informativo y a explicar la lectura de tendencias y medidas de tendencia central para explicar un tema científico en un artículo informativo con mayor claridad mediante interpretación de datos.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-2-ppa-1-pa2",
+        "projectTitle": "La ciencia y sus cálculos",
+        "concept": "medidas de dispersión",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Saberes y Pensamiento Científico",
+          "pages": [
+            85,
+            91
+          ],
+          "reason": "La fuente validada \"Medidas de tendencia central y de dispersión\" aporta base suficiente para trabajar medidas de dispersión dentro del proyecto 2."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer artículo informativo y a explicar la lectura de tendencias y medidas de tendencia central para explicar un tema científico en un artículo informativo con mayor claridad mediante medidas de dispersión.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-2-ppa-1-pa2",
+        "projectTitle": "La ciencia y sus cálculos",
+        "concept": "artículo informativo",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Nuestro libro de proyectos Tomo I",
+          "pages": [
+            116,
+            117,
+            118,
+            119
+          ],
+          "reason": "La fuente validada \"Proyecto académico 2\" aporta base suficiente para trabajar artículo informativo dentro del proyecto 2."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer artículo informativo y a explicar la lectura de tendencias y medidas de tendencia central para explicar un tema científico en un artículo informativo con mayor claridad mediante artículo informativo.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-2-ppa-1-pa3",
+        "projectTitle": "Equidad de género en gráficas",
+        "concept": "colección de datos",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Nuestro libro de proyectos Tomo I",
+          "pages": [
+            120,
+            124
+          ],
+          "reason": "Posibilidades y el propio proyecto fijan Colección de datos como producto final del PA 3."
+        },
+        "pedagogicalUse": "Da una forma concreta de socializar lo comprendido sobre la probabilidad, el registro de resultados y la lectura de gráficas para reflexionar sobre equidad de género.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-2-ppa-1-pa3",
+        "projectTitle": "Equidad de género en gráficas",
+        "concept": "experimentos aleatorios",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Saberes y Pensamiento Científico",
+          "pages": [
+            98,
+            102
+          ],
+          "reason": "La fuente validada \"Experimentos aleatorios y registro de los resultados\" aporta base suficiente para trabajar experimentos aleatorios dentro del proyecto 3."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer colección de datos y a explicar la probabilidad, el registro de resultados y la lectura de gráficas para reflexionar sobre equidad de género con mayor claridad mediante experimentos aleatorios.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-2-ppa-1-pa3",
+        "projectTitle": "Equidad de género en gráficas",
+        "concept": "tablas de frecuencia",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Saberes y Pensamiento Científico",
+          "pages": [
+            98,
+            102
+          ],
+          "reason": "La fuente validada \"Experimentos aleatorios y registro de los resultados\" aporta base suficiente para trabajar tablas de frecuencia dentro del proyecto 3."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer colección de datos y a explicar la probabilidad, el registro de resultados y la lectura de gráficas para reflexionar sobre equidad de género con mayor claridad mediante tablas de frecuencia.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-2-ppa-1-pa3",
+        "projectTitle": "Equidad de género en gráficas",
+        "concept": "medición de probabilidad",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Saberes y Pensamiento Científico",
+          "pages": [
+            103,
+            105
+          ],
+          "reason": "La fuente validada \"Medición de probabilidad, su equivalencia y representación\" aporta base suficiente para trabajar medición de probabilidad dentro del proyecto 3."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer colección de datos y a explicar la probabilidad, el registro de resultados y la lectura de gráficas para reflexionar sobre equidad de género con mayor claridad mediante medición de probabilidad.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-2-ppa-1-pa3",
+        "projectTitle": "Equidad de género en gráficas",
+        "concept": "equidad de género",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Nuestro libro de proyectos Tomo I",
+          "pages": [
+            120,
+            121,
+            122,
+            123
+          ],
+          "reason": "La fuente validada \"Proyecto académico 3\" aporta base suficiente para trabajar equidad de género dentro del proyecto 3."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer colección de datos y a explicar la probabilidad, el registro de resultados y la lectura de gráficas para reflexionar sobre equidad de género con mayor claridad mediante equidad de género.",
+        "activityReadiness": "usable-for-autoevaluation"
+      }
+    ]
+  },
+  "pedagogicalArticulation": {
+    "grade": "2",
+    "field": "Saberes y Pensamiento Científico",
+    "ppaNumber": "1",
+    "status": "teacher-orientation",
+    "officialHorizonStatus": "pending",
+    "situatedPedagogicalOrientation": "El PPA 1 pone en relación gráficas, análisis de tendencias y probabilidad para que el grupo lea información de la comunidad, la convierta en conocimiento comunicable y dialogue sobre equidad desde evidencia.",
+    "integratingQuestions": [
+      "Como dialogan gráficas de la comunidad, artículo informativo, colección de datos dentro del mismo PPA 1?",
+      "Que cambia en la comprension de la recolección y comunicación de datos, la probabilidad y el análisis de la equidad como formas de producir conocimiento científico situado cuando el grupo pone en relacion conceptos, producto y comunidad?",
+      "Como convertir el producto final en una herramienta de explicacion y no solo de presentacion?"
+    ],
+    "projectConnections": [
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-2-ppa-1-pa1",
+        "projectTitle": "Nuestra comunidad en gráficas",
+        "roleInPpa": "Abre el bloque al mostrar que producir conocimiento científico también implica observar la comunidad, levantar datos y comunicarlos con claridad.",
+        "confirmedConcepts": [
+          "gráficas de la comunidad",
+          "recolección de datos",
+          "registro de información",
+          "comunicación de datos",
+          "medidas de tendencia central"
+        ],
+        "suggestedConcepts": [],
+        "pedagogicalUse": "Conviene trabajar Nuestra comunidad en gráficas como una oportunidad para profundizar en la recolección, registro y comunicación de datos del entorno mediante gráficas y medidas de tendencia central sin separar contenido, comunidad y producto final."
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-2-ppa-1-pa2",
+        "projectTitle": "La ciencia y sus cálculos",
+        "roleInPpa": "Profundiza el bloque al llevar el análisis de datos hacia una explicación escrita con sentido científico y social.",
+        "confirmedConcepts": [
+          "artículo informativo",
+          "tendencias en los datos",
+          "interpretación de datos",
+          "medidas de dispersión",
+          "artículo informativo"
+        ],
+        "suggestedConcepts": [],
+        "pedagogicalUse": "Conviene trabajar La ciencia y sus cálculos como una oportunidad para profundizar en la lectura de tendencias y medidas de tendencia central para explicar un tema científico en un artículo informativo sin separar contenido, comunidad y producto final."
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-2-ppa-1-pa3",
+        "projectTitle": "Equidad de género en gráficas",
+        "roleInPpa": "Cierra el bloque al mostrar que el pensamiento científico puede ayudar a visibilizar desigualdades y abrir conversación sobre equidad.",
+        "confirmedConcepts": [
+          "colección de datos",
+          "experimentos aleatorios",
+          "tablas de frecuencia",
+          "medición de probabilidad",
+          "equidad de género"
+        ],
+        "suggestedConcepts": [],
+        "pedagogicalUse": "Conviene trabajar Equidad de género en gráficas como una oportunidad para profundizar en la probabilidad, el registro de resultados y la lectura de gráficas para reflexionar sobre equidad de género sin separar contenido, comunidad y producto final."
+      }
+    ],
+    "criteriaOfThought": [
+      {
+        "criterion": "Relacionar la recolección y comunicación de datos, la probabilidad y el análisis de la equidad como formas de producir conocimiento científico situado con experiencias concretas del entorno.",
+        "status": "suggested"
+      },
+      {
+        "criterion": "Usar el producto final para comunicar con claridad, no solo para acumular definiciones.",
+        "status": "suggested"
+      }
+    ],
+    "possibleResonanceQuestion": "¿Qué comprensiones nuevas sobre la recolección y comunicación de datos, la probabilidad y el análisis de la equidad como formas de producir conocimiento científico situado se vuelven visibles cuando el grupo comparte los productos del PPA 1?",
+    "teacherNotes": [
+      "No reducir el PPA 1 a tres productos aislados; el bloque construye una misma conversacion curricular.",
+      "Las paginas de Posibilidades forman un mismo bloque y los apoyos por columna se documentan por inferencia curricular situada.",
+      "Los enlaces cortos del video detonador y del recurso informatico se mantienen en cautela y no deben tratarse como recursos ya validados."
+    ],
+    "notReadyFor": [
+      "actividades interactivas",
+      "full-games",
+      "summative-exam"
+    ]
+  },
+  "teacherNotesAndResonances": {
+    "grade": "2",
+    "field": "Saberes y Pensamiento Científico",
+    "ppaNumber": "1",
+    "status": "teacher-orientation",
+    "officialHorizonStatus": "pending",
+    "ppaIntegratingResonance": "¿Qué comprensiones nuevas sobre la recolección y comunicación de datos, la probabilidad y el análisis de la equidad como formas de producir conocimiento científico situado se vuelven visibles cuando el grupo comparte los productos del PPA 1?",
+    "didacticWarnings": [
+      "No convertir el bloque en una lista de definiciones; importa relacionar conceptos con producto, comunidad y dialogo.",
+      "Los enlaces cortos bit.ly/3VfglUk y bit.ly/3WQBMwg se mantienen como cautela y no deben tratarse como recursos ya validados.",
+      "La distribucion de apoyos por columna se fija por inferencia curricular documentada a partir de Posibilidades."
+    ],
+    "communityPrompts": {
+      "communityKnowledge": [
+        "Que saberes de la comunidad ayudan a profundizar en la recolección y comunicación de datos, la probabilidad y el análisis de la equidad como formas de producir conocimiento científico situado?",
+        "Que ejemplos cercanos permiten que los conceptos del campo se vuelvan mas claros para el grupo?"
+      ],
+      "families": [
+        "Que experiencias, relatos o practicas familiares pueden enriquecer el proyecto sin desplazar su foco academico?",
+        "Que aprendizajes vale la pena compartir con otras generaciones a partir del producto final?"
+      ],
+      "territoryLanguageMemory": [
+        "Que palabras, lugares o memorias ayudan a nombrar mejor lo que el proyecto esta buscando comprender?",
+        "Como pueden circular estos productos dentro de la comunidad escolar sin perder precision ni sentido?"
+      ],
+      "productCommunityConnection": [
+        "Como podria circular gráficas de la comunidad, artículo informativo, colección de datos para fortalecer el dialogo comunitario?"
+      ]
+    },
+    "suggestedThinkingCriteria": [
+      "Relacionar la recolección y comunicación de datos, la probabilidad y el análisis de la equidad como formas de producir conocimiento científico situado con problemas, experiencias y preguntas del entorno cercano.",
+      "Valorar el producto final como herramienta de comprension y comunicacion compartida."
+    ],
+    "projects": [
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-2-ppa-1-pa1",
+        "projectTitle": "Nuestra comunidad en gráficas",
+        "teacherNotes": [
+          "Conviene partir de ejemplos cercanos y después pasar al lenguaje mas abstracto del campo.",
+          "El producto Gráficas de la comunidad gana fuerza cuando se usa para explicar y no solo para exhibir informacion.",
+          "Es mejor seleccionar pocos conceptos bien comprendidos que saturar el trabajo con terminos aislados."
+        ],
+        "confirmedConceptsToUse": [
+          "gráficas de la comunidad",
+          "recolección de datos",
+          "registro de información",
+          "comunicación de datos",
+          "medidas de tendencia central"
+        ],
+        "suggestedConceptsToHandleCarefully": [],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Qué comprendes mejor sobre la recolección, registro y comunicación de datos del entorno mediante gráficas y medidas de tendencia central después de elaborar gráficas de la comunidad?"
+          },
+          {
+            "type": "community",
+            "prompt": "¿Qué cambia en la mirada sobre la comunidad cuando sus experiencias se vuelven datos que se pueden comparar y comunicar?"
+          }
+        ],
+        "notReadyFor": [
+          "full-games",
+          "summative-exam"
+        ]
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-2-ppa-1-pa2",
+        "projectTitle": "La ciencia y sus cálculos",
+        "teacherNotes": [
+          "Conviene partir de ejemplos cercanos y después pasar al lenguaje mas abstracto del campo.",
+          "El producto Artículo informativo gana fuerza cuando se usa para explicar y no solo para exhibir informacion.",
+          "Es mejor seleccionar pocos conceptos bien comprendidos que saturar el trabajo con terminos aislados."
+        ],
+        "confirmedConceptsToUse": [
+          "artículo informativo",
+          "tendencias en los datos",
+          "interpretación de datos",
+          "medidas de dispersión",
+          "artículo informativo"
+        ],
+        "suggestedConceptsToHandleCarefully": [],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Qué comprendes mejor sobre la lectura de tendencias y medidas de tendencia central para explicar un tema científico en un artículo informativo después de elaborar artículo informativo?"
+          },
+          {
+            "type": "community",
+            "prompt": "¿Qué temas científicos cercanos se entienden mejor cuando los explicamos con datos y los compartimos por escrito?"
+          }
+        ],
+        "notReadyFor": [
+          "full-games",
+          "summative-exam"
+        ]
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-2-ppa-1-pa3",
+        "projectTitle": "Equidad de género en gráficas",
+        "teacherNotes": [
+          "Conviene partir de ejemplos cercanos y después pasar al lenguaje mas abstracto del campo.",
+          "El producto Colección de datos gana fuerza cuando se usa para explicar y no solo para exhibir informacion.",
+          "Es mejor seleccionar pocos conceptos bien comprendidos que saturar el trabajo con terminos aislados."
+        ],
+        "confirmedConceptsToUse": [
+          "colección de datos",
+          "experimentos aleatorios",
+          "tablas de frecuencia",
+          "medición de probabilidad",
+          "equidad de género"
+        ],
+        "suggestedConceptsToHandleCarefully": [],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Qué comprendes mejor sobre la probabilidad, el registro de resultados y la lectura de gráficas para reflexionar sobre equidad de género después de elaborar colección de datos?"
+          },
+          {
+            "type": "community",
+            "prompt": "¿Qué desigualdades se vuelven más visibles cuando las observamos con datos y no sólo con impresiones?"
+          }
+        ],
+        "notReadyFor": [
+          "full-games",
+          "summative-exam"
+        ]
+      }
+    ]
+  },
+  "validationAudit": {
+    "kind": "fine-validation-audit",
+    "source": "reports/caracoles/grade2-saberes-ppa1-reading-bundle-audit.md",
+    "content": "# Auditoria de lectura docente\n\n## Alcance\n\n- Campo: 2o Saberes y Pensamiento Científico\n- Bloque: PPA 1\n- Titulo del PPA: Yo también puedo generar conocimiento científico\n- Proyectos: PA1-PA3\n\n## Proyectos validados\n\n1. Nuestra comunidad en gráficas\n   - Producto final: Gráficas de la comunidad\n   - Paginas: Nuestro libro de proyectos Tomo I pp. 111-115\n2. La ciencia y sus cálculos\n   - Producto final: Artículo informativo\n   - Paginas: Nuestro libro de proyectos Tomo I pp. 116-119\n3. Equidad de género en gráficas\n   - Producto final: Colección de datos\n   - Paginas: Nuestro libro de proyectos Tomo I pp. 120-124\n\n## Evidencia base usada\n\n- Posibilidades de uso SyPC pp. 6-7.\n- Nuestro libro de proyectos Tomo I pp. 109-124.\n- Saberes y Pensamiento Científico, segundo grado, pp. 80-105 y 152-161; Múltiples Lenguajes pp. 68, 110 y 128..\n\n## Decisiones curriculares del bloque\n\n- El horizonte comun del PPA 1 se mantiene en estado pendiente como formula unica; se privilegia una orientacion pedagogica situada y documentada.\n- Los productos finales quedan confirmados desde Posibilidades y la secuencia del propio proyecto.\n- Los conceptos confirmados se normalizan para sostener lectura docente, autoevaluacion y actividades de relacion de columnas.\n- La resonancia se formula como pregunta abierta para reforzar el sentido formativo del bloque.\n\n## Cautelas reales\n\n- El video detonador del PPA 1 y el recurso informatico del bloque siguen sin URL oficial confirmada.\n- La asignacion de apoyos por columna se sostiene por inferencia curricular documentada, no por OCR limpio de tabla.\n- No se marca el bloque como actividades interactivas ni se desbloquean juegos completos.\n"
+  }
+}

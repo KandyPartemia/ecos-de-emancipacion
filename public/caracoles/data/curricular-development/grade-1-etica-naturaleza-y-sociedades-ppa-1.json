@@ -1,0 +1,1563 @@
+{
+  "grade": "1",
+  "gradeLabel": "Primer grado",
+  "field": "Etica, Naturaleza y Sociedades",
+  "ppaNumber": "1",
+  "partialClassroomProject": "PPA 1",
+  "partialClassroomProjectTitle": "Un mapa de nuestro mundo",
+  "source": "curricular-development-pilot",
+  "generatedAt": "2026-06-04T15:51:03.094Z",
+  "development": {
+    "grade": "1",
+    "gradeLabel": "Primer grado",
+    "field": "Etica, Naturaleza y Sociedades",
+    "bookVolume": "Tomo I",
+    "partialClassroomProject": "PPA 1",
+    "partialClassroomProjectTitle": "Un mapa de nuestro mundo",
+    "generatedAt": "2026-06-02T02:08:34.872Z",
+    "notes": "Capa curricular aislada para 1o Etica, Naturaleza y Sociedades PPA 1.",
+    "sourcesUsed": [
+      "public/caracoles/data/generated/grade-1/selectable-projects.json",
+      "content/caracoles/generated-private/grade-1/pages-index.full.json",
+      "Posibilidades de uso Etica, Naturaleza y Sociedades, primer grado, pp. 6-7",
+      "Nuestro libro de proyectos Tomo I, primer grado, pp. 188-204",
+      "Etica, Naturaleza y Sociedades, primer grado, pp. 46-76, 206-209 y 236-240"
+    ],
+    "partialClassroomProjectContext": {
+      "expectationHorizon": {
+        "officialText": "",
+        "sourcePages": [
+          "Nuestro libro de proyectos Tomo I pp. 188-189",
+          "Posibilidades de uso ENS pp. 6-7"
+        ],
+        "evidence": "El PPA 1 articula un mapa local, una lamina biocultural y un conversatorio interno para comprender el espacio geografico como relacion entre sociedad y naturaleza, pero no se localizo una formula unica redactada como horizonte oficial del bloque.",
+        "status": "pending"
+      },
+      "ppaDetonatingStrategy": {
+        "title": "Un mapa de nuestro mundo",
+        "type": "video",
+        "url": "",
+        "urlStatus": "pending-url",
+        "reference": "bit.ly/3VfglUk",
+        "source": "Nuestro libro de proyectos Tomo I p. 188 + Posibilidades de uso ENS pp. 6-7",
+        "scope": "partial-classroom-project",
+        "youtubeSearchQuery": "Un mapa de nuestro mundo Etica Naturaleza y Sociedades 1er grado Telesecundaria"
+      },
+      "ppaDigitalResource": {
+        "title": "Recurso informatico del bloque PPA 1",
+        "reference": "bit.ly/3WQBMwg",
+        "status": "pending-validation",
+        "source": "Nuestro libro de proyectos Tomo I pp. 192, 198 y 203"
+      },
+      "validationStatus": {
+        "needsHumanReview": true,
+        "needsReviewReasons": [
+          "Las pp. 6-7 de Posibilidades pertenecen al mismo PPA 1; la segunda pagina continua apoyos y no abre otro bloque.",
+          "La asignacion de apoyos por columna se fija por inferencia curricular de izquierda a derecha, siguiendo productos y continuidad del bloque.",
+          "Los enlaces cortos del video del PPA y del recurso informatico se mantienen en cautela hasta localizar un destino oficial confirmado.",
+          "El indice de conceptos de Etica contiene ruido editorial, por eso los conceptos de este bloque se normalizan manualmente desde paginas validadas."
+        ]
+      },
+      "columnValidation": {
+        "possibilitiesPagesReviewed": [
+          6,
+          7
+        ],
+        "confirmedAsPpa": true,
+        "note": "Las pp. 6-7 corresponden al PPA 1 Un mapa de nuestro mundo. La columna 1 se confirma con mapa local, la 2 con lamina biocultural y la 3 con conversatorio interno; la p. 7 conserva ese mismo orden para apoyos y continuidad del bloque.",
+        "columns": [
+          {
+            "columnIndex": 1,
+            "projectId": "etica-naturaleza-y-sociedades-1-ppa-1-pa1",
+            "projectTitle": "El espacio geografico como producto social",
+            "finalProduct": "Mapa local",
+            "supportMaterials": [
+              "La flor nacional de Mexico, pp. 28-29"
+            ]
+          },
+          {
+            "columnIndex": 2,
+            "projectId": "etica-naturaleza-y-sociedades-1-ppa-1-pa2",
+            "projectTitle": "El patrimonio biocultural y su fortalecimiento",
+            "finalProduct": "Lamina biocultural",
+            "supportMaterials": [
+              "Maiz, una planta maravillosa, pp. 206-209"
+            ]
+          },
+          {
+            "columnIndex": 3,
+            "projectId": "etica-naturaleza-y-sociedades-1-ppa-1-pa3",
+            "projectTitle": "Las dimensiones del espacio geografico",
+            "finalProduct": "Conversatorio interno",
+            "supportMaterials": [
+              "Poblacion afromexicana, pp. 236-240",
+              "Relaciones interculturales basadas en el respeto, pp. 336-339"
+            ]
+          }
+        ]
+      }
+    },
+    "academicProjects": [
+      {
+        "id": "etica-naturaleza-y-sociedades-1-ppa-1-pa1",
+        "projectId": "etica-naturaleza-y-sociedades-1-ppa-1-pa1",
+        "academicProjectNumber": 1,
+        "title": "El espacio geografico como producto social",
+        "projectTitle": "El espacio geografico como producto social",
+        "grade": "1",
+        "field": "Etica, Naturaleza y Sociedades",
+        "ppaNumber": "1",
+        "partialClassroomProject": "PPA 1",
+        "partialClassroomProjectTitle": "Un mapa de nuestro mundo",
+        "bookVolume": "Tomo I",
+        "sourceValidation": {
+          "sourceStatus": "linked",
+          "possibilitiesPages": [
+            6,
+            7
+          ],
+          "possibilitiesMaterialId": "grade-1-posibilidades-pos-ens-1",
+          "possibilitiesColumnIndex": 1,
+          "columnEvidence": "Bloque PPA 1 Un mapa de nuestro mundo localizado en pp. 6-7; la columna 1 se confirma por el orden de proyectos, productos y continuidad del mismo bloque."
+        },
+        "finalProduct": {
+          "title": "Mapa local",
+          "source": "Posibilidades de uso ENS pp. 6-7 + Nuestro libro de proyectos Tomo I pp. 190-194",
+          "status": "confirmed"
+        },
+        "sourcePages": {
+          "nuestroLibroProyectos": [
+            {
+              "materialId": "grade-1-proyectos-nuestro-libro-de-proyectos-tomo-i-primer-grado",
+              "label": "Nuestro libro de proyectos Tomo I",
+              "startPage": 190,
+              "endPage": 194,
+              "pagesLabel": "pp. 190-194",
+              "topicTitle": "Proyecto academico 1",
+              "status": "confirmed-source"
+            }
+          ],
+          "conceptBook": [
+            {
+              "materialId": "grade-1-conceptos-etica-naturaleza-y-sociedades-primer-grado",
+              "label": "Etica, Naturaleza y Sociedades",
+              "startPage": 46,
+              "endPage": 61,
+              "pagesLabel": "pp. 46-61",
+              "topicTitle": "Distribucion de las aguas continentales y conformacion del relieve",
+              "status": "confirmed-by-column-inference"
+            },
+            {
+              "materialId": "grade-1-conceptos-etica-naturaleza-y-sociedades-primer-grado",
+              "label": "Etica, Naturaleza y Sociedades",
+              "startPage": 65,
+              "endPage": 76,
+              "pagesLabel": "pp. 65-76",
+              "topicTitle": "Espacio rural y urbano / Identidad nacional pluricultural",
+              "status": "confirmed-by-column-inference"
+            }
+          ],
+          "multiplesLenguajes": [
+            {
+              "materialId": "grade-1-apoyo-muiltiples-lenguajes-primer-grado",
+              "label": "Multiples Lenguajes",
+              "startPage": 28,
+              "endPage": 29,
+              "pagesLabel": "pp. 28-29",
+              "topicTitle": "La flor nacional de Mexico",
+              "status": "confirmed-by-column-inference"
+            }
+          ],
+          "otherMaterials": [
+            {
+              "label": "Video PA 1: Mapa local • Ética, naturaleza y sociedades • 1er grado",
+              "reference": "https://www.youtube.com/watch?v=kmHsKfwl1eU",
+              "status": "confirmed"
+            },
+            {
+              "label": "Video PPA 1: 1. Un mapa de nuestro mundo • Ética, naturaleza y sociedades • 1er grado",
+              "reference": "https://www.youtube.com/watch?v=V9I4p28vvqQ",
+              "status": "confirmed"
+            }
+          ]
+        },
+        "supportMaterials": [
+          {
+            "title": "La flor nacional de Mexico",
+            "kind": "Multiples Lenguajes",
+            "pages": "pp. 28-29",
+            "status": "confirmed-by-column-inference"
+          }
+        ],
+        "horizonOrPurpose": {
+          "status": "official",
+          "text": "Elaborar un croquis, al que se le llamara mapa local, donde se identificaran algunos componentes del espacio geografico con el apoyo de diversas fuentes informativas, para poner en juego el concepto de espacio geografico.",
+          "source": "Nuestro libro de proyectos Tomo I p. 190"
+        },
+        "projectExpectationHorizon": {
+          "officialText": "Comprender la definicion de espacio geografico y reconocer la distribucion de sus componentes en la comunidad mediante la construccion de un croquis o mapa local.",
+          "studentVersion": "Entender como esta conformado el espacio geografico de la comunidad y representarlo con un mapa local sencillo y claro.",
+          "sourcePages": [
+            "Nuestro libro de proyectos Tomo I p. 191"
+          ],
+          "evidence": "La etapa 3 y los objetivos del proyecto permiten fijar un horizonte de expectativas util para la lectura docente del PA.",
+          "status": "confirmed-from-project-book"
+        },
+        "detonatingStrategy": {
+          "title": "1. Un mapa de nuestro mundo • Ética, naturaleza y sociedades • 1er grado",
+          "text": "Video del Proyecto Parcial de Aula 1: 1. Un mapa de nuestro mundo • Ética, naturaleza y sociedades • 1er grado",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=V9I4p28vvqQ",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "partial-classroom-project"
+        },
+        "academicProjectStrategy": {
+          "title": "Mapa local • Ética, naturaleza y sociedades • 1er grado",
+          "text": "Video detonador del Proyecto Academico 1: El espacio geografico como producto social",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=kmHsKfwl1eU",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "academic-project"
+        },
+        "academicConcepts": [
+          {
+            "concept": "mapa local",
+            "description": "Croquis sencillo de la comunidad que ayuda a ubicar componentes del espacio geografico y a explicar como se relacionan.",
+            "sourceBook": "Nuestro libro de proyectos Tomo I",
+            "sourcePages": [
+              190,
+              191,
+              192,
+              193
+            ],
+            "sourcePagesLabel": "pp. 190-193",
+            "topicTitle": "Proyecto academico 1",
+            "status": "confirmed",
+            "reason": "La etapa 1, la planeacion del PPA y Posibilidades fijan el mapa local como producto central del PA 1.",
+            "pedagogicalUse": "Permite pasar de una idea abstracta del espacio geografico a una representacion situada y discutible en comunidad.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "espacio geografico",
+            "description": "Lugar donde interactuan sociedad y naturaleza y donde se desarrollan actividades humanas, relaciones y cambios.",
+            "sourceBook": "Nuestro libro de proyectos Tomo I",
+            "sourcePages": [
+              188,
+              190,
+              191,
+              192
+            ],
+            "sourcePagesLabel": "pp. 188, 190-192",
+            "topicTitle": "PPA 1 y Proyecto academico 1",
+            "status": "confirmed",
+            "reason": "El PPA abre el bloque con esta nocion y el PA 1 la retoma como contenido principal para comprender la comunidad.",
+            "pedagogicalUse": "Ayuda a que el grupo no vea el mapa como dibujo aislado, sino como lectura de relaciones concretas del lugar donde vive.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "componentes del espacio geografico",
+            "description": "Elementos naturales, sociales, culturales, economicos y politicos que forman el espacio de una comunidad.",
+            "sourceBook": "Nuestro libro de proyectos Tomo I",
+            "sourcePages": [
+              190,
+              191,
+              193
+            ],
+            "sourcePagesLabel": "pp. 190-191, 193",
+            "topicTitle": "Proyecto academico 1",
+            "status": "confirmed",
+            "reason": "El problema, los objetivos y la presentacion del producto insisten en identificar componentes y algunas de sus relaciones.",
+            "pedagogicalUse": "Permite orientar la observacion de la comunidad hacia aspectos concretos y comparables.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "interrelacion sociedad-naturaleza",
+            "description": "Vinculo entre las acciones humanas y el medio natural que hace posible comprender por que el espacio geografico cambia.",
+            "sourceBook": "Nuestro libro de proyectos Tomo I",
+            "sourcePages": [
+              188,
+              192
+            ],
+            "sourcePagesLabel": "pp. 188, 192",
+            "topicTitle": "PPA 1 y distintas fuentes de consulta",
+            "status": "confirmed",
+            "reason": "El PPA la presenta como idea integradora y el PA 1 la recupera en las fuentes de consulta para sostener el concepto de espacio geografico.",
+            "pedagogicalUse": "Ayuda a evitar lecturas fragmentadas del territorio y a pensar el espacio como producto social.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "localizacion",
+            "description": "Forma de ubicar elementos y procesos en un espacio determinado para entender donde estan y como se relacionan.",
+            "sourceBook": "Nuestro libro de proyectos Tomo I",
+            "sourcePages": [
+              192
+            ],
+            "sourcePagesLabel": "p. 192",
+            "topicTitle": "Distintas fuentes de consulta",
+            "status": "confirmed",
+            "reason": "La p. 192 la nombra como uno de los conceptos que deben ponerse en juego para elaborar el mapa local.",
+            "pedagogicalUse": "Permite leer el mapa como una representacion con sentido y no solo como dibujo de lugares.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "distribucion",
+            "description": "Manera en que los componentes del espacio aparecen ordenados, dispersos o concentrados dentro de la comunidad.",
+            "sourceBook": "Nuestro libro de proyectos Tomo I",
+            "sourcePages": [
+              191,
+              192
+            ],
+            "sourcePagesLabel": "pp. 191-192",
+            "topicTitle": "Objetivos y distintas fuentes de consulta",
+            "status": "confirmed",
+            "reason": "Los objetivos del proyecto y las fuentes de consulta la colocan como categoria necesaria para leer los componentes del espacio.",
+            "pedagogicalUse": "Ayuda a comparar zonas, concentraciones y ausencias dentro de la representacion local.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "identidad nacional pluricultural",
+            "description": "Reconocimiento de que Mexico esta formado por muchas culturas, lenguas y formas de vida que enriquecen su identidad comun.",
+            "sourceBook": "Etica, Naturaleza y Sociedades",
+            "sourcePages": [
+              71,
+              72,
+              73,
+              74,
+              75,
+              76
+            ],
+            "sourcePagesLabel": "pp. 71-76",
+            "topicTitle": "Identidad nacional pluricultural",
+            "status": "suggested",
+            "reason": "Posibilidades la vincula con la primera columna del PPA 1, pero funciona mejor como ampliacion situada del mapa local que como concepto nuclear del producto.",
+            "pedagogicalUse": "Enriquece la lectura del espacio comunitario desde la diversidad cultural sin desplazar el foco del proyecto.",
+            "activityReadiness": "usable-for-resonance"
+          }
+        ],
+        "thinkingCriteria": [
+          "Distinguir entre dibujar un lugar y explicar como se relacionan sus componentes.",
+          "Leer el espacio geografico como producto social y no solo como escenario fisico.",
+          "Usar el mapa local para argumentar, no solo para ilustrar."
+        ],
+        "validationStatus": {
+          "readinessLevel": "development-partial",
+          "readyForActivities": false,
+          "needsReviewReasons": [
+            "El bloque ya es usable como lectura docente, pero el video del PPA 1 y el recurso informatico siguen pendientes de validacion de destino final.",
+            "La asignacion de apoyos de Posibilidades se sostiene por inferencia curricular documentada y no por OCR perfectamente separado por columnas.",
+            "No mover a actividades interactivas ni desbloquear juegos completos hasta ampliar validacion de videos y recursos complementarios."
+          ]
+        },
+        "readinessLevel": "development-partial",
+        "readyForActivities": false,
+        "needsReviewReasons": [
+          "No mover a actividades interactivas ni desbloquear juegos completos."
+        ]
+      },
+      {
+        "id": "etica-naturaleza-y-sociedades-1-ppa-1-pa2",
+        "projectId": "etica-naturaleza-y-sociedades-1-ppa-1-pa2",
+        "academicProjectNumber": 2,
+        "title": "El patrimonio biocultural y su fortalecimiento",
+        "projectTitle": "El patrimonio biocultural y su fortalecimiento",
+        "grade": "1",
+        "field": "Etica, Naturaleza y Sociedades",
+        "ppaNumber": "1",
+        "partialClassroomProject": "PPA 1",
+        "partialClassroomProjectTitle": "Un mapa de nuestro mundo",
+        "bookVolume": "Tomo I",
+        "sourceValidation": {
+          "sourceStatus": "linked",
+          "possibilitiesPages": [
+            6,
+            7
+          ],
+          "possibilitiesMaterialId": "grade-1-posibilidades-pos-ens-1",
+          "possibilitiesColumnIndex": 2,
+          "columnEvidence": "Bloque PPA 1 Un mapa de nuestro mundo localizado en pp. 6-7; la columna 2 se confirma por el orden de proyectos, productos y continuidad del mismo bloque."
+        },
+        "finalProduct": {
+          "title": "Lamina biocultural",
+          "source": "Posibilidades de uso ENS pp. 6-7 + Nuestro libro de proyectos Tomo I pp. 195-200",
+          "status": "confirmed"
+        },
+        "sourcePages": {
+          "nuestroLibroProyectos": [
+            {
+              "materialId": "grade-1-proyectos-nuestro-libro-de-proyectos-tomo-i-primer-grado",
+              "label": "Nuestro libro de proyectos Tomo I",
+              "startPage": 195,
+              "endPage": 200,
+              "pagesLabel": "pp. 195-200",
+              "topicTitle": "Proyecto academico 2",
+              "status": "confirmed-source"
+            }
+          ],
+          "conceptBook": [
+            {
+              "materialId": "grade-1-conceptos-etica-naturaleza-y-sociedades-primer-grado",
+              "label": "Etica, Naturaleza y Sociedades",
+              "startPage": 71,
+              "endPage": 76,
+              "pagesLabel": "pp. 71-76",
+              "topicTitle": "Identidad nacional pluricultural",
+              "status": "confirmed-by-column-inference"
+            },
+            {
+              "materialId": "grade-1-conceptos-etica-naturaleza-y-sociedades-primer-grado",
+              "label": "Etica, Naturaleza y Sociedades",
+              "startPage": 206,
+              "endPage": 209,
+              "pagesLabel": "pp. 206-209",
+              "topicTitle": "Maiz, una planta maravillosa",
+              "status": "confirmed-by-column-inference"
+            }
+          ],
+          "multiplesLenguajes": [],
+          "otherMaterials": [
+            {
+              "label": "Video PA 2: Lámina biocultural • Ética, naturaleza y sociedades • 1er grado",
+              "reference": "https://www.youtube.com/watch?v=dLjZpzEhgRc",
+              "status": "confirmed"
+            },
+            {
+              "label": "Video PPA 1: 1. Un mapa de nuestro mundo • Ética, naturaleza y sociedades • 1er grado",
+              "reference": "https://www.youtube.com/watch?v=V9I4p28vvqQ",
+              "status": "confirmed"
+            }
+          ]
+        },
+        "supportMaterials": [],
+        "horizonOrPurpose": {
+          "status": "official",
+          "text": "Reconocer el concepto de patrimonio biocultural como resultado de la relacion entre las formas de organizacion economica y social, la cultura y la biodiversidad a traves del tiempo, y explicarlo a sus companeras y companeros con el apoyo de una lamina biocultural.",
+          "source": "Nuestro libro de proyectos Tomo I p. 195"
+        },
+        "projectExpectationHorizon": {
+          "officialText": "Elaborar una lamina biocultural del espacio geografico de la comunidad para mostrar la relacion entre formas de organizacion economica y social, cultura y biodiversidad.",
+          "studentVersion": "Reconocer por que el patrimonio biocultural forma parte de la identidad de la comunidad y explicarlo con una lamina clara y significativa.",
+          "sourcePages": [
+            "Nuestro libro de proyectos Tomo I p. 197"
+          ],
+          "evidence": "La etapa 3 y los objetivos del proyecto permiten fijar un horizonte de expectativas util para la lectura docente del PA.",
+          "status": "confirmed-from-project-book"
+        },
+        "detonatingStrategy": {
+          "title": "1. Un mapa de nuestro mundo • Ética, naturaleza y sociedades • 1er grado",
+          "text": "Video del Proyecto Parcial de Aula 1: 1. Un mapa de nuestro mundo • Ética, naturaleza y sociedades • 1er grado",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=V9I4p28vvqQ",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "partial-classroom-project"
+        },
+        "academicProjectStrategy": {
+          "title": "Lámina biocultural • Ética, naturaleza y sociedades • 1er grado",
+          "text": "Video detonador del Proyecto Academico 2: El patrimonio biocultural y su fortalecimiento",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=dLjZpzEhgRc",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "academic-project"
+        },
+        "academicConcepts": [
+          {
+            "concept": "lamina biocultural",
+            "description": "Soporte visual que organiza informacion, imagenes y relaciones para explicar el patrimonio biocultural de una comunidad.",
+            "sourceBook": "Nuestro libro de proyectos Tomo I",
+            "sourcePages": [
+              195,
+              197,
+              198,
+              199
+            ],
+            "sourcePagesLabel": "pp. 195, 197-199",
+            "topicTitle": "Proyecto academico 2",
+            "status": "confirmed",
+            "reason": "La etapa 1, las propuestas de solucion y Posibilidades fijan la lamina biocultural como producto central del PA 2.",
+            "pedagogicalUse": "Permite mostrar conexiones entre cultura, biodiversidad y organizacion comunitaria de forma visible y compartible.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "patrimonio biocultural",
+            "description": "Conjunto de conocimientos, practicas y bienes culturales vinculados con la naturaleza, heredados y recreados por las comunidades.",
+            "sourceBook": "Nuestro libro de proyectos Tomo I",
+            "sourcePages": [
+              195,
+              196,
+              198
+            ],
+            "sourcePagesLabel": "pp. 195-196, 198",
+            "topicTitle": "Proyecto academico 2",
+            "status": "confirmed",
+            "reason": "El proyecto define el termino y lo coloca como nucleo de la problematica y del producto a elaborar.",
+            "pedagogicalUse": "Ayuda a que el grupo valore la relacion entre entorno, saberes y formas de vida de la comunidad.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "biodiversidad",
+            "description": "Variedad de seres vivos y relaciones del entorno natural que forman parte del patrimonio de una comunidad.",
+            "sourceBook": "Nuestro libro de proyectos Tomo I",
+            "sourcePages": [
+              195,
+              197,
+              198
+            ],
+            "sourcePagesLabel": "pp. 195, 197-198",
+            "topicTitle": "Proyecto academico 2",
+            "status": "confirmed",
+            "reason": "La biodiversidad aparece de manera explicita en la definicion del patrimonio biocultural y en los objetivos del proyecto.",
+            "pedagogicalUse": "Vuelve visible que el patrimonio no es solo cultural ni solo natural, sino una relacion entre ambos.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "organizacion economica y social",
+            "description": "Formas en que una comunidad produce, se organiza y sostiene su vida cotidiana en relacion con el entorno.",
+            "sourceBook": "Nuestro libro de proyectos Tomo I",
+            "sourcePages": [
+              195,
+              197,
+              198
+            ],
+            "sourcePagesLabel": "pp. 195, 197-198",
+            "topicTitle": "Proyecto academico 2",
+            "status": "confirmed",
+            "reason": "La etapa 1 y las propuestas de solucion la nombran como parte estructural del patrimonio biocultural que se va a explicar.",
+            "pedagogicalUse": "Ayuda a leer el patrimonio como practica viva y no solo como objeto que se conserva.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "conservacion y valoracion comunitaria",
+            "description": "Acciones y actitudes que permiten cuidar y reconocer la importancia de los elementos bioculturales en la comunidad.",
+            "sourceBook": "Nuestro libro de proyectos Tomo I",
+            "sourcePages": [
+              196,
+              197,
+              199
+            ],
+            "sourcePagesLabel": "pp. 196-197, 199",
+            "topicTitle": "Proyecto academico 2",
+            "status": "confirmed",
+            "reason": "Las situaciones problematicas, los objetivos y el cierre del proyecto orientan la lamina hacia la conservacion y la valoracion del patrimonio.",
+            "pedagogicalUse": "Permite que la lamina no sea solo descriptiva, sino tambien una invitacion a cuidar y reconocer el patrimonio local.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "identidad pluricultural",
+            "description": "Reconocimiento de la diversidad de pueblos, memorias y formas de vida que aportan riqueza a la identidad comun.",
+            "sourceBook": "Etica, Naturaleza y Sociedades",
+            "sourcePages": [
+              71,
+              72,
+              73,
+              74,
+              75,
+              76
+            ],
+            "sourcePagesLabel": "pp. 71-76",
+            "topicTitle": "Identidad nacional pluricultural",
+            "status": "confirmed",
+            "reason": "Posibilidades vincula este bloque conceptual con el PPA 1 y ayuda a comprender por que el patrimonio biocultural tambien fortalece identidad y respeto a la diversidad.",
+            "pedagogicalUse": "Enriquece la lectura del patrimonio desde la convivencia de culturas, pueblos y memorias.",
+            "activityReadiness": "usable-for-resonance"
+          },
+          {
+            "concept": "maiz y cosmovision",
+            "description": "Relacion entre una planta central de la vida comunitaria, sus usos, su valor cultural y las formas de comprender el mundo.",
+            "sourceBook": "Etica, Naturaleza y Sociedades",
+            "sourcePages": [
+              206,
+              207,
+              208,
+              209
+            ],
+            "sourcePagesLabel": "pp. 206-209",
+            "topicTitle": "Maiz, una planta maravillosa",
+            "status": "suggested",
+            "reason": "Posibilidades la coloca como apoyo de la segunda columna; sirve para enriquecer la lamina, aunque no sustituye la definicion central del patrimonio biocultural.",
+            "pedagogicalUse": "Ayuda a poner un ejemplo concreto de relacion entre naturaleza, cultura y comunidad.",
+            "activityReadiness": "usable-for-resonance"
+          }
+        ],
+        "thinkingCriteria": [
+          "Distinguir entre nombrar costumbres y explicar por que forman parte del patrimonio biocultural.",
+          "Relacionar biodiversidad, cultura y formas de organizacion comunitaria sin separarlas artificialmente.",
+          "Usar la lamina para argumentar y valorar, no solo para decorar."
+        ],
+        "validationStatus": {
+          "readinessLevel": "development-partial",
+          "readyForActivities": false,
+          "needsReviewReasons": [
+            "El bloque ya es usable como lectura docente, pero el video del PPA 1 y el recurso informatico siguen pendientes de validacion de destino final.",
+            "La asignacion de apoyos de Posibilidades se sostiene por inferencia curricular documentada y no por OCR perfectamente separado por columnas.",
+            "No mover a actividades interactivas ni desbloquear juegos completos hasta ampliar validacion de videos y recursos complementarios."
+          ]
+        },
+        "readinessLevel": "development-partial",
+        "readyForActivities": false,
+        "needsReviewReasons": [
+          "No mover a actividades interactivas ni desbloquear juegos completos."
+        ]
+      },
+      {
+        "id": "etica-naturaleza-y-sociedades-1-ppa-1-pa3",
+        "projectId": "etica-naturaleza-y-sociedades-1-ppa-1-pa3",
+        "academicProjectNumber": 3,
+        "title": "Las dimensiones del espacio geografico",
+        "projectTitle": "Las dimensiones del espacio geografico",
+        "grade": "1",
+        "field": "Etica, Naturaleza y Sociedades",
+        "ppaNumber": "1",
+        "partialClassroomProject": "PPA 1",
+        "partialClassroomProjectTitle": "Un mapa de nuestro mundo",
+        "bookVolume": "Tomo I",
+        "sourceValidation": {
+          "sourceStatus": "linked",
+          "possibilitiesPages": [
+            6,
+            7
+          ],
+          "possibilitiesMaterialId": "grade-1-posibilidades-pos-ens-1",
+          "possibilitiesColumnIndex": 3,
+          "columnEvidence": "Bloque PPA 1 Un mapa de nuestro mundo localizado en pp. 6-7; la columna 3 se confirma por el orden de proyectos, productos y continuidad del mismo bloque."
+        },
+        "finalProduct": {
+          "title": "Conversatorio interno",
+          "source": "Posibilidades de uso ENS pp. 6-7 + Nuestro libro de proyectos Tomo I pp. 201-204",
+          "status": "confirmed"
+        },
+        "sourcePages": {
+          "nuestroLibroProyectos": [
+            {
+              "materialId": "grade-1-proyectos-nuestro-libro-de-proyectos-tomo-i-primer-grado",
+              "label": "Nuestro libro de proyectos Tomo I",
+              "startPage": 201,
+              "endPage": 204,
+              "pagesLabel": "pp. 201-204",
+              "topicTitle": "Proyecto academico 3",
+              "status": "confirmed-source"
+            }
+          ],
+          "conceptBook": [
+            {
+              "materialId": "grade-1-conceptos-etica-naturaleza-y-sociedades-primer-grado",
+              "label": "Etica, Naturaleza y Sociedades",
+              "startPage": 46,
+              "endPage": 70,
+              "pagesLabel": "pp. 46-70",
+              "topicTitle": "Aguas continentales, relieve y espacio rural-urbano",
+              "status": "confirmed-by-column-inference"
+            },
+            {
+              "materialId": "grade-1-conceptos-etica-naturaleza-y-sociedades-primer-grado",
+              "label": "Etica, Naturaleza y Sociedades",
+              "startPage": 236,
+              "endPage": 240,
+              "pagesLabel": "pp. 236-240",
+              "topicTitle": "Poblacion afromexicana",
+              "status": "confirmed-by-column-inference"
+            }
+          ],
+          "multiplesLenguajes": [],
+          "otherMaterials": [
+            {
+              "label": "Video PA 3: Conversatorio interno • Ética, naturaleza y sociedades • 1er grado",
+              "reference": "https://www.youtube.com/watch?v=N5_HDZApU-k",
+              "status": "confirmed"
+            },
+            {
+              "label": "Video PPA 1: 1. Un mapa de nuestro mundo • Ética, naturaleza y sociedades • 1er grado",
+              "reference": "https://www.youtube.com/watch?v=V9I4p28vvqQ",
+              "status": "confirmed"
+            }
+          ]
+        },
+        "supportMaterials": [],
+        "horizonOrPurpose": {
+          "status": "official",
+          "text": "Comprender las categorias de analisis espacial: lugar, paisaje, region y territorio para explicar las caracteristicas del espacio geografico, utilizando los conceptos de localizacion, distribucion, diversidad, interaccion, temporalidad y cambio mediante un conversatorio interno.",
+          "source": "Nuestro libro de proyectos Tomo I p. 201"
+        },
+        "projectExpectationHorizon": {
+          "officialText": "Distinguir las categorias de analisis espacial y las caracteristicas del espacio geografico para comprender como esta conformada la comunidad y compartirlo en un conversatorio.",
+          "studentVersion": "Reconocer categorias como lugar, paisaje, region y territorio para conversar con claridad sobre la comunidad y su espacio geografico.",
+          "sourcePages": [
+            "Nuestro libro de proyectos Tomo I p. 202"
+          ],
+          "evidence": "La etapa 3 y los objetivos del proyecto permiten fijar un horizonte de expectativas util para la lectura docente del PA.",
+          "status": "confirmed-from-project-book"
+        },
+        "detonatingStrategy": {
+          "title": "1. Un mapa de nuestro mundo • Ética, naturaleza y sociedades • 1er grado",
+          "text": "Video del Proyecto Parcial de Aula 1: 1. Un mapa de nuestro mundo • Ética, naturaleza y sociedades • 1er grado",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=V9I4p28vvqQ",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "partial-classroom-project"
+        },
+        "academicProjectStrategy": {
+          "title": "Conversatorio interno • Ética, naturaleza y sociedades • 1er grado",
+          "text": "Video detonador del Proyecto Academico 3: Las dimensiones del espacio geografico",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=N5_HDZApU-k",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "academic-project"
+        },
+        "academicConcepts": [
+          {
+            "concept": "conversatorio interno",
+            "description": "Espacio de dialogo organizado para compartir ideas, ejemplos y conclusiones sobre un tema comun.",
+            "sourceBook": "Nuestro libro de proyectos Tomo I",
+            "sourcePages": [
+              201,
+              202,
+              203,
+              204
+            ],
+            "sourcePagesLabel": "pp. 201-204",
+            "topicTitle": "Proyecto academico 3",
+            "status": "confirmed",
+            "reason": "La etapa 1, las propuestas de solucion y Posibilidades fijan el conversatorio interno como producto central del PA 3.",
+            "pedagogicalUse": "Permite convertir categorias abstractas del espacio en argumentos y ejemplos compartidos por el grupo.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "lugar",
+            "description": "Categoria de analisis espacial que ayuda a pensar un sitio concreto desde su significado, usos y relaciones.",
+            "sourceBook": "Nuestro libro de proyectos Tomo I",
+            "sourcePages": [
+              201,
+              202
+            ],
+            "sourcePagesLabel": "pp. 201-202",
+            "topicTitle": "Proyecto academico 3",
+            "status": "confirmed",
+            "reason": "La p. 201 la nombra de forma explicita como una de las categorias centrales del proyecto.",
+            "pedagogicalUse": "Ayuda a aterrizar la conversacion en ejemplos cercanos y no en definiciones vacias.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "paisaje",
+            "description": "Categoria que permite observar lo visible del espacio geografico y relacionarlo con procesos naturales y sociales.",
+            "sourceBook": "Nuestro libro de proyectos Tomo I",
+            "sourcePages": [
+              201,
+              202
+            ],
+            "sourcePagesLabel": "pp. 201-202",
+            "topicTitle": "Proyecto academico 3",
+            "status": "confirmed",
+            "reason": "La p. 201 la incluye dentro de las categorias con las que se debe explicar el espacio de la comunidad.",
+            "pedagogicalUse": "Sirve para leer rasgos visibles del entorno y conectarlos con cambios y permanencias.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "region",
+            "description": "Categoria que ayuda a reconocer areas con rasgos compartidos y a compararlas con otras partes del espacio.",
+            "sourceBook": "Nuestro libro de proyectos Tomo I",
+            "sourcePages": [
+              201,
+              202
+            ],
+            "sourcePagesLabel": "pp. 201-202",
+            "topicTitle": "Proyecto academico 3",
+            "status": "confirmed",
+            "reason": "El proyecto la nombra de manera explicita como una de las categorias para comprender la comunidad.",
+            "pedagogicalUse": "Permite pasar del caso local a comparaciones mas amplias dentro del espacio geografico.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "territorio",
+            "description": "Espacio apropiado, vivido y disputado por personas o comunidades, cargado de relaciones y significados.",
+            "sourceBook": "Nuestro libro de proyectos Tomo I",
+            "sourcePages": [
+              201,
+              202
+            ],
+            "sourcePagesLabel": "pp. 201-202",
+            "topicTitle": "Proyecto academico 3",
+            "status": "confirmed",
+            "reason": "La categoria aparece como parte del nucleo conceptual del proyecto y permite conectar espacio con comunidad y poder.",
+            "pedagogicalUse": "Ayuda a leer el espacio con sentido social y no solo descriptivo.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "localizacion",
+            "description": "Ubicacion de elementos y procesos en el espacio para comprender donde se encuentran y como se articulan.",
+            "sourceBook": "Nuestro libro de proyectos Tomo I",
+            "sourcePages": [
+              201
+            ],
+            "sourcePagesLabel": "p. 201",
+            "topicTitle": "Proyecto academico 3",
+            "status": "confirmed",
+            "reason": "La p. 201 la incluye como caracteristica del espacio geografico que debe usarse en el conversatorio.",
+            "pedagogicalUse": "Ayuda a sostener explicaciones precisas sobre el entorno comunitario.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "temporalidad",
+            "description": "Mirada sobre cambios y permanencias del espacio a lo largo del tiempo para comprender procesos y transformaciones.",
+            "sourceBook": "Nuestro libro de proyectos Tomo I",
+            "sourcePages": [
+              201
+            ],
+            "sourcePagesLabel": "p. 201",
+            "topicTitle": "Proyecto academico 3",
+            "status": "confirmed",
+            "reason": "La p. 201 la nombra de manera explicita y ayuda a leer el espacio como proceso, no como fotografia inmovil.",
+            "pedagogicalUse": "Permite dialogar sobre memorias, modificaciones y continuidades del lugar donde viven.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "poblacion afromexicana",
+            "description": "Parte de la diversidad cultural de Mexico cuya historia y aportaciones ayudan a leer el espacio desde una perspectiva pluricultural.",
+            "sourceBook": "Etica, Naturaleza y Sociedades",
+            "sourcePages": [
+              236,
+              237,
+              238,
+              239,
+              240
+            ],
+            "sourcePagesLabel": "pp. 236-240",
+            "topicTitle": "Poblacion afromexicana",
+            "status": "suggested",
+            "reason": "Posibilidades la ubica en la tercera columna del bloque; ayuda a enriquecer el conversatorio con ejemplos de diversidad e identidad territorial.",
+            "pedagogicalUse": "Aporta un ejemplo concreto para pensar territorio, identidad y relaciones socioculturales dentro del espacio geografico.",
+            "activityReadiness": "usable-for-resonance"
+          }
+        ],
+        "thinkingCriteria": [
+          "Explicar con ejemplos la diferencia entre lugar, paisaje, region y territorio.",
+          "Relacionar caracteristicas del espacio con cambios, permanencias y vida comunitaria.",
+          "Usar el conversatorio para construir una explicacion comun y no solo opiniones sueltas."
+        ],
+        "validationStatus": {
+          "readinessLevel": "development-partial",
+          "readyForActivities": false,
+          "needsReviewReasons": [
+            "El bloque ya es usable como lectura docente, pero el video del PPA 1 y el recurso informatico siguen pendientes de validacion de destino final.",
+            "La asignacion de apoyos de Posibilidades se sostiene por inferencia curricular documentada y no por OCR perfectamente separado por columnas.",
+            "No mover a actividades interactivas ni desbloquear juegos completos hasta ampliar validacion de videos y recursos complementarios."
+          ]
+        },
+        "readinessLevel": "development-partial",
+        "readyForActivities": false,
+        "needsReviewReasons": [
+          "No mover a actividades interactivas ni desbloquear juegos completos."
+        ]
+      }
+    ]
+  },
+  "conceptsValidation": {
+    "grade": "1",
+    "field": "Etica, Naturaleza y Sociedades",
+    "ppaNumber": "1",
+    "status": "concept-validation",
+    "generatedAt": "2026-06-02T02:08:34.872Z",
+    "entries": [
+      {
+        "projectId": "etica-naturaleza-y-sociedades-1-ppa-1-pa1",
+        "projectTitle": "El espacio geografico como producto social",
+        "concept": "mapa local",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Nuestro libro de proyectos Tomo I",
+          "pages": [
+            190,
+            191,
+            192,
+            193
+          ],
+          "reason": "La etapa 1, la planeacion del PPA y Posibilidades fijan el mapa local como producto central del PA 1."
+        },
+        "pedagogicalUse": "Permite pasar de una idea abstracta del espacio geografico a una representacion situada y discutible en comunidad.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "etica-naturaleza-y-sociedades-1-ppa-1-pa1",
+        "projectTitle": "El espacio geografico como producto social",
+        "concept": "espacio geografico",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Nuestro libro de proyectos Tomo I",
+          "pages": [
+            188,
+            190,
+            191,
+            192
+          ],
+          "reason": "El PPA abre el bloque con esta nocion y el PA 1 la retoma como contenido principal para comprender la comunidad."
+        },
+        "pedagogicalUse": "Ayuda a que el grupo no vea el mapa como dibujo aislado, sino como lectura de relaciones concretas del lugar donde vive.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "etica-naturaleza-y-sociedades-1-ppa-1-pa1",
+        "projectTitle": "El espacio geografico como producto social",
+        "concept": "componentes del espacio geografico",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Nuestro libro de proyectos Tomo I",
+          "pages": [
+            190,
+            191,
+            193
+          ],
+          "reason": "El problema, los objetivos y la presentacion del producto insisten en identificar componentes y algunas de sus relaciones."
+        },
+        "pedagogicalUse": "Permite orientar la observacion de la comunidad hacia aspectos concretos y comparables.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "etica-naturaleza-y-sociedades-1-ppa-1-pa1",
+        "projectTitle": "El espacio geografico como producto social",
+        "concept": "interrelacion sociedad-naturaleza",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Nuestro libro de proyectos Tomo I",
+          "pages": [
+            188,
+            192
+          ],
+          "reason": "El PPA la presenta como idea integradora y el PA 1 la recupera en las fuentes de consulta para sostener el concepto de espacio geografico."
+        },
+        "pedagogicalUse": "Ayuda a evitar lecturas fragmentadas del territorio y a pensar el espacio como producto social.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "etica-naturaleza-y-sociedades-1-ppa-1-pa1",
+        "projectTitle": "El espacio geografico como producto social",
+        "concept": "localizacion",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Nuestro libro de proyectos Tomo I",
+          "pages": [
+            192
+          ],
+          "reason": "La p. 192 la nombra como uno de los conceptos que deben ponerse en juego para elaborar el mapa local."
+        },
+        "pedagogicalUse": "Permite leer el mapa como una representacion con sentido y no solo como dibujo de lugares.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "etica-naturaleza-y-sociedades-1-ppa-1-pa1",
+        "projectTitle": "El espacio geografico como producto social",
+        "concept": "distribucion",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Nuestro libro de proyectos Tomo I",
+          "pages": [
+            191,
+            192
+          ],
+          "reason": "Los objetivos del proyecto y las fuentes de consulta la colocan como categoria necesaria para leer los componentes del espacio."
+        },
+        "pedagogicalUse": "Ayuda a comparar zonas, concentraciones y ausencias dentro de la representacion local.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "etica-naturaleza-y-sociedades-1-ppa-1-pa1",
+        "projectTitle": "El espacio geografico como producto social",
+        "concept": "identidad nacional pluricultural",
+        "status": "suggested",
+        "evidence": {
+          "sourceBook": "Etica, Naturaleza y Sociedades",
+          "pages": [
+            71,
+            72,
+            73,
+            74,
+            75,
+            76
+          ],
+          "reason": "Posibilidades la vincula con la primera columna del PPA 1, pero funciona mejor como ampliacion situada del mapa local que como concepto nuclear del producto."
+        },
+        "pedagogicalUse": "Enriquece la lectura del espacio comunitario desde la diversidad cultural sin desplazar el foco del proyecto.",
+        "activityReadiness": "usable-for-resonance"
+      },
+      {
+        "projectId": "etica-naturaleza-y-sociedades-1-ppa-1-pa2",
+        "projectTitle": "El patrimonio biocultural y su fortalecimiento",
+        "concept": "lamina biocultural",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Nuestro libro de proyectos Tomo I",
+          "pages": [
+            195,
+            197,
+            198,
+            199
+          ],
+          "reason": "La etapa 1, las propuestas de solucion y Posibilidades fijan la lamina biocultural como producto central del PA 2."
+        },
+        "pedagogicalUse": "Permite mostrar conexiones entre cultura, biodiversidad y organizacion comunitaria de forma visible y compartible.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "etica-naturaleza-y-sociedades-1-ppa-1-pa2",
+        "projectTitle": "El patrimonio biocultural y su fortalecimiento",
+        "concept": "patrimonio biocultural",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Nuestro libro de proyectos Tomo I",
+          "pages": [
+            195,
+            196,
+            198
+          ],
+          "reason": "El proyecto define el termino y lo coloca como nucleo de la problematica y del producto a elaborar."
+        },
+        "pedagogicalUse": "Ayuda a que el grupo valore la relacion entre entorno, saberes y formas de vida de la comunidad.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "etica-naturaleza-y-sociedades-1-ppa-1-pa2",
+        "projectTitle": "El patrimonio biocultural y su fortalecimiento",
+        "concept": "biodiversidad",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Nuestro libro de proyectos Tomo I",
+          "pages": [
+            195,
+            197,
+            198
+          ],
+          "reason": "La biodiversidad aparece de manera explicita en la definicion del patrimonio biocultural y en los objetivos del proyecto."
+        },
+        "pedagogicalUse": "Vuelve visible que el patrimonio no es solo cultural ni solo natural, sino una relacion entre ambos.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "etica-naturaleza-y-sociedades-1-ppa-1-pa2",
+        "projectTitle": "El patrimonio biocultural y su fortalecimiento",
+        "concept": "organizacion economica y social",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Nuestro libro de proyectos Tomo I",
+          "pages": [
+            195,
+            197,
+            198
+          ],
+          "reason": "La etapa 1 y las propuestas de solucion la nombran como parte estructural del patrimonio biocultural que se va a explicar."
+        },
+        "pedagogicalUse": "Ayuda a leer el patrimonio como practica viva y no solo como objeto que se conserva.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "etica-naturaleza-y-sociedades-1-ppa-1-pa2",
+        "projectTitle": "El patrimonio biocultural y su fortalecimiento",
+        "concept": "conservacion y valoracion comunitaria",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Nuestro libro de proyectos Tomo I",
+          "pages": [
+            196,
+            197,
+            199
+          ],
+          "reason": "Las situaciones problematicas, los objetivos y el cierre del proyecto orientan la lamina hacia la conservacion y la valoracion del patrimonio."
+        },
+        "pedagogicalUse": "Permite que la lamina no sea solo descriptiva, sino tambien una invitacion a cuidar y reconocer el patrimonio local.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "etica-naturaleza-y-sociedades-1-ppa-1-pa2",
+        "projectTitle": "El patrimonio biocultural y su fortalecimiento",
+        "concept": "identidad pluricultural",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Etica, Naturaleza y Sociedades",
+          "pages": [
+            71,
+            72,
+            73,
+            74,
+            75,
+            76
+          ],
+          "reason": "Posibilidades vincula este bloque conceptual con el PPA 1 y ayuda a comprender por que el patrimonio biocultural tambien fortalece identidad y respeto a la diversidad."
+        },
+        "pedagogicalUse": "Enriquece la lectura del patrimonio desde la convivencia de culturas, pueblos y memorias.",
+        "activityReadiness": "usable-for-resonance"
+      },
+      {
+        "projectId": "etica-naturaleza-y-sociedades-1-ppa-1-pa2",
+        "projectTitle": "El patrimonio biocultural y su fortalecimiento",
+        "concept": "maiz y cosmovision",
+        "status": "suggested",
+        "evidence": {
+          "sourceBook": "Etica, Naturaleza y Sociedades",
+          "pages": [
+            206,
+            207,
+            208,
+            209
+          ],
+          "reason": "Posibilidades la coloca como apoyo de la segunda columna; sirve para enriquecer la lamina, aunque no sustituye la definicion central del patrimonio biocultural."
+        },
+        "pedagogicalUse": "Ayuda a poner un ejemplo concreto de relacion entre naturaleza, cultura y comunidad.",
+        "activityReadiness": "usable-for-resonance"
+      },
+      {
+        "projectId": "etica-naturaleza-y-sociedades-1-ppa-1-pa3",
+        "projectTitle": "Las dimensiones del espacio geografico",
+        "concept": "conversatorio interno",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Nuestro libro de proyectos Tomo I",
+          "pages": [
+            201,
+            202,
+            203,
+            204
+          ],
+          "reason": "La etapa 1, las propuestas de solucion y Posibilidades fijan el conversatorio interno como producto central del PA 3."
+        },
+        "pedagogicalUse": "Permite convertir categorias abstractas del espacio en argumentos y ejemplos compartidos por el grupo.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "etica-naturaleza-y-sociedades-1-ppa-1-pa3",
+        "projectTitle": "Las dimensiones del espacio geografico",
+        "concept": "lugar",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Nuestro libro de proyectos Tomo I",
+          "pages": [
+            201,
+            202
+          ],
+          "reason": "La p. 201 la nombra de forma explicita como una de las categorias centrales del proyecto."
+        },
+        "pedagogicalUse": "Ayuda a aterrizar la conversacion en ejemplos cercanos y no en definiciones vacias.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "etica-naturaleza-y-sociedades-1-ppa-1-pa3",
+        "projectTitle": "Las dimensiones del espacio geografico",
+        "concept": "paisaje",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Nuestro libro de proyectos Tomo I",
+          "pages": [
+            201,
+            202
+          ],
+          "reason": "La p. 201 la incluye dentro de las categorias con las que se debe explicar el espacio de la comunidad."
+        },
+        "pedagogicalUse": "Sirve para leer rasgos visibles del entorno y conectarlos con cambios y permanencias.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "etica-naturaleza-y-sociedades-1-ppa-1-pa3",
+        "projectTitle": "Las dimensiones del espacio geografico",
+        "concept": "region",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Nuestro libro de proyectos Tomo I",
+          "pages": [
+            201,
+            202
+          ],
+          "reason": "El proyecto la nombra de manera explicita como una de las categorias para comprender la comunidad."
+        },
+        "pedagogicalUse": "Permite pasar del caso local a comparaciones mas amplias dentro del espacio geografico.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "etica-naturaleza-y-sociedades-1-ppa-1-pa3",
+        "projectTitle": "Las dimensiones del espacio geografico",
+        "concept": "territorio",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Nuestro libro de proyectos Tomo I",
+          "pages": [
+            201,
+            202
+          ],
+          "reason": "La categoria aparece como parte del nucleo conceptual del proyecto y permite conectar espacio con comunidad y poder."
+        },
+        "pedagogicalUse": "Ayuda a leer el espacio con sentido social y no solo descriptivo.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "etica-naturaleza-y-sociedades-1-ppa-1-pa3",
+        "projectTitle": "Las dimensiones del espacio geografico",
+        "concept": "localizacion",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Nuestro libro de proyectos Tomo I",
+          "pages": [
+            201
+          ],
+          "reason": "La p. 201 la incluye como caracteristica del espacio geografico que debe usarse en el conversatorio."
+        },
+        "pedagogicalUse": "Ayuda a sostener explicaciones precisas sobre el entorno comunitario.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "etica-naturaleza-y-sociedades-1-ppa-1-pa3",
+        "projectTitle": "Las dimensiones del espacio geografico",
+        "concept": "temporalidad",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Nuestro libro de proyectos Tomo I",
+          "pages": [
+            201
+          ],
+          "reason": "La p. 201 la nombra de manera explicita y ayuda a leer el espacio como proceso, no como fotografia inmovil."
+        },
+        "pedagogicalUse": "Permite dialogar sobre memorias, modificaciones y continuidades del lugar donde viven.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "etica-naturaleza-y-sociedades-1-ppa-1-pa3",
+        "projectTitle": "Las dimensiones del espacio geografico",
+        "concept": "poblacion afromexicana",
+        "status": "suggested",
+        "evidence": {
+          "sourceBook": "Etica, Naturaleza y Sociedades",
+          "pages": [
+            236,
+            237,
+            238,
+            239,
+            240
+          ],
+          "reason": "Posibilidades la ubica en la tercera columna del bloque; ayuda a enriquecer el conversatorio con ejemplos de diversidad e identidad territorial."
+        },
+        "pedagogicalUse": "Aporta un ejemplo concreto para pensar territorio, identidad y relaciones socioculturales dentro del espacio geografico.",
+        "activityReadiness": "usable-for-resonance"
+      }
+    ]
+  },
+  "pedagogicalArticulation": {
+    "grade": "1",
+    "field": "Etica, Naturaleza y Sociedades",
+    "ppaNumber": "1",
+    "status": "teacher-orientation",
+    "officialHorizonStatus": "pending",
+    "situatedPedagogicalOrientation": "El PPA 1 puede trabajarse como una ruta para comprender el espacio geografico desde la comunidad. PA1 organiza un mapa local para identificar componentes y relaciones; PA2 construye una lamina biocultural para explicar como se vinculan biodiversidad, cultura y organizacion social; y PA3 prepara un conversatorio interno para usar categorias de analisis espacial y compartir comprensiones sobre el entorno. El hilo comun no es solo nombrar conceptos geograficos, sino leer el territorio como una construccion social, cultural y natural que puede discutirse y cuidarse de manera comunitaria.",
+    "integratingQuestions": [
+      "Como cambia nuestra comprension del entorno cuando dejamos de verlo solo como paisaje y empezamos a leerlo como espacio geografico vivido?",
+      "Relacionar mapa local, lamina biocultural y conversatorio interno como tres formas de representar, valorar y discutir la comunidad.",
+      "Valorar la diversidad cultural y ambiental del territorio como parte de la identidad comunitaria."
+    ],
+    "projectConnections": [
+      {
+        "projectId": "etica-naturaleza-y-sociedades-1-ppa-1-pa1",
+        "projectTitle": "El espacio geografico como producto social",
+        "roleInPpa": "Construccion de un mapa local para reconocer los componentes del espacio geografico de la comunidad y leerlo como una relacion entre sociedad y naturaleza.",
+        "confirmedConcepts": [
+          "mapa local",
+          "espacio geografico",
+          "componentes del espacio geografico",
+          "interrelacion sociedad-naturaleza",
+          "localizacion",
+          "distribucion"
+        ],
+        "suggestedConcepts": [
+          "identidad nacional pluricultural"
+        ],
+        "pedagogicalUse": "Conviene trabajar el PA 1 como una lectura situada del territorio, donde el croquis permita argumentar con claridad como se conforma la comunidad y no solo enumerar lugares."
+      },
+      {
+        "projectId": "etica-naturaleza-y-sociedades-1-ppa-1-pa2",
+        "projectTitle": "El patrimonio biocultural y su fortalecimiento",
+        "roleInPpa": "Explicacion visual del patrimonio biocultural de la comunidad a traves de una lamina que relacione organizacion social, cultura, biodiversidad y valoracion comunitaria.",
+        "confirmedConcepts": [
+          "lamina biocultural",
+          "patrimonio biocultural",
+          "biodiversidad",
+          "organizacion economica y social",
+          "conservacion y valoracion comunitaria",
+          "identidad pluricultural"
+        ],
+        "suggestedConcepts": [
+          "maiz y cosmovision"
+        ],
+        "pedagogicalUse": "Conviene trabajar el PA 2 como una lectura comunitaria del patrimonio biocultural, donde el producto ayude a reconocer ejemplos vivos y a fortalecer su valoracion."
+      },
+      {
+        "projectId": "etica-naturaleza-y-sociedades-1-ppa-1-pa3",
+        "projectTitle": "Las dimensiones del espacio geografico",
+        "roleInPpa": "Dialogo organizado para comprender categorias y caracteristicas del espacio geografico y compartirlas mediante un conversatorio interno.",
+        "confirmedConcepts": [
+          "conversatorio interno",
+          "lugar",
+          "paisaje",
+          "region",
+          "territorio",
+          "localizacion",
+          "temporalidad"
+        ],
+        "suggestedConcepts": [
+          "poblacion afromexicana"
+        ],
+        "pedagogicalUse": "Conviene trabajar el PA 3 como una mediacion oral para poner en juego categorias espaciales con ejemplos del entorno y construir comprension compartida."
+      }
+    ],
+    "criteriaOfThought": [
+      {
+        "criterion": "Relacionar mapa local, lamina biocultural y conversatorio interno como tres formas de representar, valorar y discutir la comunidad.",
+        "status": "suggested"
+      },
+      {
+        "criterion": "Valorar la diversidad cultural y ambiental del territorio como parte de la identidad comunitaria.",
+        "status": "suggested"
+      }
+    ],
+    "possibleResonanceQuestion": "Como nos ayuda leer el espacio geografico de la comunidad como una relacion entre naturaleza, cultura y vida social?",
+    "teacherNotes": [
+      "No reducir el PPA 1 a tres productos aislados; el bloque construye una sola mirada sobre el territorio y la comunidad.",
+      "Las pp. 6-7 de Posibilidades forman un mismo bloque; la segunda pagina solo amplia apoyos del PPA 1.",
+      "Los conceptos del libro del campo se normalizan de forma manual porque el indice automatico de Etica trae mucho ruido editorial.",
+      "Los enlaces cortos del video detonador y del recurso informatico se mantienen en cautela y no deben tratarse como recursos ya validados."
+    ],
+    "notReadyFor": [
+      "actividades interactivas",
+      "full-games",
+      "summative-exam"
+    ]
+  },
+  "teacherNotesAndResonances": {
+    "grade": "1",
+    "field": "Etica, Naturaleza y Sociedades",
+    "ppaNumber": "1",
+    "status": "teacher-orientation",
+    "officialHorizonStatus": "pending",
+    "ppaIntegratingResonance": "Como nos ayuda leer el espacio geografico de la comunidad como una relacion entre naturaleza, cultura y vida social?",
+    "didacticWarnings": [
+      "No convertir el bloque en una lista de definiciones geograficas; importa relacionarlas con el territorio vivido.",
+      "Los enlaces cortos bit.ly/3VfglUk y bit.ly/3WQBMwg se mantienen como cautela y no deben tratarse como recursos ya validados.",
+      "La distribucion de apoyos por columna se fija por inferencia curricular documentada a partir de Posibilidades.",
+      "Los conceptos del indice automatico de Etica requirieron limpieza manual para evitar ruido editorial."
+    ],
+    "communityPrompts": {
+      "communityKnowledge": [
+        "Que lugares, practicas o historias de la comunidad ayudan mejor a explicar como se vive el espacio geografico?",
+        "Que elementos del entorno sienten mas importantes para la identidad y la memoria del lugar donde viven?"
+      ],
+      "families": [
+        "Que cambios en la comunidad recuerdan sus familias y que permanencias consideran valiosas?",
+        "Que costumbres, saberes o recursos del entorno sienten que forman parte del patrimonio de la comunidad?"
+      ],
+      "territoryLanguageMemory": [
+        "Que palabras, nombres de lugares o formas de hablar ayudan a leer el territorio de manera mas cercana y situada?",
+        "Que memorias del espacio comunitario vale la pena conservar y compartir con otras generaciones?"
+      ],
+      "productCommunityConnection": [
+        "Como podrian circular el mapa local, la lamina biocultural y el conversatorio para fortalecer el conocimiento y el cuidado del territorio?"
+      ]
+    },
+    "suggestedThinkingCriteria": [
+      "Relacionar representacion del espacio, patrimonio biocultural y dialogo comunitario como partes de una misma comprension del territorio.",
+      "Valorar la diversidad cultural y ambiental del entorno como base de identidad y cuidado comunitario."
+    ],
+    "projects": [
+      {
+        "projectId": "etica-naturaleza-y-sociedades-1-ppa-1-pa1",
+        "projectTitle": "El espacio geografico como producto social",
+        "teacherNotes": [
+          "Conviene partir de lugares concretos que el grupo conozca bien antes de pedir categorias mas abstractas.",
+          "El mapa local gana valor cuando cada componente se justifica con observacion, memoria y dialogo comunitario.",
+          "No hace falta llenar el croquis de datos; importa que ayude a pensar el espacio y sus relaciones."
+        ],
+        "confirmedConceptsToUse": [
+          "mapa local",
+          "espacio geografico",
+          "componentes del espacio geografico",
+          "interrelacion sociedad-naturaleza",
+          "localizacion",
+          "distribucion"
+        ],
+        "suggestedConceptsToHandleCarefully": [
+          "identidad nacional pluricultural"
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "Que lugar de tu comunidad te ayuda mejor a explicar como conviven naturaleza, trabajo, costumbres y vida cotidiana?",
+            "conceptsActivated": [
+              "espacio geografico",
+              "interrelacion sociedad-naturaleza"
+            ],
+            "thinkingCriteria": [
+              "Relacionar territorio y experiencia"
+            ],
+            "suggestedUse": "Apertura del proyecto."
+          },
+          {
+            "type": "collective",
+            "prompt": "Que cambia cuando pasamos de decir donde esta algo a explicar por que ese componente ocupa ese lugar dentro de la comunidad?",
+            "conceptsActivated": [
+              "localizacion",
+              "distribucion"
+            ],
+            "thinkingCriteria": [
+              "Explicar relaciones y no solo ubicaciones"
+            ],
+            "suggestedUse": "Dialogo de planeacion."
+          },
+          {
+            "type": "closing",
+            "prompt": "Despues de elaborar el mapa local, que comprendes mejor sobre la forma en que se organiza el espacio geografico de tu comunidad?",
+            "conceptsActivated": [
+              "mapa local",
+              "componentes del espacio geografico"
+            ],
+            "thinkingCriteria": [
+              "Sintetizar lo aprendido"
+            ],
+            "suggestedUse": "Cierre reflexivo."
+          }
+        ],
+        "notReadyFor": [
+          "summative-exam",
+          "full-games",
+          "actividades interactivas"
+        ]
+      },
+      {
+        "projectId": "etica-naturaleza-y-sociedades-1-ppa-1-pa2",
+        "projectTitle": "El patrimonio biocultural y su fortalecimiento",
+        "teacherNotes": [
+          "Conviene partir de ejemplos muy cercanos a la comunidad para que el concepto de patrimonio biocultural no quede abstracto.",
+          "La lamina gana fuerza cuando muestra relaciones y no solo una lista de costumbres, plantas o recursos.",
+          "Puede ayudar mucho preguntar quienes cuidan, usan o transmiten esos saberes en la vida cotidiana."
+        ],
+        "confirmedConceptsToUse": [
+          "lamina biocultural",
+          "patrimonio biocultural",
+          "biodiversidad",
+          "organizacion economica y social",
+          "conservacion y valoracion comunitaria",
+          "identidad pluricultural"
+        ],
+        "suggestedConceptsToHandleCarefully": [
+          "maiz y cosmovision"
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "Que practica, alimento, saber o costumbre de tu comunidad sientes que no deberia perderse y por que?",
+            "conceptsActivated": [
+              "patrimonio biocultural",
+              "conservacion y valoracion comunitaria"
+            ],
+            "thinkingCriteria": [
+              "Relacionar patrimonio y vida cotidiana"
+            ],
+            "suggestedUse": "Apertura del proyecto."
+          },
+          {
+            "type": "collective",
+            "prompt": "Como se relacionan la biodiversidad del entorno y las formas en que una comunidad trabaja, se organiza y transmite sus saberes?",
+            "conceptsActivated": [
+              "biodiversidad",
+              "organizacion economica y social"
+            ],
+            "thinkingCriteria": [
+              "Explicar relaciones y no solo ejemplos"
+            ],
+            "suggestedUse": "Dialogo de planeacion."
+          },
+          {
+            "type": "closing",
+            "prompt": "Despues de elaborar la lamina biocultural, que comprendes mejor sobre la relacion entre identidad, naturaleza y comunidad?",
+            "conceptsActivated": [
+              "lamina biocultural",
+              "identidad pluricultural"
+            ],
+            "thinkingCriteria": [
+              "Sintetizar lo aprendido"
+            ],
+            "suggestedUse": "Cierre reflexivo."
+          }
+        ],
+        "notReadyFor": [
+          "summative-exam",
+          "full-games",
+          "actividades interactivas"
+        ]
+      },
+      {
+        "projectId": "etica-naturaleza-y-sociedades-1-ppa-1-pa3",
+        "projectTitle": "Las dimensiones del espacio geografico",
+        "teacherNotes": [
+          "Conviene que el grupo practique primero con ejemplos muy cercanos antes de pasar a definiciones mas finas.",
+          "El conversatorio funciona mejor si el moderador ayuda a comparar conceptos y a pedir ejemplos del entorno.",
+          "No hace falta cubrir todas las categorias con la misma profundidad; importa que el grupo logre usarlas con sentido."
+        ],
+        "confirmedConceptsToUse": [
+          "conversatorio interno",
+          "lugar",
+          "paisaje",
+          "region",
+          "territorio",
+          "localizacion",
+          "temporalidad"
+        ],
+        "suggestedConceptsToHandleCarefully": [
+          "poblacion afromexicana"
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "Cuando piensas en tu comunidad, que diferencias notas entre hablar de un lugar, un paisaje o un territorio?",
+            "conceptsActivated": [
+              "lugar",
+              "paisaje",
+              "territorio"
+            ],
+            "thinkingCriteria": [
+              "Distinguir categorias de analisis espacial"
+            ],
+            "suggestedUse": "Apertura del proyecto."
+          },
+          {
+            "type": "collective",
+            "prompt": "Que ejemplos del entorno ayudan mejor a explicar cambios, permanencias y relaciones dentro del espacio geografico?",
+            "conceptsActivated": [
+              "temporalidad",
+              "localizacion"
+            ],
+            "thinkingCriteria": [
+              "Relacionar categoria y ejemplo"
+            ],
+            "suggestedUse": "Dialogo de planeacion."
+          },
+          {
+            "type": "closing",
+            "prompt": "Despues del conversatorio, que comprendes mejor sobre la forma en que se organiza y se vive el espacio geografico de tu comunidad?",
+            "conceptsActivated": [
+              "conversatorio interno",
+              "region"
+            ],
+            "thinkingCriteria": [
+              "Sintetizar lo aprendido"
+            ],
+            "suggestedUse": "Cierre reflexivo."
+          }
+        ],
+        "notReadyFor": [
+          "summative-exam",
+          "full-games",
+          "actividades interactivas"
+        ]
+      }
+    ]
+  },
+  "validationAudit": {
+    "kind": "fine-validation-audit",
+    "source": "reports/caracoles/grade1-etica-ppa1-reading-bundle-audit.md",
+    "content": "# Auditoria de lectura docente\n\n## Alcance\n\n- Campo: 1° Etica, Naturaleza y Sociedades\n- Bloque: PPA 1\n- Titulo del PPA: Un mapa de nuestro mundo\n- Proyectos: PA1-PA3\n\n## Proyectos validados\n\n1. PA1 - El espacio geografico como producto social\n   - Producto final: Mapa local\n   - Paginas: Nuestro libro de proyectos Tomo I pp. 190-194\n2. PA2 - El patrimonio biocultural y su fortalecimiento\n   - Producto final: Lamina biocultural\n   - Paginas: Nuestro libro de proyectos Tomo I pp. 195-200\n3. PA3 - Las dimensiones del espacio geografico\n   - Producto final: Conversatorio interno\n   - Paginas: Nuestro libro de proyectos Tomo I pp. 201-204\n\n## Evidencia base usada\n\n- Presentacion y planeacion del PPA 1 en Nuestro libro de proyectos Tomo I pp. 188-189.\n- Posibilidades de uso ENS pp. 6-7 para fijar columna 1, 2 y 3 del bloque.\n- Conceptos y apoyos complementarios de Etica en pp. 46-76, 206-209 y 236-240.\n- Apoyo de Multiples Lenguajes confirmado por inferencia de columna para PA1: La flor nacional de Mexico, pp. 28-29.\n\n## Decisiones curriculares del bloque\n\n- El horizonte comun del PPA 1 se mantiene en estado pendiente como formula unica, pero el sentido del bloque se sostiene desde pp. 188-189.\n- Los tres productos quedaron confirmados desde Nuestro libro de proyectos y Posibilidades.\n- Los conceptos se normalizaron manualmente porque el indice automatico de Etica trae ruido editorial.\n- Las preguntas de resonancia y notas docentes se redactaron con base en los objetivos y problemas de cada proyecto.\n\n## Cautelas reales\n\n- El video detonador del PPA 1 y el recurso informatico del bloque siguen sin URL oficial confirmada.\n- La asignacion de apoyos por columna se sostiene por inferencia curricular documentada, no por OCR limpio de tabla.\n- No se marca el bloque como actividades interactivas ni se desbloquean juegos completos.\n"
+  }
+}

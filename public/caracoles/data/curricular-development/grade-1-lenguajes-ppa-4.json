@@ -1,0 +1,2057 @@
+{
+  "grade": "1",
+  "gradeLabel": "Primer grado",
+  "field": "Lenguajes",
+  "ppaNumber": "4",
+  "partialClassroomProject": "PPA 4",
+  "partialClassroomProjectTitle": "Nuestro patrimonio linguistico",
+  "source": "curricular-development-pilot",
+  "generatedAt": "2026-06-04T15:51:04.687Z",
+  "development": {
+    "grade": "1",
+    "gradeLabel": "Primer grado",
+    "field": "Lenguajes",
+    "bookVolume": "Tomo I",
+    "partialClassroomProject": "PPA 4",
+    "partialClassroomProjectTitle": "Nuestro patrimonio linguistico",
+    "generatedAt": "2026-06-01T06:22:26.607Z",
+    "notes": "Capa curricular aislada para 1o Lenguajes PPA 4.",
+    "sourcesUsed": [
+      "reports/caracoles/grade1-lenguajes-reading-teacher-hito-2-standard.md",
+      "content/caracoles/curricular-links/grade-1-project-source-links.json",
+      "content/caracoles/generated-private/grade-1/pages-index.full.json",
+      "Posibilidades de uso Lenguajes, primer grado, pp. 11-12",
+      "Nuestro libro de proyectos Tomo I, primer grado, pp. 82-98"
+    ],
+    "partialClassroomProjectContext": {
+      "expectationHorizon": {
+        "officialText": "",
+        "sourcePages": [
+          "Nuestro libro de proyectos Tomo I pp. 82-83",
+          "Posibilidades de uso Lenguajes pp. 11-12"
+        ],
+        "evidence": "El PPA 4 plantea valorar, preservar y visibilizar las lenguas regionales como patrimonio cultural vivo, pero no se localizo una formula oficial unica redactada como horizonte comun del bloque.",
+        "status": "pending"
+      },
+      "ppaDetonatingStrategy": {
+        "title": "Nuestro patrimonio linguistico",
+        "type": "video",
+        "url": "",
+        "urlStatus": "pending-url",
+        "source": "Nuestro libro de proyectos Tomo I p. 82 + Posibilidades de uso Lenguajes pp. 11-12",
+        "scope": "partial-classroom-project",
+        "youtubeSearchQuery": "Nuestro patrimonio linguistico Lenguajes 1er grado Telesecundaria"
+      },
+      "ppaDigitalResource": {
+        "title": "Recurso informatico del bloque PPA 4",
+        "reference": "bit.ly/3WQBMwg",
+        "status": "pending-validation",
+        "source": "Nuestro libro de proyectos Tomo I p. 98"
+      },
+      "validationStatus": {
+        "needsHumanReview": true,
+        "needsReviewReasons": [
+          "Las pp. 11-12 de Posibilidades pertenecen al mismo PPA 4; la segunda pagina continua apoyos y conceptos del mismo bloque.",
+          "La asignacion de apoyos de Multiples Lenguajes por PA se fija por inferencia curricular de izquierda a derecha, siguiendo el orden de productos del bloque.",
+          "El video del PPA 4 y el recurso digital con enlaces cortos se mantienen en cautela hasta localizar un destino oficial confirmado.",
+          "Las referencias a paginas de Ingles en la p. 12 de Posibilidades no se usan para validar conceptos del campo Lenguajes en este bloque."
+        ]
+      },
+      "columnValidation": {
+        "possibilitiesPagesReviewed": [
+          11,
+          12
+        ],
+        "confirmedAsPpa": true,
+        "note": "Las pp. 11-12 corresponden al bloque completo del PPA 4. La columna 1 se valida con Glosario del pasado, la 2 con Catalogo linguistico local y la 3 con Tarjetas reveladoras; la p. 12 conserva ese mismo orden para apoyos y nuevos conceptos.",
+        "columns": [
+          {
+            "columnIndex": 1,
+            "projectId": "lenguajes-1-ppa-4-pa10",
+            "projectTitle": "Lenguas cambiantes",
+            "finalProduct": "Glosario del pasado",
+            "supportMaterials": [
+              "Diccionario pictografico, pp. 122-123"
+            ]
+          },
+          {
+            "columnIndex": 2,
+            "projectId": "lenguajes-1-ppa-4-pa11",
+            "projectTitle": "Las palabras de mi comunidad!",
+            "finalProduct": "Catalogo linguistico local",
+            "supportMaterials": [
+              "13 de agosto en la memoria, pp. 8-9"
+            ]
+          },
+          {
+            "columnIndex": 3,
+            "projectId": "lenguajes-1-ppa-4-pa12",
+            "projectTitle": "Las lenguas indigenas estan vivas",
+            "finalProduct": "Tarjetas reveladoras",
+            "supportMaterials": [
+              "Harina de otro costal, pp. 72-73"
+            ]
+          }
+        ]
+      }
+    },
+    "academicProjects": [
+      {
+        "id": "lenguajes-1-ppa-4-pa10",
+        "projectId": "lenguajes-1-ppa-4-pa10",
+        "academicProjectNumber": 10,
+        "title": "Lenguas cambiantes",
+        "projectTitle": "Lenguas cambiantes",
+        "grade": "1",
+        "field": "Lenguajes",
+        "ppaNumber": "4",
+        "partialClassroomProject": "PPA 4",
+        "partialClassroomProjectTitle": "Nuestro patrimonio linguistico",
+        "bookVolume": "Tomo I",
+        "sourceValidation": {
+          "sourceStatus": "linked",
+          "possibilitiesPages": [
+            11,
+            12
+          ],
+          "possibilitiesMaterialId": "grade-1-posibilidades-pos-len-1",
+          "possibilitiesColumnIndex": 1,
+          "columnEvidence": "Bloque PPA 4 Nuestro patrimonio linguistico localizado en pp. 11-12; la columna 1 se confirma por el orden de productos, apoyos y continuidad del mismo bloque."
+        },
+        "finalProduct": {
+          "title": "Glosario del pasado",
+          "source": "Posibilidades de uso Lenguajes pp. 11-12 + Nuestro libro de proyectos Tomo I pp. 84-88",
+          "status": "confirmed"
+        },
+        "sourcePages": {
+          "nuestroLibroProyectos": [
+            {
+              "materialId": "grade-1-proyectos-nuestro-libro-de-proyectos-tomo-i-primer-grado",
+              "label": "Nuestro libro de proyectos Tomo I",
+              "startPage": 84,
+              "endPage": 88,
+              "pagesLabel": "pp. 84-88",
+              "topicTitle": "Proyecto academico 10",
+              "status": "confirmed-source"
+            }
+          ],
+          "conceptBook": [
+            {
+              "materialId": "grade-1-conceptos-lenguajes-primer-grado",
+              "label": "Lenguajes",
+              "startPage": 110,
+              "endPage": 115,
+              "pagesLabel": "pp. 110-115",
+              "topicTitle": "El legado linguistico de Mexico y America Latina",
+              "status": "confirmed-source"
+            },
+            {
+              "materialId": "grade-1-conceptos-lenguajes-primer-grado",
+              "label": "Lenguajes",
+              "startPage": 149,
+              "endPage": 156,
+              "pagesLabel": "pp. 149-156",
+              "topicTitle": "La diversidad linguistica de Mexico y America Latina",
+              "status": "confirmed-source"
+            }
+          ],
+          "multiplesLenguajes": [
+            {
+              "materialId": "grade-1-apoyo-muiltiples-lenguajes-primer-grado",
+              "label": "Multiples Lenguajes",
+              "startPage": 122,
+              "endPage": 123,
+              "pagesLabel": "pp. 122-123",
+              "topicTitle": "Diccionario pictografico",
+              "status": "confirmed-by-column-inference"
+            }
+          ],
+          "otherMaterials": [
+            {
+              "label": "Video PA 10: Glosario del pasado • Lenguajes • 1er grado",
+              "reference": "https://www.youtube.com/watch?v=cjusaY0PxPM",
+              "status": "confirmed"
+            },
+            {
+              "label": "Video PPA 4: 4. Nuestro patrimonio lingüístico • Lenguajes • 1er grado",
+              "reference": "https://www.youtube.com/watch?v=HUbNmm29XPM",
+              "status": "confirmed"
+            }
+          ]
+        },
+        "supportMaterials": [
+          {
+            "title": "Diccionario pictografico",
+            "kind": "Multiples Lenguajes",
+            "pages": "pp. 122-123",
+            "status": "confirmed-by-column-inference"
+          }
+        ],
+        "horizonOrPurpose": {
+          "status": "official",
+          "text": "Investigar palabras que actualmente ya no se usan para formar un glosario del pasado con el fin de compartirlas en comunidad y comprender el dinamismo de las lenguas.",
+          "source": "Nuestro libro de proyectos Tomo I p. 84"
+        },
+        "projectExpectationHorizon": {
+          "officialText": "Identificar palabras que se usan en la actualidad y que tienen origen en el pasado para compartir, mediante un glosario, la transformacion que ha tenido el lenguaje que se usa en la comunidad.",
+          "studentVersion": "Reconocer como cambian las palabras con el tiempo y por que recuperarlas ayuda a comprender el patrimonio linguistico de la comunidad.",
+          "sourcePages": [
+            "Nuestro libro de proyectos Tomo I p. 85"
+          ],
+          "evidence": "La etapa 3 y los objetivos del proyecto permiten fijar un horizonte de expectativas util para la lectura docente del PA.",
+          "status": "confirmed-from-project-book"
+        },
+        "detonatingStrategy": {
+          "title": "4. Nuestro patrimonio lingüístico • Lenguajes • 1er grado",
+          "text": "Video del Proyecto Parcial de Aula 4: 4. Nuestro patrimonio lingüístico • Lenguajes • 1er grado",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=HUbNmm29XPM",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "partial-classroom-project"
+        },
+        "academicProjectStrategy": {
+          "title": "Glosario del pasado • Lenguajes • 1er grado",
+          "text": "Video detonador del Proyecto Academico 10: Lenguas cambiantes",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=cjusaY0PxPM",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "academic-project"
+        },
+        "academicConcepts": [
+          {
+            "concept": "glosario del pasado",
+            "description": "Listado organizado de palabras antiguas o en desuso con su significado, origen y relacion con la memoria de la comunidad.",
+            "sourceBook": "Nuestro libro de proyectos Tomo I",
+            "sourcePages": [
+              84,
+              85,
+              86,
+              87,
+              88
+            ],
+            "sourcePagesLabel": "pp. 84-88",
+            "topicTitle": "Proyecto academico 10",
+            "status": "confirmed",
+            "reason": "Posibilidades y el proyecto lo fijan como producto central del PA 10 y explican como investigarlo y presentarlo.",
+            "pedagogicalUse": "Permite que el estudiantado vincule cambio linguistico, memoria familiar y patrimonio cultural mediante un producto situado.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "legado linguistico de Mexico y America Latina",
+            "description": "Herencia de palabras, saberes y formas de nombrar el mundo que pasa de una generacion a otra.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              110
+            ],
+            "sourcePagesLabel": "p. 110",
+            "topicTitle": "El legado linguistico de Mexico y America Latina",
+            "status": "confirmed",
+            "reason": "La p. 110 abre el bloque conceptual listado en Posibilidades para la columna del PA 10 y explica el valor de esa herencia.",
+            "pedagogicalUse": "Da base para que el glosario no se entienda como coleccion curiosa de palabras, sino como patrimonio vivo.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "componentes estructurales de algunas lenguas indigenas",
+            "description": "Partes y reglas con las que una lengua organiza sus palabras, significados y usos.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              111,
+              112
+            ],
+            "sourcePagesLabel": "pp. 111-112",
+            "topicTitle": "Componentes estructurales de algunas lenguas indigenas",
+            "status": "confirmed",
+            "reason": "Posibilidades lo enlaza de forma directa con este bloque y las pp. 111-112 ayudan a comprender por que las palabras cambian o se adaptan.",
+            "pedagogicalUse": "Sirve para interpretar el origen y la forma de palabras que aparecen en el glosario del pasado.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "expresiones basicas en lenguas indigenas",
+            "description": "Palabras y frases elementales que permiten reconocer saludos, agradecimientos y otras formas cotidianas de comunicacion.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              112,
+              113,
+              114,
+              115
+            ],
+            "sourcePagesLabel": "pp. 112-115",
+            "topicTitle": "Expresiones basicas en lenguas indigenas",
+            "status": "confirmed",
+            "reason": "Las pp. 112-115 desarrollan ejemplos concretos de expresiones heredadas y adaptadas, muy utiles para leer el cambio del lenguaje.",
+            "pedagogicalUse": "Ayuda a relacionar el glosario con usos reales de la lengua y no solo con definiciones abstractas.",
+            "activityReadiness": "usable-for-resonance"
+          },
+          {
+            "concept": "diversidad linguistica de Mexico y America Latina",
+            "description": "Convivencia de muchas lenguas y variantes en un mismo territorio o region cultural.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              149
+            ],
+            "sourcePagesLabel": "p. 149",
+            "topicTitle": "La diversidad linguistica de Mexico y America Latina",
+            "status": "confirmed",
+            "reason": "La p. 149 introduce el bloque citado en Posibilidades y fortalece la idea de que el cambio linguistico ocurre en contextos diversos.",
+            "pedagogicalUse": "Permite ubicar las palabras del glosario dentro de una red mas amplia de lenguas y variantes.",
+            "activityReadiness": "usable-for-resonance"
+          },
+          {
+            "concept": "diversidad linguistica",
+            "description": "Presencia de distintas lenguas, formas de habla y sistemas de expresion que conviven y se influyen entre si.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              150,
+              151,
+              152
+            ],
+            "sourcePagesLabel": "pp. 150-152",
+            "topicTitle": "La diversidad linguistica",
+            "status": "confirmed",
+            "reason": "Las pp. 150-152 explican el fenomeno con ejemplos de pueblos y lenguas vivas, justo en la linea del PA 10.",
+            "pedagogicalUse": "Ayuda a que el glosario se lea como parte de una diversidad viva y no como resto aislado del pasado.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "las lenguas mas y menos habladas de Mexico y America Latina",
+            "description": "Comparacion de la presencia y el numero de hablantes de distintas lenguas en la region.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              152,
+              153,
+              154
+            ],
+            "sourcePagesLabel": "pp. 152-154",
+            "topicTitle": "Las lenguas mas y menos habladas de Mexico y America Latina",
+            "status": "confirmed",
+            "reason": "Las pp. 152-154 ayudan a contextualizar por que algunas palabras permanecen y otras entran en desuso.",
+            "pedagogicalUse": "Conviene usarlo para discutir presencia, desplazamiento y cuidado de las lenguas en el territorio.",
+            "activityReadiness": "usable-for-resonance"
+          },
+          {
+            "concept": "revitalizacion cultural a traves de las lenguas indigenas",
+            "description": "Acciones para reanimar y fortalecer una cultura mediante el uso, difusion y recuperacion de sus lenguas.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              155,
+              156
+            ],
+            "sourcePagesLabel": "pp. 155-156",
+            "topicTitle": "La revitalizacion cultural a traves de las lenguas indigenas",
+            "status": "confirmed",
+            "reason": "Las pp. 155-156 muestran que recuperar palabras y ponerlas en circulacion es parte de una revitalizacion cultural real.",
+            "pedagogicalUse": "Vuelve visible que el glosario puede servir para conservar, reactivar y valorar palabras de origen comunitario.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "dinamismo de las lenguas",
+            "description": "Transformacion continua de las palabras, sus significados y sus usos a lo largo del tiempo.",
+            "sourceBook": "Nuestro libro de proyectos Tomo I",
+            "sourcePages": [
+              84,
+              87
+            ],
+            "sourcePagesLabel": "pp. 84 y 87",
+            "topicTitle": "Proyecto academico 10",
+            "status": "suggested",
+            "reason": "Aparece de forma explicita como fuente de consulta en el proyecto, pero no se localizo un encabezado identico en el libro del campo dentro de las paginas validadas del bloque.",
+            "pedagogicalUse": "Funciona bien como idea articuladora del proyecto, aunque conviene seguirla tratando como formulacion de trabajo y no como concepto cerrado del libro del campo.",
+            "activityReadiness": "usable-for-resonance"
+          },
+          {
+            "concept": "patrimonio cultural y educacion linguistica",
+            "description": "Relacion entre el cuidado de las palabras heredadas y su transmision en espacios familiares, escolares y comunitarios.",
+            "sourceBook": "Nuestro libro de proyectos Tomo I",
+            "sourcePages": [
+              87
+            ],
+            "sourcePagesLabel": "p. 87",
+            "topicTitle": "Distintas fuentes de consulta",
+            "status": "suggested",
+            "reason": "La expresion proviene de la lista de consulta del proyecto, pero requiere una correspondencia mas puntual en el libro del campo para subirla a confirmada.",
+            "pedagogicalUse": "Puede orientar la lectura docente del proyecto sin tratarse aun como concepto plenamente confirmado.",
+            "activityReadiness": "usable-for-resonance"
+          }
+        ],
+        "thinkingCriteria": [
+          "Relacionar palabras antiguas y palabras vigentes sin perder de vista su contexto comunitario.",
+          "Interpretar el cambio linguistico como proceso historico y cultural, no solo como curiosidad lexical.",
+          "Explicar por que recuperar palabras en desuso ayuda a cuidar el patrimonio linguistico."
+        ],
+        "validationStatus": {
+          "readinessLevel": "development-partial",
+          "readyForActivities": false,
+          "needsReviewReasons": [
+            "El bloque ya es usable como lectura docente, pero el video del PPA y el recurso digital siguen pendientes de validacion de destino final.",
+            "La asignacion de apoyos de Multiples Lenguajes por PA se sostiene por inferencia curricular de columnas y no por OCR limpio de la tabla.",
+            "Las referencias de Ingles que aparecen al final de la p. 12 de Posibilidades no se usan para confirmar conceptos del campo Lenguajes."
+          ]
+        },
+        "readinessLevel": "development-partial",
+        "readyForActivities": false,
+        "needsReviewReasons": [
+          "No mover a actividades interactivas ni desbloquear juegos completos."
+        ]
+      },
+      {
+        "id": "lenguajes-1-ppa-4-pa11",
+        "projectId": "lenguajes-1-ppa-4-pa11",
+        "academicProjectNumber": 11,
+        "title": "Las palabras de mi comunidad!",
+        "projectTitle": "Las palabras de mi comunidad!",
+        "grade": "1",
+        "field": "Lenguajes",
+        "ppaNumber": "4",
+        "partialClassroomProject": "PPA 4",
+        "partialClassroomProjectTitle": "Nuestro patrimonio linguistico",
+        "bookVolume": "Tomo I",
+        "sourceValidation": {
+          "sourceStatus": "linked",
+          "possibilitiesPages": [
+            11,
+            12
+          ],
+          "possibilitiesMaterialId": "grade-1-posibilidades-pos-len-1",
+          "possibilitiesColumnIndex": 2,
+          "columnEvidence": "Bloque PPA 4 Nuestro patrimonio linguistico localizado en pp. 11-12; la columna 2 se confirma por el orden de productos, apoyos y continuidad del mismo bloque."
+        },
+        "finalProduct": {
+          "title": "Catalogo linguistico local",
+          "source": "Posibilidades de uso Lenguajes pp. 11-12 + Nuestro libro de proyectos Tomo I pp. 89-92",
+          "status": "confirmed"
+        },
+        "sourcePages": {
+          "nuestroLibroProyectos": [
+            {
+              "materialId": "grade-1-proyectos-nuestro-libro-de-proyectos-tomo-i-primer-grado",
+              "label": "Nuestro libro de proyectos Tomo I",
+              "startPage": 89,
+              "endPage": 92,
+              "pagesLabel": "pp. 89-92",
+              "topicTitle": "Proyecto academico 11",
+              "status": "confirmed-source"
+            }
+          ],
+          "conceptBook": [
+            {
+              "materialId": "grade-1-conceptos-lenguajes-primer-grado",
+              "label": "Lenguajes",
+              "startPage": 116,
+              "endPage": 121,
+              "pagesLabel": "pp. 116-121",
+              "topicTitle": "Expresiones culturales de las comunidades indigenas",
+              "status": "confirmed-source"
+            },
+            {
+              "materialId": "grade-1-conceptos-lenguajes-primer-grado",
+              "label": "Lenguajes",
+              "startPage": 157,
+              "endPage": 163,
+              "pagesLabel": "pp. 157-163",
+              "topicTitle": "La diversidad cultural y linguistica de Mexico en peligro",
+              "status": "confirmed-source"
+            }
+          ],
+          "multiplesLenguajes": [
+            {
+              "materialId": "grade-1-apoyo-muiltiples-lenguajes-primer-grado",
+              "label": "Multiples Lenguajes",
+              "startPage": 8,
+              "endPage": 9,
+              "pagesLabel": "pp. 8-9",
+              "topicTitle": "13 de agosto en la memoria",
+              "status": "confirmed-by-column-inference"
+            }
+          ],
+          "otherMaterials": [
+            {
+              "label": "Video PA 11: Catálogo lingüístico local • Lenguajes • 1er grado",
+              "reference": "https://www.youtube.com/watch?v=39w7ycgr9zc",
+              "status": "confirmed"
+            },
+            {
+              "label": "Video PPA 4: 4. Nuestro patrimonio lingüístico • Lenguajes • 1er grado",
+              "reference": "https://www.youtube.com/watch?v=HUbNmm29XPM",
+              "status": "confirmed"
+            }
+          ]
+        },
+        "supportMaterials": [
+          {
+            "title": "13 de agosto en la memoria",
+            "kind": "Multiples Lenguajes",
+            "pages": "pp. 8-9",
+            "status": "confirmed-by-column-inference"
+          }
+        ],
+        "horizonOrPurpose": {
+          "status": "official",
+          "text": "Identificar palabras y expresiones que se usan para nombrar las cosas o los hechos del entorno inmediato y que son propias de su comunidad. Con ellas, elaborar un catalogo linguistico local para valorar la importancia de seguir reconociendo las palabras que tienen origen en el lugar donde viven.",
+          "source": "Nuestro libro de proyectos Tomo I p. 89"
+        },
+        "projectExpectationHorizon": {
+          "officialText": "Elaborar un catalogo linguistico local que permita resaltar palabras relacionadas con expresiones propias de la localidad y sus significados.",
+          "studentVersion": "Investigar palabras usadas en la comunidad para nombrar eventos, emociones, objetos, animales, plantas y expresiones artisticas, y organizarlas en un catalogo con sentido cultural.",
+          "sourcePages": [
+            "Nuestro libro de proyectos Tomo I p. 90"
+          ],
+          "evidence": "La etapa 3 y los objetivos del proyecto permiten fijar un horizonte de expectativas util para la lectura docente del PA.",
+          "status": "confirmed-from-project-book"
+        },
+        "detonatingStrategy": {
+          "title": "4. Nuestro patrimonio lingüístico • Lenguajes • 1er grado",
+          "text": "Video del Proyecto Parcial de Aula 4: 4. Nuestro patrimonio lingüístico • Lenguajes • 1er grado",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=HUbNmm29XPM",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "partial-classroom-project"
+        },
+        "academicProjectStrategy": {
+          "title": "Catálogo lingüístico local • Lenguajes • 1er grado",
+          "text": "Video detonador del Proyecto Academico 11: Las palabras de mi comunidad!",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=39w7ycgr9zc",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "academic-project"
+        },
+        "academicConcepts": [
+          {
+            "concept": "catalogo linguistico local",
+            "description": "Registro ordenado de palabras y expresiones de la comunidad con sus significados y su relacion con la vida local.",
+            "sourceBook": "Nuestro libro de proyectos Tomo I",
+            "sourcePages": [
+              89,
+              90,
+              91,
+              92
+            ],
+            "sourcePagesLabel": "pp. 89-92",
+            "topicTitle": "Proyecto academico 11",
+            "status": "confirmed",
+            "reason": "Posibilidades y el proyecto lo fijan como producto del PA 11 y explican su organizacion y finalidad.",
+            "pedagogicalUse": "Ayuda a convertir la memoria oral y los usos cotidianos de la lengua en un recurso de consulta compartido.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "expresiones culturales de las comunidades indigenas",
+            "description": "Manifestaciones en las que una comunidad expresa su identidad mediante lengua, arte, rituales, costumbres y signos.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              116
+            ],
+            "sourcePagesLabel": "p. 116",
+            "topicTitle": "Expresiones culturales de las comunidades indigenas",
+            "status": "confirmed",
+            "reason": "La p. 116 abre el bloque listado para esta columna y conecta directamente lengua, identidad y pertenencia.",
+            "pedagogicalUse": "Da sentido al catalogo al mostrar que las palabras de la comunidad forman parte de expresiones culturales mas amplias.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "costumbres y tradiciones en Mexico y America Latina",
+            "description": "Practicas heredadas que organizan celebraciones, actividades y saberes de los pueblos.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              117,
+              118
+            ],
+            "sourcePagesLabel": "pp. 117-118",
+            "topicTitle": "Las costumbres y tradiciones en Mexico y America Latina",
+            "status": "confirmed",
+            "reason": "Las pp. 117-118 ayudan a ubicar las palabras locales en fiestas, costumbres y actividades que les dan sentido.",
+            "pedagogicalUse": "Permite que el catalogo no se quede en definiciones sueltas y se vincule con experiencias reales de la comunidad.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "identidad colectiva",
+            "description": "Sentido de un nosotros construido por experiencias, valores, palabras y formas compartidas de vivir.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              119
+            ],
+            "sourcePagesLabel": "p. 119",
+            "topicTitle": "La identidad colectiva y las manifestaciones tradicionales",
+            "status": "confirmed",
+            "reason": "La p. 119 explica de forma directa por que la lengua y las practicas compartidas refuerzan la pertenencia.",
+            "pedagogicalUse": "Sirve para justificar por que las palabras del catalogo ayudan a reconocer identidad y comunidad.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "manifestaciones tradicionales",
+            "description": "Formas de vida, expresion y convivencia que una comunidad aprende, comparte y transforma con el tiempo.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              119,
+              120
+            ],
+            "sourcePagesLabel": "pp. 119-120",
+            "topicTitle": "La identidad colectiva y las manifestaciones tradicionales",
+            "status": "confirmed",
+            "reason": "Las pp. 119-120 enlazan identidad colectiva con manifestaciones concretas, justo el tipo de contexto que el catalogo necesita.",
+            "pedagogicalUse": "Ayuda a seleccionar palabras que si tengan raiz en la vida comunitaria y no solo en usos pasajeros.",
+            "activityReadiness": "usable-for-resonance"
+          },
+          {
+            "concept": "textos literarios sobre la ritualidad y las fiestas comunales",
+            "description": "Textos que conservan palabras, memorias y sentidos ligados a ceremonias, fiestas y ritos de la comunidad.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              120,
+              121
+            ],
+            "sourcePagesLabel": "pp. 120-121",
+            "topicTitle": "Textos literarios sobre la ritualidad y las fiestas comunales",
+            "status": "confirmed",
+            "reason": "Las pp. 120-121 muestran como las palabras de una comunidad viven en textos, cantos y memoria ritual.",
+            "pedagogicalUse": "Fortalece la idea de que el catalogo puede registrar palabras unidas a contextos festivos o ceremoniales.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "diversidad cultural y linguistica de Mexico en peligro",
+            "description": "Reconocimiento de que muchas lenguas y expresiones culturales enfrentan discriminacion, olvido y desaparicion.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              157
+            ],
+            "sourcePagesLabel": "p. 157",
+            "topicTitle": "La diversidad cultural y linguistica de Mexico en peligro",
+            "status": "confirmed",
+            "reason": "La p. 157 abre el segundo bloque de la columna y da sentido de urgencia a registrar palabras de la comunidad.",
+            "pedagogicalUse": "Ayuda a comprender el catalogo como accion de memoria y cuidado, no solo como tarea de clasificacion.",
+            "activityReadiness": "usable-for-resonance"
+          },
+          {
+            "concept": "relaciones interetnicas en la sociedad mexicana",
+            "description": "Interacciones entre grupos culturales y linguisticos que intercambian conocimientos, practicas e identidades.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              158,
+              159
+            ],
+            "sourcePagesLabel": "pp. 158-159",
+            "topicTitle": "Las relaciones interetnicas en la sociedad mexicana",
+            "status": "confirmed",
+            "reason": "Las pp. 158-159 explican como el contacto entre grupos tambien transforma palabras, identidades y formas de nombrar.",
+            "pedagogicalUse": "Sirve para interpretar por que el vocabulario local mezcla herencias, intercambios y adaptaciones.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "tradicion oral en lenguas indigenas",
+            "description": "Transmision hablada de relatos, saberes y expresiones que una comunidad conserva en la memoria colectiva.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              160,
+              161
+            ],
+            "sourcePagesLabel": "pp. 160-161",
+            "topicTitle": "La tradicion oral en lenguas indigenas",
+            "status": "confirmed",
+            "reason": "Las pp. 160-161 fortalecen de forma directa la idea de recuperar palabras desde la voz de la comunidad.",
+            "pedagogicalUse": "Conviene usarlo para que el catalogo nazca de entrevistas, conversaciones y escucha comunitaria.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "tradicion escrita en lenguas indigenas",
+            "description": "Registro visible de expresiones y saberes que permite conservar y compartir palabras entre generaciones.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              162,
+              163
+            ],
+            "sourcePagesLabel": "pp. 162-163",
+            "topicTitle": "La tradicion escrita en lenguas indigenas",
+            "status": "confirmed",
+            "reason": "Las pp. 162-163 ayudan a justificar el paso de la palabra comunitaria a un catalogo escrito y ordenado.",
+            "pedagogicalUse": "Aporta base para cuidar forma, registro y permanencia del catalogo como memoria escrita.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "patrimonio cultural",
+            "description": "Conjunto de saberes, costumbres, palabras y expresiones que una comunidad reconoce como herencia propia.",
+            "sourceBook": "Nuestro libro de proyectos Tomo I",
+            "sourcePages": [
+              89,
+              90,
+              91
+            ],
+            "sourcePagesLabel": "pp. 89-91",
+            "topicTitle": "Proyecto academico 11",
+            "status": "suggested",
+            "reason": "La idea aparece de forma insistente en el proyecto y dialoga con el libro del campo, pero no se localizo un encabezado identico dentro de las paginas validadas del bloque.",
+            "pedagogicalUse": "Funciona como eje articulador del proyecto, aunque conviene mantenerlo en cautela hasta localizar una fuente mas puntual.",
+            "activityReadiness": "usable-for-resonance"
+          },
+          {
+            "concept": "componentes de expresiones linguisticas, culturales y artisticas",
+            "description": "Rasgos que permiten reconocer como una comunidad construye formas propias de hablar, crear y representar su mundo.",
+            "sourceBook": "Nuestro libro de proyectos Tomo I",
+            "sourcePages": [
+              91
+            ],
+            "sourcePagesLabel": "p. 91",
+            "topicTitle": "Distintas fuentes de consulta",
+            "status": "suggested",
+            "reason": "La expresion proviene de la lista de consulta del proyecto, pero requiere una correspondencia exacta en el libro del campo para subirla a confirmada.",
+            "pedagogicalUse": "Puede orientar la lectura docente del catalogo sin tratarse aun como concepto plenamente confirmado.",
+            "activityReadiness": "usable-for-resonance"
+          }
+        ],
+        "thinkingCriteria": [
+          "Distinguir palabras y expresiones propias de la comunidad con base en su uso real y su sentido cultural.",
+          "Relacionar lengua, identidad colectiva y patrimonio cultural en ejemplos concretos del entorno.",
+          "Organizar un catalogo que sea claro, comprensible y util para otras personas de la comunidad."
+        ],
+        "validationStatus": {
+          "readinessLevel": "development-partial",
+          "readyForActivities": false,
+          "needsReviewReasons": [
+            "El bloque ya es usable como lectura docente, pero el video del PPA y el recurso digital siguen pendientes de validacion de destino final.",
+            "La asignacion de apoyos de Multiples Lenguajes por PA se sostiene por inferencia curricular de columnas y no por OCR limpio de la tabla.",
+            "Las referencias de Ingles que aparecen al final de la p. 12 de Posibilidades no se usan para confirmar conceptos del campo Lenguajes."
+          ]
+        },
+        "readinessLevel": "development-partial",
+        "readyForActivities": false,
+        "needsReviewReasons": [
+          "No mover a actividades interactivas ni desbloquear juegos completos."
+        ]
+      },
+      {
+        "id": "lenguajes-1-ppa-4-pa12",
+        "projectId": "lenguajes-1-ppa-4-pa12",
+        "academicProjectNumber": 12,
+        "title": "Las lenguas indigenas estan vivas",
+        "projectTitle": "Las lenguas indigenas estan vivas",
+        "grade": "1",
+        "field": "Lenguajes",
+        "ppaNumber": "4",
+        "partialClassroomProject": "PPA 4",
+        "partialClassroomProjectTitle": "Nuestro patrimonio linguistico",
+        "bookVolume": "Tomo I",
+        "sourceValidation": {
+          "sourceStatus": "linked",
+          "possibilitiesPages": [
+            11,
+            12
+          ],
+          "possibilitiesMaterialId": "grade-1-posibilidades-pos-len-1",
+          "possibilitiesColumnIndex": 3,
+          "columnEvidence": "Bloque PPA 4 Nuestro patrimonio linguistico localizado en pp. 11-12; la columna 3 se confirma por el orden de productos, apoyos y continuidad del mismo bloque."
+        },
+        "finalProduct": {
+          "title": "Tarjetas reveladoras",
+          "source": "Posibilidades de uso Lenguajes pp. 11-12 + Nuestro libro de proyectos Tomo I pp. 93-97",
+          "status": "confirmed"
+        },
+        "sourcePages": {
+          "nuestroLibroProyectos": [
+            {
+              "materialId": "grade-1-proyectos-nuestro-libro-de-proyectos-tomo-i-primer-grado",
+              "label": "Nuestro libro de proyectos Tomo I",
+              "startPage": 93,
+              "endPage": 97,
+              "pagesLabel": "pp. 93-97",
+              "topicTitle": "Proyecto academico 12",
+              "status": "confirmed-source"
+            }
+          ],
+          "conceptBook": [
+            {
+              "materialId": "grade-1-conceptos-lenguajes-primer-grado",
+              "label": "Lenguajes",
+              "startPage": 122,
+              "endPage": 126,
+              "pagesLabel": "pp. 122-126",
+              "topicTitle": "Las lenguas indigenas y sus recursos linguisticos",
+              "status": "confirmed-source"
+            },
+            {
+              "materialId": "grade-1-conceptos-lenguajes-primer-grado",
+              "label": "Lenguajes",
+              "startPage": 192,
+              "endPage": 198,
+              "pagesLabel": "pp. 192-198",
+              "topicTitle": "Trascendencia linguistica en Mexico y el mundo",
+              "status": "confirmed-source"
+            }
+          ],
+          "multiplesLenguajes": [
+            {
+              "materialId": "grade-1-apoyo-muiltiples-lenguajes-primer-grado",
+              "label": "Multiples Lenguajes",
+              "startPage": 72,
+              "endPage": 73,
+              "pagesLabel": "pp. 72-73",
+              "topicTitle": "Harina de otro costal",
+              "status": "confirmed-by-column-inference"
+            }
+          ],
+          "otherMaterials": [
+            {
+              "label": "Video PA 12: Tarjetas reveladoras • Lenguajes • 1er grado",
+              "reference": "https://www.youtube.com/watch?v=r0dFaWhsAxQ",
+              "status": "confirmed"
+            },
+            {
+              "label": "Video PPA 4: 4. Nuestro patrimonio lingüístico • Lenguajes • 1er grado",
+              "reference": "https://www.youtube.com/watch?v=HUbNmm29XPM",
+              "status": "confirmed"
+            }
+          ]
+        },
+        "supportMaterials": [
+          {
+            "title": "Harina de otro costal",
+            "kind": "Multiples Lenguajes",
+            "pages": "pp. 72-73",
+            "status": "confirmed-by-column-inference"
+          }
+        ],
+        "horizonOrPurpose": {
+          "status": "official",
+          "text": "Disenar tarjetas reveladoras que contengan informacion sobre neologismos, juegos de lenguajes, calo, jergas, prestamos linguisticos y extranjerismos que forman parte de alguna lengua indigena para entender los cambios en las lenguas y como es que forman parte del patrimonio cultural.",
+          "source": "Nuestro libro de proyectos Tomo I p. 93"
+        },
+        "projectExpectationHorizon": {
+          "officialText": "Disenar tarjetas reveladoras con la finalidad de analizar las opciones para mantener vivas las lenguas indigenas.",
+          "studentVersion": "Identificar la importancia de conservar las lenguas indigenas como parte del patrimonio cultural del pais y de la localidad en particular.",
+          "sourcePages": [
+            "Nuestro libro de proyectos Tomo I p. 94"
+          ],
+          "evidence": "La etapa 3 y los objetivos del proyecto permiten fijar un horizonte de expectativas util para la lectura docente del PA.",
+          "status": "confirmed-from-project-book"
+        },
+        "detonatingStrategy": {
+          "title": "4. Nuestro patrimonio lingüístico • Lenguajes • 1er grado",
+          "text": "Video del Proyecto Parcial de Aula 4: 4. Nuestro patrimonio lingüístico • Lenguajes • 1er grado",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=HUbNmm29XPM",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "partial-classroom-project"
+        },
+        "academicProjectStrategy": {
+          "title": "Tarjetas reveladoras • Lenguajes • 1er grado",
+          "text": "Video detonador del Proyecto Academico 12: Las lenguas indigenas estan vivas",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=r0dFaWhsAxQ",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "academic-project"
+        },
+        "academicConcepts": [
+          {
+            "concept": "tarjetas reveladoras",
+            "description": "Tarjetas breves que presentan un concepto, palabra o fenomeno linguistico con informacion clara y visualmente accesible.",
+            "sourceBook": "Nuestro libro de proyectos Tomo I",
+            "sourcePages": [
+              93,
+              94,
+              95,
+              96,
+              97
+            ],
+            "sourcePagesLabel": "pp. 93-97",
+            "topicTitle": "Proyecto academico 12",
+            "status": "confirmed",
+            "reason": "Posibilidades y el proyecto lo fijan como producto final del PA 12 y detallan como investigarlo y construirlo.",
+            "pedagogicalUse": "Permite sintetizar conceptos complejos sobre cambio linguistico y volverlos comunicables dentro y fuera del aula.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "lenguas indigenas y sus recursos linguisticos",
+            "description": "Conjunto de procedimientos y posibilidades que usan las lenguas indigenas para organizar sentidos y formas de expresion.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              122
+            ],
+            "sourcePagesLabel": "p. 122",
+            "topicTitle": "Las lenguas indigenas y sus recursos linguisticos",
+            "status": "confirmed",
+            "reason": "La p. 122 abre el bloque conceptual señalado en Posibilidades para la tercera columna del PPA 4.",
+            "pedagogicalUse": "Da marco para que las tarjetas expliquen la riqueza interna de las lenguas indigenas y no solo palabras sueltas.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "formas linguisticas",
+            "description": "Variaciones que toma una lengua segun contexto, grupos sociales, tiempo historico o contacto con otras lenguas.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              123,
+              124
+            ],
+            "sourcePagesLabel": "pp. 123-124",
+            "topicTitle": "Formas linguisticas",
+            "status": "confirmed",
+            "reason": "Las pp. 123-124 desarrollan de forma directa las variaciones que el proyecto necesita para explicar cambios en las lenguas.",
+            "pedagogicalUse": "Ayuda a clasificar con mayor precision lo que se mostrara en cada tarjeta reveladora.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "uso de las formas linguisticas en los textos orales y escritos",
+            "description": "Aplicacion concreta de variaciones y recursos de una lengua en expresiones habladas y escritas.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              124,
+              125,
+              126
+            ],
+            "sourcePagesLabel": "pp. 124-126",
+            "topicTitle": "Uso de las formas linguisticas en los textos orales y escritos",
+            "status": "confirmed",
+            "reason": "Las pp. 124-126 explican como estas variaciones funcionan en la practica y conectan con el formato breve de las tarjetas.",
+            "pedagogicalUse": "Permite mostrar ejemplos concretos y no solo definiciones teoricas sobre los fenomenos linguisticos.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "trascendencia linguistica en Mexico y el mundo",
+            "description": "Valor historico, social y cultural de las lenguas como patrimonio que atraviesa tiempos, territorios y generaciones.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              192
+            ],
+            "sourcePagesLabel": "p. 192",
+            "topicTitle": "Trascendencia linguistica en Mexico y el mundo",
+            "status": "confirmed",
+            "reason": "La p. 192 introduce el segundo bloque de esta columna y justifica por que las lenguas indigenas deben mantenerse vivas.",
+            "pedagogicalUse": "Ubica el proyecto en una defensa mas amplia del valor de las lenguas como patrimonio cultural.",
+            "activityReadiness": "usable-for-resonance"
+          },
+          {
+            "concept": "caracteristicas de las lenguas originarias de America Latina",
+            "description": "Rasgos compartidos y particulares que distinguen a las lenguas originarias como sistemas vivos de expresion.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              193,
+              194,
+              195
+            ],
+            "sourcePagesLabel": "pp. 193-195",
+            "topicTitle": "Caracteristicas de las lenguas originarias de America Latina",
+            "status": "confirmed",
+            "reason": "Las pp. 193-195 desarrollan el tipo de caracterizacion que el proyecto necesita para interpretar cambios sin prejuicios.",
+            "pedagogicalUse": "Da elementos para que el grupo vea las lenguas indigenas como sistemas complejos y no como formas inferiores de habla.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "formas de expresion comunes en lenguas indigenas",
+            "description": "Palabras, frases y usos frecuentes que facilitan comunicacion cotidiana, intercambio y reconocimiento cultural.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              196,
+              197,
+              198
+            ],
+            "sourcePagesLabel": "pp. 196-198",
+            "topicTitle": "Formas de expresion comunes en lenguas indigenas",
+            "status": "confirmed",
+            "reason": "Las pp. 196-198 ofrecen ejemplos y sentidos de expresiones comunes, muy utiles para las tarjetas reveladoras.",
+            "pedagogicalUse": "Permite mostrar que las lenguas indigenas siguen vivas en usos concretos y no solo en discursos abstractos.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "neologismos",
+            "description": "Palabras nuevas o sentidos nuevos que aparecen en una lengua para nombrar realidades cambiantes.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              124
+            ],
+            "sourcePagesLabel": "p. 124",
+            "topicTitle": "Uso de las formas linguisticas en los textos orales y escritos",
+            "status": "confirmed",
+            "reason": "La p. 124 los define de manera explicita dentro del bloque de formas linguisticas, en sintonia directa con el PA 12.",
+            "pedagogicalUse": "Conviene convertirlos en tarjetas porque permiten ver que las lenguas se adaptan y siguen activas.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "juegos de lenguaje",
+            "description": "Combinaciones de palabras, sonidos o letras que producen efectos expresivos, humoristicos, poeticos o educativos.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              125
+            ],
+            "sourcePagesLabel": "p. 125",
+            "topicTitle": "Los juegos de lenguaje",
+            "status": "confirmed",
+            "reason": "La p. 125 los desarrolla de forma explicita y coincide con lo que pide el proyecto al elaborar las tarjetas.",
+            "pedagogicalUse": "Sirve para que el estudiantado observe creatividad y vitalidad en el uso de la lengua.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "prestamos linguisticos",
+            "description": "Palabras o expresiones tomadas de otra lengua e incorporadas al habla cotidiana.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              125
+            ],
+            "sourcePagesLabel": "p. 125",
+            "topicTitle": "Los prestamos linguisticos",
+            "status": "confirmed",
+            "reason": "La p. 125 explica con claridad este fenomeno y lo ejemplifica en contacto entre lenguas.",
+            "pedagogicalUse": "Ayuda a demostrar que el contacto entre lenguas no las debilita necesariamente, tambien puede enriquecerlas.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "extranjerismos",
+            "description": "Palabras tomadas de otra lengua o idioma que pasan a usarse en una lengua diferente.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              124,
+              125
+            ],
+            "sourcePagesLabel": "pp. 124-125",
+            "topicTitle": "Uso de las formas linguisticas en los textos orales y escritos",
+            "status": "confirmed",
+            "reason": "Las pp. 124-125 los mencionan de forma explicita como tipo de neologismo y de contacto linguistico.",
+            "pedagogicalUse": "Funciona bien para contrastar origen, adaptacion y sentido en las tarjetas reveladoras.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "jergas",
+            "description": "Lenguajes especiales o no formales que usan determinados grupos para identificarse y comunicarse entre si.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              125
+            ],
+            "sourcePagesLabel": "p. 125",
+            "topicTitle": "La jerga",
+            "status": "confirmed",
+            "reason": "La p. 125 define la jerga y presenta sus tipos, lo que permite distinguirla de otros fenomenos cercanos.",
+            "pedagogicalUse": "Conviene usarla para afinar comparaciones entre formas de hablar y formas de pertenecer a un grupo.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "calo",
+            "description": "Modo particular de hablar asociado a determinados grupos, con vocabulario propio y sentido identitario.",
+            "sourceBook": "Nuestro libro de proyectos Tomo I",
+            "sourcePages": [
+              93,
+              94,
+              95
+            ],
+            "sourcePagesLabel": "pp. 93-95",
+            "topicTitle": "Proyecto academico 12",
+            "status": "suggested",
+            "reason": "El proyecto lo menciona de forma explicita, pero en las paginas validadas del libro del campo el desarrollo mas cercano aparece bajo jerga y variacion social, no con el mismo encabezado.",
+            "pedagogicalUse": "Puede trabajarse como extension o contraste con la jerga, pero conviene mantenerlo en cautela hasta encontrar una referencia exacta del libro del campo.",
+            "activityReadiness": "usable-for-resonance"
+          },
+          {
+            "concept": "dinamismo de las lenguas",
+            "description": "Capacidad que tiene una lengua para cambiar, adaptarse y seguir produciendo nuevos sentidos.",
+            "sourceBook": "Nuestro libro de proyectos Tomo I",
+            "sourcePages": [
+              93,
+              95
+            ],
+            "sourcePagesLabel": "pp. 93 y 95",
+            "topicTitle": "Proyecto academico 12",
+            "status": "suggested",
+            "reason": "Se nombra como fuente de consulta y atraviesa el sentido del proyecto, pero no aparece con encabezado exacto en las paginas del libro del campo validadas para esta columna.",
+            "pedagogicalUse": "Funciona como hilo de lectura docente del PA 12 sin presentarse aun como concepto plenamente confirmado del libro del campo.",
+            "activityReadiness": "usable-for-resonance"
+          }
+        ],
+        "thinkingCriteria": [
+          "Distinguir con claridad fenomenos como neologismo, jerga, prestamo y extranjerismo sin usarlos como sinonimos.",
+          "Relacionar los cambios linguisticos con la vitalidad y permanencia de las lenguas indigenas.",
+          "Explicar por que una lengua viva se transforma sin perder su valor como patrimonio cultural."
+        ],
+        "validationStatus": {
+          "readinessLevel": "development-partial",
+          "readyForActivities": false,
+          "needsReviewReasons": [
+            "El bloque ya es usable como lectura docente, pero el video del PPA y el recurso digital siguen pendientes de validacion de destino final.",
+            "La asignacion de apoyos de Multiples Lenguajes por PA se sostiene por inferencia curricular de columnas y no por OCR limpio de la tabla.",
+            "Las referencias de Ingles que aparecen al final de la p. 12 de Posibilidades no se usan para confirmar conceptos del campo Lenguajes."
+          ]
+        },
+        "readinessLevel": "development-partial",
+        "readyForActivities": false,
+        "needsReviewReasons": [
+          "No mover a actividades interactivas ni desbloquear juegos completos."
+        ]
+      }
+    ]
+  },
+  "conceptsValidation": {
+    "grade": "1",
+    "field": "Lenguajes",
+    "ppaNumber": "4",
+    "status": "concept-validation",
+    "generatedAt": "2026-06-01T06:22:26.607Z",
+    "entries": [
+      {
+        "projectId": "lenguajes-1-ppa-4-pa10",
+        "projectTitle": "Lenguas cambiantes",
+        "concept": "glosario del pasado",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Nuestro libro de proyectos Tomo I",
+          "pages": [
+            84,
+            85,
+            86,
+            87,
+            88
+          ],
+          "reason": "Posibilidades y el proyecto lo fijan como producto central del PA 10 y explican como investigarlo y presentarlo."
+        },
+        "pedagogicalUse": "Permite que el estudiantado vincule cambio linguistico, memoria familiar y patrimonio cultural mediante un producto situado.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-1-ppa-4-pa10",
+        "projectTitle": "Lenguas cambiantes",
+        "concept": "legado linguistico de Mexico y America Latina",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            110
+          ],
+          "reason": "La p. 110 abre el bloque conceptual listado en Posibilidades para la columna del PA 10 y explica el valor de esa herencia."
+        },
+        "pedagogicalUse": "Da base para que el glosario no se entienda como coleccion curiosa de palabras, sino como patrimonio vivo.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-1-ppa-4-pa10",
+        "projectTitle": "Lenguas cambiantes",
+        "concept": "componentes estructurales de algunas lenguas indigenas",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            111,
+            112
+          ],
+          "reason": "Posibilidades lo enlaza de forma directa con este bloque y las pp. 111-112 ayudan a comprender por que las palabras cambian o se adaptan."
+        },
+        "pedagogicalUse": "Sirve para interpretar el origen y la forma de palabras que aparecen en el glosario del pasado.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-1-ppa-4-pa10",
+        "projectTitle": "Lenguas cambiantes",
+        "concept": "expresiones basicas en lenguas indigenas",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            112,
+            113,
+            114,
+            115
+          ],
+          "reason": "Las pp. 112-115 desarrollan ejemplos concretos de expresiones heredadas y adaptadas, muy utiles para leer el cambio del lenguaje."
+        },
+        "pedagogicalUse": "Ayuda a relacionar el glosario con usos reales de la lengua y no solo con definiciones abstractas.",
+        "activityReadiness": "usable-for-resonance"
+      },
+      {
+        "projectId": "lenguajes-1-ppa-4-pa10",
+        "projectTitle": "Lenguas cambiantes",
+        "concept": "diversidad linguistica de Mexico y America Latina",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            149
+          ],
+          "reason": "La p. 149 introduce el bloque citado en Posibilidades y fortalece la idea de que el cambio linguistico ocurre en contextos diversos."
+        },
+        "pedagogicalUse": "Permite ubicar las palabras del glosario dentro de una red mas amplia de lenguas y variantes.",
+        "activityReadiness": "usable-for-resonance"
+      },
+      {
+        "projectId": "lenguajes-1-ppa-4-pa10",
+        "projectTitle": "Lenguas cambiantes",
+        "concept": "diversidad linguistica",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            150,
+            151,
+            152
+          ],
+          "reason": "Las pp. 150-152 explican el fenomeno con ejemplos de pueblos y lenguas vivas, justo en la linea del PA 10."
+        },
+        "pedagogicalUse": "Ayuda a que el glosario se lea como parte de una diversidad viva y no como resto aislado del pasado.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-1-ppa-4-pa10",
+        "projectTitle": "Lenguas cambiantes",
+        "concept": "las lenguas mas y menos habladas de Mexico y America Latina",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            152,
+            153,
+            154
+          ],
+          "reason": "Las pp. 152-154 ayudan a contextualizar por que algunas palabras permanecen y otras entran en desuso."
+        },
+        "pedagogicalUse": "Conviene usarlo para discutir presencia, desplazamiento y cuidado de las lenguas en el territorio.",
+        "activityReadiness": "usable-for-resonance"
+      },
+      {
+        "projectId": "lenguajes-1-ppa-4-pa10",
+        "projectTitle": "Lenguas cambiantes",
+        "concept": "revitalizacion cultural a traves de las lenguas indigenas",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            155,
+            156
+          ],
+          "reason": "Las pp. 155-156 muestran que recuperar palabras y ponerlas en circulacion es parte de una revitalizacion cultural real."
+        },
+        "pedagogicalUse": "Vuelve visible que el glosario puede servir para conservar, reactivar y valorar palabras de origen comunitario.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-1-ppa-4-pa10",
+        "projectTitle": "Lenguas cambiantes",
+        "concept": "dinamismo de las lenguas",
+        "status": "suggested",
+        "evidence": {
+          "sourceBook": "Nuestro libro de proyectos Tomo I",
+          "pages": [
+            84,
+            87
+          ],
+          "reason": "Aparece de forma explicita como fuente de consulta en el proyecto, pero no se localizo un encabezado identico en el libro del campo dentro de las paginas validadas del bloque."
+        },
+        "pedagogicalUse": "Funciona bien como idea articuladora del proyecto, aunque conviene seguirla tratando como formulacion de trabajo y no como concepto cerrado del libro del campo.",
+        "activityReadiness": "usable-for-resonance"
+      },
+      {
+        "projectId": "lenguajes-1-ppa-4-pa10",
+        "projectTitle": "Lenguas cambiantes",
+        "concept": "patrimonio cultural y educacion linguistica",
+        "status": "suggested",
+        "evidence": {
+          "sourceBook": "Nuestro libro de proyectos Tomo I",
+          "pages": [
+            87
+          ],
+          "reason": "La expresion proviene de la lista de consulta del proyecto, pero requiere una correspondencia mas puntual en el libro del campo para subirla a confirmada."
+        },
+        "pedagogicalUse": "Puede orientar la lectura docente del proyecto sin tratarse aun como concepto plenamente confirmado.",
+        "activityReadiness": "usable-for-resonance"
+      },
+      {
+        "projectId": "lenguajes-1-ppa-4-pa11",
+        "projectTitle": "Las palabras de mi comunidad!",
+        "concept": "catalogo linguistico local",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Nuestro libro de proyectos Tomo I",
+          "pages": [
+            89,
+            90,
+            91,
+            92
+          ],
+          "reason": "Posibilidades y el proyecto lo fijan como producto del PA 11 y explican su organizacion y finalidad."
+        },
+        "pedagogicalUse": "Ayuda a convertir la memoria oral y los usos cotidianos de la lengua en un recurso de consulta compartido.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-1-ppa-4-pa11",
+        "projectTitle": "Las palabras de mi comunidad!",
+        "concept": "expresiones culturales de las comunidades indigenas",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            116
+          ],
+          "reason": "La p. 116 abre el bloque listado para esta columna y conecta directamente lengua, identidad y pertenencia."
+        },
+        "pedagogicalUse": "Da sentido al catalogo al mostrar que las palabras de la comunidad forman parte de expresiones culturales mas amplias.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-1-ppa-4-pa11",
+        "projectTitle": "Las palabras de mi comunidad!",
+        "concept": "costumbres y tradiciones en Mexico y America Latina",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            117,
+            118
+          ],
+          "reason": "Las pp. 117-118 ayudan a ubicar las palabras locales en fiestas, costumbres y actividades que les dan sentido."
+        },
+        "pedagogicalUse": "Permite que el catalogo no se quede en definiciones sueltas y se vincule con experiencias reales de la comunidad.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-1-ppa-4-pa11",
+        "projectTitle": "Las palabras de mi comunidad!",
+        "concept": "identidad colectiva",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            119
+          ],
+          "reason": "La p. 119 explica de forma directa por que la lengua y las practicas compartidas refuerzan la pertenencia."
+        },
+        "pedagogicalUse": "Sirve para justificar por que las palabras del catalogo ayudan a reconocer identidad y comunidad.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-1-ppa-4-pa11",
+        "projectTitle": "Las palabras de mi comunidad!",
+        "concept": "manifestaciones tradicionales",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            119,
+            120
+          ],
+          "reason": "Las pp. 119-120 enlazan identidad colectiva con manifestaciones concretas, justo el tipo de contexto que el catalogo necesita."
+        },
+        "pedagogicalUse": "Ayuda a seleccionar palabras que si tengan raiz en la vida comunitaria y no solo en usos pasajeros.",
+        "activityReadiness": "usable-for-resonance"
+      },
+      {
+        "projectId": "lenguajes-1-ppa-4-pa11",
+        "projectTitle": "Las palabras de mi comunidad!",
+        "concept": "textos literarios sobre la ritualidad y las fiestas comunales",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            120,
+            121
+          ],
+          "reason": "Las pp. 120-121 muestran como las palabras de una comunidad viven en textos, cantos y memoria ritual."
+        },
+        "pedagogicalUse": "Fortalece la idea de que el catalogo puede registrar palabras unidas a contextos festivos o ceremoniales.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-1-ppa-4-pa11",
+        "projectTitle": "Las palabras de mi comunidad!",
+        "concept": "diversidad cultural y linguistica de Mexico en peligro",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            157
+          ],
+          "reason": "La p. 157 abre el segundo bloque de la columna y da sentido de urgencia a registrar palabras de la comunidad."
+        },
+        "pedagogicalUse": "Ayuda a comprender el catalogo como accion de memoria y cuidado, no solo como tarea de clasificacion.",
+        "activityReadiness": "usable-for-resonance"
+      },
+      {
+        "projectId": "lenguajes-1-ppa-4-pa11",
+        "projectTitle": "Las palabras de mi comunidad!",
+        "concept": "relaciones interetnicas en la sociedad mexicana",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            158,
+            159
+          ],
+          "reason": "Las pp. 158-159 explican como el contacto entre grupos tambien transforma palabras, identidades y formas de nombrar."
+        },
+        "pedagogicalUse": "Sirve para interpretar por que el vocabulario local mezcla herencias, intercambios y adaptaciones.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-1-ppa-4-pa11",
+        "projectTitle": "Las palabras de mi comunidad!",
+        "concept": "tradicion oral en lenguas indigenas",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            160,
+            161
+          ],
+          "reason": "Las pp. 160-161 fortalecen de forma directa la idea de recuperar palabras desde la voz de la comunidad."
+        },
+        "pedagogicalUse": "Conviene usarlo para que el catalogo nazca de entrevistas, conversaciones y escucha comunitaria.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-1-ppa-4-pa11",
+        "projectTitle": "Las palabras de mi comunidad!",
+        "concept": "tradicion escrita en lenguas indigenas",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            162,
+            163
+          ],
+          "reason": "Las pp. 162-163 ayudan a justificar el paso de la palabra comunitaria a un catalogo escrito y ordenado."
+        },
+        "pedagogicalUse": "Aporta base para cuidar forma, registro y permanencia del catalogo como memoria escrita.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-1-ppa-4-pa11",
+        "projectTitle": "Las palabras de mi comunidad!",
+        "concept": "patrimonio cultural",
+        "status": "suggested",
+        "evidence": {
+          "sourceBook": "Nuestro libro de proyectos Tomo I",
+          "pages": [
+            89,
+            90,
+            91
+          ],
+          "reason": "La idea aparece de forma insistente en el proyecto y dialoga con el libro del campo, pero no se localizo un encabezado identico dentro de las paginas validadas del bloque."
+        },
+        "pedagogicalUse": "Funciona como eje articulador del proyecto, aunque conviene mantenerlo en cautela hasta localizar una fuente mas puntual.",
+        "activityReadiness": "usable-for-resonance"
+      },
+      {
+        "projectId": "lenguajes-1-ppa-4-pa11",
+        "projectTitle": "Las palabras de mi comunidad!",
+        "concept": "componentes de expresiones linguisticas, culturales y artisticas",
+        "status": "suggested",
+        "evidence": {
+          "sourceBook": "Nuestro libro de proyectos Tomo I",
+          "pages": [
+            91
+          ],
+          "reason": "La expresion proviene de la lista de consulta del proyecto, pero requiere una correspondencia exacta en el libro del campo para subirla a confirmada."
+        },
+        "pedagogicalUse": "Puede orientar la lectura docente del catalogo sin tratarse aun como concepto plenamente confirmado.",
+        "activityReadiness": "usable-for-resonance"
+      },
+      {
+        "projectId": "lenguajes-1-ppa-4-pa12",
+        "projectTitle": "Las lenguas indigenas estan vivas",
+        "concept": "tarjetas reveladoras",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Nuestro libro de proyectos Tomo I",
+          "pages": [
+            93,
+            94,
+            95,
+            96,
+            97
+          ],
+          "reason": "Posibilidades y el proyecto lo fijan como producto final del PA 12 y detallan como investigarlo y construirlo."
+        },
+        "pedagogicalUse": "Permite sintetizar conceptos complejos sobre cambio linguistico y volverlos comunicables dentro y fuera del aula.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-1-ppa-4-pa12",
+        "projectTitle": "Las lenguas indigenas estan vivas",
+        "concept": "lenguas indigenas y sus recursos linguisticos",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            122
+          ],
+          "reason": "La p. 122 abre el bloque conceptual señalado en Posibilidades para la tercera columna del PPA 4."
+        },
+        "pedagogicalUse": "Da marco para que las tarjetas expliquen la riqueza interna de las lenguas indigenas y no solo palabras sueltas.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-1-ppa-4-pa12",
+        "projectTitle": "Las lenguas indigenas estan vivas",
+        "concept": "formas linguisticas",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            123,
+            124
+          ],
+          "reason": "Las pp. 123-124 desarrollan de forma directa las variaciones que el proyecto necesita para explicar cambios en las lenguas."
+        },
+        "pedagogicalUse": "Ayuda a clasificar con mayor precision lo que se mostrara en cada tarjeta reveladora.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-1-ppa-4-pa12",
+        "projectTitle": "Las lenguas indigenas estan vivas",
+        "concept": "uso de las formas linguisticas en los textos orales y escritos",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            124,
+            125,
+            126
+          ],
+          "reason": "Las pp. 124-126 explican como estas variaciones funcionan en la practica y conectan con el formato breve de las tarjetas."
+        },
+        "pedagogicalUse": "Permite mostrar ejemplos concretos y no solo definiciones teoricas sobre los fenomenos linguisticos.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-1-ppa-4-pa12",
+        "projectTitle": "Las lenguas indigenas estan vivas",
+        "concept": "trascendencia linguistica en Mexico y el mundo",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            192
+          ],
+          "reason": "La p. 192 introduce el segundo bloque de esta columna y justifica por que las lenguas indigenas deben mantenerse vivas."
+        },
+        "pedagogicalUse": "Ubica el proyecto en una defensa mas amplia del valor de las lenguas como patrimonio cultural.",
+        "activityReadiness": "usable-for-resonance"
+      },
+      {
+        "projectId": "lenguajes-1-ppa-4-pa12",
+        "projectTitle": "Las lenguas indigenas estan vivas",
+        "concept": "caracteristicas de las lenguas originarias de America Latina",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            193,
+            194,
+            195
+          ],
+          "reason": "Las pp. 193-195 desarrollan el tipo de caracterizacion que el proyecto necesita para interpretar cambios sin prejuicios."
+        },
+        "pedagogicalUse": "Da elementos para que el grupo vea las lenguas indigenas como sistemas complejos y no como formas inferiores de habla.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-1-ppa-4-pa12",
+        "projectTitle": "Las lenguas indigenas estan vivas",
+        "concept": "formas de expresion comunes en lenguas indigenas",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            196,
+            197,
+            198
+          ],
+          "reason": "Las pp. 196-198 ofrecen ejemplos y sentidos de expresiones comunes, muy utiles para las tarjetas reveladoras."
+        },
+        "pedagogicalUse": "Permite mostrar que las lenguas indigenas siguen vivas en usos concretos y no solo en discursos abstractos.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-1-ppa-4-pa12",
+        "projectTitle": "Las lenguas indigenas estan vivas",
+        "concept": "neologismos",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            124
+          ],
+          "reason": "La p. 124 los define de manera explicita dentro del bloque de formas linguisticas, en sintonia directa con el PA 12."
+        },
+        "pedagogicalUse": "Conviene convertirlos en tarjetas porque permiten ver que las lenguas se adaptan y siguen activas.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-1-ppa-4-pa12",
+        "projectTitle": "Las lenguas indigenas estan vivas",
+        "concept": "juegos de lenguaje",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            125
+          ],
+          "reason": "La p. 125 los desarrolla de forma explicita y coincide con lo que pide el proyecto al elaborar las tarjetas."
+        },
+        "pedagogicalUse": "Sirve para que el estudiantado observe creatividad y vitalidad en el uso de la lengua.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-1-ppa-4-pa12",
+        "projectTitle": "Las lenguas indigenas estan vivas",
+        "concept": "prestamos linguisticos",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            125
+          ],
+          "reason": "La p. 125 explica con claridad este fenomeno y lo ejemplifica en contacto entre lenguas."
+        },
+        "pedagogicalUse": "Ayuda a demostrar que el contacto entre lenguas no las debilita necesariamente, tambien puede enriquecerlas.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-1-ppa-4-pa12",
+        "projectTitle": "Las lenguas indigenas estan vivas",
+        "concept": "extranjerismos",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            124,
+            125
+          ],
+          "reason": "Las pp. 124-125 los mencionan de forma explicita como tipo de neologismo y de contacto linguistico."
+        },
+        "pedagogicalUse": "Funciona bien para contrastar origen, adaptacion y sentido en las tarjetas reveladoras.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-1-ppa-4-pa12",
+        "projectTitle": "Las lenguas indigenas estan vivas",
+        "concept": "jergas",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            125
+          ],
+          "reason": "La p. 125 define la jerga y presenta sus tipos, lo que permite distinguirla de otros fenomenos cercanos."
+        },
+        "pedagogicalUse": "Conviene usarla para afinar comparaciones entre formas de hablar y formas de pertenecer a un grupo.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-1-ppa-4-pa12",
+        "projectTitle": "Las lenguas indigenas estan vivas",
+        "concept": "calo",
+        "status": "suggested",
+        "evidence": {
+          "sourceBook": "Nuestro libro de proyectos Tomo I",
+          "pages": [
+            93,
+            94,
+            95
+          ],
+          "reason": "El proyecto lo menciona de forma explicita, pero en las paginas validadas del libro del campo el desarrollo mas cercano aparece bajo jerga y variacion social, no con el mismo encabezado."
+        },
+        "pedagogicalUse": "Puede trabajarse como extension o contraste con la jerga, pero conviene mantenerlo en cautela hasta encontrar una referencia exacta del libro del campo.",
+        "activityReadiness": "usable-for-resonance"
+      },
+      {
+        "projectId": "lenguajes-1-ppa-4-pa12",
+        "projectTitle": "Las lenguas indigenas estan vivas",
+        "concept": "dinamismo de las lenguas",
+        "status": "suggested",
+        "evidence": {
+          "sourceBook": "Nuestro libro de proyectos Tomo I",
+          "pages": [
+            93,
+            95
+          ],
+          "reason": "Se nombra como fuente de consulta y atraviesa el sentido del proyecto, pero no aparece con encabezado exacto en las paginas del libro del campo validadas para esta columna."
+        },
+        "pedagogicalUse": "Funciona como hilo de lectura docente del PA 12 sin presentarse aun como concepto plenamente confirmado del libro del campo.",
+        "activityReadiness": "usable-for-resonance"
+      }
+    ]
+  },
+  "pedagogicalArticulation": {
+    "grade": "1",
+    "field": "Lenguajes",
+    "ppaNumber": "4",
+    "status": "teacher-orientation",
+    "officialHorizonStatus": "pending",
+    "situatedPedagogicalOrientation": "El PPA 4 puede trabajarse como una ruta para valorar el patrimonio linguistico desde tres movimientos complementarios. PA10 recupera palabras en desuso y muestra que las lenguas cambian con la historia; PA11 reconoce las palabras y expresiones que siguen nombrando la vida de la comunidad en el presente; y PA12 muestra, mediante tarjetas reveladoras, que las lenguas indigenas permanecen vivas porque se transforman, reciben influencias y siguen produciendo nuevas formas de expresion. El hilo comun no es solo registrar palabras, sino comprender que una comunidad se reconoce, se comunica y se preserva tambien a traves de su lenguaje.",
+    "integratingQuestions": [
+      "Que cambia cuando una comunidad recupera palabras del pasado, nombra su presente y reconoce que sus lenguas siguen vivas?",
+      "Relacionar memoria linguistica, vocabulario comunitario y transformacion cultural en experiencias concretas del territorio.",
+      "Valorar el patrimonio linguistico como herencia viva y no como resto inmovil del pasado."
+    ],
+    "projectConnections": [
+      {
+        "projectId": "lenguajes-1-ppa-4-pa10",
+        "projectTitle": "Lenguas cambiantes",
+        "roleInPpa": "Glosario comunitario sobre palabras en desuso, origen y transformacion del lenguaje",
+        "confirmedConcepts": [
+          "glosario del pasado",
+          "legado linguistico de Mexico y America Latina",
+          "componentes estructurales de algunas lenguas indigenas",
+          "expresiones basicas en lenguas indigenas",
+          "diversidad linguistica de Mexico y America Latina",
+          "diversidad linguistica",
+          "las lenguas mas y menos habladas de Mexico y America Latina",
+          "revitalizacion cultural a traves de las lenguas indigenas"
+        ],
+        "suggestedConcepts": [
+          "dinamismo de las lenguas",
+          "patrimonio cultural y educacion linguistica"
+        ],
+        "pedagogicalUse": "Conviene trabajar el glosario como una investigacion sobre memoria y cambio linguistico para que el estudiantado comprenda que las lenguas se transforman sin dejar de ser patrimonio cultural."
+      },
+      {
+        "projectId": "lenguajes-1-ppa-4-pa11",
+        "projectTitle": "Las palabras de mi comunidad!",
+        "roleInPpa": "Catalogo de palabras y expresiones que nombran la vida cotidiana de la comunidad",
+        "confirmedConcepts": [
+          "catalogo linguistico local",
+          "expresiones culturales de las comunidades indigenas",
+          "costumbres y tradiciones en Mexico y America Latina",
+          "identidad colectiva",
+          "manifestaciones tradicionales",
+          "textos literarios sobre la ritualidad y las fiestas comunales",
+          "diversidad cultural y linguistica de Mexico en peligro",
+          "relaciones interetnicas en la sociedad mexicana",
+          "tradicion oral en lenguas indigenas",
+          "tradicion escrita en lenguas indigenas"
+        ],
+        "suggestedConcepts": [
+          "patrimonio cultural",
+          "componentes de expresiones linguisticas, culturales y artisticas"
+        ],
+        "pedagogicalUse": "Conviene trabajar el catalogo como una cartografia afectiva y cultural de la comunidad, donde las palabras se leen como huellas de pertenencia y memoria."
+      },
+      {
+        "projectId": "lenguajes-1-ppa-4-pa12",
+        "projectTitle": "Las lenguas indigenas estan vivas",
+        "roleInPpa": "Tarjetas para explicar cambios linguisticos y vitalidad de las lenguas indigenas",
+        "confirmedConcepts": [
+          "tarjetas reveladoras",
+          "lenguas indigenas y sus recursos linguisticos",
+          "formas linguisticas",
+          "uso de las formas linguisticas en los textos orales y escritos",
+          "trascendencia linguistica en Mexico y el mundo",
+          "caracteristicas de las lenguas originarias de America Latina",
+          "formas de expresion comunes en lenguas indigenas",
+          "neologismos",
+          "juegos de lenguaje",
+          "prestamos linguisticos",
+          "extranjerismos",
+          "jergas"
+        ],
+        "suggestedConcepts": [
+          "calo",
+          "dinamismo de las lenguas"
+        ],
+        "pedagogicalUse": "Conviene trabajar las tarjetas como una manera clara de mostrar que las lenguas indigenas permanecen vivas porque cambian, circulan y siguen generando nuevas formas de expresion."
+      }
+    ],
+    "criteriaOfThought": [
+      {
+        "criterion": "Relacionar memoria linguistica, vocabulario comunitario y transformacion cultural en experiencias concretas del territorio.",
+        "status": "suggested"
+      },
+      {
+        "criterion": "Valorar el patrimonio linguistico como herencia viva y no como resto inmovil del pasado.",
+        "status": "suggested"
+      }
+    ],
+    "possibleResonanceQuestion": "Que cambia cuando una comunidad recupera palabras del pasado, nombra su presente y reconoce que sus lenguas siguen vivas?",
+    "teacherNotes": [
+      "No reducir el PPA 4 a listas de palabras sueltas: los tres proyectos trabajan memoria, uso actual y vitalidad de las lenguas.",
+      "Las pp. 11-12 de Posibilidades forman un solo bloque; la segunda pagina no corresponde a otro PPA.",
+      "Los apoyos de Multiples Lenguajes se asignan por inferencia de columna y continuidad del bloque, por eso conviene mantener esa nota en la documentacion.",
+      "Las referencias a contenidos de Ingles en la p. 12 no deben mezclarse con la validacion de conceptos del campo Lenguajes para este bloque."
+    ],
+    "notReadyFor": [
+      "actividades interactivas",
+      "full-games",
+      "summative-exam"
+    ]
+  },
+  "teacherNotesAndResonances": {
+    "grade": "1",
+    "field": "Lenguajes",
+    "ppaNumber": "4",
+    "status": "teacher-orientation",
+    "officialHorizonStatus": "pending",
+    "ppaIntegratingResonance": "Que cambia cuando una comunidad recupera palabras del pasado, nombra su presente y reconoce que sus lenguas siguen vivas?",
+    "didacticWarnings": [
+      "No convertir el patrimonio linguistico en museo de palabras; importa mostrar que las lenguas se heredan, cambian y siguen activas.",
+      "Los enlaces cortos del bloque se mantienen como cautela y no deben tratarse como recursos ya validados.",
+      "La p. 12 de Posibilidades continua el mismo PPA 4; los apoyos se distribuyen por inferencia curricular documentada.",
+      "Las paginas de Ingles que aparecen al final de la p. 12 no se usan para validar este bloque de Lenguajes."
+    ],
+    "communityPrompts": {
+      "communityKnowledge": [
+        "Que palabras, expresiones o modos de nombrar consideran propios de la comunidad y por que vale la pena conservarlos?",
+        "Que ejemplos muestran que las lenguas de su entorno cambian, pero no por eso dejan de estar vivas?"
+      ],
+      "families": [
+        "Que palabras ya casi no usan las generaciones jovenes, pero siguen teniendo valor para las personas mayores?",
+        "Que palabras o expresiones familiares sienten que representan mejor la historia o la identidad del lugar donde viven?"
+      ],
+      "territoryLanguageMemory": [
+        "Que palabras del territorio nombran oficios, fiestas, objetos, plantas, animales o emociones de manera especial?",
+        "Que transformaciones del lenguaje observan entre la forma de hablar de antes y la de ahora?"
+      ],
+      "productCommunityConnection": [
+        "Como pueden circular el glosario, el catalogo y las tarjetas dentro o fuera del aula para fortalecer el reconocimiento del patrimonio linguistico local?"
+      ]
+    },
+    "suggestedThinkingCriteria": [
+      "Relacionar memoria linguistica, vocabulario comunitario y transformacion cultural en experiencias concretas del territorio.",
+      "Valorar el patrimonio linguistico como herencia viva y no como resto inmovil del pasado."
+    ],
+    "projects": [
+      {
+        "projectId": "lenguajes-1-ppa-4-pa10",
+        "projectTitle": "Lenguas cambiantes",
+        "teacherNotes": [
+          "Conviene que el glosario parta de voces familiares o comunitarias y no solo de busquedas de diccionario.",
+          "Diccionario pictografico puede ayudar a pensar como se registra el sentido de una palabra mas alla de una definicion plana.",
+          "No toda palabra en desuso debe tratarse como palabra muerta; muchas se transforman, cambian de region o de generacion.",
+          "El proyecto gana fuerza cuando el grupo conversa con personas mayores sobre cuando, como y por que dejaron de usarse ciertas palabras."
+        ],
+        "confirmedConceptsToUse": [
+          "glosario del pasado",
+          "legado linguistico de Mexico y America Latina",
+          "componentes estructurales de algunas lenguas indigenas",
+          "expresiones basicas en lenguas indigenas",
+          "diversidad linguistica de Mexico y America Latina",
+          "diversidad linguistica",
+          "las lenguas mas y menos habladas de Mexico y America Latina",
+          "revitalizacion cultural a traves de las lenguas indigenas"
+        ],
+        "suggestedConceptsToHandleCarefully": [
+          "dinamismo de las lenguas",
+          "patrimonio cultural y educacion linguistica"
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "Que palabra o expresion escuchaste en casa o en tu comunidad que casi ya no usa tu generacion, y que historia te cuenta sobre tu lugar?",
+            "conceptsActivated": [
+              "glosario del pasado",
+              "legado linguistico de Mexico y America Latina"
+            ],
+            "thinkingCriteria": [
+              "Relacionar lenguaje y memoria comunitaria"
+            ],
+            "suggestedUse": "Apertura del proyecto."
+          },
+          {
+            "type": "collective",
+            "prompt": "Que cambia en nuestra manera de entender la comunidad cuando descubrimos que muchas palabras actuales vienen del pasado o de lenguas originarias?",
+            "conceptsActivated": [
+              "diversidad linguistica",
+              "componentes estructurales de algunas lenguas indigenas"
+            ],
+            "thinkingCriteria": [
+              "Leer transformaciones del lenguaje"
+            ],
+            "suggestedUse": "Dialogo de planeacion."
+          },
+          {
+            "type": "community",
+            "prompt": "Por que una comunidad deberia conservar y compartir palabras que ya casi no se usan?",
+            "conceptsActivated": [
+              "revitalizacion cultural a traves de las lenguas indigenas",
+              "las lenguas mas y menos habladas de Mexico y America Latina"
+            ],
+            "thinkingCriteria": [
+              "Valorar el patrimonio linguistico"
+            ],
+            "suggestedUse": "Vinculo con la comunidad."
+          },
+          {
+            "type": "closing",
+            "prompt": "Despues de elaborar el glosario, que entendiste mejor sobre la relacion entre palabras, historia y patrimonio cultural?",
+            "conceptsActivated": [
+              "glosario del pasado",
+              "legado linguistico de Mexico y America Latina"
+            ],
+            "thinkingCriteria": [
+              "Sintetizar aprendizaje y sentido del producto"
+            ],
+            "suggestedUse": "Cierre reflexivo."
+          }
+        ],
+        "notReadyFor": [
+          "summative-exam",
+          "full-games",
+          "actividades interactivas"
+        ]
+      },
+      {
+        "projectId": "lenguajes-1-ppa-4-pa11",
+        "projectTitle": "Las palabras de mi comunidad!",
+        "teacherNotes": [
+          "El catalogo funciona mejor cuando las palabras se recuperan con contexto: quien las usa, en que situacion y que valor tienen para la comunidad.",
+          "13 de agosto en la memoria puede ayudar a observar como la palabra sostiene memoria historica y posicion comunitaria.",
+          "Conviene evitar que el grupo trate cualquier regionalismo pasajero como patrimonio; importa justificar por que una expresion resulta significativa.",
+          "Escuchar a personas mayores o a portadores de tradiciones suele enriquecer mucho el proyecto y darle densidad cultural."
+        ],
+        "confirmedConceptsToUse": [
+          "catalogo linguistico local",
+          "expresiones culturales de las comunidades indigenas",
+          "costumbres y tradiciones en Mexico y America Latina",
+          "identidad colectiva",
+          "manifestaciones tradicionales",
+          "textos literarios sobre la ritualidad y las fiestas comunales",
+          "diversidad cultural y linguistica de Mexico en peligro",
+          "relaciones interetnicas en la sociedad mexicana",
+          "tradicion oral en lenguas indigenas",
+          "tradicion escrita en lenguas indigenas"
+        ],
+        "suggestedConceptsToHandleCarefully": [
+          "patrimonio cultural",
+          "componentes de expresiones linguisticas, culturales y artisticas"
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "Que palabra o expresion sientes muy propia de tu comunidad y por que seria importante que no se pierda?",
+            "conceptsActivated": [
+              "catalogo linguistico local",
+              "identidad colectiva"
+            ],
+            "thinkingCriteria": [
+              "Relacionar palabra y pertenencia"
+            ],
+            "suggestedUse": "Apertura del proyecto."
+          },
+          {
+            "type": "collective",
+            "prompt": "Como cambia la imagen que tenemos de una comunidad cuando registramos sus palabras para nombrar fiestas, objetos, emociones o trabajos?",
+            "conceptsActivated": [
+              "expresiones culturales de las comunidades indigenas",
+              "costumbres y tradiciones en Mexico y America Latina"
+            ],
+            "thinkingCriteria": [
+              "Vincular lenguaje y vida comunitaria"
+            ],
+            "suggestedUse": "Dialogo de planeacion."
+          },
+          {
+            "type": "community",
+            "prompt": "Que se perderia si las palabras propias de la localidad dejaran de usarse o nadie las registrara?",
+            "conceptsActivated": [
+              "diversidad cultural y linguistica de Mexico en peligro",
+              "tradicion oral en lenguas indigenas"
+            ],
+            "thinkingCriteria": [
+              "Valorar registro y memoria"
+            ],
+            "suggestedUse": "Vinculo con la comunidad."
+          },
+          {
+            "type": "closing",
+            "prompt": "Despues de elaborar el catalogo, que comprendiste mejor sobre la relacion entre lengua, patrimonio cultural e identidad colectiva?",
+            "conceptsActivated": [
+              "catalogo linguistico local",
+              "tradicion escrita en lenguas indigenas"
+            ],
+            "thinkingCriteria": [
+              "Sintetizar aprendizaje y sentido del producto"
+            ],
+            "suggestedUse": "Cierre reflexivo."
+          }
+        ],
+        "notReadyFor": [
+          "summative-exam",
+          "full-games",
+          "actividades interactivas"
+        ]
+      },
+      {
+        "projectId": "lenguajes-1-ppa-4-pa12",
+        "projectTitle": "Las lenguas indigenas estan vivas",
+        "teacherNotes": [
+          "Las tarjetas funcionan mejor cuando cada concepto se acompana de un ejemplo cercano o de una lengua conocida por el grupo.",
+          "Harina de otro costal puede ayudar a pensar prestamos, cruces culturales y modos de nombrar desde otros marcos de experiencia.",
+          "Conviene diferenciar con paciencia neologismo, extranjerismo y prestamo linguistico; son cercanos, pero no equivalentes.",
+          "No hace falta presentar las lenguas indigenas como reliquias; el proyecto gana sentido cuando se muestran como lenguas vivas que siguen creando expresiones."
+        ],
+        "confirmedConceptsToUse": [
+          "tarjetas reveladoras",
+          "lenguas indigenas y sus recursos linguisticos",
+          "formas linguisticas",
+          "uso de las formas linguisticas en los textos orales y escritos",
+          "trascendencia linguistica en Mexico y el mundo",
+          "caracteristicas de las lenguas originarias de America Latina",
+          "formas de expresion comunes en lenguas indigenas",
+          "neologismos",
+          "juegos de lenguaje",
+          "prestamos linguisticos",
+          "extranjerismos",
+          "jergas"
+        ],
+        "suggestedConceptsToHandleCarefully": [
+          "calo",
+          "dinamismo de las lenguas"
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "Que palabras o formas de hablar usas hoy que muestran que la lengua sigue cambiando y adaptandose?",
+            "conceptsActivated": [
+              "neologismos",
+              "formas linguisticas"
+            ],
+            "thinkingCriteria": [
+              "Reconocer cambio linguistico en la vida cotidiana"
+            ],
+            "suggestedUse": "Apertura del proyecto."
+          },
+          {
+            "type": "collective",
+            "prompt": "Por que decir que una lengua cambia no significa que este desapareciendo?",
+            "conceptsActivated": [
+              "dinamismo de las lenguas",
+              "trascendencia linguistica en Mexico y el mundo"
+            ],
+            "thinkingCriteria": [
+              "Distinguir cambio, adaptacion y vitalidad"
+            ],
+            "suggestedUse": "Dialogo de planeacion."
+          },
+          {
+            "type": "community",
+            "prompt": "Que compromisos podria asumir una comunidad para mantener vivas sus lenguas sin impedir que sigan transformandose?",
+            "conceptsActivated": [
+              "lenguas indigenas y sus recursos linguisticos",
+              "caracteristicas de las lenguas originarias de America Latina"
+            ],
+            "thinkingCriteria": [
+              "Valorar preservacion y uso vivo"
+            ],
+            "suggestedUse": "Vinculo con la comunidad."
+          },
+          {
+            "type": "closing",
+            "prompt": "Despues de elaborar las tarjetas, que entendiste mejor sobre la relacion entre cambio linguistico y patrimonio cultural?",
+            "conceptsActivated": [
+              "tarjetas reveladoras",
+              "formas de expresion comunes en lenguas indigenas"
+            ],
+            "thinkingCriteria": [
+              "Sintetizar sentido del proyecto"
+            ],
+            "suggestedUse": "Cierre reflexivo."
+          }
+        ],
+        "notReadyFor": [
+          "summative-exam",
+          "full-games",
+          "actividades interactivas"
+        ]
+      }
+    ]
+  },
+  "validationAudit": {
+    "kind": "fine-validation-audit",
+    "source": "reports/caracoles/grade1-lenguajes-ppa4-reading-bundle-audit.md",
+    "content": "# 1o Lenguajes - PPA 4 - Lectura docente\n\nFecha: 2026-06-01T06:22:26.607Z\n\n## Alcance\n\n- PPA desarrollado: PPA 4\n- Proyectos incluidos:\n  - PA10 - Lenguas cambiantes\n  - PA11 - Las palabras de mi comunidad!\n  - PA12 - Las lenguas indigenas estan vivas\n\n## Fuentes usadas\n\n- Posibilidades de uso Lenguajes, primer grado, pp. 11-12\n- Nuestro libro de proyectos Tomo I, pp. 82-98\n- Lenguajes, pp. 110-126, 149-163 y 192-198\n- Multiples Lenguajes:\n  - Diccionario pictografico, pp. 122-123\n  - 13 de agosto en la memoria, pp. 8-9\n  - Harina de otro costal, pp. 72-73\n\n## Validacion visual de columnas\n\n- La p. 11 corresponde al arranque del bloque completo del PPA 4.\n- La p. 12 continua el mismo bloque y agrega apoyos y nuevos conceptos; no corresponde a otro PPA.\n- La asignacion por columna se sostiene por la secuencia de productos y el orden de apoyos:\n  - Columna 1 -> PA10 -> Glosario del pasado\n  - Columna 2 -> PA11 -> Catalogo linguistico local\n  - Columna 3 -> PA12 -> Tarjetas reveladoras\n- La distribucion de apoyos por PA se fija como inferencia curricular documentada, no como lectura automatica limpia del OCR.\n- Las referencias a contenidos de Ingles en la parte final de la p. 12 se excluyen de esta validacion para no mezclar otro campo formativo.\n\n## Productos finales por PA\n\n- PA10 -> Glosario del pasado\n- PA11 -> Catalogo linguistico local\n- PA12 -> Tarjetas reveladoras\n\n## Conceptos confirmados por PA\n\n- PA10:\n  - glosario del pasado\n  - legado linguistico de Mexico y America Latina\n  - componentes estructurales de algunas lenguas indigenas\n  - expresiones basicas en lenguas indigenas\n  - diversidad linguistica de Mexico y America Latina\n  - diversidad linguistica\n  - las lenguas mas y menos habladas de Mexico y America Latina\n  - revitalizacion cultural a traves de las lenguas indigenas\n\n- PA11:\n  - catalogo linguistico local\n  - expresiones culturales de las comunidades indigenas\n  - costumbres y tradiciones en Mexico y America Latina\n  - identidad colectiva\n  - manifestaciones tradicionales\n  - textos literarios sobre la ritualidad y las fiestas comunales\n  - diversidad cultural y linguistica de Mexico en peligro\n  - relaciones interetnicas en la sociedad mexicana\n  - tradicion oral en lenguas indigenas\n  - tradicion escrita en lenguas indigenas\n\n- PA12:\n  - tarjetas reveladoras\n  - lenguas indigenas y sus recursos linguisticos\n  - formas linguisticas\n  - uso de las formas linguisticas en los textos orales y escritos\n  - trascendencia linguistica en Mexico y el mundo\n  - caracteristicas de las lenguas originarias de America Latina\n  - formas de expresion comunes en lenguas indigenas\n  - neologismos\n  - juegos de lenguaje\n  - prestamos linguisticos\n  - extranjerismos\n  - jergas\n\n## Conceptos suggested y needsReview\n\n- PA10 suggested:\n  - dinamismo de las lenguas\n  - patrimonio cultural y educacion linguistica\n\n- PA11 suggested:\n  - patrimonio cultural\n  - componentes de expresiones linguisticas, culturales y artisticas\n\n- PA12 suggested:\n  - calo\n  - dinamismo de las lenguas\n\n## Pendientes reales\n\n- Falta localizar un destino oficial confirmado para el video del PPA 4.\n- El recurso digital del bloque con bit.ly/3WQBMwg se mantiene en cautela.\n- El enlace corto bit.ly/3VfglUk del video del PPA 4 se mantiene en cautela hasta localizar un destino oficial confirmado.\n- El horizonte comun del PPA 4 sigue sin formula oficial unica; por ahora se trabaja con los propositos y objetivos de cada PA.\n- La asignacion de apoyos de Multiples Lenguajes por proyecto se sostiene por inferencia curricular de columnas y queda documentada como tal.\n- Las referencias de Ingles visibles en la p. 12 de Posibilidades no se usan para confirmar conceptos de este bloque de Lenguajes.\n\n## Bundles publicados esperados\n\n- public/caracoles/data/curricular-development/grade-1-lenguajes-ppa-4.json\n\n## Candados\n\n- Sin examen\n- Sin juegos completos desbloqueados\n- Sin actividades interactivas\n- Sin cambio de readyForActivities\n\n"
+  }
+}

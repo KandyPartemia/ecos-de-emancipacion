@@ -1,0 +1,1199 @@
+{
+  "grade": "3",
+  "gradeLabel": "Tercer grado",
+  "field": "Lenguajes",
+  "ppaNumber": "8",
+  "partialClassroomProject": "PPA 8",
+  "partialClassroomProjectTitle": "¡Experimenta y disecciona las piezas del lenguaje!",
+  "source": "curricular-development-generated",
+  "generatedAt": "2026-06-07T03:06:27.526Z",
+  "development": {
+    "grade": "3",
+    "gradeLabel": "Tercer grado",
+    "field": "Lenguajes",
+    "bookVolume": "Tomo II",
+    "partialClassroomProject": "PPA 8",
+    "partialClassroomProjectTitle": "¡Experimenta y disecciona las piezas del lenguaje!",
+    "generatedAt": "2026-06-07T03:06:27.485Z",
+    "notes": "Capa curricular generada por lote para 3o Lenguajes, PPA 8.",
+    "sourcesUsed": [
+      "content/caracoles/curricular-catalog/all-projects-canonical.json",
+      "public/caracoles/data/generated/grade-3/concepts-index.json",
+      "src/caracoles/lib/officialVideoLinks.ts",
+      "Posibilidades de uso Lenguajes, tercer grado, pp. 19-20",
+      "Nuestro libro de proyectos, tercer grado, pp. 43-56"
+    ],
+    "partialClassroomProjectContext": {
+      "expectationHorizon": {
+        "officialText": "",
+        "sourcePages": [
+          "Nuestro libro de proyectos Tomo II pp. 43-47",
+          "Posibilidades de uso Lenguajes pp. 19-20"
+        ],
+        "evidence": "El PPA 8 articula antología exploratoria, pieza teatral, drama social para trabajar ¡Experimenta y disecciona las piezas del lenguaje!.",
+        "status": "pending"
+      },
+      "ppaDetonatingStrategy": {
+        "title": "¡Experimenta y disecciona las piezas del lenguaje!",
+        "type": "video",
+        "url": "",
+        "urlStatus": "confirmed-by-official-video-map",
+        "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+        "scope": "partial-classroom-project"
+      },
+      "ppaDigitalResource": {
+        "title": "Recurso del Proyecto Parcial de Aula 8",
+        "reference": "",
+        "status": "confirmed-by-official-video-map",
+        "source": "YouTube, acervo Aprende_MX/Telesecundaria"
+      },
+      "validationStatus": {
+        "needsHumanReview": true,
+        "needsReviewReasons": [
+          "Los videos PA/PPA se validan por el mapa oficial de enlaces directos ya generado.",
+          "Los apoyos complementarios impresos no se asignan cuando no hay evidencia validada por columna.",
+          "El horizonte textual literal queda pendiente de revision fina si se necesita cita exacta."
+        ]
+      },
+      "columnValidation": {
+        "possibilitiesPagesReviewed": [
+          19,
+          20
+        ],
+        "confirmedAsPpa": true,
+        "note": "El PPA 8 se agrupa desde el catalogo canonico de tercer grado.",
+        "columns": [
+          {
+            "columnIndex": 1,
+            "projectId": "lenguajes-3-ppa-8-pa22",
+            "projectTitle": "Un recorrido por las letras e historias",
+            "finalProduct": "Antología exploratoria",
+            "supportMaterials": []
+          },
+          {
+            "columnIndex": 2,
+            "projectId": "lenguajes-3-ppa-8-pa23",
+            "projectTitle": "La herramienta que da brillo a la escritura",
+            "finalProduct": "Pieza teatral",
+            "supportMaterials": []
+          },
+          {
+            "columnIndex": 3,
+            "projectId": "lenguajes-3-ppa-8-pa24",
+            "projectTitle": "Caleidoscopio social",
+            "finalProduct": "Drama social",
+            "supportMaterials": []
+          }
+        ]
+      }
+    },
+    "academicProjects": [
+      {
+        "id": "lenguajes-3-ppa-8-pa22",
+        "projectId": "lenguajes-3-ppa-8-pa22",
+        "academicProjectNumber": 22,
+        "title": "Un recorrido por las letras e historias",
+        "projectTitle": "Un recorrido por las letras e historias",
+        "grade": "3",
+        "field": "Lenguajes",
+        "ppaNumber": "8",
+        "partialClassroomProject": "PPA 8",
+        "partialClassroomProjectTitle": "¡Experimenta y disecciona las piezas del lenguaje!",
+        "bookVolume": "Tomo II",
+        "sourceValidation": {
+          "sourceStatus": "linked",
+          "possibilitiesPages": [
+            19,
+            20
+          ],
+          "possibilitiesMaterialId": "grade-3-posibilidades-pos-len-3",
+          "possibilitiesColumnIndex": 1,
+          "columnEvidence": "Proyecto PA 22 agrupado en el PPA 8 desde el catalogo canonico y las paginas de Posibilidades."
+        },
+        "finalProduct": {
+          "title": "Antología exploratoria",
+          "source": "Video detonador validado en YouTube + Nuestro libro de proyectos Tomo II pp. 43-47",
+          "status": "confirmed-from-video-and-project"
+        },
+        "sourcePages": {
+          "nuestroLibroProyectos": [
+            {
+              "materialId": "grade-3-proyectos-nuestros-proyectos-tomo-2-tercer-grado",
+              "label": "Nuestro libro de proyectos Tomo II",
+              "startPage": 43,
+              "endPage": 47,
+              "pagesLabel": "pp. 43-47",
+              "topicTitle": "Proyecto academico 22",
+              "status": "confirmed-source"
+            }
+          ],
+          "conceptBook": [
+            {
+              "materialId": "grade-3-conceptos-lenguajes-tercer-grado",
+              "label": "Lenguajes",
+              "startPage": 43,
+              "endPage": 43,
+              "pagesLabel": "p. 43",
+              "topicTitle": "Antología exploratoria",
+              "status": "confirmed"
+            }
+          ],
+          "multiplesLenguajes": [],
+          "otherMaterials": [
+            {
+              "label": "Video PA 22: Antología exploratoria • Lenguajes • 3er. grado",
+              "reference": "https://www.youtube.com/watch?v=ShmvGlvHUhs",
+              "status": "confirmed"
+            },
+            {
+              "label": "Video PPA 8: 8. ¡Experimenta y disecciona las piezas del lenguaje! • Lenguajes • 3er grado",
+              "reference": "https://www.youtube.com/watch?v=rDQYcHgIdi4",
+              "status": "confirmed"
+            }
+          ]
+        },
+        "supportMaterials": [],
+        "horizonOrPurpose": {
+          "status": "pending",
+          "text": "",
+          "source": "Nuestro libro de proyectos Tomo II pp. 43-47"
+        },
+        "projectExpectationHorizon": {
+          "officialText": "",
+          "studentVersion": "",
+          "sourcePages": [
+            "Nuestro libro de proyectos Tomo II pp. 43-47"
+          ],
+          "evidence": "El PA 22 cuenta con paginas de proyecto, producto de cierre, conceptos y videos directos validados; el horizonte textual literal queda pendiente de transcripcion fina.",
+          "status": "pending"
+        },
+        "detonatingStrategy": {
+          "title": "8. ¡Experimenta y disecciona las piezas del lenguaje! • Lenguajes • 3er grado",
+          "text": "Video del Proyecto Parcial de Aula 8: 8. ¡Experimenta y disecciona las piezas del lenguaje! • Lenguajes • 3er grado",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=rDQYcHgIdi4",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "partial-classroom-project"
+        },
+        "academicProjectStrategy": {
+          "title": "Antología exploratoria • Lenguajes • 3er. grado",
+          "text": "Video detonador del Proyecto Academico 22: Un recorrido por las letras e historias",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=ShmvGlvHUhs",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "academic-project"
+        },
+        "academicConcepts": [
+          {
+            "concept": "Antología exploratoria",
+            "description": "Antología exploratoria organiza el producto de cierre y permite comunicar lo aprendido en el proyecto.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              43
+            ],
+            "sourcePagesLabel": "p. 43",
+            "topicTitle": "Proyecto academico 22",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 22, al PPA 8 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Lenguaje",
+            "description": "Lenguaje ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              43
+            ],
+            "sourcePagesLabel": "p. 43",
+            "topicTitle": "Proyecto academico 22",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 22, al PPA 8 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Cultura",
+            "description": "Cultura ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              154
+            ],
+            "sourcePagesLabel": "p. 154",
+            "topicTitle": "Proyecto academico 22",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 22, al PPA 8 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Comunicacion",
+            "description": "Comunicacion ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              43
+            ],
+            "sourcePagesLabel": "p. 43",
+            "topicTitle": "Proyecto academico 22",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 22, al PPA 8 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Lectura",
+            "description": "Lectura ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              43
+            ],
+            "sourcePagesLabel": "p. 43",
+            "topicTitle": "Proyecto academico 22",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 22, al PPA 8 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Escritura",
+            "description": "Escritura ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              43
+            ],
+            "sourcePagesLabel": "p. 43",
+            "topicTitle": "Proyecto academico 22",
+            "status": "suggested",
+            "reason": "Concepto vinculado al PA 22, al PPA 8 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "teacher-review"
+          }
+        ],
+        "thinkingCriteria": [
+          "Relacionar Un recorrido por las letras e historias con una situacion concreta del entorno escolar o comunitario.",
+          "Usar antología exploratoria para explicar ideas con claridad y evidencia."
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Como te ayuda antología exploratoria a comprender mejor Un recorrido por las letras e historias y a explicar sus conceptos clave en tu comunidad?",
+            "conceptsActivated": [
+              "Antología exploratoria",
+              "Lenguaje",
+              "Cultura",
+              "Comunicacion"
+            ],
+            "suggestedUse": "Momento 1 de autoevaluacion"
+          }
+        ],
+        "validationStatus": {
+          "readinessLevel": "curricular-bundle-generated",
+          "readyForActivities": true,
+          "needsReviewReasons": [
+            "El horizonte textual literal queda pendiente de revision fina si se requiere cita exacta.",
+            "Los apoyos complementarios impresos no se asignan cuando no hay evidencia validada por columna."
+          ]
+        },
+        "readinessLevel": "curricular-bundle-generated",
+        "readyForActivities": true,
+        "needsReviewReasons": []
+      },
+      {
+        "id": "lenguajes-3-ppa-8-pa23",
+        "projectId": "lenguajes-3-ppa-8-pa23",
+        "academicProjectNumber": 23,
+        "title": "La herramienta que da brillo a la escritura",
+        "projectTitle": "La herramienta que da brillo a la escritura",
+        "grade": "3",
+        "field": "Lenguajes",
+        "ppaNumber": "8",
+        "partialClassroomProject": "PPA 8",
+        "partialClassroomProjectTitle": "¡Experimenta y disecciona las piezas del lenguaje!",
+        "bookVolume": "Tomo II",
+        "sourceValidation": {
+          "sourceStatus": "linked",
+          "possibilitiesPages": [
+            19,
+            20
+          ],
+          "possibilitiesMaterialId": "grade-3-posibilidades-pos-len-3",
+          "possibilitiesColumnIndex": 2,
+          "columnEvidence": "Proyecto PA 23 agrupado en el PPA 8 desde el catalogo canonico y las paginas de Posibilidades."
+        },
+        "finalProduct": {
+          "title": "Pieza teatral",
+          "source": "Video detonador validado en YouTube + Nuestro libro de proyectos Tomo II pp. 48-52",
+          "status": "confirmed-from-video-and-project"
+        },
+        "sourcePages": {
+          "nuestroLibroProyectos": [
+            {
+              "materialId": "grade-3-proyectos-nuestros-proyectos-tomo-2-tercer-grado",
+              "label": "Nuestro libro de proyectos Tomo II",
+              "startPage": 48,
+              "endPage": 52,
+              "pagesLabel": "pp. 48-52",
+              "topicTitle": "Proyecto academico 23",
+              "status": "confirmed-source"
+            }
+          ],
+          "conceptBook": [
+            {
+              "materialId": "grade-3-conceptos-lenguajes-tercer-grado",
+              "label": "Lenguajes",
+              "startPage": 48,
+              "endPage": 48,
+              "pagesLabel": "p. 48",
+              "topicTitle": "Pieza teatral",
+              "status": "confirmed"
+            }
+          ],
+          "multiplesLenguajes": [],
+          "otherMaterials": [
+            {
+              "label": "Video PA 23: Pieza teatral • Lenguajes • 3er. grado",
+              "reference": "https://www.youtube.com/watch?v=lmGVTyQKp9w",
+              "status": "confirmed"
+            },
+            {
+              "label": "Video PPA 8: 8. ¡Experimenta y disecciona las piezas del lenguaje! • Lenguajes • 3er grado",
+              "reference": "https://www.youtube.com/watch?v=rDQYcHgIdi4",
+              "status": "confirmed"
+            }
+          ]
+        },
+        "supportMaterials": [],
+        "horizonOrPurpose": {
+          "status": "pending",
+          "text": "",
+          "source": "Nuestro libro de proyectos Tomo II pp. 48-52"
+        },
+        "projectExpectationHorizon": {
+          "officialText": "",
+          "studentVersion": "",
+          "sourcePages": [
+            "Nuestro libro de proyectos Tomo II pp. 48-52"
+          ],
+          "evidence": "El PA 23 cuenta con paginas de proyecto, producto de cierre, conceptos y videos directos validados; el horizonte textual literal queda pendiente de transcripcion fina.",
+          "status": "pending"
+        },
+        "detonatingStrategy": {
+          "title": "8. ¡Experimenta y disecciona las piezas del lenguaje! • Lenguajes • 3er grado",
+          "text": "Video del Proyecto Parcial de Aula 8: 8. ¡Experimenta y disecciona las piezas del lenguaje! • Lenguajes • 3er grado",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=rDQYcHgIdi4",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "partial-classroom-project"
+        },
+        "academicProjectStrategy": {
+          "title": "Pieza teatral • Lenguajes • 3er. grado",
+          "text": "Video detonador del Proyecto Academico 23: La herramienta que da brillo a la escritura",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=lmGVTyQKp9w",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "academic-project"
+        },
+        "academicConcepts": [
+          {
+            "concept": "Pieza teatral",
+            "description": "Pieza teatral organiza el producto de cierre y permite comunicar lo aprendido en el proyecto.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              48
+            ],
+            "sourcePagesLabel": "p. 48",
+            "topicTitle": "Proyecto academico 23",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 23, al PPA 8 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Lenguaje",
+            "description": "Lenguaje ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              48
+            ],
+            "sourcePagesLabel": "p. 48",
+            "topicTitle": "Proyecto academico 23",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 23, al PPA 8 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Cultura",
+            "description": "Cultura ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              154
+            ],
+            "sourcePagesLabel": "p. 154",
+            "topicTitle": "Proyecto academico 23",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 23, al PPA 8 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Comunicacion",
+            "description": "Comunicacion ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              48
+            ],
+            "sourcePagesLabel": "p. 48",
+            "topicTitle": "Proyecto academico 23",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 23, al PPA 8 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Lectura",
+            "description": "Lectura ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              48
+            ],
+            "sourcePagesLabel": "p. 48",
+            "topicTitle": "Proyecto academico 23",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 23, al PPA 8 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Escritura",
+            "description": "Escritura ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              48
+            ],
+            "sourcePagesLabel": "p. 48",
+            "topicTitle": "Proyecto academico 23",
+            "status": "suggested",
+            "reason": "Concepto vinculado al PA 23, al PPA 8 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "teacher-review"
+          }
+        ],
+        "thinkingCriteria": [
+          "Relacionar La herramienta que da brillo a la escritura con una situacion concreta del entorno escolar o comunitario.",
+          "Usar pieza teatral para explicar ideas con claridad y evidencia."
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Como te ayuda pieza teatral a comprender mejor La herramienta que da brillo a la escritura y a explicar sus conceptos clave en tu comunidad?",
+            "conceptsActivated": [
+              "Pieza teatral",
+              "Lenguaje",
+              "Cultura",
+              "Comunicacion"
+            ],
+            "suggestedUse": "Momento 1 de autoevaluacion"
+          }
+        ],
+        "validationStatus": {
+          "readinessLevel": "curricular-bundle-generated",
+          "readyForActivities": true,
+          "needsReviewReasons": [
+            "El horizonte textual literal queda pendiente de revision fina si se requiere cita exacta.",
+            "Los apoyos complementarios impresos no se asignan cuando no hay evidencia validada por columna."
+          ]
+        },
+        "readinessLevel": "curricular-bundle-generated",
+        "readyForActivities": true,
+        "needsReviewReasons": []
+      },
+      {
+        "id": "lenguajes-3-ppa-8-pa24",
+        "projectId": "lenguajes-3-ppa-8-pa24",
+        "academicProjectNumber": 24,
+        "title": "Caleidoscopio social",
+        "projectTitle": "Caleidoscopio social",
+        "grade": "3",
+        "field": "Lenguajes",
+        "ppaNumber": "8",
+        "partialClassroomProject": "PPA 8",
+        "partialClassroomProjectTitle": "¡Experimenta y disecciona las piezas del lenguaje!",
+        "bookVolume": "Tomo II",
+        "sourceValidation": {
+          "sourceStatus": "linked",
+          "possibilitiesPages": [
+            19,
+            20
+          ],
+          "possibilitiesMaterialId": "grade-3-posibilidades-pos-len-3",
+          "possibilitiesColumnIndex": 3,
+          "columnEvidence": "Proyecto PA 24 agrupado en el PPA 8 desde el catalogo canonico y las paginas de Posibilidades."
+        },
+        "finalProduct": {
+          "title": "Drama social",
+          "source": "Video detonador validado en YouTube + Nuestro libro de proyectos Tomo II pp. 53-56",
+          "status": "confirmed-from-video-and-project"
+        },
+        "sourcePages": {
+          "nuestroLibroProyectos": [
+            {
+              "materialId": "grade-3-proyectos-nuestros-proyectos-tomo-2-tercer-grado",
+              "label": "Nuestro libro de proyectos Tomo II",
+              "startPage": 53,
+              "endPage": 56,
+              "pagesLabel": "pp. 53-56",
+              "topicTitle": "Proyecto academico 24",
+              "status": "confirmed-source"
+            }
+          ],
+          "conceptBook": [
+            {
+              "materialId": "grade-3-conceptos-lenguajes-tercer-grado",
+              "label": "Lenguajes",
+              "startPage": 53,
+              "endPage": 53,
+              "pagesLabel": "p. 53",
+              "topicTitle": "Drama social",
+              "status": "confirmed"
+            }
+          ],
+          "multiplesLenguajes": [],
+          "otherMaterials": [
+            {
+              "label": "Video PA 24: Drama social • Lenguajes • 3er. grado",
+              "reference": "https://www.youtube.com/watch?v=0sx6sDAbOos",
+              "status": "confirmed"
+            },
+            {
+              "label": "Video PPA 8: 8. ¡Experimenta y disecciona las piezas del lenguaje! • Lenguajes • 3er grado",
+              "reference": "https://www.youtube.com/watch?v=rDQYcHgIdi4",
+              "status": "confirmed"
+            }
+          ]
+        },
+        "supportMaterials": [],
+        "horizonOrPurpose": {
+          "status": "pending",
+          "text": "",
+          "source": "Nuestro libro de proyectos Tomo II pp. 53-56"
+        },
+        "projectExpectationHorizon": {
+          "officialText": "",
+          "studentVersion": "",
+          "sourcePages": [
+            "Nuestro libro de proyectos Tomo II pp. 53-56"
+          ],
+          "evidence": "El PA 24 cuenta con paginas de proyecto, producto de cierre, conceptos y videos directos validados; el horizonte textual literal queda pendiente de transcripcion fina.",
+          "status": "pending"
+        },
+        "detonatingStrategy": {
+          "title": "8. ¡Experimenta y disecciona las piezas del lenguaje! • Lenguajes • 3er grado",
+          "text": "Video del Proyecto Parcial de Aula 8: 8. ¡Experimenta y disecciona las piezas del lenguaje! • Lenguajes • 3er grado",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=rDQYcHgIdi4",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "partial-classroom-project"
+        },
+        "academicProjectStrategy": {
+          "title": "Drama social • Lenguajes • 3er. grado",
+          "text": "Video detonador del Proyecto Academico 24: Caleidoscopio social",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=0sx6sDAbOos",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "academic-project"
+        },
+        "academicConcepts": [
+          {
+            "concept": "Drama social",
+            "description": "Drama social organiza el producto de cierre y permite comunicar lo aprendido en el proyecto.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              53
+            ],
+            "sourcePagesLabel": "p. 53",
+            "topicTitle": "Proyecto academico 24",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 24, al PPA 8 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Lenguaje",
+            "description": "Lenguaje ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              53
+            ],
+            "sourcePagesLabel": "p. 53",
+            "topicTitle": "Proyecto academico 24",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 24, al PPA 8 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Cultura",
+            "description": "Cultura ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              154
+            ],
+            "sourcePagesLabel": "p. 154",
+            "topicTitle": "Proyecto academico 24",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 24, al PPA 8 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Comunicacion",
+            "description": "Comunicacion ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              53
+            ],
+            "sourcePagesLabel": "p. 53",
+            "topicTitle": "Proyecto academico 24",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 24, al PPA 8 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Lectura",
+            "description": "Lectura ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              53
+            ],
+            "sourcePagesLabel": "p. 53",
+            "topicTitle": "Proyecto academico 24",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 24, al PPA 8 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Escritura",
+            "description": "Escritura ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              53
+            ],
+            "sourcePagesLabel": "p. 53",
+            "topicTitle": "Proyecto academico 24",
+            "status": "suggested",
+            "reason": "Concepto vinculado al PA 24, al PPA 8 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "teacher-review"
+          }
+        ],
+        "thinkingCriteria": [
+          "Relacionar Caleidoscopio social con una situacion concreta del entorno escolar o comunitario.",
+          "Usar drama social para explicar ideas con claridad y evidencia."
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Como te ayuda drama social a comprender mejor Caleidoscopio social y a explicar sus conceptos clave en tu comunidad?",
+            "conceptsActivated": [
+              "Drama social",
+              "Lenguaje",
+              "Cultura",
+              "Comunicacion"
+            ],
+            "suggestedUse": "Momento 1 de autoevaluacion"
+          }
+        ],
+        "validationStatus": {
+          "readinessLevel": "curricular-bundle-generated",
+          "readyForActivities": true,
+          "needsReviewReasons": [
+            "El horizonte textual literal queda pendiente de revision fina si se requiere cita exacta.",
+            "Los apoyos complementarios impresos no se asignan cuando no hay evidencia validada por columna."
+          ]
+        },
+        "readinessLevel": "curricular-bundle-generated",
+        "readyForActivities": true,
+        "needsReviewReasons": []
+      }
+    ]
+  },
+  "conceptsValidation": {
+    "grade": "3",
+    "field": "Lenguajes",
+    "ppaNumber": "8",
+    "status": "concept-validation",
+    "generatedAt": "2026-06-07T03:06:27.485Z",
+    "entries": [
+      {
+        "projectId": "lenguajes-3-ppa-8-pa22",
+        "projectTitle": "Un recorrido por las letras e historias",
+        "concept": "Antología exploratoria",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            43
+          ],
+          "reason": "Concepto vinculado al PA 22, al PPA 8 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-8-pa22",
+        "projectTitle": "Un recorrido por las letras e historias",
+        "concept": "Lenguaje",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            43
+          ],
+          "reason": "Concepto vinculado al PA 22, al PPA 8 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-8-pa22",
+        "projectTitle": "Un recorrido por las letras e historias",
+        "concept": "Cultura",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            154
+          ],
+          "reason": "Concepto vinculado al PA 22, al PPA 8 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-8-pa22",
+        "projectTitle": "Un recorrido por las letras e historias",
+        "concept": "Comunicacion",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            43
+          ],
+          "reason": "Concepto vinculado al PA 22, al PPA 8 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-8-pa22",
+        "projectTitle": "Un recorrido por las letras e historias",
+        "concept": "Lectura",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            43
+          ],
+          "reason": "Concepto vinculado al PA 22, al PPA 8 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-8-pa22",
+        "projectTitle": "Un recorrido por las letras e historias",
+        "concept": "Escritura",
+        "status": "suggested",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            43
+          ],
+          "reason": "Concepto vinculado al PA 22, al PPA 8 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "teacher-review"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-8-pa23",
+        "projectTitle": "La herramienta que da brillo a la escritura",
+        "concept": "Pieza teatral",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            48
+          ],
+          "reason": "Concepto vinculado al PA 23, al PPA 8 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-8-pa23",
+        "projectTitle": "La herramienta que da brillo a la escritura",
+        "concept": "Lenguaje",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            48
+          ],
+          "reason": "Concepto vinculado al PA 23, al PPA 8 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-8-pa23",
+        "projectTitle": "La herramienta que da brillo a la escritura",
+        "concept": "Cultura",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            154
+          ],
+          "reason": "Concepto vinculado al PA 23, al PPA 8 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-8-pa23",
+        "projectTitle": "La herramienta que da brillo a la escritura",
+        "concept": "Comunicacion",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            48
+          ],
+          "reason": "Concepto vinculado al PA 23, al PPA 8 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-8-pa23",
+        "projectTitle": "La herramienta que da brillo a la escritura",
+        "concept": "Lectura",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            48
+          ],
+          "reason": "Concepto vinculado al PA 23, al PPA 8 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-8-pa23",
+        "projectTitle": "La herramienta que da brillo a la escritura",
+        "concept": "Escritura",
+        "status": "suggested",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            48
+          ],
+          "reason": "Concepto vinculado al PA 23, al PPA 8 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "teacher-review"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-8-pa24",
+        "projectTitle": "Caleidoscopio social",
+        "concept": "Drama social",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            53
+          ],
+          "reason": "Concepto vinculado al PA 24, al PPA 8 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-8-pa24",
+        "projectTitle": "Caleidoscopio social",
+        "concept": "Lenguaje",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            53
+          ],
+          "reason": "Concepto vinculado al PA 24, al PPA 8 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-8-pa24",
+        "projectTitle": "Caleidoscopio social",
+        "concept": "Cultura",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            154
+          ],
+          "reason": "Concepto vinculado al PA 24, al PPA 8 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-8-pa24",
+        "projectTitle": "Caleidoscopio social",
+        "concept": "Comunicacion",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            53
+          ],
+          "reason": "Concepto vinculado al PA 24, al PPA 8 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-8-pa24",
+        "projectTitle": "Caleidoscopio social",
+        "concept": "Lectura",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            53
+          ],
+          "reason": "Concepto vinculado al PA 24, al PPA 8 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-8-pa24",
+        "projectTitle": "Caleidoscopio social",
+        "concept": "Escritura",
+        "status": "suggested",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            53
+          ],
+          "reason": "Concepto vinculado al PA 24, al PPA 8 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "teacher-review"
+      }
+    ]
+  },
+  "pedagogicalArticulation": {
+    "grade": "3",
+    "field": "Lenguajes",
+    "ppaNumber": "8",
+    "status": "teacher-orientation",
+    "officialHorizonStatus": "pending",
+    "situatedPedagogicalOrientation": "El PPA 8 propone trabajar ¡Experimenta y disecciona las piezas del lenguaje! mediante productos de cierre, conceptos confirmados y videos directos para reforzar la autoevaluacion.",
+    "integratingQuestions": [
+      "¿Como se relacionan los tres proyectos academicos del PPA 8 con ¡Experimenta y disecciona las piezas del lenguaje!?",
+      "¿Que conceptos necesita dominar el estudiante para explicar su producto final?",
+      "¿Como usar el producto final para comunicar una comprension y no solo presentar informacion?"
+    ],
+    "possibleResonanceQuestion": "¿Que comprension nueva sobre ¡Experimenta y disecciona las piezas del lenguaje! puedes explicar con los productos del PPA 8?",
+    "teacherNotes": [
+      "Usar los videos directos como detonadores, no como enlaces de busqueda.",
+      "Retomar los conceptos confirmados antes de resolver la relacion de columnas y el juego."
+    ],
+    "projectConnections": [
+      {
+        "projectId": "lenguajes-3-ppa-8-pa22",
+        "projectTitle": "Un recorrido por las letras e historias",
+        "roleInPpa": "Aporta antología exploratoria al desarrollo del PPA 8.",
+        "confirmedConcepts": [
+          "Antología exploratoria",
+          "Lenguaje",
+          "Cultura",
+          "Comunicacion",
+          "Lectura"
+        ],
+        "suggestedConcepts": [
+          "Escritura"
+        ],
+        "pedagogicalUse": "Video detonador del Proyecto Academico 22: Un recorrido por las letras e historias"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-8-pa23",
+        "projectTitle": "La herramienta que da brillo a la escritura",
+        "roleInPpa": "Aporta pieza teatral al desarrollo del PPA 8.",
+        "confirmedConcepts": [
+          "Pieza teatral",
+          "Lenguaje",
+          "Cultura",
+          "Comunicacion",
+          "Lectura"
+        ],
+        "suggestedConcepts": [
+          "Escritura"
+        ],
+        "pedagogicalUse": "Video detonador del Proyecto Academico 23: La herramienta que da brillo a la escritura"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-8-pa24",
+        "projectTitle": "Caleidoscopio social",
+        "roleInPpa": "Aporta drama social al desarrollo del PPA 8.",
+        "confirmedConcepts": [
+          "Drama social",
+          "Lenguaje",
+          "Cultura",
+          "Comunicacion",
+          "Lectura"
+        ],
+        "suggestedConcepts": [
+          "Escritura"
+        ],
+        "pedagogicalUse": "Video detonador del Proyecto Academico 24: Caleidoscopio social"
+      }
+    ]
+  },
+  "teacherNotesAndResonances": {
+    "grade": "3",
+    "field": "Lenguajes",
+    "ppaNumber": "8",
+    "status": "teacher-notes-and-resonances",
+    "officialHorizonStatus": "pending",
+    "ppaIntegratingResonance": "¿Que comprension nueva sobre ¡Experimenta y disecciona las piezas del lenguaje! puedes explicar con los productos del PPA 8?",
+    "didacticWarnings": [
+      "No sustituir el producto final por la reproduccion del video.",
+      "Evitar marcar apoyos impresos como confirmados si no existe evidencia por columna."
+    ],
+    "communityPrompts": {
+      "territoryLanguageMemory": [
+        "¿Que palabras, practicas o problemas del entorno ayudan a entender mejor este PPA?"
+      ],
+      "productCommunityConnection": [
+        "¿Como puede circular el producto final dentro de la comunidad escolar?"
+      ]
+    },
+    "projects": [
+      {
+        "projectId": "lenguajes-3-ppa-8-pa22",
+        "projectTitle": "Un recorrido por las letras e historias",
+        "teacherNotes": [
+          "Retomar antología exploratoria como evidencia del aprendizaje.",
+          "Usar los conceptos confirmados para orientar la autoevaluacion."
+        ],
+        "confirmedConceptsToUse": [
+          "Antología exploratoria",
+          "Lenguaje",
+          "Cultura",
+          "Comunicacion",
+          "Lectura"
+        ],
+        "suggestedConceptsToHandleCarefully": [
+          "Escritura"
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Como te ayuda antología exploratoria a comprender mejor Un recorrido por las letras e historias y a explicar sus conceptos clave en tu comunidad?",
+            "conceptsActivated": [
+              "Antología exploratoria",
+              "Lenguaje",
+              "Cultura",
+              "Comunicacion"
+            ],
+            "suggestedUse": "Momento 1 de autoevaluacion"
+          }
+        ],
+        "notReadyFor": []
+      },
+      {
+        "projectId": "lenguajes-3-ppa-8-pa23",
+        "projectTitle": "La herramienta que da brillo a la escritura",
+        "teacherNotes": [
+          "Retomar pieza teatral como evidencia del aprendizaje.",
+          "Usar los conceptos confirmados para orientar la autoevaluacion."
+        ],
+        "confirmedConceptsToUse": [
+          "Pieza teatral",
+          "Lenguaje",
+          "Cultura",
+          "Comunicacion",
+          "Lectura"
+        ],
+        "suggestedConceptsToHandleCarefully": [
+          "Escritura"
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Como te ayuda pieza teatral a comprender mejor La herramienta que da brillo a la escritura y a explicar sus conceptos clave en tu comunidad?",
+            "conceptsActivated": [
+              "Pieza teatral",
+              "Lenguaje",
+              "Cultura",
+              "Comunicacion"
+            ],
+            "suggestedUse": "Momento 1 de autoevaluacion"
+          }
+        ],
+        "notReadyFor": []
+      },
+      {
+        "projectId": "lenguajes-3-ppa-8-pa24",
+        "projectTitle": "Caleidoscopio social",
+        "teacherNotes": [
+          "Retomar drama social como evidencia del aprendizaje.",
+          "Usar los conceptos confirmados para orientar la autoevaluacion."
+        ],
+        "confirmedConceptsToUse": [
+          "Drama social",
+          "Lenguaje",
+          "Cultura",
+          "Comunicacion",
+          "Lectura"
+        ],
+        "suggestedConceptsToHandleCarefully": [
+          "Escritura"
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Como te ayuda drama social a comprender mejor Caleidoscopio social y a explicar sus conceptos clave en tu comunidad?",
+            "conceptsActivated": [
+              "Drama social",
+              "Lenguaje",
+              "Cultura",
+              "Comunicacion"
+            ],
+            "suggestedUse": "Momento 1 de autoevaluacion"
+          }
+        ],
+        "notReadyFor": []
+      }
+    ]
+  },
+  "validationAudit": {
+    "kind": "generated-validation-audit",
+    "source": "reports/caracoles/grade3-lenguajes-ppa8-reading-bundle-audit.md",
+    "content": "# Bundle curricular tercer grado\n\n- Campo: Lenguajes\n- PPA: 8\n- Titulo: ¡Experimenta y disecciona las piezas del lenguaje!\n- Proyectos: PA22, PA23, PA24\n- Estado: generado y publicado\n- Cautela: horizonte literal y apoyos impresos por columna pendientes de revision fina.\n"
+  }
+}

@@ -1,0 +1,1639 @@
+{
+  "grade": "1",
+  "gradeLabel": "Primer grado",
+  "field": "Lenguajes",
+  "ppaNumber": "14",
+  "partialClassroomProject": "PPA 14",
+  "partialClassroomProjectTitle": "Un encuentro de lenguajes",
+  "source": "curricular-development-pilot",
+  "generatedAt": "2026-06-04T15:51:05.218Z",
+  "development": {
+    "grade": "1",
+    "gradeLabel": "Primer grado",
+    "field": "Lenguajes",
+    "bookVolume": "Tomo III",
+    "partialClassroomProject": "PPA 14",
+    "partialClassroomProjectTitle": "Un encuentro de lenguajes",
+    "generatedAt": "2026-05-28T23:50:44.632Z",
+    "notes": "Capa curricular aislada para 1° Lenguajes PPA 14.",
+    "sourcesUsed": [
+      "reports/caracoles/grade1-lenguajes-reading-teacher-hito-2-standard.md",
+      "content/caracoles/curricular-catalog/all-projects-canonical.json",
+      "content/caracoles/curricular-links/grade-1-project-source-links.json",
+      "content/caracoles/generated-private/grade-1/pages-index.full.json",
+      "Posibilidades de uso Lenguajes, primer grado, p. 31",
+      "Nuestro libro de proyectos Tomo III, primer grado, p. 58",
+      "Nuestro libro de proyectos Tomo III, primer grado, p. 59",
+      "Nuestro libro de proyectos Tomo III, primer grado, p. 71"
+    ],
+    "partialClassroomProjectContext": {
+      "expectationHorizon": {
+        "officialText": "",
+        "sourcePages": [
+          "Nuestro libro de proyectos Tomo III p. 58",
+          "Nuestro libro de proyectos Tomo III p. 59",
+          "Nuestro libro de proyectos Tomo III p. 71",
+          "Posibilidades de uso Lenguajes p. 31"
+        ],
+        "evidence": "El bloque del PPA 14 comparte un trabajo integrado, pero no se localizo un horizonte unico redactado como texto oficial independiente.",
+        "status": "pending"
+      },
+      "ppaDetonatingStrategy": {
+        "title": "Un encuentro de lenguajes",
+        "type": "video",
+        "url": "bit.ly/3VfglUk",
+        "urlStatus": "pending-validation",
+        "source": "Posibilidades de uso Lenguajes p. 31",
+        "scope": "partial-classroom-project",
+        "youtubeSearchQuery": "Un encuentro de lenguajes Lenguajes 1er grado Telesecundaria"
+      },
+      "ppaDigitalResource": {
+        "title": "Recurso informatico del bloque PPA 14",
+        "reference": "bit.ly/3WQBMwg",
+        "status": "pending-validation",
+        "source": "Nuestro libro de proyectos Tomo III p. 71"
+      },
+      "validationStatus": {
+        "needsHumanReview": true,
+        "needsReviewReasons": [
+          "La p. 31 de Posibilidades contiene el bloque completo del PPA 14. Cada columna corresponde de forma estable a PA40, PA41 y PA42; no fue necesario usar otra pagina de Posibilidades para este PPA.",
+          "Los enlaces cortos del bloque se mantienen como referencias pendientes de validacion de destino final."
+        ]
+      },
+      "columnValidation": {
+        "possibilitiesPagesReviewed": [
+          31
+        ],
+        "confirmedAsPpa": true,
+        "note": "La p. 31 de Posibilidades contiene el bloque completo del PPA 14. Cada columna corresponde de forma estable a PA40, PA41 y PA42; no fue necesario usar otra pagina de Posibilidades para este PPA.",
+        "columns": [
+          {
+            "columnIndex": 1,
+            "projectId": "lenguajes-1-ppa-14-pa40",
+            "projectTitle": "Un artículo de divulgación de la ciencia",
+            "finalProduct": "Esquema de divulgacion",
+            "supportMaterials": [
+              "Ermitanos, p. 151"
+            ]
+          },
+          {
+            "columnIndex": 2,
+            "projectId": "lenguajes-1-ppa-14-pa41",
+            "projectTitle": "¡Una revista de mi comunidad!",
+            "finalProduct": "Revista sencilla",
+            "supportMaterials": [
+              "Cangrejos braquiuros del golfo de Mexico, p. 152"
+            ]
+          },
+          {
+            "columnIndex": 3,
+            "projectId": "lenguajes-1-ppa-14-pa42",
+            "projectTitle": "Un diálogo guiado a la ciencia",
+            "finalProduct": "Guion de exposicion",
+            "supportMaterials": [
+              "Diversidad de esqueletos de equinodermos del golfo de Mexico, p. 156"
+            ]
+          }
+        ]
+      }
+    },
+    "academicProjects": [
+      {
+        "id": "lenguajes-1-ppa-14-pa40",
+        "projectId": "lenguajes-1-ppa-14-pa40",
+        "academicProjectNumber": 40,
+        "projectTitle": "Un artículo de divulgación de la ciencia",
+        "grade": "1",
+        "field": "Lenguajes",
+        "ppaNumber": "14",
+        "partialClassroomProject": "PPA 14",
+        "partialClassroomProjectTitle": "Un encuentro de lenguajes",
+        "bookVolume": "Tomo III",
+        "sourceValidation": {
+          "sourceStatus": "linked",
+          "possibilitiesPages": [
+            31
+          ],
+          "possibilitiesMaterialId": "grade-1-posibilidades-pos-len-1",
+          "possibilitiesColumnIndex": 1,
+          "columnEvidence": "Bloque PPA 14 Un encuentro de lenguajes localizado en pp. 31; PA 40 presente en el bloque, pero el OCR multicolumna no permite fijar columna con confianza automática."
+        },
+        "finalProduct": {
+          "title": "Esquema de divulgacion",
+          "source": "Posibilidades de uso Lenguajes p. 31 + Nuestro libro de proyectos Tomo III pp. 60-62",
+          "status": "confirmed"
+        },
+        "sourcePages": {
+          "nuestroLibroProyectos": [
+            {
+              "materialId": "grade-1-proyectos-nuestro-libro-de-proyectos-tomo-iii-primer-grado",
+              "label": "Nuestro libro de proyectos Tomo III",
+              "startPage": 60,
+              "endPage": 62,
+              "pagesLabel": "pp. 60-62",
+              "topicTitle": "Proyecto academico 40",
+              "status": "confirmed-source"
+            }
+          ],
+          "conceptBook": [
+            {
+              "materialId": "grade-1-conceptos-lenguajes-primer-grado",
+              "label": "Lenguajes",
+              "startPage": 12,
+              "endPage": 17,
+              "pagesLabel": "pp. 12-17",
+              "topicTitle": "Comprension lectora y tipos de texto",
+              "status": "confirmed-source"
+            },
+            {
+              "materialId": "grade-1-conceptos-lenguajes-primer-grado",
+              "label": "Lenguajes",
+              "startPage": 53,
+              "endPage": 60,
+              "pagesLabel": "pp. 53-60",
+              "topicTitle": "Elementos de la lengua espanola y de la comunicacion",
+              "status": "confirmed-source"
+            },
+            {
+              "materialId": "grade-1-conceptos-lenguajes-primer-grado",
+              "label": "Lenguajes",
+              "startPage": 169,
+              "endPage": 175,
+              "pagesLabel": "pp. 169-175",
+              "topicTitle": "Practicas culturales y lengua indigena de Mexico I",
+              "status": "confirmed-source"
+            }
+          ],
+          "multiplesLenguajes": [
+            {
+              "materialId": "grade-1-apoyo-muiltiples-lenguajes-primer-grado",
+              "label": "Multiples Lenguajes",
+              "startPage": 151,
+              "endPage": 151,
+              "pagesLabel": "p. 151",
+              "topicTitle": "Ermitanos",
+              "status": "confirmed-source"
+            }
+          ],
+          "otherMaterials": [
+            {
+              "label": "Video PA 40: Esquema de divulgación • Lenguajes • 1er grado",
+              "reference": "https://www.youtube.com/watch?v=DYC-gG3uxfg",
+              "status": "confirmed"
+            },
+            {
+              "label": "Video PPA 14: 14. Un encuentro de lenguajes • Lenguajes • 1er grado",
+              "reference": "https://www.youtube.com/watch?v=mTP8TAaZlCM",
+              "status": "confirmed"
+            },
+            {
+              "label": "Recurso de consulta del proyecto",
+              "reference": "Que es un esquema de divulgacion? bit.ly/3R0ForE",
+              "status": "pending-validation"
+            },
+            {
+              "label": "Recurso general del bloque",
+              "reference": "bit.ly/3RpbgXa",
+              "status": "pending-validation"
+            },
+            {
+              "label": "Recurso informatico del bloque",
+              "reference": "bit.ly/3WQBMwg",
+              "status": "pending-validation"
+            }
+          ]
+        },
+        "supportMaterials": [
+          {
+            "title": "Ermitanos",
+            "kind": "Multiples Lenguajes",
+            "pages": "p. 151",
+            "status": "confirmed-source"
+          }
+        ],
+        "horizonOrPurpose": {
+          "status": "official",
+          "text": "Revisar articulos de divulgacion de la ciencia e integrar un esquema de divulgacion que oriente la escritura de un articulo sobre alguna tematica de interes para la comunidad.",
+          "source": "Nuestro libro de proyectos Tomo III p. 60"
+        },
+        "detonatingStrategy": {
+          "title": "14. Un encuentro de lenguajes • Lenguajes • 1er grado",
+          "text": "Video del Proyecto Parcial de Aula 14: 14. Un encuentro de lenguajes • Lenguajes • 1er grado",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=mTP8TAaZlCM",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "partial-classroom-project"
+        },
+        "academicProjectStrategy": {
+          "title": "Esquema de divulgación • Lenguajes • 1er grado",
+          "text": "Video detonador del Proyecto Academico 40: Esquema de divulgación • Lenguajes • 1er grado",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=DYC-gG3uxfg",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "academic-project"
+        },
+        "academicConcepts": [
+          {
+            "concept": "esquema de divulgacion",
+            "status": "confirmed",
+            "sourceBook": "Posibilidades de uso Lenguajes",
+            "sourcePages": [
+              31
+            ],
+            "sourcePagesLabel": "p. 31",
+            "topicTitle": "esquema de divulgacion",
+            "evidenceSnippet": "60 Proyecto académico 40 Un artículo de divulgación de la ciencia Los artículos de divulgación científica son textos que hacen accesible el conocimiento especializado al público en general. Buscan acercar la lectura y la comprensión del con",
+            "reason": "La columna del PA40 nombra de forma explicita el esquema de divulgacion como producto del proyecto.",
+            "pedagogicalUse": "Permite planear como se presentara la informacion antes de redactar el articulo.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "articulo de divulgacion cientifica",
+            "status": "confirmed",
+            "sourceBook": "Nuestro libro de proyectos Tomo III",
+            "sourcePages": [
+              60,
+              61,
+              62
+            ],
+            "sourcePagesLabel": "pp. 60-62",
+            "topicTitle": "articulo de divulgacion cientifica",
+            "evidenceSnippet": "60 Proyecto académico 40 Un artículo de divulgación de la ciencia Los artículos de divulgación científica son textos que hacen accesible el conocimiento especializado al público en general. Buscan acercar la lectura y la comprensión del con",
+            "reason": "El proyecto se define desde la revision de articulos de divulgacion cientifica y su uso como referente.",
+            "pedagogicalUse": "Ayuda a reconocer estructura, destinatario y proposito de los textos del bloque.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "comprension lectora",
+            "status": "confirmed",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              12,
+              13,
+              14,
+              15,
+              16,
+              17
+            ],
+            "sourcePagesLabel": "pp. 12-17",
+            "topicTitle": "comprension lectora",
+            "evidenceSnippet": "60 Proyecto académico 40 Un artículo de divulgación de la ciencia Los artículos de divulgación científica son textos que hacen accesible el conocimiento especializado al público en general. Buscan acercar la lectura y la comprensión del con",
+            "reason": "La columna asigna este bloque como base para revisar articulos y distinguir sus rasgos.",
+            "pedagogicalUse": "Sostiene la lectura critica previa a la escritura del esquema.",
+            "activityReadiness": "usable-for-resonance"
+          },
+          {
+            "concept": "tipos de texto",
+            "status": "confirmed",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              13,
+              14,
+              15,
+              16,
+              17
+            ],
+            "sourcePagesLabel": "pp. 13-17",
+            "topicTitle": "tipos de texto",
+            "evidenceSnippet": "60 Proyecto académico 40 Un artículo de divulgación de la ciencia Los artículos de divulgación científica son textos que hacen accesible el conocimiento especializado al público en general. Buscan acercar la lectura y la comprensión del con",
+            "reason": "Las paginas asignadas trabajan los tipos de texto y su reconocimiento.",
+            "pedagogicalUse": "Permite ubicar la divulgacion dentro de un repertorio mas amplio de formas de escritura.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "elementos de la comunicacion",
+            "status": "confirmed",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              54,
+              55,
+              56,
+              57,
+              58,
+              59,
+              60
+            ],
+            "sourcePagesLabel": "pp. 54-60",
+            "topicTitle": "elementos de la comunicacion",
+            "evidenceSnippet": "60 Proyecto académico 40 Un artículo de divulgación de la ciencia Los artículos de divulgación científica son textos que hacen accesible el conocimiento especializado al público en general. Buscan acercar la lectura y la comprensión del con",
+            "reason": "La columna asigna este bloque para pensar la comunicacion y su uso en el entorno.",
+            "pedagogicalUse": "Ayuda a afinar destinatario, mensaje y forma de circulacion del esquema.",
+            "activityReadiness": "usable-for-resonance"
+          },
+          {
+            "concept": "tecnicas de investigacion de recoleccion",
+            "status": "suggested",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              172,
+              173,
+              174
+            ],
+            "sourcePagesLabel": "pp. 172-174",
+            "topicTitle": "tecnicas de investigacion de recoleccion",
+            "evidenceSnippet": "60 Proyecto académico 40 Un artículo de divulgación de la ciencia Los artículos de divulgación científica son textos que hacen accesible el conocimiento especializado al público en general. Buscan acercar la lectura y la comprensión del con",
+            "reason": "Las paginas del bloque lo incluyen como apoyo a la investigacion, aunque no se vuelve eje principal del producto.",
+            "pedagogicalUse": "Puede orientar levantamiento de datos cuando el tema exige observacion o consulta comunitaria.",
+            "activityReadiness": "usable-for-games-later"
+          },
+          {
+            "concept": "la entrevista como medio para recuperar informacion",
+            "status": "suggested",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              174,
+              175
+            ],
+            "sourcePagesLabel": "pp. 174-175",
+            "topicTitle": "la entrevista como medio para recuperar informacion",
+            "evidenceSnippet": "60 Proyecto académico 40 Un artículo de divulgación de la ciencia Los artículos de divulgación científica son textos que hacen accesible el conocimiento especializado al público en general. Buscan acercar la lectura y la comprensión del con",
+            "reason": "Es pertinente para la investigacion local, pero se mantiene en apoyo y no como concepto confirmado del esquema.",
+            "pedagogicalUse": "Puede enriquecer la busqueda de testimonios o voces comunitarias.",
+            "activityReadiness": "usable-for-games-later"
+          }
+        ],
+        "thinkingCriteria": [
+          "Distinguir tipos de texto y elegir estructuras utiles para divulgar conocimiento.",
+          "Relacionar comunicacion, investigacion y contexto local al definir un tema cientifico.",
+          "Valorar la investigacion como proceso organizado y no como acumulacion de datos."
+        ],
+        "validationStatus": {
+          "readinessLevel": "development-partial",
+          "readyForActivities": false,
+          "needsReviewReasons": [
+            "El video del PPA tiene enlace corto sin validacion de destino final."
+          ]
+        },
+        "readinessLevel": "development-partial",
+        "readyForActivities": false,
+        "needsReviewReasons": [
+          "El video del PPA tiene enlace corto sin validacion de destino final."
+        ]
+      },
+      {
+        "id": "lenguajes-1-ppa-14-pa41",
+        "projectId": "lenguajes-1-ppa-14-pa41",
+        "academicProjectNumber": 41,
+        "projectTitle": "¡Una revista de mi comunidad!",
+        "grade": "1",
+        "field": "Lenguajes",
+        "ppaNumber": "14",
+        "partialClassroomProject": "PPA 14",
+        "partialClassroomProjectTitle": "Un encuentro de lenguajes",
+        "bookVolume": "Tomo III",
+        "sourceValidation": {
+          "sourceStatus": "linked",
+          "possibilitiesPages": [
+            31
+          ],
+          "possibilitiesMaterialId": "grade-1-posibilidades-pos-len-1",
+          "possibilitiesColumnIndex": 2,
+          "columnEvidence": "Bloque PPA 14 Un encuentro de lenguajes localizado en pp. 31; PA 41 presente en el bloque, pero el OCR multicolumna no permite fijar columna con confianza automática."
+        },
+        "finalProduct": {
+          "title": "Revista sencilla",
+          "source": "Posibilidades de uso Lenguajes p. 31 + Nuestro libro de proyectos Tomo III pp. 63-66",
+          "status": "confirmed"
+        },
+        "sourcePages": {
+          "nuestroLibroProyectos": [
+            {
+              "materialId": "grade-1-proyectos-nuestro-libro-de-proyectos-tomo-iii-primer-grado",
+              "label": "Nuestro libro de proyectos Tomo III",
+              "startPage": 63,
+              "endPage": 66,
+              "pagesLabel": "pp. 63-66",
+              "topicTitle": "Proyecto academico 41",
+              "status": "confirmed-source"
+            }
+          ],
+          "conceptBook": [
+            {
+              "materialId": "grade-1-conceptos-lenguajes-primer-grado",
+              "label": "Lenguajes",
+              "startPage": 12,
+              "endPage": 17,
+              "pagesLabel": "pp. 12-17",
+              "topicTitle": "Comprension lectora y tipos de texto",
+              "status": "confirmed-source"
+            },
+            {
+              "materialId": "grade-1-conceptos-lenguajes-primer-grado",
+              "label": "Lenguajes",
+              "startPage": 164,
+              "endPage": 166,
+              "pagesLabel": "pp. 164-166",
+              "topicTitle": "Fuentes de investigacion",
+              "status": "confirmed-source"
+            },
+            {
+              "materialId": "grade-1-conceptos-lenguajes-primer-grado",
+              "label": "Lenguajes",
+              "startPage": 199,
+              "endPage": 203,
+              "pagesLabel": "pp. 199-203",
+              "topicTitle": "Uso de la lengua indigena para expresar problematicas sociales",
+              "status": "confirmed-source"
+            }
+          ],
+          "multiplesLenguajes": [
+            {
+              "materialId": "grade-1-apoyo-muiltiples-lenguajes-primer-grado",
+              "label": "Multiples Lenguajes",
+              "startPage": 152,
+              "endPage": 152,
+              "pagesLabel": "p. 152",
+              "topicTitle": "Cangrejos braquiuros del golfo de Mexico",
+              "status": "confirmed-source"
+            }
+          ],
+          "otherMaterials": [
+            {
+              "label": "Video PA 41: Revista sencilla • Lenguajes • 1er grado",
+              "reference": "https://www.youtube.com/watch?v=q_2J31nOXrs",
+              "status": "confirmed"
+            },
+            {
+              "label": "Video PPA 14: 14. Un encuentro de lenguajes • Lenguajes • 1er grado",
+              "reference": "https://www.youtube.com/watch?v=mTP8TAaZlCM",
+              "status": "confirmed"
+            },
+            {
+              "label": "Recurso de consulta del proyecto",
+              "reference": "Cual es la estructura de una revista sencilla de divulgacion de la ciencia? bit.ly/3R0ForE",
+              "status": "pending-validation"
+            },
+            {
+              "label": "Recurso general del bloque",
+              "reference": "bit.ly/3RpbgXa",
+              "status": "pending-validation"
+            },
+            {
+              "label": "Recurso informatico del bloque",
+              "reference": "bit.ly/3WQBMwg",
+              "status": "pending-validation"
+            }
+          ]
+        },
+        "supportMaterials": [
+          {
+            "title": "Cangrejos braquiuros del golfo de Mexico",
+            "kind": "Multiples Lenguajes",
+            "pages": "p. 152",
+            "status": "confirmed-source"
+          }
+        ],
+        "horizonOrPurpose": {
+          "status": "official",
+          "text": "Integrar una revista sencilla de divulgacion de la ciencia local a partir de articulos de divulgacion previamente elaborados.",
+          "source": "Nuestro libro de proyectos Tomo III p. 63"
+        },
+        "detonatingStrategy": {
+          "title": "14. Un encuentro de lenguajes • Lenguajes • 1er grado",
+          "text": "Video del Proyecto Parcial de Aula 14: 14. Un encuentro de lenguajes • Lenguajes • 1er grado",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=mTP8TAaZlCM",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "partial-classroom-project"
+        },
+        "academicProjectStrategy": {
+          "title": "Revista sencilla • Lenguajes • 1er grado",
+          "text": "Video detonador del Proyecto Academico 41: Revista sencilla • Lenguajes • 1er grado",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=q_2J31nOXrs",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "academic-project"
+        },
+        "academicConcepts": [
+          {
+            "concept": "revista sencilla",
+            "status": "confirmed",
+            "sourceBook": "Posibilidades de uso Lenguajes",
+            "sourcePages": [
+              31
+            ],
+            "sourcePagesLabel": "p. 31",
+            "topicTitle": "revista sencilla",
+            "evidenceSnippet": "gía, la creación y la innovación. Etapa 1. ¿Qué haremos? Integrar una revista sencilla de divulgación de la ciencia local, a partir de artículos de divulgación previamente elaborados. Interculturalidad crítica: la innovación y el conocimien",
+            "reason": "La columna 2 de Posibilidades la nombra como producto final del PA41.",
+            "pedagogicalUse": "Organiza la articulacion de articulos, orden, introduccion y cierre de la produccion colectiva.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "articulos de divulgacion cientifica",
+            "status": "confirmed",
+            "sourceBook": "Nuestro libro de proyectos Tomo III",
+            "sourcePages": [
+              63,
+              64,
+              65
+            ],
+            "sourcePagesLabel": "pp. 63-65",
+            "topicTitle": "articulos de divulgacion cientifica",
+            "evidenceSnippet": "63 Proyecto académico 41 ¡Una revista de mi comunidad! Los artículos de divulgación científica son aquellos que presentan, de manera accesible y para el público en general, información fundamentada en investigaciones. Estos artículos tienen",
+            "reason": "La revista se construye a partir de articulos de divulgacion previamente elaborados.",
+            "pedagogicalUse": "Ayuda a revisar que el contenido de la revista conserve claridad, sustento y sentido cientifico.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "fuentes de investigacion",
+            "status": "confirmed",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              164,
+              165,
+              166
+            ],
+            "sourcePagesLabel": "pp. 164-166",
+            "topicTitle": "fuentes de investigacion",
+            "evidenceSnippet": "63 Proyecto académico 41 ¡Una revista de mi comunidad! Los artículos de divulgación científica son aquellos que presentan, de manera accesible y para el público en general, información fundamentada en investigaciones. Estos artículos tienen",
+            "reason": "La columna asigna fuentes de investigacion como base para seleccionar contenido de la revista.",
+            "pedagogicalUse": "Permite discutir de donde proviene la informacion y por que vale la pena publicarla.",
+            "activityReadiness": "usable-for-resonance"
+          },
+          {
+            "concept": "tipos de fuentes de informacion",
+            "status": "confirmed",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              165,
+              166
+            ],
+            "sourcePagesLabel": "pp. 165-166",
+            "topicTitle": "tipos de fuentes de informacion",
+            "evidenceSnippet": "63 Proyecto académico 41 ¡Una revista de mi comunidad! Los artículos de divulgación científica son aquellos que presentan, de manera accesible y para el público en general, información fundamentada en investigaciones. Estos artículos tienen",
+            "reason": "Las paginas del bloque trabajan de manera explicita los tipos de fuentes de informacion.",
+            "pedagogicalUse": "Ayuda a sostener criterios de inclusion y descarte de materiales dentro de la revista.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "comprension lectora",
+            "status": "confirmed",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              12,
+              13,
+              14,
+              15,
+              16,
+              17
+            ],
+            "sourcePagesLabel": "pp. 12-17",
+            "topicTitle": "comprension lectora",
+            "evidenceSnippet": "63 Proyecto académico 41 ¡Una revista de mi comunidad! Los artículos de divulgación científica son aquellos que presentan, de manera accesible y para el público en general, información fundamentada en investigaciones. Estos artículos tienen",
+            "reason": "La revista depende de leer, comparar y seleccionar textos con criterio.",
+            "pedagogicalUse": "Sostiene la revision critica antes de publicar contenidos.",
+            "activityReadiness": "usable-for-resonance"
+          },
+          {
+            "concept": "textos literarios e informativos que aborden temas de la comunidad",
+            "status": "suggested",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              200,
+              201,
+              202,
+              203
+            ],
+            "sourcePagesLabel": "pp. 200-203",
+            "topicTitle": "textos literarios e informativos que aborden temas de la comunidad",
+            "evidenceSnippet": "63 Proyecto académico 41 ¡Una revista de mi comunidad! Los artículos de divulgación científica son aquellos que presentan, de manera accesible y para el público en general, información fundamentada en investigaciones. Estos artículos tienen",
+            "reason": "Aparece dentro del bloque asignado, pero se mantiene como apoyo para no sobredimensionar la relacion con problematicas sociales.",
+            "pedagogicalUse": "Puede ampliar la seleccion de textos cuando la revista dialogue con vida comunitaria.",
+            "activityReadiness": "usable-for-games-later"
+          },
+          {
+            "concept": "uso de la lengua indigena para expresar problematicas sociales",
+            "status": "needsReview",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              199
+            ],
+            "sourcePagesLabel": "p. 199",
+            "topicTitle": "uso de la lengua indigena para expresar problematicas sociales",
+            "evidenceSnippet": "63 Proyecto académico 41 ¡Una revista de mi comunidad! Los artículos de divulgación científica son aquellos que presentan, de manera accesible y para el público en general, información fundamentada en investigaciones. Estos artículos tienen",
+            "reason": "La pagina encabezado del bloque esta asignada, pero no conviene subirla a confirmado dentro de este PA sin mayor validacion.",
+            "pedagogicalUse": "Se conserva como cautela para no mezclar el objetivo del proyecto con otro eje tematico.",
+            "activityReadiness": "not-usable-yet"
+          }
+        ],
+        "thinkingCriteria": [
+          "Seleccionar y ordenar contenidos con sentido de conjunto y no como piezas aisladas.",
+          "Valorar la revista como espacio de circulacion de conocimiento comunitario.",
+          "Distinguir cuando una fuente apoya la divulgacion y cuando solo la adorna."
+        ],
+        "validationStatus": {
+          "readinessLevel": "development-partial",
+          "readyForActivities": false,
+          "needsReviewReasons": [
+            "El bloque sobre uso de la lengua indigena para expresar problematicas sociales se mantiene con cautela pedagogica dentro de este PA."
+          ]
+        },
+        "readinessLevel": "development-partial",
+        "readyForActivities": false,
+        "needsReviewReasons": [
+          "El bloque sobre uso de la lengua indigena para expresar problematicas sociales se mantiene con cautela pedagogica dentro de este PA."
+        ]
+      },
+      {
+        "id": "lenguajes-1-ppa-14-pa42",
+        "projectId": "lenguajes-1-ppa-14-pa42",
+        "academicProjectNumber": 42,
+        "projectTitle": "Un diálogo guiado a la ciencia",
+        "grade": "1",
+        "field": "Lenguajes",
+        "ppaNumber": "14",
+        "partialClassroomProject": "PPA 14",
+        "partialClassroomProjectTitle": "Un encuentro de lenguajes",
+        "bookVolume": "Tomo III",
+        "sourceValidation": {
+          "sourceStatus": "linked",
+          "possibilitiesPages": [
+            31
+          ],
+          "possibilitiesMaterialId": "grade-1-posibilidades-pos-len-1",
+          "possibilitiesColumnIndex": 3,
+          "columnEvidence": "Bloque PPA 14 Un encuentro de lenguajes localizado en pp. 31; PA 42 presente en el bloque, pero el OCR multicolumna no permite fijar columna con confianza automática."
+        },
+        "finalProduct": {
+          "title": "Guion de exposicion",
+          "source": "Posibilidades de uso Lenguajes p. 31 + Nuestro libro de proyectos Tomo III pp. 67-70",
+          "status": "confirmed"
+        },
+        "sourcePages": {
+          "nuestroLibroProyectos": [
+            {
+              "materialId": "grade-1-proyectos-nuestro-libro-de-proyectos-tomo-iii-primer-grado",
+              "label": "Nuestro libro de proyectos Tomo III",
+              "startPage": 67,
+              "endPage": 70,
+              "pagesLabel": "pp. 67-70",
+              "topicTitle": "Proyecto academico 42",
+              "status": "confirmed-source"
+            }
+          ],
+          "conceptBook": [
+            {
+              "materialId": "grade-1-conceptos-lenguajes-primer-grado",
+              "label": "Lenguajes",
+              "startPage": 12,
+              "endPage": 17,
+              "pagesLabel": "pp. 12-17",
+              "topicTitle": "Comprension lectora y tipos de texto",
+              "status": "confirmed-source"
+            },
+            {
+              "materialId": "grade-1-conceptos-lenguajes-primer-grado",
+              "label": "Lenguajes",
+              "startPage": 199,
+              "endPage": 203,
+              "pagesLabel": "pp. 199-203",
+              "topicTitle": "Uso de la lengua indigena para expresar problematicas sociales",
+              "status": "confirmed-source"
+            },
+            {
+              "materialId": "grade-1-conceptos-lenguajes-primer-grado",
+              "label": "Lenguajes",
+              "startPage": 233,
+              "endPage": 240,
+              "pagesLabel": "pp. 233-240",
+              "topicTitle": "Identificacion y solucion de problemas en textos de lengua inglesa",
+              "status": "confirmed-source"
+            }
+          ],
+          "multiplesLenguajes": [
+            {
+              "materialId": "grade-1-apoyo-muiltiples-lenguajes-primer-grado",
+              "label": "Multiples Lenguajes",
+              "startPage": 156,
+              "endPage": 156,
+              "pagesLabel": "p. 156",
+              "topicTitle": "Diversidad de esqueletos de equinodermos del golfo de Mexico",
+              "status": "confirmed-source"
+            }
+          ],
+          "otherMaterials": [
+            {
+              "label": "Video PA 42: Guion de exposición • Lenguajes • 1er grado",
+              "reference": "https://www.youtube.com/watch?v=sKYodvD81Y8",
+              "status": "confirmed"
+            },
+            {
+              "label": "Video PPA 14: 14. Un encuentro de lenguajes • Lenguajes • 1er grado",
+              "reference": "https://www.youtube.com/watch?v=mTP8TAaZlCM",
+              "status": "confirmed"
+            },
+            {
+              "label": "Recurso de consulta del proyecto",
+              "reference": "Como elaborar un guion de exposicion? bit.ly/3R0ForE",
+              "status": "pending-validation"
+            },
+            {
+              "label": "Recurso general del bloque",
+              "reference": "bit.ly/3RpbgXa",
+              "status": "pending-validation"
+            },
+            {
+              "label": "Recurso informatico del bloque",
+              "reference": "bit.ly/3WQBMwg",
+              "status": "pending-validation"
+            }
+          ]
+        },
+        "supportMaterials": [
+          {
+            "title": "Diversidad de esqueletos de equinodermos del golfo de Mexico",
+            "kind": "Multiples Lenguajes",
+            "pages": "p. 156",
+            "status": "confirmed-source"
+          }
+        ],
+        "horizonOrPurpose": {
+          "status": "official",
+          "text": "Exponer el contenido de los articulos siguiendo un guion de exposicion previamente acordado que indique etapas, tiempos, participantes y posibles recursos de apoyo.",
+          "source": "Nuestro libro de proyectos Tomo III p. 67"
+        },
+        "detonatingStrategy": {
+          "title": "14. Un encuentro de lenguajes • Lenguajes • 1er grado",
+          "text": "Video del Proyecto Parcial de Aula 14: 14. Un encuentro de lenguajes • Lenguajes • 1er grado",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=mTP8TAaZlCM",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "partial-classroom-project"
+        },
+        "academicProjectStrategy": {
+          "title": "Guion de exposición • Lenguajes • 1er grado",
+          "text": "Video detonador del Proyecto Academico 42: Guion de exposición • Lenguajes • 1er grado",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=sKYodvD81Y8",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "academic-project"
+        },
+        "academicConcepts": [
+          {
+            "concept": "guion de exposicion",
+            "status": "confirmed",
+            "sourceBook": "Posibilidades de uso Lenguajes",
+            "sourcePages": [
+              31
+            ],
+            "sourcePagesLabel": "p. 31",
+            "topicTitle": "guion de exposicion",
+            "evidenceSnippet": "67 Proyecto académico 42 Un diálogo guiado a la ciencia Con anterioridad, llevaron a cabo dos proyectos relacionados con la ciencia. Ahora emplearán los conocimientos adquiridos para desarrollar éste y, de ser posible, realizarán ajustes qu",
+            "reason": "La columna 3 lo nombra de manera explicita como producto del PA42.",
+            "pedagogicalUse": "Permite distribuir momentos, tiempos, recursos y responsabilidades de la exposicion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "exposicion oral",
+            "status": "confirmed",
+            "sourceBook": "Nuestro libro de proyectos Tomo III",
+            "sourcePages": [
+              67,
+              68,
+              69,
+              70
+            ],
+            "sourcePagesLabel": "pp. 67-70",
+            "topicTitle": "exposicion oral",
+            "evidenceSnippet": "67 Proyecto académico 42 Un diálogo guiado a la ciencia Con anterioridad, llevaron a cabo dos proyectos relacionados con la ciencia. Ahora emplearán los conocimientos adquiridos para desarrollar éste y, de ser posible, realizarán ajustes qu",
+            "reason": "Todo el proyecto gira en torno a exponer articulos previamente trabajados ante otras personas.",
+            "pedagogicalUse": "Ayuda a valorar claridad, orden y participacion en la presentacion publica.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "identificacion de problemas comunitarios",
+            "status": "confirmed",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              234,
+              235,
+              236
+            ],
+            "sourcePagesLabel": "pp. 234-236",
+            "topicTitle": "identificacion de problemas comunitarios",
+            "evidenceSnippet": "67 Proyecto académico 42 Un diálogo guiado a la ciencia Con anterioridad, llevaron a cabo dos proyectos relacionados con la ciencia. Ahora emplearán los conocimientos adquiridos para desarrollar éste y, de ser posible, realizarán ajustes qu",
+            "reason": "El bloque de textos en lengua inglesa asignado al proyecto desarrolla de forma directa la identificacion de problemas comunitarios.",
+            "pedagogicalUse": "Permite dar contenido concreto a la exposicion y conectar ciencia con realidad local.",
+            "activityReadiness": "usable-for-resonance"
+          },
+          {
+            "concept": "soluciones a problemas comunitarios",
+            "status": "confirmed",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              236,
+              237,
+              238
+            ],
+            "sourcePagesLabel": "pp. 236-238",
+            "topicTitle": "soluciones a problemas comunitarios",
+            "evidenceSnippet": "67 Proyecto académico 42 Un diálogo guiado a la ciencia Con anterioridad, llevaron a cabo dos proyectos relacionados con la ciencia. Ahora emplearán los conocimientos adquiridos para desarrollar éste y, de ser posible, realizarán ajustes qu",
+            "reason": "Las paginas asignadas desarrollan analisis y solucion de problemas comunitarios.",
+            "pedagogicalUse": "Ayuda a que la exposicion no se quede en diagnostico y abra alternativas de accion.",
+            "activityReadiness": "usable-for-resonance"
+          },
+          {
+            "concept": "comprension lectora",
+            "status": "confirmed",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              12,
+              13,
+              14,
+              15,
+              16,
+              17
+            ],
+            "sourcePagesLabel": "pp. 12-17",
+            "topicTitle": "comprension lectora",
+            "evidenceSnippet": "67 Proyecto académico 42 Un diálogo guiado a la ciencia Con anterioridad, llevaron a cabo dos proyectos relacionados con la ciencia. Ahora emplearán los conocimientos adquiridos para desarrollar éste y, de ser posible, realizarán ajustes qu",
+            "reason": "La lectura comprensiva sigue siendo necesaria para presentar con claridad los articulos construidos previamente.",
+            "pedagogicalUse": "Sostiene la apropiacion del contenido antes de socializarlo oralmente.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "redaccion de un informe",
+            "status": "suggested",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              238,
+              239,
+              240
+            ],
+            "sourcePagesLabel": "pp. 238-240",
+            "topicTitle": "redaccion de un informe",
+            "evidenceSnippet": "67 Proyecto académico 42 Un diálogo guiado a la ciencia Con anterioridad, llevaron a cabo dos proyectos relacionados con la ciencia. Ahora emplearán los conocimientos adquiridos para desarrollar éste y, de ser posible, realizarán ajustes qu",
+            "reason": "Forma parte del cierre del bloque de problemas comunitarios, pero no se eleva a confirmado del guion de exposicion.",
+            "pedagogicalUse": "Puede servir como referencia complementaria para ordenar informacion y conclusiones.",
+            "activityReadiness": "usable-for-games-later"
+          },
+          {
+            "concept": "uso de la lengua indigena para expresar problematicas sociales",
+            "status": "needsReview",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              199
+            ],
+            "sourcePagesLabel": "p. 199",
+            "topicTitle": "uso de la lengua indigena para expresar problematicas sociales",
+            "evidenceSnippet": "67 Proyecto académico 42 Un diálogo guiado a la ciencia Con anterioridad, llevaron a cabo dos proyectos relacionados con la ciencia. Ahora emplearán los conocimientos adquiridos para desarrollar éste y, de ser posible, realizarán ajustes qu",
+            "reason": "La pagina de encabezado del bloque se conserva en cautela para evitar mezclar demasiado el foco del proyecto.",
+            "pedagogicalUse": "Aporta trasfondo importante, pero requiere validacion mas fina antes de escalar.",
+            "activityReadiness": "not-usable-yet"
+          }
+        ],
+        "thinkingCriteria": [
+          "Distinguir entre reunir informacion y comunicarla oralmente de manera comprensible.",
+          "Relacionar problemas, soluciones y recursos de apoyo con una exposicion publica responsable.",
+          "Usar el guion como organizador de tiempos, roles y propósitos, no como lectura mecanica."
+        ],
+        "validationStatus": {
+          "readinessLevel": "development-partial",
+          "readyForActivities": false,
+          "needsReviewReasons": [
+            "El bloque sobre lengua indigena y problematicas sociales se mantiene como cautela y no como concepto confirmado del PA.",
+            "Redaccion de un informe permanece en sugerido para no confundir el producto final con otro genero."
+          ]
+        },
+        "readinessLevel": "development-partial",
+        "readyForActivities": false,
+        "needsReviewReasons": [
+          "El bloque sobre lengua indigena y problematicas sociales se mantiene como cautela y no como concepto confirmado del PA.",
+          "Redaccion de un informe permanece en sugerido para no confundir el producto final con otro genero."
+        ]
+      }
+    ]
+  },
+  "conceptsValidation": {
+    "grade": "1",
+    "field": "Lenguajes",
+    "ppaNumber": "14",
+    "status": "concept-validation",
+    "generatedAt": "2026-05-28T23:50:44.632Z",
+    "entries": [
+      {
+        "projectId": "lenguajes-1-ppa-14-pa40",
+        "projectTitle": "Un artículo de divulgación de la ciencia",
+        "concept": "esquema de divulgacion",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Posibilidades de uso Lenguajes",
+          "pages": [
+            31
+          ],
+          "reason": "La columna del PA40 nombra de forma explicita el esquema de divulgacion como producto del proyecto."
+        },
+        "pedagogicalUse": "Permite planear como se presentara la informacion antes de redactar el articulo.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-1-ppa-14-pa40",
+        "projectTitle": "Un artículo de divulgación de la ciencia",
+        "concept": "articulo de divulgacion cientifica",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Nuestro libro de proyectos Tomo III",
+          "pages": [
+            60,
+            61,
+            62
+          ],
+          "reason": "El proyecto se define desde la revision de articulos de divulgacion cientifica y su uso como referente."
+        },
+        "pedagogicalUse": "Ayuda a reconocer estructura, destinatario y proposito de los textos del bloque.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-1-ppa-14-pa40",
+        "projectTitle": "Un artículo de divulgación de la ciencia",
+        "concept": "comprension lectora",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            12,
+            13,
+            14,
+            15,
+            16,
+            17
+          ],
+          "reason": "La columna asigna este bloque como base para revisar articulos y distinguir sus rasgos."
+        },
+        "pedagogicalUse": "Sostiene la lectura critica previa a la escritura del esquema.",
+        "activityReadiness": "usable-for-resonance"
+      },
+      {
+        "projectId": "lenguajes-1-ppa-14-pa40",
+        "projectTitle": "Un artículo de divulgación de la ciencia",
+        "concept": "tipos de texto",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            13,
+            14,
+            15,
+            16,
+            17
+          ],
+          "reason": "Las paginas asignadas trabajan los tipos de texto y su reconocimiento."
+        },
+        "pedagogicalUse": "Permite ubicar la divulgacion dentro de un repertorio mas amplio de formas de escritura.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-1-ppa-14-pa40",
+        "projectTitle": "Un artículo de divulgación de la ciencia",
+        "concept": "elementos de la comunicacion",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60
+          ],
+          "reason": "La columna asigna este bloque para pensar la comunicacion y su uso en el entorno."
+        },
+        "pedagogicalUse": "Ayuda a afinar destinatario, mensaje y forma de circulacion del esquema.",
+        "activityReadiness": "usable-for-resonance"
+      },
+      {
+        "projectId": "lenguajes-1-ppa-14-pa40",
+        "projectTitle": "Un artículo de divulgación de la ciencia",
+        "concept": "tecnicas de investigacion de recoleccion",
+        "status": "suggested",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            172,
+            173,
+            174
+          ],
+          "reason": "Las paginas del bloque lo incluyen como apoyo a la investigacion, aunque no se vuelve eje principal del producto."
+        },
+        "pedagogicalUse": "Puede orientar levantamiento de datos cuando el tema exige observacion o consulta comunitaria.",
+        "activityReadiness": "usable-for-games-later"
+      },
+      {
+        "projectId": "lenguajes-1-ppa-14-pa40",
+        "projectTitle": "Un artículo de divulgación de la ciencia",
+        "concept": "la entrevista como medio para recuperar informacion",
+        "status": "suggested",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            174,
+            175
+          ],
+          "reason": "Es pertinente para la investigacion local, pero se mantiene en apoyo y no como concepto confirmado del esquema."
+        },
+        "pedagogicalUse": "Puede enriquecer la busqueda de testimonios o voces comunitarias.",
+        "activityReadiness": "usable-for-games-later"
+      },
+      {
+        "projectId": "lenguajes-1-ppa-14-pa41",
+        "projectTitle": "¡Una revista de mi comunidad!",
+        "concept": "revista sencilla",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Posibilidades de uso Lenguajes",
+          "pages": [
+            31
+          ],
+          "reason": "La columna 2 de Posibilidades la nombra como producto final del PA41."
+        },
+        "pedagogicalUse": "Organiza la articulacion de articulos, orden, introduccion y cierre de la produccion colectiva.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-1-ppa-14-pa41",
+        "projectTitle": "¡Una revista de mi comunidad!",
+        "concept": "articulos de divulgacion cientifica",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Nuestro libro de proyectos Tomo III",
+          "pages": [
+            63,
+            64,
+            65
+          ],
+          "reason": "La revista se construye a partir de articulos de divulgacion previamente elaborados."
+        },
+        "pedagogicalUse": "Ayuda a revisar que el contenido de la revista conserve claridad, sustento y sentido cientifico.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-1-ppa-14-pa41",
+        "projectTitle": "¡Una revista de mi comunidad!",
+        "concept": "fuentes de investigacion",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            164,
+            165,
+            166
+          ],
+          "reason": "La columna asigna fuentes de investigacion como base para seleccionar contenido de la revista."
+        },
+        "pedagogicalUse": "Permite discutir de donde proviene la informacion y por que vale la pena publicarla.",
+        "activityReadiness": "usable-for-resonance"
+      },
+      {
+        "projectId": "lenguajes-1-ppa-14-pa41",
+        "projectTitle": "¡Una revista de mi comunidad!",
+        "concept": "tipos de fuentes de informacion",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            165,
+            166
+          ],
+          "reason": "Las paginas del bloque trabajan de manera explicita los tipos de fuentes de informacion."
+        },
+        "pedagogicalUse": "Ayuda a sostener criterios de inclusion y descarte de materiales dentro de la revista.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-1-ppa-14-pa41",
+        "projectTitle": "¡Una revista de mi comunidad!",
+        "concept": "comprension lectora",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            12,
+            13,
+            14,
+            15,
+            16,
+            17
+          ],
+          "reason": "La revista depende de leer, comparar y seleccionar textos con criterio."
+        },
+        "pedagogicalUse": "Sostiene la revision critica antes de publicar contenidos.",
+        "activityReadiness": "usable-for-resonance"
+      },
+      {
+        "projectId": "lenguajes-1-ppa-14-pa41",
+        "projectTitle": "¡Una revista de mi comunidad!",
+        "concept": "textos literarios e informativos que aborden temas de la comunidad",
+        "status": "suggested",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            200,
+            201,
+            202,
+            203
+          ],
+          "reason": "Aparece dentro del bloque asignado, pero se mantiene como apoyo para no sobredimensionar la relacion con problematicas sociales."
+        },
+        "pedagogicalUse": "Puede ampliar la seleccion de textos cuando la revista dialogue con vida comunitaria.",
+        "activityReadiness": "usable-for-games-later"
+      },
+      {
+        "projectId": "lenguajes-1-ppa-14-pa41",
+        "projectTitle": "¡Una revista de mi comunidad!",
+        "concept": "uso de la lengua indigena para expresar problematicas sociales",
+        "status": "needsReview",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            199
+          ],
+          "reason": "La pagina encabezado del bloque esta asignada, pero no conviene subirla a confirmado dentro de este PA sin mayor validacion."
+        },
+        "pedagogicalUse": "Se conserva como cautela para no mezclar el objetivo del proyecto con otro eje tematico.",
+        "activityReadiness": "not-usable-yet"
+      },
+      {
+        "projectId": "lenguajes-1-ppa-14-pa42",
+        "projectTitle": "Un diálogo guiado a la ciencia",
+        "concept": "guion de exposicion",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Posibilidades de uso Lenguajes",
+          "pages": [
+            31
+          ],
+          "reason": "La columna 3 lo nombra de manera explicita como producto del PA42."
+        },
+        "pedagogicalUse": "Permite distribuir momentos, tiempos, recursos y responsabilidades de la exposicion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-1-ppa-14-pa42",
+        "projectTitle": "Un diálogo guiado a la ciencia",
+        "concept": "exposicion oral",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Nuestro libro de proyectos Tomo III",
+          "pages": [
+            67,
+            68,
+            69,
+            70
+          ],
+          "reason": "Todo el proyecto gira en torno a exponer articulos previamente trabajados ante otras personas."
+        },
+        "pedagogicalUse": "Ayuda a valorar claridad, orden y participacion en la presentacion publica.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-1-ppa-14-pa42",
+        "projectTitle": "Un diálogo guiado a la ciencia",
+        "concept": "identificacion de problemas comunitarios",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            234,
+            235,
+            236
+          ],
+          "reason": "El bloque de textos en lengua inglesa asignado al proyecto desarrolla de forma directa la identificacion de problemas comunitarios."
+        },
+        "pedagogicalUse": "Permite dar contenido concreto a la exposicion y conectar ciencia con realidad local.",
+        "activityReadiness": "usable-for-resonance"
+      },
+      {
+        "projectId": "lenguajes-1-ppa-14-pa42",
+        "projectTitle": "Un diálogo guiado a la ciencia",
+        "concept": "soluciones a problemas comunitarios",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            236,
+            237,
+            238
+          ],
+          "reason": "Las paginas asignadas desarrollan analisis y solucion de problemas comunitarios."
+        },
+        "pedagogicalUse": "Ayuda a que la exposicion no se quede en diagnostico y abra alternativas de accion.",
+        "activityReadiness": "usable-for-resonance"
+      },
+      {
+        "projectId": "lenguajes-1-ppa-14-pa42",
+        "projectTitle": "Un diálogo guiado a la ciencia",
+        "concept": "comprension lectora",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            12,
+            13,
+            14,
+            15,
+            16,
+            17
+          ],
+          "reason": "La lectura comprensiva sigue siendo necesaria para presentar con claridad los articulos construidos previamente."
+        },
+        "pedagogicalUse": "Sostiene la apropiacion del contenido antes de socializarlo oralmente.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-1-ppa-14-pa42",
+        "projectTitle": "Un diálogo guiado a la ciencia",
+        "concept": "redaccion de un informe",
+        "status": "suggested",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            238,
+            239,
+            240
+          ],
+          "reason": "Forma parte del cierre del bloque de problemas comunitarios, pero no se eleva a confirmado del guion de exposicion."
+        },
+        "pedagogicalUse": "Puede servir como referencia complementaria para ordenar informacion y conclusiones.",
+        "activityReadiness": "usable-for-games-later"
+      },
+      {
+        "projectId": "lenguajes-1-ppa-14-pa42",
+        "projectTitle": "Un diálogo guiado a la ciencia",
+        "concept": "uso de la lengua indigena para expresar problematicas sociales",
+        "status": "needsReview",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            199
+          ],
+          "reason": "La pagina de encabezado del bloque se conserva en cautela para evitar mezclar demasiado el foco del proyecto."
+        },
+        "pedagogicalUse": "Aporta trasfondo importante, pero requiere validacion mas fina antes de escalar.",
+        "activityReadiness": "not-usable-yet"
+      }
+    ]
+  },
+  "pedagogicalArticulation": {
+    "grade": "1",
+    "field": "Lenguajes",
+    "ppaNumber": "14",
+    "status": "teacher-orientation",
+    "officialHorizonStatus": "pending",
+    "situatedPedagogicalOrientation": "El PPA 14 puede orientar procesos en los que la lectura, la investigacion, la ciencia y la comunicacion se encuentren para producir materiales de divulgacion vinculados con intereses reales de la comunidad. PA40 organiza un esquema de divulgacion para orientar la escritura de un articulo; PA41 reune esos articulos en una revista sencilla de ciencia local; y PA42 convierte el trabajo previo en un guion de exposicion para compartir hallazgos, preguntas y recursos de apoyo.",
+    "integratingQuestions": [
+      "Cuando una comunidad investiga, escribe, organiza una revista y expone sus hallazgos, que aprende sobre la manera en que la ciencia y el lenguaje pueden cambiar su forma de mirar la realidad?",
+      "Reconocer la funcion social de la divulgacion cientifica y su relacion con intereses comunitarios.",
+      "Distinguir entre investigar, seleccionar informacion y comunicarla con claridad.",
+      "Valorar el paso de la lectura a la escritura y de la escritura a la exposicion publica."
+    ],
+    "projectConnections": [
+      {
+        "projectId": "lenguajes-1-ppa-14-pa40",
+        "projectTitle": "Un artículo de divulgación de la ciencia",
+        "roleInPpa": "Esquema de divulgacion",
+        "confirmedConcepts": [
+          "esquema de divulgacion",
+          "articulo de divulgacion cientifica",
+          "comprension lectora",
+          "tipos de texto",
+          "elementos de la comunicacion"
+        ],
+        "suggestedConcepts": [
+          "tecnicas de investigacion de recoleccion",
+          "la entrevista como medio para recuperar informacion"
+        ],
+        "pedagogicalUse": "Conviene insistir en que el esquema no reemplaza el articulo, sino que ayuda a pensarlo mejor."
+      },
+      {
+        "projectId": "lenguajes-1-ppa-14-pa41",
+        "projectTitle": "¡Una revista de mi comunidad!",
+        "roleInPpa": "Revista sencilla",
+        "confirmedConcepts": [
+          "revista sencilla",
+          "articulos de divulgacion cientifica",
+          "fuentes de investigacion",
+          "tipos de fuentes de informacion",
+          "comprension lectora"
+        ],
+        "suggestedConcepts": [
+          "textos literarios e informativos que aborden temas de la comunidad"
+        ],
+        "pedagogicalUse": "La revista necesita un criterio de seleccion claro; no basta con juntar articulos sin orden ni relacion."
+      },
+      {
+        "projectId": "lenguajes-1-ppa-14-pa42",
+        "projectTitle": "Un diálogo guiado a la ciencia",
+        "roleInPpa": "Guion de exposicion",
+        "confirmedConcepts": [
+          "guion de exposicion",
+          "exposicion oral",
+          "identificacion de problemas comunitarios",
+          "soluciones a problemas comunitarios",
+          "comprension lectora"
+        ],
+        "suggestedConcepts": [
+          "redaccion de un informe"
+        ],
+        "pedagogicalUse": "Conviene trabajar el guion como apoyo para hablar con claridad, no como libreto rigido para leer sin comprender."
+      }
+    ],
+    "criteriaOfThought": [
+      {
+        "criterion": "Reconocer la funcion social de la divulgacion cientifica y su relacion con intereses comunitarios.",
+        "status": "suggested"
+      },
+      {
+        "criterion": "Distinguir entre investigar, seleccionar informacion y comunicarla con claridad.",
+        "status": "suggested"
+      },
+      {
+        "criterion": "Valorar el paso de la lectura a la escritura y de la escritura a la exposicion publica.",
+        "status": "suggested"
+      }
+    ],
+    "possibleResonanceQuestion": "Cuando una comunidad investiga, escribe, organiza una revista y expone sus hallazgos, que aprende sobre la manera en que la ciencia y el lenguaje pueden cambiar su forma de mirar la realidad?",
+    "teacherNotes": [
+      "No reducir la ciencia a definiciones sueltas: cada producto necesita relacionarse con una tematica de interes para la comunidad.",
+      "Los apoyos de Multiples Lenguajes entran como referencia docente, no como conceptos automaticos.",
+      "Las paginas sobre lengua indigena deben trabajarse sin desviar el proyecto hacia un tema distinto al de la divulgacion."
+    ],
+    "notReadyFor": [
+      "actividades interactivas",
+      "full-games",
+      "summative-exam"
+    ]
+  },
+  "teacherNotesAndResonances": {
+    "grade": "1",
+    "field": "Lenguajes",
+    "ppaNumber": "14",
+    "status": "teacher-orientation",
+    "officialHorizonStatus": "pending",
+    "ppaIntegratingResonance": "Cuando una comunidad investiga, escribe, organiza una revista y expone sus hallazgos, que aprende sobre la manera en que la ciencia y el lenguaje pueden cambiar su forma de mirar la realidad?",
+    "didacticWarnings": [
+      "No reducir la ciencia a definiciones sueltas: cada producto necesita relacionarse con una tematica de interes para la comunidad.",
+      "Los apoyos de Multiples Lenguajes entran como referencia docente, no como conceptos automaticos.",
+      "Las paginas sobre lengua indigena deben trabajarse sin desviar el proyecto hacia un tema distinto al de la divulgacion."
+    ],
+    "communityPrompts": {
+      "communityKnowledge": [
+        "Que temas cientificos o tecnologicos importan de verdad en la comunidad y por que?",
+        "Que preguntas surgen en la localidad cuando se habla de investigacion, salud, ambiente o tecnologia?"
+      ],
+      "families": [
+        "Donde suele buscar informacion la familia cuando necesita entender un tema nuevo o resolver una duda importante?"
+      ],
+      "territoryLanguageMemory": [
+        "Que palabras, ejemplos o experiencias del lugar ayudan a explicar mejor un tema de ciencia?"
+      ],
+      "productCommunityConnection": [
+        "Como puede circular la revista o la exposicion para que otras personas quieran leer, preguntar y dialogar?"
+      ]
+    },
+    "suggestedThinkingCriteria": [
+      "Reconocer la funcion social de la divulgacion cientifica y su relacion con intereses comunitarios.",
+      "Distinguir entre investigar, seleccionar informacion y comunicarla con claridad.",
+      "Valorar el paso de la lectura a la escritura y de la escritura a la exposicion publica."
+    ],
+    "projects": [
+      {
+        "projectId": "lenguajes-1-ppa-14-pa40",
+        "projectTitle": "Un artículo de divulgación de la ciencia",
+        "teacherNotes": [
+          "Conviene insistir en que el esquema no reemplaza el articulo, sino que ayuda a pensarlo mejor.",
+          "Es util que el tema de ciencia elegido tenga interes real para la comunidad escolar o local.",
+          "La comprension lectora debe pasar por preguntas y dialogo, no solo por subrayado o copia.",
+          "Ermitanos funciona como apoyo visual o de curiosidad cientifica, no como concepto central confirmado.",
+          "Eviten que la divulgacion se vuelva tecnicismo vacio; el reto es hacer comprensible un tema sin perder rigor."
+        ],
+        "confirmedConceptsToUse": [
+          "esquema de divulgacion",
+          "articulo de divulgacion cientifica",
+          "comprension lectora",
+          "tipos de texto",
+          "elementos de la comunicacion"
+        ],
+        "suggestedConceptsToHandleCarefully": [
+          "tecnicas de investigacion de recoleccion",
+          "la entrevista como medio para recuperar informacion"
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "Que tema de ciencia o tecnologia te gustaria explicar mejor a otras personas de tu comunidad y por que?",
+            "conceptsActivated": [
+              "articulo de divulgacion cientifica",
+              "esquema de divulgacion"
+            ],
+            "thinkingCriteria": [
+              "Relacionar ciencia y contexto local"
+            ],
+            "suggestedUse": "Entrada individual."
+          },
+          {
+            "type": "collective",
+            "prompt": "Como sabemos si un esquema realmente ayuda a comprender un texto cientifico y no solo a ordenarlo en partes?",
+            "conceptsActivated": [
+              "esquema de divulgacion",
+              "comprension lectora"
+            ],
+            "thinkingCriteria": [
+              "Distinguir organizacion y comprension"
+            ],
+            "suggestedUse": "Revision de borradores."
+          },
+          {
+            "type": "community",
+            "prompt": "Que problemas o preguntas de la comunidad merecen explicarse con mas claridad usando lenguaje cientifico accesible?",
+            "conceptsActivated": [
+              "elementos de la comunicacion"
+            ],
+            "thinkingCriteria": [
+              "Pensar destinatarios y problemas reales"
+            ],
+            "suggestedUse": "Vinculo con comunidad."
+          },
+          {
+            "type": "closing",
+            "prompt": "Despues de revisar varios textos, que aprendiste sobre la manera en que la ciencia se comunica a personas que no son especialistas?",
+            "conceptsActivated": [
+              "tipos de texto",
+              "articulo de divulgacion cientifica"
+            ],
+            "thinkingCriteria": [
+              "Valorar la funcion social de la divulgacion"
+            ],
+            "suggestedUse": "Cierre."
+          }
+        ],
+        "notReadyFor": [
+          "summative-exam",
+          "full-games",
+          "actividades interactivas"
+        ]
+      },
+      {
+        "projectId": "lenguajes-1-ppa-14-pa41",
+        "projectTitle": "¡Una revista de mi comunidad!",
+        "teacherNotes": [
+          "La revista necesita un criterio de seleccion claro; no basta con juntar articulos sin orden ni relacion.",
+          "Conviene trabajar introduccion, desarrollo y cierre de la revista como un todo, no solo de cada articulo.",
+          "Las fuentes deben servir para justificar por que un contenido entra o sale de la publicacion.",
+          "Cangrejos braquiuros del golfo de Mexico puede usarse como disparador visual o cientifico, sin convertirlo en concepto confirmado.",
+          "Eviten que la revista se vuelva solo maqueta; importa mas su coherencia de lectura y su pertinencia para la comunidad."
+        ],
+        "confirmedConceptsToUse": [
+          "revista sencilla",
+          "articulos de divulgacion cientifica",
+          "fuentes de investigacion",
+          "tipos de fuentes de informacion",
+          "comprension lectora"
+        ],
+        "suggestedConceptsToHandleCarefully": [
+          "textos literarios e informativos que aborden temas de la comunidad",
+          "uso de la lengua indigena para expresar problematicas sociales"
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "Que tipo de articulo te gustaria incluir en una revista de tu comunidad para que otras personas aprendan algo nuevo y util?",
+            "conceptsActivated": [
+              "revista sencilla",
+              "articulos de divulgacion cientifica"
+            ],
+            "thinkingCriteria": [
+              "Elegir contenidos con proposito"
+            ],
+            "suggestedUse": "Apertura."
+          },
+          {
+            "type": "collective",
+            "prompt": "Como decide un colectivo que informacion merece publicarse y que informacion todavia necesita revisarse?",
+            "conceptsActivated": [
+              "fuentes de investigacion",
+              "tipos de fuentes de informacion"
+            ],
+            "thinkingCriteria": [
+              "Seleccionar y justificar fuentes"
+            ],
+            "suggestedUse": "Asamblea editorial."
+          },
+          {
+            "type": "community",
+            "prompt": "Que temas locales de ciencia, tecnologia o investigacion podrian interesar realmente a las familias y a la comunidad?",
+            "conceptsActivated": [
+              "comprension lectora"
+            ],
+            "thinkingCriteria": [
+              "Vincular lectura y contexto local"
+            ],
+            "suggestedUse": "Vinculo con comunidad."
+          },
+          {
+            "type": "closing",
+            "prompt": "Despues de armar la revista, que aprendiste sobre leer, ordenar y compartir informacion con otras personas?",
+            "conceptsActivated": [
+              "revista sencilla",
+              "tipos de fuentes de informacion"
+            ],
+            "thinkingCriteria": [
+              "Sintetizar proceso editorial comunitario"
+            ],
+            "suggestedUse": "Cierre."
+          }
+        ],
+        "notReadyFor": [
+          "summative-exam",
+          "full-games",
+          "actividades interactivas"
+        ]
+      },
+      {
+        "projectId": "lenguajes-1-ppa-14-pa42",
+        "projectTitle": "Un diálogo guiado a la ciencia",
+        "teacherNotes": [
+          "Conviene trabajar el guion como apoyo para hablar con claridad, no como libreto rigido para leer sin comprender.",
+          "El proyecto gana fuerza cuando la exposicion recupera de verdad los aprendizajes de los dos proyectos anteriores.",
+          "La identificacion de problemas y soluciones puede ayudar a que la exposicion tenga sentido social y no solo escolar.",
+          "El apoyo sobre equinodermos puede usarse como referencia de contenido cientifico, sin convertirlo en eje conceptual automatico.",
+          "Eviten que la exposicion se vuelva enumeracion vacia; importa la relacion entre ideas, ejemplos y preguntas del auditorio."
+        ],
+        "confirmedConceptsToUse": [
+          "guion de exposicion",
+          "exposicion oral",
+          "identificacion de problemas comunitarios",
+          "soluciones a problemas comunitarios",
+          "comprension lectora"
+        ],
+        "suggestedConceptsToHandleCarefully": [
+          "redaccion de un informe",
+          "uso de la lengua indigena para expresar problematicas sociales"
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "Que te ayudaria a sentirte seguro o segura al presentar un trabajo de ciencia frente a otras personas?",
+            "conceptsActivated": [
+              "guion de exposicion",
+              "exposicion oral"
+            ],
+            "thinkingCriteria": [
+              "Organizar una presentacion con sentido"
+            ],
+            "suggestedUse": "Apertura."
+          },
+          {
+            "type": "collective",
+            "prompt": "Como puede una exposicion pasar de repetir informacion a provocar preguntas y pensamiento critico en quienes la escuchan?",
+            "conceptsActivated": [
+              "exposicion oral",
+              "comprension lectora"
+            ],
+            "thinkingCriteria": [
+              "Distinguir repetir y comprender"
+            ],
+            "suggestedUse": "Ensayo colectivo."
+          },
+          {
+            "type": "community",
+            "prompt": "Que problemas de la comunidad merecen ser explicados y discutidos publicamente con mayor claridad?",
+            "conceptsActivated": [
+              "identificacion de problemas comunitarios",
+              "soluciones a problemas comunitarios"
+            ],
+            "thinkingCriteria": [
+              "Relacionar exposicion y realidad comunitaria"
+            ],
+            "suggestedUse": "Vinculo con territorio."
+          },
+          {
+            "type": "closing",
+            "prompt": "Despues de exponer, que aprendiste sobre la responsabilidad de hablar ante otras personas cuando compartes informacion importante?",
+            "conceptsActivated": [
+              "guion de exposicion",
+              "soluciones a problemas comunitarios"
+            ],
+            "thinkingCriteria": [
+              "Valorar la comunicacion publica responsable"
+            ],
+            "suggestedUse": "Cierre."
+          }
+        ],
+        "notReadyFor": [
+          "summative-exam",
+          "full-games",
+          "actividades interactivas"
+        ]
+      }
+    ]
+  }
+}

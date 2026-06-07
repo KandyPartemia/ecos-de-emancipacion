@@ -1,0 +1,1199 @@
+{
+  "grade": "3",
+  "gradeLabel": "Tercer grado",
+  "field": "Etica, Naturaleza y Sociedades",
+  "ppaNumber": "5",
+  "partialClassroomProject": "PPA 5",
+  "partialClassroomProjectTitle": "La esclavitud, las colonias inglesas en América y el derecho a una vida libre",
+  "source": "curricular-development-generated",
+  "generatedAt": "2026-06-07T03:06:26.595Z",
+  "development": {
+    "grade": "3",
+    "gradeLabel": "Tercer grado",
+    "field": "Etica, Naturaleza y Sociedades",
+    "bookVolume": "Tomo II",
+    "partialClassroomProject": "PPA 5",
+    "partialClassroomProjectTitle": "La esclavitud, las colonias inglesas en América y el derecho a una vida libre",
+    "generatedAt": "2026-06-07T03:06:26.532Z",
+    "notes": "Capa curricular generada por lote para 3o Etica, Naturaleza y Sociedades, PPA 5.",
+    "sourcesUsed": [
+      "content/caracoles/curricular-catalog/all-projects-canonical.json",
+      "public/caracoles/data/generated/grade-3/concepts-index.json",
+      "src/caracoles/lib/officialVideoLinks.ts",
+      "Posibilidades de uso ENS, tercer grado, pp. 12-13",
+      "Nuestro libro de proyectos, tercer grado, pp. 169-181"
+    ],
+    "partialClassroomProjectContext": {
+      "expectationHorizon": {
+        "officialText": "",
+        "sourcePages": [
+          "Nuestro libro de proyectos Tomo II pp. 169-173",
+          "Posibilidades de uso ENS pp. 12-13"
+        ],
+        "evidence": "El PPA 5 articula 5. la esclavitud, las colonias inglesas en américa y..., 5. la esclavitud, las colonias inglesas en américa y..., anecdotario de casos para trabajar La esclavitud, las colonias inglesas en América y el derecho a una vida libre.",
+        "status": "pending"
+      },
+      "ppaDetonatingStrategy": {
+        "title": "La esclavitud, las colonias inglesas en América y el derecho a una vida libre",
+        "type": "video",
+        "url": "",
+        "urlStatus": "confirmed-by-official-video-map",
+        "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+        "scope": "partial-classroom-project"
+      },
+      "ppaDigitalResource": {
+        "title": "Recurso del Proyecto Parcial de Aula 5",
+        "reference": "",
+        "status": "confirmed-by-official-video-map",
+        "source": "YouTube, acervo Aprende_MX/Telesecundaria"
+      },
+      "validationStatus": {
+        "needsHumanReview": true,
+        "needsReviewReasons": [
+          "Los videos PA/PPA se validan por el mapa oficial de enlaces directos ya generado.",
+          "Los apoyos complementarios impresos no se asignan cuando no hay evidencia validada por columna.",
+          "El horizonte textual literal queda pendiente de revision fina si se necesita cita exacta."
+        ]
+      },
+      "columnValidation": {
+        "possibilitiesPagesReviewed": [
+          12,
+          13
+        ],
+        "confirmedAsPpa": true,
+        "note": "El PPA 5 se agrupa desde el catalogo canonico de tercer grado.",
+        "columns": [
+          {
+            "columnIndex": 1,
+            "projectId": "etica-naturaleza-y-sociedades-3-ppa-5-pa13",
+            "projectTitle": "La esclavitud en el continente americano",
+            "finalProduct": "5. La esclavitud, las colonias inglesas en América y...",
+            "supportMaterials": []
+          },
+          {
+            "columnIndex": 2,
+            "projectId": "etica-naturaleza-y-sociedades-3-ppa-5-pa14",
+            "projectTitle": "Las colonias inglesas en América",
+            "finalProduct": "5. La esclavitud, las colonias inglesas en América y...",
+            "supportMaterials": []
+          },
+          {
+            "columnIndex": 3,
+            "projectId": "etica-naturaleza-y-sociedades-3-ppa-5-pa15",
+            "projectTitle": "El derecho a una vida libre de violencia de género, sexual y trata de personas",
+            "finalProduct": "Anecdotario de casos",
+            "supportMaterials": []
+          }
+        ]
+      }
+    },
+    "academicProjects": [
+      {
+        "id": "etica-naturaleza-y-sociedades-3-ppa-5-pa13",
+        "projectId": "etica-naturaleza-y-sociedades-3-ppa-5-pa13",
+        "academicProjectNumber": 13,
+        "title": "La esclavitud en el continente americano",
+        "projectTitle": "La esclavitud en el continente americano",
+        "grade": "3",
+        "field": "Ética, Naturaleza y Sociedades",
+        "ppaNumber": "5",
+        "partialClassroomProject": "PPA 5",
+        "partialClassroomProjectTitle": "La esclavitud, las colonias inglesas en América y el derecho a una vida libre",
+        "bookVolume": "Tomo II",
+        "sourceValidation": {
+          "sourceStatus": "linked",
+          "possibilitiesPages": [
+            12,
+            13
+          ],
+          "possibilitiesMaterialId": "grade-3-posibilidades-pos-ens-3",
+          "possibilitiesColumnIndex": 1,
+          "columnEvidence": "Proyecto PA 13 agrupado en el PPA 5 desde el catalogo canonico y las paginas de Posibilidades."
+        },
+        "finalProduct": {
+          "title": "5. La esclavitud, las colonias inglesas en América y...",
+          "source": "Video detonador validado en YouTube + Nuestro libro de proyectos Tomo II pp. 169-173",
+          "status": "confirmed-from-video-and-project"
+        },
+        "sourcePages": {
+          "nuestroLibroProyectos": [
+            {
+              "materialId": "grade-3-proyectos-nuestros-proyectos-tomo-2-tercer-grado",
+              "label": "Nuestro libro de proyectos Tomo II",
+              "startPage": 169,
+              "endPage": 173,
+              "pagesLabel": "pp. 169-173",
+              "topicTitle": "Proyecto academico 13",
+              "status": "confirmed-source"
+            }
+          ],
+          "conceptBook": [
+            {
+              "materialId": "grade-3-conceptos-etica-naturaleza-y-sociedades-tercer-grado",
+              "label": "Etica, Naturaleza y Sociedades",
+              "startPage": 169,
+              "endPage": 169,
+              "pagesLabel": "p. 169",
+              "topicTitle": "5. la esclavitud, las colonias inglesas en américa y...",
+              "status": "confirmed"
+            }
+          ],
+          "multiplesLenguajes": [],
+          "otherMaterials": [
+            {
+              "label": "Video PA 13: 5. La esclavitud, las colonias inglesas en América y... • Ética, naturaleza y sociedades • 3er grado",
+              "reference": "https://www.youtube.com/watch?v=yqv4lFzhBjQ",
+              "status": "confirmed"
+            },
+            {
+              "label": "Video PPA 5: 5. La esclavitud, las colonias inglesas en América y... • Ética, naturaleza y sociedades • 3er grado",
+              "reference": "https://www.youtube.com/watch?v=yqv4lFzhBjQ",
+              "status": "confirmed"
+            }
+          ]
+        },
+        "supportMaterials": [],
+        "horizonOrPurpose": {
+          "status": "pending",
+          "text": "",
+          "source": "Nuestro libro de proyectos Tomo II pp. 169-173"
+        },
+        "projectExpectationHorizon": {
+          "officialText": "",
+          "studentVersion": "",
+          "sourcePages": [
+            "Nuestro libro de proyectos Tomo II pp. 169-173"
+          ],
+          "evidence": "El PA 13 cuenta con paginas de proyecto, producto de cierre, conceptos y videos directos validados; el horizonte textual literal queda pendiente de transcripcion fina.",
+          "status": "pending"
+        },
+        "detonatingStrategy": {
+          "title": "5. La esclavitud, las colonias inglesas en América y... • Ética, naturaleza y sociedades • 3er grado",
+          "text": "Video del Proyecto Parcial de Aula 5: 5. La esclavitud, las colonias inglesas en América y... • Ética, naturaleza y sociedades • 3er grado",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=yqv4lFzhBjQ",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "partial-classroom-project"
+        },
+        "academicProjectStrategy": {
+          "title": "5. La esclavitud, las colonias inglesas en América y... • Ética, naturaleza y sociedades • 3er grado",
+          "text": "Video detonador del Proyecto Academico 13: La esclavitud en el continente americano",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=yqv4lFzhBjQ",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "academic-project"
+        },
+        "academicConcepts": [
+          {
+            "concept": "5. la esclavitud, las colonias inglesas en américa y...",
+            "description": "5. la esclavitud, las colonias inglesas en américa y... organiza el producto de cierre y permite comunicar lo aprendido en el proyecto.",
+            "sourceBook": "Etica, Naturaleza y Sociedades",
+            "sourcePages": [
+              169
+            ],
+            "sourcePagesLabel": "p. 169",
+            "topicTitle": "Proyecto academico 13",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 13, al PPA 5 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Historia",
+            "description": "Historia ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Etica, Naturaleza y Sociedades",
+            "sourcePages": [
+              9
+            ],
+            "sourcePagesLabel": "p. 9",
+            "topicTitle": "Proyecto academico 13",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 13, al PPA 5 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Derechos humanos",
+            "description": "Derechos humanos ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Etica, Naturaleza y Sociedades",
+            "sourcePages": [
+              169
+            ],
+            "sourcePagesLabel": "p. 169",
+            "topicTitle": "Proyecto academico 13",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 13, al PPA 5 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Democracia",
+            "description": "Democracia ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Etica, Naturaleza y Sociedades",
+            "sourcePages": [
+              315
+            ],
+            "sourcePagesLabel": "p. 315",
+            "topicTitle": "Proyecto academico 13",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 13, al PPA 5 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Desigualdad",
+            "description": "Desigualdad ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Etica, Naturaleza y Sociedades",
+            "sourcePages": [
+              169
+            ],
+            "sourcePagesLabel": "p. 169",
+            "topicTitle": "Proyecto academico 13",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 13, al PPA 5 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Sociedad",
+            "description": "Sociedad ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Etica, Naturaleza y Sociedades",
+            "sourcePages": [
+              83
+            ],
+            "sourcePagesLabel": "p. 83",
+            "topicTitle": "Proyecto academico 13",
+            "status": "suggested",
+            "reason": "Concepto vinculado al PA 13, al PPA 5 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "teacher-review"
+          }
+        ],
+        "thinkingCriteria": [
+          "Relacionar La esclavitud en el continente americano con una situacion concreta del entorno escolar o comunitario.",
+          "Usar 5. la esclavitud, las colonias inglesas en américa y... para explicar ideas con claridad y evidencia."
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Como te ayuda 5. la esclavitud, las colonias inglesas en américa y... a comprender mejor La esclavitud en el continente americano y a explicar sus conceptos clave en tu comunidad?",
+            "conceptsActivated": [
+              "5. la esclavitud, las colonias inglesas en américa y...",
+              "Historia",
+              "Derechos humanos",
+              "Democracia"
+            ],
+            "suggestedUse": "Momento 1 de autoevaluacion"
+          }
+        ],
+        "validationStatus": {
+          "readinessLevel": "curricular-bundle-generated",
+          "readyForActivities": true,
+          "needsReviewReasons": [
+            "El horizonte textual literal queda pendiente de revision fina si se requiere cita exacta.",
+            "Los apoyos complementarios impresos no se asignan cuando no hay evidencia validada por columna."
+          ]
+        },
+        "readinessLevel": "curricular-bundle-generated",
+        "readyForActivities": true,
+        "needsReviewReasons": []
+      },
+      {
+        "id": "etica-naturaleza-y-sociedades-3-ppa-5-pa14",
+        "projectId": "etica-naturaleza-y-sociedades-3-ppa-5-pa14",
+        "academicProjectNumber": 14,
+        "title": "Las colonias inglesas en América",
+        "projectTitle": "Las colonias inglesas en América",
+        "grade": "3",
+        "field": "Ética, Naturaleza y Sociedades",
+        "ppaNumber": "5",
+        "partialClassroomProject": "PPA 5",
+        "partialClassroomProjectTitle": "La esclavitud, las colonias inglesas en América y el derecho a una vida libre",
+        "bookVolume": "Tomo II",
+        "sourceValidation": {
+          "sourceStatus": "linked",
+          "possibilitiesPages": [
+            12,
+            13
+          ],
+          "possibilitiesMaterialId": "grade-3-posibilidades-pos-ens-3",
+          "possibilitiesColumnIndex": 2,
+          "columnEvidence": "Proyecto PA 14 agrupado en el PPA 5 desde el catalogo canonico y las paginas de Posibilidades."
+        },
+        "finalProduct": {
+          "title": "5. La esclavitud, las colonias inglesas en América y...",
+          "source": "Video detonador validado en YouTube + Nuestro libro de proyectos Tomo II pp. 174-177",
+          "status": "confirmed-from-video-and-project"
+        },
+        "sourcePages": {
+          "nuestroLibroProyectos": [
+            {
+              "materialId": "grade-3-proyectos-nuestros-proyectos-tomo-2-tercer-grado",
+              "label": "Nuestro libro de proyectos Tomo II",
+              "startPage": 174,
+              "endPage": 177,
+              "pagesLabel": "pp. 174-177",
+              "topicTitle": "Proyecto academico 14",
+              "status": "confirmed-source"
+            }
+          ],
+          "conceptBook": [
+            {
+              "materialId": "grade-3-conceptos-etica-naturaleza-y-sociedades-tercer-grado",
+              "label": "Etica, Naturaleza y Sociedades",
+              "startPage": 174,
+              "endPage": 174,
+              "pagesLabel": "p. 174",
+              "topicTitle": "5. la esclavitud, las colonias inglesas en américa y...",
+              "status": "confirmed"
+            }
+          ],
+          "multiplesLenguajes": [],
+          "otherMaterials": [
+            {
+              "label": "Video PA 14: 5. La esclavitud, las colonias inglesas en América y... • Ética, naturaleza y sociedades • 3er grado",
+              "reference": "https://www.youtube.com/watch?v=yqv4lFzhBjQ",
+              "status": "confirmed"
+            },
+            {
+              "label": "Video PPA 5: 5. La esclavitud, las colonias inglesas en América y... • Ética, naturaleza y sociedades • 3er grado",
+              "reference": "https://www.youtube.com/watch?v=yqv4lFzhBjQ",
+              "status": "confirmed"
+            }
+          ]
+        },
+        "supportMaterials": [],
+        "horizonOrPurpose": {
+          "status": "pending",
+          "text": "",
+          "source": "Nuestro libro de proyectos Tomo II pp. 174-177"
+        },
+        "projectExpectationHorizon": {
+          "officialText": "",
+          "studentVersion": "",
+          "sourcePages": [
+            "Nuestro libro de proyectos Tomo II pp. 174-177"
+          ],
+          "evidence": "El PA 14 cuenta con paginas de proyecto, producto de cierre, conceptos y videos directos validados; el horizonte textual literal queda pendiente de transcripcion fina.",
+          "status": "pending"
+        },
+        "detonatingStrategy": {
+          "title": "5. La esclavitud, las colonias inglesas en América y... • Ética, naturaleza y sociedades • 3er grado",
+          "text": "Video del Proyecto Parcial de Aula 5: 5. La esclavitud, las colonias inglesas en América y... • Ética, naturaleza y sociedades • 3er grado",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=yqv4lFzhBjQ",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "partial-classroom-project"
+        },
+        "academicProjectStrategy": {
+          "title": "5. La esclavitud, las colonias inglesas en América y... • Ética, naturaleza y sociedades • 3er grado",
+          "text": "Video detonador del Proyecto Academico 14: Las colonias inglesas en América",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=yqv4lFzhBjQ",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "academic-project"
+        },
+        "academicConcepts": [
+          {
+            "concept": "5. la esclavitud, las colonias inglesas en américa y...",
+            "description": "5. la esclavitud, las colonias inglesas en américa y... organiza el producto de cierre y permite comunicar lo aprendido en el proyecto.",
+            "sourceBook": "Etica, Naturaleza y Sociedades",
+            "sourcePages": [
+              174
+            ],
+            "sourcePagesLabel": "p. 174",
+            "topicTitle": "Proyecto academico 14",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 14, al PPA 5 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Historia",
+            "description": "Historia ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Etica, Naturaleza y Sociedades",
+            "sourcePages": [
+              9
+            ],
+            "sourcePagesLabel": "p. 9",
+            "topicTitle": "Proyecto academico 14",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 14, al PPA 5 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Derechos humanos",
+            "description": "Derechos humanos ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Etica, Naturaleza y Sociedades",
+            "sourcePages": [
+              174
+            ],
+            "sourcePagesLabel": "p. 174",
+            "topicTitle": "Proyecto academico 14",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 14, al PPA 5 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Democracia",
+            "description": "Democracia ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Etica, Naturaleza y Sociedades",
+            "sourcePages": [
+              315
+            ],
+            "sourcePagesLabel": "p. 315",
+            "topicTitle": "Proyecto academico 14",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 14, al PPA 5 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Desigualdad",
+            "description": "Desigualdad ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Etica, Naturaleza y Sociedades",
+            "sourcePages": [
+              174
+            ],
+            "sourcePagesLabel": "p. 174",
+            "topicTitle": "Proyecto academico 14",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 14, al PPA 5 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Sociedad",
+            "description": "Sociedad ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Etica, Naturaleza y Sociedades",
+            "sourcePages": [
+              83
+            ],
+            "sourcePagesLabel": "p. 83",
+            "topicTitle": "Proyecto academico 14",
+            "status": "suggested",
+            "reason": "Concepto vinculado al PA 14, al PPA 5 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "teacher-review"
+          }
+        ],
+        "thinkingCriteria": [
+          "Relacionar Las colonias inglesas en América con una situacion concreta del entorno escolar o comunitario.",
+          "Usar 5. la esclavitud, las colonias inglesas en américa y... para explicar ideas con claridad y evidencia."
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Como te ayuda 5. la esclavitud, las colonias inglesas en américa y... a comprender mejor Las colonias inglesas en América y a explicar sus conceptos clave en tu comunidad?",
+            "conceptsActivated": [
+              "5. la esclavitud, las colonias inglesas en américa y...",
+              "Historia",
+              "Derechos humanos",
+              "Democracia"
+            ],
+            "suggestedUse": "Momento 1 de autoevaluacion"
+          }
+        ],
+        "validationStatus": {
+          "readinessLevel": "curricular-bundle-generated",
+          "readyForActivities": true,
+          "needsReviewReasons": [
+            "El horizonte textual literal queda pendiente de revision fina si se requiere cita exacta.",
+            "Los apoyos complementarios impresos no se asignan cuando no hay evidencia validada por columna."
+          ]
+        },
+        "readinessLevel": "curricular-bundle-generated",
+        "readyForActivities": true,
+        "needsReviewReasons": []
+      },
+      {
+        "id": "etica-naturaleza-y-sociedades-3-ppa-5-pa15",
+        "projectId": "etica-naturaleza-y-sociedades-3-ppa-5-pa15",
+        "academicProjectNumber": 15,
+        "title": "El derecho a una vida libre de violencia de género, sexual y trata de personas",
+        "projectTitle": "El derecho a una vida libre de violencia de género, sexual y trata de personas",
+        "grade": "3",
+        "field": "Ética, Naturaleza y Sociedades",
+        "ppaNumber": "5",
+        "partialClassroomProject": "PPA 5",
+        "partialClassroomProjectTitle": "La esclavitud, las colonias inglesas en América y el derecho a una vida libre",
+        "bookVolume": "Tomo II",
+        "sourceValidation": {
+          "sourceStatus": "linked",
+          "possibilitiesPages": [
+            12,
+            13
+          ],
+          "possibilitiesMaterialId": "grade-3-posibilidades-pos-ens-3",
+          "possibilitiesColumnIndex": 3,
+          "columnEvidence": "Proyecto PA 15 agrupado en el PPA 5 desde el catalogo canonico y las paginas de Posibilidades."
+        },
+        "finalProduct": {
+          "title": "Anecdotario de casos",
+          "source": "Video detonador validado en YouTube + Nuestro libro de proyectos Tomo II pp. 178-181",
+          "status": "confirmed-from-video-and-project"
+        },
+        "sourcePages": {
+          "nuestroLibroProyectos": [
+            {
+              "materialId": "grade-3-proyectos-nuestros-proyectos-tomo-2-tercer-grado",
+              "label": "Nuestro libro de proyectos Tomo II",
+              "startPage": 178,
+              "endPage": 181,
+              "pagesLabel": "pp. 178-181",
+              "topicTitle": "Proyecto academico 15",
+              "status": "confirmed-source"
+            }
+          ],
+          "conceptBook": [
+            {
+              "materialId": "grade-3-conceptos-etica-naturaleza-y-sociedades-tercer-grado",
+              "label": "Etica, Naturaleza y Sociedades",
+              "startPage": 178,
+              "endPage": 178,
+              "pagesLabel": "p. 178",
+              "topicTitle": "Anecdotario de casos",
+              "status": "confirmed"
+            }
+          ],
+          "multiplesLenguajes": [],
+          "otherMaterials": [
+            {
+              "label": "Video PA 15: Anecdotario de casos • Ética, naturaleza y sociedades •3er grado",
+              "reference": "https://www.youtube.com/watch?v=JSujtmox28o",
+              "status": "confirmed"
+            },
+            {
+              "label": "Video PPA 5: 5. La esclavitud, las colonias inglesas en América y... • Ética, naturaleza y sociedades • 3er grado",
+              "reference": "https://www.youtube.com/watch?v=yqv4lFzhBjQ",
+              "status": "confirmed"
+            }
+          ]
+        },
+        "supportMaterials": [],
+        "horizonOrPurpose": {
+          "status": "pending",
+          "text": "",
+          "source": "Nuestro libro de proyectos Tomo II pp. 178-181"
+        },
+        "projectExpectationHorizon": {
+          "officialText": "",
+          "studentVersion": "",
+          "sourcePages": [
+            "Nuestro libro de proyectos Tomo II pp. 178-181"
+          ],
+          "evidence": "El PA 15 cuenta con paginas de proyecto, producto de cierre, conceptos y videos directos validados; el horizonte textual literal queda pendiente de transcripcion fina.",
+          "status": "pending"
+        },
+        "detonatingStrategy": {
+          "title": "5. La esclavitud, las colonias inglesas en América y... • Ética, naturaleza y sociedades • 3er grado",
+          "text": "Video del Proyecto Parcial de Aula 5: 5. La esclavitud, las colonias inglesas en América y... • Ética, naturaleza y sociedades • 3er grado",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=yqv4lFzhBjQ",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "partial-classroom-project"
+        },
+        "academicProjectStrategy": {
+          "title": "Anecdotario de casos • Ética, naturaleza y sociedades •3er grado",
+          "text": "Video detonador del Proyecto Academico 15: El derecho a una vida libre de violencia de género, sexual y trata de personas",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=JSujtmox28o",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "academic-project"
+        },
+        "academicConcepts": [
+          {
+            "concept": "Anecdotario de casos",
+            "description": "Anecdotario de casos organiza el producto de cierre y permite comunicar lo aprendido en el proyecto.",
+            "sourceBook": "Etica, Naturaleza y Sociedades",
+            "sourcePages": [
+              178
+            ],
+            "sourcePagesLabel": "p. 178",
+            "topicTitle": "Proyecto academico 15",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 15, al PPA 5 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Historia",
+            "description": "Historia ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Etica, Naturaleza y Sociedades",
+            "sourcePages": [
+              9
+            ],
+            "sourcePagesLabel": "p. 9",
+            "topicTitle": "Proyecto academico 15",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 15, al PPA 5 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Derechos humanos",
+            "description": "Derechos humanos ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Etica, Naturaleza y Sociedades",
+            "sourcePages": [
+              178
+            ],
+            "sourcePagesLabel": "p. 178",
+            "topicTitle": "Proyecto academico 15",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 15, al PPA 5 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Democracia",
+            "description": "Democracia ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Etica, Naturaleza y Sociedades",
+            "sourcePages": [
+              315
+            ],
+            "sourcePagesLabel": "p. 315",
+            "topicTitle": "Proyecto academico 15",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 15, al PPA 5 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Desigualdad",
+            "description": "Desigualdad ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Etica, Naturaleza y Sociedades",
+            "sourcePages": [
+              178
+            ],
+            "sourcePagesLabel": "p. 178",
+            "topicTitle": "Proyecto academico 15",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 15, al PPA 5 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Sociedad",
+            "description": "Sociedad ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Etica, Naturaleza y Sociedades",
+            "sourcePages": [
+              83
+            ],
+            "sourcePagesLabel": "p. 83",
+            "topicTitle": "Proyecto academico 15",
+            "status": "suggested",
+            "reason": "Concepto vinculado al PA 15, al PPA 5 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "teacher-review"
+          }
+        ],
+        "thinkingCriteria": [
+          "Relacionar El derecho a una vida libre de violencia de género, sexual y trata de personas con una situacion concreta del entorno escolar o comunitario.",
+          "Usar anecdotario de casos para explicar ideas con claridad y evidencia."
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Como te ayuda anecdotario de casos a comprender mejor El derecho a una vida libre de violencia de género, sexual y trata de personas y a explicar sus conceptos clave en tu comunidad?",
+            "conceptsActivated": [
+              "Anecdotario de casos",
+              "Historia",
+              "Derechos humanos",
+              "Democracia"
+            ],
+            "suggestedUse": "Momento 1 de autoevaluacion"
+          }
+        ],
+        "validationStatus": {
+          "readinessLevel": "curricular-bundle-generated",
+          "readyForActivities": true,
+          "needsReviewReasons": [
+            "El horizonte textual literal queda pendiente de revision fina si se requiere cita exacta.",
+            "Los apoyos complementarios impresos no se asignan cuando no hay evidencia validada por columna."
+          ]
+        },
+        "readinessLevel": "curricular-bundle-generated",
+        "readyForActivities": true,
+        "needsReviewReasons": []
+      }
+    ]
+  },
+  "conceptsValidation": {
+    "grade": "3",
+    "field": "Etica, Naturaleza y Sociedades",
+    "ppaNumber": "5",
+    "status": "concept-validation",
+    "generatedAt": "2026-06-07T03:06:26.532Z",
+    "entries": [
+      {
+        "projectId": "etica-naturaleza-y-sociedades-3-ppa-5-pa13",
+        "projectTitle": "La esclavitud en el continente americano",
+        "concept": "5. la esclavitud, las colonias inglesas en américa y...",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Etica, Naturaleza y Sociedades",
+          "pages": [
+            169
+          ],
+          "reason": "Concepto vinculado al PA 13, al PPA 5 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "etica-naturaleza-y-sociedades-3-ppa-5-pa13",
+        "projectTitle": "La esclavitud en el continente americano",
+        "concept": "Historia",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Etica, Naturaleza y Sociedades",
+          "pages": [
+            9
+          ],
+          "reason": "Concepto vinculado al PA 13, al PPA 5 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "etica-naturaleza-y-sociedades-3-ppa-5-pa13",
+        "projectTitle": "La esclavitud en el continente americano",
+        "concept": "Derechos humanos",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Etica, Naturaleza y Sociedades",
+          "pages": [
+            169
+          ],
+          "reason": "Concepto vinculado al PA 13, al PPA 5 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "etica-naturaleza-y-sociedades-3-ppa-5-pa13",
+        "projectTitle": "La esclavitud en el continente americano",
+        "concept": "Democracia",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Etica, Naturaleza y Sociedades",
+          "pages": [
+            315
+          ],
+          "reason": "Concepto vinculado al PA 13, al PPA 5 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "etica-naturaleza-y-sociedades-3-ppa-5-pa13",
+        "projectTitle": "La esclavitud en el continente americano",
+        "concept": "Desigualdad",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Etica, Naturaleza y Sociedades",
+          "pages": [
+            169
+          ],
+          "reason": "Concepto vinculado al PA 13, al PPA 5 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "etica-naturaleza-y-sociedades-3-ppa-5-pa13",
+        "projectTitle": "La esclavitud en el continente americano",
+        "concept": "Sociedad",
+        "status": "suggested",
+        "evidence": {
+          "sourceBook": "Etica, Naturaleza y Sociedades",
+          "pages": [
+            83
+          ],
+          "reason": "Concepto vinculado al PA 13, al PPA 5 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "teacher-review"
+      },
+      {
+        "projectId": "etica-naturaleza-y-sociedades-3-ppa-5-pa14",
+        "projectTitle": "Las colonias inglesas en América",
+        "concept": "5. la esclavitud, las colonias inglesas en américa y...",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Etica, Naturaleza y Sociedades",
+          "pages": [
+            174
+          ],
+          "reason": "Concepto vinculado al PA 14, al PPA 5 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "etica-naturaleza-y-sociedades-3-ppa-5-pa14",
+        "projectTitle": "Las colonias inglesas en América",
+        "concept": "Historia",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Etica, Naturaleza y Sociedades",
+          "pages": [
+            9
+          ],
+          "reason": "Concepto vinculado al PA 14, al PPA 5 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "etica-naturaleza-y-sociedades-3-ppa-5-pa14",
+        "projectTitle": "Las colonias inglesas en América",
+        "concept": "Derechos humanos",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Etica, Naturaleza y Sociedades",
+          "pages": [
+            174
+          ],
+          "reason": "Concepto vinculado al PA 14, al PPA 5 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "etica-naturaleza-y-sociedades-3-ppa-5-pa14",
+        "projectTitle": "Las colonias inglesas en América",
+        "concept": "Democracia",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Etica, Naturaleza y Sociedades",
+          "pages": [
+            315
+          ],
+          "reason": "Concepto vinculado al PA 14, al PPA 5 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "etica-naturaleza-y-sociedades-3-ppa-5-pa14",
+        "projectTitle": "Las colonias inglesas en América",
+        "concept": "Desigualdad",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Etica, Naturaleza y Sociedades",
+          "pages": [
+            174
+          ],
+          "reason": "Concepto vinculado al PA 14, al PPA 5 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "etica-naturaleza-y-sociedades-3-ppa-5-pa14",
+        "projectTitle": "Las colonias inglesas en América",
+        "concept": "Sociedad",
+        "status": "suggested",
+        "evidence": {
+          "sourceBook": "Etica, Naturaleza y Sociedades",
+          "pages": [
+            83
+          ],
+          "reason": "Concepto vinculado al PA 14, al PPA 5 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "teacher-review"
+      },
+      {
+        "projectId": "etica-naturaleza-y-sociedades-3-ppa-5-pa15",
+        "projectTitle": "El derecho a una vida libre de violencia de género, sexual y trata de personas",
+        "concept": "Anecdotario de casos",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Etica, Naturaleza y Sociedades",
+          "pages": [
+            178
+          ],
+          "reason": "Concepto vinculado al PA 15, al PPA 5 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "etica-naturaleza-y-sociedades-3-ppa-5-pa15",
+        "projectTitle": "El derecho a una vida libre de violencia de género, sexual y trata de personas",
+        "concept": "Historia",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Etica, Naturaleza y Sociedades",
+          "pages": [
+            9
+          ],
+          "reason": "Concepto vinculado al PA 15, al PPA 5 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "etica-naturaleza-y-sociedades-3-ppa-5-pa15",
+        "projectTitle": "El derecho a una vida libre de violencia de género, sexual y trata de personas",
+        "concept": "Derechos humanos",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Etica, Naturaleza y Sociedades",
+          "pages": [
+            178
+          ],
+          "reason": "Concepto vinculado al PA 15, al PPA 5 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "etica-naturaleza-y-sociedades-3-ppa-5-pa15",
+        "projectTitle": "El derecho a una vida libre de violencia de género, sexual y trata de personas",
+        "concept": "Democracia",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Etica, Naturaleza y Sociedades",
+          "pages": [
+            315
+          ],
+          "reason": "Concepto vinculado al PA 15, al PPA 5 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "etica-naturaleza-y-sociedades-3-ppa-5-pa15",
+        "projectTitle": "El derecho a una vida libre de violencia de género, sexual y trata de personas",
+        "concept": "Desigualdad",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Etica, Naturaleza y Sociedades",
+          "pages": [
+            178
+          ],
+          "reason": "Concepto vinculado al PA 15, al PPA 5 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "etica-naturaleza-y-sociedades-3-ppa-5-pa15",
+        "projectTitle": "El derecho a una vida libre de violencia de género, sexual y trata de personas",
+        "concept": "Sociedad",
+        "status": "suggested",
+        "evidence": {
+          "sourceBook": "Etica, Naturaleza y Sociedades",
+          "pages": [
+            83
+          ],
+          "reason": "Concepto vinculado al PA 15, al PPA 5 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "teacher-review"
+      }
+    ]
+  },
+  "pedagogicalArticulation": {
+    "grade": "3",
+    "field": "Etica, Naturaleza y Sociedades",
+    "ppaNumber": "5",
+    "status": "teacher-orientation",
+    "officialHorizonStatus": "pending",
+    "situatedPedagogicalOrientation": "El PPA 5 propone trabajar La esclavitud, las colonias inglesas en América y el derecho a una vida libre mediante productos de cierre, conceptos confirmados y videos directos para reforzar la autoevaluacion.",
+    "integratingQuestions": [
+      "¿Como se relacionan los tres proyectos academicos del PPA 5 con La esclavitud, las colonias inglesas en América y el derecho a una vida libre?",
+      "¿Que conceptos necesita dominar el estudiante para explicar su producto final?",
+      "¿Como usar el producto final para comunicar una comprension y no solo presentar informacion?"
+    ],
+    "possibleResonanceQuestion": "¿Que comprension nueva sobre La esclavitud, las colonias inglesas en América y el derecho a una vida libre puedes explicar con los productos del PPA 5?",
+    "teacherNotes": [
+      "Usar los videos directos como detonadores, no como enlaces de busqueda.",
+      "Retomar los conceptos confirmados antes de resolver la relacion de columnas y el juego."
+    ],
+    "projectConnections": [
+      {
+        "projectId": "etica-naturaleza-y-sociedades-3-ppa-5-pa13",
+        "projectTitle": "La esclavitud en el continente americano",
+        "roleInPpa": "Aporta 5. la esclavitud, las colonias inglesas en américa y... al desarrollo del PPA 5.",
+        "confirmedConcepts": [
+          "5. la esclavitud, las colonias inglesas en américa y...",
+          "Historia",
+          "Derechos humanos",
+          "Democracia",
+          "Desigualdad"
+        ],
+        "suggestedConcepts": [
+          "Sociedad"
+        ],
+        "pedagogicalUse": "Video detonador del Proyecto Academico 13: La esclavitud en el continente americano"
+      },
+      {
+        "projectId": "etica-naturaleza-y-sociedades-3-ppa-5-pa14",
+        "projectTitle": "Las colonias inglesas en América",
+        "roleInPpa": "Aporta 5. la esclavitud, las colonias inglesas en américa y... al desarrollo del PPA 5.",
+        "confirmedConcepts": [
+          "5. la esclavitud, las colonias inglesas en américa y...",
+          "Historia",
+          "Derechos humanos",
+          "Democracia",
+          "Desigualdad"
+        ],
+        "suggestedConcepts": [
+          "Sociedad"
+        ],
+        "pedagogicalUse": "Video detonador del Proyecto Academico 14: Las colonias inglesas en América"
+      },
+      {
+        "projectId": "etica-naturaleza-y-sociedades-3-ppa-5-pa15",
+        "projectTitle": "El derecho a una vida libre de violencia de género, sexual y trata de personas",
+        "roleInPpa": "Aporta anecdotario de casos al desarrollo del PPA 5.",
+        "confirmedConcepts": [
+          "Anecdotario de casos",
+          "Historia",
+          "Derechos humanos",
+          "Democracia",
+          "Desigualdad"
+        ],
+        "suggestedConcepts": [
+          "Sociedad"
+        ],
+        "pedagogicalUse": "Video detonador del Proyecto Academico 15: El derecho a una vida libre de violencia de género, sexual y trata de personas"
+      }
+    ]
+  },
+  "teacherNotesAndResonances": {
+    "grade": "3",
+    "field": "Etica, Naturaleza y Sociedades",
+    "ppaNumber": "5",
+    "status": "teacher-notes-and-resonances",
+    "officialHorizonStatus": "pending",
+    "ppaIntegratingResonance": "¿Que comprension nueva sobre La esclavitud, las colonias inglesas en América y el derecho a una vida libre puedes explicar con los productos del PPA 5?",
+    "didacticWarnings": [
+      "No sustituir el producto final por la reproduccion del video.",
+      "Evitar marcar apoyos impresos como confirmados si no existe evidencia por columna."
+    ],
+    "communityPrompts": {
+      "territoryLanguageMemory": [
+        "¿Que palabras, practicas o problemas del entorno ayudan a entender mejor este PPA?"
+      ],
+      "productCommunityConnection": [
+        "¿Como puede circular el producto final dentro de la comunidad escolar?"
+      ]
+    },
+    "projects": [
+      {
+        "projectId": "etica-naturaleza-y-sociedades-3-ppa-5-pa13",
+        "projectTitle": "La esclavitud en el continente americano",
+        "teacherNotes": [
+          "Retomar 5. la esclavitud, las colonias inglesas en américa y... como evidencia del aprendizaje.",
+          "Usar los conceptos confirmados para orientar la autoevaluacion."
+        ],
+        "confirmedConceptsToUse": [
+          "5. la esclavitud, las colonias inglesas en américa y...",
+          "Historia",
+          "Derechos humanos",
+          "Democracia",
+          "Desigualdad"
+        ],
+        "suggestedConceptsToHandleCarefully": [
+          "Sociedad"
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Como te ayuda 5. la esclavitud, las colonias inglesas en américa y... a comprender mejor La esclavitud en el continente americano y a explicar sus conceptos clave en tu comunidad?",
+            "conceptsActivated": [
+              "5. la esclavitud, las colonias inglesas en américa y...",
+              "Historia",
+              "Derechos humanos",
+              "Democracia"
+            ],
+            "suggestedUse": "Momento 1 de autoevaluacion"
+          }
+        ],
+        "notReadyFor": []
+      },
+      {
+        "projectId": "etica-naturaleza-y-sociedades-3-ppa-5-pa14",
+        "projectTitle": "Las colonias inglesas en América",
+        "teacherNotes": [
+          "Retomar 5. la esclavitud, las colonias inglesas en américa y... como evidencia del aprendizaje.",
+          "Usar los conceptos confirmados para orientar la autoevaluacion."
+        ],
+        "confirmedConceptsToUse": [
+          "5. la esclavitud, las colonias inglesas en américa y...",
+          "Historia",
+          "Derechos humanos",
+          "Democracia",
+          "Desigualdad"
+        ],
+        "suggestedConceptsToHandleCarefully": [
+          "Sociedad"
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Como te ayuda 5. la esclavitud, las colonias inglesas en américa y... a comprender mejor Las colonias inglesas en América y a explicar sus conceptos clave en tu comunidad?",
+            "conceptsActivated": [
+              "5. la esclavitud, las colonias inglesas en américa y...",
+              "Historia",
+              "Derechos humanos",
+              "Democracia"
+            ],
+            "suggestedUse": "Momento 1 de autoevaluacion"
+          }
+        ],
+        "notReadyFor": []
+      },
+      {
+        "projectId": "etica-naturaleza-y-sociedades-3-ppa-5-pa15",
+        "projectTitle": "El derecho a una vida libre de violencia de género, sexual y trata de personas",
+        "teacherNotes": [
+          "Retomar anecdotario de casos como evidencia del aprendizaje.",
+          "Usar los conceptos confirmados para orientar la autoevaluacion."
+        ],
+        "confirmedConceptsToUse": [
+          "Anecdotario de casos",
+          "Historia",
+          "Derechos humanos",
+          "Democracia",
+          "Desigualdad"
+        ],
+        "suggestedConceptsToHandleCarefully": [
+          "Sociedad"
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Como te ayuda anecdotario de casos a comprender mejor El derecho a una vida libre de violencia de género, sexual y trata de personas y a explicar sus conceptos clave en tu comunidad?",
+            "conceptsActivated": [
+              "Anecdotario de casos",
+              "Historia",
+              "Derechos humanos",
+              "Democracia"
+            ],
+            "suggestedUse": "Momento 1 de autoevaluacion"
+          }
+        ],
+        "notReadyFor": []
+      }
+    ]
+  },
+  "validationAudit": {
+    "kind": "generated-validation-audit",
+    "source": "reports/caracoles/grade3-etica-ppa5-reading-bundle-audit.md",
+    "content": "# Bundle curricular tercer grado\n\n- Campo: Etica, Naturaleza y Sociedades\n- PPA: 5\n- Titulo: La esclavitud, las colonias inglesas en América y el derecho a una vida libre\n- Proyectos: PA13, PA14, PA15\n- Estado: generado y publicado\n- Cautela: horizonte literal y apoyos impresos por columna pendientes de revision fina.\n"
+  }
+}

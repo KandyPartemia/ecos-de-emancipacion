@@ -2,3 +2,7 @@ node_modules/
 dist/
 .vercel/
 *.local
+content/caracoles/source-pdfs/**/*.pdf
+content/caracoles/generated-private/**/*.json
+.caracoles-cache/**/*.json
+src/caracoles/data/generated/**/*.json

@@ -1,0 +1,1285 @@
+{
+  "grade": "2",
+  "gradeLabel": "Segundo grado",
+  "field": "De lo Humano y lo Comunitario",
+  "ppaNumber": "3",
+  "partialClassroomProject": "PPA 3",
+  "partialClassroomProjectTitle": "¡Porque en comunidad hacemos más!",
+  "source": "curricular-development-pilot",
+  "generatedAt": "2026-06-04T15:51:07.123Z",
+  "development": {
+    "grade": "2",
+    "gradeLabel": "Segundo grado",
+    "field": "De lo Humano y lo Comunitario",
+    "bookVolume": "Tomo II",
+    "partialClassroomProject": "PPA 3",
+    "partialClassroomProjectTitle": "¡Porque en comunidad hacemos más!",
+    "generatedAt": "2026-06-04T15:48:47.580Z",
+    "notes": "Capa curricular generada por lote para 2o De lo Humano y lo Comunitario, PPA 3.",
+    "sourcesUsed": [
+      "public/caracoles/data/generated/grade-2/selectable-projects.json",
+      "content/caracoles/generated-private/grade-2/pages-index.full.json",
+      "Posibilidades de uso DHyC, segundo grado, pp. 11-12",
+      "Nuestro libro de proyectos Tomo II, segundo grado, pp. 217-232",
+      "De lo Humano y lo Comunitario, segundo grado, pp. 73-95; Nuestro libro de proyectos Tomo II pp. 219-232."
+    ],
+    "partialClassroomProjectContext": {
+      "expectationHorizon": {
+        "officialText": "",
+        "sourcePages": [
+          "Nuestro libro de proyectos Tomo II pp. 217-218",
+          "Posibilidades de uso DHyC pp. 11-12"
+        ],
+        "evidence": "El PPA 3 integra prevencion, movimiento y expresion corporal para fortalecer una convivencia saludable.",
+        "status": "pending"
+      },
+      "ppaDetonatingStrategy": {
+        "title": "¡Porque en comunidad hacemos más!",
+        "type": "video",
+        "url": "",
+        "urlStatus": "pending-url",
+        "reference": "bit.ly/3VfglUk",
+        "source": "Nuestro libro de proyectos Tomo II pp. 217-218 + Posibilidades de uso DHyC pp. 11-12",
+        "scope": "partial-classroom-project",
+        "youtubeSearchQuery": "¡Porque en comunidad hacemos más! De lo Humano y lo Comunitario 2do grado Telesecundaria"
+      },
+      "ppaDigitalResource": {
+        "title": "Recurso informatico del bloque PPA 3",
+        "reference": "bit.ly/3WQBMwg",
+        "status": "pending-validation",
+        "source": "Nuestro libro de proyectos Tomo II pp. 217-232"
+      },
+      "validationStatus": {
+        "needsHumanReview": true,
+        "needsReviewReasons": [
+          "Las pp. 11-12 de Posibilidades pertenecen al mismo PPA 3.",
+          "La asignacion de apoyos por columna se fija por inferencia curricular documentada de izquierda a derecha.",
+          "Los enlaces cortos del video del PPA y del recurso informatico se mantienen en cautela hasta localizar un destino oficial confirmado."
+        ]
+      },
+      "columnValidation": {
+        "possibilitiesPagesReviewed": [
+          11,
+          12
+        ],
+        "confirmedAsPpa": true,
+        "note": "Las pp. 11-12 corresponden al PPA 3 ¡Porque en comunidad hacemos más!. Las tres columnas se sostienen por el orden de proyectos, productos y apoyos del mismo bloque.",
+        "columns": [
+          {
+            "columnIndex": 1,
+            "projectId": "de-lo-humano-y-lo-comunitario-2-ppa-3-pa7",
+            "projectTitle": "¡Adiós riesgos, hola prevención!",
+            "finalProduct": "Producto de cierre del proyecto",
+            "supportMaterials": [
+              "Prevencion y cuidado, pp. 73-78"
+            ]
+          },
+          {
+            "columnIndex": 2,
+            "projectId": "de-lo-humano-y-lo-comunitario-2-ppa-3-pa8",
+            "projectTitle": "Me muevo para una vida saludable",
+            "finalProduct": "Producto de cierre del proyecto",
+            "supportMaterials": [
+              "Movimiento y vida saludable, pp. 79-88"
+            ]
+          },
+          {
+            "columnIndex": 3,
+            "projectId": "de-lo-humano-y-lo-comunitario-2-ppa-3-pa9",
+            "projectTitle": "Expresión corporal: sana convivencia",
+            "finalProduct": "Producto de cierre del proyecto",
+            "supportMaterials": [
+              "Expresion corporal y convivencia, pp. 89-95"
+            ]
+          }
+        ]
+      }
+    },
+    "academicProjects": [
+      {
+        "id": "de-lo-humano-y-lo-comunitario-2-ppa-3-pa7",
+        "projectId": "de-lo-humano-y-lo-comunitario-2-ppa-3-pa7",
+        "academicProjectNumber": 7,
+        "title": "¡Adiós riesgos, hola prevención!",
+        "projectTitle": "¡Adiós riesgos, hola prevención!",
+        "grade": "2",
+        "field": "De lo Humano y lo Comunitario",
+        "ppaNumber": "3",
+        "partialClassroomProject": "PPA 3",
+        "partialClassroomProjectTitle": "¡Porque en comunidad hacemos más!",
+        "bookVolume": "Tomo II",
+        "sourceValidation": {
+          "sourceStatus": "linked",
+          "possibilitiesPages": [
+            11,
+            12
+          ],
+          "possibilitiesMaterialId": "grade-2-posibilidades-pos-dhc-2",
+          "possibilitiesColumnIndex": 1,
+          "columnEvidence": "Bloque PPA 3 ¡Porque en comunidad hacemos más! localizado en pp. 11-12; la columna 1 se confirma por el orden de proyectos, productos y continuidad del mismo bloque."
+        },
+        "finalProduct": {
+          "title": "Producto de cierre del proyecto",
+          "source": "Posibilidades de uso DHyC pp. 11-12 + Nuestro libro de proyectos Tomo II pp. 219-223",
+          "status": "confirmed"
+        },
+        "sourcePages": {
+          "nuestroLibroProyectos": [
+            {
+              "materialId": "grade-2-proyectos-nuestro-libro-de-proyectos-tomo-2-segundo-grado",
+              "label": "Nuestro libro de proyectos Tomo II",
+              "startPage": 219,
+              "endPage": 223,
+              "pagesLabel": "pp. 219-223",
+              "topicTitle": "Proyecto academico 7",
+              "status": "confirmed-source"
+            }
+          ],
+          "conceptBook": [
+            {
+              "materialId": "grade-2-conceptos-de-lo-humano-y-lo-comunitario-segundo-grado",
+              "label": "De lo Humano y lo Comunitario",
+              "startPage": 73,
+              "endPage": 78,
+              "pagesLabel": "pp. 73-78",
+              "topicTitle": "Prevencion de riesgos y cuidado de la salud",
+              "status": "confirmed-by-column-inference"
+            },
+            {
+              "materialId": "grade-2-conceptos-de-lo-humano-y-lo-comunitario-segundo-grado",
+              "label": "De lo Humano y lo Comunitario",
+              "startPage": 79,
+              "endPage": 84,
+              "pagesLabel": "pp. 79-84",
+              "topicTitle": "Habitos de vida saludable",
+              "status": "confirmed-by-column-inference"
+            }
+          ],
+          "multiplesLenguajes": [
+            {
+              "materialId": "grade-2-apoyo-multiples-lenguajes-segundo-grado",
+              "label": "Multiples Lenguajes",
+              "startPage": 73,
+              "endPage": 78,
+              "pagesLabel": "pp. 73-78",
+              "topicTitle": "Prevencion y cuidado",
+              "status": "confirmed-by-field-source"
+            }
+          ],
+          "otherMaterials": [
+            {
+              "label": "Video PA 7: Diagnóstico de riesgos • De lo humano y lo comunitario • 2do grado",
+              "reference": "https://www.youtube.com/watch?v=417mUvra6ao",
+              "status": "confirmed"
+            },
+            {
+              "label": "Video PPA 3: 3. ¡Porque en comunidad hacemos más!• De lo humano y lo comunitario • 3er grado",
+              "reference": "https://www.youtube.com/watch?v=H7IJju676CE",
+              "status": "confirmed"
+            }
+          ]
+        },
+        "supportMaterials": [
+          {
+            "title": "Prevencion y cuidado",
+            "kind": "Multiples Lenguajes",
+            "pages": "pp. 73-78",
+            "status": "confirmed-by-field-source"
+          }
+        ],
+        "horizonOrPurpose": {
+          "status": "pending",
+          "text": "",
+          "source": "Nuestro libro de proyectos Tomo II p. 219"
+        },
+        "projectExpectationHorizon": {
+          "officialText": "",
+          "studentVersion": "",
+          "sourcePages": [
+            "Nuestro libro de proyectos Tomo II p. 219"
+          ],
+          "evidence": "El proyecto ya cuenta con producto, conceptos y articulacion pedagogica, pero el horizonte textual exacto sigue pendiente de confirmacion literal.",
+          "status": "pending"
+        },
+        "detonatingStrategy": {
+          "title": "3. ¡Porque en comunidad hacemos más!• De lo humano y lo comunitario • 3er grado",
+          "text": "Video del Proyecto Parcial de Aula 3: 3. ¡Porque en comunidad hacemos más!• De lo humano y lo comunitario • 3er grado",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=H7IJju676CE",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "partial-classroom-project"
+        },
+        "academicProjectStrategy": {
+          "title": "Diagnóstico de riesgos • De lo humano y lo comunitario • 2do grado",
+          "text": "Video detonador del Proyecto Academico 7: ¡Adiós riesgos, hola prevención!",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=417mUvra6ao",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "academic-project"
+        },
+        "academicConcepts": [
+          {
+            "concept": "producto de cierre del proyecto",
+            "description": "Producto de cierre del proyecto como producto de cierre para organizar y comunicar aprendizajes del proyecto.",
+            "sourceBook": "Nuestro libro de proyectos Tomo II",
+            "sourcePages": [
+              219,
+              223
+            ],
+            "sourcePagesLabel": "pp. 219-223",
+            "topicTitle": "Proyecto academico 7",
+            "status": "confirmed",
+            "reason": "Posibilidades y el propio proyecto fijan Producto de cierre del proyecto como producto final del PA 7.",
+            "pedagogicalUse": "Da una forma concreta de socializar lo comprendido sobre la identificacion de riesgos y la prevencion para cuidar la salud personal y colectiva.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "riesgo",
+            "description": "Riesgo es una idea clave para comprender la identificacion de riesgos y la prevencion para cuidar la salud personal y colectiva.",
+            "sourceBook": "De lo Humano y lo Comunitario",
+            "sourcePages": [
+              73,
+              78
+            ],
+            "sourcePagesLabel": "pp. 73-78",
+            "topicTitle": "Prevencion de riesgos y cuidado de la salud",
+            "status": "confirmed",
+            "reason": "La fuente validada \"Prevencion de riesgos y cuidado de la salud\" aporta base suficiente para trabajar riesgo dentro del proyecto 7.",
+            "pedagogicalUse": "Ayuda a fortalecer producto de cierre del proyecto y a explicar la identificacion de riesgos y la prevencion para cuidar la salud personal y colectiva con mayor claridad mediante riesgo.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "prevencion",
+            "description": "Prevencion es una idea clave para comprender la identificacion de riesgos y la prevencion para cuidar la salud personal y colectiva.",
+            "sourceBook": "De lo Humano y lo Comunitario",
+            "sourcePages": [
+              73,
+              78
+            ],
+            "sourcePagesLabel": "pp. 73-78",
+            "topicTitle": "Prevencion de riesgos y cuidado de la salud",
+            "status": "confirmed",
+            "reason": "La fuente validada \"Prevencion de riesgos y cuidado de la salud\" aporta base suficiente para trabajar prevencion dentro del proyecto 7.",
+            "pedagogicalUse": "Ayuda a fortalecer producto de cierre del proyecto y a explicar la identificacion de riesgos y la prevencion para cuidar la salud personal y colectiva con mayor claridad mediante prevencion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "salud",
+            "description": "Salud es una idea clave para comprender la identificacion de riesgos y la prevencion para cuidar la salud personal y colectiva.",
+            "sourceBook": "De lo Humano y lo Comunitario",
+            "sourcePages": [
+              79,
+              84
+            ],
+            "sourcePagesLabel": "pp. 79-84",
+            "topicTitle": "Habitos de vida saludable",
+            "status": "confirmed",
+            "reason": "La fuente validada \"Habitos de vida saludable\" aporta base suficiente para trabajar salud dentro del proyecto 7.",
+            "pedagogicalUse": "Ayuda a fortalecer producto de cierre del proyecto y a explicar la identificacion de riesgos y la prevencion para cuidar la salud personal y colectiva con mayor claridad mediante salud.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "cuidado",
+            "description": "Cuidado es una idea clave para comprender la identificacion de riesgos y la prevencion para cuidar la salud personal y colectiva.",
+            "sourceBook": "De lo Humano y lo Comunitario",
+            "sourcePages": [
+              73,
+              78
+            ],
+            "sourcePagesLabel": "pp. 73-78",
+            "topicTitle": "Prevencion de riesgos y cuidado de la salud",
+            "status": "confirmed",
+            "reason": "La fuente validada \"Prevencion de riesgos y cuidado de la salud\" aporta base suficiente para trabajar cuidado dentro del proyecto 7.",
+            "pedagogicalUse": "Ayuda a fortalecer producto de cierre del proyecto y a explicar la identificacion de riesgos y la prevencion para cuidar la salud personal y colectiva con mayor claridad mediante cuidado.",
+            "activityReadiness": "usable-for-autoevaluation"
+          }
+        ],
+        "thinkingCriteria": [
+          "Relacionar la identificacion de riesgos y la prevencion para cuidar la salud personal y colectiva con situaciones cercanas a la comunidad.",
+          "Usar producto de cierre del proyecto para explicar y no solo para recopilar informacion.",
+          "Distinguir entre mencionar conceptos y comprender como dialogan entre si dentro del proyecto."
+        ],
+        "validationStatus": {
+          "readinessLevel": "development-partial",
+          "readyForActivities": false,
+          "needsReviewReasons": [
+            "El bloque 3 ya es usable como lectura docente, pero el video del PPA 3 y el recurso informatico siguen pendientes de validacion de destino final.",
+            "La asignacion de apoyos de Posibilidades se sostiene por inferencia curricular documentada y no por OCR perfectamente separado por columnas.",
+            "No mover a actividades interactivas ni desbloquear juegos completos hasta ampliar validacion de videos y recursos complementarios."
+          ]
+        },
+        "readinessLevel": "development-partial",
+        "readyForActivities": false,
+        "needsReviewReasons": [
+          "No mover a actividades interactivas ni desbloquear juegos completos."
+        ],
+        "roleInPpa": "Abre el bloque con el reconocimiento de riesgos y medidas preventivas.",
+        "pedagogicalUse": "Conviene trabajar ¡Adiós riesgos, hola prevención! como una oportunidad para profundizar en la identificacion de riesgos y la prevencion para cuidar la salud personal y colectiva sin separar contenido, comunidad y producto final.",
+        "teacherNotes": [
+          "Conviene partir de ejemplos cercanos y después pasar al lenguaje mas abstracto del campo.",
+          "El producto Producto de cierre del proyecto gana fuerza cuando se usa para explicar y no solo para exhibir informacion.",
+          "Es mejor seleccionar pocos conceptos bien comprendidos que saturar el trabajo con terminos aislados."
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Qué comprendes mejor sobre la identificacion de riesgos y la prevencion para cuidar la salud personal y colectiva después de elaborar producto de cierre del proyecto?"
+          },
+          {
+            "type": "community",
+            "prompt": "¿Qué diálogos comunitarios podrían fortalecerse si compartimos producto de cierre del proyecto y lo ponemos en conversación con otras personas?"
+          }
+        ],
+        "notReadyFor": [
+          "full-games",
+          "summative-exam"
+        ]
+      },
+      {
+        "id": "de-lo-humano-y-lo-comunitario-2-ppa-3-pa8",
+        "projectId": "de-lo-humano-y-lo-comunitario-2-ppa-3-pa8",
+        "academicProjectNumber": 8,
+        "title": "Me muevo para una vida saludable",
+        "projectTitle": "Me muevo para una vida saludable",
+        "grade": "2",
+        "field": "De lo Humano y lo Comunitario",
+        "ppaNumber": "3",
+        "partialClassroomProject": "PPA 3",
+        "partialClassroomProjectTitle": "¡Porque en comunidad hacemos más!",
+        "bookVolume": "Tomo II",
+        "sourceValidation": {
+          "sourceStatus": "linked",
+          "possibilitiesPages": [
+            11,
+            12
+          ],
+          "possibilitiesMaterialId": "grade-2-posibilidades-pos-dhc-2",
+          "possibilitiesColumnIndex": 2,
+          "columnEvidence": "Bloque PPA 3 ¡Porque en comunidad hacemos más! localizado en pp. 11-12; la columna 2 se confirma por el orden de proyectos, productos y continuidad del mismo bloque."
+        },
+        "finalProduct": {
+          "title": "Producto de cierre del proyecto",
+          "source": "Posibilidades de uso DHyC pp. 11-12 + Nuestro libro de proyectos Tomo II pp. 224-227",
+          "status": "confirmed"
+        },
+        "sourcePages": {
+          "nuestroLibroProyectos": [
+            {
+              "materialId": "grade-2-proyectos-nuestro-libro-de-proyectos-tomo-2-segundo-grado",
+              "label": "Nuestro libro de proyectos Tomo II",
+              "startPage": 224,
+              "endPage": 227,
+              "pagesLabel": "pp. 224-227",
+              "topicTitle": "Proyecto academico 8",
+              "status": "confirmed-source"
+            }
+          ],
+          "conceptBook": [
+            {
+              "materialId": "grade-2-conceptos-de-lo-humano-y-lo-comunitario-segundo-grado",
+              "label": "De lo Humano y lo Comunitario",
+              "startPage": 79,
+              "endPage": 88,
+              "pagesLabel": "pp. 79-88",
+              "topicTitle": "Actividad fisica y vida saludable",
+              "status": "confirmed-by-column-inference"
+            },
+            {
+              "materialId": "grade-2-conceptos-de-lo-humano-y-lo-comunitario-segundo-grado",
+              "label": "De lo Humano y lo Comunitario",
+              "startPage": 89,
+              "endPage": 95,
+              "pagesLabel": "pp. 89-95",
+              "topicTitle": "Bienestar corporal y emocional",
+              "status": "confirmed-by-column-inference"
+            }
+          ],
+          "multiplesLenguajes": [
+            {
+              "materialId": "grade-2-apoyo-multiples-lenguajes-segundo-grado",
+              "label": "Multiples Lenguajes",
+              "startPage": 79,
+              "endPage": 88,
+              "pagesLabel": "pp. 79-88",
+              "topicTitle": "Movimiento y vida saludable",
+              "status": "confirmed-by-field-source"
+            }
+          ],
+          "otherMaterials": [
+            {
+              "label": "Video PA 8: 5. ¡Encuentra una solución para vivir mejor! • De lo humano y lo comunitario • 2do grado",
+              "reference": "https://www.youtube.com/watch?v=trZP7DxvoSc",
+              "status": "confirmed"
+            },
+            {
+              "label": "Video PPA 3: 3. ¡Porque en comunidad hacemos más!• De lo humano y lo comunitario • 3er grado",
+              "reference": "https://www.youtube.com/watch?v=H7IJju676CE",
+              "status": "confirmed"
+            }
+          ]
+        },
+        "supportMaterials": [
+          {
+            "title": "Movimiento y vida saludable",
+            "kind": "Multiples Lenguajes",
+            "pages": "pp. 79-88",
+            "status": "confirmed-by-field-source"
+          }
+        ],
+        "horizonOrPurpose": {
+          "status": "pending",
+          "text": "",
+          "source": "Nuestro libro de proyectos Tomo II p. 224"
+        },
+        "projectExpectationHorizon": {
+          "officialText": "",
+          "studentVersion": "",
+          "sourcePages": [
+            "Nuestro libro de proyectos Tomo II p. 224"
+          ],
+          "evidence": "El proyecto ya cuenta con producto, conceptos y articulacion pedagogica, pero el horizonte textual exacto sigue pendiente de confirmacion literal.",
+          "status": "pending"
+        },
+        "detonatingStrategy": {
+          "title": "3. ¡Porque en comunidad hacemos más!• De lo humano y lo comunitario • 3er grado",
+          "text": "Video del Proyecto Parcial de Aula 3: 3. ¡Porque en comunidad hacemos más!• De lo humano y lo comunitario • 3er grado",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=H7IJju676CE",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "partial-classroom-project"
+        },
+        "academicProjectStrategy": {
+          "title": "5. ¡Encuentra una solución para vivir mejor! • De lo humano y lo comunitario • 2do grado",
+          "text": "Video detonador del Proyecto Academico 8: Me muevo para una vida saludable",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=trZP7DxvoSc",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "academic-project"
+        },
+        "academicConcepts": [
+          {
+            "concept": "producto de cierre del proyecto",
+            "description": "Producto de cierre del proyecto como producto de cierre para organizar y comunicar aprendizajes del proyecto.",
+            "sourceBook": "Nuestro libro de proyectos Tomo II",
+            "sourcePages": [
+              224,
+              227
+            ],
+            "sourcePagesLabel": "pp. 224-227",
+            "topicTitle": "Proyecto academico 8",
+            "status": "confirmed",
+            "reason": "Posibilidades y el propio proyecto fijan Producto de cierre del proyecto como producto final del PA 8.",
+            "pedagogicalUse": "Da una forma concreta de socializar lo comprendido sobre el movimiento corporal como practica para favorecer salud, bienestar y convivencia.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "movimiento",
+            "description": "Movimiento es una idea clave para comprender el movimiento corporal como practica para favorecer salud, bienestar y convivencia.",
+            "sourceBook": "De lo Humano y lo Comunitario",
+            "sourcePages": [
+              79,
+              88
+            ],
+            "sourcePagesLabel": "pp. 79-88",
+            "topicTitle": "Actividad fisica y vida saludable",
+            "status": "confirmed",
+            "reason": "La fuente validada \"Actividad fisica y vida saludable\" aporta base suficiente para trabajar movimiento dentro del proyecto 8.",
+            "pedagogicalUse": "Ayuda a fortalecer producto de cierre del proyecto y a explicar el movimiento corporal como practica para favorecer salud, bienestar y convivencia con mayor claridad mediante movimiento.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "actividad fisica",
+            "description": "Actividad fisica es una idea clave para comprender el movimiento corporal como practica para favorecer salud, bienestar y convivencia.",
+            "sourceBook": "De lo Humano y lo Comunitario",
+            "sourcePages": [
+              79,
+              88
+            ],
+            "sourcePagesLabel": "pp. 79-88",
+            "topicTitle": "Actividad fisica y vida saludable",
+            "status": "confirmed",
+            "reason": "La fuente validada \"Actividad fisica y vida saludable\" aporta base suficiente para trabajar actividad fisica dentro del proyecto 8.",
+            "pedagogicalUse": "Ayuda a fortalecer producto de cierre del proyecto y a explicar el movimiento corporal como practica para favorecer salud, bienestar y convivencia con mayor claridad mediante actividad fisica.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "bienestar",
+            "description": "Bienestar es una idea clave para comprender el movimiento corporal como practica para favorecer salud, bienestar y convivencia.",
+            "sourceBook": "De lo Humano y lo Comunitario",
+            "sourcePages": [
+              89,
+              95
+            ],
+            "sourcePagesLabel": "pp. 89-95",
+            "topicTitle": "Bienestar corporal y emocional",
+            "status": "confirmed",
+            "reason": "La fuente validada \"Bienestar corporal y emocional\" aporta base suficiente para trabajar bienestar dentro del proyecto 8.",
+            "pedagogicalUse": "Ayuda a fortalecer producto de cierre del proyecto y a explicar el movimiento corporal como practica para favorecer salud, bienestar y convivencia con mayor claridad mediante bienestar.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "habitos saludables",
+            "description": "Habitos saludables es una idea clave para comprender el movimiento corporal como practica para favorecer salud, bienestar y convivencia.",
+            "sourceBook": "De lo Humano y lo Comunitario",
+            "sourcePages": [
+              79,
+              88
+            ],
+            "sourcePagesLabel": "pp. 79-88",
+            "topicTitle": "Actividad fisica y vida saludable",
+            "status": "confirmed",
+            "reason": "La fuente validada \"Actividad fisica y vida saludable\" aporta base suficiente para trabajar habitos saludables dentro del proyecto 8.",
+            "pedagogicalUse": "Ayuda a fortalecer producto de cierre del proyecto y a explicar el movimiento corporal como practica para favorecer salud, bienestar y convivencia con mayor claridad mediante habitos saludables.",
+            "activityReadiness": "usable-for-autoevaluation"
+          }
+        ],
+        "thinkingCriteria": [
+          "Relacionar el movimiento corporal como practica para favorecer salud, bienestar y convivencia con situaciones cercanas a la comunidad.",
+          "Usar producto de cierre del proyecto para explicar y no solo para recopilar informacion.",
+          "Distinguir entre mencionar conceptos y comprender como dialogan entre si dentro del proyecto."
+        ],
+        "validationStatus": {
+          "readinessLevel": "development-partial",
+          "readyForActivities": false,
+          "needsReviewReasons": [
+            "El bloque 3 ya es usable como lectura docente, pero el video del PPA 3 y el recurso informatico siguen pendientes de validacion de destino final.",
+            "La asignacion de apoyos de Posibilidades se sostiene por inferencia curricular documentada y no por OCR perfectamente separado por columnas.",
+            "No mover a actividades interactivas ni desbloquear juegos completos hasta ampliar validacion de videos y recursos complementarios."
+          ]
+        },
+        "readinessLevel": "development-partial",
+        "readyForActivities": false,
+        "needsReviewReasons": [
+          "No mover a actividades interactivas ni desbloquear juegos completos."
+        ],
+        "roleInPpa": "Profundiza el bloque al vincular actividad fisica con bienestar cotidiano.",
+        "pedagogicalUse": "Conviene trabajar Me muevo para una vida saludable como una oportunidad para profundizar en el movimiento corporal como practica para favorecer salud, bienestar y convivencia sin separar contenido, comunidad y producto final.",
+        "teacherNotes": [
+          "Conviene partir de ejemplos cercanos y después pasar al lenguaje mas abstracto del campo.",
+          "El producto Producto de cierre del proyecto gana fuerza cuando se usa para explicar y no solo para exhibir informacion.",
+          "Es mejor seleccionar pocos conceptos bien comprendidos que saturar el trabajo con terminos aislados."
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Qué comprendes mejor sobre el movimiento corporal como practica para favorecer salud, bienestar y convivencia después de elaborar producto de cierre del proyecto?"
+          },
+          {
+            "type": "community",
+            "prompt": "¿Qué diálogos comunitarios podrían fortalecerse si compartimos producto de cierre del proyecto y lo ponemos en conversación con otras personas?"
+          }
+        ],
+        "notReadyFor": [
+          "full-games",
+          "summative-exam"
+        ]
+      },
+      {
+        "id": "de-lo-humano-y-lo-comunitario-2-ppa-3-pa9",
+        "projectId": "de-lo-humano-y-lo-comunitario-2-ppa-3-pa9",
+        "academicProjectNumber": 9,
+        "title": "Expresión corporal: sana convivencia",
+        "projectTitle": "Expresión corporal: sana convivencia",
+        "grade": "2",
+        "field": "De lo Humano y lo Comunitario",
+        "ppaNumber": "3",
+        "partialClassroomProject": "PPA 3",
+        "partialClassroomProjectTitle": "¡Porque en comunidad hacemos más!",
+        "bookVolume": "Tomo II",
+        "sourceValidation": {
+          "sourceStatus": "linked",
+          "possibilitiesPages": [
+            11,
+            12
+          ],
+          "possibilitiesMaterialId": "grade-2-posibilidades-pos-dhc-2",
+          "possibilitiesColumnIndex": 3,
+          "columnEvidence": "Bloque PPA 3 ¡Porque en comunidad hacemos más! localizado en pp. 11-12; la columna 3 se confirma por el orden de proyectos, productos y continuidad del mismo bloque."
+        },
+        "finalProduct": {
+          "title": "Producto de cierre del proyecto",
+          "source": "Posibilidades de uso DHyC pp. 11-12 + Nuestro libro de proyectos Tomo II pp. 228-232",
+          "status": "confirmed"
+        },
+        "sourcePages": {
+          "nuestroLibroProyectos": [
+            {
+              "materialId": "grade-2-proyectos-nuestro-libro-de-proyectos-tomo-2-segundo-grado",
+              "label": "Nuestro libro de proyectos Tomo II",
+              "startPage": 228,
+              "endPage": 232,
+              "pagesLabel": "pp. 228-232",
+              "topicTitle": "Proyecto academico 9",
+              "status": "confirmed-source"
+            }
+          ],
+          "conceptBook": [
+            {
+              "materialId": "grade-2-conceptos-de-lo-humano-y-lo-comunitario-segundo-grado",
+              "label": "De lo Humano y lo Comunitario",
+              "startPage": 89,
+              "endPage": 95,
+              "pagesLabel": "pp. 89-95",
+              "topicTitle": "Expresion corporal, emociones y convivencia",
+              "status": "confirmed-by-column-inference"
+            },
+            {
+              "materialId": "grade-2-conceptos-de-lo-humano-y-lo-comunitario-segundo-grado",
+              "label": "De lo Humano y lo Comunitario",
+              "startPage": 79,
+              "endPage": 88,
+              "pagesLabel": "pp. 79-88",
+              "topicTitle": "Movimiento y bienestar",
+              "status": "confirmed-by-column-inference"
+            }
+          ],
+          "multiplesLenguajes": [
+            {
+              "materialId": "grade-2-apoyo-multiples-lenguajes-segundo-grado",
+              "label": "Multiples Lenguajes",
+              "startPage": 89,
+              "endPage": 95,
+              "pagesLabel": "pp. 89-95",
+              "topicTitle": "Expresion corporal y convivencia",
+              "status": "confirmed-by-field-source"
+            }
+          ],
+          "otherMaterials": [
+            {
+              "label": "Video PA 9: Galería con movimiento • De lo humano y lo comunitario • 2do grado",
+              "reference": "https://www.youtube.com/watch?v=u-JMoHGRrPs",
+              "status": "confirmed"
+            },
+            {
+              "label": "Video PPA 3: 3. ¡Porque en comunidad hacemos más!• De lo humano y lo comunitario • 3er grado",
+              "reference": "https://www.youtube.com/watch?v=H7IJju676CE",
+              "status": "confirmed"
+            }
+          ]
+        },
+        "supportMaterials": [
+          {
+            "title": "Expresion corporal y convivencia",
+            "kind": "Multiples Lenguajes",
+            "pages": "pp. 89-95",
+            "status": "confirmed-by-field-source"
+          }
+        ],
+        "horizonOrPurpose": {
+          "status": "pending",
+          "text": "",
+          "source": "Nuestro libro de proyectos Tomo II p. 228"
+        },
+        "projectExpectationHorizon": {
+          "officialText": "",
+          "studentVersion": "",
+          "sourcePages": [
+            "Nuestro libro de proyectos Tomo II p. 228"
+          ],
+          "evidence": "El proyecto ya cuenta con producto, conceptos y articulacion pedagogica, pero el horizonte textual exacto sigue pendiente de confirmacion literal.",
+          "status": "pending"
+        },
+        "detonatingStrategy": {
+          "title": "3. ¡Porque en comunidad hacemos más!• De lo humano y lo comunitario • 3er grado",
+          "text": "Video del Proyecto Parcial de Aula 3: 3. ¡Porque en comunidad hacemos más!• De lo humano y lo comunitario • 3er grado",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=H7IJju676CE",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "partial-classroom-project"
+        },
+        "academicProjectStrategy": {
+          "title": "Galería con movimiento • De lo humano y lo comunitario • 2do grado",
+          "text": "Video detonador del Proyecto Academico 9: Expresión corporal: sana convivencia",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=u-JMoHGRrPs",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "academic-project"
+        },
+        "academicConcepts": [
+          {
+            "concept": "producto de cierre del proyecto",
+            "description": "Producto de cierre del proyecto como producto de cierre para organizar y comunicar aprendizajes del proyecto.",
+            "sourceBook": "Nuestro libro de proyectos Tomo II",
+            "sourcePages": [
+              228,
+              232
+            ],
+            "sourcePagesLabel": "pp. 228-232",
+            "topicTitle": "Proyecto academico 9",
+            "status": "confirmed",
+            "reason": "Posibilidades y el propio proyecto fijan Producto de cierre del proyecto como producto final del PA 9.",
+            "pedagogicalUse": "Da una forma concreta de socializar lo comprendido sobre la expresion corporal para comunicar emociones y favorecer la convivencia respetuosa.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "expresion corporal",
+            "description": "Expresion corporal es una idea clave para comprender la expresion corporal para comunicar emociones y favorecer la convivencia respetuosa.",
+            "sourceBook": "De lo Humano y lo Comunitario",
+            "sourcePages": [
+              89,
+              95
+            ],
+            "sourcePagesLabel": "pp. 89-95",
+            "topicTitle": "Expresion corporal, emociones y convivencia",
+            "status": "confirmed",
+            "reason": "La fuente validada \"Expresion corporal, emociones y convivencia\" aporta base suficiente para trabajar expresion corporal dentro del proyecto 9.",
+            "pedagogicalUse": "Ayuda a fortalecer producto de cierre del proyecto y a explicar la expresion corporal para comunicar emociones y favorecer la convivencia respetuosa con mayor claridad mediante expresion corporal.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "convivencia",
+            "description": "Convivencia es una idea clave para comprender la expresion corporal para comunicar emociones y favorecer la convivencia respetuosa.",
+            "sourceBook": "De lo Humano y lo Comunitario",
+            "sourcePages": [
+              89,
+              95
+            ],
+            "sourcePagesLabel": "pp. 89-95",
+            "topicTitle": "Expresion corporal, emociones y convivencia",
+            "status": "confirmed",
+            "reason": "La fuente validada \"Expresion corporal, emociones y convivencia\" aporta base suficiente para trabajar convivencia dentro del proyecto 9.",
+            "pedagogicalUse": "Ayuda a fortalecer producto de cierre del proyecto y a explicar la expresion corporal para comunicar emociones y favorecer la convivencia respetuosa con mayor claridad mediante convivencia.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "emociones",
+            "description": "Emociones es una idea clave para comprender la expresion corporal para comunicar emociones y favorecer la convivencia respetuosa.",
+            "sourceBook": "De lo Humano y lo Comunitario",
+            "sourcePages": [
+              89,
+              95
+            ],
+            "sourcePagesLabel": "pp. 89-95",
+            "topicTitle": "Expresion corporal, emociones y convivencia",
+            "status": "confirmed",
+            "reason": "La fuente validada \"Expresion corporal, emociones y convivencia\" aporta base suficiente para trabajar emociones dentro del proyecto 9.",
+            "pedagogicalUse": "Ayuda a fortalecer producto de cierre del proyecto y a explicar la expresion corporal para comunicar emociones y favorecer la convivencia respetuosa con mayor claridad mediante emociones.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "respeto",
+            "description": "Respeto es una idea clave para comprender la expresion corporal para comunicar emociones y favorecer la convivencia respetuosa.",
+            "sourceBook": "De lo Humano y lo Comunitario",
+            "sourcePages": [
+              89,
+              95
+            ],
+            "sourcePagesLabel": "pp. 89-95",
+            "topicTitle": "Expresion corporal, emociones y convivencia",
+            "status": "confirmed",
+            "reason": "La fuente validada \"Expresion corporal, emociones y convivencia\" aporta base suficiente para trabajar respeto dentro del proyecto 9.",
+            "pedagogicalUse": "Ayuda a fortalecer producto de cierre del proyecto y a explicar la expresion corporal para comunicar emociones y favorecer la convivencia respetuosa con mayor claridad mediante respeto.",
+            "activityReadiness": "usable-for-autoevaluation"
+          }
+        ],
+        "thinkingCriteria": [
+          "Relacionar la expresion corporal para comunicar emociones y favorecer la convivencia respetuosa con situaciones cercanas a la comunidad.",
+          "Usar producto de cierre del proyecto para explicar y no solo para recopilar informacion.",
+          "Distinguir entre mencionar conceptos y comprender como dialogan entre si dentro del proyecto."
+        ],
+        "validationStatus": {
+          "readinessLevel": "development-partial",
+          "readyForActivities": false,
+          "needsReviewReasons": [
+            "El bloque 3 ya es usable como lectura docente, pero el video del PPA 3 y el recurso informatico siguen pendientes de validacion de destino final.",
+            "La asignacion de apoyos de Posibilidades se sostiene por inferencia curricular documentada y no por OCR perfectamente separado por columnas.",
+            "No mover a actividades interactivas ni desbloquear juegos completos hasta ampliar validacion de videos y recursos complementarios."
+          ]
+        },
+        "readinessLevel": "development-partial",
+        "readyForActivities": false,
+        "needsReviewReasons": [
+          "No mover a actividades interactivas ni desbloquear juegos completos."
+        ],
+        "roleInPpa": "Cierra el bloque al usar el cuerpo como medio de expresion y relacion comunitaria.",
+        "pedagogicalUse": "Conviene trabajar Expresión corporal: sana convivencia como una oportunidad para profundizar en la expresion corporal para comunicar emociones y favorecer la convivencia respetuosa sin separar contenido, comunidad y producto final.",
+        "teacherNotes": [
+          "Conviene partir de ejemplos cercanos y después pasar al lenguaje mas abstracto del campo.",
+          "El producto Producto de cierre del proyecto gana fuerza cuando se usa para explicar y no solo para exhibir informacion.",
+          "Es mejor seleccionar pocos conceptos bien comprendidos que saturar el trabajo con terminos aislados."
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Qué comprendes mejor sobre la expresion corporal para comunicar emociones y favorecer la convivencia respetuosa después de elaborar producto de cierre del proyecto?"
+          },
+          {
+            "type": "community",
+            "prompt": "¿Qué diálogos comunitarios podrían fortalecerse si compartimos producto de cierre del proyecto y lo ponemos en conversación con otras personas?"
+          }
+        ],
+        "notReadyFor": [
+          "full-games",
+          "summative-exam"
+        ]
+      }
+    ]
+  },
+  "conceptsValidation": {
+    "grade": "2",
+    "field": "De lo Humano y lo Comunitario",
+    "ppaNumber": "3",
+    "status": "concept-validation",
+    "generatedAt": "2026-06-04T15:48:47.580Z",
+    "entries": [
+      {
+        "projectId": "de-lo-humano-y-lo-comunitario-2-ppa-3-pa7",
+        "projectTitle": "¡Adiós riesgos, hola prevención!",
+        "concept": "producto de cierre del proyecto",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Nuestro libro de proyectos Tomo II",
+          "pages": [
+            219,
+            223
+          ],
+          "reason": "Posibilidades y el propio proyecto fijan Producto de cierre del proyecto como producto final del PA 7."
+        },
+        "pedagogicalUse": "Da una forma concreta de socializar lo comprendido sobre la identificacion de riesgos y la prevencion para cuidar la salud personal y colectiva.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "de-lo-humano-y-lo-comunitario-2-ppa-3-pa7",
+        "projectTitle": "¡Adiós riesgos, hola prevención!",
+        "concept": "riesgo",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "pages": [
+            73,
+            78
+          ],
+          "reason": "La fuente validada \"Prevencion de riesgos y cuidado de la salud\" aporta base suficiente para trabajar riesgo dentro del proyecto 7."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer producto de cierre del proyecto y a explicar la identificacion de riesgos y la prevencion para cuidar la salud personal y colectiva con mayor claridad mediante riesgo.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "de-lo-humano-y-lo-comunitario-2-ppa-3-pa7",
+        "projectTitle": "¡Adiós riesgos, hola prevención!",
+        "concept": "prevencion",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "pages": [
+            73,
+            78
+          ],
+          "reason": "La fuente validada \"Prevencion de riesgos y cuidado de la salud\" aporta base suficiente para trabajar prevencion dentro del proyecto 7."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer producto de cierre del proyecto y a explicar la identificacion de riesgos y la prevencion para cuidar la salud personal y colectiva con mayor claridad mediante prevencion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "de-lo-humano-y-lo-comunitario-2-ppa-3-pa7",
+        "projectTitle": "¡Adiós riesgos, hola prevención!",
+        "concept": "salud",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "pages": [
+            79,
+            84
+          ],
+          "reason": "La fuente validada \"Habitos de vida saludable\" aporta base suficiente para trabajar salud dentro del proyecto 7."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer producto de cierre del proyecto y a explicar la identificacion de riesgos y la prevencion para cuidar la salud personal y colectiva con mayor claridad mediante salud.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "de-lo-humano-y-lo-comunitario-2-ppa-3-pa7",
+        "projectTitle": "¡Adiós riesgos, hola prevención!",
+        "concept": "cuidado",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "pages": [
+            73,
+            78
+          ],
+          "reason": "La fuente validada \"Prevencion de riesgos y cuidado de la salud\" aporta base suficiente para trabajar cuidado dentro del proyecto 7."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer producto de cierre del proyecto y a explicar la identificacion de riesgos y la prevencion para cuidar la salud personal y colectiva con mayor claridad mediante cuidado.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "de-lo-humano-y-lo-comunitario-2-ppa-3-pa8",
+        "projectTitle": "Me muevo para una vida saludable",
+        "concept": "producto de cierre del proyecto",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Nuestro libro de proyectos Tomo II",
+          "pages": [
+            224,
+            227
+          ],
+          "reason": "Posibilidades y el propio proyecto fijan Producto de cierre del proyecto como producto final del PA 8."
+        },
+        "pedagogicalUse": "Da una forma concreta de socializar lo comprendido sobre el movimiento corporal como practica para favorecer salud, bienestar y convivencia.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "de-lo-humano-y-lo-comunitario-2-ppa-3-pa8",
+        "projectTitle": "Me muevo para una vida saludable",
+        "concept": "movimiento",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "pages": [
+            79,
+            88
+          ],
+          "reason": "La fuente validada \"Actividad fisica y vida saludable\" aporta base suficiente para trabajar movimiento dentro del proyecto 8."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer producto de cierre del proyecto y a explicar el movimiento corporal como practica para favorecer salud, bienestar y convivencia con mayor claridad mediante movimiento.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "de-lo-humano-y-lo-comunitario-2-ppa-3-pa8",
+        "projectTitle": "Me muevo para una vida saludable",
+        "concept": "actividad fisica",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "pages": [
+            79,
+            88
+          ],
+          "reason": "La fuente validada \"Actividad fisica y vida saludable\" aporta base suficiente para trabajar actividad fisica dentro del proyecto 8."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer producto de cierre del proyecto y a explicar el movimiento corporal como practica para favorecer salud, bienestar y convivencia con mayor claridad mediante actividad fisica.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "de-lo-humano-y-lo-comunitario-2-ppa-3-pa8",
+        "projectTitle": "Me muevo para una vida saludable",
+        "concept": "bienestar",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "pages": [
+            89,
+            95
+          ],
+          "reason": "La fuente validada \"Bienestar corporal y emocional\" aporta base suficiente para trabajar bienestar dentro del proyecto 8."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer producto de cierre del proyecto y a explicar el movimiento corporal como practica para favorecer salud, bienestar y convivencia con mayor claridad mediante bienestar.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "de-lo-humano-y-lo-comunitario-2-ppa-3-pa8",
+        "projectTitle": "Me muevo para una vida saludable",
+        "concept": "habitos saludables",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "pages": [
+            79,
+            88
+          ],
+          "reason": "La fuente validada \"Actividad fisica y vida saludable\" aporta base suficiente para trabajar habitos saludables dentro del proyecto 8."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer producto de cierre del proyecto y a explicar el movimiento corporal como practica para favorecer salud, bienestar y convivencia con mayor claridad mediante habitos saludables.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "de-lo-humano-y-lo-comunitario-2-ppa-3-pa9",
+        "projectTitle": "Expresión corporal: sana convivencia",
+        "concept": "producto de cierre del proyecto",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Nuestro libro de proyectos Tomo II",
+          "pages": [
+            228,
+            232
+          ],
+          "reason": "Posibilidades y el propio proyecto fijan Producto de cierre del proyecto como producto final del PA 9."
+        },
+        "pedagogicalUse": "Da una forma concreta de socializar lo comprendido sobre la expresion corporal para comunicar emociones y favorecer la convivencia respetuosa.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "de-lo-humano-y-lo-comunitario-2-ppa-3-pa9",
+        "projectTitle": "Expresión corporal: sana convivencia",
+        "concept": "expresion corporal",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "pages": [
+            89,
+            95
+          ],
+          "reason": "La fuente validada \"Expresion corporal, emociones y convivencia\" aporta base suficiente para trabajar expresion corporal dentro del proyecto 9."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer producto de cierre del proyecto y a explicar la expresion corporal para comunicar emociones y favorecer la convivencia respetuosa con mayor claridad mediante expresion corporal.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "de-lo-humano-y-lo-comunitario-2-ppa-3-pa9",
+        "projectTitle": "Expresión corporal: sana convivencia",
+        "concept": "convivencia",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "pages": [
+            89,
+            95
+          ],
+          "reason": "La fuente validada \"Expresion corporal, emociones y convivencia\" aporta base suficiente para trabajar convivencia dentro del proyecto 9."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer producto de cierre del proyecto y a explicar la expresion corporal para comunicar emociones y favorecer la convivencia respetuosa con mayor claridad mediante convivencia.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "de-lo-humano-y-lo-comunitario-2-ppa-3-pa9",
+        "projectTitle": "Expresión corporal: sana convivencia",
+        "concept": "emociones",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "pages": [
+            89,
+            95
+          ],
+          "reason": "La fuente validada \"Expresion corporal, emociones y convivencia\" aporta base suficiente para trabajar emociones dentro del proyecto 9."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer producto de cierre del proyecto y a explicar la expresion corporal para comunicar emociones y favorecer la convivencia respetuosa con mayor claridad mediante emociones.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "de-lo-humano-y-lo-comunitario-2-ppa-3-pa9",
+        "projectTitle": "Expresión corporal: sana convivencia",
+        "concept": "respeto",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "pages": [
+            89,
+            95
+          ],
+          "reason": "La fuente validada \"Expresion corporal, emociones y convivencia\" aporta base suficiente para trabajar respeto dentro del proyecto 9."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer producto de cierre del proyecto y a explicar la expresion corporal para comunicar emociones y favorecer la convivencia respetuosa con mayor claridad mediante respeto.",
+        "activityReadiness": "usable-for-autoevaluation"
+      }
+    ]
+  },
+  "pedagogicalArticulation": {
+    "grade": "2",
+    "field": "De lo Humano y lo Comunitario",
+    "ppaNumber": "3",
+    "status": "teacher-orientation",
+    "officialHorizonStatus": "pending",
+    "situatedPedagogicalOrientation": "El PPA 3 integra prevencion, movimiento y expresion corporal para fortalecer una convivencia saludable.",
+    "integratingQuestions": [
+      "Como dialogan producto de cierre del proyecto, producto de cierre del proyecto, producto de cierre del proyecto dentro del mismo PPA 3?",
+      "Que cambia en la comprension de la prevencion de riesgos, la vida saludable y la convivencia mediante el movimiento cuando el grupo pone en relacion conceptos, producto y comunidad?",
+      "Como convertir el producto final en una herramienta de explicacion y no solo de presentacion?"
+    ],
+    "projectConnections": [
+      {
+        "projectId": "de-lo-humano-y-lo-comunitario-2-ppa-3-pa7",
+        "projectTitle": "¡Adiós riesgos, hola prevención!",
+        "roleInPpa": "Abre el bloque con el reconocimiento de riesgos y medidas preventivas.",
+        "confirmedConcepts": [
+          "producto de cierre del proyecto",
+          "riesgo",
+          "prevencion",
+          "salud",
+          "cuidado"
+        ],
+        "suggestedConcepts": [],
+        "pedagogicalUse": "Conviene trabajar ¡Adiós riesgos, hola prevención! como una oportunidad para profundizar en la identificacion de riesgos y la prevencion para cuidar la salud personal y colectiva sin separar contenido, comunidad y producto final."
+      },
+      {
+        "projectId": "de-lo-humano-y-lo-comunitario-2-ppa-3-pa8",
+        "projectTitle": "Me muevo para una vida saludable",
+        "roleInPpa": "Profundiza el bloque al vincular actividad fisica con bienestar cotidiano.",
+        "confirmedConcepts": [
+          "producto de cierre del proyecto",
+          "movimiento",
+          "actividad fisica",
+          "bienestar",
+          "habitos saludables"
+        ],
+        "suggestedConcepts": [],
+        "pedagogicalUse": "Conviene trabajar Me muevo para una vida saludable como una oportunidad para profundizar en el movimiento corporal como practica para favorecer salud, bienestar y convivencia sin separar contenido, comunidad y producto final."
+      },
+      {
+        "projectId": "de-lo-humano-y-lo-comunitario-2-ppa-3-pa9",
+        "projectTitle": "Expresión corporal: sana convivencia",
+        "roleInPpa": "Cierra el bloque al usar el cuerpo como medio de expresion y relacion comunitaria.",
+        "confirmedConcepts": [
+          "producto de cierre del proyecto",
+          "expresion corporal",
+          "convivencia",
+          "emociones",
+          "respeto"
+        ],
+        "suggestedConcepts": [],
+        "pedagogicalUse": "Conviene trabajar Expresión corporal: sana convivencia como una oportunidad para profundizar en la expresion corporal para comunicar emociones y favorecer la convivencia respetuosa sin separar contenido, comunidad y producto final."
+      }
+    ],
+    "criteriaOfThought": [
+      {
+        "criterion": "Relacionar la prevencion de riesgos, la vida saludable y la convivencia mediante el movimiento con experiencias concretas del entorno.",
+        "status": "suggested"
+      },
+      {
+        "criterion": "Usar el producto final para comunicar con claridad, no solo para acumular definiciones.",
+        "status": "suggested"
+      }
+    ],
+    "possibleResonanceQuestion": "¿Qué comprensiones nuevas sobre la prevencion de riesgos, la vida saludable y la convivencia mediante el movimiento se vuelven visibles cuando el grupo comparte los productos del PPA 3?",
+    "teacherNotes": [
+      "No reducir el PPA 3 a tres productos aislados; el bloque construye una misma conversacion curricular.",
+      "Las paginas de Posibilidades forman un mismo bloque y los apoyos por columna se documentan por inferencia curricular situada.",
+      "Los enlaces cortos del video detonador y del recurso informatico se mantienen en cautela y no deben tratarse como recursos ya validados."
+    ],
+    "notReadyFor": [
+      "actividades interactivas",
+      "full-games",
+      "summative-exam"
+    ]
+  },
+  "teacherNotesAndResonances": {
+    "grade": "2",
+    "field": "De lo Humano y lo Comunitario",
+    "ppaNumber": "3",
+    "status": "teacher-orientation",
+    "officialHorizonStatus": "pending",
+    "ppaIntegratingResonance": "¿Qué comprensiones nuevas sobre la prevencion de riesgos, la vida saludable y la convivencia mediante el movimiento se vuelven visibles cuando el grupo comparte los productos del PPA 3?",
+    "didacticWarnings": [
+      "No convertir el bloque en una lista de definiciones; importa relacionar conceptos con producto, comunidad y dialogo.",
+      "Los enlaces cortos bit.ly/3VfglUk y bit.ly/3WQBMwg se mantienen como cautela y no deben tratarse como recursos ya validados.",
+      "La distribucion de apoyos por columna se fija por inferencia curricular documentada a partir de Posibilidades."
+    ],
+    "communityPrompts": {
+      "communityKnowledge": [
+        "Que saberes de la comunidad ayudan a profundizar en la prevencion de riesgos, la vida saludable y la convivencia mediante el movimiento?",
+        "Que ejemplos cercanos permiten que los conceptos del campo se vuelvan mas claros para el grupo?"
+      ],
+      "families": [
+        "Que experiencias, relatos o practicas familiares pueden enriquecer el proyecto sin desplazar su foco academico?",
+        "Que aprendizajes vale la pena compartir con otras generaciones a partir del producto final?"
+      ],
+      "territoryLanguageMemory": [
+        "Que palabras, lugares o memorias ayudan a nombrar mejor lo que el proyecto esta buscando comprender?",
+        "Como pueden circular estos productos dentro de la comunidad escolar sin perder precision ni sentido?"
+      ],
+      "productCommunityConnection": [
+        "Como podria circular producto de cierre del proyecto, producto de cierre del proyecto, producto de cierre del proyecto para fortalecer el dialogo comunitario?"
+      ]
+    },
+    "suggestedThinkingCriteria": [
+      "Relacionar la prevencion de riesgos, la vida saludable y la convivencia mediante el movimiento con problemas, experiencias y preguntas del entorno cercano.",
+      "Valorar el producto final como herramienta de comprension y comunicacion compartida."
+    ],
+    "projects": [
+      {
+        "projectId": "de-lo-humano-y-lo-comunitario-2-ppa-3-pa7",
+        "projectTitle": "¡Adiós riesgos, hola prevención!",
+        "teacherNotes": [
+          "Conviene partir de ejemplos cercanos y después pasar al lenguaje mas abstracto del campo.",
+          "El producto Producto de cierre del proyecto gana fuerza cuando se usa para explicar y no solo para exhibir informacion.",
+          "Es mejor seleccionar pocos conceptos bien comprendidos que saturar el trabajo con terminos aislados."
+        ],
+        "confirmedConceptsToUse": [
+          "producto de cierre del proyecto",
+          "riesgo",
+          "prevencion",
+          "salud",
+          "cuidado"
+        ],
+        "suggestedConceptsToHandleCarefully": [],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Qué comprendes mejor sobre la identificacion de riesgos y la prevencion para cuidar la salud personal y colectiva después de elaborar producto de cierre del proyecto?"
+          },
+          {
+            "type": "community",
+            "prompt": "¿Qué diálogos comunitarios podrían fortalecerse si compartimos producto de cierre del proyecto y lo ponemos en conversación con otras personas?"
+          }
+        ],
+        "notReadyFor": [
+          "full-games",
+          "summative-exam"
+        ]
+      },
+      {
+        "projectId": "de-lo-humano-y-lo-comunitario-2-ppa-3-pa8",
+        "projectTitle": "Me muevo para una vida saludable",
+        "teacherNotes": [
+          "Conviene partir de ejemplos cercanos y después pasar al lenguaje mas abstracto del campo.",
+          "El producto Producto de cierre del proyecto gana fuerza cuando se usa para explicar y no solo para exhibir informacion.",
+          "Es mejor seleccionar pocos conceptos bien comprendidos que saturar el trabajo con terminos aislados."
+        ],
+        "confirmedConceptsToUse": [
+          "producto de cierre del proyecto",
+          "movimiento",
+          "actividad fisica",
+          "bienestar",
+          "habitos saludables"
+        ],
+        "suggestedConceptsToHandleCarefully": [],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Qué comprendes mejor sobre el movimiento corporal como practica para favorecer salud, bienestar y convivencia después de elaborar producto de cierre del proyecto?"
+          },
+          {
+            "type": "community",
+            "prompt": "¿Qué diálogos comunitarios podrían fortalecerse si compartimos producto de cierre del proyecto y lo ponemos en conversación con otras personas?"
+          }
+        ],
+        "notReadyFor": [
+          "full-games",
+          "summative-exam"
+        ]
+      },
+      {
+        "projectId": "de-lo-humano-y-lo-comunitario-2-ppa-3-pa9",
+        "projectTitle": "Expresión corporal: sana convivencia",
+        "teacherNotes": [
+          "Conviene partir de ejemplos cercanos y después pasar al lenguaje mas abstracto del campo.",
+          "El producto Producto de cierre del proyecto gana fuerza cuando se usa para explicar y no solo para exhibir informacion.",
+          "Es mejor seleccionar pocos conceptos bien comprendidos que saturar el trabajo con terminos aislados."
+        ],
+        "confirmedConceptsToUse": [
+          "producto de cierre del proyecto",
+          "expresion corporal",
+          "convivencia",
+          "emociones",
+          "respeto"
+        ],
+        "suggestedConceptsToHandleCarefully": [],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Qué comprendes mejor sobre la expresion corporal para comunicar emociones y favorecer la convivencia respetuosa después de elaborar producto de cierre del proyecto?"
+          },
+          {
+            "type": "community",
+            "prompt": "¿Qué diálogos comunitarios podrían fortalecerse si compartimos producto de cierre del proyecto y lo ponemos en conversación con otras personas?"
+          }
+        ],
+        "notReadyFor": [
+          "full-games",
+          "summative-exam"
+        ]
+      }
+    ]
+  },
+  "validationAudit": {
+    "kind": "fine-validation-audit",
+    "source": "reports/caracoles/grade2-humano-ppa3-reading-bundle-audit.md",
+    "content": "# Auditoria de lectura docente\n\n## Alcance\n\n- Campo: 2o De lo Humano y lo Comunitario\n- Bloque: PPA 3\n- Titulo del PPA: ¡Porque en comunidad hacemos más!\n- Proyectos: PA7-PA9\n\n## Proyectos validados\n\n7. ¡Adiós riesgos, hola prevención!\n   - Producto final: Producto de cierre del proyecto\n   - Paginas: Nuestro libro de proyectos Tomo II pp. 219-223\n8. Me muevo para una vida saludable\n   - Producto final: Producto de cierre del proyecto\n   - Paginas: Nuestro libro de proyectos Tomo II pp. 224-227\n9. Expresión corporal: sana convivencia\n   - Producto final: Producto de cierre del proyecto\n   - Paginas: Nuestro libro de proyectos Tomo II pp. 228-232\n\n## Evidencia base usada\n\n- Posibilidades de uso DHyC pp. 11-12.\n- Nuestro libro de proyectos Tomo II pp. 217-232.\n- De lo Humano y lo Comunitario, segundo grado, pp. 73-95; Nuestro libro de proyectos Tomo II pp. 219-232..\n\n## Decisiones curriculares del bloque\n\n- El horizonte comun del PPA 3 se mantiene en estado pendiente como formula unica; se privilegia una orientacion pedagogica situada y documentada.\n- Los productos finales quedan confirmados desde Posibilidades y la secuencia del propio proyecto.\n- Los conceptos confirmados se normalizan para sostener lectura docente, autoevaluacion y actividades de relacion de columnas.\n- La resonancia se formula como pregunta abierta para reforzar el sentido formativo del bloque.\n\n## Cautelas reales\n\n- El video detonador del PPA 3 y el recurso informatico del bloque siguen sin URL oficial confirmada.\n- La asignacion de apoyos por columna se sostiene por inferencia curricular documentada, no por OCR limpio de tabla.\n- No se marca el bloque como actividades interactivas ni se desbloquean juegos completos.\n"
+  }
+}

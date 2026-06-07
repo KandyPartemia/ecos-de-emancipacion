@@ -1,0 +1,21 @@
+{
+  "grade": "1",
+  "gradeLabel": "Primer grado",
+  "status": "manual-registry",
+  "notes": "Catálogo validable para controlar qué proyectos pueden mostrarse en la vista del estudiante. No agregar candidatos automáticos sin revisión humana.",
+  "projects": [
+    {
+      "id": "lenguajes-1-pa25",
+      "grade": "1",
+      "field": "Lenguajes",
+      "academicProjectNumber": 25,
+      "title": "Lo mejor de lo mejor",
+      "partialClassroomProject": "PPA 9",
+      "bookVolume": "Tomo II",
+      "catalogStatus": "validated",
+      "linkedConfirmedProjectId": "lenguajes-1-ppa9-pa25",
+      "studentVisible": true,
+      "notes": "Proyecto piloto validado parcialmente."
+    }
+  ]
+}

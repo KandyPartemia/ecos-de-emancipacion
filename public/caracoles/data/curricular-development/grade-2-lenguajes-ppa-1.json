@@ -1,0 +1,1407 @@
+{
+  "grade": "2",
+  "gradeLabel": "Segundo grado",
+  "field": "Lenguajes",
+  "ppaNumber": "1",
+  "partialClassroomProject": "PPA 1",
+  "partialClassroomProjectTitle": "¡Nos comunicamos en la riqueza de la diversidad!",
+  "source": "curricular-development-pilot",
+  "generatedAt": "2026-06-04T15:51:05.795Z",
+  "development": {
+    "grade": "2",
+    "gradeLabel": "Segundo grado",
+    "field": "Lenguajes",
+    "bookVolume": "Tomo I",
+    "partialClassroomProject": "PPA 1",
+    "partialClassroomProjectTitle": "¡Nos comunicamos en la riqueza de la diversidad!",
+    "generatedAt": "2026-06-02T13:56:45.854Z",
+    "notes": "Capa curricular generada por lote para 2o Lenguajes, PPA 1.",
+    "sourcesUsed": [
+      "public/caracoles/data/generated/grade-2/selectable-projects.json",
+      "content/caracoles/generated-private/grade-2/pages-index.full.json",
+      "Posibilidades de uso Lenguajes, segundo grado, pp. 6-7",
+      "Nuestro libro de proyectos Tomo I, segundo grado, pp. 37-52",
+      "Lenguajes, segundo grado, pp. 21-28, 37-41, 68-73, 120-126, 179-197, 221-224 y 293-296; Múltiples Lenguajes pp. 10-13, 46-49 y 116-119."
+    ],
+    "partialClassroomProjectContext": {
+      "expectationHorizon": {
+        "officialText": "",
+        "sourcePages": [
+          "Nuestro libro de proyectos Tomo I pp. 37-38",
+          "Posibilidades de uso Lenguajes pp. 6-7"
+        ],
+        "evidence": "El PPA 1 pone en relación la diversidad lingüística, la exposición en distintas lenguas y la narración festiva para que el grupo reconozca que la comunicación de una comunidad también se sostiene en sus imágenes, tradiciones, relatos y modos de hablar.",
+        "status": "pending"
+      },
+      "ppaDetonatingStrategy": {
+        "title": "¡Nos comunicamos en la riqueza de la diversidad!",
+        "type": "video",
+        "url": "",
+        "urlStatus": "pending-url",
+        "reference": "bit.ly/3VfglUk",
+        "source": "Nuestro libro de proyectos Tomo I pp. 37-38 + Posibilidades de uso Lenguajes pp. 6-7",
+        "scope": "partial-classroom-project",
+        "youtubeSearchQuery": "¡Nos comunicamos en la riqueza de la diversidad! Lenguajes 2do grado Telesecundaria"
+      },
+      "ppaDigitalResource": {
+        "title": "Recurso informatico del bloque PPA 1",
+        "reference": "bit.ly/3WQBMwg",
+        "status": "pending-validation",
+        "source": "Nuestro libro de proyectos Tomo I pp. 37-52"
+      },
+      "validationStatus": {
+        "needsHumanReview": true,
+        "needsReviewReasons": [
+          "Las pp. 6-7 de Posibilidades pertenecen al mismo PPA 1.",
+          "La asignacion de apoyos por columna se fija por inferencia curricular documentada de izquierda a derecha.",
+          "Los enlaces cortos del video del PPA y del recurso informatico se mantienen en cautela hasta localizar un destino oficial confirmado.",
+          "Los apoyos de Múltiples Lenguajes se asignan por inferencia curricular de columna a partir del mismo bloque de Posibilidades.",
+          "Los enlaces cortos del libro se conservan como cautela hasta localizar un destino oficial confirmado."
+        ]
+      },
+      "columnValidation": {
+        "possibilitiesPagesReviewed": [
+          6,
+          7
+        ],
+        "confirmedAsPpa": true,
+        "note": "Las pp. 6-7 corresponden al PPA 1 ¡Nos comunicamos en la riqueza de la diversidad!. Las tres columnas se sostienen por el orden de proyectos, productos y apoyos del mismo bloque.",
+        "columns": [
+          {
+            "columnIndex": 1,
+            "projectId": "lenguajes-2-ppa-1-pa1",
+            "projectTitle": "¡Nuestra diversidad lingüística comunica y significa!",
+            "finalProduct": "Esquema ilustrado",
+            "supportMaterials": [
+              "Rasabadú, pp. 10-13"
+            ]
+          },
+          {
+            "columnIndex": 2,
+            "projectId": "lenguajes-2-ppa-1-pa2",
+            "projectTitle": "¡Expresémoslo en otro idioma!",
+            "finalProduct": "Breve exposición en distintas lenguas",
+            "supportMaterials": [
+              "Enormes cristales subterráneos, pp. 46-49"
+            ]
+          },
+          {
+            "columnIndex": 3,
+            "projectId": "lenguajes-2-ppa-1-pa3",
+            "projectTitle": "¡Y voy narrando lo que somos!",
+            "finalProduct": "Narración festiva",
+            "supportMaterials": [
+              "La fábrica de huesos, pp. 116-119"
+            ]
+          }
+        ]
+      }
+    },
+    "academicProjects": [
+      {
+        "id": "lenguajes-2-ppa-1-pa1",
+        "projectId": "lenguajes-2-ppa-1-pa1",
+        "academicProjectNumber": 1,
+        "title": "¡Nuestra diversidad lingüística comunica y significa!",
+        "projectTitle": "¡Nuestra diversidad lingüística comunica y significa!",
+        "grade": "2",
+        "field": "Lenguajes",
+        "ppaNumber": "1",
+        "partialClassroomProject": "PPA 1",
+        "partialClassroomProjectTitle": "¡Nos comunicamos en la riqueza de la diversidad!",
+        "bookVolume": "Tomo I",
+        "sourceValidation": {
+          "sourceStatus": "linked",
+          "possibilitiesPages": [
+            6,
+            7
+          ],
+          "possibilitiesMaterialId": "grade-2-posibilidades-pos-len-2",
+          "possibilitiesColumnIndex": 1,
+          "columnEvidence": "Bloque PPA 1 ¡Nos comunicamos en la riqueza de la diversidad! localizado en pp. 6-7; la columna 1 se confirma por el orden de proyectos, productos y continuidad del mismo bloque."
+        },
+        "finalProduct": {
+          "title": "Esquema ilustrado",
+          "source": "Posibilidades de uso Lenguajes pp. 6-7 + Nuestro libro de proyectos Tomo I pp. 39-43",
+          "status": "confirmed"
+        },
+        "sourcePages": {
+          "nuestroLibroProyectos": [
+            {
+              "materialId": "grade-2-proyectos-nuestro-libro-de-proyectos-tomo-1-segundo-grado",
+              "label": "Nuestro libro de proyectos Tomo I",
+              "startPage": 39,
+              "endPage": 43,
+              "pagesLabel": "pp. 39-43",
+              "topicTitle": "Proyecto academico 1",
+              "status": "confirmed-source"
+            }
+          ],
+          "conceptBook": [
+            {
+              "materialId": "grade-2-conceptos-lenguajes-segundo-grado",
+              "label": "Lenguajes",
+              "startPage": 21,
+              "endPage": 21,
+              "pagesLabel": "p. 21",
+              "topicTitle": "La diversidad del español mexicano",
+              "status": "confirmed-by-column-inference"
+            },
+            {
+              "materialId": "grade-2-conceptos-lenguajes-segundo-grado",
+              "label": "Lenguajes",
+              "startPage": 22,
+              "endPage": 26,
+              "pagesLabel": "pp. 22-26",
+              "topicTitle": "La diversidad lingüística",
+              "status": "confirmed-by-column-inference"
+            },
+            {
+              "materialId": "grade-2-conceptos-lenguajes-segundo-grado",
+              "label": "Lenguajes",
+              "startPage": 27,
+              "endPage": 28,
+              "pagesLabel": "pp. 27-28",
+              "topicTitle": "La historieta como instrumento para representar la interacción lingüística",
+              "status": "confirmed-by-column-inference"
+            }
+          ],
+          "multiplesLenguajes": [
+            {
+              "materialId": "grade-2-apoyo-multiples-lenguajes-segundo-grado",
+              "label": "Multiples Lenguajes",
+              "startPage": 10,
+              "endPage": 13,
+              "pagesLabel": "pp. 10-13",
+              "topicTitle": "Rasabadú",
+              "status": "confirmed-by-column-inference"
+            }
+          ],
+          "otherMaterials": [
+            {
+              "label": "Video PA 1: 1. ¡Nos comunicamos en la riqueza de la diversidad! • Lenguajes • 2do grado",
+              "reference": "https://www.youtube.com/watch?v=bIOxjG-2HQA",
+              "status": "confirmed"
+            },
+            {
+              "label": "Video PPA 1: 1. ¡Nos comunicamos en la riqueza de la diversidad! • Lenguajes • 2do grado",
+              "reference": "https://www.youtube.com/watch?v=bIOxjG-2HQA",
+              "status": "confirmed"
+            }
+          ]
+        },
+        "supportMaterials": [
+          {
+            "title": "Rasabadú",
+            "kind": "Multiples Lenguajes",
+            "pages": "pp. 10-13",
+            "status": "confirmed-by-column-inference"
+          }
+        ],
+        "horizonOrPurpose": {
+          "status": "pending",
+          "text": "",
+          "source": "Nuestro libro de proyectos Tomo I p. 39"
+        },
+        "projectExpectationHorizon": {
+          "officialText": "",
+          "studentVersion": "",
+          "sourcePages": [
+            "Nuestro libro de proyectos Tomo I p. 39"
+          ],
+          "evidence": "El proyecto ya cuenta con producto, conceptos y articulacion pedagogica, pero el horizonte textual exacto sigue pendiente de confirmacion literal.",
+          "status": "pending"
+        },
+        "detonatingStrategy": {
+          "title": "1. ¡Nos comunicamos en la riqueza de la diversidad! • Lenguajes • 2do grado",
+          "text": "Video del Proyecto Parcial de Aula 1: 1. ¡Nos comunicamos en la riqueza de la diversidad! • Lenguajes • 2do grado",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=bIOxjG-2HQA",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "partial-classroom-project"
+        },
+        "academicProjectStrategy": {
+          "title": "1. ¡Nos comunicamos en la riqueza de la diversidad! • Lenguajes • 2do grado",
+          "text": "Video detonador del Proyecto Academico 1: ¡Nuestra diversidad lingüística comunica y significa!",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=bIOxjG-2HQA",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "academic-project"
+        },
+        "academicConcepts": [
+          {
+            "concept": "esquema ilustrado",
+            "description": "Esquema ilustrado como producto de cierre para organizar y comunicar aprendizajes del proyecto.",
+            "sourceBook": "Nuestro libro de proyectos Tomo I",
+            "sourcePages": [
+              39,
+              43
+            ],
+            "sourcePagesLabel": "pp. 39-43",
+            "topicTitle": "Proyecto academico 1",
+            "status": "confirmed",
+            "reason": "Posibilidades y el propio proyecto fijan Esquema ilustrado como producto final del PA 1.",
+            "pedagogicalUse": "Da una forma concreta de socializar lo comprendido sobre la diversidad lingüística, los recursos de la lengua española y la riqueza pluricultural del contexto nacional e internacional.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "diversidad del español mexicano",
+            "description": "Diversidad del español mexicano es una idea clave para comprender la diversidad lingüística, los recursos de la lengua española y la riqueza pluricultural del contexto nacional e internacional.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              21
+            ],
+            "sourcePagesLabel": "p. 21",
+            "topicTitle": "La diversidad del español mexicano",
+            "status": "confirmed",
+            "reason": "La fuente validada \"La diversidad del español mexicano\" aporta base suficiente para trabajar diversidad del español mexicano dentro del proyecto 1.",
+            "pedagogicalUse": "Ayuda a fortalecer esquema ilustrado y a explicar la diversidad lingüística, los recursos de la lengua española y la riqueza pluricultural del contexto nacional e internacional con mayor claridad mediante diversidad del español mexicano.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "diversidad lingüística",
+            "description": "Diversidad lingüística es una idea clave para comprender la diversidad lingüística, los recursos de la lengua española y la riqueza pluricultural del contexto nacional e internacional.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              22,
+              26
+            ],
+            "sourcePagesLabel": "pp. 22-26",
+            "topicTitle": "La diversidad lingüística",
+            "status": "confirmed",
+            "reason": "La fuente validada \"La diversidad lingüística\" aporta base suficiente para trabajar diversidad lingüística dentro del proyecto 1.",
+            "pedagogicalUse": "Ayuda a fortalecer esquema ilustrado y a explicar la diversidad lingüística, los recursos de la lengua española y la riqueza pluricultural del contexto nacional e internacional con mayor claridad mediante diversidad lingüística.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "interacción lingüística",
+            "description": "Interacción lingüística es una idea clave para comprender la diversidad lingüística, los recursos de la lengua española y la riqueza pluricultural del contexto nacional e internacional.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              27,
+              28
+            ],
+            "sourcePagesLabel": "pp. 27-28",
+            "topicTitle": "La historieta como instrumento para representar la interacción lingüística",
+            "status": "confirmed",
+            "reason": "La fuente validada \"La historieta como instrumento para representar la interacción lingüística\" aporta base suficiente para trabajar interacción lingüística dentro del proyecto 1.",
+            "pedagogicalUse": "Ayuda a fortalecer esquema ilustrado y a explicar la diversidad lingüística, los recursos de la lengua española y la riqueza pluricultural del contexto nacional e internacional con mayor claridad mediante interacción lingüística.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "recursos lingüísticos",
+            "description": "Elementos y formas de uso de la lengua que ayudan a comunicar con claridad en distintos contextos.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              22,
+              26
+            ],
+            "sourcePagesLabel": "pp. 22-26",
+            "topicTitle": "La diversidad lingüística",
+            "status": "confirmed",
+            "reason": "La fuente validada \"La diversidad lingüística\" aporta base suficiente para trabajar recursos lingüísticos dentro del proyecto 1.",
+            "pedagogicalUse": "Ayuda a fortalecer esquema ilustrado y a explicar la diversidad lingüística, los recursos de la lengua española y la riqueza pluricultural del contexto nacional e internacional con mayor claridad mediante recursos lingüísticos.",
+            "activityReadiness": "usable-for-autoevaluation"
+          }
+        ],
+        "thinkingCriteria": [
+          "Relacionar la diversidad lingüística, los recursos de la lengua española y la riqueza pluricultural del contexto nacional e internacional con situaciones cercanas a la comunidad.",
+          "Usar esquema ilustrado para explicar y no solo para recopilar informacion.",
+          "Distinguir entre mencionar conceptos y comprender como dialogan entre si dentro del proyecto."
+        ],
+        "validationStatus": {
+          "readinessLevel": "development-partial",
+          "readyForActivities": false,
+          "needsReviewReasons": [
+            "El bloque 1 ya es usable como lectura docente, pero el video del PPA 1 y el recurso informatico siguen pendientes de validacion de destino final.",
+            "La asignacion de apoyos de Posibilidades se sostiene por inferencia curricular documentada y no por OCR perfectamente separado por columnas.",
+            "No mover a actividades interactivas ni desbloquear juegos completos hasta ampliar validacion de videos y recursos complementarios."
+          ]
+        },
+        "readinessLevel": "development-partial",
+        "readyForActivities": false,
+        "needsReviewReasons": [
+          "No mover a actividades interactivas ni desbloquear juegos completos."
+        ],
+        "roleInPpa": "Abre el bloque al reconocer que la diversidad lingüística puede investigarse, organizarse y comunicarse con apoyos visuales claros.",
+        "pedagogicalUse": "Conviene trabajar ¡Nuestra diversidad lingüística comunica y significa! como una oportunidad para profundizar en la diversidad lingüística, los recursos de la lengua española y la riqueza pluricultural del contexto nacional e internacional sin separar contenido, comunidad y producto final.",
+        "teacherNotes": [
+          "Conviene partir de ejemplos cercanos y después pasar al lenguaje mas abstracto del campo.",
+          "El producto Esquema ilustrado gana fuerza cuando se usa para explicar y no solo para exhibir informacion.",
+          "Es mejor seleccionar pocos conceptos bien comprendidos que saturar el trabajo con terminos aislados."
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Qué comprendes mejor sobre la diversidad lingüística, los recursos de la lengua española y la riqueza pluricultural del contexto nacional e internacional después de elaborar esquema ilustrado?"
+          },
+          {
+            "type": "community",
+            "prompt": "¿Qué diálogos comunitarios podrían fortalecerse si compartimos esquema ilustrado y lo ponemos en conversación con otras personas?"
+          }
+        ],
+        "notReadyFor": [
+          "full-games",
+          "summative-exam"
+        ]
+      },
+      {
+        "id": "lenguajes-2-ppa-1-pa2",
+        "projectId": "lenguajes-2-ppa-1-pa2",
+        "academicProjectNumber": 2,
+        "title": "¡Expresémoslo en otro idioma!",
+        "projectTitle": "¡Expresémoslo en otro idioma!",
+        "grade": "2",
+        "field": "Lenguajes",
+        "ppaNumber": "1",
+        "partialClassroomProject": "PPA 1",
+        "partialClassroomProjectTitle": "¡Nos comunicamos en la riqueza de la diversidad!",
+        "bookVolume": "Tomo I",
+        "sourceValidation": {
+          "sourceStatus": "linked",
+          "possibilitiesPages": [
+            6,
+            7
+          ],
+          "possibilitiesMaterialId": "grade-2-posibilidades-pos-len-2",
+          "possibilitiesColumnIndex": 2,
+          "columnEvidence": "Bloque PPA 1 ¡Nos comunicamos en la riqueza de la diversidad! localizado en pp. 6-7; la columna 2 se confirma por el orden de proyectos, productos y continuidad del mismo bloque."
+        },
+        "finalProduct": {
+          "title": "Breve exposición en distintas lenguas",
+          "source": "Posibilidades de uso Lenguajes pp. 6-7 + Nuestro libro de proyectos Tomo I pp. 44-47",
+          "status": "confirmed"
+        },
+        "sourcePages": {
+          "nuestroLibroProyectos": [
+            {
+              "materialId": "grade-2-proyectos-nuestro-libro-de-proyectos-tomo-1-segundo-grado",
+              "label": "Nuestro libro de proyectos Tomo I",
+              "startPage": 44,
+              "endPage": 47,
+              "pagesLabel": "pp. 44-47",
+              "topicTitle": "Proyecto academico 2",
+              "status": "confirmed-source"
+            }
+          ],
+          "conceptBook": [
+            {
+              "materialId": "grade-2-conceptos-lenguajes-segundo-grado",
+              "label": "Lenguajes",
+              "startPage": 37,
+              "endPage": 37,
+              "pagesLabel": "p. 37",
+              "topicTitle": "La interpretación de textos literarios: análisis y disfrute",
+              "status": "confirmed-by-column-inference"
+            },
+            {
+              "materialId": "grade-2-conceptos-lenguajes-segundo-grado",
+              "label": "Lenguajes",
+              "startPage": 38,
+              "endPage": 41,
+              "pagesLabel": "pp. 38-41",
+              "topicTitle": "Los recursos literarios como instrumentos para embellecer la lengua",
+              "status": "confirmed-by-column-inference"
+            },
+            {
+              "materialId": "grade-2-conceptos-lenguajes-segundo-grado",
+              "label": "Lenguajes",
+              "startPage": 120,
+              "endPage": 126,
+              "pagesLabel": "pp. 120-126",
+              "topicTitle": "La literatura y el arte de la palabra en las lenguas originarias de México",
+              "status": "confirmed-by-column-inference"
+            },
+            {
+              "materialId": "grade-2-conceptos-lenguajes-segundo-grado",
+              "label": "Lenguajes",
+              "startPage": 221,
+              "endPage": 224,
+              "pagesLabel": "pp. 221-224",
+              "topicTitle": "El lenguaje a través de hablantes nativos y no nativos",
+              "status": "confirmed-by-column-inference"
+            }
+          ],
+          "multiplesLenguajes": [
+            {
+              "materialId": "grade-2-apoyo-multiples-lenguajes-segundo-grado",
+              "label": "Multiples Lenguajes",
+              "startPage": 46,
+              "endPage": 49,
+              "pagesLabel": "pp. 46-49",
+              "topicTitle": "Enormes cristales subterráneos",
+              "status": "confirmed-by-column-inference"
+            }
+          ],
+          "otherMaterials": [
+            {
+              "label": "Video PA 2: Breve exposición en distintas lenguas • Lenguajes • 2do grado",
+              "reference": "https://www.youtube.com/watch?v=GfVIXDXgqQM",
+              "status": "confirmed"
+            },
+            {
+              "label": "Video PPA 1: 1. ¡Nos comunicamos en la riqueza de la diversidad! • Lenguajes • 2do grado",
+              "reference": "https://www.youtube.com/watch?v=bIOxjG-2HQA",
+              "status": "confirmed"
+            }
+          ]
+        },
+        "supportMaterials": [
+          {
+            "title": "Enormes cristales subterráneos",
+            "kind": "Multiples Lenguajes",
+            "pages": "pp. 46-49",
+            "status": "confirmed-by-column-inference"
+          }
+        ],
+        "horizonOrPurpose": {
+          "status": "pending",
+          "text": "",
+          "source": "Nuestro libro de proyectos Tomo I p. 44"
+        },
+        "projectExpectationHorizon": {
+          "officialText": "",
+          "studentVersion": "",
+          "sourcePages": [
+            "Nuestro libro de proyectos Tomo I p. 44"
+          ],
+          "evidence": "El proyecto ya cuenta con producto, conceptos y articulacion pedagogica, pero el horizonte textual exacto sigue pendiente de confirmacion literal.",
+          "status": "pending"
+        },
+        "detonatingStrategy": {
+          "title": "1. ¡Nos comunicamos en la riqueza de la diversidad! • Lenguajes • 2do grado",
+          "text": "Video del Proyecto Parcial de Aula 1: 1. ¡Nos comunicamos en la riqueza de la diversidad! • Lenguajes • 2do grado",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=bIOxjG-2HQA",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "partial-classroom-project"
+        },
+        "academicProjectStrategy": {
+          "title": "Breve exposición en distintas lenguas • Lenguajes • 2do grado",
+          "text": "Video detonador del Proyecto Academico 2: ¡Expresémoslo en otro idioma!",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=GfVIXDXgqQM",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "academic-project"
+        },
+        "academicConcepts": [
+          {
+            "concept": "breve exposición en distintas lenguas",
+            "description": "Breve exposición en distintas lenguas como producto de cierre para organizar y comunicar aprendizajes del proyecto.",
+            "sourceBook": "Nuestro libro de proyectos Tomo I",
+            "sourcePages": [
+              44,
+              47
+            ],
+            "sourcePagesLabel": "pp. 44-47",
+            "topicTitle": "Proyecto academico 2",
+            "status": "confirmed",
+            "reason": "Posibilidades y el propio proyecto fijan Breve exposición en distintas lenguas como producto final del PA 2.",
+            "pedagogicalUse": "Da una forma concreta de socializar lo comprendido sobre los actos comunicativos en lenguajes escritos, orales y gráficos para hacer visible la diversidad cultural.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "actos comunicativos",
+            "description": "Formas en que una comunidad usa distintos lenguajes para expresar significados, compartir saberes y relacionarse.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              221,
+              224
+            ],
+            "sourcePagesLabel": "pp. 221-224",
+            "topicTitle": "El lenguaje a través de hablantes nativos y no nativos",
+            "status": "confirmed",
+            "reason": "La fuente validada \"El lenguaje a través de hablantes nativos y no nativos\" aporta base suficiente para trabajar actos comunicativos dentro del proyecto 2.",
+            "pedagogicalUse": "Ayuda a fortalecer breve exposición en distintas lenguas y a explicar los actos comunicativos en lenguajes escritos, orales y gráficos para hacer visible la diversidad cultural con mayor claridad mediante actos comunicativos.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "lenguajes escritos, orales y gráficos",
+            "description": "Distintas maneras de comunicar ideas y experiencias mediante palabras, imágenes, voz y otros recursos expresivos.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              221,
+              224
+            ],
+            "sourcePagesLabel": "pp. 221-224",
+            "topicTitle": "El lenguaje a través de hablantes nativos y no nativos",
+            "status": "confirmed",
+            "reason": "La fuente validada \"El lenguaje a través de hablantes nativos y no nativos\" aporta base suficiente para trabajar lenguajes escritos, orales y gráficos dentro del proyecto 2.",
+            "pedagogicalUse": "Ayuda a fortalecer breve exposición en distintas lenguas y a explicar los actos comunicativos en lenguajes escritos, orales y gráficos para hacer visible la diversidad cultural con mayor claridad mediante lenguajes escritos, orales y gráficos.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "recursos literarios",
+            "description": "Recursos literarios es una idea clave para comprender los actos comunicativos en lenguajes escritos, orales y gráficos para hacer visible la diversidad cultural.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              38,
+              41
+            ],
+            "sourcePagesLabel": "pp. 38-41",
+            "topicTitle": "Los recursos literarios como instrumentos para embellecer la lengua",
+            "status": "confirmed",
+            "reason": "La fuente validada \"Los recursos literarios como instrumentos para embellecer la lengua\" aporta base suficiente para trabajar recursos literarios dentro del proyecto 2.",
+            "pedagogicalUse": "Ayuda a fortalecer breve exposición en distintas lenguas y a explicar los actos comunicativos en lenguajes escritos, orales y gráficos para hacer visible la diversidad cultural con mayor claridad mediante recursos literarios.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "arte de la palabra",
+            "description": "Arte de la palabra es una idea clave para comprender los actos comunicativos en lenguajes escritos, orales y gráficos para hacer visible la diversidad cultural.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              120,
+              126
+            ],
+            "sourcePagesLabel": "pp. 120-126",
+            "topicTitle": "La literatura y el arte de la palabra en las lenguas originarias de México",
+            "status": "confirmed",
+            "reason": "La fuente validada \"La literatura y el arte de la palabra en las lenguas originarias de México\" aporta base suficiente para trabajar arte de la palabra dentro del proyecto 2.",
+            "pedagogicalUse": "Ayuda a fortalecer breve exposición en distintas lenguas y a explicar los actos comunicativos en lenguajes escritos, orales y gráficos para hacer visible la diversidad cultural con mayor claridad mediante arte de la palabra.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "lengua y cultura",
+            "description": "Relación entre las formas de hablar, los significados compartidos y la identidad cultural de un pueblo.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              221,
+              224
+            ],
+            "sourcePagesLabel": "pp. 221-224",
+            "topicTitle": "El lenguaje a través de hablantes nativos y no nativos",
+            "status": "confirmed",
+            "reason": "La fuente validada \"El lenguaje a través de hablantes nativos y no nativos\" aporta base suficiente para trabajar lengua y cultura dentro del proyecto 2.",
+            "pedagogicalUse": "Ayuda a fortalecer breve exposición en distintas lenguas y a explicar los actos comunicativos en lenguajes escritos, orales y gráficos para hacer visible la diversidad cultural con mayor claridad mediante lengua y cultura.",
+            "activityReadiness": "usable-for-autoevaluation"
+          }
+        ],
+        "thinkingCriteria": [
+          "Relacionar los actos comunicativos en lenguajes escritos, orales y gráficos para hacer visible la diversidad cultural con situaciones cercanas a la comunidad.",
+          "Usar breve exposición en distintas lenguas para explicar y no solo para recopilar informacion.",
+          "Distinguir entre mencionar conceptos y comprender como dialogan entre si dentro del proyecto."
+        ],
+        "validationStatus": {
+          "readinessLevel": "development-partial",
+          "readyForActivities": false,
+          "needsReviewReasons": [
+            "El bloque 1 ya es usable como lectura docente, pero el video del PPA 1 y el recurso informatico siguen pendientes de validacion de destino final.",
+            "La asignacion de apoyos de Posibilidades se sostiene por inferencia curricular documentada y no por OCR perfectamente separado por columnas.",
+            "No mover a actividades interactivas ni desbloquear juegos completos hasta ampliar validacion de videos y recursos complementarios."
+          ]
+        },
+        "readinessLevel": "development-partial",
+        "readyForActivities": false,
+        "needsReviewReasons": [
+          "No mover a actividades interactivas ni desbloquear juegos completos."
+        ],
+        "roleInPpa": "Profundiza el bloque al comparar lenguas, traducciones y actos comunicativos para preparar una exposición breve con sentido intercultural.",
+        "pedagogicalUse": "Conviene trabajar ¡Expresémoslo en otro idioma! como una oportunidad para profundizar en los actos comunicativos en lenguajes escritos, orales y gráficos para hacer visible la diversidad cultural sin separar contenido, comunidad y producto final.",
+        "teacherNotes": [
+          "Conviene partir de ejemplos cercanos y después pasar al lenguaje mas abstracto del campo.",
+          "El producto Breve exposición en distintas lenguas gana fuerza cuando se usa para explicar y no solo para exhibir informacion.",
+          "Es mejor seleccionar pocos conceptos bien comprendidos que saturar el trabajo con terminos aislados."
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Qué comprendes mejor sobre los actos comunicativos en lenguajes escritos, orales y gráficos para hacer visible la diversidad cultural después de elaborar breve exposición en distintas lenguas?"
+          },
+          {
+            "type": "community",
+            "prompt": "¿Qué diálogos comunitarios podrían fortalecerse si compartimos breve exposición en distintas lenguas y lo ponemos en conversación con otras personas?"
+          }
+        ],
+        "notReadyFor": [
+          "full-games",
+          "summative-exam"
+        ]
+      },
+      {
+        "id": "lenguajes-2-ppa-1-pa3",
+        "projectId": "lenguajes-2-ppa-1-pa3",
+        "academicProjectNumber": 3,
+        "title": "¡Y voy narrando lo que somos!",
+        "projectTitle": "¡Y voy narrando lo que somos!",
+        "grade": "2",
+        "field": "Lenguajes",
+        "ppaNumber": "1",
+        "partialClassroomProject": "PPA 1",
+        "partialClassroomProjectTitle": "¡Nos comunicamos en la riqueza de la diversidad!",
+        "bookVolume": "Tomo I",
+        "sourceValidation": {
+          "sourceStatus": "linked",
+          "possibilitiesPages": [
+            6,
+            7
+          ],
+          "possibilitiesMaterialId": "grade-2-posibilidades-pos-len-2",
+          "possibilitiesColumnIndex": 3,
+          "columnEvidence": "Bloque PPA 1 ¡Nos comunicamos en la riqueza de la diversidad! localizado en pp. 6-7; la columna 3 se confirma por el orden de proyectos, productos y continuidad del mismo bloque."
+        },
+        "finalProduct": {
+          "title": "Narración festiva",
+          "source": "Posibilidades de uso Lenguajes pp. 6-7 + Nuestro libro de proyectos Tomo I pp. 48-52",
+          "status": "confirmed"
+        },
+        "sourcePages": {
+          "nuestroLibroProyectos": [
+            {
+              "materialId": "grade-2-proyectos-nuestro-libro-de-proyectos-tomo-1-segundo-grado",
+              "label": "Nuestro libro de proyectos Tomo I",
+              "startPage": 48,
+              "endPage": 52,
+              "pagesLabel": "pp. 48-52",
+              "topicTitle": "Proyecto academico 3",
+              "status": "confirmed-source"
+            }
+          ],
+          "conceptBook": [
+            {
+              "materialId": "grade-2-conceptos-lenguajes-segundo-grado",
+              "label": "Lenguajes",
+              "startPage": 68,
+              "endPage": 73,
+              "pagesLabel": "pp. 68-73",
+              "topicTitle": "Valoración de textos tradicionales y contemporáneos",
+              "status": "confirmed-by-column-inference"
+            },
+            {
+              "materialId": "grade-2-conceptos-lenguajes-segundo-grado",
+              "label": "Lenguajes",
+              "startPage": 179,
+              "endPage": 184,
+              "pagesLabel": "pp. 179-184",
+              "topicTitle": "Las lenguas indígenas: identidad y cultura de los pueblos originarios",
+              "status": "confirmed-by-column-inference"
+            },
+            {
+              "materialId": "grade-2-conceptos-lenguajes-segundo-grado",
+              "label": "Lenguajes",
+              "startPage": 186,
+              "endPage": 191,
+              "pagesLabel": "pp. 186-191",
+              "topicTitle": "Prácticas culturales y ceremoniales de los pueblos indígenas",
+              "status": "confirmed-by-column-inference"
+            },
+            {
+              "materialId": "grade-2-conceptos-lenguajes-segundo-grado",
+              "label": "Lenguajes",
+              "startPage": 192,
+              "endPage": 197,
+              "pagesLabel": "pp. 192-197",
+              "topicTitle": "Rasgos identitarios y diálogos de los pueblos indígenas",
+              "status": "confirmed-by-column-inference"
+            },
+            {
+              "materialId": "grade-2-conceptos-lenguajes-segundo-grado",
+              "label": "Lenguajes",
+              "startPage": 293,
+              "endPage": 296,
+              "pagesLabel": "pp. 293-296",
+              "topicTitle": "Nuestra fiesta comunitaria como espacio de enseñanza, reconocimiento, recreación y disfrute",
+              "status": "confirmed-by-column-inference"
+            }
+          ],
+          "multiplesLenguajes": [
+            {
+              "materialId": "grade-2-apoyo-multiples-lenguajes-segundo-grado",
+              "label": "Multiples Lenguajes",
+              "startPage": 116,
+              "endPage": 119,
+              "pagesLabel": "pp. 116-119",
+              "topicTitle": "La fábrica de huesos",
+              "status": "confirmed-by-column-inference"
+            }
+          ],
+          "otherMaterials": [
+            {
+              "label": "Video PA 3: 3. Nuestras lenguas y culturas • Lenguajes • 2do grado",
+              "reference": "https://www.youtube.com/watch?v=KyHePHyxjhc",
+              "status": "confirmed"
+            },
+            {
+              "label": "Video PPA 1: 1. ¡Nos comunicamos en la riqueza de la diversidad! • Lenguajes • 2do grado",
+              "reference": "https://www.youtube.com/watch?v=bIOxjG-2HQA",
+              "status": "confirmed"
+            }
+          ]
+        },
+        "supportMaterials": [
+          {
+            "title": "La fábrica de huesos",
+            "kind": "Multiples Lenguajes",
+            "pages": "pp. 116-119",
+            "status": "confirmed-by-column-inference"
+          }
+        ],
+        "horizonOrPurpose": {
+          "status": "pending",
+          "text": "",
+          "source": "Nuestro libro de proyectos Tomo I p. 48"
+        },
+        "projectExpectationHorizon": {
+          "officialText": "",
+          "studentVersion": "",
+          "sourcePages": [
+            "Nuestro libro de proyectos Tomo I p. 48"
+          ],
+          "evidence": "El proyecto ya cuenta con producto, conceptos y articulacion pedagogica, pero el horizonte textual exacto sigue pendiente de confirmacion literal.",
+          "status": "pending"
+        },
+        "detonatingStrategy": {
+          "title": "1. ¡Nos comunicamos en la riqueza de la diversidad! • Lenguajes • 2do grado",
+          "text": "Video del Proyecto Parcial de Aula 1: 1. ¡Nos comunicamos en la riqueza de la diversidad! • Lenguajes • 2do grado",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=bIOxjG-2HQA",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "partial-classroom-project"
+        },
+        "academicProjectStrategy": {
+          "title": "3. Nuestras lenguas y culturas • Lenguajes • 2do grado",
+          "text": "Video detonador del Proyecto Academico 3: ¡Y voy narrando lo que somos!",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=KyHePHyxjhc",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "academic-project"
+        },
+        "academicConcepts": [
+          {
+            "concept": "narración festiva",
+            "description": "Narración festiva como producto de cierre para organizar y comunicar aprendizajes del proyecto.",
+            "sourceBook": "Nuestro libro de proyectos Tomo I",
+            "sourcePages": [
+              48,
+              52
+            ],
+            "sourcePagesLabel": "pp. 48-52",
+            "topicTitle": "Proyecto academico 3",
+            "status": "confirmed",
+            "reason": "Posibilidades y el propio proyecto fijan Narración festiva como producto final del PA 3.",
+            "pedagogicalUse": "Da una forma concreta de socializar lo comprendido sobre las tradiciones comunitarias, sus elementos artísticos y lingüísticos y la diversidad cultural que expresan.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "narración festiva",
+            "description": "Relato que recupera tradiciones, imágenes y sentidos de una celebración para comunicar la vida cultural de una comunidad.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              68,
+              73
+            ],
+            "sourcePagesLabel": "pp. 68-73",
+            "topicTitle": "Valoración de textos tradicionales y contemporáneos",
+            "status": "confirmed",
+            "reason": "La fuente validada \"Valoración de textos tradicionales y contemporáneos\" aporta base suficiente para trabajar narración festiva dentro del proyecto 3.",
+            "pedagogicalUse": "Ayuda a fortalecer narración festiva y a explicar las tradiciones comunitarias, sus elementos artísticos y lingüísticos y la diversidad cultural que expresan con mayor claridad mediante narración festiva.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "diversidad cultural",
+            "description": "Diversidad cultural es una idea clave para comprender las tradiciones comunitarias, sus elementos artísticos y lingüísticos y la diversidad cultural que expresan.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              192,
+              197
+            ],
+            "sourcePagesLabel": "pp. 192-197",
+            "topicTitle": "Rasgos identitarios y diálogos de los pueblos indígenas",
+            "status": "confirmed",
+            "reason": "La fuente validada \"Rasgos identitarios y diálogos de los pueblos indígenas\" aporta base suficiente para trabajar diversidad cultural dentro del proyecto 3.",
+            "pedagogicalUse": "Ayuda a fortalecer narración festiva y a explicar las tradiciones comunitarias, sus elementos artísticos y lingüísticos y la diversidad cultural que expresan con mayor claridad mediante diversidad cultural.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "prácticas culturales y ceremoniales",
+            "description": "Prácticas culturales y ceremoniales es una idea clave para comprender las tradiciones comunitarias, sus elementos artísticos y lingüísticos y la diversidad cultural que expresan.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              186,
+              191
+            ],
+            "sourcePagesLabel": "pp. 186-191",
+            "topicTitle": "Prácticas culturales y ceremoniales de los pueblos indígenas",
+            "status": "confirmed",
+            "reason": "La fuente validada \"Prácticas culturales y ceremoniales de los pueblos indígenas\" aporta base suficiente para trabajar prácticas culturales y ceremoniales dentro del proyecto 3.",
+            "pedagogicalUse": "Ayuda a fortalecer narración festiva y a explicar las tradiciones comunitarias, sus elementos artísticos y lingüísticos y la diversidad cultural que expresan con mayor claridad mediante prácticas culturales y ceremoniales.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "rasgos identitarios",
+            "description": "Rasgos identitarios es una idea clave para comprender las tradiciones comunitarias, sus elementos artísticos y lingüísticos y la diversidad cultural que expresan.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              192,
+              197
+            ],
+            "sourcePagesLabel": "pp. 192-197",
+            "topicTitle": "Rasgos identitarios y diálogos de los pueblos indígenas",
+            "status": "confirmed",
+            "reason": "La fuente validada \"Rasgos identitarios y diálogos de los pueblos indígenas\" aporta base suficiente para trabajar rasgos identitarios dentro del proyecto 3.",
+            "pedagogicalUse": "Ayuda a fortalecer narración festiva y a explicar las tradiciones comunitarias, sus elementos artísticos y lingüísticos y la diversidad cultural que expresan con mayor claridad mediante rasgos identitarios.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "fiesta comunitaria",
+            "description": "Espacio donde se enseñan, recrean y comparten saberes, símbolos y formas de convivencia de una comunidad.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              293,
+              296
+            ],
+            "sourcePagesLabel": "pp. 293-296",
+            "topicTitle": "Nuestra fiesta comunitaria como espacio de enseñanza, reconocimiento, recreación y disfrute",
+            "status": "confirmed",
+            "reason": "La fuente validada \"Nuestra fiesta comunitaria como espacio de enseñanza, reconocimiento, recreación y disfrute\" aporta base suficiente para trabajar fiesta comunitaria dentro del proyecto 3.",
+            "pedagogicalUse": "Ayuda a fortalecer narración festiva y a explicar las tradiciones comunitarias, sus elementos artísticos y lingüísticos y la diversidad cultural que expresan con mayor claridad mediante fiesta comunitaria.",
+            "activityReadiness": "usable-for-autoevaluation"
+          }
+        ],
+        "thinkingCriteria": [
+          "Relacionar las tradiciones comunitarias, sus elementos artísticos y lingüísticos y la diversidad cultural que expresan con situaciones cercanas a la comunidad.",
+          "Usar narración festiva para explicar y no solo para recopilar informacion.",
+          "Distinguir entre mencionar conceptos y comprender como dialogan entre si dentro del proyecto."
+        ],
+        "validationStatus": {
+          "readinessLevel": "development-partial",
+          "readyForActivities": false,
+          "needsReviewReasons": [
+            "El bloque 1 ya es usable como lectura docente, pero el video del PPA 1 y el recurso informatico siguen pendientes de validacion de destino final.",
+            "La asignacion de apoyos de Posibilidades se sostiene por inferencia curricular documentada y no por OCR perfectamente separado por columnas.",
+            "No mover a actividades interactivas ni desbloquear juegos completos hasta ampliar validacion de videos y recursos complementarios."
+          ]
+        },
+        "readinessLevel": "development-partial",
+        "readyForActivities": false,
+        "needsReviewReasons": [
+          "No mover a actividades interactivas ni desbloquear juegos completos."
+        ],
+        "roleInPpa": "Cierra el bloque al convertir las festividades y tradiciones del territorio en una narración compartida que dialogue con otras culturas.",
+        "pedagogicalUse": "Conviene trabajar ¡Y voy narrando lo que somos! como una oportunidad para profundizar en las tradiciones comunitarias, sus elementos artísticos y lingüísticos y la diversidad cultural que expresan sin separar contenido, comunidad y producto final.",
+        "teacherNotes": [
+          "Conviene partir de ejemplos cercanos y después pasar al lenguaje mas abstracto del campo.",
+          "El producto Narración festiva gana fuerza cuando se usa para explicar y no solo para exhibir informacion.",
+          "Es mejor seleccionar pocos conceptos bien comprendidos que saturar el trabajo con terminos aislados."
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Qué comprendes mejor sobre las tradiciones comunitarias, sus elementos artísticos y lingüísticos y la diversidad cultural que expresan después de elaborar narración festiva?"
+          },
+          {
+            "type": "community",
+            "prompt": "¿Qué diálogos comunitarios podrían fortalecerse si compartimos narración festiva y lo ponemos en conversación con otras personas?"
+          }
+        ],
+        "notReadyFor": [
+          "full-games",
+          "summative-exam"
+        ]
+      }
+    ]
+  },
+  "conceptsValidation": {
+    "grade": "2",
+    "field": "Lenguajes",
+    "ppaNumber": "1",
+    "status": "concept-validation",
+    "generatedAt": "2026-06-02T13:56:45.854Z",
+    "entries": [
+      {
+        "projectId": "lenguajes-2-ppa-1-pa1",
+        "projectTitle": "¡Nuestra diversidad lingüística comunica y significa!",
+        "concept": "esquema ilustrado",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Nuestro libro de proyectos Tomo I",
+          "pages": [
+            39,
+            43
+          ],
+          "reason": "Posibilidades y el propio proyecto fijan Esquema ilustrado como producto final del PA 1."
+        },
+        "pedagogicalUse": "Da una forma concreta de socializar lo comprendido sobre la diversidad lingüística, los recursos de la lengua española y la riqueza pluricultural del contexto nacional e internacional.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-2-ppa-1-pa1",
+        "projectTitle": "¡Nuestra diversidad lingüística comunica y significa!",
+        "concept": "diversidad del español mexicano",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            21
+          ],
+          "reason": "La fuente validada \"La diversidad del español mexicano\" aporta base suficiente para trabajar diversidad del español mexicano dentro del proyecto 1."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer esquema ilustrado y a explicar la diversidad lingüística, los recursos de la lengua española y la riqueza pluricultural del contexto nacional e internacional con mayor claridad mediante diversidad del español mexicano.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-2-ppa-1-pa1",
+        "projectTitle": "¡Nuestra diversidad lingüística comunica y significa!",
+        "concept": "diversidad lingüística",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            22,
+            26
+          ],
+          "reason": "La fuente validada \"La diversidad lingüística\" aporta base suficiente para trabajar diversidad lingüística dentro del proyecto 1."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer esquema ilustrado y a explicar la diversidad lingüística, los recursos de la lengua española y la riqueza pluricultural del contexto nacional e internacional con mayor claridad mediante diversidad lingüística.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-2-ppa-1-pa1",
+        "projectTitle": "¡Nuestra diversidad lingüística comunica y significa!",
+        "concept": "interacción lingüística",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            27,
+            28
+          ],
+          "reason": "La fuente validada \"La historieta como instrumento para representar la interacción lingüística\" aporta base suficiente para trabajar interacción lingüística dentro del proyecto 1."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer esquema ilustrado y a explicar la diversidad lingüística, los recursos de la lengua española y la riqueza pluricultural del contexto nacional e internacional con mayor claridad mediante interacción lingüística.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-2-ppa-1-pa1",
+        "projectTitle": "¡Nuestra diversidad lingüística comunica y significa!",
+        "concept": "recursos lingüísticos",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            22,
+            26
+          ],
+          "reason": "La fuente validada \"La diversidad lingüística\" aporta base suficiente para trabajar recursos lingüísticos dentro del proyecto 1."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer esquema ilustrado y a explicar la diversidad lingüística, los recursos de la lengua española y la riqueza pluricultural del contexto nacional e internacional con mayor claridad mediante recursos lingüísticos.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-2-ppa-1-pa2",
+        "projectTitle": "¡Expresémoslo en otro idioma!",
+        "concept": "breve exposición en distintas lenguas",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Nuestro libro de proyectos Tomo I",
+          "pages": [
+            44,
+            47
+          ],
+          "reason": "Posibilidades y el propio proyecto fijan Breve exposición en distintas lenguas como producto final del PA 2."
+        },
+        "pedagogicalUse": "Da una forma concreta de socializar lo comprendido sobre los actos comunicativos en lenguajes escritos, orales y gráficos para hacer visible la diversidad cultural.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-2-ppa-1-pa2",
+        "projectTitle": "¡Expresémoslo en otro idioma!",
+        "concept": "actos comunicativos",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            221,
+            224
+          ],
+          "reason": "La fuente validada \"El lenguaje a través de hablantes nativos y no nativos\" aporta base suficiente para trabajar actos comunicativos dentro del proyecto 2."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer breve exposición en distintas lenguas y a explicar los actos comunicativos en lenguajes escritos, orales y gráficos para hacer visible la diversidad cultural con mayor claridad mediante actos comunicativos.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-2-ppa-1-pa2",
+        "projectTitle": "¡Expresémoslo en otro idioma!",
+        "concept": "lenguajes escritos, orales y gráficos",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            221,
+            224
+          ],
+          "reason": "La fuente validada \"El lenguaje a través de hablantes nativos y no nativos\" aporta base suficiente para trabajar lenguajes escritos, orales y gráficos dentro del proyecto 2."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer breve exposición en distintas lenguas y a explicar los actos comunicativos en lenguajes escritos, orales y gráficos para hacer visible la diversidad cultural con mayor claridad mediante lenguajes escritos, orales y gráficos.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-2-ppa-1-pa2",
+        "projectTitle": "¡Expresémoslo en otro idioma!",
+        "concept": "recursos literarios",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            38,
+            41
+          ],
+          "reason": "La fuente validada \"Los recursos literarios como instrumentos para embellecer la lengua\" aporta base suficiente para trabajar recursos literarios dentro del proyecto 2."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer breve exposición en distintas lenguas y a explicar los actos comunicativos en lenguajes escritos, orales y gráficos para hacer visible la diversidad cultural con mayor claridad mediante recursos literarios.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-2-ppa-1-pa2",
+        "projectTitle": "¡Expresémoslo en otro idioma!",
+        "concept": "arte de la palabra",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            120,
+            126
+          ],
+          "reason": "La fuente validada \"La literatura y el arte de la palabra en las lenguas originarias de México\" aporta base suficiente para trabajar arte de la palabra dentro del proyecto 2."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer breve exposición en distintas lenguas y a explicar los actos comunicativos en lenguajes escritos, orales y gráficos para hacer visible la diversidad cultural con mayor claridad mediante arte de la palabra.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-2-ppa-1-pa2",
+        "projectTitle": "¡Expresémoslo en otro idioma!",
+        "concept": "lengua y cultura",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            221,
+            224
+          ],
+          "reason": "La fuente validada \"El lenguaje a través de hablantes nativos y no nativos\" aporta base suficiente para trabajar lengua y cultura dentro del proyecto 2."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer breve exposición en distintas lenguas y a explicar los actos comunicativos en lenguajes escritos, orales y gráficos para hacer visible la diversidad cultural con mayor claridad mediante lengua y cultura.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-2-ppa-1-pa3",
+        "projectTitle": "¡Y voy narrando lo que somos!",
+        "concept": "narración festiva",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Nuestro libro de proyectos Tomo I",
+          "pages": [
+            48,
+            52
+          ],
+          "reason": "Posibilidades y el propio proyecto fijan Narración festiva como producto final del PA 3."
+        },
+        "pedagogicalUse": "Da una forma concreta de socializar lo comprendido sobre las tradiciones comunitarias, sus elementos artísticos y lingüísticos y la diversidad cultural que expresan.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-2-ppa-1-pa3",
+        "projectTitle": "¡Y voy narrando lo que somos!",
+        "concept": "narración festiva",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            68,
+            73
+          ],
+          "reason": "La fuente validada \"Valoración de textos tradicionales y contemporáneos\" aporta base suficiente para trabajar narración festiva dentro del proyecto 3."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer narración festiva y a explicar las tradiciones comunitarias, sus elementos artísticos y lingüísticos y la diversidad cultural que expresan con mayor claridad mediante narración festiva.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-2-ppa-1-pa3",
+        "projectTitle": "¡Y voy narrando lo que somos!",
+        "concept": "diversidad cultural",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            192,
+            197
+          ],
+          "reason": "La fuente validada \"Rasgos identitarios y diálogos de los pueblos indígenas\" aporta base suficiente para trabajar diversidad cultural dentro del proyecto 3."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer narración festiva y a explicar las tradiciones comunitarias, sus elementos artísticos y lingüísticos y la diversidad cultural que expresan con mayor claridad mediante diversidad cultural.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-2-ppa-1-pa3",
+        "projectTitle": "¡Y voy narrando lo que somos!",
+        "concept": "prácticas culturales y ceremoniales",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            186,
+            191
+          ],
+          "reason": "La fuente validada \"Prácticas culturales y ceremoniales de los pueblos indígenas\" aporta base suficiente para trabajar prácticas culturales y ceremoniales dentro del proyecto 3."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer narración festiva y a explicar las tradiciones comunitarias, sus elementos artísticos y lingüísticos y la diversidad cultural que expresan con mayor claridad mediante prácticas culturales y ceremoniales.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-2-ppa-1-pa3",
+        "projectTitle": "¡Y voy narrando lo que somos!",
+        "concept": "rasgos identitarios",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            192,
+            197
+          ],
+          "reason": "La fuente validada \"Rasgos identitarios y diálogos de los pueblos indígenas\" aporta base suficiente para trabajar rasgos identitarios dentro del proyecto 3."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer narración festiva y a explicar las tradiciones comunitarias, sus elementos artísticos y lingüísticos y la diversidad cultural que expresan con mayor claridad mediante rasgos identitarios.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-2-ppa-1-pa3",
+        "projectTitle": "¡Y voy narrando lo que somos!",
+        "concept": "fiesta comunitaria",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            293,
+            296
+          ],
+          "reason": "La fuente validada \"Nuestra fiesta comunitaria como espacio de enseñanza, reconocimiento, recreación y disfrute\" aporta base suficiente para trabajar fiesta comunitaria dentro del proyecto 3."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer narración festiva y a explicar las tradiciones comunitarias, sus elementos artísticos y lingüísticos y la diversidad cultural que expresan con mayor claridad mediante fiesta comunitaria.",
+        "activityReadiness": "usable-for-autoevaluation"
+      }
+    ]
+  },
+  "pedagogicalArticulation": {
+    "grade": "2",
+    "field": "Lenguajes",
+    "ppaNumber": "1",
+    "status": "teacher-orientation",
+    "officialHorizonStatus": "pending",
+    "situatedPedagogicalOrientation": "El PPA 1 pone en relación la diversidad lingüística, la exposición en distintas lenguas y la narración festiva para que el grupo reconozca que la comunicación de una comunidad también se sostiene en sus imágenes, tradiciones, relatos y modos de hablar.",
+    "integratingQuestions": [
+      "Como dialogan esquema ilustrado, breve exposición en distintas lenguas, narración festiva dentro del mismo PPA 1?",
+      "Que cambia en la comprension de la diversidad lingüística y artística como forma de comunicación comunitaria cuando el grupo pone en relacion conceptos, producto y comunidad?",
+      "Como convertir el producto final en una herramienta de explicacion y no solo de presentacion?"
+    ],
+    "projectConnections": [
+      {
+        "projectId": "lenguajes-2-ppa-1-pa1",
+        "projectTitle": "¡Nuestra diversidad lingüística comunica y significa!",
+        "roleInPpa": "Abre el bloque al reconocer que la diversidad lingüística puede investigarse, organizarse y comunicarse con apoyos visuales claros.",
+        "confirmedConcepts": [
+          "esquema ilustrado",
+          "diversidad del español mexicano",
+          "diversidad lingüística",
+          "interacción lingüística",
+          "recursos lingüísticos"
+        ],
+        "suggestedConcepts": [],
+        "pedagogicalUse": "Conviene trabajar ¡Nuestra diversidad lingüística comunica y significa! como una oportunidad para profundizar en la diversidad lingüística, los recursos de la lengua española y la riqueza pluricultural del contexto nacional e internacional sin separar contenido, comunidad y producto final."
+      },
+      {
+        "projectId": "lenguajes-2-ppa-1-pa2",
+        "projectTitle": "¡Expresémoslo en otro idioma!",
+        "roleInPpa": "Profundiza el bloque al comparar lenguas, traducciones y actos comunicativos para preparar una exposición breve con sentido intercultural.",
+        "confirmedConcepts": [
+          "breve exposición en distintas lenguas",
+          "actos comunicativos",
+          "lenguajes escritos, orales y gráficos",
+          "recursos literarios",
+          "arte de la palabra",
+          "lengua y cultura"
+        ],
+        "suggestedConcepts": [],
+        "pedagogicalUse": "Conviene trabajar ¡Expresémoslo en otro idioma! como una oportunidad para profundizar en los actos comunicativos en lenguajes escritos, orales y gráficos para hacer visible la diversidad cultural sin separar contenido, comunidad y producto final."
+      },
+      {
+        "projectId": "lenguajes-2-ppa-1-pa3",
+        "projectTitle": "¡Y voy narrando lo que somos!",
+        "roleInPpa": "Cierra el bloque al convertir las festividades y tradiciones del territorio en una narración compartida que dialogue con otras culturas.",
+        "confirmedConcepts": [
+          "narración festiva",
+          "narración festiva",
+          "diversidad cultural",
+          "prácticas culturales y ceremoniales",
+          "rasgos identitarios",
+          "fiesta comunitaria"
+        ],
+        "suggestedConcepts": [],
+        "pedagogicalUse": "Conviene trabajar ¡Y voy narrando lo que somos! como una oportunidad para profundizar en las tradiciones comunitarias, sus elementos artísticos y lingüísticos y la diversidad cultural que expresan sin separar contenido, comunidad y producto final."
+      }
+    ],
+    "criteriaOfThought": [
+      {
+        "criterion": "Relacionar la diversidad lingüística y artística como forma de comunicación comunitaria con experiencias concretas del entorno.",
+        "status": "suggested"
+      },
+      {
+        "criterion": "Usar el producto final para comunicar con claridad, no solo para acumular definiciones.",
+        "status": "suggested"
+      }
+    ],
+    "possibleResonanceQuestion": "¿Qué comprensiones nuevas sobre la diversidad lingüística y artística como forma de comunicación comunitaria se vuelven visibles cuando el grupo comparte los productos del PPA 1?",
+    "teacherNotes": [
+      "No reducir el PPA 1 a tres productos aislados; el bloque construye una misma conversacion curricular.",
+      "Las paginas de Posibilidades forman un mismo bloque y los apoyos por columna se documentan por inferencia curricular situada.",
+      "Los enlaces cortos del video detonador y del recurso informatico se mantienen en cautela y no deben tratarse como recursos ya validados.",
+      "Conviene no separar lengua, cultura y fiesta comunitaria; el bloque construye una sola conversación sobre comunicación e identidad.",
+      "Las producciones del PPA 1 funcionan mejor si se leen como tres maneras distintas de hacer visible la diversidad del territorio."
+    ],
+    "notReadyFor": [
+      "actividades interactivas",
+      "full-games",
+      "summative-exam"
+    ]
+  },
+  "teacherNotesAndResonances": {
+    "grade": "2",
+    "field": "Lenguajes",
+    "ppaNumber": "1",
+    "status": "teacher-orientation",
+    "officialHorizonStatus": "pending",
+    "ppaIntegratingResonance": "¿Qué comprensiones nuevas sobre la diversidad lingüística y artística como forma de comunicación comunitaria se vuelven visibles cuando el grupo comparte los productos del PPA 1?",
+    "didacticWarnings": [
+      "No convertir el bloque en una lista de definiciones; importa relacionar conceptos con producto, comunidad y dialogo.",
+      "Los enlaces cortos bit.ly/3VfglUk y bit.ly/3WQBMwg se mantienen como cautela y no deben tratarse como recursos ya validados.",
+      "La distribucion de apoyos por columna se fija por inferencia curricular documentada a partir de Posibilidades."
+    ],
+    "communityPrompts": {
+      "communityKnowledge": [
+        "Que saberes de la comunidad ayudan a profundizar en la diversidad lingüística y artística como forma de comunicación comunitaria?",
+        "Que ejemplos cercanos permiten que los conceptos del campo se vuelvan mas claros para el grupo?"
+      ],
+      "families": [
+        "Que experiencias, relatos o practicas familiares pueden enriquecer el proyecto sin desplazar su foco academico?",
+        "Que aprendizajes vale la pena compartir con otras generaciones a partir del producto final?"
+      ],
+      "territoryLanguageMemory": [
+        "Que palabras, lugares o memorias ayudan a nombrar mejor lo que el proyecto esta buscando comprender?",
+        "Como pueden circular estos productos dentro de la comunidad escolar sin perder precision ni sentido?"
+      ],
+      "productCommunityConnection": [
+        "Como podria circular esquema ilustrado, breve exposición en distintas lenguas, narración festiva para fortalecer el dialogo comunitario?"
+      ]
+    },
+    "suggestedThinkingCriteria": [
+      "Relacionar la diversidad lingüística y artística como forma de comunicación comunitaria con problemas, experiencias y preguntas del entorno cercano.",
+      "Valorar el producto final como herramienta de comprension y comunicacion compartida."
+    ],
+    "projects": [
+      {
+        "projectId": "lenguajes-2-ppa-1-pa1",
+        "projectTitle": "¡Nuestra diversidad lingüística comunica y significa!",
+        "teacherNotes": [
+          "Conviene partir de ejemplos cercanos y después pasar al lenguaje mas abstracto del campo.",
+          "El producto Esquema ilustrado gana fuerza cuando se usa para explicar y no solo para exhibir informacion.",
+          "Es mejor seleccionar pocos conceptos bien comprendidos que saturar el trabajo con terminos aislados."
+        ],
+        "confirmedConceptsToUse": [
+          "esquema ilustrado",
+          "diversidad del español mexicano",
+          "diversidad lingüística",
+          "interacción lingüística",
+          "recursos lingüísticos"
+        ],
+        "suggestedConceptsToHandleCarefully": [],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Qué comprendes mejor sobre la diversidad lingüística, los recursos de la lengua española y la riqueza pluricultural del contexto nacional e internacional después de elaborar esquema ilustrado?"
+          },
+          {
+            "type": "community",
+            "prompt": "¿Qué diálogos comunitarios podrían fortalecerse si compartimos esquema ilustrado y lo ponemos en conversación con otras personas?"
+          }
+        ],
+        "notReadyFor": [
+          "full-games",
+          "summative-exam"
+        ]
+      },
+      {
+        "projectId": "lenguajes-2-ppa-1-pa2",
+        "projectTitle": "¡Expresémoslo en otro idioma!",
+        "teacherNotes": [
+          "Conviene partir de ejemplos cercanos y después pasar al lenguaje mas abstracto del campo.",
+          "El producto Breve exposición en distintas lenguas gana fuerza cuando se usa para explicar y no solo para exhibir informacion.",
+          "Es mejor seleccionar pocos conceptos bien comprendidos que saturar el trabajo con terminos aislados."
+        ],
+        "confirmedConceptsToUse": [
+          "breve exposición en distintas lenguas",
+          "actos comunicativos",
+          "lenguajes escritos, orales y gráficos",
+          "recursos literarios",
+          "arte de la palabra",
+          "lengua y cultura"
+        ],
+        "suggestedConceptsToHandleCarefully": [],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Qué comprendes mejor sobre los actos comunicativos en lenguajes escritos, orales y gráficos para hacer visible la diversidad cultural después de elaborar breve exposición en distintas lenguas?"
+          },
+          {
+            "type": "community",
+            "prompt": "¿Qué diálogos comunitarios podrían fortalecerse si compartimos breve exposición en distintas lenguas y lo ponemos en conversación con otras personas?"
+          }
+        ],
+        "notReadyFor": [
+          "full-games",
+          "summative-exam"
+        ]
+      },
+      {
+        "projectId": "lenguajes-2-ppa-1-pa3",
+        "projectTitle": "¡Y voy narrando lo que somos!",
+        "teacherNotes": [
+          "Conviene partir de ejemplos cercanos y después pasar al lenguaje mas abstracto del campo.",
+          "El producto Narración festiva gana fuerza cuando se usa para explicar y no solo para exhibir informacion.",
+          "Es mejor seleccionar pocos conceptos bien comprendidos que saturar el trabajo con terminos aislados."
+        ],
+        "confirmedConceptsToUse": [
+          "narración festiva",
+          "narración festiva",
+          "diversidad cultural",
+          "prácticas culturales y ceremoniales",
+          "rasgos identitarios",
+          "fiesta comunitaria"
+        ],
+        "suggestedConceptsToHandleCarefully": [],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Qué comprendes mejor sobre las tradiciones comunitarias, sus elementos artísticos y lingüísticos y la diversidad cultural que expresan después de elaborar narración festiva?"
+          },
+          {
+            "type": "community",
+            "prompt": "¿Qué diálogos comunitarios podrían fortalecerse si compartimos narración festiva y lo ponemos en conversación con otras personas?"
+          }
+        ],
+        "notReadyFor": [
+          "full-games",
+          "summative-exam"
+        ]
+      }
+    ]
+  },
+  "validationAudit": {
+    "kind": "fine-validation-audit",
+    "source": "reports/caracoles/grade2-lenguajes-ppa1-reading-bundle-audit.md",
+    "content": "# Auditoria de lectura docente\n\n## Alcance\n\n- Campo: 2o Lenguajes\n- Bloque: PPA 1\n- Titulo del PPA: ¡Nos comunicamos en la riqueza de la diversidad!\n- Proyectos: PA1-PA3\n\n## Proyectos validados\n\n1. ¡Nuestra diversidad lingüística comunica y significa!\n   - Producto final: Esquema ilustrado\n   - Paginas: Nuestro libro de proyectos Tomo I pp. 39-43\n2. ¡Expresémoslo en otro idioma!\n   - Producto final: Breve exposición en distintas lenguas\n   - Paginas: Nuestro libro de proyectos Tomo I pp. 44-47\n3. ¡Y voy narrando lo que somos!\n   - Producto final: Narración festiva\n   - Paginas: Nuestro libro de proyectos Tomo I pp. 48-52\n\n## Evidencia base usada\n\n- Posibilidades de uso Lenguajes pp. 6-7.\n- Nuestro libro de proyectos Tomo I pp. 37-52.\n- Lenguajes, segundo grado, pp. 21-28, 37-41, 68-73, 120-126, 179-197, 221-224 y 293-296; Múltiples Lenguajes pp. 10-13, 46-49 y 116-119..\n\n## Decisiones curriculares del bloque\n\n- El horizonte comun del PPA 1 se mantiene en estado pendiente como formula unica; se privilegia una orientacion pedagogica situada y documentada.\n- Los productos finales quedan confirmados desde Posibilidades y la secuencia del propio proyecto.\n- Los conceptos confirmados se normalizan para sostener lectura docente, autoevaluacion y actividades de relacion de columnas.\n- La resonancia se formula como pregunta abierta para reforzar el sentido formativo del bloque.\n\n## Cautelas reales\n\n- El video detonador del PPA 1 y el recurso informatico del bloque siguen sin URL oficial confirmada.\n- La asignacion de apoyos por columna se sostiene por inferencia curricular documentada, no por OCR limpio de tabla.\n- No se marca el bloque como actividades interactivas ni se desbloquean juegos completos.\n"
+  }
+}

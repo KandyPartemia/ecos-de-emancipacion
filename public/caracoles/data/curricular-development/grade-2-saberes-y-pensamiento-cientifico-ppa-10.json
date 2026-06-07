@@ -1,0 +1,1255 @@
+{
+  "grade": "2",
+  "gradeLabel": "Segundo grado",
+  "field": "Saberes y Pensamiento Científico",
+  "ppaNumber": "10",
+  "partialClassroomProject": "PPA 10",
+  "partialClassroomProjectTitle": "Algo le pasa al clima",
+  "source": "curricular-development-pilot",
+  "generatedAt": "2026-06-04T15:51:06.823Z",
+  "development": {
+    "grade": "2",
+    "gradeLabel": "Segundo grado",
+    "field": "Saberes y Pensamiento Científico",
+    "bookVolume": "Tomo II",
+    "partialClassroomProject": "PPA 10",
+    "partialClassroomProjectTitle": "Algo le pasa al clima",
+    "generatedAt": "2026-06-02T18:31:04.730Z",
+    "notes": "Capa curricular generada por lote para 2o Saberes y Pensamiento Científico, PPA 10.",
+    "sourcesUsed": [
+      "public/caracoles/data/generated/grade-2/selectable-projects.json",
+      "content/caracoles/generated-private/grade-2/pages-index.full.json",
+      "Posibilidades de uso SyPC, segundo grado, pp. 25-26",
+      "Nuestro libro de proyectos Tomo II, segundo grado, pp. 141-155",
+      "Saberes y Pensamiento Científico, segundo grado, pp. 80-102, 121-125, 169-176, 204-207, 222-225 y 257-260."
+    ],
+    "partialClassroomProjectContext": {
+      "expectationHorizon": {
+        "officialText": "",
+        "sourcePages": [
+          "Nuestro libro de proyectos Tomo II pp. 141-142",
+          "Posibilidades de uso SyPC pp. 25-26"
+        ],
+        "evidence": "El PPA 10 relaciona análisis de datos, atmósfera y cambio climático para que el grupo reconozca causas, consecuencias y posibles respuestas comunitarias frente al problema climático.",
+        "status": "pending"
+      },
+      "ppaDetonatingStrategy": {
+        "title": "Algo le pasa al clima",
+        "type": "video",
+        "url": "",
+        "urlStatus": "pending-url",
+        "reference": "bit.ly/3VfglUk",
+        "source": "Nuestro libro de proyectos Tomo II pp. 141-142 + Posibilidades de uso SyPC pp. 25-26",
+        "scope": "partial-classroom-project",
+        "youtubeSearchQuery": "Algo le pasa al clima Saberes y Pensamiento Científico 2do grado Telesecundaria"
+      },
+      "ppaDigitalResource": {
+        "title": "Recurso informatico del bloque PPA 10",
+        "reference": "bit.ly/3WQBMwg",
+        "status": "pending-validation",
+        "source": "Nuestro libro de proyectos Tomo II pp. 141-155"
+      },
+      "validationStatus": {
+        "needsHumanReview": true,
+        "needsReviewReasons": [
+          "Las pp. 25-26 de Posibilidades pertenecen al mismo PPA 10.",
+          "La asignacion de apoyos por columna se fija por inferencia curricular documentada de izquierda a derecha.",
+          "Los enlaces cortos del video del PPA y del recurso informatico se mantienen en cautela hasta localizar un destino oficial confirmado."
+        ]
+      },
+      "columnValidation": {
+        "possibilitiesPagesReviewed": [
+          25,
+          26
+        ],
+        "confirmedAsPpa": true,
+        "note": "Las pp. 25-26 corresponden al PPA 10 Algo le pasa al clima. Las tres columnas se sostienen por el orden de proyectos, productos y apoyos del mismo bloque.",
+        "columns": [
+          {
+            "columnIndex": 1,
+            "projectId": "saberes-y-pensamiento-cientifico-2-ppa-10-pa28",
+            "projectTitle": "La humanidad y la temperatura en la que vive",
+            "finalProduct": "Conferencia específica sobre el calentamiento global",
+            "supportMaterials": []
+          },
+          {
+            "columnIndex": 2,
+            "projectId": "saberes-y-pensamiento-cientifico-2-ppa-10-pa29",
+            "projectTitle": "El antes y el ahora de los gases de la atmósfera",
+            "finalProduct": "Mapas del efecto invernadero",
+            "supportMaterials": []
+          },
+          {
+            "columnIndex": 3,
+            "projectId": "saberes-y-pensamiento-cientifico-2-ppa-10-pa30",
+            "projectTitle": "Lo que respiramos",
+            "finalProduct": "Debate breve",
+            "supportMaterials": []
+          }
+        ]
+      }
+    },
+    "academicProjects": [
+      {
+        "id": "saberes-y-pensamiento-cientifico-2-ppa-10-pa28",
+        "projectId": "saberes-y-pensamiento-cientifico-2-ppa-10-pa28",
+        "academicProjectNumber": 28,
+        "title": "La humanidad y la temperatura en la que vive",
+        "projectTitle": "La humanidad y la temperatura en la que vive",
+        "grade": "2",
+        "field": "Saberes y Pensamiento Científico",
+        "ppaNumber": "10",
+        "partialClassroomProject": "PPA 10",
+        "partialClassroomProjectTitle": "Algo le pasa al clima",
+        "bookVolume": "Tomo II",
+        "sourceValidation": {
+          "sourceStatus": "linked",
+          "possibilitiesPages": [
+            25,
+            26
+          ],
+          "possibilitiesMaterialId": "grade-2-posibilidades-pos-sypc-2",
+          "possibilitiesColumnIndex": 1,
+          "columnEvidence": "Bloque PPA 10 Algo le pasa al clima localizado en pp. 25-26; la columna 1 se confirma por el orden de proyectos, productos y continuidad del mismo bloque."
+        },
+        "finalProduct": {
+          "title": "Conferencia específica sobre el calentamiento global",
+          "source": "Posibilidades de uso SyPC pp. 25-26 + Nuestro libro de proyectos Tomo II pp. 143-146",
+          "status": "confirmed"
+        },
+        "sourcePages": {
+          "nuestroLibroProyectos": [
+            {
+              "materialId": "grade-2-proyectos-nuestro-libro-de-proyectos-tomo-2-segundo-grado",
+              "label": "Nuestro libro de proyectos Tomo II",
+              "startPage": 143,
+              "endPage": 146,
+              "pagesLabel": "pp. 143-146",
+              "topicTitle": "Proyecto academico 28",
+              "status": "confirmed-source"
+            }
+          ],
+          "conceptBook": [
+            {
+              "materialId": "grade-2-conceptos-saberes-y-pensamiento-cientifico-segundo-grado",
+              "label": "Saberes y Pensamiento Científico",
+              "startPage": 80,
+              "endPage": 84,
+              "pagesLabel": "pp. 80-84",
+              "topicTitle": "Recolección, registro, análisis y comunicación de datos",
+              "status": "confirmed-by-column-inference"
+            },
+            {
+              "materialId": "grade-2-conceptos-saberes-y-pensamiento-cientifico-segundo-grado",
+              "label": "Saberes y Pensamiento Científico",
+              "startPage": 169,
+              "endPage": 176,
+              "pagesLabel": "pp. 169-176",
+              "topicTitle": "Efecto invernadero",
+              "status": "confirmed-by-column-inference"
+            },
+            {
+              "materialId": "grade-2-conceptos-saberes-y-pensamiento-cientifico-segundo-grado",
+              "label": "Saberes y Pensamiento Científico",
+              "startPage": 204,
+              "endPage": 207,
+              "pagesLabel": "pp. 204-207",
+              "topicTitle": "Fenómenos meteorológicos extremos",
+              "status": "confirmed-by-column-inference"
+            }
+          ],
+          "multiplesLenguajes": [],
+          "otherMaterials": [
+            {
+              "label": "Video PA 28: Campaña solar • Saberes y pensamiento científico• 2do grado",
+              "reference": "https://www.youtube.com/watch?v=-I7e1tjMLmU",
+              "status": "confirmed"
+            },
+            {
+              "label": "Video PPA 10: 10. Algo le pasa al clima • Saberes y pensamiento científico• 2do grado",
+              "reference": "https://www.youtube.com/watch?v=ZrtFce56_Kc",
+              "status": "confirmed"
+            }
+          ]
+        },
+        "supportMaterials": [],
+        "horizonOrPurpose": {
+          "status": "pending",
+          "text": "",
+          "source": "Nuestro libro de proyectos Tomo II p. 143"
+        },
+        "projectExpectationHorizon": {
+          "officialText": "",
+          "studentVersion": "",
+          "sourcePages": [
+            "Nuestro libro de proyectos Tomo II p. 143"
+          ],
+          "evidence": "El proyecto ya cuenta con producto, conceptos y articulacion pedagogica, pero el horizonte textual exacto sigue pendiente de confirmacion literal.",
+          "status": "pending"
+        },
+        "detonatingStrategy": {
+          "title": "10. Algo le pasa al clima • Saberes y pensamiento científico• 2do grado",
+          "text": "Video del Proyecto Parcial de Aula 10: 10. Algo le pasa al clima • Saberes y pensamiento científico• 2do grado",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=ZrtFce56_Kc",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "partial-classroom-project"
+        },
+        "academicProjectStrategy": {
+          "title": "Campaña solar • Saberes y pensamiento científico• 2do grado",
+          "text": "Video detonador del Proyecto Academico 28: La humanidad y la temperatura en la que vive",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=-I7e1tjMLmU",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "academic-project"
+        },
+        "academicConcepts": [
+          {
+            "concept": "conferencia específica sobre el calentamiento global",
+            "description": "Conferencia específica sobre el calentamiento global como producto de cierre para organizar y comunicar aprendizajes del proyecto.",
+            "sourceBook": "Nuestro libro de proyectos Tomo II",
+            "sourcePages": [
+              143,
+              146
+            ],
+            "sourcePagesLabel": "pp. 143-146",
+            "topicTitle": "Proyecto academico 28",
+            "status": "confirmed",
+            "reason": "Posibilidades y el propio proyecto fijan Conferencia específica sobre el calentamiento global como producto final del PA 28.",
+            "pedagogicalUse": "Da una forma concreta de socializar lo comprendido sobre los cambios de temperatura, el efecto invernadero y los fenómenos meteorológicos extremos como parte del problema climático actual.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "calentamiento global",
+            "description": "Calentamiento global es una idea clave para comprender los cambios de temperatura, el efecto invernadero y los fenómenos meteorológicos extremos como parte del problema climático actual.",
+            "sourceBook": "Saberes y Pensamiento Científico",
+            "sourcePages": [
+              169,
+              176
+            ],
+            "sourcePagesLabel": "pp. 169-176",
+            "topicTitle": "Efecto invernadero",
+            "status": "confirmed",
+            "reason": "La fuente validada \"Efecto invernadero\" aporta base suficiente para trabajar calentamiento global dentro del proyecto 28.",
+            "pedagogicalUse": "Ayuda a fortalecer conferencia específica sobre el calentamiento global y a explicar los cambios de temperatura, el efecto invernadero y los fenómenos meteorológicos extremos como parte del problema climático actual con mayor claridad mediante calentamiento global.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "efecto invernadero",
+            "description": "Efecto invernadero es una idea clave para comprender los cambios de temperatura, el efecto invernadero y los fenómenos meteorológicos extremos como parte del problema climático actual.",
+            "sourceBook": "Saberes y Pensamiento Científico",
+            "sourcePages": [
+              169,
+              176
+            ],
+            "sourcePagesLabel": "pp. 169-176",
+            "topicTitle": "Efecto invernadero",
+            "status": "confirmed",
+            "reason": "La fuente validada \"Efecto invernadero\" aporta base suficiente para trabajar efecto invernadero dentro del proyecto 28.",
+            "pedagogicalUse": "Ayuda a fortalecer conferencia específica sobre el calentamiento global y a explicar los cambios de temperatura, el efecto invernadero y los fenómenos meteorológicos extremos como parte del problema climático actual con mayor claridad mediante efecto invernadero.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "fenómenos meteorológicos extremos",
+            "description": "Fenómenos meteorológicos extremos es una idea clave para comprender los cambios de temperatura, el efecto invernadero y los fenómenos meteorológicos extremos como parte del problema climático actual.",
+            "sourceBook": "Saberes y Pensamiento Científico",
+            "sourcePages": [
+              204,
+              207
+            ],
+            "sourcePagesLabel": "pp. 204-207",
+            "topicTitle": "Fenómenos meteorológicos extremos",
+            "status": "confirmed",
+            "reason": "La fuente validada \"Fenómenos meteorológicos extremos\" aporta base suficiente para trabajar fenómenos meteorológicos extremos dentro del proyecto 28.",
+            "pedagogicalUse": "Ayuda a fortalecer conferencia específica sobre el calentamiento global y a explicar los cambios de temperatura, el efecto invernadero y los fenómenos meteorológicos extremos como parte del problema climático actual con mayor claridad mediante fenómenos meteorológicos extremos.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "análisis de datos",
+            "description": "Análisis de datos es una idea clave para comprender los cambios de temperatura, el efecto invernadero y los fenómenos meteorológicos extremos como parte del problema climático actual.",
+            "sourceBook": "Saberes y Pensamiento Científico",
+            "sourcePages": [
+              80,
+              84
+            ],
+            "sourcePagesLabel": "pp. 80-84",
+            "topicTitle": "Recolección, registro, análisis y comunicación de datos",
+            "status": "confirmed",
+            "reason": "La fuente validada \"Recolección, registro, análisis y comunicación de datos\" aporta base suficiente para trabajar análisis de datos dentro del proyecto 28.",
+            "pedagogicalUse": "Ayuda a fortalecer conferencia específica sobre el calentamiento global y a explicar los cambios de temperatura, el efecto invernadero y los fenómenos meteorológicos extremos como parte del problema climático actual con mayor claridad mediante análisis de datos.",
+            "activityReadiness": "usable-for-autoevaluation"
+          }
+        ],
+        "thinkingCriteria": [
+          "Relacionar datos y fenómenos sin caer en afirmaciones vagas.",
+          "Conectar el problema global con experiencias locales del clima.",
+          "Usar la conferencia para explicar causas y no sólo consecuencias."
+        ],
+        "validationStatus": {
+          "readinessLevel": "development-partial",
+          "readyForActivities": false,
+          "needsReviewReasons": [
+            "El bloque 10 ya es usable como lectura docente, pero el video del PPA 10 y el recurso informatico siguen pendientes de validacion de destino final.",
+            "La asignacion de apoyos de Posibilidades se sostiene por inferencia curricular documentada y no por OCR perfectamente separado por columnas.",
+            "No mover a actividades interactivas ni desbloquear juegos completos hasta ampliar validacion de videos y recursos complementarios."
+          ]
+        },
+        "readinessLevel": "development-partial",
+        "readyForActivities": false,
+        "needsReviewReasons": [
+          "No mover a actividades interactivas ni desbloquear juegos completos."
+        ],
+        "roleInPpa": "Abre el bloque al reunir datos y explicaciones para comunicar el calentamiento global a otras personas.",
+        "pedagogicalUse": "Conviene trabajar La humanidad y la temperatura en la que vive como una oportunidad para profundizar en los cambios de temperatura, el efecto invernadero y los fenómenos meteorológicos extremos como parte del problema climático actual sin separar contenido, comunidad y producto final.",
+        "teacherNotes": [
+          "Conviene partir de ejemplos cercanos y después pasar al lenguaje mas abstracto del campo.",
+          "El producto Conferencia específica sobre el calentamiento global gana fuerza cuando se usa para explicar y no solo para exhibir informacion.",
+          "Es mejor seleccionar pocos conceptos bien comprendidos que saturar el trabajo con terminos aislados."
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Qué comprendes mejor sobre los cambios de temperatura, el efecto invernadero y los fenómenos meteorológicos extremos como parte del problema climático actual después de elaborar conferencia específica sobre el calentamiento global?"
+          },
+          {
+            "type": "community",
+            "prompt": "¿Qué cambios del clima se perciben ya en la comunidad y cómo pueden ponerse en diálogo con la evidencia científica?"
+          }
+        ],
+        "notReadyFor": [
+          "full-games",
+          "summative-exam"
+        ]
+      },
+      {
+        "id": "saberes-y-pensamiento-cientifico-2-ppa-10-pa29",
+        "projectId": "saberes-y-pensamiento-cientifico-2-ppa-10-pa29",
+        "academicProjectNumber": 29,
+        "title": "El antes y el ahora de los gases de la atmósfera",
+        "projectTitle": "El antes y el ahora de los gases de la atmósfera",
+        "grade": "2",
+        "field": "Saberes y Pensamiento Científico",
+        "ppaNumber": "10",
+        "partialClassroomProject": "PPA 10",
+        "partialClassroomProjectTitle": "Algo le pasa al clima",
+        "bookVolume": "Tomo II",
+        "sourceValidation": {
+          "sourceStatus": "linked",
+          "possibilitiesPages": [
+            25,
+            26
+          ],
+          "possibilitiesMaterialId": "grade-2-posibilidades-pos-sypc-2",
+          "possibilitiesColumnIndex": 2,
+          "columnEvidence": "Bloque PPA 10 Algo le pasa al clima localizado en pp. 25-26; la columna 2 se confirma por el orden de proyectos, productos y continuidad del mismo bloque."
+        },
+        "finalProduct": {
+          "title": "Mapas del efecto invernadero",
+          "source": "Posibilidades de uso SyPC pp. 25-26 + Nuestro libro de proyectos Tomo II pp. 147-150",
+          "status": "confirmed"
+        },
+        "sourcePages": {
+          "nuestroLibroProyectos": [
+            {
+              "materialId": "grade-2-proyectos-nuestro-libro-de-proyectos-tomo-2-segundo-grado",
+              "label": "Nuestro libro de proyectos Tomo II",
+              "startPage": 147,
+              "endPage": 150,
+              "pagesLabel": "pp. 147-150",
+              "topicTitle": "Proyecto academico 29",
+              "status": "confirmed-source"
+            }
+          ],
+          "conceptBook": [
+            {
+              "materialId": "grade-2-conceptos-saberes-y-pensamiento-cientifico-segundo-grado",
+              "label": "Saberes y Pensamiento Científico",
+              "startPage": 80,
+              "endPage": 84,
+              "pagesLabel": "pp. 80-84",
+              "topicTitle": "Recolección, registro, análisis y comunicación de datos",
+              "status": "confirmed-by-column-inference"
+            },
+            {
+              "materialId": "grade-2-conceptos-saberes-y-pensamiento-cientifico-segundo-grado",
+              "label": "Saberes y Pensamiento Científico",
+              "startPage": 85,
+              "endPage": 91,
+              "pagesLabel": "pp. 85-91",
+              "topicTitle": "Medidas de tendencia central y de dispersión",
+              "status": "confirmed-by-column-inference"
+            },
+            {
+              "materialId": "grade-2-conceptos-saberes-y-pensamiento-cientifico-segundo-grado",
+              "label": "Saberes y Pensamiento Científico",
+              "startPage": 121,
+              "endPage": 125,
+              "pagesLabel": "pp. 121-125",
+              "topicTitle": "Cambio climático",
+              "status": "confirmed-by-column-inference"
+            }
+          ],
+          "multiplesLenguajes": [],
+          "otherMaterials": [
+            {
+              "label": "Video PA 29: Revista científica • Saberes y pensamiento científico • 2do grado",
+              "reference": "https://www.youtube.com/watch?v=j--4UVrmFR8",
+              "status": "confirmed"
+            },
+            {
+              "label": "Video PPA 10: 10. Algo le pasa al clima • Saberes y pensamiento científico• 2do grado",
+              "reference": "https://www.youtube.com/watch?v=ZrtFce56_Kc",
+              "status": "confirmed"
+            }
+          ]
+        },
+        "supportMaterials": [],
+        "horizonOrPurpose": {
+          "status": "pending",
+          "text": "",
+          "source": "Nuestro libro de proyectos Tomo II p. 147"
+        },
+        "projectExpectationHorizon": {
+          "officialText": "",
+          "studentVersion": "",
+          "sourcePages": [
+            "Nuestro libro de proyectos Tomo II p. 147"
+          ],
+          "evidence": "El proyecto ya cuenta con producto, conceptos y articulacion pedagogica, pero el horizonte textual exacto sigue pendiente de confirmacion literal.",
+          "status": "pending"
+        },
+        "detonatingStrategy": {
+          "title": "10. Algo le pasa al clima • Saberes y pensamiento científico• 2do grado",
+          "text": "Video del Proyecto Parcial de Aula 10: 10. Algo le pasa al clima • Saberes y pensamiento científico• 2do grado",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=ZrtFce56_Kc",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "partial-classroom-project"
+        },
+        "academicProjectStrategy": {
+          "title": "Revista científica • Saberes y pensamiento científico • 2do grado",
+          "text": "Video detonador del Proyecto Academico 29: El antes y el ahora de los gases de la atmósfera",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=j--4UVrmFR8",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "academic-project"
+        },
+        "academicConcepts": [
+          {
+            "concept": "mapas del efecto invernadero",
+            "description": "Mapas del efecto invernadero como producto de cierre para organizar y comunicar aprendizajes del proyecto.",
+            "sourceBook": "Nuestro libro de proyectos Tomo II",
+            "sourcePages": [
+              147,
+              150
+            ],
+            "sourcePagesLabel": "pp. 147-150",
+            "topicTitle": "Proyecto academico 29",
+            "status": "confirmed",
+            "reason": "Posibilidades y el propio proyecto fijan Mapas del efecto invernadero como producto final del PA 29.",
+            "pedagogicalUse": "Da una forma concreta de socializar lo comprendido sobre la lectura de datos sobre gases atmosféricos y cambio climático para comparar escenarios y visualizar el efecto invernadero.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "gases de la atmósfera",
+            "description": "Gases de la atmósfera es una idea clave para comprender la lectura de datos sobre gases atmosféricos y cambio climático para comparar escenarios y visualizar el efecto invernadero.",
+            "sourceBook": "Saberes y Pensamiento Científico",
+            "sourcePages": [
+              121,
+              125
+            ],
+            "sourcePagesLabel": "pp. 121-125",
+            "topicTitle": "Cambio climático",
+            "status": "confirmed",
+            "reason": "La fuente validada \"Cambio climático\" aporta base suficiente para trabajar gases de la atmósfera dentro del proyecto 29.",
+            "pedagogicalUse": "Ayuda a fortalecer mapas del efecto invernadero y a explicar la lectura de datos sobre gases atmosféricos y cambio climático para comparar escenarios y visualizar el efecto invernadero con mayor claridad mediante gases de la atmósfera.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "medidas de tendencia central",
+            "description": "Medidas de tendencia central es una idea clave para comprender la lectura de datos sobre gases atmosféricos y cambio climático para comparar escenarios y visualizar el efecto invernadero.",
+            "sourceBook": "Saberes y Pensamiento Científico",
+            "sourcePages": [
+              85,
+              91
+            ],
+            "sourcePagesLabel": "pp. 85-91",
+            "topicTitle": "Medidas de tendencia central y de dispersión",
+            "status": "confirmed",
+            "reason": "La fuente validada \"Medidas de tendencia central y de dispersión\" aporta base suficiente para trabajar medidas de tendencia central dentro del proyecto 29.",
+            "pedagogicalUse": "Ayuda a fortalecer mapas del efecto invernadero y a explicar la lectura de datos sobre gases atmosféricos y cambio climático para comparar escenarios y visualizar el efecto invernadero con mayor claridad mediante medidas de tendencia central.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "medidas de dispersión",
+            "description": "Medidas de dispersión es una idea clave para comprender la lectura de datos sobre gases atmosféricos y cambio climático para comparar escenarios y visualizar el efecto invernadero.",
+            "sourceBook": "Saberes y Pensamiento Científico",
+            "sourcePages": [
+              85,
+              91
+            ],
+            "sourcePagesLabel": "pp. 85-91",
+            "topicTitle": "Medidas de tendencia central y de dispersión",
+            "status": "confirmed",
+            "reason": "La fuente validada \"Medidas de tendencia central y de dispersión\" aporta base suficiente para trabajar medidas de dispersión dentro del proyecto 29.",
+            "pedagogicalUse": "Ayuda a fortalecer mapas del efecto invernadero y a explicar la lectura de datos sobre gases atmosféricos y cambio climático para comparar escenarios y visualizar el efecto invernadero con mayor claridad mediante medidas de dispersión.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "cambio climático",
+            "description": "Cambio climático es una idea clave para comprender la lectura de datos sobre gases atmosféricos y cambio climático para comparar escenarios y visualizar el efecto invernadero.",
+            "sourceBook": "Saberes y Pensamiento Científico",
+            "sourcePages": [
+              121,
+              125
+            ],
+            "sourcePagesLabel": "pp. 121-125",
+            "topicTitle": "Cambio climático",
+            "status": "confirmed",
+            "reason": "La fuente validada \"Cambio climático\" aporta base suficiente para trabajar cambio climático dentro del proyecto 29.",
+            "pedagogicalUse": "Ayuda a fortalecer mapas del efecto invernadero y a explicar la lectura de datos sobre gases atmosféricos y cambio climático para comparar escenarios y visualizar el efecto invernadero con mayor claridad mediante cambio climático.",
+            "activityReadiness": "usable-for-autoevaluation"
+          }
+        ],
+        "thinkingCriteria": [
+          "Usar las medidas estadísticas para comparar y no sólo para llenar tablas.",
+          "Relacionar atmósfera y cambio climático con ejemplos claros.",
+          "Pensar el mapa como herramienta de lectura, no sólo de ubicación."
+        ],
+        "validationStatus": {
+          "readinessLevel": "development-partial",
+          "readyForActivities": false,
+          "needsReviewReasons": [
+            "El bloque 10 ya es usable como lectura docente, pero el video del PPA 10 y el recurso informatico siguen pendientes de validacion de destino final.",
+            "La asignacion de apoyos de Posibilidades se sostiene por inferencia curricular documentada y no por OCR perfectamente separado por columnas.",
+            "No mover a actividades interactivas ni desbloquear juegos completos hasta ampliar validacion de videos y recursos complementarios."
+          ]
+        },
+        "readinessLevel": "development-partial",
+        "readyForActivities": false,
+        "needsReviewReasons": [
+          "No mover a actividades interactivas ni desbloquear juegos completos."
+        ],
+        "roleInPpa": "Profundiza el bloque al comparar información y mostrar cómo los datos ayudan a pensar cambios en la atmósfera.",
+        "pedagogicalUse": "Conviene trabajar El antes y el ahora de los gases de la atmósfera como una oportunidad para profundizar en la lectura de datos sobre gases atmosféricos y cambio climático para comparar escenarios y visualizar el efecto invernadero sin separar contenido, comunidad y producto final.",
+        "teacherNotes": [
+          "Conviene partir de ejemplos cercanos y después pasar al lenguaje mas abstracto del campo.",
+          "El producto Mapas del efecto invernadero gana fuerza cuando se usa para explicar y no solo para exhibir informacion.",
+          "Es mejor seleccionar pocos conceptos bien comprendidos que saturar el trabajo con terminos aislados."
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Qué comprendes mejor sobre la lectura de datos sobre gases atmosféricos y cambio climático para comparar escenarios y visualizar el efecto invernadero después de elaborar mapas del efecto invernadero?"
+          },
+          {
+            "type": "community",
+            "prompt": "¿Qué ayuda más a comprender el problema climático: ver cifras aisladas o compararlas en mapas y tendencias?"
+          }
+        ],
+        "notReadyFor": [
+          "full-games",
+          "summative-exam"
+        ]
+      },
+      {
+        "id": "saberes-y-pensamiento-cientifico-2-ppa-10-pa30",
+        "projectId": "saberes-y-pensamiento-cientifico-2-ppa-10-pa30",
+        "academicProjectNumber": 30,
+        "title": "Lo que respiramos",
+        "projectTitle": "Lo que respiramos",
+        "grade": "2",
+        "field": "Saberes y Pensamiento Científico",
+        "ppaNumber": "10",
+        "partialClassroomProject": "PPA 10",
+        "partialClassroomProjectTitle": "Algo le pasa al clima",
+        "bookVolume": "Tomo II",
+        "sourceValidation": {
+          "sourceStatus": "linked",
+          "possibilitiesPages": [
+            25,
+            26
+          ],
+          "possibilitiesMaterialId": "grade-2-posibilidades-pos-sypc-2",
+          "possibilitiesColumnIndex": 3,
+          "columnEvidence": "Bloque PPA 10 Algo le pasa al clima localizado en pp. 25-26; la columna 3 se confirma por el orden de proyectos, productos y continuidad del mismo bloque."
+        },
+        "finalProduct": {
+          "title": "Debate breve",
+          "source": "Posibilidades de uso SyPC pp. 25-26 + Nuestro libro de proyectos Tomo II pp. 151-155",
+          "status": "confirmed"
+        },
+        "sourcePages": {
+          "nuestroLibroProyectos": [
+            {
+              "materialId": "grade-2-proyectos-nuestro-libro-de-proyectos-tomo-2-segundo-grado",
+              "label": "Nuestro libro de proyectos Tomo II",
+              "startPage": 151,
+              "endPage": 155,
+              "pagesLabel": "pp. 151-155",
+              "topicTitle": "Proyecto academico 30",
+              "status": "confirmed-source"
+            }
+          ],
+          "conceptBook": [
+            {
+              "materialId": "grade-2-conceptos-saberes-y-pensamiento-cientifico-segundo-grado",
+              "label": "Saberes y Pensamiento Científico",
+              "startPage": 98,
+              "endPage": 102,
+              "pagesLabel": "pp. 98-102",
+              "topicTitle": "Experimentos aleatorios y registro de los resultados",
+              "status": "confirmed-by-column-inference"
+            },
+            {
+              "materialId": "grade-2-conceptos-saberes-y-pensamiento-cientifico-segundo-grado",
+              "label": "Saberes y Pensamiento Científico",
+              "startPage": 222,
+              "endPage": 225,
+              "pagesLabel": "pp. 222-225",
+              "topicTitle": "Gases que contribuyen al efecto invernadero",
+              "status": "confirmed-by-column-inference"
+            },
+            {
+              "materialId": "grade-2-conceptos-saberes-y-pensamiento-cientifico-segundo-grado",
+              "label": "Saberes y Pensamiento Científico",
+              "startPage": 257,
+              "endPage": 260,
+              "pagesLabel": "pp. 257-260",
+              "topicTitle": "Medidas de mitigación y adaptación ante el cambio climático",
+              "status": "confirmed-by-column-inference"
+            }
+          ],
+          "multiplesLenguajes": [],
+          "otherMaterials": [
+            {
+              "label": "Video PA 30: Artículo informativo • Saberes y pensamiento científico • 2do grado",
+              "reference": "https://www.youtube.com/watch?v=tjdjdptxuL0",
+              "status": "confirmed"
+            },
+            {
+              "label": "Video PPA 10: 10. Algo le pasa al clima • Saberes y pensamiento científico• 2do grado",
+              "reference": "https://www.youtube.com/watch?v=ZrtFce56_Kc",
+              "status": "confirmed"
+            }
+          ]
+        },
+        "supportMaterials": [],
+        "horizonOrPurpose": {
+          "status": "pending",
+          "text": "",
+          "source": "Nuestro libro de proyectos Tomo II p. 151"
+        },
+        "projectExpectationHorizon": {
+          "officialText": "",
+          "studentVersion": "",
+          "sourcePages": [
+            "Nuestro libro de proyectos Tomo II p. 151"
+          ],
+          "evidence": "El proyecto ya cuenta con producto, conceptos y articulacion pedagogica, pero el horizonte textual exacto sigue pendiente de confirmacion literal.",
+          "status": "pending"
+        },
+        "detonatingStrategy": {
+          "title": "10. Algo le pasa al clima • Saberes y pensamiento científico• 2do grado",
+          "text": "Video del Proyecto Parcial de Aula 10: 10. Algo le pasa al clima • Saberes y pensamiento científico• 2do grado",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=ZrtFce56_Kc",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "partial-classroom-project"
+        },
+        "academicProjectStrategy": {
+          "title": "Artículo informativo • Saberes y pensamiento científico • 2do grado",
+          "text": "Video detonador del Proyecto Academico 30: Lo que respiramos",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=tjdjdptxuL0",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "academic-project"
+        },
+        "academicConcepts": [
+          {
+            "concept": "debate breve",
+            "description": "Debate breve como producto de cierre para organizar y comunicar aprendizajes del proyecto.",
+            "sourceBook": "Nuestro libro de proyectos Tomo II",
+            "sourcePages": [
+              151,
+              155
+            ],
+            "sourcePagesLabel": "pp. 151-155",
+            "topicTitle": "Proyecto academico 30",
+            "status": "confirmed",
+            "reason": "Posibilidades y el propio proyecto fijan Debate breve como producto final del PA 30.",
+            "pedagogicalUse": "Da una forma concreta de socializar lo comprendido sobre los gases que contribuyen al efecto invernadero y las medidas de mitigación y adaptación como temas para argumentar y deliberar.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "gases de efecto invernadero",
+            "description": "Gases de efecto invernadero es una idea clave para comprender los gases que contribuyen al efecto invernadero y las medidas de mitigación y adaptación como temas para argumentar y deliberar.",
+            "sourceBook": "Saberes y Pensamiento Científico",
+            "sourcePages": [
+              222,
+              225
+            ],
+            "sourcePagesLabel": "pp. 222-225",
+            "topicTitle": "Gases que contribuyen al efecto invernadero",
+            "status": "confirmed",
+            "reason": "La fuente validada \"Gases que contribuyen al efecto invernadero\" aporta base suficiente para trabajar gases de efecto invernadero dentro del proyecto 30.",
+            "pedagogicalUse": "Ayuda a fortalecer debate breve y a explicar los gases que contribuyen al efecto invernadero y las medidas de mitigación y adaptación como temas para argumentar y deliberar con mayor claridad mediante gases de efecto invernadero.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "combustión",
+            "description": "Combustión es una idea clave para comprender los gases que contribuyen al efecto invernadero y las medidas de mitigación y adaptación como temas para argumentar y deliberar.",
+            "sourceBook": "Saberes y Pensamiento Científico",
+            "sourcePages": [
+              222,
+              225
+            ],
+            "sourcePagesLabel": "pp. 222-225",
+            "topicTitle": "Gases que contribuyen al efecto invernadero",
+            "status": "confirmed",
+            "reason": "La fuente validada \"Gases que contribuyen al efecto invernadero\" aporta base suficiente para trabajar combustión dentro del proyecto 30.",
+            "pedagogicalUse": "Ayuda a fortalecer debate breve y a explicar los gases que contribuyen al efecto invernadero y las medidas de mitigación y adaptación como temas para argumentar y deliberar con mayor claridad mediante combustión.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "mitigación",
+            "description": "Mitigación es una idea clave para comprender los gases que contribuyen al efecto invernadero y las medidas de mitigación y adaptación como temas para argumentar y deliberar.",
+            "sourceBook": "Saberes y Pensamiento Científico",
+            "sourcePages": [
+              257,
+              260
+            ],
+            "sourcePagesLabel": "pp. 257-260",
+            "topicTitle": "Medidas de mitigación y adaptación ante el cambio climático",
+            "status": "confirmed",
+            "reason": "La fuente validada \"Medidas de mitigación y adaptación ante el cambio climático\" aporta base suficiente para trabajar mitigación dentro del proyecto 30.",
+            "pedagogicalUse": "Ayuda a fortalecer debate breve y a explicar los gases que contribuyen al efecto invernadero y las medidas de mitigación y adaptación como temas para argumentar y deliberar con mayor claridad mediante mitigación.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "adaptación al cambio climático",
+            "description": "Adaptación al cambio climático es una idea clave para comprender los gases que contribuyen al efecto invernadero y las medidas de mitigación y adaptación como temas para argumentar y deliberar.",
+            "sourceBook": "Saberes y Pensamiento Científico",
+            "sourcePages": [
+              257,
+              260
+            ],
+            "sourcePagesLabel": "pp. 257-260",
+            "topicTitle": "Medidas de mitigación y adaptación ante el cambio climático",
+            "status": "confirmed",
+            "reason": "La fuente validada \"Medidas de mitigación y adaptación ante el cambio climático\" aporta base suficiente para trabajar adaptación al cambio climático dentro del proyecto 30.",
+            "pedagogicalUse": "Ayuda a fortalecer debate breve y a explicar los gases que contribuyen al efecto invernadero y las medidas de mitigación y adaptación como temas para argumentar y deliberar con mayor claridad mediante adaptación al cambio climático.",
+            "activityReadiness": "usable-for-autoevaluation"
+          }
+        ],
+        "thinkingCriteria": [
+          "Sostener los argumentos del debate con información y no sólo con opiniones.",
+          "Relacionar respiración, aire y combustión sin simplificar en exceso.",
+          "Explorar qué medidas son realmente viables en el entorno cercano."
+        ],
+        "validationStatus": {
+          "readinessLevel": "development-partial",
+          "readyForActivities": false,
+          "needsReviewReasons": [
+            "El bloque 10 ya es usable como lectura docente, pero el video del PPA 10 y el recurso informatico siguen pendientes de validacion de destino final.",
+            "La asignacion de apoyos de Posibilidades se sostiene por inferencia curricular documentada y no por OCR perfectamente separado por columnas.",
+            "No mover a actividades interactivas ni desbloquear juegos completos hasta ampliar validacion de videos y recursos complementarios."
+          ]
+        },
+        "readinessLevel": "development-partial",
+        "readyForActivities": false,
+        "needsReviewReasons": [
+          "No mover a actividades interactivas ni desbloquear juegos completos."
+        ],
+        "roleInPpa": "Cierra el bloque al llevar la discusión climática al terreno del debate y de la toma de postura informada.",
+        "pedagogicalUse": "Conviene trabajar Lo que respiramos como una oportunidad para profundizar en los gases que contribuyen al efecto invernadero y las medidas de mitigación y adaptación como temas para argumentar y deliberar sin separar contenido, comunidad y producto final.",
+        "teacherNotes": [
+          "Conviene partir de ejemplos cercanos y después pasar al lenguaje mas abstracto del campo.",
+          "El producto Debate breve gana fuerza cuando se usa para explicar y no solo para exhibir informacion.",
+          "Es mejor seleccionar pocos conceptos bien comprendidos que saturar el trabajo con terminos aislados."
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Qué comprendes mejor sobre los gases que contribuyen al efecto invernadero y las medidas de mitigación y adaptación como temas para argumentar y deliberar después de elaborar debate breve?"
+          },
+          {
+            "type": "community",
+            "prompt": "¿Qué acciones podrían discutirse en comunidad si se parte de una mejor comprensión del aire que respiramos y del cambio climático?"
+          }
+        ],
+        "notReadyFor": [
+          "full-games",
+          "summative-exam"
+        ]
+      }
+    ]
+  },
+  "conceptsValidation": {
+    "grade": "2",
+    "field": "Saberes y Pensamiento Científico",
+    "ppaNumber": "10",
+    "status": "concept-validation",
+    "generatedAt": "2026-06-02T18:31:04.730Z",
+    "entries": [
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-2-ppa-10-pa28",
+        "projectTitle": "La humanidad y la temperatura en la que vive",
+        "concept": "conferencia específica sobre el calentamiento global",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Nuestro libro de proyectos Tomo II",
+          "pages": [
+            143,
+            146
+          ],
+          "reason": "Posibilidades y el propio proyecto fijan Conferencia específica sobre el calentamiento global como producto final del PA 28."
+        },
+        "pedagogicalUse": "Da una forma concreta de socializar lo comprendido sobre los cambios de temperatura, el efecto invernadero y los fenómenos meteorológicos extremos como parte del problema climático actual.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-2-ppa-10-pa28",
+        "projectTitle": "La humanidad y la temperatura en la que vive",
+        "concept": "calentamiento global",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Saberes y Pensamiento Científico",
+          "pages": [
+            169,
+            176
+          ],
+          "reason": "La fuente validada \"Efecto invernadero\" aporta base suficiente para trabajar calentamiento global dentro del proyecto 28."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer conferencia específica sobre el calentamiento global y a explicar los cambios de temperatura, el efecto invernadero y los fenómenos meteorológicos extremos como parte del problema climático actual con mayor claridad mediante calentamiento global.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-2-ppa-10-pa28",
+        "projectTitle": "La humanidad y la temperatura en la que vive",
+        "concept": "efecto invernadero",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Saberes y Pensamiento Científico",
+          "pages": [
+            169,
+            176
+          ],
+          "reason": "La fuente validada \"Efecto invernadero\" aporta base suficiente para trabajar efecto invernadero dentro del proyecto 28."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer conferencia específica sobre el calentamiento global y a explicar los cambios de temperatura, el efecto invernadero y los fenómenos meteorológicos extremos como parte del problema climático actual con mayor claridad mediante efecto invernadero.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-2-ppa-10-pa28",
+        "projectTitle": "La humanidad y la temperatura en la que vive",
+        "concept": "fenómenos meteorológicos extremos",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Saberes y Pensamiento Científico",
+          "pages": [
+            204,
+            207
+          ],
+          "reason": "La fuente validada \"Fenómenos meteorológicos extremos\" aporta base suficiente para trabajar fenómenos meteorológicos extremos dentro del proyecto 28."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer conferencia específica sobre el calentamiento global y a explicar los cambios de temperatura, el efecto invernadero y los fenómenos meteorológicos extremos como parte del problema climático actual con mayor claridad mediante fenómenos meteorológicos extremos.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-2-ppa-10-pa28",
+        "projectTitle": "La humanidad y la temperatura en la que vive",
+        "concept": "análisis de datos",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Saberes y Pensamiento Científico",
+          "pages": [
+            80,
+            84
+          ],
+          "reason": "La fuente validada \"Recolección, registro, análisis y comunicación de datos\" aporta base suficiente para trabajar análisis de datos dentro del proyecto 28."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer conferencia específica sobre el calentamiento global y a explicar los cambios de temperatura, el efecto invernadero y los fenómenos meteorológicos extremos como parte del problema climático actual con mayor claridad mediante análisis de datos.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-2-ppa-10-pa29",
+        "projectTitle": "El antes y el ahora de los gases de la atmósfera",
+        "concept": "mapas del efecto invernadero",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Nuestro libro de proyectos Tomo II",
+          "pages": [
+            147,
+            150
+          ],
+          "reason": "Posibilidades y el propio proyecto fijan Mapas del efecto invernadero como producto final del PA 29."
+        },
+        "pedagogicalUse": "Da una forma concreta de socializar lo comprendido sobre la lectura de datos sobre gases atmosféricos y cambio climático para comparar escenarios y visualizar el efecto invernadero.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-2-ppa-10-pa29",
+        "projectTitle": "El antes y el ahora de los gases de la atmósfera",
+        "concept": "gases de la atmósfera",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Saberes y Pensamiento Científico",
+          "pages": [
+            121,
+            125
+          ],
+          "reason": "La fuente validada \"Cambio climático\" aporta base suficiente para trabajar gases de la atmósfera dentro del proyecto 29."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer mapas del efecto invernadero y a explicar la lectura de datos sobre gases atmosféricos y cambio climático para comparar escenarios y visualizar el efecto invernadero con mayor claridad mediante gases de la atmósfera.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-2-ppa-10-pa29",
+        "projectTitle": "El antes y el ahora de los gases de la atmósfera",
+        "concept": "medidas de tendencia central",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Saberes y Pensamiento Científico",
+          "pages": [
+            85,
+            91
+          ],
+          "reason": "La fuente validada \"Medidas de tendencia central y de dispersión\" aporta base suficiente para trabajar medidas de tendencia central dentro del proyecto 29."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer mapas del efecto invernadero y a explicar la lectura de datos sobre gases atmosféricos y cambio climático para comparar escenarios y visualizar el efecto invernadero con mayor claridad mediante medidas de tendencia central.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-2-ppa-10-pa29",
+        "projectTitle": "El antes y el ahora de los gases de la atmósfera",
+        "concept": "medidas de dispersión",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Saberes y Pensamiento Científico",
+          "pages": [
+            85,
+            91
+          ],
+          "reason": "La fuente validada \"Medidas de tendencia central y de dispersión\" aporta base suficiente para trabajar medidas de dispersión dentro del proyecto 29."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer mapas del efecto invernadero y a explicar la lectura de datos sobre gases atmosféricos y cambio climático para comparar escenarios y visualizar el efecto invernadero con mayor claridad mediante medidas de dispersión.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-2-ppa-10-pa29",
+        "projectTitle": "El antes y el ahora de los gases de la atmósfera",
+        "concept": "cambio climático",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Saberes y Pensamiento Científico",
+          "pages": [
+            121,
+            125
+          ],
+          "reason": "La fuente validada \"Cambio climático\" aporta base suficiente para trabajar cambio climático dentro del proyecto 29."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer mapas del efecto invernadero y a explicar la lectura de datos sobre gases atmosféricos y cambio climático para comparar escenarios y visualizar el efecto invernadero con mayor claridad mediante cambio climático.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-2-ppa-10-pa30",
+        "projectTitle": "Lo que respiramos",
+        "concept": "debate breve",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Nuestro libro de proyectos Tomo II",
+          "pages": [
+            151,
+            155
+          ],
+          "reason": "Posibilidades y el propio proyecto fijan Debate breve como producto final del PA 30."
+        },
+        "pedagogicalUse": "Da una forma concreta de socializar lo comprendido sobre los gases que contribuyen al efecto invernadero y las medidas de mitigación y adaptación como temas para argumentar y deliberar.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-2-ppa-10-pa30",
+        "projectTitle": "Lo que respiramos",
+        "concept": "gases de efecto invernadero",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Saberes y Pensamiento Científico",
+          "pages": [
+            222,
+            225
+          ],
+          "reason": "La fuente validada \"Gases que contribuyen al efecto invernadero\" aporta base suficiente para trabajar gases de efecto invernadero dentro del proyecto 30."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer debate breve y a explicar los gases que contribuyen al efecto invernadero y las medidas de mitigación y adaptación como temas para argumentar y deliberar con mayor claridad mediante gases de efecto invernadero.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-2-ppa-10-pa30",
+        "projectTitle": "Lo que respiramos",
+        "concept": "combustión",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Saberes y Pensamiento Científico",
+          "pages": [
+            222,
+            225
+          ],
+          "reason": "La fuente validada \"Gases que contribuyen al efecto invernadero\" aporta base suficiente para trabajar combustión dentro del proyecto 30."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer debate breve y a explicar los gases que contribuyen al efecto invernadero y las medidas de mitigación y adaptación como temas para argumentar y deliberar con mayor claridad mediante combustión.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-2-ppa-10-pa30",
+        "projectTitle": "Lo que respiramos",
+        "concept": "mitigación",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Saberes y Pensamiento Científico",
+          "pages": [
+            257,
+            260
+          ],
+          "reason": "La fuente validada \"Medidas de mitigación y adaptación ante el cambio climático\" aporta base suficiente para trabajar mitigación dentro del proyecto 30."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer debate breve y a explicar los gases que contribuyen al efecto invernadero y las medidas de mitigación y adaptación como temas para argumentar y deliberar con mayor claridad mediante mitigación.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-2-ppa-10-pa30",
+        "projectTitle": "Lo que respiramos",
+        "concept": "adaptación al cambio climático",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Saberes y Pensamiento Científico",
+          "pages": [
+            257,
+            260
+          ],
+          "reason": "La fuente validada \"Medidas de mitigación y adaptación ante el cambio climático\" aporta base suficiente para trabajar adaptación al cambio climático dentro del proyecto 30."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer debate breve y a explicar los gases que contribuyen al efecto invernadero y las medidas de mitigación y adaptación como temas para argumentar y deliberar con mayor claridad mediante adaptación al cambio climático.",
+        "activityReadiness": "usable-for-autoevaluation"
+      }
+    ]
+  },
+  "pedagogicalArticulation": {
+    "grade": "2",
+    "field": "Saberes y Pensamiento Científico",
+    "ppaNumber": "10",
+    "status": "teacher-orientation",
+    "officialHorizonStatus": "pending",
+    "situatedPedagogicalOrientation": "El PPA 10 relaciona análisis de datos, atmósfera y cambio climático para que el grupo reconozca causas, consecuencias y posibles respuestas comunitarias frente al problema climático.",
+    "integratingQuestions": [
+      "Como dialogan conferencia específica sobre el calentamiento global, mapas del efecto invernadero, debate breve dentro del mismo PPA 10?",
+      "Que cambia en la comprension de el efecto invernadero, los gases de la atmósfera y la lectura de datos como herramientas para comprender el cambio climático cuando el grupo pone en relacion conceptos, producto y comunidad?",
+      "Como convertir el producto final en una herramienta de explicacion y no solo de presentacion?"
+    ],
+    "projectConnections": [
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-2-ppa-10-pa28",
+        "projectTitle": "La humanidad y la temperatura en la que vive",
+        "roleInPpa": "Abre el bloque al reunir datos y explicaciones para comunicar el calentamiento global a otras personas.",
+        "confirmedConcepts": [
+          "conferencia específica sobre el calentamiento global",
+          "calentamiento global",
+          "efecto invernadero",
+          "fenómenos meteorológicos extremos",
+          "análisis de datos"
+        ],
+        "suggestedConcepts": [],
+        "pedagogicalUse": "Conviene trabajar La humanidad y la temperatura en la que vive como una oportunidad para profundizar en los cambios de temperatura, el efecto invernadero y los fenómenos meteorológicos extremos como parte del problema climático actual sin separar contenido, comunidad y producto final."
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-2-ppa-10-pa29",
+        "projectTitle": "El antes y el ahora de los gases de la atmósfera",
+        "roleInPpa": "Profundiza el bloque al comparar información y mostrar cómo los datos ayudan a pensar cambios en la atmósfera.",
+        "confirmedConcepts": [
+          "mapas del efecto invernadero",
+          "gases de la atmósfera",
+          "medidas de tendencia central",
+          "medidas de dispersión",
+          "cambio climático"
+        ],
+        "suggestedConcepts": [],
+        "pedagogicalUse": "Conviene trabajar El antes y el ahora de los gases de la atmósfera como una oportunidad para profundizar en la lectura de datos sobre gases atmosféricos y cambio climático para comparar escenarios y visualizar el efecto invernadero sin separar contenido, comunidad y producto final."
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-2-ppa-10-pa30",
+        "projectTitle": "Lo que respiramos",
+        "roleInPpa": "Cierra el bloque al llevar la discusión climática al terreno del debate y de la toma de postura informada.",
+        "confirmedConcepts": [
+          "debate breve",
+          "gases de efecto invernadero",
+          "combustión",
+          "mitigación",
+          "adaptación al cambio climático"
+        ],
+        "suggestedConcepts": [],
+        "pedagogicalUse": "Conviene trabajar Lo que respiramos como una oportunidad para profundizar en los gases que contribuyen al efecto invernadero y las medidas de mitigación y adaptación como temas para argumentar y deliberar sin separar contenido, comunidad y producto final."
+      }
+    ],
+    "criteriaOfThought": [
+      {
+        "criterion": "Relacionar el efecto invernadero, los gases de la atmósfera y la lectura de datos como herramientas para comprender el cambio climático con experiencias concretas del entorno.",
+        "status": "suggested"
+      },
+      {
+        "criterion": "Usar el producto final para comunicar con claridad, no solo para acumular definiciones.",
+        "status": "suggested"
+      }
+    ],
+    "possibleResonanceQuestion": "¿Qué comprensiones nuevas sobre el efecto invernadero, los gases de la atmósfera y la lectura de datos como herramientas para comprender el cambio climático se vuelven visibles cuando el grupo comparte los productos del PPA 10?",
+    "teacherNotes": [
+      "No reducir el PPA 10 a tres productos aislados; el bloque construye una misma conversacion curricular.",
+      "Las paginas de Posibilidades forman un mismo bloque y los apoyos por columna se documentan por inferencia curricular situada.",
+      "Los enlaces cortos del video detonador y del recurso informatico se mantienen en cautela y no deben tratarse como recursos ya validados."
+    ],
+    "notReadyFor": [
+      "actividades interactivas",
+      "full-games",
+      "summative-exam"
+    ]
+  },
+  "teacherNotesAndResonances": {
+    "grade": "2",
+    "field": "Saberes y Pensamiento Científico",
+    "ppaNumber": "10",
+    "status": "teacher-orientation",
+    "officialHorizonStatus": "pending",
+    "ppaIntegratingResonance": "¿Qué comprensiones nuevas sobre el efecto invernadero, los gases de la atmósfera y la lectura de datos como herramientas para comprender el cambio climático se vuelven visibles cuando el grupo comparte los productos del PPA 10?",
+    "didacticWarnings": [
+      "No convertir el bloque en una lista de definiciones; importa relacionar conceptos con producto, comunidad y dialogo.",
+      "Los enlaces cortos bit.ly/3VfglUk y bit.ly/3WQBMwg se mantienen como cautela y no deben tratarse como recursos ya validados.",
+      "La distribucion de apoyos por columna se fija por inferencia curricular documentada a partir de Posibilidades."
+    ],
+    "communityPrompts": {
+      "communityKnowledge": [
+        "Que saberes de la comunidad ayudan a profundizar en el efecto invernadero, los gases de la atmósfera y la lectura de datos como herramientas para comprender el cambio climático?",
+        "Que ejemplos cercanos permiten que los conceptos del campo se vuelvan mas claros para el grupo?"
+      ],
+      "families": [
+        "Que experiencias, relatos o practicas familiares pueden enriquecer el proyecto sin desplazar su foco academico?",
+        "Que aprendizajes vale la pena compartir con otras generaciones a partir del producto final?"
+      ],
+      "territoryLanguageMemory": [
+        "Que palabras, lugares o memorias ayudan a nombrar mejor lo que el proyecto esta buscando comprender?",
+        "Como pueden circular estos productos dentro de la comunidad escolar sin perder precision ni sentido?"
+      ],
+      "productCommunityConnection": [
+        "Como podria circular conferencia específica sobre el calentamiento global, mapas del efecto invernadero, debate breve para fortalecer el dialogo comunitario?"
+      ]
+    },
+    "suggestedThinkingCriteria": [
+      "Relacionar el efecto invernadero, los gases de la atmósfera y la lectura de datos como herramientas para comprender el cambio climático con problemas, experiencias y preguntas del entorno cercano.",
+      "Valorar el producto final como herramienta de comprension y comunicacion compartida."
+    ],
+    "projects": [
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-2-ppa-10-pa28",
+        "projectTitle": "La humanidad y la temperatura en la que vive",
+        "teacherNotes": [
+          "Conviene partir de ejemplos cercanos y después pasar al lenguaje mas abstracto del campo.",
+          "El producto Conferencia específica sobre el calentamiento global gana fuerza cuando se usa para explicar y no solo para exhibir informacion.",
+          "Es mejor seleccionar pocos conceptos bien comprendidos que saturar el trabajo con terminos aislados."
+        ],
+        "confirmedConceptsToUse": [
+          "conferencia específica sobre el calentamiento global",
+          "calentamiento global",
+          "efecto invernadero",
+          "fenómenos meteorológicos extremos",
+          "análisis de datos"
+        ],
+        "suggestedConceptsToHandleCarefully": [],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Qué comprendes mejor sobre los cambios de temperatura, el efecto invernadero y los fenómenos meteorológicos extremos como parte del problema climático actual después de elaborar conferencia específica sobre el calentamiento global?"
+          },
+          {
+            "type": "community",
+            "prompt": "¿Qué cambios del clima se perciben ya en la comunidad y cómo pueden ponerse en diálogo con la evidencia científica?"
+          }
+        ],
+        "notReadyFor": [
+          "full-games",
+          "summative-exam"
+        ]
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-2-ppa-10-pa29",
+        "projectTitle": "El antes y el ahora de los gases de la atmósfera",
+        "teacherNotes": [
+          "Conviene partir de ejemplos cercanos y después pasar al lenguaje mas abstracto del campo.",
+          "El producto Mapas del efecto invernadero gana fuerza cuando se usa para explicar y no solo para exhibir informacion.",
+          "Es mejor seleccionar pocos conceptos bien comprendidos que saturar el trabajo con terminos aislados."
+        ],
+        "confirmedConceptsToUse": [
+          "mapas del efecto invernadero",
+          "gases de la atmósfera",
+          "medidas de tendencia central",
+          "medidas de dispersión",
+          "cambio climático"
+        ],
+        "suggestedConceptsToHandleCarefully": [],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Qué comprendes mejor sobre la lectura de datos sobre gases atmosféricos y cambio climático para comparar escenarios y visualizar el efecto invernadero después de elaborar mapas del efecto invernadero?"
+          },
+          {
+            "type": "community",
+            "prompt": "¿Qué ayuda más a comprender el problema climático: ver cifras aisladas o compararlas en mapas y tendencias?"
+          }
+        ],
+        "notReadyFor": [
+          "full-games",
+          "summative-exam"
+        ]
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-2-ppa-10-pa30",
+        "projectTitle": "Lo que respiramos",
+        "teacherNotes": [
+          "Conviene partir de ejemplos cercanos y después pasar al lenguaje mas abstracto del campo.",
+          "El producto Debate breve gana fuerza cuando se usa para explicar y no solo para exhibir informacion.",
+          "Es mejor seleccionar pocos conceptos bien comprendidos que saturar el trabajo con terminos aislados."
+        ],
+        "confirmedConceptsToUse": [
+          "debate breve",
+          "gases de efecto invernadero",
+          "combustión",
+          "mitigación",
+          "adaptación al cambio climático"
+        ],
+        "suggestedConceptsToHandleCarefully": [],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Qué comprendes mejor sobre los gases que contribuyen al efecto invernadero y las medidas de mitigación y adaptación como temas para argumentar y deliberar después de elaborar debate breve?"
+          },
+          {
+            "type": "community",
+            "prompt": "¿Qué acciones podrían discutirse en comunidad si se parte de una mejor comprensión del aire que respiramos y del cambio climático?"
+          }
+        ],
+        "notReadyFor": [
+          "full-games",
+          "summative-exam"
+        ]
+      }
+    ]
+  },
+  "validationAudit": {
+    "kind": "fine-validation-audit",
+    "source": "reports/caracoles/grade2-saberes-ppa10-reading-bundle-audit.md",
+    "content": "# Auditoria de lectura docente\n\n## Alcance\n\n- Campo: 2o Saberes y Pensamiento Científico\n- Bloque: PPA 10\n- Titulo del PPA: Algo le pasa al clima\n- Proyectos: PA28-PA30\n\n## Proyectos validados\n\n28. La humanidad y la temperatura en la que vive\n   - Producto final: Conferencia específica sobre el calentamiento global\n   - Paginas: Nuestro libro de proyectos Tomo II pp. 143-146\n29. El antes y el ahora de los gases de la atmósfera\n   - Producto final: Mapas del efecto invernadero\n   - Paginas: Nuestro libro de proyectos Tomo II pp. 147-150\n30. Lo que respiramos\n   - Producto final: Debate breve\n   - Paginas: Nuestro libro de proyectos Tomo II pp. 151-155\n\n## Evidencia base usada\n\n- Posibilidades de uso SyPC pp. 25-26.\n- Nuestro libro de proyectos Tomo II pp. 141-155.\n- Saberes y Pensamiento Científico, segundo grado, pp. 80-102, 121-125, 169-176, 204-207, 222-225 y 257-260..\n\n## Decisiones curriculares del bloque\n\n- El horizonte comun del PPA 10 se mantiene en estado pendiente como formula unica; se privilegia una orientacion pedagogica situada y documentada.\n- Los productos finales quedan confirmados desde Posibilidades y la secuencia del propio proyecto.\n- Los conceptos confirmados se normalizan para sostener lectura docente, autoevaluacion y actividades de relacion de columnas.\n- La resonancia se formula como pregunta abierta para reforzar el sentido formativo del bloque.\n\n## Cautelas reales\n\n- El video detonador del PPA 10 y el recurso informatico del bloque siguen sin URL oficial confirmada.\n- La asignacion de apoyos por columna se sostiene por inferencia curricular documentada, no por OCR limpio de tabla.\n- No se marca el bloque como actividades interactivas ni se desbloquean juegos completos.\n"
+  }
+}

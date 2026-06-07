@@ -1,0 +1,1199 @@
+{
+  "grade": "3",
+  "gradeLabel": "Tercer grado",
+  "field": "Lenguajes",
+  "ppaNumber": "4",
+  "partialClassroomProject": "PPA 4",
+  "partialClassroomProjectTitle": "Patrimonio cultural y el dinamismo de las lenguas",
+  "source": "curricular-development-generated",
+  "generatedAt": "2026-06-07T03:06:27.182Z",
+  "development": {
+    "grade": "3",
+    "gradeLabel": "Tercer grado",
+    "field": "Lenguajes",
+    "bookVolume": "Tomo I",
+    "partialClassroomProject": "PPA 4",
+    "partialClassroomProjectTitle": "Patrimonio cultural y el dinamismo de las lenguas",
+    "generatedAt": "2026-06-07T03:06:27.140Z",
+    "notes": "Capa curricular generada por lote para 3o Lenguajes, PPA 4.",
+    "sourcesUsed": [
+      "content/caracoles/curricular-catalog/all-projects-canonical.json",
+      "public/caracoles/data/generated/grade-3/concepts-index.json",
+      "src/caracoles/lib/officialVideoLinks.ts",
+      "Posibilidades de uso Lenguajes, tercer grado, pp. 12-13",
+      "Nuestro libro de proyectos, tercer grado, pp. 83-94"
+    ],
+    "partialClassroomProjectContext": {
+      "expectationHorizon": {
+        "officialText": "",
+        "sourcePages": [
+          "Nuestro libro de proyectos Tomo I pp. 83-86",
+          "Posibilidades de uso Lenguajes pp. 12-13"
+        ],
+        "evidence": "El PPA 4 articula línea del tiempo ilustrada, 7. arte, lengua y cultura: las manifestaciones de nuestro lugar, 4. patrimonio cultural y el dinamismo de las lenguas para trabajar Patrimonio cultural y el dinamismo de las lenguas.",
+        "status": "pending"
+      },
+      "ppaDetonatingStrategy": {
+        "title": "Patrimonio cultural y el dinamismo de las lenguas",
+        "type": "video",
+        "url": "",
+        "urlStatus": "confirmed-by-official-video-map",
+        "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+        "scope": "partial-classroom-project"
+      },
+      "ppaDigitalResource": {
+        "title": "Recurso del Proyecto Parcial de Aula 4",
+        "reference": "",
+        "status": "confirmed-by-official-video-map",
+        "source": "YouTube, acervo Aprende_MX/Telesecundaria"
+      },
+      "validationStatus": {
+        "needsHumanReview": true,
+        "needsReviewReasons": [
+          "Los videos PA/PPA se validan por el mapa oficial de enlaces directos ya generado.",
+          "Los apoyos complementarios impresos no se asignan cuando no hay evidencia validada por columna.",
+          "El horizonte textual literal queda pendiente de revision fina si se necesita cita exacta."
+        ]
+      },
+      "columnValidation": {
+        "possibilitiesPagesReviewed": [
+          12,
+          13
+        ],
+        "confirmedAsPpa": true,
+        "note": "El PPA 4 se agrupa desde el catalogo canonico de tercer grado.",
+        "columns": [
+          {
+            "columnIndex": 1,
+            "projectId": "lenguajes-3-ppa-4-pa10",
+            "projectTitle": "La línea del tiempo: cambios culturales y lingüísticos",
+            "finalProduct": "Línea del tiempo ilustrada",
+            "supportMaterials": []
+          },
+          {
+            "columnIndex": 2,
+            "projectId": "lenguajes-3-ppa-4-pa11",
+            "projectTitle": "Valorar las expresiones culturales, reinterpretar la cultura.......................",
+            "finalProduct": "7. Arte, lengua y cultura: las manifestaciones de nuestro lugar",
+            "supportMaterials": []
+          },
+          {
+            "columnIndex": 3,
+            "projectId": "lenguajes-3-ppa-4-pa12",
+            "projectTitle": "¡Las lenguas y el patrimonio cultural van de la mano!",
+            "finalProduct": "4. Patrimonio cultural y el dinamismo de las lenguas",
+            "supportMaterials": []
+          }
+        ]
+      }
+    },
+    "academicProjects": [
+      {
+        "id": "lenguajes-3-ppa-4-pa10",
+        "projectId": "lenguajes-3-ppa-4-pa10",
+        "academicProjectNumber": 10,
+        "title": "La línea del tiempo: cambios culturales y lingüísticos",
+        "projectTitle": "La línea del tiempo: cambios culturales y lingüísticos",
+        "grade": "3",
+        "field": "Lenguajes",
+        "ppaNumber": "4",
+        "partialClassroomProject": "PPA 4",
+        "partialClassroomProjectTitle": "Patrimonio cultural y el dinamismo de las lenguas",
+        "bookVolume": "Tomo I",
+        "sourceValidation": {
+          "sourceStatus": "linked",
+          "possibilitiesPages": [
+            12,
+            13
+          ],
+          "possibilitiesMaterialId": "grade-3-posibilidades-pos-len-3",
+          "possibilitiesColumnIndex": 1,
+          "columnEvidence": "Proyecto PA 10 agrupado en el PPA 4 desde el catalogo canonico y las paginas de Posibilidades."
+        },
+        "finalProduct": {
+          "title": "Línea del tiempo ilustrada",
+          "source": "Video detonador validado en YouTube + Nuestro libro de proyectos Tomo I pp. 83-86",
+          "status": "confirmed-from-video-and-project"
+        },
+        "sourcePages": {
+          "nuestroLibroProyectos": [
+            {
+              "materialId": "grade-3-proyectos-nuestros-proyectos-tomo-1-tercer-grado",
+              "label": "Nuestro libro de proyectos Tomo I",
+              "startPage": 83,
+              "endPage": 86,
+              "pagesLabel": "pp. 83-86",
+              "topicTitle": "Proyecto academico 10",
+              "status": "confirmed-source"
+            }
+          ],
+          "conceptBook": [
+            {
+              "materialId": "grade-3-conceptos-lenguajes-tercer-grado",
+              "label": "Lenguajes",
+              "startPage": 83,
+              "endPage": 83,
+              "pagesLabel": "p. 83",
+              "topicTitle": "Línea del tiempo ilustrada",
+              "status": "confirmed"
+            }
+          ],
+          "multiplesLenguajes": [],
+          "otherMaterials": [
+            {
+              "label": "Video PA 10: Línea del tiempo ilustrada • Lenguajes • 3er. grado",
+              "reference": "https://www.youtube.com/watch?v=9DdaJfRUrpo",
+              "status": "confirmed"
+            },
+            {
+              "label": "Video PPA 4: 4. Patrimonio cultural y el dinamismo de las lenguas • Lenguajes • 3er grado",
+              "reference": "https://www.youtube.com/watch?v=vpbNe7xpt7E",
+              "status": "confirmed"
+            }
+          ]
+        },
+        "supportMaterials": [],
+        "horizonOrPurpose": {
+          "status": "pending",
+          "text": "",
+          "source": "Nuestro libro de proyectos Tomo I pp. 83-86"
+        },
+        "projectExpectationHorizon": {
+          "officialText": "",
+          "studentVersion": "",
+          "sourcePages": [
+            "Nuestro libro de proyectos Tomo I pp. 83-86"
+          ],
+          "evidence": "El PA 10 cuenta con paginas de proyecto, producto de cierre, conceptos y videos directos validados; el horizonte textual literal queda pendiente de transcripcion fina.",
+          "status": "pending"
+        },
+        "detonatingStrategy": {
+          "title": "4. Patrimonio cultural y el dinamismo de las lenguas • Lenguajes • 3er grado",
+          "text": "Video del Proyecto Parcial de Aula 4: 4. Patrimonio cultural y el dinamismo de las lenguas • Lenguajes • 3er grado",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=vpbNe7xpt7E",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "partial-classroom-project"
+        },
+        "academicProjectStrategy": {
+          "title": "Línea del tiempo ilustrada • Lenguajes • 3er. grado",
+          "text": "Video detonador del Proyecto Academico 10: La línea del tiempo: cambios culturales y lingüísticos",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=9DdaJfRUrpo",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "academic-project"
+        },
+        "academicConcepts": [
+          {
+            "concept": "Línea del tiempo ilustrada",
+            "description": "Línea del tiempo ilustrada organiza el producto de cierre y permite comunicar lo aprendido en el proyecto.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              83
+            ],
+            "sourcePagesLabel": "p. 83",
+            "topicTitle": "Proyecto academico 10",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 10, al PPA 4 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Lenguaje",
+            "description": "Lenguaje ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              83
+            ],
+            "sourcePagesLabel": "p. 83",
+            "topicTitle": "Proyecto academico 10",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 10, al PPA 4 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Cultura",
+            "description": "Cultura ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              154
+            ],
+            "sourcePagesLabel": "p. 154",
+            "topicTitle": "Proyecto academico 10",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 10, al PPA 4 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Comunicacion",
+            "description": "Comunicacion ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              83
+            ],
+            "sourcePagesLabel": "p. 83",
+            "topicTitle": "Proyecto academico 10",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 10, al PPA 4 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Lectura",
+            "description": "Lectura ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              83
+            ],
+            "sourcePagesLabel": "p. 83",
+            "topicTitle": "Proyecto academico 10",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 10, al PPA 4 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Escritura",
+            "description": "Escritura ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              83
+            ],
+            "sourcePagesLabel": "p. 83",
+            "topicTitle": "Proyecto academico 10",
+            "status": "suggested",
+            "reason": "Concepto vinculado al PA 10, al PPA 4 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "teacher-review"
+          }
+        ],
+        "thinkingCriteria": [
+          "Relacionar La línea del tiempo: cambios culturales y lingüísticos con una situacion concreta del entorno escolar o comunitario.",
+          "Usar línea del tiempo ilustrada para explicar ideas con claridad y evidencia."
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Como te ayuda línea del tiempo ilustrada a comprender mejor La línea del tiempo: cambios culturales y lingüísticos y a explicar sus conceptos clave en tu comunidad?",
+            "conceptsActivated": [
+              "Línea del tiempo ilustrada",
+              "Lenguaje",
+              "Cultura",
+              "Comunicacion"
+            ],
+            "suggestedUse": "Momento 1 de autoevaluacion"
+          }
+        ],
+        "validationStatus": {
+          "readinessLevel": "curricular-bundle-generated",
+          "readyForActivities": true,
+          "needsReviewReasons": [
+            "El horizonte textual literal queda pendiente de revision fina si se requiere cita exacta.",
+            "Los apoyos complementarios impresos no se asignan cuando no hay evidencia validada por columna."
+          ]
+        },
+        "readinessLevel": "curricular-bundle-generated",
+        "readyForActivities": true,
+        "needsReviewReasons": []
+      },
+      {
+        "id": "lenguajes-3-ppa-4-pa11",
+        "projectId": "lenguajes-3-ppa-4-pa11",
+        "academicProjectNumber": 11,
+        "title": "Valorar las expresiones culturales, reinterpretar la cultura.......................",
+        "projectTitle": "Valorar las expresiones culturales, reinterpretar la cultura.......................",
+        "grade": "3",
+        "field": "Lenguajes",
+        "ppaNumber": "4",
+        "partialClassroomProject": "PPA 4",
+        "partialClassroomProjectTitle": "Patrimonio cultural y el dinamismo de las lenguas",
+        "bookVolume": "Tomo I",
+        "sourceValidation": {
+          "sourceStatus": "linked",
+          "possibilitiesPages": [
+            12,
+            13
+          ],
+          "possibilitiesMaterialId": "grade-3-posibilidades-pos-len-3",
+          "possibilitiesColumnIndex": 2,
+          "columnEvidence": "Proyecto PA 11 agrupado en el PPA 4 desde el catalogo canonico y las paginas de Posibilidades."
+        },
+        "finalProduct": {
+          "title": "7. Arte, lengua y cultura: las manifestaciones de nuestro lugar",
+          "source": "Video detonador validado en YouTube + Nuestro libro de proyectos Tomo I pp. 87-90",
+          "status": "confirmed-from-video-and-project"
+        },
+        "sourcePages": {
+          "nuestroLibroProyectos": [
+            {
+              "materialId": "grade-3-proyectos-nuestros-proyectos-tomo-1-tercer-grado",
+              "label": "Nuestro libro de proyectos Tomo I",
+              "startPage": 87,
+              "endPage": 90,
+              "pagesLabel": "pp. 87-90",
+              "topicTitle": "Proyecto academico 11",
+              "status": "confirmed-source"
+            }
+          ],
+          "conceptBook": [
+            {
+              "materialId": "grade-3-conceptos-lenguajes-tercer-grado",
+              "label": "Lenguajes",
+              "startPage": 87,
+              "endPage": 87,
+              "pagesLabel": "p. 87",
+              "topicTitle": "7. arte, lengua y cultura: las manifestaciones de nuestro lugar",
+              "status": "confirmed"
+            }
+          ],
+          "multiplesLenguajes": [],
+          "otherMaterials": [
+            {
+              "label": "Video PA 11: 7. Arte, lengua y cultura: las manifestaciones de nuestro lugar • Lenguajes • 3er grado",
+              "reference": "https://www.youtube.com/watch?v=VSQPEFeAP1A",
+              "status": "confirmed"
+            },
+            {
+              "label": "Video PPA 4: 4. Patrimonio cultural y el dinamismo de las lenguas • Lenguajes • 3er grado",
+              "reference": "https://www.youtube.com/watch?v=vpbNe7xpt7E",
+              "status": "confirmed"
+            }
+          ]
+        },
+        "supportMaterials": [],
+        "horizonOrPurpose": {
+          "status": "pending",
+          "text": "",
+          "source": "Nuestro libro de proyectos Tomo I pp. 87-90"
+        },
+        "projectExpectationHorizon": {
+          "officialText": "",
+          "studentVersion": "",
+          "sourcePages": [
+            "Nuestro libro de proyectos Tomo I pp. 87-90"
+          ],
+          "evidence": "El PA 11 cuenta con paginas de proyecto, producto de cierre, conceptos y videos directos validados; el horizonte textual literal queda pendiente de transcripcion fina.",
+          "status": "pending"
+        },
+        "detonatingStrategy": {
+          "title": "4. Patrimonio cultural y el dinamismo de las lenguas • Lenguajes • 3er grado",
+          "text": "Video del Proyecto Parcial de Aula 4: 4. Patrimonio cultural y el dinamismo de las lenguas • Lenguajes • 3er grado",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=vpbNe7xpt7E",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "partial-classroom-project"
+        },
+        "academicProjectStrategy": {
+          "title": "7. Arte, lengua y cultura: las manifestaciones de nuestro lugar • Lenguajes • 3er grado",
+          "text": "Video detonador del Proyecto Academico 11: Valorar las expresiones culturales, reinterpretar la cultura.......................",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=VSQPEFeAP1A",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "academic-project"
+        },
+        "academicConcepts": [
+          {
+            "concept": "7. arte, lengua y cultura: las manifestaciones de nuestro lugar",
+            "description": "7. arte, lengua y cultura: las manifestaciones de nuestro lugar organiza el producto de cierre y permite comunicar lo aprendido en el proyecto.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              87
+            ],
+            "sourcePagesLabel": "p. 87",
+            "topicTitle": "Proyecto academico 11",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 11, al PPA 4 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Lenguaje",
+            "description": "Lenguaje ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              87
+            ],
+            "sourcePagesLabel": "p. 87",
+            "topicTitle": "Proyecto academico 11",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 11, al PPA 4 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Cultura",
+            "description": "Cultura ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              154
+            ],
+            "sourcePagesLabel": "p. 154",
+            "topicTitle": "Proyecto academico 11",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 11, al PPA 4 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Comunicacion",
+            "description": "Comunicacion ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              87
+            ],
+            "sourcePagesLabel": "p. 87",
+            "topicTitle": "Proyecto academico 11",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 11, al PPA 4 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Lectura",
+            "description": "Lectura ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              87
+            ],
+            "sourcePagesLabel": "p. 87",
+            "topicTitle": "Proyecto academico 11",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 11, al PPA 4 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Escritura",
+            "description": "Escritura ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              87
+            ],
+            "sourcePagesLabel": "p. 87",
+            "topicTitle": "Proyecto academico 11",
+            "status": "suggested",
+            "reason": "Concepto vinculado al PA 11, al PPA 4 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "teacher-review"
+          }
+        ],
+        "thinkingCriteria": [
+          "Relacionar Valorar las expresiones culturales, reinterpretar la cultura....................... con una situacion concreta del entorno escolar o comunitario.",
+          "Usar 7. arte, lengua y cultura: las manifestaciones de nuestro lugar para explicar ideas con claridad y evidencia."
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Como te ayuda 7. arte, lengua y cultura: las manifestaciones de nuestro lugar a comprender mejor Valorar las expresiones culturales, reinterpretar la cultura....................... y a explicar sus conceptos clave en tu comunidad?",
+            "conceptsActivated": [
+              "7. arte, lengua y cultura: las manifestaciones de nuestro lugar",
+              "Lenguaje",
+              "Cultura",
+              "Comunicacion"
+            ],
+            "suggestedUse": "Momento 1 de autoevaluacion"
+          }
+        ],
+        "validationStatus": {
+          "readinessLevel": "curricular-bundle-generated",
+          "readyForActivities": true,
+          "needsReviewReasons": [
+            "El horizonte textual literal queda pendiente de revision fina si se requiere cita exacta.",
+            "Los apoyos complementarios impresos no se asignan cuando no hay evidencia validada por columna."
+          ]
+        },
+        "readinessLevel": "curricular-bundle-generated",
+        "readyForActivities": true,
+        "needsReviewReasons": []
+      },
+      {
+        "id": "lenguajes-3-ppa-4-pa12",
+        "projectId": "lenguajes-3-ppa-4-pa12",
+        "academicProjectNumber": 12,
+        "title": "¡Las lenguas y el patrimonio cultural van de la mano!",
+        "projectTitle": "¡Las lenguas y el patrimonio cultural van de la mano!",
+        "grade": "3",
+        "field": "Lenguajes",
+        "ppaNumber": "4",
+        "partialClassroomProject": "PPA 4",
+        "partialClassroomProjectTitle": "Patrimonio cultural y el dinamismo de las lenguas",
+        "bookVolume": "Tomo I",
+        "sourceValidation": {
+          "sourceStatus": "linked",
+          "possibilitiesPages": [
+            12,
+            13
+          ],
+          "possibilitiesMaterialId": "grade-3-posibilidades-pos-len-3",
+          "possibilitiesColumnIndex": 3,
+          "columnEvidence": "Proyecto PA 12 agrupado en el PPA 4 desde el catalogo canonico y las paginas de Posibilidades."
+        },
+        "finalProduct": {
+          "title": "4. Patrimonio cultural y el dinamismo de las lenguas",
+          "source": "Video detonador validado en YouTube + Nuestro libro de proyectos Tomo I pp. 91-94",
+          "status": "confirmed-from-video-and-project"
+        },
+        "sourcePages": {
+          "nuestroLibroProyectos": [
+            {
+              "materialId": "grade-3-proyectos-nuestros-proyectos-tomo-1-tercer-grado",
+              "label": "Nuestro libro de proyectos Tomo I",
+              "startPage": 91,
+              "endPage": 94,
+              "pagesLabel": "pp. 91-94",
+              "topicTitle": "Proyecto academico 12",
+              "status": "confirmed-source"
+            }
+          ],
+          "conceptBook": [
+            {
+              "materialId": "grade-3-conceptos-lenguajes-tercer-grado",
+              "label": "Lenguajes",
+              "startPage": 91,
+              "endPage": 91,
+              "pagesLabel": "p. 91",
+              "topicTitle": "4. patrimonio cultural y el dinamismo de las lenguas",
+              "status": "confirmed"
+            }
+          ],
+          "multiplesLenguajes": [],
+          "otherMaterials": [
+            {
+              "label": "Video PA 12: 4. Patrimonio cultural y el dinamismo de las lenguas • Lenguajes • 3er grado",
+              "reference": "https://www.youtube.com/watch?v=vpbNe7xpt7E",
+              "status": "confirmed"
+            },
+            {
+              "label": "Video PPA 4: 4. Patrimonio cultural y el dinamismo de las lenguas • Lenguajes • 3er grado",
+              "reference": "https://www.youtube.com/watch?v=vpbNe7xpt7E",
+              "status": "confirmed"
+            }
+          ]
+        },
+        "supportMaterials": [],
+        "horizonOrPurpose": {
+          "status": "pending",
+          "text": "",
+          "source": "Nuestro libro de proyectos Tomo I pp. 91-94"
+        },
+        "projectExpectationHorizon": {
+          "officialText": "",
+          "studentVersion": "",
+          "sourcePages": [
+            "Nuestro libro de proyectos Tomo I pp. 91-94"
+          ],
+          "evidence": "El PA 12 cuenta con paginas de proyecto, producto de cierre, conceptos y videos directos validados; el horizonte textual literal queda pendiente de transcripcion fina.",
+          "status": "pending"
+        },
+        "detonatingStrategy": {
+          "title": "4. Patrimonio cultural y el dinamismo de las lenguas • Lenguajes • 3er grado",
+          "text": "Video del Proyecto Parcial de Aula 4: 4. Patrimonio cultural y el dinamismo de las lenguas • Lenguajes • 3er grado",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=vpbNe7xpt7E",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "partial-classroom-project"
+        },
+        "academicProjectStrategy": {
+          "title": "4. Patrimonio cultural y el dinamismo de las lenguas • Lenguajes • 3er grado",
+          "text": "Video detonador del Proyecto Academico 12: ¡Las lenguas y el patrimonio cultural van de la mano!",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=vpbNe7xpt7E",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "academic-project"
+        },
+        "academicConcepts": [
+          {
+            "concept": "4. patrimonio cultural y el dinamismo de las lenguas",
+            "description": "4. patrimonio cultural y el dinamismo de las lenguas organiza el producto de cierre y permite comunicar lo aprendido en el proyecto.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              91
+            ],
+            "sourcePagesLabel": "p. 91",
+            "topicTitle": "Proyecto academico 12",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 12, al PPA 4 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Lenguaje",
+            "description": "Lenguaje ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              91
+            ],
+            "sourcePagesLabel": "p. 91",
+            "topicTitle": "Proyecto academico 12",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 12, al PPA 4 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Cultura",
+            "description": "Cultura ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              154
+            ],
+            "sourcePagesLabel": "p. 154",
+            "topicTitle": "Proyecto academico 12",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 12, al PPA 4 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Comunicacion",
+            "description": "Comunicacion ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              91
+            ],
+            "sourcePagesLabel": "p. 91",
+            "topicTitle": "Proyecto academico 12",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 12, al PPA 4 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Lectura",
+            "description": "Lectura ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              91
+            ],
+            "sourcePagesLabel": "p. 91",
+            "topicTitle": "Proyecto academico 12",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 12, al PPA 4 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Escritura",
+            "description": "Escritura ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              91
+            ],
+            "sourcePagesLabel": "p. 91",
+            "topicTitle": "Proyecto academico 12",
+            "status": "suggested",
+            "reason": "Concepto vinculado al PA 12, al PPA 4 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "teacher-review"
+          }
+        ],
+        "thinkingCriteria": [
+          "Relacionar ¡Las lenguas y el patrimonio cultural van de la mano! con una situacion concreta del entorno escolar o comunitario.",
+          "Usar 4. patrimonio cultural y el dinamismo de las lenguas para explicar ideas con claridad y evidencia."
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Como te ayuda 4. patrimonio cultural y el dinamismo de las lenguas a comprender mejor ¡Las lenguas y el patrimonio cultural van de la mano! y a explicar sus conceptos clave en tu comunidad?",
+            "conceptsActivated": [
+              "4. patrimonio cultural y el dinamismo de las lenguas",
+              "Lenguaje",
+              "Cultura",
+              "Comunicacion"
+            ],
+            "suggestedUse": "Momento 1 de autoevaluacion"
+          }
+        ],
+        "validationStatus": {
+          "readinessLevel": "curricular-bundle-generated",
+          "readyForActivities": true,
+          "needsReviewReasons": [
+            "El horizonte textual literal queda pendiente de revision fina si se requiere cita exacta.",
+            "Los apoyos complementarios impresos no se asignan cuando no hay evidencia validada por columna."
+          ]
+        },
+        "readinessLevel": "curricular-bundle-generated",
+        "readyForActivities": true,
+        "needsReviewReasons": []
+      }
+    ]
+  },
+  "conceptsValidation": {
+    "grade": "3",
+    "field": "Lenguajes",
+    "ppaNumber": "4",
+    "status": "concept-validation",
+    "generatedAt": "2026-06-07T03:06:27.140Z",
+    "entries": [
+      {
+        "projectId": "lenguajes-3-ppa-4-pa10",
+        "projectTitle": "La línea del tiempo: cambios culturales y lingüísticos",
+        "concept": "Línea del tiempo ilustrada",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            83
+          ],
+          "reason": "Concepto vinculado al PA 10, al PPA 4 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-4-pa10",
+        "projectTitle": "La línea del tiempo: cambios culturales y lingüísticos",
+        "concept": "Lenguaje",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            83
+          ],
+          "reason": "Concepto vinculado al PA 10, al PPA 4 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-4-pa10",
+        "projectTitle": "La línea del tiempo: cambios culturales y lingüísticos",
+        "concept": "Cultura",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            154
+          ],
+          "reason": "Concepto vinculado al PA 10, al PPA 4 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-4-pa10",
+        "projectTitle": "La línea del tiempo: cambios culturales y lingüísticos",
+        "concept": "Comunicacion",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            83
+          ],
+          "reason": "Concepto vinculado al PA 10, al PPA 4 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-4-pa10",
+        "projectTitle": "La línea del tiempo: cambios culturales y lingüísticos",
+        "concept": "Lectura",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            83
+          ],
+          "reason": "Concepto vinculado al PA 10, al PPA 4 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-4-pa10",
+        "projectTitle": "La línea del tiempo: cambios culturales y lingüísticos",
+        "concept": "Escritura",
+        "status": "suggested",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            83
+          ],
+          "reason": "Concepto vinculado al PA 10, al PPA 4 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "teacher-review"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-4-pa11",
+        "projectTitle": "Valorar las expresiones culturales, reinterpretar la cultura.......................",
+        "concept": "7. arte, lengua y cultura: las manifestaciones de nuestro lugar",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            87
+          ],
+          "reason": "Concepto vinculado al PA 11, al PPA 4 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-4-pa11",
+        "projectTitle": "Valorar las expresiones culturales, reinterpretar la cultura.......................",
+        "concept": "Lenguaje",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            87
+          ],
+          "reason": "Concepto vinculado al PA 11, al PPA 4 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-4-pa11",
+        "projectTitle": "Valorar las expresiones culturales, reinterpretar la cultura.......................",
+        "concept": "Cultura",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            154
+          ],
+          "reason": "Concepto vinculado al PA 11, al PPA 4 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-4-pa11",
+        "projectTitle": "Valorar las expresiones culturales, reinterpretar la cultura.......................",
+        "concept": "Comunicacion",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            87
+          ],
+          "reason": "Concepto vinculado al PA 11, al PPA 4 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-4-pa11",
+        "projectTitle": "Valorar las expresiones culturales, reinterpretar la cultura.......................",
+        "concept": "Lectura",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            87
+          ],
+          "reason": "Concepto vinculado al PA 11, al PPA 4 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-4-pa11",
+        "projectTitle": "Valorar las expresiones culturales, reinterpretar la cultura.......................",
+        "concept": "Escritura",
+        "status": "suggested",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            87
+          ],
+          "reason": "Concepto vinculado al PA 11, al PPA 4 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "teacher-review"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-4-pa12",
+        "projectTitle": "¡Las lenguas y el patrimonio cultural van de la mano!",
+        "concept": "4. patrimonio cultural y el dinamismo de las lenguas",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            91
+          ],
+          "reason": "Concepto vinculado al PA 12, al PPA 4 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-4-pa12",
+        "projectTitle": "¡Las lenguas y el patrimonio cultural van de la mano!",
+        "concept": "Lenguaje",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            91
+          ],
+          "reason": "Concepto vinculado al PA 12, al PPA 4 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-4-pa12",
+        "projectTitle": "¡Las lenguas y el patrimonio cultural van de la mano!",
+        "concept": "Cultura",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            154
+          ],
+          "reason": "Concepto vinculado al PA 12, al PPA 4 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-4-pa12",
+        "projectTitle": "¡Las lenguas y el patrimonio cultural van de la mano!",
+        "concept": "Comunicacion",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            91
+          ],
+          "reason": "Concepto vinculado al PA 12, al PPA 4 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-4-pa12",
+        "projectTitle": "¡Las lenguas y el patrimonio cultural van de la mano!",
+        "concept": "Lectura",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            91
+          ],
+          "reason": "Concepto vinculado al PA 12, al PPA 4 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-4-pa12",
+        "projectTitle": "¡Las lenguas y el patrimonio cultural van de la mano!",
+        "concept": "Escritura",
+        "status": "suggested",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            91
+          ],
+          "reason": "Concepto vinculado al PA 12, al PPA 4 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "teacher-review"
+      }
+    ]
+  },
+  "pedagogicalArticulation": {
+    "grade": "3",
+    "field": "Lenguajes",
+    "ppaNumber": "4",
+    "status": "teacher-orientation",
+    "officialHorizonStatus": "pending",
+    "situatedPedagogicalOrientation": "El PPA 4 propone trabajar Patrimonio cultural y el dinamismo de las lenguas mediante productos de cierre, conceptos confirmados y videos directos para reforzar la autoevaluacion.",
+    "integratingQuestions": [
+      "¿Como se relacionan los tres proyectos academicos del PPA 4 con Patrimonio cultural y el dinamismo de las lenguas?",
+      "¿Que conceptos necesita dominar el estudiante para explicar su producto final?",
+      "¿Como usar el producto final para comunicar una comprension y no solo presentar informacion?"
+    ],
+    "possibleResonanceQuestion": "¿Que comprension nueva sobre Patrimonio cultural y el dinamismo de las lenguas puedes explicar con los productos del PPA 4?",
+    "teacherNotes": [
+      "Usar los videos directos como detonadores, no como enlaces de busqueda.",
+      "Retomar los conceptos confirmados antes de resolver la relacion de columnas y el juego."
+    ],
+    "projectConnections": [
+      {
+        "projectId": "lenguajes-3-ppa-4-pa10",
+        "projectTitle": "La línea del tiempo: cambios culturales y lingüísticos",
+        "roleInPpa": "Aporta línea del tiempo ilustrada al desarrollo del PPA 4.",
+        "confirmedConcepts": [
+          "Línea del tiempo ilustrada",
+          "Lenguaje",
+          "Cultura",
+          "Comunicacion",
+          "Lectura"
+        ],
+        "suggestedConcepts": [
+          "Escritura"
+        ],
+        "pedagogicalUse": "Video detonador del Proyecto Academico 10: La línea del tiempo: cambios culturales y lingüísticos"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-4-pa11",
+        "projectTitle": "Valorar las expresiones culturales, reinterpretar la cultura.......................",
+        "roleInPpa": "Aporta 7. arte, lengua y cultura: las manifestaciones de nuestro lugar al desarrollo del PPA 4.",
+        "confirmedConcepts": [
+          "7. arte, lengua y cultura: las manifestaciones de nuestro lugar",
+          "Lenguaje",
+          "Cultura",
+          "Comunicacion",
+          "Lectura"
+        ],
+        "suggestedConcepts": [
+          "Escritura"
+        ],
+        "pedagogicalUse": "Video detonador del Proyecto Academico 11: Valorar las expresiones culturales, reinterpretar la cultura......................."
+      },
+      {
+        "projectId": "lenguajes-3-ppa-4-pa12",
+        "projectTitle": "¡Las lenguas y el patrimonio cultural van de la mano!",
+        "roleInPpa": "Aporta 4. patrimonio cultural y el dinamismo de las lenguas al desarrollo del PPA 4.",
+        "confirmedConcepts": [
+          "4. patrimonio cultural y el dinamismo de las lenguas",
+          "Lenguaje",
+          "Cultura",
+          "Comunicacion",
+          "Lectura"
+        ],
+        "suggestedConcepts": [
+          "Escritura"
+        ],
+        "pedagogicalUse": "Video detonador del Proyecto Academico 12: ¡Las lenguas y el patrimonio cultural van de la mano!"
+      }
+    ]
+  },
+  "teacherNotesAndResonances": {
+    "grade": "3",
+    "field": "Lenguajes",
+    "ppaNumber": "4",
+    "status": "teacher-notes-and-resonances",
+    "officialHorizonStatus": "pending",
+    "ppaIntegratingResonance": "¿Que comprension nueva sobre Patrimonio cultural y el dinamismo de las lenguas puedes explicar con los productos del PPA 4?",
+    "didacticWarnings": [
+      "No sustituir el producto final por la reproduccion del video.",
+      "Evitar marcar apoyos impresos como confirmados si no existe evidencia por columna."
+    ],
+    "communityPrompts": {
+      "territoryLanguageMemory": [
+        "¿Que palabras, practicas o problemas del entorno ayudan a entender mejor este PPA?"
+      ],
+      "productCommunityConnection": [
+        "¿Como puede circular el producto final dentro de la comunidad escolar?"
+      ]
+    },
+    "projects": [
+      {
+        "projectId": "lenguajes-3-ppa-4-pa10",
+        "projectTitle": "La línea del tiempo: cambios culturales y lingüísticos",
+        "teacherNotes": [
+          "Retomar línea del tiempo ilustrada como evidencia del aprendizaje.",
+          "Usar los conceptos confirmados para orientar la autoevaluacion."
+        ],
+        "confirmedConceptsToUse": [
+          "Línea del tiempo ilustrada",
+          "Lenguaje",
+          "Cultura",
+          "Comunicacion",
+          "Lectura"
+        ],
+        "suggestedConceptsToHandleCarefully": [
+          "Escritura"
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Como te ayuda línea del tiempo ilustrada a comprender mejor La línea del tiempo: cambios culturales y lingüísticos y a explicar sus conceptos clave en tu comunidad?",
+            "conceptsActivated": [
+              "Línea del tiempo ilustrada",
+              "Lenguaje",
+              "Cultura",
+              "Comunicacion"
+            ],
+            "suggestedUse": "Momento 1 de autoevaluacion"
+          }
+        ],
+        "notReadyFor": []
+      },
+      {
+        "projectId": "lenguajes-3-ppa-4-pa11",
+        "projectTitle": "Valorar las expresiones culturales, reinterpretar la cultura.......................",
+        "teacherNotes": [
+          "Retomar 7. arte, lengua y cultura: las manifestaciones de nuestro lugar como evidencia del aprendizaje.",
+          "Usar los conceptos confirmados para orientar la autoevaluacion."
+        ],
+        "confirmedConceptsToUse": [
+          "7. arte, lengua y cultura: las manifestaciones de nuestro lugar",
+          "Lenguaje",
+          "Cultura",
+          "Comunicacion",
+          "Lectura"
+        ],
+        "suggestedConceptsToHandleCarefully": [
+          "Escritura"
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Como te ayuda 7. arte, lengua y cultura: las manifestaciones de nuestro lugar a comprender mejor Valorar las expresiones culturales, reinterpretar la cultura....................... y a explicar sus conceptos clave en tu comunidad?",
+            "conceptsActivated": [
+              "7. arte, lengua y cultura: las manifestaciones de nuestro lugar",
+              "Lenguaje",
+              "Cultura",
+              "Comunicacion"
+            ],
+            "suggestedUse": "Momento 1 de autoevaluacion"
+          }
+        ],
+        "notReadyFor": []
+      },
+      {
+        "projectId": "lenguajes-3-ppa-4-pa12",
+        "projectTitle": "¡Las lenguas y el patrimonio cultural van de la mano!",
+        "teacherNotes": [
+          "Retomar 4. patrimonio cultural y el dinamismo de las lenguas como evidencia del aprendizaje.",
+          "Usar los conceptos confirmados para orientar la autoevaluacion."
+        ],
+        "confirmedConceptsToUse": [
+          "4. patrimonio cultural y el dinamismo de las lenguas",
+          "Lenguaje",
+          "Cultura",
+          "Comunicacion",
+          "Lectura"
+        ],
+        "suggestedConceptsToHandleCarefully": [
+          "Escritura"
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Como te ayuda 4. patrimonio cultural y el dinamismo de las lenguas a comprender mejor ¡Las lenguas y el patrimonio cultural van de la mano! y a explicar sus conceptos clave en tu comunidad?",
+            "conceptsActivated": [
+              "4. patrimonio cultural y el dinamismo de las lenguas",
+              "Lenguaje",
+              "Cultura",
+              "Comunicacion"
+            ],
+            "suggestedUse": "Momento 1 de autoevaluacion"
+          }
+        ],
+        "notReadyFor": []
+      }
+    ]
+  },
+  "validationAudit": {
+    "kind": "generated-validation-audit",
+    "source": "reports/caracoles/grade3-lenguajes-ppa4-reading-bundle-audit.md",
+    "content": "# Bundle curricular tercer grado\n\n- Campo: Lenguajes\n- PPA: 4\n- Titulo: Patrimonio cultural y el dinamismo de las lenguas\n- Proyectos: PA10, PA11, PA12\n- Estado: generado y publicado\n- Cautela: horizonte literal y apoyos impresos por columna pendientes de revision fina.\n"
+  }
+}

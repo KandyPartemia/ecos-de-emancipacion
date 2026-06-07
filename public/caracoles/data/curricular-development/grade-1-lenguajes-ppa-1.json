@@ -1,0 +1,1630 @@
+{
+  "grade": "1",
+  "gradeLabel": "Primer grado",
+  "field": "Lenguajes",
+  "ppaNumber": "1",
+  "partialClassroomProject": "PPA 1",
+  "partialClassroomProjectTitle": "Asi lo siento, asi te lo comparto!",
+  "source": "curricular-development-pilot",
+  "generatedAt": "2026-06-04T15:51:04.565Z",
+  "development": {
+    "grade": "1",
+    "gradeLabel": "Primer grado",
+    "field": "Lenguajes",
+    "bookVolume": "Tomo I",
+    "partialClassroomProject": "PPA 1",
+    "partialClassroomProjectTitle": "Asi lo siento, asi te lo comparto!",
+    "generatedAt": "2026-06-01T04:42:18.168Z",
+    "notes": "Capa curricular aislada para 1° Lenguajes PPA 1.",
+    "sourcesUsed": [
+      "reports/caracoles/grade1-lenguajes-reading-teacher-hito-2-standard.md",
+      "content/caracoles/curricular-links/grade-1-project-source-links.json",
+      "content/caracoles/generated-private/grade-1/pages-index.full.json",
+      "Posibilidades de uso Lenguajes, primer grado, p. 6",
+      "Nuestro libro de proyectos Tomo I, primer grado, pp. 36-49"
+    ],
+    "partialClassroomProjectContext": {
+      "expectationHorizon": {
+        "officialText": "",
+        "sourcePages": [
+          "Nuestro libro de proyectos Tomo I p. 49",
+          "Posibilidades de uso Lenguajes p. 6"
+        ],
+        "evidence": "El PPA 1 articula la riqueza linguistica y artistica de Mexico y del mundo, pero no se localizo un horizonte comun redactado como formula oficial unica. La presentacion final del bloque en p. 49 confirma la articulacion compartida.",
+        "status": "pending"
+      },
+      "ppaDetonatingStrategy": {
+        "title": "Asi lo siento, asi te lo comparto!",
+        "type": "video",
+        "url": "",
+        "urlStatus": "pending-url",
+        "source": "Posibilidades de uso Lenguajes p. 6",
+        "scope": "partial-classroom-project",
+        "youtubeSearchQuery": "Asi lo siento, asi te lo comparto! Lenguajes 1er grado Telesecundaria"
+      },
+      "ppaDigitalResource": {
+        "title": "Recurso informatico del bloque PPA 1",
+        "reference": "bit.ly/3WQBMwg",
+        "status": "pending-validation",
+        "source": "Nuestro libro de proyectos Tomo I p. 49"
+      },
+      "validationStatus": {
+        "needsHumanReview": true,
+        "needsReviewReasons": [
+          "La p. 6 de Posibilidades contiene el bloque completo del PPA 1; el OCR mezcla columnas, pero el orden de titulos, productos y apoyos permite fijar PA1, PA2 y PA3 de izquierda a derecha.",
+          "Los enlaces cortos del bloque se mantienen como referencias de cautela hasta localizar un destino final confirmado."
+        ]
+      },
+      "columnValidation": {
+        "possibilitiesPagesReviewed": [
+          6
+        ],
+        "confirmedAsPpa": true,
+        "note": "La p. 6 de Posibilidades corresponde al bloque completo del PPA 1. La asignacion por columna se valida por la secuencia PA1-PA3, sus productos y los apoyos de Multiples Lenguajes listados en el mismo orden.",
+        "columns": [
+          {
+            "columnIndex": 1,
+            "projectId": "lenguajes-1-ppa-1-pa1",
+            "projectTitle": "Asi lo expresan, asi lo deben sentir y pensar",
+            "finalProduct": "Encuentro breve de lecturas comentadas",
+            "supportMaterials": [
+              "Vive el cantar de los viejos, pp. 46-47"
+            ]
+          },
+          {
+            "columnIndex": 2,
+            "projectId": "lenguajes-1-ppa-1-pa2",
+            "projectTitle": "Cada uno con sus propias palabras",
+            "finalProduct": "Tarjetas multiculturales comparativas",
+            "supportMaterials": [
+              "Carta desde Varsovia, pp. 48-53"
+            ]
+          },
+          {
+            "columnIndex": 3,
+            "projectId": "lenguajes-1-ppa-1-pa3",
+            "projectTitle": "Conversar y compartir, ese es el fin",
+            "finalProduct": "Tertulia artistica",
+            "supportMaterials": [
+              "El caso del puntillismo, pp. 90-95"
+            ]
+          }
+        ]
+      }
+    },
+    "academicProjects": [
+      {
+        "id": "lenguajes-1-ppa-1-pa1",
+        "projectId": "lenguajes-1-ppa-1-pa1",
+        "academicProjectNumber": 1,
+        "title": "Asi lo expresan, asi lo deben sentir y pensar",
+        "projectTitle": "Asi lo expresan, asi lo deben sentir y pensar",
+        "grade": "1",
+        "field": "Lenguajes",
+        "ppaNumber": "1",
+        "partialClassroomProject": "PPA 1",
+        "partialClassroomProjectTitle": "Asi lo siento, asi te lo comparto!",
+        "bookVolume": "Tomo I",
+        "sourceValidation": {
+          "sourceStatus": "linked",
+          "possibilitiesPages": [
+            6
+          ],
+          "possibilitiesMaterialId": "grade-1-posibilidades-pos-len-1",
+          "possibilitiesColumnIndex": 1,
+          "columnEvidence": "Bloque PPA 1 Asi lo siento, asi te lo comparto! localizado en p. 6; la columna 1 se confirma por el orden de titulos, productos y apoyos del bloque."
+        },
+        "finalProduct": {
+          "title": "Encuentro breve de lecturas comentadas",
+          "source": "Posibilidades de uso Lenguajes p. 6 + Nuestro libro de proyectos Tomo I pp. 36-40",
+          "status": "confirmed"
+        },
+        "sourcePages": {
+          "nuestroLibroProyectos": [
+            {
+              "materialId": "grade-1-proyectos-nuestro-libro-de-proyectos-tomo-i-primer-grado",
+              "label": "Nuestro libro de proyectos Tomo I",
+              "startPage": 36,
+              "endPage": 40,
+              "pagesLabel": "pp. 36-40",
+              "topicTitle": "Proyecto academico 1",
+              "status": "confirmed-source"
+            }
+          ],
+          "conceptBook": [
+            {
+              "materialId": "grade-1-conceptos-lenguajes-primer-grado",
+              "label": "Lenguajes",
+              "startPage": 25,
+              "endPage": 25,
+              "pagesLabel": "p. 25",
+              "topicTitle": "Creaciones literarias de la comunidad",
+              "status": "confirmed-source"
+            },
+            {
+              "materialId": "grade-1-conceptos-lenguajes-primer-grado",
+              "label": "Lenguajes",
+              "startPage": 26,
+              "endPage": 29,
+              "pagesLabel": "pp. 26-29",
+              "topicTitle": "Manifestaciones literarias comunitarias",
+              "status": "confirmed-source"
+            },
+            {
+              "materialId": "grade-1-conceptos-lenguajes-primer-grado",
+              "label": "Lenguajes",
+              "startPage": 30,
+              "endPage": 31,
+              "pagesLabel": "pp. 30-31",
+              "topicTitle": "La antologia literaria",
+              "status": "confirmed-source"
+            },
+            {
+              "materialId": "grade-1-conceptos-lenguajes-primer-grado",
+              "label": "Lenguajes",
+              "startPage": 44,
+              "endPage": 44,
+              "pagesLabel": "p. 44",
+              "topicTitle": "El comentario y la exposicion como recursos comunicativos",
+              "status": "confirmed-source"
+            },
+            {
+              "materialId": "grade-1-conceptos-lenguajes-primer-grado",
+              "label": "Lenguajes",
+              "startPage": 45,
+              "endPage": 46,
+              "pagesLabel": "pp. 45-46",
+              "topicTitle": "El comentario de texto",
+              "status": "confirmed-source"
+            },
+            {
+              "materialId": "grade-1-conceptos-lenguajes-primer-grado",
+              "label": "Lenguajes",
+              "startPage": 47,
+              "endPage": 48,
+              "pagesLabel": "pp. 47-48",
+              "topicTitle": "Caracteristicas de la exposicion oral y escrita",
+              "status": "confirmed-source"
+            }
+          ],
+          "multiplesLenguajes": [
+            {
+              "materialId": "grade-1-apoyo-muiltiples-lenguajes-primer-grado",
+              "label": "Multiples Lenguajes",
+              "startPage": 46,
+              "endPage": 47,
+              "pagesLabel": "pp. 46-47",
+              "topicTitle": "Vive el cantar de los viejos",
+              "status": "confirmed-source"
+            }
+          ],
+          "otherMaterials": [
+            {
+              "label": "Video PA 1: Encuentro breve de lecturas comentadas  • Lenguajes •  1er grado",
+              "reference": "https://www.youtube.com/watch?v=p9ck9Sy3oTg",
+              "status": "confirmed"
+            },
+            {
+              "label": "Video PPA 1: 1. ¡Así lo siento, así te lo comparto! • Lenguajes • 1er grado",
+              "reference": "https://www.youtube.com/watch?v=6EvJpfRJtnc",
+              "status": "confirmed"
+            }
+          ]
+        },
+        "supportMaterials": [
+          {
+            "title": "Vive el cantar de los viejos",
+            "kind": "Multiples Lenguajes",
+            "pages": "pp. 46-47",
+            "status": "confirmed-source"
+          }
+        ],
+        "horizonOrPurpose": {
+          "status": "official",
+          "text": "Reconocer la riqueza linguistica de Mexico y el mundo por medio de obras literarias procedentes de distintas culturas. Esto mediante un encuentro breve de lecturas comentadas para asi fortalecer la comunicacion familiar, escolar y comunitaria.",
+          "source": "Nuestro libro de proyectos Tomo I p. 36"
+        },
+        "projectExpectationHorizon": {
+          "officialText": "Llevar a cabo un encuentro breve de lecturas comentadas al interior del aula donde se reconozca la riqueza linguistica de Mexico y el mundo, por medio de obras literarias procedentes de distintas culturas para fortalecer la comunicacion familiar, escolar y comunitaria.",
+          "studentVersion": "Seleccionar obras literarias procedentes de la riqueza linguistica de Mexico y el mundo para comentarlas ante familiares, companeros escolares y personas de la comunidad.",
+          "sourcePages": [
+            "Nuestro libro de proyectos Tomo I p. 37"
+          ],
+          "evidence": "La etapa 3 propone objetivos del proyecto como base para construir el horizonte de expectativas del grupo.",
+          "status": "confirmed-from-project-book"
+        },
+        "detonatingStrategy": {
+          "title": "1. ¡Así lo siento, así te lo comparto! • Lenguajes • 1er grado",
+          "text": "Video del Proyecto Parcial de Aula 1: 1. ¡Así lo siento, así te lo comparto! • Lenguajes • 1er grado",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=6EvJpfRJtnc",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "partial-classroom-project"
+        },
+        "academicProjectStrategy": {
+          "title": "Encuentro breve de lecturas comentadas  • Lenguajes •  1er grado",
+          "text": "Video detonador del Proyecto Academico 1: Asi lo expresan, asi lo deben sentir y pensar",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=p9ck9Sy3oTg",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "academic-project"
+        },
+        "academicConcepts": [
+          {
+            "concept": "creaciones literarias de la comunidad",
+            "description": "Producciones literarias ligadas a ideas, sentimientos, usos y costumbres de una comunidad.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              25
+            ],
+            "sourcePagesLabel": "p. 25",
+            "topicTitle": "Creaciones literarias de la comunidad",
+            "status": "confirmed",
+            "reason": "La pagina 25 explica de forma directa que las producciones literarias comunitarias expresan cosmovision, sentimientos y practicas sociales.",
+            "pedagogicalUse": "Ayuda a seleccionar textos significativos para que la lectura comentada no se desligue del origen comunitario de las obras.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "manifestaciones literarias comunitarias",
+            "description": "Relatos, cantos, rezos, coplas y otras formas de tradicion oral y escrita que circulan en la comunidad.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              26,
+              27,
+              28,
+              29
+            ],
+            "sourcePagesLabel": "pp. 26-29",
+            "topicTitle": "Manifestaciones literarias comunitarias",
+            "status": "confirmed",
+            "reason": "Las paginas 26-29 desarrollan la tradicion oral, sus ejemplos y su valor para el dialogo intercultural escolar.",
+            "pedagogicalUse": "Permite abrir el encuentro de lecturas desde formas de expresion que el estudiantado puede reconocer y comentar.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "antologia literaria",
+            "description": "Coleccion de textos que comparten rasgos y se seleccionan con una intencion comunicativa clara.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              30,
+              31
+            ],
+            "sourcePagesLabel": "pp. 30-31",
+            "topicTitle": "La antologia literaria",
+            "status": "confirmed",
+            "reason": "Aunque el producto no es una antologia, Posibilidades la incluye como base para seleccionar y agrupar lecturas por criterios claros.",
+            "pedagogicalUse": "Ayuda a justificar por que se eligen ciertos textos y no otros al organizar las lecturas comentadas.",
+            "activityReadiness": "usable-for-resonance"
+          },
+          {
+            "concept": "comentario de texto",
+            "description": "Discurso oral o escrito que explica, interpreta y valora un texto a partir de una opinion fundamentada.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              45,
+              46
+            ],
+            "sourcePagesLabel": "pp. 45-46",
+            "topicTitle": "El comentario de texto",
+            "status": "confirmed",
+            "reason": "Las paginas 45-46 desarrollan de forma explicita el comentario de texto como recurso para expresar juicios y dialogar.",
+            "pedagogicalUse": "Es el concepto central para que las intervenciones del encuentro no se queden en gusto personal sin razones.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "exposicion oral",
+            "description": "Presentacion clara y organizada de un tema o lectura ante un publico, con guion, materiales y cierre.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              47,
+              48
+            ],
+            "sourcePagesLabel": "pp. 47-48",
+            "topicTitle": "Caracteristicas de la exposicion oral y escrita",
+            "status": "confirmed",
+            "reason": "Las paginas 47-48 explican como preparar una exposicion y dan elementos que sirven para organizar el encuentro breve.",
+            "pedagogicalUse": "Ayuda a cuidar la organizacion de la participacion y la claridad de los comentarios frente al grupo o la comunidad.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "obras literarias de distintas culturas",
+            "description": "Textos procedentes de Mexico y del mundo que permiten contrastar lenguas, miradas y formas de sentir.",
+            "sourceBook": "Nuestro libro de proyectos Tomo I",
+            "sourcePages": [
+              36,
+              37
+            ],
+            "sourcePagesLabel": "pp. 36-37",
+            "topicTitle": "Proyecto academico 1",
+            "status": "suggested",
+            "reason": "El proyecto lo plantea de forma directa en su proposito y en los objetivos, pero no aparece como titulo conceptual aislado en el libro del campo.",
+            "pedagogicalUse": "Conviene usarlo para abrir la conversacion sobre diversidad sin elevarlo todavia a concepto confirmado independiente.",
+            "activityReadiness": "usable-for-resonance"
+          }
+        ],
+        "thinkingCriteria": [
+          "Comparar textos y comentarios para justificar por que una lectura merece ser compartida.",
+          "Escuchar puntos de vista distintos sin perder claridad ni respeto en la propia participacion.",
+          "Relacionar la riqueza linguistica con experiencias de la familia, la escuela y la comunidad."
+        ],
+        "validationStatus": {
+          "readinessLevel": "development-partial",
+          "readyForActivities": false,
+          "needsReviewReasons": [
+            "El bloque ya es usable como lectura docente, pero los videos y recursos digitales siguen pendientes de validacion de destino final."
+          ]
+        },
+        "readinessLevel": "development-partial",
+        "readyForActivities": false,
+        "needsReviewReasons": [
+          "No mover a actividades interactivas ni desbloquear juegos completos."
+        ]
+      },
+      {
+        "id": "lenguajes-1-ppa-1-pa2",
+        "projectId": "lenguajes-1-ppa-1-pa2",
+        "academicProjectNumber": 2,
+        "title": "Cada uno con sus propias palabras",
+        "projectTitle": "Cada uno con sus propias palabras",
+        "grade": "1",
+        "field": "Lenguajes",
+        "ppaNumber": "1",
+        "partialClassroomProject": "PPA 1",
+        "partialClassroomProjectTitle": "Asi lo siento, asi te lo comparto!",
+        "bookVolume": "Tomo I",
+        "sourceValidation": {
+          "sourceStatus": "linked",
+          "possibilitiesPages": [
+            6
+          ],
+          "possibilitiesMaterialId": "grade-1-posibilidades-pos-len-1",
+          "possibilitiesColumnIndex": 2,
+          "columnEvidence": "Bloque PPA 1 Asi lo siento, asi te lo comparto! localizado en p. 6; la columna 2 se confirma por el orden de titulos, productos y apoyos del bloque."
+        },
+        "finalProduct": {
+          "title": "Tarjetas multiculturales comparativas",
+          "source": "Posibilidades de uso Lenguajes p. 6 + Nuestro libro de proyectos Tomo I pp. 41-44",
+          "status": "confirmed"
+        },
+        "sourcePages": {
+          "nuestroLibroProyectos": [
+            {
+              "materialId": "grade-1-proyectos-nuestro-libro-de-proyectos-tomo-i-primer-grado",
+              "label": "Nuestro libro de proyectos Tomo I",
+              "startPage": 41,
+              "endPage": 44,
+              "pagesLabel": "pp. 41-44",
+              "topicTitle": "Proyecto academico 2",
+              "status": "confirmed-source"
+            }
+          ],
+          "conceptBook": [
+            {
+              "materialId": "grade-1-conceptos-lenguajes-primer-grado",
+              "label": "Lenguajes",
+              "startPage": 84,
+              "endPage": 85,
+              "pagesLabel": "pp. 84-85",
+              "topicTitle": "La diversidad cultural y linguistica",
+              "status": "confirmed-source"
+            },
+            {
+              "materialId": "grade-1-conceptos-lenguajes-primer-grado",
+              "label": "Lenguajes",
+              "startPage": 149,
+              "endPage": 156,
+              "pagesLabel": "pp. 149-156",
+              "topicTitle": "La diversidad linguistica de Mexico y America Latina",
+              "status": "confirmed-source"
+            },
+            {
+              "materialId": "grade-1-conceptos-lenguajes-primer-grado",
+              "label": "Lenguajes",
+              "startPage": 169,
+              "endPage": 172,
+              "pagesLabel": "pp. 169-172",
+              "topicTitle": "Las practicas culturales y la lengua indigena de Mexico I",
+              "status": "confirmed-source"
+            },
+            {
+              "materialId": "grade-1-conceptos-lenguajes-primer-grado",
+              "label": "Lenguajes",
+              "startPage": 176,
+              "endPage": 178,
+              "pagesLabel": "pp. 176-178",
+              "topicTitle": "Las practicas culturales y la lengua indigena de Mexico II",
+              "status": "confirmed-source"
+            },
+            {
+              "materialId": "grade-1-conceptos-lenguajes-primer-grado",
+              "label": "Lenguajes",
+              "startPage": 222,
+              "endPage": 224,
+              "pagesLabel": "pp. 222-224",
+              "topicTitle": "Las caracteristicas de la cultura de las personas de habla inglesa",
+              "status": "confirmed-source"
+            }
+          ],
+          "multiplesLenguajes": [
+            {
+              "materialId": "grade-1-apoyo-muiltiples-lenguajes-primer-grado",
+              "label": "Multiples Lenguajes",
+              "startPage": 48,
+              "endPage": 53,
+              "pagesLabel": "pp. 48-53",
+              "topicTitle": "Carta desde Varsovia",
+              "status": "confirmed-source"
+            }
+          ],
+          "otherMaterials": [
+            {
+              "label": "Video PA 2: Tarjetas multiculturales • Lenguajes • 1er grado",
+              "reference": "https://www.youtube.com/watch?v=13ykW2PSKj0",
+              "status": "confirmed"
+            },
+            {
+              "label": "Video PPA 1: 1. ¡Así lo siento, así te lo comparto! • Lenguajes • 1er grado",
+              "reference": "https://www.youtube.com/watch?v=6EvJpfRJtnc",
+              "status": "confirmed"
+            }
+          ]
+        },
+        "supportMaterials": [
+          {
+            "title": "Carta desde Varsovia",
+            "kind": "Multiples Lenguajes",
+            "pages": "pp. 48-53",
+            "status": "confirmed-source"
+          }
+        ],
+        "horizonOrPurpose": {
+          "status": "official",
+          "text": "Elaborar unas tarjetas multiculturales comparativas con palabras o expresiones en ingles, en espanol y en algunas lenguas indigenas de Mexico y America Latina. La finalidad es realizar algunos comentarios sobre la identidad de los pueblos donde se hablan estas lenguas, a partir de la integracion y valoracion del contenido de estas tarjetas.",
+          "source": "Nuestro libro de proyectos Tomo I p. 41"
+        },
+        "projectExpectationHorizon": {
+          "officialText": "Elaborar tarjetas multiculturales con el fin de identificar y nombrar alimentos en espanol, ingles y lenguas indigenas, mediante la reflexion en comunidad sobre como las palabras de una lengua, sus expresiones, estructuras, sonidos y escritura reflejan la cultura.",
+          "studentVersion": "Investigar algunos ejemplos de palabras en espanol, ingles y lenguas indigenas relacionadas con alimentos con el proposito de integrar un glosario multicultural que enriquezca el conocimiento de la cultura.",
+          "sourcePages": [
+            "Nuestro libro de proyectos Tomo I p. 42"
+          ],
+          "evidence": "La etapa 3 propone objetivos del proyecto como base para construir el horizonte de expectativas del grupo.",
+          "status": "confirmed-from-project-book"
+        },
+        "detonatingStrategy": {
+          "title": "1. ¡Así lo siento, así te lo comparto! • Lenguajes • 1er grado",
+          "text": "Video del Proyecto Parcial de Aula 1: 1. ¡Así lo siento, así te lo comparto! • Lenguajes • 1er grado",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=6EvJpfRJtnc",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "partial-classroom-project"
+        },
+        "academicProjectStrategy": {
+          "title": "Tarjetas multiculturales • Lenguajes • 1er grado",
+          "text": "Video detonador del Proyecto Academico 2: Cada uno con sus propias palabras",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=13ykW2PSKj0",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "academic-project"
+        },
+        "academicConcepts": [
+          {
+            "concept": "tarjetas multiculturales comparativas",
+            "description": "Tarjetas que concentran palabras o expresiones de varias lenguas para compararlas y comentar lo que revelan sobre una cultura.",
+            "sourceBook": "Nuestro libro de proyectos Tomo I",
+            "sourcePages": [
+              41,
+              42,
+              43
+            ],
+            "sourcePagesLabel": "pp. 41-43",
+            "topicTitle": "Proyecto academico 2",
+            "status": "confirmed",
+            "reason": "El producto se nombra de forma explicita desde la etapa 1 y se desarrolla en la propuesta, el paso a paso y la presentacion.",
+            "pedagogicalUse": "Permite materializar la comparacion entre lenguas y hacer visible la relacion entre palabra, cultura e identidad.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "multiculturalidad",
+            "description": "Comprension de varias manifestaciones culturales a partir de la presentacion y comparacion de informacion.",
+            "sourceBook": "Nuestro libro de proyectos Tomo I",
+            "sourcePages": [
+              42
+            ],
+            "sourcePagesLabel": "p. 42",
+            "topicTitle": "Proyecto academico 2",
+            "status": "confirmed",
+            "reason": "La pagina 42 explica que varias tarjetas permiten comprender mejor el concepto de multiculturalidad.",
+            "pedagogicalUse": "Ayuda a que las tarjetas no se queden en traducciones sueltas y se lean como comparaciones entre culturas vivas.",
+            "activityReadiness": "usable-for-resonance"
+          },
+          {
+            "concept": "diversidad cultural y linguistica",
+            "description": "Riqueza que surge cuando comunidades distintas conviven, hablan, piensan y celebran de formas diversas.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              84,
+              85
+            ],
+            "sourcePagesLabel": "pp. 84-85",
+            "topicTitle": "La diversidad cultural y la riqueza linguistica",
+            "status": "confirmed",
+            "reason": "Las paginas 84-85 desarrollan de forma directa la diversidad cultural y la riqueza linguistica como base de la convivencia.",
+            "pedagogicalUse": "Da marco para valorar las palabras de distintas lenguas sin jerarquizarlas ni exotizarlas.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "diversidad linguistica de Mexico y America Latina",
+            "description": "Presencia de muchas lenguas e idiomas que conviven en territorios, paises y comunidades con historias distintas.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              149,
+              150,
+              151,
+              152,
+              153,
+              154
+            ],
+            "sourcePagesLabel": "pp. 149-154",
+            "topicTitle": "La diversidad linguistica de Mexico y America Latina",
+            "status": "confirmed",
+            "reason": "El bloque 149-154 explica la diversidad linguistica, sus variantes y el peso cultural de las lenguas en Mexico y America Latina.",
+            "pedagogicalUse": "Ayuda a situar las palabras del tarjetero dentro de un mapa real de pueblos, territorios y formas de vida.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "revitalizacion cultural a traves de las lenguas indigenas",
+            "description": "Proceso de cuidado y fortalecimiento de las lenguas indigenas para sostener memoria, conocimiento e identidad.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              155,
+              156
+            ],
+            "sourcePagesLabel": "pp. 155-156",
+            "topicTitle": "La revitalizacion cultural a traves de las lenguas indigenas",
+            "status": "confirmed",
+            "reason": "Las paginas 155-156 desarrollan la revitalizacion como accion necesaria para preservar lengua, cultura y pensamiento.",
+            "pedagogicalUse": "Evita tratar las lenguas indigenas como ornamento y las coloca como saber vivo que sostiene comunidad.",
+            "activityReadiness": "usable-for-resonance"
+          },
+          {
+            "concept": "practicas culturales de los grupos etnicos de Mexico",
+            "description": "Actividades, rituales, expresiones y formas de vida que distinguen a distintas comunidades y pueblos de Mexico.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              170,
+              171,
+              172,
+              177,
+              178
+            ],
+            "sourcePagesLabel": "pp. 170-172 y 177-178",
+            "topicTitle": "Practicas culturales de los grupos etnicos de Mexico I y II",
+            "status": "confirmed",
+            "reason": "Las paginas 170-172 y 177-178 explican como lengua, trabajo, musica, danza, cocina y otras practicas configuran identidad.",
+            "pedagogicalUse": "Ayuda a comentar las palabras seleccionadas a partir de contextos culturales concretos y no solo como equivalencias.",
+            "activityReadiness": "usable-for-resonance"
+          },
+          {
+            "concept": "caracteristicas de la cultura de las personas de habla inglesa",
+            "description": "Rasgos culturales compartidos en comunidades donde se habla ingles, como musicas, tradiciones y formas de celebracion.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              222,
+              223,
+              224
+            ],
+            "sourcePagesLabel": "pp. 222-224",
+            "topicTitle": "Las caracteristicas de la cultura de las personas de habla inglesa",
+            "status": "confirmed",
+            "reason": "Las paginas 222-224 presentan expresiones culturales de comunidades de habla inglesa vinculadas con musica, cine y tradiciones populares.",
+            "pedagogicalUse": "Permite enriquecer las tarjetas con comentarios sobre identidad y cultura mas alla de la traduccion literal.",
+            "activityReadiness": "usable-for-resonance"
+          },
+          {
+            "concept": "glosario multicultural",
+            "description": "Conjunto organizado de palabras y expresiones de varias lenguas para compartir su significado y su contexto cultural.",
+            "sourceBook": "Nuestro libro de proyectos Tomo I",
+            "sourcePages": [
+              42
+            ],
+            "sourcePagesLabel": "p. 42",
+            "topicTitle": "Proyecto academico 2",
+            "status": "suggested",
+            "reason": "El objetivo 2 lo nombra con claridad, pero en esta fase se usa como apoyo derivado del proyecto y no como entrada conceptual independiente del libro del campo.",
+            "pedagogicalUse": "Sirve para orientar la organizacion final del tarjetero sin convertirlo todavia en concepto confirmado autonomo.",
+            "activityReadiness": "usable-for-resonance"
+          }
+        ],
+        "thinkingCriteria": [
+          "Comparar palabras y expresiones sin reducirlas a traduccion mecanica.",
+          "Relacionar lengua, identidad y cultura en ejemplos concretos de Mexico, America Latina y comunidades de habla inglesa.",
+          "Explicar por que una palabra funciona como ventana de la cultura de un pueblo."
+        ],
+        "validationStatus": {
+          "readinessLevel": "development-partial",
+          "readyForActivities": false,
+          "needsReviewReasons": [
+            "El bloque ya es usable como lectura docente, pero los videos y recursos digitales siguen pendientes de validacion de destino final."
+          ]
+        },
+        "readinessLevel": "development-partial",
+        "readyForActivities": false,
+        "needsReviewReasons": [
+          "No mover a actividades interactivas ni desbloquear juegos completos."
+        ]
+      },
+      {
+        "id": "lenguajes-1-ppa-1-pa3",
+        "projectId": "lenguajes-1-ppa-1-pa3",
+        "academicProjectNumber": 3,
+        "title": "Conversar y compartir, ese es el fin",
+        "projectTitle": "Conversar y compartir, ese es el fin",
+        "grade": "1",
+        "field": "Lenguajes",
+        "ppaNumber": "1",
+        "partialClassroomProject": "PPA 1",
+        "partialClassroomProjectTitle": "Asi lo siento, asi te lo comparto!",
+        "bookVolume": "Tomo I",
+        "sourceValidation": {
+          "sourceStatus": "linked",
+          "possibilitiesPages": [
+            6
+          ],
+          "possibilitiesMaterialId": "grade-1-posibilidades-pos-len-1",
+          "possibilitiesColumnIndex": 3,
+          "columnEvidence": "Bloque PPA 1 Asi lo siento, asi te lo comparto! localizado en p. 6; la columna 3 se confirma por el orden de titulos, productos y apoyos del bloque."
+        },
+        "finalProduct": {
+          "title": "Tertulia artistica",
+          "source": "Posibilidades de uso Lenguajes p. 6 + Nuestro libro de proyectos Tomo I pp. 45-49",
+          "status": "confirmed"
+        },
+        "sourcePages": {
+          "nuestroLibroProyectos": [
+            {
+              "materialId": "grade-1-proyectos-nuestro-libro-de-proyectos-tomo-i-primer-grado",
+              "label": "Nuestro libro de proyectos Tomo I",
+              "startPage": 45,
+              "endPage": 49,
+              "pagesLabel": "pp. 45-49",
+              "topicTitle": "Proyecto academico 3",
+              "status": "confirmed-source"
+            }
+          ],
+          "conceptBook": [
+            {
+              "materialId": "grade-1-conceptos-lenguajes-primer-grado",
+              "label": "Lenguajes",
+              "startPage": 261,
+              "endPage": 265,
+              "pagesLabel": "pp. 261-265",
+              "topicTitle": "Manifestaciones culturales y artisticas",
+              "status": "confirmed-source"
+            },
+            {
+              "materialId": "grade-1-conceptos-lenguajes-primer-grado",
+              "label": "Lenguajes",
+              "startPage": 272,
+              "endPage": 275,
+              "pagesLabel": "pp. 272-275",
+              "topicTitle": "Cuerpo, espacio y tiempo. Herramientas para el trabajo artistico",
+              "status": "confirmed-source"
+            }
+          ],
+          "multiplesLenguajes": [
+            {
+              "materialId": "grade-1-apoyo-muiltiples-lenguajes-primer-grado",
+              "label": "Multiples Lenguajes",
+              "startPage": 90,
+              "endPage": 95,
+              "pagesLabel": "pp. 90-95",
+              "topicTitle": "El caso del puntillismo",
+              "status": "confirmed-source"
+            }
+          ],
+          "otherMaterials": [
+            {
+              "label": "Video PA 3: Tertulia artística • Lenguajes • 1er grado",
+              "reference": "https://www.youtube.com/watch?v=CSCeC1jJaZQ",
+              "status": "confirmed"
+            },
+            {
+              "label": "Video PPA 1: 1. ¡Así lo siento, así te lo comparto! • Lenguajes • 1er grado",
+              "reference": "https://www.youtube.com/watch?v=6EvJpfRJtnc",
+              "status": "confirmed"
+            }
+          ]
+        },
+        "supportMaterials": [
+          {
+            "title": "El caso del puntillismo",
+            "kind": "Multiples Lenguajes",
+            "pages": "pp. 90-95",
+            "status": "confirmed-source"
+          }
+        ],
+        "horizonOrPurpose": {
+          "status": "official",
+          "text": "Reconocer y valorar las manifestaciones artisticas de Mexico y del mundo mediante el uso del cuerpo, el espacio y el tiempo por medio de una tertulia artistica que exprese la riqueza multicultural.",
+          "source": "Nuestro libro de proyectos Tomo I p. 45"
+        },
+        "projectExpectationHorizon": {
+          "officialText": "Investigar la forma de organizar una tertulia.",
+          "studentVersion": "Seleccionar una manifestacion artistica cuya expresion sea mediante el cuerpo para asi fortalecer la valoracion de las manifestaciones artisticas de Mexico.",
+          "sourcePages": [
+            "Nuestro libro de proyectos Tomo I p. 46"
+          ],
+          "evidence": "La etapa 3 propone objetivos del proyecto como base para construir el horizonte de expectativas del grupo.",
+          "status": "confirmed-from-project-book"
+        },
+        "detonatingStrategy": {
+          "title": "1. ¡Así lo siento, así te lo comparto! • Lenguajes • 1er grado",
+          "text": "Video del Proyecto Parcial de Aula 1: 1. ¡Así lo siento, así te lo comparto! • Lenguajes • 1er grado",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=6EvJpfRJtnc",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "partial-classroom-project"
+        },
+        "academicProjectStrategy": {
+          "title": "Tertulia artística • Lenguajes • 1er grado",
+          "text": "Video detonador del Proyecto Academico 3: Conversar y compartir, ese es el fin",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=CSCeC1jJaZQ",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "academic-project"
+        },
+        "academicConcepts": [
+          {
+            "concept": "tertulia artistica",
+            "description": "Encuentro para presentar manifestaciones artisticas y dialogar sobre ellas de manera respetuosa y abierta.",
+            "sourceBook": "Nuestro libro de proyectos Tomo I",
+            "sourcePages": [
+              45,
+              46,
+              47,
+              48
+            ],
+            "sourcePagesLabel": "pp. 45-48",
+            "topicTitle": "Proyecto academico 3",
+            "status": "confirmed",
+            "reason": "El proyecto la nombra desde la etapa 1 y organiza sus pasos, criterios de investigacion y presentacion final alrededor de la tertulia.",
+            "pedagogicalUse": "Da sentido al producto como espacio de apreciacion, conversacion y escucha sobre las manifestaciones artisticas.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "manifestaciones culturales y artisticas",
+            "description": "Expresiones visuales, escenicas, festivas y simbolicas que muestran la identidad de comunidades y pueblos.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              261,
+              262,
+              263,
+              264,
+              265
+            ],
+            "sourcePagesLabel": "pp. 261-265",
+            "topicTitle": "Manifestaciones culturales y artisticas",
+            "status": "confirmed",
+            "reason": "Las paginas 261-265 desarrollan formas de leer y comprender manifestaciones artisticas de comunidades de habla inglesa y otras tradiciones.",
+            "pedagogicalUse": "Ayuda a seleccionar una manifestacion artistica con criterios de analisis y no solo por gusto inmediato.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "percepcion y sentidos",
+            "description": "Uso de los sentidos para apreciar, interpretar y producir obras artisticas en relacion con el contexto.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              273
+            ],
+            "sourcePagesLabel": "p. 273",
+            "topicTitle": "Percepcion y sentidos",
+            "status": "confirmed",
+            "reason": "La pagina 273 explica que la apreciacion artistica depende de los sentidos y de la percepcion de quien observa.",
+            "pedagogicalUse": "Permite conversar sobre como se siente y se interpreta una manifestacion artistica durante la tertulia.",
+            "activityReadiness": "usable-for-resonance"
+          },
+          {
+            "concept": "tiempo y momento",
+            "description": "Relacion entre el espacio-tiempo, el proceso creativo y la forma en que una obra adquiere sentido en su presentacion.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              274,
+              275
+            ],
+            "sourcePagesLabel": "pp. 274-275",
+            "topicTitle": "Tiempo y momento",
+            "status": "confirmed",
+            "reason": "Las paginas 274-275 desarrollan el factor temporal en la creacion artistica y en la recepcion de obras performativas.",
+            "pedagogicalUse": "Ayuda a pensar la tertulia como experiencia situada: una obra cambia segun cuando, donde y como se presenta.",
+            "activityReadiness": "usable-for-resonance"
+          },
+          {
+            "concept": "uso del cuerpo en las manifestaciones artisticas",
+            "description": "Empleo del cuerpo como medio expresivo para comunicar emociones, ideas y sentidos en una obra o presentacion.",
+            "sourceBook": "Nuestro libro de proyectos Tomo I",
+            "sourcePages": [
+              45,
+              46
+            ],
+            "sourcePagesLabel": "pp. 45-46",
+            "topicTitle": "Proyecto academico 3",
+            "status": "confirmed",
+            "reason": "La etapa 1 y el objetivo 2 lo nombran de forma explicita al pedir una manifestacion artistica cuya expresion sea mediante el cuerpo.",
+            "pedagogicalUse": "Ayuda a elegir y valorar la manifestacion artistica central de la tertulia con un criterio expresivo claro.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "riqueza multicultural",
+            "description": "Valor de reconocer distintas manifestaciones artisticas y culturales como parte de una convivencia plural.",
+            "sourceBook": "Nuestro libro de proyectos Tomo I",
+            "sourcePages": [
+              45,
+              46,
+              49
+            ],
+            "sourcePagesLabel": "pp. 45-46 y 49",
+            "topicTitle": "Proyecto academico 3",
+            "status": "suggested",
+            "reason": "El proyecto la usa como orientacion constante, pero en esta fase se mantiene como marco de lectura del producto y no como entrada conceptual independiente del libro del campo.",
+            "pedagogicalUse": "Conviene usarla para abrir la reflexion sobre inclusion, diversidad y apreciacion sin sobredimensionarla como concepto tecnico unico.",
+            "activityReadiness": "usable-for-resonance"
+          },
+          {
+            "concept": "diversidad de lenguajes artisticos",
+            "description": "Variedad de medios y formas expresivas que pueden intervenir en una tertulia artistica.",
+            "sourceBook": "Nuestro libro de proyectos Tomo I",
+            "sourcePages": [
+              46
+            ],
+            "sourcePagesLabel": "p. 46",
+            "topicTitle": "Proyecto academico 3",
+            "status": "needsReview",
+            "reason": "La etapa 5 la nombra como contenido de investigacion, pero no se localizo con ese mismo titulo en el libro del campo dentro de este bloque.",
+            "pedagogicalUse": "Sirve como pista de trabajo para ampliar la tertulia, pero conviene no usarlo todavia como concepto de evaluacion.",
+            "activityReadiness": "not-usable-yet"
+          }
+        ],
+        "thinkingCriteria": [
+          "Relacionar cuerpo, percepcion y expresion artistica al valorar una manifestacion.",
+          "Sostener una conversacion respetuosa sobre lo que una obra comunica y como lo comunica.",
+          "Vincular la tertulia con la riqueza multicultural del contexto y no solo con gustos personales."
+        ],
+        "validationStatus": {
+          "readinessLevel": "development-partial",
+          "readyForActivities": false,
+          "needsReviewReasons": [
+            "El bloque ya es usable como lectura docente, pero los videos y recursos digitales siguen pendientes de validacion de destino final."
+          ]
+        },
+        "readinessLevel": "development-partial",
+        "readyForActivities": false,
+        "needsReviewReasons": [
+          "No mover a actividades interactivas ni desbloquear juegos completos."
+        ]
+      }
+    ]
+  },
+  "conceptsValidation": {
+    "grade": "1",
+    "field": "Lenguajes",
+    "ppaNumber": "1",
+    "status": "concept-validation",
+    "generatedAt": "2026-06-01T04:42:18.168Z",
+    "entries": [
+      {
+        "projectId": "lenguajes-1-ppa-1-pa1",
+        "projectTitle": "Asi lo expresan, asi lo deben sentir y pensar",
+        "concept": "creaciones literarias de la comunidad",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            25
+          ],
+          "reason": "La pagina 25 explica de forma directa que las producciones literarias comunitarias expresan cosmovision, sentimientos y practicas sociales."
+        },
+        "pedagogicalUse": "Ayuda a seleccionar textos significativos para que la lectura comentada no se desligue del origen comunitario de las obras.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-1-ppa-1-pa1",
+        "projectTitle": "Asi lo expresan, asi lo deben sentir y pensar",
+        "concept": "manifestaciones literarias comunitarias",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            26,
+            27,
+            28,
+            29
+          ],
+          "reason": "Las paginas 26-29 desarrollan la tradicion oral, sus ejemplos y su valor para el dialogo intercultural escolar."
+        },
+        "pedagogicalUse": "Permite abrir el encuentro de lecturas desde formas de expresion que el estudiantado puede reconocer y comentar.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-1-ppa-1-pa1",
+        "projectTitle": "Asi lo expresan, asi lo deben sentir y pensar",
+        "concept": "antologia literaria",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            30,
+            31
+          ],
+          "reason": "Aunque el producto no es una antologia, Posibilidades la incluye como base para seleccionar y agrupar lecturas por criterios claros."
+        },
+        "pedagogicalUse": "Ayuda a justificar por que se eligen ciertos textos y no otros al organizar las lecturas comentadas.",
+        "activityReadiness": "usable-for-resonance"
+      },
+      {
+        "projectId": "lenguajes-1-ppa-1-pa1",
+        "projectTitle": "Asi lo expresan, asi lo deben sentir y pensar",
+        "concept": "comentario de texto",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            45,
+            46
+          ],
+          "reason": "Las paginas 45-46 desarrollan de forma explicita el comentario de texto como recurso para expresar juicios y dialogar."
+        },
+        "pedagogicalUse": "Es el concepto central para que las intervenciones del encuentro no se queden en gusto personal sin razones.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-1-ppa-1-pa1",
+        "projectTitle": "Asi lo expresan, asi lo deben sentir y pensar",
+        "concept": "exposicion oral",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            47,
+            48
+          ],
+          "reason": "Las paginas 47-48 explican como preparar una exposicion y dan elementos que sirven para organizar el encuentro breve."
+        },
+        "pedagogicalUse": "Ayuda a cuidar la organizacion de la participacion y la claridad de los comentarios frente al grupo o la comunidad.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-1-ppa-1-pa1",
+        "projectTitle": "Asi lo expresan, asi lo deben sentir y pensar",
+        "concept": "obras literarias de distintas culturas",
+        "status": "suggested",
+        "evidence": {
+          "sourceBook": "Nuestro libro de proyectos Tomo I",
+          "pages": [
+            36,
+            37
+          ],
+          "reason": "El proyecto lo plantea de forma directa en su proposito y en los objetivos, pero no aparece como titulo conceptual aislado en el libro del campo."
+        },
+        "pedagogicalUse": "Conviene usarlo para abrir la conversacion sobre diversidad sin elevarlo todavia a concepto confirmado independiente.",
+        "activityReadiness": "usable-for-resonance"
+      },
+      {
+        "projectId": "lenguajes-1-ppa-1-pa2",
+        "projectTitle": "Cada uno con sus propias palabras",
+        "concept": "tarjetas multiculturales comparativas",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Nuestro libro de proyectos Tomo I",
+          "pages": [
+            41,
+            42,
+            43
+          ],
+          "reason": "El producto se nombra de forma explicita desde la etapa 1 y se desarrolla en la propuesta, el paso a paso y la presentacion."
+        },
+        "pedagogicalUse": "Permite materializar la comparacion entre lenguas y hacer visible la relacion entre palabra, cultura e identidad.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-1-ppa-1-pa2",
+        "projectTitle": "Cada uno con sus propias palabras",
+        "concept": "multiculturalidad",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Nuestro libro de proyectos Tomo I",
+          "pages": [
+            42
+          ],
+          "reason": "La pagina 42 explica que varias tarjetas permiten comprender mejor el concepto de multiculturalidad."
+        },
+        "pedagogicalUse": "Ayuda a que las tarjetas no se queden en traducciones sueltas y se lean como comparaciones entre culturas vivas.",
+        "activityReadiness": "usable-for-resonance"
+      },
+      {
+        "projectId": "lenguajes-1-ppa-1-pa2",
+        "projectTitle": "Cada uno con sus propias palabras",
+        "concept": "diversidad cultural y linguistica",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            84,
+            85
+          ],
+          "reason": "Las paginas 84-85 desarrollan de forma directa la diversidad cultural y la riqueza linguistica como base de la convivencia."
+        },
+        "pedagogicalUse": "Da marco para valorar las palabras de distintas lenguas sin jerarquizarlas ni exotizarlas.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-1-ppa-1-pa2",
+        "projectTitle": "Cada uno con sus propias palabras",
+        "concept": "diversidad linguistica de Mexico y America Latina",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            149,
+            150,
+            151,
+            152,
+            153,
+            154
+          ],
+          "reason": "El bloque 149-154 explica la diversidad linguistica, sus variantes y el peso cultural de las lenguas en Mexico y America Latina."
+        },
+        "pedagogicalUse": "Ayuda a situar las palabras del tarjetero dentro de un mapa real de pueblos, territorios y formas de vida.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-1-ppa-1-pa2",
+        "projectTitle": "Cada uno con sus propias palabras",
+        "concept": "revitalizacion cultural a traves de las lenguas indigenas",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            155,
+            156
+          ],
+          "reason": "Las paginas 155-156 desarrollan la revitalizacion como accion necesaria para preservar lengua, cultura y pensamiento."
+        },
+        "pedagogicalUse": "Evita tratar las lenguas indigenas como ornamento y las coloca como saber vivo que sostiene comunidad.",
+        "activityReadiness": "usable-for-resonance"
+      },
+      {
+        "projectId": "lenguajes-1-ppa-1-pa2",
+        "projectTitle": "Cada uno con sus propias palabras",
+        "concept": "practicas culturales de los grupos etnicos de Mexico",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            170,
+            171,
+            172,
+            177,
+            178
+          ],
+          "reason": "Las paginas 170-172 y 177-178 explican como lengua, trabajo, musica, danza, cocina y otras practicas configuran identidad."
+        },
+        "pedagogicalUse": "Ayuda a comentar las palabras seleccionadas a partir de contextos culturales concretos y no solo como equivalencias.",
+        "activityReadiness": "usable-for-resonance"
+      },
+      {
+        "projectId": "lenguajes-1-ppa-1-pa2",
+        "projectTitle": "Cada uno con sus propias palabras",
+        "concept": "caracteristicas de la cultura de las personas de habla inglesa",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            222,
+            223,
+            224
+          ],
+          "reason": "Las paginas 222-224 presentan expresiones culturales de comunidades de habla inglesa vinculadas con musica, cine y tradiciones populares."
+        },
+        "pedagogicalUse": "Permite enriquecer las tarjetas con comentarios sobre identidad y cultura mas alla de la traduccion literal.",
+        "activityReadiness": "usable-for-resonance"
+      },
+      {
+        "projectId": "lenguajes-1-ppa-1-pa2",
+        "projectTitle": "Cada uno con sus propias palabras",
+        "concept": "glosario multicultural",
+        "status": "suggested",
+        "evidence": {
+          "sourceBook": "Nuestro libro de proyectos Tomo I",
+          "pages": [
+            42
+          ],
+          "reason": "El objetivo 2 lo nombra con claridad, pero en esta fase se usa como apoyo derivado del proyecto y no como entrada conceptual independiente del libro del campo."
+        },
+        "pedagogicalUse": "Sirve para orientar la organizacion final del tarjetero sin convertirlo todavia en concepto confirmado autonomo.",
+        "activityReadiness": "usable-for-resonance"
+      },
+      {
+        "projectId": "lenguajes-1-ppa-1-pa3",
+        "projectTitle": "Conversar y compartir, ese es el fin",
+        "concept": "tertulia artistica",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Nuestro libro de proyectos Tomo I",
+          "pages": [
+            45,
+            46,
+            47,
+            48
+          ],
+          "reason": "El proyecto la nombra desde la etapa 1 y organiza sus pasos, criterios de investigacion y presentacion final alrededor de la tertulia."
+        },
+        "pedagogicalUse": "Da sentido al producto como espacio de apreciacion, conversacion y escucha sobre las manifestaciones artisticas.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-1-ppa-1-pa3",
+        "projectTitle": "Conversar y compartir, ese es el fin",
+        "concept": "manifestaciones culturales y artisticas",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            261,
+            262,
+            263,
+            264,
+            265
+          ],
+          "reason": "Las paginas 261-265 desarrollan formas de leer y comprender manifestaciones artisticas de comunidades de habla inglesa y otras tradiciones."
+        },
+        "pedagogicalUse": "Ayuda a seleccionar una manifestacion artistica con criterios de analisis y no solo por gusto inmediato.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-1-ppa-1-pa3",
+        "projectTitle": "Conversar y compartir, ese es el fin",
+        "concept": "percepcion y sentidos",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            273
+          ],
+          "reason": "La pagina 273 explica que la apreciacion artistica depende de los sentidos y de la percepcion de quien observa."
+        },
+        "pedagogicalUse": "Permite conversar sobre como se siente y se interpreta una manifestacion artistica durante la tertulia.",
+        "activityReadiness": "usable-for-resonance"
+      },
+      {
+        "projectId": "lenguajes-1-ppa-1-pa3",
+        "projectTitle": "Conversar y compartir, ese es el fin",
+        "concept": "tiempo y momento",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            274,
+            275
+          ],
+          "reason": "Las paginas 274-275 desarrollan el factor temporal en la creacion artistica y en la recepcion de obras performativas."
+        },
+        "pedagogicalUse": "Ayuda a pensar la tertulia como experiencia situada: una obra cambia segun cuando, donde y como se presenta.",
+        "activityReadiness": "usable-for-resonance"
+      },
+      {
+        "projectId": "lenguajes-1-ppa-1-pa3",
+        "projectTitle": "Conversar y compartir, ese es el fin",
+        "concept": "uso del cuerpo en las manifestaciones artisticas",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Nuestro libro de proyectos Tomo I",
+          "pages": [
+            45,
+            46
+          ],
+          "reason": "La etapa 1 y el objetivo 2 lo nombran de forma explicita al pedir una manifestacion artistica cuya expresion sea mediante el cuerpo."
+        },
+        "pedagogicalUse": "Ayuda a elegir y valorar la manifestacion artistica central de la tertulia con un criterio expresivo claro.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-1-ppa-1-pa3",
+        "projectTitle": "Conversar y compartir, ese es el fin",
+        "concept": "riqueza multicultural",
+        "status": "suggested",
+        "evidence": {
+          "sourceBook": "Nuestro libro de proyectos Tomo I",
+          "pages": [
+            45,
+            46,
+            49
+          ],
+          "reason": "El proyecto la usa como orientacion constante, pero en esta fase se mantiene como marco de lectura del producto y no como entrada conceptual independiente del libro del campo."
+        },
+        "pedagogicalUse": "Conviene usarla para abrir la reflexion sobre inclusion, diversidad y apreciacion sin sobredimensionarla como concepto tecnico unico.",
+        "activityReadiness": "usable-for-resonance"
+      },
+      {
+        "projectId": "lenguajes-1-ppa-1-pa3",
+        "projectTitle": "Conversar y compartir, ese es el fin",
+        "concept": "diversidad de lenguajes artisticos",
+        "status": "needsReview",
+        "evidence": {
+          "sourceBook": "Nuestro libro de proyectos Tomo I",
+          "pages": [
+            46
+          ],
+          "reason": "La etapa 5 la nombra como contenido de investigacion, pero no se localizo con ese mismo titulo en el libro del campo dentro de este bloque."
+        },
+        "pedagogicalUse": "Sirve como pista de trabajo para ampliar la tertulia, pero conviene no usarlo todavia como concepto de evaluacion.",
+        "activityReadiness": "not-usable-yet"
+      }
+    ]
+  },
+  "pedagogicalArticulation": {
+    "grade": "1",
+    "field": "Lenguajes",
+    "ppaNumber": "1",
+    "status": "teacher-orientation",
+    "officialHorizonStatus": "pending",
+    "situatedPedagogicalOrientation": "El PPA 1 puede orientar un trabajo situado en el que la lectura, la diversidad linguistica y las manifestaciones artisticas se conviertan en formas concretas de expresar lo que una comunidad siente, piensa y valora. PA1 abre el bloque con un encuentro breve de lecturas comentadas para escuchar y argumentar; PA2 convierte esa reflexion en tarjetas multiculturales comparativas donde las palabras funcionan como ventanas de la cultura; y PA3 lleva el proceso a una tertulia artistica donde el cuerpo, el tiempo y la conversacion ayudan a compartir la riqueza multicultural.",
+    "integratingQuestions": [
+      "Si leer, comparar palabras y conversar sobre arte forman parte del mismo bloque, que nos ensenan juntos sobre la manera en que una comunidad expresa lo que siente y piensa?",
+      "Relacionar lengua, lectura, expresion artistica e identidad cultural en situaciones concretas del aula y de la comunidad.",
+      "Comparar distintas formas de comunicar para decidir cuando conviene leer, comentar, escribir o presentar artisticamente."
+    ],
+    "projectConnections": [
+      {
+        "projectId": "lenguajes-1-ppa-1-pa1",
+        "projectTitle": "Asi lo expresan, asi lo deben sentir y pensar",
+        "roleInPpa": "Encuentro breve de lecturas comentadas",
+        "confirmedConcepts": [
+          "creaciones literarias de la comunidad",
+          "manifestaciones literarias comunitarias",
+          "antologia literaria",
+          "comentario de texto",
+          "exposicion oral"
+        ],
+        "suggestedConcepts": [
+          "obras literarias de distintas culturas"
+        ],
+        "pedagogicalUse": "Conviene trabajar el encuentro como una experiencia de escucha, comentario y reconocimiento de la riqueza linguistica, no como lectura mecanica o memorizacion."
+      },
+      {
+        "projectId": "lenguajes-1-ppa-1-pa2",
+        "projectTitle": "Cada uno con sus propias palabras",
+        "roleInPpa": "Tarjetas multiculturales comparativas",
+        "confirmedConcepts": [
+          "tarjetas multiculturales comparativas",
+          "multiculturalidad",
+          "diversidad cultural y linguistica",
+          "diversidad linguistica de Mexico y America Latina",
+          "revitalizacion cultural a traves de las lenguas indigenas",
+          "practicas culturales de los grupos etnicos de Mexico",
+          "caracteristicas de la cultura de las personas de habla inglesa"
+        ],
+        "suggestedConcepts": [
+          "glosario multicultural"
+        ],
+        "pedagogicalUse": "Conviene trabajar el tarjetero como comparacion intercultural y no como lista descontextualizada de palabras equivalentes."
+      },
+      {
+        "projectId": "lenguajes-1-ppa-1-pa3",
+        "projectTitle": "Conversar y compartir, ese es el fin",
+        "roleInPpa": "Tertulia artistica",
+        "confirmedConcepts": [
+          "tertulia artistica",
+          "manifestaciones culturales y artisticas",
+          "percepcion y sentidos",
+          "tiempo y momento",
+          "uso del cuerpo en las manifestaciones artisticas"
+        ],
+        "suggestedConcepts": [
+          "riqueza multicultural",
+          "diversidad de lenguajes artisticos"
+        ],
+        "pedagogicalUse": "Conviene trabajar la tertulia como espacio de conversacion sensible y argumentada para valorar manifestaciones artisticas, no como presentacion apresurada."
+      }
+    ],
+    "criteriaOfThought": [
+      {
+        "criterion": "Relacionar lengua, lectura, expresion artistica e identidad cultural en situaciones concretas del aula y de la comunidad.",
+        "status": "suggested"
+      },
+      {
+        "criterion": "Comparar distintas formas de comunicar para decidir cuando conviene leer, comentar, escribir o presentar artisticamente.",
+        "status": "suggested"
+      }
+    ],
+    "possibleResonanceQuestion": "Si leer, comparar palabras y conversar sobre arte forman parte del mismo bloque, que nos ensenan juntos sobre la manera en que una comunidad expresa lo que siente y piensa?",
+    "teacherNotes": [
+      "No reducir el PPA 1 a productos aislados: los tres proyectos dialogan alrededor de la riqueza linguistica y artistica.",
+      "Las referencias digitales del bloque siguen como cautela; conviene no tratarlas como fuentes directas confirmadas hasta localizar sus destinos oficiales.",
+      "La columna de Posibilidades se valida por secuencia de productos y apoyos, no por OCR limpio de la tabla."
+    ],
+    "notReadyFor": [
+      "actividades interactivas",
+      "full-games",
+      "summative-exam"
+    ]
+  },
+  "teacherNotesAndResonances": {
+    "grade": "1",
+    "field": "Lenguajes",
+    "ppaNumber": "1",
+    "status": "teacher-orientation",
+    "officialHorizonStatus": "pending",
+    "ppaIntegratingResonance": "Si leer, comparar palabras y conversar sobre arte forman parte del mismo bloque, que nos ensenan juntos sobre la manera en que una comunidad expresa lo que siente y piensa?",
+    "didacticWarnings": [
+      "No convertir la diversidad linguistica o artistica en listado decorativo: cada producto necesita relacion con la vida comunitaria.",
+      "Los enlaces cortos del bloque se mantienen como cautela y no deben tratarse como recursos ya validados.",
+      "Aunque la p. 6 de Posibilidades concentra el bloque completo, la columna se confirma por inferencia curricular y no por OCR limpio."
+    ],
+    "communityPrompts": {
+      "communityKnowledge": [
+        "Que expresiones, relatos, palabras o manifestaciones artisticas de la comunidad merecen ser compartidas con otras personas?",
+        "Que formas de hablar, cantar, contar o presentar arte ayudan a reconocer la identidad del lugar donde vivimos?"
+      ],
+      "families": [
+        "Que lecturas, refranes, palabras o expresiones se usan en casa y que cuentan sobre la historia familiar o comunitaria?",
+        "Que manifestaciones artisticas o culturales del entorno les gustaria presentar o comentar con otras personas?"
+      ],
+      "territoryLanguageMemory": [
+        "Que palabras o expresiones cambian de una comunidad a otra y que nos dicen sobre la riqueza cultural del territorio?",
+        "Como se relacionan la lengua, la memoria y las practicas artisticas con la forma de sentir y convivir en la comunidad?"
+      ],
+      "productCommunityConnection": [
+        "Como pueden circular el encuentro de lecturas, las tarjetas y la tertulia fuera del aula sin perder su sentido formativo y comunitario?"
+      ]
+    },
+    "suggestedThinkingCriteria": [
+      "Relacionar lengua, lectura, expresion artistica e identidad cultural en situaciones concretas del aula y de la comunidad.",
+      "Comparar distintas formas de comunicar para decidir cuando conviene leer, comentar, escribir o presentar artisticamente."
+    ],
+    "projects": [
+      {
+        "projectId": "lenguajes-1-ppa-1-pa1",
+        "projectTitle": "Asi lo expresan, asi lo deben sentir y pensar",
+        "teacherNotes": [
+          "Conviene insistir en que comentar una lectura no es repetirla: hay que interpretarla y justificar por que se comparte.",
+          "Las manifestaciones literarias comunitarias pueden entrar por la via de la oralidad sin necesidad de forzar textos largos.",
+          "El encuentro breve funciona mejor si se acuerdan criterios simples para comentar y escuchar.",
+          "Vive el cantar de los viejos puede ayudar a abrir la sensibilidad hacia la voz, la memoria y la tradicion sin desplazar el foco del proyecto.",
+          "No hace falta convertir el proyecto en exposicion formal extensa; la clave esta en la lectura comentada breve y significativa."
+        ],
+        "confirmedConceptsToUse": [
+          "creaciones literarias de la comunidad",
+          "manifestaciones literarias comunitarias",
+          "antologia literaria",
+          "comentario de texto",
+          "exposicion oral"
+        ],
+        "suggestedConceptsToHandleCarefully": [
+          "obras literarias de distintas culturas"
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "Que lectura, canto o relato de tu comunidad te gustaria compartir para que otras personas comprendan mejor lo que sientes y piensas sobre tu cultura?",
+            "conceptsActivated": [
+              "creaciones literarias de la comunidad",
+              "manifestaciones literarias comunitarias"
+            ],
+            "thinkingCriteria": [
+              "Relacionar lectura, identidad y experiencia personal"
+            ],
+            "suggestedUse": "Apertura personal del proyecto."
+          },
+          {
+            "type": "collective",
+            "prompt": "Que diferencia hay entre decir que un texto te gusto y construir un comentario que ayude a otras personas a entender por que vale la pena escucharlo?",
+            "conceptsActivated": [
+              "comentario de texto",
+              "exposicion oral"
+            ],
+            "thinkingCriteria": [
+              "Fundamentar una opinion y escuchar otras"
+            ],
+            "suggestedUse": "Dialogo de asamblea antes del encuentro."
+          },
+          {
+            "type": "community",
+            "prompt": "Como puede un encuentro breve de lecturas comentadas fortalecer la comunicacion familiar, escolar y comunitaria?",
+            "conceptsActivated": [
+              "obras literarias de distintas culturas",
+              "comentario de texto"
+            ],
+            "thinkingCriteria": [
+              "Relacionar lectura y vida comunitaria"
+            ],
+            "suggestedUse": "Vinculo con el contexto y la presentacion final."
+          },
+          {
+            "type": "closing",
+            "prompt": "Despues del encuentro, que aprendiste sobre la manera en que las obras literarias permiten sentir, pensar y dialogar con otras personas?",
+            "conceptsActivated": [
+              "creaciones literarias de la comunidad",
+              "exposicion oral"
+            ],
+            "thinkingCriteria": [
+              "Sintetizar el aprendizaje y su sentido comunitario"
+            ],
+            "suggestedUse": "Cierre reflexivo."
+          }
+        ],
+        "notReadyFor": [
+          "summative-exam",
+          "full-games",
+          "actividades interactivas"
+        ]
+      },
+      {
+        "projectId": "lenguajes-1-ppa-1-pa2",
+        "projectTitle": "Cada uno con sus propias palabras",
+        "teacherNotes": [
+          "Conviene trabajar las tarjetas como comparacion cultural y no como ejercicio aislado de vocabulario.",
+          "La relacion entre palabra y cultura necesita ejemplos concretos para evitar generalizaciones vacias.",
+          "Carta desde Varsovia puede servir para abrir la idea de experiencia cultural situada y escritura comparativa.",
+          "Es importante cuidar que las lenguas indigenas no aparezcan como curiosidad exotica sino como parte viva del patrimonio linguistico.",
+          "Las tarjetas funcionan mejor si cada grupo explica por que eligio ciertas palabras y que rasgo cultural dejan ver."
+        ],
+        "confirmedConceptsToUse": [
+          "tarjetas multiculturales comparativas",
+          "multiculturalidad",
+          "diversidad cultural y linguistica",
+          "diversidad linguistica de Mexico y America Latina",
+          "revitalizacion cultural a traves de las lenguas indigenas",
+          "practicas culturales de los grupos etnicos de Mexico",
+          "caracteristicas de la cultura de las personas de habla inglesa"
+        ],
+        "suggestedConceptsToHandleCarefully": [
+          "glosario multicultural"
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "Que palabra de tu comunidad te parece imposible de entender por completo si no se conoce la cultura que la sostiene?",
+            "conceptsActivated": [
+              "diversidad cultural y linguistica",
+              "tarjetas multiculturales comparativas"
+            ],
+            "thinkingCriteria": [
+              "Relacionar palabra y experiencia cultural"
+            ],
+            "suggestedUse": "Apertura personal del proyecto."
+          },
+          {
+            "type": "collective",
+            "prompt": "Cuando comparamos palabras en espanol, ingles y lenguas indigenas, que aprendemos sobre las formas distintas de nombrar el mundo?",
+            "conceptsActivated": [
+              "diversidad linguistica de Mexico y America Latina",
+              "multiculturalidad"
+            ],
+            "thinkingCriteria": [
+              "Comparar lenguas y argumentar hallazgos"
+            ],
+            "suggestedUse": "Dialogo de asamblea para construir criterios del tarjetero."
+          },
+          {
+            "type": "community",
+            "prompt": "Que practicas culturales o alimentos de la comunidad merecerian una tarjeta propia para que otras personas comprendan mejor nuestra identidad?",
+            "conceptsActivated": [
+              "practicas culturales de los grupos etnicos de Mexico",
+              "glosario multicultural"
+            ],
+            "thinkingCriteria": [
+              "Vincular lengua y territorio"
+            ],
+            "suggestedUse": "Relacion con el contexto y las familias."
+          },
+          {
+            "type": "closing",
+            "prompt": "Despues de elaborar las tarjetas, que cambio en tu forma de valorar las lenguas indigenas, el espanol y el ingles como expresiones de cultura?",
+            "conceptsActivated": [
+              "revitalizacion cultural a traves de las lenguas indigenas",
+              "caracteristicas de la cultura de las personas de habla inglesa"
+            ],
+            "thinkingCriteria": [
+              "Valorar diversidad e interculturalidad critica"
+            ],
+            "suggestedUse": "Cierre reflexivo."
+          }
+        ],
+        "notReadyFor": [
+          "summative-exam",
+          "full-games",
+          "actividades interactivas"
+        ]
+      },
+      {
+        "projectId": "lenguajes-1-ppa-1-pa3",
+        "projectTitle": "Conversar y compartir, ese es el fin",
+        "teacherNotes": [
+          "Conviene organizar la tertulia como espacio de apreciacion y conversacion, no como festival apresurado de presentaciones.",
+          "La seleccion de la manifestacion artistica debe justificarse: no basta con que guste, hay que explicar que permite valorar.",
+          "El caso del puntillismo puede ayudar a observar tecnica, percepcion y expresion sin imponer una sola forma artistica.",
+          "Las preguntas de la tertulia funcionan mejor cuando activan escucha y observacion, no cuando buscan respuestas unicas.",
+          "Eviten que la conversacion final se vuelva juicio descalificador; la meta es argumentar y reconocer la diversidad de miradas."
+        ],
+        "confirmedConceptsToUse": [
+          "tertulia artistica",
+          "manifestaciones culturales y artisticas",
+          "percepcion y sentidos",
+          "tiempo y momento",
+          "uso del cuerpo en las manifestaciones artisticas"
+        ],
+        "suggestedConceptsToHandleCarefully": [
+          "riqueza multicultural",
+          "diversidad de lenguajes artisticos"
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "Que manifestacion artistica de tu comunidad te gustaria presentar en una tertulia para mostrar algo valioso de su forma de sentir y expresarse?",
+            "conceptsActivated": [
+              "tertulia artistica",
+              "manifestaciones culturales y artisticas"
+            ],
+            "thinkingCriteria": [
+              "Relacionar arte, identidad y seleccion de ejemplos"
+            ],
+            "suggestedUse": "Apertura personal del proyecto."
+          },
+          {
+            "type": "collective",
+            "prompt": "Como cambia nuestra comprension de una obra cuando conversamos sobre lo que vemos, sentimos y pensamos en lugar de quedarnos callados frente a ella?",
+            "conceptsActivated": [
+              "percepcion y sentidos",
+              "tertulia artistica"
+            ],
+            "thinkingCriteria": [
+              "Escuchar e interpretar de forma colectiva"
+            ],
+            "suggestedUse": "Dialogo de asamblea para planear la tertulia."
+          },
+          {
+            "type": "community",
+            "prompt": "Que nos ensena el uso del cuerpo, el espacio y el tiempo sobre la manera en que una comunidad expresa su riqueza multicultural?",
+            "conceptsActivated": [
+              "uso del cuerpo en las manifestaciones artisticas",
+              "tiempo y momento"
+            ],
+            "thinkingCriteria": [
+              "Relacionar expresion artistica y contexto"
+            ],
+            "suggestedUse": "Vinculo con la presentacion y el contexto local."
+          },
+          {
+            "type": "closing",
+            "prompt": "Despues de la tertulia, que aprendiste sobre la forma en que el arte ayuda a conversar y compartir con otras personas?",
+            "conceptsActivated": [
+              "manifestaciones culturales y artisticas",
+              "percepcion y sentidos"
+            ],
+            "thinkingCriteria": [
+              "Sintetizar aprendizajes desde la experiencia artistica"
+            ],
+            "suggestedUse": "Cierre reflexivo."
+          }
+        ],
+        "notReadyFor": [
+          "summative-exam",
+          "full-games",
+          "actividades interactivas"
+        ]
+      }
+    ]
+  },
+  "validationAudit": {
+    "kind": "fine-validation-audit",
+    "source": "reports/caracoles/grade1-lenguajes-ppa1-reading-bundle-audit.md",
+    "content": "# 1° Lenguajes - PPA 1 - Lectura docente\n\nFecha: 2026-06-01T04:42:18.168Z\n\n## Alcance\n\n- PPA desarrollado: PPA 1\n- Proyectos incluidos:\n  - PA1 - Asi lo expresan, asi lo deben sentir y pensar\n  - PA2 - Cada uno con sus propias palabras\n  - PA3 - Conversar y compartir, ese es el fin\n\n## Fuentes usadas\n\n- Posibilidades de uso Lenguajes, primer grado, p. 6\n- Nuestro libro de proyectos Tomo I, pp. 36-49\n- Lenguajes, pp. 25-31, 44-48, 84-85, 149-156, 169-172, 176-178, 222-224, 261-265 y 272-275\n- Multiples Lenguajes:\n  - Vive el cantar de los viejos, pp. 46-47\n  - Carta desde Varsovia, pp. 48-53\n  - El caso del puntillismo, pp. 90-95\n\n## Validacion visual de columnas\n\n- La p. 6 corresponde al bloque completo del PPA 1.\n- La asignacion por columna se sostiene por la secuencia de titulos, productos y apoyos:\n  - Columna 1 -> PA1 -> Encuentro breve de lecturas comentadas\n  - Columna 2 -> PA2 -> Tarjetas multiculturales comparativas\n  - Columna 3 -> PA3 -> Tertulia artistica\n- El OCR de la tabla no fija las columnas con limpieza automatica; la validacion se deja documentada como confirmacion curricular con cautela tecnica.\n\n## Productos finales por PA\n\n- PA1 -> Encuentro breve de lecturas comentadas\n- PA2 -> Tarjetas multiculturales comparativas\n- PA3 -> Tertulia artistica\n\n## Conceptos confirmados por PA\n\n- PA1:\n  - creaciones literarias de la comunidad\n  - manifestaciones literarias comunitarias\n  - antologia literaria\n  - comentario de texto\n  - exposicion oral\n\n- PA2:\n  - tarjetas multiculturales comparativas\n  - multiculturalidad\n  - diversidad cultural y linguistica\n  - diversidad linguistica de Mexico y America Latina\n  - revitalizacion cultural a traves de las lenguas indigenas\n  - practicas culturales de los grupos etnicos de Mexico\n  - caracteristicas de la cultura de las personas de habla inglesa\n\n- PA3:\n  - tertulia artistica\n  - manifestaciones culturales y artisticas\n  - percepcion y sentidos\n  - tiempo y momento\n  - uso del cuerpo en las manifestaciones artisticas\n\n## Conceptos suggested y needsReview\n\n- PA1 suggested:\n  - obras literarias de distintas culturas\n\n- PA2 suggested:\n  - glosario multicultural\n\n- PA3 suggested:\n  - riqueza multicultural\n\n- PA3 needsReview:\n  - diversidad de lenguajes artisticos\n\n## Pendientes reales\n\n- Falta localizar un destino oficial confirmado para el video del PPA 1.\n- Los enlaces cortos del bloque se mantienen como referencias en cautela y no se promovieron como recursos validados.\n- El horizonte comun del PPA 1 sigue sin formula oficial unica; por ahora se trabaja con los propositos y objetivos de cada PA.\n\n## Bundles publicados esperados\n\n- public/caracoles/data/curricular-development/grade-1-lenguajes-ppa-1.json\n\n## Candados\n\n- Sin examen\n- Sin juegos completos desbloqueados\n- Sin actividades interactivas\n- Sin cambio de readyForActivities\n\n"
+  }
+}

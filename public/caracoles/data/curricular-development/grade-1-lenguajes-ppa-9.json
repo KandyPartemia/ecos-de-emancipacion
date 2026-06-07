@@ -1,0 +1,2525 @@
+{
+  "grade": "1",
+  "gradeLabel": "Primer grado",
+  "field": "Lenguajes",
+  "ppaNumber": "9",
+  "partialClassroomProject": "PPA 9",
+  "partialClassroomProjectTitle": "Artistas entre nosotros",
+  "source": "curricular-development-pilot",
+  "generatedAt": "2026-06-04T15:51:04.892Z",
+  "development": {
+    "grade": "1",
+    "gradeLabel": "Primer grado",
+    "field": "Lenguajes",
+    "bookVolume": "Tomo II",
+    "partialClassroomProject": "PPA 9",
+    "partialClassroomProjectTitle": "Artistas entre nosotros",
+    "generatedAt": "2026-05-23T17:48:10.498Z",
+    "notes": "Capa curricular controlada para el bloque 1° Lenguajes PPA 9. No alimenta la app pública automáticamente.",
+    "sourcesUsed": [
+      "content/caracoles/curricular-links/grade-1-project-source-links.json",
+      "content/caracoles/manual-overrides/grade-1-projects-overrides.json",
+      "content/caracoles/concepts-registry/grade-1-concepts-registry.json",
+      "content/caracoles/generated-private/grade-1/pages-index.full.json"
+    ],
+    "partialClassroomProjectContext": {
+      "expectationHorizon": {
+        "officialText": "",
+        "sourcePages": [
+          "Nuestro libro de proyectos Tomo II pp. 60-71",
+          "Posibilidades de uso Lenguajes pp. 22-23"
+        ],
+        "evidence": "No se localizó un horizonte único y explícito del PPA 9; el bloque comparte estrategia detonadora y tres productos, pero cada PA formula su propio horizonte en Etapa 3.",
+        "status": "pending"
+      },
+      "ppaDetonatingStrategy": {
+        "title": "Artistas entre nosotros",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=Yp4V3FD5kDg",
+        "urlStatus": "confirmed",
+        "source": "YouTube / acervo aprende_mx + Posibilidades de uso pp. 22-23",
+        "scope": "partial-classroom-project"
+      },
+      "validationStatus": {
+        "needsHumanReview": true,
+        "needsReviewReasons": [
+          "El nombre del PPA y su video detonador están confirmados.",
+          "El horizonte común del PPA sigue pendiente de localizarse en una formulación única y textual."
+        ]
+      }
+    },
+    "academicProjects": [
+      {
+        "id": "lenguajes-1-ppa9-pa25",
+        "academicProjectNumber": 25,
+        "title": "Lo mejor de lo mejor",
+        "bookVolume": "Tomo II",
+        "sourceValidation": {
+          "sourceStatus": "linked",
+          "possibilitiesPages": [
+            22,
+            23
+          ],
+          "possibilitiesMaterialId": "grade-1-posibilidades-pos-len-1",
+          "possibilitiesColumnIndex": 1,
+          "columnEvidence": "Columna 1 del bloque 22-23 de Posibilidades."
+        },
+        "sourcePages": {
+          "nuestroLibroProyectos": [
+            {
+              "materialId": "grade-1-proyectos-nuestro-libro-de-proyectos-tomo-ii-primer-grado",
+              "label": "Nuestro libro de proyectos Tomo II",
+              "startPage": 60,
+              "endPage": 63,
+              "topicTitle": "Proyecto académico 25"
+            }
+          ],
+          "conceptBook": [
+            {
+              "materialId": "grade-1-conceptos-lenguajes-primer-grado",
+              "label": "Lenguajes",
+              "startPage": 25,
+              "endPage": 25,
+              "topicTitle": "Creaciones literarias de la comunidad"
+            },
+            {
+              "materialId": "grade-1-conceptos-lenguajes-primer-grado",
+              "label": "Lenguajes",
+              "startPage": 26,
+              "endPage": 29,
+              "topicTitle": "Manifestaciones literarias comunitarias"
+            },
+            {
+              "materialId": "grade-1-conceptos-lenguajes-primer-grado",
+              "label": "Lenguajes",
+              "startPage": 30,
+              "endPage": 31,
+              "topicTitle": "La antología literaria"
+            },
+            {
+              "materialId": "grade-1-conceptos-lenguajes-primer-grado",
+              "label": "Lenguajes",
+              "startPage": 32,
+              "endPage": 35,
+              "topicTitle": "Estrategias y recursos creativos para el fomento de la lectura en comunidad"
+            },
+            {
+              "materialId": "grade-1-conceptos-lenguajes-primer-grado",
+              "label": "Lenguajes",
+              "startPage": 61,
+              "endPage": 61,
+              "topicTitle": "Figuras retóricas en textos literarios y orales en español"
+            },
+            {
+              "materialId": "grade-1-conceptos-lenguajes-primer-grado",
+              "label": "Lenguajes",
+              "startPage": 62,
+              "endPage": 63,
+              "topicTitle": "El lenguaje connotativo y denotativo"
+            },
+            {
+              "materialId": "grade-1-conceptos-lenguajes-primer-grado",
+              "label": "Lenguajes",
+              "startPage": 63,
+              "endPage": 68,
+              "topicTitle": "Figuras retóricas: comparación, metáfora, hipérbole y metonimia"
+            },
+            {
+              "materialId": "grade-1-conceptos-lenguajes-primer-grado",
+              "label": "Lenguajes",
+              "startPage": 68,
+              "endPage": 71,
+              "topicTitle": "Uso de las figuras retóricas en textos literarios orales y escritos"
+            },
+            {
+              "materialId": "grade-1-conceptos-lenguajes-primer-grado",
+              "label": "Lenguajes",
+              "startPage": 72,
+              "endPage": 72,
+              "topicTitle": "Géneros literarios"
+            },
+            {
+              "materialId": "grade-1-conceptos-lenguajes-primer-grado",
+              "label": "Lenguajes",
+              "startPage": 103,
+              "endPage": 103,
+              "topicTitle": "Creaciones literarias en lenguas indígenas"
+            },
+            {
+              "materialId": "grade-1-conceptos-lenguajes-primer-grado",
+              "label": "Lenguajes",
+              "startPage": 138,
+              "endPage": 138,
+              "topicTitle": "Prácticas sociales relacionadas con la tierra como madre y como territorio"
+            }
+          ],
+          "multiplesLenguajes": [
+            {
+              "materialId": "grade-1-apoyo-muiltiples-lenguajes-primer-grado",
+              "label": "Múltiples Lenguajes",
+              "startPage": 86,
+              "endPage": 87,
+              "topicTitle": "Maderas que cantan"
+            }
+          ],
+          "otherMaterials": [
+            {
+              "label": "Video PA 25: Antología literaria • Lenguajes • 1er grado",
+              "reference": "https://www.youtube.com/watch?v=Lv4UBDke3qM",
+              "status": "confirmed"
+            },
+            {
+              "label": "Video PPA 9: 9. Artistas entre nosotros  • Lenguajes • 1er grado",
+              "reference": "https://www.youtube.com/watch?v=Yp4V3FD5kDg",
+              "status": "confirmed"
+            }
+          ]
+        },
+        "projectPurpose": {
+          "text": "Elaborar una antología literaria con textos o expresiones de la oralidad pertenecientes a la comunidad o al lugar seleccionado para promover la lectura y la escucha de textos tradicionales y contemporáneos.",
+          "sourcePages": [
+            "Nuestro libro de proyectos Tomo II p. 60"
+          ],
+          "status": "confirmed-from-project-book"
+        },
+        "projectExpectationHorizon": {
+          "officialText": "",
+          "studentVersion": "Reconocer y valorar expresiones literarias y culturales para seleccionar, argumentar y compartir aquello que se considera significativo, desarrollando el pensamiento lógico-lingüístico mediante la lectura, la comparación, la interpretación y la justificación de preferencias.",
+          "sourcePages": [
+            "Nuestro libro de proyectos Tomo II p. 61"
+          ],
+          "evidence": "El libro ofrece Objetivo 1 y Objetivo 2 en la Etapa 3; el horizonte oficial cerrado sigue pendiente de verificación textual.",
+          "status": "suggested-from-manual-control"
+        },
+        "academicProjectStrategy": {
+          "title": "Antología literaria • Lenguajes • 1er grado",
+          "text": "Video detonador del Proyecto Academico 25: Lo mejor de lo mejor",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=Lv4UBDke3qM",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "academic-project"
+        },
+        "finalProduct": {
+          "title": "Antología literaria",
+          "source": "Posibilidades de uso pp. 22-23 + Nuestro libro de proyectos Tomo II pp. 60-63",
+          "status": "confirmed"
+        },
+        "supportMaterials": [
+          {
+            "title": "Maderas que cantan",
+            "kind": "Múltiples Lenguajes",
+            "pages": "pp. 86-87",
+            "status": "confirmed-source"
+          }
+        ],
+        "academicConcepts": [
+          {
+            "concept": "creaciones literarias",
+            "description": "Producciones literarias comunitarias asociadas con ideas, sentimientos, usos y costumbres de una cosmovisión compartida.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": "p. 25",
+            "topicTitle": "Creaciones literarias de la comunidad",
+            "evidenceSnippet": "Muchas de las producciones ficcionales de una comunidad están asociadas con ideas, sentimientos, usos y costumbres que forman parte de su cosmovis",
+            "status": "suggested",
+            "confidence": 0.92,
+            "origin": "conceptRegistry",
+            "validationEvidence": {
+              "sourceBook": "Lenguajes",
+              "pages": [
+                25
+              ],
+              "reason": "El concepto se mantiene como referencia útil, pero en esta fase no se confirmó textualmente con claridad suficiente."
+            },
+            "pedagogicalUse": "Aporta contexto de lectura y conversación, pero todavía requiere validación pedagógica para escalar a actividades más estructuradas.",
+            "activityReadiness": "usable-for-resonance"
+          },
+          {
+            "concept": "manifestaciones literarias comunitarias",
+            "description": "Formas orales o escritas ligadas a la tradición, la vida cotidiana y la identidad de una comunidad.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": "pp. 26-29",
+            "topicTitle": "Manifestaciones literarias comunitarias",
+            "evidenceSnippet": "Las manifestaciones literarias comunitarias se asocian principalmen- te con la tradición oral",
+            "status": "suggested",
+            "confidence": 0.92,
+            "origin": "conceptRegistry",
+            "validationEvidence": {
+              "sourceBook": "Lenguajes",
+              "pages": [
+                26,
+                27,
+                28,
+                29
+              ],
+              "reason": "El concepto se mantiene como referencia útil, pero en esta fase no se confirmó textualmente con claridad suficiente."
+            },
+            "pedagogicalUse": "Aporta contexto de lectura y conversación, pero todavía requiere validación pedagógica para escalar a actividades más estructuradas.",
+            "activityReadiness": "usable-for-resonance"
+          },
+          {
+            "concept": "oralidad",
+            "description": "Transmisión comunitaria de relatos, cantos, rezos y otras expresiones de boca en boca.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": "pp. 26-29",
+            "topicTitle": "Manifestaciones literarias comunitarias",
+            "evidenceSnippet": "Las manifestaciones literarias comunitarias se asocian principalmen- te con la tradición oral",
+            "status": "confirmed",
+            "confidence": 0.86,
+            "origin": "conceptRegistry",
+            "validationEvidence": {
+              "sourceBook": "Nuestro libro de proyectos Tomo II",
+              "pages": [
+                60
+              ],
+              "reason": "La presentación del proyecto dice que las producciones pueden ser textuales u orales y que después se conservarán por escrito."
+            },
+            "pedagogicalUse": "Permite valorar expresiones orales de la comunidad y comprender cómo se trasladan a una antología escrita.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "antología literaria",
+            "description": "Colección de textos reunidos con una intención comunicativa y criterios de selección explícitos.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": "pp. 30-31",
+            "topicTitle": "La antología literaria",
+            "evidenceSnippet": "La antología literaria La antología literaria es una colección de textos que comparten algunas características y que representan una o varias visiones del mundo",
+            "status": "confirmed",
+            "confidence": 0.95,
+            "origin": "conceptRegistry",
+            "validationEvidence": {
+              "sourceBook": "Nuestro libro de proyectos Tomo II",
+              "pages": [
+                60,
+                61,
+                62
+              ],
+              "reason": "El proyecto nombra explícitamente la elaboración de una antología literaria como producto y la retoma en propósito, problema y fuentes de consulta."
+            },
+            "pedagogicalUse": "Sirve para definir el producto final, organizar la reunión de textos y orientar la explicación pública del proyecto.",
+            "activityReadiness": "usable-for-games-later"
+          },
+          {
+            "concept": "selección de textos",
+            "description": "Proceso de elegir textos según tema, destinatario, procedencia o visión del mundo.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": "pp. 30-31",
+            "topicTitle": "La antología literaria",
+            "evidenceSnippet": "ne el material literario) selecciona los textos con una intención comunicativa clara y de acuerdo con sus in- tereses y criterios; de esa manera, busca e incluye los textos orales y es- critos que considere más adecuados",
+            "status": "confirmed",
+            "confidence": 0.9,
+            "origin": "conceptRegistry",
+            "validationEvidence": {
+              "sourceBook": "Nuestro libro de proyectos Tomo II",
+              "pages": [
+                60,
+                62
+              ],
+              "reason": "Las etapas del proyecto piden seleccionar los textos que integrarán la antología y valorar cuáles conviene conservar."
+            },
+            "pedagogicalUse": "Ayuda a justificar por qué ciertos textos entran a la antología y a sostener decisiones de lectura y curaduría.",
+            "activityReadiness": "usable-for-games-later"
+          },
+          {
+            "concept": "criterios de selección",
+            "description": "Conjunto de preguntas y condiciones que orientan qué textos entran y cómo se organizan en la antología.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": "pp. 30-31",
+            "topicTitle": "La antología literaria",
+            "evidenceSnippet": "ne el material literario) selecciona los textos con una intención comunicativa clara y de acuerdo con sus in- tereses y criterios; de esa manera, busca e incluye los textos orales y es- critos que considere más adecuados",
+            "status": "suggested",
+            "confidence": 0.88,
+            "origin": "conceptRegistry",
+            "validationEvidence": {
+              "sourceBook": "Lenguajes",
+              "pages": [
+                30,
+                31
+              ],
+              "reason": "El concepto se mantiene como referencia útil, pero en esta fase no se confirmó textualmente con claridad suficiente."
+            },
+            "pedagogicalUse": "Aporta contexto de lectura y conversación, pero todavía requiere validación pedagógica para escalar a actividades más estructuradas.",
+            "activityReadiness": "usable-for-resonance"
+          },
+          {
+            "concept": "fomento de la lectura",
+            "description": "Acciones creativas y sistemáticas para promover lectura crítica, compartida y formativa.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": "pp. 32-35",
+            "topicTitle": "Estrategias y recursos creativos para el fomento de la lectura en comunidad",
+            "evidenceSnippet": "Es ne- cesario sistematizar el fomento a la lectura y, con ello, colaborar con la formación de personas reflexivas sobre su entorno y que reconozcan y discutan las ideas d",
+            "status": "confirmed",
+            "confidence": 0.9,
+            "origin": "conceptRegistry",
+            "validationEvidence": {
+              "sourceBook": "Nuestro libro de proyectos Tomo II",
+              "pages": [
+                60,
+                62
+              ],
+              "reason": "El propósito del proyecto es promover creativamente la lectura y la escucha de textos tradicionales y contemporáneos."
+            },
+            "pedagogicalUse": "Enlaza el producto final con la comunidad de lectura y con el sentido social de compartir textos.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "lectura comunitaria",
+            "description": "Práctica colectiva de leer, dialogar y compartir textos dentro de una comunidad de aprendizaje.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": "pp. 32-35",
+            "topicTitle": "Estrategias y recursos creativos para el fomento de la lectura en comunidad",
+            "evidenceSnippet": "El mensaje contenido en los textos debe y puede comunicarse de forma efectiva para que las comunidades lo conoz- can, valoren y utilicen para resolver problemas",
+            "status": "suggested",
+            "confidence": 0.82,
+            "origin": "conceptRegistry",
+            "validationEvidence": {
+              "sourceBook": "Lenguajes",
+              "pages": [
+                32,
+                33,
+                34,
+                35
+              ],
+              "reason": "El concepto se mantiene como referencia útil, pero en esta fase no se confirmó textualmente con claridad suficiente."
+            },
+            "pedagogicalUse": "Aporta contexto de lectura y conversación, pero todavía requiere validación pedagógica para escalar a actividades más estructuradas.",
+            "activityReadiness": "usable-for-resonance"
+          },
+          {
+            "concept": "figuras retóricas",
+            "description": "Recursos expresivos que enriquecen y vuelven más vívido el lenguaje literario.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": "p. 61",
+            "topicTitle": "Figuras retóricas en textos literarios y orales en español",
+            "evidenceSnippet": "También utiliza múltiples recursos conocidos como figuras retóricas, los cuales enriquecen y hacen más vívido al mensaje",
+            "status": "suggested",
+            "confidence": 0.94,
+            "origin": "conceptRegistry",
+            "validationEvidence": {
+              "sourceBook": "Lenguajes",
+              "pages": [
+                61
+              ],
+              "reason": "El concepto se mantiene como referencia útil, pero en esta fase no se confirmó textualmente con claridad suficiente."
+            },
+            "pedagogicalUse": "Aporta contexto de lectura y conversación, pero todavía requiere validación pedagógica para escalar a actividades más estructuradas.",
+            "activityReadiness": "usable-for-resonance"
+          },
+          {
+            "concept": "lenguaje connotativo",
+            "description": "Uso del lenguaje que sugiere sentidos figurados o asociaciones más allá del significado literal.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": "pp. 62-63",
+            "topicTitle": "El lenguaje connotativo y denotativo",
+            "evidenceSnippet": "El lenguaje connotativo y denotativo “Mira nada más, pero ¡qué bonito te ves así!” o “¡Me rompiste el corazón con tu llamada!” son enunciados",
+            "status": "suggested",
+            "confidence": 0.94,
+            "origin": "conceptRegistry",
+            "validationEvidence": {
+              "sourceBook": "Lenguajes",
+              "pages": [
+                62,
+                63
+              ],
+              "reason": "El concepto se mantiene como referencia útil, pero en esta fase no se confirmó textualmente con claridad suficiente."
+            },
+            "pedagogicalUse": "Aporta contexto de lectura y conversación, pero todavía requiere validación pedagógica para escalar a actividades más estructuradas.",
+            "activityReadiness": "usable-for-resonance"
+          },
+          {
+            "concept": "lenguaje denotativo",
+            "description": "Uso del lenguaje que comunica información precisa y objetiva con interpretación directa.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": "pp. 62-63",
+            "topicTitle": "El lenguaje connotativo y denotativo",
+            "evidenceSnippet": "El lenguaje connotativo y denotativo “Mira nada más, pero ¡qué bonito te ves así!” o “¡Me rompiste el corazón con tu llamada!” son enunciados que significa",
+            "status": "suggested",
+            "confidence": 0.94,
+            "origin": "conceptRegistry",
+            "validationEvidence": {
+              "sourceBook": "Lenguajes",
+              "pages": [
+                62,
+                63
+              ],
+              "reason": "El concepto se mantiene como referencia útil, pero en esta fase no se confirmó textualmente con claridad suficiente."
+            },
+            "pedagogicalUse": "Aporta contexto de lectura y conversación, pero todavía requiere validación pedagógica para escalar a actividades más estructuradas.",
+            "activityReadiness": "usable-for-resonance"
+          },
+          {
+            "concept": "comparación",
+            "description": "Figura retórica que establece semejanzas explícitas entre elementos.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": "pp. 63-68",
+            "topicTitle": "Figuras retóricas: comparación, metáfora, hipérbole y metonimia",
+            "evidenceSnippet": "Figuras retóricas: comparación, metáfora, hipérbole y metonimia El lenguaje connotativo utiliza diversos recursos, llamados fi- guras retóricas, q",
+            "status": "suggested",
+            "confidence": 0.82,
+            "origin": "conceptRegistry",
+            "validationEvidence": {
+              "sourceBook": "Lenguajes",
+              "pages": [
+                63,
+                64,
+                65,
+                66,
+                67,
+                68
+              ],
+              "reason": "El concepto se mantiene como referencia útil, pero en esta fase no se confirmó textualmente con claridad suficiente."
+            },
+            "pedagogicalUse": "Aporta contexto de lectura y conversación, pero todavía requiere validación pedagógica para escalar a actividades más estructuradas.",
+            "activityReadiness": "usable-for-resonance"
+          },
+          {
+            "concept": "metáfora",
+            "description": "Figura retórica que traslada sentidos entre elementos para crear nuevas imágenes.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": "pp. 63-68",
+            "topicTitle": "Figuras retóricas: comparación, metáfora, hipérbole y metonimia",
+            "evidenceSnippet": "Figuras retóricas: comparación, metáfora, hipérbole y metonimia El lenguaje connotativo utiliza diversos recursos, llamados fi- guras retóricas, que le perm",
+            "status": "suggested",
+            "confidence": 0.82,
+            "origin": "conceptRegistry",
+            "validationEvidence": {
+              "sourceBook": "Lenguajes",
+              "pages": [
+                63,
+                64,
+                65,
+                66,
+                67,
+                68
+              ],
+              "reason": "El concepto se mantiene como referencia útil, pero en esta fase no se confirmó textualmente con claridad suficiente."
+            },
+            "pedagogicalUse": "Aporta contexto de lectura y conversación, pero todavía requiere validación pedagógica para escalar a actividades más estructuradas.",
+            "activityReadiness": "usable-for-resonance"
+          },
+          {
+            "concept": "hipérbole",
+            "description": "Figura retórica basada en la exageración con fines expresivos.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": "pp. 63-68",
+            "topicTitle": "Figuras retóricas: comparación, metáfora, hipérbole y metonimia",
+            "evidenceSnippet": "Figuras retóricas: comparación, metáfora, hipérbole y metonimia El lenguaje connotativo utiliza diversos recursos, llamados fi- guras retóricas, que le permiten una ma",
+            "status": "suggested",
+            "confidence": 0.88,
+            "origin": "conceptRegistry",
+            "validationEvidence": {
+              "sourceBook": "Lenguajes",
+              "pages": [
+                63,
+                64,
+                65,
+                66,
+                67,
+                68
+              ],
+              "reason": "El concepto se mantiene como referencia útil, pero en esta fase no se confirmó textualmente con claridad suficiente."
+            },
+            "pedagogicalUse": "Aporta contexto de lectura y conversación, pero todavía requiere validación pedagógica para escalar a actividades más estructuradas.",
+            "activityReadiness": "usable-for-resonance"
+          },
+          {
+            "concept": "metonimia",
+            "description": "Figura retórica que nombra una realidad mediante otra con la que guarda relación de cercanía.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": "pp. 63-68",
+            "topicTitle": "Figuras retóricas: comparación, metáfora, hipérbole y metonimia",
+            "evidenceSnippet": "Figuras retóricas: comparación, metáfora, hipérbole y metonimia El lenguaje connotativo utiliza diversos recursos, llamados fi- guras retóricas, que le permiten una mayor expresiv",
+            "status": "suggested",
+            "confidence": 0.88,
+            "origin": "conceptRegistry",
+            "validationEvidence": {
+              "sourceBook": "Lenguajes",
+              "pages": [
+                63,
+                64,
+                65,
+                66,
+                67,
+                68
+              ],
+              "reason": "El concepto se mantiene como referencia útil, pero en esta fase no se confirmó textualmente con claridad suficiente."
+            },
+            "pedagogicalUse": "Aporta contexto de lectura y conversación, pero todavía requiere validación pedagógica para escalar a actividades más estructuradas.",
+            "activityReadiness": "usable-for-resonance"
+          },
+          {
+            "concept": "textos literarios orales",
+            "description": "Producciones literarias transmitidas de boca en boca y abiertas a variaciones comunitarias.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": "pp. 68-71",
+            "topicTitle": "Uso de las figuras retóricas en textos literarios orales y escritos",
+            "evidenceSnippet": "Usos de las figuras retóricas en los textos literarios orales y escritos La literatura tiene un encanto que es más fácil de descubrir si se disfruta cada una de sus palabras y sus",
+            "status": "suggested",
+            "confidence": 0.86,
+            "origin": "conceptRegistry",
+            "validationEvidence": {
+              "sourceBook": "Lenguajes",
+              "pages": [
+                68,
+                69,
+                70,
+                71
+              ],
+              "reason": "El concepto se mantiene como referencia útil, pero en esta fase no se confirmó textualmente con claridad suficiente."
+            },
+            "pedagogicalUse": "Aporta contexto de lectura y conversación, pero todavía requiere validación pedagógica para escalar a actividades más estructuradas.",
+            "activityReadiness": "usable-for-resonance"
+          },
+          {
+            "concept": "textos literarios escritos",
+            "description": "Producciones literarias fijadas por escrito y organizadas con estructura más estable.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": "pp. 68-71",
+            "topicTitle": "Uso de las figuras retóricas en textos literarios orales y escritos",
+            "evidenceSnippet": "262-263) 68 Textos literarios escritos Textos literarios orales • Novelas • Cuentos • Poemas • Ensayos • Obras dramáticas • Corridos populares",
+            "status": "suggested",
+            "confidence": 0.86,
+            "origin": "conceptRegistry",
+            "validationEvidence": {
+              "sourceBook": "Lenguajes",
+              "pages": [
+                68,
+                69,
+                70,
+                71
+              ],
+              "reason": "El concepto se mantiene como referencia útil, pero en esta fase no se confirmó textualmente con claridad suficiente."
+            },
+            "pedagogicalUse": "Aporta contexto de lectura y conversación, pero todavía requiere validación pedagógica para escalar a actividades más estructuradas.",
+            "activityReadiness": "usable-for-resonance"
+          },
+          {
+            "concept": "géneros literarios",
+            "description": "Clasificación general de la literatura en narrativo, lírico y dramático, abierta a híbridos y experimentaciones.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": "p. 72",
+            "topicTitle": "Géneros literarios",
+            "evidenceSnippet": "Desde la academia, a partir de estructuras y formas del discurso, se la ha clasificado en tres géneros: narrativo, lírico y dramático",
+            "status": "confirmed",
+            "confidence": 0.9,
+            "origin": "conceptRegistry",
+            "validationEvidence": {
+              "sourceBook": "Lenguajes",
+              "pages": [
+                72
+              ],
+              "reason": "La página 72 presenta explícitamente los géneros literarios y el proyecto requiere seleccionar y agrupar textos de distintas formas literarias."
+            },
+            "pedagogicalUse": "Permite clasificar textos, comparar formas de expresión y organizar la antología con un criterio reconocible.",
+            "activityReadiness": "usable-for-games-later"
+          },
+          {
+            "concept": "creaciones literarias en lenguas indígenas",
+            "description": "Producciones literarias vinculadas con lenguas, identidades y saberes de pueblos originarios.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": "p. 103",
+            "topicTitle": "Creaciones literarias en lenguas indígenas",
+            "evidenceSnippet": "Creaciones literarias en lenguas indígenas",
+            "status": "confirmed",
+            "confidence": 0.92,
+            "origin": "conceptRegistry",
+            "validationEvidence": {
+              "sourceBook": "Lenguajes",
+              "pages": [
+                103
+              ],
+              "reason": "La página 103 nombra de forma explícita las creaciones literarias en lenguas indígenas y el proyecto admite integrar producciones de ese tipo."
+            },
+            "pedagogicalUse": "Amplía la antología hacia expresiones literarias indígenas y fortalece la valoración de la diversidad cultural.",
+            "activityReadiness": "usable-for-games-later"
+          },
+          {
+            "concept": "expresión cultural",
+            "description": "Manifestación de conocimientos, valores, identidad y sensibilidad colectiva por medio del lenguaje.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": "p. 103",
+            "topicTitle": "Creaciones literarias en lenguas indígenas",
+            "evidenceSnippet": "A través de él, individuos, comunidades y países enteros expresan su cultura y muestran al mundo sus conocimientos, valores y demás rasgos que constituyen su identidad tanto individual como colect",
+            "status": "confirmed",
+            "confidence": 0.82,
+            "origin": "conceptRegistry",
+            "validationEvidence": {
+              "sourceBook": "Lenguajes",
+              "pages": [
+                103
+              ],
+              "reason": "La página 103 explica que el lenguaje expresa cultura, conocimientos, valores e identidad colectiva, justo en el marco de las creaciones literarias."
+            },
+            "pedagogicalUse": "Permite argumentar por qué una obra representa la voz de una comunidad y merece entrar en la antología.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "prácticas sociales comunitarias",
+            "description": "Costumbres, actividades y formas de organización que configuran la vida colectiva de una comunidad.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": "p. 138",
+            "topicTitle": "Prácticas sociales relacionadas con la tierra como madre y como territorio",
+            "evidenceSnippet": "Las prácticas sociales (costumbres, métodos de acción, modo de hablar, actividades físicas y manuales, tipos de trabajo, religión y ritos, ves",
+            "status": "confirmed",
+            "confidence": 0.86,
+            "origin": "conceptRegistry",
+            "validationEvidence": {
+              "sourceBook": "Lenguajes",
+              "pages": [
+                138
+              ],
+              "reason": "La página 138 define prácticas sociales de la comunidad y aporta un marco útil para interpretar expresiones literarias situadas."
+            },
+            "pedagogicalUse": "Ayuda a leer la literatura como parte de la vida comunitaria y no solo como pieza aislada.",
+            "activityReadiness": "usable-for-autoevaluation"
+          }
+        ],
+        "thinkingCriteria": {
+          "primary": "Pensamiento lógico-lingüístico",
+          "secondary": [
+            "lectura comprensiva",
+            "interpretación de recursos del lenguaje",
+            "argumentación de preferencias",
+            "comparación de expresiones literarias o culturales",
+            "comunicación clara de ideas"
+          ],
+          "developedOperations": [
+            "seleccionar",
+            "comparar",
+            "interpretar",
+            "argumentar",
+            "compartir expresiones literarias y culturales"
+          ],
+          "source": "manual-control + field-rule",
+          "status": "partially-validated"
+        },
+        "validationStatus": {
+          "readinessLevel": "activities-partial",
+          "readyForActivities": false,
+          "needsHumanReview": true,
+          "needsReviewReasons": [
+            "El horizonte oficial textual del proyecto sigue pendiente de verificación literal.",
+            "Aun con conceptos ya confirmados, el bloque no pasa a actividades interactivas en esta fase."
+          ],
+          "conceptValidationSummary": {
+            "confirmed": 8,
+            "suggested": 13,
+            "discarded": 0,
+            "needsReview": 0
+          }
+        },
+        "detonatingStrategy": {
+          "title": "9. Artistas entre nosotros  • Lenguajes • 1er grado",
+          "text": "Video del Proyecto Parcial de Aula 9: 9. Artistas entre nosotros  • Lenguajes • 1er grado",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=Yp4V3FD5kDg",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "partial-classroom-project"
+        }
+      },
+      {
+        "id": "lenguajes-1-ppa-9-pa26",
+        "academicProjectNumber": 26,
+        "title": "Dilo como sea, pero aquí coincidimos",
+        "bookVolume": "Tomo II",
+        "sourceValidation": {
+          "sourceStatus": "linked",
+          "possibilitiesPages": [
+            22,
+            23
+          ],
+          "possibilitiesMaterialId": "grade-1-posibilidades-pos-len-1",
+          "possibilitiesColumnIndex": 2,
+          "columnEvidence": "Columna 2 del bloque 22-23 de Posibilidades."
+        },
+        "sourcePages": {
+          "nuestroLibroProyectos": [
+            {
+              "materialId": "grade-1-proyectos-nuestro-libro-de-proyectos-tomo-ii-primer-grado",
+              "label": "Nuestro libro de proyectos Tomo II",
+              "startPage": 64,
+              "endPage": 67,
+              "topicTitle": "Proyecto académico 26"
+            }
+          ],
+          "conceptBook": [
+            {
+              "materialId": "grade-1-conceptos-lenguajes-primer-grado",
+              "label": "Lenguajes",
+              "startPage": 249,
+              "endPage": 249,
+              "topicTitle": "La lengua inglesa y su uso lúdico"
+            },
+            {
+              "materialId": "grade-1-conceptos-lenguajes-primer-grado",
+              "label": "Lenguajes",
+              "startPage": 250,
+              "endPage": 251,
+              "topicTitle": "Juegos gramaticales de la lengua inglesa"
+            },
+            {
+              "materialId": "grade-1-conceptos-lenguajes-primer-grado",
+              "label": "Lenguajes",
+              "startPage": 253,
+              "endPage": 253,
+              "topicTitle": "La tradición y comunidad en textos literarios"
+            },
+            {
+              "materialId": "grade-1-conceptos-lenguajes-primer-grado",
+              "label": "Lenguajes",
+              "startPage": 254,
+              "endPage": 256,
+              "topicTitle": "Tradiciones literarias: mitos, fábulas y leyendas"
+            },
+            {
+              "materialId": "grade-1-conceptos-lenguajes-primer-grado",
+              "label": "Lenguajes",
+              "startPage": 257,
+              "endPage": 258,
+              "topicTitle": "Literatura contemporánea en lengua inglesa"
+            },
+            {
+              "materialId": "grade-1-conceptos-lenguajes-primer-grado",
+              "label": "Lenguajes",
+              "startPage": 258,
+              "endPage": 260,
+              "topicTitle": "Medios para la promoción y difusión de la literatura"
+            }
+          ],
+          "multiplesLenguajes": [
+            {
+              "materialId": "grade-1-apoyo-muiltiples-lenguajes-primer-grado",
+              "label": "Múltiples Lenguajes",
+              "startPage": 40,
+              "endPage": 45,
+              "topicTitle": "Man Ray: pintar con fotografías"
+            }
+          ],
+          "otherMaterials": [
+            {
+              "label": "Video PA 26: Colección de textos en inglés• Lenguajes • 1er grado",
+              "reference": "https://www.youtube.com/watch?v=OzduAc4fRCI",
+              "status": "confirmed"
+            },
+            {
+              "label": "Video PPA 9: 9. Artistas entre nosotros  • Lenguajes • 1er grado",
+              "reference": "https://www.youtube.com/watch?v=Yp4V3FD5kDg",
+              "status": "confirmed"
+            }
+          ]
+        },
+        "projectPurpose": {
+          "text": "Elaborar una colección de textos en inglés para conocer la riqueza lingüística y cultural del idioma y acordar con la comunidad una forma de leer, comprender, explicar y apreciar su contenido.",
+          "sourcePages": [
+            "Nuestro libro de proyectos Tomo II p. 64"
+          ],
+          "status": "confirmed-from-project-book"
+        },
+        "projectExpectationHorizon": {
+          "officialText": "",
+          "studentVersion": "",
+          "sourcePages": [
+            "Nuestro libro de proyectos Tomo II p. 65"
+          ],
+          "evidence": "La Etapa 3 presenta Objetivo 1 y Objetivo 2, pero el libro pide que la comunidad defina su propio horizonte de expectativas.",
+          "status": "pending-human-formulation"
+        },
+        "academicProjectStrategy": {
+          "title": "Colección de textos en inglés• Lenguajes • 1er grado",
+          "text": "Video detonador del Proyecto Academico 26: Dilo como sea, pero aquí coincidimos",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=OzduAc4fRCI",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "academic-project"
+        },
+        "finalProduct": {
+          "title": "Colección de textos en inglés",
+          "source": "Posibilidades de uso p. 22 + Nuestro libro de proyectos Tomo II pp. 64-67",
+          "status": "confirmed"
+        },
+        "supportMaterials": [
+          {
+            "title": "Man Ray: pintar con fotografías",
+            "kind": "Múltiples Lenguajes",
+            "pages": "pp. 40-45",
+            "status": "confirmed-source"
+          },
+          {
+            "title": "bit.ly/3RpbgXa",
+            "kind": "fuente complementaria",
+            "pages": "Nuestro libro de proyectos Tomo II p. 66",
+            "status": "pending-url"
+          }
+        ],
+        "academicConcepts": [
+          {
+            "concept": "uso lúdico de la lengua inglesa",
+            "description": "Tema de apoyo para comprender cómo el inglés puede explorarse mediante juegos de palabras y usos expresivos.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": "p. 249",
+            "topicTitle": "La lengua inglesa y su uso lúdico",
+            "evidenceSnippet": "Utilizar las clases de lengua para realizar actividades divertidas que permitan enseñar de manera lúdica es una excelente oportunidad para los maestros de lengua extranjera. En el idioma inglés, hacer juegos de palabras y doble sentido tiene muchas posibilidad",
+            "status": "confirmed",
+            "confidence": 0.78,
+            "origin": "possibilities-column",
+            "validationEvidence": {
+              "sourceBook": "Lenguajes",
+              "pages": [
+                249
+              ],
+              "reason": "La página 249 nombra explícitamente el uso lúdico de la lengua inglesa y lo vincula con actividades divertidas de aprendizaje."
+            },
+            "pedagogicalUse": "Ayuda a comprender que la colección de textos en inglés no es solo traductiva, sino también expresiva y lúdica.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "juegos gramaticales de la lengua inglesa",
+            "description": "Contenido de apoyo para reconocer estructuras y significados del inglés desde actividades lúdicas.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": "pp. 250-251",
+            "topicTitle": "Juegos gramaticales de la lengua inglesa",
+            "evidenceSnippet": "Juegos gramaticales de la lengua inglesa El inglés es un idioma en donde las palabras pueden significar muchas cosas y es, por tanto, muy fácil hacer juegos gramaticales a partir de esta caracterís- tica. Un rasgo cultural de los ingleses es el sentido del hum",
+            "status": "confirmed",
+            "confidence": 0.78,
+            "origin": "possibilities-column",
+            "validationEvidence": {
+              "sourceBook": "Lenguajes",
+              "pages": [
+                250,
+                251
+              ],
+              "reason": "Las páginas 250-251 presentan de forma directa los juegos gramaticales de la lengua inglesa como contenido de apoyo del proyecto."
+            },
+            "pedagogicalUse": "Permite reconocer estructuras lingüísticas del inglés y jugar con ellas al seleccionar y comentar textos.",
+            "activityReadiness": "usable-for-games-later"
+          },
+          {
+            "concept": "trabalenguas",
+            "description": "Concepto sugerido a partir del tema explícito de la página. Requiere validación humana.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": "p. 251",
+            "topicTitle": "Trabalenguas",
+            "evidenceSnippet": "Trabalenguas Inglés Traducción al español Significado I wish you were a fish in my dish. Be a fish in my dish, please. “Ojalá fueras un pez en mi plato. Sé un pez en mi plato, por favor.” Este trabalenguas en inglés se basa en el sonido de la terminación ish.",
+            "status": "confirmed",
+            "confidence": 0.56,
+            "origin": "conceptRegistry",
+            "validationEvidence": {
+              "sourceBook": "Lenguajes",
+              "pages": [
+                251
+              ],
+              "reason": "La página 251 aborda explícitamente los trabalenguas en inglés como forma literaria y lúdica de trabajo con el idioma."
+            },
+            "pedagogicalUse": "Aporta un tipo concreto de texto breve que puede entrar a la colección y ayudar a trabajar pronunciación y ritmo.",
+            "activityReadiness": "usable-for-games-later"
+          },
+          {
+            "concept": "tradición y comunidad en textos literarios",
+            "description": "Referencia para leer textos en inglés como parte de una tradición cultural y comunitaria.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": "p. 253",
+            "topicTitle": "La tradición y comunidad en textos literarios",
+            "evidenceSnippet": "Los pueblos de habla inglesa, al igual que los de otras lenguas, tratan de explicar sus orígenes y cosmovisiones mediante textos narrativos. En estas historias se exponen orígenes comunes que dotan de identidad a los pueblos. Del mismo modo que en otras comuni",
+            "status": "confirmed",
+            "confidence": 0.78,
+            "origin": "possibilities-column",
+            "validationEvidence": {
+              "sourceBook": "Lenguajes",
+              "pages": [
+                253
+              ],
+              "reason": "La columna de Posibilidades y el contenido de la página 253 relacionan textos literarios en inglés con tradición, identidad y comunidad."
+            },
+            "pedagogicalUse": "Sirve para leer la colección en inglés como expresión cultural y no solo como ejercicio escolar aislado.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "tradiciones literarias: mitos, fábulas y leyendas",
+            "description": "Conjunto de formas narrativas que amplían la colección de textos en inglés y su contexto cultural.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": "pp. 254-256",
+            "topicTitle": "Tradiciones literarias: mitos, fábulas y leyendas",
+            "evidenceSnippet": "Tradiciones literarias: mitos, fábulas y leyendas A través de los mitos, las fábulas y las leyendas, los pueblos de habla ingle- sa intentaron explicar su origen y su organización gubernamental; también realizaron textos sobre la condición humana y las consecu",
+            "status": "confirmed",
+            "confidence": 0.78,
+            "origin": "possibilities-column",
+            "validationEvidence": {
+              "sourceBook": "Lenguajes",
+              "pages": [
+                254,
+                255,
+                256
+              ],
+              "reason": "Las páginas 254-256 se dedican a mitos, fábulas y leyendas en lengua inglesa y quedan señaladas en Posibilidades como parte del PA26."
+            },
+            "pedagogicalUse": "Ofrece criterios claros para seleccionar tipos de textos que pueden integrar la colección en inglés.",
+            "activityReadiness": "usable-for-games-later"
+          },
+          {
+            "concept": "literatura contemporánea en lengua inglesa",
+            "description": "Línea de lectura para reconocer obras y contextos actuales en inglés.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": "pp. 257-258",
+            "topicTitle": "Literatura contemporánea en lengua inglesa",
+            "evidenceSnippet": "Literatura contemporánea en lengua inglesa Se considera que la literatura inglesa contemporánea inicia al final de la Segun- da Guerra Mundial (a mediados del siglo xx) y llega hasta la actualidad. Tras esa guerra, surge un nuevo orden mundial en el cual Estad",
+            "status": "confirmed",
+            "confidence": 0.78,
+            "origin": "possibilities-column",
+            "validationEvidence": {
+              "sourceBook": "Lenguajes",
+              "pages": [
+                257,
+                258
+              ],
+              "reason": "Las páginas 257-258 nombran explícitamente la literatura contemporánea en lengua inglesa como contenido de apoyo del proyecto."
+            },
+            "pedagogicalUse": "Ayuda a ampliar la colección más allá de lo tradicional y a comparar distintas épocas y voces del inglés.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "promoción y difusión de la literatura",
+            "description": "Recurso para organizar cómo se comparte la colección literaria con la comunidad.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": "pp. 258-260",
+            "topicTitle": "Medios para la promoción y difusión de la literatura",
+            "evidenceSnippet": "Existen diversos medios para fomentar la lectura y la escritura entre jóvenes y adultos en la comunidad. Uno de ellos son los círculos de es- tudio. Éstos son pequeños grupos de personas que, de forma voluntaria, se reúnen una o dos veces por semana, por aprox",
+            "status": "confirmed",
+            "confidence": 0.78,
+            "origin": "possibilities-column",
+            "validationEvidence": {
+              "sourceBook": "Lenguajes",
+              "pages": [
+                258,
+                259,
+                260
+              ],
+              "reason": "Posibilidades vincula al PA26 con medios para la promoción y difusión de la literatura; además, las páginas finales hablan de formas de fomentar lectura y escritura."
+            },
+            "pedagogicalUse": "Sostiene la manera en que la colección se comparte, explica y pone en circulación dentro de la comunidad.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "oraciones simples en inglés",
+            "description": "Contenido explícito de investigación para comprender la estructura básica del inglés dentro de la colección.",
+            "sourceBook": "Nuestro libro de proyectos",
+            "sourcePages": "p. 66",
+            "topicTitle": "Oraciones simples: tipos de oración y posición de sus elementos",
+            "evidenceSnippet": "W Textos literarios breves en inglés W Oraciones simples: tipos de oración, elementos que constituyen el idioma inglés y la posición de tales elementos en una oración Para dar respuesta a ¿Cómo se organizan los materiales de una colección de textos literarios",
+            "status": "confirmed",
+            "confidence": 0.84,
+            "origin": "project-book",
+            "validationEvidence": {
+              "sourceBook": "Nuestro libro de proyectos Tomo II",
+              "pages": [
+                65,
+                66
+              ],
+              "reason": "El paso a paso y las fuentes de consulta piden ubicar oraciones simples y reconocer la posición de sus elementos en inglés."
+            },
+            "pedagogicalUse": "Permite comprender la estructura básica de los textos seleccionados y apoyar su traducción y explicación.",
+            "activityReadiness": "usable-for-games-later"
+          }
+        ],
+        "thinkingCriteria": {
+          "primary": "Pensamiento lógico-lingüístico",
+          "secondary": [],
+          "developedOperations": [
+            "seleccionar textos",
+            "leer y comprender textos en inglés",
+            "explicar contenidos",
+            "organizar una colección",
+            "comparar recursos lingüísticos"
+          ],
+          "source": "field-rule + actividades de pp. 64-66",
+          "status": "suggested"
+        },
+        "validationStatus": {
+          "readinessLevel": "development-partial",
+          "readyForActivities": false,
+          "needsHumanReview": true,
+          "needsReviewReasons": [
+            "Aunque ya hay conceptos confirmados, el horizonte del proyecto sigue pendiente de formulación situada por la comunidad.",
+            "Los enlaces cortos asociados al proyecto requieren validar su destino final.",
+            "No se activan actividades ni juegos mientras no exista validación pedagógica integral del bloque."
+          ],
+          "conceptValidationSummary": {
+            "confirmed": 8,
+            "suggested": 0,
+            "discarded": 0,
+            "needsReview": 0
+          }
+        },
+        "detonatingStrategy": {
+          "title": "9. Artistas entre nosotros  • Lenguajes • 1er grado",
+          "text": "Video del Proyecto Parcial de Aula 9: 9. Artistas entre nosotros  • Lenguajes • 1er grado",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=Yp4V3FD5kDg",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "partial-classroom-project"
+        }
+      },
+      {
+        "id": "lenguajes-1-ppa-9-pa27",
+        "academicProjectNumber": 27,
+        "title": "¡Ni fácil ni difícil!",
+        "bookVolume": "Tomo II",
+        "sourceValidation": {
+          "sourceStatus": "linked",
+          "possibilitiesPages": [
+            22,
+            23
+          ],
+          "possibilitiesMaterialId": "grade-1-posibilidades-pos-len-1",
+          "possibilitiesColumnIndex": 3,
+          "columnEvidence": "Columna 3 del bloque 22-23 de Posibilidades."
+        },
+        "sourcePages": {
+          "nuestroLibroProyectos": [
+            {
+              "materialId": "grade-1-proyectos-nuestro-libro-de-proyectos-tomo-ii-primer-grado",
+              "label": "Nuestro libro de proyectos Tomo II",
+              "startPage": 68,
+              "endPage": 71,
+              "topicTitle": "Proyecto académico 27"
+            }
+          ],
+          "conceptBook": [
+            {
+              "materialId": "grade-1-conceptos-lenguajes-primer-grado",
+              "label": "Lenguajes",
+              "startPage": 149,
+              "endPage": 149,
+              "topicTitle": "La diversidad lingüística de México y América Latina"
+            },
+            {
+              "materialId": "grade-1-conceptos-lenguajes-primer-grado",
+              "label": "Lenguajes",
+              "startPage": 150,
+              "endPage": 152,
+              "topicTitle": "La diversidad lingüística"
+            },
+            {
+              "materialId": "grade-1-conceptos-lenguajes-primer-grado",
+              "label": "Lenguajes",
+              "startPage": 152,
+              "endPage": 154,
+              "topicTitle": "Las lenguas más y menos habladas de México y América Latina"
+            },
+            {
+              "materialId": "grade-1-conceptos-lenguajes-primer-grado",
+              "label": "Lenguajes",
+              "startPage": 155,
+              "endPage": 156,
+              "topicTitle": "La revitalización cultural a través de las lenguas indígenas"
+            },
+            {
+              "materialId": "grade-1-conceptos-lenguajes-primer-grado",
+              "label": "Lenguajes",
+              "startPage": 157,
+              "endPage": 157,
+              "topicTitle": "La diversidad cultural y lingüística de México en peligro"
+            },
+            {
+              "materialId": "grade-1-conceptos-lenguajes-primer-grado",
+              "label": "Lenguajes",
+              "startPage": 158,
+              "endPage": 159,
+              "topicTitle": "Las relaciones interétnicas en la sociedad mexicana"
+            },
+            {
+              "materialId": "grade-1-conceptos-lenguajes-primer-grado",
+              "label": "Lenguajes",
+              "startPage": 160,
+              "endPage": 161,
+              "topicTitle": "La tradición oral en lenguas indígenas"
+            },
+            {
+              "materialId": "grade-1-conceptos-lenguajes-primer-grado",
+              "label": "Lenguajes",
+              "startPage": 162,
+              "endPage": 163,
+              "topicTitle": "La tradición escrita en lenguas indígenas"
+            }
+          ],
+          "multiplesLenguajes": [
+            {
+              "materialId": "grade-1-apoyo-muiltiples-lenguajes-primer-grado",
+              "label": "Múltiples Lenguajes",
+              "startPage": 68,
+              "endPage": 69,
+              "topicTitle": "Cortometrajes"
+            }
+          ],
+          "otherMaterials": [
+            {
+              "label": "Video PA 27: Póster • Lenguajes • 1er grado",
+              "reference": "https://www.youtube.com/watch?v=-etn7SNwQ08",
+              "status": "confirmed"
+            },
+            {
+              "label": "Video PPA 9: 9. Artistas entre nosotros  • Lenguajes • 1er grado",
+              "reference": "https://www.youtube.com/watch?v=Yp4V3FD5kDg",
+              "status": "confirmed"
+            }
+          ]
+        },
+        "projectPurpose": {
+          "text": "Realizar un póster que exprese el mensaje de un texto con elementos de una lengua diferente al español, a partir de una lengua indígena elegida en asamblea.",
+          "sourcePages": [
+            "Nuestro libro de proyectos Tomo II p. 68"
+          ],
+          "status": "confirmed-from-project-book"
+        },
+        "projectExpectationHorizon": {
+          "officialText": "",
+          "studentVersion": "",
+          "sourcePages": [
+            "Nuestro libro de proyectos Tomo II p. 69"
+          ],
+          "evidence": "La Etapa 3 incluye Objetivo 1 y Objetivo 2, pero el horizonte final debe definirse con base en el contexto de la comunidad.",
+          "status": "pending-human-formulation"
+        },
+        "academicProjectStrategy": {
+          "title": "Póster • Lenguajes • 1er grado",
+          "text": "Video detonador del Proyecto Academico 27: ¡Ni fácil ni difícil!",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=-etn7SNwQ08",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "academic-project"
+        },
+        "finalProduct": {
+          "title": "Póster",
+          "source": "Posibilidades de uso p. 22 + Nuestro libro de proyectos Tomo II pp. 68-71",
+          "status": "confirmed"
+        },
+        "supportMaterials": [
+          {
+            "title": "Cortometrajes",
+            "kind": "Múltiples Lenguajes",
+            "pages": "pp. 68-69",
+            "status": "confirmed-source"
+          },
+          {
+            "title": "bit.ly/3RpbgXa",
+            "kind": "fuente complementaria",
+            "pages": "Nuestro libro de proyectos Tomo II p. 70",
+            "status": "pending-url"
+          }
+        ],
+        "academicConcepts": [
+          {
+            "concept": "diversidad lingüística",
+            "description": "Concepto sugerido a partir del tema explícito de la página. Requiere validación humana.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": "p. 150",
+            "topicTitle": "La diversidad lingüística",
+            "evidenceSnippet": "La diversidad lingüística Pueblos, grupos y comunidades enteras, generación tras generación, han heredado su patrimonio cultural a través de las lenguas e idiomas que dominan. Los ojos y los oídos del mundo deben estar atentos a las culturas que sobreviven al",
+            "status": "confirmed",
+            "confidence": 0.56,
+            "origin": "conceptRegistry",
+            "validationEvidence": {
+              "sourceBook": "Lenguajes",
+              "pages": [
+                150
+              ],
+              "reason": "La página 150 aborda de forma directa la diversidad lingüística, uno de los ejes centrales para elegir una lengua indígena en el proyecto."
+            },
+            "pedagogicalUse": "Ayuda a comprender que el póster se inserta en un contexto amplio de lenguas y formas de expresión.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "lenguas más y menos habladas de México y América Latina",
+            "description": "Contenido para reconocer la variedad y desigual presencia de las lenguas en distintos territorios.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": "pp. 152-154",
+            "topicTitle": "Las lenguas más y menos habladas de México y América Latina",
+            "evidenceSnippet": "La diversidad lingüística ha ido en aumento debido a los procesos migratorios, pues con ellos se ha favorecido el intercambio cultural y lingüístico entre regiones y países, dando origen a nuevas manifestaciones del lenguaje, así como a nuevas formas de expres",
+            "status": "confirmed",
+            "confidence": 0.78,
+            "origin": "possibilities-column",
+            "validationEvidence": {
+              "sourceBook": "Lenguajes",
+              "pages": [
+                152,
+                153,
+                154
+              ],
+              "reason": "El bloque de Posibilidades asigna estas páginas al PA27 y su contenido se relaciona con la distribución y visibilidad de las lenguas."
+            },
+            "pedagogicalUse": "Permite contextualizar la lengua elegida y reflexionar sobre presencia, desplazamiento y reconocimiento.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "revitalización cultural a través de las lenguas indígenas",
+            "description": "Tema para comprender cómo las lenguas sostienen memoria, identidad y continuidad cultural.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": "pp. 155-156",
+            "topicTitle": "La revitalización cultural a través de las lenguas indígenas",
+            "evidenceSnippet": "La revitalización cultural a través de las lenguas indígenas Las lenguas forman parte del patrimonio cultural más valioso de la humani- dad, pues no sólo son importantes para la comunicación, sino también para la difusión de conocimientos, realidades e histori",
+            "status": "confirmed",
+            "confidence": 0.78,
+            "origin": "possibilities-column",
+            "validationEvidence": {
+              "sourceBook": "Lenguajes",
+              "pages": [
+                155,
+                156
+              ],
+              "reason": "Las páginas 155-156 nombran explícitamente la revitalización cultural a través de las lenguas indígenas."
+            },
+            "pedagogicalUse": "Da sentido al póster como acción de valoración y continuidad cultural, no solo como producto gráfico.",
+            "activityReadiness": "usable-for-games-later"
+          },
+          {
+            "concept": "diversidad cultural y lingüística",
+            "description": "Concepto sugerido a partir del tema explícito de la página. Requiere validación humana.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": "p. 157",
+            "topicTitle": "La diversidad cultural y lingüística",
+            "evidenceSnippet": "La diversidad cultural y lingüística enfrenta peligros irreversibles a causa de prejuicios, discriminación, explotación e ignorancia. De esta forma, el patrimonio cultural indígena está amenazado con la inminente y paulatina desaparición. Actualmente, centenar",
+            "status": "confirmed",
+            "confidence": 0.56,
+            "origin": "conceptRegistry",
+            "validationEvidence": {
+              "sourceBook": "Lenguajes",
+              "pages": [
+                157
+              ],
+              "reason": "La página 157 presenta de manera directa la diversidad cultural y lingüística y sus riesgos de desaparición."
+            },
+            "pedagogicalUse": "Ayuda a interpretar el valor del mensaje que se comunicará en el póster y su dimensión social.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "relaciones interétnicas",
+            "description": "Concepto sugerido a partir del tema explícito de la página. Requiere validación humana.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": "p. 158",
+            "topicTitle": "Las relaciones interétnicas",
+            "evidenceSnippet": "Las relaciones interétnicas en la sociedad mexicana El diálogo, la cooperación activa, el intercambio de gustos, creencias e ideas, y la relación entre dos o más personas, garantiza lo que se conoce como interac- ción social. Es un aspecto esencial para obten",
+            "status": "confirmed",
+            "confidence": 0.56,
+            "origin": "conceptRegistry",
+            "validationEvidence": {
+              "sourceBook": "Lenguajes",
+              "pages": [
+                158,
+                159
+              ],
+              "reason": "Las páginas 158-159 desarrollan explícitamente las relaciones interétnicas en la sociedad mexicana."
+            },
+            "pedagogicalUse": "Permite dialogar sobre convivencia, respeto y vínculos entre grupos culturales en torno al lenguaje.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "tradición oral en lenguas indígenas",
+            "description": "Base para analizar textos de tradición oral y trasladar su mensaje a un póster.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": "pp. 160-161",
+            "topicTitle": "La tradición oral en lenguas indígenas",
+            "evidenceSnippet": "La tradición oral en lenguas indígenas El lenguaje es un medio de expresión propio del ser humano y en constante cambio. A través de él, individuos, grupos, comuni- dades y países enteros promueven su cultura y exponen ante el mundo sus conocimientos, valores",
+            "status": "confirmed",
+            "confidence": 0.78,
+            "origin": "possibilities-column",
+            "validationEvidence": {
+              "sourceBook": "Lenguajes",
+              "pages": [
+                160,
+                161
+              ],
+              "reason": "Las páginas 160-161 trabajan de forma directa la tradición oral en lenguas indígenas, que es base para seleccionar textos del proyecto."
+            },
+            "pedagogicalUse": "Sostiene la lectura, interpretación y explicación del mensaje proveniente de textos orales comunitarios.",
+            "activityReadiness": "usable-for-games-later"
+          },
+          {
+            "concept": "tradición escrita en lenguas indígenas",
+            "description": "Apoyo para reconocer testimonios escritos y su valor al comunicar el mensaje del texto elegido.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": "pp. 162-163",
+            "topicTitle": "La tradición escrita en lenguas indígenas",
+            "evidenceSnippet": "La tradición escrita en lenguas indígenas Los nativos americanos son hijos de una cultura que valoraba la palabra. En su origen, las lenguas indígenas abarcaban un sistema de “escritura” que partía de pictogramas y glifos. Los pictogramas son signos visuales q",
+            "status": "confirmed",
+            "confidence": 0.78,
+            "origin": "possibilities-column",
+            "validationEvidence": {
+              "sourceBook": "Lenguajes",
+              "pages": [
+                162,
+                163
+              ],
+              "reason": "Las páginas 162-163 abordan explícitamente la tradición escrita en lenguas indígenas y los testimonios que la sostienen."
+            },
+            "pedagogicalUse": "Ayuda a distinguir soportes y formas de transmisión cuando el mensaje del texto pasa al póster.",
+            "activityReadiness": "usable-for-games-later"
+          },
+          {
+            "concept": "ideas principales y secundarias de un texto",
+            "description": "Contenido de investigación necesario para extraer el mensaje que se trasladará al póster.",
+            "sourceBook": "Nuestro libro de proyectos",
+            "sourcePages": "p. 70",
+            "topicTitle": "Ideas principales y secundarias de un texto",
+            "evidenceSnippet": "familias lingüísticas y sus variantes W Ideas principales y secundarias de un texto W La importancia del rescate y la defensa de las lenguas indígenas para evitar su desaparición W Textos literarios tradicionales y contemporáneos escritos en lenguas indígenas",
+            "status": "confirmed",
+            "confidence": 0.84,
+            "origin": "project-book",
+            "validationEvidence": {
+              "sourceBook": "Nuestro libro de proyectos Tomo II",
+              "pages": [
+                70
+              ],
+              "reason": "La Etapa 5 del PA27 nombra este contenido de investigación como insumo para extraer el mensaje que se explicará en el póster."
+            },
+            "pedagogicalUse": "Sirve para sintetizar el mensaje del texto y decidir qué debe destacarse visualmente en el producto final.",
+            "activityReadiness": "usable-for-games-later"
+          },
+          {
+            "concept": "rescate y defensa de las lenguas indígenas",
+            "description": "Línea de trabajo explícita para valorar el uso de las lenguas indígenas y su continuidad.",
+            "sourceBook": "Nuestro libro de proyectos",
+            "sourcePages": "p. 70",
+            "topicTitle": "La importancia del rescate y la defensa de las lenguas indígenas",
+            "evidenceSnippet": "principales y secundarias de un texto W La importancia del rescate y la defensa de las lenguas indígenas para evitar su desaparición W Textos literarios tradicionales y contemporáneos escritos en lenguas indígenas Para dar respuesta a ¿Cómo se elabora un póste",
+            "status": "confirmed",
+            "confidence": 0.84,
+            "origin": "project-book",
+            "validationEvidence": {
+              "sourceBook": "Nuestro libro de proyectos Tomo II",
+              "pages": [
+                70
+              ],
+              "reason": "La lista de fuentes del proyecto menciona de manera explícita la importancia del rescate y la defensa de las lenguas indígenas."
+            },
+            "pedagogicalUse": "Orienta la lectura crítica del proyecto como intervención de cuidado y valoración lingüística.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "textos literarios en lenguas indígenas",
+            "description": "Contenido de búsqueda e investigación para seleccionar el texto que dará base al póster.",
+            "sourceBook": "Nuestro libro de proyectos",
+            "sourcePages": "p. 70",
+            "topicTitle": "Textos literarios tradicionales y contemporáneos escritos en lenguas indígenas",
+            "evidenceSnippet": "indígenas para evitar su desaparición W Textos literarios tradicionales y contemporáneos escritos en lenguas indígenas Para dar respuesta a ¿Cómo se elabora un póster?, consulten el siguiente enlace: bit.ly/3R0ForE Etapa 6. Unimos las piezas Exponer el mensaje",
+            "status": "confirmed",
+            "confidence": 0.84,
+            "origin": "project-book",
+            "validationEvidence": {
+              "sourceBook": "Nuestro libro de proyectos Tomo II",
+              "pages": [
+                68,
+                70
+              ],
+              "reason": "El propósito del PA27 pide elegir uno o más textos de la producción literaria en una lengua indígena y la Etapa 5 retoma ese mismo foco."
+            },
+            "pedagogicalUse": "Conecta la búsqueda del texto fuente con el análisis del mensaje que se convertirá en póster.",
+            "activityReadiness": "usable-for-games-later"
+          }
+        ],
+        "thinkingCriteria": {
+          "primary": "Pensamiento lógico-lingüístico",
+          "secondary": [],
+          "developedOperations": [
+            "investigar textos",
+            "identificar ideas principales",
+            "interpretar mensajes",
+            "sintetizar información en un póster",
+            "explicar el valor de las lenguas indígenas"
+          ],
+          "source": "field-rule + actividades de pp. 68-70",
+          "status": "suggested"
+        },
+        "validationStatus": {
+          "readinessLevel": "development-partial",
+          "readyForActivities": false,
+          "needsHumanReview": true,
+          "needsReviewReasons": [
+            "Aunque ya hay conceptos confirmados, el horizonte del proyecto sigue pendiente de formulación situada por la comunidad.",
+            "Los enlaces cortos asociados al proyecto requieren validar su destino final.",
+            "No se activan actividades ni juegos mientras no exista validación pedagógica integral del bloque."
+          ],
+          "conceptValidationSummary": {
+            "confirmed": 10,
+            "suggested": 0,
+            "discarded": 0,
+            "needsReview": 0
+          }
+        },
+        "detonatingStrategy": {
+          "title": "9. Artistas entre nosotros  • Lenguajes • 1er grado",
+          "text": "Video del Proyecto Parcial de Aula 9: 9. Artistas entre nosotros  • Lenguajes • 1er grado",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=Yp4V3FD5kDg",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "partial-classroom-project"
+        }
+      }
+    ],
+    "conceptsValidationGeneratedAt": "2026-05-23T18:15:26.294Z"
+  },
+  "conceptsValidation": {
+    "grade": "1",
+    "field": "Lenguajes",
+    "partialClassroomProject": "PPA 9",
+    "partialClassroomProjectTitle": "Artistas entre nosotros",
+    "generatedAt": "2026-05-23T18:15:26.294Z",
+    "entries": [
+      {
+        "projectId": "lenguajes-1-ppa9-pa25",
+        "projectTitle": "Lo mejor de lo mejor",
+        "concept": "creaciones literarias",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            25
+          ],
+          "reason": "Concepto validado para esta ficha porque cuenta con paginas fuente identificadas y se considera pertinente para el desarrollo del proyecto."
+        },
+        "pedagogicalUse": "Aporta contexto de lectura y conversación, pero todavía requiere validación pedagógica para escalar a actividades más estructuradas.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-1-ppa9-pa25",
+        "projectTitle": "Lo mejor de lo mejor",
+        "concept": "manifestaciones literarias comunitarias",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            26,
+            27,
+            28,
+            29
+          ],
+          "reason": "Concepto validado para esta ficha porque cuenta con paginas fuente identificadas y se considera pertinente para el desarrollo del proyecto."
+        },
+        "pedagogicalUse": "Aporta contexto de lectura y conversación, pero todavía requiere validación pedagógica para escalar a actividades más estructuradas.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-1-ppa9-pa25",
+        "projectTitle": "Lo mejor de lo mejor",
+        "concept": "oralidad",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Nuestro libro de proyectos Tomo II",
+          "pages": [
+            60
+          ],
+          "reason": "La presentación del proyecto dice que las producciones pueden ser textuales u orales y que después se conservarán por escrito."
+        },
+        "pedagogicalUse": "Permite valorar expresiones orales de la comunidad y comprender cómo se trasladan a una antología escrita.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-1-ppa9-pa25",
+        "projectTitle": "Lo mejor de lo mejor",
+        "concept": "antología literaria",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Nuestro libro de proyectos Tomo II",
+          "pages": [
+            60,
+            61,
+            62
+          ],
+          "reason": "El proyecto nombra explícitamente la elaboración de una antología literaria como producto y la retoma en propósito, problema y fuentes de consulta."
+        },
+        "pedagogicalUse": "Sirve para definir el producto final, organizar la reunión de textos y orientar la explicación pública del proyecto.",
+        "activityReadiness": "usable-for-games-later"
+      },
+      {
+        "projectId": "lenguajes-1-ppa9-pa25",
+        "projectTitle": "Lo mejor de lo mejor",
+        "concept": "selección de textos",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Nuestro libro de proyectos Tomo II",
+          "pages": [
+            60,
+            62
+          ],
+          "reason": "Las etapas del proyecto piden seleccionar los textos que integrarán la antología y valorar cuáles conviene conservar."
+        },
+        "pedagogicalUse": "Ayuda a justificar por qué ciertos textos entran a la antología y a sostener decisiones de lectura y curaduría.",
+        "activityReadiness": "usable-for-games-later"
+      },
+      {
+        "projectId": "lenguajes-1-ppa9-pa25",
+        "projectTitle": "Lo mejor de lo mejor",
+        "concept": "criterios de selección",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            30,
+            31
+          ],
+          "reason": "Concepto validado para esta ficha porque cuenta con paginas fuente identificadas y se considera pertinente para el desarrollo del proyecto."
+        },
+        "pedagogicalUse": "Aporta contexto de lectura y conversación, pero todavía requiere validación pedagógica para escalar a actividades más estructuradas.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-1-ppa9-pa25",
+        "projectTitle": "Lo mejor de lo mejor",
+        "concept": "fomento de la lectura",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Nuestro libro de proyectos Tomo II",
+          "pages": [
+            60,
+            62
+          ],
+          "reason": "El propósito del proyecto es promover creativamente la lectura y la escucha de textos tradicionales y contemporáneos."
+        },
+        "pedagogicalUse": "Enlaza el producto final con la comunidad de lectura y con el sentido social de compartir textos.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-1-ppa9-pa25",
+        "projectTitle": "Lo mejor de lo mejor",
+        "concept": "lectura comunitaria",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            32,
+            33,
+            34,
+            35
+          ],
+          "reason": "Concepto validado para esta ficha porque cuenta con paginas fuente identificadas y se considera pertinente para el desarrollo del proyecto."
+        },
+        "pedagogicalUse": "Aporta contexto de lectura y conversación, pero todavía requiere validación pedagógica para escalar a actividades más estructuradas.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-1-ppa9-pa25",
+        "projectTitle": "Lo mejor de lo mejor",
+        "concept": "figuras retóricas",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            61
+          ],
+          "reason": "Concepto validado para esta ficha porque cuenta con paginas fuente identificadas y se considera pertinente para el desarrollo del proyecto."
+        },
+        "pedagogicalUse": "Aporta contexto de lectura y conversación, pero todavía requiere validación pedagógica para escalar a actividades más estructuradas.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-1-ppa9-pa25",
+        "projectTitle": "Lo mejor de lo mejor",
+        "concept": "lenguaje connotativo",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            62,
+            63
+          ],
+          "reason": "Concepto validado para esta ficha porque cuenta con paginas fuente identificadas y se considera pertinente para el desarrollo del proyecto."
+        },
+        "pedagogicalUse": "Aporta contexto de lectura y conversación, pero todavía requiere validación pedagógica para escalar a actividades más estructuradas.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-1-ppa9-pa25",
+        "projectTitle": "Lo mejor de lo mejor",
+        "concept": "lenguaje denotativo",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            62,
+            63
+          ],
+          "reason": "Concepto validado para esta ficha porque cuenta con paginas fuente identificadas y se considera pertinente para el desarrollo del proyecto."
+        },
+        "pedagogicalUse": "Aporta contexto de lectura y conversación, pero todavía requiere validación pedagógica para escalar a actividades más estructuradas.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-1-ppa9-pa25",
+        "projectTitle": "Lo mejor de lo mejor",
+        "concept": "comparación",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            63,
+            64,
+            65,
+            66,
+            67,
+            68
+          ],
+          "reason": "Concepto validado para esta ficha porque cuenta con paginas fuente identificadas y se considera pertinente para el desarrollo del proyecto."
+        },
+        "pedagogicalUse": "Aporta contexto de lectura y conversación, pero todavía requiere validación pedagógica para escalar a actividades más estructuradas.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-1-ppa9-pa25",
+        "projectTitle": "Lo mejor de lo mejor",
+        "concept": "metáfora",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            63,
+            64,
+            65,
+            66,
+            67,
+            68
+          ],
+          "reason": "Concepto validado para esta ficha porque cuenta con paginas fuente identificadas y se considera pertinente para el desarrollo del proyecto."
+        },
+        "pedagogicalUse": "Aporta contexto de lectura y conversación, pero todavía requiere validación pedagógica para escalar a actividades más estructuradas.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-1-ppa9-pa25",
+        "projectTitle": "Lo mejor de lo mejor",
+        "concept": "hipérbole",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            63,
+            64,
+            65,
+            66,
+            67,
+            68
+          ],
+          "reason": "Concepto validado para esta ficha porque cuenta con paginas fuente identificadas y se considera pertinente para el desarrollo del proyecto."
+        },
+        "pedagogicalUse": "Aporta contexto de lectura y conversación, pero todavía requiere validación pedagógica para escalar a actividades más estructuradas.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-1-ppa9-pa25",
+        "projectTitle": "Lo mejor de lo mejor",
+        "concept": "metonimia",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            63,
+            64,
+            65,
+            66,
+            67,
+            68
+          ],
+          "reason": "Concepto validado para esta ficha porque cuenta con paginas fuente identificadas y se considera pertinente para el desarrollo del proyecto."
+        },
+        "pedagogicalUse": "Aporta contexto de lectura y conversación, pero todavía requiere validación pedagógica para escalar a actividades más estructuradas.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-1-ppa9-pa25",
+        "projectTitle": "Lo mejor de lo mejor",
+        "concept": "textos literarios orales",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            68,
+            69,
+            70,
+            71
+          ],
+          "reason": "Concepto validado para esta ficha porque cuenta con paginas fuente identificadas y se considera pertinente para el desarrollo del proyecto."
+        },
+        "pedagogicalUse": "Aporta contexto de lectura y conversación, pero todavía requiere validación pedagógica para escalar a actividades más estructuradas.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-1-ppa9-pa25",
+        "projectTitle": "Lo mejor de lo mejor",
+        "concept": "textos literarios escritos",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            68,
+            69,
+            70,
+            71
+          ],
+          "reason": "Concepto validado para esta ficha porque cuenta con paginas fuente identificadas y se considera pertinente para el desarrollo del proyecto."
+        },
+        "pedagogicalUse": "Aporta contexto de lectura y conversación, pero todavía requiere validación pedagógica para escalar a actividades más estructuradas.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-1-ppa9-pa25",
+        "projectTitle": "Lo mejor de lo mejor",
+        "concept": "géneros literarios",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            72
+          ],
+          "reason": "La página 72 presenta explícitamente los géneros literarios y el proyecto requiere seleccionar y agrupar textos de distintas formas literarias."
+        },
+        "pedagogicalUse": "Permite clasificar textos, comparar formas de expresión y organizar la antología con un criterio reconocible.",
+        "activityReadiness": "usable-for-games-later"
+      },
+      {
+        "projectId": "lenguajes-1-ppa9-pa25",
+        "projectTitle": "Lo mejor de lo mejor",
+        "concept": "creaciones literarias en lenguas indígenas",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            103
+          ],
+          "reason": "La página 103 nombra de forma explícita las creaciones literarias en lenguas indígenas y el proyecto admite integrar producciones de ese tipo."
+        },
+        "pedagogicalUse": "Amplía la antología hacia expresiones literarias indígenas y fortalece la valoración de la diversidad cultural.",
+        "activityReadiness": "usable-for-games-later"
+      },
+      {
+        "projectId": "lenguajes-1-ppa9-pa25",
+        "projectTitle": "Lo mejor de lo mejor",
+        "concept": "expresión cultural",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            103
+          ],
+          "reason": "La página 103 explica que el lenguaje expresa cultura, conocimientos, valores e identidad colectiva, justo en el marco de las creaciones literarias."
+        },
+        "pedagogicalUse": "Permite argumentar por qué una obra representa la voz de una comunidad y merece entrar en la antología.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-1-ppa9-pa25",
+        "projectTitle": "Lo mejor de lo mejor",
+        "concept": "prácticas sociales comunitarias",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            138
+          ],
+          "reason": "La página 138 define prácticas sociales de la comunidad y aporta un marco útil para interpretar expresiones literarias situadas."
+        },
+        "pedagogicalUse": "Ayuda a leer la literatura como parte de la vida comunitaria y no solo como pieza aislada.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-1-ppa-9-pa26",
+        "projectTitle": "Dilo como sea, pero aquí coincidimos",
+        "concept": "uso lúdico de la lengua inglesa",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            249
+          ],
+          "reason": "La página 249 nombra explícitamente el uso lúdico de la lengua inglesa y lo vincula con actividades divertidas de aprendizaje."
+        },
+        "pedagogicalUse": "Ayuda a comprender que la colección de textos en inglés no es solo traductiva, sino también expresiva y lúdica.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-1-ppa-9-pa26",
+        "projectTitle": "Dilo como sea, pero aquí coincidimos",
+        "concept": "juegos gramaticales de la lengua inglesa",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            250,
+            251
+          ],
+          "reason": "Las páginas 250-251 presentan de forma directa los juegos gramaticales de la lengua inglesa como contenido de apoyo del proyecto."
+        },
+        "pedagogicalUse": "Permite reconocer estructuras lingüísticas del inglés y jugar con ellas al seleccionar y comentar textos.",
+        "activityReadiness": "usable-for-games-later"
+      },
+      {
+        "projectId": "lenguajes-1-ppa-9-pa26",
+        "projectTitle": "Dilo como sea, pero aquí coincidimos",
+        "concept": "trabalenguas",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            251
+          ],
+          "reason": "La página 251 aborda explícitamente los trabalenguas en inglés como forma literaria y lúdica de trabajo con el idioma."
+        },
+        "pedagogicalUse": "Aporta un tipo concreto de texto breve que puede entrar a la colección y ayudar a trabajar pronunciación y ritmo.",
+        "activityReadiness": "usable-for-games-later"
+      },
+      {
+        "projectId": "lenguajes-1-ppa-9-pa26",
+        "projectTitle": "Dilo como sea, pero aquí coincidimos",
+        "concept": "tradición y comunidad en textos literarios",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            253
+          ],
+          "reason": "La columna de Posibilidades y el contenido de la página 253 relacionan textos literarios en inglés con tradición, identidad y comunidad."
+        },
+        "pedagogicalUse": "Sirve para leer la colección en inglés como expresión cultural y no solo como ejercicio escolar aislado.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-1-ppa-9-pa26",
+        "projectTitle": "Dilo como sea, pero aquí coincidimos",
+        "concept": "tradiciones literarias: mitos, fábulas y leyendas",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            254,
+            255,
+            256
+          ],
+          "reason": "Las páginas 254-256 se dedican a mitos, fábulas y leyendas en lengua inglesa y quedan señaladas en Posibilidades como parte del PA26."
+        },
+        "pedagogicalUse": "Ofrece criterios claros para seleccionar tipos de textos que pueden integrar la colección en inglés.",
+        "activityReadiness": "usable-for-games-later"
+      },
+      {
+        "projectId": "lenguajes-1-ppa-9-pa26",
+        "projectTitle": "Dilo como sea, pero aquí coincidimos",
+        "concept": "literatura contemporánea en lengua inglesa",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            257,
+            258
+          ],
+          "reason": "Las páginas 257-258 nombran explícitamente la literatura contemporánea en lengua inglesa como contenido de apoyo del proyecto."
+        },
+        "pedagogicalUse": "Ayuda a ampliar la colección más allá de lo tradicional y a comparar distintas épocas y voces del inglés.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-1-ppa-9-pa26",
+        "projectTitle": "Dilo como sea, pero aquí coincidimos",
+        "concept": "promoción y difusión de la literatura",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            258,
+            259,
+            260
+          ],
+          "reason": "Posibilidades vincula al PA26 con medios para la promoción y difusión de la literatura; además, las páginas finales hablan de formas de fomentar lectura y escritura."
+        },
+        "pedagogicalUse": "Sostiene la manera en que la colección se comparte, explica y pone en circulación dentro de la comunidad.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-1-ppa-9-pa26",
+        "projectTitle": "Dilo como sea, pero aquí coincidimos",
+        "concept": "oraciones simples en inglés",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Nuestro libro de proyectos Tomo II",
+          "pages": [
+            65,
+            66
+          ],
+          "reason": "El paso a paso y las fuentes de consulta piden ubicar oraciones simples y reconocer la posición de sus elementos en inglés."
+        },
+        "pedagogicalUse": "Permite comprender la estructura básica de los textos seleccionados y apoyar su traducción y explicación.",
+        "activityReadiness": "usable-for-games-later"
+      },
+      {
+        "projectId": "lenguajes-1-ppa-9-pa27",
+        "projectTitle": "¡Ni fácil ni difícil!",
+        "concept": "diversidad lingüística",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            150
+          ],
+          "reason": "La página 150 aborda de forma directa la diversidad lingüística, uno de los ejes centrales para elegir una lengua indígena en el proyecto."
+        },
+        "pedagogicalUse": "Ayuda a comprender que el póster se inserta en un contexto amplio de lenguas y formas de expresión.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-1-ppa-9-pa27",
+        "projectTitle": "¡Ni fácil ni difícil!",
+        "concept": "lenguas más y menos habladas de México y América Latina",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            152,
+            153,
+            154
+          ],
+          "reason": "El bloque de Posibilidades asigna estas páginas al PA27 y su contenido se relaciona con la distribución y visibilidad de las lenguas."
+        },
+        "pedagogicalUse": "Permite contextualizar la lengua elegida y reflexionar sobre presencia, desplazamiento y reconocimiento.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-1-ppa-9-pa27",
+        "projectTitle": "¡Ni fácil ni difícil!",
+        "concept": "revitalización cultural a través de las lenguas indígenas",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            155,
+            156
+          ],
+          "reason": "Las páginas 155-156 nombran explícitamente la revitalización cultural a través de las lenguas indígenas."
+        },
+        "pedagogicalUse": "Da sentido al póster como acción de valoración y continuidad cultural, no solo como producto gráfico.",
+        "activityReadiness": "usable-for-games-later"
+      },
+      {
+        "projectId": "lenguajes-1-ppa-9-pa27",
+        "projectTitle": "¡Ni fácil ni difícil!",
+        "concept": "diversidad cultural y lingüística",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            157
+          ],
+          "reason": "La página 157 presenta de manera directa la diversidad cultural y lingüística y sus riesgos de desaparición."
+        },
+        "pedagogicalUse": "Ayuda a interpretar el valor del mensaje que se comunicará en el póster y su dimensión social.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-1-ppa-9-pa27",
+        "projectTitle": "¡Ni fácil ni difícil!",
+        "concept": "relaciones interétnicas",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            158,
+            159
+          ],
+          "reason": "Las páginas 158-159 desarrollan explícitamente las relaciones interétnicas en la sociedad mexicana."
+        },
+        "pedagogicalUse": "Permite dialogar sobre convivencia, respeto y vínculos entre grupos culturales en torno al lenguaje.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-1-ppa-9-pa27",
+        "projectTitle": "¡Ni fácil ni difícil!",
+        "concept": "tradición oral en lenguas indígenas",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            160,
+            161
+          ],
+          "reason": "Las páginas 160-161 trabajan de forma directa la tradición oral en lenguas indígenas, que es base para seleccionar textos del proyecto."
+        },
+        "pedagogicalUse": "Sostiene la lectura, interpretación y explicación del mensaje proveniente de textos orales comunitarios.",
+        "activityReadiness": "usable-for-games-later"
+      },
+      {
+        "projectId": "lenguajes-1-ppa-9-pa27",
+        "projectTitle": "¡Ni fácil ni difícil!",
+        "concept": "tradición escrita en lenguas indígenas",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            162,
+            163
+          ],
+          "reason": "Las páginas 162-163 abordan explícitamente la tradición escrita en lenguas indígenas y los testimonios que la sostienen."
+        },
+        "pedagogicalUse": "Ayuda a distinguir soportes y formas de transmisión cuando el mensaje del texto pasa al póster.",
+        "activityReadiness": "usable-for-games-later"
+      },
+      {
+        "projectId": "lenguajes-1-ppa-9-pa27",
+        "projectTitle": "¡Ni fácil ni difícil!",
+        "concept": "ideas principales y secundarias de un texto",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Nuestro libro de proyectos Tomo II",
+          "pages": [
+            70
+          ],
+          "reason": "La Etapa 5 del PA27 nombra este contenido de investigación como insumo para extraer el mensaje que se explicará en el póster."
+        },
+        "pedagogicalUse": "Sirve para sintetizar el mensaje del texto y decidir qué debe destacarse visualmente en el producto final.",
+        "activityReadiness": "usable-for-games-later"
+      },
+      {
+        "projectId": "lenguajes-1-ppa-9-pa27",
+        "projectTitle": "¡Ni fácil ni difícil!",
+        "concept": "rescate y defensa de las lenguas indígenas",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Nuestro libro de proyectos Tomo II",
+          "pages": [
+            70
+          ],
+          "reason": "La lista de fuentes del proyecto menciona de manera explícita la importancia del rescate y la defensa de las lenguas indígenas."
+        },
+        "pedagogicalUse": "Orienta la lectura crítica del proyecto como intervención de cuidado y valoración lingüística.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-1-ppa-9-pa27",
+        "projectTitle": "¡Ni fácil ni difícil!",
+        "concept": "textos literarios en lenguas indígenas",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Nuestro libro de proyectos Tomo II",
+          "pages": [
+            68,
+            70
+          ],
+          "reason": "El propósito del PA27 pide elegir uno o más textos de la producción literaria en una lengua indígena y la Etapa 5 retoma ese mismo foco."
+        },
+        "pedagogicalUse": "Conecta la búsqueda del texto fuente con el análisis del mensaje que se convertirá en póster.",
+        "activityReadiness": "usable-for-games-later"
+      }
+    ]
+  },
+  "pedagogicalArticulation": {
+    "grade": "1",
+    "field": "Lenguajes",
+    "ppaNumber": "9",
+    "status": "teacher-orientation",
+    "officialHorizonStatus": "pending",
+    "generatedAt": "2026-05-23T18:23:21.119Z",
+    "situatedPedagogicalOrientation": "Este PPA puede orientar un trabajo situado en el que las y los estudiantes reconozcan la literatura, la oralidad, las lenguas indígenas y la lengua inglesa como formas de comunicación, identidad, memoria, juego, creación y participación comunitaria. PA25 abre la posibilidad de valorar y seleccionar expresiones literarias y de la oralidad para reunirlas en una antología; PA26 permite explorar el inglés como lengua de lectura, juego verbal, tradición literaria y circulación de textos; y PA27 invita a comprender la diversidad lingüística y cultural, así como el valor vivo de las lenguas indígenas, para comunicar sus mensajes mediante un póster. En conjunto, el PPA 9 puede apoyar procesos donde la lectura, la escucha, la comparación, la interpretación y la explicación pública de textos sirvan para fortalecer vínculos con la comunidad y reconocer distintas maneras de nombrar el mundo.",
+    "integratingQuestions": [
+      "¿Qué nos enseñan los textos, las lenguas y las expresiones de nuestra comunidad sobre quiénes somos y cómo nos relacionamos con otras personas?",
+      "¿Cómo cambia lo que comprendemos cuando comparamos textos orales, escritos, en lenguas indígenas y en inglés dentro de un mismo bloque de trabajo?",
+      "¿De qué manera un producto como una antología, una colección de textos o un póster puede ayudar a compartir memoria, identidad y creatividad con la comunidad?"
+    ],
+    "projectConnections": [
+      {
+        "projectId": "lenguajes-1-ppa9-pa25",
+        "projectTitle": "Lo mejor de lo mejor",
+        "roleInPpa": "Recuperar, valorar y seleccionar expresiones literarias y de la oralidad para reunirlas en una antología con sentido comunitario.",
+        "confirmedConcepts": [
+          "oralidad",
+          "antología literaria",
+          "selección de textos",
+          "fomento de la lectura",
+          "géneros literarios",
+          "creaciones literarias en lenguas indígenas",
+          "expresión cultural",
+          "prácticas sociales comunitarias"
+        ],
+        "suggestedConcepts": [
+          "creaciones literarias",
+          "manifestaciones literarias comunitarias",
+          "criterios de selección",
+          "lectura comunitaria",
+          "figuras retóricas",
+          "lenguaje connotativo",
+          "lenguaje denotativo",
+          "comparación",
+          "metáfora",
+          "hipérbole",
+          "metonimia",
+          "textos literarios orales",
+          "textos literarios escritos"
+        ],
+        "pedagogicalUse": "Funciona como eje de lectura, selección y valoración estética y cultural; articula oralidad, géneros literarios, lectura y expresiones comunitarias."
+      },
+      {
+        "projectId": "lenguajes-1-ppa-9-pa26",
+        "projectTitle": "Dilo como sea, pero aquí coincidimos",
+        "roleInPpa": "Explorar la lengua inglesa como forma de lectura, juego verbal, tradición literaria y organización de una colección compartida.",
+        "confirmedConcepts": [
+          "uso lúdico de la lengua inglesa",
+          "juegos gramaticales de la lengua inglesa",
+          "trabalenguas",
+          "tradición y comunidad en textos literarios",
+          "tradiciones literarias: mitos, fábulas y leyendas",
+          "literatura contemporánea en lengua inglesa",
+          "promoción y difusión de la literatura",
+          "oraciones simples en inglés"
+        ],
+        "suggestedConcepts": [],
+        "pedagogicalUse": "Aporta una mirada sobre el inglés como lengua de comunicación y creación, no solo como traducción; ayuda a trabajar lectura breve, juegos gramaticales, tradiciones literarias y difusión de textos."
+      },
+      {
+        "projectId": "lenguajes-1-ppa-9-pa27",
+        "projectTitle": "¡Ni fácil ni difícil!",
+        "roleInPpa": "Reconocer la diversidad lingüística y cultural, y comunicar el mensaje de textos en lenguas indígenas mediante un póster.",
+        "confirmedConcepts": [
+          "diversidad lingüística",
+          "lenguas más y menos habladas de México y América Latina",
+          "revitalización cultural a través de las lenguas indígenas",
+          "diversidad cultural y lingüística",
+          "relaciones interétnicas",
+          "tradición oral en lenguas indígenas",
+          "tradición escrita en lenguas indígenas",
+          "ideas principales y secundarias de un texto",
+          "rescate y defensa de las lenguas indígenas",
+          "textos literarios en lenguas indígenas"
+        ],
+        "suggestedConcepts": [],
+        "pedagogicalUse": "Da profundidad al bloque al vincular lenguas indígenas, diversidad cultural, relaciones interétnicas y defensa del patrimonio lingüístico vivo."
+      }
+    ],
+    "criteriaOfThought": [
+      {
+        "criterion": "comparar formas de expresión oral y escrita",
+        "status": "suggested",
+        "basis": "Se apoya en oralidad, géneros literarios, tradición oral y escrita en lenguas indígenas, y colección de textos en inglés."
+      },
+      {
+        "criterion": "reconocer diversidad lingüística y cultural",
+        "status": "suggested",
+        "basis": "Se sustenta en diversidad lingüística, relaciones interétnicas, creaciones literarias en lenguas indígenas y tradición y comunidad en textos literarios."
+      },
+      {
+        "criterion": "seleccionar textos con criterios claros",
+        "status": "suggested",
+        "basis": "Se relaciona con antología literaria, selección de textos, tradiciones literarias y organización de una colección de textos en inglés."
+      },
+      {
+        "criterion": "identificar ideas principales y secundarias",
+        "status": "suggested",
+        "basis": "Se respalda sobre todo en PA27, donde la extracción del mensaje del texto es necesaria para comunicarlo en el póster."
+      },
+      {
+        "criterion": "valorar las lenguas indígenas como patrimonio vivo",
+        "status": "suggested",
+        "basis": "Se apoya en revitalización cultural, rescate y defensa de las lenguas indígenas, tradición oral y escrita, y prácticas sociales comunitarias."
+      },
+      {
+        "criterion": "experimentar la lengua inglesa como juego, comunicación y creación",
+        "status": "suggested",
+        "basis": "Se deriva del uso lúdico de la lengua inglesa, juegos gramaticales, trabalenguas, oraciones simples y literatura contemporánea en lengua inglesa."
+      },
+      {
+        "criterion": "relacionar literatura con comunidad e identidad",
+        "status": "suggested",
+        "basis": "Se basa en expresión cultural, fomento de la lectura, tradición y comunidad en textos literarios y el papel de los productos para compartir sentido con otras personas."
+      }
+    ],
+    "possibleResonanceQuestion": "¿Cómo pueden la antología, la colección de textos en inglés y el póster ayudarnos a reconocer que las palabras, las lenguas y las historias de nuestra comunidad también guardan memoria, identidad y formas distintas de mirar el mundo?",
+    "teacherNotes": [
+      "El bloque todavía no cuenta con un horizonte oficial unificado del PPA 9; esta articulación funciona solo como orientación situada para la docencia.",
+      "PA25 conserva conceptos suggested que no deben borrarse, porque siguen siendo útiles para continuar la validación fina del proyecto.",
+      "PA26 y PA27 ya tienen conceptos confirmados, pero el bloque completo no pasa a actividades interactivas y mantiene readyForActivities en false.",
+      "Aún falta validar el destino final de los enlaces cortos asociados a PA26 y PA27 antes de escalar estrategias o apoyos.",
+      "La articulación propone relaciones entre proyectos, pero no sustituye el Programa analítico ni las decisiones de cada comunidad de aprendizaje."
+    ],
+    "notReadyFor": [
+      "actividades interactivas",
+      "full-games",
+      "summative-exam"
+    ]
+  },
+  "teacherNotesAndResonances": {
+    "grade": "1",
+    "field": "Lenguajes",
+    "ppaNumber": "9",
+    "status": "teacher-orientation",
+    "officialHorizonStatus": "pending",
+    "generatedAt": "2026-05-23T19:50:39.548Z",
+    "ppaIntegratingResonance": "Si en este PPA reunimos una antología, una colección de textos en inglés y un póster sobre lenguas indígenas, ¿qué nos enseñan juntos sobre la forma en que una comunidad guarda memoria, comparte ideas, juega con las palabras y cuida sus lenguas e historias?",
+    "projects": [
+      {
+        "projectId": "lenguajes-1-ppa9-pa25",
+        "projectTitle": "Lo mejor de lo mejor",
+        "teacherNotes": [
+          "Conviene trabajar la antología como una decisión colectiva de sentido y cuidado cultural, no solo como una recopilación rápida de textos.",
+          "Es importante recuperar oralidad y escritura desde experiencias reales de la comunidad: relatos, canciones, refranes, coplas o memorias compartidas.",
+          "Los conceptos confirmed pueden sostener la lectura, selección y valoración del producto; los conceptos suggested deben manejarse con cautela y conversación pedagógica, no como definiciones cerradas.",
+          "Ayuda preguntar por qué un texto merece permanecer, circularse o compartirse, para evitar que la actividad se reduzca a copiar fragmentos sin reflexión.",
+          "Conviene evitar una antología decorativa o mecánica; el valor está en argumentar la selección y reconocer su relación con identidad, lengua y prácticas comunitarias."
+        ],
+        "confirmedConceptsToUse": [
+          "oralidad",
+          "antología literaria",
+          "selección de textos",
+          "fomento de la lectura",
+          "géneros literarios",
+          "creaciones literarias en lenguas indígenas",
+          "expresión cultural",
+          "prácticas sociales comunitarias"
+        ],
+        "suggestedConceptsToHandleCarefully": [
+          "creaciones literarias",
+          "manifestaciones literarias comunitarias",
+          "criterios de selección",
+          "lectura comunitaria",
+          "figuras retóricas",
+          "lenguaje connotativo",
+          "lenguaje denotativo",
+          "comparación",
+          "metáfora",
+          "hipérbole",
+          "metonimia",
+          "textos literarios orales",
+          "textos literarios escritos"
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "Si tuvieras que elegir una historia, un refrán, una canción o un relato de tu comunidad para una antología, ¿cuál escogerías y por qué crees que merece permanecer y compartirse?",
+            "conceptsActivated": [
+              "oralidad",
+              "selección de textos",
+              "expresión cultural"
+            ],
+            "thinkingCriteria": [
+              "seleccionar textos con criterios claros",
+              "relacionar literatura con comunidad e identidad"
+            ],
+            "suggestedUse": "Puede usarse al inicio de la selección de materiales o como apertura del cuaderno de proyecto."
+          },
+          {
+            "type": "collective",
+            "prompt": "Cuando un grupo arma una antología, ¿cómo puede decidir qué textos representan mejor a la comunidad sin dejar fuera voces, temas o formas de decir que también son valiosas?",
+            "conceptsActivated": [
+              "antología literaria",
+              "selección de textos",
+              "prácticas sociales comunitarias"
+            ],
+            "thinkingCriteria": [
+              "seleccionar textos con criterios claros",
+              "comparar formas de expresión oral y escrita"
+            ],
+            "suggestedUse": "Funciona para asamblea o trabajo en pequeños equipos antes de fijar criterios de selección."
+          },
+          {
+            "type": "community",
+            "prompt": "¿Qué cambia cuando un texto que antes se decía o escuchaba en voz alta se escribe, se ordena y se comparte con otras personas en una antología?",
+            "conceptsActivated": [
+              "oralidad",
+              "géneros literarios",
+              "creaciones literarias en lenguas indígenas"
+            ],
+            "thinkingCriteria": [
+              "comparar formas de expresión oral y escrita",
+              "valorar las lenguas indígenas como patrimonio vivo"
+            ],
+            "suggestedUse": "Conviene después de escuchar relatos, canciones o testimonios comunitarios y antes de redactar versiones finales."
+          },
+          {
+            "type": "closing",
+            "prompt": "Después de leer y escuchar distintos textos, ¿qué aprendiste sobre la manera en que una comunidad guarda memoria, humor, dolor, belleza o alegría en sus palabras?",
+            "conceptsActivated": [
+              "fomento de la lectura",
+              "expresión cultural",
+              "prácticas sociales comunitarias"
+            ],
+            "thinkingCriteria": [
+              "relacionar literatura con comunidad e identidad",
+              "reconocer diversidad lingüística y cultural"
+            ],
+            "suggestedUse": "Sirve para cierre reflexivo o bitácora final del proyecto."
+          }
+        ],
+        "notReadyFor": [
+          "summative-exam",
+          "full-games",
+          "actividades interactivas"
+        ]
+      },
+      {
+        "projectId": "lenguajes-1-ppa-9-pa26",
+        "projectTitle": "Dilo como sea, pero aquí coincidimos",
+        "teacherNotes": [
+          "Conviene presentar el inglés como una lengua para leer, jugar, comprender y crear, no solo como lista de traducciones o equivalencias.",
+          "La colección de textos en inglés gana sentido cuando se explican las razones de selección, el tipo de texto y el valor cultural o expresivo de lo reunido.",
+          "Es útil vincular trabalenguas, juegos gramaticales, mitos y literatura contemporánea para mostrar que el idioma también puede explorarse con curiosidad y disfrute.",
+          "Puede invitarse a la comunidad a escuchar o comentar la colección, pero cuidando que la actividad no se reduzca a pronunciar sin comprender.",
+          "Conviene evitar ejercicios mecánicos de repetición; importa más la comprensión del sentido, la forma del texto y la decisión de cómo compartirlo."
+        ],
+        "confirmedConceptsToUse": [
+          "uso lúdico de la lengua inglesa",
+          "juegos gramaticales de la lengua inglesa",
+          "trabalenguas",
+          "tradición y comunidad en textos literarios",
+          "tradiciones literarias: mitos, fábulas y leyendas",
+          "literatura contemporánea en lengua inglesa",
+          "promoción y difusión de la literatura",
+          "oraciones simples en inglés"
+        ],
+        "suggestedConceptsToHandleCarefully": [],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Qué te hace sentir que una lengua también puede jugar, sorprender o hacer pensar cuando lees un trabalenguas o una frase breve en inglés?",
+            "conceptsActivated": [
+              "uso lúdico de la lengua inglesa",
+              "trabalenguas",
+              "oraciones simples en inglés"
+            ],
+            "thinkingCriteria": [
+              "experimentar la lengua inglesa como juego, comunicación y creación",
+              "comparar formas de expresión oral y escrita"
+            ],
+            "suggestedUse": "Puede usarse después de leer o escuchar un trabalenguas, una oración o un texto breve en inglés."
+          },
+          {
+            "type": "collective",
+            "prompt": "Si tu grupo tuviera que armar una colección de textos en inglés para compartirla con otras personas, ¿qué tipo de textos escogería y qué tendría que explicar sobre ellos?",
+            "conceptsActivated": [
+              "tradiciones literarias: mitos, fábulas y leyendas",
+              "literatura contemporánea en lengua inglesa",
+              "promoción y difusión de la literatura"
+            ],
+            "thinkingCriteria": [
+              "seleccionar textos con criterios claros",
+              "relacionar literatura con comunidad e identidad"
+            ],
+            "suggestedUse": "Funciona para acordar la colección y justificar por qué ciertos textos entran y otros no."
+          },
+          {
+            "type": "community",
+            "prompt": "¿Cómo podrían presentar una colección de textos en inglés para que la comunidad no la vea solo como tarea escolar, sino como una forma de lectura, comunicación y creación?",
+            "conceptsActivated": [
+              "promoción y difusión de la literatura",
+              "tradición y comunidad en textos literarios",
+              "literatura contemporánea en lengua inglesa"
+            ],
+            "thinkingCriteria": [
+              "relacionar literatura con comunidad e identidad",
+              "experimentar la lengua inglesa como juego, comunicación y creación"
+            ],
+            "suggestedUse": "Útil antes de organizar una lectura pública o una explicación colectiva del producto."
+          },
+          {
+            "type": "closing",
+            "prompt": "Después de trabajar con textos en inglés, ¿qué descubriste del idioma cuando lo miraste como juego verbal, tradición literaria y forma de comunicación con otras personas?",
+            "conceptsActivated": [
+              "uso lúdico de la lengua inglesa",
+              "juegos gramaticales de la lengua inglesa",
+              "tradición y comunidad en textos literarios"
+            ],
+            "thinkingCriteria": [
+              "experimentar la lengua inglesa como juego, comunicación y creación",
+              "reconocer diversidad lingüística y cultural"
+            ],
+            "suggestedUse": "Puede servir como cierre escrito o conversación de autoevaluación formativa."
+          }
+        ],
+        "notReadyFor": [
+          "summative-exam",
+          "full-games",
+          "actividades interactivas"
+        ]
+      },
+      {
+        "projectId": "lenguajes-1-ppa-9-pa27",
+        "projectTitle": "¡Ni fácil ni difícil!",
+        "teacherNotes": [
+          "El sentido del proyecto no está solo en hacer un póster, sino en comprender y comunicar el mensaje de un texto ligado a una lengua indígena y a su valor cultural.",
+          "Conviene enfatizar que la diversidad lingüística no es un dato decorativo, sino una manera de reconocer historias, pueblos y formas de vida.",
+          "Las ideas principales y secundarias ayudan a evitar un producto superficial; el póster debe comunicar con claridad un mensaje realmente entendido.",
+          "Puede vincularse con la comunidad buscando voces, textos o apoyos cercanos, pero cuidando el respeto hacia la lengua y evitando apropiaciones simplistas.",
+          "Conviene evitar que el póster se vuelva una manualidad vacía; lo central es la relación entre lengua, mensaje, identidad y cuidado comunitario."
+        ],
+        "confirmedConceptsToUse": [
+          "diversidad lingüística",
+          "lenguas más y menos habladas de México y América Latina",
+          "revitalización cultural a través de las lenguas indígenas",
+          "diversidad cultural y lingüística",
+          "relaciones interétnicas",
+          "tradición oral en lenguas indígenas",
+          "tradición escrita en lenguas indígenas",
+          "ideas principales y secundarias de un texto",
+          "rescate y defensa de las lenguas indígenas",
+          "textos literarios en lenguas indígenas"
+        ],
+        "suggestedConceptsToHandleCarefully": [],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Qué mensaje te gustaría rescatar de un texto en lengua indígena y por qué piensas que vale la pena compartirlo con otras personas?",
+            "conceptsActivated": [
+              "textos literarios en lenguas indígenas",
+              "rescate y defensa de las lenguas indígenas",
+              "tradición oral en lenguas indígenas"
+            ],
+            "thinkingCriteria": [
+              "valorar las lenguas indígenas como patrimonio vivo",
+              "relacionar literatura con comunidad e identidad"
+            ],
+            "suggestedUse": "Puede usarse después de elegir el texto base o al iniciar la lectura y comprensión del mensaje."
+          },
+          {
+            "type": "collective",
+            "prompt": "¿Cómo decidirían en equipo cuáles son las ideas principales y secundarias que deben aparecer en el póster para que el mensaje se entienda con claridad?",
+            "conceptsActivated": [
+              "ideas principales y secundarias de un texto",
+              "textos literarios en lenguas indígenas"
+            ],
+            "thinkingCriteria": [
+              "identificar ideas principales y secundarias",
+              "seleccionar textos con criterios claros"
+            ],
+            "suggestedUse": "Funciona antes de diseñar el póster o al revisar borradores del contenido."
+          },
+          {
+            "type": "community",
+            "prompt": "¿Qué nos dice la diversidad lingüística de México y América Latina sobre las personas, los pueblos y las historias que conviven en nuestro entorno?",
+            "conceptsActivated": [
+              "diversidad lingüística",
+              "lenguas más y menos habladas de México y América Latina",
+              "relaciones interétnicas"
+            ],
+            "thinkingCriteria": [
+              "reconocer diversidad lingüística y cultural",
+              "valorar las lenguas indígenas como patrimonio vivo"
+            ],
+            "suggestedUse": "Puede trabajarse en conversación colectiva o en diálogo con saberes de la comunidad."
+          },
+          {
+            "type": "closing",
+            "prompt": "¿Cómo puede un póster ayudar a cuidar una lengua que a veces no se escucha suficiente en la escuela o en la comunidad?",
+            "conceptsActivated": [
+              "rescate y defensa de las lenguas indígenas",
+              "diversidad cultural y lingüística",
+              "tradición escrita en lenguas indígenas"
+            ],
+            "thinkingCriteria": [
+              "valorar las lenguas indígenas como patrimonio vivo",
+              "relacionar literatura con comunidad e identidad"
+            ],
+            "suggestedUse": "Sirve para cierre del proyecto o como reflexión posterior a la presentación del producto."
+          }
+        ],
+        "notReadyFor": [
+          "summative-exam",
+          "full-games",
+          "actividades interactivas"
+        ]
+      }
+    ]
+  }
+}

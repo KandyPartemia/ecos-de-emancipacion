@@ -1,0 +1,1199 @@
+{
+  "grade": "3",
+  "gradeLabel": "Tercer grado",
+  "field": "De lo Humano y lo Comunitario",
+  "ppaNumber": "3",
+  "partialClassroomProject": "PPA 3",
+  "partialClassroomProjectTitle": "Mesita de diálogo",
+  "source": "curricular-development-generated",
+  "generatedAt": "2026-06-07T03:06:25.920Z",
+  "development": {
+    "grade": "3",
+    "gradeLabel": "Tercer grado",
+    "field": "De lo Humano y lo Comunitario",
+    "bookVolume": "Tomo II",
+    "partialClassroomProject": "PPA 3",
+    "partialClassroomProjectTitle": "Mesita de diálogo",
+    "generatedAt": "2026-06-07T03:06:25.794Z",
+    "notes": "Capa curricular generada por lote para 3o De lo Humano y lo Comunitario, PPA 3.",
+    "sourcesUsed": [
+      "content/caracoles/curricular-catalog/all-projects-canonical.json",
+      "public/caracoles/data/generated/grade-3/concepts-index.json",
+      "src/caracoles/lib/officialVideoLinks.ts",
+      "Posibilidades de uso DHyC, tercer grado, pp. 11-12",
+      "Nuestro libro de proyectos, tercer grado, pp. 233-245"
+    ],
+    "partialClassroomProjectContext": {
+      "expectationHorizon": {
+        "officialText": "",
+        "sourcePages": [
+          "Nuestro libro de proyectos Tomo II pp. 233-237",
+          "Posibilidades de uso DHyC pp. 11-12"
+        ],
+        "evidence": "El PPA 3 articula tabla de reconocimiento, relación de elementos, catálogo vivo para trabajar Mesita de diálogo.",
+        "status": "pending"
+      },
+      "ppaDetonatingStrategy": {
+        "title": "Mesita de diálogo",
+        "type": "video",
+        "url": "",
+        "urlStatus": "confirmed-by-official-video-map",
+        "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+        "scope": "partial-classroom-project"
+      },
+      "ppaDigitalResource": {
+        "title": "Recurso del Proyecto Parcial de Aula 3",
+        "reference": "",
+        "status": "confirmed-by-official-video-map",
+        "source": "YouTube, acervo Aprende_MX/Telesecundaria"
+      },
+      "validationStatus": {
+        "needsHumanReview": true,
+        "needsReviewReasons": [
+          "Los videos PA/PPA se validan por el mapa oficial de enlaces directos ya generado.",
+          "Los apoyos complementarios impresos no se asignan cuando no hay evidencia validada por columna.",
+          "El horizonte textual literal queda pendiente de revision fina si se necesita cita exacta."
+        ]
+      },
+      "columnValidation": {
+        "possibilitiesPagesReviewed": [
+          11,
+          12
+        ],
+        "confirmedAsPpa": true,
+        "note": "El PPA 3 se agrupa desde el catalogo canonico de tercer grado.",
+        "columns": [
+          {
+            "columnIndex": 1,
+            "projectId": "de-lo-humano-y-lo-comunitario-3-ppa-3-pa7",
+            "projectTitle": "Así lo identificamos, así lo prevenimos",
+            "finalProduct": "Tabla de reconocimiento",
+            "supportMaterials": []
+          },
+          {
+            "columnIndex": 2,
+            "projectId": "de-lo-humano-y-lo-comunitario-3-ppa-3-pa8",
+            "projectTitle": "Comparo y prevengo",
+            "finalProduct": "Relación de elementos",
+            "supportMaterials": []
+          },
+          {
+            "columnIndex": 3,
+            "projectId": "de-lo-humano-y-lo-comunitario-3-ppa-3-pa9",
+            "projectTitle": "¡Y voy narrando lo que somos!",
+            "finalProduct": "Catálogo vivo",
+            "supportMaterials": []
+          }
+        ]
+      }
+    },
+    "academicProjects": [
+      {
+        "id": "de-lo-humano-y-lo-comunitario-3-ppa-3-pa7",
+        "projectId": "de-lo-humano-y-lo-comunitario-3-ppa-3-pa7",
+        "academicProjectNumber": 7,
+        "title": "Así lo identificamos, así lo prevenimos",
+        "projectTitle": "Así lo identificamos, así lo prevenimos",
+        "grade": "3",
+        "field": "De lo Humano y lo Comunitario",
+        "ppaNumber": "3",
+        "partialClassroomProject": "PPA 3",
+        "partialClassroomProjectTitle": "Mesita de diálogo",
+        "bookVolume": "Tomo II",
+        "sourceValidation": {
+          "sourceStatus": "linked",
+          "possibilitiesPages": [
+            11,
+            12
+          ],
+          "possibilitiesMaterialId": "grade-3-posibilidades-pos-dhc-3",
+          "possibilitiesColumnIndex": 1,
+          "columnEvidence": "Proyecto PA 7 agrupado en el PPA 3 desde el catalogo canonico y las paginas de Posibilidades."
+        },
+        "finalProduct": {
+          "title": "Tabla de reconocimiento",
+          "source": "Video detonador validado en YouTube + Nuestro libro de proyectos Tomo II pp. 233-237",
+          "status": "confirmed-from-video-and-project"
+        },
+        "sourcePages": {
+          "nuestroLibroProyectos": [
+            {
+              "materialId": "grade-3-proyectos-nuestros-proyectos-tomo-2-tercer-grado",
+              "label": "Nuestro libro de proyectos Tomo II",
+              "startPage": 233,
+              "endPage": 237,
+              "pagesLabel": "pp. 233-237",
+              "topicTitle": "Proyecto academico 7",
+              "status": "confirmed-source"
+            }
+          ],
+          "conceptBook": [
+            {
+              "materialId": "grade-3-conceptos-de-lo-humano-y-lo-comunitario-tercer-grado",
+              "label": "De lo Humano y lo Comunitario",
+              "startPage": 233,
+              "endPage": 233,
+              "pagesLabel": "p. 233",
+              "topicTitle": "Tabla de reconocimiento",
+              "status": "confirmed"
+            }
+          ],
+          "multiplesLenguajes": [],
+          "otherMaterials": [
+            {
+              "label": "Video PA 7: Tabla de reconocimiento • De lo humano y lo comunitario • 3er grado",
+              "reference": "https://www.youtube.com/watch?v=Dliwo9Ywvmk",
+              "status": "confirmed"
+            },
+            {
+              "label": "Video PPA 3: 3. Mesita de diálogo • De lo humano y lo comunitario • 3er grado",
+              "reference": "https://www.youtube.com/watch?v=iykkw_Dglvs",
+              "status": "confirmed"
+            }
+          ]
+        },
+        "supportMaterials": [],
+        "horizonOrPurpose": {
+          "status": "pending",
+          "text": "",
+          "source": "Nuestro libro de proyectos Tomo II pp. 233-237"
+        },
+        "projectExpectationHorizon": {
+          "officialText": "",
+          "studentVersion": "",
+          "sourcePages": [
+            "Nuestro libro de proyectos Tomo II pp. 233-237"
+          ],
+          "evidence": "El PA 7 cuenta con paginas de proyecto, producto de cierre, conceptos y videos directos validados; el horizonte textual literal queda pendiente de transcripcion fina.",
+          "status": "pending"
+        },
+        "detonatingStrategy": {
+          "title": "3. Mesita de diálogo • De lo humano y lo comunitario • 3er grado",
+          "text": "Video del Proyecto Parcial de Aula 3: 3. Mesita de diálogo • De lo humano y lo comunitario • 3er grado",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=iykkw_Dglvs",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "partial-classroom-project"
+        },
+        "academicProjectStrategy": {
+          "title": "Tabla de reconocimiento • De lo humano y lo comunitario • 3er grado",
+          "text": "Video detonador del Proyecto Academico 7: Así lo identificamos, así lo prevenimos",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=Dliwo9Ywvmk",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "academic-project"
+        },
+        "academicConcepts": [
+          {
+            "concept": "Tabla de reconocimiento",
+            "description": "Tabla de reconocimiento organiza el producto de cierre y permite comunicar lo aprendido en el proyecto.",
+            "sourceBook": "De lo Humano y lo Comunitario",
+            "sourcePages": [
+              233
+            ],
+            "sourcePagesLabel": "p. 233",
+            "topicTitle": "Proyecto academico 7",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 7, al PPA 3 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Proyecto de vida",
+            "description": "Proyecto de vida ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "De lo Humano y lo Comunitario",
+            "sourcePages": [
+              233
+            ],
+            "sourcePagesLabel": "p. 233",
+            "topicTitle": "Proyecto academico 7",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 7, al PPA 3 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Bienestar",
+            "description": "Bienestar ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "De lo Humano y lo Comunitario",
+            "sourcePages": [
+              233
+            ],
+            "sourcePagesLabel": "p. 233",
+            "topicTitle": "Proyecto academico 7",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 7, al PPA 3 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Prevencion",
+            "description": "Prevencion ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "De lo Humano y lo Comunitario",
+            "sourcePages": [
+              170
+            ],
+            "sourcePagesLabel": "p. 170",
+            "topicTitle": "Proyecto academico 7",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 7, al PPA 3 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Comunidad",
+            "description": "Comunidad ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "De lo Humano y lo Comunitario",
+            "sourcePages": [
+              233
+            ],
+            "sourcePagesLabel": "p. 233",
+            "topicTitle": "Proyecto academico 7",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 7, al PPA 3 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Decisiones",
+            "description": "Decisiones ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "De lo Humano y lo Comunitario",
+            "sourcePages": [
+              233
+            ],
+            "sourcePagesLabel": "p. 233",
+            "topicTitle": "Proyecto academico 7",
+            "status": "suggested",
+            "reason": "Concepto vinculado al PA 7, al PPA 3 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "teacher-review"
+          }
+        ],
+        "thinkingCriteria": [
+          "Relacionar Así lo identificamos, así lo prevenimos con una situacion concreta del entorno escolar o comunitario.",
+          "Usar tabla de reconocimiento para explicar ideas con claridad y evidencia."
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Como te ayuda tabla de reconocimiento a comprender mejor Así lo identificamos, así lo prevenimos y a explicar sus conceptos clave en tu comunidad?",
+            "conceptsActivated": [
+              "Tabla de reconocimiento",
+              "Proyecto de vida",
+              "Bienestar",
+              "Prevencion"
+            ],
+            "suggestedUse": "Momento 1 de autoevaluacion"
+          }
+        ],
+        "validationStatus": {
+          "readinessLevel": "curricular-bundle-generated",
+          "readyForActivities": true,
+          "needsReviewReasons": [
+            "El horizonte textual literal queda pendiente de revision fina si se requiere cita exacta.",
+            "Los apoyos complementarios impresos no se asignan cuando no hay evidencia validada por columna."
+          ]
+        },
+        "readinessLevel": "curricular-bundle-generated",
+        "readyForActivities": true,
+        "needsReviewReasons": []
+      },
+      {
+        "id": "de-lo-humano-y-lo-comunitario-3-ppa-3-pa8",
+        "projectId": "de-lo-humano-y-lo-comunitario-3-ppa-3-pa8",
+        "academicProjectNumber": 8,
+        "title": "Comparo y prevengo",
+        "projectTitle": "Comparo y prevengo",
+        "grade": "3",
+        "field": "De lo Humano y lo Comunitario",
+        "ppaNumber": "3",
+        "partialClassroomProject": "PPA 3",
+        "partialClassroomProjectTitle": "Mesita de diálogo",
+        "bookVolume": "Tomo II",
+        "sourceValidation": {
+          "sourceStatus": "linked",
+          "possibilitiesPages": [
+            11,
+            12
+          ],
+          "possibilitiesMaterialId": "grade-3-posibilidades-pos-dhc-3",
+          "possibilitiesColumnIndex": 2,
+          "columnEvidence": "Proyecto PA 8 agrupado en el PPA 3 desde el catalogo canonico y las paginas de Posibilidades."
+        },
+        "finalProduct": {
+          "title": "Relación de elementos",
+          "source": "Video detonador validado en YouTube + Nuestro libro de proyectos Tomo II pp. 238-241",
+          "status": "confirmed-from-video-and-project"
+        },
+        "sourcePages": {
+          "nuestroLibroProyectos": [
+            {
+              "materialId": "grade-3-proyectos-nuestros-proyectos-tomo-2-tercer-grado",
+              "label": "Nuestro libro de proyectos Tomo II",
+              "startPage": 238,
+              "endPage": 241,
+              "pagesLabel": "pp. 238-241",
+              "topicTitle": "Proyecto academico 8",
+              "status": "confirmed-source"
+            }
+          ],
+          "conceptBook": [
+            {
+              "materialId": "grade-3-conceptos-de-lo-humano-y-lo-comunitario-tercer-grado",
+              "label": "De lo Humano y lo Comunitario",
+              "startPage": 238,
+              "endPage": 238,
+              "pagesLabel": "p. 238",
+              "topicTitle": "Relación de elementos",
+              "status": "confirmed"
+            }
+          ],
+          "multiplesLenguajes": [],
+          "otherMaterials": [
+            {
+              "label": "Video PA 8: Relación de elementos • De lo humano y lo comunitario • 3er grado",
+              "reference": "https://www.youtube.com/watch?v=tklIK0kkQcg",
+              "status": "confirmed"
+            },
+            {
+              "label": "Video PPA 3: 3. Mesita de diálogo • De lo humano y lo comunitario • 3er grado",
+              "reference": "https://www.youtube.com/watch?v=iykkw_Dglvs",
+              "status": "confirmed"
+            }
+          ]
+        },
+        "supportMaterials": [],
+        "horizonOrPurpose": {
+          "status": "pending",
+          "text": "",
+          "source": "Nuestro libro de proyectos Tomo II pp. 238-241"
+        },
+        "projectExpectationHorizon": {
+          "officialText": "",
+          "studentVersion": "",
+          "sourcePages": [
+            "Nuestro libro de proyectos Tomo II pp. 238-241"
+          ],
+          "evidence": "El PA 8 cuenta con paginas de proyecto, producto de cierre, conceptos y videos directos validados; el horizonte textual literal queda pendiente de transcripcion fina.",
+          "status": "pending"
+        },
+        "detonatingStrategy": {
+          "title": "3. Mesita de diálogo • De lo humano y lo comunitario • 3er grado",
+          "text": "Video del Proyecto Parcial de Aula 3: 3. Mesita de diálogo • De lo humano y lo comunitario • 3er grado",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=iykkw_Dglvs",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "partial-classroom-project"
+        },
+        "academicProjectStrategy": {
+          "title": "Relación de elementos • De lo humano y lo comunitario • 3er grado",
+          "text": "Video detonador del Proyecto Academico 8: Comparo y prevengo",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=tklIK0kkQcg",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "academic-project"
+        },
+        "academicConcepts": [
+          {
+            "concept": "Relación de elementos",
+            "description": "Relación de elementos organiza el producto de cierre y permite comunicar lo aprendido en el proyecto.",
+            "sourceBook": "De lo Humano y lo Comunitario",
+            "sourcePages": [
+              238
+            ],
+            "sourcePagesLabel": "p. 238",
+            "topicTitle": "Proyecto academico 8",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 8, al PPA 3 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Proyecto de vida",
+            "description": "Proyecto de vida ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "De lo Humano y lo Comunitario",
+            "sourcePages": [
+              238
+            ],
+            "sourcePagesLabel": "p. 238",
+            "topicTitle": "Proyecto academico 8",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 8, al PPA 3 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Bienestar",
+            "description": "Bienestar ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "De lo Humano y lo Comunitario",
+            "sourcePages": [
+              238
+            ],
+            "sourcePagesLabel": "p. 238",
+            "topicTitle": "Proyecto academico 8",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 8, al PPA 3 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Prevencion",
+            "description": "Prevencion ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "De lo Humano y lo Comunitario",
+            "sourcePages": [
+              170
+            ],
+            "sourcePagesLabel": "p. 170",
+            "topicTitle": "Proyecto academico 8",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 8, al PPA 3 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Comunidad",
+            "description": "Comunidad ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "De lo Humano y lo Comunitario",
+            "sourcePages": [
+              238
+            ],
+            "sourcePagesLabel": "p. 238",
+            "topicTitle": "Proyecto academico 8",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 8, al PPA 3 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Decisiones",
+            "description": "Decisiones ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "De lo Humano y lo Comunitario",
+            "sourcePages": [
+              238
+            ],
+            "sourcePagesLabel": "p. 238",
+            "topicTitle": "Proyecto academico 8",
+            "status": "suggested",
+            "reason": "Concepto vinculado al PA 8, al PPA 3 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "teacher-review"
+          }
+        ],
+        "thinkingCriteria": [
+          "Relacionar Comparo y prevengo con una situacion concreta del entorno escolar o comunitario.",
+          "Usar relación de elementos para explicar ideas con claridad y evidencia."
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Como te ayuda relación de elementos a comprender mejor Comparo y prevengo y a explicar sus conceptos clave en tu comunidad?",
+            "conceptsActivated": [
+              "Relación de elementos",
+              "Proyecto de vida",
+              "Bienestar",
+              "Prevencion"
+            ],
+            "suggestedUse": "Momento 1 de autoevaluacion"
+          }
+        ],
+        "validationStatus": {
+          "readinessLevel": "curricular-bundle-generated",
+          "readyForActivities": true,
+          "needsReviewReasons": [
+            "El horizonte textual literal queda pendiente de revision fina si se requiere cita exacta.",
+            "Los apoyos complementarios impresos no se asignan cuando no hay evidencia validada por columna."
+          ]
+        },
+        "readinessLevel": "curricular-bundle-generated",
+        "readyForActivities": true,
+        "needsReviewReasons": []
+      },
+      {
+        "id": "de-lo-humano-y-lo-comunitario-3-ppa-3-pa9",
+        "projectId": "de-lo-humano-y-lo-comunitario-3-ppa-3-pa9",
+        "academicProjectNumber": 9,
+        "title": "¡Y voy narrando lo que somos!",
+        "projectTitle": "¡Y voy narrando lo que somos!",
+        "grade": "3",
+        "field": "De lo Humano y lo Comunitario",
+        "ppaNumber": "3",
+        "partialClassroomProject": "PPA 3",
+        "partialClassroomProjectTitle": "Mesita de diálogo",
+        "bookVolume": "Tomo II",
+        "sourceValidation": {
+          "sourceStatus": "linked",
+          "possibilitiesPages": [
+            11,
+            12
+          ],
+          "possibilitiesMaterialId": "grade-3-posibilidades-pos-dhc-3",
+          "possibilitiesColumnIndex": 3,
+          "columnEvidence": "Proyecto PA 9 agrupado en el PPA 3 desde el catalogo canonico y las paginas de Posibilidades."
+        },
+        "finalProduct": {
+          "title": "Catálogo vivo",
+          "source": "Video detonador validado en YouTube + Nuestro libro de proyectos Tomo II pp. 242-245",
+          "status": "confirmed-from-video-and-project"
+        },
+        "sourcePages": {
+          "nuestroLibroProyectos": [
+            {
+              "materialId": "grade-3-proyectos-nuestros-proyectos-tomo-2-tercer-grado",
+              "label": "Nuestro libro de proyectos Tomo II",
+              "startPage": 242,
+              "endPage": 245,
+              "pagesLabel": "pp. 242-245",
+              "topicTitle": "Proyecto academico 9",
+              "status": "confirmed-source"
+            }
+          ],
+          "conceptBook": [
+            {
+              "materialId": "grade-3-conceptos-de-lo-humano-y-lo-comunitario-tercer-grado",
+              "label": "De lo Humano y lo Comunitario",
+              "startPage": 242,
+              "endPage": 242,
+              "pagesLabel": "p. 242",
+              "topicTitle": "Catálogo vivo",
+              "status": "confirmed"
+            }
+          ],
+          "multiplesLenguajes": [],
+          "otherMaterials": [
+            {
+              "label": "Video PA 9: Catálogo vivo • De lo humano y lo comunitario • 3er grado",
+              "reference": "https://www.youtube.com/watch?v=-ev_wcAMyVU",
+              "status": "confirmed"
+            },
+            {
+              "label": "Video PPA 3: 3. Mesita de diálogo • De lo humano y lo comunitario • 3er grado",
+              "reference": "https://www.youtube.com/watch?v=iykkw_Dglvs",
+              "status": "confirmed"
+            }
+          ]
+        },
+        "supportMaterials": [],
+        "horizonOrPurpose": {
+          "status": "pending",
+          "text": "",
+          "source": "Nuestro libro de proyectos Tomo II pp. 242-245"
+        },
+        "projectExpectationHorizon": {
+          "officialText": "",
+          "studentVersion": "",
+          "sourcePages": [
+            "Nuestro libro de proyectos Tomo II pp. 242-245"
+          ],
+          "evidence": "El PA 9 cuenta con paginas de proyecto, producto de cierre, conceptos y videos directos validados; el horizonte textual literal queda pendiente de transcripcion fina.",
+          "status": "pending"
+        },
+        "detonatingStrategy": {
+          "title": "3. Mesita de diálogo • De lo humano y lo comunitario • 3er grado",
+          "text": "Video del Proyecto Parcial de Aula 3: 3. Mesita de diálogo • De lo humano y lo comunitario • 3er grado",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=iykkw_Dglvs",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "partial-classroom-project"
+        },
+        "academicProjectStrategy": {
+          "title": "Catálogo vivo • De lo humano y lo comunitario • 3er grado",
+          "text": "Video detonador del Proyecto Academico 9: ¡Y voy narrando lo que somos!",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=-ev_wcAMyVU",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "academic-project"
+        },
+        "academicConcepts": [
+          {
+            "concept": "Catálogo vivo",
+            "description": "Catálogo vivo organiza el producto de cierre y permite comunicar lo aprendido en el proyecto.",
+            "sourceBook": "De lo Humano y lo Comunitario",
+            "sourcePages": [
+              242
+            ],
+            "sourcePagesLabel": "p. 242",
+            "topicTitle": "Proyecto academico 9",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 9, al PPA 3 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Proyecto de vida",
+            "description": "Proyecto de vida ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "De lo Humano y lo Comunitario",
+            "sourcePages": [
+              242
+            ],
+            "sourcePagesLabel": "p. 242",
+            "topicTitle": "Proyecto academico 9",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 9, al PPA 3 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Bienestar",
+            "description": "Bienestar ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "De lo Humano y lo Comunitario",
+            "sourcePages": [
+              242
+            ],
+            "sourcePagesLabel": "p. 242",
+            "topicTitle": "Proyecto academico 9",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 9, al PPA 3 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Prevencion",
+            "description": "Prevencion ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "De lo Humano y lo Comunitario",
+            "sourcePages": [
+              170
+            ],
+            "sourcePagesLabel": "p. 170",
+            "topicTitle": "Proyecto academico 9",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 9, al PPA 3 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Comunidad",
+            "description": "Comunidad ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "De lo Humano y lo Comunitario",
+            "sourcePages": [
+              242
+            ],
+            "sourcePagesLabel": "p. 242",
+            "topicTitle": "Proyecto academico 9",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 9, al PPA 3 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Decisiones",
+            "description": "Decisiones ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "De lo Humano y lo Comunitario",
+            "sourcePages": [
+              242
+            ],
+            "sourcePagesLabel": "p. 242",
+            "topicTitle": "Proyecto academico 9",
+            "status": "suggested",
+            "reason": "Concepto vinculado al PA 9, al PPA 3 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "teacher-review"
+          }
+        ],
+        "thinkingCriteria": [
+          "Relacionar ¡Y voy narrando lo que somos! con una situacion concreta del entorno escolar o comunitario.",
+          "Usar catálogo vivo para explicar ideas con claridad y evidencia."
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Como te ayuda catálogo vivo a comprender mejor ¡Y voy narrando lo que somos! y a explicar sus conceptos clave en tu comunidad?",
+            "conceptsActivated": [
+              "Catálogo vivo",
+              "Proyecto de vida",
+              "Bienestar",
+              "Prevencion"
+            ],
+            "suggestedUse": "Momento 1 de autoevaluacion"
+          }
+        ],
+        "validationStatus": {
+          "readinessLevel": "curricular-bundle-generated",
+          "readyForActivities": true,
+          "needsReviewReasons": [
+            "El horizonte textual literal queda pendiente de revision fina si se requiere cita exacta.",
+            "Los apoyos complementarios impresos no se asignan cuando no hay evidencia validada por columna."
+          ]
+        },
+        "readinessLevel": "curricular-bundle-generated",
+        "readyForActivities": true,
+        "needsReviewReasons": []
+      }
+    ]
+  },
+  "conceptsValidation": {
+    "grade": "3",
+    "field": "De lo Humano y lo Comunitario",
+    "ppaNumber": "3",
+    "status": "concept-validation",
+    "generatedAt": "2026-06-07T03:06:25.794Z",
+    "entries": [
+      {
+        "projectId": "de-lo-humano-y-lo-comunitario-3-ppa-3-pa7",
+        "projectTitle": "Así lo identificamos, así lo prevenimos",
+        "concept": "Tabla de reconocimiento",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "pages": [
+            233
+          ],
+          "reason": "Concepto vinculado al PA 7, al PPA 3 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "de-lo-humano-y-lo-comunitario-3-ppa-3-pa7",
+        "projectTitle": "Así lo identificamos, así lo prevenimos",
+        "concept": "Proyecto de vida",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "pages": [
+            233
+          ],
+          "reason": "Concepto vinculado al PA 7, al PPA 3 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "de-lo-humano-y-lo-comunitario-3-ppa-3-pa7",
+        "projectTitle": "Así lo identificamos, así lo prevenimos",
+        "concept": "Bienestar",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "pages": [
+            233
+          ],
+          "reason": "Concepto vinculado al PA 7, al PPA 3 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "de-lo-humano-y-lo-comunitario-3-ppa-3-pa7",
+        "projectTitle": "Así lo identificamos, así lo prevenimos",
+        "concept": "Prevencion",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "pages": [
+            170
+          ],
+          "reason": "Concepto vinculado al PA 7, al PPA 3 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "de-lo-humano-y-lo-comunitario-3-ppa-3-pa7",
+        "projectTitle": "Así lo identificamos, así lo prevenimos",
+        "concept": "Comunidad",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "pages": [
+            233
+          ],
+          "reason": "Concepto vinculado al PA 7, al PPA 3 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "de-lo-humano-y-lo-comunitario-3-ppa-3-pa7",
+        "projectTitle": "Así lo identificamos, así lo prevenimos",
+        "concept": "Decisiones",
+        "status": "suggested",
+        "evidence": {
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "pages": [
+            233
+          ],
+          "reason": "Concepto vinculado al PA 7, al PPA 3 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "teacher-review"
+      },
+      {
+        "projectId": "de-lo-humano-y-lo-comunitario-3-ppa-3-pa8",
+        "projectTitle": "Comparo y prevengo",
+        "concept": "Relación de elementos",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "pages": [
+            238
+          ],
+          "reason": "Concepto vinculado al PA 8, al PPA 3 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "de-lo-humano-y-lo-comunitario-3-ppa-3-pa8",
+        "projectTitle": "Comparo y prevengo",
+        "concept": "Proyecto de vida",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "pages": [
+            238
+          ],
+          "reason": "Concepto vinculado al PA 8, al PPA 3 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "de-lo-humano-y-lo-comunitario-3-ppa-3-pa8",
+        "projectTitle": "Comparo y prevengo",
+        "concept": "Bienestar",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "pages": [
+            238
+          ],
+          "reason": "Concepto vinculado al PA 8, al PPA 3 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "de-lo-humano-y-lo-comunitario-3-ppa-3-pa8",
+        "projectTitle": "Comparo y prevengo",
+        "concept": "Prevencion",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "pages": [
+            170
+          ],
+          "reason": "Concepto vinculado al PA 8, al PPA 3 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "de-lo-humano-y-lo-comunitario-3-ppa-3-pa8",
+        "projectTitle": "Comparo y prevengo",
+        "concept": "Comunidad",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "pages": [
+            238
+          ],
+          "reason": "Concepto vinculado al PA 8, al PPA 3 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "de-lo-humano-y-lo-comunitario-3-ppa-3-pa8",
+        "projectTitle": "Comparo y prevengo",
+        "concept": "Decisiones",
+        "status": "suggested",
+        "evidence": {
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "pages": [
+            238
+          ],
+          "reason": "Concepto vinculado al PA 8, al PPA 3 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "teacher-review"
+      },
+      {
+        "projectId": "de-lo-humano-y-lo-comunitario-3-ppa-3-pa9",
+        "projectTitle": "¡Y voy narrando lo que somos!",
+        "concept": "Catálogo vivo",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "pages": [
+            242
+          ],
+          "reason": "Concepto vinculado al PA 9, al PPA 3 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "de-lo-humano-y-lo-comunitario-3-ppa-3-pa9",
+        "projectTitle": "¡Y voy narrando lo que somos!",
+        "concept": "Proyecto de vida",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "pages": [
+            242
+          ],
+          "reason": "Concepto vinculado al PA 9, al PPA 3 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "de-lo-humano-y-lo-comunitario-3-ppa-3-pa9",
+        "projectTitle": "¡Y voy narrando lo que somos!",
+        "concept": "Bienestar",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "pages": [
+            242
+          ],
+          "reason": "Concepto vinculado al PA 9, al PPA 3 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "de-lo-humano-y-lo-comunitario-3-ppa-3-pa9",
+        "projectTitle": "¡Y voy narrando lo que somos!",
+        "concept": "Prevencion",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "pages": [
+            170
+          ],
+          "reason": "Concepto vinculado al PA 9, al PPA 3 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "de-lo-humano-y-lo-comunitario-3-ppa-3-pa9",
+        "projectTitle": "¡Y voy narrando lo que somos!",
+        "concept": "Comunidad",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "pages": [
+            242
+          ],
+          "reason": "Concepto vinculado al PA 9, al PPA 3 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "de-lo-humano-y-lo-comunitario-3-ppa-3-pa9",
+        "projectTitle": "¡Y voy narrando lo que somos!",
+        "concept": "Decisiones",
+        "status": "suggested",
+        "evidence": {
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "pages": [
+            242
+          ],
+          "reason": "Concepto vinculado al PA 9, al PPA 3 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "teacher-review"
+      }
+    ]
+  },
+  "pedagogicalArticulation": {
+    "grade": "3",
+    "field": "De lo Humano y lo Comunitario",
+    "ppaNumber": "3",
+    "status": "teacher-orientation",
+    "officialHorizonStatus": "pending",
+    "situatedPedagogicalOrientation": "El PPA 3 propone trabajar Mesita de diálogo mediante productos de cierre, conceptos confirmados y videos directos para reforzar la autoevaluacion.",
+    "integratingQuestions": [
+      "¿Como se relacionan los tres proyectos academicos del PPA 3 con Mesita de diálogo?",
+      "¿Que conceptos necesita dominar el estudiante para explicar su producto final?",
+      "¿Como usar el producto final para comunicar una comprension y no solo presentar informacion?"
+    ],
+    "possibleResonanceQuestion": "¿Que comprension nueva sobre Mesita de diálogo puedes explicar con los productos del PPA 3?",
+    "teacherNotes": [
+      "Usar los videos directos como detonadores, no como enlaces de busqueda.",
+      "Retomar los conceptos confirmados antes de resolver la relacion de columnas y el juego."
+    ],
+    "projectConnections": [
+      {
+        "projectId": "de-lo-humano-y-lo-comunitario-3-ppa-3-pa7",
+        "projectTitle": "Así lo identificamos, así lo prevenimos",
+        "roleInPpa": "Aporta tabla de reconocimiento al desarrollo del PPA 3.",
+        "confirmedConcepts": [
+          "Tabla de reconocimiento",
+          "Proyecto de vida",
+          "Bienestar",
+          "Prevencion",
+          "Comunidad"
+        ],
+        "suggestedConcepts": [
+          "Decisiones"
+        ],
+        "pedagogicalUse": "Video detonador del Proyecto Academico 7: Así lo identificamos, así lo prevenimos"
+      },
+      {
+        "projectId": "de-lo-humano-y-lo-comunitario-3-ppa-3-pa8",
+        "projectTitle": "Comparo y prevengo",
+        "roleInPpa": "Aporta relación de elementos al desarrollo del PPA 3.",
+        "confirmedConcepts": [
+          "Relación de elementos",
+          "Proyecto de vida",
+          "Bienestar",
+          "Prevencion",
+          "Comunidad"
+        ],
+        "suggestedConcepts": [
+          "Decisiones"
+        ],
+        "pedagogicalUse": "Video detonador del Proyecto Academico 8: Comparo y prevengo"
+      },
+      {
+        "projectId": "de-lo-humano-y-lo-comunitario-3-ppa-3-pa9",
+        "projectTitle": "¡Y voy narrando lo que somos!",
+        "roleInPpa": "Aporta catálogo vivo al desarrollo del PPA 3.",
+        "confirmedConcepts": [
+          "Catálogo vivo",
+          "Proyecto de vida",
+          "Bienestar",
+          "Prevencion",
+          "Comunidad"
+        ],
+        "suggestedConcepts": [
+          "Decisiones"
+        ],
+        "pedagogicalUse": "Video detonador del Proyecto Academico 9: ¡Y voy narrando lo que somos!"
+      }
+    ]
+  },
+  "teacherNotesAndResonances": {
+    "grade": "3",
+    "field": "De lo Humano y lo Comunitario",
+    "ppaNumber": "3",
+    "status": "teacher-notes-and-resonances",
+    "officialHorizonStatus": "pending",
+    "ppaIntegratingResonance": "¿Que comprension nueva sobre Mesita de diálogo puedes explicar con los productos del PPA 3?",
+    "didacticWarnings": [
+      "No sustituir el producto final por la reproduccion del video.",
+      "Evitar marcar apoyos impresos como confirmados si no existe evidencia por columna."
+    ],
+    "communityPrompts": {
+      "territoryLanguageMemory": [
+        "¿Que palabras, practicas o problemas del entorno ayudan a entender mejor este PPA?"
+      ],
+      "productCommunityConnection": [
+        "¿Como puede circular el producto final dentro de la comunidad escolar?"
+      ]
+    },
+    "projects": [
+      {
+        "projectId": "de-lo-humano-y-lo-comunitario-3-ppa-3-pa7",
+        "projectTitle": "Así lo identificamos, así lo prevenimos",
+        "teacherNotes": [
+          "Retomar tabla de reconocimiento como evidencia del aprendizaje.",
+          "Usar los conceptos confirmados para orientar la autoevaluacion."
+        ],
+        "confirmedConceptsToUse": [
+          "Tabla de reconocimiento",
+          "Proyecto de vida",
+          "Bienestar",
+          "Prevencion",
+          "Comunidad"
+        ],
+        "suggestedConceptsToHandleCarefully": [
+          "Decisiones"
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Como te ayuda tabla de reconocimiento a comprender mejor Así lo identificamos, así lo prevenimos y a explicar sus conceptos clave en tu comunidad?",
+            "conceptsActivated": [
+              "Tabla de reconocimiento",
+              "Proyecto de vida",
+              "Bienestar",
+              "Prevencion"
+            ],
+            "suggestedUse": "Momento 1 de autoevaluacion"
+          }
+        ],
+        "notReadyFor": []
+      },
+      {
+        "projectId": "de-lo-humano-y-lo-comunitario-3-ppa-3-pa8",
+        "projectTitle": "Comparo y prevengo",
+        "teacherNotes": [
+          "Retomar relación de elementos como evidencia del aprendizaje.",
+          "Usar los conceptos confirmados para orientar la autoevaluacion."
+        ],
+        "confirmedConceptsToUse": [
+          "Relación de elementos",
+          "Proyecto de vida",
+          "Bienestar",
+          "Prevencion",
+          "Comunidad"
+        ],
+        "suggestedConceptsToHandleCarefully": [
+          "Decisiones"
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Como te ayuda relación de elementos a comprender mejor Comparo y prevengo y a explicar sus conceptos clave en tu comunidad?",
+            "conceptsActivated": [
+              "Relación de elementos",
+              "Proyecto de vida",
+              "Bienestar",
+              "Prevencion"
+            ],
+            "suggestedUse": "Momento 1 de autoevaluacion"
+          }
+        ],
+        "notReadyFor": []
+      },
+      {
+        "projectId": "de-lo-humano-y-lo-comunitario-3-ppa-3-pa9",
+        "projectTitle": "¡Y voy narrando lo que somos!",
+        "teacherNotes": [
+          "Retomar catálogo vivo como evidencia del aprendizaje.",
+          "Usar los conceptos confirmados para orientar la autoevaluacion."
+        ],
+        "confirmedConceptsToUse": [
+          "Catálogo vivo",
+          "Proyecto de vida",
+          "Bienestar",
+          "Prevencion",
+          "Comunidad"
+        ],
+        "suggestedConceptsToHandleCarefully": [
+          "Decisiones"
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Como te ayuda catálogo vivo a comprender mejor ¡Y voy narrando lo que somos! y a explicar sus conceptos clave en tu comunidad?",
+            "conceptsActivated": [
+              "Catálogo vivo",
+              "Proyecto de vida",
+              "Bienestar",
+              "Prevencion"
+            ],
+            "suggestedUse": "Momento 1 de autoevaluacion"
+          }
+        ],
+        "notReadyFor": []
+      }
+    ]
+  },
+  "validationAudit": {
+    "kind": "generated-validation-audit",
+    "source": "reports/caracoles/grade3-humano-ppa3-reading-bundle-audit.md",
+    "content": "# Bundle curricular tercer grado\n\n- Campo: De lo Humano y lo Comunitario\n- PPA: 3\n- Titulo: Mesita de diálogo\n- Proyectos: PA7, PA8, PA9\n- Estado: generado y publicado\n- Cautela: horizonte literal y apoyos impresos por columna pendientes de revision fina.\n"
+  }
+}

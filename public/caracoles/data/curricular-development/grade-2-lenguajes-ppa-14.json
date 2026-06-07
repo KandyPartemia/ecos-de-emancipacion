@@ -1,0 +1,1393 @@
+{
+  "grade": "2",
+  "gradeLabel": "Segundo grado",
+  "field": "Lenguajes",
+  "ppaNumber": "14",
+  "partialClassroomProject": "PPA 14",
+  "partialClassroomProjectTitle": "Hablar, leer y escribir nuestros saberes e historias",
+  "source": "curricular-development-pilot",
+  "generatedAt": "2026-06-04T15:51:06.360Z",
+  "development": {
+    "grade": "2",
+    "gradeLabel": "Segundo grado",
+    "field": "Lenguajes",
+    "bookVolume": "Tomo III",
+    "partialClassroomProject": "PPA 14",
+    "partialClassroomProjectTitle": "Hablar, leer y escribir nuestros saberes e historias",
+    "generatedAt": "2026-06-02T15:14:09.495Z",
+    "notes": "Capa curricular generada por lote para 2o Lenguajes, PPA 14.",
+    "sourcesUsed": [
+      "public/caracoles/data/generated/grade-2/selectable-projects.json",
+      "content/caracoles/generated-private/grade-2/pages-index.full.json",
+      "Posibilidades de uso Lenguajes, segundo grado, pp. 37-38",
+      "Nuestro libro de proyectos Tomo III, segundo grado, pp. 58-74",
+      "Lenguajes, segundo grado, pp. 59-67, 68-70, 76-81, 95-97, 112-117, 120-126, 149, 156-159 y 179-184; Múltiples Lenguajes pp. 24-25 y pp. 106-109."
+    ],
+    "partialClassroomProjectContext": {
+      "expectationHorizon": {
+        "officialText": "",
+        "sourcePages": [
+          "Nuestro libro de proyectos Tomo III pp. 58-59",
+          "Posibilidades de uso Lenguajes pp. 37-38"
+        ],
+        "evidence": "El PPA 14 reúne tablero de comunicación de las plantas, tendedero informativo y magazín comunal para divulgar saberes, recuperar historias y valorar lenguas y cosmovisiones de los pueblos originarios.",
+        "status": "pending"
+      },
+      "ppaDetonatingStrategy": {
+        "title": "Hablar, leer y escribir nuestros saberes e historias",
+        "type": "video",
+        "url": "",
+        "urlStatus": "pending-url",
+        "reference": "bit.ly/3VfglUk",
+        "source": "Nuestro libro de proyectos Tomo III pp. 58-59 + Posibilidades de uso Lenguajes pp. 37-38",
+        "scope": "partial-classroom-project",
+        "youtubeSearchQuery": "Hablar, leer y escribir nuestros saberes e historias Lenguajes 2do grado Telesecundaria"
+      },
+      "ppaDigitalResource": {
+        "title": "Recurso informatico del bloque PPA 14",
+        "reference": "bit.ly/3WQBMwg",
+        "status": "pending-validation",
+        "source": "Nuestro libro de proyectos Tomo III pp. 58-74"
+      },
+      "validationStatus": {
+        "needsHumanReview": true,
+        "needsReviewReasons": [
+          "Las pp. 37-38 de Posibilidades pertenecen al mismo PPA 14.",
+          "La asignacion de apoyos por columna se fija por inferencia curricular documentada de izquierda a derecha.",
+          "Los enlaces cortos del video del PPA y del recurso informatico se mantienen en cautela hasta localizar un destino oficial confirmado.",
+          "La tercera columna no conserva apoyo independiente de Múltiples Lenguajes claramente separado en Posibilidades; se sostiene por el libro del campo y la articulación del bloque."
+        ]
+      },
+      "columnValidation": {
+        "possibilitiesPagesReviewed": [
+          37,
+          38
+        ],
+        "confirmedAsPpa": true,
+        "note": "Las pp. 37-38 corresponden al PPA 14 Hablar, leer y escribir nuestros saberes e historias. Las tres columnas se sostienen por el orden de proyectos, productos y apoyos del mismo bloque.",
+        "columns": [
+          {
+            "columnIndex": 1,
+            "projectId": "lenguajes-2-ppa-14-pa40",
+            "projectTitle": "Los textos científicos, un paso en busca del conocimiento",
+            "finalProduct": "Tablero de comunicación de las plantas",
+            "supportMaterials": [
+              "El color negro más negro del mundo, pp. 24-25"
+            ]
+          },
+          {
+            "columnIndex": 2,
+            "projectId": "lenguajes-2-ppa-14-pa41",
+            "projectTitle": "Las palabras que hemos guardado",
+            "finalProduct": "Tendedero informativo",
+            "supportMaterials": [
+              "Los emulantes, pp. 106-109"
+            ]
+          },
+          {
+            "columnIndex": 3,
+            "projectId": "lenguajes-2-ppa-14-pa42",
+            "projectTitle": "El medio para compartir",
+            "finalProduct": "Magazín comunal",
+            "supportMaterials": []
+          }
+        ]
+      }
+    },
+    "academicProjects": [
+      {
+        "id": "lenguajes-2-ppa-14-pa40",
+        "projectId": "lenguajes-2-ppa-14-pa40",
+        "academicProjectNumber": 40,
+        "title": "Los textos científicos, un paso en busca del conocimiento",
+        "projectTitle": "Los textos científicos, un paso en busca del conocimiento",
+        "grade": "2",
+        "field": "Lenguajes",
+        "ppaNumber": "14",
+        "partialClassroomProject": "PPA 14",
+        "partialClassroomProjectTitle": "Hablar, leer y escribir nuestros saberes e historias",
+        "bookVolume": "Tomo III",
+        "sourceValidation": {
+          "sourceStatus": "linked",
+          "possibilitiesPages": [
+            37,
+            38
+          ],
+          "possibilitiesMaterialId": "grade-2-posibilidades-pos-len-2",
+          "possibilitiesColumnIndex": 1,
+          "columnEvidence": "Bloque PPA 14 Hablar, leer y escribir nuestros saberes e historias localizado en pp. 37-38; la columna 1 se confirma por el orden de proyectos, productos y continuidad del mismo bloque."
+        },
+        "finalProduct": {
+          "title": "Tablero de comunicación de las plantas",
+          "source": "Posibilidades de uso Lenguajes pp. 37-38 + Nuestro libro de proyectos Tomo III pp. 60-64",
+          "status": "confirmed"
+        },
+        "sourcePages": {
+          "nuestroLibroProyectos": [
+            {
+              "materialId": "grade-2-proyectos-nuestro-libro-de-proyectos-tomo-3-segundo-grado",
+              "label": "Nuestro libro de proyectos Tomo III",
+              "startPage": 60,
+              "endPage": 64,
+              "pagesLabel": "pp. 60-64",
+              "topicTitle": "Proyecto academico 40",
+              "status": "confirmed-source"
+            }
+          ],
+          "conceptBook": [
+            {
+              "materialId": "grade-2-conceptos-lenguajes-segundo-grado",
+              "label": "Lenguajes",
+              "startPage": 59,
+              "endPage": 67,
+              "pagesLabel": "pp. 59-67",
+              "topicTitle": "El texto de divulgación científica",
+              "status": "confirmed-by-column-inference"
+            },
+            {
+              "materialId": "grade-2-conceptos-lenguajes-segundo-grado",
+              "label": "Lenguajes",
+              "startPage": 76,
+              "endPage": 81,
+              "pagesLabel": "pp. 76-81",
+              "topicTitle": "Las posibilidades de la investigación en el arte",
+              "status": "confirmed-by-column-inference"
+            },
+            {
+              "materialId": "grade-2-conceptos-lenguajes-segundo-grado",
+              "label": "Lenguajes",
+              "startPage": 95,
+              "endPage": 97,
+              "pagesLabel": "pp. 95-97",
+              "topicTitle": "Concepto y relevancia del territorio para los pueblos y las comunidades indígenas",
+              "status": "confirmed-by-column-inference"
+            }
+          ],
+          "multiplesLenguajes": [
+            {
+              "materialId": "grade-2-apoyo-multiples-lenguajes-segundo-grado",
+              "label": "Multiples Lenguajes",
+              "startPage": 24,
+              "endPage": 25,
+              "pagesLabel": "pp. 24-25",
+              "topicTitle": "El color negro más negro del mundo",
+              "status": "confirmed-by-column-inference"
+            }
+          ],
+          "otherMaterials": [
+            {
+              "label": "Video PA 40: Taller sensorial • Lenguajes • 2do grado",
+              "reference": "https://www.youtube.com/watch?v=AFfZAY4sT7w",
+              "status": "confirmed"
+            },
+            {
+              "label": "Video PPA 14: 14. Hablar, leer y escribir nuestros saberes e historias • Lenguajes • 2do grado",
+              "reference": "https://www.youtube.com/watch?v=nf9Y5zw0ssM",
+              "status": "confirmed"
+            }
+          ]
+        },
+        "supportMaterials": [
+          {
+            "title": "El color negro más negro del mundo",
+            "kind": "Multiples Lenguajes",
+            "pages": "pp. 24-25",
+            "status": "confirmed-by-column-inference"
+          }
+        ],
+        "horizonOrPurpose": {
+          "status": "official",
+          "text": "Divulgar información científica y saberes del territorio mediante un tablero de comunicación de las plantas que acerque el conocimiento a la comunidad.",
+          "source": "Nuestro libro de proyectos Tomo III p. 60"
+        },
+        "projectExpectationHorizon": {
+          "officialText": "Investigar, organizar y comunicar información científica sobre plantas a través de un tablero que relacione ciencia, territorio y comunidad.",
+          "studentVersion": "Explicar saberes sobre plantas y ciencia comunitaria en un tablero de comunicación.",
+          "sourcePages": [
+            "Nuestro libro de proyectos Tomo III p. 60"
+          ],
+          "evidence": "El proyecto parte del texto de divulgación científica y de la relevancia del territorio para comunicar conocimiento sobre plantas con lenguaje claro.",
+          "status": "official"
+        },
+        "detonatingStrategy": {
+          "title": "14. Hablar, leer y escribir nuestros saberes e historias • Lenguajes • 2do grado",
+          "text": "Video del Proyecto Parcial de Aula 14: 14. Hablar, leer y escribir nuestros saberes e historias • Lenguajes • 2do grado",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=nf9Y5zw0ssM",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "partial-classroom-project"
+        },
+        "academicProjectStrategy": {
+          "title": "Taller sensorial • Lenguajes • 2do grado",
+          "text": "Video detonador del Proyecto Academico 40: Los textos científicos, un paso en busca del conocimiento",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=AFfZAY4sT7w",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "academic-project"
+        },
+        "academicConcepts": [
+          {
+            "concept": "tablero de comunicación de las plantas",
+            "description": "Tablero de comunicación de las plantas como producto de cierre para organizar y comunicar aprendizajes del proyecto.",
+            "sourceBook": "Nuestro libro de proyectos Tomo III",
+            "sourcePages": [
+              60,
+              64
+            ],
+            "sourcePagesLabel": "pp. 60-64",
+            "topicTitle": "Proyecto academico 40",
+            "status": "confirmed",
+            "reason": "Posibilidades y el propio proyecto fijan Tablero de comunicación de las plantas como producto final del PA 40.",
+            "pedagogicalUse": "Da una forma concreta de socializar lo comprendido sobre la divulgación científica de saberes sobre plantas y ciencia comunitaria mediante textos claros y organizados.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "texto de divulgación científica",
+            "description": "Texto que explica un tema científico con claridad para que otras personas puedan comprenderlo.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              59,
+              67
+            ],
+            "sourcePagesLabel": "pp. 59-67",
+            "topicTitle": "El texto de divulgación científica",
+            "status": "confirmed",
+            "reason": "La fuente validada \"El texto de divulgación científica\" aporta base suficiente para trabajar texto de divulgación científica dentro del proyecto 40.",
+            "pedagogicalUse": "Ayuda a fortalecer tablero de comunicación de las plantas y a explicar la divulgación científica de saberes sobre plantas y ciencia comunitaria mediante textos claros y organizados con mayor claridad mediante texto de divulgación científica.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "divulgación de la ciencia",
+            "description": "Comunicación de conocimientos científicos en un lenguaje accesible y útil para la vida cotidiana.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              59,
+              67
+            ],
+            "sourcePagesLabel": "pp. 59-67",
+            "topicTitle": "El texto de divulgación científica",
+            "status": "confirmed",
+            "reason": "La fuente validada \"El texto de divulgación científica\" aporta base suficiente para trabajar divulgación de la ciencia dentro del proyecto 40.",
+            "pedagogicalUse": "Ayuda a fortalecer tablero de comunicación de las plantas y a explicar la divulgación científica de saberes sobre plantas y ciencia comunitaria mediante textos claros y organizados con mayor claridad mediante divulgación de la ciencia.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "territorio",
+            "description": "Espacio vivido y significado por una comunidad, ligado a su relación con la naturaleza y sus formas de vida.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              95,
+              97
+            ],
+            "sourcePagesLabel": "pp. 95-97",
+            "topicTitle": "Concepto y relevancia del territorio para los pueblos y las comunidades indígenas",
+            "status": "confirmed",
+            "reason": "La fuente validada \"Concepto y relevancia del territorio para los pueblos y las comunidades indígenas\" aporta base suficiente para trabajar territorio dentro del proyecto 40.",
+            "pedagogicalUse": "Ayuda a fortalecer tablero de comunicación de las plantas y a explicar la divulgación científica de saberes sobre plantas y ciencia comunitaria mediante textos claros y organizados con mayor claridad mediante territorio.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "conocimiento comunitario",
+            "description": "Saberes construidos en la experiencia compartida de una comunidad y transmitidos entre generaciones.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              59,
+              67
+            ],
+            "sourcePagesLabel": "pp. 59-67",
+            "topicTitle": "El texto de divulgación científica",
+            "status": "confirmed",
+            "reason": "La fuente validada \"El texto de divulgación científica\" aporta base suficiente para trabajar conocimiento comunitario dentro del proyecto 40.",
+            "pedagogicalUse": "Ayuda a fortalecer tablero de comunicación de las plantas y a explicar la divulgación científica de saberes sobre plantas y ciencia comunitaria mediante textos claros y organizados con mayor claridad mediante conocimiento comunitario.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "tablero de comunicación",
+            "description": "Soporte visual organizado para presentar información, relaciones y mensajes de forma clara.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              59,
+              67
+            ],
+            "sourcePagesLabel": "pp. 59-67",
+            "topicTitle": "El texto de divulgación científica",
+            "status": "confirmed",
+            "reason": "La fuente validada \"El texto de divulgación científica\" aporta base suficiente para trabajar tablero de comunicación dentro del proyecto 40.",
+            "pedagogicalUse": "Ayuda a fortalecer tablero de comunicación de las plantas y a explicar la divulgación científica de saberes sobre plantas y ciencia comunitaria mediante textos claros y organizados con mayor claridad mediante tablero de comunicación.",
+            "activityReadiness": "usable-for-autoevaluation"
+          }
+        ],
+        "thinkingCriteria": [
+          "Relacionar la divulgación científica de saberes sobre plantas y ciencia comunitaria mediante textos claros y organizados con situaciones cercanas a la comunidad.",
+          "Usar tablero de comunicación de las plantas para explicar y no solo para recopilar informacion.",
+          "Distinguir entre mencionar conceptos y comprender como dialogan entre si dentro del proyecto."
+        ],
+        "validationStatus": {
+          "readinessLevel": "development-partial",
+          "readyForActivities": false,
+          "needsReviewReasons": [
+            "El bloque 14 ya es usable como lectura docente, pero el video del PPA 14 y el recurso informatico siguen pendientes de validacion de destino final.",
+            "La asignacion de apoyos de Posibilidades se sostiene por inferencia curricular documentada y no por OCR perfectamente separado por columnas.",
+            "No mover a actividades interactivas ni desbloquear juegos completos hasta ampliar validacion de videos y recursos complementarios."
+          ]
+        },
+        "readinessLevel": "development-partial",
+        "readyForActivities": false,
+        "needsReviewReasons": [
+          "No mover a actividades interactivas ni desbloquear juegos completos."
+        ],
+        "roleInPpa": "Abre el bloque mostrando que comunicar ciencia también es una forma de compartir saberes comunitarios y construir conocimiento.",
+        "pedagogicalUse": "Conviene trabajar Los textos científicos, un paso en busca del conocimiento como una oportunidad para profundizar en la divulgación científica de saberes sobre plantas y ciencia comunitaria mediante textos claros y organizados sin separar contenido, comunidad y producto final.",
+        "teacherNotes": [
+          "Conviene partir de ejemplos cercanos y después pasar al lenguaje mas abstracto del campo.",
+          "El producto Tablero de comunicación de las plantas gana fuerza cuando se usa para explicar y no solo para exhibir informacion.",
+          "Es mejor seleccionar pocos conceptos bien comprendidos que saturar el trabajo con terminos aislados."
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Qué comprendes mejor sobre la divulgación científica de saberes sobre plantas y ciencia comunitaria mediante textos claros y organizados después de elaborar tablero de comunicación de las plantas?"
+          },
+          {
+            "type": "community",
+            "prompt": "¿Qué diálogos comunitarios podrían fortalecerse si compartimos tablero de comunicación de las plantas y lo ponemos en conversación con otras personas?"
+          }
+        ],
+        "notReadyFor": [
+          "full-games",
+          "summative-exam"
+        ]
+      },
+      {
+        "id": "lenguajes-2-ppa-14-pa41",
+        "projectId": "lenguajes-2-ppa-14-pa41",
+        "academicProjectNumber": 41,
+        "title": "Las palabras que hemos guardado",
+        "projectTitle": "Las palabras que hemos guardado",
+        "grade": "2",
+        "field": "Lenguajes",
+        "ppaNumber": "14",
+        "partialClassroomProject": "PPA 14",
+        "partialClassroomProjectTitle": "Hablar, leer y escribir nuestros saberes e historias",
+        "bookVolume": "Tomo III",
+        "sourceValidation": {
+          "sourceStatus": "linked",
+          "possibilitiesPages": [
+            37,
+            38
+          ],
+          "possibilitiesMaterialId": "grade-2-posibilidades-pos-len-2",
+          "possibilitiesColumnIndex": 2,
+          "columnEvidence": "Bloque PPA 14 Hablar, leer y escribir nuestros saberes e historias localizado en pp. 37-38; la columna 2 se confirma por el orden de proyectos, productos y continuidad del mismo bloque."
+        },
+        "finalProduct": {
+          "title": "Tendedero informativo",
+          "source": "Posibilidades de uso Lenguajes pp. 37-38 + Nuestro libro de proyectos Tomo III pp. 65-69",
+          "status": "confirmed"
+        },
+        "sourcePages": {
+          "nuestroLibroProyectos": [
+            {
+              "materialId": "grade-2-proyectos-nuestro-libro-de-proyectos-tomo-3-segundo-grado",
+              "label": "Nuestro libro de proyectos Tomo III",
+              "startPage": 65,
+              "endPage": 69,
+              "pagesLabel": "pp. 65-69",
+              "topicTitle": "Proyecto academico 41",
+              "status": "confirmed-source"
+            }
+          ],
+          "conceptBook": [
+            {
+              "materialId": "grade-2-conceptos-lenguajes-segundo-grado",
+              "label": "Lenguajes",
+              "startPage": 68,
+              "endPage": 70,
+              "pagesLabel": "pp. 68-70",
+              "topicTitle": "Valoración de textos tradicionales y contemporáneos",
+              "status": "confirmed-by-column-inference"
+            },
+            {
+              "materialId": "grade-2-conceptos-lenguajes-segundo-grado",
+              "label": "Lenguajes",
+              "startPage": 120,
+              "endPage": 126,
+              "pagesLabel": "pp. 120-126",
+              "topicTitle": "La literatura y el arte de la palabra en las lenguas originarias de México",
+              "status": "confirmed-by-column-inference"
+            },
+            {
+              "materialId": "grade-2-conceptos-lenguajes-segundo-grado",
+              "label": "Lenguajes",
+              "startPage": 179,
+              "endPage": 181,
+              "pagesLabel": "pp. 179-181",
+              "topicTitle": "Las lenguas indígenas: identidad y cultura de los pueblos originarios",
+              "status": "confirmed-by-column-inference"
+            }
+          ],
+          "multiplesLenguajes": [
+            {
+              "materialId": "grade-2-apoyo-multiples-lenguajes-segundo-grado",
+              "label": "Multiples Lenguajes",
+              "startPage": 106,
+              "endPage": 109,
+              "pagesLabel": "pp. 106-109",
+              "topicTitle": "Los emulantes",
+              "status": "confirmed-by-column-inference"
+            }
+          ],
+          "otherMaterials": [
+            {
+              "label": "Video PA 41: Tablero de comunicación de las plantas • Lenguajes • 2do grado",
+              "reference": "https://www.youtube.com/watch?v=ZDxkxAdrZVk",
+              "status": "confirmed"
+            },
+            {
+              "label": "Video PPA 14: 14. Hablar, leer y escribir nuestros saberes e historias • Lenguajes • 2do grado",
+              "reference": "https://www.youtube.com/watch?v=nf9Y5zw0ssM",
+              "status": "confirmed"
+            }
+          ]
+        },
+        "supportMaterials": [
+          {
+            "title": "Los emulantes",
+            "kind": "Multiples Lenguajes",
+            "pages": "pp. 106-109",
+            "status": "confirmed-by-column-inference"
+          }
+        ],
+        "horizonOrPurpose": {
+          "status": "official",
+          "text": "Recuperar palabras, relatos y textos de tradición oral y escrita para compartirlos mediante un tendedero informativo que fortalezca memoria e identidad.",
+          "source": "Nuestro libro de proyectos Tomo III p. 65"
+        },
+        "projectExpectationHorizon": {
+          "officialText": "Valorar textos tradicionales y contemporáneos, reconocer su relevancia cultural y compartirlos en un tendedero informativo.",
+          "studentVersion": "Seleccionar palabras y textos significativos para compartirlos en un tendedero informativo sobre la memoria cultural.",
+          "sourcePages": [
+            "Nuestro libro de proyectos Tomo III p. 65"
+          ],
+          "evidence": "El proyecto integra tradición oral, memoria escrita y lengua indígena para organizar un producto informativo centrado en palabras y saberes guardados.",
+          "status": "official"
+        },
+        "detonatingStrategy": {
+          "title": "14. Hablar, leer y escribir nuestros saberes e historias • Lenguajes • 2do grado",
+          "text": "Video del Proyecto Parcial de Aula 14: 14. Hablar, leer y escribir nuestros saberes e historias • Lenguajes • 2do grado",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=nf9Y5zw0ssM",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "partial-classroom-project"
+        },
+        "academicProjectStrategy": {
+          "title": "Tablero de comunicación de las plantas • Lenguajes • 2do grado",
+          "text": "Video detonador del Proyecto Academico 41: Las palabras que hemos guardado",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=ZDxkxAdrZVk",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "academic-project"
+        },
+        "academicConcepts": [
+          {
+            "concept": "tendedero informativo",
+            "description": "Tendedero informativo como producto de cierre para organizar y comunicar aprendizajes del proyecto.",
+            "sourceBook": "Nuestro libro de proyectos Tomo III",
+            "sourcePages": [
+              65,
+              69
+            ],
+            "sourcePagesLabel": "pp. 65-69",
+            "topicTitle": "Proyecto academico 41",
+            "status": "confirmed",
+            "reason": "Posibilidades y el propio proyecto fijan Tendedero informativo como producto final del PA 41.",
+            "pedagogicalUse": "Da una forma concreta de socializar lo comprendido sobre la recuperación de textos de la antigua palabra, memoria escrita y rasgos culturales para compartirlos de manera informativa.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "memoria escrita",
+            "description": "Registro de saberes, relatos y palabras que permite conservarlos y volver a dialogar con ellos.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              120,
+              126
+            ],
+            "sourcePagesLabel": "pp. 120-126",
+            "topicTitle": "La literatura y el arte de la palabra en las lenguas originarias de México",
+            "status": "confirmed",
+            "reason": "La fuente validada \"La literatura y el arte de la palabra en las lenguas originarias de México\" aporta base suficiente para trabajar memoria escrita dentro del proyecto 41.",
+            "pedagogicalUse": "Ayuda a fortalecer tendedero informativo y a explicar la recuperación de textos de la antigua palabra, memoria escrita y rasgos culturales para compartirlos de manera informativa con mayor claridad mediante memoria escrita.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "tradición oral",
+            "description": "Herencia de relatos, enseñanzas y formas de hablar que se transmiten de viva voz.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              120,
+              126
+            ],
+            "sourcePagesLabel": "pp. 120-126",
+            "topicTitle": "La literatura y el arte de la palabra en las lenguas originarias de México",
+            "status": "confirmed",
+            "reason": "La fuente validada \"La literatura y el arte de la palabra en las lenguas originarias de México\" aporta base suficiente para trabajar tradición oral dentro del proyecto 41.",
+            "pedagogicalUse": "Ayuda a fortalecer tendedero informativo y a explicar la recuperación de textos de la antigua palabra, memoria escrita y rasgos culturales para compartirlos de manera informativa con mayor claridad mediante tradición oral.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "textos de la antigua palabra",
+            "description": "Expresiones orales o escritas que condensan sabiduría, memoria y visión del mundo de una comunidad.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              120,
+              126
+            ],
+            "sourcePagesLabel": "pp. 120-126",
+            "topicTitle": "La literatura y el arte de la palabra en las lenguas originarias de México",
+            "status": "confirmed",
+            "reason": "La fuente validada \"La literatura y el arte de la palabra en las lenguas originarias de México\" aporta base suficiente para trabajar textos de la antigua palabra dentro del proyecto 41.",
+            "pedagogicalUse": "Ayuda a fortalecer tendedero informativo y a explicar la recuperación de textos de la antigua palabra, memoria escrita y rasgos culturales para compartirlos de manera informativa con mayor claridad mediante textos de la antigua palabra.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "identidad cultural",
+            "description": "Sentido de pertenencia que se expresa en la lengua, las costumbres, la memoria y las formas de vida compartidas.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              179,
+              181
+            ],
+            "sourcePagesLabel": "pp. 179-181",
+            "topicTitle": "Las lenguas indígenas: identidad y cultura de los pueblos originarios",
+            "status": "confirmed",
+            "reason": "La fuente validada \"Las lenguas indígenas: identidad y cultura de los pueblos originarios\" aporta base suficiente para trabajar identidad cultural dentro del proyecto 41.",
+            "pedagogicalUse": "Ayuda a fortalecer tendedero informativo y a explicar la recuperación de textos de la antigua palabra, memoria escrita y rasgos culturales para compartirlos de manera informativa con mayor claridad mediante identidad cultural.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "tendedero informativo",
+            "description": "Dispositivo expositivo donde se colocan mensajes, fichas o textos breves para su lectura pública.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              68,
+              70
+            ],
+            "sourcePagesLabel": "pp. 68-70",
+            "topicTitle": "Valoración de textos tradicionales y contemporáneos",
+            "status": "confirmed",
+            "reason": "La fuente validada \"Valoración de textos tradicionales y contemporáneos\" aporta base suficiente para trabajar tendedero informativo dentro del proyecto 41.",
+            "pedagogicalUse": "Ayuda a fortalecer tendedero informativo y a explicar la recuperación de textos de la antigua palabra, memoria escrita y rasgos culturales para compartirlos de manera informativa con mayor claridad mediante tendedero informativo.",
+            "activityReadiness": "usable-for-autoevaluation"
+          }
+        ],
+        "thinkingCriteria": [
+          "Relacionar la recuperación de textos de la antigua palabra, memoria escrita y rasgos culturales para compartirlos de manera informativa con situaciones cercanas a la comunidad.",
+          "Usar tendedero informativo para explicar y no solo para recopilar informacion.",
+          "Distinguir entre mencionar conceptos y comprender como dialogan entre si dentro del proyecto."
+        ],
+        "validationStatus": {
+          "readinessLevel": "development-partial",
+          "readyForActivities": false,
+          "needsReviewReasons": [
+            "El bloque 14 ya es usable como lectura docente, pero el video del PPA 14 y el recurso informatico siguen pendientes de validacion de destino final.",
+            "La asignacion de apoyos de Posibilidades se sostiene por inferencia curricular documentada y no por OCR perfectamente separado por columnas.",
+            "No mover a actividades interactivas ni desbloquear juegos completos hasta ampliar validacion de videos y recursos complementarios."
+          ]
+        },
+        "readinessLevel": "development-partial",
+        "readyForActivities": false,
+        "needsReviewReasons": [
+          "No mover a actividades interactivas ni desbloquear juegos completos."
+        ],
+        "roleInPpa": "Profundiza el bloque al reunir narración, memoria escrita y vida cotidiana en un tendedero informativo sobre palabras y saberes guardados.",
+        "pedagogicalUse": "Conviene trabajar Las palabras que hemos guardado como una oportunidad para profundizar en la recuperación de textos de la antigua palabra, memoria escrita y rasgos culturales para compartirlos de manera informativa sin separar contenido, comunidad y producto final.",
+        "teacherNotes": [
+          "Conviene partir de ejemplos cercanos y después pasar al lenguaje mas abstracto del campo.",
+          "El producto Tendedero informativo gana fuerza cuando se usa para explicar y no solo para exhibir informacion.",
+          "Es mejor seleccionar pocos conceptos bien comprendidos que saturar el trabajo con terminos aislados."
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Qué comprendes mejor sobre la recuperación de textos de la antigua palabra, memoria escrita y rasgos culturales para compartirlos de manera informativa después de elaborar tendedero informativo?"
+          },
+          {
+            "type": "community",
+            "prompt": "¿Qué diálogos comunitarios podrían fortalecerse si compartimos tendedero informativo y lo ponemos en conversación con otras personas?"
+          }
+        ],
+        "notReadyFor": [
+          "full-games",
+          "summative-exam"
+        ]
+      },
+      {
+        "id": "lenguajes-2-ppa-14-pa42",
+        "projectId": "lenguajes-2-ppa-14-pa42",
+        "academicProjectNumber": 42,
+        "title": "El medio para compartir",
+        "projectTitle": "El medio para compartir",
+        "grade": "2",
+        "field": "Lenguajes",
+        "ppaNumber": "14",
+        "partialClassroomProject": "PPA 14",
+        "partialClassroomProjectTitle": "Hablar, leer y escribir nuestros saberes e historias",
+        "bookVolume": "Tomo III",
+        "sourceValidation": {
+          "sourceStatus": "linked",
+          "possibilitiesPages": [
+            37,
+            38
+          ],
+          "possibilitiesMaterialId": "grade-2-posibilidades-pos-len-2",
+          "possibilitiesColumnIndex": 3,
+          "columnEvidence": "Bloque PPA 14 Hablar, leer y escribir nuestros saberes e historias localizado en pp. 37-38; la columna 3 se confirma por el orden de proyectos, productos y continuidad del mismo bloque."
+        },
+        "finalProduct": {
+          "title": "Magazín comunal",
+          "source": "Posibilidades de uso Lenguajes pp. 37-38 + Nuestro libro de proyectos Tomo III pp. 70-74",
+          "status": "confirmed"
+        },
+        "sourcePages": {
+          "nuestroLibroProyectos": [
+            {
+              "materialId": "grade-2-proyectos-nuestro-libro-de-proyectos-tomo-3-segundo-grado",
+              "label": "Nuestro libro de proyectos Tomo III",
+              "startPage": 70,
+              "endPage": 74,
+              "pagesLabel": "pp. 70-74",
+              "topicTitle": "Proyecto academico 42",
+              "status": "confirmed-source"
+            }
+          ],
+          "conceptBook": [
+            {
+              "materialId": "grade-2-conceptos-lenguajes-segundo-grado",
+              "label": "Lenguajes",
+              "startPage": 112,
+              "endPage": 117,
+              "pagesLabel": "pp. 112-117",
+              "topicTitle": "Las lenguas y cosmovisión de los pueblos originarios",
+              "status": "confirmed-by-column-inference"
+            },
+            {
+              "materialId": "grade-2-conceptos-lenguajes-segundo-grado",
+              "label": "Lenguajes",
+              "startPage": 149,
+              "endPage": 159,
+              "pagesLabel": "pp. 149-159",
+              "topicTitle": "El trabajo de la milpa como práctica cultural de las comunidades indígenas",
+              "status": "confirmed-by-column-inference"
+            },
+            {
+              "materialId": "grade-2-conceptos-lenguajes-segundo-grado",
+              "label": "Lenguajes",
+              "startPage": 181,
+              "endPage": 184,
+              "pagesLabel": "pp. 181-184",
+              "topicTitle": "Las formas de saludo y las manifestaciones de cortesía en los pueblos indígenas de México y del mundo",
+              "status": "confirmed-by-column-inference"
+            }
+          ],
+          "multiplesLenguajes": [],
+          "otherMaterials": [
+            {
+              "label": "Video PA 42: Tendedero informativo • Lenguajes • 2do grado",
+              "reference": "https://www.youtube.com/watch?v=JG-g3-v8r7w",
+              "status": "confirmed"
+            },
+            {
+              "label": "Video PPA 14: 14. Hablar, leer y escribir nuestros saberes e historias • Lenguajes • 2do grado",
+              "reference": "https://www.youtube.com/watch?v=nf9Y5zw0ssM",
+              "status": "confirmed"
+            }
+          ]
+        },
+        "supportMaterials": [],
+        "horizonOrPurpose": {
+          "status": "official",
+          "text": "Compartir historias, narraciones y cosmovisiones en un magazín comunal que recupere lenguas, prácticas y formas de relacionarse en la comunidad.",
+          "source": "Nuestro libro de proyectos Tomo III p. 70"
+        },
+        "projectExpectationHorizon": {
+          "officialText": "Integrar relatos, descripciones, saludos y prácticas culturales en un magazín comunal que haga circular saberes e historias del entorno.",
+          "studentVersion": "Crear un magazín comunal para compartir historias y saberes vinculados con lenguas y cosmovisiones originarias.",
+          "sourcePages": [
+            "Nuestro libro de proyectos Tomo III p. 70"
+          ],
+          "evidence": "El proyecto articula cosmovisión, prácticas de cortesía, narraciones y vida comunitaria para diseñar un medio de circulación cultural.",
+          "status": "official"
+        },
+        "detonatingStrategy": {
+          "title": "14. Hablar, leer y escribir nuestros saberes e historias • Lenguajes • 2do grado",
+          "text": "Video del Proyecto Parcial de Aula 14: 14. Hablar, leer y escribir nuestros saberes e historias • Lenguajes • 2do grado",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=nf9Y5zw0ssM",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "partial-classroom-project"
+        },
+        "academicProjectStrategy": {
+          "title": "Tendedero informativo • Lenguajes • 2do grado",
+          "text": "Video detonador del Proyecto Academico 42: El medio para compartir",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=JG-g3-v8r7w",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "academic-project"
+        },
+        "academicConcepts": [
+          {
+            "concept": "magazín comunal",
+            "description": "Magazín comunal como producto de cierre para organizar y comunicar aprendizajes del proyecto.",
+            "sourceBook": "Nuestro libro de proyectos Tomo III",
+            "sourcePages": [
+              70,
+              74
+            ],
+            "sourcePagesLabel": "pp. 70-74",
+            "topicTitle": "Proyecto academico 42",
+            "status": "confirmed",
+            "reason": "Posibilidades y el propio proyecto fijan Magazín comunal como producto final del PA 42.",
+            "pedagogicalUse": "Da una forma concreta de socializar lo comprendido sobre la organización de relatos, cosmovisiones y prácticas lingüísticas y culturales en un medio colectivo de circulación comunitaria.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "cosmovisión",
+            "description": "Forma de comprender el mundo, la naturaleza y la vida desde una experiencia cultural particular.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              112,
+              117
+            ],
+            "sourcePagesLabel": "pp. 112-117",
+            "topicTitle": "Las lenguas y cosmovisión de los pueblos originarios",
+            "status": "confirmed",
+            "reason": "La fuente validada \"Las lenguas y cosmovisión de los pueblos originarios\" aporta base suficiente para trabajar cosmovisión dentro del proyecto 42.",
+            "pedagogicalUse": "Ayuda a fortalecer magazín comunal y a explicar la organización de relatos, cosmovisiones y prácticas lingüísticas y culturales en un medio colectivo de circulación comunitaria con mayor claridad mediante cosmovisión.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "saludos y cortesía",
+            "description": "Expresiones lingüísticas y gestuales que regulan el trato respetuoso y muestran formas culturales de relación.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              181,
+              184
+            ],
+            "sourcePagesLabel": "pp. 181-184",
+            "topicTitle": "Las formas de saludo y las manifestaciones de cortesía en los pueblos indígenas de México y del mundo",
+            "status": "confirmed",
+            "reason": "La fuente validada \"Las formas de saludo y las manifestaciones de cortesía en los pueblos indígenas de México y del mundo\" aporta base suficiente para trabajar saludos y cortesía dentro del proyecto 42.",
+            "pedagogicalUse": "Ayuda a fortalecer magazín comunal y a explicar la organización de relatos, cosmovisiones y prácticas lingüísticas y culturales en un medio colectivo de circulación comunitaria con mayor claridad mediante saludos y cortesía.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "descripción cultural",
+            "description": "Texto que presenta rasgos de prácticas, objetos o costumbres para ayudar a comprender su sentido.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              181,
+              184
+            ],
+            "sourcePagesLabel": "pp. 181-184",
+            "topicTitle": "Las formas de saludo y las manifestaciones de cortesía en los pueblos indígenas de México y del mundo",
+            "status": "confirmed",
+            "reason": "La fuente validada \"Las formas de saludo y las manifestaciones de cortesía en los pueblos indígenas de México y del mundo\" aporta base suficiente para trabajar descripción cultural dentro del proyecto 42.",
+            "pedagogicalUse": "Ayuda a fortalecer magazín comunal y a explicar la organización de relatos, cosmovisiones y prácticas lingüísticas y culturales en un medio colectivo de circulación comunitaria con mayor claridad mediante descripción cultural.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "magazín comunal",
+            "description": "Publicación colectiva que reúne distintos materiales breves para compartir información y cultura con una comunidad.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              112,
+              117
+            ],
+            "sourcePagesLabel": "pp. 112-117",
+            "topicTitle": "Las lenguas y cosmovisión de los pueblos originarios",
+            "status": "confirmed",
+            "reason": "La fuente validada \"Las lenguas y cosmovisión de los pueblos originarios\" aporta base suficiente para trabajar magazín comunal dentro del proyecto 42.",
+            "pedagogicalUse": "Ayuda a fortalecer magazín comunal y a explicar la organización de relatos, cosmovisiones y prácticas lingüísticas y culturales en un medio colectivo de circulación comunitaria con mayor claridad mediante magazín comunal.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "lengua originaria",
+            "description": "Lengua vinculada con la historia, la identidad y la continuidad cultural de un pueblo originario.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              112,
+              117
+            ],
+            "sourcePagesLabel": "pp. 112-117",
+            "topicTitle": "Las lenguas y cosmovisión de los pueblos originarios",
+            "status": "confirmed",
+            "reason": "La fuente validada \"Las lenguas y cosmovisión de los pueblos originarios\" aporta base suficiente para trabajar lengua originaria dentro del proyecto 42.",
+            "pedagogicalUse": "Ayuda a fortalecer magazín comunal y a explicar la organización de relatos, cosmovisiones y prácticas lingüísticas y culturales en un medio colectivo de circulación comunitaria con mayor claridad mediante lengua originaria.",
+            "activityReadiness": "usable-for-autoevaluation"
+          }
+        ],
+        "thinkingCriteria": [
+          "Relacionar la organización de relatos, cosmovisiones y prácticas lingüísticas y culturales en un medio colectivo de circulación comunitaria con situaciones cercanas a la comunidad.",
+          "Usar magazín comunal para explicar y no solo para recopilar informacion.",
+          "Distinguir entre mencionar conceptos y comprender como dialogan entre si dentro del proyecto."
+        ],
+        "validationStatus": {
+          "readinessLevel": "development-partial",
+          "readyForActivities": false,
+          "needsReviewReasons": [
+            "El bloque 14 ya es usable como lectura docente, pero el video del PPA 14 y el recurso informatico siguen pendientes de validacion de destino final.",
+            "La asignacion de apoyos de Posibilidades se sostiene por inferencia curricular documentada y no por OCR perfectamente separado por columnas.",
+            "No mover a actividades interactivas ni desbloquear juegos completos hasta ampliar validacion de videos y recursos complementarios."
+          ]
+        },
+        "readinessLevel": "development-partial",
+        "readyForActivities": false,
+        "needsReviewReasons": [
+          "No mover a actividades interactivas ni desbloquear juegos completos."
+        ],
+        "roleInPpa": "Cierra el bloque al reunir saberes, historias y formas de hablar en un magazín comunal que circule dentro y fuera del aula.",
+        "pedagogicalUse": "Conviene trabajar El medio para compartir como una oportunidad para profundizar en la organización de relatos, cosmovisiones y prácticas lingüísticas y culturales en un medio colectivo de circulación comunitaria sin separar contenido, comunidad y producto final.",
+        "teacherNotes": [
+          "Conviene partir de ejemplos cercanos y después pasar al lenguaje mas abstracto del campo.",
+          "El producto Magazín comunal gana fuerza cuando se usa para explicar y no solo para exhibir informacion.",
+          "Es mejor seleccionar pocos conceptos bien comprendidos que saturar el trabajo con terminos aislados."
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Qué comprendes mejor sobre la organización de relatos, cosmovisiones y prácticas lingüísticas y culturales en un medio colectivo de circulación comunitaria después de elaborar magazín comunal?"
+          },
+          {
+            "type": "community",
+            "prompt": "¿Qué diálogos comunitarios podrían fortalecerse si compartimos magazín comunal y lo ponemos en conversación con otras personas?"
+          }
+        ],
+        "notReadyFor": [
+          "full-games",
+          "summative-exam"
+        ]
+      }
+    ]
+  },
+  "conceptsValidation": {
+    "grade": "2",
+    "field": "Lenguajes",
+    "ppaNumber": "14",
+    "status": "concept-validation",
+    "generatedAt": "2026-06-02T15:14:09.495Z",
+    "entries": [
+      {
+        "projectId": "lenguajes-2-ppa-14-pa40",
+        "projectTitle": "Los textos científicos, un paso en busca del conocimiento",
+        "concept": "tablero de comunicación de las plantas",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Nuestro libro de proyectos Tomo III",
+          "pages": [
+            60,
+            64
+          ],
+          "reason": "Posibilidades y el propio proyecto fijan Tablero de comunicación de las plantas como producto final del PA 40."
+        },
+        "pedagogicalUse": "Da una forma concreta de socializar lo comprendido sobre la divulgación científica de saberes sobre plantas y ciencia comunitaria mediante textos claros y organizados.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-2-ppa-14-pa40",
+        "projectTitle": "Los textos científicos, un paso en busca del conocimiento",
+        "concept": "texto de divulgación científica",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            59,
+            67
+          ],
+          "reason": "La fuente validada \"El texto de divulgación científica\" aporta base suficiente para trabajar texto de divulgación científica dentro del proyecto 40."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer tablero de comunicación de las plantas y a explicar la divulgación científica de saberes sobre plantas y ciencia comunitaria mediante textos claros y organizados con mayor claridad mediante texto de divulgación científica.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-2-ppa-14-pa40",
+        "projectTitle": "Los textos científicos, un paso en busca del conocimiento",
+        "concept": "divulgación de la ciencia",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            59,
+            67
+          ],
+          "reason": "La fuente validada \"El texto de divulgación científica\" aporta base suficiente para trabajar divulgación de la ciencia dentro del proyecto 40."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer tablero de comunicación de las plantas y a explicar la divulgación científica de saberes sobre plantas y ciencia comunitaria mediante textos claros y organizados con mayor claridad mediante divulgación de la ciencia.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-2-ppa-14-pa40",
+        "projectTitle": "Los textos científicos, un paso en busca del conocimiento",
+        "concept": "territorio",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            95,
+            97
+          ],
+          "reason": "La fuente validada \"Concepto y relevancia del territorio para los pueblos y las comunidades indígenas\" aporta base suficiente para trabajar territorio dentro del proyecto 40."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer tablero de comunicación de las plantas y a explicar la divulgación científica de saberes sobre plantas y ciencia comunitaria mediante textos claros y organizados con mayor claridad mediante territorio.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-2-ppa-14-pa40",
+        "projectTitle": "Los textos científicos, un paso en busca del conocimiento",
+        "concept": "conocimiento comunitario",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            59,
+            67
+          ],
+          "reason": "La fuente validada \"El texto de divulgación científica\" aporta base suficiente para trabajar conocimiento comunitario dentro del proyecto 40."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer tablero de comunicación de las plantas y a explicar la divulgación científica de saberes sobre plantas y ciencia comunitaria mediante textos claros y organizados con mayor claridad mediante conocimiento comunitario.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-2-ppa-14-pa40",
+        "projectTitle": "Los textos científicos, un paso en busca del conocimiento",
+        "concept": "tablero de comunicación",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            59,
+            67
+          ],
+          "reason": "La fuente validada \"El texto de divulgación científica\" aporta base suficiente para trabajar tablero de comunicación dentro del proyecto 40."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer tablero de comunicación de las plantas y a explicar la divulgación científica de saberes sobre plantas y ciencia comunitaria mediante textos claros y organizados con mayor claridad mediante tablero de comunicación.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-2-ppa-14-pa41",
+        "projectTitle": "Las palabras que hemos guardado",
+        "concept": "tendedero informativo",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Nuestro libro de proyectos Tomo III",
+          "pages": [
+            65,
+            69
+          ],
+          "reason": "Posibilidades y el propio proyecto fijan Tendedero informativo como producto final del PA 41."
+        },
+        "pedagogicalUse": "Da una forma concreta de socializar lo comprendido sobre la recuperación de textos de la antigua palabra, memoria escrita y rasgos culturales para compartirlos de manera informativa.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-2-ppa-14-pa41",
+        "projectTitle": "Las palabras que hemos guardado",
+        "concept": "memoria escrita",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            120,
+            126
+          ],
+          "reason": "La fuente validada \"La literatura y el arte de la palabra en las lenguas originarias de México\" aporta base suficiente para trabajar memoria escrita dentro del proyecto 41."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer tendedero informativo y a explicar la recuperación de textos de la antigua palabra, memoria escrita y rasgos culturales para compartirlos de manera informativa con mayor claridad mediante memoria escrita.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-2-ppa-14-pa41",
+        "projectTitle": "Las palabras que hemos guardado",
+        "concept": "tradición oral",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            120,
+            126
+          ],
+          "reason": "La fuente validada \"La literatura y el arte de la palabra en las lenguas originarias de México\" aporta base suficiente para trabajar tradición oral dentro del proyecto 41."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer tendedero informativo y a explicar la recuperación de textos de la antigua palabra, memoria escrita y rasgos culturales para compartirlos de manera informativa con mayor claridad mediante tradición oral.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-2-ppa-14-pa41",
+        "projectTitle": "Las palabras que hemos guardado",
+        "concept": "textos de la antigua palabra",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            120,
+            126
+          ],
+          "reason": "La fuente validada \"La literatura y el arte de la palabra en las lenguas originarias de México\" aporta base suficiente para trabajar textos de la antigua palabra dentro del proyecto 41."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer tendedero informativo y a explicar la recuperación de textos de la antigua palabra, memoria escrita y rasgos culturales para compartirlos de manera informativa con mayor claridad mediante textos de la antigua palabra.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-2-ppa-14-pa41",
+        "projectTitle": "Las palabras que hemos guardado",
+        "concept": "identidad cultural",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            179,
+            181
+          ],
+          "reason": "La fuente validada \"Las lenguas indígenas: identidad y cultura de los pueblos originarios\" aporta base suficiente para trabajar identidad cultural dentro del proyecto 41."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer tendedero informativo y a explicar la recuperación de textos de la antigua palabra, memoria escrita y rasgos culturales para compartirlos de manera informativa con mayor claridad mediante identidad cultural.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-2-ppa-14-pa41",
+        "projectTitle": "Las palabras que hemos guardado",
+        "concept": "tendedero informativo",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            68,
+            70
+          ],
+          "reason": "La fuente validada \"Valoración de textos tradicionales y contemporáneos\" aporta base suficiente para trabajar tendedero informativo dentro del proyecto 41."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer tendedero informativo y a explicar la recuperación de textos de la antigua palabra, memoria escrita y rasgos culturales para compartirlos de manera informativa con mayor claridad mediante tendedero informativo.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-2-ppa-14-pa42",
+        "projectTitle": "El medio para compartir",
+        "concept": "magazín comunal",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Nuestro libro de proyectos Tomo III",
+          "pages": [
+            70,
+            74
+          ],
+          "reason": "Posibilidades y el propio proyecto fijan Magazín comunal como producto final del PA 42."
+        },
+        "pedagogicalUse": "Da una forma concreta de socializar lo comprendido sobre la organización de relatos, cosmovisiones y prácticas lingüísticas y culturales en un medio colectivo de circulación comunitaria.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-2-ppa-14-pa42",
+        "projectTitle": "El medio para compartir",
+        "concept": "cosmovisión",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            112,
+            117
+          ],
+          "reason": "La fuente validada \"Las lenguas y cosmovisión de los pueblos originarios\" aporta base suficiente para trabajar cosmovisión dentro del proyecto 42."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer magazín comunal y a explicar la organización de relatos, cosmovisiones y prácticas lingüísticas y culturales en un medio colectivo de circulación comunitaria con mayor claridad mediante cosmovisión.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-2-ppa-14-pa42",
+        "projectTitle": "El medio para compartir",
+        "concept": "saludos y cortesía",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            181,
+            184
+          ],
+          "reason": "La fuente validada \"Las formas de saludo y las manifestaciones de cortesía en los pueblos indígenas de México y del mundo\" aporta base suficiente para trabajar saludos y cortesía dentro del proyecto 42."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer magazín comunal y a explicar la organización de relatos, cosmovisiones y prácticas lingüísticas y culturales en un medio colectivo de circulación comunitaria con mayor claridad mediante saludos y cortesía.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-2-ppa-14-pa42",
+        "projectTitle": "El medio para compartir",
+        "concept": "descripción cultural",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            181,
+            184
+          ],
+          "reason": "La fuente validada \"Las formas de saludo y las manifestaciones de cortesía en los pueblos indígenas de México y del mundo\" aporta base suficiente para trabajar descripción cultural dentro del proyecto 42."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer magazín comunal y a explicar la organización de relatos, cosmovisiones y prácticas lingüísticas y culturales en un medio colectivo de circulación comunitaria con mayor claridad mediante descripción cultural.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-2-ppa-14-pa42",
+        "projectTitle": "El medio para compartir",
+        "concept": "magazín comunal",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            112,
+            117
+          ],
+          "reason": "La fuente validada \"Las lenguas y cosmovisión de los pueblos originarios\" aporta base suficiente para trabajar magazín comunal dentro del proyecto 42."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer magazín comunal y a explicar la organización de relatos, cosmovisiones y prácticas lingüísticas y culturales en un medio colectivo de circulación comunitaria con mayor claridad mediante magazín comunal.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-2-ppa-14-pa42",
+        "projectTitle": "El medio para compartir",
+        "concept": "lengua originaria",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            112,
+            117
+          ],
+          "reason": "La fuente validada \"Las lenguas y cosmovisión de los pueblos originarios\" aporta base suficiente para trabajar lengua originaria dentro del proyecto 42."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer magazín comunal y a explicar la organización de relatos, cosmovisiones y prácticas lingüísticas y culturales en un medio colectivo de circulación comunitaria con mayor claridad mediante lengua originaria.",
+        "activityReadiness": "usable-for-autoevaluation"
+      }
+    ]
+  },
+  "pedagogicalArticulation": {
+    "grade": "2",
+    "field": "Lenguajes",
+    "ppaNumber": "14",
+    "status": "teacher-orientation",
+    "officialHorizonStatus": "pending",
+    "situatedPedagogicalOrientation": "El PPA 14 reúne tablero de comunicación de las plantas, tendedero informativo y magazín comunal para divulgar saberes, recuperar historias y valorar lenguas y cosmovisiones de los pueblos originarios.",
+    "integratingQuestions": [
+      "Como dialogan tablero de comunicación de las plantas, tendedero informativo, magazín comunal dentro del mismo PPA 14?",
+      "Que cambia en la comprension de la divulgación, la memoria escrita y las lenguas originarias como medios para compartir saberes e historias comunitarias cuando el grupo pone en relacion conceptos, producto y comunidad?",
+      "Como convertir el producto final en una herramienta de explicacion y no solo de presentacion?"
+    ],
+    "projectConnections": [
+      {
+        "projectId": "lenguajes-2-ppa-14-pa40",
+        "projectTitle": "Los textos científicos, un paso en busca del conocimiento",
+        "roleInPpa": "Abre el bloque mostrando que comunicar ciencia también es una forma de compartir saberes comunitarios y construir conocimiento.",
+        "confirmedConcepts": [
+          "tablero de comunicación de las plantas",
+          "texto de divulgación científica",
+          "divulgación de la ciencia",
+          "territorio",
+          "conocimiento comunitario",
+          "tablero de comunicación"
+        ],
+        "suggestedConcepts": [],
+        "pedagogicalUse": "Conviene trabajar Los textos científicos, un paso en busca del conocimiento como una oportunidad para profundizar en la divulgación científica de saberes sobre plantas y ciencia comunitaria mediante textos claros y organizados sin separar contenido, comunidad y producto final."
+      },
+      {
+        "projectId": "lenguajes-2-ppa-14-pa41",
+        "projectTitle": "Las palabras que hemos guardado",
+        "roleInPpa": "Profundiza el bloque al reunir narración, memoria escrita y vida cotidiana en un tendedero informativo sobre palabras y saberes guardados.",
+        "confirmedConcepts": [
+          "tendedero informativo",
+          "memoria escrita",
+          "tradición oral",
+          "textos de la antigua palabra",
+          "identidad cultural",
+          "tendedero informativo"
+        ],
+        "suggestedConcepts": [],
+        "pedagogicalUse": "Conviene trabajar Las palabras que hemos guardado como una oportunidad para profundizar en la recuperación de textos de la antigua palabra, memoria escrita y rasgos culturales para compartirlos de manera informativa sin separar contenido, comunidad y producto final."
+      },
+      {
+        "projectId": "lenguajes-2-ppa-14-pa42",
+        "projectTitle": "El medio para compartir",
+        "roleInPpa": "Cierra el bloque al reunir saberes, historias y formas de hablar en un magazín comunal que circule dentro y fuera del aula.",
+        "confirmedConcepts": [
+          "magazín comunal",
+          "cosmovisión",
+          "saludos y cortesía",
+          "descripción cultural",
+          "magazín comunal",
+          "lengua originaria"
+        ],
+        "suggestedConcepts": [],
+        "pedagogicalUse": "Conviene trabajar El medio para compartir como una oportunidad para profundizar en la organización de relatos, cosmovisiones y prácticas lingüísticas y culturales en un medio colectivo de circulación comunitaria sin separar contenido, comunidad y producto final."
+      }
+    ],
+    "criteriaOfThought": [
+      {
+        "criterion": "Relacionar la divulgación, la memoria escrita y las lenguas originarias como medios para compartir saberes e historias comunitarias con experiencias concretas del entorno.",
+        "status": "suggested"
+      },
+      {
+        "criterion": "Usar el producto final para comunicar con claridad, no solo para acumular definiciones.",
+        "status": "suggested"
+      }
+    ],
+    "possibleResonanceQuestion": "¿Qué comprensiones nuevas sobre la divulgación, la memoria escrita y las lenguas originarias como medios para compartir saberes e historias comunitarias se vuelven visibles cuando el grupo comparte los productos del PPA 14?",
+    "teacherNotes": [
+      "No reducir el PPA 14 a tres productos aislados; el bloque construye una misma conversacion curricular.",
+      "Las paginas de Posibilidades forman un mismo bloque y los apoyos por columna se documentan por inferencia curricular situada.",
+      "Los enlaces cortos del video detonador y del recurso informatico se mantienen en cautela y no deben tratarse como recursos ya validados."
+    ],
+    "notReadyFor": [
+      "actividades interactivas",
+      "full-games",
+      "summative-exam"
+    ]
+  },
+  "teacherNotesAndResonances": {
+    "grade": "2",
+    "field": "Lenguajes",
+    "ppaNumber": "14",
+    "status": "teacher-orientation",
+    "officialHorizonStatus": "pending",
+    "ppaIntegratingResonance": "¿Qué comprensiones nuevas sobre la divulgación, la memoria escrita y las lenguas originarias como medios para compartir saberes e historias comunitarias se vuelven visibles cuando el grupo comparte los productos del PPA 14?",
+    "didacticWarnings": [
+      "No convertir el bloque en una lista de definiciones; importa relacionar conceptos con producto, comunidad y dialogo.",
+      "Los enlaces cortos bit.ly/3VfglUk y bit.ly/3WQBMwg se mantienen como cautela y no deben tratarse como recursos ya validados.",
+      "La distribucion de apoyos por columna se fija por inferencia curricular documentada a partir de Posibilidades."
+    ],
+    "communityPrompts": {
+      "communityKnowledge": [
+        "Que saberes de la comunidad ayudan a profundizar en la divulgación, la memoria escrita y las lenguas originarias como medios para compartir saberes e historias comunitarias?",
+        "Que ejemplos cercanos permiten que los conceptos del campo se vuelvan mas claros para el grupo?"
+      ],
+      "families": [
+        "Que experiencias, relatos o practicas familiares pueden enriquecer el proyecto sin desplazar su foco academico?",
+        "Que aprendizajes vale la pena compartir con otras generaciones a partir del producto final?"
+      ],
+      "territoryLanguageMemory": [
+        "Que palabras, lugares o memorias ayudan a nombrar mejor lo que el proyecto esta buscando comprender?",
+        "Como pueden circular estos productos dentro de la comunidad escolar sin perder precision ni sentido?"
+      ],
+      "productCommunityConnection": [
+        "Como podria circular tablero de comunicación de las plantas, tendedero informativo, magazín comunal para fortalecer el dialogo comunitario?"
+      ]
+    },
+    "suggestedThinkingCriteria": [
+      "Relacionar la divulgación, la memoria escrita y las lenguas originarias como medios para compartir saberes e historias comunitarias con problemas, experiencias y preguntas del entorno cercano.",
+      "Valorar el producto final como herramienta de comprension y comunicacion compartida."
+    ],
+    "projects": [
+      {
+        "projectId": "lenguajes-2-ppa-14-pa40",
+        "projectTitle": "Los textos científicos, un paso en busca del conocimiento",
+        "teacherNotes": [
+          "Conviene partir de ejemplos cercanos y después pasar al lenguaje mas abstracto del campo.",
+          "El producto Tablero de comunicación de las plantas gana fuerza cuando se usa para explicar y no solo para exhibir informacion.",
+          "Es mejor seleccionar pocos conceptos bien comprendidos que saturar el trabajo con terminos aislados."
+        ],
+        "confirmedConceptsToUse": [
+          "tablero de comunicación de las plantas",
+          "texto de divulgación científica",
+          "divulgación de la ciencia",
+          "territorio",
+          "conocimiento comunitario",
+          "tablero de comunicación"
+        ],
+        "suggestedConceptsToHandleCarefully": [],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Qué comprendes mejor sobre la divulgación científica de saberes sobre plantas y ciencia comunitaria mediante textos claros y organizados después de elaborar tablero de comunicación de las plantas?"
+          },
+          {
+            "type": "community",
+            "prompt": "¿Qué diálogos comunitarios podrían fortalecerse si compartimos tablero de comunicación de las plantas y lo ponemos en conversación con otras personas?"
+          }
+        ],
+        "notReadyFor": [
+          "full-games",
+          "summative-exam"
+        ]
+      },
+      {
+        "projectId": "lenguajes-2-ppa-14-pa41",
+        "projectTitle": "Las palabras que hemos guardado",
+        "teacherNotes": [
+          "Conviene partir de ejemplos cercanos y después pasar al lenguaje mas abstracto del campo.",
+          "El producto Tendedero informativo gana fuerza cuando se usa para explicar y no solo para exhibir informacion.",
+          "Es mejor seleccionar pocos conceptos bien comprendidos que saturar el trabajo con terminos aislados."
+        ],
+        "confirmedConceptsToUse": [
+          "tendedero informativo",
+          "memoria escrita",
+          "tradición oral",
+          "textos de la antigua palabra",
+          "identidad cultural",
+          "tendedero informativo"
+        ],
+        "suggestedConceptsToHandleCarefully": [],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Qué comprendes mejor sobre la recuperación de textos de la antigua palabra, memoria escrita y rasgos culturales para compartirlos de manera informativa después de elaborar tendedero informativo?"
+          },
+          {
+            "type": "community",
+            "prompt": "¿Qué diálogos comunitarios podrían fortalecerse si compartimos tendedero informativo y lo ponemos en conversación con otras personas?"
+          }
+        ],
+        "notReadyFor": [
+          "full-games",
+          "summative-exam"
+        ]
+      },
+      {
+        "projectId": "lenguajes-2-ppa-14-pa42",
+        "projectTitle": "El medio para compartir",
+        "teacherNotes": [
+          "Conviene partir de ejemplos cercanos y después pasar al lenguaje mas abstracto del campo.",
+          "El producto Magazín comunal gana fuerza cuando se usa para explicar y no solo para exhibir informacion.",
+          "Es mejor seleccionar pocos conceptos bien comprendidos que saturar el trabajo con terminos aislados."
+        ],
+        "confirmedConceptsToUse": [
+          "magazín comunal",
+          "cosmovisión",
+          "saludos y cortesía",
+          "descripción cultural",
+          "magazín comunal",
+          "lengua originaria"
+        ],
+        "suggestedConceptsToHandleCarefully": [],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Qué comprendes mejor sobre la organización de relatos, cosmovisiones y prácticas lingüísticas y culturales en un medio colectivo de circulación comunitaria después de elaborar magazín comunal?"
+          },
+          {
+            "type": "community",
+            "prompt": "¿Qué diálogos comunitarios podrían fortalecerse si compartimos magazín comunal y lo ponemos en conversación con otras personas?"
+          }
+        ],
+        "notReadyFor": [
+          "full-games",
+          "summative-exam"
+        ]
+      }
+    ]
+  },
+  "validationAudit": {
+    "kind": "fine-validation-audit",
+    "source": "reports/caracoles/grade2-lenguajes-ppa14-reading-bundle-audit.md",
+    "content": "# Auditoria de lectura docente\n\n## Alcance\n\n- Campo: 2o Lenguajes\n- Bloque: PPA 14\n- Titulo del PPA: Hablar, leer y escribir nuestros saberes e historias\n- Proyectos: PA40-PA42\n\n## Proyectos validados\n\n40. Los textos científicos, un paso en busca del conocimiento\n   - Producto final: Tablero de comunicación de las plantas\n   - Paginas: Nuestro libro de proyectos Tomo III pp. 60-64\n41. Las palabras que hemos guardado\n   - Producto final: Tendedero informativo\n   - Paginas: Nuestro libro de proyectos Tomo III pp. 65-69\n42. El medio para compartir\n   - Producto final: Magazín comunal\n   - Paginas: Nuestro libro de proyectos Tomo III pp. 70-74\n\n## Evidencia base usada\n\n- Posibilidades de uso Lenguajes pp. 37-38.\n- Nuestro libro de proyectos Tomo III pp. 58-74.\n- Lenguajes, segundo grado, pp. 59-67, 68-70, 76-81, 95-97, 112-117, 120-126, 149, 156-159 y 179-184; Múltiples Lenguajes pp. 24-25 y pp. 106-109..\n\n## Decisiones curriculares del bloque\n\n- El horizonte comun del PPA 14 se mantiene en estado pendiente como formula unica; se privilegia una orientacion pedagogica situada y documentada.\n- Los productos finales quedan confirmados desde Posibilidades y la secuencia del propio proyecto.\n- Los conceptos confirmados se normalizan para sostener lectura docente, autoevaluacion y actividades de relacion de columnas.\n- La resonancia se formula como pregunta abierta para reforzar el sentido formativo del bloque.\n\n## Cautelas reales\n\n- El video detonador del PPA 14 y el recurso informatico del bloque siguen sin URL oficial confirmada.\n- La asignacion de apoyos por columna se sostiene por inferencia curricular documentada, no por OCR limpio de tabla.\n- No se marca el bloque como actividades interactivas ni se desbloquean juegos completos.\n"
+  }
+}

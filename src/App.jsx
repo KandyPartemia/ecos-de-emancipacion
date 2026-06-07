@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import CaracolesApp from './caracoles/CaracolesApp';
 import {
   ArrowDown,
   ArrowUp,
@@ -28,6 +29,7 @@ import {
   Play,
   School,
   ShoppingBag,
+  Shell,
   Sparkles,
   Tag,
   UserRound,
@@ -483,6 +485,12 @@ function SmartLink({ href, children, className, label, external = false }) {
 }
 
 function App() {
+  const currentPath = typeof window !== 'undefined' ? window.location.pathname.replace(/\/$/, '') : '';
+
+  if (currentPath === '/recursos/caracoles-resonando') {
+    return <CaracolesApp />;
+  }
+
   return (
     <>
       <Header />
@@ -950,6 +958,19 @@ function Resources() {
             </article>
           ))}
         </div>
+        <article className="compact-card mt-3 border-forest/20 bg-cream/80">
+          <div className="flex h-12 w-12 items-center justify-center rounded-full bg-gold/20 text-terracotta">
+            <Shell size={23} aria-hidden="true" />
+          </div>
+          <h3 className="mt-5 font-serif text-2xl leading-tight text-forest">Caracoles Resonando</h3>
+          <p className="mt-3 leading-7 text-earth">
+            Guía para comprender proyectos académicos, criterios de pensamiento, resonancias y juegos de repaso.
+          </p>
+          <a className="mt-5 inline-flex items-center gap-2 text-sm font-semibold text-forest" href="/recursos/caracoles-resonando">
+            Abrir herramienta
+            <ArrowUpRight size={16} aria-hidden="true" />
+          </a>
+        </article>
       </div>
     </section>
   );
@@ -1251,6 +1272,12 @@ function StartHere() {
                 {action}
                 <ArrowUpRight size={16} aria-hidden="true" />
               </a>
+              {audience === 'Soy estudiante o joven curioso' && (
+                <a className="mt-3 inline-flex items-center gap-2 text-sm font-semibold text-terracotta" href="/recursos/caracoles-resonando">
+                  Caracoles Resonando
+                  <ArrowUpRight size={16} aria-hidden="true" />
+                </a>
+              )}
             </article>
           ))}
         </div>
