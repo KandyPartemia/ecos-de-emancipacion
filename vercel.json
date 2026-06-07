@@ -1,0 +1,16 @@
+{
+  "rewrites": [
+    {
+      "source": "/recursos/caracoles-resonando",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/recursos/caracoles-resonando/",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/recursos/caracoles-resonando/:path*",
+      "destination": "/index.html"
+    }
+  ]
+}
