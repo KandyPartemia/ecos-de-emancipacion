@@ -4,7 +4,7 @@ import grade3EnglishData from '../../../content/caracoles/curricular-links/grade
 import type { GradeId } from '../types';
 
 export const ENGLISH_MEMORY_GAME_URL =
-  'https://maestrakandy.my.canva.site/memory-quest-english-vocabulary-challenge-memorama';
+  'https://maestrakandy.my.canva.site/memorama';
 
 type EnglishRawLesson = {
   grade: GradeId;

@@ -717,18 +717,8 @@ function wrapMindMapLabel(label: string, maxChars = 20, maxLines = 3) {
   return lines.slice(0, maxLines);
 }
 
-function simplifyMindMapConcept(label: string) {
-  return label
-    .replace(/\s+/g, ' ')
-    .replace(/\b(de|del|la|las|los|y|en|para|contra|una|un)\b/gi, '')
-    .replace(/\s+/g, ' ')
-    .trim();
-}
-
-function compactMindMapItem(value: string, maxLength = 96) {
-  const text = value.replace(/\s+/g, ' ').trim();
-  if (text.length <= maxLength) return text;
-  return text.slice(0, maxLength - 1).replace(/\s+\S*$/, '') + '…';
+function normalizeMindMapText(value: string) {
+  return value.replace(/\s+/g, ' ').trim();
 }
 
 function splitMindMapText(value?: string, fallback: string[] = []) {
@@ -736,7 +726,7 @@ function splitMindMapText(value?: string, fallback: string[] = []) {
   if (!text) return fallback;
   const parts = text
     .split(/(?<=[.!?])\s+/)
-    .map((item) => compactMindMapItem(item.replace(/[.!?]+$/, ''), 96))
+    .map((item) => normalizeMindMapText(item.replace(/[.!?]+$/, '')))
     .filter(Boolean);
   return parts.length ? parts.slice(0, 4) : fallback;
 }
@@ -795,7 +785,7 @@ function sourceLine(record: AcademicProjectRecord) {
 function conceptBullets(concepts: AcademicProjectRecord['academicConcepts']) {
   return concepts
     .filter((concept) => concept.status === 'confirmed')
-    .map((concept) => simplifyMindMapConcept(concept.concept))
+    .map((concept) => normalizeMindMapText(concept.concept))
     .filter(Boolean)
     .slice(0, 8);
 }
@@ -812,7 +802,7 @@ function presentationBullets(record: AcademicProjectRecord) {
 function MapNumber({ value, color }: { value: string; color: string }) {
   return (
     <span
-      className="grid size-9 shrink-0 place-items-center rounded-full text-lg font-black text-white shadow-sm"
+      className="grid size-8 shrink-0 place-items-center rounded-full text-base font-black text-white shadow-sm sm:size-9 sm:text-lg"
       style={{ backgroundColor: color }}
     >
       {value}
@@ -837,21 +827,21 @@ function MapBlock({
 }) {
   return (
     <section
-      className={'rounded-[1.35rem] border-4 bg-white/95 p-4 shadow-[0_8px_0_rgba(36,26,18,0.04)] ' + className}
+      className={'min-w-0 rounded-[1.35rem] border-4 bg-white/95 p-4 shadow-[0_8px_0_rgba(36,26,18,0.04)] ' + className}
       style={{ borderColor: color }}
     >
       <div className="flex items-start justify-between gap-3">
         <div className="flex min-w-0 items-center gap-2">
           <MapNumber value={number} color={color} />
-          <h4 className="font-serif text-xl leading-6 text-[#1f2b4d] md:text-2xl">{title}</h4>
+          <h4 className="min-w-0 break-words font-serif text-lg leading-6 text-[#1f2b4d] sm:text-xl md:text-2xl">{title}</h4>
         </div>
-        <div className="hidden rounded-2xl bg-[#f7efe0] p-2 text-[#315344] sm:block">{icon}</div>
+        <div className="hidden shrink-0 rounded-2xl bg-[#f7efe0] p-2 text-[#315344] sm:block [&_svg]:size-6 md:[&_svg]:size-7">{icon}</div>
       </div>
-      <ul className="mt-3 grid gap-1.5 text-[0.82rem] font-semibold leading-5 text-[#241a12] md:text-sm">
-        {items.slice(0, 8).map((item) => (
-          <li key={item} className="flex gap-2">
+      <ul className="mt-3 grid gap-2 text-[0.84rem] font-semibold leading-6 text-[#241a12] md:text-sm md:leading-6">
+        {items.map((item) => (
+          <li key={item} className="flex min-w-0 gap-2">
             <span className="mt-2 size-2 shrink-0 rounded-full" style={{ backgroundColor: color }} />
-            <span>{compactMindMapItem(item, 118)}</span>
+            <span className="min-w-0 whitespace-normal break-words">{normalizeMindMapText(item)}</span>
           </li>
         ))}
       </ul>
@@ -866,12 +856,12 @@ function PresentationMapBlock({
 }) {
   const color = '#2563a8';
   return (
-    <section className="rounded-[1.35rem] border-4 border-[#2563a8] bg-white/95 p-4 shadow-[0_8px_0_rgba(36,26,18,0.04)] xl:col-span-2">
+    <section className="min-w-0 rounded-[1.35rem] border-4 border-[#2563a8] bg-white/95 p-4 shadow-[0_8px_0_rgba(36,26,18,0.04)] xl:col-span-2">
       <div className="flex items-center gap-2">
         <MapNumber value="8" color={color} />
-        <h4 className="font-serif text-xl leading-6 text-[#1f2b4d] md:text-2xl">Presentación, trabajo comunitario y evaluación</h4>
+        <h4 className="min-w-0 break-words font-serif text-lg leading-6 text-[#1f2b4d] sm:text-xl md:text-2xl">Presentación, trabajo comunitario y evaluación</h4>
       </div>
-      <div className="mt-3 grid gap-3 sm:grid-cols-3">
+      <div className="mt-3 grid gap-3 md:grid-cols-3">
         {[
           ['Antes', items.before],
           ['Durante', items.during],
@@ -879,9 +869,9 @@ function PresentationMapBlock({
         ].map(([label, list]) => (
           <div key={label as string} className="rounded-2xl border border-[#2563a8]/35 bg-[#f7fbff] p-3">
             <p className="mb-2 rounded-full bg-[#2563a8] px-3 py-1 text-center text-sm font-black text-white">{label as string}</p>
-            <ul className="grid gap-1.5 text-[0.78rem] font-semibold leading-5 text-[#241a12]">
+            <ul className="grid gap-2 text-[0.82rem] font-semibold leading-6 text-[#241a12]">
               {(list as string[]).map((item) => (
-                <li key={item}>• {compactMindMapItem(item, 74)}</li>
+                <li key={item} className="whitespace-normal break-words">• {normalizeMindMapText(item)}</li>
               ))}
             </ul>
           </div>
@@ -928,12 +918,12 @@ function ConceptMindMap({
   ];
   const ideaForce =
     record.horizon.text && record.horizon.status !== 'pending'
-      ? compactMindMapItem(record.horizon.text, 160)
+      ? normalizeMindMapText(record.horizon.text)
       : 'El proyecto ' + record.academicProjectNumber + ' permite usar conceptos, fuentes y trabajo comunitario para construir ' + product.toLowerCase() + '.';
   const presentation = presentationBullets(record);
 
   return (
-    <article id="caracoles-mapa-mental" className="overflow-hidden rounded-[2rem] border-2 border-[#e0c492] bg-[#fffdf7] p-3 shadow-[0_18px_55px_rgba(36,26,18,0.08)] md:p-5">
+    <article id="caracoles-mapa-mental" className="overflow-visible rounded-[2rem] border-2 border-[#e0c492] bg-[#fffdf7] p-3 shadow-[0_18px_55px_rgba(36,26,18,0.08)] md:p-5">
       <div className="mb-4 flex flex-col gap-2 rounded-[1.4rem] bg-[#315344] px-5 py-4 text-[#f8f1e6] md:flex-row md:items-end md:justify-between">
         <div>
           <p className="text-xs font-black uppercase tracking-[0.18em] text-[#d9b56d]">Recurso visual del proyecto</p>
@@ -971,9 +961,9 @@ function ConceptMindMap({
             <h3 className="mt-3 font-serif text-3xl font-black leading-tight text-[#d22f72] md:text-5xl">
               {record.academicProjectTitle}
             </h3>
-            <div className="mx-auto mt-4 flex max-w-md items-center justify-center gap-2 rounded-2xl bg-[#f7efe0] px-4 py-2 text-sm font-black text-[#241a12]">
-              <BookOpen size={24} className="text-[#315344]" />
-              <span>{source}</span>
+            <div className="mx-auto mt-4 flex max-w-md flex-wrap items-center justify-center gap-2 rounded-2xl bg-[#f7efe0] px-4 py-2 text-sm font-black text-[#241a12]">
+              <BookOpen size={24} className="shrink-0 text-[#315344]" />
+              <span className="min-w-0 break-words">{source}</span>
             </div>
           </section>
         </div>
@@ -995,9 +985,9 @@ function ConceptMindMap({
               <h3 className="mt-3 font-serif text-3xl font-black leading-tight text-[#d22f72] md:text-5xl">
                 {record.academicProjectTitle}
               </h3>
-              <div className="mx-auto mt-4 flex max-w-md items-center justify-center gap-2 rounded-2xl bg-[#f7efe0] px-4 py-2 text-sm font-black text-[#241a12]">
-                <BookOpen size={24} className="text-[#315344]" />
-                <span>{source}</span>
+              <div className="mx-auto mt-4 flex max-w-md flex-wrap items-center justify-center gap-2 rounded-2xl bg-[#f7efe0] px-4 py-2 text-sm font-black text-[#241a12]">
+                <BookOpen size={24} className="shrink-0 text-[#315344]" />
+                <span className="min-w-0 break-words">{source}</span>
               </div>
             </section>
             <MapBlock number="7" title="Paso a paso" color="#e6a21a" icon={<PenLine size={30} />} items={stepItems} />

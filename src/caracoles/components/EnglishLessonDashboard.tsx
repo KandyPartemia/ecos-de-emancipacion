@@ -109,28 +109,28 @@ function EnglishMindMap({ lesson }: { lesson: EnglishLesson }) {
   return (
     <LessonSection id="caracoles-mapa-mental" eyebrow="Organizador visual / Mind map" title="Mapa mental integrado de la leccion">
       <div className="grid gap-4 lg:grid-cols-[minmax(240px,0.75fr)_minmax(0,1.25fr)]">
-        <div className="rounded-[1.5rem] border border-[#315344]/16 bg-[#315344] p-5 text-[#f8f1e6]">
+        <div className="min-w-0 rounded-[1.5rem] border border-[#315344]/16 bg-[#315344] p-5 text-[#f8f1e6]">
           <div className="flex items-center gap-3">
             <Brain className="h-6 w-6" aria-hidden="true" />
             <p className="text-xs font-black uppercase tracking-[0.16em] text-[#d9b56d]">Nucleo</p>
           </div>
-          <h4 className="mt-3 font-serif text-3xl leading-tight">{lesson.mindMap.center}</h4>
-          <p className="mt-3 text-sm leading-7 text-[#f5efe4]">{lesson.pagesLabel}</p>
+          <h4 className="mt-3 break-words font-serif text-2xl leading-tight sm:text-3xl">{lesson.mindMap.center}</h4>
+          <p className="mt-3 break-words text-sm leading-7 text-[#f5efe4]">{lesson.pagesLabel}</p>
         </div>
 
-        <div className="grid gap-3 md:grid-cols-2">
+        <div className="grid min-w-0 gap-3 md:grid-cols-2">
           {lesson.mindMap.branches.map((branch, index) => (
             <article
               key={branch.title}
-              className="rounded-[1.25rem] border border-[#315344]/12 p-4"
+              className="min-w-0 rounded-[1.25rem] border border-[#315344]/12 p-4"
               style={{ backgroundColor: branchTones[index % branchTones.length] }}
             >
-              <h5 className="font-serif text-xl leading-tight text-[#315344]">{branch.title}</h5>
+              <h5 className="break-words font-serif text-xl leading-tight text-[#315344]">{branch.title}</h5>
               <ul className="mt-3 grid gap-2 text-sm leading-6 text-[#241a12]">
                 {branch.items.map((item) => (
-                  <li key={item} className="flex gap-2">
+                  <li key={item} className="flex min-w-0 gap-2">
                     <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-[#8f4d32]" />
-                    <span>{item}</span>
+                    <span className="min-w-0 whitespace-normal break-words">{item}</span>
                   </li>
                 ))}
               </ul>
@@ -140,7 +140,7 @@ function EnglishMindMap({ lesson }: { lesson: EnglishLesson }) {
       </div>
       <div className="mt-4 rounded-[1.25rem] border border-[#d9b56d]/35 bg-[#fff8ee] p-4">
         <p className="text-xs font-black uppercase tracking-[0.16em] text-[#8f4d32]">Idea fuerza</p>
-        <p className="mt-2 leading-8 text-[#241a12]">{lesson.mindMap.ideaForce}</p>
+        <p className="mt-2 break-words leading-8 text-[#241a12]">{lesson.mindMap.ideaForce}</p>
       </div>
     </LessonSection>
   );
@@ -275,20 +275,20 @@ function CanvaMemoramaEmbed() {
       >
         <iframe
           loading="lazy"
-          title="Memory Quest: English Vocabulary Challenge (Memorama)"
+          title="Memory Quest – Caracoles Resonando"
           className="absolute left-0 top-0 h-full w-full border-0"
-          src="https://www.canva.com/design/DAHLYRcPB74/LSrA8-pThbcCJjwEvf5nHQ/view?embed"
+          src={ENGLISH_MEMORY_GAME_URL}
           allowFullScreen
           allow="fullscreen"
         />
       </div>
       <a
-        href="https://www.canva.com/design/DAHLYRcPB74/LSrA8-pThbcCJjwEvf5nHQ/view?utm_content=DAHLYRcPB74&utm_campaign=designshare&utm_medium=embeds&utm_source=link"
+        href={ENGLISH_MEMORY_GAME_URL}
         target="_blank"
         rel="noopener noreferrer"
         className="mt-3 inline-flex items-center gap-2 rounded-full bg-[#315344] px-4 py-2 text-sm font-black text-[#f8f1e6] transition hover:bg-[#241a12]"
       >
-        Abrir Memory Quest: English Vocabulary Challenge
+        Abrir Memory Quest – Caracoles Resonando
         <ExternalLink className="h-4 w-4" aria-hidden="true" />
       </a>
     </div>
@@ -337,7 +337,7 @@ function EnglishLessonDashboard({ lesson }: { lesson: EnglishLesson }) {
             className="inline-flex items-center gap-2 rounded-full bg-[#315344] px-5 py-3 text-sm font-black text-[#f8f1e6] transition hover:bg-[#241a12] focus:outline-none focus:ring-4 focus:ring-[#d9b56d]/35"
             href={ENGLISH_MEMORY_GAME_URL}
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
           >
             <Puzzle className="h-4 w-4" aria-hidden="true" />
             Abrir memorama

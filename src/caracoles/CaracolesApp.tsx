@@ -281,7 +281,7 @@ function CaracolesApp() {
                 className="rounded-full px-3 py-2 font-bold text-[#315344] transition hover:bg-white hover:text-[#241a12] focus:outline-none focus:ring-4 focus:ring-[#d9b56d]/35"
                 href={item.href}
                 target={item.external ? '_blank' : undefined}
-                rel={item.external ? 'noreferrer' : undefined}
+                rel={item.external ? 'noopener noreferrer' : undefined}
               >
                 {item.label}
               </a>
@@ -310,7 +310,7 @@ function CaracolesApp() {
               className="shrink-0 rounded-full bg-white px-3 py-2 text-xs font-black uppercase tracking-[0.12em] text-[#315344]"
               href={item.href}
               target={item.external ? '_blank' : undefined}
-              rel={item.external ? 'noreferrer' : undefined}
+              rel={item.external ? 'noopener noreferrer' : undefined}
             >
               {item.label}
             </a>
