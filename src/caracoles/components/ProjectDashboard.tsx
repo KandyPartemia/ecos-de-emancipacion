@@ -29,7 +29,12 @@ function sectionPendingCopy() {
 }
 
 function horizonPendingCopy() {
-  return 'Horizonte pendiente de confirmación textual en el libro Nuestros proyectos.';
+  return 'Horizonte pendiente de validación en fuente.';
+}
+
+function horizonSummary(record: AcademicProjectRecord) {
+  if (record.horizon.text) return record.horizon.text;
+  return record.horizon.displayLabel || horizonPendingCopy();
 }
 
 function humanizePendingNote(text: string) {
@@ -181,6 +186,33 @@ function DataRow({
   );
 }
 
+function HorizonCard({ record }: { record: AcademicProjectRecord }) {
+  const label = record.horizon.displayLabel || (record.horizon.text ? 'Horizonte de expectativas' : horizonPendingCopy());
+  const note =
+    record.horizon.note ||
+    (record.horizon.status === 'pending'
+      ? 'No se muestra un horizonte inventado; falta validarlo directamente en la fuente curricular.'
+      : '');
+
+  return (
+    <div className="rounded-[1.5rem] bg-[#f5efe4] p-5">
+      <div className="flex flex-wrap items-center gap-3">
+        <p className="text-xs font-bold uppercase tracking-[0.14em] text-[#8f4d32]">{label}</p>
+        {record.horizon.status === 'confirmed' ? <SourceStatusBadge status="confirmed" /> : null}
+        {record.horizon.status === 'teacher-orientation' ? <SourceStatusBadge status="caution" /> : null}
+        {record.horizon.status === 'pending' || record.horizon.status === 'review' ? (
+          <SourceStatusBadge status="pending" />
+        ) : null}
+      </div>
+      {record.horizon.text ? <p className="mt-2 leading-8 text-[#241a12]">{record.horizon.text}</p> : null}
+      {note ? <p className="mt-2 text-sm leading-7 text-[#675c51]">{note}</p> : null}
+      {record.horizon.source ? (
+        <p className="mt-2 text-sm font-semibold text-[#8f4d32]">Fuente: {record.horizon.source}</p>
+      ) : null}
+    </div>
+  );
+}
+
 function BookGroup({
   label,
   title,
@@ -238,6 +270,9 @@ function StrategyCard({ strategy }: { strategy: ProjectStrategyRecord }) {
       {strategy.relatedResource ? (
         <p className="mt-2 text-sm leading-7 text-[#675c51]">Referencia asociada: {strategy.relatedResource}</p>
       ) : null}
+      {strategy.validationNote ? (
+        <p className="mt-2 rounded-2xl bg-white/70 p-3 text-sm leading-7 text-[#675c51]">{strategy.validationNote}</p>
+      ) : null}
       {strategy.source ? <p className="mt-2 text-sm font-semibold text-[#8f4d32]">Fuente: {strategy.source}</p> : null}
 
       <div className="mt-4 flex flex-wrap items-center gap-3">
@@ -253,7 +288,7 @@ function StrategyCard({ strategy }: { strategy: ProjectStrategyRecord }) {
           </a>
         ) : null}
         {strategy.urlStatus === 'pending' ? (
-          <p className="text-sm leading-7 text-[#675c51]">Pendiente de validación de destino.</p>
+          <p className="text-sm leading-7 text-[#675c51]">Enlace pendiente de validación específica.</p>
         ) : null}
         {!strategy.videoUrl && strategy.urlStatus === 'not-found' ? (
           <p className="text-sm leading-7 text-[#675c51]">Link pendiente de confirmación.</p>
@@ -1127,11 +1162,19 @@ function ProjectDashboard({
 
   const visibleConcepts = record.academicConcepts.filter((concept) => concept.status !== 'discarded');
   const strategyVideo =
-    (record.detonatingStrategy.scope === 'academic-project' && record.detonatingStrategy.videoUrl
+    (record.detonatingStrategy.scope === 'academic-project' &&
+    record.detonatingStrategy.videoUrl &&
+    record.detonatingStrategy.urlStatus === 'confirmed'
       ? record.detonatingStrategy
       : undefined) ||
     record.relatedStrategies?.find(
-      (strategy) => strategy.scope === 'academic-project' && Boolean(strategy.videoUrl),
+      (strategy) => strategy.scope === 'academic-project' && Boolean(strategy.videoUrl) && strategy.urlStatus === 'confirmed',
+    ) ||
+    (record.detonatingStrategy.scope === 'partial-classroom-project' && record.detonatingStrategy.videoUrl
+      ? record.detonatingStrategy
+      : undefined) ||
+    record.relatedStrategies?.find(
+      (strategy) => strategy.scope === 'partial-classroom-project' && Boolean(strategy.videoUrl),
     );
 
   return (
@@ -1146,16 +1189,10 @@ function ProjectDashboard({
           <p className="mt-3 max-w-4xl leading-8 text-[#675c51]">
             Cargando la mejor información curricular disponible para este proyecto.
           </p>
-        ) : record.horizon.text ? (
-          <div className="mt-4 max-w-5xl rounded-[1.5rem] bg-[#f5efe4] p-5">
-            <p className="text-xs font-bold uppercase tracking-[0.14em] text-[#8f4d32]">
-              {record.horizon.displayLabel || 'Horizonte de expectativas'}
-            </p>
-            <p className="mt-2 leading-8 text-[#241a12]">{record.horizon.text}</p>
-            {record.horizon.note ? <p className="mt-2 text-sm leading-7 text-[#675c51]">{record.horizon.note}</p> : null}
-          </div>
         ) : (
-          <p className="mt-3 max-w-4xl leading-8 text-[#675c51]">{horizonPendingCopy()}</p>
+          <div className="mt-4 max-w-5xl">
+            <HorizonCard record={record} />
+          </div>
         )}
       </div>
 
@@ -1175,7 +1212,7 @@ function ProjectDashboard({
           <DataRow label="Producto final" value={record.finalProduct || 'Pendiente de validación'} />
           <DataRow
             label="Horizonte u orientación"
-            value={record.horizon.text || horizonPendingCopy()}
+            value={horizonSummary(record)}
           />
           <DataRow
             label="Estrategia detonadora"
@@ -1198,22 +1235,9 @@ function ProjectDashboard({
       </Section>
 
       <Section index={2} title="Horizonte de expectativas">
-        {record.horizon.text ? (
-          <div className="grid gap-3">
-            <div className="rounded-[1.5rem] bg-[#f5efe4] p-5">
-              <p className="text-xs font-bold uppercase tracking-[0.14em] text-[#8f4d32]">
-                {record.horizon.displayLabel || 'Horizonte de expectativas'}
-              </p>
-              <p className="mt-2 leading-8 text-[#241a12]">{record.horizon.text}</p>
-              {record.horizon.note ? <p className="mt-2 text-sm leading-7 text-[#675c51]">{record.horizon.note}</p> : null}
-              {record.horizon.source ? (
-                <p className="mt-2 text-sm font-semibold text-[#8f4d32]">Fuente: {record.horizon.source}</p>
-              ) : null}
-            </div>
-          </div>
-        ) : (
-          <p className="rounded-2xl bg-[#f5efe4] p-4 text-sm leading-7 text-[#675c51]">{horizonPendingCopy()}</p>
-        )}
+        <div className="grid gap-3">
+          <HorizonCard record={record} />
+        </div>
       </Section>
 
       <Section index={3} title="Ubicación en libros">

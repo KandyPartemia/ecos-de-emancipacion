@@ -12,6 +12,7 @@ export type ProjectStrategyRecord = {
   resourceLabel?: string;
   urlStatus?: 'confirmed' | 'pending' | 'not-found';
   relatedResource?: string;
+  validationNote?: string;
 };
 
 export type AcademicProjectRecord = {
@@ -25,7 +26,7 @@ export type AcademicProjectRecord = {
   finalProduct?: string;
   horizon: {
     text?: string;
-    status: 'confirmed' | 'teacher-orientation' | 'pending';
+    status: 'confirmed' | 'teacher-orientation' | 'pending' | 'review';
     source?: string;
     displayLabel?: string;
     note?: string;

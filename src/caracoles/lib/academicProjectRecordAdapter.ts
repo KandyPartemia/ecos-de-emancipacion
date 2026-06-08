@@ -455,6 +455,13 @@ function isSearchResultsUrl(value?: string) {
   return /youtube\.com\/results\?search_query=/i.test(value);
 }
 
+const ACADEMIC_VIDEO_URL_USE_COUNT = Object.values(OFFICIAL_YOUTUBE_ACADEMIC_PROJECT_VIDEO_URLS).reduce<
+  Record<string, number>
+>((usage, url) => {
+  usage[url] = (usage[url] || 0) + 1;
+  return usage;
+}, {});
+
 function validatedAcademicProjectVideoUrl(project: AcademicProject) {
   const projectKey = buildAcademicProjectResourceKey(project);
   return (
@@ -495,6 +502,49 @@ function validatedPartialClassroomResourceTitle(project: AcademicProject, view: 
     OFFICIAL_PARTIAL_CLASSROOM_RESOURCE_TITLES[resourceKey] ||
     '';
   return repairMojibake(title);
+}
+
+function classifyAcademicVideoEvidence(
+  project: AcademicProject,
+  view: CurricularDevelopmentProjectView | null,
+  effectiveUrl?: string,
+): {
+  urlStatus: ProjectStrategyRecord['urlStatus'];
+  resourceLabel: string;
+  validationNote?: string;
+} {
+  const url = effectiveUrl || validatedAcademicProjectVideoUrl(project);
+  if (!url) {
+    return {
+      urlStatus: 'not-found',
+      resourceLabel: 'Video específico pendiente de validación',
+      validationNote: 'No hay enlace directo confirmado para el video específico del Proyecto Académico.',
+    };
+  }
+
+  const ppaUrl = validatedPartialClassroomResourceUrl(project, view);
+  if (ppaUrl && url === ppaUrl) {
+    return {
+      urlStatus: 'pending',
+      resourceLabel: 'Enlace pendiente de validación específica',
+      validationNote:
+        'Este enlace coincide con el video del Proyecto Parcial de Aula; no se presenta como video específico del PA.',
+    };
+  }
+
+  if ((ACADEMIC_VIDEO_URL_USE_COUNT[url] || 0) > 1) {
+    return {
+      urlStatus: 'pending',
+      resourceLabel: 'Enlace pendiente de validación específica',
+      validationNote:
+        'Este enlace aparece asociado a varios Proyectos Académicos y requiere validación manual.',
+    };
+  }
+
+  return {
+    urlStatus: 'confirmed',
+    resourceLabel: 'Video/recurso del Proyecto Académico',
+  };
 }
 
 function officialAcademicProjectSearchUrl(
@@ -673,6 +723,7 @@ function buildComplementaryResources(
   const ppaNumber = Number(resolvePpaNumber(project, view) || 0);
   const validatedAcademicUrl = validatedAcademicProjectVideoUrl(project);
   const validatedPpaUrl = validatedPartialClassroomResourceUrl(project, view);
+  const academicSupportEvidence = classifyAcademicVideoEvidence(project, view, validatedAcademicUrl);
   const academicProjectUrl =
     strategyList.find((strategy) => strategy.scope === 'academic-project' && strategy.videoUrl)?.videoUrl ||
     validatedAcademicUrl ||
@@ -745,19 +796,25 @@ function buildComplementaryResources(
       const normalizedLabel = normalizeKey(item.label || 'Recurso complementario');
       const reference = displaySupportReference(item.label || 'Recurso complementario', rawReference);
       const resolvedUrl = resolveSupportUrl(item.label || 'Recurso complementario', rawReference);
+      const academicSupportPending =
+        normalizedLabel.startsWith('video pa') && academicSupportEvidence.urlStatus !== 'confirmed';
       const hasValidatedStructuredRoute =
         ((normalizedLabel.startsWith('video ppa') && Boolean(validatedPpaUrl)) ||
-          (normalizedLabel.startsWith('video pa') && Boolean(validatedAcademicUrl)) ||
+          (normalizedLabel.startsWith('video pa') && Boolean(validatedAcademicUrl) && !academicSupportPending) ||
           ((normalizedLabel.includes('consulta') ||
             normalizedLabel.includes('recurso de consulta del proyecto') ||
             normalizedLabel.includes('recurso informatico del bloque')) &&
-            Boolean(validatedAcademicUrl))) &&
+            Boolean(validatedAcademicUrl) &&
+            academicSupportEvidence.urlStatus === 'confirmed')) &&
         !isSearchResultsUrl(resolvedUrl);
       const inferredStatus = usesStructuredSupportRoute(item.label || 'Recurso complementario', resolvedUrl) &&
-        !isSearchResultsUrl(resolvedUrl)
+        !isSearchResultsUrl(resolvedUrl) &&
+        !academicSupportPending
         ? ('confirmed' as const)
         : hasValidatedStructuredRoute
         ? ('confirmed' as const)
+        : academicSupportPending
+        ? ('pending' as const)
         : item.status
         ? sourceStatus(item.status)
         : /\bbit\.ly\/[A-Za-z0-9]+\b/i.test(rawReference)
@@ -767,7 +824,9 @@ function buildComplementaryResources(
         : ('pending' as const);
 
       return {
-        label: item.label || 'Recurso complementario',
+        label: academicSupportPending
+          ? 'Enlace pendiente de validación específica'
+          : item.label || 'Recurso complementario',
         reference,
         url: resolvedUrl,
         status: inferredStatus,
@@ -887,7 +946,13 @@ function buildHorizon(project: AcademicProject, view: CurricularDevelopmentProje
       status: directStatus === 'confirmed' ? ('confirmed' as const) : ('teacher-orientation' as const),
       source: directHorizon?.source || '',
       displayLabel:
-        directStatus === 'confirmed' ? 'Horizonte de expectativas' : 'Orientacion pedagogica situada',
+        directStatus === 'confirmed'
+          ? 'Horizonte de expectativa confirmado'
+          : 'Orientación pedagógica provisional',
+      note:
+        directStatus === 'confirmed'
+          ? undefined
+          : 'Este texto orienta el trabajo docente, pero aún requiere validación directa en la fuente curricular.',
     };
   }
 
@@ -897,7 +962,7 @@ function buildHorizon(project: AcademicProject, view: CurricularDevelopmentProje
       text: expectation?.officialText || '',
       status: 'confirmed' as const,
       source: joinSourcePages(expectation?.sourcePages),
-      displayLabel: 'Horizonte de expectativas',
+      displayLabel: 'Horizonte de expectativa confirmado',
     };
   }
 
@@ -906,7 +971,7 @@ function buildHorizon(project: AcademicProject, view: CurricularDevelopmentProje
       text: expectation?.studentVersion || '',
       status: 'confirmed' as const,
       source: joinSourcePages(expectation?.sourcePages),
-      displayLabel: 'Horizonte de expectativas',
+      displayLabel: 'Horizonte de expectativa confirmado',
       note: 'Recuperado desde la formulacion pedagogica del proyecto en Nuestro libro de proyectos.',
     };
   }
@@ -915,10 +980,11 @@ function buildHorizon(project: AcademicProject, view: CurricularDevelopmentProje
   if (isMeaningfulText(projectPurpose?.text)) {
     return {
       text: projectPurpose?.text || '',
-      status: 'confirmed' as const,
+      status: 'teacher-orientation' as const,
       source: joinSourcePages(projectPurpose?.sourcePages),
-      displayLabel: 'Horizonte de expectativas',
-      note: 'Recuperado desde el objetivo del proyecto en Nuestro libro de proyectos.',
+      displayLabel: 'Orientación pedagógica provisional',
+      note:
+        'Este texto orienta el trabajo docente, pero aún requiere validación directa en la fuente curricular.',
     };
   }
 
@@ -933,8 +999,8 @@ function buildHorizon(project: AcademicProject, view: CurricularDevelopmentProje
     text: '',
     status: 'pending' as const,
     source: projectSource,
-    displayLabel: 'Horizonte pendiente',
-    note: 'Pendiente de transcripcion literal desde el tomo y las paginas del Proyecto Academico en Nuestro libro de proyectos.',
+    displayLabel: 'Horizonte pendiente de validación en fuente',
+    note: 'No se muestra un horizonte inventado; falta validarlo directamente en la fuente curricular.',
   };
 }
 
@@ -993,6 +1059,8 @@ function buildStrategyEntry(
     type?: string;
     fallbackVideoUrl?: string;
     fallbackUrlStatus?: ProjectStrategyRecord['urlStatus'];
+    resourceLabel?: string;
+    validationNote?: string;
   } = {},
 ): ProjectStrategyRecord | null {
   const rawText = entry?.text || entry?.reference || '';
@@ -1004,11 +1072,13 @@ function buildStrategyEntry(
   const entryUrl = entry?.url || extractReferenceUrl(rawText) || '';
   const videoUrl = isDirectVideoUrl(entryUrl) ? entryUrl : fallback.fallbackVideoUrl || '';
   const scope = inferScope(entry?.scope || fallback.scope);
-  const resourceLabel = inferResourceLabel(scope, entry?.type || fallback.type, title, rawText);
+  const resourceLabel = fallback.resourceLabel || inferResourceLabel(scope, entry?.type || fallback.type, title, rawText);
   const inferredUrlStatus = inferUrlStatus(entry, fallback.status, entryUrl);
   const usesFallback = Boolean(fallback.fallbackVideoUrl) && videoUrl === fallback.fallbackVideoUrl && !isDirectVideoUrl(entryUrl);
   const urlStatus =
-    usesFallback
+    fallback.fallbackUrlStatus === 'pending' && fallback.resourceLabel?.includes('validación específica')
+      ? ('pending' as const)
+      : usesFallback
       ? fallback.fallbackUrlStatus || 'pending'
       : inferredUrlStatus === 'not-found' && /\bbit\.ly\/[A-Za-z0-9]+\b/i.test(relatedResource)
       ? ('pending' as const)
@@ -1040,6 +1110,7 @@ function buildStrategyEntry(
     resourceLabel,
     urlStatus,
     relatedResource,
+    validationNote: fallback.validationNote,
   };
 }
 
@@ -1067,12 +1138,13 @@ function buildStrategies(project: AcademicProject, view: CurricularDevelopmentPr
     : ('pending' as const);
   const validatedAcademicVideoUrl =
     validatedAcademicProjectVideoUrl(project) || officialAcademicProjectSearchUrl(project, developmentProject);
-  const validatedAcademicUrlStatus = validatedAcademicProjectVideoUrl(project)
-    ? ('confirmed' as const)
-    : ('pending' as const);
+  const academicEntry = developmentProject?.academicProjectStrategy || project.academicProjectStrategy;
+  const academicEntryUrl = academicEntry?.url || extractReferenceUrl(academicEntry?.text || academicEntry?.reference || '') || '';
+  const academicEffectiveUrl = isDirectVideoUrl(academicEntryUrl) ? academicEntryUrl : validatedAcademicVideoUrl;
+  const academicVideoEvidence = classifyAcademicVideoEvidence(project, view, academicEffectiveUrl);
 
   const academicProjectStrategy = buildStrategyEntry(
-    developmentProject?.academicProjectStrategy || project.academicProjectStrategy,
+    academicEntry,
     {
       scope: 'academic-project',
       title: project.title,
@@ -1080,7 +1152,9 @@ function buildStrategies(project: AcademicProject, view: CurricularDevelopmentPr
       status: developmentProject?.academicProjectStrategy?.status || project.academicProjectStrategy?.status,
       type: developmentProject?.academicProjectStrategy?.type || project.academicProjectStrategy?.type,
       fallbackVideoUrl: validatedAcademicVideoUrl,
-      fallbackUrlStatus: validatedAcademicUrlStatus,
+      fallbackUrlStatus: academicVideoEvidence.urlStatus,
+      resourceLabel: academicVideoEvidence.resourceLabel,
+      validationNote: academicVideoEvidence.validationNote,
     },
   );
   const academicProjectVideoTitle = validatedAcademicProjectVideoTitle(project);
@@ -1114,6 +1188,9 @@ function buildStrategies(project: AcademicProject, view: CurricularDevelopmentPr
         project.detonatingStrategy?.type,
       fallbackVideoUrl: validatedPartialClassroomVideoUrl,
       fallbackUrlStatus: validatedPartialClassroomUrlStatus,
+      resourceLabel: 'Video detonador del Proyecto Parcial de Aula',
+      validationNote:
+        'Este video corresponde al PPA completo y puede orientar los Proyectos Académicos relacionados.',
     },
   );
 
