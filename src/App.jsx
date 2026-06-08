@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import CaracolesApp from './caracoles/CaracolesApp';
-import BuyMeACoffeeLink from './components/BuyMeACoffeeLink';
+import BuyMeACoffeeLink, { BUY_ME_A_COFFEE_URL } from './components/BuyMeACoffeeLink';
 import {
   ArrowDown,
   ArrowUp,
@@ -10,6 +10,7 @@ import {
   Brain,
   CircleDot,
   Compass,
+  Coffee,
   DoorOpen,
   Eye,
   Facebook,
@@ -463,7 +464,7 @@ const paths = [
 
 function ExternalLink({ href, children, className, label }) {
   return (
-    <a href={href} target="_blank" rel="noreferrer" className={className} aria-label={label}>
+    <a href={href} target="_blank" rel="noopener noreferrer" className={className} aria-label={label}>
       {children}
     </a>
   );
@@ -472,7 +473,7 @@ function ExternalLink({ href, children, className, label }) {
 function SmartLink({ href, children, className, label, external = false }) {
   if (external) {
     return (
-      <a href={href} target="_blank" rel="noreferrer" className={className} aria-label={label}>
+      <a href={href} target="_blank" rel="noopener noreferrer" className={className} aria-label={label}>
         {children}
       </a>
     );
@@ -1304,7 +1305,7 @@ function Invitation() {
         <p className="mx-auto mt-4 max-w-2xl leading-7 text-cream/78 sm:mt-6 sm:leading-8">
           Compártela con una maestra, una madre, un padre o una persona joven que necesite recordar que la educación todavía puede ser territorio de esperanza.
         </p>
-        <div className="mt-6 flex flex-col justify-center gap-3 sm:mt-8 sm:flex-row">
+        <div className="mt-6 flex flex-col justify-center gap-3 sm:mt-8 sm:flex-row sm:flex-wrap">
           <ExternalLink className="btn-light" href={LINKS.youtube} label="Seguir en YouTube">
             <Youtube size={18} aria-hidden="true" />
             Seguir en YouTube
@@ -1316,6 +1317,10 @@ function Invitation() {
           <ExternalLink className="btn-light" href={LINKS.instagram} label="Ver Instagram">
             <Instagram size={18} aria-hidden="true" />
             Ver Instagram
+          </ExternalLink>
+          <ExternalLink className="btn-gold" href={BUY_ME_A_COFFEE_URL} label="Apoyar a Maestra Kandy en Buy Me a Coffee">
+            <Coffee size={18} aria-hidden="true" />
+            Invitarme un café
           </ExternalLink>
         </div>
       </div>
