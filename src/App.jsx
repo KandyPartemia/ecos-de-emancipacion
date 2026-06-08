@@ -528,11 +528,11 @@ function Header() {
   return (
     <header className="fixed inset-x-0 top-0 z-50 border-b border-earth/15 bg-cream/92 px-4 py-3 shadow-[0_18px_55px_rgba(21,18,14,0.08)] backdrop-blur-xl sm:px-8 lg:px-10">
       <nav className="mx-auto max-w-7xl text-sm" aria-label="Menú principal">
-        <div className="flex items-center justify-between gap-3">
+        <div className="flex min-w-0 items-center justify-between gap-3">
           <a className="min-w-0 truncate font-serif text-xl leading-none text-forest sm:text-2xl" href="#inicio" aria-label="Ecos de Emancipación">
             Ecos de Emancipación
           </a>
-          <ul className="hidden items-center gap-1 text-earth xl:flex">
+          <ul className="hidden shrink-0 items-center gap-1 text-earth xl:flex">
             {navItems.map((item) => (
               <li key={item.href}>
                 <a className={item.cta ? 'nav-cta' : 'nav-link'} href={item.href}>
@@ -541,16 +541,17 @@ function Header() {
               </li>
             ))}
           </ul>
-          <BuyMeACoffeeLink variant="header" className="hidden xl:inline-flex" />
-          <div className="flex items-center gap-2 xl:hidden">
-            <a className="nav-cta hidden min-[430px]:inline-flex" href="#empieza">
+          <BuyMeACoffeeLink variant="header" className="hidden shrink-0 xl:inline-flex" />
+          <div className="relative z-[60] ml-auto flex shrink-0 items-center gap-2 xl:hidden">
+            <a className="nav-cta hidden sm:inline-flex" href="#empieza">
               Empieza Aquí
             </a>
             <button
               type="button"
-              className="inline-flex h-11 w-11 items-center justify-center rounded-full border border-earth/25 text-forest"
+              className="relative z-[70] inline-flex h-11 w-11 flex-shrink-0 items-center justify-center rounded-full border border-earth/25 bg-cream text-forest shadow-sm focus:outline-none focus:ring-4 focus:ring-gold/35"
               aria-label={isOpen ? 'Cerrar menú' : 'Abrir menú'}
               aria-expanded={isOpen}
+              aria-controls="site-mobile-menu"
               onClick={() => setIsOpen((value) => !value)}
             >
               {isOpen ? <X size={20} aria-hidden="true" /> : <Menu size={20} aria-hidden="true" />}
@@ -558,7 +559,7 @@ function Header() {
           </div>
         </div>
         {isOpen && (
-          <ul className="mt-3 grid max-h-[72vh] gap-1 overflow-y-auto rounded-2xl border border-earth/15 bg-cream/98 p-2 shadow-soft xl:hidden">
+          <ul id="site-mobile-menu" className="relative z-[55] mt-3 grid max-h-[72vh] gap-1 overflow-y-auto rounded-2xl border border-earth/15 bg-cream/98 p-2 shadow-soft xl:hidden">
             {mobileNavItems.map((item) => (
               <li key={item.href}>
                 <a
