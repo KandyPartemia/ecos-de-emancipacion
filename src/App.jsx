@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import CaracolesApp from './caracoles/CaracolesApp';
+import BuyMeACoffeeLink from './components/BuyMeACoffeeLink';
 import {
   ArrowDown,
   ArrowUp,
@@ -498,6 +499,7 @@ function App() {
         <Hero />
         <QuickExplore />
         <About />
+        <BuyMeACoffeeLink variant="inline" />
         <UniverseMap />
         <Manifesto />
         <Resonances />
@@ -538,7 +540,9 @@ function Header() {
               </li>
             ))}
           </ul>
+          <BuyMeACoffeeLink variant="header" className="hidden xl:inline-flex" />
           <div className="flex items-center gap-2 xl:hidden">
+            <BuyMeACoffeeLink variant="header" className="hidden min-[520px]:inline-flex" />
             <a className="nav-cta hidden min-[430px]:inline-flex" href="#empieza">
               Empieza Aquí
             </a>
@@ -566,6 +570,9 @@ function Header() {
                 </a>
               </li>
             ))}
+            <li>
+              <BuyMeACoffeeLink variant="header" className="w-full" />
+            </li>
           </ul>
         )}
       </nav>
@@ -1340,6 +1347,7 @@ function Footer() {
               {label}
             </ExternalLink>
           ))}
+          <BuyMeACoffeeLink variant="footer" />
         </div>
       </div>
     </footer>

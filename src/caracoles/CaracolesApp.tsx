@@ -2,6 +2,7 @@ import { useEffect, useMemo, useState } from 'react';
 import CurricularSelector from './components/CurricularSelector';
 import EnglishLessonDashboard from './components/EnglishLessonDashboard';
 import ProjectDashboard from './components/ProjectDashboard';
+import BuyMeACoffeeLink from '../components/BuyMeACoffeeLink';
 import conceptsGrade1Data from './data/concepts-grade-1.json';
 import { conceptsFromCorpus, loadGeneratedCorpus, projectsFromCorpus, type DataLoadState } from './lib/dataLoader';
 import { ENGLISH_MEMORY_GAME_URL, getEnglishLessonsByGrade } from './lib/englishLessons';
@@ -287,6 +288,7 @@ function CaracolesApp() {
             ))}
           </div>
           <div className="flex items-center gap-2">
+            <BuyMeACoffeeLink variant="header" className="hidden sm:inline-flex" />
             <a
               className="hidden rounded-full border border-[#315344]/20 bg-white px-4 py-2 font-black text-[#315344] shadow-sm transition hover:bg-[#315344] hover:text-[#f8f1e6] focus:outline-none focus:ring-4 focus:ring-[#d9b56d]/35 sm:inline-flex"
               href="/#recursos"
@@ -313,6 +315,7 @@ function CaracolesApp() {
               {item.label}
             </a>
           ))}
+          <BuyMeACoffeeLink variant="header" className="shrink-0 text-xs uppercase tracking-[0.12em]" />
         </div>
       </header>
 
@@ -334,6 +337,11 @@ function CaracolesApp() {
             </a>
           </div>
         </section>
+
+        <BuyMeACoffeeLink
+          variant="inline"
+          className="!bg-transparent !px-0 !py-0 [&>div]:border-[#315344]/12 [&>div]:bg-white/88 [&>div]:shadow-[0_22px_70px_rgba(36,26,18,0.08)]"
+        />
 
         <div id="caracoles-selector" className="scroll-mt-32">
           <CurricularSelector
@@ -377,6 +385,16 @@ function CaracolesApp() {
         ) : null}
 
         {!englishFieldSelected && activeProject ? <ProjectDashboard project={activeProject} linkedConcepts={linkedConcepts} /> : null}
+
+        <footer className="rounded-[2rem] border border-[#315344]/12 bg-white/88 p-5 shadow-[0_22px_70px_rgba(36,26,18,0.08)]">
+          <div className="flex flex-col gap-3 text-sm text-[#675c51] sm:flex-row sm:items-center sm:justify-between">
+            <p>
+              Caracoles Resonando forma parte de Ecos de Emancipación, propuesta pedagógica de la Maestra Kandy
+              Partemia González Torreblanca.
+            </p>
+            <BuyMeACoffeeLink variant="footer" className="shrink-0" />
+          </div>
+        </footer>
       </div>
 
       <div className="fixed bottom-5 right-5 z-50 grid gap-2">
