@@ -529,7 +529,7 @@ function Header() {
     <header className="fixed inset-x-0 top-0 z-50 border-b border-earth/15 bg-cream/92 px-4 py-3 shadow-[0_18px_55px_rgba(21,18,14,0.08)] backdrop-blur-xl sm:px-8 lg:px-10">
       <nav className="mx-auto max-w-7xl text-sm" aria-label="Menú principal">
         <div className="flex items-center justify-between gap-3">
-          <a className="shrink-0 font-serif text-xl leading-none text-forest sm:text-2xl" href="#inicio" aria-label="Ecos de Emancipación">
+          <a className="min-w-0 truncate font-serif text-xl leading-none text-forest sm:text-2xl" href="#inicio" aria-label="Ecos de Emancipación">
             Ecos de Emancipación
           </a>
           <ul className="hidden items-center gap-1 text-earth xl:flex">
@@ -543,7 +543,6 @@ function Header() {
           </ul>
           <BuyMeACoffeeLink variant="header" className="hidden xl:inline-flex" />
           <div className="flex items-center gap-2 xl:hidden">
-            <BuyMeACoffeeLink variant="header" className="hidden min-[520px]:inline-flex" />
             <a className="nav-cta hidden min-[430px]:inline-flex" href="#empieza">
               Empieza Aquí
             </a>
@@ -571,9 +570,6 @@ function Header() {
                 </a>
               </li>
             ))}
-            <li>
-              <BuyMeACoffeeLink variant="header" className="w-full" />
-            </li>
           </ul>
         )}
       </nav>
