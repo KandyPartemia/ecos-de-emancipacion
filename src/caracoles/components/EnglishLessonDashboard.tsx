@@ -265,36 +265,39 @@ function EnglishInteractiveAssessment({ lesson }: { lesson: EnglishLesson }) {
   );
 }
 
-function CanvaMemoramaEmbed() {
+function MemoryQuestExternalCard() {
   return (
     <div className="rounded-[1.5rem] border border-[#315344]/12 bg-white p-4">
       <h4 className="font-serif text-2xl text-[#315344]">Memorama interactivo</h4>
-      <div
-        className="relative mt-4 h-0 w-full overflow-hidden rounded-lg shadow-[0_2px_8px_rgba(63,69,81,0.16)]"
-        style={{ paddingTop: '56.2225%' }}
-      >
-        <iframe
-          loading="lazy"
-          title="Memory Quest – Caracoles Resonando"
-          className="absolute left-0 top-0 h-full w-full border-0"
-          src={ENGLISH_MEMORY_GAME_URL}
-          allowFullScreen
-          allow="fullscreen"
-        />
+      <div className="mt-4 overflow-hidden rounded-[1.25rem] border border-[#315344]/15 bg-[#f5efe4]">
+        <div className="grid gap-4 p-5 sm:grid-cols-[auto_minmax(0,1fr)] sm:items-center">
+          <div
+            className="flex h-24 w-24 items-center justify-center rounded-[1.25rem] bg-[#315344] text-[#d9b56d] shadow-[0_18px_45px_rgba(49,83,68,0.22)]"
+            aria-hidden="true"
+          >
+            <Puzzle className="h-11 w-11" />
+          </div>
+          <div className="min-w-0">
+            <p className="text-xs font-black uppercase tracking-[0.16em] text-[#8f4d32]">Recurso externo</p>
+            <p className="mt-1 font-serif text-2xl leading-tight text-[#315344]">Memory Quest – Caracoles Resonando</p>
+            <p className="mt-3 text-sm leading-7 text-[#675c51]">
+              Memorama interactivo para reforzar vocabulario en inglés con niveles, puntaje y caracoles simbólicos.
+            </p>
+          </div>
+        </div>
       </div>
       <a
         href={ENGLISH_MEMORY_GAME_URL}
         target="_blank"
         rel="noopener noreferrer"
-        className="mt-3 inline-flex items-center gap-2 rounded-full bg-[#315344] px-4 py-2 text-sm font-black text-[#f8f1e6] transition hover:bg-[#241a12]"
+        className="mt-4 inline-flex items-center gap-2 rounded-full bg-[#315344] px-5 py-3 text-sm font-black text-[#f8f1e6] transition hover:bg-[#241a12] focus:outline-none focus:ring-4 focus:ring-[#d9b56d]/45"
       >
-        Abrir Memory Quest – Caracoles Resonando
+        Abrir memorama
         <ExternalLink className="h-4 w-4" aria-hidden="true" />
       </a>
     </div>
   );
 }
-
 function EnglishLessonDashboard({ lesson }: { lesson: EnglishLesson }) {
   return (
     <article id="caracoles-project-dashboard" className="grid gap-6">
@@ -432,7 +435,7 @@ function EnglishLessonDashboard({ lesson }: { lesson: EnglishLesson }) {
             <EvaluationBlock icon={<PenLine className="h-5 w-5" aria-hidden="true" />} title="Grammar" items={lesson.evaluation.grammar} />
             <EvaluationBlock icon={<MessageCircle className="h-5 w-5" aria-hidden="true" />} title="Oral and written production" items={lesson.evaluation.production.concat(lesson.evaluation.oralWritten)} />
           </div>
-          <CanvaMemoramaEmbed />
+          <MemoryQuestExternalCard />
           <div className="rounded-[1.5rem] border border-[#315344]/12 bg-[#f5efe4] p-5">
             <h4 className="font-serif text-2xl text-[#315344]">Mas recursos oficiales</h4>
             <p className="mt-2 leading-8 text-[#675c51]">
