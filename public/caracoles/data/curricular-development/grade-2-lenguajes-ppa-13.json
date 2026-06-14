@@ -1,0 +1,1412 @@
+{
+  "grade": "2",
+  "gradeLabel": "Segundo grado",
+  "field": "Lenguajes",
+  "ppaNumber": "13",
+  "partialClassroomProject": "PPA 13",
+  "partialClassroomProjectTitle": "Veo, escucho, reconozco y elijo vivir en salud",
+  "source": "curricular-development-pilot",
+  "generatedAt": "2026-06-04T15:51:06.318Z",
+  "development": {
+    "grade": "2",
+    "gradeLabel": "Segundo grado",
+    "field": "Lenguajes",
+    "bookVolume": "Tomo III",
+    "partialClassroomProject": "PPA 13",
+    "partialClassroomProjectTitle": "Veo, escucho, reconozco y elijo vivir en salud",
+    "generatedAt": "2026-06-02T15:14:09.495Z",
+    "notes": "Capa curricular generada por lote para 2o Lenguajes, PPA 13.",
+    "sourcesUsed": [
+      "public/caracoles/data/generated/grade-2/selectable-projects.json",
+      "content/caracoles/generated-private/grade-2/pages-index.full.json",
+      "Posibilidades de uso Lenguajes, segundo grado, pp. 35-36",
+      "Nuestro libro de proyectos Tomo III, segundo grado, pp. 42-57",
+      "Lenguajes, segundo grado, pp. 45-51, 82-94, 200-206, 221-226, 232-236 y 255-262; Múltiples Lenguajes pp. 50-53, p. 120 y p. 121."
+    ],
+    "partialClassroomProjectContext": {
+      "expectationHorizon": {
+        "officialText": "",
+        "sourcePages": [
+          "Nuestro libro de proyectos Tomo III pp. 42-43",
+          "Posibilidades de uso Lenguajes pp. 35-36"
+        ],
+        "evidence": "El PPA 13 reúne taller artístico, folleto informativo y periódico mural para relacionar salud, sanación, mensajes preventivos y manifestaciones artísticas que ayuden a elegir una vida saludable.",
+        "status": "pending"
+      },
+      "ppaDetonatingStrategy": {
+        "title": "Veo, escucho, reconozco y elijo vivir en salud",
+        "type": "video",
+        "url": "",
+        "urlStatus": "pending-url",
+        "reference": "bit.ly/3VfglUk",
+        "source": "Nuestro libro de proyectos Tomo III pp. 42-43 + Posibilidades de uso Lenguajes pp. 35-36",
+        "scope": "partial-classroom-project",
+        "youtubeSearchQuery": "Veo, escucho, reconozco y elijo vivir en salud Lenguajes 2do grado Telesecundaria"
+      },
+      "ppaDigitalResource": {
+        "title": "Recurso informatico del bloque PPA 13",
+        "reference": "bit.ly/3WQBMwg",
+        "status": "pending-validation",
+        "source": "Nuestro libro de proyectos Tomo III pp. 42-57"
+      },
+      "validationStatus": {
+        "needsHumanReview": true,
+        "needsReviewReasons": [
+          "Las pp. 35-36 de Posibilidades pertenecen al mismo PPA 13.",
+          "La asignacion de apoyos por columna se fija por inferencia curricular documentada de izquierda a derecha.",
+          "Los enlaces cortos del video del PPA y del recurso informatico se mantienen en cautela hasta localizar un destino oficial confirmado.",
+          "Los apoyos de Corales y Estrellas de mar aparecen concentrados en la segunda página del bloque y se asignan por inferencia curricular documentada a las columnas dos y tres."
+        ]
+      },
+      "columnValidation": {
+        "possibilitiesPagesReviewed": [
+          35,
+          36
+        ],
+        "confirmedAsPpa": true,
+        "note": "Las pp. 35-36 corresponden al PPA 13 Veo, escucho, reconozco y elijo vivir en salud. Las tres columnas se sostienen por el orden de proyectos, productos y apoyos del mismo bloque.",
+        "columns": [
+          {
+            "columnIndex": 1,
+            "projectId": "lenguajes-2-ppa-13-pa37",
+            "projectTitle": "El arte también es saludable",
+            "finalProduct": "Taller artístico",
+            "supportMaterials": [
+              "David Lara, pp. 50-53"
+            ]
+          },
+          {
+            "columnIndex": 2,
+            "projectId": "lenguajes-2-ppa-13-pa38",
+            "projectTitle": "Una frase que debería ser viral: #VidaSaludable",
+            "finalProduct": "Folleto informativo",
+            "supportMaterials": [
+              "Corales, p. 120"
+            ]
+          },
+          {
+            "columnIndex": 3,
+            "projectId": "lenguajes-2-ppa-13-pa39",
+            "projectTitle": "Reconocimiento y creación de mensajes para nuestra salud",
+            "finalProduct": "Periódico mural de la salud",
+            "supportMaterials": [
+              "Estrellas de mar, p. 121"
+            ]
+          }
+        ]
+      }
+    },
+    "academicProjects": [
+      {
+        "id": "lenguajes-2-ppa-13-pa37",
+        "projectId": "lenguajes-2-ppa-13-pa37",
+        "academicProjectNumber": 37,
+        "title": "El arte también es saludable",
+        "projectTitle": "El arte también es saludable",
+        "grade": "2",
+        "field": "Lenguajes",
+        "ppaNumber": "13",
+        "partialClassroomProject": "PPA 13",
+        "partialClassroomProjectTitle": "Veo, escucho, reconozco y elijo vivir en salud",
+        "bookVolume": "Tomo III",
+        "sourceValidation": {
+          "sourceStatus": "linked",
+          "possibilitiesPages": [
+            35,
+            36
+          ],
+          "possibilitiesMaterialId": "grade-2-posibilidades-pos-len-2",
+          "possibilitiesColumnIndex": 1,
+          "columnEvidence": "Bloque PPA 13 Veo, escucho, reconozco y elijo vivir en salud localizado en pp. 35-36; la columna 1 se confirma por el orden de proyectos, productos y continuidad del mismo bloque."
+        },
+        "finalProduct": {
+          "title": "Taller artístico",
+          "source": "Posibilidades de uso Lenguajes pp. 35-36 + Nuestro libro de proyectos Tomo III pp. 44-48",
+          "status": "confirmed"
+        },
+        "sourcePages": {
+          "nuestroLibroProyectos": [
+            {
+              "materialId": "grade-2-proyectos-nuestro-libro-de-proyectos-tomo-3-segundo-grado",
+              "label": "Nuestro libro de proyectos Tomo III",
+              "startPage": 44,
+              "endPage": 48,
+              "pagesLabel": "pp. 44-48",
+              "topicTitle": "Proyecto academico 37",
+              "status": "confirmed-source"
+            }
+          ],
+          "conceptBook": [
+            {
+              "materialId": "grade-2-conceptos-lenguajes-segundo-grado",
+              "label": "Lenguajes",
+              "startPage": 82,
+              "endPage": 87,
+              "pagesLabel": "pp. 82-87",
+              "topicTitle": "Sanación, plenitud y reconocimiento",
+              "status": "confirmed-by-column-inference"
+            },
+            {
+              "materialId": "grade-2-conceptos-lenguajes-segundo-grado",
+              "label": "Lenguajes",
+              "startPage": 88,
+              "endPage": 94,
+              "pagesLabel": "pp. 88-94",
+              "topicTitle": "Somos formas, colores, movimientos y sonidos",
+              "status": "confirmed-by-column-inference"
+            },
+            {
+              "materialId": "grade-2-conceptos-lenguajes-segundo-grado",
+              "label": "Lenguajes",
+              "startPage": 255,
+              "endPage": 257,
+              "pagesLabel": "pp. 255-257",
+              "topicTitle": "Artivismo con impacto ambiental y reconciliación",
+              "status": "confirmed-by-column-inference"
+            }
+          ],
+          "multiplesLenguajes": [
+            {
+              "materialId": "grade-2-apoyo-multiples-lenguajes-segundo-grado",
+              "label": "Multiples Lenguajes",
+              "startPage": 50,
+              "endPage": 53,
+              "pagesLabel": "pp. 50-53",
+              "topicTitle": "David Lara",
+              "status": "confirmed-by-column-inference"
+            }
+          ],
+          "otherMaterials": [
+            {
+              "label": "Video PA 37: Exhibición de arte • Lenguajes • 2do grado",
+              "reference": "https://www.youtube.com/watch?v=RDK56gVmEh0",
+              "status": "confirmed"
+            },
+            {
+              "label": "Video PPA 13: 13. Veo, escucho, reconozco y elijo vivir en salud • Lenguajes • 2do grado",
+              "reference": "https://www.youtube.com/watch?v=jgyC7aUahUQ",
+              "status": "confirmed"
+            }
+          ]
+        },
+        "supportMaterials": [
+          {
+            "title": "David Lara",
+            "kind": "Multiples Lenguajes",
+            "pages": "pp. 50-53",
+            "status": "confirmed-by-column-inference"
+          }
+        ],
+        "horizonOrPurpose": {
+          "status": "official",
+          "text": "Explorar el arte como recurso de sanación y reconocimiento mediante un taller artístico orientado al bienestar personal y comunitario.",
+          "source": "Nuestro libro de proyectos Tomo III p. 44"
+        },
+        "projectExpectationHorizon": {
+          "officialText": "Valorar la expresión artística como medio de recuperación, reconocimiento y plenitud para organizar un taller artístico sobre el cuidado de la salud.",
+          "studentVersion": "Usar el arte para reflexionar sobre el bienestar y compartir un taller artístico sobre salud.",
+          "sourcePages": [
+            "Nuestro libro de proyectos Tomo III p. 44"
+          ],
+          "evidence": "El proyecto coloca la sanación y la recuperación a través de las artes como base del taller artístico y del diálogo sobre salud.",
+          "status": "official"
+        },
+        "detonatingStrategy": {
+          "title": "13. Veo, escucho, reconozco y elijo vivir en salud • Lenguajes • 2do grado",
+          "text": "Video del Proyecto Parcial de Aula 13: 13. Veo, escucho, reconozco y elijo vivir en salud • Lenguajes • 2do grado",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=jgyC7aUahUQ",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "partial-classroom-project"
+        },
+        "academicProjectStrategy": {
+          "title": "Exhibición de arte • Lenguajes • 2do grado",
+          "text": "Video detonador del Proyecto Academico 37: El arte también es saludable",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=RDK56gVmEh0",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "academic-project"
+        },
+        "academicConcepts": [
+          {
+            "concept": "taller artístico",
+            "description": "Taller artístico como producto de cierre para organizar y comunicar aprendizajes del proyecto.",
+            "sourceBook": "Nuestro libro de proyectos Tomo III",
+            "sourcePages": [
+              44,
+              48
+            ],
+            "sourcePagesLabel": "pp. 44-48",
+            "topicTitle": "Proyecto academico 37",
+            "status": "confirmed",
+            "reason": "Posibilidades y el propio proyecto fijan Taller artístico como producto final del PA 37.",
+            "pedagogicalUse": "Da una forma concreta de socializar lo comprendido sobre la sanación, el reconocimiento personal y el uso del arte como medio para recuperar bienestar y vínculos comunitarios.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "sanación",
+            "description": "Proceso de recuperación personal o colectiva que involucra cuidado, reconocimiento y reconstrucción del bienestar.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              82,
+              87
+            ],
+            "sourcePagesLabel": "pp. 82-87",
+            "topicTitle": "Sanación, plenitud y reconocimiento",
+            "status": "confirmed",
+            "reason": "La fuente validada \"Sanación, plenitud y reconocimiento\" aporta base suficiente para trabajar sanación dentro del proyecto 37.",
+            "pedagogicalUse": "Ayuda a fortalecer taller artístico y a explicar la sanación, el reconocimiento personal y el uso del arte como medio para recuperar bienestar y vínculos comunitarios con mayor claridad mediante sanación.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "plenitud",
+            "description": "Estado de bienestar integral en el que cuerpo, emociones y vínculos se perciben en equilibrio.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              82,
+              87
+            ],
+            "sourcePagesLabel": "pp. 82-87",
+            "topicTitle": "Sanación, plenitud y reconocimiento",
+            "status": "confirmed",
+            "reason": "La fuente validada \"Sanación, plenitud y reconocimiento\" aporta base suficiente para trabajar plenitud dentro del proyecto 37.",
+            "pedagogicalUse": "Ayuda a fortalecer taller artístico y a explicar la sanación, el reconocimiento personal y el uso del arte como medio para recuperar bienestar y vínculos comunitarios con mayor claridad mediante plenitud.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "reconocimiento personal",
+            "description": "Identificación consciente de emociones, necesidades y experiencias propias como base del cuidado.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              82,
+              87
+            ],
+            "sourcePagesLabel": "pp. 82-87",
+            "topicTitle": "Sanación, plenitud y reconocimiento",
+            "status": "confirmed",
+            "reason": "La fuente validada \"Sanación, plenitud y reconocimiento\" aporta base suficiente para trabajar reconocimiento personal dentro del proyecto 37.",
+            "pedagogicalUse": "Ayuda a fortalecer taller artístico y a explicar la sanación, el reconocimiento personal y el uso del arte como medio para recuperar bienestar y vínculos comunitarios con mayor claridad mediante reconocimiento personal.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "recuperación a través de las artes",
+            "description": "Uso de expresiones artísticas para nombrar, procesar o transformar experiencias difíciles.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              82,
+              87
+            ],
+            "sourcePagesLabel": "pp. 82-87",
+            "topicTitle": "Sanación, plenitud y reconocimiento",
+            "status": "confirmed",
+            "reason": "La fuente validada \"Sanación, plenitud y reconocimiento\" aporta base suficiente para trabajar recuperación a través de las artes dentro del proyecto 37.",
+            "pedagogicalUse": "Ayuda a fortalecer taller artístico y a explicar la sanación, el reconocimiento personal y el uso del arte como medio para recuperar bienestar y vínculos comunitarios con mayor claridad mediante recuperación a través de las artes.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "bienestar comunitario",
+            "description": "Condición colectiva de cuidado, acompañamiento y salud que se construye entre personas.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              255,
+              257
+            ],
+            "sourcePagesLabel": "pp. 255-257",
+            "topicTitle": "Artivismo con impacto ambiental y reconciliación",
+            "status": "confirmed",
+            "reason": "La fuente validada \"Artivismo con impacto ambiental y reconciliación\" aporta base suficiente para trabajar bienestar comunitario dentro del proyecto 37.",
+            "pedagogicalUse": "Ayuda a fortalecer taller artístico y a explicar la sanación, el reconocimiento personal y el uso del arte como medio para recuperar bienestar y vínculos comunitarios con mayor claridad mediante bienestar comunitario.",
+            "activityReadiness": "usable-for-autoevaluation"
+          }
+        ],
+        "thinkingCriteria": [
+          "Relacionar la sanación, el reconocimiento personal y el uso del arte como medio para recuperar bienestar y vínculos comunitarios con situaciones cercanas a la comunidad.",
+          "Usar taller artístico para explicar y no solo para recopilar informacion.",
+          "Distinguir entre mencionar conceptos y comprender como dialogan entre si dentro del proyecto."
+        ],
+        "validationStatus": {
+          "readinessLevel": "development-partial",
+          "readyForActivities": false,
+          "needsReviewReasons": [
+            "El bloque 13 ya es usable como lectura docente, pero el video del PPA 13 y el recurso informatico siguen pendientes de validacion de destino final.",
+            "La asignacion de apoyos de Posibilidades se sostiene por inferencia curricular documentada y no por OCR perfectamente separado por columnas.",
+            "No mover a actividades interactivas ni desbloquear juegos completos hasta ampliar validacion de videos y recursos complementarios."
+          ]
+        },
+        "readinessLevel": "development-partial",
+        "readyForActivities": false,
+        "needsReviewReasons": [
+          "No mover a actividades interactivas ni desbloquear juegos completos."
+        ],
+        "roleInPpa": "Abre el bloque conectando salud y arte como experiencia de recuperación, reconocimiento y cuidado compartido.",
+        "pedagogicalUse": "Conviene trabajar El arte también es saludable como una oportunidad para profundizar en la sanación, el reconocimiento personal y el uso del arte como medio para recuperar bienestar y vínculos comunitarios sin separar contenido, comunidad y producto final.",
+        "teacherNotes": [
+          "Conviene partir de ejemplos cercanos y después pasar al lenguaje mas abstracto del campo.",
+          "El producto Taller artístico gana fuerza cuando se usa para explicar y no solo para exhibir informacion.",
+          "Es mejor seleccionar pocos conceptos bien comprendidos que saturar el trabajo con terminos aislados."
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Qué comprendes mejor sobre la sanación, el reconocimiento personal y el uso del arte como medio para recuperar bienestar y vínculos comunitarios después de elaborar taller artístico?"
+          },
+          {
+            "type": "community",
+            "prompt": "¿Qué diálogos comunitarios podrían fortalecerse si compartimos taller artístico y lo ponemos en conversación con otras personas?"
+          }
+        ],
+        "notReadyFor": [
+          "full-games",
+          "summative-exam"
+        ]
+      },
+      {
+        "id": "lenguajes-2-ppa-13-pa38",
+        "projectId": "lenguajes-2-ppa-13-pa38",
+        "academicProjectNumber": 38,
+        "title": "Una frase que debería ser viral: #VidaSaludable",
+        "projectTitle": "Una frase que debería ser viral: #VidaSaludable",
+        "grade": "2",
+        "field": "Lenguajes",
+        "ppaNumber": "13",
+        "partialClassroomProject": "PPA 13",
+        "partialClassroomProjectTitle": "Veo, escucho, reconozco y elijo vivir en salud",
+        "bookVolume": "Tomo III",
+        "sourceValidation": {
+          "sourceStatus": "linked",
+          "possibilitiesPages": [
+            35,
+            36
+          ],
+          "possibilitiesMaterialId": "grade-2-posibilidades-pos-len-2",
+          "possibilitiesColumnIndex": 2,
+          "columnEvidence": "Bloque PPA 13 Veo, escucho, reconozco y elijo vivir en salud localizado en pp. 35-36; la columna 2 se confirma por el orden de proyectos, productos y continuidad del mismo bloque."
+        },
+        "finalProduct": {
+          "title": "Folleto informativo",
+          "source": "Posibilidades de uso Lenguajes pp. 35-36 + Nuestro libro de proyectos Tomo III pp. 49-52",
+          "status": "confirmed"
+        },
+        "sourcePages": {
+          "nuestroLibroProyectos": [
+            {
+              "materialId": "grade-2-proyectos-nuestro-libro-de-proyectos-tomo-3-segundo-grado",
+              "label": "Nuestro libro de proyectos Tomo III",
+              "startPage": 49,
+              "endPage": 52,
+              "pagesLabel": "pp. 49-52",
+              "topicTitle": "Proyecto academico 38",
+              "status": "confirmed-source"
+            }
+          ],
+          "conceptBook": [
+            {
+              "materialId": "grade-2-conceptos-lenguajes-segundo-grado",
+              "label": "Lenguajes",
+              "startPage": 200,
+              "endPage": 205,
+              "pagesLabel": "pp. 200-205",
+              "topicTitle": "Acciones comunes para la solución de problemas comunitarios",
+              "status": "confirmed-by-column-inference"
+            },
+            {
+              "materialId": "grade-2-conceptos-lenguajes-segundo-grado",
+              "label": "Lenguajes",
+              "startPage": 225,
+              "endPage": 226,
+              "pagesLabel": "pp. 225-226",
+              "topicTitle": "Fichas informativas",
+              "status": "confirmed-by-column-inference"
+            },
+            {
+              "materialId": "grade-2-conceptos-lenguajes-segundo-grado",
+              "label": "Lenguajes",
+              "startPage": 234,
+              "endPage": 236,
+              "pagesLabel": "pp. 234-236",
+              "topicTitle": "Preservación de la lengua a través de la escritura y la literatura",
+              "status": "confirmed-by-column-inference"
+            }
+          ],
+          "multiplesLenguajes": [
+            {
+              "materialId": "grade-2-apoyo-multiples-lenguajes-segundo-grado",
+              "label": "Multiples Lenguajes",
+              "startPage": 120,
+              "endPage": 120,
+              "pagesLabel": "p. 120",
+              "topicTitle": "Corales",
+              "status": "confirmed-by-column-inference"
+            }
+          ],
+          "otherMaterials": [
+            {
+              "label": "Video PA 38: Texto reflexivo • Lenguajes • 2do grado",
+              "reference": "https://www.youtube.com/watch?v=3eDi2Kc6HNQ",
+              "status": "confirmed"
+            },
+            {
+              "label": "Video PPA 13: 13. Veo, escucho, reconozco y elijo vivir en salud • Lenguajes • 2do grado",
+              "reference": "https://www.youtube.com/watch?v=jgyC7aUahUQ",
+              "status": "confirmed"
+            }
+          ]
+        },
+        "supportMaterials": [
+          {
+            "title": "Corales",
+            "kind": "Multiples Lenguajes",
+            "pages": "p. 120",
+            "status": "confirmed-by-column-inference"
+          }
+        ],
+        "horizonOrPurpose": {
+          "status": "official",
+          "text": "Crear mensajes informativos y persuasivos sobre la salud para compartirlos mediante un folleto informativo con alcance comunitario.",
+          "source": "Nuestro libro de proyectos Tomo III p. 49"
+        },
+        "projectExpectationHorizon": {
+          "officialText": "Investigar problemas y hábitos de salud, sintetizar información relevante y difundirla en un folleto informativo orientado a la vida saludable.",
+          "studentVersion": "Diseñar un folleto informativo que promueva hábitos y decisiones de vida saludable.",
+          "sourcePages": [
+            "Nuestro libro de proyectos Tomo III p. 49"
+          ],
+          "evidence": "El proyecto enlaza problemas comunitarios, fichas informativas y difusión escrita para comunicar mensajes de salud de forma clara y útil.",
+          "status": "official"
+        },
+        "detonatingStrategy": {
+          "title": "13. Veo, escucho, reconozco y elijo vivir en salud • Lenguajes • 2do grado",
+          "text": "Video del Proyecto Parcial de Aula 13: 13. Veo, escucho, reconozco y elijo vivir en salud • Lenguajes • 2do grado",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=jgyC7aUahUQ",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "partial-classroom-project"
+        },
+        "academicProjectStrategy": {
+          "title": "Texto reflexivo • Lenguajes • 2do grado",
+          "text": "Video detonador del Proyecto Academico 38: Una frase que debería ser viral: #VidaSaludable",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=3eDi2Kc6HNQ",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "academic-project"
+        },
+        "academicConcepts": [
+          {
+            "concept": "folleto informativo",
+            "description": "Folleto informativo como producto de cierre para organizar y comunicar aprendizajes del proyecto.",
+            "sourceBook": "Nuestro libro de proyectos Tomo III",
+            "sourcePages": [
+              49,
+              52
+            ],
+            "sourcePagesLabel": "pp. 49-52",
+            "topicTitle": "Proyecto academico 38",
+            "status": "confirmed",
+            "reason": "Posibilidades y el propio proyecto fijan Folleto informativo como producto final del PA 38.",
+            "pedagogicalUse": "Da una forma concreta de socializar lo comprendido sobre la producción de mensajes claros y argumentados para promover hábitos saludables mediante recursos informativos y de difusión.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "vida saludable",
+            "description": "Conjunto de hábitos y decisiones que favorecen el bienestar físico, emocional y social.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              200,
+              205
+            ],
+            "sourcePagesLabel": "pp. 200-205",
+            "topicTitle": "Acciones comunes para la solución de problemas comunitarios",
+            "status": "confirmed",
+            "reason": "La fuente validada \"Acciones comunes para la solución de problemas comunitarios\" aporta base suficiente para trabajar vida saludable dentro del proyecto 38.",
+            "pedagogicalUse": "Ayuda a fortalecer folleto informativo y a explicar la producción de mensajes claros y argumentados para promover hábitos saludables mediante recursos informativos y de difusión con mayor claridad mediante vida saludable.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "folleto informativo",
+            "description": "Material breve que sintetiza información relevante para orientar, prevenir o sensibilizar sobre un tema.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              200,
+              205
+            ],
+            "sourcePagesLabel": "pp. 200-205",
+            "topicTitle": "Acciones comunes para la solución de problemas comunitarios",
+            "status": "confirmed",
+            "reason": "La fuente validada \"Acciones comunes para la solución de problemas comunitarios\" aporta base suficiente para trabajar folleto informativo dentro del proyecto 38.",
+            "pedagogicalUse": "Ayuda a fortalecer folleto informativo y a explicar la producción de mensajes claros y argumentados para promover hábitos saludables mediante recursos informativos y de difusión con mayor claridad mediante folleto informativo.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "texto argumentativo",
+            "description": "Escritura que organiza razones y ejemplos para convencer o invitar a tomar una postura.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              200,
+              205
+            ],
+            "sourcePagesLabel": "pp. 200-205",
+            "topicTitle": "Acciones comunes para la solución de problemas comunitarios",
+            "status": "confirmed",
+            "reason": "La fuente validada \"Acciones comunes para la solución de problemas comunitarios\" aporta base suficiente para trabajar texto argumentativo dentro del proyecto 38.",
+            "pedagogicalUse": "Ayuda a fortalecer folleto informativo y a explicar la producción de mensajes claros y argumentados para promover hábitos saludables mediante recursos informativos y de difusión con mayor claridad mediante texto argumentativo.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "ficha informativa",
+            "description": "Registro breve y organizado de datos clave que ayuda a comprender y comunicar un tema con claridad.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              225,
+              226
+            ],
+            "sourcePagesLabel": "pp. 225-226",
+            "topicTitle": "Fichas informativas",
+            "status": "confirmed",
+            "reason": "La fuente validada \"Fichas informativas\" aporta base suficiente para trabajar ficha informativa dentro del proyecto 38.",
+            "pedagogicalUse": "Ayuda a fortalecer folleto informativo y a explicar la producción de mensajes claros y argumentados para promover hábitos saludables mediante recursos informativos y de difusión con mayor claridad mediante ficha informativa.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "difusión comunitaria",
+            "description": "Circulación de mensajes y materiales entre personas de una comunidad con una intención formativa o preventiva.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              234,
+              236
+            ],
+            "sourcePagesLabel": "pp. 234-236",
+            "topicTitle": "Preservación de la lengua a través de la escritura y la literatura",
+            "status": "confirmed",
+            "reason": "La fuente validada \"Preservación de la lengua a través de la escritura y la literatura\" aporta base suficiente para trabajar difusión comunitaria dentro del proyecto 38.",
+            "pedagogicalUse": "Ayuda a fortalecer folleto informativo y a explicar la producción de mensajes claros y argumentados para promover hábitos saludables mediante recursos informativos y de difusión con mayor claridad mediante difusión comunitaria.",
+            "activityReadiness": "usable-for-autoevaluation"
+          }
+        ],
+        "thinkingCriteria": [
+          "Relacionar la producción de mensajes claros y argumentados para promover hábitos saludables mediante recursos informativos y de difusión con situaciones cercanas a la comunidad.",
+          "Usar folleto informativo para explicar y no solo para recopilar informacion.",
+          "Distinguir entre mencionar conceptos y comprender como dialogan entre si dentro del proyecto."
+        ],
+        "validationStatus": {
+          "readinessLevel": "development-partial",
+          "readyForActivities": false,
+          "needsReviewReasons": [
+            "El bloque 13 ya es usable como lectura docente, pero el video del PPA 13 y el recurso informatico siguen pendientes de validacion de destino final.",
+            "La asignacion de apoyos de Posibilidades se sostiene por inferencia curricular documentada y no por OCR perfectamente separado por columnas.",
+            "No mover a actividades interactivas ni desbloquear juegos completos hasta ampliar validacion de videos y recursos complementarios."
+          ]
+        },
+        "readinessLevel": "development-partial",
+        "readyForActivities": false,
+        "needsReviewReasons": [
+          "No mover a actividades interactivas ni desbloquear juegos completos."
+        ],
+        "roleInPpa": "Profundiza el bloque al transformar la reflexión sobre salud en mensajes circulables, breves y orientados al cuidado del entorno.",
+        "pedagogicalUse": "Conviene trabajar Una frase que debería ser viral: #VidaSaludable como una oportunidad para profundizar en la producción de mensajes claros y argumentados para promover hábitos saludables mediante recursos informativos y de difusión sin separar contenido, comunidad y producto final.",
+        "teacherNotes": [
+          "Conviene partir de ejemplos cercanos y después pasar al lenguaje mas abstracto del campo.",
+          "El producto Folleto informativo gana fuerza cuando se usa para explicar y no solo para exhibir informacion.",
+          "Es mejor seleccionar pocos conceptos bien comprendidos que saturar el trabajo con terminos aislados."
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Qué comprendes mejor sobre la producción de mensajes claros y argumentados para promover hábitos saludables mediante recursos informativos y de difusión después de elaborar folleto informativo?"
+          },
+          {
+            "type": "community",
+            "prompt": "¿Qué diálogos comunitarios podrían fortalecerse si compartimos folleto informativo y lo ponemos en conversación con otras personas?"
+          }
+        ],
+        "notReadyFor": [
+          "full-games",
+          "summative-exam"
+        ]
+      },
+      {
+        "id": "lenguajes-2-ppa-13-pa39",
+        "projectId": "lenguajes-2-ppa-13-pa39",
+        "academicProjectNumber": 39,
+        "title": "Reconocimiento y creación de mensajes para nuestra salud",
+        "projectTitle": "Reconocimiento y creación de mensajes para nuestra salud",
+        "grade": "2",
+        "field": "Lenguajes",
+        "ppaNumber": "13",
+        "partialClassroomProject": "PPA 13",
+        "partialClassroomProjectTitle": "Veo, escucho, reconozco y elijo vivir en salud",
+        "bookVolume": "Tomo III",
+        "sourceValidation": {
+          "sourceStatus": "linked",
+          "possibilitiesPages": [
+            35,
+            36
+          ],
+          "possibilitiesMaterialId": "grade-2-posibilidades-pos-len-2",
+          "possibilitiesColumnIndex": 3,
+          "columnEvidence": "Bloque PPA 13 Veo, escucho, reconozco y elijo vivir en salud localizado en pp. 35-36; la columna 3 se confirma por el orden de proyectos, productos y continuidad del mismo bloque."
+        },
+        "finalProduct": {
+          "title": "Periódico mural de la salud",
+          "source": "Posibilidades de uso Lenguajes pp. 35-36 + Nuestro libro de proyectos Tomo III pp. 53-57",
+          "status": "confirmed"
+        },
+        "sourcePages": {
+          "nuestroLibroProyectos": [
+            {
+              "materialId": "grade-2-proyectos-nuestro-libro-de-proyectos-tomo-3-segundo-grado",
+              "label": "Nuestro libro de proyectos Tomo III",
+              "startPage": 53,
+              "endPage": 57,
+              "pagesLabel": "pp. 53-57",
+              "topicTitle": "Proyecto academico 39",
+              "status": "confirmed-source"
+            }
+          ],
+          "conceptBook": [
+            {
+              "materialId": "grade-2-conceptos-lenguajes-segundo-grado",
+              "label": "Lenguajes",
+              "startPage": 45,
+              "endPage": 50,
+              "pagesLabel": "pp. 45-50",
+              "topicTitle": "La adaptación entre medios de comunicación",
+              "status": "confirmed-by-column-inference"
+            },
+            {
+              "materialId": "grade-2-conceptos-lenguajes-segundo-grado",
+              "label": "Lenguajes",
+              "startPage": 88,
+              "endPage": 94,
+              "pagesLabel": "pp. 88-94",
+              "topicTitle": "Somos formas, colores, movimientos y sonidos",
+              "status": "confirmed-by-column-inference"
+            },
+            {
+              "materialId": "grade-2-conceptos-lenguajes-segundo-grado",
+              "label": "Lenguajes",
+              "startPage": 255,
+              "endPage": 262,
+              "pagesLabel": "pp. 255-262",
+              "topicTitle": "Artivismo con impacto ambiental y reconciliación",
+              "status": "confirmed-by-column-inference"
+            }
+          ],
+          "multiplesLenguajes": [
+            {
+              "materialId": "grade-2-apoyo-multiples-lenguajes-segundo-grado",
+              "label": "Multiples Lenguajes",
+              "startPage": 121,
+              "endPage": 121,
+              "pagesLabel": "p. 121",
+              "topicTitle": "Estrellas de mar",
+              "status": "confirmed-by-column-inference"
+            }
+          ],
+          "otherMaterials": [
+            {
+              "label": "Video PA 39: Mensajes en expresiones artísticas • Lenguajes • 2do grado",
+              "reference": "https://www.youtube.com/watch?v=iRCqfSa7FfI",
+              "status": "confirmed"
+            },
+            {
+              "label": "Video PPA 13: 13. Veo, escucho, reconozco y elijo vivir en salud • Lenguajes • 2do grado",
+              "reference": "https://www.youtube.com/watch?v=jgyC7aUahUQ",
+              "status": "confirmed"
+            }
+          ]
+        },
+        "supportMaterials": [
+          {
+            "title": "Estrellas de mar",
+            "kind": "Multiples Lenguajes",
+            "pages": "p. 121",
+            "status": "confirmed-by-column-inference"
+          }
+        ],
+        "horizonOrPurpose": {
+          "status": "official",
+          "text": "Crear mensajes de salud mediante recursos visuales y de comunicación pública para organizarlos en un periódico mural con sentido comunitario.",
+          "source": "Nuestro libro de proyectos Tomo III p. 53"
+        },
+        "projectExpectationHorizon": {
+          "officialText": "Diseñar mensajes visuales y escritos sobre salud y organizarlos en un periódico mural que promueva reflexión y cuidado colectivo.",
+          "studentVersion": "Reunir mensajes e imágenes sobre salud en un periódico mural que invite al cuidado comunitario.",
+          "sourcePages": [
+            "Nuestro libro de proyectos Tomo III p. 53"
+          ],
+          "evidence": "El proyecto combina adaptación entre medios, expresiones artísticas y artivismo para sostener un producto visible y comunitario sobre salud.",
+          "status": "official"
+        },
+        "detonatingStrategy": {
+          "title": "13. Veo, escucho, reconozco y elijo vivir en salud • Lenguajes • 2do grado",
+          "text": "Video del Proyecto Parcial de Aula 13: 13. Veo, escucho, reconozco y elijo vivir en salud • Lenguajes • 2do grado",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=jgyC7aUahUQ",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "partial-classroom-project"
+        },
+        "academicProjectStrategy": {
+          "title": "Mensajes en expresiones artísticas • Lenguajes • 2do grado",
+          "text": "Video detonador del Proyecto Academico 39: Reconocimiento y creación de mensajes para nuestra salud",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=iRCqfSa7FfI",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "academic-project"
+        },
+        "academicConcepts": [
+          {
+            "concept": "periódico mural de la salud",
+            "description": "Periódico mural de la salud como producto de cierre para organizar y comunicar aprendizajes del proyecto.",
+            "sourceBook": "Nuestro libro de proyectos Tomo III",
+            "sourcePages": [
+              53,
+              57
+            ],
+            "sourcePagesLabel": "pp. 53-57",
+            "topicTitle": "Proyecto academico 39",
+            "status": "confirmed",
+            "reason": "Posibilidades y el propio proyecto fijan Periódico mural de la salud como producto final del PA 39.",
+            "pedagogicalUse": "Da una forma concreta de socializar lo comprendido sobre la creación colectiva de mensajes de salud con apoyo de recursos artísticos, de difusión y de comunicación pública.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "periódico mural",
+            "description": "Espacio de comunicación visual y escrita que organiza información relevante para un público amplio.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              45,
+              50
+            ],
+            "sourcePagesLabel": "pp. 45-50",
+            "topicTitle": "La adaptación entre medios de comunicación",
+            "status": "confirmed",
+            "reason": "La fuente validada \"La adaptación entre medios de comunicación\" aporta base suficiente para trabajar periódico mural dentro del proyecto 39.",
+            "pedagogicalUse": "Ayuda a fortalecer periódico mural de la salud y a explicar la creación colectiva de mensajes de salud con apoyo de recursos artísticos, de difusión y de comunicación pública con mayor claridad mediante periódico mural.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "mensajes preventivos",
+            "description": "Expresiones breves y claras que ayudan a anticipar riesgos y promover acciones de cuidado.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              45,
+              50
+            ],
+            "sourcePagesLabel": "pp. 45-50",
+            "topicTitle": "La adaptación entre medios de comunicación",
+            "status": "confirmed",
+            "reason": "La fuente validada \"La adaptación entre medios de comunicación\" aporta base suficiente para trabajar mensajes preventivos dentro del proyecto 39.",
+            "pedagogicalUse": "Ayuda a fortalecer periódico mural de la salud y a explicar la creación colectiva de mensajes de salud con apoyo de recursos artísticos, de difusión y de comunicación pública con mayor claridad mediante mensajes preventivos.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "adaptación entre medios",
+            "description": "Transformación de un mensaje para que funcione de manera efectiva en otro formato o soporte.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              45,
+              50
+            ],
+            "sourcePagesLabel": "pp. 45-50",
+            "topicTitle": "La adaptación entre medios de comunicación",
+            "status": "confirmed",
+            "reason": "La fuente validada \"La adaptación entre medios de comunicación\" aporta base suficiente para trabajar adaptación entre medios dentro del proyecto 39.",
+            "pedagogicalUse": "Ayuda a fortalecer periódico mural de la salud y a explicar la creación colectiva de mensajes de salud con apoyo de recursos artísticos, de difusión y de comunicación pública con mayor claridad mediante adaptación entre medios.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "paisaje sonoro",
+            "description": "Organización de sonidos y ambientes para expresar una idea, sensación o contexto determinado.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              255,
+              262
+            ],
+            "sourcePagesLabel": "pp. 255-262",
+            "topicTitle": "Artivismo con impacto ambiental y reconciliación",
+            "status": "confirmed",
+            "reason": "La fuente validada \"Artivismo con impacto ambiental y reconciliación\" aporta base suficiente para trabajar paisaje sonoro dentro del proyecto 39.",
+            "pedagogicalUse": "Ayuda a fortalecer periódico mural de la salud y a explicar la creación colectiva de mensajes de salud con apoyo de recursos artísticos, de difusión y de comunicación pública con mayor claridad mediante paisaje sonoro.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "artivismo",
+            "description": "Uso del arte para sensibilizar y movilizar a la comunidad frente a una necesidad común.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              255,
+              262
+            ],
+            "sourcePagesLabel": "pp. 255-262",
+            "topicTitle": "Artivismo con impacto ambiental y reconciliación",
+            "status": "confirmed",
+            "reason": "La fuente validada \"Artivismo con impacto ambiental y reconciliación\" aporta base suficiente para trabajar artivismo dentro del proyecto 39.",
+            "pedagogicalUse": "Ayuda a fortalecer periódico mural de la salud y a explicar la creación colectiva de mensajes de salud con apoyo de recursos artísticos, de difusión y de comunicación pública con mayor claridad mediante artivismo.",
+            "activityReadiness": "usable-for-autoevaluation"
+          }
+        ],
+        "thinkingCriteria": [
+          "Relacionar la creación colectiva de mensajes de salud con apoyo de recursos artísticos, de difusión y de comunicación pública con situaciones cercanas a la comunidad.",
+          "Usar periódico mural de la salud para explicar y no solo para recopilar informacion.",
+          "Distinguir entre mencionar conceptos y comprender como dialogan entre si dentro del proyecto."
+        ],
+        "validationStatus": {
+          "readinessLevel": "development-partial",
+          "readyForActivities": false,
+          "needsReviewReasons": [
+            "El bloque 13 ya es usable como lectura docente, pero el video del PPA 13 y el recurso informatico siguen pendientes de validacion de destino final.",
+            "La asignacion de apoyos de Posibilidades se sostiene por inferencia curricular documentada y no por OCR perfectamente separado por columnas.",
+            "No mover a actividades interactivas ni desbloquear juegos completos hasta ampliar validacion de videos y recursos complementarios."
+          ]
+        },
+        "readinessLevel": "development-partial",
+        "readyForActivities": false,
+        "needsReviewReasons": [
+          "No mover a actividades interactivas ni desbloquear juegos completos."
+        ],
+        "roleInPpa": "Cierra el bloque al reunir información, arte y comunicación pública en un periódico mural que permanezca visible para la comunidad.",
+        "pedagogicalUse": "Conviene trabajar Reconocimiento y creación de mensajes para nuestra salud como una oportunidad para profundizar en la creación colectiva de mensajes de salud con apoyo de recursos artísticos, de difusión y de comunicación pública sin separar contenido, comunidad y producto final.",
+        "teacherNotes": [
+          "Conviene partir de ejemplos cercanos y después pasar al lenguaje mas abstracto del campo.",
+          "El producto Periódico mural de la salud gana fuerza cuando se usa para explicar y no solo para exhibir informacion.",
+          "Es mejor seleccionar pocos conceptos bien comprendidos que saturar el trabajo con terminos aislados."
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Qué comprendes mejor sobre la creación colectiva de mensajes de salud con apoyo de recursos artísticos, de difusión y de comunicación pública después de elaborar periódico mural de la salud?"
+          },
+          {
+            "type": "community",
+            "prompt": "¿Qué diálogos comunitarios podrían fortalecerse si compartimos periódico mural de la salud y lo ponemos en conversación con otras personas?"
+          }
+        ],
+        "notReadyFor": [
+          "full-games",
+          "summative-exam"
+        ]
+      }
+    ]
+  },
+  "conceptsValidation": {
+    "grade": "2",
+    "field": "Lenguajes",
+    "ppaNumber": "13",
+    "status": "concept-validation",
+    "generatedAt": "2026-06-02T15:14:09.495Z",
+    "entries": [
+      {
+        "projectId": "lenguajes-2-ppa-13-pa37",
+        "projectTitle": "El arte también es saludable",
+        "concept": "taller artístico",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Nuestro libro de proyectos Tomo III",
+          "pages": [
+            44,
+            48
+          ],
+          "reason": "Posibilidades y el propio proyecto fijan Taller artístico como producto final del PA 37."
+        },
+        "pedagogicalUse": "Da una forma concreta de socializar lo comprendido sobre la sanación, el reconocimiento personal y el uso del arte como medio para recuperar bienestar y vínculos comunitarios.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-2-ppa-13-pa37",
+        "projectTitle": "El arte también es saludable",
+        "concept": "sanación",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            82,
+            87
+          ],
+          "reason": "La fuente validada \"Sanación, plenitud y reconocimiento\" aporta base suficiente para trabajar sanación dentro del proyecto 37."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer taller artístico y a explicar la sanación, el reconocimiento personal y el uso del arte como medio para recuperar bienestar y vínculos comunitarios con mayor claridad mediante sanación.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-2-ppa-13-pa37",
+        "projectTitle": "El arte también es saludable",
+        "concept": "plenitud",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            82,
+            87
+          ],
+          "reason": "La fuente validada \"Sanación, plenitud y reconocimiento\" aporta base suficiente para trabajar plenitud dentro del proyecto 37."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer taller artístico y a explicar la sanación, el reconocimiento personal y el uso del arte como medio para recuperar bienestar y vínculos comunitarios con mayor claridad mediante plenitud.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-2-ppa-13-pa37",
+        "projectTitle": "El arte también es saludable",
+        "concept": "reconocimiento personal",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            82,
+            87
+          ],
+          "reason": "La fuente validada \"Sanación, plenitud y reconocimiento\" aporta base suficiente para trabajar reconocimiento personal dentro del proyecto 37."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer taller artístico y a explicar la sanación, el reconocimiento personal y el uso del arte como medio para recuperar bienestar y vínculos comunitarios con mayor claridad mediante reconocimiento personal.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-2-ppa-13-pa37",
+        "projectTitle": "El arte también es saludable",
+        "concept": "recuperación a través de las artes",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            82,
+            87
+          ],
+          "reason": "La fuente validada \"Sanación, plenitud y reconocimiento\" aporta base suficiente para trabajar recuperación a través de las artes dentro del proyecto 37."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer taller artístico y a explicar la sanación, el reconocimiento personal y el uso del arte como medio para recuperar bienestar y vínculos comunitarios con mayor claridad mediante recuperación a través de las artes.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-2-ppa-13-pa37",
+        "projectTitle": "El arte también es saludable",
+        "concept": "bienestar comunitario",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            255,
+            257
+          ],
+          "reason": "La fuente validada \"Artivismo con impacto ambiental y reconciliación\" aporta base suficiente para trabajar bienestar comunitario dentro del proyecto 37."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer taller artístico y a explicar la sanación, el reconocimiento personal y el uso del arte como medio para recuperar bienestar y vínculos comunitarios con mayor claridad mediante bienestar comunitario.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-2-ppa-13-pa38",
+        "projectTitle": "Una frase que debería ser viral: #VidaSaludable",
+        "concept": "folleto informativo",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Nuestro libro de proyectos Tomo III",
+          "pages": [
+            49,
+            52
+          ],
+          "reason": "Posibilidades y el propio proyecto fijan Folleto informativo como producto final del PA 38."
+        },
+        "pedagogicalUse": "Da una forma concreta de socializar lo comprendido sobre la producción de mensajes claros y argumentados para promover hábitos saludables mediante recursos informativos y de difusión.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-2-ppa-13-pa38",
+        "projectTitle": "Una frase que debería ser viral: #VidaSaludable",
+        "concept": "vida saludable",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            200,
+            205
+          ],
+          "reason": "La fuente validada \"Acciones comunes para la solución de problemas comunitarios\" aporta base suficiente para trabajar vida saludable dentro del proyecto 38."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer folleto informativo y a explicar la producción de mensajes claros y argumentados para promover hábitos saludables mediante recursos informativos y de difusión con mayor claridad mediante vida saludable.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-2-ppa-13-pa38",
+        "projectTitle": "Una frase que debería ser viral: #VidaSaludable",
+        "concept": "folleto informativo",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            200,
+            205
+          ],
+          "reason": "La fuente validada \"Acciones comunes para la solución de problemas comunitarios\" aporta base suficiente para trabajar folleto informativo dentro del proyecto 38."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer folleto informativo y a explicar la producción de mensajes claros y argumentados para promover hábitos saludables mediante recursos informativos y de difusión con mayor claridad mediante folleto informativo.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-2-ppa-13-pa38",
+        "projectTitle": "Una frase que debería ser viral: #VidaSaludable",
+        "concept": "texto argumentativo",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            200,
+            205
+          ],
+          "reason": "La fuente validada \"Acciones comunes para la solución de problemas comunitarios\" aporta base suficiente para trabajar texto argumentativo dentro del proyecto 38."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer folleto informativo y a explicar la producción de mensajes claros y argumentados para promover hábitos saludables mediante recursos informativos y de difusión con mayor claridad mediante texto argumentativo.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-2-ppa-13-pa38",
+        "projectTitle": "Una frase que debería ser viral: #VidaSaludable",
+        "concept": "ficha informativa",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            225,
+            226
+          ],
+          "reason": "La fuente validada \"Fichas informativas\" aporta base suficiente para trabajar ficha informativa dentro del proyecto 38."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer folleto informativo y a explicar la producción de mensajes claros y argumentados para promover hábitos saludables mediante recursos informativos y de difusión con mayor claridad mediante ficha informativa.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-2-ppa-13-pa38",
+        "projectTitle": "Una frase que debería ser viral: #VidaSaludable",
+        "concept": "difusión comunitaria",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            234,
+            236
+          ],
+          "reason": "La fuente validada \"Preservación de la lengua a través de la escritura y la literatura\" aporta base suficiente para trabajar difusión comunitaria dentro del proyecto 38."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer folleto informativo y a explicar la producción de mensajes claros y argumentados para promover hábitos saludables mediante recursos informativos y de difusión con mayor claridad mediante difusión comunitaria.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-2-ppa-13-pa39",
+        "projectTitle": "Reconocimiento y creación de mensajes para nuestra salud",
+        "concept": "periódico mural de la salud",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Nuestro libro de proyectos Tomo III",
+          "pages": [
+            53,
+            57
+          ],
+          "reason": "Posibilidades y el propio proyecto fijan Periódico mural de la salud como producto final del PA 39."
+        },
+        "pedagogicalUse": "Da una forma concreta de socializar lo comprendido sobre la creación colectiva de mensajes de salud con apoyo de recursos artísticos, de difusión y de comunicación pública.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-2-ppa-13-pa39",
+        "projectTitle": "Reconocimiento y creación de mensajes para nuestra salud",
+        "concept": "periódico mural",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            45,
+            50
+          ],
+          "reason": "La fuente validada \"La adaptación entre medios de comunicación\" aporta base suficiente para trabajar periódico mural dentro del proyecto 39."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer periódico mural de la salud y a explicar la creación colectiva de mensajes de salud con apoyo de recursos artísticos, de difusión y de comunicación pública con mayor claridad mediante periódico mural.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-2-ppa-13-pa39",
+        "projectTitle": "Reconocimiento y creación de mensajes para nuestra salud",
+        "concept": "mensajes preventivos",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            45,
+            50
+          ],
+          "reason": "La fuente validada \"La adaptación entre medios de comunicación\" aporta base suficiente para trabajar mensajes preventivos dentro del proyecto 39."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer periódico mural de la salud y a explicar la creación colectiva de mensajes de salud con apoyo de recursos artísticos, de difusión y de comunicación pública con mayor claridad mediante mensajes preventivos.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-2-ppa-13-pa39",
+        "projectTitle": "Reconocimiento y creación de mensajes para nuestra salud",
+        "concept": "adaptación entre medios",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            45,
+            50
+          ],
+          "reason": "La fuente validada \"La adaptación entre medios de comunicación\" aporta base suficiente para trabajar adaptación entre medios dentro del proyecto 39."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer periódico mural de la salud y a explicar la creación colectiva de mensajes de salud con apoyo de recursos artísticos, de difusión y de comunicación pública con mayor claridad mediante adaptación entre medios.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-2-ppa-13-pa39",
+        "projectTitle": "Reconocimiento y creación de mensajes para nuestra salud",
+        "concept": "paisaje sonoro",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            255,
+            262
+          ],
+          "reason": "La fuente validada \"Artivismo con impacto ambiental y reconciliación\" aporta base suficiente para trabajar paisaje sonoro dentro del proyecto 39."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer periódico mural de la salud y a explicar la creación colectiva de mensajes de salud con apoyo de recursos artísticos, de difusión y de comunicación pública con mayor claridad mediante paisaje sonoro.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-2-ppa-13-pa39",
+        "projectTitle": "Reconocimiento y creación de mensajes para nuestra salud",
+        "concept": "artivismo",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            255,
+            262
+          ],
+          "reason": "La fuente validada \"Artivismo con impacto ambiental y reconciliación\" aporta base suficiente para trabajar artivismo dentro del proyecto 39."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer periódico mural de la salud y a explicar la creación colectiva de mensajes de salud con apoyo de recursos artísticos, de difusión y de comunicación pública con mayor claridad mediante artivismo.",
+        "activityReadiness": "usable-for-autoevaluation"
+      }
+    ]
+  },
+  "pedagogicalArticulation": {
+    "grade": "2",
+    "field": "Lenguajes",
+    "ppaNumber": "13",
+    "status": "teacher-orientation",
+    "officialHorizonStatus": "pending",
+    "situatedPedagogicalOrientation": "El PPA 13 reúne taller artístico, folleto informativo y periódico mural para relacionar salud, sanación, mensajes preventivos y manifestaciones artísticas que ayuden a elegir una vida saludable.",
+    "integratingQuestions": [
+      "Como dialogan taller artístico, folleto informativo, periódico mural de la salud dentro del mismo PPA 13?",
+      "Que cambia en la comprension de la salud integral, la expresión artística y la comunicación pública como formas de cuidado personal y comunitario cuando el grupo pone en relacion conceptos, producto y comunidad?",
+      "Como convertir el producto final en una herramienta de explicacion y no solo de presentacion?"
+    ],
+    "projectConnections": [
+      {
+        "projectId": "lenguajes-2-ppa-13-pa37",
+        "projectTitle": "El arte también es saludable",
+        "roleInPpa": "Abre el bloque conectando salud y arte como experiencia de recuperación, reconocimiento y cuidado compartido.",
+        "confirmedConcepts": [
+          "taller artístico",
+          "sanación",
+          "plenitud",
+          "reconocimiento personal",
+          "recuperación a través de las artes",
+          "bienestar comunitario"
+        ],
+        "suggestedConcepts": [],
+        "pedagogicalUse": "Conviene trabajar El arte también es saludable como una oportunidad para profundizar en la sanación, el reconocimiento personal y el uso del arte como medio para recuperar bienestar y vínculos comunitarios sin separar contenido, comunidad y producto final."
+      },
+      {
+        "projectId": "lenguajes-2-ppa-13-pa38",
+        "projectTitle": "Una frase que debería ser viral: #VidaSaludable",
+        "roleInPpa": "Profundiza el bloque al transformar la reflexión sobre salud en mensajes circulables, breves y orientados al cuidado del entorno.",
+        "confirmedConcepts": [
+          "folleto informativo",
+          "vida saludable",
+          "folleto informativo",
+          "texto argumentativo",
+          "ficha informativa",
+          "difusión comunitaria"
+        ],
+        "suggestedConcepts": [],
+        "pedagogicalUse": "Conviene trabajar Una frase que debería ser viral: #VidaSaludable como una oportunidad para profundizar en la producción de mensajes claros y argumentados para promover hábitos saludables mediante recursos informativos y de difusión sin separar contenido, comunidad y producto final."
+      },
+      {
+        "projectId": "lenguajes-2-ppa-13-pa39",
+        "projectTitle": "Reconocimiento y creación de mensajes para nuestra salud",
+        "roleInPpa": "Cierra el bloque al reunir información, arte y comunicación pública en un periódico mural que permanezca visible para la comunidad.",
+        "confirmedConcepts": [
+          "periódico mural de la salud",
+          "periódico mural",
+          "mensajes preventivos",
+          "adaptación entre medios",
+          "paisaje sonoro",
+          "artivismo"
+        ],
+        "suggestedConcepts": [],
+        "pedagogicalUse": "Conviene trabajar Reconocimiento y creación de mensajes para nuestra salud como una oportunidad para profundizar en la creación colectiva de mensajes de salud con apoyo de recursos artísticos, de difusión y de comunicación pública sin separar contenido, comunidad y producto final."
+      }
+    ],
+    "criteriaOfThought": [
+      {
+        "criterion": "Relacionar la salud integral, la expresión artística y la comunicación pública como formas de cuidado personal y comunitario con experiencias concretas del entorno.",
+        "status": "suggested"
+      },
+      {
+        "criterion": "Usar el producto final para comunicar con claridad, no solo para acumular definiciones.",
+        "status": "suggested"
+      }
+    ],
+    "possibleResonanceQuestion": "¿Qué comprensiones nuevas sobre la salud integral, la expresión artística y la comunicación pública como formas de cuidado personal y comunitario se vuelven visibles cuando el grupo comparte los productos del PPA 13?",
+    "teacherNotes": [
+      "No reducir el PPA 13 a tres productos aislados; el bloque construye una misma conversacion curricular.",
+      "Las paginas de Posibilidades forman un mismo bloque y los apoyos por columna se documentan por inferencia curricular situada.",
+      "Los enlaces cortos del video detonador y del recurso informatico se mantienen en cautela y no deben tratarse como recursos ya validados."
+    ],
+    "notReadyFor": [
+      "actividades interactivas",
+      "full-games",
+      "summative-exam"
+    ]
+  },
+  "teacherNotesAndResonances": {
+    "grade": "2",
+    "field": "Lenguajes",
+    "ppaNumber": "13",
+    "status": "teacher-orientation",
+    "officialHorizonStatus": "pending",
+    "ppaIntegratingResonance": "¿Qué comprensiones nuevas sobre la salud integral, la expresión artística y la comunicación pública como formas de cuidado personal y comunitario se vuelven visibles cuando el grupo comparte los productos del PPA 13?",
+    "didacticWarnings": [
+      "No convertir el bloque en una lista de definiciones; importa relacionar conceptos con producto, comunidad y dialogo.",
+      "Los enlaces cortos bit.ly/3VfglUk y bit.ly/3WQBMwg se mantienen como cautela y no deben tratarse como recursos ya validados.",
+      "La distribucion de apoyos por columna se fija por inferencia curricular documentada a partir de Posibilidades."
+    ],
+    "communityPrompts": {
+      "communityKnowledge": [
+        "Que saberes de la comunidad ayudan a profundizar en la salud integral, la expresión artística y la comunicación pública como formas de cuidado personal y comunitario?",
+        "Que ejemplos cercanos permiten que los conceptos del campo se vuelvan mas claros para el grupo?"
+      ],
+      "families": [
+        "Que experiencias, relatos o practicas familiares pueden enriquecer el proyecto sin desplazar su foco academico?",
+        "Que aprendizajes vale la pena compartir con otras generaciones a partir del producto final?"
+      ],
+      "territoryLanguageMemory": [
+        "Que palabras, lugares o memorias ayudan a nombrar mejor lo que el proyecto esta buscando comprender?",
+        "Como pueden circular estos productos dentro de la comunidad escolar sin perder precision ni sentido?"
+      ],
+      "productCommunityConnection": [
+        "Como podria circular taller artístico, folleto informativo, periódico mural de la salud para fortalecer el dialogo comunitario?"
+      ]
+    },
+    "suggestedThinkingCriteria": [
+      "Relacionar la salud integral, la expresión artística y la comunicación pública como formas de cuidado personal y comunitario con problemas, experiencias y preguntas del entorno cercano.",
+      "Valorar el producto final como herramienta de comprension y comunicacion compartida."
+    ],
+    "projects": [
+      {
+        "projectId": "lenguajes-2-ppa-13-pa37",
+        "projectTitle": "El arte también es saludable",
+        "teacherNotes": [
+          "Conviene partir de ejemplos cercanos y después pasar al lenguaje mas abstracto del campo.",
+          "El producto Taller artístico gana fuerza cuando se usa para explicar y no solo para exhibir informacion.",
+          "Es mejor seleccionar pocos conceptos bien comprendidos que saturar el trabajo con terminos aislados."
+        ],
+        "confirmedConceptsToUse": [
+          "taller artístico",
+          "sanación",
+          "plenitud",
+          "reconocimiento personal",
+          "recuperación a través de las artes",
+          "bienestar comunitario"
+        ],
+        "suggestedConceptsToHandleCarefully": [],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Qué comprendes mejor sobre la sanación, el reconocimiento personal y el uso del arte como medio para recuperar bienestar y vínculos comunitarios después de elaborar taller artístico?"
+          },
+          {
+            "type": "community",
+            "prompt": "¿Qué diálogos comunitarios podrían fortalecerse si compartimos taller artístico y lo ponemos en conversación con otras personas?"
+          }
+        ],
+        "notReadyFor": [
+          "full-games",
+          "summative-exam"
+        ]
+      },
+      {
+        "projectId": "lenguajes-2-ppa-13-pa38",
+        "projectTitle": "Una frase que debería ser viral: #VidaSaludable",
+        "teacherNotes": [
+          "Conviene partir de ejemplos cercanos y después pasar al lenguaje mas abstracto del campo.",
+          "El producto Folleto informativo gana fuerza cuando se usa para explicar y no solo para exhibir informacion.",
+          "Es mejor seleccionar pocos conceptos bien comprendidos que saturar el trabajo con terminos aislados."
+        ],
+        "confirmedConceptsToUse": [
+          "folleto informativo",
+          "vida saludable",
+          "folleto informativo",
+          "texto argumentativo",
+          "ficha informativa",
+          "difusión comunitaria"
+        ],
+        "suggestedConceptsToHandleCarefully": [],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Qué comprendes mejor sobre la producción de mensajes claros y argumentados para promover hábitos saludables mediante recursos informativos y de difusión después de elaborar folleto informativo?"
+          },
+          {
+            "type": "community",
+            "prompt": "¿Qué diálogos comunitarios podrían fortalecerse si compartimos folleto informativo y lo ponemos en conversación con otras personas?"
+          }
+        ],
+        "notReadyFor": [
+          "full-games",
+          "summative-exam"
+        ]
+      },
+      {
+        "projectId": "lenguajes-2-ppa-13-pa39",
+        "projectTitle": "Reconocimiento y creación de mensajes para nuestra salud",
+        "teacherNotes": [
+          "Conviene partir de ejemplos cercanos y después pasar al lenguaje mas abstracto del campo.",
+          "El producto Periódico mural de la salud gana fuerza cuando se usa para explicar y no solo para exhibir informacion.",
+          "Es mejor seleccionar pocos conceptos bien comprendidos que saturar el trabajo con terminos aislados."
+        ],
+        "confirmedConceptsToUse": [
+          "periódico mural de la salud",
+          "periódico mural",
+          "mensajes preventivos",
+          "adaptación entre medios",
+          "paisaje sonoro",
+          "artivismo"
+        ],
+        "suggestedConceptsToHandleCarefully": [],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Qué comprendes mejor sobre la creación colectiva de mensajes de salud con apoyo de recursos artísticos, de difusión y de comunicación pública después de elaborar periódico mural de la salud?"
+          },
+          {
+            "type": "community",
+            "prompt": "¿Qué diálogos comunitarios podrían fortalecerse si compartimos periódico mural de la salud y lo ponemos en conversación con otras personas?"
+          }
+        ],
+        "notReadyFor": [
+          "full-games",
+          "summative-exam"
+        ]
+      }
+    ]
+  },
+  "validationAudit": {
+    "kind": "fine-validation-audit",
+    "source": "reports/caracoles/grade2-lenguajes-ppa13-reading-bundle-audit.md",
+    "content": "# Auditoria de lectura docente\n\n## Alcance\n\n- Campo: 2o Lenguajes\n- Bloque: PPA 13\n- Titulo del PPA: Veo, escucho, reconozco y elijo vivir en salud\n- Proyectos: PA37-PA39\n\n## Proyectos validados\n\n37. El arte también es saludable\n   - Producto final: Taller artístico\n   - Paginas: Nuestro libro de proyectos Tomo III pp. 44-48\n38. Una frase que debería ser viral: #VidaSaludable\n   - Producto final: Folleto informativo\n   - Paginas: Nuestro libro de proyectos Tomo III pp. 49-52\n39. Reconocimiento y creación de mensajes para nuestra salud\n   - Producto final: Periódico mural de la salud\n   - Paginas: Nuestro libro de proyectos Tomo III pp. 53-57\n\n## Evidencia base usada\n\n- Posibilidades de uso Lenguajes pp. 35-36.\n- Nuestro libro de proyectos Tomo III pp. 42-57.\n- Lenguajes, segundo grado, pp. 45-51, 82-94, 200-206, 221-226, 232-236 y 255-262; Múltiples Lenguajes pp. 50-53, p. 120 y p. 121..\n\n## Decisiones curriculares del bloque\n\n- El horizonte comun del PPA 13 se mantiene en estado pendiente como formula unica; se privilegia una orientacion pedagogica situada y documentada.\n- Los productos finales quedan confirmados desde Posibilidades y la secuencia del propio proyecto.\n- Los conceptos confirmados se normalizan para sostener lectura docente, autoevaluacion y actividades de relacion de columnas.\n- La resonancia se formula como pregunta abierta para reforzar el sentido formativo del bloque.\n\n## Cautelas reales\n\n- El video detonador del PPA 13 y el recurso informatico del bloque siguen sin URL oficial confirmada.\n- La asignacion de apoyos por columna se sostiene por inferencia curricular documentada, no por OCR limpio de tabla.\n- No se marca el bloque como actividades interactivas ni se desbloquean juegos completos.\n"
+  }
+}

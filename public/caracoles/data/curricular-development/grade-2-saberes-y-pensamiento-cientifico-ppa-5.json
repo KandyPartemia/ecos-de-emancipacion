@@ -1,0 +1,1296 @@
+{
+  "grade": "2",
+  "gradeLabel": "Segundo grado",
+  "field": "Saberes y Pensamiento Científico",
+  "ppaNumber": "5",
+  "partialClassroomProject": "PPA 5",
+  "partialClassroomProjectTitle": "El deporte y las leyes del movimiento",
+  "source": "curricular-development-pilot",
+  "generatedAt": "2026-06-04T15:51:06.605Z",
+  "development": {
+    "grade": "2",
+    "gradeLabel": "Segundo grado",
+    "field": "Saberes y Pensamiento Científico",
+    "bookVolume": "Tomo I",
+    "partialClassroomProject": "PPA 5",
+    "partialClassroomProjectTitle": "El deporte y las leyes del movimiento",
+    "generatedAt": "2026-06-02T18:08:11.398Z",
+    "notes": "Capa curricular generada por lote para 2o Saberes y Pensamiento Científico, PPA 5.",
+    "sourcesUsed": [
+      "public/caracoles/data/generated/grade-2/selectable-projects.json",
+      "content/caracoles/generated-private/grade-2/pages-index.full.json",
+      "Posibilidades de uso SyPC, segundo grado, pp. 14-15",
+      "Nuestro libro de proyectos Tomo I, segundo grado, pp. 167-183",
+      "Saberes y Pensamiento Científico, segundo grado, pp. 17-26, 33-40, 80-97, 126-131, 190-194, 249-256 y 278-289; Múltiples Lenguajes pp. 64 y 110."
+    ],
+    "partialClassroomProjectContext": {
+      "expectationHorizon": {
+        "officialText": "",
+        "sourcePages": [
+          "Nuestro libro de proyectos Tomo I pp. 167-168",
+          "Posibilidades de uso SyPC pp. 14-15"
+        ],
+        "evidence": "El PPA 5 articula deporte, movimiento, predicción y leyes de Newton para que el grupo observe trayectorias, mida variables y construya explicaciones científicas sobre acciones corporales cercanas.",
+        "status": "pending"
+      },
+      "ppaDetonatingStrategy": {
+        "title": "El deporte y las leyes del movimiento",
+        "type": "video",
+        "url": "",
+        "urlStatus": "pending-url",
+        "reference": "bit.ly/3VfglUk",
+        "source": "Nuestro libro de proyectos Tomo I pp. 167-168 + Posibilidades de uso SyPC pp. 14-15",
+        "scope": "partial-classroom-project",
+        "youtubeSearchQuery": "El deporte y las leyes del movimiento Saberes y Pensamiento Científico 2do grado Telesecundaria"
+      },
+      "ppaDigitalResource": {
+        "title": "Recurso informatico del bloque PPA 5",
+        "reference": "bit.ly/3WQBMwg",
+        "status": "pending-validation",
+        "source": "Nuestro libro de proyectos Tomo I pp. 167-183"
+      },
+      "validationStatus": {
+        "needsHumanReview": true,
+        "needsReviewReasons": [
+          "Las pp. 14-15 de Posibilidades pertenecen al mismo PPA 5.",
+          "La asignacion de apoyos por columna se fija por inferencia curricular documentada de izquierda a derecha.",
+          "Los enlaces cortos del video del PPA y del recurso informatico se mantienen en cautela hasta localizar un destino oficial confirmado.",
+          "Los apoyos de Múltiples Lenguajes del bloque se incorporan sólo como complemento y no sustituyen la validación del libro del campo."
+        ]
+      },
+      "columnValidation": {
+        "possibilitiesPagesReviewed": [
+          14,
+          15
+        ],
+        "confirmedAsPpa": true,
+        "note": "Las pp. 14-15 corresponden al PPA 5 El deporte y las leyes del movimiento. Las tres columnas se sostienen por el orden de proyectos, productos y apoyos del mismo bloque.",
+        "columns": [
+          {
+            "columnIndex": 1,
+            "projectId": "saberes-y-pensamiento-cientifico-2-ppa-5-pa13",
+            "projectTitle": "¡Lanzar, patear o batear!",
+            "finalProduct": "Infografía mural",
+            "supportMaterials": [
+              "Los trucos de la abuela, p. 110"
+            ]
+          },
+          {
+            "columnIndex": 2,
+            "projectId": "saberes-y-pensamiento-cientifico-2-ppa-5-pa14",
+            "projectTitle": "Práctica deportiva con ayuda de la ciencia",
+            "finalProduct": "Álbum de predicciones científicas",
+            "supportMaterials": [
+              "Acertijos y retos, p. 64"
+            ]
+          },
+          {
+            "columnIndex": 3,
+            "projectId": "saberes-y-pensamiento-cientifico-2-ppa-5-pa15",
+            "projectTitle": "Ciencia para destacar en el deporte",
+            "finalProduct": "Demostración de las leyes de Newton",
+            "supportMaterials": []
+          }
+        ]
+      }
+    },
+    "academicProjects": [
+      {
+        "id": "saberes-y-pensamiento-cientifico-2-ppa-5-pa13",
+        "projectId": "saberes-y-pensamiento-cientifico-2-ppa-5-pa13",
+        "academicProjectNumber": 13,
+        "title": "¡Lanzar, patear o batear!",
+        "projectTitle": "¡Lanzar, patear o batear!",
+        "grade": "2",
+        "field": "Saberes y Pensamiento Científico",
+        "ppaNumber": "5",
+        "partialClassroomProject": "PPA 5",
+        "partialClassroomProjectTitle": "El deporte y las leyes del movimiento",
+        "bookVolume": "Tomo I",
+        "sourceValidation": {
+          "sourceStatus": "linked",
+          "possibilitiesPages": [
+            14,
+            15
+          ],
+          "possibilitiesMaterialId": "grade-2-posibilidades-pos-sypc-2",
+          "possibilitiesColumnIndex": 1,
+          "columnEvidence": "Bloque PPA 5 El deporte y las leyes del movimiento localizado en pp. 14-15; la columna 1 se confirma por el orden de proyectos, productos y continuidad del mismo bloque."
+        },
+        "finalProduct": {
+          "title": "Infografía mural",
+          "source": "Posibilidades de uso SyPC pp. 14-15 + Nuestro libro de proyectos Tomo I pp. 169-173",
+          "status": "confirmed"
+        },
+        "sourcePages": {
+          "nuestroLibroProyectos": [
+            {
+              "materialId": "grade-2-proyectos-nuestro-libro-de-proyectos-tomo-1-segundo-grado",
+              "label": "Nuestro libro de proyectos Tomo I",
+              "startPage": 169,
+              "endPage": 173,
+              "pagesLabel": "pp. 169-173",
+              "topicTitle": "Proyecto academico 13",
+              "status": "confirmed-source"
+            }
+          ],
+          "conceptBook": [
+            {
+              "materialId": "grade-2-conceptos-saberes-y-pensamiento-cientifico-segundo-grado",
+              "label": "Saberes y Pensamiento Científico",
+              "startPage": 92,
+              "endPage": 97,
+              "pagesLabel": "pp. 92-97",
+              "topicTitle": "Tendencias en los datos",
+              "status": "confirmed-by-column-inference"
+            },
+            {
+              "materialId": "grade-2-conceptos-saberes-y-pensamiento-cientifico-segundo-grado",
+              "label": "Saberes y Pensamiento Científico",
+              "startPage": 126,
+              "endPage": 131,
+              "pagesLabel": "pp. 126-131",
+              "topicTitle": "Cinemática",
+              "status": "confirmed-by-column-inference"
+            },
+            {
+              "materialId": "grade-2-conceptos-saberes-y-pensamiento-cientifico-segundo-grado",
+              "label": "Saberes y Pensamiento Científico",
+              "startPage": 278,
+              "endPage": 289,
+              "pagesLabel": "pp. 278-289",
+              "topicTitle": "Dinámica",
+              "status": "confirmed-by-column-inference"
+            }
+          ],
+          "multiplesLenguajes": [
+            {
+              "materialId": "grade-2-apoyo-multiples-lenguajes-segundo-grado",
+              "label": "Multiples Lenguajes",
+              "startPage": 110,
+              "endPage": 110,
+              "pagesLabel": "p. 110",
+              "topicTitle": "Los trucos de la abuela",
+              "status": "confirmed-by-column-inference"
+            }
+          ],
+          "otherMaterials": [
+            {
+              "label": "Video PA 13: Pruebas científicas • Saberes y pensamiento científico• 2do grado",
+              "reference": "https://www.youtube.com/watch?v=FckwtMs48SY",
+              "status": "confirmed"
+            },
+            {
+              "label": "Video PPA 5: 5. El deporte y las leyes del movimiento • Saberes y pensamiento científico• 2do grado",
+              "reference": "https://www.youtube.com/watch?v=XbqPOZb-dTM",
+              "status": "confirmed"
+            }
+          ]
+        },
+        "supportMaterials": [
+          {
+            "title": "Los trucos de la abuela",
+            "kind": "Multiples Lenguajes",
+            "pages": "p. 110",
+            "status": "confirmed-by-column-inference"
+          }
+        ],
+        "horizonOrPurpose": {
+          "status": "official",
+          "text": "Explicar en una infografía mural las causas del movimiento presentes al lanzar, patear o batear con apoyo de la cinemática y la dinámica.",
+          "source": "Nuestro libro de proyectos Tomo I p. 169"
+        },
+        "projectExpectationHorizon": {
+          "officialText": "Observar acciones deportivas y explicar sus causas de movimiento mediante una infografía mural con base científica.",
+          "studentVersion": "Analizar movimientos deportivos y comunicar sus causas en una infografía clara.",
+          "sourcePages": [
+            "Nuestro libro de proyectos Tomo I p. 169"
+          ],
+          "evidence": "La etapa 1 del proyecto fija la explicación de las causas del movimiento como eje del producto final.",
+          "status": "official"
+        },
+        "detonatingStrategy": {
+          "title": "5. El deporte y las leyes del movimiento • Saberes y pensamiento científico• 2do grado",
+          "text": "Video del Proyecto Parcial de Aula 5: 5. El deporte y las leyes del movimiento • Saberes y pensamiento científico• 2do grado",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=XbqPOZb-dTM",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "partial-classroom-project"
+        },
+        "academicProjectStrategy": {
+          "title": "Pruebas científicas • Saberes y pensamiento científico• 2do grado",
+          "text": "Video detonador del Proyecto Academico 13: ¡Lanzar, patear o batear!",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=FckwtMs48SY",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "academic-project"
+        },
+        "academicConcepts": [
+          {
+            "concept": "infografía mural",
+            "description": "Infografía mural como producto de cierre para organizar y comunicar aprendizajes del proyecto.",
+            "sourceBook": "Nuestro libro de proyectos Tomo I",
+            "sourcePages": [
+              169,
+              173
+            ],
+            "sourcePagesLabel": "pp. 169-173",
+            "topicTitle": "Proyecto academico 13",
+            "status": "confirmed",
+            "reason": "Posibilidades y el propio proyecto fijan Infografía mural como producto final del PA 13.",
+            "pedagogicalUse": "Da una forma concreta de socializar lo comprendido sobre las causas del movimiento y las leyes de Newton explicadas en acciones deportivas observables.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "cinemática",
+            "description": "Cinemática es una idea clave para comprender las causas del movimiento y las leyes de Newton explicadas en acciones deportivas observables.",
+            "sourceBook": "Saberes y Pensamiento Científico",
+            "sourcePages": [
+              126,
+              131
+            ],
+            "sourcePagesLabel": "pp. 126-131",
+            "topicTitle": "Cinemática",
+            "status": "confirmed",
+            "reason": "La fuente validada \"Cinemática\" aporta base suficiente para trabajar cinemática dentro del proyecto 13.",
+            "pedagogicalUse": "Ayuda a fortalecer infografía mural y a explicar las causas del movimiento y las leyes de Newton explicadas en acciones deportivas observables con mayor claridad mediante cinemática.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "dinámica",
+            "description": "Dinámica es una idea clave para comprender las causas del movimiento y las leyes de Newton explicadas en acciones deportivas observables.",
+            "sourceBook": "Saberes y Pensamiento Científico",
+            "sourcePages": [
+              278,
+              289
+            ],
+            "sourcePagesLabel": "pp. 278-289",
+            "topicTitle": "Dinámica",
+            "status": "confirmed",
+            "reason": "La fuente validada \"Dinámica\" aporta base suficiente para trabajar dinámica dentro del proyecto 13.",
+            "pedagogicalUse": "Ayuda a fortalecer infografía mural y a explicar las causas del movimiento y las leyes de Newton explicadas en acciones deportivas observables con mayor claridad mediante dinámica.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "fuerza y movimiento",
+            "description": "Fuerza y movimiento es una idea clave para comprender las causas del movimiento y las leyes de Newton explicadas en acciones deportivas observables.",
+            "sourceBook": "Saberes y Pensamiento Científico",
+            "sourcePages": [
+              279
+            ],
+            "sourcePagesLabel": "p. 279",
+            "topicTitle": "Fuerza y movimiento",
+            "status": "confirmed",
+            "reason": "La fuente validada \"Fuerza y movimiento\" aporta base suficiente para trabajar fuerza y movimiento dentro del proyecto 13.",
+            "pedagogicalUse": "Ayuda a fortalecer infografía mural y a explicar las causas del movimiento y las leyes de Newton explicadas en acciones deportivas observables con mayor claridad mediante fuerza y movimiento.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "tendencias en los datos",
+            "description": "Tendencias en los datos es una idea clave para comprender las causas del movimiento y las leyes de Newton explicadas en acciones deportivas observables.",
+            "sourceBook": "Saberes y Pensamiento Científico",
+            "sourcePages": [
+              92,
+              97
+            ],
+            "sourcePagesLabel": "pp. 92-97",
+            "topicTitle": "Tendencias en los datos",
+            "status": "confirmed",
+            "reason": "La fuente validada \"Tendencias en los datos\" aporta base suficiente para trabajar tendencias en los datos dentro del proyecto 13.",
+            "pedagogicalUse": "Ayuda a fortalecer infografía mural y a explicar las causas del movimiento y las leyes de Newton explicadas en acciones deportivas observables con mayor claridad mediante tendencias en los datos.",
+            "activityReadiness": "usable-for-autoevaluation"
+          }
+        ],
+        "thinkingCriteria": [
+          "Relacionar la observación deportiva con una explicación científica concreta.",
+          "Distinguir entre describir un movimiento y explicar su causa.",
+          "Usar la infografía para sintetizar relaciones, no sólo para acumular ejemplos."
+        ],
+        "validationStatus": {
+          "readinessLevel": "development-partial",
+          "readyForActivities": false,
+          "needsReviewReasons": [
+            "El bloque 5 ya es usable como lectura docente, pero el video del PPA 5 y el recurso informatico siguen pendientes de validacion de destino final.",
+            "La asignacion de apoyos de Posibilidades se sostiene por inferencia curricular documentada y no por OCR perfectamente separado por columnas.",
+            "No mover a actividades interactivas ni desbloquear juegos completos hasta ampliar validacion de videos y recursos complementarios."
+          ]
+        },
+        "readinessLevel": "development-partial",
+        "readyForActivities": false,
+        "needsReviewReasons": [
+          "No mover a actividades interactivas ni desbloquear juegos completos."
+        ],
+        "roleInPpa": "Abre el bloque al leer el deporte como laboratorio cercano para pensar movimiento, fuerza y cambio.",
+        "pedagogicalUse": "Conviene trabajar ¡Lanzar, patear o batear! como una oportunidad para profundizar en las causas del movimiento y las leyes de Newton explicadas en acciones deportivas observables sin separar contenido, comunidad y producto final.",
+        "teacherNotes": [
+          "Conviene partir de ejemplos cercanos y después pasar al lenguaje mas abstracto del campo.",
+          "El producto Infografía mural gana fuerza cuando se usa para explicar y no solo para exhibir informacion.",
+          "Es mejor seleccionar pocos conceptos bien comprendidos que saturar el trabajo con terminos aislados."
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Qué comprendes mejor sobre las causas del movimiento y las leyes de Newton explicadas en acciones deportivas observables después de elaborar infografía mural?"
+          },
+          {
+            "type": "community",
+            "prompt": "¿Qué deportes o juegos del entorno pueden ayudarnos a entender mejor cómo actúan las fuerzas sobre los cuerpos?"
+          }
+        ],
+        "notReadyFor": [
+          "full-games",
+          "summative-exam"
+        ]
+      },
+      {
+        "id": "saberes-y-pensamiento-cientifico-2-ppa-5-pa14",
+        "projectId": "saberes-y-pensamiento-cientifico-2-ppa-5-pa14",
+        "academicProjectNumber": 14,
+        "title": "Práctica deportiva con ayuda de la ciencia",
+        "projectTitle": "Práctica deportiva con ayuda de la ciencia",
+        "grade": "2",
+        "field": "Saberes y Pensamiento Científico",
+        "ppaNumber": "5",
+        "partialClassroomProject": "PPA 5",
+        "partialClassroomProjectTitle": "El deporte y las leyes del movimiento",
+        "bookVolume": "Tomo I",
+        "sourceValidation": {
+          "sourceStatus": "linked",
+          "possibilitiesPages": [
+            14,
+            15
+          ],
+          "possibilitiesMaterialId": "grade-2-posibilidades-pos-sypc-2",
+          "possibilitiesColumnIndex": 2,
+          "columnEvidence": "Bloque PPA 5 El deporte y las leyes del movimiento localizado en pp. 14-15; la columna 2 se confirma por el orden de proyectos, productos y continuidad del mismo bloque."
+        },
+        "finalProduct": {
+          "title": "Álbum de predicciones científicas",
+          "source": "Posibilidades de uso SyPC pp. 14-15 + Nuestro libro de proyectos Tomo I pp. 174-178",
+          "status": "confirmed"
+        },
+        "sourcePages": {
+          "nuestroLibroProyectos": [
+            {
+              "materialId": "grade-2-proyectos-nuestro-libro-de-proyectos-tomo-1-segundo-grado",
+              "label": "Nuestro libro de proyectos Tomo I",
+              "startPage": 174,
+              "endPage": 178,
+              "pagesLabel": "pp. 174-178",
+              "topicTitle": "Proyecto academico 14",
+              "status": "confirmed-source"
+            }
+          ],
+          "conceptBook": [
+            {
+              "materialId": "grade-2-conceptos-saberes-y-pensamiento-cientifico-segundo-grado",
+              "label": "Saberes y Pensamiento Científico",
+              "startPage": 33,
+              "endPage": 40,
+              "pagesLabel": "pp. 33-40",
+              "topicTitle": "Sistemas de dos ecuaciones lineales con dos incógnitas",
+              "status": "confirmed-by-column-inference"
+            },
+            {
+              "materialId": "grade-2-conceptos-saberes-y-pensamiento-cientifico-segundo-grado",
+              "label": "Saberes y Pensamiento Científico",
+              "startPage": 249,
+              "endPage": 256,
+              "pagesLabel": "pp. 249-256",
+              "topicTitle": "Metrología",
+              "status": "confirmed-by-column-inference"
+            },
+            {
+              "materialId": "grade-2-conceptos-saberes-y-pensamiento-cientifico-segundo-grado",
+              "label": "Saberes y Pensamiento Científico",
+              "startPage": 278,
+              "endPage": 289,
+              "pagesLabel": "pp. 278-289",
+              "topicTitle": "Dinámica",
+              "status": "confirmed-by-column-inference"
+            }
+          ],
+          "multiplesLenguajes": [
+            {
+              "materialId": "grade-2-apoyo-multiples-lenguajes-segundo-grado",
+              "label": "Multiples Lenguajes",
+              "startPage": 64,
+              "endPage": 64,
+              "pagesLabel": "p. 64",
+              "topicTitle": "Acertijos y retos",
+              "status": "confirmed-by-column-inference"
+            }
+          ],
+          "otherMaterials": [
+            {
+              "label": "Video PA 14: 14. Un futuro con energía • Saberes y pensamiento científico• 2do grado",
+              "reference": "https://www.youtube.com/watch?v=6wYyXIB4l9g",
+              "status": "confirmed"
+            },
+            {
+              "label": "Video PPA 5: 5. El deporte y las leyes del movimiento • Saberes y pensamiento científico• 2do grado",
+              "reference": "https://www.youtube.com/watch?v=XbqPOZb-dTM",
+              "status": "confirmed"
+            }
+          ]
+        },
+        "supportMaterials": [
+          {
+            "title": "Acertijos y retos",
+            "kind": "Multiples Lenguajes",
+            "pages": "p. 64",
+            "status": "confirmed-by-column-inference"
+          }
+        ],
+        "horizonOrPurpose": {
+          "status": "official",
+          "text": "Identificar tipos de movimiento y elaborar un álbum de predicciones científicas apoyado en medición y dinámica.",
+          "source": "Nuestro libro de proyectos Tomo I p. 174"
+        },
+        "projectExpectationHorizon": {
+          "officialText": "Construir predicciones científicas sobre movimientos deportivos a partir de mediciones y relaciones entre variables.",
+          "studentVersion": "Reunir en un álbum predicciones justificadas sobre prácticas deportivas observadas por el grupo.",
+          "sourcePages": [
+            "Nuestro libro de proyectos Tomo I p. 174"
+          ],
+          "evidence": "La etapa 1 del proyecto conecta de manera explícita la observación deportiva con la formulación de predicciones científicas.",
+          "status": "official"
+        },
+        "detonatingStrategy": {
+          "title": "5. El deporte y las leyes del movimiento • Saberes y pensamiento científico• 2do grado",
+          "text": "Video del Proyecto Parcial de Aula 5: 5. El deporte y las leyes del movimiento • Saberes y pensamiento científico• 2do grado",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=XbqPOZb-dTM",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "partial-classroom-project"
+        },
+        "academicProjectStrategy": {
+          "title": "14. Un futuro con energía • Saberes y pensamiento científico• 2do grado",
+          "text": "Video detonador del Proyecto Academico 14: Práctica deportiva con ayuda de la ciencia",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=6wYyXIB4l9g",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "academic-project"
+        },
+        "academicConcepts": [
+          {
+            "concept": "álbum de predicciones científicas",
+            "description": "Álbum de predicciones científicas como producto de cierre para organizar y comunicar aprendizajes del proyecto.",
+            "sourceBook": "Nuestro libro de proyectos Tomo I",
+            "sourcePages": [
+              174,
+              178
+            ],
+            "sourcePagesLabel": "pp. 174-178",
+            "topicTitle": "Proyecto academico 14",
+            "status": "confirmed",
+            "reason": "Posibilidades y el propio proyecto fijan Álbum de predicciones científicas como producto final del PA 14.",
+            "pedagogicalUse": "Da una forma concreta de socializar lo comprendido sobre la medición, la predicción y la dinámica para anticipar el comportamiento de objetos y cuerpos en prácticas deportivas.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "metrología",
+            "description": "Metrología es una idea clave para comprender la medición, la predicción y la dinámica para anticipar el comportamiento de objetos y cuerpos en prácticas deportivas.",
+            "sourceBook": "Saberes y Pensamiento Científico",
+            "sourcePages": [
+              249,
+              256
+            ],
+            "sourcePagesLabel": "pp. 249-256",
+            "topicTitle": "Metrología",
+            "status": "confirmed",
+            "reason": "La fuente validada \"Metrología\" aporta base suficiente para trabajar metrología dentro del proyecto 14.",
+            "pedagogicalUse": "Ayuda a fortalecer álbum de predicciones científicas y a explicar la medición, la predicción y la dinámica para anticipar el comportamiento de objetos y cuerpos en prácticas deportivas con mayor claridad mediante metrología.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "sistemas de dos ecuaciones lineales",
+            "description": "Sistemas de dos ecuaciones lineales es una idea clave para comprender la medición, la predicción y la dinámica para anticipar el comportamiento de objetos y cuerpos en prácticas deportivas.",
+            "sourceBook": "Saberes y Pensamiento Científico",
+            "sourcePages": [
+              33,
+              40
+            ],
+            "sourcePagesLabel": "pp. 33-40",
+            "topicTitle": "Sistemas de dos ecuaciones lineales con dos incógnitas",
+            "status": "confirmed",
+            "reason": "La fuente validada \"Sistemas de dos ecuaciones lineales con dos incógnitas\" aporta base suficiente para trabajar sistemas de dos ecuaciones lineales dentro del proyecto 14.",
+            "pedagogicalUse": "Ayuda a fortalecer álbum de predicciones científicas y a explicar la medición, la predicción y la dinámica para anticipar el comportamiento de objetos y cuerpos en prácticas deportivas con mayor claridad mediante sistemas de dos ecuaciones lineales.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "dinámica",
+            "description": "Dinámica es una idea clave para comprender la medición, la predicción y la dinámica para anticipar el comportamiento de objetos y cuerpos en prácticas deportivas.",
+            "sourceBook": "Saberes y Pensamiento Científico",
+            "sourcePages": [
+              278,
+              289
+            ],
+            "sourcePagesLabel": "pp. 278-289",
+            "topicTitle": "Dinámica",
+            "status": "confirmed",
+            "reason": "La fuente validada \"Dinámica\" aporta base suficiente para trabajar dinámica dentro del proyecto 14.",
+            "pedagogicalUse": "Ayuda a fortalecer álbum de predicciones científicas y a explicar la medición, la predicción y la dinámica para anticipar el comportamiento de objetos y cuerpos en prácticas deportivas con mayor claridad mediante dinámica.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "predicción científica",
+            "description": "Predicción científica es una idea clave para comprender la medición, la predicción y la dinámica para anticipar el comportamiento de objetos y cuerpos en prácticas deportivas.",
+            "sourceBook": "Nuestro libro de proyectos Tomo I",
+            "sourcePages": [
+              174,
+              175,
+              176,
+              177
+            ],
+            "sourcePagesLabel": "pp. 174-177",
+            "topicTitle": "Proyecto académico 14",
+            "status": "confirmed",
+            "reason": "La fuente validada \"Proyecto académico 14\" aporta base suficiente para trabajar predicción científica dentro del proyecto 14.",
+            "pedagogicalUse": "Ayuda a fortalecer álbum de predicciones científicas y a explicar la medición, la predicción y la dinámica para anticipar el comportamiento de objetos y cuerpos en prácticas deportivas con mayor claridad mediante predicción científica.",
+            "activityReadiness": "usable-for-autoevaluation"
+          }
+        ],
+        "thinkingCriteria": [
+          "Justificar la predicción con mediciones o relaciones entre variables.",
+          "Diferenciar anticipar científicamente de simplemente adivinar.",
+          "Usar el álbum como registro razonado de evidencias."
+        ],
+        "validationStatus": {
+          "readinessLevel": "development-partial",
+          "readyForActivities": false,
+          "needsReviewReasons": [
+            "El bloque 5 ya es usable como lectura docente, pero el video del PPA 5 y el recurso informatico siguen pendientes de validacion de destino final.",
+            "La asignacion de apoyos de Posibilidades se sostiene por inferencia curricular documentada y no por OCR perfectamente separado por columnas.",
+            "No mover a actividades interactivas ni desbloquear juegos completos hasta ampliar validacion de videos y recursos complementarios."
+          ]
+        },
+        "readinessLevel": "development-partial",
+        "readyForActivities": false,
+        "needsReviewReasons": [
+          "No mover a actividades interactivas ni desbloquear juegos completos."
+        ],
+        "roleInPpa": "Profundiza el bloque al pedir que el grupo use conceptos científicos para anticipar y justificar resultados.",
+        "pedagogicalUse": "Conviene trabajar Práctica deportiva con ayuda de la ciencia como una oportunidad para profundizar en la medición, la predicción y la dinámica para anticipar el comportamiento de objetos y cuerpos en prácticas deportivas sin separar contenido, comunidad y producto final.",
+        "teacherNotes": [
+          "Conviene partir de ejemplos cercanos y después pasar al lenguaje mas abstracto del campo.",
+          "El producto Álbum de predicciones científicas gana fuerza cuando se usa para explicar y no solo para exhibir informacion.",
+          "Es mejor seleccionar pocos conceptos bien comprendidos que saturar el trabajo con terminos aislados."
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Qué comprendes mejor sobre la medición, la predicción y la dinámica para anticipar el comportamiento de objetos y cuerpos en prácticas deportivas después de elaborar álbum de predicciones científicas?"
+          },
+          {
+            "type": "community",
+            "prompt": "¿Qué movimientos de la vida diaria o del deporte local se prestan mejor para hacer predicciones científicas?"
+          }
+        ],
+        "notReadyFor": [
+          "full-games",
+          "summative-exam"
+        ]
+      },
+      {
+        "id": "saberes-y-pensamiento-cientifico-2-ppa-5-pa15",
+        "projectId": "saberes-y-pensamiento-cientifico-2-ppa-5-pa15",
+        "academicProjectNumber": 15,
+        "title": "Ciencia para destacar en el deporte",
+        "projectTitle": "Ciencia para destacar en el deporte",
+        "grade": "2",
+        "field": "Saberes y Pensamiento Científico",
+        "ppaNumber": "5",
+        "partialClassroomProject": "PPA 5",
+        "partialClassroomProjectTitle": "El deporte y las leyes del movimiento",
+        "bookVolume": "Tomo I",
+        "sourceValidation": {
+          "sourceStatus": "linked",
+          "possibilitiesPages": [
+            14,
+            15
+          ],
+          "possibilitiesMaterialId": "grade-2-posibilidades-pos-sypc-2",
+          "possibilitiesColumnIndex": 3,
+          "columnEvidence": "Bloque PPA 5 El deporte y las leyes del movimiento localizado en pp. 14-15; la columna 3 se confirma por el orden de proyectos, productos y continuidad del mismo bloque."
+        },
+        "finalProduct": {
+          "title": "Demostración de las leyes de Newton",
+          "source": "Posibilidades de uso SyPC pp. 14-15 + Nuestro libro de proyectos Tomo I pp. 179-183",
+          "status": "confirmed"
+        },
+        "sourcePages": {
+          "nuestroLibroProyectos": [
+            {
+              "materialId": "grade-2-proyectos-nuestro-libro-de-proyectos-tomo-1-segundo-grado",
+              "label": "Nuestro libro de proyectos Tomo I",
+              "startPage": 179,
+              "endPage": 183,
+              "pagesLabel": "pp. 179-183",
+              "topicTitle": "Proyecto academico 15",
+              "status": "confirmed-source"
+            }
+          ],
+          "conceptBook": [
+            {
+              "materialId": "grade-2-conceptos-saberes-y-pensamiento-cientifico-segundo-grado",
+              "label": "Saberes y Pensamiento Científico",
+              "startPage": 80,
+              "endPage": 84,
+              "pagesLabel": "pp. 80-84",
+              "topicTitle": "Recolección, registro, análisis y comunicación de datos",
+              "status": "confirmed-by-column-inference"
+            },
+            {
+              "materialId": "grade-2-conceptos-saberes-y-pensamiento-cientifico-segundo-grado",
+              "label": "Saberes y Pensamiento Científico",
+              "startPage": 126,
+              "endPage": 131,
+              "pagesLabel": "pp. 126-131",
+              "topicTitle": "Cinemática",
+              "status": "confirmed-by-column-inference"
+            },
+            {
+              "materialId": "grade-2-conceptos-saberes-y-pensamiento-cientifico-segundo-grado",
+              "label": "Saberes y Pensamiento Científico",
+              "startPage": 278,
+              "endPage": 289,
+              "pagesLabel": "pp. 278-289",
+              "topicTitle": "Dinámica",
+              "status": "confirmed-by-column-inference"
+            }
+          ],
+          "multiplesLenguajes": [],
+          "otherMaterials": [
+            {
+              "label": "Video PA 15: 15. Materiales en acción: exploración en la comunidad • Saberes y pensamiento científico• 2do grado",
+              "reference": "https://www.youtube.com/watch?v=o9hQgeX4wiA",
+              "status": "confirmed"
+            },
+            {
+              "label": "Video PPA 5: 5. El deporte y las leyes del movimiento • Saberes y pensamiento científico• 2do grado",
+              "reference": "https://www.youtube.com/watch?v=XbqPOZb-dTM",
+              "status": "confirmed"
+            }
+          ]
+        },
+        "supportMaterials": [],
+        "horizonOrPurpose": {
+          "status": "official",
+          "text": "Exponer mediante una demostración de las leyes de Newton las fuerzas que actúan en objetos y prácticas deportivas de la comunidad.",
+          "source": "Nuestro libro de proyectos Tomo I p. 179"
+        },
+        "projectExpectationHorizon": {
+          "officialText": "Demostrar las leyes de Newton con ejemplos deportivos y apoyarse en datos para comunicar cómo actúan las fuerzas.",
+          "studentVersion": "Preparar una demostración clara de las leyes de Newton a partir de situaciones deportivas observadas por el grupo.",
+          "sourcePages": [
+            "Nuestro libro de proyectos Tomo I p. 179"
+          ],
+          "evidence": "La etapa 1 fija de forma explícita la demostración de las leyes de Newton como producto central del proyecto.",
+          "status": "official"
+        },
+        "detonatingStrategy": {
+          "title": "5. El deporte y las leyes del movimiento • Saberes y pensamiento científico• 2do grado",
+          "text": "Video del Proyecto Parcial de Aula 5: 5. El deporte y las leyes del movimiento • Saberes y pensamiento científico• 2do grado",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=XbqPOZb-dTM",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "partial-classroom-project"
+        },
+        "academicProjectStrategy": {
+          "title": "15. Materiales en acción: exploración en la comunidad • Saberes y pensamiento científico• 2do grado",
+          "text": "Video detonador del Proyecto Academico 15: Ciencia para destacar en el deporte",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=o9hQgeX4wiA",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "academic-project"
+        },
+        "academicConcepts": [
+          {
+            "concept": "demostración de las leyes de newton",
+            "description": "Demostración de las leyes de Newton como producto de cierre para organizar y comunicar aprendizajes del proyecto.",
+            "sourceBook": "Nuestro libro de proyectos Tomo I",
+            "sourcePages": [
+              179,
+              183
+            ],
+            "sourcePagesLabel": "pp. 179-183",
+            "topicTitle": "Proyecto academico 15",
+            "status": "confirmed",
+            "reason": "Posibilidades y el propio proyecto fijan Demostración de las leyes de Newton como producto final del PA 15.",
+            "pedagogicalUse": "Da una forma concreta de socializar lo comprendido sobre las leyes de Newton, la cinemática y el análisis de datos para explicar acciones deportivas y mejorar su comprensión.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "leyes de Newton",
+            "description": "Leyes de Newton es una idea clave para comprender las leyes de Newton, la cinemática y el análisis de datos para explicar acciones deportivas y mejorar su comprensión.",
+            "sourceBook": "Saberes y Pensamiento Científico",
+            "sourcePages": [
+              287,
+              288,
+              289
+            ],
+            "sourcePagesLabel": "pp. 287-289",
+            "topicTitle": "Leyes de Newton",
+            "status": "confirmed",
+            "reason": "La fuente validada \"Leyes de Newton\" aporta base suficiente para trabajar leyes de Newton dentro del proyecto 15.",
+            "pedagogicalUse": "Ayuda a fortalecer demostración de las leyes de newton y a explicar las leyes de Newton, la cinemática y el análisis de datos para explicar acciones deportivas y mejorar su comprensión con mayor claridad mediante leyes de Newton.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "cinemática",
+            "description": "Cinemática es una idea clave para comprender las leyes de Newton, la cinemática y el análisis de datos para explicar acciones deportivas y mejorar su comprensión.",
+            "sourceBook": "Saberes y Pensamiento Científico",
+            "sourcePages": [
+              126,
+              131
+            ],
+            "sourcePagesLabel": "pp. 126-131",
+            "topicTitle": "Cinemática",
+            "status": "confirmed",
+            "reason": "La fuente validada \"Cinemática\" aporta base suficiente para trabajar cinemática dentro del proyecto 15.",
+            "pedagogicalUse": "Ayuda a fortalecer demostración de las leyes de newton y a explicar las leyes de Newton, la cinemática y el análisis de datos para explicar acciones deportivas y mejorar su comprensión con mayor claridad mediante cinemática.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "recolección de datos",
+            "description": "Recolección de datos es una idea clave para comprender las leyes de Newton, la cinemática y el análisis de datos para explicar acciones deportivas y mejorar su comprensión.",
+            "sourceBook": "Saberes y Pensamiento Científico",
+            "sourcePages": [
+              80,
+              84
+            ],
+            "sourcePagesLabel": "pp. 80-84",
+            "topicTitle": "Recolección, registro, análisis y comunicación de datos",
+            "status": "confirmed",
+            "reason": "La fuente validada \"Recolección, registro, análisis y comunicación de datos\" aporta base suficiente para trabajar recolección de datos dentro del proyecto 15.",
+            "pedagogicalUse": "Ayuda a fortalecer demostración de las leyes de newton y a explicar las leyes de Newton, la cinemática y el análisis de datos para explicar acciones deportivas y mejorar su comprensión con mayor claridad mediante recolección de datos.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "fuerza",
+            "description": "Fuerza es una idea clave para comprender las leyes de Newton, la cinemática y el análisis de datos para explicar acciones deportivas y mejorar su comprensión.",
+            "sourceBook": "Saberes y Pensamiento Científico",
+            "sourcePages": [
+              279
+            ],
+            "sourcePagesLabel": "p. 279",
+            "topicTitle": "Fuerza y movimiento",
+            "status": "confirmed",
+            "reason": "La fuente validada \"Fuerza y movimiento\" aporta base suficiente para trabajar fuerza dentro del proyecto 15.",
+            "pedagogicalUse": "Ayuda a fortalecer demostración de las leyes de newton y a explicar las leyes de Newton, la cinemática y el análisis de datos para explicar acciones deportivas y mejorar su comprensión con mayor claridad mediante fuerza.",
+            "activityReadiness": "usable-for-autoevaluation"
+          }
+        ],
+        "thinkingCriteria": [
+          "Relacionar la ley física con un ejemplo concreto y observable.",
+          "Usar datos para sostener la demostración.",
+          "Evitar que la explicación quede en fórmulas sin experiencia cercana."
+        ],
+        "validationStatus": {
+          "readinessLevel": "development-partial",
+          "readyForActivities": false,
+          "needsReviewReasons": [
+            "El bloque 5 ya es usable como lectura docente, pero el video del PPA 5 y el recurso informatico siguen pendientes de validacion de destino final.",
+            "La asignacion de apoyos de Posibilidades se sostiene por inferencia curricular documentada y no por OCR perfectamente separado por columnas.",
+            "No mover a actividades interactivas ni desbloquear juegos completos hasta ampliar validacion de videos y recursos complementarios."
+          ]
+        },
+        "readinessLevel": "development-partial",
+        "readyForActivities": false,
+        "needsReviewReasons": [
+          "No mover a actividades interactivas ni desbloquear juegos completos."
+        ],
+        "roleInPpa": "Cierra el bloque al convertir la teoría del movimiento en demostración pública y comprensible para otras personas.",
+        "pedagogicalUse": "Conviene trabajar Ciencia para destacar en el deporte como una oportunidad para profundizar en las leyes de Newton, la cinemática y el análisis de datos para explicar acciones deportivas y mejorar su comprensión sin separar contenido, comunidad y producto final.",
+        "teacherNotes": [
+          "Conviene partir de ejemplos cercanos y después pasar al lenguaje mas abstracto del campo.",
+          "El producto Demostración de las leyes de Newton gana fuerza cuando se usa para explicar y no solo para exhibir informacion.",
+          "Es mejor seleccionar pocos conceptos bien comprendidos que saturar el trabajo con terminos aislados."
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Qué comprendes mejor sobre las leyes de Newton, la cinemática y el análisis de datos para explicar acciones deportivas y mejorar su comprensión después de elaborar demostración de las leyes de newton?"
+          },
+          {
+            "type": "community",
+            "prompt": "¿Cómo puede cambiar la forma de practicar o enseñar deporte cuando comprendemos mejor las leyes del movimiento?"
+          }
+        ],
+        "notReadyFor": [
+          "full-games",
+          "summative-exam"
+        ]
+      }
+    ]
+  },
+  "conceptsValidation": {
+    "grade": "2",
+    "field": "Saberes y Pensamiento Científico",
+    "ppaNumber": "5",
+    "status": "concept-validation",
+    "generatedAt": "2026-06-02T18:08:11.398Z",
+    "entries": [
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-2-ppa-5-pa13",
+        "projectTitle": "¡Lanzar, patear o batear!",
+        "concept": "infografía mural",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Nuestro libro de proyectos Tomo I",
+          "pages": [
+            169,
+            173
+          ],
+          "reason": "Posibilidades y el propio proyecto fijan Infografía mural como producto final del PA 13."
+        },
+        "pedagogicalUse": "Da una forma concreta de socializar lo comprendido sobre las causas del movimiento y las leyes de Newton explicadas en acciones deportivas observables.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-2-ppa-5-pa13",
+        "projectTitle": "¡Lanzar, patear o batear!",
+        "concept": "cinemática",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Saberes y Pensamiento Científico",
+          "pages": [
+            126,
+            131
+          ],
+          "reason": "La fuente validada \"Cinemática\" aporta base suficiente para trabajar cinemática dentro del proyecto 13."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer infografía mural y a explicar las causas del movimiento y las leyes de Newton explicadas en acciones deportivas observables con mayor claridad mediante cinemática.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-2-ppa-5-pa13",
+        "projectTitle": "¡Lanzar, patear o batear!",
+        "concept": "dinámica",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Saberes y Pensamiento Científico",
+          "pages": [
+            278,
+            289
+          ],
+          "reason": "La fuente validada \"Dinámica\" aporta base suficiente para trabajar dinámica dentro del proyecto 13."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer infografía mural y a explicar las causas del movimiento y las leyes de Newton explicadas en acciones deportivas observables con mayor claridad mediante dinámica.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-2-ppa-5-pa13",
+        "projectTitle": "¡Lanzar, patear o batear!",
+        "concept": "fuerza y movimiento",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Saberes y Pensamiento Científico",
+          "pages": [
+            279
+          ],
+          "reason": "La fuente validada \"Fuerza y movimiento\" aporta base suficiente para trabajar fuerza y movimiento dentro del proyecto 13."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer infografía mural y a explicar las causas del movimiento y las leyes de Newton explicadas en acciones deportivas observables con mayor claridad mediante fuerza y movimiento.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-2-ppa-5-pa13",
+        "projectTitle": "¡Lanzar, patear o batear!",
+        "concept": "tendencias en los datos",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Saberes y Pensamiento Científico",
+          "pages": [
+            92,
+            97
+          ],
+          "reason": "La fuente validada \"Tendencias en los datos\" aporta base suficiente para trabajar tendencias en los datos dentro del proyecto 13."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer infografía mural y a explicar las causas del movimiento y las leyes de Newton explicadas en acciones deportivas observables con mayor claridad mediante tendencias en los datos.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-2-ppa-5-pa14",
+        "projectTitle": "Práctica deportiva con ayuda de la ciencia",
+        "concept": "álbum de predicciones científicas",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Nuestro libro de proyectos Tomo I",
+          "pages": [
+            174,
+            178
+          ],
+          "reason": "Posibilidades y el propio proyecto fijan Álbum de predicciones científicas como producto final del PA 14."
+        },
+        "pedagogicalUse": "Da una forma concreta de socializar lo comprendido sobre la medición, la predicción y la dinámica para anticipar el comportamiento de objetos y cuerpos en prácticas deportivas.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-2-ppa-5-pa14",
+        "projectTitle": "Práctica deportiva con ayuda de la ciencia",
+        "concept": "metrología",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Saberes y Pensamiento Científico",
+          "pages": [
+            249,
+            256
+          ],
+          "reason": "La fuente validada \"Metrología\" aporta base suficiente para trabajar metrología dentro del proyecto 14."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer álbum de predicciones científicas y a explicar la medición, la predicción y la dinámica para anticipar el comportamiento de objetos y cuerpos en prácticas deportivas con mayor claridad mediante metrología.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-2-ppa-5-pa14",
+        "projectTitle": "Práctica deportiva con ayuda de la ciencia",
+        "concept": "sistemas de dos ecuaciones lineales",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Saberes y Pensamiento Científico",
+          "pages": [
+            33,
+            40
+          ],
+          "reason": "La fuente validada \"Sistemas de dos ecuaciones lineales con dos incógnitas\" aporta base suficiente para trabajar sistemas de dos ecuaciones lineales dentro del proyecto 14."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer álbum de predicciones científicas y a explicar la medición, la predicción y la dinámica para anticipar el comportamiento de objetos y cuerpos en prácticas deportivas con mayor claridad mediante sistemas de dos ecuaciones lineales.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-2-ppa-5-pa14",
+        "projectTitle": "Práctica deportiva con ayuda de la ciencia",
+        "concept": "dinámica",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Saberes y Pensamiento Científico",
+          "pages": [
+            278,
+            289
+          ],
+          "reason": "La fuente validada \"Dinámica\" aporta base suficiente para trabajar dinámica dentro del proyecto 14."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer álbum de predicciones científicas y a explicar la medición, la predicción y la dinámica para anticipar el comportamiento de objetos y cuerpos en prácticas deportivas con mayor claridad mediante dinámica.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-2-ppa-5-pa14",
+        "projectTitle": "Práctica deportiva con ayuda de la ciencia",
+        "concept": "predicción científica",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Nuestro libro de proyectos Tomo I",
+          "pages": [
+            174,
+            175,
+            176,
+            177
+          ],
+          "reason": "La fuente validada \"Proyecto académico 14\" aporta base suficiente para trabajar predicción científica dentro del proyecto 14."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer álbum de predicciones científicas y a explicar la medición, la predicción y la dinámica para anticipar el comportamiento de objetos y cuerpos en prácticas deportivas con mayor claridad mediante predicción científica.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-2-ppa-5-pa15",
+        "projectTitle": "Ciencia para destacar en el deporte",
+        "concept": "demostración de las leyes de newton",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Nuestro libro de proyectos Tomo I",
+          "pages": [
+            179,
+            183
+          ],
+          "reason": "Posibilidades y el propio proyecto fijan Demostración de las leyes de Newton como producto final del PA 15."
+        },
+        "pedagogicalUse": "Da una forma concreta de socializar lo comprendido sobre las leyes de Newton, la cinemática y el análisis de datos para explicar acciones deportivas y mejorar su comprensión.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-2-ppa-5-pa15",
+        "projectTitle": "Ciencia para destacar en el deporte",
+        "concept": "leyes de Newton",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Saberes y Pensamiento Científico",
+          "pages": [
+            287,
+            288,
+            289
+          ],
+          "reason": "La fuente validada \"Leyes de Newton\" aporta base suficiente para trabajar leyes de Newton dentro del proyecto 15."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer demostración de las leyes de newton y a explicar las leyes de Newton, la cinemática y el análisis de datos para explicar acciones deportivas y mejorar su comprensión con mayor claridad mediante leyes de Newton.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-2-ppa-5-pa15",
+        "projectTitle": "Ciencia para destacar en el deporte",
+        "concept": "cinemática",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Saberes y Pensamiento Científico",
+          "pages": [
+            126,
+            131
+          ],
+          "reason": "La fuente validada \"Cinemática\" aporta base suficiente para trabajar cinemática dentro del proyecto 15."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer demostración de las leyes de newton y a explicar las leyes de Newton, la cinemática y el análisis de datos para explicar acciones deportivas y mejorar su comprensión con mayor claridad mediante cinemática.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-2-ppa-5-pa15",
+        "projectTitle": "Ciencia para destacar en el deporte",
+        "concept": "recolección de datos",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Saberes y Pensamiento Científico",
+          "pages": [
+            80,
+            84
+          ],
+          "reason": "La fuente validada \"Recolección, registro, análisis y comunicación de datos\" aporta base suficiente para trabajar recolección de datos dentro del proyecto 15."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer demostración de las leyes de newton y a explicar las leyes de Newton, la cinemática y el análisis de datos para explicar acciones deportivas y mejorar su comprensión con mayor claridad mediante recolección de datos.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-2-ppa-5-pa15",
+        "projectTitle": "Ciencia para destacar en el deporte",
+        "concept": "fuerza",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Saberes y Pensamiento Científico",
+          "pages": [
+            279
+          ],
+          "reason": "La fuente validada \"Fuerza y movimiento\" aporta base suficiente para trabajar fuerza dentro del proyecto 15."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer demostración de las leyes de newton y a explicar las leyes de Newton, la cinemática y el análisis de datos para explicar acciones deportivas y mejorar su comprensión con mayor claridad mediante fuerza.",
+        "activityReadiness": "usable-for-autoevaluation"
+      }
+    ]
+  },
+  "pedagogicalArticulation": {
+    "grade": "2",
+    "field": "Saberes y Pensamiento Científico",
+    "ppaNumber": "5",
+    "status": "teacher-orientation",
+    "officialHorizonStatus": "pending",
+    "situatedPedagogicalOrientation": "El PPA 5 articula deporte, movimiento, predicción y leyes de Newton para que el grupo observe trayectorias, mida variables y construya explicaciones científicas sobre acciones corporales cercanas.",
+    "integratingQuestions": [
+      "Como dialogan infografía mural, álbum de predicciones científicas, demostración de las leyes de newton dentro del mismo PPA 5?",
+      "Que cambia en la comprension de el movimiento, la medición y las leyes de Newton como herramientas para comprender prácticas deportivas y fenómenos cotidianos cuando el grupo pone en relacion conceptos, producto y comunidad?",
+      "Como convertir el producto final en una herramienta de explicacion y no solo de presentacion?"
+    ],
+    "projectConnections": [
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-2-ppa-5-pa13",
+        "projectTitle": "¡Lanzar, patear o batear!",
+        "roleInPpa": "Abre el bloque al leer el deporte como laboratorio cercano para pensar movimiento, fuerza y cambio.",
+        "confirmedConcepts": [
+          "infografía mural",
+          "cinemática",
+          "dinámica",
+          "fuerza y movimiento",
+          "tendencias en los datos"
+        ],
+        "suggestedConcepts": [],
+        "pedagogicalUse": "Conviene trabajar ¡Lanzar, patear o batear! como una oportunidad para profundizar en las causas del movimiento y las leyes de Newton explicadas en acciones deportivas observables sin separar contenido, comunidad y producto final."
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-2-ppa-5-pa14",
+        "projectTitle": "Práctica deportiva con ayuda de la ciencia",
+        "roleInPpa": "Profundiza el bloque al pedir que el grupo use conceptos científicos para anticipar y justificar resultados.",
+        "confirmedConcepts": [
+          "álbum de predicciones científicas",
+          "metrología",
+          "sistemas de dos ecuaciones lineales",
+          "dinámica",
+          "predicción científica"
+        ],
+        "suggestedConcepts": [],
+        "pedagogicalUse": "Conviene trabajar Práctica deportiva con ayuda de la ciencia como una oportunidad para profundizar en la medición, la predicción y la dinámica para anticipar el comportamiento de objetos y cuerpos en prácticas deportivas sin separar contenido, comunidad y producto final."
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-2-ppa-5-pa15",
+        "projectTitle": "Ciencia para destacar en el deporte",
+        "roleInPpa": "Cierra el bloque al convertir la teoría del movimiento en demostración pública y comprensible para otras personas.",
+        "confirmedConcepts": [
+          "demostración de las leyes de newton",
+          "leyes de Newton",
+          "cinemática",
+          "recolección de datos",
+          "fuerza"
+        ],
+        "suggestedConcepts": [],
+        "pedagogicalUse": "Conviene trabajar Ciencia para destacar en el deporte como una oportunidad para profundizar en las leyes de Newton, la cinemática y el análisis de datos para explicar acciones deportivas y mejorar su comprensión sin separar contenido, comunidad y producto final."
+      }
+    ],
+    "criteriaOfThought": [
+      {
+        "criterion": "Relacionar el movimiento, la medición y las leyes de Newton como herramientas para comprender prácticas deportivas y fenómenos cotidianos con experiencias concretas del entorno.",
+        "status": "suggested"
+      },
+      {
+        "criterion": "Usar el producto final para comunicar con claridad, no solo para acumular definiciones.",
+        "status": "suggested"
+      }
+    ],
+    "possibleResonanceQuestion": "¿Qué comprensiones nuevas sobre el movimiento, la medición y las leyes de Newton como herramientas para comprender prácticas deportivas y fenómenos cotidianos se vuelven visibles cuando el grupo comparte los productos del PPA 5?",
+    "teacherNotes": [
+      "No reducir el PPA 5 a tres productos aislados; el bloque construye una misma conversacion curricular.",
+      "Las paginas de Posibilidades forman un mismo bloque y los apoyos por columna se documentan por inferencia curricular situada.",
+      "Los enlaces cortos del video detonador y del recurso informatico se mantienen en cautela y no deben tratarse como recursos ya validados."
+    ],
+    "notReadyFor": [
+      "actividades interactivas",
+      "full-games",
+      "summative-exam"
+    ]
+  },
+  "teacherNotesAndResonances": {
+    "grade": "2",
+    "field": "Saberes y Pensamiento Científico",
+    "ppaNumber": "5",
+    "status": "teacher-orientation",
+    "officialHorizonStatus": "pending",
+    "ppaIntegratingResonance": "¿Qué comprensiones nuevas sobre el movimiento, la medición y las leyes de Newton como herramientas para comprender prácticas deportivas y fenómenos cotidianos se vuelven visibles cuando el grupo comparte los productos del PPA 5?",
+    "didacticWarnings": [
+      "No convertir el bloque en una lista de definiciones; importa relacionar conceptos con producto, comunidad y dialogo.",
+      "Los enlaces cortos bit.ly/3VfglUk y bit.ly/3WQBMwg se mantienen como cautela y no deben tratarse como recursos ya validados.",
+      "La distribucion de apoyos por columna se fija por inferencia curricular documentada a partir de Posibilidades."
+    ],
+    "communityPrompts": {
+      "communityKnowledge": [
+        "Que saberes de la comunidad ayudan a profundizar en el movimiento, la medición y las leyes de Newton como herramientas para comprender prácticas deportivas y fenómenos cotidianos?",
+        "Que ejemplos cercanos permiten que los conceptos del campo se vuelvan mas claros para el grupo?"
+      ],
+      "families": [
+        "Que experiencias, relatos o practicas familiares pueden enriquecer el proyecto sin desplazar su foco academico?",
+        "Que aprendizajes vale la pena compartir con otras generaciones a partir del producto final?"
+      ],
+      "territoryLanguageMemory": [
+        "Que palabras, lugares o memorias ayudan a nombrar mejor lo que el proyecto esta buscando comprender?",
+        "Como pueden circular estos productos dentro de la comunidad escolar sin perder precision ni sentido?"
+      ],
+      "productCommunityConnection": [
+        "Como podria circular infografía mural, álbum de predicciones científicas, demostración de las leyes de newton para fortalecer el dialogo comunitario?"
+      ]
+    },
+    "suggestedThinkingCriteria": [
+      "Relacionar el movimiento, la medición y las leyes de Newton como herramientas para comprender prácticas deportivas y fenómenos cotidianos con problemas, experiencias y preguntas del entorno cercano.",
+      "Valorar el producto final como herramienta de comprension y comunicacion compartida."
+    ],
+    "projects": [
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-2-ppa-5-pa13",
+        "projectTitle": "¡Lanzar, patear o batear!",
+        "teacherNotes": [
+          "Conviene partir de ejemplos cercanos y después pasar al lenguaje mas abstracto del campo.",
+          "El producto Infografía mural gana fuerza cuando se usa para explicar y no solo para exhibir informacion.",
+          "Es mejor seleccionar pocos conceptos bien comprendidos que saturar el trabajo con terminos aislados."
+        ],
+        "confirmedConceptsToUse": [
+          "infografía mural",
+          "cinemática",
+          "dinámica",
+          "fuerza y movimiento",
+          "tendencias en los datos"
+        ],
+        "suggestedConceptsToHandleCarefully": [],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Qué comprendes mejor sobre las causas del movimiento y las leyes de Newton explicadas en acciones deportivas observables después de elaborar infografía mural?"
+          },
+          {
+            "type": "community",
+            "prompt": "¿Qué deportes o juegos del entorno pueden ayudarnos a entender mejor cómo actúan las fuerzas sobre los cuerpos?"
+          }
+        ],
+        "notReadyFor": [
+          "full-games",
+          "summative-exam"
+        ]
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-2-ppa-5-pa14",
+        "projectTitle": "Práctica deportiva con ayuda de la ciencia",
+        "teacherNotes": [
+          "Conviene partir de ejemplos cercanos y después pasar al lenguaje mas abstracto del campo.",
+          "El producto Álbum de predicciones científicas gana fuerza cuando se usa para explicar y no solo para exhibir informacion.",
+          "Es mejor seleccionar pocos conceptos bien comprendidos que saturar el trabajo con terminos aislados."
+        ],
+        "confirmedConceptsToUse": [
+          "álbum de predicciones científicas",
+          "metrología",
+          "sistemas de dos ecuaciones lineales",
+          "dinámica",
+          "predicción científica"
+        ],
+        "suggestedConceptsToHandleCarefully": [],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Qué comprendes mejor sobre la medición, la predicción y la dinámica para anticipar el comportamiento de objetos y cuerpos en prácticas deportivas después de elaborar álbum de predicciones científicas?"
+          },
+          {
+            "type": "community",
+            "prompt": "¿Qué movimientos de la vida diaria o del deporte local se prestan mejor para hacer predicciones científicas?"
+          }
+        ],
+        "notReadyFor": [
+          "full-games",
+          "summative-exam"
+        ]
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-2-ppa-5-pa15",
+        "projectTitle": "Ciencia para destacar en el deporte",
+        "teacherNotes": [
+          "Conviene partir de ejemplos cercanos y después pasar al lenguaje mas abstracto del campo.",
+          "El producto Demostración de las leyes de Newton gana fuerza cuando se usa para explicar y no solo para exhibir informacion.",
+          "Es mejor seleccionar pocos conceptos bien comprendidos que saturar el trabajo con terminos aislados."
+        ],
+        "confirmedConceptsToUse": [
+          "demostración de las leyes de newton",
+          "leyes de Newton",
+          "cinemática",
+          "recolección de datos",
+          "fuerza"
+        ],
+        "suggestedConceptsToHandleCarefully": [],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Qué comprendes mejor sobre las leyes de Newton, la cinemática y el análisis de datos para explicar acciones deportivas y mejorar su comprensión después de elaborar demostración de las leyes de newton?"
+          },
+          {
+            "type": "community",
+            "prompt": "¿Cómo puede cambiar la forma de practicar o enseñar deporte cuando comprendemos mejor las leyes del movimiento?"
+          }
+        ],
+        "notReadyFor": [
+          "full-games",
+          "summative-exam"
+        ]
+      }
+    ]
+  },
+  "validationAudit": {
+    "kind": "fine-validation-audit",
+    "source": "reports/caracoles/grade2-saberes-ppa5-reading-bundle-audit.md",
+    "content": "# Auditoria de lectura docente\n\n## Alcance\n\n- Campo: 2o Saberes y Pensamiento Científico\n- Bloque: PPA 5\n- Titulo del PPA: El deporte y las leyes del movimiento\n- Proyectos: PA13-PA15\n\n## Proyectos validados\n\n13. ¡Lanzar, patear o batear!\n   - Producto final: Infografía mural\n   - Paginas: Nuestro libro de proyectos Tomo I pp. 169-173\n14. Práctica deportiva con ayuda de la ciencia\n   - Producto final: Álbum de predicciones científicas\n   - Paginas: Nuestro libro de proyectos Tomo I pp. 174-178\n15. Ciencia para destacar en el deporte\n   - Producto final: Demostración de las leyes de Newton\n   - Paginas: Nuestro libro de proyectos Tomo I pp. 179-183\n\n## Evidencia base usada\n\n- Posibilidades de uso SyPC pp. 14-15.\n- Nuestro libro de proyectos Tomo I pp. 167-183.\n- Saberes y Pensamiento Científico, segundo grado, pp. 17-26, 33-40, 80-97, 126-131, 190-194, 249-256 y 278-289; Múltiples Lenguajes pp. 64 y 110..\n\n## Decisiones curriculares del bloque\n\n- El horizonte comun del PPA 5 se mantiene en estado pendiente como formula unica; se privilegia una orientacion pedagogica situada y documentada.\n- Los productos finales quedan confirmados desde Posibilidades y la secuencia del propio proyecto.\n- Los conceptos confirmados se normalizan para sostener lectura docente, autoevaluacion y actividades de relacion de columnas.\n- La resonancia se formula como pregunta abierta para reforzar el sentido formativo del bloque.\n\n## Cautelas reales\n\n- El video detonador del PPA 5 y el recurso informatico del bloque siguen sin URL oficial confirmada.\n- La asignacion de apoyos por columna se sostiene por inferencia curricular documentada, no por OCR limpio de tabla.\n- No se marca el bloque como actividades interactivas ni se desbloquean juegos completos.\n"
+  }
+}

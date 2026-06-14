@@ -1,0 +1,1412 @@
+{
+  "grade": "2",
+  "gradeLabel": "Segundo grado",
+  "field": "Lenguajes",
+  "ppaNumber": "6",
+  "partialClassroomProject": "PPA 6",
+  "partialClassroomProjectTitle": "En busca de nuevas ideas para la producción creativa",
+  "source": "curricular-development-pilot",
+  "generatedAt": "2026-06-04T15:51:05.989Z",
+  "development": {
+    "grade": "2",
+    "gradeLabel": "Segundo grado",
+    "field": "Lenguajes",
+    "bookVolume": "Tomo II",
+    "partialClassroomProject": "PPA 6",
+    "partialClassroomProjectTitle": "En busca de nuevas ideas para la producción creativa",
+    "generatedAt": "2026-06-02T14:59:02.880Z",
+    "notes": "Capa curricular generada por lote para 2o Lenguajes, PPA 6.",
+    "sourcesUsed": [
+      "public/caracoles/data/generated/grade-2/selectable-projects.json",
+      "content/caracoles/generated-private/grade-2/pages-index.full.json",
+      "Posibilidades de uso Lenguajes, segundo grado, pp. 19-20",
+      "Nuestro libro de proyectos Tomo II, segundo grado, pp. 11-25",
+      "Lenguajes, segundo grado, pp. 12-20, 37-41, 45, 50-51, 68-70, 82-94, 120, 126-128, 159-161, 255, 261 y 299-308; Múltiples Lenguajes pp. 50-53 y 80-87."
+    ],
+    "partialClassroomProjectContext": {
+      "expectationHorizon": {
+        "officialText": "",
+        "sourcePages": [
+          "Nuestro libro de proyectos Tomo II pp. 11-12",
+          "Posibilidades de uso Lenguajes pp. 19-20"
+        ],
+        "evidence": "El PPA 6 articula declamación, poemario con viñetas y muestra escénica para que el grupo interprete textos literarios, reconozca recursos estéticos y los transforme creativamente en experiencias orales, visuales y corporales.",
+        "status": "pending"
+      },
+      "ppaDetonatingStrategy": {
+        "title": "En busca de nuevas ideas para la producción creativa",
+        "type": "video",
+        "url": "",
+        "urlStatus": "pending-url",
+        "reference": "bit.ly/3VfglUk",
+        "source": "Nuestro libro de proyectos Tomo II pp. 11-12 + Posibilidades de uso Lenguajes pp. 19-20",
+        "scope": "partial-classroom-project",
+        "youtubeSearchQuery": "En busca de nuevas ideas para la producción creativa Lenguajes 2do grado Telesecundaria"
+      },
+      "ppaDigitalResource": {
+        "title": "Recurso informatico del bloque PPA 6",
+        "reference": "bit.ly/3WQBMwg",
+        "status": "pending-validation",
+        "source": "Nuestro libro de proyectos Tomo II pp. 11-25"
+      },
+      "validationStatus": {
+        "needsHumanReview": true,
+        "needsReviewReasons": [
+          "Las pp. 19-20 de Posibilidades pertenecen al mismo PPA 6.",
+          "La asignacion de apoyos por columna se fija por inferencia curricular documentada de izquierda a derecha.",
+          "Los enlaces cortos del video del PPA y del recurso informatico se mantienen en cautela hasta localizar un destino oficial confirmado.",
+          "En este bloque solo quedó plenamente claro el apoyo de David Lara para la segunda columna y un apoyo escénico para la tercera; la primera columna se sostiene mejor por conceptos y producto que por apoyo independiente."
+        ]
+      },
+      "columnValidation": {
+        "possibilitiesPagesReviewed": [
+          19,
+          20
+        ],
+        "confirmedAsPpa": true,
+        "note": "Las pp. 19-20 corresponden al PPA 6 En busca de nuevas ideas para la producción creativa. Las tres columnas se sostienen por el orden de proyectos, productos y apoyos del mismo bloque.",
+        "columns": [
+          {
+            "columnIndex": 1,
+            "projectId": "lenguajes-2-ppa-6-pa16",
+            "projectTitle": "Del papel a la voz",
+            "finalProduct": "Declamación dramatizada",
+            "supportMaterials": []
+          },
+          {
+            "columnIndex": 2,
+            "projectId": "lenguajes-2-ppa-6-pa17",
+            "projectTitle": "Fandango de emociones, trovador de poesía",
+            "finalProduct": "Poemario con viñetas",
+            "supportMaterials": [
+              "David Lara, pp. 50-53"
+            ]
+          },
+          {
+            "columnIndex": 3,
+            "projectId": "lenguajes-2-ppa-6-pa18",
+            "projectTitle": "Del cuento al teatro, de la expresión literaria a la expresión corporal",
+            "finalProduct": "Muestra escénica",
+            "supportMaterials": [
+              "Encuentro nocturno, pp. 80-87"
+            ]
+          }
+        ]
+      }
+    },
+    "academicProjects": [
+      {
+        "id": "lenguajes-2-ppa-6-pa16",
+        "projectId": "lenguajes-2-ppa-6-pa16",
+        "academicProjectNumber": 16,
+        "title": "Del papel a la voz",
+        "projectTitle": "Del papel a la voz",
+        "grade": "2",
+        "field": "Lenguajes",
+        "ppaNumber": "6",
+        "partialClassroomProject": "PPA 6",
+        "partialClassroomProjectTitle": "En busca de nuevas ideas para la producción creativa",
+        "bookVolume": "Tomo II",
+        "sourceValidation": {
+          "sourceStatus": "linked",
+          "possibilitiesPages": [
+            19,
+            20
+          ],
+          "possibilitiesMaterialId": "grade-2-posibilidades-pos-len-2",
+          "possibilitiesColumnIndex": 1,
+          "columnEvidence": "Bloque PPA 6 En busca de nuevas ideas para la producción creativa localizado en pp. 19-20; la columna 1 se confirma por el orden de proyectos, productos y continuidad del mismo bloque."
+        },
+        "finalProduct": {
+          "title": "Declamación dramatizada",
+          "source": "Posibilidades de uso Lenguajes pp. 19-20 + Nuestro libro de proyectos Tomo II pp. 13-16",
+          "status": "confirmed"
+        },
+        "sourcePages": {
+          "nuestroLibroProyectos": [
+            {
+              "materialId": "grade-2-proyectos-nuestro-libro-de-proyectos-tomo-2-segundo-grado",
+              "label": "Nuestro libro de proyectos Tomo II",
+              "startPage": 13,
+              "endPage": 16,
+              "pagesLabel": "pp. 13-16",
+              "topicTitle": "Proyecto academico 16",
+              "status": "confirmed-source"
+            }
+          ],
+          "conceptBook": [
+            {
+              "materialId": "grade-2-conceptos-lenguajes-segundo-grado",
+              "label": "Lenguajes",
+              "startPage": 13,
+              "endPage": 17,
+              "pagesLabel": "pp. 13-17",
+              "topicTitle": "La recopilación de los elementos, las características y la función del texto literario",
+              "status": "confirmed-by-column-inference"
+            },
+            {
+              "materialId": "grade-2-conceptos-lenguajes-segundo-grado",
+              "label": "Lenguajes",
+              "startPage": 38,
+              "endPage": 41,
+              "pagesLabel": "pp. 38-41",
+              "topicTitle": "Los recursos literarios como instrumentos para embellecer la lengua",
+              "status": "confirmed-by-column-inference"
+            },
+            {
+              "materialId": "grade-2-conceptos-lenguajes-segundo-grado",
+              "label": "Lenguajes",
+              "startPage": 160,
+              "endPage": 161,
+              "pagesLabel": "pp. 160-161",
+              "topicTitle": "La poesía en la tradición oral indígena",
+              "status": "confirmed-by-column-inference"
+            }
+          ],
+          "multiplesLenguajes": [],
+          "otherMaterials": [
+            {
+              "label": "Video PA 16: Declamación dramatizada • Lenguajes • 2do grado",
+              "reference": "https://www.youtube.com/watch?v=DZ7SfC2jKBQ",
+              "status": "confirmed"
+            },
+            {
+              "label": "Video PPA 6: 6. En busca de nuevas ideas para la productividad creativa • Lenguajes • 2do grado",
+              "reference": "https://www.youtube.com/watch?v=VOTbkTrOlO8",
+              "status": "confirmed"
+            }
+          ]
+        },
+        "supportMaterials": [],
+        "horizonOrPurpose": {
+          "status": "official",
+          "text": "Explorar e interpretar textos literarios narrativos, orales y escritos, mediante la función creativa del español, para ejecutar una declamación dramatizada que fortalezca sus habilidades lectoras y de memorización.",
+          "source": "Nuestro libro de proyectos Tomo II p. 13"
+        },
+        "projectExpectationHorizon": {
+          "officialText": "Explorar textos narrativos, reconocer sus recursos expresivos y preparar una declamación dramatizada que fortalezca la lectura, la memorización y la expresión oral.",
+          "studentVersion": "Seleccionar e interpretar un texto narrativo para presentarlo mediante una declamación dramatizada.",
+          "sourcePages": [
+            "Nuestro libro de proyectos Tomo II p. 13"
+          ],
+          "evidence": "La formulación de la etapa 1 ya deja claro que el proyecto se organiza alrededor de la exploración de textos y su presentación dramatizada.",
+          "status": "official"
+        },
+        "detonatingStrategy": {
+          "title": "6. En busca de nuevas ideas para la productividad creativa • Lenguajes • 2do grado",
+          "text": "Video del Proyecto Parcial de Aula 6: 6. En busca de nuevas ideas para la productividad creativa • Lenguajes • 2do grado",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=VOTbkTrOlO8",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "partial-classroom-project"
+        },
+        "academicProjectStrategy": {
+          "title": "Declamación dramatizada • Lenguajes • 2do grado",
+          "text": "Video detonador del Proyecto Academico 16: Del papel a la voz",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=DZ7SfC2jKBQ",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "academic-project"
+        },
+        "academicConcepts": [
+          {
+            "concept": "declamación dramatizada",
+            "description": "Declamación dramatizada como producto de cierre para organizar y comunicar aprendizajes del proyecto.",
+            "sourceBook": "Nuestro libro de proyectos Tomo II",
+            "sourcePages": [
+              13,
+              16
+            ],
+            "sourcePagesLabel": "pp. 13-16",
+            "topicTitle": "Proyecto academico 16",
+            "status": "confirmed",
+            "reason": "Posibilidades y el propio proyecto fijan Declamación dramatizada como producto final del PA 16.",
+            "pedagogicalUse": "Da una forma concreta de socializar lo comprendido sobre la interpretación de textos literarios narrativos mediante la función creativa del español y el fortalecimiento de la lectura en voz alta.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "textos literarios narrativos",
+            "description": "Relatos escritos u orales que construyen personajes, acciones y ambientes para comunicar una historia.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              13,
+              17
+            ],
+            "sourcePagesLabel": "pp. 13-17",
+            "topicTitle": "La recopilación de los elementos, las características y la función del texto literario",
+            "status": "confirmed",
+            "reason": "La fuente validada \"La recopilación de los elementos, las características y la función del texto literario\" aporta base suficiente para trabajar textos literarios narrativos dentro del proyecto 16.",
+            "pedagogicalUse": "Ayuda a fortalecer declamación dramatizada y a explicar la interpretación de textos literarios narrativos mediante la función creativa del español y el fortalecimiento de la lectura en voz alta con mayor claridad mediante textos literarios narrativos.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "función creativa del español",
+            "description": "Uso expresivo de la lengua para crear efectos estéticos, emocionales y comunicativos en quien escucha o lee.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              38,
+              41
+            ],
+            "sourcePagesLabel": "pp. 38-41",
+            "topicTitle": "Los recursos literarios como instrumentos para embellecer la lengua",
+            "status": "confirmed",
+            "reason": "La fuente validada \"Los recursos literarios como instrumentos para embellecer la lengua\" aporta base suficiente para trabajar función creativa del español dentro del proyecto 16.",
+            "pedagogicalUse": "Ayuda a fortalecer declamación dramatizada y a explicar la interpretación de textos literarios narrativos mediante la función creativa del español y el fortalecimiento de la lectura en voz alta con mayor claridad mediante función creativa del español.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "lectura en voz alta",
+            "description": "Práctica de interpretación oral que cuida sentido, entonación, ritmo y claridad ante un público.",
+            "sourceBook": "Nuestro libro de proyectos Tomo II",
+            "sourcePages": [
+              13,
+              14,
+              15
+            ],
+            "sourcePagesLabel": "pp. 13-15",
+            "topicTitle": "Proyecto académico 16",
+            "status": "confirmed",
+            "reason": "La fuente validada \"Proyecto académico 16\" aporta base suficiente para trabajar lectura en voz alta dentro del proyecto 16.",
+            "pedagogicalUse": "Ayuda a fortalecer declamación dramatizada y a explicar la interpretación de textos literarios narrativos mediante la función creativa del español y el fortalecimiento de la lectura en voz alta con mayor claridad mediante lectura en voz alta.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "memorización comprensiva",
+            "description": "Proceso de recordar un texto a partir de su significado, estructura y efectos expresivos, no solo de la repetición.",
+            "sourceBook": "Nuestro libro de proyectos Tomo II",
+            "sourcePages": [
+              13,
+              15,
+              16
+            ],
+            "sourcePagesLabel": "pp. 13-16",
+            "topicTitle": "Proyecto académico 16",
+            "status": "confirmed",
+            "reason": "La fuente validada \"Proyecto académico 16\" aporta base suficiente para trabajar memorización comprensiva dentro del proyecto 16.",
+            "pedagogicalUse": "Ayuda a fortalecer declamación dramatizada y a explicar la interpretación de textos literarios narrativos mediante la función creativa del español y el fortalecimiento de la lectura en voz alta con mayor claridad mediante memorización comprensiva.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "declamación",
+            "description": "Presentación oral de un texto literario en la que la voz, el gesto y la intención ayudan a comunicar su sentido.",
+            "sourceBook": "Nuestro libro de proyectos Tomo II",
+            "sourcePages": [
+              13,
+              16,
+              17
+            ],
+            "sourcePagesLabel": "pp. 13-17",
+            "topicTitle": "Proyecto académico 16",
+            "status": "confirmed",
+            "reason": "La fuente validada \"Proyecto académico 16\" aporta base suficiente para trabajar declamación dentro del proyecto 16.",
+            "pedagogicalUse": "Ayuda a fortalecer declamación dramatizada y a explicar la interpretación de textos literarios narrativos mediante la función creativa del español y el fortalecimiento de la lectura en voz alta con mayor claridad mediante declamación.",
+            "activityReadiness": "usable-for-autoevaluation"
+          }
+        ],
+        "thinkingCriteria": [
+          "Relacionar la comprensión del texto con la manera en que se declama frente a otras personas.",
+          "Distinguir entre leer de forma plana y construir una interpretación oral con intención estética.",
+          "Usar la memorización como apoyo de la expresión, no como repetición mecánica."
+        ],
+        "validationStatus": {
+          "readinessLevel": "development-partial",
+          "readyForActivities": false,
+          "needsReviewReasons": [
+            "El bloque 6 ya es usable como lectura docente, pero el video del PPA 6 y el recurso informatico siguen pendientes de validacion de destino final.",
+            "La asignacion de apoyos de Posibilidades se sostiene por inferencia curricular documentada y no por OCR perfectamente separado por columnas.",
+            "No mover a actividades interactivas ni desbloquear juegos completos hasta ampliar validacion de videos y recursos complementarios."
+          ]
+        },
+        "readinessLevel": "development-partial",
+        "readyForActivities": false,
+        "needsReviewReasons": [
+          "No mover a actividades interactivas ni desbloquear juegos completos."
+        ],
+        "roleInPpa": "Abre el bloque al convertir la lectura en una experiencia oral y expresiva que da confianza al grupo para trabajar después con poesía y escena.",
+        "pedagogicalUse": "Conviene trabajar Del papel a la voz como una oportunidad para profundizar en la interpretación de textos literarios narrativos mediante la función creativa del español y el fortalecimiento de la lectura en voz alta sin separar contenido, comunidad y producto final.",
+        "teacherNotes": [
+          "Conviene partir de ejemplos cercanos y después pasar al lenguaje mas abstracto del campo.",
+          "El producto Declamación dramatizada gana fuerza cuando se usa para explicar y no solo para exhibir informacion.",
+          "Es mejor seleccionar pocos conceptos bien comprendidos que saturar el trabajo con terminos aislados."
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Qué comprendes mejor sobre la interpretación de textos literarios narrativos mediante la función creativa del español y el fortalecimiento de la lectura en voz alta después de elaborar declamación dramatizada?"
+          },
+          {
+            "type": "community",
+            "prompt": "¿Qué textos de la comunidad merecen volver a escucharse en voz alta para que sigan diciendo algo importante hoy?"
+          }
+        ],
+        "notReadyFor": [
+          "full-games",
+          "summative-exam"
+        ]
+      },
+      {
+        "id": "lenguajes-2-ppa-6-pa17",
+        "projectId": "lenguajes-2-ppa-6-pa17",
+        "academicProjectNumber": 17,
+        "title": "Fandango de emociones, trovador de poesía",
+        "projectTitle": "Fandango de emociones, trovador de poesía",
+        "grade": "2",
+        "field": "Lenguajes",
+        "ppaNumber": "6",
+        "partialClassroomProject": "PPA 6",
+        "partialClassroomProjectTitle": "En busca de nuevas ideas para la producción creativa",
+        "bookVolume": "Tomo II",
+        "sourceValidation": {
+          "sourceStatus": "linked",
+          "possibilitiesPages": [
+            19,
+            20
+          ],
+          "possibilitiesMaterialId": "grade-2-posibilidades-pos-len-2",
+          "possibilitiesColumnIndex": 2,
+          "columnEvidence": "Bloque PPA 6 En busca de nuevas ideas para la producción creativa localizado en pp. 19-20; la columna 2 se confirma por el orden de proyectos, productos y continuidad del mismo bloque."
+        },
+        "finalProduct": {
+          "title": "Poemario con viñetas",
+          "source": "Posibilidades de uso Lenguajes pp. 19-20 + Nuestro libro de proyectos Tomo II pp. 17-20",
+          "status": "confirmed"
+        },
+        "sourcePages": {
+          "nuestroLibroProyectos": [
+            {
+              "materialId": "grade-2-proyectos-nuestro-libro-de-proyectos-tomo-2-segundo-grado",
+              "label": "Nuestro libro de proyectos Tomo II",
+              "startPage": 17,
+              "endPage": 20,
+              "pagesLabel": "pp. 17-20",
+              "topicTitle": "Proyecto academico 17",
+              "status": "confirmed-source"
+            }
+          ],
+          "conceptBook": [
+            {
+              "materialId": "grade-2-conceptos-lenguajes-segundo-grado",
+              "label": "Lenguajes",
+              "startPage": 38,
+              "endPage": 41,
+              "pagesLabel": "pp. 38-41",
+              "topicTitle": "Los recursos literarios como instrumentos para embellecer la lengua",
+              "status": "confirmed-by-column-inference"
+            },
+            {
+              "materialId": "grade-2-conceptos-lenguajes-segundo-grado",
+              "label": "Lenguajes",
+              "startPage": 160,
+              "endPage": 161,
+              "pagesLabel": "pp. 160-161",
+              "topicTitle": "La poesía en la tradición oral indígena",
+              "status": "confirmed-by-column-inference"
+            },
+            {
+              "materialId": "grade-2-conceptos-lenguajes-segundo-grado",
+              "label": "Lenguajes",
+              "startPage": 126,
+              "endPage": 128,
+              "pagesLabel": "pp. 126-128",
+              "topicTitle": "Las creaciones de la nueva palabra de escritores contemporáneos",
+              "status": "confirmed-by-column-inference"
+            }
+          ],
+          "multiplesLenguajes": [
+            {
+              "materialId": "grade-2-apoyo-multiples-lenguajes-segundo-grado",
+              "label": "Multiples Lenguajes",
+              "startPage": 50,
+              "endPage": 53,
+              "pagesLabel": "pp. 50-53",
+              "topicTitle": "David Lara",
+              "status": "confirmed-by-column-inference"
+            }
+          ],
+          "otherMaterials": [
+            {
+              "label": "Video PA 17: Recital poético • Lenguajes • 2do grado",
+              "reference": "https://www.youtube.com/watch?v=6MP9b1subh0",
+              "status": "confirmed"
+            },
+            {
+              "label": "Video PPA 6: 6. En busca de nuevas ideas para la productividad creativa • Lenguajes • 2do grado",
+              "reference": "https://www.youtube.com/watch?v=VOTbkTrOlO8",
+              "status": "confirmed"
+            }
+          ]
+        },
+        "supportMaterials": [
+          {
+            "title": "David Lara",
+            "kind": "Multiples Lenguajes",
+            "pages": "pp. 50-53",
+            "status": "confirmed-by-column-inference"
+          }
+        ],
+        "horizonOrPurpose": {
+          "status": "official",
+          "text": "Reconocer el uso intencional de los elementos y recursos estéticos de diversos lenguajes, mediante un poemario con viñetas, para incentivar la creación literaria y artística.",
+          "source": "Nuestro libro de proyectos Tomo II p. 17"
+        },
+        "projectExpectationHorizon": {
+          "officialText": "Identificar figuras retóricas y recursos estéticos para escribir poemas propios, organizarlos en un poemario con viñetas y compartir su fuerza expresiva.",
+          "studentVersion": "Crear poemas propios y organizarlos en un poemario con viñetas que muestre recursos estéticos y sensibilidad literaria.",
+          "sourcePages": [
+            "Nuestro libro de proyectos Tomo II p. 17"
+          ],
+          "evidence": "La etapa 1 y la problematización del proyecto colocan con claridad la escritura poética, la apreciación estética y el poemario como eje del trabajo.",
+          "status": "official"
+        },
+        "detonatingStrategy": {
+          "title": "6. En busca de nuevas ideas para la productividad creativa • Lenguajes • 2do grado",
+          "text": "Video del Proyecto Parcial de Aula 6: 6. En busca de nuevas ideas para la productividad creativa • Lenguajes • 2do grado",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=VOTbkTrOlO8",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "partial-classroom-project"
+        },
+        "academicProjectStrategy": {
+          "title": "Recital poético • Lenguajes • 2do grado",
+          "text": "Video detonador del Proyecto Academico 17: Fandango de emociones, trovador de poesía",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=6MP9b1subh0",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "academic-project"
+        },
+        "academicConcepts": [
+          {
+            "concept": "poemario con viñetas",
+            "description": "Poemario con viñetas como producto de cierre para organizar y comunicar aprendizajes del proyecto.",
+            "sourceBook": "Nuestro libro de proyectos Tomo II",
+            "sourcePages": [
+              17,
+              20
+            ],
+            "sourcePagesLabel": "pp. 17-20",
+            "topicTitle": "Proyecto academico 17",
+            "status": "confirmed",
+            "reason": "Posibilidades y el propio proyecto fijan Poemario con viñetas como producto final del PA 17.",
+            "pedagogicalUse": "Da una forma concreta de socializar lo comprendido sobre el reconocimiento de figuras retóricas y recursos estéticos para escribir poesía y presentarla en un poemario con viñetas.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "figuras retóricas",
+            "description": "Recursos del lenguaje que permiten comparar, intensificar, sugerir o embellecer una idea poética.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              38,
+              41
+            ],
+            "sourcePagesLabel": "pp. 38-41",
+            "topicTitle": "Los recursos literarios como instrumentos para embellecer la lengua",
+            "status": "confirmed",
+            "reason": "La fuente validada \"Los recursos literarios como instrumentos para embellecer la lengua\" aporta base suficiente para trabajar figuras retóricas dentro del proyecto 17.",
+            "pedagogicalUse": "Ayuda a fortalecer poemario con viñetas y a explicar el reconocimiento de figuras retóricas y recursos estéticos para escribir poesía y presentarla en un poemario con viñetas con mayor claridad mediante figuras retóricas.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "recursos estéticos",
+            "description": "Elementos expresivos que ayudan a producir belleza, fuerza o singularidad en un texto.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              38,
+              41
+            ],
+            "sourcePagesLabel": "pp. 38-41",
+            "topicTitle": "Los recursos literarios como instrumentos para embellecer la lengua",
+            "status": "confirmed",
+            "reason": "La fuente validada \"Los recursos literarios como instrumentos para embellecer la lengua\" aporta base suficiente para trabajar recursos estéticos dentro del proyecto 17.",
+            "pedagogicalUse": "Ayuda a fortalecer poemario con viñetas y a explicar el reconocimiento de figuras retóricas y recursos estéticos para escribir poesía y presentarla en un poemario con viñetas con mayor claridad mediante recursos estéticos.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "creación literaria",
+            "description": "Proceso de escritura en el que una persona transforma emociones, ideas y experiencias en una obra con intención artística.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              126,
+              128
+            ],
+            "sourcePagesLabel": "pp. 126-128",
+            "topicTitle": "Las creaciones de la nueva palabra de escritores contemporáneos",
+            "status": "confirmed",
+            "reason": "La fuente validada \"Las creaciones de la nueva palabra de escritores contemporáneos\" aporta base suficiente para trabajar creación literaria dentro del proyecto 17.",
+            "pedagogicalUse": "Ayuda a fortalecer poemario con viñetas y a explicar el reconocimiento de figuras retóricas y recursos estéticos para escribir poesía y presentarla en un poemario con viñetas con mayor claridad mediante creación literaria.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "poesía",
+            "description": "Manifestación literaria que trabaja con ritmo, imágenes y condensación del sentido para expresar una mirada del mundo.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              160,
+              161
+            ],
+            "sourcePagesLabel": "pp. 160-161",
+            "topicTitle": "La poesía en la tradición oral indígena",
+            "status": "confirmed",
+            "reason": "La fuente validada \"La poesía en la tradición oral indígena\" aporta base suficiente para trabajar poesía dentro del proyecto 17.",
+            "pedagogicalUse": "Ayuda a fortalecer poemario con viñetas y a explicar el reconocimiento de figuras retóricas y recursos estéticos para escribir poesía y presentarla en un poemario con viñetas con mayor claridad mediante poesía.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "viñetas",
+            "description": "Imágenes breves que dialogan con el poema y amplían su intención expresiva o narrativa.",
+            "sourceBook": "Nuestro libro de proyectos Tomo II",
+            "sourcePages": [
+              17,
+              18,
+              19
+            ],
+            "sourcePagesLabel": "pp. 17-19",
+            "topicTitle": "Proyecto académico 17",
+            "status": "confirmed",
+            "reason": "La fuente validada \"Proyecto académico 17\" aporta base suficiente para trabajar viñetas dentro del proyecto 17.",
+            "pedagogicalUse": "Ayuda a fortalecer poemario con viñetas y a explicar el reconocimiento de figuras retóricas y recursos estéticos para escribir poesía y presentarla en un poemario con viñetas con mayor claridad mediante viñetas.",
+            "activityReadiness": "usable-for-autoevaluation"
+          }
+        ],
+        "thinkingCriteria": [
+          "Reconocer que el poema y la viñeta se fortalecen mutuamente dentro del producto final.",
+          "Distinguir entre usar una figura retórica de forma decorativa y usarla para reforzar un sentido.",
+          "Relacionar la poesía con experiencias propias y con tradiciones literarias más amplias."
+        ],
+        "validationStatus": {
+          "readinessLevel": "development-partial",
+          "readyForActivities": false,
+          "needsReviewReasons": [
+            "El bloque 6 ya es usable como lectura docente, pero el video del PPA 6 y el recurso informatico siguen pendientes de validacion de destino final.",
+            "La asignacion de apoyos de Posibilidades se sostiene por inferencia curricular documentada y no por OCR perfectamente separado por columnas.",
+            "No mover a actividades interactivas ni desbloquear juegos completos hasta ampliar validacion de videos y recursos complementarios."
+          ]
+        },
+        "readinessLevel": "development-partial",
+        "readyForActivities": false,
+        "needsReviewReasons": [
+          "No mover a actividades interactivas ni desbloquear juegos completos."
+        ],
+        "roleInPpa": "Profundiza el bloque al pasar de la interpretación a la creación poética y visual.",
+        "pedagogicalUse": "Conviene trabajar Fandango de emociones, trovador de poesía como una oportunidad para profundizar en el reconocimiento de figuras retóricas y recursos estéticos para escribir poesía y presentarla en un poemario con viñetas sin separar contenido, comunidad y producto final.",
+        "teacherNotes": [
+          "Conviene partir de ejemplos cercanos y después pasar al lenguaje mas abstracto del campo.",
+          "El producto Poemario con viñetas gana fuerza cuando se usa para explicar y no solo para exhibir informacion.",
+          "Es mejor seleccionar pocos conceptos bien comprendidos que saturar el trabajo con terminos aislados."
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Qué comprendes mejor sobre el reconocimiento de figuras retóricas y recursos estéticos para escribir poesía y presentarla en un poemario con viñetas después de elaborar poemario con viñetas?"
+          },
+          {
+            "type": "community",
+            "prompt": "¿Qué emociones o experiencias de la comunidad podrían volverse más claras si se expresan en un poema acompañado de imágenes?"
+          }
+        ],
+        "notReadyFor": [
+          "full-games",
+          "summative-exam"
+        ]
+      },
+      {
+        "id": "lenguajes-2-ppa-6-pa18",
+        "projectId": "lenguajes-2-ppa-6-pa18",
+        "academicProjectNumber": 18,
+        "title": "Del cuento al teatro, de la expresión literaria a la expresión corporal",
+        "projectTitle": "Del cuento al teatro, de la expresión literaria a la expresión corporal",
+        "grade": "2",
+        "field": "Lenguajes",
+        "ppaNumber": "6",
+        "partialClassroomProject": "PPA 6",
+        "partialClassroomProjectTitle": "En busca de nuevas ideas para la producción creativa",
+        "bookVolume": "Tomo II",
+        "sourceValidation": {
+          "sourceStatus": "linked",
+          "possibilitiesPages": [
+            19,
+            20
+          ],
+          "possibilitiesMaterialId": "grade-2-posibilidades-pos-len-2",
+          "possibilitiesColumnIndex": 3,
+          "columnEvidence": "Bloque PPA 6 En busca de nuevas ideas para la producción creativa localizado en pp. 19-20; la columna 3 se confirma por el orden de proyectos, productos y continuidad del mismo bloque."
+        },
+        "finalProduct": {
+          "title": "Muestra escénica",
+          "source": "Posibilidades de uso Lenguajes pp. 19-20 + Nuestro libro de proyectos Tomo II pp. 21-25",
+          "status": "confirmed"
+        },
+        "sourcePages": {
+          "nuestroLibroProyectos": [
+            {
+              "materialId": "grade-2-proyectos-nuestro-libro-de-proyectos-tomo-2-segundo-grado",
+              "label": "Nuestro libro de proyectos Tomo II",
+              "startPage": 21,
+              "endPage": 25,
+              "pagesLabel": "pp. 21-25",
+              "topicTitle": "Proyecto academico 18",
+              "status": "confirmed-source"
+            }
+          ],
+          "conceptBook": [
+            {
+              "materialId": "grade-2-conceptos-lenguajes-segundo-grado",
+              "label": "Lenguajes",
+              "startPage": 50,
+              "endPage": 51,
+              "pagesLabel": "pp. 50-51",
+              "topicTitle": "Adaptación de narraciones escritas a guion de radio o de podcast",
+              "status": "confirmed-by-column-inference"
+            },
+            {
+              "materialId": "grade-2-conceptos-lenguajes-segundo-grado",
+              "label": "Lenguajes",
+              "startPage": 83,
+              "endPage": 85,
+              "pagesLabel": "pp. 83-85",
+              "topicTitle": "Sonido y movimiento, cuerpo herido que se regenera",
+              "status": "confirmed-by-column-inference"
+            },
+            {
+              "materialId": "grade-2-conceptos-lenguajes-segundo-grado",
+              "label": "Lenguajes",
+              "startPage": 261,
+              "endPage": 261,
+              "pagesLabel": "p. 261",
+              "topicTitle": "El teatro como método de acción social y creación colectiva",
+              "status": "confirmed-by-column-inference"
+            },
+            {
+              "materialId": "grade-2-conceptos-lenguajes-segundo-grado",
+              "label": "Lenguajes",
+              "startPage": 300,
+              "endPage": 308,
+              "pagesLabel": "pp. 300-308",
+              "topicTitle": "Las artes como herramientas de expresión y liberación personal y social",
+              "status": "confirmed-by-column-inference"
+            }
+          ],
+          "multiplesLenguajes": [
+            {
+              "materialId": "grade-2-apoyo-multiples-lenguajes-segundo-grado",
+              "label": "Multiples Lenguajes",
+              "startPage": 80,
+              "endPage": 87,
+              "pagesLabel": "pp. 80-87",
+              "topicTitle": "Encuentro nocturno",
+              "status": "confirmed-by-column-inference"
+            }
+          ],
+          "otherMaterials": [
+            {
+              "label": "Video PA 18: Teatro guiñol • Lenguajes • 2do grado",
+              "reference": "https://www.youtube.com/watch?v=k-WlW-EZvRc",
+              "status": "confirmed"
+            },
+            {
+              "label": "Video PPA 6: 6. En busca de nuevas ideas para la productividad creativa • Lenguajes • 2do grado",
+              "reference": "https://www.youtube.com/watch?v=VOTbkTrOlO8",
+              "status": "confirmed"
+            }
+          ]
+        },
+        "supportMaterials": [
+          {
+            "title": "Encuentro nocturno",
+            "kind": "Multiples Lenguajes",
+            "pages": "pp. 80-87",
+            "status": "confirmed-by-column-inference"
+          }
+        ],
+        "horizonOrPurpose": {
+          "status": "official",
+          "text": "Adaptar un texto literario (leyenda, mito o cuento corto de origen oral) en lengua indígena a una muestra escénica, con la finalidad de explorar contenidos en torno a la Tierra como madre y como territorio.",
+          "source": "Nuestro libro de proyectos Tomo II p. 21"
+        },
+        "projectExpectationHorizon": {
+          "officialText": "Seleccionar un texto de tradición oral, adaptarlo a un guion de trabajo escénico y presentarlo mediante una muestra escénica que una palabra, cuerpo y territorio.",
+          "studentVersion": "Convertir un texto literario de tradición oral en una muestra escénica que explore la Tierra como madre y territorio.",
+          "sourcePages": [
+            "Nuestro libro de proyectos Tomo II p. 21"
+          ],
+          "evidence": "La etapa 1 del proyecto define con precisión la adaptación del texto y el horizonte temático de la muestra escénica.",
+          "status": "official"
+        },
+        "detonatingStrategy": {
+          "title": "6. En busca de nuevas ideas para la productividad creativa • Lenguajes • 2do grado",
+          "text": "Video del Proyecto Parcial de Aula 6: 6. En busca de nuevas ideas para la productividad creativa • Lenguajes • 2do grado",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=VOTbkTrOlO8",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "partial-classroom-project"
+        },
+        "academicProjectStrategy": {
+          "title": "Teatro guiñol • Lenguajes • 2do grado",
+          "text": "Video detonador del Proyecto Academico 18: Del cuento al teatro, de la expresión literaria a la expresión corporal",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=k-WlW-EZvRc",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "academic-project"
+        },
+        "academicConcepts": [
+          {
+            "concept": "muestra escénica",
+            "description": "Muestra escénica como producto de cierre para organizar y comunicar aprendizajes del proyecto.",
+            "sourceBook": "Nuestro libro de proyectos Tomo II",
+            "sourcePages": [
+              21,
+              25
+            ],
+            "sourcePagesLabel": "pp. 21-25",
+            "topicTitle": "Proyecto academico 18",
+            "status": "confirmed",
+            "reason": "Posibilidades y el propio proyecto fijan Muestra escénica como producto final del PA 18.",
+            "pedagogicalUse": "Da una forma concreta de socializar lo comprendido sobre la adaptación de textos literarios a otros lenguajes y la exploración de la expresión corporal para construir una muestra escénica con sentido comunitario.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "adaptación literaria",
+            "description": "Proceso de transformar un texto en otro formato expresivo sin perder su intención central.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              50,
+              51
+            ],
+            "sourcePagesLabel": "pp. 50-51",
+            "topicTitle": "Adaptación de narraciones escritas a guion de radio o de podcast",
+            "status": "confirmed",
+            "reason": "La fuente validada \"Adaptación de narraciones escritas a guion de radio o de podcast\" aporta base suficiente para trabajar adaptación literaria dentro del proyecto 18.",
+            "pedagogicalUse": "Ayuda a fortalecer muestra escénica y a explicar la adaptación de textos literarios a otros lenguajes y la exploración de la expresión corporal para construir una muestra escénica con sentido comunitario con mayor claridad mediante adaptación literaria.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "guion teatral",
+            "description": "Escritura que organiza personajes, acciones, parlamentos y acotaciones para una representación escénica.",
+            "sourceBook": "Nuestro libro de proyectos Tomo II",
+            "sourcePages": [
+              21,
+              22,
+              23
+            ],
+            "sourcePagesLabel": "pp. 21-23",
+            "topicTitle": "Proyecto académico 18",
+            "status": "confirmed",
+            "reason": "La fuente validada \"Proyecto académico 18\" aporta base suficiente para trabajar guion teatral dentro del proyecto 18.",
+            "pedagogicalUse": "Ayuda a fortalecer muestra escénica y a explicar la adaptación de textos literarios a otros lenguajes y la exploración de la expresión corporal para construir una muestra escénica con sentido comunitario con mayor claridad mediante guion teatral.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "expresión corporal",
+            "description": "Uso del cuerpo, el gesto y el movimiento para comunicar emociones, acciones o ideas en escena.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              83,
+              85
+            ],
+            "sourcePagesLabel": "pp. 83-85",
+            "topicTitle": "Sonido y movimiento, cuerpo herido que se regenera",
+            "status": "confirmed",
+            "reason": "La fuente validada \"Sonido y movimiento, cuerpo herido que se regenera\" aporta base suficiente para trabajar expresión corporal dentro del proyecto 18.",
+            "pedagogicalUse": "Ayuda a fortalecer muestra escénica y a explicar la adaptación de textos literarios a otros lenguajes y la exploración de la expresión corporal para construir una muestra escénica con sentido comunitario con mayor claridad mediante expresión corporal.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "teatro como creación colectiva",
+            "description": "Teatro como creación colectiva es una idea clave para comprender la adaptación de textos literarios a otros lenguajes y la exploración de la expresión corporal para construir una muestra escénica con sentido comunitario.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              261
+            ],
+            "sourcePagesLabel": "p. 261",
+            "topicTitle": "El teatro como método de acción social y creación colectiva",
+            "status": "confirmed",
+            "reason": "La fuente validada \"El teatro como método de acción social y creación colectiva\" aporta base suficiente para trabajar teatro como creación colectiva dentro del proyecto 18.",
+            "pedagogicalUse": "Ayuda a fortalecer muestra escénica y a explicar la adaptación de textos literarios a otros lenguajes y la exploración de la expresión corporal para construir una muestra escénica con sentido comunitario con mayor claridad mediante teatro como creación colectiva.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Tierra como madre y territorio",
+            "description": "Mirada cultural y simbólica que vincula el espacio vivido con memoria, cuidado y pertenencia.",
+            "sourceBook": "Nuestro libro de proyectos Tomo II",
+            "sourcePages": [
+              21,
+              23,
+              24
+            ],
+            "sourcePagesLabel": "pp. 21-24",
+            "topicTitle": "Proyecto académico 18",
+            "status": "confirmed",
+            "reason": "La fuente validada \"Proyecto académico 18\" aporta base suficiente para trabajar Tierra como madre y territorio dentro del proyecto 18.",
+            "pedagogicalUse": "Ayuda a fortalecer muestra escénica y a explicar la adaptación de textos literarios a otros lenguajes y la exploración de la expresión corporal para construir una muestra escénica con sentido comunitario con mayor claridad mediante Tierra como madre y territorio.",
+            "activityReadiness": "usable-for-autoevaluation"
+          }
+        ],
+        "thinkingCriteria": [
+          "Relacionar la adaptación del texto con decisiones corporales y escénicas concretas.",
+          "Usar la muestra escénica para comunicar una idea cultural, no solo para actuar un guion.",
+          "Distinguir entre contar un relato y construir una puesta en escena con intención expresiva."
+        ],
+        "validationStatus": {
+          "readinessLevel": "development-partial",
+          "readyForActivities": false,
+          "needsReviewReasons": [
+            "El bloque 6 ya es usable como lectura docente, pero el video del PPA 6 y el recurso informatico siguen pendientes de validacion de destino final.",
+            "La asignacion de apoyos de Posibilidades se sostiene por inferencia curricular documentada y no por OCR perfectamente separado por columnas.",
+            "No mover a actividades interactivas ni desbloquear juegos completos hasta ampliar validacion de videos y recursos complementarios."
+          ]
+        },
+        "readinessLevel": "development-partial",
+        "readyForActivities": false,
+        "needsReviewReasons": [
+          "No mover a actividades interactivas ni desbloquear juegos completos."
+        ],
+        "roleInPpa": "Cierra el bloque al reunir lectura, adaptación y corporalidad en una presentación escénica colectiva.",
+        "pedagogicalUse": "Conviene trabajar Del cuento al teatro, de la expresión literaria a la expresión corporal como una oportunidad para profundizar en la adaptación de textos literarios a otros lenguajes y la exploración de la expresión corporal para construir una muestra escénica con sentido comunitario sin separar contenido, comunidad y producto final.",
+        "teacherNotes": [
+          "Conviene partir de ejemplos cercanos y después pasar al lenguaje mas abstracto del campo.",
+          "El producto Muestra escénica gana fuerza cuando se usa para explicar y no solo para exhibir informacion.",
+          "Es mejor seleccionar pocos conceptos bien comprendidos que saturar el trabajo con terminos aislados."
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Qué comprendes mejor sobre la adaptación de textos literarios a otros lenguajes y la exploración de la expresión corporal para construir una muestra escénica con sentido comunitario después de elaborar muestra escénica?"
+          },
+          {
+            "type": "community",
+            "prompt": "¿Qué relatos sobre la tierra, el cuidado y la pertenencia podrían comprenderse mejor si se vuelven cuerpo y escena?"
+          }
+        ],
+        "notReadyFor": [
+          "full-games",
+          "summative-exam"
+        ]
+      }
+    ]
+  },
+  "conceptsValidation": {
+    "grade": "2",
+    "field": "Lenguajes",
+    "ppaNumber": "6",
+    "status": "concept-validation",
+    "generatedAt": "2026-06-02T14:59:02.880Z",
+    "entries": [
+      {
+        "projectId": "lenguajes-2-ppa-6-pa16",
+        "projectTitle": "Del papel a la voz",
+        "concept": "declamación dramatizada",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Nuestro libro de proyectos Tomo II",
+          "pages": [
+            13,
+            16
+          ],
+          "reason": "Posibilidades y el propio proyecto fijan Declamación dramatizada como producto final del PA 16."
+        },
+        "pedagogicalUse": "Da una forma concreta de socializar lo comprendido sobre la interpretación de textos literarios narrativos mediante la función creativa del español y el fortalecimiento de la lectura en voz alta.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-2-ppa-6-pa16",
+        "projectTitle": "Del papel a la voz",
+        "concept": "textos literarios narrativos",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            13,
+            17
+          ],
+          "reason": "La fuente validada \"La recopilación de los elementos, las características y la función del texto literario\" aporta base suficiente para trabajar textos literarios narrativos dentro del proyecto 16."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer declamación dramatizada y a explicar la interpretación de textos literarios narrativos mediante la función creativa del español y el fortalecimiento de la lectura en voz alta con mayor claridad mediante textos literarios narrativos.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-2-ppa-6-pa16",
+        "projectTitle": "Del papel a la voz",
+        "concept": "función creativa del español",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            38,
+            41
+          ],
+          "reason": "La fuente validada \"Los recursos literarios como instrumentos para embellecer la lengua\" aporta base suficiente para trabajar función creativa del español dentro del proyecto 16."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer declamación dramatizada y a explicar la interpretación de textos literarios narrativos mediante la función creativa del español y el fortalecimiento de la lectura en voz alta con mayor claridad mediante función creativa del español.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-2-ppa-6-pa16",
+        "projectTitle": "Del papel a la voz",
+        "concept": "lectura en voz alta",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Nuestro libro de proyectos Tomo II",
+          "pages": [
+            13,
+            14,
+            15
+          ],
+          "reason": "La fuente validada \"Proyecto académico 16\" aporta base suficiente para trabajar lectura en voz alta dentro del proyecto 16."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer declamación dramatizada y a explicar la interpretación de textos literarios narrativos mediante la función creativa del español y el fortalecimiento de la lectura en voz alta con mayor claridad mediante lectura en voz alta.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-2-ppa-6-pa16",
+        "projectTitle": "Del papel a la voz",
+        "concept": "memorización comprensiva",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Nuestro libro de proyectos Tomo II",
+          "pages": [
+            13,
+            15,
+            16
+          ],
+          "reason": "La fuente validada \"Proyecto académico 16\" aporta base suficiente para trabajar memorización comprensiva dentro del proyecto 16."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer declamación dramatizada y a explicar la interpretación de textos literarios narrativos mediante la función creativa del español y el fortalecimiento de la lectura en voz alta con mayor claridad mediante memorización comprensiva.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-2-ppa-6-pa16",
+        "projectTitle": "Del papel a la voz",
+        "concept": "declamación",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Nuestro libro de proyectos Tomo II",
+          "pages": [
+            13,
+            16,
+            17
+          ],
+          "reason": "La fuente validada \"Proyecto académico 16\" aporta base suficiente para trabajar declamación dentro del proyecto 16."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer declamación dramatizada y a explicar la interpretación de textos literarios narrativos mediante la función creativa del español y el fortalecimiento de la lectura en voz alta con mayor claridad mediante declamación.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-2-ppa-6-pa17",
+        "projectTitle": "Fandango de emociones, trovador de poesía",
+        "concept": "poemario con viñetas",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Nuestro libro de proyectos Tomo II",
+          "pages": [
+            17,
+            20
+          ],
+          "reason": "Posibilidades y el propio proyecto fijan Poemario con viñetas como producto final del PA 17."
+        },
+        "pedagogicalUse": "Da una forma concreta de socializar lo comprendido sobre el reconocimiento de figuras retóricas y recursos estéticos para escribir poesía y presentarla en un poemario con viñetas.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-2-ppa-6-pa17",
+        "projectTitle": "Fandango de emociones, trovador de poesía",
+        "concept": "figuras retóricas",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            38,
+            41
+          ],
+          "reason": "La fuente validada \"Los recursos literarios como instrumentos para embellecer la lengua\" aporta base suficiente para trabajar figuras retóricas dentro del proyecto 17."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer poemario con viñetas y a explicar el reconocimiento de figuras retóricas y recursos estéticos para escribir poesía y presentarla en un poemario con viñetas con mayor claridad mediante figuras retóricas.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-2-ppa-6-pa17",
+        "projectTitle": "Fandango de emociones, trovador de poesía",
+        "concept": "recursos estéticos",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            38,
+            41
+          ],
+          "reason": "La fuente validada \"Los recursos literarios como instrumentos para embellecer la lengua\" aporta base suficiente para trabajar recursos estéticos dentro del proyecto 17."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer poemario con viñetas y a explicar el reconocimiento de figuras retóricas y recursos estéticos para escribir poesía y presentarla en un poemario con viñetas con mayor claridad mediante recursos estéticos.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-2-ppa-6-pa17",
+        "projectTitle": "Fandango de emociones, trovador de poesía",
+        "concept": "creación literaria",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            126,
+            128
+          ],
+          "reason": "La fuente validada \"Las creaciones de la nueva palabra de escritores contemporáneos\" aporta base suficiente para trabajar creación literaria dentro del proyecto 17."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer poemario con viñetas y a explicar el reconocimiento de figuras retóricas y recursos estéticos para escribir poesía y presentarla en un poemario con viñetas con mayor claridad mediante creación literaria.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-2-ppa-6-pa17",
+        "projectTitle": "Fandango de emociones, trovador de poesía",
+        "concept": "poesía",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            160,
+            161
+          ],
+          "reason": "La fuente validada \"La poesía en la tradición oral indígena\" aporta base suficiente para trabajar poesía dentro del proyecto 17."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer poemario con viñetas y a explicar el reconocimiento de figuras retóricas y recursos estéticos para escribir poesía y presentarla en un poemario con viñetas con mayor claridad mediante poesía.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-2-ppa-6-pa17",
+        "projectTitle": "Fandango de emociones, trovador de poesía",
+        "concept": "viñetas",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Nuestro libro de proyectos Tomo II",
+          "pages": [
+            17,
+            18,
+            19
+          ],
+          "reason": "La fuente validada \"Proyecto académico 17\" aporta base suficiente para trabajar viñetas dentro del proyecto 17."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer poemario con viñetas y a explicar el reconocimiento de figuras retóricas y recursos estéticos para escribir poesía y presentarla en un poemario con viñetas con mayor claridad mediante viñetas.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-2-ppa-6-pa18",
+        "projectTitle": "Del cuento al teatro, de la expresión literaria a la expresión corporal",
+        "concept": "muestra escénica",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Nuestro libro de proyectos Tomo II",
+          "pages": [
+            21,
+            25
+          ],
+          "reason": "Posibilidades y el propio proyecto fijan Muestra escénica como producto final del PA 18."
+        },
+        "pedagogicalUse": "Da una forma concreta de socializar lo comprendido sobre la adaptación de textos literarios a otros lenguajes y la exploración de la expresión corporal para construir una muestra escénica con sentido comunitario.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-2-ppa-6-pa18",
+        "projectTitle": "Del cuento al teatro, de la expresión literaria a la expresión corporal",
+        "concept": "adaptación literaria",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            50,
+            51
+          ],
+          "reason": "La fuente validada \"Adaptación de narraciones escritas a guion de radio o de podcast\" aporta base suficiente para trabajar adaptación literaria dentro del proyecto 18."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer muestra escénica y a explicar la adaptación de textos literarios a otros lenguajes y la exploración de la expresión corporal para construir una muestra escénica con sentido comunitario con mayor claridad mediante adaptación literaria.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-2-ppa-6-pa18",
+        "projectTitle": "Del cuento al teatro, de la expresión literaria a la expresión corporal",
+        "concept": "guion teatral",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Nuestro libro de proyectos Tomo II",
+          "pages": [
+            21,
+            22,
+            23
+          ],
+          "reason": "La fuente validada \"Proyecto académico 18\" aporta base suficiente para trabajar guion teatral dentro del proyecto 18."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer muestra escénica y a explicar la adaptación de textos literarios a otros lenguajes y la exploración de la expresión corporal para construir una muestra escénica con sentido comunitario con mayor claridad mediante guion teatral.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-2-ppa-6-pa18",
+        "projectTitle": "Del cuento al teatro, de la expresión literaria a la expresión corporal",
+        "concept": "expresión corporal",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            83,
+            85
+          ],
+          "reason": "La fuente validada \"Sonido y movimiento, cuerpo herido que se regenera\" aporta base suficiente para trabajar expresión corporal dentro del proyecto 18."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer muestra escénica y a explicar la adaptación de textos literarios a otros lenguajes y la exploración de la expresión corporal para construir una muestra escénica con sentido comunitario con mayor claridad mediante expresión corporal.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-2-ppa-6-pa18",
+        "projectTitle": "Del cuento al teatro, de la expresión literaria a la expresión corporal",
+        "concept": "teatro como creación colectiva",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            261
+          ],
+          "reason": "La fuente validada \"El teatro como método de acción social y creación colectiva\" aporta base suficiente para trabajar teatro como creación colectiva dentro del proyecto 18."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer muestra escénica y a explicar la adaptación de textos literarios a otros lenguajes y la exploración de la expresión corporal para construir una muestra escénica con sentido comunitario con mayor claridad mediante teatro como creación colectiva.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-2-ppa-6-pa18",
+        "projectTitle": "Del cuento al teatro, de la expresión literaria a la expresión corporal",
+        "concept": "Tierra como madre y territorio",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Nuestro libro de proyectos Tomo II",
+          "pages": [
+            21,
+            23,
+            24
+          ],
+          "reason": "La fuente validada \"Proyecto académico 18\" aporta base suficiente para trabajar Tierra como madre y territorio dentro del proyecto 18."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer muestra escénica y a explicar la adaptación de textos literarios a otros lenguajes y la exploración de la expresión corporal para construir una muestra escénica con sentido comunitario con mayor claridad mediante Tierra como madre y territorio.",
+        "activityReadiness": "usable-for-autoevaluation"
+      }
+    ]
+  },
+  "pedagogicalArticulation": {
+    "grade": "2",
+    "field": "Lenguajes",
+    "ppaNumber": "6",
+    "status": "teacher-orientation",
+    "officialHorizonStatus": "pending",
+    "situatedPedagogicalOrientation": "El PPA 6 articula declamación, poemario con viñetas y muestra escénica para que el grupo interprete textos literarios, reconozca recursos estéticos y los transforme creativamente en experiencias orales, visuales y corporales.",
+    "integratingQuestions": [
+      "Como dialogan declamación dramatizada, poemario con viñetas, muestra escénica dentro del mismo PPA 6?",
+      "Que cambia en la comprension de la producción creativa, la poesía, la lectura expresiva y la adaptación escénica como formas de ampliar la experiencia estética cuando el grupo pone en relacion conceptos, producto y comunidad?",
+      "Como convertir el producto final en una herramienta de explicacion y no solo de presentacion?"
+    ],
+    "projectConnections": [
+      {
+        "projectId": "lenguajes-2-ppa-6-pa16",
+        "projectTitle": "Del papel a la voz",
+        "roleInPpa": "Abre el bloque al convertir la lectura en una experiencia oral y expresiva que da confianza al grupo para trabajar después con poesía y escena.",
+        "confirmedConcepts": [
+          "declamación dramatizada",
+          "textos literarios narrativos",
+          "función creativa del español",
+          "lectura en voz alta",
+          "memorización comprensiva",
+          "declamación"
+        ],
+        "suggestedConcepts": [],
+        "pedagogicalUse": "Conviene trabajar Del papel a la voz como una oportunidad para profundizar en la interpretación de textos literarios narrativos mediante la función creativa del español y el fortalecimiento de la lectura en voz alta sin separar contenido, comunidad y producto final."
+      },
+      {
+        "projectId": "lenguajes-2-ppa-6-pa17",
+        "projectTitle": "Fandango de emociones, trovador de poesía",
+        "roleInPpa": "Profundiza el bloque al pasar de la interpretación a la creación poética y visual.",
+        "confirmedConcepts": [
+          "poemario con viñetas",
+          "figuras retóricas",
+          "recursos estéticos",
+          "creación literaria",
+          "poesía",
+          "viñetas"
+        ],
+        "suggestedConcepts": [],
+        "pedagogicalUse": "Conviene trabajar Fandango de emociones, trovador de poesía como una oportunidad para profundizar en el reconocimiento de figuras retóricas y recursos estéticos para escribir poesía y presentarla en un poemario con viñetas sin separar contenido, comunidad y producto final."
+      },
+      {
+        "projectId": "lenguajes-2-ppa-6-pa18",
+        "projectTitle": "Del cuento al teatro, de la expresión literaria a la expresión corporal",
+        "roleInPpa": "Cierra el bloque al reunir lectura, adaptación y corporalidad en una presentación escénica colectiva.",
+        "confirmedConcepts": [
+          "muestra escénica",
+          "adaptación literaria",
+          "guion teatral",
+          "expresión corporal",
+          "teatro como creación colectiva",
+          "Tierra como madre y territorio"
+        ],
+        "suggestedConcepts": [],
+        "pedagogicalUse": "Conviene trabajar Del cuento al teatro, de la expresión literaria a la expresión corporal como una oportunidad para profundizar en la adaptación de textos literarios a otros lenguajes y la exploración de la expresión corporal para construir una muestra escénica con sentido comunitario sin separar contenido, comunidad y producto final."
+      }
+    ],
+    "criteriaOfThought": [
+      {
+        "criterion": "Relacionar la producción creativa, la poesía, la lectura expresiva y la adaptación escénica como formas de ampliar la experiencia estética con experiencias concretas del entorno.",
+        "status": "suggested"
+      },
+      {
+        "criterion": "Usar el producto final para comunicar con claridad, no solo para acumular definiciones.",
+        "status": "suggested"
+      }
+    ],
+    "possibleResonanceQuestion": "¿Qué comprensiones nuevas sobre la producción creativa, la poesía, la lectura expresiva y la adaptación escénica como formas de ampliar la experiencia estética se vuelven visibles cuando el grupo comparte los productos del PPA 6?",
+    "teacherNotes": [
+      "No reducir el PPA 6 a tres productos aislados; el bloque construye una misma conversacion curricular.",
+      "Las paginas de Posibilidades forman un mismo bloque y los apoyos por columna se documentan por inferencia curricular situada.",
+      "Los enlaces cortos del video detonador y del recurso informatico se mantienen en cautela y no deben tratarse como recursos ya validados."
+    ],
+    "notReadyFor": [
+      "actividades interactivas",
+      "full-games",
+      "summative-exam"
+    ]
+  },
+  "teacherNotesAndResonances": {
+    "grade": "2",
+    "field": "Lenguajes",
+    "ppaNumber": "6",
+    "status": "teacher-orientation",
+    "officialHorizonStatus": "pending",
+    "ppaIntegratingResonance": "¿Qué comprensiones nuevas sobre la producción creativa, la poesía, la lectura expresiva y la adaptación escénica como formas de ampliar la experiencia estética se vuelven visibles cuando el grupo comparte los productos del PPA 6?",
+    "didacticWarnings": [
+      "No convertir el bloque en una lista de definiciones; importa relacionar conceptos con producto, comunidad y dialogo.",
+      "Los enlaces cortos bit.ly/3VfglUk y bit.ly/3WQBMwg se mantienen como cautela y no deben tratarse como recursos ya validados.",
+      "La distribucion de apoyos por columna se fija por inferencia curricular documentada a partir de Posibilidades."
+    ],
+    "communityPrompts": {
+      "communityKnowledge": [
+        "Que saberes de la comunidad ayudan a profundizar en la producción creativa, la poesía, la lectura expresiva y la adaptación escénica como formas de ampliar la experiencia estética?",
+        "Que ejemplos cercanos permiten que los conceptos del campo se vuelvan mas claros para el grupo?"
+      ],
+      "families": [
+        "Que experiencias, relatos o practicas familiares pueden enriquecer el proyecto sin desplazar su foco academico?",
+        "Que aprendizajes vale la pena compartir con otras generaciones a partir del producto final?"
+      ],
+      "territoryLanguageMemory": [
+        "Que palabras, lugares o memorias ayudan a nombrar mejor lo que el proyecto esta buscando comprender?",
+        "Como pueden circular estos productos dentro de la comunidad escolar sin perder precision ni sentido?"
+      ],
+      "productCommunityConnection": [
+        "Como podria circular declamación dramatizada, poemario con viñetas, muestra escénica para fortalecer el dialogo comunitario?"
+      ]
+    },
+    "suggestedThinkingCriteria": [
+      "Relacionar la producción creativa, la poesía, la lectura expresiva y la adaptación escénica como formas de ampliar la experiencia estética con problemas, experiencias y preguntas del entorno cercano.",
+      "Valorar el producto final como herramienta de comprension y comunicacion compartida."
+    ],
+    "projects": [
+      {
+        "projectId": "lenguajes-2-ppa-6-pa16",
+        "projectTitle": "Del papel a la voz",
+        "teacherNotes": [
+          "Conviene partir de ejemplos cercanos y después pasar al lenguaje mas abstracto del campo.",
+          "El producto Declamación dramatizada gana fuerza cuando se usa para explicar y no solo para exhibir informacion.",
+          "Es mejor seleccionar pocos conceptos bien comprendidos que saturar el trabajo con terminos aislados."
+        ],
+        "confirmedConceptsToUse": [
+          "declamación dramatizada",
+          "textos literarios narrativos",
+          "función creativa del español",
+          "lectura en voz alta",
+          "memorización comprensiva",
+          "declamación"
+        ],
+        "suggestedConceptsToHandleCarefully": [],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Qué comprendes mejor sobre la interpretación de textos literarios narrativos mediante la función creativa del español y el fortalecimiento de la lectura en voz alta después de elaborar declamación dramatizada?"
+          },
+          {
+            "type": "community",
+            "prompt": "¿Qué textos de la comunidad merecen volver a escucharse en voz alta para que sigan diciendo algo importante hoy?"
+          }
+        ],
+        "notReadyFor": [
+          "full-games",
+          "summative-exam"
+        ]
+      },
+      {
+        "projectId": "lenguajes-2-ppa-6-pa17",
+        "projectTitle": "Fandango de emociones, trovador de poesía",
+        "teacherNotes": [
+          "Conviene partir de ejemplos cercanos y después pasar al lenguaje mas abstracto del campo.",
+          "El producto Poemario con viñetas gana fuerza cuando se usa para explicar y no solo para exhibir informacion.",
+          "Es mejor seleccionar pocos conceptos bien comprendidos que saturar el trabajo con terminos aislados."
+        ],
+        "confirmedConceptsToUse": [
+          "poemario con viñetas",
+          "figuras retóricas",
+          "recursos estéticos",
+          "creación literaria",
+          "poesía",
+          "viñetas"
+        ],
+        "suggestedConceptsToHandleCarefully": [],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Qué comprendes mejor sobre el reconocimiento de figuras retóricas y recursos estéticos para escribir poesía y presentarla en un poemario con viñetas después de elaborar poemario con viñetas?"
+          },
+          {
+            "type": "community",
+            "prompt": "¿Qué emociones o experiencias de la comunidad podrían volverse más claras si se expresan en un poema acompañado de imágenes?"
+          }
+        ],
+        "notReadyFor": [
+          "full-games",
+          "summative-exam"
+        ]
+      },
+      {
+        "projectId": "lenguajes-2-ppa-6-pa18",
+        "projectTitle": "Del cuento al teatro, de la expresión literaria a la expresión corporal",
+        "teacherNotes": [
+          "Conviene partir de ejemplos cercanos y después pasar al lenguaje mas abstracto del campo.",
+          "El producto Muestra escénica gana fuerza cuando se usa para explicar y no solo para exhibir informacion.",
+          "Es mejor seleccionar pocos conceptos bien comprendidos que saturar el trabajo con terminos aislados."
+        ],
+        "confirmedConceptsToUse": [
+          "muestra escénica",
+          "adaptación literaria",
+          "guion teatral",
+          "expresión corporal",
+          "teatro como creación colectiva",
+          "Tierra como madre y territorio"
+        ],
+        "suggestedConceptsToHandleCarefully": [],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Qué comprendes mejor sobre la adaptación de textos literarios a otros lenguajes y la exploración de la expresión corporal para construir una muestra escénica con sentido comunitario después de elaborar muestra escénica?"
+          },
+          {
+            "type": "community",
+            "prompt": "¿Qué relatos sobre la tierra, el cuidado y la pertenencia podrían comprenderse mejor si se vuelven cuerpo y escena?"
+          }
+        ],
+        "notReadyFor": [
+          "full-games",
+          "summative-exam"
+        ]
+      }
+    ]
+  },
+  "validationAudit": {
+    "kind": "fine-validation-audit",
+    "source": "reports/caracoles/grade2-lenguajes-ppa6-reading-bundle-audit.md",
+    "content": "# Auditoria de lectura docente\n\n## Alcance\n\n- Campo: 2o Lenguajes\n- Bloque: PPA 6\n- Titulo del PPA: En busca de nuevas ideas para la producción creativa\n- Proyectos: PA16-PA18\n\n## Proyectos validados\n\n16. Del papel a la voz\n   - Producto final: Declamación dramatizada\n   - Paginas: Nuestro libro de proyectos Tomo II pp. 13-16\n17. Fandango de emociones, trovador de poesía\n   - Producto final: Poemario con viñetas\n   - Paginas: Nuestro libro de proyectos Tomo II pp. 17-20\n18. Del cuento al teatro, de la expresión literaria a la expresión corporal\n   - Producto final: Muestra escénica\n   - Paginas: Nuestro libro de proyectos Tomo II pp. 21-25\n\n## Evidencia base usada\n\n- Posibilidades de uso Lenguajes pp. 19-20.\n- Nuestro libro de proyectos Tomo II pp. 11-25.\n- Lenguajes, segundo grado, pp. 12-20, 37-41, 45, 50-51, 68-70, 82-94, 120, 126-128, 159-161, 255, 261 y 299-308; Múltiples Lenguajes pp. 50-53 y 80-87..\n\n## Decisiones curriculares del bloque\n\n- El horizonte comun del PPA 6 se mantiene en estado pendiente como formula unica; se privilegia una orientacion pedagogica situada y documentada.\n- Los productos finales quedan confirmados desde Posibilidades y la secuencia del propio proyecto.\n- Los conceptos confirmados se normalizan para sostener lectura docente, autoevaluacion y actividades de relacion de columnas.\n- La resonancia se formula como pregunta abierta para reforzar el sentido formativo del bloque.\n\n## Cautelas reales\n\n- El video detonador del PPA 6 y el recurso informatico del bloque siguen sin URL oficial confirmada.\n- La asignacion de apoyos por columna se sostiene por inferencia curricular documentada, no por OCR limpio de tabla.\n- No se marca el bloque como actividades interactivas ni se desbloquean juegos completos.\n"
+  }
+}

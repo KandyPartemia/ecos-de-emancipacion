@@ -1,0 +1,1270 @@
+{
+  "grade": "1",
+  "gradeLabel": "Primer grado",
+  "field": "Etica, Naturaleza y Sociedades",
+  "ppaNumber": "11",
+  "partialClassroomProject": "PPA 11",
+  "partialClassroomProjectTitle": "Por mi, por ti, por todas las personas",
+  "source": "curricular-development-pilot",
+  "generatedAt": "2026-06-04T15:51:03.592Z",
+  "development": {
+    "grade": "1",
+    "gradeLabel": "Primer grado",
+    "field": "Etica, Naturaleza y Sociedades",
+    "bookVolume": "Tomo III",
+    "partialClassroomProject": "PPA 11",
+    "partialClassroomProjectTitle": "Por mi, por ti, por todas las personas",
+    "generatedAt": "2026-06-02T02:38:10.502Z",
+    "notes": "Capa curricular generada por lote para 1o Etica, Naturaleza y Sociedades, PPA 11.",
+    "sourcesUsed": [
+      "public/caracoles/data/generated/grade-1/selectable-projects.json",
+      "content/caracoles/generated-private/grade-1/pages-index.full.json",
+      "Posibilidades de uso ENS, primer grado, pp. 27-28",
+      "Nuestro libro de proyectos Tomo III, primer grado, pp. 192-206",
+      "Etica, Naturaleza y Sociedades, primer grado, pp. 241-244, 275-283, 302-307, 323-339; Multiples Lenguajes pp. 46-47 y 86-87."
+    ],
+    "partialClassroomProjectContext": {
+      "expectationHorizon": {
+        "officialText": "",
+        "sourcePages": [
+          "Nuestro libro de proyectos Tomo III pp. 192-193",
+          "Posibilidades de uso ENS pp. 27-28"
+        ],
+        "evidence": "El PPA 11 conecta memoria historica, derechos humanos e interculturalidad para sostener una cultura de paz en el presente.",
+        "status": "pending"
+      },
+      "ppaDetonatingStrategy": {
+        "title": "Por mi, por ti, por todas las personas",
+        "type": "video",
+        "url": "",
+        "urlStatus": "pending-url",
+        "reference": "bit.ly/3VfglUk",
+        "source": "Nuestro libro de proyectos Tomo III pp. 192-193 + Posibilidades de uso ENS pp. 27-28",
+        "scope": "partial-classroom-project",
+        "youtubeSearchQuery": "Por mi, por ti, por todas las personas Etica, Naturaleza y Sociedades 1er grado Telesecundaria"
+      },
+      "ppaDigitalResource": {
+        "title": "Recurso informatico del bloque PPA 11",
+        "reference": "bit.ly/3WQBMwg",
+        "status": "pending-validation",
+        "source": "Nuestro libro de proyectos Tomo III pp. 192-206"
+      },
+      "validationStatus": {
+        "needsHumanReview": true,
+        "needsReviewReasons": [
+          "Las pp. 27-28 de Posibilidades pertenecen al mismo PPA 11.",
+          "La asignacion de apoyos por columna se fija por inferencia curricular documentada de izquierda a derecha.",
+          "Los enlaces cortos del video del PPA y del recurso informatico se mantienen en cautela hasta localizar un destino oficial confirmado."
+        ]
+      },
+      "columnValidation": {
+        "possibilitiesPagesReviewed": [
+          27,
+          28
+        ],
+        "confirmedAsPpa": true,
+        "note": "Las pp. 27-28 corresponden al PPA 11 Por mi, por ti, por todas las personas. Las tres columnas se sostienen por el orden de proyectos, productos y apoyos del mismo bloque.",
+        "columns": [
+          {
+            "columnIndex": 1,
+            "projectId": "etica-naturaleza-y-sociedades-1-ppa-11-pa31",
+            "projectTitle": "Recordar la historia para no repetirla!",
+            "finalProduct": "Textos argumentativos breves",
+            "supportMaterials": []
+          },
+          {
+            "columnIndex": 2,
+            "projectId": "etica-naturaleza-y-sociedades-1-ppa-11-pa32",
+            "projectTitle": "Todas las personas construimos los derechos humanos",
+            "finalProduct": "Discursos cortos",
+            "supportMaterials": [
+              "Vive el cantar de los viejos, pp. 46-47"
+            ]
+          },
+          {
+            "columnIndex": 3,
+            "projectId": "etica-naturaleza-y-sociedades-1-ppa-11-pa33",
+            "projectTitle": "La interculturalidad como base para una cultura de paz!",
+            "finalProduct": "Cartel multicolor",
+            "supportMaterials": [
+              "Maderas que cantan, pp. 86-87"
+            ]
+          }
+        ]
+      }
+    },
+    "academicProjects": [
+      {
+        "id": "etica-naturaleza-y-sociedades-1-ppa-11-pa31",
+        "projectId": "etica-naturaleza-y-sociedades-1-ppa-11-pa31",
+        "academicProjectNumber": 31,
+        "title": "Recordar la historia para no repetirla!",
+        "projectTitle": "Recordar la historia para no repetirla!",
+        "grade": "1",
+        "field": "Etica, Naturaleza y Sociedades",
+        "ppaNumber": "11",
+        "partialClassroomProject": "PPA 11",
+        "partialClassroomProjectTitle": "Por mi, por ti, por todas las personas",
+        "bookVolume": "Tomo III",
+        "sourceValidation": {
+          "sourceStatus": "linked",
+          "possibilitiesPages": [
+            27,
+            28
+          ],
+          "possibilitiesMaterialId": "grade-1-posibilidades-pos-ens-1",
+          "possibilitiesColumnIndex": 1,
+          "columnEvidence": "Bloque PPA 11 Por mi, por ti, por todas las personas localizado en pp. 27-28; la columna 1 se confirma por el orden de proyectos, productos y continuidad del mismo bloque."
+        },
+        "finalProduct": {
+          "title": "Textos argumentativos breves",
+          "source": "Posibilidades de uso ENS pp. 27-28 + Nuestro libro de proyectos Tomo III pp. 194-197",
+          "status": "confirmed"
+        },
+        "sourcePages": {
+          "nuestroLibroProyectos": [
+            {
+              "materialId": "grade-1-proyectos-nuestro-libro-de-proyectos-tomo-iii-primer-grado",
+              "label": "Nuestro libro de proyectos Tomo III",
+              "startPage": 194,
+              "endPage": 197,
+              "pagesLabel": "pp. 194-197",
+              "topicTitle": "Proyecto academico 31",
+              "status": "confirmed-source"
+            }
+          ],
+          "conceptBook": [
+            {
+              "materialId": "grade-1-conceptos-etica-naturaleza-y-sociedades-primer-grado",
+              "label": "Etica, Naturaleza y Sociedades",
+              "startPage": 241,
+              "endPage": 244,
+              "pagesLabel": "pp. 241-244",
+              "topicTitle": "Politicas discriminatorias a lo largo de la historia",
+              "status": "confirmed-by-column-inference"
+            },
+            {
+              "materialId": "grade-1-conceptos-etica-naturaleza-y-sociedades-primer-grado",
+              "label": "Etica, Naturaleza y Sociedades",
+              "startPage": 275,
+              "endPage": 283,
+              "pagesLabel": "pp. 275-283",
+              "topicTitle": "Racismo como politica de algunos Estados",
+              "status": "confirmed-by-column-inference"
+            }
+          ],
+          "multiplesLenguajes": [],
+          "otherMaterials": [
+            {
+              "label": "Video PA 31: Textos argumentativos breves • Ética, naturaleza y sociedades • 1er grado",
+              "reference": "https://www.youtube.com/watch?v=Ta_Ip9q5ARo",
+              "status": "confirmed"
+            },
+            {
+              "label": "Video PPA 11: 11. Por mí, por ti, por todas las personas • Ética, naturaleza y sociedades • 1er grado",
+              "reference": "https://www.youtube.com/watch?v=QcV1swBmBSQ",
+              "status": "confirmed"
+            }
+          ]
+        },
+        "supportMaterials": [],
+        "horizonOrPurpose": {
+          "status": "pending",
+          "text": "",
+          "source": "Nuestro libro de proyectos Tomo III p. 194"
+        },
+        "projectExpectationHorizon": {
+          "officialText": "",
+          "studentVersion": "",
+          "sourcePages": [
+            "Nuestro libro de proyectos Tomo III p. 194"
+          ],
+          "evidence": "El proyecto ya cuenta con producto, conceptos y articulacion pedagógica, pero el horizonte textual exacto sigue pendiente de confirmacion literal.",
+          "status": "pending"
+        },
+        "detonatingStrategy": {
+          "title": "11. Por mí, por ti, por todas las personas • Ética, naturaleza y sociedades • 1er grado",
+          "text": "Video del Proyecto Parcial de Aula 11: 11. Por mí, por ti, por todas las personas • Ética, naturaleza y sociedades • 1er grado",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=QcV1swBmBSQ",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "partial-classroom-project"
+        },
+        "academicProjectStrategy": {
+          "title": "Textos argumentativos breves • Ética, naturaleza y sociedades • 1er grado",
+          "text": "Video detonador del Proyecto Academico 31: Recordar la historia para no repetirla!",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=Ta_Ip9q5ARo",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "academic-project"
+        },
+        "academicConcepts": [
+          {
+            "concept": "textos argumentativos breves",
+            "description": "Textos argumentativos breves como producto de cierre para organizar y comunicar aprendizajes del proyecto.",
+            "sourceBook": "Nuestro libro de proyectos Tomo III",
+            "sourcePages": [
+              194,
+              197
+            ],
+            "sourcePagesLabel": "pp. 194-197",
+            "topicTitle": "Proyecto academico 31",
+            "status": "confirmed",
+            "reason": "Posibilidades y el propio proyecto fijan Textos argumentativos breves como producto final del PA 31.",
+            "pedagogicalUse": "Da una forma concreta de socializar lo comprendido sobre la memoria historica frente a politicas discriminatorias y racistas.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "memoria historica",
+            "description": "Memoria historica es una idea clave para comprender la memoria historica frente a politicas discriminatorias y racistas.",
+            "sourceBook": "Etica, Naturaleza y Sociedades",
+            "sourcePages": [
+              241,
+              244
+            ],
+            "sourcePagesLabel": "pp. 241-244",
+            "topicTitle": "Politicas discriminatorias a lo largo de la historia",
+            "status": "confirmed",
+            "reason": "La fuente validada \"Politicas discriminatorias a lo largo de la historia\" aporta base suficiente para trabajar memoria historica dentro del proyecto 31.",
+            "pedagogicalUse": "Ayuda a fortalecer textos argumentativos breves y a explicar la memoria historica frente a politicas discriminatorias y racistas con mayor claridad mediante memoria historica.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "politicas discriminatorias",
+            "description": "Politicas discriminatorias es una idea clave para comprender la memoria historica frente a politicas discriminatorias y racistas.",
+            "sourceBook": "Etica, Naturaleza y Sociedades",
+            "sourcePages": [
+              241,
+              244
+            ],
+            "sourcePagesLabel": "pp. 241-244",
+            "topicTitle": "Politicas discriminatorias a lo largo de la historia",
+            "status": "confirmed",
+            "reason": "La fuente validada \"Politicas discriminatorias a lo largo de la historia\" aporta base suficiente para trabajar politicas discriminatorias dentro del proyecto 31.",
+            "pedagogicalUse": "Ayuda a fortalecer textos argumentativos breves y a explicar la memoria historica frente a politicas discriminatorias y racistas con mayor claridad mediante politicas discriminatorias.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "racismo de Estado",
+            "description": "Racismo de Estado es una idea clave para comprender la memoria historica frente a politicas discriminatorias y racistas.",
+            "sourceBook": "Etica, Naturaleza y Sociedades",
+            "sourcePages": [
+              275,
+              283
+            ],
+            "sourcePagesLabel": "pp. 275-283",
+            "topicTitle": "Racismo como politica de algunos Estados",
+            "status": "confirmed",
+            "reason": "La fuente validada \"Racismo como politica de algunos Estados\" aporta base suficiente para trabajar racismo de Estado dentro del proyecto 31.",
+            "pedagogicalUse": "Ayuda a fortalecer textos argumentativos breves y a explicar la memoria historica frente a politicas discriminatorias y racistas con mayor claridad mediante racismo de Estado.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "no repeticion",
+            "description": "No repeticion es una idea clave para comprender la memoria historica frente a politicas discriminatorias y racistas.",
+            "sourceBook": "Etica, Naturaleza y Sociedades",
+            "sourcePages": [
+              275,
+              283
+            ],
+            "sourcePagesLabel": "pp. 275-283",
+            "topicTitle": "Racismo como politica de algunos Estados",
+            "status": "confirmed",
+            "reason": "La fuente validada \"Racismo como politica de algunos Estados\" aporta base suficiente para trabajar no repeticion dentro del proyecto 31.",
+            "pedagogicalUse": "Ayuda a fortalecer textos argumentativos breves y a explicar la memoria historica frente a politicas discriminatorias y racistas con mayor claridad mediante no repeticion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          }
+        ],
+        "thinkingCriteria": [
+          "Relacionar la memoria historica frente a politicas discriminatorias y racistas con situaciones cercanas a la comunidad.",
+          "Usar textos argumentativos breves para explicar y no solo para recopilar informacion.",
+          "Distinguir entre mencionar conceptos y comprender como dialogan entre si dentro del proyecto."
+        ],
+        "validationStatus": {
+          "readinessLevel": "development-partial",
+          "readyForActivities": false,
+          "needsReviewReasons": [
+            "El bloque 11 ya es usable como lectura docente, pero el video del PPA 11 y el recurso informatico siguen pendientes de validacion de destino final.",
+            "La asignacion de apoyos de Posibilidades se sostiene por inferencia curricular documentada y no por OCR perfectamente separado por columnas.",
+            "No mover a actividades interactivas ni desbloquear juegos completos hasta ampliar validacion de videos y recursos complementarios."
+          ]
+        },
+        "readinessLevel": "development-partial",
+        "readyForActivities": false,
+        "needsReviewReasons": [
+          "No mover a actividades interactivas ni desbloquear juegos completos."
+        ],
+        "roleInPpa": "Abre el bloque usando la memoria historica para argumentar contra la repeticion de violencias y exclusiones.",
+        "pedagogicalUse": "Conviene trabajar Recordar la historia para no repetirla! como una oportunidad para profundizar en la memoria historica frente a politicas discriminatorias y racistas sin separar contenido, comunidad y producto final.",
+        "teacherNotes": [
+          "Conviene partir de ejemplos cercanos y despues pasar al lenguaje mas abstracto del campo.",
+          "El producto Textos argumentativos breves gana fuerza cuando se usa para explicar y no solo para exhibir informacion.",
+          "Es mejor seleccionar pocos conceptos bien comprendidos que saturar el trabajo con terminos aislados."
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Que comprendes mejor sobre la memoria historica frente a politicas discriminatorias y racistas despues de elaborar textos argumentativos breves?"
+          },
+          {
+            "type": "community",
+            "prompt": "¿Que dialogos comunitarios podrian fortalecerse si compartimos textos argumentativos breves y lo ponemos en conversacion con otras personas?"
+          }
+        ],
+        "notReadyFor": [
+          "full-games",
+          "summative-exam"
+        ]
+      },
+      {
+        "id": "etica-naturaleza-y-sociedades-1-ppa-11-pa32",
+        "projectId": "etica-naturaleza-y-sociedades-1-ppa-11-pa32",
+        "academicProjectNumber": 32,
+        "title": "Todas las personas construimos los derechos humanos",
+        "projectTitle": "Todas las personas construimos los derechos humanos",
+        "grade": "1",
+        "field": "Etica, Naturaleza y Sociedades",
+        "ppaNumber": "11",
+        "partialClassroomProject": "PPA 11",
+        "partialClassroomProjectTitle": "Por mi, por ti, por todas las personas",
+        "bookVolume": "Tomo III",
+        "sourceValidation": {
+          "sourceStatus": "linked",
+          "possibilitiesPages": [
+            27,
+            28
+          ],
+          "possibilitiesMaterialId": "grade-1-posibilidades-pos-ens-1",
+          "possibilitiesColumnIndex": 2,
+          "columnEvidence": "Bloque PPA 11 Por mi, por ti, por todas las personas localizado en pp. 27-28; la columna 2 se confirma por el orden de proyectos, productos y continuidad del mismo bloque."
+        },
+        "finalProduct": {
+          "title": "Discursos cortos",
+          "source": "Posibilidades de uso ENS pp. 27-28 + Nuestro libro de proyectos Tomo III pp. 198-201",
+          "status": "confirmed"
+        },
+        "sourcePages": {
+          "nuestroLibroProyectos": [
+            {
+              "materialId": "grade-1-proyectos-nuestro-libro-de-proyectos-tomo-iii-primer-grado",
+              "label": "Nuestro libro de proyectos Tomo III",
+              "startPage": 198,
+              "endPage": 201,
+              "pagesLabel": "pp. 198-201",
+              "topicTitle": "Proyecto academico 32",
+              "status": "confirmed-source"
+            }
+          ],
+          "conceptBook": [
+            {
+              "materialId": "grade-1-conceptos-etica-naturaleza-y-sociedades-primer-grado",
+              "label": "Etica, Naturaleza y Sociedades",
+              "startPage": 323,
+              "endPage": 331,
+              "pagesLabel": "pp. 323-331",
+              "topicTitle": "Movimientos sociales y los derechos humanos en Mexico",
+              "status": "confirmed-by-column-inference"
+            },
+            {
+              "materialId": "grade-1-conceptos-etica-naturaleza-y-sociedades-primer-grado",
+              "label": "Etica, Naturaleza y Sociedades",
+              "startPage": 332,
+              "endPage": 335,
+              "pagesLabel": "pp. 332-335",
+              "topicTitle": "Normas y leyes para garantizar los derechos humanos",
+              "status": "confirmed-by-column-inference"
+            }
+          ],
+          "multiplesLenguajes": [
+            {
+              "materialId": "grade-1-apoyo-muiltiples-lenguajes-primer-grado",
+              "label": "Multiples Lenguajes",
+              "startPage": 46,
+              "endPage": 47,
+              "pagesLabel": "pp. 46-47",
+              "topicTitle": "Vive el cantar de los viejos",
+              "status": "confirmed-by-column-inference"
+            }
+          ],
+          "otherMaterials": [
+            {
+              "label": "Video PA 32: Discursos cortos • Ética, naturaleza y sociedades • 1er grado",
+              "reference": "https://www.youtube.com/watch?v=55FeX0xL_9A",
+              "status": "confirmed"
+            },
+            {
+              "label": "Video PPA 11: 11. Por mí, por ti, por todas las personas • Ética, naturaleza y sociedades • 1er grado",
+              "reference": "https://www.youtube.com/watch?v=QcV1swBmBSQ",
+              "status": "confirmed"
+            }
+          ]
+        },
+        "supportMaterials": [
+          {
+            "title": "Vive el cantar de los viejos",
+            "kind": "Multiples Lenguajes",
+            "pages": "pp. 46-47",
+            "status": "confirmed-by-column-inference"
+          }
+        ],
+        "horizonOrPurpose": {
+          "status": "pending",
+          "text": "",
+          "source": "Nuestro libro de proyectos Tomo III p. 198"
+        },
+        "projectExpectationHorizon": {
+          "officialText": "Objetivo 1: Fomentar el pensamiento crítico mediante la elaboración de discursos cortos, en los que se anime la participación colectiva para la elaboración de normas y leyes que garanticen la convivencia. Objetivo 2: Promover, a través de discursos cortos, la aplicación de normas y leyes que garanticen el ejercicio de los derechos humanos.",
+          "studentVersion": "Fomentar el pensamiento crítico mediante la elaboración de discursos cortos, en los que se anime la participación colectiva para la elaboración de normas y leyes que garanticen la convivencia. Promover, a través de discursos cortos, la aplicación de normas y leyes que garanticen el ejercicio de los derechos humanos.",
+          "sourcePages": [
+            "Nuestro libro de proyectos Tomo III p. 199"
+          ],
+          "evidence": "Texto rotulado como Objetivo dentro del rango exacto del Proyecto Academico; se acepta como equivalente funcional de horizonte de expectativas.",
+          "status": "confirmed-from-project-book",
+          "detectedLabel": "Objetivo",
+          "validationScope": "academic-project"
+        },
+        "detonatingStrategy": {
+          "title": "11. Por mí, por ti, por todas las personas • Ética, naturaleza y sociedades • 1er grado",
+          "text": "Video del Proyecto Parcial de Aula 11: 11. Por mí, por ti, por todas las personas • Ética, naturaleza y sociedades • 1er grado",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=QcV1swBmBSQ",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "partial-classroom-project"
+        },
+        "academicProjectStrategy": {
+          "title": "Discursos cortos • Ética, naturaleza y sociedades • 1er grado",
+          "text": "Video detonador del Proyecto Academico 32: Todas las personas construimos los derechos humanos",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=55FeX0xL_9A",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "academic-project"
+        },
+        "academicConcepts": [
+          {
+            "concept": "discursos cortos",
+            "description": "Discursos cortos como producto de cierre para organizar y comunicar aprendizajes del proyecto.",
+            "sourceBook": "Nuestro libro de proyectos Tomo III",
+            "sourcePages": [
+              198,
+              201
+            ],
+            "sourcePagesLabel": "pp. 198-201",
+            "topicTitle": "Proyecto academico 32",
+            "status": "confirmed",
+            "reason": "Posibilidades y el propio proyecto fijan Discursos cortos como producto final del PA 32.",
+            "pedagogicalUse": "Da una forma concreta de socializar lo comprendido sobre la construccion cotidiana de los derechos humanos.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "derechos humanos",
+            "description": "Derechos humanos es una idea clave para comprender la construccion cotidiana de los derechos humanos.",
+            "sourceBook": "Etica, Naturaleza y Sociedades",
+            "sourcePages": [
+              323,
+              331
+            ],
+            "sourcePagesLabel": "pp. 323-331",
+            "topicTitle": "Movimientos sociales y los derechos humanos en Mexico",
+            "status": "confirmed",
+            "reason": "La fuente validada \"Movimientos sociales y los derechos humanos en Mexico\" aporta base suficiente para trabajar derechos humanos dentro del proyecto 32.",
+            "pedagogicalUse": "Ayuda a fortalecer discursos cortos y a explicar la construccion cotidiana de los derechos humanos con mayor claridad mediante derechos humanos.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "movimientos sociales",
+            "description": "Movimientos sociales es una idea clave para comprender la construccion cotidiana de los derechos humanos.",
+            "sourceBook": "Etica, Naturaleza y Sociedades",
+            "sourcePages": [
+              323,
+              331
+            ],
+            "sourcePagesLabel": "pp. 323-331",
+            "topicTitle": "Movimientos sociales y los derechos humanos en Mexico",
+            "status": "confirmed",
+            "reason": "La fuente validada \"Movimientos sociales y los derechos humanos en Mexico\" aporta base suficiente para trabajar movimientos sociales dentro del proyecto 32.",
+            "pedagogicalUse": "Ayuda a fortalecer discursos cortos y a explicar la construccion cotidiana de los derechos humanos con mayor claridad mediante movimientos sociales.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "normas",
+            "description": "Normas es una idea clave para comprender la construccion cotidiana de los derechos humanos.",
+            "sourceBook": "Etica, Naturaleza y Sociedades",
+            "sourcePages": [
+              332,
+              335
+            ],
+            "sourcePagesLabel": "pp. 332-335",
+            "topicTitle": "Normas y leyes para garantizar los derechos humanos",
+            "status": "confirmed",
+            "reason": "La fuente validada \"Normas y leyes para garantizar los derechos humanos\" aporta base suficiente para trabajar normas dentro del proyecto 32.",
+            "pedagogicalUse": "Ayuda a fortalecer discursos cortos y a explicar la construccion cotidiana de los derechos humanos con mayor claridad mediante normas.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "garantias",
+            "description": "Garantias es una idea clave para comprender la construccion cotidiana de los derechos humanos.",
+            "sourceBook": "Etica, Naturaleza y Sociedades",
+            "sourcePages": [
+              332,
+              335
+            ],
+            "sourcePagesLabel": "pp. 332-335",
+            "topicTitle": "Normas y leyes para garantizar los derechos humanos",
+            "status": "confirmed",
+            "reason": "La fuente validada \"Normas y leyes para garantizar los derechos humanos\" aporta base suficiente para trabajar garantias dentro del proyecto 32.",
+            "pedagogicalUse": "Ayuda a fortalecer discursos cortos y a explicar la construccion cotidiana de los derechos humanos con mayor claridad mediante garantias.",
+            "activityReadiness": "usable-for-autoevaluation"
+          }
+        ],
+        "thinkingCriteria": [
+          "Relacionar la construccion cotidiana de los derechos humanos con situaciones cercanas a la comunidad.",
+          "Usar discursos cortos para explicar y no solo para recopilar informacion.",
+          "Distinguir entre mencionar conceptos y comprender como dialogan entre si dentro del proyecto."
+        ],
+        "validationStatus": {
+          "readinessLevel": "development-partial",
+          "readyForActivities": false,
+          "needsReviewReasons": [
+            "El bloque 11 ya es usable como lectura docente, pero el video del PPA 11 y el recurso informatico siguen pendientes de validacion de destino final.",
+            "La asignacion de apoyos de Posibilidades se sostiene por inferencia curricular documentada y no por OCR perfectamente separado por columnas.",
+            "No mover a actividades interactivas ni desbloquear juegos completos hasta ampliar validacion de videos y recursos complementarios."
+          ]
+        },
+        "readinessLevel": "development-partial",
+        "readyForActivities": false,
+        "needsReviewReasons": [
+          "No mover a actividades interactivas ni desbloquear juegos completos."
+        ],
+        "roleInPpa": "Profundiza el bloque mostrando que los derechos humanos se defienden, se nombran y se construyen entre todas las personas.",
+        "pedagogicalUse": "Conviene trabajar Todas las personas construimos los derechos humanos como una oportunidad para profundizar en la construccion cotidiana de los derechos humanos sin separar contenido, comunidad y producto final.",
+        "teacherNotes": [
+          "Conviene partir de ejemplos cercanos y despues pasar al lenguaje mas abstracto del campo.",
+          "El producto Discursos cortos gana fuerza cuando se usa para explicar y no solo para exhibir informacion.",
+          "Es mejor seleccionar pocos conceptos bien comprendidos que saturar el trabajo con terminos aislados."
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Que comprendes mejor sobre la construccion cotidiana de los derechos humanos despues de elaborar discursos cortos?"
+          },
+          {
+            "type": "community",
+            "prompt": "¿Que dialogos comunitarios podrian fortalecerse si compartimos discursos cortos y lo ponemos en conversacion con otras personas?"
+          }
+        ],
+        "notReadyFor": [
+          "full-games",
+          "summative-exam"
+        ]
+      },
+      {
+        "id": "etica-naturaleza-y-sociedades-1-ppa-11-pa33",
+        "projectId": "etica-naturaleza-y-sociedades-1-ppa-11-pa33",
+        "academicProjectNumber": 33,
+        "title": "La interculturalidad como base para una cultura de paz!",
+        "projectTitle": "La interculturalidad como base para una cultura de paz!",
+        "grade": "1",
+        "field": "Etica, Naturaleza y Sociedades",
+        "ppaNumber": "11",
+        "partialClassroomProject": "PPA 11",
+        "partialClassroomProjectTitle": "Por mi, por ti, por todas las personas",
+        "bookVolume": "Tomo III",
+        "sourceValidation": {
+          "sourceStatus": "linked",
+          "possibilitiesPages": [
+            27,
+            28
+          ],
+          "possibilitiesMaterialId": "grade-1-posibilidades-pos-ens-1",
+          "possibilitiesColumnIndex": 3,
+          "columnEvidence": "Bloque PPA 11 Por mi, por ti, por todas las personas localizado en pp. 27-28; la columna 3 se confirma por el orden de proyectos, productos y continuidad del mismo bloque."
+        },
+        "finalProduct": {
+          "title": "Cartel multicolor",
+          "source": "Posibilidades de uso ENS pp. 27-28 + Nuestro libro de proyectos Tomo III pp. 202-206",
+          "status": "confirmed"
+        },
+        "sourcePages": {
+          "nuestroLibroProyectos": [
+            {
+              "materialId": "grade-1-proyectos-nuestro-libro-de-proyectos-tomo-iii-primer-grado",
+              "label": "Nuestro libro de proyectos Tomo III",
+              "startPage": 202,
+              "endPage": 206,
+              "pagesLabel": "pp. 202-206",
+              "topicTitle": "Proyecto academico 33",
+              "status": "confirmed-source"
+            }
+          ],
+          "conceptBook": [
+            {
+              "materialId": "grade-1-conceptos-etica-naturaleza-y-sociedades-primer-grado",
+              "label": "Etica, Naturaleza y Sociedades",
+              "startPage": 302,
+              "endPage": 307,
+              "pagesLabel": "pp. 302-307",
+              "topicTitle": "Convivencia sin discriminacion y racismo",
+              "status": "confirmed-by-column-inference"
+            },
+            {
+              "materialId": "grade-1-conceptos-etica-naturaleza-y-sociedades-primer-grado",
+              "label": "Etica, Naturaleza y Sociedades",
+              "startPage": 336,
+              "endPage": 339,
+              "pagesLabel": "pp. 336-339",
+              "topicTitle": "Relaciones interculturales basadas en el respeto",
+              "status": "confirmed-by-column-inference"
+            }
+          ],
+          "multiplesLenguajes": [
+            {
+              "materialId": "grade-1-apoyo-muiltiples-lenguajes-primer-grado",
+              "label": "Multiples Lenguajes",
+              "startPage": 86,
+              "endPage": 87,
+              "pagesLabel": "pp. 86-87",
+              "topicTitle": "Maderas que cantan",
+              "status": "confirmed-by-column-inference"
+            }
+          ],
+          "otherMaterials": [
+            {
+              "label": "Video PA 33: Cartel multicolor • Ética, naturaleza y sociedades • 1er grado",
+              "reference": "https://www.youtube.com/watch?v=80SE1caZPbE",
+              "status": "confirmed"
+            },
+            {
+              "label": "Video PPA 11: 11. Por mí, por ti, por todas las personas • Ética, naturaleza y sociedades • 1er grado",
+              "reference": "https://www.youtube.com/watch?v=QcV1swBmBSQ",
+              "status": "confirmed"
+            }
+          ]
+        },
+        "supportMaterials": [
+          {
+            "title": "Maderas que cantan",
+            "kind": "Multiples Lenguajes",
+            "pages": "pp. 86-87",
+            "status": "confirmed-by-column-inference"
+          }
+        ],
+        "horizonOrPurpose": {
+          "status": "pending",
+          "text": "",
+          "source": "Nuestro libro de proyectos Tomo III p. 202"
+        },
+        "projectExpectationHorizon": {
+          "officialText": "Objetivo 1: Comprender la interculturalidad presente en la comunidad mediante la creación de un cartel multicolor que promueva una cultura de paz, respetando los derechos de todxs los que conviven en ella y aceptando las diferencias. Objetivo 2: Fortalecer la identidad a través de la reflexión y el conocimiento de la propia cultura, identificando sus raíces como base para demostrar que se puede generar una cultura de paz, y luego compartir la información en un cartel.",
+          "studentVersion": "Comprender la interculturalidad presente en la comunidad mediante la creación de un cartel multicolor que promueva una cultura de paz, respetando los derechos de todxs los que conviven en ella y aceptando las diferencias. Fortalecer la identidad a través de la reflexión y el conocimiento de la propia cultura, identificando sus raíces como base para demostrar que se puede generar una cultura de paz, y luego compartir la información en un cartel.",
+          "sourcePages": [
+            "Nuestro libro de proyectos Tomo III p. 203"
+          ],
+          "evidence": "Texto rotulado como Objetivo dentro del rango exacto del Proyecto Academico; se acepta como equivalente funcional de horizonte de expectativas.",
+          "status": "confirmed-from-project-book",
+          "detectedLabel": "Objetivo",
+          "validationScope": "academic-project"
+        },
+        "detonatingStrategy": {
+          "title": "11. Por mí, por ti, por todas las personas • Ética, naturaleza y sociedades • 1er grado",
+          "text": "Video del Proyecto Parcial de Aula 11: 11. Por mí, por ti, por todas las personas • Ética, naturaleza y sociedades • 1er grado",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=QcV1swBmBSQ",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "partial-classroom-project"
+        },
+        "academicProjectStrategy": {
+          "title": "Cartel multicolor • Ética, naturaleza y sociedades • 1er grado",
+          "text": "Video detonador del Proyecto Academico 33: La interculturalidad como base para una cultura de paz!",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=80SE1caZPbE",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "academic-project"
+        },
+        "academicConcepts": [
+          {
+            "concept": "cartel multicolor",
+            "description": "Cartel multicolor como producto de cierre para organizar y comunicar aprendizajes del proyecto.",
+            "sourceBook": "Nuestro libro de proyectos Tomo III",
+            "sourcePages": [
+              202,
+              206
+            ],
+            "sourcePagesLabel": "pp. 202-206",
+            "topicTitle": "Proyecto academico 33",
+            "status": "confirmed",
+            "reason": "Posibilidades y el propio proyecto fijan Cartel multicolor como producto final del PA 33.",
+            "pedagogicalUse": "Da una forma concreta de socializar lo comprendido sobre la interculturalidad y la cultura de paz.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "interculturalidad",
+            "description": "Interculturalidad es una idea clave para comprender la interculturalidad y la cultura de paz.",
+            "sourceBook": "Etica, Naturaleza y Sociedades",
+            "sourcePages": [
+              336,
+              339
+            ],
+            "sourcePagesLabel": "pp. 336-339",
+            "topicTitle": "Relaciones interculturales basadas en el respeto",
+            "status": "confirmed",
+            "reason": "La fuente validada \"Relaciones interculturales basadas en el respeto\" aporta base suficiente para trabajar interculturalidad dentro del proyecto 33.",
+            "pedagogicalUse": "Ayuda a fortalecer cartel multicolor y a explicar la interculturalidad y la cultura de paz con mayor claridad mediante interculturalidad.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "cultura de paz",
+            "description": "Cultura de paz es una idea clave para comprender la interculturalidad y la cultura de paz.",
+            "sourceBook": "Etica, Naturaleza y Sociedades",
+            "sourcePages": [
+              336,
+              339
+            ],
+            "sourcePagesLabel": "pp. 336-339",
+            "topicTitle": "Relaciones interculturales basadas en el respeto",
+            "status": "confirmed",
+            "reason": "La fuente validada \"Relaciones interculturales basadas en el respeto\" aporta base suficiente para trabajar cultura de paz dentro del proyecto 33.",
+            "pedagogicalUse": "Ayuda a fortalecer cartel multicolor y a explicar la interculturalidad y la cultura de paz con mayor claridad mediante cultura de paz.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "convivencia",
+            "description": "Convivencia es una idea clave para comprender la interculturalidad y la cultura de paz.",
+            "sourceBook": "Etica, Naturaleza y Sociedades",
+            "sourcePages": [
+              302,
+              307
+            ],
+            "sourcePagesLabel": "pp. 302-307",
+            "topicTitle": "Convivencia sin discriminacion y racismo",
+            "status": "confirmed",
+            "reason": "La fuente validada \"Convivencia sin discriminacion y racismo\" aporta base suficiente para trabajar convivencia dentro del proyecto 33.",
+            "pedagogicalUse": "Ayuda a fortalecer cartel multicolor y a explicar la interculturalidad y la cultura de paz con mayor claridad mediante convivencia.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "respeto",
+            "description": "Respeto es una idea clave para comprender la interculturalidad y la cultura de paz.",
+            "sourceBook": "Etica, Naturaleza y Sociedades",
+            "sourcePages": [
+              336,
+              339
+            ],
+            "sourcePagesLabel": "pp. 336-339",
+            "topicTitle": "Relaciones interculturales basadas en el respeto",
+            "status": "confirmed",
+            "reason": "La fuente validada \"Relaciones interculturales basadas en el respeto\" aporta base suficiente para trabajar respeto dentro del proyecto 33.",
+            "pedagogicalUse": "Ayuda a fortalecer cartel multicolor y a explicar la interculturalidad y la cultura de paz con mayor claridad mediante respeto.",
+            "activityReadiness": "usable-for-autoevaluation"
+          }
+        ],
+        "thinkingCriteria": [
+          "Relacionar la interculturalidad y la cultura de paz con situaciones cercanas a la comunidad.",
+          "Usar cartel multicolor para explicar y no solo para recopilar informacion.",
+          "Distinguir entre mencionar conceptos y comprender como dialogan entre si dentro del proyecto."
+        ],
+        "validationStatus": {
+          "readinessLevel": "development-partial",
+          "readyForActivities": false,
+          "needsReviewReasons": [
+            "El bloque 11 ya es usable como lectura docente, pero el video del PPA 11 y el recurso informatico siguen pendientes de validacion de destino final.",
+            "La asignacion de apoyos de Posibilidades se sostiene por inferencia curricular documentada y no por OCR perfectamente separado por columnas.",
+            "No mover a actividades interactivas ni desbloquear juegos completos hasta ampliar validacion de videos y recursos complementarios."
+          ]
+        },
+        "readinessLevel": "development-partial",
+        "readyForActivities": false,
+        "needsReviewReasons": [
+          "No mover a actividades interactivas ni desbloquear juegos completos."
+        ],
+        "roleInPpa": "Cierra el bloque poniendo la interculturalidad como base de una convivencia pacifica y respetuosa.",
+        "pedagogicalUse": "Conviene trabajar La interculturalidad como base para una cultura de paz! como una oportunidad para profundizar en la interculturalidad y la cultura de paz sin separar contenido, comunidad y producto final.",
+        "teacherNotes": [
+          "Conviene partir de ejemplos cercanos y despues pasar al lenguaje mas abstracto del campo.",
+          "El producto Cartel multicolor gana fuerza cuando se usa para explicar y no solo para exhibir informacion.",
+          "Es mejor seleccionar pocos conceptos bien comprendidos que saturar el trabajo con terminos aislados."
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Que comprendes mejor sobre la interculturalidad y la cultura de paz despues de elaborar cartel multicolor?"
+          },
+          {
+            "type": "community",
+            "prompt": "¿Que dialogos comunitarios podrian fortalecerse si compartimos cartel multicolor y lo ponemos en conversacion con otras personas?"
+          }
+        ],
+        "notReadyFor": [
+          "full-games",
+          "summative-exam"
+        ]
+      }
+    ]
+  },
+  "conceptsValidation": {
+    "grade": "1",
+    "field": "Etica, Naturaleza y Sociedades",
+    "ppaNumber": "11",
+    "status": "concept-validation",
+    "generatedAt": "2026-06-02T02:38:10.502Z",
+    "entries": [
+      {
+        "projectId": "etica-naturaleza-y-sociedades-1-ppa-11-pa31",
+        "projectTitle": "Recordar la historia para no repetirla!",
+        "concept": "textos argumentativos breves",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Nuestro libro de proyectos Tomo III",
+          "pages": [
+            194,
+            197
+          ],
+          "reason": "Posibilidades y el propio proyecto fijan Textos argumentativos breves como producto final del PA 31."
+        },
+        "pedagogicalUse": "Da una forma concreta de socializar lo comprendido sobre la memoria historica frente a politicas discriminatorias y racistas.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "etica-naturaleza-y-sociedades-1-ppa-11-pa31",
+        "projectTitle": "Recordar la historia para no repetirla!",
+        "concept": "memoria historica",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Etica, Naturaleza y Sociedades",
+          "pages": [
+            241,
+            244
+          ],
+          "reason": "La fuente validada \"Politicas discriminatorias a lo largo de la historia\" aporta base suficiente para trabajar memoria historica dentro del proyecto 31."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer textos argumentativos breves y a explicar la memoria historica frente a politicas discriminatorias y racistas con mayor claridad mediante memoria historica.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "etica-naturaleza-y-sociedades-1-ppa-11-pa31",
+        "projectTitle": "Recordar la historia para no repetirla!",
+        "concept": "politicas discriminatorias",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Etica, Naturaleza y Sociedades",
+          "pages": [
+            241,
+            244
+          ],
+          "reason": "La fuente validada \"Politicas discriminatorias a lo largo de la historia\" aporta base suficiente para trabajar politicas discriminatorias dentro del proyecto 31."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer textos argumentativos breves y a explicar la memoria historica frente a politicas discriminatorias y racistas con mayor claridad mediante politicas discriminatorias.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "etica-naturaleza-y-sociedades-1-ppa-11-pa31",
+        "projectTitle": "Recordar la historia para no repetirla!",
+        "concept": "racismo de Estado",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Etica, Naturaleza y Sociedades",
+          "pages": [
+            275,
+            283
+          ],
+          "reason": "La fuente validada \"Racismo como politica de algunos Estados\" aporta base suficiente para trabajar racismo de Estado dentro del proyecto 31."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer textos argumentativos breves y a explicar la memoria historica frente a politicas discriminatorias y racistas con mayor claridad mediante racismo de Estado.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "etica-naturaleza-y-sociedades-1-ppa-11-pa31",
+        "projectTitle": "Recordar la historia para no repetirla!",
+        "concept": "no repeticion",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Etica, Naturaleza y Sociedades",
+          "pages": [
+            275,
+            283
+          ],
+          "reason": "La fuente validada \"Racismo como politica de algunos Estados\" aporta base suficiente para trabajar no repeticion dentro del proyecto 31."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer textos argumentativos breves y a explicar la memoria historica frente a politicas discriminatorias y racistas con mayor claridad mediante no repeticion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "etica-naturaleza-y-sociedades-1-ppa-11-pa32",
+        "projectTitle": "Todas las personas construimos los derechos humanos",
+        "concept": "discursos cortos",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Nuestro libro de proyectos Tomo III",
+          "pages": [
+            198,
+            201
+          ],
+          "reason": "Posibilidades y el propio proyecto fijan Discursos cortos como producto final del PA 32."
+        },
+        "pedagogicalUse": "Da una forma concreta de socializar lo comprendido sobre la construccion cotidiana de los derechos humanos.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "etica-naturaleza-y-sociedades-1-ppa-11-pa32",
+        "projectTitle": "Todas las personas construimos los derechos humanos",
+        "concept": "derechos humanos",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Etica, Naturaleza y Sociedades",
+          "pages": [
+            323,
+            331
+          ],
+          "reason": "La fuente validada \"Movimientos sociales y los derechos humanos en Mexico\" aporta base suficiente para trabajar derechos humanos dentro del proyecto 32."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer discursos cortos y a explicar la construccion cotidiana de los derechos humanos con mayor claridad mediante derechos humanos.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "etica-naturaleza-y-sociedades-1-ppa-11-pa32",
+        "projectTitle": "Todas las personas construimos los derechos humanos",
+        "concept": "movimientos sociales",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Etica, Naturaleza y Sociedades",
+          "pages": [
+            323,
+            331
+          ],
+          "reason": "La fuente validada \"Movimientos sociales y los derechos humanos en Mexico\" aporta base suficiente para trabajar movimientos sociales dentro del proyecto 32."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer discursos cortos y a explicar la construccion cotidiana de los derechos humanos con mayor claridad mediante movimientos sociales.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "etica-naturaleza-y-sociedades-1-ppa-11-pa32",
+        "projectTitle": "Todas las personas construimos los derechos humanos",
+        "concept": "normas",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Etica, Naturaleza y Sociedades",
+          "pages": [
+            332,
+            335
+          ],
+          "reason": "La fuente validada \"Normas y leyes para garantizar los derechos humanos\" aporta base suficiente para trabajar normas dentro del proyecto 32."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer discursos cortos y a explicar la construccion cotidiana de los derechos humanos con mayor claridad mediante normas.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "etica-naturaleza-y-sociedades-1-ppa-11-pa32",
+        "projectTitle": "Todas las personas construimos los derechos humanos",
+        "concept": "garantias",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Etica, Naturaleza y Sociedades",
+          "pages": [
+            332,
+            335
+          ],
+          "reason": "La fuente validada \"Normas y leyes para garantizar los derechos humanos\" aporta base suficiente para trabajar garantias dentro del proyecto 32."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer discursos cortos y a explicar la construccion cotidiana de los derechos humanos con mayor claridad mediante garantias.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "etica-naturaleza-y-sociedades-1-ppa-11-pa33",
+        "projectTitle": "La interculturalidad como base para una cultura de paz!",
+        "concept": "cartel multicolor",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Nuestro libro de proyectos Tomo III",
+          "pages": [
+            202,
+            206
+          ],
+          "reason": "Posibilidades y el propio proyecto fijan Cartel multicolor como producto final del PA 33."
+        },
+        "pedagogicalUse": "Da una forma concreta de socializar lo comprendido sobre la interculturalidad y la cultura de paz.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "etica-naturaleza-y-sociedades-1-ppa-11-pa33",
+        "projectTitle": "La interculturalidad como base para una cultura de paz!",
+        "concept": "interculturalidad",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Etica, Naturaleza y Sociedades",
+          "pages": [
+            336,
+            339
+          ],
+          "reason": "La fuente validada \"Relaciones interculturales basadas en el respeto\" aporta base suficiente para trabajar interculturalidad dentro del proyecto 33."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer cartel multicolor y a explicar la interculturalidad y la cultura de paz con mayor claridad mediante interculturalidad.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "etica-naturaleza-y-sociedades-1-ppa-11-pa33",
+        "projectTitle": "La interculturalidad como base para una cultura de paz!",
+        "concept": "cultura de paz",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Etica, Naturaleza y Sociedades",
+          "pages": [
+            336,
+            339
+          ],
+          "reason": "La fuente validada \"Relaciones interculturales basadas en el respeto\" aporta base suficiente para trabajar cultura de paz dentro del proyecto 33."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer cartel multicolor y a explicar la interculturalidad y la cultura de paz con mayor claridad mediante cultura de paz.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "etica-naturaleza-y-sociedades-1-ppa-11-pa33",
+        "projectTitle": "La interculturalidad como base para una cultura de paz!",
+        "concept": "convivencia",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Etica, Naturaleza y Sociedades",
+          "pages": [
+            302,
+            307
+          ],
+          "reason": "La fuente validada \"Convivencia sin discriminacion y racismo\" aporta base suficiente para trabajar convivencia dentro del proyecto 33."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer cartel multicolor y a explicar la interculturalidad y la cultura de paz con mayor claridad mediante convivencia.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "etica-naturaleza-y-sociedades-1-ppa-11-pa33",
+        "projectTitle": "La interculturalidad como base para una cultura de paz!",
+        "concept": "respeto",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Etica, Naturaleza y Sociedades",
+          "pages": [
+            336,
+            339
+          ],
+          "reason": "La fuente validada \"Relaciones interculturales basadas en el respeto\" aporta base suficiente para trabajar respeto dentro del proyecto 33."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer cartel multicolor y a explicar la interculturalidad y la cultura de paz con mayor claridad mediante respeto.",
+        "activityReadiness": "usable-for-autoevaluation"
+      }
+    ]
+  },
+  "pedagogicalArticulation": {
+    "grade": "1",
+    "field": "Etica, Naturaleza y Sociedades",
+    "ppaNumber": "11",
+    "status": "teacher-orientation",
+    "officialHorizonStatus": "pending",
+    "situatedPedagogicalOrientation": "El PPA 11 conecta memoria historica, derechos humanos e interculturalidad para sostener una cultura de paz en el presente.",
+    "integratingQuestions": [
+      "Como dialogan textos argumentativos breves, discursos cortos, cartel multicolor dentro del mismo PPA 11?",
+      "Que cambia en la comprension de los derechos humanos, la memoria y la interculturalidad cuando el grupo pone en relacion conceptos, producto y comunidad?",
+      "Como convertir el producto final en una herramienta de explicacion y no solo de presentacion?"
+    ],
+    "projectConnections": [
+      {
+        "projectId": "etica-naturaleza-y-sociedades-1-ppa-11-pa31",
+        "projectTitle": "Recordar la historia para no repetirla!",
+        "roleInPpa": "Abre el bloque usando la memoria historica para argumentar contra la repeticion de violencias y exclusiones.",
+        "confirmedConcepts": [
+          "textos argumentativos breves",
+          "memoria historica",
+          "politicas discriminatorias",
+          "racismo de Estado",
+          "no repeticion"
+        ],
+        "suggestedConcepts": [],
+        "pedagogicalUse": "Conviene trabajar Recordar la historia para no repetirla! como una oportunidad para profundizar en la memoria historica frente a politicas discriminatorias y racistas sin separar contenido, comunidad y producto final."
+      },
+      {
+        "projectId": "etica-naturaleza-y-sociedades-1-ppa-11-pa32",
+        "projectTitle": "Todas las personas construimos los derechos humanos",
+        "roleInPpa": "Profundiza el bloque mostrando que los derechos humanos se defienden, se nombran y se construyen entre todas las personas.",
+        "confirmedConcepts": [
+          "discursos cortos",
+          "derechos humanos",
+          "movimientos sociales",
+          "normas",
+          "garantias"
+        ],
+        "suggestedConcepts": [],
+        "pedagogicalUse": "Conviene trabajar Todas las personas construimos los derechos humanos como una oportunidad para profundizar en la construccion cotidiana de los derechos humanos sin separar contenido, comunidad y producto final."
+      },
+      {
+        "projectId": "etica-naturaleza-y-sociedades-1-ppa-11-pa33",
+        "projectTitle": "La interculturalidad como base para una cultura de paz!",
+        "roleInPpa": "Cierra el bloque poniendo la interculturalidad como base de una convivencia pacifica y respetuosa.",
+        "confirmedConcepts": [
+          "cartel multicolor",
+          "interculturalidad",
+          "cultura de paz",
+          "convivencia",
+          "respeto"
+        ],
+        "suggestedConcepts": [],
+        "pedagogicalUse": "Conviene trabajar La interculturalidad como base para una cultura de paz! como una oportunidad para profundizar en la interculturalidad y la cultura de paz sin separar contenido, comunidad y producto final."
+      }
+    ],
+    "criteriaOfThought": [
+      {
+        "criterion": "Relacionar los derechos humanos, la memoria y la interculturalidad con experiencias concretas del entorno.",
+        "status": "suggested"
+      },
+      {
+        "criterion": "Usar el producto final para comunicar con claridad, no solo para acumular definiciones.",
+        "status": "suggested"
+      }
+    ],
+    "possibleResonanceQuestion": "¿Que comprensiones nuevas sobre los derechos humanos, la memoria y la interculturalidad se vuelven visibles cuando el grupo comparte los productos del PPA 11?",
+    "teacherNotes": [
+      "No reducir el PPA 11 a tres productos aislados; el bloque construye una misma conversacion curricular.",
+      "Las paginas de Posibilidades forman un mismo bloque y los apoyos por columna se documentan por inferencia curricular situada.",
+      "Los enlaces cortos del video detonador y del recurso informatico se mantienen en cautela y no deben tratarse como recursos ya validados."
+    ],
+    "notReadyFor": [
+      "actividades interactivas",
+      "full-games",
+      "summative-exam"
+    ]
+  },
+  "teacherNotesAndResonances": {
+    "grade": "1",
+    "field": "Etica, Naturaleza y Sociedades",
+    "ppaNumber": "11",
+    "status": "teacher-orientation",
+    "officialHorizonStatus": "pending",
+    "ppaIntegratingResonance": "¿Que comprensiones nuevas sobre los derechos humanos, la memoria y la interculturalidad se vuelven visibles cuando el grupo comparte los productos del PPA 11?",
+    "didacticWarnings": [
+      "No convertir el bloque en una lista de definiciones; importa relacionar conceptos con producto, comunidad y dialogo.",
+      "Los enlaces cortos bit.ly/3VfglUk y bit.ly/3WQBMwg se mantienen como cautela y no deben tratarse como recursos ya validados.",
+      "La distribucion de apoyos por columna se fija por inferencia curricular documentada a partir de Posibilidades."
+    ],
+    "communityPrompts": {
+      "communityKnowledge": [
+        "Que saberes de la comunidad ayudan a profundizar en los derechos humanos, la memoria y la interculturalidad?",
+        "Que ejemplos cercanos permiten que los conceptos del campo se vuelvan mas claros para el grupo?"
+      ],
+      "families": [
+        "Que experiencias, relatos o practicas familiares pueden enriquecer el proyecto sin desplazar su foco academico?",
+        "Que aprendizajes vale la pena compartir con otras generaciones a partir del producto final?"
+      ],
+      "territoryLanguageMemory": [
+        "Que palabras, lugares o memorias ayudan a nombrar mejor lo que el proyecto esta buscando comprender?",
+        "Como pueden circular estos productos dentro de la comunidad escolar sin perder precision ni sentido?"
+      ],
+      "productCommunityConnection": [
+        "Como podria circular textos argumentativos breves, discursos cortos, cartel multicolor para fortalecer el dialogo comunitario?"
+      ]
+    },
+    "suggestedThinkingCriteria": [
+      "Relacionar los derechos humanos, la memoria y la interculturalidad con problemas, experiencias y preguntas del entorno cercano.",
+      "Valorar el producto final como herramienta de comprension y comunicacion compartida."
+    ],
+    "projects": [
+      {
+        "projectId": "etica-naturaleza-y-sociedades-1-ppa-11-pa31",
+        "projectTitle": "Recordar la historia para no repetirla!",
+        "teacherNotes": [
+          "Conviene partir de ejemplos cercanos y despues pasar al lenguaje mas abstracto del campo.",
+          "El producto Textos argumentativos breves gana fuerza cuando se usa para explicar y no solo para exhibir informacion.",
+          "Es mejor seleccionar pocos conceptos bien comprendidos que saturar el trabajo con terminos aislados."
+        ],
+        "confirmedConceptsToUse": [
+          "textos argumentativos breves",
+          "memoria historica",
+          "politicas discriminatorias",
+          "racismo de Estado",
+          "no repeticion"
+        ],
+        "suggestedConceptsToHandleCarefully": [],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Que comprendes mejor sobre la memoria historica frente a politicas discriminatorias y racistas despues de elaborar textos argumentativos breves?"
+          },
+          {
+            "type": "community",
+            "prompt": "¿Que dialogos comunitarios podrian fortalecerse si compartimos textos argumentativos breves y lo ponemos en conversacion con otras personas?"
+          }
+        ],
+        "notReadyFor": [
+          "full-games",
+          "summative-exam"
+        ]
+      },
+      {
+        "projectId": "etica-naturaleza-y-sociedades-1-ppa-11-pa32",
+        "projectTitle": "Todas las personas construimos los derechos humanos",
+        "teacherNotes": [
+          "Conviene partir de ejemplos cercanos y despues pasar al lenguaje mas abstracto del campo.",
+          "El producto Discursos cortos gana fuerza cuando se usa para explicar y no solo para exhibir informacion.",
+          "Es mejor seleccionar pocos conceptos bien comprendidos que saturar el trabajo con terminos aislados."
+        ],
+        "confirmedConceptsToUse": [
+          "discursos cortos",
+          "derechos humanos",
+          "movimientos sociales",
+          "normas",
+          "garantias"
+        ],
+        "suggestedConceptsToHandleCarefully": [],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Que comprendes mejor sobre la construccion cotidiana de los derechos humanos despues de elaborar discursos cortos?"
+          },
+          {
+            "type": "community",
+            "prompt": "¿Que dialogos comunitarios podrian fortalecerse si compartimos discursos cortos y lo ponemos en conversacion con otras personas?"
+          }
+        ],
+        "notReadyFor": [
+          "full-games",
+          "summative-exam"
+        ]
+      },
+      {
+        "projectId": "etica-naturaleza-y-sociedades-1-ppa-11-pa33",
+        "projectTitle": "La interculturalidad como base para una cultura de paz!",
+        "teacherNotes": [
+          "Conviene partir de ejemplos cercanos y despues pasar al lenguaje mas abstracto del campo.",
+          "El producto Cartel multicolor gana fuerza cuando se usa para explicar y no solo para exhibir informacion.",
+          "Es mejor seleccionar pocos conceptos bien comprendidos que saturar el trabajo con terminos aislados."
+        ],
+        "confirmedConceptsToUse": [
+          "cartel multicolor",
+          "interculturalidad",
+          "cultura de paz",
+          "convivencia",
+          "respeto"
+        ],
+        "suggestedConceptsToHandleCarefully": [],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Que comprendes mejor sobre la interculturalidad y la cultura de paz despues de elaborar cartel multicolor?"
+          },
+          {
+            "type": "community",
+            "prompt": "¿Que dialogos comunitarios podrian fortalecerse si compartimos cartel multicolor y lo ponemos en conversacion con otras personas?"
+          }
+        ],
+        "notReadyFor": [
+          "full-games",
+          "summative-exam"
+        ]
+      }
+    ]
+  },
+  "validationAudit": {
+    "kind": "fine-validation-audit",
+    "source": "reports/caracoles/grade1-etica-ppa11-reading-bundle-audit.md",
+    "content": "# Auditoria de lectura docente\n\n## Alcance\n\n- Campo: 1o Etica, Naturaleza y Sociedades\n- Bloque: PPA 11\n- Titulo del PPA: Por mi, por ti, por todas las personas\n- Proyectos: PA31-PA33\n\n## Proyectos validados\n\n31. Recordar la historia para no repetirla!\n   - Producto final: Textos argumentativos breves\n   - Paginas: Nuestro libro de proyectos Tomo III pp. 194-197\n32. Todas las personas construimos los derechos humanos\n   - Producto final: Discursos cortos\n   - Paginas: Nuestro libro de proyectos Tomo III pp. 198-201\n33. La interculturalidad como base para una cultura de paz!\n   - Producto final: Cartel multicolor\n   - Paginas: Nuestro libro de proyectos Tomo III pp. 202-206\n\n## Evidencia base usada\n\n- Posibilidades de uso ENS pp. 27-28.\n- Nuestro libro de proyectos Tomo III pp. 192-206.\n- Etica, Naturaleza y Sociedades, primer grado, pp. 241-244, 275-283, 302-307, 323-339; Multiples Lenguajes pp. 46-47 y 86-87..\n\n## Decisiones curriculares del bloque\n\n- El horizonte comun del PPA 11 se mantiene en estado pendiente como formula unica; se privilegia una orientacion pedagogica situada y documentada.\n- Los productos finales quedan confirmados desde Posibilidades y la secuencia del propio proyecto.\n- Los conceptos confirmados se normalizan para sostener lectura docente, autoevaluacion y actividades de relacion de columnas.\n- La resonancia se formula como pregunta abierta para reforzar el sentido formativo del bloque.\n\n## Cautelas reales\n\n- El video detonador del PPA 11 y el recurso informatico del bloque siguen sin URL oficial confirmada.\n- La asignacion de apoyos por columna se sostiene por inferencia curricular documentada, no por OCR limpio de tabla.\n- No se marca el bloque como actividades interactivas ni se desbloquean juegos completos.\n"
+  }
+}

@@ -1,0 +1,1411 @@
+{
+  "grade": "2",
+  "gradeLabel": "Segundo grado",
+  "field": "Lenguajes",
+  "ppaNumber": "11",
+  "partialClassroomProject": "PPA 11",
+  "partialClassroomProjectTitle": "Conectando el pasado y el presente",
+  "source": "curricular-development-pilot",
+  "generatedAt": "2026-06-04T15:51:06.202Z",
+  "development": {
+    "grade": "2",
+    "gradeLabel": "Segundo grado",
+    "field": "Lenguajes",
+    "bookVolume": "Tomo III",
+    "partialClassroomProject": "PPA 11",
+    "partialClassroomProjectTitle": "Conectando el pasado y el presente",
+    "generatedAt": "2026-06-02T15:14:09.495Z",
+    "notes": "Capa curricular generada por lote para 2o Lenguajes, PPA 11.",
+    "sourcesUsed": [
+      "public/caracoles/data/generated/grade-2/selectable-projects.json",
+      "content/caracoles/generated-private/grade-2/pages-index.full.json",
+      "Posibilidades de uso Lenguajes, segundo grado, pp. 31-32",
+      "Nuestro libro de proyectos Tomo III, segundo grado, pp. 12-26",
+      "Lenguajes, segundo grado, pp. 12-16, 52-58, 120-124, 129-159, 186-191 y 277-298; Múltiples Lenguajes p. 34, pp. 72-75 y pp. 110-115."
+    ],
+    "partialClassroomProjectContext": {
+      "expectationHorizon": {
+        "officialText": "",
+        "sourcePages": [
+          "Nuestro libro de proyectos Tomo III pp. 12-13",
+          "Posibilidades de uso Lenguajes pp. 31-32"
+        ],
+        "evidence": "El PPA 11 articula tertulia literaria comunitaria, exposición artística y nota cultural informativa para recuperar memoria, valorar los géneros artísticos y enlazar el pasado con las formas actuales de organización y celebración comunitaria.",
+        "status": "pending"
+      },
+      "ppaDetonatingStrategy": {
+        "title": "Conectando el pasado y el presente",
+        "type": "video",
+        "url": "",
+        "urlStatus": "pending-url",
+        "reference": "bit.ly/3VfglUk",
+        "source": "Nuestro libro de proyectos Tomo III pp. 12-13 + Posibilidades de uso Lenguajes pp. 31-32",
+        "scope": "partial-classroom-project",
+        "youtubeSearchQuery": "Conectando el pasado y el presente Lenguajes 2do grado Telesecundaria"
+      },
+      "ppaDigitalResource": {
+        "title": "Recurso informatico del bloque PPA 11",
+        "reference": "bit.ly/3WQBMwg",
+        "status": "pending-validation",
+        "source": "Nuestro libro de proyectos Tomo III pp. 12-26"
+      },
+      "validationStatus": {
+        "needsHumanReview": true,
+        "needsReviewReasons": [
+          "Las pp. 31-32 de Posibilidades pertenecen al mismo PPA 11.",
+          "La asignacion de apoyos por columna se fija por inferencia curricular documentada de izquierda a derecha.",
+          "Los enlaces cortos del video del PPA y del recurso informatico se mantienen en cautela hasta localizar un destino oficial confirmado."
+        ]
+      },
+      "columnValidation": {
+        "possibilitiesPagesReviewed": [
+          31,
+          32
+        ],
+        "confirmedAsPpa": true,
+        "note": "Las pp. 31-32 corresponden al PPA 11 Conectando el pasado y el presente. Las tres columnas se sostienen por el orden de proyectos, productos y apoyos del mismo bloque.",
+        "columns": [
+          {
+            "columnIndex": 1,
+            "projectId": "lenguajes-2-ppa-11-pa31",
+            "projectTitle": "Memoria viva",
+            "finalProduct": "Tertulia literaria comunitaria",
+            "supportMaterials": [
+              "La Negra Mora, p. 34"
+            ]
+          },
+          {
+            "columnIndex": 2,
+            "projectId": "lenguajes-2-ppa-11-pa32",
+            "projectTitle": "El poder de los géneros artísticos en la memoria colectiva",
+            "finalProduct": "Exposición artística",
+            "supportMaterials": [
+              "Campo ciudad, pp. 72-75"
+            ]
+          },
+          {
+            "columnIndex": 3,
+            "projectId": "lenguajes-2-ppa-11-pa33",
+            "projectTitle": "¡Nuestro pasado vive!",
+            "finalProduct": "Nota cultural informativa",
+            "supportMaterials": [
+              "Los trucos de la abuela, pp. 110-115"
+            ]
+          }
+        ]
+      }
+    },
+    "academicProjects": [
+      {
+        "id": "lenguajes-2-ppa-11-pa31",
+        "projectId": "lenguajes-2-ppa-11-pa31",
+        "academicProjectNumber": 31,
+        "title": "Memoria viva",
+        "projectTitle": "Memoria viva",
+        "grade": "2",
+        "field": "Lenguajes",
+        "ppaNumber": "11",
+        "partialClassroomProject": "PPA 11",
+        "partialClassroomProjectTitle": "Conectando el pasado y el presente",
+        "bookVolume": "Tomo III",
+        "sourceValidation": {
+          "sourceStatus": "linked",
+          "possibilitiesPages": [
+            31,
+            32
+          ],
+          "possibilitiesMaterialId": "grade-2-posibilidades-pos-len-2",
+          "possibilitiesColumnIndex": 1,
+          "columnEvidence": "Bloque PPA 11 Conectando el pasado y el presente localizado en pp. 31-32; la columna 1 se confirma por el orden de proyectos, productos y continuidad del mismo bloque."
+        },
+        "finalProduct": {
+          "title": "Tertulia literaria comunitaria",
+          "source": "Posibilidades de uso Lenguajes pp. 31-32 + Nuestro libro de proyectos Tomo III pp. 14-17",
+          "status": "confirmed"
+        },
+        "sourcePages": {
+          "nuestroLibroProyectos": [
+            {
+              "materialId": "grade-2-proyectos-nuestro-libro-de-proyectos-tomo-3-segundo-grado",
+              "label": "Nuestro libro de proyectos Tomo III",
+              "startPage": 14,
+              "endPage": 17,
+              "pagesLabel": "pp. 14-17",
+              "topicTitle": "Proyecto academico 31",
+              "status": "confirmed-source"
+            }
+          ],
+          "conceptBook": [
+            {
+              "materialId": "grade-2-conceptos-lenguajes-segundo-grado",
+              "label": "Lenguajes",
+              "startPage": 12,
+              "endPage": 16,
+              "pagesLabel": "pp. 12-16",
+              "topicTitle": "El comentario crítico de una obra literaria como instrumento para la reflexión personal",
+              "status": "confirmed-by-column-inference"
+            },
+            {
+              "materialId": "grade-2-conceptos-lenguajes-segundo-grado",
+              "label": "Lenguajes",
+              "startPage": 52,
+              "endPage": 58,
+              "pagesLabel": "pp. 52-58",
+              "topicTitle": "La autobiografía y la crónica como vehículos para el conocimiento personal y comunitario",
+              "status": "confirmed-by-column-inference"
+            },
+            {
+              "materialId": "grade-2-conceptos-lenguajes-segundo-grado",
+              "label": "Lenguajes",
+              "startPage": 120,
+              "endPage": 124,
+              "pagesLabel": "pp. 120-124",
+              "topicTitle": "La literatura y el arte de la palabra en las lenguas originarias de México",
+              "status": "confirmed-by-column-inference"
+            }
+          ],
+          "multiplesLenguajes": [
+            {
+              "materialId": "grade-2-apoyo-multiples-lenguajes-segundo-grado",
+              "label": "Multiples Lenguajes",
+              "startPage": 34,
+              "endPage": 34,
+              "pagesLabel": "p. 34",
+              "topicTitle": "La Negra Mora",
+              "status": "confirmed-by-column-inference"
+            }
+          ],
+          "otherMaterials": [
+            {
+              "label": "Video PA 31: Tertulia literaria comunitaria • Lenguajes • 2do grado",
+              "reference": "https://www.youtube.com/watch?v=8mSDFl_75LE",
+              "status": "confirmed"
+            },
+            {
+              "label": "Video PPA 11: 11. Conectando el pasado y el presente • Lenguajes • 2do grado",
+              "reference": "https://www.youtube.com/watch?v=ge_GE4bTGWE",
+              "status": "confirmed"
+            }
+          ]
+        },
+        "supportMaterials": [
+          {
+            "title": "La Negra Mora",
+            "kind": "Multiples Lenguajes",
+            "pages": "p. 34",
+            "status": "confirmed-by-column-inference"
+          }
+        ],
+        "horizonOrPurpose": {
+          "status": "official",
+          "text": "Dialogar con la memoria personal y comunitaria mediante una tertulia literaria que recupere relatos, comentarios y recuerdos significativos del pasado cercano.",
+          "source": "Nuestro libro de proyectos Tomo III p. 14"
+        },
+        "projectExpectationHorizon": {
+          "officialText": "Reconocer la memoria escrita y oral de la comunidad, comentarla críticamente y compartirla en una tertulia literaria comunitaria.",
+          "studentVersion": "Recuperar recuerdos y relatos de la comunidad para dialogarlos en una tertulia literaria.",
+          "sourcePages": [
+            "Nuestro libro de proyectos Tomo III p. 14"
+          ],
+          "evidence": "El proyecto parte del comentario crítico, la autobiografía y la crónica para reunir voces del pasado y compartirlas en una conversación organizada.",
+          "status": "official"
+        },
+        "detonatingStrategy": {
+          "title": "11. Conectando el pasado y el presente • Lenguajes • 2do grado",
+          "text": "Video del Proyecto Parcial de Aula 11: 11. Conectando el pasado y el presente • Lenguajes • 2do grado",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=ge_GE4bTGWE",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "partial-classroom-project"
+        },
+        "academicProjectStrategy": {
+          "title": "Tertulia literaria comunitaria • Lenguajes • 2do grado",
+          "text": "Video detonador del Proyecto Academico 31: Memoria viva",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=8mSDFl_75LE",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "academic-project"
+        },
+        "academicConcepts": [
+          {
+            "concept": "tertulia literaria comunitaria",
+            "description": "Tertulia literaria comunitaria como producto de cierre para organizar y comunicar aprendizajes del proyecto.",
+            "sourceBook": "Nuestro libro de proyectos Tomo III",
+            "sourcePages": [
+              14,
+              17
+            ],
+            "sourcePagesLabel": "pp. 14-17",
+            "topicTitle": "Proyecto academico 31",
+            "status": "confirmed",
+            "reason": "Posibilidades y el propio proyecto fijan Tertulia literaria comunitaria como producto final del PA 31.",
+            "pedagogicalUse": "Da una forma concreta de socializar lo comprendido sobre la recuperación de memorias y relatos significativos mediante comentario crítico, autobiografía y crónica con sentido comunitario.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "memoria comunitaria",
+            "description": "Conjunto de recuerdos, relatos y experiencias que una comunidad conserva y comparte para explicar su pasado y su presente.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              52,
+              58
+            ],
+            "sourcePagesLabel": "pp. 52-58",
+            "topicTitle": "La autobiografía y la crónica como vehículos para el conocimiento personal y comunitario",
+            "status": "confirmed",
+            "reason": "La fuente validada \"La autobiografía y la crónica como vehículos para el conocimiento personal y comunitario\" aporta base suficiente para trabajar memoria comunitaria dentro del proyecto 31.",
+            "pedagogicalUse": "Ayuda a fortalecer tertulia literaria comunitaria y a explicar la recuperación de memorias y relatos significativos mediante comentario crítico, autobiografía y crónica con sentido comunitario con mayor claridad mediante memoria comunitaria.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "comentario crítico",
+            "description": "Texto oral o escrito que interpreta una obra o un relato y argumenta una postura personal frente a él.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              12,
+              16
+            ],
+            "sourcePagesLabel": "pp. 12-16",
+            "topicTitle": "El comentario crítico de una obra literaria como instrumento para la reflexión personal",
+            "status": "confirmed",
+            "reason": "La fuente validada \"El comentario crítico de una obra literaria como instrumento para la reflexión personal\" aporta base suficiente para trabajar comentario crítico dentro del proyecto 31.",
+            "pedagogicalUse": "Ayuda a fortalecer tertulia literaria comunitaria y a explicar la recuperación de memorias y relatos significativos mediante comentario crítico, autobiografía y crónica con sentido comunitario con mayor claridad mediante comentario crítico.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "autobiografía",
+            "description": "Narración de la propia vida en la que una persona organiza recuerdos, experiencias y sentidos personales.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              52,
+              58
+            ],
+            "sourcePagesLabel": "pp. 52-58",
+            "topicTitle": "La autobiografía y la crónica como vehículos para el conocimiento personal y comunitario",
+            "status": "confirmed",
+            "reason": "La fuente validada \"La autobiografía y la crónica como vehículos para el conocimiento personal y comunitario\" aporta base suficiente para trabajar autobiografía dentro del proyecto 31.",
+            "pedagogicalUse": "Ayuda a fortalecer tertulia literaria comunitaria y a explicar la recuperación de memorias y relatos significativos mediante comentario crítico, autobiografía y crónica con sentido comunitario con mayor claridad mediante autobiografía.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "crónica comunitaria",
+            "description": "Relato que reconstruye sucesos del entorno con atención a los hechos, las voces y la experiencia colectiva.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              52,
+              58
+            ],
+            "sourcePagesLabel": "pp. 52-58",
+            "topicTitle": "La autobiografía y la crónica como vehículos para el conocimiento personal y comunitario",
+            "status": "confirmed",
+            "reason": "La fuente validada \"La autobiografía y la crónica como vehículos para el conocimiento personal y comunitario\" aporta base suficiente para trabajar crónica comunitaria dentro del proyecto 31.",
+            "pedagogicalUse": "Ayuda a fortalecer tertulia literaria comunitaria y a explicar la recuperación de memorias y relatos significativos mediante comentario crítico, autobiografía y crónica con sentido comunitario con mayor claridad mediante crónica comunitaria.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "tradición oral",
+            "description": "Transmisión de saberes, relatos y formas de nombrar el mundo a través de la palabra compartida entre generaciones.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              120,
+              124
+            ],
+            "sourcePagesLabel": "pp. 120-124",
+            "topicTitle": "La literatura y el arte de la palabra en las lenguas originarias de México",
+            "status": "confirmed",
+            "reason": "La fuente validada \"La literatura y el arte de la palabra en las lenguas originarias de México\" aporta base suficiente para trabajar tradición oral dentro del proyecto 31.",
+            "pedagogicalUse": "Ayuda a fortalecer tertulia literaria comunitaria y a explicar la recuperación de memorias y relatos significativos mediante comentario crítico, autobiografía y crónica con sentido comunitario con mayor claridad mediante tradición oral.",
+            "activityReadiness": "usable-for-autoevaluation"
+          }
+        ],
+        "thinkingCriteria": [
+          "Relacionar la recuperación de memorias y relatos significativos mediante comentario crítico, autobiografía y crónica con sentido comunitario con situaciones cercanas a la comunidad.",
+          "Usar tertulia literaria comunitaria para explicar y no solo para recopilar informacion.",
+          "Distinguir entre mencionar conceptos y comprender como dialogan entre si dentro del proyecto."
+        ],
+        "validationStatus": {
+          "readinessLevel": "development-partial",
+          "readyForActivities": false,
+          "needsReviewReasons": [
+            "El bloque 11 ya es usable como lectura docente, pero el video del PPA 11 y el recurso informatico siguen pendientes de validacion de destino final.",
+            "La asignacion de apoyos de Posibilidades se sostiene por inferencia curricular documentada y no por OCR perfectamente separado por columnas.",
+            "No mover a actividades interactivas ni desbloquear juegos completos hasta ampliar validacion de videos y recursos complementarios."
+          ]
+        },
+        "readinessLevel": "development-partial",
+        "readyForActivities": false,
+        "needsReviewReasons": [
+          "No mover a actividades interactivas ni desbloquear juegos completos."
+        ],
+        "roleInPpa": "Abre el bloque poniendo la memoria oral y escrita en conversación con la comunidad mediante una tertulia que reconoce experiencias, voces y recuerdos.",
+        "pedagogicalUse": "Conviene trabajar Memoria viva como una oportunidad para profundizar en la recuperación de memorias y relatos significativos mediante comentario crítico, autobiografía y crónica con sentido comunitario sin separar contenido, comunidad y producto final.",
+        "teacherNotes": [
+          "Conviene partir de ejemplos cercanos y después pasar al lenguaje mas abstracto del campo.",
+          "El producto Tertulia literaria comunitaria gana fuerza cuando se usa para explicar y no solo para exhibir informacion.",
+          "Es mejor seleccionar pocos conceptos bien comprendidos que saturar el trabajo con terminos aislados."
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Qué comprendes mejor sobre la recuperación de memorias y relatos significativos mediante comentario crítico, autobiografía y crónica con sentido comunitario después de elaborar tertulia literaria comunitaria?"
+          },
+          {
+            "type": "community",
+            "prompt": "¿Qué diálogos comunitarios podrían fortalecerse si compartimos tertulia literaria comunitaria y lo ponemos en conversación con otras personas?"
+          }
+        ],
+        "notReadyFor": [
+          "full-games",
+          "summative-exam"
+        ]
+      },
+      {
+        "id": "lenguajes-2-ppa-11-pa32",
+        "projectId": "lenguajes-2-ppa-11-pa32",
+        "academicProjectNumber": 32,
+        "title": "El poder de los géneros artísticos en la memoria colectiva",
+        "projectTitle": "El poder de los géneros artísticos en la memoria colectiva",
+        "grade": "2",
+        "field": "Lenguajes",
+        "ppaNumber": "11",
+        "partialClassroomProject": "PPA 11",
+        "partialClassroomProjectTitle": "Conectando el pasado y el presente",
+        "bookVolume": "Tomo III",
+        "sourceValidation": {
+          "sourceStatus": "linked",
+          "possibilitiesPages": [
+            31,
+            32
+          ],
+          "possibilitiesMaterialId": "grade-2-posibilidades-pos-len-2",
+          "possibilitiesColumnIndex": 2,
+          "columnEvidence": "Bloque PPA 11 Conectando el pasado y el presente localizado en pp. 31-32; la columna 2 se confirma por el orden de proyectos, productos y continuidad del mismo bloque."
+        },
+        "finalProduct": {
+          "title": "Exposición artística",
+          "source": "Posibilidades de uso Lenguajes pp. 31-32 + Nuestro libro de proyectos Tomo III pp. 18-21",
+          "status": "confirmed"
+        },
+        "sourcePages": {
+          "nuestroLibroProyectos": [
+            {
+              "materialId": "grade-2-proyectos-nuestro-libro-de-proyectos-tomo-3-segundo-grado",
+              "label": "Nuestro libro de proyectos Tomo III",
+              "startPage": 18,
+              "endPage": 21,
+              "pagesLabel": "pp. 18-21",
+              "topicTitle": "Proyecto academico 32",
+              "status": "confirmed-source"
+            }
+          ],
+          "conceptBook": [
+            {
+              "materialId": "grade-2-conceptos-lenguajes-segundo-grado",
+              "label": "Lenguajes",
+              "startPage": 277,
+              "endPage": 279,
+              "pagesLabel": "pp. 277-279",
+              "topicTitle": "Criterios para valorar la estética de obras culturales y artísticas, y cómo trascenderlos",
+              "status": "confirmed-by-column-inference"
+            },
+            {
+              "materialId": "grade-2-conceptos-lenguajes-segundo-grado",
+              "label": "Lenguajes",
+              "startPage": 291,
+              "endPage": 292,
+              "pagesLabel": "pp. 291-292",
+              "topicTitle": "Los lenguajes artísticos desde una perspectiva descolonizadora",
+              "status": "confirmed-by-column-inference"
+            },
+            {
+              "materialId": "grade-2-conceptos-lenguajes-segundo-grado",
+              "label": "Lenguajes",
+              "startPage": 293,
+              "endPage": 298,
+              "pagesLabel": "pp. 293-298",
+              "topicTitle": "Nuestra fiesta comunitaria como espacio de enseñanza, reconocimiento, recreación y disfrute",
+              "status": "confirmed-by-column-inference"
+            }
+          ],
+          "multiplesLenguajes": [
+            {
+              "materialId": "grade-2-apoyo-multiples-lenguajes-segundo-grado",
+              "label": "Multiples Lenguajes",
+              "startPage": 72,
+              "endPage": 75,
+              "pagesLabel": "pp. 72-75",
+              "topicTitle": "Campo ciudad",
+              "status": "confirmed-by-column-inference"
+            }
+          ],
+          "otherMaterials": [
+            {
+              "label": "Video PA 32: Exposición artística • Lenguajes • 2do grado",
+              "reference": "https://www.youtube.com/watch?v=Gt4LtZSlPZs",
+              "status": "confirmed"
+            },
+            {
+              "label": "Video PPA 11: 11. Conectando el pasado y el presente • Lenguajes • 2do grado",
+              "reference": "https://www.youtube.com/watch?v=ge_GE4bTGWE",
+              "status": "confirmed"
+            }
+          ]
+        },
+        "supportMaterials": [
+          {
+            "title": "Campo ciudad",
+            "kind": "Multiples Lenguajes",
+            "pages": "pp. 72-75",
+            "status": "confirmed-by-column-inference"
+          }
+        ],
+        "horizonOrPurpose": {
+          "status": "official",
+          "text": "Valorar géneros y manifestaciones artísticas vinculadas con la memoria colectiva para compartirlas en una exposición artística con perspectiva comunitaria.",
+          "source": "Nuestro libro de proyectos Tomo III p. 18"
+        },
+        "projectExpectationHorizon": {
+          "officialText": "Analizar obras y expresiones artísticas desde criterios estéticos y descolonizadores para organizar una exposición artística sobre la memoria colectiva.",
+          "studentVersion": "Seleccionar y explicar expresiones artísticas que ayuden a reconstruir la memoria colectiva en una exposición.",
+          "sourcePages": [
+            "Nuestro libro de proyectos Tomo III p. 18"
+          ],
+          "evidence": "El proyecto articula criterios de valoración estética, lenguajes artísticos y fiestas comunitarias para hacer visible la memoria colectiva en una exposición.",
+          "status": "official"
+        },
+        "detonatingStrategy": {
+          "title": "11. Conectando el pasado y el presente • Lenguajes • 2do grado",
+          "text": "Video del Proyecto Parcial de Aula 11: 11. Conectando el pasado y el presente • Lenguajes • 2do grado",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=ge_GE4bTGWE",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "partial-classroom-project"
+        },
+        "academicProjectStrategy": {
+          "title": "Exposición artística • Lenguajes • 2do grado",
+          "text": "Video detonador del Proyecto Academico 32: El poder de los géneros artísticos en la memoria colectiva",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=Gt4LtZSlPZs",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "academic-project"
+        },
+        "academicConcepts": [
+          {
+            "concept": "exposición artística",
+            "description": "Exposición artística como producto de cierre para organizar y comunicar aprendizajes del proyecto.",
+            "sourceBook": "Nuestro libro de proyectos Tomo III",
+            "sourcePages": [
+              18,
+              21
+            ],
+            "sourcePagesLabel": "pp. 18-21",
+            "topicTitle": "Proyecto academico 32",
+            "status": "confirmed",
+            "reason": "Posibilidades y el propio proyecto fijan Exposición artística como producto final del PA 32.",
+            "pedagogicalUse": "Da una forma concreta de socializar lo comprendido sobre la valoración estética y descolonizadora de obras y géneros artísticos para reconstruir memorias colectivas.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "memoria colectiva",
+            "description": "Recuerdo compartido que se construye socialmente a través de relatos, imágenes, símbolos y prácticas culturales.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              277,
+              279
+            ],
+            "sourcePagesLabel": "pp. 277-279",
+            "topicTitle": "Criterios para valorar la estética de obras culturales y artísticas, y cómo trascenderlos",
+            "status": "confirmed",
+            "reason": "La fuente validada \"Criterios para valorar la estética de obras culturales y artísticas, y cómo trascenderlos\" aporta base suficiente para trabajar memoria colectiva dentro del proyecto 32.",
+            "pedagogicalUse": "Ayuda a fortalecer exposición artística y a explicar la valoración estética y descolonizadora de obras y géneros artísticos para reconstruir memorias colectivas con mayor claridad mediante memoria colectiva.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "criterios estéticos",
+            "description": "Referentes que ayudan a analizar y valorar una obra cultural o artística desde sus formas, efectos y sentidos.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              277,
+              279
+            ],
+            "sourcePagesLabel": "pp. 277-279",
+            "topicTitle": "Criterios para valorar la estética de obras culturales y artísticas, y cómo trascenderlos",
+            "status": "confirmed",
+            "reason": "La fuente validada \"Criterios para valorar la estética de obras culturales y artísticas, y cómo trascenderlos\" aporta base suficiente para trabajar criterios estéticos dentro del proyecto 32.",
+            "pedagogicalUse": "Ayuda a fortalecer exposición artística y a explicar la valoración estética y descolonizadora de obras y géneros artísticos para reconstruir memorias colectivas con mayor claridad mediante criterios estéticos.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "lenguajes artísticos",
+            "description": "Modos expresivos como música, danza, imagen, máscara o comida que comunican sentidos culturales y emocionales.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              291,
+              292
+            ],
+            "sourcePagesLabel": "pp. 291-292",
+            "topicTitle": "Los lenguajes artísticos desde una perspectiva descolonizadora",
+            "status": "confirmed",
+            "reason": "La fuente validada \"Los lenguajes artísticos desde una perspectiva descolonizadora\" aporta base suficiente para trabajar lenguajes artísticos dentro del proyecto 32.",
+            "pedagogicalUse": "Ayuda a fortalecer exposición artística y a explicar la valoración estética y descolonizadora de obras y géneros artísticos para reconstruir memorias colectivas con mayor claridad mediante lenguajes artísticos.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "perspectiva descolonizadora",
+            "description": "Mirada crítica que reconoce saberes y formas artísticas propias sin subordinarlas a criterios externos dominantes.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              291,
+              292
+            ],
+            "sourcePagesLabel": "pp. 291-292",
+            "topicTitle": "Los lenguajes artísticos desde una perspectiva descolonizadora",
+            "status": "confirmed",
+            "reason": "La fuente validada \"Los lenguajes artísticos desde una perspectiva descolonizadora\" aporta base suficiente para trabajar perspectiva descolonizadora dentro del proyecto 32.",
+            "pedagogicalUse": "Ayuda a fortalecer exposición artística y a explicar la valoración estética y descolonizadora de obras y géneros artísticos para reconstruir memorias colectivas con mayor claridad mediante perspectiva descolonizadora.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "fiesta comunitaria",
+            "description": "Espacio de encuentro donde arte, celebración y enseñanza fortalecen reconocimiento, recreación y disfrute colectivo.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              293,
+              298
+            ],
+            "sourcePagesLabel": "pp. 293-298",
+            "topicTitle": "Nuestra fiesta comunitaria como espacio de enseñanza, reconocimiento, recreación y disfrute",
+            "status": "confirmed",
+            "reason": "La fuente validada \"Nuestra fiesta comunitaria como espacio de enseñanza, reconocimiento, recreación y disfrute\" aporta base suficiente para trabajar fiesta comunitaria dentro del proyecto 32.",
+            "pedagogicalUse": "Ayuda a fortalecer exposición artística y a explicar la valoración estética y descolonizadora de obras y géneros artísticos para reconstruir memorias colectivas con mayor claridad mediante fiesta comunitaria.",
+            "activityReadiness": "usable-for-autoevaluation"
+          }
+        ],
+        "thinkingCriteria": [
+          "Relacionar la valoración estética y descolonizadora de obras y géneros artísticos para reconstruir memorias colectivas con situaciones cercanas a la comunidad.",
+          "Usar exposición artística para explicar y no solo para recopilar informacion.",
+          "Distinguir entre mencionar conceptos y comprender como dialogan entre si dentro del proyecto."
+        ],
+        "validationStatus": {
+          "readinessLevel": "development-partial",
+          "readyForActivities": false,
+          "needsReviewReasons": [
+            "El bloque 11 ya es usable como lectura docente, pero el video del PPA 11 y el recurso informatico siguen pendientes de validacion de destino final.",
+            "La asignacion de apoyos de Posibilidades se sostiene por inferencia curricular documentada y no por OCR perfectamente separado por columnas.",
+            "No mover a actividades interactivas ni desbloquear juegos completos hasta ampliar validacion de videos y recursos complementarios."
+          ]
+        },
+        "readinessLevel": "development-partial",
+        "readyForActivities": false,
+        "needsReviewReasons": [
+          "No mover a actividades interactivas ni desbloquear juegos completos."
+        ],
+        "roleInPpa": "Profundiza el bloque al traducir la memoria colectiva en criterios estéticos, lenguajes artísticos y una exposición compartida.",
+        "pedagogicalUse": "Conviene trabajar El poder de los géneros artísticos en la memoria colectiva como una oportunidad para profundizar en la valoración estética y descolonizadora de obras y géneros artísticos para reconstruir memorias colectivas sin separar contenido, comunidad y producto final.",
+        "teacherNotes": [
+          "Conviene partir de ejemplos cercanos y después pasar al lenguaje mas abstracto del campo.",
+          "El producto Exposición artística gana fuerza cuando se usa para explicar y no solo para exhibir informacion.",
+          "Es mejor seleccionar pocos conceptos bien comprendidos que saturar el trabajo con terminos aislados."
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Qué comprendes mejor sobre la valoración estética y descolonizadora de obras y géneros artísticos para reconstruir memorias colectivas después de elaborar exposición artística?"
+          },
+          {
+            "type": "community",
+            "prompt": "¿Qué diálogos comunitarios podrían fortalecerse si compartimos exposición artística y lo ponemos en conversación con otras personas?"
+          }
+        ],
+        "notReadyFor": [
+          "full-games",
+          "summative-exam"
+        ]
+      },
+      {
+        "id": "lenguajes-2-ppa-11-pa33",
+        "projectId": "lenguajes-2-ppa-11-pa33",
+        "academicProjectNumber": 33,
+        "title": "¡Nuestro pasado vive!",
+        "projectTitle": "¡Nuestro pasado vive!",
+        "grade": "2",
+        "field": "Lenguajes",
+        "ppaNumber": "11",
+        "partialClassroomProject": "PPA 11",
+        "partialClassroomProjectTitle": "Conectando el pasado y el presente",
+        "bookVolume": "Tomo III",
+        "sourceValidation": {
+          "sourceStatus": "linked",
+          "possibilitiesPages": [
+            31,
+            32
+          ],
+          "possibilitiesMaterialId": "grade-2-posibilidades-pos-len-2",
+          "possibilitiesColumnIndex": 3,
+          "columnEvidence": "Bloque PPA 11 Conectando el pasado y el presente localizado en pp. 31-32; la columna 3 se confirma por el orden de proyectos, productos y continuidad del mismo bloque."
+        },
+        "finalProduct": {
+          "title": "Nota cultural informativa",
+          "source": "Posibilidades de uso Lenguajes pp. 31-32 + Nuestro libro de proyectos Tomo III pp. 22-26",
+          "status": "confirmed"
+        },
+        "sourcePages": {
+          "nuestroLibroProyectos": [
+            {
+              "materialId": "grade-2-proyectos-nuestro-libro-de-proyectos-tomo-3-segundo-grado",
+              "label": "Nuestro libro de proyectos Tomo III",
+              "startPage": 22,
+              "endPage": 26,
+              "pagesLabel": "pp. 22-26",
+              "topicTitle": "Proyecto academico 33",
+              "status": "confirmed-source"
+            }
+          ],
+          "conceptBook": [
+            {
+              "materialId": "grade-2-conceptos-lenguajes-segundo-grado",
+              "label": "Lenguajes",
+              "startPage": 186,
+              "endPage": 191,
+              "pagesLabel": "pp. 186-191",
+              "topicTitle": "Prácticas culturales y ceremoniales de los pueblos indígenas",
+              "status": "confirmed-by-column-inference"
+            },
+            {
+              "materialId": "grade-2-conceptos-lenguajes-segundo-grado",
+              "label": "Lenguajes",
+              "startPage": 139,
+              "endPage": 148,
+              "pagesLabel": "pp. 139-148",
+              "topicTitle": "El trabajo comunitario y las formas de construir acuerdos en los pueblos indígenas",
+              "status": "confirmed-by-column-inference"
+            },
+            {
+              "materialId": "grade-2-conceptos-lenguajes-segundo-grado",
+              "label": "Lenguajes",
+              "startPage": 149,
+              "endPage": 159,
+              "pagesLabel": "pp. 149-159",
+              "topicTitle": "El trabajo de la milpa como práctica cultural de las comunidades indígenas",
+              "status": "confirmed-by-column-inference"
+            }
+          ],
+          "multiplesLenguajes": [
+            {
+              "materialId": "grade-2-apoyo-multiples-lenguajes-segundo-grado",
+              "label": "Multiples Lenguajes",
+              "startPage": 110,
+              "endPage": 115,
+              "pagesLabel": "pp. 110-115",
+              "topicTitle": "Los trucos de la abuela",
+              "status": "confirmed-by-column-inference"
+            }
+          ],
+          "otherMaterials": [
+            {
+              "label": "Video PA 33: 11. Conectando el pasado y el presente • Lenguajes • 2do grado",
+              "reference": "https://www.youtube.com/watch?v=ge_GE4bTGWE",
+              "status": "confirmed"
+            },
+            {
+              "label": "Video PPA 11: 11. Conectando el pasado y el presente • Lenguajes • 2do grado",
+              "reference": "https://www.youtube.com/watch?v=ge_GE4bTGWE",
+              "status": "confirmed"
+            }
+          ]
+        },
+        "supportMaterials": [
+          {
+            "title": "Los trucos de la abuela",
+            "kind": "Multiples Lenguajes",
+            "pages": "pp. 110-115",
+            "status": "confirmed-by-column-inference"
+          }
+        ],
+        "horizonOrPurpose": {
+          "status": "official",
+          "text": "Investigar prácticas culturales del pasado que siguen vivas en la comunidad para comunicarlas mediante una nota cultural informativa.",
+          "source": "Nuestro libro de proyectos Tomo III p. 22"
+        },
+        "projectExpectationHorizon": {
+          "officialText": "Reconocer ceremonias, trabajos y acuerdos comunitarios para redactar una nota cultural informativa que muestre cómo el pasado sigue presente.",
+          "studentVersion": "Documentar prácticas culturales de la comunidad y explicarlas en una nota cultural informativa.",
+          "sourcePages": [
+            "Nuestro libro de proyectos Tomo III p. 22"
+          ],
+          "evidence": "El proyecto une prácticas ceremoniales, ayuda mutua y trabajo de la milpa para comunicar la permanencia cultural en el presente.",
+          "status": "official"
+        },
+        "detonatingStrategy": {
+          "title": "11. Conectando el pasado y el presente • Lenguajes • 2do grado",
+          "text": "Video del Proyecto Parcial de Aula 11: 11. Conectando el pasado y el presente • Lenguajes • 2do grado",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=ge_GE4bTGWE",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "partial-classroom-project"
+        },
+        "academicProjectStrategy": {
+          "title": "11. Conectando el pasado y el presente • Lenguajes • 2do grado",
+          "text": "Video detonador del Proyecto Academico 33: ¡Nuestro pasado vive!",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=ge_GE4bTGWE",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "academic-project"
+        },
+        "academicConcepts": [
+          {
+            "concept": "nota cultural informativa",
+            "description": "Nota cultural informativa como producto de cierre para organizar y comunicar aprendizajes del proyecto.",
+            "sourceBook": "Nuestro libro de proyectos Tomo III",
+            "sourcePages": [
+              22,
+              26
+            ],
+            "sourcePagesLabel": "pp. 22-26",
+            "topicTitle": "Proyecto academico 33",
+            "status": "confirmed",
+            "reason": "Posibilidades y el propio proyecto fijan Nota cultural informativa como producto final del PA 33.",
+            "pedagogicalUse": "Da una forma concreta de socializar lo comprendido sobre la documentación de prácticas culturales, trabajo comunitario y saberes sobre la milpa para comunicar la vigencia del pasado.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "prácticas culturales",
+            "description": "Acciones, celebraciones y costumbres que una comunidad reconoce como parte de su manera de vivir y significar el mundo.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              186,
+              191
+            ],
+            "sourcePagesLabel": "pp. 186-191",
+            "topicTitle": "Prácticas culturales y ceremoniales de los pueblos indígenas",
+            "status": "confirmed",
+            "reason": "La fuente validada \"Prácticas culturales y ceremoniales de los pueblos indígenas\" aporta base suficiente para trabajar prácticas culturales dentro del proyecto 33.",
+            "pedagogicalUse": "Ayuda a fortalecer nota cultural informativa y a explicar la documentación de prácticas culturales, trabajo comunitario y saberes sobre la milpa para comunicar la vigencia del pasado con mayor claridad mediante prácticas culturales.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "ceremonialidad",
+            "description": "Conjunto de actos, discursos y formas de participación que acompañan una práctica cultural significativa.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              186,
+              191
+            ],
+            "sourcePagesLabel": "pp. 186-191",
+            "topicTitle": "Prácticas culturales y ceremoniales de los pueblos indígenas",
+            "status": "confirmed",
+            "reason": "La fuente validada \"Prácticas culturales y ceremoniales de los pueblos indígenas\" aporta base suficiente para trabajar ceremonialidad dentro del proyecto 33.",
+            "pedagogicalUse": "Ayuda a fortalecer nota cultural informativa y a explicar la documentación de prácticas culturales, trabajo comunitario y saberes sobre la milpa para comunicar la vigencia del pasado con mayor claridad mediante ceremonialidad.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "trabajo comunitario",
+            "description": "Organización colectiva de tareas y responsabilidades para cuidar, sostener o mejorar la vida común.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              139,
+              148
+            ],
+            "sourcePagesLabel": "pp. 139-148",
+            "topicTitle": "El trabajo comunitario y las formas de construir acuerdos en los pueblos indígenas",
+            "status": "confirmed",
+            "reason": "La fuente validada \"El trabajo comunitario y las formas de construir acuerdos en los pueblos indígenas\" aporta base suficiente para trabajar trabajo comunitario dentro del proyecto 33.",
+            "pedagogicalUse": "Ayuda a fortalecer nota cultural informativa y a explicar la documentación de prácticas culturales, trabajo comunitario y saberes sobre la milpa para comunicar la vigencia del pasado con mayor claridad mediante trabajo comunitario.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "milpa",
+            "description": "Práctica cultural, agrícola y simbólica que articula trabajo, alimento, organización y relación con la naturaleza.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              149,
+              159
+            ],
+            "sourcePagesLabel": "pp. 149-159",
+            "topicTitle": "El trabajo de la milpa como práctica cultural de las comunidades indígenas",
+            "status": "confirmed",
+            "reason": "La fuente validada \"El trabajo de la milpa como práctica cultural de las comunidades indígenas\" aporta base suficiente para trabajar milpa dentro del proyecto 33.",
+            "pedagogicalUse": "Ayuda a fortalecer nota cultural informativa y a explicar la documentación de prácticas culturales, trabajo comunitario y saberes sobre la milpa para comunicar la vigencia del pasado con mayor claridad mediante milpa.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "nota cultural informativa",
+            "description": "Texto breve que explica con claridad la relevancia de una práctica, hecho o manifestación cultural para otras personas.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              149,
+              159
+            ],
+            "sourcePagesLabel": "pp. 149-159",
+            "topicTitle": "El trabajo de la milpa como práctica cultural de las comunidades indígenas",
+            "status": "confirmed",
+            "reason": "La fuente validada \"El trabajo de la milpa como práctica cultural de las comunidades indígenas\" aporta base suficiente para trabajar nota cultural informativa dentro del proyecto 33.",
+            "pedagogicalUse": "Ayuda a fortalecer nota cultural informativa y a explicar la documentación de prácticas culturales, trabajo comunitario y saberes sobre la milpa para comunicar la vigencia del pasado con mayor claridad mediante nota cultural informativa.",
+            "activityReadiness": "usable-for-autoevaluation"
+          }
+        ],
+        "thinkingCriteria": [
+          "Relacionar la documentación de prácticas culturales, trabajo comunitario y saberes sobre la milpa para comunicar la vigencia del pasado con situaciones cercanas a la comunidad.",
+          "Usar nota cultural informativa para explicar y no solo para recopilar informacion.",
+          "Distinguir entre mencionar conceptos y comprender como dialogan entre si dentro del proyecto."
+        ],
+        "validationStatus": {
+          "readinessLevel": "development-partial",
+          "readyForActivities": false,
+          "needsReviewReasons": [
+            "El bloque 11 ya es usable como lectura docente, pero el video del PPA 11 y el recurso informatico siguen pendientes de validacion de destino final.",
+            "La asignacion de apoyos de Posibilidades se sostiene por inferencia curricular documentada y no por OCR perfectamente separado por columnas.",
+            "No mover a actividades interactivas ni desbloquear juegos completos hasta ampliar validacion de videos y recursos complementarios."
+          ]
+        },
+        "readinessLevel": "development-partial",
+        "readyForActivities": false,
+        "needsReviewReasons": [
+          "No mover a actividades interactivas ni desbloquear juegos completos."
+        ],
+        "roleInPpa": "Cierra el bloque mostrando que el pasado sigue presente en ceremonias, trabajos y prácticas culturales que pueden comunicarse con claridad a otras personas.",
+        "pedagogicalUse": "Conviene trabajar ¡Nuestro pasado vive! como una oportunidad para profundizar en la documentación de prácticas culturales, trabajo comunitario y saberes sobre la milpa para comunicar la vigencia del pasado sin separar contenido, comunidad y producto final.",
+        "teacherNotes": [
+          "Conviene partir de ejemplos cercanos y después pasar al lenguaje mas abstracto del campo.",
+          "El producto Nota cultural informativa gana fuerza cuando se usa para explicar y no solo para exhibir informacion.",
+          "Es mejor seleccionar pocos conceptos bien comprendidos que saturar el trabajo con terminos aislados."
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Qué comprendes mejor sobre la documentación de prácticas culturales, trabajo comunitario y saberes sobre la milpa para comunicar la vigencia del pasado después de elaborar nota cultural informativa?"
+          },
+          {
+            "type": "community",
+            "prompt": "¿Qué diálogos comunitarios podrían fortalecerse si compartimos nota cultural informativa y lo ponemos en conversación con otras personas?"
+          }
+        ],
+        "notReadyFor": [
+          "full-games",
+          "summative-exam"
+        ]
+      }
+    ]
+  },
+  "conceptsValidation": {
+    "grade": "2",
+    "field": "Lenguajes",
+    "ppaNumber": "11",
+    "status": "concept-validation",
+    "generatedAt": "2026-06-02T15:14:09.495Z",
+    "entries": [
+      {
+        "projectId": "lenguajes-2-ppa-11-pa31",
+        "projectTitle": "Memoria viva",
+        "concept": "tertulia literaria comunitaria",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Nuestro libro de proyectos Tomo III",
+          "pages": [
+            14,
+            17
+          ],
+          "reason": "Posibilidades y el propio proyecto fijan Tertulia literaria comunitaria como producto final del PA 31."
+        },
+        "pedagogicalUse": "Da una forma concreta de socializar lo comprendido sobre la recuperación de memorias y relatos significativos mediante comentario crítico, autobiografía y crónica con sentido comunitario.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-2-ppa-11-pa31",
+        "projectTitle": "Memoria viva",
+        "concept": "memoria comunitaria",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            52,
+            58
+          ],
+          "reason": "La fuente validada \"La autobiografía y la crónica como vehículos para el conocimiento personal y comunitario\" aporta base suficiente para trabajar memoria comunitaria dentro del proyecto 31."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer tertulia literaria comunitaria y a explicar la recuperación de memorias y relatos significativos mediante comentario crítico, autobiografía y crónica con sentido comunitario con mayor claridad mediante memoria comunitaria.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-2-ppa-11-pa31",
+        "projectTitle": "Memoria viva",
+        "concept": "comentario crítico",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            12,
+            16
+          ],
+          "reason": "La fuente validada \"El comentario crítico de una obra literaria como instrumento para la reflexión personal\" aporta base suficiente para trabajar comentario crítico dentro del proyecto 31."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer tertulia literaria comunitaria y a explicar la recuperación de memorias y relatos significativos mediante comentario crítico, autobiografía y crónica con sentido comunitario con mayor claridad mediante comentario crítico.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-2-ppa-11-pa31",
+        "projectTitle": "Memoria viva",
+        "concept": "autobiografía",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            52,
+            58
+          ],
+          "reason": "La fuente validada \"La autobiografía y la crónica como vehículos para el conocimiento personal y comunitario\" aporta base suficiente para trabajar autobiografía dentro del proyecto 31."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer tertulia literaria comunitaria y a explicar la recuperación de memorias y relatos significativos mediante comentario crítico, autobiografía y crónica con sentido comunitario con mayor claridad mediante autobiografía.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-2-ppa-11-pa31",
+        "projectTitle": "Memoria viva",
+        "concept": "crónica comunitaria",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            52,
+            58
+          ],
+          "reason": "La fuente validada \"La autobiografía y la crónica como vehículos para el conocimiento personal y comunitario\" aporta base suficiente para trabajar crónica comunitaria dentro del proyecto 31."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer tertulia literaria comunitaria y a explicar la recuperación de memorias y relatos significativos mediante comentario crítico, autobiografía y crónica con sentido comunitario con mayor claridad mediante crónica comunitaria.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-2-ppa-11-pa31",
+        "projectTitle": "Memoria viva",
+        "concept": "tradición oral",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            120,
+            124
+          ],
+          "reason": "La fuente validada \"La literatura y el arte de la palabra en las lenguas originarias de México\" aporta base suficiente para trabajar tradición oral dentro del proyecto 31."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer tertulia literaria comunitaria y a explicar la recuperación de memorias y relatos significativos mediante comentario crítico, autobiografía y crónica con sentido comunitario con mayor claridad mediante tradición oral.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-2-ppa-11-pa32",
+        "projectTitle": "El poder de los géneros artísticos en la memoria colectiva",
+        "concept": "exposición artística",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Nuestro libro de proyectos Tomo III",
+          "pages": [
+            18,
+            21
+          ],
+          "reason": "Posibilidades y el propio proyecto fijan Exposición artística como producto final del PA 32."
+        },
+        "pedagogicalUse": "Da una forma concreta de socializar lo comprendido sobre la valoración estética y descolonizadora de obras y géneros artísticos para reconstruir memorias colectivas.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-2-ppa-11-pa32",
+        "projectTitle": "El poder de los géneros artísticos en la memoria colectiva",
+        "concept": "memoria colectiva",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            277,
+            279
+          ],
+          "reason": "La fuente validada \"Criterios para valorar la estética de obras culturales y artísticas, y cómo trascenderlos\" aporta base suficiente para trabajar memoria colectiva dentro del proyecto 32."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer exposición artística y a explicar la valoración estética y descolonizadora de obras y géneros artísticos para reconstruir memorias colectivas con mayor claridad mediante memoria colectiva.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-2-ppa-11-pa32",
+        "projectTitle": "El poder de los géneros artísticos en la memoria colectiva",
+        "concept": "criterios estéticos",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            277,
+            279
+          ],
+          "reason": "La fuente validada \"Criterios para valorar la estética de obras culturales y artísticas, y cómo trascenderlos\" aporta base suficiente para trabajar criterios estéticos dentro del proyecto 32."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer exposición artística y a explicar la valoración estética y descolonizadora de obras y géneros artísticos para reconstruir memorias colectivas con mayor claridad mediante criterios estéticos.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-2-ppa-11-pa32",
+        "projectTitle": "El poder de los géneros artísticos en la memoria colectiva",
+        "concept": "lenguajes artísticos",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            291,
+            292
+          ],
+          "reason": "La fuente validada \"Los lenguajes artísticos desde una perspectiva descolonizadora\" aporta base suficiente para trabajar lenguajes artísticos dentro del proyecto 32."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer exposición artística y a explicar la valoración estética y descolonizadora de obras y géneros artísticos para reconstruir memorias colectivas con mayor claridad mediante lenguajes artísticos.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-2-ppa-11-pa32",
+        "projectTitle": "El poder de los géneros artísticos en la memoria colectiva",
+        "concept": "perspectiva descolonizadora",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            291,
+            292
+          ],
+          "reason": "La fuente validada \"Los lenguajes artísticos desde una perspectiva descolonizadora\" aporta base suficiente para trabajar perspectiva descolonizadora dentro del proyecto 32."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer exposición artística y a explicar la valoración estética y descolonizadora de obras y géneros artísticos para reconstruir memorias colectivas con mayor claridad mediante perspectiva descolonizadora.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-2-ppa-11-pa32",
+        "projectTitle": "El poder de los géneros artísticos en la memoria colectiva",
+        "concept": "fiesta comunitaria",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            293,
+            298
+          ],
+          "reason": "La fuente validada \"Nuestra fiesta comunitaria como espacio de enseñanza, reconocimiento, recreación y disfrute\" aporta base suficiente para trabajar fiesta comunitaria dentro del proyecto 32."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer exposición artística y a explicar la valoración estética y descolonizadora de obras y géneros artísticos para reconstruir memorias colectivas con mayor claridad mediante fiesta comunitaria.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-2-ppa-11-pa33",
+        "projectTitle": "¡Nuestro pasado vive!",
+        "concept": "nota cultural informativa",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Nuestro libro de proyectos Tomo III",
+          "pages": [
+            22,
+            26
+          ],
+          "reason": "Posibilidades y el propio proyecto fijan Nota cultural informativa como producto final del PA 33."
+        },
+        "pedagogicalUse": "Da una forma concreta de socializar lo comprendido sobre la documentación de prácticas culturales, trabajo comunitario y saberes sobre la milpa para comunicar la vigencia del pasado.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-2-ppa-11-pa33",
+        "projectTitle": "¡Nuestro pasado vive!",
+        "concept": "prácticas culturales",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            186,
+            191
+          ],
+          "reason": "La fuente validada \"Prácticas culturales y ceremoniales de los pueblos indígenas\" aporta base suficiente para trabajar prácticas culturales dentro del proyecto 33."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer nota cultural informativa y a explicar la documentación de prácticas culturales, trabajo comunitario y saberes sobre la milpa para comunicar la vigencia del pasado con mayor claridad mediante prácticas culturales.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-2-ppa-11-pa33",
+        "projectTitle": "¡Nuestro pasado vive!",
+        "concept": "ceremonialidad",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            186,
+            191
+          ],
+          "reason": "La fuente validada \"Prácticas culturales y ceremoniales de los pueblos indígenas\" aporta base suficiente para trabajar ceremonialidad dentro del proyecto 33."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer nota cultural informativa y a explicar la documentación de prácticas culturales, trabajo comunitario y saberes sobre la milpa para comunicar la vigencia del pasado con mayor claridad mediante ceremonialidad.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-2-ppa-11-pa33",
+        "projectTitle": "¡Nuestro pasado vive!",
+        "concept": "trabajo comunitario",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            139,
+            148
+          ],
+          "reason": "La fuente validada \"El trabajo comunitario y las formas de construir acuerdos en los pueblos indígenas\" aporta base suficiente para trabajar trabajo comunitario dentro del proyecto 33."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer nota cultural informativa y a explicar la documentación de prácticas culturales, trabajo comunitario y saberes sobre la milpa para comunicar la vigencia del pasado con mayor claridad mediante trabajo comunitario.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-2-ppa-11-pa33",
+        "projectTitle": "¡Nuestro pasado vive!",
+        "concept": "milpa",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            149,
+            159
+          ],
+          "reason": "La fuente validada \"El trabajo de la milpa como práctica cultural de las comunidades indígenas\" aporta base suficiente para trabajar milpa dentro del proyecto 33."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer nota cultural informativa y a explicar la documentación de prácticas culturales, trabajo comunitario y saberes sobre la milpa para comunicar la vigencia del pasado con mayor claridad mediante milpa.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-2-ppa-11-pa33",
+        "projectTitle": "¡Nuestro pasado vive!",
+        "concept": "nota cultural informativa",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            149,
+            159
+          ],
+          "reason": "La fuente validada \"El trabajo de la milpa como práctica cultural de las comunidades indígenas\" aporta base suficiente para trabajar nota cultural informativa dentro del proyecto 33."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer nota cultural informativa y a explicar la documentación de prácticas culturales, trabajo comunitario y saberes sobre la milpa para comunicar la vigencia del pasado con mayor claridad mediante nota cultural informativa.",
+        "activityReadiness": "usable-for-autoevaluation"
+      }
+    ]
+  },
+  "pedagogicalArticulation": {
+    "grade": "2",
+    "field": "Lenguajes",
+    "ppaNumber": "11",
+    "status": "teacher-orientation",
+    "officialHorizonStatus": "pending",
+    "situatedPedagogicalOrientation": "El PPA 11 articula tertulia literaria comunitaria, exposición artística y nota cultural informativa para recuperar memoria, valorar los géneros artísticos y enlazar el pasado con las formas actuales de organización y celebración comunitaria.",
+    "integratingQuestions": [
+      "Como dialogan tertulia literaria comunitaria, exposición artística, nota cultural informativa dentro del mismo PPA 11?",
+      "Que cambia en la comprension de la memoria comunitaria, las prácticas culturales y la reconstrucción del pasado como diálogo vivo entre escritura, arte y comunidad cuando el grupo pone en relacion conceptos, producto y comunidad?",
+      "Como convertir el producto final en una herramienta de explicacion y no solo de presentacion?"
+    ],
+    "projectConnections": [
+      {
+        "projectId": "lenguajes-2-ppa-11-pa31",
+        "projectTitle": "Memoria viva",
+        "roleInPpa": "Abre el bloque poniendo la memoria oral y escrita en conversación con la comunidad mediante una tertulia que reconoce experiencias, voces y recuerdos.",
+        "confirmedConcepts": [
+          "tertulia literaria comunitaria",
+          "memoria comunitaria",
+          "comentario crítico",
+          "autobiografía",
+          "crónica comunitaria",
+          "tradición oral"
+        ],
+        "suggestedConcepts": [],
+        "pedagogicalUse": "Conviene trabajar Memoria viva como una oportunidad para profundizar en la recuperación de memorias y relatos significativos mediante comentario crítico, autobiografía y crónica con sentido comunitario sin separar contenido, comunidad y producto final."
+      },
+      {
+        "projectId": "lenguajes-2-ppa-11-pa32",
+        "projectTitle": "El poder de los géneros artísticos en la memoria colectiva",
+        "roleInPpa": "Profundiza el bloque al traducir la memoria colectiva en criterios estéticos, lenguajes artísticos y una exposición compartida.",
+        "confirmedConcepts": [
+          "exposición artística",
+          "memoria colectiva",
+          "criterios estéticos",
+          "lenguajes artísticos",
+          "perspectiva descolonizadora",
+          "fiesta comunitaria"
+        ],
+        "suggestedConcepts": [],
+        "pedagogicalUse": "Conviene trabajar El poder de los géneros artísticos en la memoria colectiva como una oportunidad para profundizar en la valoración estética y descolonizadora de obras y géneros artísticos para reconstruir memorias colectivas sin separar contenido, comunidad y producto final."
+      },
+      {
+        "projectId": "lenguajes-2-ppa-11-pa33",
+        "projectTitle": "¡Nuestro pasado vive!",
+        "roleInPpa": "Cierra el bloque mostrando que el pasado sigue presente en ceremonias, trabajos y prácticas culturales que pueden comunicarse con claridad a otras personas.",
+        "confirmedConcepts": [
+          "nota cultural informativa",
+          "prácticas culturales",
+          "ceremonialidad",
+          "trabajo comunitario",
+          "milpa",
+          "nota cultural informativa"
+        ],
+        "suggestedConcepts": [],
+        "pedagogicalUse": "Conviene trabajar ¡Nuestro pasado vive! como una oportunidad para profundizar en la documentación de prácticas culturales, trabajo comunitario y saberes sobre la milpa para comunicar la vigencia del pasado sin separar contenido, comunidad y producto final."
+      }
+    ],
+    "criteriaOfThought": [
+      {
+        "criterion": "Relacionar la memoria comunitaria, las prácticas culturales y la reconstrucción del pasado como diálogo vivo entre escritura, arte y comunidad con experiencias concretas del entorno.",
+        "status": "suggested"
+      },
+      {
+        "criterion": "Usar el producto final para comunicar con claridad, no solo para acumular definiciones.",
+        "status": "suggested"
+      }
+    ],
+    "possibleResonanceQuestion": "¿Qué comprensiones nuevas sobre la memoria comunitaria, las prácticas culturales y la reconstrucción del pasado como diálogo vivo entre escritura, arte y comunidad se vuelven visibles cuando el grupo comparte los productos del PPA 11?",
+    "teacherNotes": [
+      "No reducir el PPA 11 a tres productos aislados; el bloque construye una misma conversacion curricular.",
+      "Las paginas de Posibilidades forman un mismo bloque y los apoyos por columna se documentan por inferencia curricular situada.",
+      "Los enlaces cortos del video detonador y del recurso informatico se mantienen en cautela y no deben tratarse como recursos ya validados."
+    ],
+    "notReadyFor": [
+      "actividades interactivas",
+      "full-games",
+      "summative-exam"
+    ]
+  },
+  "teacherNotesAndResonances": {
+    "grade": "2",
+    "field": "Lenguajes",
+    "ppaNumber": "11",
+    "status": "teacher-orientation",
+    "officialHorizonStatus": "pending",
+    "ppaIntegratingResonance": "¿Qué comprensiones nuevas sobre la memoria comunitaria, las prácticas culturales y la reconstrucción del pasado como diálogo vivo entre escritura, arte y comunidad se vuelven visibles cuando el grupo comparte los productos del PPA 11?",
+    "didacticWarnings": [
+      "No convertir el bloque en una lista de definiciones; importa relacionar conceptos con producto, comunidad y dialogo.",
+      "Los enlaces cortos bit.ly/3VfglUk y bit.ly/3WQBMwg se mantienen como cautela y no deben tratarse como recursos ya validados.",
+      "La distribucion de apoyos por columna se fija por inferencia curricular documentada a partir de Posibilidades."
+    ],
+    "communityPrompts": {
+      "communityKnowledge": [
+        "Que saberes de la comunidad ayudan a profundizar en la memoria comunitaria, las prácticas culturales y la reconstrucción del pasado como diálogo vivo entre escritura, arte y comunidad?",
+        "Que ejemplos cercanos permiten que los conceptos del campo se vuelvan mas claros para el grupo?"
+      ],
+      "families": [
+        "Que experiencias, relatos o practicas familiares pueden enriquecer el proyecto sin desplazar su foco academico?",
+        "Que aprendizajes vale la pena compartir con otras generaciones a partir del producto final?"
+      ],
+      "territoryLanguageMemory": [
+        "Que palabras, lugares o memorias ayudan a nombrar mejor lo que el proyecto esta buscando comprender?",
+        "Como pueden circular estos productos dentro de la comunidad escolar sin perder precision ni sentido?"
+      ],
+      "productCommunityConnection": [
+        "Como podria circular tertulia literaria comunitaria, exposición artística, nota cultural informativa para fortalecer el dialogo comunitario?"
+      ]
+    },
+    "suggestedThinkingCriteria": [
+      "Relacionar la memoria comunitaria, las prácticas culturales y la reconstrucción del pasado como diálogo vivo entre escritura, arte y comunidad con problemas, experiencias y preguntas del entorno cercano.",
+      "Valorar el producto final como herramienta de comprension y comunicacion compartida."
+    ],
+    "projects": [
+      {
+        "projectId": "lenguajes-2-ppa-11-pa31",
+        "projectTitle": "Memoria viva",
+        "teacherNotes": [
+          "Conviene partir de ejemplos cercanos y después pasar al lenguaje mas abstracto del campo.",
+          "El producto Tertulia literaria comunitaria gana fuerza cuando se usa para explicar y no solo para exhibir informacion.",
+          "Es mejor seleccionar pocos conceptos bien comprendidos que saturar el trabajo con terminos aislados."
+        ],
+        "confirmedConceptsToUse": [
+          "tertulia literaria comunitaria",
+          "memoria comunitaria",
+          "comentario crítico",
+          "autobiografía",
+          "crónica comunitaria",
+          "tradición oral"
+        ],
+        "suggestedConceptsToHandleCarefully": [],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Qué comprendes mejor sobre la recuperación de memorias y relatos significativos mediante comentario crítico, autobiografía y crónica con sentido comunitario después de elaborar tertulia literaria comunitaria?"
+          },
+          {
+            "type": "community",
+            "prompt": "¿Qué diálogos comunitarios podrían fortalecerse si compartimos tertulia literaria comunitaria y lo ponemos en conversación con otras personas?"
+          }
+        ],
+        "notReadyFor": [
+          "full-games",
+          "summative-exam"
+        ]
+      },
+      {
+        "projectId": "lenguajes-2-ppa-11-pa32",
+        "projectTitle": "El poder de los géneros artísticos en la memoria colectiva",
+        "teacherNotes": [
+          "Conviene partir de ejemplos cercanos y después pasar al lenguaje mas abstracto del campo.",
+          "El producto Exposición artística gana fuerza cuando se usa para explicar y no solo para exhibir informacion.",
+          "Es mejor seleccionar pocos conceptos bien comprendidos que saturar el trabajo con terminos aislados."
+        ],
+        "confirmedConceptsToUse": [
+          "exposición artística",
+          "memoria colectiva",
+          "criterios estéticos",
+          "lenguajes artísticos",
+          "perspectiva descolonizadora",
+          "fiesta comunitaria"
+        ],
+        "suggestedConceptsToHandleCarefully": [],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Qué comprendes mejor sobre la valoración estética y descolonizadora de obras y géneros artísticos para reconstruir memorias colectivas después de elaborar exposición artística?"
+          },
+          {
+            "type": "community",
+            "prompt": "¿Qué diálogos comunitarios podrían fortalecerse si compartimos exposición artística y lo ponemos en conversación con otras personas?"
+          }
+        ],
+        "notReadyFor": [
+          "full-games",
+          "summative-exam"
+        ]
+      },
+      {
+        "projectId": "lenguajes-2-ppa-11-pa33",
+        "projectTitle": "¡Nuestro pasado vive!",
+        "teacherNotes": [
+          "Conviene partir de ejemplos cercanos y después pasar al lenguaje mas abstracto del campo.",
+          "El producto Nota cultural informativa gana fuerza cuando se usa para explicar y no solo para exhibir informacion.",
+          "Es mejor seleccionar pocos conceptos bien comprendidos que saturar el trabajo con terminos aislados."
+        ],
+        "confirmedConceptsToUse": [
+          "nota cultural informativa",
+          "prácticas culturales",
+          "ceremonialidad",
+          "trabajo comunitario",
+          "milpa",
+          "nota cultural informativa"
+        ],
+        "suggestedConceptsToHandleCarefully": [],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Qué comprendes mejor sobre la documentación de prácticas culturales, trabajo comunitario y saberes sobre la milpa para comunicar la vigencia del pasado después de elaborar nota cultural informativa?"
+          },
+          {
+            "type": "community",
+            "prompt": "¿Qué diálogos comunitarios podrían fortalecerse si compartimos nota cultural informativa y lo ponemos en conversación con otras personas?"
+          }
+        ],
+        "notReadyFor": [
+          "full-games",
+          "summative-exam"
+        ]
+      }
+    ]
+  },
+  "validationAudit": {
+    "kind": "fine-validation-audit",
+    "source": "reports/caracoles/grade2-lenguajes-ppa11-reading-bundle-audit.md",
+    "content": "# Auditoria de lectura docente\n\n## Alcance\n\n- Campo: 2o Lenguajes\n- Bloque: PPA 11\n- Titulo del PPA: Conectando el pasado y el presente\n- Proyectos: PA31-PA33\n\n## Proyectos validados\n\n31. Memoria viva\n   - Producto final: Tertulia literaria comunitaria\n   - Paginas: Nuestro libro de proyectos Tomo III pp. 14-17\n32. El poder de los géneros artísticos en la memoria colectiva\n   - Producto final: Exposición artística\n   - Paginas: Nuestro libro de proyectos Tomo III pp. 18-21\n33. ¡Nuestro pasado vive!\n   - Producto final: Nota cultural informativa\n   - Paginas: Nuestro libro de proyectos Tomo III pp. 22-26\n\n## Evidencia base usada\n\n- Posibilidades de uso Lenguajes pp. 31-32.\n- Nuestro libro de proyectos Tomo III pp. 12-26.\n- Lenguajes, segundo grado, pp. 12-16, 52-58, 120-124, 129-159, 186-191 y 277-298; Múltiples Lenguajes p. 34, pp. 72-75 y pp. 110-115..\n\n## Decisiones curriculares del bloque\n\n- El horizonte comun del PPA 11 se mantiene en estado pendiente como formula unica; se privilegia una orientacion pedagogica situada y documentada.\n- Los productos finales quedan confirmados desde Posibilidades y la secuencia del propio proyecto.\n- Los conceptos confirmados se normalizan para sostener lectura docente, autoevaluacion y actividades de relacion de columnas.\n- La resonancia se formula como pregunta abierta para reforzar el sentido formativo del bloque.\n\n## Cautelas reales\n\n- El video detonador del PPA 11 y el recurso informatico del bloque siguen sin URL oficial confirmada.\n- La asignacion de apoyos por columna se sostiene por inferencia curricular documentada, no por OCR limpio de tabla.\n- No se marca el bloque como actividades interactivas ni se desbloquean juegos completos.\n"
+  }
+}

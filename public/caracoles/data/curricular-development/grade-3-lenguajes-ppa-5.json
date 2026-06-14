@@ -1,0 +1,1209 @@
+{
+  "grade": "3",
+  "gradeLabel": "Tercer grado",
+  "field": "Lenguajes",
+  "ppaNumber": "5",
+  "partialClassroomProject": "PPA 5",
+  "partialClassroomProjectTitle": "Problemas e intereses comunitarios y los lenguajes",
+  "source": "curricular-development-generated",
+  "generatedAt": "2026-06-07T03:06:27.236Z",
+  "development": {
+    "grade": "3",
+    "gradeLabel": "Tercer grado",
+    "field": "Lenguajes",
+    "bookVolume": "Tomo I",
+    "partialClassroomProject": "PPA 5",
+    "partialClassroomProjectTitle": "Problemas e intereses comunitarios y los lenguajes",
+    "generatedAt": "2026-06-07T03:06:27.195Z",
+    "notes": "Capa curricular generada por lote para 3o Lenguajes, PPA 5.",
+    "sourcesUsed": [
+      "content/caracoles/curricular-catalog/all-projects-canonical.json",
+      "public/caracoles/data/generated/grade-3/concepts-index.json",
+      "src/caracoles/lib/officialVideoLinks.ts",
+      "Posibilidades de uso Lenguajes, tercer grado, pp. 14-16",
+      "Nuestro libro de proyectos, tercer grado, pp. 97-108"
+    ],
+    "partialClassroomProjectContext": {
+      "expectationHorizon": {
+        "officialText": "",
+        "sourcePages": [
+          "Nuestro libro de proyectos Tomo I pp. 97-100",
+          "Posibilidades de uso Lenguajes pp. 14-16"
+        ],
+        "evidence": "El PPA 5 articula 13. ¡resolvamos problemas mientras creamos arte!, 14. ¡la ciencia es joven, es nuestra!, 7. arte, lengua y cultura: las manifestaciones de nuestro lugar para trabajar Problemas e intereses comunitarios y los lenguajes.",
+        "status": "pending"
+      },
+      "ppaDetonatingStrategy": {
+        "title": "Problemas e intereses comunitarios y los lenguajes",
+        "type": "video",
+        "url": "",
+        "urlStatus": "confirmed-by-official-video-map",
+        "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+        "scope": "partial-classroom-project"
+      },
+      "ppaDigitalResource": {
+        "title": "Recurso del Proyecto Parcial de Aula 5",
+        "reference": "",
+        "status": "confirmed-by-official-video-map",
+        "source": "YouTube, acervo Aprende_MX/Telesecundaria"
+      },
+      "validationStatus": {
+        "needsHumanReview": true,
+        "needsReviewReasons": [
+          "Los videos PA/PPA se validan por el mapa oficial de enlaces directos ya generado.",
+          "Los apoyos complementarios impresos no se asignan cuando no hay evidencia validada por columna.",
+          "El horizonte textual literal queda pendiente de revision fina si se necesita cita exacta."
+        ]
+      },
+      "columnValidation": {
+        "possibilitiesPagesReviewed": [
+          14,
+          15,
+          16
+        ],
+        "confirmedAsPpa": true,
+        "note": "El PPA 5 se agrupa desde el catalogo canonico de tercer grado.",
+        "columns": [
+          {
+            "columnIndex": 1,
+            "projectId": "lenguajes-3-ppa-5-pa13",
+            "projectTitle": "Soluciones creativas y problemas comunitarios...........................................",
+            "finalProduct": "13. ¡Resolvamos problemas mientras creamos arte!",
+            "supportMaterials": []
+          },
+          {
+            "columnIndex": 2,
+            "projectId": "lenguajes-3-ppa-5-pa14",
+            "projectTitle": "Costumbres sociales, sus problemas y soluciones",
+            "finalProduct": "14. ¡La ciencia es joven, es nuestra!",
+            "supportMaterials": []
+          },
+          {
+            "columnIndex": 3,
+            "projectId": "lenguajes-3-ppa-5-pa15",
+            "projectTitle": "¡Vamos al encuentro de la cultura y el arte!",
+            "finalProduct": "7. Arte, lengua y cultura: las manifestaciones de nuestro lugar",
+            "supportMaterials": []
+          }
+        ]
+      }
+    },
+    "academicProjects": [
+      {
+        "id": "lenguajes-3-ppa-5-pa13",
+        "projectId": "lenguajes-3-ppa-5-pa13",
+        "academicProjectNumber": 13,
+        "title": "Soluciones creativas y problemas comunitarios...........................................",
+        "projectTitle": "Soluciones creativas y problemas comunitarios...........................................",
+        "grade": "3",
+        "field": "Lenguajes",
+        "ppaNumber": "5",
+        "partialClassroomProject": "PPA 5",
+        "partialClassroomProjectTitle": "Problemas e intereses comunitarios y los lenguajes",
+        "bookVolume": "Tomo I",
+        "sourceValidation": {
+          "sourceStatus": "linked",
+          "possibilitiesPages": [
+            14,
+            15,
+            16
+          ],
+          "possibilitiesMaterialId": "grade-3-posibilidades-pos-len-3",
+          "possibilitiesColumnIndex": 1,
+          "columnEvidence": "Proyecto PA 13 agrupado en el PPA 5 desde el catalogo canonico y las paginas de Posibilidades."
+        },
+        "finalProduct": {
+          "title": "13. ¡Resolvamos problemas mientras creamos arte!",
+          "source": "Video detonador validado en YouTube + Nuestro libro de proyectos Tomo I pp. 97-100",
+          "status": "confirmed-from-video-and-project"
+        },
+        "sourcePages": {
+          "nuestroLibroProyectos": [
+            {
+              "materialId": "grade-3-proyectos-nuestros-proyectos-tomo-1-tercer-grado",
+              "label": "Nuestro libro de proyectos Tomo I",
+              "startPage": 97,
+              "endPage": 100,
+              "pagesLabel": "pp. 97-100",
+              "topicTitle": "Proyecto academico 13",
+              "status": "confirmed-source"
+            }
+          ],
+          "conceptBook": [
+            {
+              "materialId": "grade-3-conceptos-lenguajes-tercer-grado",
+              "label": "Lenguajes",
+              "startPage": 97,
+              "endPage": 97,
+              "pagesLabel": "p. 97",
+              "topicTitle": "13. ¡resolvamos problemas mientras creamos arte!",
+              "status": "confirmed"
+            }
+          ],
+          "multiplesLenguajes": [],
+          "otherMaterials": [
+            {
+              "label": "Video PA 13: 13. ¡Resolvamos problemas mientras creamos arte! • Lenguajes • 3er grado",
+              "reference": "https://www.youtube.com/watch?v=Wj-h8xAkYs0",
+              "status": "confirmed"
+            },
+            {
+              "label": "Video PPA 5: 5. Problemas e intereses comunitarios y los lenguajes • Lenguajes • 3er grado",
+              "reference": "https://www.youtube.com/watch?v=qEeSpk-12mw",
+              "status": "confirmed"
+            }
+          ]
+        },
+        "supportMaterials": [],
+        "horizonOrPurpose": {
+          "status": "pending",
+          "text": "",
+          "source": "Nuestro libro de proyectos Tomo I pp. 97-100"
+        },
+        "projectExpectationHorizon": {
+          "officialText": "Objetivo 1: Elaborar una investigación de campo o bibliográfica, en distintas fuentes confiables, para analizar alguna problemática de la comunidad y realizar propuestas creativas de solución en distintos lenguajes, las cuales se incluirán en un catálogo ilustrado. Objetivo 2: Investigar distintas técnicas artísticas para ilustrar y exponer, en un catálogo ilustrado, las posibles soluciones a los problemas de la comunidad hallados tras una investigación de campo o bibliográfica.",
+          "studentVersion": "Elaborar una investigación de campo o bibliográfica, en distintas fuentes confiables, para analizar alguna problemática de la comunidad y realizar propuestas creativas de solución en distintos lenguajes, las cuales se incluirán en un catálogo ilustrado. Investigar distintas técnicas artísticas para ilustrar y exponer, en un catálogo ilustrado, las posibles soluciones a los problemas de la comunidad hallados tras una investigación de campo o bibliográfica.",
+          "sourcePages": [
+            "Nuestro libro de proyectos Tomo I p. 98"
+          ],
+          "evidence": "Texto rotulado como Objetivo dentro del rango exacto del Proyecto Academico; se acepta como equivalente funcional de horizonte de expectativas.",
+          "status": "confirmed-from-project-book",
+          "detectedLabel": "Objetivo",
+          "validationScope": "academic-project"
+        },
+        "detonatingStrategy": {
+          "title": "5. Problemas e intereses comunitarios y los lenguajes • Lenguajes • 3er grado",
+          "text": "Video del Proyecto Parcial de Aula 5: 5. Problemas e intereses comunitarios y los lenguajes • Lenguajes • 3er grado",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=qEeSpk-12mw",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "partial-classroom-project"
+        },
+        "academicProjectStrategy": {
+          "title": "13. ¡Resolvamos problemas mientras creamos arte! • Lenguajes • 3er grado",
+          "text": "Video detonador del Proyecto Academico 13: Soluciones creativas y problemas comunitarios...........................................",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=Wj-h8xAkYs0",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "academic-project"
+        },
+        "academicConcepts": [
+          {
+            "concept": "13. ¡resolvamos problemas mientras creamos arte!",
+            "description": "13. ¡resolvamos problemas mientras creamos arte! organiza el producto de cierre y permite comunicar lo aprendido en el proyecto.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              97
+            ],
+            "sourcePagesLabel": "p. 97",
+            "topicTitle": "Proyecto academico 13",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 13, al PPA 5 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Lenguaje",
+            "description": "Lenguaje ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              97
+            ],
+            "sourcePagesLabel": "p. 97",
+            "topicTitle": "Proyecto academico 13",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 13, al PPA 5 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Cultura",
+            "description": "Cultura ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              154
+            ],
+            "sourcePagesLabel": "p. 154",
+            "topicTitle": "Proyecto academico 13",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 13, al PPA 5 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Comunicacion",
+            "description": "Comunicacion ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              97
+            ],
+            "sourcePagesLabel": "p. 97",
+            "topicTitle": "Proyecto academico 13",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 13, al PPA 5 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Lectura",
+            "description": "Lectura ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              97
+            ],
+            "sourcePagesLabel": "p. 97",
+            "topicTitle": "Proyecto academico 13",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 13, al PPA 5 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Escritura",
+            "description": "Escritura ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              97
+            ],
+            "sourcePagesLabel": "p. 97",
+            "topicTitle": "Proyecto academico 13",
+            "status": "suggested",
+            "reason": "Concepto vinculado al PA 13, al PPA 5 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "teacher-review"
+          }
+        ],
+        "thinkingCriteria": [
+          "Relacionar Soluciones creativas y problemas comunitarios........................................... con una situacion concreta del entorno escolar o comunitario.",
+          "Usar 13. ¡resolvamos problemas mientras creamos arte! para explicar ideas con claridad y evidencia."
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Como te ayuda 13. ¡resolvamos problemas mientras creamos arte! a comprender mejor Soluciones creativas y problemas comunitarios........................................... y a explicar sus conceptos clave en tu comunidad?",
+            "conceptsActivated": [
+              "13. ¡resolvamos problemas mientras creamos arte!",
+              "Lenguaje",
+              "Cultura",
+              "Comunicacion"
+            ],
+            "suggestedUse": "Momento 1 de autoevaluacion"
+          }
+        ],
+        "validationStatus": {
+          "readinessLevel": "curricular-bundle-generated",
+          "readyForActivities": true,
+          "needsReviewReasons": [
+            "El horizonte textual literal queda pendiente de revision fina si se requiere cita exacta.",
+            "Los apoyos complementarios impresos no se asignan cuando no hay evidencia validada por columna."
+          ]
+        },
+        "readinessLevel": "curricular-bundle-generated",
+        "readyForActivities": true,
+        "needsReviewReasons": []
+      },
+      {
+        "id": "lenguajes-3-ppa-5-pa14",
+        "projectId": "lenguajes-3-ppa-5-pa14",
+        "academicProjectNumber": 14,
+        "title": "Costumbres sociales, sus problemas y soluciones",
+        "projectTitle": "Costumbres sociales, sus problemas y soluciones",
+        "grade": "3",
+        "field": "Lenguajes",
+        "ppaNumber": "5",
+        "partialClassroomProject": "PPA 5",
+        "partialClassroomProjectTitle": "Problemas e intereses comunitarios y los lenguajes",
+        "bookVolume": "Tomo I",
+        "sourceValidation": {
+          "sourceStatus": "linked",
+          "possibilitiesPages": [
+            14,
+            15,
+            16
+          ],
+          "possibilitiesMaterialId": "grade-3-posibilidades-pos-len-3",
+          "possibilitiesColumnIndex": 2,
+          "columnEvidence": "Proyecto PA 14 agrupado en el PPA 5 desde el catalogo canonico y las paginas de Posibilidades."
+        },
+        "finalProduct": {
+          "title": "14. ¡La ciencia es joven, es nuestra!",
+          "source": "Video detonador validado en YouTube + Nuestro libro de proyectos Tomo I pp. 101-104",
+          "status": "confirmed-from-video-and-project"
+        },
+        "sourcePages": {
+          "nuestroLibroProyectos": [
+            {
+              "materialId": "grade-3-proyectos-nuestros-proyectos-tomo-1-tercer-grado",
+              "label": "Nuestro libro de proyectos Tomo I",
+              "startPage": 101,
+              "endPage": 104,
+              "pagesLabel": "pp. 101-104",
+              "topicTitle": "Proyecto academico 14",
+              "status": "confirmed-source"
+            }
+          ],
+          "conceptBook": [
+            {
+              "materialId": "grade-3-conceptos-lenguajes-tercer-grado",
+              "label": "Lenguajes",
+              "startPage": 101,
+              "endPage": 101,
+              "pagesLabel": "p. 101",
+              "topicTitle": "14. ¡la ciencia es joven, es nuestra!",
+              "status": "confirmed"
+            }
+          ],
+          "multiplesLenguajes": [],
+          "otherMaterials": [
+            {
+              "label": "Video PA 14: 14. ¡La ciencia es joven, es nuestra! • Lenguajes • 3er grado",
+              "reference": "https://www.youtube.com/watch?v=x5KZRI3M0RI",
+              "status": "confirmed"
+            },
+            {
+              "label": "Video PPA 5: 5. Problemas e intereses comunitarios y los lenguajes • Lenguajes • 3er grado",
+              "reference": "https://www.youtube.com/watch?v=qEeSpk-12mw",
+              "status": "confirmed"
+            }
+          ]
+        },
+        "supportMaterials": [],
+        "horizonOrPurpose": {
+          "status": "pending",
+          "text": "",
+          "source": "Nuestro libro de proyectos Tomo I pp. 101-104"
+        },
+        "projectExpectationHorizon": {
+          "officialText": "Objetivo 1: Llevar a cabo una investigación de las prácticas sociales y las costumbres que restringen los derechos de algunos colectivos, para hallar propuestas de solución o alternativas a dichas prácticas y, a partir de ello, realizar una historieta costumbrista en distintas lenguas. Objetivo 2: Escribir el guion y trazar una historieta costumbrista en distintas lenguas (a partir de una investigación y traducción con apoyo de personas de la comunidad) que exponga prácticas o tradiciones injustas y problemáticas en la comunidad, esto con el fin de generar conciencia de los problemas que acarrean.",
+          "studentVersion": "Llevar a cabo una investigación de las prácticas sociales y las costumbres que restringen los derechos de algunos colectivos, para hallar propuestas de solución o alternativas a dichas prácticas y, a partir de ello, realizar una historieta costumbrista en distintas lenguas. Escribir el guion y trazar una historieta costumbrista en distintas lenguas (a partir de una investigación y traducción con apoyo de personas de la comunidad) que exponga prácticas o tradiciones injustas y problemáticas en la comunidad, esto con el fin de generar conciencia de los problemas que acarrean.",
+          "sourcePages": [
+            "Nuestro libro de proyectos Tomo I p. 102"
+          ],
+          "evidence": "Objetivo 1 y Objetivo 2 aparecen como par dentro del rango exacto del PA. Se conserva el rotulo encontrado como evidencia.",
+          "status": "confirmed-from-project-book",
+          "detectedLabel": "Objetivo 1 + Objetivo 2",
+          "validationScope": "academic-project"
+        },
+        "detonatingStrategy": {
+          "title": "5. Problemas e intereses comunitarios y los lenguajes • Lenguajes • 3er grado",
+          "text": "Video del Proyecto Parcial de Aula 5: 5. Problemas e intereses comunitarios y los lenguajes • Lenguajes • 3er grado",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=qEeSpk-12mw",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "partial-classroom-project"
+        },
+        "academicProjectStrategy": {
+          "title": "14. ¡La ciencia es joven, es nuestra! • Lenguajes • 3er grado",
+          "text": "Video detonador del Proyecto Academico 14: Costumbres sociales, sus problemas y soluciones",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=x5KZRI3M0RI",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "academic-project"
+        },
+        "academicConcepts": [
+          {
+            "concept": "14. ¡la ciencia es joven, es nuestra!",
+            "description": "14. ¡la ciencia es joven, es nuestra! organiza el producto de cierre y permite comunicar lo aprendido en el proyecto.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              101
+            ],
+            "sourcePagesLabel": "p. 101",
+            "topicTitle": "Proyecto academico 14",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 14, al PPA 5 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Lenguaje",
+            "description": "Lenguaje ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              101
+            ],
+            "sourcePagesLabel": "p. 101",
+            "topicTitle": "Proyecto academico 14",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 14, al PPA 5 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Cultura",
+            "description": "Cultura ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              154
+            ],
+            "sourcePagesLabel": "p. 154",
+            "topicTitle": "Proyecto academico 14",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 14, al PPA 5 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Comunicacion",
+            "description": "Comunicacion ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              101
+            ],
+            "sourcePagesLabel": "p. 101",
+            "topicTitle": "Proyecto academico 14",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 14, al PPA 5 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Lectura",
+            "description": "Lectura ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              101
+            ],
+            "sourcePagesLabel": "p. 101",
+            "topicTitle": "Proyecto academico 14",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 14, al PPA 5 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Escritura",
+            "description": "Escritura ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              101
+            ],
+            "sourcePagesLabel": "p. 101",
+            "topicTitle": "Proyecto academico 14",
+            "status": "suggested",
+            "reason": "Concepto vinculado al PA 14, al PPA 5 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "teacher-review"
+          }
+        ],
+        "thinkingCriteria": [
+          "Relacionar Costumbres sociales, sus problemas y soluciones con una situacion concreta del entorno escolar o comunitario.",
+          "Usar 14. ¡la ciencia es joven, es nuestra! para explicar ideas con claridad y evidencia."
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Como te ayuda 14. ¡la ciencia es joven, es nuestra! a comprender mejor Costumbres sociales, sus problemas y soluciones y a explicar sus conceptos clave en tu comunidad?",
+            "conceptsActivated": [
+              "14. ¡la ciencia es joven, es nuestra!",
+              "Lenguaje",
+              "Cultura",
+              "Comunicacion"
+            ],
+            "suggestedUse": "Momento 1 de autoevaluacion"
+          }
+        ],
+        "validationStatus": {
+          "readinessLevel": "curricular-bundle-generated",
+          "readyForActivities": true,
+          "needsReviewReasons": [
+            "El horizonte textual literal queda pendiente de revision fina si se requiere cita exacta.",
+            "Los apoyos complementarios impresos no se asignan cuando no hay evidencia validada por columna."
+          ]
+        },
+        "readinessLevel": "curricular-bundle-generated",
+        "readyForActivities": true,
+        "needsReviewReasons": []
+      },
+      {
+        "id": "lenguajes-3-ppa-5-pa15",
+        "projectId": "lenguajes-3-ppa-5-pa15",
+        "academicProjectNumber": 15,
+        "title": "¡Vamos al encuentro de la cultura y el arte!",
+        "projectTitle": "¡Vamos al encuentro de la cultura y el arte!",
+        "grade": "3",
+        "field": "Lenguajes",
+        "ppaNumber": "5",
+        "partialClassroomProject": "PPA 5",
+        "partialClassroomProjectTitle": "Problemas e intereses comunitarios y los lenguajes",
+        "bookVolume": "Tomo I",
+        "sourceValidation": {
+          "sourceStatus": "linked",
+          "possibilitiesPages": [
+            14,
+            15,
+            16
+          ],
+          "possibilitiesMaterialId": "grade-3-posibilidades-pos-len-3",
+          "possibilitiesColumnIndex": 3,
+          "columnEvidence": "Proyecto PA 15 agrupado en el PPA 5 desde el catalogo canonico y las paginas de Posibilidades."
+        },
+        "finalProduct": {
+          "title": "7. Arte, lengua y cultura: las manifestaciones de nuestro lugar",
+          "source": "Video detonador validado en YouTube + Nuestro libro de proyectos Tomo I pp. 105-108",
+          "status": "confirmed-from-video-and-project"
+        },
+        "sourcePages": {
+          "nuestroLibroProyectos": [
+            {
+              "materialId": "grade-3-proyectos-nuestros-proyectos-tomo-1-tercer-grado",
+              "label": "Nuestro libro de proyectos Tomo I",
+              "startPage": 105,
+              "endPage": 108,
+              "pagesLabel": "pp. 105-108",
+              "topicTitle": "Proyecto academico 15",
+              "status": "confirmed-source"
+            }
+          ],
+          "conceptBook": [
+            {
+              "materialId": "grade-3-conceptos-lenguajes-tercer-grado",
+              "label": "Lenguajes",
+              "startPage": 105,
+              "endPage": 105,
+              "pagesLabel": "p. 105",
+              "topicTitle": "7. arte, lengua y cultura: las manifestaciones de nuestro lugar",
+              "status": "confirmed"
+            }
+          ],
+          "multiplesLenguajes": [],
+          "otherMaterials": [
+            {
+              "label": "Video PA 15: 7. Arte, lengua y cultura: las manifestaciones de nuestro lugar • Lenguajes • 3er grado",
+              "reference": "https://www.youtube.com/watch?v=VSQPEFeAP1A",
+              "status": "confirmed"
+            },
+            {
+              "label": "Video PPA 5: 5. Problemas e intereses comunitarios y los lenguajes • Lenguajes • 3er grado",
+              "reference": "https://www.youtube.com/watch?v=qEeSpk-12mw",
+              "status": "confirmed"
+            }
+          ]
+        },
+        "supportMaterials": [],
+        "horizonOrPurpose": {
+          "status": "pending",
+          "text": "",
+          "source": "Nuestro libro de proyectos Tomo I pp. 105-108"
+        },
+        "projectExpectationHorizon": {
+          "officialText": "Objetivo 1: Elaborar una investigación de campo, bibliográfica o en distintas fuentes confiables de internet, para documentar y recopilar las diversas expresiones culturales y artísticas de la comunidad a la que pertenecen y, con ello, organizar un encuentro artístico. Objetivo 2: Llevar a cabo un encuentro artístico donde se presente la diversidad de problemas e intereses culturales y artísticos de la comunidad, con base en diversos lenguajes artísticos. Investiguen en distintas fuentes lo siguiente: Expresión cultural o artística Diversidad de expresiones culturales y artísticas La cultura y las artes y su relación con una comunidad Importancia de la difusión del arte y la cultura de una comunidad Necesidades o problemáticas culturales y artísticas de la comunidad bit.ly/3xfMvpw",
+          "studentVersion": "Elaborar una investigación de campo, bibliográfica o en distintas fuentes confiables de internet, para documentar y recopilar las diversas expresiones culturales y artísticas de la comunidad a la que pertenecen y, con ello, organizar un encuentro artístico. Llevar a cabo un encuentro artístico donde se presente la diversidad de problemas e intereses culturales y artísticos de la comunidad, con base en diversos lenguajes artísticos. Investiguen en distintas fuentes lo siguiente: Expresión cultural o artística Diversidad de expresiones culturales y artísticas La cultura y las artes y su relación con una comunidad Importancia de la difusión del arte y la cultura de una comunidad Necesidades o problemáticas culturales y artísticas de la comunidad bit.ly/3xfMvpw",
+          "sourcePages": [
+            "Nuestro libro de proyectos Tomo I p. 106"
+          ],
+          "evidence": "Texto rotulado como Objetivo dentro del rango exacto del Proyecto Academico; se acepta como equivalente funcional de horizonte de expectativas.",
+          "status": "confirmed-from-project-book",
+          "detectedLabel": "Objetivo",
+          "validationScope": "academic-project"
+        },
+        "detonatingStrategy": {
+          "title": "5. Problemas e intereses comunitarios y los lenguajes • Lenguajes • 3er grado",
+          "text": "Video del Proyecto Parcial de Aula 5: 5. Problemas e intereses comunitarios y los lenguajes • Lenguajes • 3er grado",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=qEeSpk-12mw",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "partial-classroom-project"
+        },
+        "academicProjectStrategy": {
+          "title": "7. Arte, lengua y cultura: las manifestaciones de nuestro lugar • Lenguajes • 3er grado",
+          "text": "Video detonador del Proyecto Academico 15: ¡Vamos al encuentro de la cultura y el arte!",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=VSQPEFeAP1A",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "academic-project"
+        },
+        "academicConcepts": [
+          {
+            "concept": "7. arte, lengua y cultura: las manifestaciones de nuestro lugar",
+            "description": "7. arte, lengua y cultura: las manifestaciones de nuestro lugar organiza el producto de cierre y permite comunicar lo aprendido en el proyecto.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              105
+            ],
+            "sourcePagesLabel": "p. 105",
+            "topicTitle": "Proyecto academico 15",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 15, al PPA 5 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Lenguaje",
+            "description": "Lenguaje ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              105
+            ],
+            "sourcePagesLabel": "p. 105",
+            "topicTitle": "Proyecto academico 15",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 15, al PPA 5 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Cultura",
+            "description": "Cultura ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              154
+            ],
+            "sourcePagesLabel": "p. 154",
+            "topicTitle": "Proyecto academico 15",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 15, al PPA 5 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Comunicacion",
+            "description": "Comunicacion ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              105
+            ],
+            "sourcePagesLabel": "p. 105",
+            "topicTitle": "Proyecto academico 15",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 15, al PPA 5 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Lectura",
+            "description": "Lectura ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              105
+            ],
+            "sourcePagesLabel": "p. 105",
+            "topicTitle": "Proyecto academico 15",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 15, al PPA 5 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Escritura",
+            "description": "Escritura ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              105
+            ],
+            "sourcePagesLabel": "p. 105",
+            "topicTitle": "Proyecto academico 15",
+            "status": "suggested",
+            "reason": "Concepto vinculado al PA 15, al PPA 5 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "teacher-review"
+          }
+        ],
+        "thinkingCriteria": [
+          "Relacionar ¡Vamos al encuentro de la cultura y el arte! con una situacion concreta del entorno escolar o comunitario.",
+          "Usar 7. arte, lengua y cultura: las manifestaciones de nuestro lugar para explicar ideas con claridad y evidencia."
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Como te ayuda 7. arte, lengua y cultura: las manifestaciones de nuestro lugar a comprender mejor ¡Vamos al encuentro de la cultura y el arte! y a explicar sus conceptos clave en tu comunidad?",
+            "conceptsActivated": [
+              "7. arte, lengua y cultura: las manifestaciones de nuestro lugar",
+              "Lenguaje",
+              "Cultura",
+              "Comunicacion"
+            ],
+            "suggestedUse": "Momento 1 de autoevaluacion"
+          }
+        ],
+        "validationStatus": {
+          "readinessLevel": "curricular-bundle-generated",
+          "readyForActivities": true,
+          "needsReviewReasons": [
+            "El horizonte textual literal queda pendiente de revision fina si se requiere cita exacta.",
+            "Los apoyos complementarios impresos no se asignan cuando no hay evidencia validada por columna."
+          ]
+        },
+        "readinessLevel": "curricular-bundle-generated",
+        "readyForActivities": true,
+        "needsReviewReasons": []
+      }
+    ]
+  },
+  "conceptsValidation": {
+    "grade": "3",
+    "field": "Lenguajes",
+    "ppaNumber": "5",
+    "status": "concept-validation",
+    "generatedAt": "2026-06-07T03:06:27.195Z",
+    "entries": [
+      {
+        "projectId": "lenguajes-3-ppa-5-pa13",
+        "projectTitle": "Soluciones creativas y problemas comunitarios...........................................",
+        "concept": "13. ¡resolvamos problemas mientras creamos arte!",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            97
+          ],
+          "reason": "Concepto vinculado al PA 13, al PPA 5 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-5-pa13",
+        "projectTitle": "Soluciones creativas y problemas comunitarios...........................................",
+        "concept": "Lenguaje",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            97
+          ],
+          "reason": "Concepto vinculado al PA 13, al PPA 5 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-5-pa13",
+        "projectTitle": "Soluciones creativas y problemas comunitarios...........................................",
+        "concept": "Cultura",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            154
+          ],
+          "reason": "Concepto vinculado al PA 13, al PPA 5 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-5-pa13",
+        "projectTitle": "Soluciones creativas y problemas comunitarios...........................................",
+        "concept": "Comunicacion",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            97
+          ],
+          "reason": "Concepto vinculado al PA 13, al PPA 5 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-5-pa13",
+        "projectTitle": "Soluciones creativas y problemas comunitarios...........................................",
+        "concept": "Lectura",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            97
+          ],
+          "reason": "Concepto vinculado al PA 13, al PPA 5 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-5-pa13",
+        "projectTitle": "Soluciones creativas y problemas comunitarios...........................................",
+        "concept": "Escritura",
+        "status": "suggested",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            97
+          ],
+          "reason": "Concepto vinculado al PA 13, al PPA 5 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "teacher-review"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-5-pa14",
+        "projectTitle": "Costumbres sociales, sus problemas y soluciones",
+        "concept": "14. ¡la ciencia es joven, es nuestra!",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            101
+          ],
+          "reason": "Concepto vinculado al PA 14, al PPA 5 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-5-pa14",
+        "projectTitle": "Costumbres sociales, sus problemas y soluciones",
+        "concept": "Lenguaje",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            101
+          ],
+          "reason": "Concepto vinculado al PA 14, al PPA 5 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-5-pa14",
+        "projectTitle": "Costumbres sociales, sus problemas y soluciones",
+        "concept": "Cultura",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            154
+          ],
+          "reason": "Concepto vinculado al PA 14, al PPA 5 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-5-pa14",
+        "projectTitle": "Costumbres sociales, sus problemas y soluciones",
+        "concept": "Comunicacion",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            101
+          ],
+          "reason": "Concepto vinculado al PA 14, al PPA 5 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-5-pa14",
+        "projectTitle": "Costumbres sociales, sus problemas y soluciones",
+        "concept": "Lectura",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            101
+          ],
+          "reason": "Concepto vinculado al PA 14, al PPA 5 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-5-pa14",
+        "projectTitle": "Costumbres sociales, sus problemas y soluciones",
+        "concept": "Escritura",
+        "status": "suggested",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            101
+          ],
+          "reason": "Concepto vinculado al PA 14, al PPA 5 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "teacher-review"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-5-pa15",
+        "projectTitle": "¡Vamos al encuentro de la cultura y el arte!",
+        "concept": "7. arte, lengua y cultura: las manifestaciones de nuestro lugar",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            105
+          ],
+          "reason": "Concepto vinculado al PA 15, al PPA 5 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-5-pa15",
+        "projectTitle": "¡Vamos al encuentro de la cultura y el arte!",
+        "concept": "Lenguaje",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            105
+          ],
+          "reason": "Concepto vinculado al PA 15, al PPA 5 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-5-pa15",
+        "projectTitle": "¡Vamos al encuentro de la cultura y el arte!",
+        "concept": "Cultura",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            154
+          ],
+          "reason": "Concepto vinculado al PA 15, al PPA 5 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-5-pa15",
+        "projectTitle": "¡Vamos al encuentro de la cultura y el arte!",
+        "concept": "Comunicacion",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            105
+          ],
+          "reason": "Concepto vinculado al PA 15, al PPA 5 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-5-pa15",
+        "projectTitle": "¡Vamos al encuentro de la cultura y el arte!",
+        "concept": "Lectura",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            105
+          ],
+          "reason": "Concepto vinculado al PA 15, al PPA 5 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-5-pa15",
+        "projectTitle": "¡Vamos al encuentro de la cultura y el arte!",
+        "concept": "Escritura",
+        "status": "suggested",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            105
+          ],
+          "reason": "Concepto vinculado al PA 15, al PPA 5 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "teacher-review"
+      }
+    ]
+  },
+  "pedagogicalArticulation": {
+    "grade": "3",
+    "field": "Lenguajes",
+    "ppaNumber": "5",
+    "status": "teacher-orientation",
+    "officialHorizonStatus": "pending",
+    "situatedPedagogicalOrientation": "El PPA 5 propone trabajar Problemas e intereses comunitarios y los lenguajes mediante productos de cierre, conceptos confirmados y videos directos para reforzar la autoevaluacion.",
+    "integratingQuestions": [
+      "¿Como se relacionan los tres proyectos academicos del PPA 5 con Problemas e intereses comunitarios y los lenguajes?",
+      "¿Que conceptos necesita dominar el estudiante para explicar su producto final?",
+      "¿Como usar el producto final para comunicar una comprension y no solo presentar informacion?"
+    ],
+    "possibleResonanceQuestion": "¿Que comprension nueva sobre Problemas e intereses comunitarios y los lenguajes puedes explicar con los productos del PPA 5?",
+    "teacherNotes": [
+      "Usar los videos directos como detonadores, no como enlaces de busqueda.",
+      "Retomar los conceptos confirmados antes de resolver la relacion de columnas y el juego."
+    ],
+    "projectConnections": [
+      {
+        "projectId": "lenguajes-3-ppa-5-pa13",
+        "projectTitle": "Soluciones creativas y problemas comunitarios...........................................",
+        "roleInPpa": "Aporta 13. ¡resolvamos problemas mientras creamos arte! al desarrollo del PPA 5.",
+        "confirmedConcepts": [
+          "13. ¡resolvamos problemas mientras creamos arte!",
+          "Lenguaje",
+          "Cultura",
+          "Comunicacion",
+          "Lectura"
+        ],
+        "suggestedConcepts": [
+          "Escritura"
+        ],
+        "pedagogicalUse": "Video detonador del Proyecto Academico 13: Soluciones creativas y problemas comunitarios..........................................."
+      },
+      {
+        "projectId": "lenguajes-3-ppa-5-pa14",
+        "projectTitle": "Costumbres sociales, sus problemas y soluciones",
+        "roleInPpa": "Aporta 14. ¡la ciencia es joven, es nuestra! al desarrollo del PPA 5.",
+        "confirmedConcepts": [
+          "14. ¡la ciencia es joven, es nuestra!",
+          "Lenguaje",
+          "Cultura",
+          "Comunicacion",
+          "Lectura"
+        ],
+        "suggestedConcepts": [
+          "Escritura"
+        ],
+        "pedagogicalUse": "Video detonador del Proyecto Academico 14: Costumbres sociales, sus problemas y soluciones"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-5-pa15",
+        "projectTitle": "¡Vamos al encuentro de la cultura y el arte!",
+        "roleInPpa": "Aporta 7. arte, lengua y cultura: las manifestaciones de nuestro lugar al desarrollo del PPA 5.",
+        "confirmedConcepts": [
+          "7. arte, lengua y cultura: las manifestaciones de nuestro lugar",
+          "Lenguaje",
+          "Cultura",
+          "Comunicacion",
+          "Lectura"
+        ],
+        "suggestedConcepts": [
+          "Escritura"
+        ],
+        "pedagogicalUse": "Video detonador del Proyecto Academico 15: ¡Vamos al encuentro de la cultura y el arte!"
+      }
+    ]
+  },
+  "teacherNotesAndResonances": {
+    "grade": "3",
+    "field": "Lenguajes",
+    "ppaNumber": "5",
+    "status": "teacher-notes-and-resonances",
+    "officialHorizonStatus": "pending",
+    "ppaIntegratingResonance": "¿Que comprension nueva sobre Problemas e intereses comunitarios y los lenguajes puedes explicar con los productos del PPA 5?",
+    "didacticWarnings": [
+      "No sustituir el producto final por la reproduccion del video.",
+      "Evitar marcar apoyos impresos como confirmados si no existe evidencia por columna."
+    ],
+    "communityPrompts": {
+      "territoryLanguageMemory": [
+        "¿Que palabras, practicas o problemas del entorno ayudan a entender mejor este PPA?"
+      ],
+      "productCommunityConnection": [
+        "¿Como puede circular el producto final dentro de la comunidad escolar?"
+      ]
+    },
+    "projects": [
+      {
+        "projectId": "lenguajes-3-ppa-5-pa13",
+        "projectTitle": "Soluciones creativas y problemas comunitarios...........................................",
+        "teacherNotes": [
+          "Retomar 13. ¡resolvamos problemas mientras creamos arte! como evidencia del aprendizaje.",
+          "Usar los conceptos confirmados para orientar la autoevaluacion."
+        ],
+        "confirmedConceptsToUse": [
+          "13. ¡resolvamos problemas mientras creamos arte!",
+          "Lenguaje",
+          "Cultura",
+          "Comunicacion",
+          "Lectura"
+        ],
+        "suggestedConceptsToHandleCarefully": [
+          "Escritura"
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Como te ayuda 13. ¡resolvamos problemas mientras creamos arte! a comprender mejor Soluciones creativas y problemas comunitarios........................................... y a explicar sus conceptos clave en tu comunidad?",
+            "conceptsActivated": [
+              "13. ¡resolvamos problemas mientras creamos arte!",
+              "Lenguaje",
+              "Cultura",
+              "Comunicacion"
+            ],
+            "suggestedUse": "Momento 1 de autoevaluacion"
+          }
+        ],
+        "notReadyFor": []
+      },
+      {
+        "projectId": "lenguajes-3-ppa-5-pa14",
+        "projectTitle": "Costumbres sociales, sus problemas y soluciones",
+        "teacherNotes": [
+          "Retomar 14. ¡la ciencia es joven, es nuestra! como evidencia del aprendizaje.",
+          "Usar los conceptos confirmados para orientar la autoevaluacion."
+        ],
+        "confirmedConceptsToUse": [
+          "14. ¡la ciencia es joven, es nuestra!",
+          "Lenguaje",
+          "Cultura",
+          "Comunicacion",
+          "Lectura"
+        ],
+        "suggestedConceptsToHandleCarefully": [
+          "Escritura"
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Como te ayuda 14. ¡la ciencia es joven, es nuestra! a comprender mejor Costumbres sociales, sus problemas y soluciones y a explicar sus conceptos clave en tu comunidad?",
+            "conceptsActivated": [
+              "14. ¡la ciencia es joven, es nuestra!",
+              "Lenguaje",
+              "Cultura",
+              "Comunicacion"
+            ],
+            "suggestedUse": "Momento 1 de autoevaluacion"
+          }
+        ],
+        "notReadyFor": []
+      },
+      {
+        "projectId": "lenguajes-3-ppa-5-pa15",
+        "projectTitle": "¡Vamos al encuentro de la cultura y el arte!",
+        "teacherNotes": [
+          "Retomar 7. arte, lengua y cultura: las manifestaciones de nuestro lugar como evidencia del aprendizaje.",
+          "Usar los conceptos confirmados para orientar la autoevaluacion."
+        ],
+        "confirmedConceptsToUse": [
+          "7. arte, lengua y cultura: las manifestaciones de nuestro lugar",
+          "Lenguaje",
+          "Cultura",
+          "Comunicacion",
+          "Lectura"
+        ],
+        "suggestedConceptsToHandleCarefully": [
+          "Escritura"
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Como te ayuda 7. arte, lengua y cultura: las manifestaciones de nuestro lugar a comprender mejor ¡Vamos al encuentro de la cultura y el arte! y a explicar sus conceptos clave en tu comunidad?",
+            "conceptsActivated": [
+              "7. arte, lengua y cultura: las manifestaciones de nuestro lugar",
+              "Lenguaje",
+              "Cultura",
+              "Comunicacion"
+            ],
+            "suggestedUse": "Momento 1 de autoevaluacion"
+          }
+        ],
+        "notReadyFor": []
+      }
+    ]
+  },
+  "validationAudit": {
+    "kind": "generated-validation-audit",
+    "source": "reports/caracoles/grade3-lenguajes-ppa5-reading-bundle-audit.md",
+    "content": "# Bundle curricular tercer grado\n\n- Campo: Lenguajes\n- PPA: 5\n- Titulo: Problemas e intereses comunitarios y los lenguajes\n- Proyectos: PA13, PA14, PA15\n- Estado: generado y publicado\n- Cautela: horizonte literal y apoyos impresos por columna pendientes de revision fina.\n"
+  }
+}

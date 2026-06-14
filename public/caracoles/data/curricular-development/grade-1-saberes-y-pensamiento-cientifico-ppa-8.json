@@ -1,0 +1,1329 @@
+{
+  "grade": "1",
+  "gradeLabel": "Primer grado",
+  "field": "Saberes y Pensamiento Cientifico",
+  "ppaNumber": "8",
+  "partialClassroomProject": "PPA 8",
+  "partialClassroomProjectTitle": "Encuentra las figuras geometricas con el uso del microscopio",
+  "source": "curricular-development-pilot",
+  "generatedAt": "2026-06-04T15:51:04.269Z",
+  "development": {
+    "grade": "1",
+    "gradeLabel": "Primer grado",
+    "field": "Saberes y Pensamiento Cientifico",
+    "bookVolume": "Tomo II",
+    "partialClassroomProject": "PPA 8",
+    "partialClassroomProjectTitle": "Encuentra las figuras geometricas con el uso del microscopio",
+    "generatedAt": "2026-06-01T12:35:09.558Z",
+    "notes": "Capa curricular aislada para 1o Saberes y Pensamiento Cientifico PPA 8.",
+    "sourcesUsed": [
+      "reports/caracoles/grade1-lenguajes-reading-teacher-hito-2-standard.md",
+      "content/caracoles/curricular-links/grade-1-project-source-links.json",
+      "content/caracoles/generated-private/grade-1/pages-index.full.json",
+      "Posibilidades de uso SyPC, primer grado, pp. 21-22",
+      "Nuestro libro de proyectos Tomo II, primer grado, pp. 120-133",
+      "Saberes y Pensamiento Cientifico, pp. 27-31, 108-119, 241-247 y 262-271"
+    ],
+    "partialClassroomProjectContext": {
+      "expectationHorizon": {
+        "officialText": "",
+        "sourcePages": [
+          "Nuestro libro de proyectos Tomo II pp. 120-133",
+          "Posibilidades de uso SyPC pp. 21-22"
+        ],
+        "evidence": "El PPA 8 articula el uso del microscopio con bacterias, virus, celulas, fracciones y representaciones algebraicas para volver visible el mundo microscopico.",
+        "status": "pending"
+      },
+      "ppaDetonatingStrategy": {
+        "title": "Encuentra las figuras geometricas con el uso del microscopio",
+        "type": "video",
+        "url": "",
+        "urlStatus": "pending-url",
+        "reference": "bit.ly/3VfglUk",
+        "source": "Nuestro libro de proyectos Tomo II pp. 120-133 + Posibilidades de uso SyPC pp. 21-22",
+        "scope": "partial-classroom-project",
+        "youtubeSearchQuery": "Encuentra las figuras geometricas con el uso del microscopio Saberes y Pensamiento Cientifico 1er grado Telesecundaria"
+      },
+      "ppaDigitalResource": {
+        "title": "Recurso informatico del bloque PPA 8",
+        "reference": "bit.ly/3WQBMwg",
+        "status": "pending-validation",
+        "source": "Nuestro libro de proyectos Tomo II, cierre del PPA 8"
+      },
+      "validationStatus": {
+        "needsHumanReview": true,
+        "needsReviewReasons": [
+          "Las pp. 21-22 de Posibilidades corresponden al mismo bloque del PPA 8.",
+          "Solo se localizo un apoyo de Multiples Lenguajes confirmado por inferencia de columna para PA 23.",
+          "El video del PPA y el recurso informatico siguen en cautela mediante enlaces cortos."
+        ]
+      },
+      "columnValidation": {
+        "possibilitiesPagesReviewed": [
+          21,
+          22
+        ],
+        "confirmedAsPpa": true,
+        "note": "Las pp. 21-22 de Posibilidades pertenecen al mismo PPA 8. La p. 22 solo permite confirmar por posicion un apoyo de Multiples Lenguajes para la columna 2: Flexalogos, p. 114.",
+        "columns": [
+          {
+            "columnIndex": 1,
+            "projectId": "saberes-y-pensamiento-cientifico-1-ppa-8-pa22",
+            "projectTitle": "La existencia de triangulos en el interior de los virus y las bacterias",
+            "finalProduct": "Mapa mental",
+            "supportMaterials": []
+          },
+          {
+            "columnIndex": 2,
+            "projectId": "saberes-y-pensamiento-cientifico-1-ppa-8-pa23",
+            "projectTitle": "Las celulas animales y vegetales usan los numeros fraccionarios",
+            "finalProduct": "Modelos de plastilina",
+            "supportMaterials": [
+              {
+                "title": "Flexalogos",
+                "startPage": 114,
+                "endPage": 114,
+                "pages": "p. 114",
+                "status": "confirmed-by-column-inference"
+              }
+            ]
+          },
+          {
+            "columnIndex": 3,
+            "projectId": "saberes-y-pensamiento-cientifico-1-ppa-8-pa24",
+            "projectTitle": "Los genes tienen una carga muy pesada!",
+            "finalProduct": "Dibujo genetico-algebraico",
+            "supportMaterials": []
+          }
+        ]
+      }
+    },
+    "academicProjects": [
+      {
+        "id": "saberes-y-pensamiento-cientifico-1-ppa-8-pa22",
+        "projectId": "saberes-y-pensamiento-cientifico-1-ppa-8-pa22",
+        "academicProjectNumber": 22,
+        "title": "La existencia de triangulos en el interior de los virus y las bacterias",
+        "projectTitle": "La existencia de triangulos en el interior de los virus y las bacterias",
+        "grade": "1",
+        "field": "Saberes y Pensamiento Cientifico",
+        "ppaNumber": "8",
+        "partialClassroomProject": "PPA 8",
+        "partialClassroomProjectTitle": "Encuentra las figuras geometricas con el uso del microscopio",
+        "bookVolume": "Tomo II",
+        "sourceValidation": {
+          "sourceStatus": "linked",
+          "possibilitiesPages": [
+            21,
+            22
+          ],
+          "possibilitiesMaterialId": "grade-1-posibilidades-pos-sypc-1",
+          "possibilitiesColumnIndex": 1,
+          "columnEvidence": "Bloque PPA 8 Encuentra las figuras geometricas con el uso del microscopio localizado en pp. 21-22; la columna 1 se confirma por el orden de proyectos, productos y continuidad del mismo bloque."
+        },
+        "finalProduct": {
+          "title": "Mapa mental",
+          "source": "Posibilidades de uso SyPC pp. 21-22 + Nuestro libro de proyectos Tomo II pp. 122-125",
+          "status": "confirmed"
+        },
+        "sourcePages": {
+          "nuestroLibroProyectos": [
+            {
+              "materialId": "grade-1-proyectos-nuestro-libro-de-proyectos-tomo-ii-primer-grado",
+              "label": "Nuestro libro de proyectos Tomo II",
+              "startPage": 122,
+              "endPage": 125,
+              "pagesLabel": "pp. 122-125",
+              "topicTitle": "Proyecto academico 22",
+              "status": "confirmed-source"
+            }
+          ],
+          "conceptBook": [
+            {
+              "materialId": "grade-1-conceptos-saberes-y-pensamiento-cientifico-primer-grado",
+              "label": "Saberes y Pensamiento Cientifico",
+              "startPage": 262,
+              "endPage": 271,
+              "pagesLabel": "pp. 262-271",
+              "topicTitle": "Observaciones microscopicas",
+              "status": "confirmed-source"
+            },
+            {
+              "materialId": "grade-1-conceptos-saberes-y-pensamiento-cientifico-primer-grado",
+              "label": "Saberes y Pensamiento Cientifico",
+              "startPage": 30,
+              "endPage": 31,
+              "pagesLabel": "pp. 30-31",
+              "topicTitle": "Desigualdad del triangulo",
+              "status": "confirmed-source"
+            }
+          ],
+          "multiplesLenguajes": [],
+          "otherMaterials": [
+            {
+              "label": "Video PA 22: Mapa mental • Saberes y Pensamiento Científico • 1er grado",
+              "reference": "https://www.youtube.com/watch?v=nTWmVpaOXUo",
+              "status": "confirmed"
+            },
+            {
+              "label": "Video PPA 8: 8. Encuentra las figuras geométricas con el uso... • Saberes y pensamiento científico • 1er grado",
+              "reference": "https://www.youtube.com/watch?v=5w597xxEW-4",
+              "status": "confirmed"
+            }
+          ]
+        },
+        "supportMaterials": [],
+        "horizonOrPurpose": {
+          "status": "official",
+          "text": "Elaborar un mapa mental, el cual contendra datos recabados mediante una investigacion sobre el microscopio y sus funciones. La idea principal del mapa mental es la expresion de un caso de observacion de bacterias, celulas y virus, detectando mediante esta exploracion la desigualdad del triangulo y la relacion existente con el uso de este instrumento.",
+          "source": "Nuestro libro de proyectos Tomo II p. 122"
+        },
+        "projectExpectationHorizon": {
+          "officialText": "Identificar los elementos del mapa mental y exponer un caso de observacion de bacterias, celulas y virus mediante el uso del microscopio y la desigualdad del triangulo.",
+          "studentVersion": "Comprender para que sirve el microscopio y como ayuda a observar bacterias, virus y formas geometricas.",
+          "sourcePages": [
+            "Nuestro libro de proyectos Tomo II p. 123"
+          ],
+          "evidence": "La etapa 1, la etapa 3 o los objetivos del proyecto permiten fijar un horizonte de expectativas util para la lectura docente del PA.",
+          "status": "confirmed-from-project-book"
+        },
+        "detonatingStrategy": {
+          "title": "8. Encuentra las figuras geométricas con el uso... • Saberes y pensamiento científico • 1er grado",
+          "text": "Video del Proyecto Parcial de Aula 8: 8. Encuentra las figuras geométricas con el uso... • Saberes y pensamiento científico • 1er grado",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=5w597xxEW-4",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "partial-classroom-project"
+        },
+        "academicProjectStrategy": {
+          "title": "Mapa mental • Saberes y Pensamiento Científico • 1er grado",
+          "text": "Video detonador del Proyecto Academico 22: La existencia de triangulos en el interior de los virus y las bacterias",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=nTWmVpaOXUo",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "academic-project"
+        },
+        "academicConcepts": [
+          {
+            "concept": "mapa mental",
+            "description": "Esquema visual que organiza una idea principal y sus relaciones con palabras, imagenes y ramas.",
+            "sourceBook": "Nuestro libro de proyectos Tomo II",
+            "sourcePages": [
+              122,
+              123,
+              124,
+              125
+            ],
+            "sourcePagesLabel": "pp. 122-125",
+            "topicTitle": "Proyecto academico 22",
+            "status": "confirmed",
+            "reason": "El proyecto y Posibilidades fijan el mapa mental como producto final del PA 22.",
+            "pedagogicalUse": "Ayuda a sintetizar informacion microscopica sin perder las relaciones entre ideas.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "microscopio",
+            "description": "Instrumento que permite observar elementos demasiado pequenos para verse a simple vista.",
+            "sourceBook": "Saberes y Pensamiento Cientifico",
+            "sourcePages": [
+              263,
+              266
+            ],
+            "sourcePagesLabel": "pp. 263-266",
+            "topicTitle": "Observaciones microscopicas",
+            "status": "confirmed",
+            "reason": "La investigacion del proyecto gira alrededor de sus funciones y proposito.",
+            "pedagogicalUse": "Permite entrar al tema desde un objeto cientifico concreto y cercano al asombro estudiantil.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "observacion de bacterias",
+            "description": "Exploracion de microorganismos con ayuda del microscopio para reconocer su presencia y caracteristicas.",
+            "sourceBook": "Saberes y Pensamiento Cientifico",
+            "sourcePages": [
+              268,
+              271
+            ],
+            "sourcePagesLabel": "pp. 268-271",
+            "topicTitle": "Observaciones microscopicas",
+            "status": "confirmed",
+            "reason": "La etapa 1 del proyecto la nombra dentro del caso de observacion a sintetizar.",
+            "pedagogicalUse": "Vuelve visible un mundo microscopico que suele nombrarse sin comprenderse.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "observacion de virus",
+            "description": "Acercamiento conceptual al estudio de los virus a partir de las observaciones microscopicas y su evolucion historica.",
+            "sourceBook": "Saberes y Pensamiento Cientifico",
+            "sourcePages": [
+              271
+            ],
+            "sourcePagesLabel": "p. 271",
+            "topicTitle": "Observaciones microscopicas",
+            "status": "confirmed",
+            "reason": "Posibilidades y el proyecto la incluyen junto con bacterias y celulas.",
+            "pedagogicalUse": "Ayuda a comparar microorganismos y a ordenar mejor lo que el proyecto observa.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "desigualdad del triangulo",
+            "description": "Relacion entre las longitudes de los lados de un triangulo que ayuda a decidir si puede construirse o no.",
+            "sourceBook": "Saberes y Pensamiento Cientifico",
+            "sourcePages": [
+              30,
+              31
+            ],
+            "sourcePagesLabel": "pp. 30-31",
+            "topicTitle": "Desigualdad del triangulo",
+            "status": "confirmed",
+            "reason": "Posibilidades la asigna de forma directa a este PA y el proyecto la enlaza con la observacion del microscopio.",
+            "pedagogicalUse": "Permite tender un puente entre observacion cientifica y pensamiento geometrico.",
+            "activityReadiness": "usable-for-autoevaluation"
+          }
+        ],
+        "thinkingCriteria": [
+          "Usar el mapa mental para relacionar ideas y no solo para adornar la informacion.",
+          "Comprender que el microscopio cambia la escala de observacion y, con ello, las preguntas que nos hacemos."
+        ],
+        "pedagogicalUse": "Conviene construir el mapa desde preguntas de observacion y no solo desde definiciones sueltas.",
+        "communityQuestion": "Que cambia en nuestra manera de comprender bacterias y virus cuando podemos observarlos o estudiarlos con apoyo del microscopio?",
+        "notesForTeacher": {
+          "status": "teacher-orientation",
+          "teacherUse": "Conviene construir el mapa desde preguntas de observacion y no solo desde definiciones sueltas.",
+          "caution": [
+            "El video del PPA 8 y el recurso informatico siguen pendientes de validacion de destino final.",
+            "No se localizaron apoyos de Multiples Lenguajes plenamente confirmados para este proyecto."
+          ]
+        },
+        "readinessLevel": "development-partial",
+        "readyForActivities": false,
+        "needsReviewReasons": [
+          "No mover a actividades interactivas ni desbloquear juegos completos."
+        ]
+      },
+      {
+        "id": "saberes-y-pensamiento-cientifico-1-ppa-8-pa23",
+        "projectId": "saberes-y-pensamiento-cientifico-1-ppa-8-pa23",
+        "academicProjectNumber": 23,
+        "title": "Las celulas animales y vegetales usan los numeros fraccionarios",
+        "projectTitle": "Las celulas animales y vegetales usan los numeros fraccionarios",
+        "grade": "1",
+        "field": "Saberes y Pensamiento Cientifico",
+        "ppaNumber": "8",
+        "partialClassroomProject": "PPA 8",
+        "partialClassroomProjectTitle": "Encuentra las figuras geometricas con el uso del microscopio",
+        "bookVolume": "Tomo II",
+        "sourceValidation": {
+          "sourceStatus": "linked",
+          "possibilitiesPages": [
+            21,
+            22
+          ],
+          "possibilitiesMaterialId": "grade-1-posibilidades-pos-sypc-1",
+          "possibilitiesColumnIndex": 2,
+          "columnEvidence": "Bloque PPA 8 Encuentra las figuras geometricas con el uso del microscopio localizado en pp. 21-22; la columna 2 se confirma por el orden de proyectos, productos y continuidad del mismo bloque."
+        },
+        "finalProduct": {
+          "title": "Modelos de plastilina",
+          "source": "Posibilidades de uso SyPC pp. 21-22 + Nuestro libro de proyectos Tomo II pp. 126-129",
+          "status": "confirmed"
+        },
+        "sourcePages": {
+          "nuestroLibroProyectos": [
+            {
+              "materialId": "grade-1-proyectos-nuestro-libro-de-proyectos-tomo-ii-primer-grado",
+              "label": "Nuestro libro de proyectos Tomo II",
+              "startPage": 126,
+              "endPage": 129,
+              "pagesLabel": "pp. 126-129",
+              "topicTitle": "Proyecto academico 23",
+              "status": "confirmed-source"
+            }
+          ],
+          "conceptBook": [
+            {
+              "materialId": "grade-1-conceptos-saberes-y-pensamiento-cientifico-primer-grado",
+              "label": "Saberes y Pensamiento Cientifico",
+              "startPage": 241,
+              "endPage": 247,
+              "pagesLabel": "pp. 241-247",
+              "topicTitle": "Estructura y funciones basicas de la celula",
+              "status": "confirmed-source"
+            },
+            {
+              "materialId": "grade-1-conceptos-saberes-y-pensamiento-cientifico-primer-grado",
+              "label": "Saberes y Pensamiento Cientifico",
+              "startPage": 27,
+              "endPage": 29,
+              "pagesLabel": "pp. 27-29",
+              "topicTitle": "Conversion de numeros",
+              "status": "confirmed-source"
+            }
+          ],
+          "multiplesLenguajes": [
+            {
+              "materialId": "grade-1-apoyo-muiltiples-lenguajes-primer-grado",
+              "label": "Multiples Lenguajes",
+              "startPage": 114,
+              "endPage": 114,
+              "pagesLabel": "p. 114",
+              "topicTitle": "Flexalogos",
+              "status": "confirmed-by-column-inference"
+            }
+          ],
+          "otherMaterials": [
+            {
+              "label": "Video PA 23: Las celulas animales y vegetales usan los numeros fraccionarios",
+              "reference": "https://www.youtube.com/watch?v=BcxjG7a8Qes",
+              "status": "confirmed"
+            },
+            {
+              "label": "Video PPA 8: 8. Encuentra las figuras geométricas con el uso... • Saberes y pensamiento científico • 1er grado",
+              "reference": "https://www.youtube.com/watch?v=5w597xxEW-4",
+              "status": "confirmed"
+            }
+          ]
+        },
+        "supportMaterials": [
+          {
+            "title": "Flexalogos",
+            "kind": "Multiples Lenguajes",
+            "pages": "p. 114",
+            "status": "confirmed-by-column-inference"
+          }
+        ],
+        "horizonOrPurpose": {
+          "status": "official",
+          "text": "Elaborar modelos de plastilina de celulas animales o vegetales, de un metazoo y de un metafito tipico. Identificar sus caracteristicas y como se puede relacionar con el uso de la conversion de numeros fraccionarios para la interpretacion de datos.",
+          "source": "Nuestro libro de proyectos Tomo II p. 126"
+        },
+        "projectExpectationHorizon": {
+          "officialText": "Explicar las caracteristicas de la celula como unidad estructural y funcional de los seres vivos y su relacion con la conversion de numeros fraccionarios.",
+          "studentVersion": "Representar celulas con plastilina y entender mejor sus partes y como interpretar datos con fracciones.",
+          "sourcePages": [
+            "Nuestro libro de proyectos Tomo II p. 127"
+          ],
+          "evidence": "La etapa 1, la etapa 3 o los objetivos del proyecto permiten fijar un horizonte de expectativas util para la lectura docente del PA.",
+          "status": "confirmed-from-project-book"
+        },
+        "detonatingStrategy": {
+          "title": "8. Encuentra las figuras geométricas con el uso... • Saberes y pensamiento científico • 1er grado",
+          "text": "Video del Proyecto Parcial de Aula 8: 8. Encuentra las figuras geométricas con el uso... • Saberes y pensamiento científico • 1er grado",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=5w597xxEW-4",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "partial-classroom-project"
+        },
+        "academicProjectStrategy": {
+          "title": "Las celulas animales y vegetales usan los numeros fraccionarios",
+          "text": "Video detonador del Proyecto Academico 23: Las celulas animales y vegetales usan los numeros fraccionarios",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=BcxjG7a8Qes",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "academic-project"
+        },
+        "academicConcepts": [
+          {
+            "concept": "modelos de plastilina",
+            "description": "Representaciones manuales que permiten reconocer estructuras y explicar sus funciones.",
+            "sourceBook": "Nuestro libro de proyectos Tomo II",
+            "sourcePages": [
+              126,
+              127,
+              128,
+              129
+            ],
+            "sourcePagesLabel": "pp. 126-129",
+            "topicTitle": "Proyecto academico 23",
+            "status": "confirmed",
+            "reason": "El libro del proyecto y Posibilidades fijan este producto para la columna 2 del bloque.",
+            "pedagogicalUse": "Ayuda a pasar del dibujo plano a una comprension mas concreta de la estructura celular.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "celula como unidad estructural y funcional",
+            "description": "Unidad basica de los seres vivos, responsable de sostener funciones esenciales de la vida.",
+            "sourceBook": "Saberes y Pensamiento Cientifico",
+            "sourcePages": [
+              241,
+              247
+            ],
+            "sourcePagesLabel": "pp. 241-247",
+            "topicTitle": "Estructura y funciones basicas de la celula",
+            "status": "confirmed",
+            "reason": "La etapa 1 del proyecto la coloca como base para modelar y comparar celulas.",
+            "pedagogicalUse": "Da sentido cientifico a los modelos y evita que se queden como manualidad.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "celula animal",
+            "description": "Tipo de celula presente en los animales, con estructuras propias que permiten sus funciones.",
+            "sourceBook": "Saberes y Pensamiento Cientifico",
+            "sourcePages": [
+              242,
+              245
+            ],
+            "sourcePagesLabel": "pp. 242-245",
+            "topicTitle": "Estructura y funciones basicas de la celula",
+            "status": "confirmed",
+            "reason": "El proyecto pide construir y explicar modelos de celulas animales.",
+            "pedagogicalUse": "Permite comparar funciones y formas con otros tipos de celula.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "celula vegetal",
+            "description": "Tipo de celula presente en las plantas, con rasgos y funciones propias de ese grupo de seres vivos.",
+            "sourceBook": "Saberes y Pensamiento Cientifico",
+            "sourcePages": [
+              242,
+              245
+            ],
+            "sourcePagesLabel": "pp. 242-245",
+            "topicTitle": "Estructura y funciones basicas de la celula",
+            "status": "confirmed",
+            "reason": "El proyecto pide construir y explicar modelos de celulas vegetales.",
+            "pedagogicalUse": "Favorece comparaciones utiles para entender diferencias biologicas.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "conversion de numeros fraccionarios",
+            "description": "Transformacion entre fracciones y otras formas numericas para interpretar mejor datos y medidas.",
+            "sourceBook": "Saberes y Pensamiento Cientifico",
+            "sourcePages": [
+              27,
+              29
+            ],
+            "sourcePagesLabel": "pp. 27-29",
+            "topicTitle": "Conversion de numeros",
+            "status": "confirmed",
+            "reason": "Posibilidades y la etapa 1 la nombran como apoyo matematico del proyecto.",
+            "pedagogicalUse": "Permite leer proporciones y datos sin separar matematicas del contenido biologico.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "metazoo y metafito tipico",
+            "description": "Ejemplos de organizacion biologica usados para modelar y comparar estructuras celulares.",
+            "sourceBook": "Nuestro libro de proyectos Tomo II",
+            "sourcePages": [
+              126,
+              127
+            ],
+            "sourcePagesLabel": "pp. 126-127",
+            "topicTitle": "Proyecto academico 23",
+            "status": "suggested",
+            "reason": "El proyecto los menciona en la etapa 1, pero el libro del campo no desarrolla ambos terminos con el mismo detalle en las paginas revisadas.",
+            "pedagogicalUse": "Pueden servir para ampliar la comparacion, siempre que la docente valore si conviene introducirlos.",
+            "activityReadiness": "usable-for-autoevaluation"
+          }
+        ],
+        "thinkingCriteria": [
+          "Hacer que el modelo ayude a explicar funciones celulares y no solo formas visibles.",
+          "Usar las fracciones para interpretar datos y no como un agregado desconectado del proyecto."
+        ],
+        "pedagogicalUse": "Los modelos de plastilina conviene acompasarlos con explicaciones cortas sobre que parte se esta representando y por que.",
+        "communityQuestion": "Que aprendemos sobre la vida cuando miramos y comparamos celulas animales y vegetales con mayor detalle?",
+        "notesForTeacher": {
+          "status": "teacher-orientation",
+          "teacherUse": "Los modelos de plastilina conviene acompasarlos con explicaciones cortas sobre que parte se esta representando y por que.",
+          "caution": [
+            "El video del PPA 8 y el recurso informatico siguen pendientes de validacion de destino final.",
+            "El concepto \"metazoo y metafito tipico\" se mantiene en suggested."
+          ]
+        },
+        "readinessLevel": "development-partial",
+        "readyForActivities": false,
+        "needsReviewReasons": [
+          "No mover a actividades interactivas ni desbloquear juegos completos."
+        ]
+      },
+      {
+        "id": "saberes-y-pensamiento-cientifico-1-ppa-8-pa24",
+        "projectId": "saberes-y-pensamiento-cientifico-1-ppa-8-pa24",
+        "academicProjectNumber": 24,
+        "title": "Los genes tienen una carga muy pesada!",
+        "projectTitle": "Los genes tienen una carga muy pesada!",
+        "grade": "1",
+        "field": "Saberes y Pensamiento Cientifico",
+        "ppaNumber": "8",
+        "partialClassroomProject": "PPA 8",
+        "partialClassroomProjectTitle": "Encuentra las figuras geometricas con el uso del microscopio",
+        "bookVolume": "Tomo II",
+        "sourceValidation": {
+          "sourceStatus": "linked",
+          "possibilitiesPages": [
+            21,
+            22
+          ],
+          "possibilitiesMaterialId": "grade-1-posibilidades-pos-sypc-1",
+          "possibilitiesColumnIndex": 3,
+          "columnEvidence": "Bloque PPA 8 Encuentra las figuras geometricas con el uso del microscopio localizado en pp. 21-22; la columna 3 se confirma por el orden de proyectos, productos y continuidad del mismo bloque."
+        },
+        "finalProduct": {
+          "title": "Dibujo genetico-algebraico",
+          "source": "Posibilidades de uso SyPC pp. 21-22 + Nuestro libro de proyectos Tomo II pp. 130-133",
+          "status": "confirmed"
+        },
+        "sourcePages": {
+          "nuestroLibroProyectos": [
+            {
+              "materialId": "grade-1-proyectos-nuestro-libro-de-proyectos-tomo-ii-primer-grado",
+              "label": "Nuestro libro de proyectos Tomo II",
+              "startPage": 130,
+              "endPage": 133,
+              "pagesLabel": "pp. 130-133",
+              "topicTitle": "Proyecto academico 24",
+              "status": "confirmed-source"
+            }
+          ],
+          "conceptBook": [
+            {
+              "materialId": "grade-1-conceptos-saberes-y-pensamiento-cientifico-primer-grado",
+              "label": "Saberes y Pensamiento Cientifico",
+              "startPage": 262,
+              "endPage": 271,
+              "pagesLabel": "pp. 262-271",
+              "topicTitle": "Observaciones microscopicas",
+              "status": "confirmed-source"
+            }
+          ],
+          "multiplesLenguajes": [],
+          "otherMaterials": [
+            {
+              "label": "Video PA 24: Los genes tienen una carga muy pesada!",
+              "reference": "https://www.youtube.com/watch?v=Oie3uDMN3pM",
+              "status": "confirmed"
+            },
+            {
+              "label": "Video PPA 8: 8. Encuentra las figuras geométricas con el uso... • Saberes y pensamiento científico • 1er grado",
+              "reference": "https://www.youtube.com/watch?v=5w597xxEW-4",
+              "status": "confirmed"
+            }
+          ]
+        },
+        "supportMaterials": [],
+        "horizonOrPurpose": {
+          "status": "official",
+          "text": "Mediante la elaboracion de un dibujo genetico-algebraico, estudiar el contenido de los genes como portadores de informacion, la manipulacion genetica y su vinculo con una representacion algebraica o una progresion aritmetica.",
+          "source": "Nuestro libro de proyectos Tomo II p. 130"
+        },
+        "projectExpectationHorizon": {
+          "officialText": "Analizar materiales bibliograficos y comentar sobre los genes, la manipulacion genetica y su vinculo con una representacion algebraica para elaborar el dibujo correspondiente.",
+          "studentVersion": "Comprender que son los genes y por que se relacionan con la manipulacion genetica y algunas representaciones matematicas.",
+          "sourcePages": [
+            "Nuestro libro de proyectos Tomo II p. 131"
+          ],
+          "evidence": "La etapa 1, la etapa 3 o los objetivos del proyecto permiten fijar un horizonte de expectativas util para la lectura docente del PA.",
+          "status": "confirmed-from-project-book"
+        },
+        "detonatingStrategy": {
+          "title": "8. Encuentra las figuras geométricas con el uso... • Saberes y pensamiento científico • 1er grado",
+          "text": "Video del Proyecto Parcial de Aula 8: 8. Encuentra las figuras geométricas con el uso... • Saberes y pensamiento científico • 1er grado",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=5w597xxEW-4",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "partial-classroom-project"
+        },
+        "academicProjectStrategy": {
+          "title": "Los genes tienen una carga muy pesada!",
+          "text": "Video detonador del Proyecto Academico 24: Los genes tienen una carga muy pesada!",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=Oie3uDMN3pM",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "academic-project"
+        },
+        "academicConcepts": [
+          {
+            "concept": "dibujo genetico-algebraico",
+            "description": "Representacion visual que combina imagenes, datos y relaciones matematicas para explicar un tema cientifico.",
+            "sourceBook": "Nuestro libro de proyectos Tomo II",
+            "sourcePages": [
+              130,
+              131,
+              132,
+              133
+            ],
+            "sourcePagesLabel": "pp. 130-133",
+            "topicTitle": "Proyecto academico 24",
+            "status": "confirmed",
+            "reason": "Posibilidades y la etapa 1 del proyecto lo fijan como producto final del PA 24.",
+            "pedagogicalUse": "Permite sintetizar varios contenidos sin reducirlos a una definicion aislada.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "genes",
+            "description": "Portadores de informacion hereditaria que ayudan a explicar rasgos y procesos biologicos.",
+            "sourceBook": "Nuestro libro de proyectos Tomo II",
+            "sourcePages": [
+              130,
+              131
+            ],
+            "sourcePagesLabel": "pp. 130-131",
+            "topicTitle": "Proyecto academico 24",
+            "status": "confirmed",
+            "reason": "El proyecto los nombra de forma explicita como nucleo del contenido.",
+            "pedagogicalUse": "Abre una puerta para comprender herencia y biotecnologia desde preguntas reales.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "manipulacion genetica",
+            "description": "Intervencion sobre informacion genetica para producir cambios con distintos fines y consecuencias.",
+            "sourceBook": "Nuestro libro de proyectos Tomo II",
+            "sourcePages": [
+              130,
+              131
+            ],
+            "sourcePagesLabel": "pp. 130-131",
+            "topicTitle": "Proyecto academico 24",
+            "status": "confirmed",
+            "reason": "La etapa 1 y la lista de fuentes del proyecto la fijan como tema obligatorio de investigacion.",
+            "pedagogicalUse": "Permite discutir beneficios, riesgos y decisiones eticas asociadas a la ciencia.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "beneficios y riesgos de la manipulacion genetica",
+            "description": "Efectos positivos y posibles problemas de intervenir geneticamente en salud o medio ambiente.",
+            "sourceBook": "Nuestro libro de proyectos Tomo II",
+            "sourcePages": [
+              131
+            ],
+            "sourcePagesLabel": "p. 131",
+            "topicTitle": "Proyecto academico 24",
+            "status": "confirmed",
+            "reason": "La etapa 5 del proyecto lo incluye como contenido de consulta explicitamente requerido.",
+            "pedagogicalUse": "Ayuda a evitar una mirada ingenua o totalmente condenatoria sobre el tema.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "representacion algebraica",
+            "description": "Forma de expresar relaciones mediante letras, numeros y signos para interpretar informacion.",
+            "sourceBook": "Nuestro libro de proyectos Tomo II",
+            "sourcePages": [
+              130,
+              131
+            ],
+            "sourcePagesLabel": "pp. 130-131",
+            "topicTitle": "Proyecto academico 24",
+            "status": "suggested",
+            "reason": "El proyecto la menciona en la etapa 1 y en la etapa 5, pero no quedo una pagina del libro del campo tan cerrada como en otros casos del bloque.",
+            "pedagogicalUse": "Puede usarse como puente para ordenar patrones o relaciones derivadas de la investigacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "sucesion con progresion aritmetica",
+            "description": "Patron numerico o figurativo que cambia siguiendo una regla regular.",
+            "sourceBook": "Nuestro libro de proyectos Tomo II",
+            "sourcePages": [
+              131
+            ],
+            "sourcePagesLabel": "p. 131",
+            "topicTitle": "Proyecto academico 24",
+            "status": "suggested",
+            "reason": "La etapa 5 la incluye como contenido de consulta, pero requiere una validacion mas fina para fijar su uso docente principal en este PA.",
+            "pedagogicalUse": "Puede ayudar a leer secuencias o patrones si la docente decide integrarlo con claridad.",
+            "activityReadiness": "usable-for-autoevaluation"
+          }
+        ],
+        "thinkingCriteria": [
+          "Distinguir entre nombrar genes y comprender por que importan en salud y medio ambiente.",
+          "No forzar la relacion con el algebra si antes no se entiende el problema biologico central."
+        ],
+        "pedagogicalUse": "Este proyecto funciona mejor si se trabaja desde preguntas concretas sobre herencia, salud y tecnologia, antes que desde tecnicismos.",
+        "communityQuestion": "Que dudas y preocupaciones aparecen en la comunidad cuando se habla de genes, herencia y manipulacion genetica?",
+        "notesForTeacher": {
+          "status": "teacher-orientation",
+          "teacherUse": "Este proyecto funciona mejor si se trabaja desde preguntas concretas sobre herencia, salud y tecnologia, antes que desde tecnicismos.",
+          "caution": [
+            "El video del PPA 8 y el recurso informatico siguen pendientes de validacion de destino final.",
+            "No se localizaron apoyos de Multiples Lenguajes plenamente confirmados para este proyecto.",
+            "El concepto \"representacion algebraica\" se mantiene en suggested.",
+            "El concepto \"sucesion con progresion aritmetica\" se mantiene en suggested."
+          ]
+        },
+        "readinessLevel": "development-partial",
+        "readyForActivities": false,
+        "needsReviewReasons": [
+          "No mover a actividades interactivas ni desbloquear juegos completos."
+        ]
+      }
+    ]
+  },
+  "conceptsValidation": {
+    "grade": "1",
+    "field": "Saberes y Pensamiento Cientifico",
+    "ppaNumber": "8",
+    "status": "concept-validation",
+    "generatedAt": "2026-06-01T12:35:09.558Z",
+    "entries": [
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-1-ppa-8-pa22",
+        "projectTitle": "La existencia de triangulos en el interior de los virus y las bacterias",
+        "concept": "mapa mental",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Nuestro libro de proyectos Tomo II",
+          "pages": [
+            122,
+            123,
+            124,
+            125
+          ],
+          "reason": "El proyecto y Posibilidades fijan el mapa mental como producto final del PA 22."
+        },
+        "pedagogicalUse": "Ayuda a sintetizar informacion microscopica sin perder las relaciones entre ideas.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-1-ppa-8-pa22",
+        "projectTitle": "La existencia de triangulos en el interior de los virus y las bacterias",
+        "concept": "microscopio",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "pages": [
+            263,
+            266
+          ],
+          "reason": "La investigacion del proyecto gira alrededor de sus funciones y proposito."
+        },
+        "pedagogicalUse": "Permite entrar al tema desde un objeto cientifico concreto y cercano al asombro estudiantil.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-1-ppa-8-pa22",
+        "projectTitle": "La existencia de triangulos en el interior de los virus y las bacterias",
+        "concept": "observacion de bacterias",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "pages": [
+            268,
+            271
+          ],
+          "reason": "La etapa 1 del proyecto la nombra dentro del caso de observacion a sintetizar."
+        },
+        "pedagogicalUse": "Vuelve visible un mundo microscopico que suele nombrarse sin comprenderse.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-1-ppa-8-pa22",
+        "projectTitle": "La existencia de triangulos en el interior de los virus y las bacterias",
+        "concept": "observacion de virus",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "pages": [
+            271
+          ],
+          "reason": "Posibilidades y el proyecto la incluyen junto con bacterias y celulas."
+        },
+        "pedagogicalUse": "Ayuda a comparar microorganismos y a ordenar mejor lo que el proyecto observa.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-1-ppa-8-pa22",
+        "projectTitle": "La existencia de triangulos en el interior de los virus y las bacterias",
+        "concept": "desigualdad del triangulo",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "pages": [
+            30,
+            31
+          ],
+          "reason": "Posibilidades la asigna de forma directa a este PA y el proyecto la enlaza con la observacion del microscopio."
+        },
+        "pedagogicalUse": "Permite tender un puente entre observacion cientifica y pensamiento geometrico.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-1-ppa-8-pa23",
+        "projectTitle": "Las celulas animales y vegetales usan los numeros fraccionarios",
+        "concept": "modelos de plastilina",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Nuestro libro de proyectos Tomo II",
+          "pages": [
+            126,
+            127,
+            128,
+            129
+          ],
+          "reason": "El libro del proyecto y Posibilidades fijan este producto para la columna 2 del bloque."
+        },
+        "pedagogicalUse": "Ayuda a pasar del dibujo plano a una comprension mas concreta de la estructura celular.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-1-ppa-8-pa23",
+        "projectTitle": "Las celulas animales y vegetales usan los numeros fraccionarios",
+        "concept": "celula como unidad estructural y funcional",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "pages": [
+            241,
+            247
+          ],
+          "reason": "La etapa 1 del proyecto la coloca como base para modelar y comparar celulas."
+        },
+        "pedagogicalUse": "Da sentido cientifico a los modelos y evita que se queden como manualidad.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-1-ppa-8-pa23",
+        "projectTitle": "Las celulas animales y vegetales usan los numeros fraccionarios",
+        "concept": "celula animal",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "pages": [
+            242,
+            245
+          ],
+          "reason": "El proyecto pide construir y explicar modelos de celulas animales."
+        },
+        "pedagogicalUse": "Permite comparar funciones y formas con otros tipos de celula.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-1-ppa-8-pa23",
+        "projectTitle": "Las celulas animales y vegetales usan los numeros fraccionarios",
+        "concept": "celula vegetal",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "pages": [
+            242,
+            245
+          ],
+          "reason": "El proyecto pide construir y explicar modelos de celulas vegetales."
+        },
+        "pedagogicalUse": "Favorece comparaciones utiles para entender diferencias biologicas.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-1-ppa-8-pa23",
+        "projectTitle": "Las celulas animales y vegetales usan los numeros fraccionarios",
+        "concept": "conversion de numeros fraccionarios",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "pages": [
+            27,
+            29
+          ],
+          "reason": "Posibilidades y la etapa 1 la nombran como apoyo matematico del proyecto."
+        },
+        "pedagogicalUse": "Permite leer proporciones y datos sin separar matematicas del contenido biologico.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-1-ppa-8-pa23",
+        "projectTitle": "Las celulas animales y vegetales usan los numeros fraccionarios",
+        "concept": "metazoo y metafito tipico",
+        "status": "suggested",
+        "evidence": {
+          "sourceBook": "Nuestro libro de proyectos Tomo II",
+          "pages": [
+            126,
+            127
+          ],
+          "reason": "El proyecto los menciona en la etapa 1, pero el libro del campo no desarrolla ambos terminos con el mismo detalle en las paginas revisadas."
+        },
+        "pedagogicalUse": "Pueden servir para ampliar la comparacion, siempre que la docente valore si conviene introducirlos.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-1-ppa-8-pa24",
+        "projectTitle": "Los genes tienen una carga muy pesada!",
+        "concept": "dibujo genetico-algebraico",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Nuestro libro de proyectos Tomo II",
+          "pages": [
+            130,
+            131,
+            132,
+            133
+          ],
+          "reason": "Posibilidades y la etapa 1 del proyecto lo fijan como producto final del PA 24."
+        },
+        "pedagogicalUse": "Permite sintetizar varios contenidos sin reducirlos a una definicion aislada.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-1-ppa-8-pa24",
+        "projectTitle": "Los genes tienen una carga muy pesada!",
+        "concept": "genes",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Nuestro libro de proyectos Tomo II",
+          "pages": [
+            130,
+            131
+          ],
+          "reason": "El proyecto los nombra de forma explicita como nucleo del contenido."
+        },
+        "pedagogicalUse": "Abre una puerta para comprender herencia y biotecnologia desde preguntas reales.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-1-ppa-8-pa24",
+        "projectTitle": "Los genes tienen una carga muy pesada!",
+        "concept": "manipulacion genetica",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Nuestro libro de proyectos Tomo II",
+          "pages": [
+            130,
+            131
+          ],
+          "reason": "La etapa 1 y la lista de fuentes del proyecto la fijan como tema obligatorio de investigacion."
+        },
+        "pedagogicalUse": "Permite discutir beneficios, riesgos y decisiones eticas asociadas a la ciencia.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-1-ppa-8-pa24",
+        "projectTitle": "Los genes tienen una carga muy pesada!",
+        "concept": "beneficios y riesgos de la manipulacion genetica",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Nuestro libro de proyectos Tomo II",
+          "pages": [
+            131
+          ],
+          "reason": "La etapa 5 del proyecto lo incluye como contenido de consulta explicitamente requerido."
+        },
+        "pedagogicalUse": "Ayuda a evitar una mirada ingenua o totalmente condenatoria sobre el tema.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-1-ppa-8-pa24",
+        "projectTitle": "Los genes tienen una carga muy pesada!",
+        "concept": "representacion algebraica",
+        "status": "suggested",
+        "evidence": {
+          "sourceBook": "Nuestro libro de proyectos Tomo II",
+          "pages": [
+            130,
+            131
+          ],
+          "reason": "El proyecto la menciona en la etapa 1 y en la etapa 5, pero no quedo una pagina del libro del campo tan cerrada como en otros casos del bloque."
+        },
+        "pedagogicalUse": "Puede usarse como puente para ordenar patrones o relaciones derivadas de la investigacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-1-ppa-8-pa24",
+        "projectTitle": "Los genes tienen una carga muy pesada!",
+        "concept": "sucesion con progresion aritmetica",
+        "status": "suggested",
+        "evidence": {
+          "sourceBook": "Nuestro libro de proyectos Tomo II",
+          "pages": [
+            131
+          ],
+          "reason": "La etapa 5 la incluye como contenido de consulta, pero requiere una validacion mas fina para fijar su uso docente principal en este PA."
+        },
+        "pedagogicalUse": "Puede ayudar a leer secuencias o patrones si la docente decide integrarlo con claridad.",
+        "activityReadiness": "usable-for-autoevaluation"
+      }
+    ]
+  },
+  "pedagogicalArticulation": {
+    "grade": "1",
+    "field": "Saberes y Pensamiento Cientifico",
+    "ppaNumber": "8",
+    "status": "teacher-orientation",
+    "officialHorizonStatus": "pending",
+    "situatedPedagogicalOrientation": "El PPA 8 articula el uso del microscopio con bacterias, virus, celulas, fracciones y representaciones algebraicas para volver visible el mundo microscopico.",
+    "integratingQuestions": [
+      "Que aporta el PPA 8 Encuentra las figuras geometricas con el uso del microscopio a la comprension integrada de la ciencia y las matematicas?",
+      "Como cambia la comprension del problema cuando los datos y las representaciones visuales ayudan a leer mejor el contenido?",
+      "Que aprendizajes conviene dejar circular fuera del aula por medio del producto final?"
+    ],
+    "projectConnections": [
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-1-ppa-8-pa22",
+        "projectTitle": "La existencia de triangulos en el interior de los virus y las bacterias",
+        "roleInPpa": "Abre el bloque con una investigacion sobre microscopio, bacterias y virus usando el mapa mental y la desigualdad del triangulo.",
+        "confirmedConcepts": [
+          "mapa mental",
+          "microscopio",
+          "observacion de bacterias",
+          "observacion de virus",
+          "desigualdad del triangulo"
+        ],
+        "suggestedConcepts": [],
+        "pedagogicalUse": "Conviene construir el mapa desde preguntas de observacion y no solo desde definiciones sueltas."
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-1-ppa-8-pa23",
+        "projectTitle": "Las celulas animales y vegetales usan los numeros fraccionarios",
+        "roleInPpa": "Profundiza el bloque al representar celulas animales y vegetales con modelos de plastilina y enlazarlas con la conversion de numeros fraccionarios.",
+        "confirmedConcepts": [
+          "modelos de plastilina",
+          "celula como unidad estructural y funcional",
+          "celula animal",
+          "celula vegetal",
+          "conversion de numeros fraccionarios"
+        ],
+        "suggestedConcepts": [
+          "metazoo y metafito tipico"
+        ],
+        "pedagogicalUse": "Los modelos de plastilina conviene acompasarlos con explicaciones cortas sobre que parte se esta representando y por que."
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-1-ppa-8-pa24",
+        "projectTitle": "Los genes tienen una carga muy pesada!",
+        "roleInPpa": "Cierra el bloque al relacionar genes, manipulacion genetica y expresiones algebraicas con un producto visual propio.",
+        "confirmedConcepts": [
+          "dibujo genetico-algebraico",
+          "genes",
+          "manipulacion genetica",
+          "beneficios y riesgos de la manipulacion genetica"
+        ],
+        "suggestedConcepts": [
+          "representacion algebraica",
+          "sucesion con progresion aritmetica"
+        ],
+        "pedagogicalUse": "Este proyecto funciona mejor si se trabaja desde preguntas concretas sobre herencia, salud y tecnologia, antes que desde tecnicismos."
+      }
+    ],
+    "criteriaOfThought": [
+      {
+        "criterion": "Usar el mapa mental para relacionar ideas y no solo para adornar la informacion.",
+        "status": "suggested"
+      },
+      {
+        "criterion": "Comprender que el microscopio cambia la escala de observacion y, con ello, las preguntas que nos hacemos.",
+        "status": "suggested"
+      },
+      {
+        "criterion": "Hacer que el modelo ayude a explicar funciones celulares y no solo formas visibles.",
+        "status": "suggested"
+      },
+      {
+        "criterion": "Usar las fracciones para interpretar datos y no como un agregado desconectado del proyecto.",
+        "status": "suggested"
+      },
+      {
+        "criterion": "Distinguir entre nombrar genes y comprender por que importan en salud y medio ambiente.",
+        "status": "suggested"
+      },
+      {
+        "criterion": "No forzar la relacion con el algebra si antes no se entiende el problema biologico central.",
+        "status": "suggested"
+      }
+    ],
+    "possibleResonanceQuestion": "Que cambia en nuestra manera de comprender bacterias y virus cuando podemos observarlos o estudiarlos con apoyo del microscopio?",
+    "teacherNotes": [
+      "No conviene tratar el PPA 8 como tres proyectos aislados; cada producto suma una forma distinta de leer el mismo campo.",
+      "Las pp. 21-22 de Posibilidades pertenecen al mismo PPA 8. La p. 22 solo permite confirmar por posicion un apoyo de Multiples Lenguajes para la columna 2: Flexalogos, p. 114.",
+      "Los enlaces cortos del video del PPA y del recurso informatico se mantienen en cautela y no deben asumirse como destino ya validado."
+    ],
+    "notReadyFor": [
+      "actividades interactivas",
+      "full-games",
+      "summative-exam"
+    ]
+  },
+  "teacherNotesAndResonances": {
+    "grade": "1",
+    "field": "Saberes y Pensamiento Cientifico",
+    "ppaNumber": "8",
+    "status": "teacher-orientation",
+    "officialHorizonStatus": "pending",
+    "ppaIntegratingResonance": "Como nos ayuda el PPA 8 a leer mejor un problema de la vida real usando explicaciones cientificas, productos visuales y herramientas matematicas?",
+    "didacticWarnings": [
+      "No convertir el bloque en memorizacion de terminos aislados; importa comprender relaciones, decisiones y contextos.",
+      "Los enlaces cortos bit.ly/3VfglUk y bit.ly/3WQBMwg se mantienen como cautela y no deben tratarse como recursos ya validados.",
+      "Las pp. 21-22 de Posibilidades pertenecen al mismo PPA 8. La p. 22 solo permite confirmar por posicion un apoyo de Multiples Lenguajes para la columna 2: Flexalogos, p. 114."
+    ],
+    "communityPrompts": {
+      "communityKnowledge": [
+        "Que cambia en nuestra manera de comprender bacterias y virus cuando podemos observarlos o estudiarlos con apoyo del microscopio?",
+        "Que aprendemos sobre la vida cuando miramos y comparamos celulas animales y vegetales con mayor detalle?",
+        "Que dudas y preocupaciones aparecen en la comunidad cuando se habla de genes, herencia y manipulacion genetica?"
+      ],
+      "families": [
+        "Que informacion del proyecto conviene conversar tambien en casa para reforzar el cuidado, la comprension o la toma de decisiones?"
+      ],
+      "territoryLanguageMemory": [
+        "Que palabras, experiencias o ejemplos del territorio ayudan a explicar mejor los contenidos de este bloque?"
+      ],
+      "productCommunityConnection": [
+        "Como puede circular mapa mental para abrir conversaciones utiles fuera del aula?",
+        "Como puede circular modelos de plastilina para abrir conversaciones utiles fuera del aula?",
+        "Como puede circular dibujo genetico-algebraico para abrir conversaciones utiles fuera del aula?"
+      ]
+    },
+    "suggestedThinkingCriteria": [
+      "Usar el mapa mental para relacionar ideas y no solo para adornar la informacion.",
+      "Comprender que el microscopio cambia la escala de observacion y, con ello, las preguntas que nos hacemos.",
+      "Hacer que el modelo ayude a explicar funciones celulares y no solo formas visibles.",
+      "Usar las fracciones para interpretar datos y no como un agregado desconectado del proyecto.",
+      "Distinguir entre nombrar genes y comprender por que importan en salud y medio ambiente.",
+      "No forzar la relacion con el algebra si antes no se entiende el problema biologico central."
+    ],
+    "projects": [
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-1-ppa-8-pa22",
+        "projectTitle": "La existencia de triangulos en el interior de los virus y las bacterias",
+        "teacherNotes": [
+          "Conviene usar mapa mental como medio para explicar y no solo como evidencia de trabajo.",
+          "Conviene construir el mapa desde preguntas de observacion y no solo desde definiciones sueltas."
+        ],
+        "confirmedConceptsToUse": [
+          "mapa mental",
+          "microscopio",
+          "observacion de bacterias",
+          "observacion de virus",
+          "desigualdad del triangulo"
+        ],
+        "suggestedConceptsToHandleCarefully": [],
+        "resonancePrompts": [
+          {
+            "type": "opening",
+            "prompt": "Que cambia en nuestra manera de comprender bacterias y virus cuando podemos observarlos o estudiarlos con apoyo del microscopio?",
+            "conceptsActivated": [
+              "mapa mental",
+              "microscopio"
+            ],
+            "thinkingCriteria": [
+              "Usar el mapa mental para relacionar ideas y no solo para adornar la informacion."
+            ],
+            "suggestedUse": "Apertura del proyecto."
+          },
+          {
+            "type": "closing",
+            "prompt": "Despues de elaborar mapa mental, que comprendes mejor sobre la existencia de triangulos en el interior de los virus y las bacterias?",
+            "conceptsActivated": [
+              "mapa mental",
+              "microscopio"
+            ],
+            "thinkingCriteria": [
+              "Usar el mapa mental para relacionar ideas y no solo para adornar la informacion."
+            ],
+            "suggestedUse": "Cierre reflexivo."
+          }
+        ],
+        "notReadyFor": [
+          "summative-exam",
+          "full-games",
+          "actividades interactivas"
+        ]
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-1-ppa-8-pa23",
+        "projectTitle": "Las celulas animales y vegetales usan los numeros fraccionarios",
+        "teacherNotes": [
+          "Conviene usar modelos de plastilina como medio para explicar y no solo como evidencia de trabajo.",
+          "Los modelos de plastilina conviene acompasarlos con explicaciones cortas sobre que parte se esta representando y por que."
+        ],
+        "confirmedConceptsToUse": [
+          "modelos de plastilina",
+          "celula como unidad estructural y funcional",
+          "celula animal",
+          "celula vegetal",
+          "conversion de numeros fraccionarios"
+        ],
+        "suggestedConceptsToHandleCarefully": [
+          "metazoo y metafito tipico"
+        ],
+        "resonancePrompts": [
+          {
+            "type": "opening",
+            "prompt": "Que aprendemos sobre la vida cuando miramos y comparamos celulas animales y vegetales con mayor detalle?",
+            "conceptsActivated": [
+              "modelos de plastilina",
+              "celula como unidad estructural y funcional"
+            ],
+            "thinkingCriteria": [
+              "Hacer que el modelo ayude a explicar funciones celulares y no solo formas visibles."
+            ],
+            "suggestedUse": "Apertura del proyecto."
+          },
+          {
+            "type": "closing",
+            "prompt": "Despues de elaborar modelos de plastilina, que comprendes mejor sobre las celulas animales y vegetales usan los numeros fraccionarios?",
+            "conceptsActivated": [
+              "modelos de plastilina",
+              "celula como unidad estructural y funcional"
+            ],
+            "thinkingCriteria": [
+              "Hacer que el modelo ayude a explicar funciones celulares y no solo formas visibles."
+            ],
+            "suggestedUse": "Cierre reflexivo."
+          }
+        ],
+        "notReadyFor": [
+          "summative-exam",
+          "full-games",
+          "actividades interactivas"
+        ]
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-1-ppa-8-pa24",
+        "projectTitle": "Los genes tienen una carga muy pesada!",
+        "teacherNotes": [
+          "Conviene usar dibujo genetico-algebraico como medio para explicar y no solo como evidencia de trabajo.",
+          "Este proyecto funciona mejor si se trabaja desde preguntas concretas sobre herencia, salud y tecnologia, antes que desde tecnicismos."
+        ],
+        "confirmedConceptsToUse": [
+          "dibujo genetico-algebraico",
+          "genes",
+          "manipulacion genetica",
+          "beneficios y riesgos de la manipulacion genetica"
+        ],
+        "suggestedConceptsToHandleCarefully": [
+          "representacion algebraica",
+          "sucesion con progresion aritmetica"
+        ],
+        "resonancePrompts": [
+          {
+            "type": "opening",
+            "prompt": "Que dudas y preocupaciones aparecen en la comunidad cuando se habla de genes, herencia y manipulacion genetica?",
+            "conceptsActivated": [
+              "dibujo genetico-algebraico",
+              "genes"
+            ],
+            "thinkingCriteria": [
+              "Distinguir entre nombrar genes y comprender por que importan en salud y medio ambiente."
+            ],
+            "suggestedUse": "Apertura del proyecto."
+          },
+          {
+            "type": "closing",
+            "prompt": "Despues de elaborar dibujo genetico-algebraico, que comprendes mejor sobre los genes tienen una carga muy pesada!?",
+            "conceptsActivated": [
+              "dibujo genetico-algebraico",
+              "genes"
+            ],
+            "thinkingCriteria": [
+              "Distinguir entre nombrar genes y comprender por que importan en salud y medio ambiente."
+            ],
+            "suggestedUse": "Cierre reflexivo."
+          }
+        ],
+        "notReadyFor": [
+          "summative-exam",
+          "full-games",
+          "actividades interactivas"
+        ]
+      }
+    ]
+  },
+  "validationAudit": {
+    "kind": "fine-validation-audit",
+    "source": "reports/caracoles/grade1-saberes-ppa8-reading-bundle-audit.md",
+    "content": "# 1o Saberes y Pensamiento Cientifico - PPA 8 - Lectura docente\n\nFecha: 2026-06-01T12:35:09.558Z\n\n## Alcance\n\n- PPA desarrollado: PPA 8\n- Proyectos incluidos:\n  - PA22 - La existencia de triangulos en el interior de los virus y las bacterias\n  - PA23 - Las celulas animales y vegetales usan los numeros fraccionarios\n  - PA24 - Los genes tienen una carga muy pesada!\n\n## Fuentes usadas\n\n- reports/caracoles/grade1-lenguajes-reading-teacher-hito-2-standard.md\n- content/caracoles/curricular-links/grade-1-project-source-links.json\n- content/caracoles/generated-private/grade-1/pages-index.full.json\n- Posibilidades de uso SyPC, primer grado, pp. 21-22\n- Nuestro libro de proyectos Tomo II, primer grado, pp. 120-133\n- Saberes y Pensamiento Cientifico, pp. 27-31, 108-119, 241-247 y 262-271\n\n## Validacion visual de columnas\n\n- Las pp. 21-22 de Posibilidades pertenecen al mismo PPA 8. La p. 22 solo permite confirmar por posicion un apoyo de Multiples Lenguajes para la columna 2: Flexalogos, p. 114.\n- Columna 1 -> PA22 -> Mapa mental\n- Columna 2 -> PA23 -> Modelos de plastilina\n- Columna 3 -> PA24 -> Dibujo genetico-algebraico\n- Apoyos confirmados de Multiples Lenguajes:\n  - PA23 -> Flexalogos, p. 114\n\n## Productos finales por PA\n\n- PA22 -> Mapa mental\n- PA23 -> Modelos de plastilina\n- PA24 -> Dibujo genetico-algebraico\n\n## Conteo de conceptos\n\n- PA22: 5 confirmados, 0 suggested, 0 needsReview\n- PA23: 5 confirmados, 1 suggested, 0 needsReview\n- PA24: 4 confirmados, 2 suggested, 0 needsReview\n\n## Conceptos suggested y needsReview\n\n- PA23:\n  - metazoo y metafito tipico\n\n- PA24:\n  - representacion algebraica\n  - sucesion con progresion aritmetica\n\n\n## Pendientes reales\n\n- Falta localizar un destino oficial confirmado para el video del PPA 8.\n- Los enlaces cortos bit.ly/3VfglUk y bit.ly/3WQBMwg se mantienen en cautela.\n- El horizonte comun del PPA 8 sigue sin formula oficial unica; por ahora se trabaja con los propositos y objetivos de cada PA.\n- Hay proyectos del bloque sin apoyo de Multiples Lenguajes plenamente confirmado.\n\n## Bundles publicados esperados\n\n- public/caracoles/data/curricular-development/grade-1-saberes-y-pensamiento-cientifico-ppa-8.json\n\n## Candados\n\n- Sin examen\n- Sin juegos completos desbloqueados\n- Sin actividades interactivas\n- Sin cambio de readyForActivities\n\n"
+  }
+}

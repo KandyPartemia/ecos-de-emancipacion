@@ -1,0 +1,1205 @@
+{
+  "grade": "3",
+  "gradeLabel": "Tercer grado",
+  "field": "Saberes y Pensamiento Cientifico",
+  "ppaNumber": "8",
+  "partialClassroomProject": "PPA 8",
+  "partialClassroomProjectTitle": "Un viaje fascinante a partir de los compuestos iónicos y moleculares",
+  "source": "curricular-development-generated",
+  "generatedAt": "2026-06-07T03:06:28.371Z",
+  "development": {
+    "grade": "3",
+    "gradeLabel": "Tercer grado",
+    "field": "Saberes y Pensamiento Cientifico",
+    "bookVolume": "Tomo II",
+    "partialClassroomProject": "PPA 8",
+    "partialClassroomProjectTitle": "Un viaje fascinante a partir de los compuestos iónicos y moleculares",
+    "generatedAt": "2026-06-07T03:06:28.308Z",
+    "notes": "Capa curricular generada por lote para 3o Saberes y Pensamiento Cientifico, PPA 8.",
+    "sourcesUsed": [
+      "content/caracoles/curricular-catalog/all-projects-canonical.json",
+      "public/caracoles/data/generated/grade-3/concepts-index.json",
+      "src/caracoles/lib/officialVideoLinks.ts",
+      "Posibilidades de uso SyPC, tercer grado, pp. 21-22",
+      "Nuestro libro de proyectos, tercer grado, pp. 123-134"
+    ],
+    "partialClassroomProjectContext": {
+      "expectationHorizon": {
+        "officialText": "",
+        "sourcePages": [
+          "Nuestro libro de proyectos Tomo II pp. 123-126",
+          "Posibilidades de uso SyPC pp. 21-22"
+        ],
+        "evidence": "El PPA 8 articula bocetos moleculares planos y ..., bocetos moleculares planos y ..., bocetos moleculares planos y ... para trabajar Un viaje fascinante a partir de los compuestos iónicos y moleculares.",
+        "status": "pending"
+      },
+      "ppaDetonatingStrategy": {
+        "title": "Un viaje fascinante a partir de los compuestos iónicos y moleculares",
+        "type": "video",
+        "url": "",
+        "urlStatus": "confirmed-by-official-video-map",
+        "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+        "scope": "partial-classroom-project"
+      },
+      "ppaDigitalResource": {
+        "title": "Recurso del Proyecto Parcial de Aula 8",
+        "reference": "",
+        "status": "confirmed-by-official-video-map",
+        "source": "YouTube, acervo Aprende_MX/Telesecundaria"
+      },
+      "validationStatus": {
+        "needsHumanReview": true,
+        "needsReviewReasons": [
+          "Los videos PA/PPA se validan por el mapa oficial de enlaces directos ya generado.",
+          "Los apoyos complementarios impresos no se asignan cuando no hay evidencia validada por columna.",
+          "El horizonte textual literal queda pendiente de revision fina si se necesita cita exacta."
+        ]
+      },
+      "columnValidation": {
+        "possibilitiesPagesReviewed": [
+          21,
+          22
+        ],
+        "confirmedAsPpa": true,
+        "note": "El PPA 8 se agrupa desde el catalogo canonico de tercer grado.",
+        "columns": [
+          {
+            "columnIndex": 1,
+            "projectId": "saberes-y-pensamiento-cientifico-3-ppa-8-pa22",
+            "projectTitle": "Diferenciación entre los compuestos iónicos y moleculares",
+            "finalProduct": "Bocetos moleculares planos y ...",
+            "supportMaterials": []
+          },
+          {
+            "columnIndex": 2,
+            "projectId": "saberes-y-pensamiento-cientifico-3-ppa-8-pa23",
+            "projectTitle": "El arte en los compuestos iónicos y moleculares",
+            "finalProduct": "Bocetos moleculares planos y ...",
+            "supportMaterials": []
+          },
+          {
+            "columnIndex": 3,
+            "projectId": "saberes-y-pensamiento-cientifico-3-ppa-8-pa24",
+            "projectTitle": "Aprovechar los compuestos iónicos y moleculares",
+            "finalProduct": "Bocetos moleculares planos y ...",
+            "supportMaterials": []
+          }
+        ]
+      }
+    },
+    "academicProjects": [
+      {
+        "id": "saberes-y-pensamiento-cientifico-3-ppa-8-pa22",
+        "projectId": "saberes-y-pensamiento-cientifico-3-ppa-8-pa22",
+        "academicProjectNumber": 22,
+        "title": "Diferenciación entre los compuestos iónicos y moleculares",
+        "projectTitle": "Diferenciación entre los compuestos iónicos y moleculares",
+        "grade": "3",
+        "field": "Saberes y Pensamiento Científico",
+        "ppaNumber": "8",
+        "partialClassroomProject": "PPA 8",
+        "partialClassroomProjectTitle": "Un viaje fascinante a partir de los compuestos iónicos y moleculares",
+        "bookVolume": "Tomo II",
+        "sourceValidation": {
+          "sourceStatus": "linked",
+          "possibilitiesPages": [
+            21,
+            22
+          ],
+          "possibilitiesMaterialId": "grade-3-posibilidades-pos-sypc-3",
+          "possibilitiesColumnIndex": 1,
+          "columnEvidence": "Proyecto PA 22 agrupado en el PPA 8 desde el catalogo canonico y las paginas de Posibilidades."
+        },
+        "finalProduct": {
+          "title": "Bocetos moleculares planos y ...",
+          "source": "Video detonador validado en YouTube + Nuestro libro de proyectos Tomo II pp. 123-126",
+          "status": "confirmed-from-video-and-project"
+        },
+        "sourcePages": {
+          "nuestroLibroProyectos": [
+            {
+              "materialId": "grade-3-proyectos-nuestros-proyectos-tomo-2-tercer-grado",
+              "label": "Nuestro libro de proyectos Tomo II",
+              "startPage": 123,
+              "endPage": 126,
+              "pagesLabel": "pp. 123-126",
+              "topicTitle": "Proyecto academico 22",
+              "status": "confirmed-source"
+            }
+          ],
+          "conceptBook": [
+            {
+              "materialId": "grade-3-conceptos-saberes-y-pensamiento-cientifico-tercer-grado",
+              "label": "Saberes y Pensamiento Cientifico",
+              "startPage": 123,
+              "endPage": 123,
+              "pagesLabel": "p. 123",
+              "topicTitle": "Bocetos moleculares planos y ...",
+              "status": "confirmed"
+            }
+          ],
+          "multiplesLenguajes": [],
+          "otherMaterials": [
+            {
+              "label": "Video PA 22: Bocetos moleculares planos y ... • Saberes y pensamiento científico • 3er grado",
+              "reference": "https://www.youtube.com/watch?v=ng9F92I1eKg",
+              "status": "confirmed"
+            },
+            {
+              "label": "Video PPA 8: 8. Un viaje fascinante a partir de los... • Saberes y pensamiento científico• 3er grado",
+              "reference": "https://www.youtube.com/watch?v=wtT4tUw5lxA",
+              "status": "confirmed"
+            }
+          ]
+        },
+        "supportMaterials": [],
+        "horizonOrPurpose": {
+          "status": "pending",
+          "text": "",
+          "source": "Nuestro libro de proyectos Tomo II pp. 123-126"
+        },
+        "projectExpectationHorizon": {
+          "officialText": "Objetivo 1: Interpretar datos por medio de gráficas para comprender las principales diferencias entre las propiedades de los compuestos iónicos y moleculares. Objetivo 2: Aprender a diferenciar los compuestos iónicos de los moleculares utilizando las medidas de tendencia central.",
+          "studentVersion": "Interpretar datos por medio de gráficas para comprender las principales diferencias entre las propiedades de los compuestos iónicos y moleculares. Aprender a diferenciar los compuestos iónicos de los moleculares utilizando las medidas de tendencia central.",
+          "sourcePages": [
+            "Nuestro libro de proyectos Tomo II p. 124"
+          ],
+          "evidence": "Texto rotulado como Objetivo dentro del rango exacto del Proyecto Academico; se acepta como equivalente funcional de horizonte de expectativas.",
+          "status": "confirmed-from-project-book",
+          "detectedLabel": "Objetivo",
+          "validationScope": "academic-project"
+        },
+        "detonatingStrategy": {
+          "title": "8. Un viaje fascinante a partir de los... • Saberes y pensamiento científico• 3er grado",
+          "text": "Video del Proyecto Parcial de Aula 8: 8. Un viaje fascinante a partir de los... • Saberes y pensamiento científico• 3er grado",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=wtT4tUw5lxA",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "partial-classroom-project"
+        },
+        "academicProjectStrategy": {
+          "title": "Bocetos moleculares planos y ... • Saberes y pensamiento científico • 3er grado",
+          "text": "Video detonador del Proyecto Academico 22: Diferenciación entre los compuestos iónicos y moleculares",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=ng9F92I1eKg",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "academic-project"
+        },
+        "academicConcepts": [
+          {
+            "concept": "Bocetos moleculares planos y ...",
+            "description": "Bocetos moleculares planos y ... organiza el producto de cierre y permite comunicar lo aprendido en el proyecto.",
+            "sourceBook": "Saberes y Pensamiento Cientifico",
+            "sourcePages": [
+              123
+            ],
+            "sourcePagesLabel": "p. 123",
+            "topicTitle": "Proyecto academico 22",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 22, al PPA 8 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Materia",
+            "description": "Materia ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Saberes y Pensamiento Cientifico",
+            "sourcePages": [
+              265
+            ],
+            "sourcePagesLabel": "p. 265",
+            "topicTitle": "Proyecto academico 22",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 22, al PPA 8 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Mezclas",
+            "description": "Mezclas ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Saberes y Pensamiento Cientifico",
+            "sourcePages": [
+              265
+            ],
+            "sourcePagesLabel": "p. 265",
+            "topicTitle": "Proyecto academico 22",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 22, al PPA 8 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Quimica",
+            "description": "Quimica ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Saberes y Pensamiento Cientifico",
+            "sourcePages": [
+              9
+            ],
+            "sourcePagesLabel": "p. 9",
+            "topicTitle": "Proyecto academico 22",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 22, al PPA 8 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Figuras",
+            "description": "Figuras ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Saberes y Pensamiento Cientifico",
+            "sourcePages": [
+              123
+            ],
+            "sourcePagesLabel": "p. 123",
+            "topicTitle": "Proyecto academico 22",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 22, al PPA 8 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Medicion",
+            "description": "Medicion ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Saberes y Pensamiento Cientifico",
+            "sourcePages": [
+              123
+            ],
+            "sourcePagesLabel": "p. 123",
+            "topicTitle": "Proyecto academico 22",
+            "status": "suggested",
+            "reason": "Concepto vinculado al PA 22, al PPA 8 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "teacher-review"
+          }
+        ],
+        "thinkingCriteria": [
+          "Relacionar Diferenciación entre los compuestos iónicos y moleculares con una situacion concreta del entorno escolar o comunitario.",
+          "Usar bocetos moleculares planos y ... para explicar ideas con claridad y evidencia."
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Como te ayuda bocetos moleculares planos y ... a comprender mejor Diferenciación entre los compuestos iónicos y moleculares y a explicar sus conceptos clave en tu comunidad?",
+            "conceptsActivated": [
+              "Bocetos moleculares planos y ...",
+              "Materia",
+              "Mezclas",
+              "Quimica"
+            ],
+            "suggestedUse": "Momento 1 de autoevaluacion"
+          }
+        ],
+        "validationStatus": {
+          "readinessLevel": "curricular-bundle-generated",
+          "readyForActivities": true,
+          "needsReviewReasons": [
+            "El horizonte textual literal queda pendiente de revision fina si se requiere cita exacta.",
+            "Los apoyos complementarios impresos no se asignan cuando no hay evidencia validada por columna."
+          ]
+        },
+        "readinessLevel": "curricular-bundle-generated",
+        "readyForActivities": true,
+        "needsReviewReasons": []
+      },
+      {
+        "id": "saberes-y-pensamiento-cientifico-3-ppa-8-pa23",
+        "projectId": "saberes-y-pensamiento-cientifico-3-ppa-8-pa23",
+        "academicProjectNumber": 23,
+        "title": "El arte en los compuestos iónicos y moleculares",
+        "projectTitle": "El arte en los compuestos iónicos y moleculares",
+        "grade": "3",
+        "field": "Saberes y Pensamiento Científico",
+        "ppaNumber": "8",
+        "partialClassroomProject": "PPA 8",
+        "partialClassroomProjectTitle": "Un viaje fascinante a partir de los compuestos iónicos y moleculares",
+        "bookVolume": "Tomo II",
+        "sourceValidation": {
+          "sourceStatus": "linked",
+          "possibilitiesPages": [
+            21,
+            22
+          ],
+          "possibilitiesMaterialId": "grade-3-posibilidades-pos-sypc-3",
+          "possibilitiesColumnIndex": 2,
+          "columnEvidence": "Proyecto PA 23 agrupado en el PPA 8 desde el catalogo canonico y las paginas de Posibilidades."
+        },
+        "finalProduct": {
+          "title": "Bocetos moleculares planos y ...",
+          "source": "Video detonador validado en YouTube + Nuestro libro de proyectos Tomo II pp. 127-130",
+          "status": "confirmed-from-video-and-project"
+        },
+        "sourcePages": {
+          "nuestroLibroProyectos": [
+            {
+              "materialId": "grade-3-proyectos-nuestros-proyectos-tomo-2-tercer-grado",
+              "label": "Nuestro libro de proyectos Tomo II",
+              "startPage": 127,
+              "endPage": 130,
+              "pagesLabel": "pp. 127-130",
+              "topicTitle": "Proyecto academico 23",
+              "status": "confirmed-source"
+            }
+          ],
+          "conceptBook": [
+            {
+              "materialId": "grade-3-conceptos-saberes-y-pensamiento-cientifico-tercer-grado",
+              "label": "Saberes y Pensamiento Cientifico",
+              "startPage": 127,
+              "endPage": 127,
+              "pagesLabel": "p. 127",
+              "topicTitle": "Bocetos moleculares planos y ...",
+              "status": "confirmed"
+            }
+          ],
+          "multiplesLenguajes": [],
+          "otherMaterials": [
+            {
+              "label": "Video PA 23: Bocetos moleculares planos y ... • Saberes y pensamiento científico • 3er grado",
+              "reference": "https://www.youtube.com/watch?v=ng9F92I1eKg",
+              "status": "confirmed"
+            },
+            {
+              "label": "Video PPA 8: 8. Un viaje fascinante a partir de los... • Saberes y pensamiento científico• 3er grado",
+              "reference": "https://www.youtube.com/watch?v=wtT4tUw5lxA",
+              "status": "confirmed"
+            }
+          ]
+        },
+        "supportMaterials": [],
+        "horizonOrPurpose": {
+          "status": "pending",
+          "text": "",
+          "source": "Nuestro libro de proyectos Tomo II pp. 127-130"
+        },
+        "projectExpectationHorizon": {
+          "officialText": "Objetivo 1: Desarrollar, de manera creativa, bocetos planos y tridimensionales (cilindros, pirámides y conos) que apoyen la interpretación de datos. Objetivo 2: Además, incluir el uso de gráficas como complemento de las explicaciones. Explicar las propiedades de los compuestos iónicos y moleculares con el uso de gráficas de tendencia central y de dispersión.",
+          "studentVersion": "Desarrollar, de manera creativa, bocetos planos y tridimensionales (cilindros, pirámides y conos) que apoyen la interpretación de datos. Además, incluir el uso de gráficas como complemento de las explicaciones. Explicar las propiedades de los compuestos iónicos y moleculares con el uso de gráficas de tendencia central y de dispersión.",
+          "sourcePages": [
+            "Nuestro libro de proyectos Tomo II p. 128"
+          ],
+          "evidence": "Texto rotulado como Objetivo dentro del rango exacto del Proyecto Academico; se acepta como equivalente funcional de horizonte de expectativas.",
+          "status": "confirmed-from-project-book",
+          "detectedLabel": "Objetivo",
+          "validationScope": "academic-project"
+        },
+        "detonatingStrategy": {
+          "title": "8. Un viaje fascinante a partir de los... • Saberes y pensamiento científico• 3er grado",
+          "text": "Video del Proyecto Parcial de Aula 8: 8. Un viaje fascinante a partir de los... • Saberes y pensamiento científico• 3er grado",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=wtT4tUw5lxA",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "partial-classroom-project"
+        },
+        "academicProjectStrategy": {
+          "title": "Bocetos moleculares planos y ... • Saberes y pensamiento científico • 3er grado",
+          "text": "Video detonador del Proyecto Academico 23: El arte en los compuestos iónicos y moleculares",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=ng9F92I1eKg",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "academic-project"
+        },
+        "academicConcepts": [
+          {
+            "concept": "Bocetos moleculares planos y ...",
+            "description": "Bocetos moleculares planos y ... organiza el producto de cierre y permite comunicar lo aprendido en el proyecto.",
+            "sourceBook": "Saberes y Pensamiento Cientifico",
+            "sourcePages": [
+              127
+            ],
+            "sourcePagesLabel": "p. 127",
+            "topicTitle": "Proyecto academico 23",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 23, al PPA 8 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Materia",
+            "description": "Materia ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Saberes y Pensamiento Cientifico",
+            "sourcePages": [
+              265
+            ],
+            "sourcePagesLabel": "p. 265",
+            "topicTitle": "Proyecto academico 23",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 23, al PPA 8 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Mezclas",
+            "description": "Mezclas ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Saberes y Pensamiento Cientifico",
+            "sourcePages": [
+              265
+            ],
+            "sourcePagesLabel": "p. 265",
+            "topicTitle": "Proyecto academico 23",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 23, al PPA 8 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Quimica",
+            "description": "Quimica ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Saberes y Pensamiento Cientifico",
+            "sourcePages": [
+              9
+            ],
+            "sourcePagesLabel": "p. 9",
+            "topicTitle": "Proyecto academico 23",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 23, al PPA 8 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Figuras",
+            "description": "Figuras ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Saberes y Pensamiento Cientifico",
+            "sourcePages": [
+              127
+            ],
+            "sourcePagesLabel": "p. 127",
+            "topicTitle": "Proyecto academico 23",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 23, al PPA 8 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Medicion",
+            "description": "Medicion ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Saberes y Pensamiento Cientifico",
+            "sourcePages": [
+              127
+            ],
+            "sourcePagesLabel": "p. 127",
+            "topicTitle": "Proyecto academico 23",
+            "status": "suggested",
+            "reason": "Concepto vinculado al PA 23, al PPA 8 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "teacher-review"
+          }
+        ],
+        "thinkingCriteria": [
+          "Relacionar El arte en los compuestos iónicos y moleculares con una situacion concreta del entorno escolar o comunitario.",
+          "Usar bocetos moleculares planos y ... para explicar ideas con claridad y evidencia."
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Como te ayuda bocetos moleculares planos y ... a comprender mejor El arte en los compuestos iónicos y moleculares y a explicar sus conceptos clave en tu comunidad?",
+            "conceptsActivated": [
+              "Bocetos moleculares planos y ...",
+              "Materia",
+              "Mezclas",
+              "Quimica"
+            ],
+            "suggestedUse": "Momento 1 de autoevaluacion"
+          }
+        ],
+        "validationStatus": {
+          "readinessLevel": "curricular-bundle-generated",
+          "readyForActivities": true,
+          "needsReviewReasons": [
+            "El horizonte textual literal queda pendiente de revision fina si se requiere cita exacta.",
+            "Los apoyos complementarios impresos no se asignan cuando no hay evidencia validada por columna."
+          ]
+        },
+        "readinessLevel": "curricular-bundle-generated",
+        "readyForActivities": true,
+        "needsReviewReasons": []
+      },
+      {
+        "id": "saberes-y-pensamiento-cientifico-3-ppa-8-pa24",
+        "projectId": "saberes-y-pensamiento-cientifico-3-ppa-8-pa24",
+        "academicProjectNumber": 24,
+        "title": "Aprovechar los compuestos iónicos y moleculares",
+        "projectTitle": "Aprovechar los compuestos iónicos y moleculares",
+        "grade": "3",
+        "field": "Saberes y Pensamiento Científico",
+        "ppaNumber": "8",
+        "partialClassroomProject": "PPA 8",
+        "partialClassroomProjectTitle": "Un viaje fascinante a partir de los compuestos iónicos y moleculares",
+        "bookVolume": "Tomo II",
+        "sourceValidation": {
+          "sourceStatus": "linked",
+          "possibilitiesPages": [
+            21,
+            22
+          ],
+          "possibilitiesMaterialId": "grade-3-posibilidades-pos-sypc-3",
+          "possibilitiesColumnIndex": 3,
+          "columnEvidence": "Proyecto PA 24 agrupado en el PPA 8 desde el catalogo canonico y las paginas de Posibilidades."
+        },
+        "finalProduct": {
+          "title": "Bocetos moleculares planos y ...",
+          "source": "Video detonador validado en YouTube + Nuestro libro de proyectos Tomo II pp. 131-134",
+          "status": "confirmed-from-video-and-project"
+        },
+        "sourcePages": {
+          "nuestroLibroProyectos": [
+            {
+              "materialId": "grade-3-proyectos-nuestros-proyectos-tomo-2-tercer-grado",
+              "label": "Nuestro libro de proyectos Tomo II",
+              "startPage": 131,
+              "endPage": 134,
+              "pagesLabel": "pp. 131-134",
+              "topicTitle": "Proyecto academico 24",
+              "status": "confirmed-source"
+            }
+          ],
+          "conceptBook": [
+            {
+              "materialId": "grade-3-conceptos-saberes-y-pensamiento-cientifico-tercer-grado",
+              "label": "Saberes y Pensamiento Cientifico",
+              "startPage": 131,
+              "endPage": 131,
+              "pagesLabel": "p. 131",
+              "topicTitle": "Bocetos moleculares planos y ...",
+              "status": "confirmed"
+            }
+          ],
+          "multiplesLenguajes": [],
+          "otherMaterials": [
+            {
+              "label": "Video PA 24: Bocetos moleculares planos y ... • Saberes y pensamiento científico • 3er grado",
+              "reference": "https://www.youtube.com/watch?v=ng9F92I1eKg",
+              "status": "confirmed"
+            },
+            {
+              "label": "Video PPA 8: 8. Un viaje fascinante a partir de los... • Saberes y pensamiento científico• 3er grado",
+              "reference": "https://www.youtube.com/watch?v=wtT4tUw5lxA",
+              "status": "confirmed"
+            }
+          ]
+        },
+        "supportMaterials": [],
+        "horizonOrPurpose": {
+          "status": "pending",
+          "text": "",
+          "source": "Nuestro libro de proyectos Tomo II pp. 131-134"
+        },
+        "projectExpectationHorizon": {
+          "officialText": "Objetivo 1: Explicar el aprovechamiento de los compuestos iónicos y moleculares en el cuerpo humano mediante el cálculo de la probabilidad de eventos en diversos ámbitos. Objetivo 2: Demostrar, por medio de una conferencia informativa, apoyada en las medidas de tendencia central y de dispersión, los beneficios de los compuestos iónicos y moleculares en el cuerpo humano en la localidad.",
+          "studentVersion": "Explicar el aprovechamiento de los compuestos iónicos y moleculares en el cuerpo humano mediante el cálculo de la probabilidad de eventos en diversos ámbitos. Demostrar, por medio de una conferencia informativa, apoyada en las medidas de tendencia central y de dispersión, los beneficios de los compuestos iónicos y moleculares en el cuerpo humano en la localidad.",
+          "sourcePages": [
+            "Nuestro libro de proyectos Tomo II p. 132"
+          ],
+          "evidence": "Texto rotulado como Objetivo dentro del rango exacto del Proyecto Academico; se acepta como equivalente funcional de horizonte de expectativas.",
+          "status": "confirmed-from-project-book",
+          "detectedLabel": "Objetivo",
+          "validationScope": "academic-project"
+        },
+        "detonatingStrategy": {
+          "title": "8. Un viaje fascinante a partir de los... • Saberes y pensamiento científico• 3er grado",
+          "text": "Video del Proyecto Parcial de Aula 8: 8. Un viaje fascinante a partir de los... • Saberes y pensamiento científico• 3er grado",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=wtT4tUw5lxA",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "partial-classroom-project"
+        },
+        "academicProjectStrategy": {
+          "title": "Bocetos moleculares planos y ... • Saberes y pensamiento científico • 3er grado",
+          "text": "Video detonador del Proyecto Academico 24: Aprovechar los compuestos iónicos y moleculares",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=ng9F92I1eKg",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "academic-project"
+        },
+        "academicConcepts": [
+          {
+            "concept": "Bocetos moleculares planos y ...",
+            "description": "Bocetos moleculares planos y ... organiza el producto de cierre y permite comunicar lo aprendido en el proyecto.",
+            "sourceBook": "Saberes y Pensamiento Cientifico",
+            "sourcePages": [
+              131
+            ],
+            "sourcePagesLabel": "p. 131",
+            "topicTitle": "Proyecto academico 24",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 24, al PPA 8 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Materia",
+            "description": "Materia ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Saberes y Pensamiento Cientifico",
+            "sourcePages": [
+              265
+            ],
+            "sourcePagesLabel": "p. 265",
+            "topicTitle": "Proyecto academico 24",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 24, al PPA 8 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Mezclas",
+            "description": "Mezclas ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Saberes y Pensamiento Cientifico",
+            "sourcePages": [
+              265
+            ],
+            "sourcePagesLabel": "p. 265",
+            "topicTitle": "Proyecto academico 24",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 24, al PPA 8 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Quimica",
+            "description": "Quimica ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Saberes y Pensamiento Cientifico",
+            "sourcePages": [
+              9
+            ],
+            "sourcePagesLabel": "p. 9",
+            "topicTitle": "Proyecto academico 24",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 24, al PPA 8 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Figuras",
+            "description": "Figuras ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Saberes y Pensamiento Cientifico",
+            "sourcePages": [
+              131
+            ],
+            "sourcePagesLabel": "p. 131",
+            "topicTitle": "Proyecto academico 24",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 24, al PPA 8 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Medicion",
+            "description": "Medicion ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Saberes y Pensamiento Cientifico",
+            "sourcePages": [
+              131
+            ],
+            "sourcePagesLabel": "p. 131",
+            "topicTitle": "Proyecto academico 24",
+            "status": "suggested",
+            "reason": "Concepto vinculado al PA 24, al PPA 8 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "teacher-review"
+          }
+        ],
+        "thinkingCriteria": [
+          "Relacionar Aprovechar los compuestos iónicos y moleculares con una situacion concreta del entorno escolar o comunitario.",
+          "Usar bocetos moleculares planos y ... para explicar ideas con claridad y evidencia."
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Como te ayuda bocetos moleculares planos y ... a comprender mejor Aprovechar los compuestos iónicos y moleculares y a explicar sus conceptos clave en tu comunidad?",
+            "conceptsActivated": [
+              "Bocetos moleculares planos y ...",
+              "Materia",
+              "Mezclas",
+              "Quimica"
+            ],
+            "suggestedUse": "Momento 1 de autoevaluacion"
+          }
+        ],
+        "validationStatus": {
+          "readinessLevel": "curricular-bundle-generated",
+          "readyForActivities": true,
+          "needsReviewReasons": [
+            "El horizonte textual literal queda pendiente de revision fina si se requiere cita exacta.",
+            "Los apoyos complementarios impresos no se asignan cuando no hay evidencia validada por columna."
+          ]
+        },
+        "readinessLevel": "curricular-bundle-generated",
+        "readyForActivities": true,
+        "needsReviewReasons": []
+      }
+    ]
+  },
+  "conceptsValidation": {
+    "grade": "3",
+    "field": "Saberes y Pensamiento Cientifico",
+    "ppaNumber": "8",
+    "status": "concept-validation",
+    "generatedAt": "2026-06-07T03:06:28.308Z",
+    "entries": [
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-3-ppa-8-pa22",
+        "projectTitle": "Diferenciación entre los compuestos iónicos y moleculares",
+        "concept": "Bocetos moleculares planos y ...",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "pages": [
+            123
+          ],
+          "reason": "Concepto vinculado al PA 22, al PPA 8 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-3-ppa-8-pa22",
+        "projectTitle": "Diferenciación entre los compuestos iónicos y moleculares",
+        "concept": "Materia",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "pages": [
+            265
+          ],
+          "reason": "Concepto vinculado al PA 22, al PPA 8 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-3-ppa-8-pa22",
+        "projectTitle": "Diferenciación entre los compuestos iónicos y moleculares",
+        "concept": "Mezclas",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "pages": [
+            265
+          ],
+          "reason": "Concepto vinculado al PA 22, al PPA 8 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-3-ppa-8-pa22",
+        "projectTitle": "Diferenciación entre los compuestos iónicos y moleculares",
+        "concept": "Quimica",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "pages": [
+            9
+          ],
+          "reason": "Concepto vinculado al PA 22, al PPA 8 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-3-ppa-8-pa22",
+        "projectTitle": "Diferenciación entre los compuestos iónicos y moleculares",
+        "concept": "Figuras",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "pages": [
+            123
+          ],
+          "reason": "Concepto vinculado al PA 22, al PPA 8 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-3-ppa-8-pa22",
+        "projectTitle": "Diferenciación entre los compuestos iónicos y moleculares",
+        "concept": "Medicion",
+        "status": "suggested",
+        "evidence": {
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "pages": [
+            123
+          ],
+          "reason": "Concepto vinculado al PA 22, al PPA 8 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "teacher-review"
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-3-ppa-8-pa23",
+        "projectTitle": "El arte en los compuestos iónicos y moleculares",
+        "concept": "Bocetos moleculares planos y ...",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "pages": [
+            127
+          ],
+          "reason": "Concepto vinculado al PA 23, al PPA 8 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-3-ppa-8-pa23",
+        "projectTitle": "El arte en los compuestos iónicos y moleculares",
+        "concept": "Materia",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "pages": [
+            265
+          ],
+          "reason": "Concepto vinculado al PA 23, al PPA 8 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-3-ppa-8-pa23",
+        "projectTitle": "El arte en los compuestos iónicos y moleculares",
+        "concept": "Mezclas",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "pages": [
+            265
+          ],
+          "reason": "Concepto vinculado al PA 23, al PPA 8 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-3-ppa-8-pa23",
+        "projectTitle": "El arte en los compuestos iónicos y moleculares",
+        "concept": "Quimica",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "pages": [
+            9
+          ],
+          "reason": "Concepto vinculado al PA 23, al PPA 8 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-3-ppa-8-pa23",
+        "projectTitle": "El arte en los compuestos iónicos y moleculares",
+        "concept": "Figuras",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "pages": [
+            127
+          ],
+          "reason": "Concepto vinculado al PA 23, al PPA 8 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-3-ppa-8-pa23",
+        "projectTitle": "El arte en los compuestos iónicos y moleculares",
+        "concept": "Medicion",
+        "status": "suggested",
+        "evidence": {
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "pages": [
+            127
+          ],
+          "reason": "Concepto vinculado al PA 23, al PPA 8 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "teacher-review"
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-3-ppa-8-pa24",
+        "projectTitle": "Aprovechar los compuestos iónicos y moleculares",
+        "concept": "Bocetos moleculares planos y ...",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "pages": [
+            131
+          ],
+          "reason": "Concepto vinculado al PA 24, al PPA 8 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-3-ppa-8-pa24",
+        "projectTitle": "Aprovechar los compuestos iónicos y moleculares",
+        "concept": "Materia",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "pages": [
+            265
+          ],
+          "reason": "Concepto vinculado al PA 24, al PPA 8 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-3-ppa-8-pa24",
+        "projectTitle": "Aprovechar los compuestos iónicos y moleculares",
+        "concept": "Mezclas",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "pages": [
+            265
+          ],
+          "reason": "Concepto vinculado al PA 24, al PPA 8 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-3-ppa-8-pa24",
+        "projectTitle": "Aprovechar los compuestos iónicos y moleculares",
+        "concept": "Quimica",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "pages": [
+            9
+          ],
+          "reason": "Concepto vinculado al PA 24, al PPA 8 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-3-ppa-8-pa24",
+        "projectTitle": "Aprovechar los compuestos iónicos y moleculares",
+        "concept": "Figuras",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "pages": [
+            131
+          ],
+          "reason": "Concepto vinculado al PA 24, al PPA 8 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-3-ppa-8-pa24",
+        "projectTitle": "Aprovechar los compuestos iónicos y moleculares",
+        "concept": "Medicion",
+        "status": "suggested",
+        "evidence": {
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "pages": [
+            131
+          ],
+          "reason": "Concepto vinculado al PA 24, al PPA 8 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "teacher-review"
+      }
+    ]
+  },
+  "pedagogicalArticulation": {
+    "grade": "3",
+    "field": "Saberes y Pensamiento Cientifico",
+    "ppaNumber": "8",
+    "status": "teacher-orientation",
+    "officialHorizonStatus": "pending",
+    "situatedPedagogicalOrientation": "El PPA 8 propone trabajar Un viaje fascinante a partir de los compuestos iónicos y moleculares mediante productos de cierre, conceptos confirmados y videos directos para reforzar la autoevaluacion.",
+    "integratingQuestions": [
+      "¿Como se relacionan los tres proyectos academicos del PPA 8 con Un viaje fascinante a partir de los compuestos iónicos y moleculares?",
+      "¿Que conceptos necesita dominar el estudiante para explicar su producto final?",
+      "¿Como usar el producto final para comunicar una comprension y no solo presentar informacion?"
+    ],
+    "possibleResonanceQuestion": "¿Que comprension nueva sobre Un viaje fascinante a partir de los compuestos iónicos y moleculares puedes explicar con los productos del PPA 8?",
+    "teacherNotes": [
+      "Usar los videos directos como detonadores, no como enlaces de busqueda.",
+      "Retomar los conceptos confirmados antes de resolver la relacion de columnas y el juego."
+    ],
+    "projectConnections": [
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-3-ppa-8-pa22",
+        "projectTitle": "Diferenciación entre los compuestos iónicos y moleculares",
+        "roleInPpa": "Aporta bocetos moleculares planos y ... al desarrollo del PPA 8.",
+        "confirmedConcepts": [
+          "Bocetos moleculares planos y ...",
+          "Materia",
+          "Mezclas",
+          "Quimica",
+          "Figuras"
+        ],
+        "suggestedConcepts": [
+          "Medicion"
+        ],
+        "pedagogicalUse": "Video detonador del Proyecto Academico 22: Diferenciación entre los compuestos iónicos y moleculares"
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-3-ppa-8-pa23",
+        "projectTitle": "El arte en los compuestos iónicos y moleculares",
+        "roleInPpa": "Aporta bocetos moleculares planos y ... al desarrollo del PPA 8.",
+        "confirmedConcepts": [
+          "Bocetos moleculares planos y ...",
+          "Materia",
+          "Mezclas",
+          "Quimica",
+          "Figuras"
+        ],
+        "suggestedConcepts": [
+          "Medicion"
+        ],
+        "pedagogicalUse": "Video detonador del Proyecto Academico 23: El arte en los compuestos iónicos y moleculares"
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-3-ppa-8-pa24",
+        "projectTitle": "Aprovechar los compuestos iónicos y moleculares",
+        "roleInPpa": "Aporta bocetos moleculares planos y ... al desarrollo del PPA 8.",
+        "confirmedConcepts": [
+          "Bocetos moleculares planos y ...",
+          "Materia",
+          "Mezclas",
+          "Quimica",
+          "Figuras"
+        ],
+        "suggestedConcepts": [
+          "Medicion"
+        ],
+        "pedagogicalUse": "Video detonador del Proyecto Academico 24: Aprovechar los compuestos iónicos y moleculares"
+      }
+    ]
+  },
+  "teacherNotesAndResonances": {
+    "grade": "3",
+    "field": "Saberes y Pensamiento Cientifico",
+    "ppaNumber": "8",
+    "status": "teacher-notes-and-resonances",
+    "officialHorizonStatus": "pending",
+    "ppaIntegratingResonance": "¿Que comprension nueva sobre Un viaje fascinante a partir de los compuestos iónicos y moleculares puedes explicar con los productos del PPA 8?",
+    "didacticWarnings": [
+      "No sustituir el producto final por la reproduccion del video.",
+      "Evitar marcar apoyos impresos como confirmados si no existe evidencia por columna."
+    ],
+    "communityPrompts": {
+      "territoryLanguageMemory": [
+        "¿Que palabras, practicas o problemas del entorno ayudan a entender mejor este PPA?"
+      ],
+      "productCommunityConnection": [
+        "¿Como puede circular el producto final dentro de la comunidad escolar?"
+      ]
+    },
+    "projects": [
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-3-ppa-8-pa22",
+        "projectTitle": "Diferenciación entre los compuestos iónicos y moleculares",
+        "teacherNotes": [
+          "Retomar bocetos moleculares planos y ... como evidencia del aprendizaje.",
+          "Usar los conceptos confirmados para orientar la autoevaluacion."
+        ],
+        "confirmedConceptsToUse": [
+          "Bocetos moleculares planos y ...",
+          "Materia",
+          "Mezclas",
+          "Quimica",
+          "Figuras"
+        ],
+        "suggestedConceptsToHandleCarefully": [
+          "Medicion"
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Como te ayuda bocetos moleculares planos y ... a comprender mejor Diferenciación entre los compuestos iónicos y moleculares y a explicar sus conceptos clave en tu comunidad?",
+            "conceptsActivated": [
+              "Bocetos moleculares planos y ...",
+              "Materia",
+              "Mezclas",
+              "Quimica"
+            ],
+            "suggestedUse": "Momento 1 de autoevaluacion"
+          }
+        ],
+        "notReadyFor": []
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-3-ppa-8-pa23",
+        "projectTitle": "El arte en los compuestos iónicos y moleculares",
+        "teacherNotes": [
+          "Retomar bocetos moleculares planos y ... como evidencia del aprendizaje.",
+          "Usar los conceptos confirmados para orientar la autoevaluacion."
+        ],
+        "confirmedConceptsToUse": [
+          "Bocetos moleculares planos y ...",
+          "Materia",
+          "Mezclas",
+          "Quimica",
+          "Figuras"
+        ],
+        "suggestedConceptsToHandleCarefully": [
+          "Medicion"
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Como te ayuda bocetos moleculares planos y ... a comprender mejor El arte en los compuestos iónicos y moleculares y a explicar sus conceptos clave en tu comunidad?",
+            "conceptsActivated": [
+              "Bocetos moleculares planos y ...",
+              "Materia",
+              "Mezclas",
+              "Quimica"
+            ],
+            "suggestedUse": "Momento 1 de autoevaluacion"
+          }
+        ],
+        "notReadyFor": []
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-3-ppa-8-pa24",
+        "projectTitle": "Aprovechar los compuestos iónicos y moleculares",
+        "teacherNotes": [
+          "Retomar bocetos moleculares planos y ... como evidencia del aprendizaje.",
+          "Usar los conceptos confirmados para orientar la autoevaluacion."
+        ],
+        "confirmedConceptsToUse": [
+          "Bocetos moleculares planos y ...",
+          "Materia",
+          "Mezclas",
+          "Quimica",
+          "Figuras"
+        ],
+        "suggestedConceptsToHandleCarefully": [
+          "Medicion"
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Como te ayuda bocetos moleculares planos y ... a comprender mejor Aprovechar los compuestos iónicos y moleculares y a explicar sus conceptos clave en tu comunidad?",
+            "conceptsActivated": [
+              "Bocetos moleculares planos y ...",
+              "Materia",
+              "Mezclas",
+              "Quimica"
+            ],
+            "suggestedUse": "Momento 1 de autoevaluacion"
+          }
+        ],
+        "notReadyFor": []
+      }
+    ]
+  },
+  "validationAudit": {
+    "kind": "generated-validation-audit",
+    "source": "reports/caracoles/grade3-saberes-ppa8-reading-bundle-audit.md",
+    "content": "# Bundle curricular tercer grado\n\n- Campo: Saberes y Pensamiento Cientifico\n- PPA: 8\n- Titulo: Un viaje fascinante a partir de los compuestos iónicos y moleculares\n- Proyectos: PA22, PA23, PA24\n- Estado: generado y publicado\n- Cautela: horizonte literal y apoyos impresos por columna pendientes de revision fina.\n"
+  }
+}

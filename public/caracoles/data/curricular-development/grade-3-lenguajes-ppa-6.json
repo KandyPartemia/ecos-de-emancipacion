@@ -1,0 +1,1199 @@
+{
+  "grade": "3",
+  "gradeLabel": "Tercer grado",
+  "field": "Lenguajes",
+  "ppaNumber": "6",
+  "partialClassroomProject": "PPA 6",
+  "partialClassroomProjectTitle": "¡Somos una fiesta de lenguajes creativos!",
+  "source": "curricular-development-generated",
+  "generatedAt": "2026-06-07T03:06:27.308Z",
+  "development": {
+    "grade": "3",
+    "gradeLabel": "Tercer grado",
+    "field": "Lenguajes",
+    "bookVolume": "Tomo II",
+    "partialClassroomProject": "PPA 6",
+    "partialClassroomProjectTitle": "¡Somos una fiesta de lenguajes creativos!",
+    "generatedAt": "2026-06-07T03:06:27.246Z",
+    "notes": "Capa curricular generada por lote para 3o Lenguajes, PPA 6.",
+    "sourcesUsed": [
+      "content/caracoles/curricular-catalog/all-projects-canonical.json",
+      "public/caracoles/data/generated/grade-3/concepts-index.json",
+      "src/caracoles/lib/officialVideoLinks.ts",
+      "Posibilidades de uso Lenguajes, tercer grado, p. 17",
+      "Nuestro libro de proyectos, tercer grado, pp. 13-25"
+    ],
+    "partialClassroomProjectContext": {
+      "expectationHorizon": {
+        "officialText": "",
+        "sourcePages": [
+          "Nuestro libro de proyectos Tomo II pp. 13-17",
+          "Posibilidades de uso Lenguajes p. 17"
+        ],
+        "evidence": "El PPA 6 articula 7. arte, lengua y cultura: las manifestaciones de nuestro lugar, poemario creativo, collage comentado con fotografías para trabajar ¡Somos una fiesta de lenguajes creativos!.",
+        "status": "pending"
+      },
+      "ppaDetonatingStrategy": {
+        "title": "¡Somos una fiesta de lenguajes creativos!",
+        "type": "video",
+        "url": "",
+        "urlStatus": "confirmed-by-official-video-map",
+        "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+        "scope": "partial-classroom-project"
+      },
+      "ppaDigitalResource": {
+        "title": "Recurso del Proyecto Parcial de Aula 6",
+        "reference": "",
+        "status": "confirmed-by-official-video-map",
+        "source": "YouTube, acervo Aprende_MX/Telesecundaria"
+      },
+      "validationStatus": {
+        "needsHumanReview": true,
+        "needsReviewReasons": [
+          "Los videos PA/PPA se validan por el mapa oficial de enlaces directos ya generado.",
+          "Los apoyos complementarios impresos no se asignan cuando no hay evidencia validada por columna.",
+          "El horizonte textual literal queda pendiente de revision fina si se necesita cita exacta."
+        ]
+      },
+      "columnValidation": {
+        "possibilitiesPagesReviewed": [
+          17
+        ],
+        "confirmedAsPpa": true,
+        "note": "El PPA 6 se agrupa desde el catalogo canonico de tercer grado.",
+        "columns": [
+          {
+            "columnIndex": 1,
+            "projectId": "lenguajes-3-ppa-6-pa16",
+            "projectTitle": "Lengua, arte y vida cotidiana",
+            "finalProduct": "7. Arte, lengua y cultura: las manifestaciones de nuestro lugar",
+            "supportMaterials": []
+          },
+          {
+            "columnIndex": 2,
+            "projectId": "lenguajes-3-ppa-6-pa17",
+            "projectTitle": "¡Las palabras tienen vida y se transforman!",
+            "finalProduct": "Poemario creativo",
+            "supportMaterials": []
+          },
+          {
+            "columnIndex": 3,
+            "projectId": "lenguajes-3-ppa-6-pa18",
+            "projectTitle": "¡Te lo digo y expreso con imaginación!",
+            "finalProduct": "Collage comentado con fotografías",
+            "supportMaterials": []
+          }
+        ]
+      }
+    },
+    "academicProjects": [
+      {
+        "id": "lenguajes-3-ppa-6-pa16",
+        "projectId": "lenguajes-3-ppa-6-pa16",
+        "academicProjectNumber": 16,
+        "title": "Lengua, arte y vida cotidiana",
+        "projectTitle": "Lengua, arte y vida cotidiana",
+        "grade": "3",
+        "field": "Lenguajes",
+        "ppaNumber": "6",
+        "partialClassroomProject": "PPA 6",
+        "partialClassroomProjectTitle": "¡Somos una fiesta de lenguajes creativos!",
+        "bookVolume": "Tomo II",
+        "sourceValidation": {
+          "sourceStatus": "linked",
+          "possibilitiesPages": [
+            17
+          ],
+          "possibilitiesMaterialId": "grade-3-posibilidades-pos-len-3",
+          "possibilitiesColumnIndex": 1,
+          "columnEvidence": "Proyecto PA 16 agrupado en el PPA 6 desde el catalogo canonico y las paginas de Posibilidades."
+        },
+        "finalProduct": {
+          "title": "7. Arte, lengua y cultura: las manifestaciones de nuestro lugar",
+          "source": "Video detonador validado en YouTube + Nuestro libro de proyectos Tomo II pp. 13-17",
+          "status": "confirmed-from-video-and-project"
+        },
+        "sourcePages": {
+          "nuestroLibroProyectos": [
+            {
+              "materialId": "grade-3-proyectos-nuestros-proyectos-tomo-2-tercer-grado",
+              "label": "Nuestro libro de proyectos Tomo II",
+              "startPage": 13,
+              "endPage": 17,
+              "pagesLabel": "pp. 13-17",
+              "topicTitle": "Proyecto academico 16",
+              "status": "confirmed-source"
+            }
+          ],
+          "conceptBook": [
+            {
+              "materialId": "grade-3-conceptos-lenguajes-tercer-grado",
+              "label": "Lenguajes",
+              "startPage": 13,
+              "endPage": 13,
+              "pagesLabel": "p. 13",
+              "topicTitle": "7. arte, lengua y cultura: las manifestaciones de nuestro lugar",
+              "status": "confirmed"
+            }
+          ],
+          "multiplesLenguajes": [],
+          "otherMaterials": [
+            {
+              "label": "Video PA 16: 7. Arte, lengua y cultura: las manifestaciones de nuestro lugar • Lenguajes • 3er grado",
+              "reference": "https://www.youtube.com/watch?v=VSQPEFeAP1A",
+              "status": "confirmed"
+            },
+            {
+              "label": "Video PPA 6: 6. ¡Somos una fiesta de lenguajes creativos! • Lenguajes • 3er grado",
+              "reference": "https://www.youtube.com/watch?v=v1b-TQg82fI",
+              "status": "confirmed"
+            }
+          ]
+        },
+        "supportMaterials": [],
+        "horizonOrPurpose": {
+          "status": "pending",
+          "text": "",
+          "source": "Nuestro libro de proyectos Tomo II pp. 13-17"
+        },
+        "projectExpectationHorizon": {
+          "officialText": "Objetivo 1: Reconocer y elegir importantes ámbitos de la vida cotidiana de nuestro interés que sean susceptibles de representarse por medio de un desfile dramatizado de carteles gráficos. Objetivo 2: Identificar los recursos y los elementos de la lengua y el arte para, de forma creativa, elaborar un desfile dramatizado de carteles gráficos sobre los distintos ámbitos de la vida cotidiana. Si lo consideran necesario, redacten un tercer horizonte que se ajuste más a su contexto o necesidades.",
+          "studentVersion": "Reconocer y elegir importantes ámbitos de la vida cotidiana de nuestro interés que sean susceptibles de representarse por medio de un desfile dramatizado de carteles gráficos. Identificar los recursos y los elementos de la lengua y el arte para, de forma creativa, elaborar un desfile dramatizado de carteles gráficos sobre los distintos ámbitos de la vida cotidiana. Si lo consideran necesario, redacten un tercer horizonte que se ajuste más a su contexto o necesidades.",
+          "sourcePages": [
+            "Nuestro libro de proyectos Tomo II p. 14"
+          ],
+          "evidence": "Texto rotulado como Objetivo dentro del rango exacto del Proyecto Academico; se acepta como equivalente funcional de horizonte de expectativas.",
+          "status": "confirmed-from-project-book",
+          "detectedLabel": "Objetivo",
+          "validationScope": "academic-project"
+        },
+        "detonatingStrategy": {
+          "title": "6. ¡Somos una fiesta de lenguajes creativos! • Lenguajes • 3er grado",
+          "text": "Video del Proyecto Parcial de Aula 6: 6. ¡Somos una fiesta de lenguajes creativos! • Lenguajes • 3er grado",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=v1b-TQg82fI",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "partial-classroom-project"
+        },
+        "academicProjectStrategy": {
+          "title": "7. Arte, lengua y cultura: las manifestaciones de nuestro lugar • Lenguajes • 3er grado",
+          "text": "Video detonador del Proyecto Academico 16: Lengua, arte y vida cotidiana",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=VSQPEFeAP1A",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "academic-project"
+        },
+        "academicConcepts": [
+          {
+            "concept": "7. arte, lengua y cultura: las manifestaciones de nuestro lugar",
+            "description": "7. arte, lengua y cultura: las manifestaciones de nuestro lugar organiza el producto de cierre y permite comunicar lo aprendido en el proyecto.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              13
+            ],
+            "sourcePagesLabel": "p. 13",
+            "topicTitle": "Proyecto academico 16",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 16, al PPA 6 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Lenguaje",
+            "description": "Lenguaje ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              13
+            ],
+            "sourcePagesLabel": "p. 13",
+            "topicTitle": "Proyecto academico 16",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 16, al PPA 6 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Cultura",
+            "description": "Cultura ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              154
+            ],
+            "sourcePagesLabel": "p. 154",
+            "topicTitle": "Proyecto academico 16",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 16, al PPA 6 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Comunicacion",
+            "description": "Comunicacion ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              13
+            ],
+            "sourcePagesLabel": "p. 13",
+            "topicTitle": "Proyecto academico 16",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 16, al PPA 6 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Lectura",
+            "description": "Lectura ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              13
+            ],
+            "sourcePagesLabel": "p. 13",
+            "topicTitle": "Proyecto academico 16",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 16, al PPA 6 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Escritura",
+            "description": "Escritura ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              13
+            ],
+            "sourcePagesLabel": "p. 13",
+            "topicTitle": "Proyecto academico 16",
+            "status": "suggested",
+            "reason": "Concepto vinculado al PA 16, al PPA 6 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "teacher-review"
+          }
+        ],
+        "thinkingCriteria": [
+          "Relacionar Lengua, arte y vida cotidiana con una situacion concreta del entorno escolar o comunitario.",
+          "Usar 7. arte, lengua y cultura: las manifestaciones de nuestro lugar para explicar ideas con claridad y evidencia."
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Como te ayuda 7. arte, lengua y cultura: las manifestaciones de nuestro lugar a comprender mejor Lengua, arte y vida cotidiana y a explicar sus conceptos clave en tu comunidad?",
+            "conceptsActivated": [
+              "7. arte, lengua y cultura: las manifestaciones de nuestro lugar",
+              "Lenguaje",
+              "Cultura",
+              "Comunicacion"
+            ],
+            "suggestedUse": "Momento 1 de autoevaluacion"
+          }
+        ],
+        "validationStatus": {
+          "readinessLevel": "curricular-bundle-generated",
+          "readyForActivities": true,
+          "needsReviewReasons": [
+            "El horizonte textual literal queda pendiente de revision fina si se requiere cita exacta.",
+            "Los apoyos complementarios impresos no se asignan cuando no hay evidencia validada por columna."
+          ]
+        },
+        "readinessLevel": "curricular-bundle-generated",
+        "readyForActivities": true,
+        "needsReviewReasons": []
+      },
+      {
+        "id": "lenguajes-3-ppa-6-pa17",
+        "projectId": "lenguajes-3-ppa-6-pa17",
+        "academicProjectNumber": 17,
+        "title": "¡Las palabras tienen vida y se transforman!",
+        "projectTitle": "¡Las palabras tienen vida y se transforman!",
+        "grade": "3",
+        "field": "Lenguajes",
+        "ppaNumber": "6",
+        "partialClassroomProject": "PPA 6",
+        "partialClassroomProjectTitle": "¡Somos una fiesta de lenguajes creativos!",
+        "bookVolume": "Tomo II",
+        "sourceValidation": {
+          "sourceStatus": "linked",
+          "possibilitiesPages": [
+            17
+          ],
+          "possibilitiesMaterialId": "grade-3-posibilidades-pos-len-3",
+          "possibilitiesColumnIndex": 2,
+          "columnEvidence": "Proyecto PA 17 agrupado en el PPA 6 desde el catalogo canonico y las paginas de Posibilidades."
+        },
+        "finalProduct": {
+          "title": "Poemario creativo",
+          "source": "Video detonador validado en YouTube + Nuestro libro de proyectos Tomo II pp. 18-21",
+          "status": "confirmed-from-video-and-project"
+        },
+        "sourcePages": {
+          "nuestroLibroProyectos": [
+            {
+              "materialId": "grade-3-proyectos-nuestros-proyectos-tomo-2-tercer-grado",
+              "label": "Nuestro libro de proyectos Tomo II",
+              "startPage": 18,
+              "endPage": 21,
+              "pagesLabel": "pp. 18-21",
+              "topicTitle": "Proyecto academico 17",
+              "status": "confirmed-source"
+            }
+          ],
+          "conceptBook": [
+            {
+              "materialId": "grade-3-conceptos-lenguajes-tercer-grado",
+              "label": "Lenguajes",
+              "startPage": 18,
+              "endPage": 18,
+              "pagesLabel": "p. 18",
+              "topicTitle": "Poemario creativo",
+              "status": "confirmed"
+            }
+          ],
+          "multiplesLenguajes": [],
+          "otherMaterials": [
+            {
+              "label": "Video PA 17: Poemario creativo • Lenguajes • 3er. grado",
+              "reference": "https://www.youtube.com/watch?v=kWdx33qPmVQ",
+              "status": "confirmed"
+            },
+            {
+              "label": "Video PPA 6: 6. ¡Somos una fiesta de lenguajes creativos! • Lenguajes • 3er grado",
+              "reference": "https://www.youtube.com/watch?v=v1b-TQg82fI",
+              "status": "confirmed"
+            }
+          ]
+        },
+        "supportMaterials": [],
+        "horizonOrPurpose": {
+          "status": "pending",
+          "text": "",
+          "source": "Nuestro libro de proyectos Tomo II pp. 18-21"
+        },
+        "projectExpectationHorizon": {
+          "officialText": "Objetivo 1: Identificar los componentes estructurales de la lengua para aprovecharlos en la elaboración de un poemario creativo. Objetivo 2: Comprender qué son las variantes lingüísticas mediante un poemario creativo que considere los componentes estructurales de la lengua.",
+          "studentVersion": "Identificar los componentes estructurales de la lengua para aprovecharlos en la elaboración de un poemario creativo. Comprender qué son las variantes lingüísticas mediante un poemario creativo que considere los componentes estructurales de la lengua.",
+          "sourcePages": [
+            "Nuestro libro de proyectos Tomo II p. 19"
+          ],
+          "evidence": "Texto rotulado como Objetivo dentro del rango exacto del Proyecto Academico; se acepta como equivalente funcional de horizonte de expectativas.",
+          "status": "confirmed-from-project-book",
+          "detectedLabel": "Objetivo",
+          "validationScope": "academic-project"
+        },
+        "detonatingStrategy": {
+          "title": "6. ¡Somos una fiesta de lenguajes creativos! • Lenguajes • 3er grado",
+          "text": "Video del Proyecto Parcial de Aula 6: 6. ¡Somos una fiesta de lenguajes creativos! • Lenguajes • 3er grado",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=v1b-TQg82fI",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "partial-classroom-project"
+        },
+        "academicProjectStrategy": {
+          "title": "Poemario creativo • Lenguajes • 3er. grado",
+          "text": "Video detonador del Proyecto Academico 17: ¡Las palabras tienen vida y se transforman!",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=kWdx33qPmVQ",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "academic-project"
+        },
+        "academicConcepts": [
+          {
+            "concept": "Poemario creativo",
+            "description": "Poemario creativo organiza el producto de cierre y permite comunicar lo aprendido en el proyecto.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              18
+            ],
+            "sourcePagesLabel": "p. 18",
+            "topicTitle": "Proyecto academico 17",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 17, al PPA 6 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Lenguaje",
+            "description": "Lenguaje ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              18
+            ],
+            "sourcePagesLabel": "p. 18",
+            "topicTitle": "Proyecto academico 17",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 17, al PPA 6 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Cultura",
+            "description": "Cultura ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              154
+            ],
+            "sourcePagesLabel": "p. 154",
+            "topicTitle": "Proyecto academico 17",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 17, al PPA 6 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Comunicacion",
+            "description": "Comunicacion ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              18
+            ],
+            "sourcePagesLabel": "p. 18",
+            "topicTitle": "Proyecto academico 17",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 17, al PPA 6 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Lectura",
+            "description": "Lectura ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              18
+            ],
+            "sourcePagesLabel": "p. 18",
+            "topicTitle": "Proyecto academico 17",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 17, al PPA 6 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Escritura",
+            "description": "Escritura ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              18
+            ],
+            "sourcePagesLabel": "p. 18",
+            "topicTitle": "Proyecto academico 17",
+            "status": "suggested",
+            "reason": "Concepto vinculado al PA 17, al PPA 6 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "teacher-review"
+          }
+        ],
+        "thinkingCriteria": [
+          "Relacionar ¡Las palabras tienen vida y se transforman! con una situacion concreta del entorno escolar o comunitario.",
+          "Usar poemario creativo para explicar ideas con claridad y evidencia."
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Como te ayuda poemario creativo a comprender mejor ¡Las palabras tienen vida y se transforman! y a explicar sus conceptos clave en tu comunidad?",
+            "conceptsActivated": [
+              "Poemario creativo",
+              "Lenguaje",
+              "Cultura",
+              "Comunicacion"
+            ],
+            "suggestedUse": "Momento 1 de autoevaluacion"
+          }
+        ],
+        "validationStatus": {
+          "readinessLevel": "curricular-bundle-generated",
+          "readyForActivities": true,
+          "needsReviewReasons": [
+            "El horizonte textual literal queda pendiente de revision fina si se requiere cita exacta.",
+            "Los apoyos complementarios impresos no se asignan cuando no hay evidencia validada por columna."
+          ]
+        },
+        "readinessLevel": "curricular-bundle-generated",
+        "readyForActivities": true,
+        "needsReviewReasons": []
+      },
+      {
+        "id": "lenguajes-3-ppa-6-pa18",
+        "projectId": "lenguajes-3-ppa-6-pa18",
+        "academicProjectNumber": 18,
+        "title": "¡Te lo digo y expreso con imaginación!",
+        "projectTitle": "¡Te lo digo y expreso con imaginación!",
+        "grade": "3",
+        "field": "Lenguajes",
+        "ppaNumber": "6",
+        "partialClassroomProject": "PPA 6",
+        "partialClassroomProjectTitle": "¡Somos una fiesta de lenguajes creativos!",
+        "bookVolume": "Tomo II",
+        "sourceValidation": {
+          "sourceStatus": "linked",
+          "possibilitiesPages": [
+            17
+          ],
+          "possibilitiesMaterialId": "grade-3-posibilidades-pos-len-3",
+          "possibilitiesColumnIndex": 3,
+          "columnEvidence": "Proyecto PA 18 agrupado en el PPA 6 desde el catalogo canonico y las paginas de Posibilidades."
+        },
+        "finalProduct": {
+          "title": "Collage comentado con fotografías",
+          "source": "Video detonador validado en YouTube + Nuestro libro de proyectos Tomo II pp. 22-25",
+          "status": "confirmed-from-video-and-project"
+        },
+        "sourcePages": {
+          "nuestroLibroProyectos": [
+            {
+              "materialId": "grade-3-proyectos-nuestros-proyectos-tomo-2-tercer-grado",
+              "label": "Nuestro libro de proyectos Tomo II",
+              "startPage": 22,
+              "endPage": 25,
+              "pagesLabel": "pp. 22-25",
+              "topicTitle": "Proyecto academico 18",
+              "status": "confirmed-source"
+            }
+          ],
+          "conceptBook": [
+            {
+              "materialId": "grade-3-conceptos-lenguajes-tercer-grado",
+              "label": "Lenguajes",
+              "startPage": 22,
+              "endPage": 22,
+              "pagesLabel": "p. 22",
+              "topicTitle": "Collage comentado con fotografías",
+              "status": "confirmed"
+            }
+          ],
+          "multiplesLenguajes": [],
+          "otherMaterials": [
+            {
+              "label": "Video PA 18: Collage comentado con fotografías • Lenguajes • 3er. grado",
+              "reference": "https://www.youtube.com/watch?v=HXllhivUBwI",
+              "status": "confirmed"
+            },
+            {
+              "label": "Video PPA 6: 6. ¡Somos una fiesta de lenguajes creativos! • Lenguajes • 3er grado",
+              "reference": "https://www.youtube.com/watch?v=v1b-TQg82fI",
+              "status": "confirmed"
+            }
+          ]
+        },
+        "supportMaterials": [],
+        "horizonOrPurpose": {
+          "status": "pending",
+          "text": "",
+          "source": "Nuestro libro de proyectos Tomo II pp. 22-25"
+        },
+        "projectExpectationHorizon": {
+          "officialText": "",
+          "studentVersion": "",
+          "sourcePages": [
+            "Nuestro libro de proyectos Tomo II pp. 22-25"
+          ],
+          "evidence": "El PA 18 cuenta con paginas de proyecto, producto de cierre, conceptos y videos directos validados; el horizonte textual literal queda pendiente de transcripcion fina.",
+          "status": "pending"
+        },
+        "detonatingStrategy": {
+          "title": "6. ¡Somos una fiesta de lenguajes creativos! • Lenguajes • 3er grado",
+          "text": "Video del Proyecto Parcial de Aula 6: 6. ¡Somos una fiesta de lenguajes creativos! • Lenguajes • 3er grado",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=v1b-TQg82fI",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "partial-classroom-project"
+        },
+        "academicProjectStrategy": {
+          "title": "Collage comentado con fotografías • Lenguajes • 3er. grado",
+          "text": "Video detonador del Proyecto Academico 18: ¡Te lo digo y expreso con imaginación!",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=HXllhivUBwI",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "academic-project"
+        },
+        "academicConcepts": [
+          {
+            "concept": "Collage comentado con fotografías",
+            "description": "Collage comentado con fotografías organiza el producto de cierre y permite comunicar lo aprendido en el proyecto.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              22
+            ],
+            "sourcePagesLabel": "p. 22",
+            "topicTitle": "Proyecto academico 18",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 18, al PPA 6 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Lenguaje",
+            "description": "Lenguaje ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              22
+            ],
+            "sourcePagesLabel": "p. 22",
+            "topicTitle": "Proyecto academico 18",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 18, al PPA 6 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Cultura",
+            "description": "Cultura ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              154
+            ],
+            "sourcePagesLabel": "p. 154",
+            "topicTitle": "Proyecto academico 18",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 18, al PPA 6 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Comunicacion",
+            "description": "Comunicacion ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              22
+            ],
+            "sourcePagesLabel": "p. 22",
+            "topicTitle": "Proyecto academico 18",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 18, al PPA 6 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Lectura",
+            "description": "Lectura ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              22
+            ],
+            "sourcePagesLabel": "p. 22",
+            "topicTitle": "Proyecto academico 18",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 18, al PPA 6 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Escritura",
+            "description": "Escritura ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              22
+            ],
+            "sourcePagesLabel": "p. 22",
+            "topicTitle": "Proyecto academico 18",
+            "status": "suggested",
+            "reason": "Concepto vinculado al PA 18, al PPA 6 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "teacher-review"
+          }
+        ],
+        "thinkingCriteria": [
+          "Relacionar ¡Te lo digo y expreso con imaginación! con una situacion concreta del entorno escolar o comunitario.",
+          "Usar collage comentado con fotografías para explicar ideas con claridad y evidencia."
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Como te ayuda collage comentado con fotografías a comprender mejor ¡Te lo digo y expreso con imaginación! y a explicar sus conceptos clave en tu comunidad?",
+            "conceptsActivated": [
+              "Collage comentado con fotografías",
+              "Lenguaje",
+              "Cultura",
+              "Comunicacion"
+            ],
+            "suggestedUse": "Momento 1 de autoevaluacion"
+          }
+        ],
+        "validationStatus": {
+          "readinessLevel": "curricular-bundle-generated",
+          "readyForActivities": true,
+          "needsReviewReasons": [
+            "El horizonte textual literal queda pendiente de revision fina si se requiere cita exacta.",
+            "Los apoyos complementarios impresos no se asignan cuando no hay evidencia validada por columna."
+          ]
+        },
+        "readinessLevel": "curricular-bundle-generated",
+        "readyForActivities": true,
+        "needsReviewReasons": []
+      }
+    ]
+  },
+  "conceptsValidation": {
+    "grade": "3",
+    "field": "Lenguajes",
+    "ppaNumber": "6",
+    "status": "concept-validation",
+    "generatedAt": "2026-06-07T03:06:27.246Z",
+    "entries": [
+      {
+        "projectId": "lenguajes-3-ppa-6-pa16",
+        "projectTitle": "Lengua, arte y vida cotidiana",
+        "concept": "7. arte, lengua y cultura: las manifestaciones de nuestro lugar",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            13
+          ],
+          "reason": "Concepto vinculado al PA 16, al PPA 6 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-6-pa16",
+        "projectTitle": "Lengua, arte y vida cotidiana",
+        "concept": "Lenguaje",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            13
+          ],
+          "reason": "Concepto vinculado al PA 16, al PPA 6 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-6-pa16",
+        "projectTitle": "Lengua, arte y vida cotidiana",
+        "concept": "Cultura",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            154
+          ],
+          "reason": "Concepto vinculado al PA 16, al PPA 6 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-6-pa16",
+        "projectTitle": "Lengua, arte y vida cotidiana",
+        "concept": "Comunicacion",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            13
+          ],
+          "reason": "Concepto vinculado al PA 16, al PPA 6 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-6-pa16",
+        "projectTitle": "Lengua, arte y vida cotidiana",
+        "concept": "Lectura",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            13
+          ],
+          "reason": "Concepto vinculado al PA 16, al PPA 6 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-6-pa16",
+        "projectTitle": "Lengua, arte y vida cotidiana",
+        "concept": "Escritura",
+        "status": "suggested",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            13
+          ],
+          "reason": "Concepto vinculado al PA 16, al PPA 6 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "teacher-review"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-6-pa17",
+        "projectTitle": "¡Las palabras tienen vida y se transforman!",
+        "concept": "Poemario creativo",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            18
+          ],
+          "reason": "Concepto vinculado al PA 17, al PPA 6 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-6-pa17",
+        "projectTitle": "¡Las palabras tienen vida y se transforman!",
+        "concept": "Lenguaje",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            18
+          ],
+          "reason": "Concepto vinculado al PA 17, al PPA 6 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-6-pa17",
+        "projectTitle": "¡Las palabras tienen vida y se transforman!",
+        "concept": "Cultura",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            154
+          ],
+          "reason": "Concepto vinculado al PA 17, al PPA 6 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-6-pa17",
+        "projectTitle": "¡Las palabras tienen vida y se transforman!",
+        "concept": "Comunicacion",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            18
+          ],
+          "reason": "Concepto vinculado al PA 17, al PPA 6 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-6-pa17",
+        "projectTitle": "¡Las palabras tienen vida y se transforman!",
+        "concept": "Lectura",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            18
+          ],
+          "reason": "Concepto vinculado al PA 17, al PPA 6 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-6-pa17",
+        "projectTitle": "¡Las palabras tienen vida y se transforman!",
+        "concept": "Escritura",
+        "status": "suggested",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            18
+          ],
+          "reason": "Concepto vinculado al PA 17, al PPA 6 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "teacher-review"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-6-pa18",
+        "projectTitle": "¡Te lo digo y expreso con imaginación!",
+        "concept": "Collage comentado con fotografías",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            22
+          ],
+          "reason": "Concepto vinculado al PA 18, al PPA 6 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-6-pa18",
+        "projectTitle": "¡Te lo digo y expreso con imaginación!",
+        "concept": "Lenguaje",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            22
+          ],
+          "reason": "Concepto vinculado al PA 18, al PPA 6 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-6-pa18",
+        "projectTitle": "¡Te lo digo y expreso con imaginación!",
+        "concept": "Cultura",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            154
+          ],
+          "reason": "Concepto vinculado al PA 18, al PPA 6 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-6-pa18",
+        "projectTitle": "¡Te lo digo y expreso con imaginación!",
+        "concept": "Comunicacion",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            22
+          ],
+          "reason": "Concepto vinculado al PA 18, al PPA 6 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-6-pa18",
+        "projectTitle": "¡Te lo digo y expreso con imaginación!",
+        "concept": "Lectura",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            22
+          ],
+          "reason": "Concepto vinculado al PA 18, al PPA 6 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-6-pa18",
+        "projectTitle": "¡Te lo digo y expreso con imaginación!",
+        "concept": "Escritura",
+        "status": "suggested",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            22
+          ],
+          "reason": "Concepto vinculado al PA 18, al PPA 6 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "teacher-review"
+      }
+    ]
+  },
+  "pedagogicalArticulation": {
+    "grade": "3",
+    "field": "Lenguajes",
+    "ppaNumber": "6",
+    "status": "teacher-orientation",
+    "officialHorizonStatus": "pending",
+    "situatedPedagogicalOrientation": "El PPA 6 propone trabajar ¡Somos una fiesta de lenguajes creativos! mediante productos de cierre, conceptos confirmados y videos directos para reforzar la autoevaluacion.",
+    "integratingQuestions": [
+      "¿Como se relacionan los tres proyectos academicos del PPA 6 con ¡Somos una fiesta de lenguajes creativos!?",
+      "¿Que conceptos necesita dominar el estudiante para explicar su producto final?",
+      "¿Como usar el producto final para comunicar una comprension y no solo presentar informacion?"
+    ],
+    "possibleResonanceQuestion": "¿Que comprension nueva sobre ¡Somos una fiesta de lenguajes creativos! puedes explicar con los productos del PPA 6?",
+    "teacherNotes": [
+      "Usar los videos directos como detonadores, no como enlaces de busqueda.",
+      "Retomar los conceptos confirmados antes de resolver la relacion de columnas y el juego."
+    ],
+    "projectConnections": [
+      {
+        "projectId": "lenguajes-3-ppa-6-pa16",
+        "projectTitle": "Lengua, arte y vida cotidiana",
+        "roleInPpa": "Aporta 7. arte, lengua y cultura: las manifestaciones de nuestro lugar al desarrollo del PPA 6.",
+        "confirmedConcepts": [
+          "7. arte, lengua y cultura: las manifestaciones de nuestro lugar",
+          "Lenguaje",
+          "Cultura",
+          "Comunicacion",
+          "Lectura"
+        ],
+        "suggestedConcepts": [
+          "Escritura"
+        ],
+        "pedagogicalUse": "Video detonador del Proyecto Academico 16: Lengua, arte y vida cotidiana"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-6-pa17",
+        "projectTitle": "¡Las palabras tienen vida y se transforman!",
+        "roleInPpa": "Aporta poemario creativo al desarrollo del PPA 6.",
+        "confirmedConcepts": [
+          "Poemario creativo",
+          "Lenguaje",
+          "Cultura",
+          "Comunicacion",
+          "Lectura"
+        ],
+        "suggestedConcepts": [
+          "Escritura"
+        ],
+        "pedagogicalUse": "Video detonador del Proyecto Academico 17: ¡Las palabras tienen vida y se transforman!"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-6-pa18",
+        "projectTitle": "¡Te lo digo y expreso con imaginación!",
+        "roleInPpa": "Aporta collage comentado con fotografías al desarrollo del PPA 6.",
+        "confirmedConcepts": [
+          "Collage comentado con fotografías",
+          "Lenguaje",
+          "Cultura",
+          "Comunicacion",
+          "Lectura"
+        ],
+        "suggestedConcepts": [
+          "Escritura"
+        ],
+        "pedagogicalUse": "Video detonador del Proyecto Academico 18: ¡Te lo digo y expreso con imaginación!"
+      }
+    ]
+  },
+  "teacherNotesAndResonances": {
+    "grade": "3",
+    "field": "Lenguajes",
+    "ppaNumber": "6",
+    "status": "teacher-notes-and-resonances",
+    "officialHorizonStatus": "pending",
+    "ppaIntegratingResonance": "¿Que comprension nueva sobre ¡Somos una fiesta de lenguajes creativos! puedes explicar con los productos del PPA 6?",
+    "didacticWarnings": [
+      "No sustituir el producto final por la reproduccion del video.",
+      "Evitar marcar apoyos impresos como confirmados si no existe evidencia por columna."
+    ],
+    "communityPrompts": {
+      "territoryLanguageMemory": [
+        "¿Que palabras, practicas o problemas del entorno ayudan a entender mejor este PPA?"
+      ],
+      "productCommunityConnection": [
+        "¿Como puede circular el producto final dentro de la comunidad escolar?"
+      ]
+    },
+    "projects": [
+      {
+        "projectId": "lenguajes-3-ppa-6-pa16",
+        "projectTitle": "Lengua, arte y vida cotidiana",
+        "teacherNotes": [
+          "Retomar 7. arte, lengua y cultura: las manifestaciones de nuestro lugar como evidencia del aprendizaje.",
+          "Usar los conceptos confirmados para orientar la autoevaluacion."
+        ],
+        "confirmedConceptsToUse": [
+          "7. arte, lengua y cultura: las manifestaciones de nuestro lugar",
+          "Lenguaje",
+          "Cultura",
+          "Comunicacion",
+          "Lectura"
+        ],
+        "suggestedConceptsToHandleCarefully": [
+          "Escritura"
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Como te ayuda 7. arte, lengua y cultura: las manifestaciones de nuestro lugar a comprender mejor Lengua, arte y vida cotidiana y a explicar sus conceptos clave en tu comunidad?",
+            "conceptsActivated": [
+              "7. arte, lengua y cultura: las manifestaciones de nuestro lugar",
+              "Lenguaje",
+              "Cultura",
+              "Comunicacion"
+            ],
+            "suggestedUse": "Momento 1 de autoevaluacion"
+          }
+        ],
+        "notReadyFor": []
+      },
+      {
+        "projectId": "lenguajes-3-ppa-6-pa17",
+        "projectTitle": "¡Las palabras tienen vida y se transforman!",
+        "teacherNotes": [
+          "Retomar poemario creativo como evidencia del aprendizaje.",
+          "Usar los conceptos confirmados para orientar la autoevaluacion."
+        ],
+        "confirmedConceptsToUse": [
+          "Poemario creativo",
+          "Lenguaje",
+          "Cultura",
+          "Comunicacion",
+          "Lectura"
+        ],
+        "suggestedConceptsToHandleCarefully": [
+          "Escritura"
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Como te ayuda poemario creativo a comprender mejor ¡Las palabras tienen vida y se transforman! y a explicar sus conceptos clave en tu comunidad?",
+            "conceptsActivated": [
+              "Poemario creativo",
+              "Lenguaje",
+              "Cultura",
+              "Comunicacion"
+            ],
+            "suggestedUse": "Momento 1 de autoevaluacion"
+          }
+        ],
+        "notReadyFor": []
+      },
+      {
+        "projectId": "lenguajes-3-ppa-6-pa18",
+        "projectTitle": "¡Te lo digo y expreso con imaginación!",
+        "teacherNotes": [
+          "Retomar collage comentado con fotografías como evidencia del aprendizaje.",
+          "Usar los conceptos confirmados para orientar la autoevaluacion."
+        ],
+        "confirmedConceptsToUse": [
+          "Collage comentado con fotografías",
+          "Lenguaje",
+          "Cultura",
+          "Comunicacion",
+          "Lectura"
+        ],
+        "suggestedConceptsToHandleCarefully": [
+          "Escritura"
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Como te ayuda collage comentado con fotografías a comprender mejor ¡Te lo digo y expreso con imaginación! y a explicar sus conceptos clave en tu comunidad?",
+            "conceptsActivated": [
+              "Collage comentado con fotografías",
+              "Lenguaje",
+              "Cultura",
+              "Comunicacion"
+            ],
+            "suggestedUse": "Momento 1 de autoevaluacion"
+          }
+        ],
+        "notReadyFor": []
+      }
+    ]
+  },
+  "validationAudit": {
+    "kind": "generated-validation-audit",
+    "source": "reports/caracoles/grade3-lenguajes-ppa6-reading-bundle-audit.md",
+    "content": "# Bundle curricular tercer grado\n\n- Campo: Lenguajes\n- PPA: 6\n- Titulo: ¡Somos una fiesta de lenguajes creativos!\n- Proyectos: PA16, PA17, PA18\n- Estado: generado y publicado\n- Cautela: horizonte literal y apoyos impresos por columna pendientes de revision fina.\n"
+  }
+}

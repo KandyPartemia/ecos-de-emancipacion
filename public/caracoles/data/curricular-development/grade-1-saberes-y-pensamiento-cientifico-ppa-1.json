@@ -1,0 +1,1706 @@
+{
+  "grade": "1",
+  "gradeLabel": "Primer grado",
+  "field": "Saberes y Pensamiento Cientifico",
+  "ppaNumber": "1",
+  "partialClassroomProject": "PPA 1",
+  "partialClassroomProjectTitle": "Un buen inicio!",
+  "source": "curricular-development-pilot",
+  "generatedAt": "2026-06-04T15:51:04.018Z",
+  "development": {
+    "grade": "1",
+    "gradeLabel": "Primer grado",
+    "field": "Saberes y Pensamiento Cientifico",
+    "bookVolume": "Tomo I",
+    "partialClassroomProject": "PPA 1",
+    "partialClassroomProjectTitle": "Un buen inicio!",
+    "generatedAt": "2026-06-01T11:23:59.349Z",
+    "notes": "Capa curricular aislada para 1o Saberes y Pensamiento Cientifico PPA 1.",
+    "sourcesUsed": [
+      "reports/caracoles/grade1-lenguajes-reading-teacher-hito-2-standard.md",
+      "content/caracoles/curricular-links/grade-1-project-source-links.json",
+      "content/caracoles/generated-private/grade-1/pages-index.full.json",
+      "Posibilidades de uso SyPC, primer grado, pp. 6-7",
+      "Nuestro libro de proyectos Tomo I, primer grado, pp. 116-129",
+      "Saberes y Pensamiento Cientifico, pp. 300-317 y 108-119"
+    ],
+    "partialClassroomProjectContext": {
+      "expectationHorizon": {
+        "officialText": "",
+        "sourcePages": [
+          "Nuestro libro de proyectos Tomo I pp. 116-117",
+          "Posibilidades de uso SyPC pp. 6-7"
+        ],
+        "evidence": "El PPA 1 articula sistema nervioso, sistema endocrino, adicciones y representacion de informacion mediante carteles e infografias, pero no se localizo una formula oficial unica redactada como horizonte comun del bloque.",
+        "status": "pending"
+      },
+      "ppaDetonatingStrategy": {
+        "title": "Un buen inicio!",
+        "type": "video",
+        "url": "",
+        "urlStatus": "pending-url",
+        "reference": "bit.ly/3VfglUk",
+        "source": "Nuestro libro de proyectos Tomo I p. 116 + Posibilidades de uso SyPC pp. 6-7",
+        "scope": "partial-classroom-project",
+        "youtubeSearchQuery": "Un buen inicio! Saberes y Pensamiento Cientifico 1er grado Telesecundaria"
+      },
+      "ppaDigitalResource": {
+        "title": "Recurso informatico del bloque PPA 1",
+        "reference": "bit.ly/3WQBMwg",
+        "status": "pending-validation",
+        "source": "Nuestro libro de proyectos Tomo I p. 129"
+      },
+      "validationStatus": {
+        "needsHumanReview": true,
+        "needsReviewReasons": [
+          "Las pp. 6-7 de Posibilidades pertenecen al mismo PPA 1; la segunda pagina solo confirma apoyos y continuidad del bloque.",
+          "La distribucion por columna se fija por el orden de proyectos y productos, no por OCR perfectamente separado.",
+          "Solo se localizo un apoyo de Multiples Lenguajes confirmado para la tercera columna del bloque.",
+          "Los enlaces cortos del video del PPA y del recurso informatico se mantienen en cautela hasta localizar un destino oficial confirmado."
+        ]
+      },
+      "columnValidation": {
+        "possibilitiesPagesReviewed": [
+          6,
+          7
+        ],
+        "confirmedAsPpa": true,
+        "note": "Las pp. 6-7 de Posibilidades corresponden al bloque completo del PPA 1. La columna 1 se valida con Carteles graficos, la 2 con Infografia combinada y la 3 con Infografia con dimensiones; la p. 7 solo agrega el apoyo confirmado del tercer proyecto.",
+        "columns": [
+          {
+            "columnIndex": 1,
+            "projectId": "saberes-y-pensamiento-cientifico-1-ppa-1-pa1",
+            "projectTitle": "El gran centro de control!",
+            "finalProduct": "Carteles graficos",
+            "supportMaterials": []
+          },
+          {
+            "columnIndex": 2,
+            "projectId": "saberes-y-pensamiento-cientifico-1-ppa-1-pa2",
+            "projectTitle": "Mensajeros quimicos que apoyan en el control!",
+            "finalProduct": "Infografia combinada",
+            "supportMaterials": []
+          },
+          {
+            "columnIndex": 3,
+            "projectId": "saberes-y-pensamiento-cientifico-1-ppa-1-pa3",
+            "projectTitle": "Danos a los centros de control!",
+            "finalProduct": "Infografia con dimensiones",
+            "supportMaterials": [
+              "El cerebro de Einstein, p. 70"
+            ]
+          }
+        ]
+      }
+    },
+    "academicProjects": [
+      {
+        "id": "saberes-y-pensamiento-cientifico-1-ppa-1-pa1",
+        "projectId": "saberes-y-pensamiento-cientifico-1-ppa-1-pa1",
+        "academicProjectNumber": 1,
+        "title": "El gran centro de control!",
+        "projectTitle": "El gran centro de control!",
+        "grade": "1",
+        "field": "Saberes y Pensamiento Cientifico",
+        "ppaNumber": "1",
+        "partialClassroomProject": "PPA 1",
+        "partialClassroomProjectTitle": "Un buen inicio!",
+        "bookVolume": "Tomo I",
+        "sourceValidation": {
+          "sourceStatus": "linked",
+          "possibilitiesPages": [
+            6,
+            7
+          ],
+          "possibilitiesMaterialId": "grade-1-posibilidades-pos-sypc-1",
+          "possibilitiesColumnIndex": 1,
+          "columnEvidence": "Bloque PPA 1 Un buen inicio! localizado en pp. 6-7; la columna 1 se confirma por el orden de proyectos, productos y continuidad del mismo bloque."
+        },
+        "finalProduct": {
+          "title": "Carteles graficos",
+          "source": "Posibilidades de uso SyPC pp. 6-7 + Nuestro libro de proyectos Tomo I pp. 118-120",
+          "status": "confirmed"
+        },
+        "sourcePages": {
+          "nuestroLibroProyectos": [
+            {
+              "materialId": "grade-1-proyectos-nuestro-libro-de-proyectos-tomo-i-primer-grado",
+              "label": "Nuestro libro de proyectos Tomo I",
+              "startPage": 118,
+              "endPage": 120,
+              "pagesLabel": "pp. 118-120",
+              "topicTitle": "Proyecto academico 1",
+              "status": "confirmed-source"
+            }
+          ],
+          "conceptBook": [
+            {
+              "materialId": "grade-1-conceptos-saberes-y-pensamiento-cientifico-primer-grado",
+              "label": "Saberes y Pensamiento Cientifico",
+              "startPage": 300,
+              "endPage": 302,
+              "pagesLabel": "pp. 300-302",
+              "topicTitle": "Sistema nervioso y endocrino / El sistema nervioso",
+              "status": "confirmed-source"
+            }
+          ],
+          "multiplesLenguajes": [],
+          "otherMaterials": [
+            {
+              "label": "Video PA 1: Carteles gráficos • Saberes y pensamiento científico • 1er grado",
+              "reference": "https://www.youtube.com/watch?v=ggaJp_LawxI",
+              "status": "confirmed"
+            },
+            {
+              "label": "Video PPA 1: 1.  ¡Un buen inicio! • Saberes y pensamiento científico • 1er grado",
+              "reference": "https://www.youtube.com/watch?v=o3E57FP7KP0",
+              "status": "confirmed"
+            }
+          ]
+        },
+        "supportMaterials": [],
+        "horizonOrPurpose": {
+          "status": "official",
+          "text": "Representar el sistema nervioso central en la coordinacion del cuerpo con la elaboracion de carteles graficos, utilizando las constantes positivas y negativas para tener una mejor comprension de dichas funciones.",
+          "source": "Nuestro libro de proyectos Tomo I p. 118"
+        },
+        "projectExpectationHorizon": {
+          "officialText": "Identificar las funciones del sistema nervioso central como el gran centro de control del cuerpo humano y las constantes positivas y negativas para exponerlas en un cartel grafico.",
+          "studentVersion": "Comprender como coordina el cuerpo el sistema nervioso central y explicarlo con un cartel grafico claro y comprensible.",
+          "sourcePages": [
+            "Nuestro libro de proyectos Tomo I p. 119"
+          ],
+          "evidence": "La etapa 3 y los objetivos del proyecto permiten fijar un horizonte de expectativas util para la lectura docente del PA.",
+          "status": "confirmed-from-project-book"
+        },
+        "detonatingStrategy": {
+          "title": "1.  ¡Un buen inicio! • Saberes y pensamiento científico • 1er grado",
+          "text": "Video del Proyecto Parcial de Aula 1: 1.  ¡Un buen inicio! • Saberes y pensamiento científico • 1er grado",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=o3E57FP7KP0",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "partial-classroom-project"
+        },
+        "academicProjectStrategy": {
+          "title": "Carteles gráficos • Saberes y pensamiento científico • 1er grado",
+          "text": "Video detonador del Proyecto Academico 1: El gran centro de control!",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=ggaJp_LawxI",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "academic-project"
+        },
+        "academicConcepts": [
+          {
+            "concept": "carteles graficos",
+            "description": "Material visual que organiza ideas, imagenes y textos breves para explicar un tema con claridad a otras personas.",
+            "sourceBook": "Nuestro libro de proyectos Tomo I",
+            "sourcePages": [
+              118,
+              119,
+              120
+            ],
+            "sourcePagesLabel": "pp. 118-120",
+            "topicTitle": "Proyecto academico 1",
+            "status": "confirmed",
+            "reason": "La planeacion del PPA, Posibilidades y el propio proyecto fijan el cartel grafico como producto central del PA 1.",
+            "pedagogicalUse": "Permite traducir un contenido biologico complejo a una explicacion visual y compartible.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "sistema nervioso y endocrino",
+            "description": "Relacion entre dos sistemas de control del cuerpo: uno basado en impulsos nerviosos y otro en hormonas.",
+            "sourceBook": "Saberes y Pensamiento Cientifico",
+            "sourcePages": [
+              300
+            ],
+            "sourcePagesLabel": "p. 300",
+            "topicTitle": "Sistema nervioso y endocrino",
+            "status": "confirmed",
+            "reason": "La p. 300 abre el bloque biologico del PPA 1 y da el marco general de control del organismo.",
+            "pedagogicalUse": "Ayuda a situar el proyecto dentro del funcionamiento integrado del cuerpo humano.",
+            "activityReadiness": "usable-for-resonance"
+          },
+          {
+            "concept": "el sistema nervioso",
+            "description": "Sistema que recibe informacion, la procesa y coordina respuestas del cuerpo por medio de impulsos nerviosos.",
+            "sourceBook": "Saberes y Pensamiento Cientifico",
+            "sourcePages": [
+              301,
+              302
+            ],
+            "sourcePagesLabel": "pp. 301-302",
+            "topicTitle": "El sistema nervioso",
+            "status": "confirmed",
+            "reason": "Las pp. 301-302 desarrollan el contenido principal pedido por el PA 1 sobre el centro de control del cuerpo.",
+            "pedagogicalUse": "Da base para reconocer las funciones del cerebro y de la medula espinal en el cartel.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "sistema nervioso central",
+            "description": "Parte del sistema nervioso formada por cerebro y medula espinal, encargada de integrar informacion y coordinar respuestas.",
+            "sourceBook": "Nuestro libro de proyectos Tomo I",
+            "sourcePages": [
+              119
+            ],
+            "sourcePagesLabel": "p. 119",
+            "topicTitle": "Distintas fuentes de consulta",
+            "status": "confirmed",
+            "reason": "El proyecto lo nombra de forma explicita como contenido de investigacion y las pp. 301-302 permiten sostener su desarrollo.",
+            "pedagogicalUse": "Vincula directamente la fuente del proyecto con el contenido que se va a exponer.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "constantes positivas y negativas",
+            "description": "Nocion matematica usada en el proyecto para apoyar la representacion y comparacion de informacion vinculada al funcionamiento corporal.",
+            "sourceBook": "Nuestro libro de proyectos Tomo I",
+            "sourcePages": [
+              119
+            ],
+            "sourcePagesLabel": "p. 119",
+            "topicTitle": "Distintas fuentes de consulta",
+            "status": "suggested",
+            "reason": "El proyecto las explicita como fuente, pero no se localizo en este corte la pagina matematica desarrollada con la misma claridad que el bloque biologico.",
+            "pedagogicalUse": "Conviene mantenerla visible para no perder la integracion con matematicas, sin sobreforzar una validacion de pagina aun no cerrada.",
+            "activityReadiness": "usable-for-resonance"
+          },
+          {
+            "concept": "la forma de realizar un cartel grafico",
+            "description": "Procedimiento para organizar texto, imagen e informacion sintetica en un soporte visual comprensible.",
+            "sourceBook": "Nuestro libro de proyectos Tomo I",
+            "sourcePages": [
+              119
+            ],
+            "sourcePagesLabel": "p. 119",
+            "topicTitle": "Distintas fuentes de consulta",
+            "status": "suggested",
+            "reason": "Se menciona de manera explicita en el proyecto, pero como procedimiento de trabajo mas que como concepto del libro del campo plenamente confirmado.",
+            "pedagogicalUse": "Orienta el producto sin inflar su peso como concepto academico confirmado.",
+            "activityReadiness": "usable-for-resonance"
+          }
+        ],
+        "thinkingCriteria": [
+          "Distinguir entre nombrar partes del sistema nervioso y explicar como coordinan el cuerpo.",
+          "Traducir informacion biologica a un lenguaje visual claro, sin perder precision.",
+          "Mantener visible la relacion entre ciencias y matematicas sin forzar tecnicismos innecesarios."
+        ],
+        "validationStatus": {
+          "readinessLevel": "development-partial",
+          "readyForActivities": false,
+          "needsReviewReasons": [
+            "El bloque ya es usable como lectura docente, pero el video del PPA 1 y el recurso informatico siguen pendientes de validacion de destino final.",
+            "Solo se localizo un apoyo de Multiples Lenguajes confirmado por inferencia de columna para el PA 3.",
+            "La integracion matematica de constantes positivas y negativas en el PA 1 se mantiene visible, pero aun no cierra con una pagina de desarrollo tan firme como los bloques de tablas y graficas."
+          ]
+        },
+        "readinessLevel": "development-partial",
+        "readyForActivities": false,
+        "needsReviewReasons": [
+          "No mover a actividades interactivas ni desbloquear juegos completos."
+        ]
+      },
+      {
+        "id": "saberes-y-pensamiento-cientifico-1-ppa-1-pa2",
+        "projectId": "saberes-y-pensamiento-cientifico-1-ppa-1-pa2",
+        "academicProjectNumber": 2,
+        "title": "Mensajeros quimicos que apoyan en el control!",
+        "projectTitle": "Mensajeros quimicos que apoyan en el control!",
+        "grade": "1",
+        "field": "Saberes y Pensamiento Cientifico",
+        "ppaNumber": "1",
+        "partialClassroomProject": "PPA 1",
+        "partialClassroomProjectTitle": "Un buen inicio!",
+        "bookVolume": "Tomo I",
+        "sourceValidation": {
+          "sourceStatus": "linked",
+          "possibilitiesPages": [
+            6,
+            7
+          ],
+          "possibilitiesMaterialId": "grade-1-posibilidades-pos-sypc-1",
+          "possibilitiesColumnIndex": 2,
+          "columnEvidence": "Bloque PPA 1 Un buen inicio! localizado en pp. 6-7; la columna 2 se confirma por el orden de proyectos, productos y continuidad del mismo bloque."
+        },
+        "finalProduct": {
+          "title": "Infografia combinada",
+          "source": "Posibilidades de uso SyPC pp. 6-7 + Nuestro libro de proyectos Tomo I pp. 121-125",
+          "status": "confirmed"
+        },
+        "sourcePages": {
+          "nuestroLibroProyectos": [
+            {
+              "materialId": "grade-1-proyectos-nuestro-libro-de-proyectos-tomo-i-primer-grado",
+              "label": "Nuestro libro de proyectos Tomo I",
+              "startPage": 121,
+              "endPage": 125,
+              "pagesLabel": "pp. 121-125",
+              "topicTitle": "Proyecto academico 2",
+              "status": "confirmed-source"
+            }
+          ],
+          "conceptBook": [
+            {
+              "materialId": "grade-1-conceptos-saberes-y-pensamiento-cientifico-primer-grado",
+              "label": "Saberes y Pensamiento Cientifico",
+              "startPage": 300,
+              "endPage": 309,
+              "pagesLabel": "pp. 300-309",
+              "topicTitle": "Sistema nervioso y endocrino / El sistema endocrino / Hormonas",
+              "status": "confirmed-source"
+            },
+            {
+              "materialId": "grade-1-conceptos-saberes-y-pensamiento-cientifico-primer-grado",
+              "label": "Saberes y Pensamiento Cientifico",
+              "startPage": 108,
+              "endPage": 119,
+              "pagesLabel": "pp. 108-119",
+              "topicTitle": "Obtencion y representacion de informacion",
+              "status": "confirmed-by-column-inference"
+            }
+          ],
+          "multiplesLenguajes": [],
+          "otherMaterials": [
+            {
+              "label": "Video PA 2: Infografía combinada • Saberes y pensamiento científico • 1er grado",
+              "reference": "https://www.youtube.com/watch?v=j8yAuWHfNok",
+              "status": "confirmed"
+            },
+            {
+              "label": "Video PPA 1: 1.  ¡Un buen inicio! • Saberes y pensamiento científico • 1er grado",
+              "reference": "https://www.youtube.com/watch?v=o3E57FP7KP0",
+              "status": "confirmed"
+            }
+          ]
+        },
+        "supportMaterials": [],
+        "horizonOrPurpose": {
+          "status": "official",
+          "text": "Reconocer el papel que juega el sistema endocrino en relacion con la regulacion hormonal y sus efectos en la maduracion sexual, empleando tablas y graficas para mostrarlo en una infografia combinada.",
+          "source": "Nuestro libro de proyectos Tomo I p. 122"
+        },
+        "projectExpectationHorizon": {
+          "officialText": "Aprender sobre las funciones del sistema endocrino mediante la revision de libros y revistas de divulgacion cientifica, para despues realizar una infografia.",
+          "studentVersion": "Entender como funciona el sistema endocrino y explicarlo en una infografia combinada con informacion organizada y visualmente clara.",
+          "sourcePages": [
+            "Nuestro libro de proyectos Tomo I p. 123"
+          ],
+          "evidence": "La etapa 3 y los objetivos del proyecto permiten fijar un horizonte de expectativas util para la lectura docente del PA.",
+          "status": "confirmed-from-project-book"
+        },
+        "detonatingStrategy": {
+          "title": "1.  ¡Un buen inicio! • Saberes y pensamiento científico • 1er grado",
+          "text": "Video del Proyecto Parcial de Aula 1: 1.  ¡Un buen inicio! • Saberes y pensamiento científico • 1er grado",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=o3E57FP7KP0",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "partial-classroom-project"
+        },
+        "academicProjectStrategy": {
+          "title": "Infografía combinada • Saberes y pensamiento científico • 1er grado",
+          "text": "Video detonador del Proyecto Academico 2: Mensajeros quimicos que apoyan en el control!",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=j8yAuWHfNok",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "academic-project"
+        },
+        "academicConcepts": [
+          {
+            "concept": "infografia combinada",
+            "description": "Recurso visual que integra textos, esquemas, tablas y graficas para explicar un tema de manera ordenada y atractiva.",
+            "sourceBook": "Nuestro libro de proyectos Tomo I",
+            "sourcePages": [
+              121,
+              122,
+              123,
+              124,
+              125
+            ],
+            "sourcePagesLabel": "pp. 121-125",
+            "topicTitle": "Proyecto academico 2",
+            "status": "confirmed",
+            "reason": "La planeacion del PPA, Posibilidades y el propio proyecto fijan la infografia combinada como producto central del PA 2.",
+            "pedagogicalUse": "Permite reunir informacion cientifica y representacion de datos en una sola pieza explicativa.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "sistema nervioso y endocrino",
+            "description": "Relacion entre impulsos nerviosos y hormonas para coordinar procesos del cuerpo humano.",
+            "sourceBook": "Saberes y Pensamiento Cientifico",
+            "sourcePages": [
+              300
+            ],
+            "sourcePagesLabel": "p. 300",
+            "topicTitle": "Sistema nervioso y endocrino",
+            "status": "confirmed",
+            "reason": "La p. 300 funciona como puerta de entrada para entender por que el sistema endocrino apoya funciones de control del organismo.",
+            "pedagogicalUse": "Ayuda a no aislar el sistema endocrino del resto de los sistemas de coordinacion del cuerpo.",
+            "activityReadiness": "usable-for-resonance"
+          },
+          {
+            "concept": "el sistema endocrino",
+            "description": "Sistema formado por glandulas que producen hormonas y regulan funciones del organismo.",
+            "sourceBook": "Saberes y Pensamiento Cientifico",
+            "sourcePages": [
+              304,
+              305,
+              306
+            ],
+            "sourcePagesLabel": "pp. 304-306",
+            "topicTitle": "El sistema endocrino",
+            "status": "confirmed",
+            "reason": "Las pp. 304-306 desarrollan el contenido principal del PA 2 sobre glandulas y regulacion hormonal.",
+            "pedagogicalUse": "Da base para identificar partes, funciones y relaciones entre glandulas y hormonas.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "hormonas: maduracion sexual y reproduccion",
+            "description": "Sustancias quimicas que regulan cambios del cuerpo relacionados con crecimiento, maduracion sexual y reproduccion.",
+            "sourceBook": "Saberes y Pensamiento Cientifico",
+            "sourcePages": [
+              307,
+              308,
+              309
+            ],
+            "sourcePagesLabel": "pp. 307-309",
+            "topicTitle": "Hormonas: maduracion sexual y reproduccion",
+            "status": "confirmed",
+            "reason": "Las pp. 307-309 cierran el bloque biologico del proyecto y conectan con la intencion explicita del PA 2.",
+            "pedagogicalUse": "Permite explicar con mas precision el papel del sistema endocrino en la adolescencia.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "obtencion y representacion de informacion",
+            "description": "Proceso para reunir datos y presentarlos de manera comprensible mediante tablas o graficas.",
+            "sourceBook": "Saberes y Pensamiento Cientifico",
+            "sourcePages": [
+              108
+            ],
+            "sourcePagesLabel": "p. 108",
+            "topicTitle": "Obtencion y representacion de informacion",
+            "status": "confirmed",
+            "reason": "La p. 108 abre el bloque matematico que Posibilidades vincula con la segunda columna del PPA 1.",
+            "pedagogicalUse": "Ayuda a organizar como se presentaran los datos del sistema endocrino en la infografia.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "uso de tablas para analizar informacion",
+            "description": "Organizacion de datos en filas y columnas para compararlos, resumirlos y extraer conclusiones.",
+            "sourceBook": "Saberes y Pensamiento Cientifico",
+            "sourcePages": [
+              110,
+              111,
+              112
+            ],
+            "sourcePagesLabel": "pp. 110-112",
+            "topicTitle": "Uso de tablas para analizar informacion",
+            "status": "confirmed",
+            "reason": "Las pp. 110-112 estan explicitamente ligadas al PA 2 en Posibilidades y al uso de tablas que pide el proyecto.",
+            "pedagogicalUse": "Sirve para ordenar informacion sobre glandulas, hormonas y funciones.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "graficas de barras para analizar informacion",
+            "description": "Representaciones visuales que permiten comparar cantidades o categorias de manera rapida y clara.",
+            "sourceBook": "Saberes y Pensamiento Cientifico",
+            "sourcePages": [
+              113,
+              114,
+              115,
+              116
+            ],
+            "sourcePagesLabel": "pp. 113-116",
+            "topicTitle": "Graficas de barras para analizar informacion",
+            "status": "confirmed",
+            "reason": "Las pp. 113-116 aparecen de forma explicita en Posibilidades y en el proyecto como recurso para la infografia.",
+            "pedagogicalUse": "Ayuda a presentar datos de forma comparativa y visual dentro de la infografia.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "graficas circulares para analizar informacion",
+            "description": "Representaciones que muestran proporciones y partes de un total por medio de sectores de un circulo.",
+            "sourceBook": "Saberes y Pensamiento Cientifico",
+            "sourcePages": [
+              117,
+              118,
+              119
+            ],
+            "sourcePagesLabel": "pp. 117-119",
+            "topicTitle": "Graficas circulares para analizar informacion",
+            "status": "confirmed",
+            "reason": "Las pp. 117-119 completan el bloque matematico del PA 2 y responden a la indicacion expresa de usar graficas.",
+            "pedagogicalUse": "Permite que la infografia muestre proporciones y no solo listados de datos.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "el sistema endocrino del cuerpo humano: glandulas y funciones",
+            "description": "Relacion entre las glandulas del sistema endocrino y las funciones que regulan en el cuerpo humano.",
+            "sourceBook": "Nuestro libro de proyectos Tomo I",
+            "sourcePages": [
+              124
+            ],
+            "sourcePagesLabel": "p. 124",
+            "topicTitle": "Distintas fuentes de consulta",
+            "status": "confirmed",
+            "reason": "El proyecto lo explicita como contenido de investigacion y se sostiene con las pp. 304-306 del libro del campo.",
+            "pedagogicalUse": "Ayuda a conectar el lenguaje del proyecto con el desarrollo del libro del campo.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "funcionamiento del sistema endocrino",
+            "description": "Manera en que las glandulas producen hormonas y coordinan respuestas del organismo.",
+            "sourceBook": "Nuestro libro de proyectos Tomo I",
+            "sourcePages": [
+              124
+            ],
+            "sourcePagesLabel": "p. 124",
+            "topicTitle": "Distintas fuentes de consulta",
+            "status": "confirmed",
+            "reason": "Se menciona como fuente central del proyecto y queda respaldado por el bloque de pp. 304-309.",
+            "pedagogicalUse": "Permite explicar procesos y no solo nombrar glandulas aisladas.",
+            "activityReadiness": "usable-for-autoevaluation"
+          }
+        ],
+        "thinkingCriteria": [
+          "Distinguir entre nombrar glandulas y explicar como regulan funciones del organismo.",
+          "Elegir tablas y graficas segun el tipo de informacion que se quiere comunicar.",
+          "Mantener un equilibrio entre precision cientifica y claridad visual en la infografia."
+        ],
+        "validationStatus": {
+          "readinessLevel": "development-partial",
+          "readyForActivities": false,
+          "needsReviewReasons": [
+            "El bloque ya es usable como lectura docente, pero el video del PPA 1 y el recurso informatico siguen pendientes de validacion de destino final.",
+            "Solo se localizo un apoyo de Multiples Lenguajes confirmado por inferencia de columna para el PA 3.",
+            "La integracion matematica de constantes positivas y negativas en el PA 1 se mantiene visible, pero aun no cierra con una pagina de desarrollo tan firme como los bloques de tablas y graficas."
+          ]
+        },
+        "readinessLevel": "development-partial",
+        "readyForActivities": false,
+        "needsReviewReasons": [
+          "No mover a actividades interactivas ni desbloquear juegos completos."
+        ]
+      },
+      {
+        "id": "saberes-y-pensamiento-cientifico-1-ppa-1-pa3",
+        "projectId": "saberes-y-pensamiento-cientifico-1-ppa-1-pa3",
+        "academicProjectNumber": 3,
+        "title": "Danos a los centros de control!",
+        "projectTitle": "Danos a los centros de control!",
+        "grade": "1",
+        "field": "Saberes y Pensamiento Cientifico",
+        "ppaNumber": "1",
+        "partialClassroomProject": "PPA 1",
+        "partialClassroomProjectTitle": "Un buen inicio!",
+        "bookVolume": "Tomo I",
+        "sourceValidation": {
+          "sourceStatus": "linked",
+          "possibilitiesPages": [
+            6,
+            7
+          ],
+          "possibilitiesMaterialId": "grade-1-posibilidades-pos-sypc-1",
+          "possibilitiesColumnIndex": 3,
+          "columnEvidence": "Bloque PPA 1 Un buen inicio! localizado en pp. 6-7; la columna 3 se confirma por el orden de proyectos, productos y continuidad del mismo bloque."
+        },
+        "finalProduct": {
+          "title": "Infografia con dimensiones",
+          "source": "Posibilidades de uso SyPC pp. 6-7 + Nuestro libro de proyectos Tomo I pp. 126-128",
+          "status": "confirmed"
+        },
+        "sourcePages": {
+          "nuestroLibroProyectos": [
+            {
+              "materialId": "grade-1-proyectos-nuestro-libro-de-proyectos-tomo-i-primer-grado",
+              "label": "Nuestro libro de proyectos Tomo I",
+              "startPage": 126,
+              "endPage": 128,
+              "pagesLabel": "pp. 126-128",
+              "topicTitle": "Proyecto academico 3",
+              "status": "confirmed-source"
+            }
+          ],
+          "conceptBook": [
+            {
+              "materialId": "grade-1-conceptos-saberes-y-pensamiento-cientifico-primer-grado",
+              "label": "Saberes y Pensamiento Cientifico",
+              "startPage": 300,
+              "endPage": 302,
+              "pagesLabel": "pp. 300-302",
+              "topicTitle": "Sistema nervioso y endocrino / El sistema nervioso",
+              "status": "confirmed-by-column-inference"
+            },
+            {
+              "materialId": "grade-1-conceptos-saberes-y-pensamiento-cientifico-primer-grado",
+              "label": "Saberes y Pensamiento Cientifico",
+              "startPage": 108,
+              "endPage": 119,
+              "pagesLabel": "pp. 108-119",
+              "topicTitle": "Obtencion y representacion de informacion",
+              "status": "confirmed-by-column-inference"
+            },
+            {
+              "materialId": "grade-1-conceptos-saberes-y-pensamiento-cientifico-primer-grado",
+              "label": "Saberes y Pensamiento Cientifico",
+              "startPage": 312,
+              "endPage": 317,
+              "pagesLabel": "pp. 312-317",
+              "topicTitle": "Sustancias adictivas",
+              "status": "confirmed-source"
+            }
+          ],
+          "multiplesLenguajes": [
+            {
+              "materialId": "grade-1-apoyo-muiltiples-lenguajes-primer-grado",
+              "label": "Multiples Lenguajes",
+              "startPage": 70,
+              "endPage": 70,
+              "pagesLabel": "p. 70",
+              "topicTitle": "El cerebro de Einstein",
+              "status": "confirmed-by-column-inference"
+            }
+          ],
+          "otherMaterials": [
+            {
+              "label": "Video PA 3: Infografía con dimensiones • Saberes y pensamiento científico • 1er grado",
+              "reference": "https://www.youtube.com/watch?v=S3WE2mysdH0",
+              "status": "confirmed"
+            },
+            {
+              "label": "Video PPA 1: 1.  ¡Un buen inicio! • Saberes y pensamiento científico • 1er grado",
+              "reference": "https://www.youtube.com/watch?v=o3E57FP7KP0",
+              "status": "confirmed"
+            }
+          ]
+        },
+        "supportMaterials": [
+          {
+            "title": "El cerebro de Einstein",
+            "kind": "Multiples Lenguajes",
+            "pages": "p. 70",
+            "status": "confirmed-by-column-inference"
+          }
+        ],
+        "horizonOrPurpose": {
+          "status": "official",
+          "text": "Comprender y explicar el efecto de las sustancias adictivas en el organismo y, particularmente, en el sistema nervioso, apoyados en el uso de graficas de barras y circulares para disenar una infografia con dimensiones.",
+          "source": "Nuestro libro de proyectos Tomo I p. 126"
+        },
+        "projectExpectationHorizon": {
+          "officialText": "Comprender, mediante el uso de graficas, el dano que causan las sustancias adictivas al sistema nervioso.",
+          "studentVersion": "Explicar con informacion clara y visual como afectan las sustancias adictivas al sistema nervioso y al cuerpo humano.",
+          "sourcePages": [
+            "Nuestro libro de proyectos Tomo I p. 127"
+          ],
+          "evidence": "La etapa 3 y los objetivos del proyecto permiten fijar un horizonte de expectativas util para la lectura docente del PA.",
+          "status": "confirmed-from-project-book"
+        },
+        "detonatingStrategy": {
+          "title": "1.  ¡Un buen inicio! • Saberes y pensamiento científico • 1er grado",
+          "text": "Video del Proyecto Parcial de Aula 1: 1.  ¡Un buen inicio! • Saberes y pensamiento científico • 1er grado",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=o3E57FP7KP0",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "partial-classroom-project"
+        },
+        "academicProjectStrategy": {
+          "title": "Infografía con dimensiones • Saberes y pensamiento científico • 1er grado",
+          "text": "Video detonador del Proyecto Academico 3: Danos a los centros de control!",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=S3WE2mysdH0",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "academic-project"
+        },
+        "academicConcepts": [
+          {
+            "concept": "infografia con dimensiones",
+            "description": "Recurso visual ampliado que combina datos, graficas y explicaciones para comunicar un problema de salud con mayor profundidad.",
+            "sourceBook": "Nuestro libro de proyectos Tomo I",
+            "sourcePages": [
+              126,
+              127,
+              128
+            ],
+            "sourcePagesLabel": "pp. 126-128",
+            "topicTitle": "Proyecto academico 3",
+            "status": "confirmed",
+            "reason": "La planeacion del PPA, Posibilidades y el propio proyecto fijan la infografia con dimensiones como producto central del PA 3.",
+            "pedagogicalUse": "Permite articular informacion biologica, matematica y social sobre el dano de las adicciones.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "sistema nervioso y endocrino",
+            "description": "Relacion entre sistemas que regulan el cuerpo y permiten entender por que ciertas sustancias alteran su funcionamiento.",
+            "sourceBook": "Saberes y Pensamiento Cientifico",
+            "sourcePages": [
+              300
+            ],
+            "sourcePagesLabel": "p. 300",
+            "topicTitle": "Sistema nervioso y endocrino",
+            "status": "confirmed",
+            "reason": "La p. 300 sirve como marco general para comprender por que las sustancias adictivas afectan centros de control del organismo.",
+            "pedagogicalUse": "Ayuda a no tratar las adicciones como un tema aislado del funcionamiento corporal.",
+            "activityReadiness": "usable-for-resonance"
+          },
+          {
+            "concept": "el sistema nervioso",
+            "description": "Sistema que recibe, procesa y coordina respuestas del cuerpo, y que puede verse gravemente alterado por sustancias adictivas.",
+            "sourceBook": "Saberes y Pensamiento Cientifico",
+            "sourcePages": [
+              301,
+              302
+            ],
+            "sourcePagesLabel": "pp. 301-302",
+            "topicTitle": "El sistema nervioso",
+            "status": "confirmed",
+            "reason": "Las pp. 301-302 sostienen la explicacion del proyecto sobre los centros de control afectados por las adicciones.",
+            "pedagogicalUse": "Da la base biologica para comprender el dano antes de pasar a sus efectos especificos.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "sustancias adictivas",
+            "description": "Sustancias que generan dependencia y alteran el funcionamiento normal del organismo y de la vida cotidiana.",
+            "sourceBook": "Saberes y Pensamiento Cientifico",
+            "sourcePages": [
+              312
+            ],
+            "sourcePagesLabel": "p. 312",
+            "topicTitle": "Sustancias adictivas",
+            "status": "confirmed",
+            "reason": "La p. 312 abre el bloque principal del PA 3 y centra el problema que se va a comunicar en la infografia.",
+            "pedagogicalUse": "Permite definir el tema con claridad antes de analizar sus efectos.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "efectos de las sustancias adictivas en el sistema nervioso",
+            "description": "Alteraciones que provocan las sustancias adictivas en la transmision de informacion entre neuronas y en las respuestas del cuerpo.",
+            "sourceBook": "Saberes y Pensamiento Cientifico",
+            "sourcePages": [
+              313,
+              314
+            ],
+            "sourcePagesLabel": "pp. 313-314",
+            "topicTitle": "Efectos de las sustancias adictivas en el sistema nervioso",
+            "status": "confirmed",
+            "reason": "Las pp. 313-314 desarrollan el contenido mas directamente pedido por el proyecto.",
+            "pedagogicalUse": "Ayuda a explicar por que las adicciones afectan percepciones, decisiones y conductas.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "efectos de las sustancias adictivas en el cuerpo humano",
+            "description": "Danos y alteraciones que las adicciones provocan en varios sistemas del cuerpo, mas alla del cerebro.",
+            "sourceBook": "Saberes y Pensamiento Cientifico",
+            "sourcePages": [
+              315,
+              316
+            ],
+            "sourcePagesLabel": "pp. 315-316",
+            "topicTitle": "Efectos de las sustancias adictivas en el cuerpo humano",
+            "status": "confirmed",
+            "reason": "Las pp. 315-316 amplian el problema del proyecto al dano integral del organismo.",
+            "pedagogicalUse": "Evita que el grupo piense las adicciones solo como tema mental y no corporal.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "implicaciones de las sustancias adictivas en la economia y la sociedad",
+            "description": "Consecuencias del consumo de sustancias en la vida familiar, comunitaria, economica y social.",
+            "sourceBook": "Saberes y Pensamiento Cientifico",
+            "sourcePages": [
+              317
+            ],
+            "sourcePagesLabel": "p. 317",
+            "topicTitle": "Implicaciones de las sustancias adictivas en la economia y la sociedad",
+            "status": "confirmed",
+            "reason": "La p. 317 conecta el dano biologico con el impacto social que tambien menciona el proyecto.",
+            "pedagogicalUse": "Ayuda a leer la problematica como asunto de salud y de comunidad.",
+            "activityReadiness": "usable-for-resonance"
+          },
+          {
+            "concept": "obtencion y representacion de informacion",
+            "description": "Proceso para reunir datos y presentarlos de manera util por medio de tablas y graficas.",
+            "sourceBook": "Saberes y Pensamiento Cientifico",
+            "sourcePages": [
+              108
+            ],
+            "sourcePagesLabel": "p. 108",
+            "topicTitle": "Obtencion y representacion de informacion",
+            "status": "confirmed",
+            "reason": "La p. 108 abre el bloque matematico que Posibilidades vincula con el tercer proyecto del PPA.",
+            "pedagogicalUse": "Permite justificar el uso de graficas como parte del analisis del problema.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "graficas de barras para analizar informacion",
+            "description": "Representaciones visuales que facilitan comparar cantidades, frecuencias o categorias de un problema.",
+            "sourceBook": "Saberes y Pensamiento Cientifico",
+            "sourcePages": [
+              113,
+              114,
+              115,
+              116
+            ],
+            "sourcePagesLabel": "pp. 113-116",
+            "topicTitle": "Graficas de barras para analizar informacion",
+            "status": "confirmed",
+            "reason": "Las pp. 113-116 aparecen en Posibilidades y en el proyecto como apoyo para comprender mejor el tema.",
+            "pedagogicalUse": "Ayuda a mostrar comparaciones de datos sobre el impacto de las adicciones.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "graficas circulares para analizar informacion",
+            "description": "Representaciones que muestran proporciones y distribuciones con respecto a un total.",
+            "sourceBook": "Saberes y Pensamiento Cientifico",
+            "sourcePages": [
+              117,
+              118,
+              119
+            ],
+            "sourcePagesLabel": "pp. 117-119",
+            "topicTitle": "Graficas circulares para analizar informacion",
+            "status": "confirmed",
+            "reason": "Las pp. 117-119 completan el recurso matematico que el PA 3 pide usar en la infografia.",
+            "pedagogicalUse": "Permite destacar proporciones e impactos del problema de forma mas inmediata.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "caracteristicas de las tablas y las graficas",
+            "description": "Rasgos que hacen utiles a las tablas y graficas para ordenar y comunicar informacion.",
+            "sourceBook": "Nuestro libro de proyectos Tomo I",
+            "sourcePages": [
+              127
+            ],
+            "sourcePagesLabel": "p. 127",
+            "topicTitle": "Distintas fuentes de consulta",
+            "status": "suggested",
+            "reason": "Se mencionan como fuente del proyecto, pero el cierre mas solido en el libro del campo se hace por tipos especificos de graficas y no con esta etiqueta general.",
+            "pedagogicalUse": "Sirve como puente didactico sin duplicar indebidamente conceptos ya confirmados en forma mas precisa.",
+            "activityReadiness": "usable-for-resonance"
+          },
+          {
+            "concept": "como afectan las sustancias adictivas a todo el organismo",
+            "description": "Mirada integral sobre el modo en que las adicciones afectan distintos sistemas del cuerpo y la vida cotidiana.",
+            "sourceBook": "Nuestro libro de proyectos Tomo I",
+            "sourcePages": [
+              127
+            ],
+            "sourcePagesLabel": "p. 127",
+            "topicTitle": "Distintas fuentes de consulta",
+            "status": "suggested",
+            "reason": "El proyecto lo explicita como fuente general, pero las paginas validadas del libro del campo lo desarrollan en varios subtemas ya confirmados.",
+            "pedagogicalUse": "Ayuda a mantener la vision integral del problema sin inflar una nueva categoria confirmada.",
+            "activityReadiness": "usable-for-resonance"
+          }
+        ],
+        "thinkingCriteria": [
+          "Relacionar los danos biologicos con las consecuencias familiares y sociales de las adicciones.",
+          "Usar las graficas para comprender mejor el problema y no solo como adorno visual.",
+          "Mantener un tono informativo y preventivo, evitando sensacionalismos."
+        ],
+        "validationStatus": {
+          "readinessLevel": "development-partial",
+          "readyForActivities": false,
+          "needsReviewReasons": [
+            "El bloque ya es usable como lectura docente, pero el video del PPA 1 y el recurso informatico siguen pendientes de validacion de destino final.",
+            "Solo se localizo un apoyo de Multiples Lenguajes confirmado por inferencia de columna para el PA 3.",
+            "La integracion matematica de constantes positivas y negativas en el PA 1 se mantiene visible, pero aun no cierra con una pagina de desarrollo tan firme como los bloques de tablas y graficas."
+          ]
+        },
+        "readinessLevel": "development-partial",
+        "readyForActivities": false,
+        "needsReviewReasons": [
+          "No mover a actividades interactivas ni desbloquear juegos completos."
+        ]
+      }
+    ]
+  },
+  "conceptsValidation": {
+    "grade": "1",
+    "field": "Saberes y Pensamiento Cientifico",
+    "ppaNumber": "1",
+    "status": "concept-validation",
+    "generatedAt": "2026-06-01T11:23:59.349Z",
+    "entries": [
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-1-ppa-1-pa1",
+        "projectTitle": "El gran centro de control!",
+        "concept": "carteles graficos",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Nuestro libro de proyectos Tomo I",
+          "pages": [
+            118,
+            119,
+            120
+          ],
+          "reason": "La planeacion del PPA, Posibilidades y el propio proyecto fijan el cartel grafico como producto central del PA 1."
+        },
+        "pedagogicalUse": "Permite traducir un contenido biologico complejo a una explicacion visual y compartible.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-1-ppa-1-pa1",
+        "projectTitle": "El gran centro de control!",
+        "concept": "sistema nervioso y endocrino",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "pages": [
+            300
+          ],
+          "reason": "La p. 300 abre el bloque biologico del PPA 1 y da el marco general de control del organismo."
+        },
+        "pedagogicalUse": "Ayuda a situar el proyecto dentro del funcionamiento integrado del cuerpo humano.",
+        "activityReadiness": "usable-for-resonance"
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-1-ppa-1-pa1",
+        "projectTitle": "El gran centro de control!",
+        "concept": "el sistema nervioso",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "pages": [
+            301,
+            302
+          ],
+          "reason": "Las pp. 301-302 desarrollan el contenido principal pedido por el PA 1 sobre el centro de control del cuerpo."
+        },
+        "pedagogicalUse": "Da base para reconocer las funciones del cerebro y de la medula espinal en el cartel.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-1-ppa-1-pa1",
+        "projectTitle": "El gran centro de control!",
+        "concept": "sistema nervioso central",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Nuestro libro de proyectos Tomo I",
+          "pages": [
+            119
+          ],
+          "reason": "El proyecto lo nombra de forma explicita como contenido de investigacion y las pp. 301-302 permiten sostener su desarrollo."
+        },
+        "pedagogicalUse": "Vincula directamente la fuente del proyecto con el contenido que se va a exponer.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-1-ppa-1-pa1",
+        "projectTitle": "El gran centro de control!",
+        "concept": "constantes positivas y negativas",
+        "status": "suggested",
+        "evidence": {
+          "sourceBook": "Nuestro libro de proyectos Tomo I",
+          "pages": [
+            119
+          ],
+          "reason": "El proyecto las explicita como fuente, pero no se localizo en este corte la pagina matematica desarrollada con la misma claridad que el bloque biologico."
+        },
+        "pedagogicalUse": "Conviene mantenerla visible para no perder la integracion con matematicas, sin sobreforzar una validacion de pagina aun no cerrada.",
+        "activityReadiness": "usable-for-resonance"
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-1-ppa-1-pa1",
+        "projectTitle": "El gran centro de control!",
+        "concept": "la forma de realizar un cartel grafico",
+        "status": "suggested",
+        "evidence": {
+          "sourceBook": "Nuestro libro de proyectos Tomo I",
+          "pages": [
+            119
+          ],
+          "reason": "Se menciona de manera explicita en el proyecto, pero como procedimiento de trabajo mas que como concepto del libro del campo plenamente confirmado."
+        },
+        "pedagogicalUse": "Orienta el producto sin inflar su peso como concepto academico confirmado.",
+        "activityReadiness": "usable-for-resonance"
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-1-ppa-1-pa2",
+        "projectTitle": "Mensajeros quimicos que apoyan en el control!",
+        "concept": "infografia combinada",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Nuestro libro de proyectos Tomo I",
+          "pages": [
+            121,
+            122,
+            123,
+            124,
+            125
+          ],
+          "reason": "La planeacion del PPA, Posibilidades y el propio proyecto fijan la infografia combinada como producto central del PA 2."
+        },
+        "pedagogicalUse": "Permite reunir informacion cientifica y representacion de datos en una sola pieza explicativa.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-1-ppa-1-pa2",
+        "projectTitle": "Mensajeros quimicos que apoyan en el control!",
+        "concept": "sistema nervioso y endocrino",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "pages": [
+            300
+          ],
+          "reason": "La p. 300 funciona como puerta de entrada para entender por que el sistema endocrino apoya funciones de control del organismo."
+        },
+        "pedagogicalUse": "Ayuda a no aislar el sistema endocrino del resto de los sistemas de coordinacion del cuerpo.",
+        "activityReadiness": "usable-for-resonance"
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-1-ppa-1-pa2",
+        "projectTitle": "Mensajeros quimicos que apoyan en el control!",
+        "concept": "el sistema endocrino",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "pages": [
+            304,
+            305,
+            306
+          ],
+          "reason": "Las pp. 304-306 desarrollan el contenido principal del PA 2 sobre glandulas y regulacion hormonal."
+        },
+        "pedagogicalUse": "Da base para identificar partes, funciones y relaciones entre glandulas y hormonas.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-1-ppa-1-pa2",
+        "projectTitle": "Mensajeros quimicos que apoyan en el control!",
+        "concept": "hormonas: maduracion sexual y reproduccion",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "pages": [
+            307,
+            308,
+            309
+          ],
+          "reason": "Las pp. 307-309 cierran el bloque biologico del proyecto y conectan con la intencion explicita del PA 2."
+        },
+        "pedagogicalUse": "Permite explicar con mas precision el papel del sistema endocrino en la adolescencia.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-1-ppa-1-pa2",
+        "projectTitle": "Mensajeros quimicos que apoyan en el control!",
+        "concept": "obtencion y representacion de informacion",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "pages": [
+            108
+          ],
+          "reason": "La p. 108 abre el bloque matematico que Posibilidades vincula con la segunda columna del PPA 1."
+        },
+        "pedagogicalUse": "Ayuda a organizar como se presentaran los datos del sistema endocrino en la infografia.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-1-ppa-1-pa2",
+        "projectTitle": "Mensajeros quimicos que apoyan en el control!",
+        "concept": "uso de tablas para analizar informacion",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "pages": [
+            110,
+            111,
+            112
+          ],
+          "reason": "Las pp. 110-112 estan explicitamente ligadas al PA 2 en Posibilidades y al uso de tablas que pide el proyecto."
+        },
+        "pedagogicalUse": "Sirve para ordenar informacion sobre glandulas, hormonas y funciones.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-1-ppa-1-pa2",
+        "projectTitle": "Mensajeros quimicos que apoyan en el control!",
+        "concept": "graficas de barras para analizar informacion",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "pages": [
+            113,
+            114,
+            115,
+            116
+          ],
+          "reason": "Las pp. 113-116 aparecen de forma explicita en Posibilidades y en el proyecto como recurso para la infografia."
+        },
+        "pedagogicalUse": "Ayuda a presentar datos de forma comparativa y visual dentro de la infografia.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-1-ppa-1-pa2",
+        "projectTitle": "Mensajeros quimicos que apoyan en el control!",
+        "concept": "graficas circulares para analizar informacion",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "pages": [
+            117,
+            118,
+            119
+          ],
+          "reason": "Las pp. 117-119 completan el bloque matematico del PA 2 y responden a la indicacion expresa de usar graficas."
+        },
+        "pedagogicalUse": "Permite que la infografia muestre proporciones y no solo listados de datos.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-1-ppa-1-pa2",
+        "projectTitle": "Mensajeros quimicos que apoyan en el control!",
+        "concept": "el sistema endocrino del cuerpo humano: glandulas y funciones",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Nuestro libro de proyectos Tomo I",
+          "pages": [
+            124
+          ],
+          "reason": "El proyecto lo explicita como contenido de investigacion y se sostiene con las pp. 304-306 del libro del campo."
+        },
+        "pedagogicalUse": "Ayuda a conectar el lenguaje del proyecto con el desarrollo del libro del campo.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-1-ppa-1-pa2",
+        "projectTitle": "Mensajeros quimicos que apoyan en el control!",
+        "concept": "funcionamiento del sistema endocrino",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Nuestro libro de proyectos Tomo I",
+          "pages": [
+            124
+          ],
+          "reason": "Se menciona como fuente central del proyecto y queda respaldado por el bloque de pp. 304-309."
+        },
+        "pedagogicalUse": "Permite explicar procesos y no solo nombrar glandulas aisladas.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-1-ppa-1-pa3",
+        "projectTitle": "Danos a los centros de control!",
+        "concept": "infografia con dimensiones",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Nuestro libro de proyectos Tomo I",
+          "pages": [
+            126,
+            127,
+            128
+          ],
+          "reason": "La planeacion del PPA, Posibilidades y el propio proyecto fijan la infografia con dimensiones como producto central del PA 3."
+        },
+        "pedagogicalUse": "Permite articular informacion biologica, matematica y social sobre el dano de las adicciones.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-1-ppa-1-pa3",
+        "projectTitle": "Danos a los centros de control!",
+        "concept": "sistema nervioso y endocrino",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "pages": [
+            300
+          ],
+          "reason": "La p. 300 sirve como marco general para comprender por que las sustancias adictivas afectan centros de control del organismo."
+        },
+        "pedagogicalUse": "Ayuda a no tratar las adicciones como un tema aislado del funcionamiento corporal.",
+        "activityReadiness": "usable-for-resonance"
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-1-ppa-1-pa3",
+        "projectTitle": "Danos a los centros de control!",
+        "concept": "el sistema nervioso",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "pages": [
+            301,
+            302
+          ],
+          "reason": "Las pp. 301-302 sostienen la explicacion del proyecto sobre los centros de control afectados por las adicciones."
+        },
+        "pedagogicalUse": "Da la base biologica para comprender el dano antes de pasar a sus efectos especificos.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-1-ppa-1-pa3",
+        "projectTitle": "Danos a los centros de control!",
+        "concept": "sustancias adictivas",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "pages": [
+            312
+          ],
+          "reason": "La p. 312 abre el bloque principal del PA 3 y centra el problema que se va a comunicar en la infografia."
+        },
+        "pedagogicalUse": "Permite definir el tema con claridad antes de analizar sus efectos.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-1-ppa-1-pa3",
+        "projectTitle": "Danos a los centros de control!",
+        "concept": "efectos de las sustancias adictivas en el sistema nervioso",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "pages": [
+            313,
+            314
+          ],
+          "reason": "Las pp. 313-314 desarrollan el contenido mas directamente pedido por el proyecto."
+        },
+        "pedagogicalUse": "Ayuda a explicar por que las adicciones afectan percepciones, decisiones y conductas.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-1-ppa-1-pa3",
+        "projectTitle": "Danos a los centros de control!",
+        "concept": "efectos de las sustancias adictivas en el cuerpo humano",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "pages": [
+            315,
+            316
+          ],
+          "reason": "Las pp. 315-316 amplian el problema del proyecto al dano integral del organismo."
+        },
+        "pedagogicalUse": "Evita que el grupo piense las adicciones solo como tema mental y no corporal.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-1-ppa-1-pa3",
+        "projectTitle": "Danos a los centros de control!",
+        "concept": "implicaciones de las sustancias adictivas en la economia y la sociedad",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "pages": [
+            317
+          ],
+          "reason": "La p. 317 conecta el dano biologico con el impacto social que tambien menciona el proyecto."
+        },
+        "pedagogicalUse": "Ayuda a leer la problematica como asunto de salud y de comunidad.",
+        "activityReadiness": "usable-for-resonance"
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-1-ppa-1-pa3",
+        "projectTitle": "Danos a los centros de control!",
+        "concept": "obtencion y representacion de informacion",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "pages": [
+            108
+          ],
+          "reason": "La p. 108 abre el bloque matematico que Posibilidades vincula con el tercer proyecto del PPA."
+        },
+        "pedagogicalUse": "Permite justificar el uso de graficas como parte del analisis del problema.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-1-ppa-1-pa3",
+        "projectTitle": "Danos a los centros de control!",
+        "concept": "graficas de barras para analizar informacion",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "pages": [
+            113,
+            114,
+            115,
+            116
+          ],
+          "reason": "Las pp. 113-116 aparecen en Posibilidades y en el proyecto como apoyo para comprender mejor el tema."
+        },
+        "pedagogicalUse": "Ayuda a mostrar comparaciones de datos sobre el impacto de las adicciones.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-1-ppa-1-pa3",
+        "projectTitle": "Danos a los centros de control!",
+        "concept": "graficas circulares para analizar informacion",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "pages": [
+            117,
+            118,
+            119
+          ],
+          "reason": "Las pp. 117-119 completan el recurso matematico que el PA 3 pide usar en la infografia."
+        },
+        "pedagogicalUse": "Permite destacar proporciones e impactos del problema de forma mas inmediata.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-1-ppa-1-pa3",
+        "projectTitle": "Danos a los centros de control!",
+        "concept": "caracteristicas de las tablas y las graficas",
+        "status": "suggested",
+        "evidence": {
+          "sourceBook": "Nuestro libro de proyectos Tomo I",
+          "pages": [
+            127
+          ],
+          "reason": "Se mencionan como fuente del proyecto, pero el cierre mas solido en el libro del campo se hace por tipos especificos de graficas y no con esta etiqueta general."
+        },
+        "pedagogicalUse": "Sirve como puente didactico sin duplicar indebidamente conceptos ya confirmados en forma mas precisa.",
+        "activityReadiness": "usable-for-resonance"
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-1-ppa-1-pa3",
+        "projectTitle": "Danos a los centros de control!",
+        "concept": "como afectan las sustancias adictivas a todo el organismo",
+        "status": "suggested",
+        "evidence": {
+          "sourceBook": "Nuestro libro de proyectos Tomo I",
+          "pages": [
+            127
+          ],
+          "reason": "El proyecto lo explicita como fuente general, pero las paginas validadas del libro del campo lo desarrollan en varios subtemas ya confirmados."
+        },
+        "pedagogicalUse": "Ayuda a mantener la vision integral del problema sin inflar una nueva categoria confirmada.",
+        "activityReadiness": "usable-for-resonance"
+      }
+    ]
+  },
+  "pedagogicalArticulation": {
+    "grade": "1",
+    "field": "Saberes y Pensamiento Cientifico",
+    "ppaNumber": "1",
+    "status": "teacher-orientation",
+    "officialHorizonStatus": "pending",
+    "situatedPedagogicalOrientation": "El PPA 1 puede trabajarse como un primer acercamiento integrado entre biologia y matematicas para comprender como el cuerpo humano se regula y que ocurre cuando ese control se altera. PA1 observa el sistema nervioso central mediante carteles graficos; PA2 explica el papel del sistema endocrino con una infografia combinada; y PA3 analiza el impacto de las sustancias adictivas con una infografia con dimensiones. El hilo comun no es solo aprender sistemas del cuerpo o recursos matematicos por separado, sino comprender que la representacion de datos puede ayudar a leer con mas claridad problemas de salud y de cuidado comunitario.",
+    "integratingQuestions": [
+      "Que cambia cuando usamos matematicas para comprender mejor procesos del cuerpo y problemas de salud?",
+      "Relacionar cartel, infografia combinada e infografia con dimensiones como formas distintas de explicar ciencia con claridad.",
+      "Valorar la integracion entre informacion biologica, representacion de datos y prevencion comunitaria."
+    ],
+    "projectConnections": [
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-1-ppa-1-pa1",
+        "projectTitle": "El gran centro de control!",
+        "roleInPpa": "Representacion visual del sistema nervioso central como centro de control del cuerpo, articulando nociones basicas de biologia con apoyo matematico.",
+        "confirmedConcepts": [
+          "carteles graficos",
+          "sistema nervioso y endocrino",
+          "el sistema nervioso",
+          "sistema nervioso central"
+        ],
+        "suggestedConcepts": [
+          "constantes positivas y negativas",
+          "la forma de realizar un cartel grafico"
+        ],
+        "pedagogicalUse": "Conviene trabajar el PA 1 como una explicacion visual del cuerpo en accion, evitando que el cartel se convierta solo en lista de organos o nombres tecnicos."
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-1-ppa-1-pa2",
+        "projectTitle": "Mensajeros quimicos que apoyan en el control!",
+        "roleInPpa": "Explicacion del sistema endocrino y de la regulacion hormonal mediante una infografia que combine tablas, graficas y descripciones del cuerpo humano.",
+        "confirmedConcepts": [
+          "infografia combinada",
+          "sistema nervioso y endocrino",
+          "el sistema endocrino",
+          "hormonas: maduracion sexual y reproduccion",
+          "obtencion y representacion de informacion",
+          "uso de tablas para analizar informacion",
+          "graficas de barras para analizar informacion",
+          "graficas circulares para analizar informacion",
+          "el sistema endocrino del cuerpo humano: glandulas y funciones",
+          "funcionamiento del sistema endocrino"
+        ],
+        "suggestedConcepts": [],
+        "pedagogicalUse": "Conviene trabajar el PA 2 como una investigacion que no se queda en nombres de glandulas, sino que relaciona funciones del cuerpo con formas claras de representacion de datos."
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-1-ppa-1-pa3",
+        "projectTitle": "Danos a los centros de control!",
+        "roleInPpa": "Analisis del impacto de las sustancias adictivas en el organismo y en el sistema nervioso, apoyado en graficas y en una infografia con dimensiones.",
+        "confirmedConcepts": [
+          "infografia con dimensiones",
+          "sistema nervioso y endocrino",
+          "el sistema nervioso",
+          "sustancias adictivas",
+          "efectos de las sustancias adictivas en el sistema nervioso",
+          "efectos de las sustancias adictivas en el cuerpo humano",
+          "implicaciones de las sustancias adictivas en la economia y la sociedad",
+          "obtencion y representacion de informacion",
+          "graficas de barras para analizar informacion",
+          "graficas circulares para analizar informacion"
+        ],
+        "suggestedConcepts": [
+          "caracteristicas de las tablas y las graficas",
+          "como afectan las sustancias adictivas a todo el organismo"
+        ],
+        "pedagogicalUse": "Conviene trabajar el PA 3 como una lectura critica de un problema de salud actual, donde ciencia y matematicas ayuden a comprender mejor y a comunicar con responsabilidad."
+      }
+    ],
+    "criteriaOfThought": [
+      {
+        "criterion": "Relacionar cartel, infografia combinada e infografia con dimensiones como formas distintas de explicar ciencia con claridad.",
+        "status": "suggested"
+      },
+      {
+        "criterion": "Valorar la integracion entre informacion biologica, representacion de datos y prevencion comunitaria.",
+        "status": "suggested"
+      }
+    ],
+    "possibleResonanceQuestion": "Que cambia cuando usamos matematicas para comprender mejor procesos del cuerpo y problemas de salud?",
+    "teacherNotes": [
+      "No conviene tratar el bloque como tres proyectos aislados; los tres ayudan a construir una mirada de control, regulacion y cuidado del organismo.",
+      "Las pp. 6-7 de Posibilidades forman un solo bloque; la segunda pagina solo confirma apoyos y continuidad del PPA.",
+      "El apoyo de Multiples Lenguajes solo queda confirmado con claridad para el PA 3, por lo que no conviene inventar equivalentes para los otros dos proyectos.",
+      "Las tablas y graficas deben ayudar a pensar mejor el tema, no convertirse en un requisito vacio."
+    ],
+    "notReadyFor": [
+      "actividades interactivas",
+      "full-games",
+      "summative-exam"
+    ]
+  },
+  "teacherNotesAndResonances": {
+    "grade": "1",
+    "field": "Saberes y Pensamiento Cientifico",
+    "ppaNumber": "1",
+    "status": "teacher-orientation",
+    "officialHorizonStatus": "pending",
+    "ppaIntegratingResonance": "Que cambia cuando usamos matematicas para comprender mejor procesos del cuerpo y problemas de salud?",
+    "didacticWarnings": [
+      "No convertir el bloque en memorizacion de organos o definiciones; importa comprender funciones y efectos.",
+      "Los enlaces cortos bit.ly/3VfglUk y bit.ly/3WQBMwg se mantienen como cautela y no deben tratarse como recursos ya validados.",
+      "Las pp. 6-7 de Posibilidades forman un solo bloque y la p. 7 solo agrega el apoyo de Multiples Lenguajes confirmado para el PA 3.",
+      "La referencia matematica a constantes positivas y negativas se mantiene en cautela para PA1 hasta localizar una pagina de desarrollo tan clara como las de tablas y graficas."
+    ],
+    "communityPrompts": {
+      "communityKnowledge": [
+        "Que ideas o creencias sobre el cerebro, las hormonas o las adicciones circulan en la comunidad y vale la pena revisar con informacion mas clara?",
+        "Que problemas de salud sienten que requieren explicaciones visuales mas comprensibles para estudiantes y familias?"
+      ],
+      "families": [
+        "Que conversaciones sobre salud, cuerpo o prevencion se comparten en familia y cuales suelen evitarse?",
+        "Que tipo de materiales visuales ayudarian mas en casa para comprender temas de cuidado del cuerpo?"
+      ],
+      "territoryLanguageMemory": [
+        "Que formas de nombrar o entender el cuerpo y la salud se usan en la comunidad?",
+        "Que ejemplos locales ayudan a entender mejor por que conviene prevenir danos al sistema nervioso y al organismo?"
+      ],
+      "productCommunityConnection": [
+        "Como podrian circular los carteles y las infografias para fortalecer la comprension y el cuidado del cuerpo en la comunidad escolar?"
+      ]
+    },
+    "suggestedThinkingCriteria": [
+      "Relacionar cartel, infografia combinada e infografia con dimensiones como formas distintas de explicar ciencia con claridad.",
+      "Valorar la integracion entre informacion biologica, representacion de datos y prevencion comunitaria."
+    ],
+    "projects": [
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-1-ppa-1-pa1",
+        "projectTitle": "El gran centro de control!",
+        "teacherNotes": [
+          "Conviene que el cartel muestre pocas ideas centrales, pero muy claras y apoyadas con imagenes o esquemas sencillos.",
+          "El proyecto gana sentido cuando el grupo explica por que el cerebro y la medula espinal pueden leerse como un gran centro de control.",
+          "Las constantes positivas y negativas deben trabajarse con cuidado como apoyo matematico, sin hacerlas cargar con todo el peso del contenido biologico."
+        ],
+        "confirmedConceptsToUse": [
+          "carteles graficos",
+          "sistema nervioso y endocrino",
+          "el sistema nervioso",
+          "sistema nervioso central"
+        ],
+        "suggestedConceptsToHandleCarefully": [
+          "constantes positivas y negativas",
+          "la forma de realizar un cartel grafico"
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "Que situaciones cotidianas te hacen notar que tu cuerpo responde rapido a lo que ocurre a tu alrededor?",
+            "conceptsActivated": [
+              "el sistema nervioso",
+              "sistema nervioso central"
+            ],
+            "thinkingCriteria": [
+              "Relacionar ciencia y experiencia corporal"
+            ],
+            "suggestedUse": "Apertura del proyecto."
+          },
+          {
+            "type": "collective",
+            "prompt": "Por que podria llamarse al sistema nervioso central un centro de control y no solo una parte mas del cuerpo?",
+            "conceptsActivated": [
+              "sistema nervioso central"
+            ],
+            "thinkingCriteria": [
+              "Explicar funciones y no solo partes"
+            ],
+            "suggestedUse": "Dialogo de planeacion."
+          },
+          {
+            "type": "closing",
+            "prompt": "Despues de elaborar el cartel, que entiendes mejor sobre la forma en que tu cuerpo recibe informacion y responde?",
+            "conceptsActivated": [
+              "carteles graficos"
+            ],
+            "thinkingCriteria": [
+              "Sintetizar lo aprendido"
+            ],
+            "suggestedUse": "Cierre reflexivo."
+          }
+        ],
+        "notReadyFor": [
+          "summative-exam",
+          "full-games",
+          "actividades interactivas"
+        ]
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-1-ppa-1-pa2",
+        "projectTitle": "Mensajeros quimicos que apoyan en el control!",
+        "teacherNotes": [
+          "Conviene seleccionar pocas glandulas o funciones clave para que la infografia no se vuelva excesiva o confusa.",
+          "Las tablas y graficas deben responder a una pregunta real del proyecto, no estar puestas solo por cumplir.",
+          "El tema de la maduracion sexual requiere trato respetuoso, claro y situado al grupo."
+        ],
+        "confirmedConceptsToUse": [
+          "infografia combinada",
+          "sistema nervioso y endocrino",
+          "el sistema endocrino",
+          "hormonas: maduracion sexual y reproduccion",
+          "obtencion y representacion de informacion",
+          "uso de tablas para analizar informacion",
+          "graficas de barras para analizar informacion",
+          "graficas circulares para analizar informacion",
+          "el sistema endocrino del cuerpo humano: glandulas y funciones",
+          "funcionamiento del sistema endocrino"
+        ],
+        "suggestedConceptsToHandleCarefully": [],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "Que cambios del cuerpo y del estado de animo te hacen pensar que no todo se controla de la misma manera dentro del organismo?",
+            "conceptsActivated": [
+              "el sistema endocrino",
+              "hormonas: maduracion sexual y reproduccion"
+            ],
+            "thinkingCriteria": [
+              "Relacionar ciencia y experiencia corporal"
+            ],
+            "suggestedUse": "Apertura del proyecto."
+          },
+          {
+            "type": "collective",
+            "prompt": "Por que una infografia puede ayudar a comprender mejor un tema cientifico que solo una lista larga de datos?",
+            "conceptsActivated": [
+              "infografia combinada",
+              "uso de tablas para analizar informacion"
+            ],
+            "thinkingCriteria": [
+              "Pensar la forma de comunicar ciencia"
+            ],
+            "suggestedUse": "Dialogo de planeacion."
+          },
+          {
+            "type": "closing",
+            "prompt": "Despues de elaborar la infografia, que entiendes mejor sobre el papel de las hormonas en el funcionamiento del organismo?",
+            "conceptsActivated": [
+              "infografia combinada",
+              "hormonas: maduracion sexual y reproduccion"
+            ],
+            "thinkingCriteria": [
+              "Sintetizar lo aprendido"
+            ],
+            "suggestedUse": "Cierre reflexivo."
+          }
+        ],
+        "notReadyFor": [
+          "summative-exam",
+          "full-games",
+          "actividades interactivas"
+        ]
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-1-ppa-1-pa3",
+        "projectTitle": "Danos a los centros de control!",
+        "teacherNotes": [
+          "El proyecto gana profundidad cuando el grupo distingue entre informacion confiable, miedo social y experiencias reales del entorno.",
+          "El cerebro de Einstein puede funcionar como disparador para conversar sobre cerebro, inteligencia y cuidado del sistema nervioso, sin romantizar el dano.",
+          "Conviene cuidar el lenguaje para que la prevencion no se vuelva sermoneo ni estigma hacia personas afectadas."
+        ],
+        "confirmedConceptsToUse": [
+          "infografia con dimensiones",
+          "sistema nervioso y endocrino",
+          "el sistema nervioso",
+          "sustancias adictivas",
+          "efectos de las sustancias adictivas en el sistema nervioso",
+          "efectos de las sustancias adictivas en el cuerpo humano",
+          "implicaciones de las sustancias adictivas en la economia y la sociedad",
+          "obtencion y representacion de informacion",
+          "graficas de barras para analizar informacion",
+          "graficas circulares para analizar informacion"
+        ],
+        "suggestedConceptsToHandleCarefully": [
+          "caracteristicas de las tablas y las graficas",
+          "como afectan las sustancias adictivas a todo el organismo"
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "Por que crees que temas como las adicciones preocupan no solo a quien consume, sino tambien a su familia y a la comunidad?",
+            "conceptsActivated": [
+              "sustancias adictivas",
+              "implicaciones de las sustancias adictivas en la economia y la sociedad"
+            ],
+            "thinkingCriteria": [
+              "Relacionar salud y comunidad"
+            ],
+            "suggestedUse": "Apertura del proyecto."
+          },
+          {
+            "type": "collective",
+            "prompt": "Como pueden ayudarnos las graficas a entender un problema de salud sin reducirlo solo a numeros?",
+            "conceptsActivated": [
+              "graficas de barras para analizar informacion",
+              "graficas circulares para analizar informacion"
+            ],
+            "thinkingCriteria": [
+              "Leer datos con sentido humano"
+            ],
+            "suggestedUse": "Dialogo de planeacion."
+          },
+          {
+            "type": "closing",
+            "prompt": "Despues de elaborar la infografia, que comprendes mejor sobre el dano que las sustancias adictivas causan al sistema nervioso y a la vida comunitaria?",
+            "conceptsActivated": [
+              "infografia con dimensiones",
+              "efectos de las sustancias adictivas en el sistema nervioso"
+            ],
+            "thinkingCriteria": [
+              "Sintetizar lo aprendido"
+            ],
+            "suggestedUse": "Cierre reflexivo."
+          }
+        ],
+        "notReadyFor": [
+          "summative-exam",
+          "full-games",
+          "actividades interactivas"
+        ]
+      }
+    ]
+  },
+  "validationAudit": {
+    "kind": "fine-validation-audit",
+    "source": "reports/caracoles/grade1-saberes-ppa1-reading-bundle-audit.md",
+    "content": "# 1o Saberes y Pensamiento Cientifico - PPA 1 - Lectura docente\n\nFecha: 2026-06-01T11:23:59.349Z\n\n## Alcance\n\n- PPA desarrollado: PPA 1\n- Proyectos incluidos:\n  - PA1 - El gran centro de control!\n  - PA2 - Mensajeros quimicos que apoyan en el control!\n  - PA3 - Danos a los centros de control!\n\n## Fuentes usadas\n\n- Posibilidades de uso SyPC, primer grado, pp. 6-7\n- Nuestro libro de proyectos Tomo I, pp. 116-129\n- Saberes y Pensamiento Cientifico, pp. 300-317\n- Saberes y Pensamiento Cientifico, pp. 108-119\n- Multiples Lenguajes:\n  - El cerebro de Einstein, p. 70\n\n## Validacion visual de columnas\n\n- La p. 6 corresponde al arranque del bloque completo del PPA 1.\n- La p. 7 continua el mismo bloque y solo confirma el apoyo de Multiples Lenguajes para la tercera columna.\n- La asignacion por columna se sostiene por la secuencia de productos:\n  - Columna 1 -> PA1 -> Carteles graficos\n  - Columna 2 -> PA2 -> Infografia combinada\n  - Columna 3 -> PA3 -> Infografia con dimensiones\n- Solo el PA3 conserva apoyo de Multiples Lenguajes confirmado por inferencia de columna:\n  - El cerebro de Einstein, p. 70\n\n## Productos finales por PA\n\n- PA1 -> Carteles graficos\n- PA2 -> Infografia combinada\n- PA3 -> Infografia con dimensiones\n\n## Conceptos confirmados por PA\n\n- PA1:\n  - carteles graficos\n  - sistema nervioso y endocrino\n  - el sistema nervioso\n  - sistema nervioso central\n\n- PA2:\n  - infografia combinada\n  - sistema nervioso y endocrino\n  - el sistema endocrino\n  - hormonas: maduracion sexual y reproduccion\n  - obtencion y representacion de informacion\n  - uso de tablas para analizar informacion\n  - graficas de barras para analizar informacion\n  - graficas circulares para analizar informacion\n  - el sistema endocrino del cuerpo humano: glandulas y funciones\n  - funcionamiento del sistema endocrino\n\n- PA3:\n  - infografia con dimensiones\n  - sistema nervioso y endocrino\n  - el sistema nervioso\n  - sustancias adictivas\n  - efectos de las sustancias adictivas en el sistema nervioso\n  - efectos de las sustancias adictivas en el cuerpo humano\n  - implicaciones de las sustancias adictivas en la economia y la sociedad\n  - obtencion y representacion de informacion\n  - graficas de barras para analizar informacion\n  - graficas circulares para analizar informacion\n\n## Conceptos suggested y needsReview\n\n- PA1 suggested:\n  - constantes positivas y negativas\n  - la forma de realizar un cartel grafico\n\n- PA3 suggested:\n  - caracteristicas de las tablas y las graficas\n  - como afectan las sustancias adictivas a todo el organismo\n\n## Pendientes reales\n\n- Falta localizar un destino oficial confirmado para el video del PPA 1.\n- Los enlaces cortos bit.ly/3VfglUk y bit.ly/3WQBMwg se mantienen en cautela.\n- El horizonte comun del PPA 1 sigue sin formula oficial unica; por ahora se trabaja con los propositos y objetivos de cada PA.\n- La integracion matematica de constantes positivas y negativas en el PA 1 queda visible, pero aun no se cierra con una pagina de desarrollo tan firme como el bloque de tablas y graficas.\n- Solo se localizo un apoyo de Multiples Lenguajes confirmado para el PA 3.\n\n## Bundles publicados esperados\n\n- public/caracoles/data/curricular-development/grade-1-saberes-y-pensamiento-cientifico-ppa-1.json\n\n## Candados\n\n- Sin examen\n- Sin juegos completos desbloqueados\n- Sin actividades interactivas\n- Sin cambio de readyForActivities\n\n"
+  }
+}

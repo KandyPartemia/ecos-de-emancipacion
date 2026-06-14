@@ -1,0 +1,1209 @@
+{
+  "grade": "3",
+  "gradeLabel": "Tercer grado",
+  "field": "De lo Humano y lo Comunitario",
+  "ppaNumber": "4",
+  "partialClassroomProject": "PPA 4",
+  "partialClassroomProjectTitle": "Rally informativo",
+  "source": "curricular-development-generated",
+  "generatedAt": "2026-06-07T03:06:26.006Z",
+  "development": {
+    "grade": "3",
+    "gradeLabel": "Tercer grado",
+    "field": "De lo Humano y lo Comunitario",
+    "bookVolume": "Tomo II",
+    "partialClassroomProject": "PPA 4",
+    "partialClassroomProjectTitle": "Rally informativo",
+    "generatedAt": "2026-06-07T03:06:25.950Z",
+    "notes": "Capa curricular generada por lote para 3o De lo Humano y lo Comunitario, PPA 4.",
+    "sourcesUsed": [
+      "content/caracoles/curricular-catalog/all-projects-canonical.json",
+      "public/caracoles/data/generated/grade-3/concepts-index.json",
+      "src/caracoles/lib/officialVideoLinks.ts",
+      "Posibilidades de uso DHyC, tercer grado, pp. 13-15",
+      "Nuestro libro de proyectos, tercer grado, pp. 249-261"
+    ],
+    "partialClassroomProjectContext": {
+      "expectationHorizon": {
+        "officialText": "",
+        "sourcePages": [
+          "Nuestro libro de proyectos Tomo II pp. 249-253",
+          "Posibilidades de uso DHyC pp. 13-15"
+        ],
+        "evidence": "El PPA 4 articula muestrario funcional, prototipo de energía sustentable, revista de divulgación para trabajar Rally informativo.",
+        "status": "pending"
+      },
+      "ppaDetonatingStrategy": {
+        "title": "Rally informativo",
+        "type": "video",
+        "url": "",
+        "urlStatus": "confirmed-by-official-video-map",
+        "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+        "scope": "partial-classroom-project"
+      },
+      "ppaDigitalResource": {
+        "title": "Recurso del Proyecto Parcial de Aula 4",
+        "reference": "",
+        "status": "confirmed-by-official-video-map",
+        "source": "YouTube, acervo Aprende_MX/Telesecundaria"
+      },
+      "validationStatus": {
+        "needsHumanReview": true,
+        "needsReviewReasons": [
+          "Los videos PA/PPA se validan por el mapa oficial de enlaces directos ya generado.",
+          "Los apoyos complementarios impresos no se asignan cuando no hay evidencia validada por columna.",
+          "El horizonte textual literal queda pendiente de revision fina si se necesita cita exacta."
+        ]
+      },
+      "columnValidation": {
+        "possibilitiesPagesReviewed": [
+          13,
+          14,
+          15
+        ],
+        "confirmedAsPpa": true,
+        "note": "El PPA 4 se agrupa desde el catalogo canonico de tercer grado.",
+        "columns": [
+          {
+            "columnIndex": 1,
+            "projectId": "de-lo-humano-y-lo-comunitario-3-ppa-4-pa10",
+            "projectTitle": "Una muestra de prevención",
+            "finalProduct": "Muestrario funcional",
+            "supportMaterials": []
+          },
+          {
+            "columnIndex": 2,
+            "projectId": "de-lo-humano-y-lo-comunitario-3-ppa-4-pa11",
+            "projectTitle": "Energía disponible",
+            "finalProduct": "Prototipo de energía sustentable",
+            "supportMaterials": []
+          },
+          {
+            "columnIndex": 3,
+            "projectId": "de-lo-humano-y-lo-comunitario-3-ppa-4-pa12",
+            "projectTitle": "Divulgación en comunidad",
+            "finalProduct": "Revista de divulgación",
+            "supportMaterials": []
+          }
+        ]
+      }
+    },
+    "academicProjects": [
+      {
+        "id": "de-lo-humano-y-lo-comunitario-3-ppa-4-pa10",
+        "projectId": "de-lo-humano-y-lo-comunitario-3-ppa-4-pa10",
+        "academicProjectNumber": 10,
+        "title": "Una muestra de prevención",
+        "projectTitle": "Una muestra de prevención",
+        "grade": "3",
+        "field": "De lo Humano y lo Comunitario",
+        "ppaNumber": "4",
+        "partialClassroomProject": "PPA 4",
+        "partialClassroomProjectTitle": "Rally informativo",
+        "bookVolume": "Tomo II",
+        "sourceValidation": {
+          "sourceStatus": "linked",
+          "possibilitiesPages": [
+            13,
+            14,
+            15
+          ],
+          "possibilitiesMaterialId": "grade-3-posibilidades-pos-dhc-3",
+          "possibilitiesColumnIndex": 1,
+          "columnEvidence": "Proyecto PA 10 agrupado en el PPA 4 desde el catalogo canonico y las paginas de Posibilidades."
+        },
+        "finalProduct": {
+          "title": "Muestrario funcional",
+          "source": "Video detonador validado en YouTube + Nuestro libro de proyectos Tomo II pp. 249-253",
+          "status": "confirmed-from-video-and-project"
+        },
+        "sourcePages": {
+          "nuestroLibroProyectos": [
+            {
+              "materialId": "grade-3-proyectos-nuestros-proyectos-tomo-2-tercer-grado",
+              "label": "Nuestro libro de proyectos Tomo II",
+              "startPage": 249,
+              "endPage": 253,
+              "pagesLabel": "pp. 249-253",
+              "topicTitle": "Proyecto academico 10",
+              "status": "confirmed-source"
+            }
+          ],
+          "conceptBook": [
+            {
+              "materialId": "grade-3-conceptos-de-lo-humano-y-lo-comunitario-tercer-grado",
+              "label": "De lo Humano y lo Comunitario",
+              "startPage": 249,
+              "endPage": 249,
+              "pagesLabel": "p. 249",
+              "topicTitle": "Muestrario funcional",
+              "status": "confirmed"
+            }
+          ],
+          "multiplesLenguajes": [],
+          "otherMaterials": [
+            {
+              "label": "Video PA 10: Muestrario funcional • De lo humano y lo comunitario • 3er grado",
+              "reference": "https://www.youtube.com/watch?v=CzPlo2KT0GY",
+              "status": "confirmed"
+            },
+            {
+              "label": "Video PPA 4: 4. Rally informativo • De lo humano y lo comunitario • 3er grado",
+              "reference": "https://www.youtube.com/watch?v=mB-GVH2ccBA",
+              "status": "confirmed"
+            }
+          ]
+        },
+        "supportMaterials": [],
+        "horizonOrPurpose": {
+          "status": "pending",
+          "text": "",
+          "source": "Nuestro libro de proyectos Tomo II pp. 249-253"
+        },
+        "projectExpectationHorizon": {
+          "officialText": "Objetivo 1: Elaborar un muestrario funcional con los riesgos del entorno para prevenir daños para las personas, la comunidad y el medio ambiente. Objetivo 2: Difundir, por medio de un muestrario funcional, el tipo de riesgos a los que está expuesta la comunidad, con el fin de prevenirlos.",
+          "studentVersion": "Elaborar un muestrario funcional con los riesgos del entorno para prevenir daños para las personas, la comunidad y el medio ambiente. Difundir, por medio de un muestrario funcional, el tipo de riesgos a los que está expuesta la comunidad, con el fin de prevenirlos.",
+          "sourcePages": [
+            "Nuestro libro de proyectos Tomo II p. 250"
+          ],
+          "evidence": "Objetivo 1 y Objetivo 2 aparecen como par dentro del rango exacto del PA. Se conserva el rotulo encontrado como evidencia.",
+          "status": "confirmed-from-project-book",
+          "detectedLabel": "Objetivo 1 + Objetivo 2",
+          "validationScope": "academic-project"
+        },
+        "detonatingStrategy": {
+          "title": "4. Rally informativo • De lo humano y lo comunitario • 3er grado",
+          "text": "Video del Proyecto Parcial de Aula 4: 4. Rally informativo • De lo humano y lo comunitario • 3er grado",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=mB-GVH2ccBA",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "partial-classroom-project"
+        },
+        "academicProjectStrategy": {
+          "title": "Muestrario funcional • De lo humano y lo comunitario • 3er grado",
+          "text": "Video detonador del Proyecto Academico 10: Una muestra de prevención",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=CzPlo2KT0GY",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "academic-project"
+        },
+        "academicConcepts": [
+          {
+            "concept": "Muestrario funcional",
+            "description": "Muestrario funcional organiza el producto de cierre y permite comunicar lo aprendido en el proyecto.",
+            "sourceBook": "De lo Humano y lo Comunitario",
+            "sourcePages": [
+              249
+            ],
+            "sourcePagesLabel": "p. 249",
+            "topicTitle": "Proyecto academico 10",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 10, al PPA 4 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Proyecto de vida",
+            "description": "Proyecto de vida ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "De lo Humano y lo Comunitario",
+            "sourcePages": [
+              249
+            ],
+            "sourcePagesLabel": "p. 249",
+            "topicTitle": "Proyecto academico 10",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 10, al PPA 4 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Bienestar",
+            "description": "Bienestar ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "De lo Humano y lo Comunitario",
+            "sourcePages": [
+              249
+            ],
+            "sourcePagesLabel": "p. 249",
+            "topicTitle": "Proyecto academico 10",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 10, al PPA 4 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Prevencion",
+            "description": "Prevencion ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "De lo Humano y lo Comunitario",
+            "sourcePages": [
+              170
+            ],
+            "sourcePagesLabel": "p. 170",
+            "topicTitle": "Proyecto academico 10",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 10, al PPA 4 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Comunidad",
+            "description": "Comunidad ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "De lo Humano y lo Comunitario",
+            "sourcePages": [
+              249
+            ],
+            "sourcePagesLabel": "p. 249",
+            "topicTitle": "Proyecto academico 10",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 10, al PPA 4 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Decisiones",
+            "description": "Decisiones ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "De lo Humano y lo Comunitario",
+            "sourcePages": [
+              249
+            ],
+            "sourcePagesLabel": "p. 249",
+            "topicTitle": "Proyecto academico 10",
+            "status": "suggested",
+            "reason": "Concepto vinculado al PA 10, al PPA 4 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "teacher-review"
+          }
+        ],
+        "thinkingCriteria": [
+          "Relacionar Una muestra de prevención con una situacion concreta del entorno escolar o comunitario.",
+          "Usar muestrario funcional para explicar ideas con claridad y evidencia."
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Como te ayuda muestrario funcional a comprender mejor Una muestra de prevención y a explicar sus conceptos clave en tu comunidad?",
+            "conceptsActivated": [
+              "Muestrario funcional",
+              "Proyecto de vida",
+              "Bienestar",
+              "Prevencion"
+            ],
+            "suggestedUse": "Momento 1 de autoevaluacion"
+          }
+        ],
+        "validationStatus": {
+          "readinessLevel": "curricular-bundle-generated",
+          "readyForActivities": true,
+          "needsReviewReasons": [
+            "El horizonte textual literal queda pendiente de revision fina si se requiere cita exacta.",
+            "Los apoyos complementarios impresos no se asignan cuando no hay evidencia validada por columna."
+          ]
+        },
+        "readinessLevel": "curricular-bundle-generated",
+        "readyForActivities": true,
+        "needsReviewReasons": []
+      },
+      {
+        "id": "de-lo-humano-y-lo-comunitario-3-ppa-4-pa11",
+        "projectId": "de-lo-humano-y-lo-comunitario-3-ppa-4-pa11",
+        "academicProjectNumber": 11,
+        "title": "Energía disponible",
+        "projectTitle": "Energía disponible",
+        "grade": "3",
+        "field": "De lo Humano y lo Comunitario",
+        "ppaNumber": "4",
+        "partialClassroomProject": "PPA 4",
+        "partialClassroomProjectTitle": "Rally informativo",
+        "bookVolume": "Tomo II",
+        "sourceValidation": {
+          "sourceStatus": "linked",
+          "possibilitiesPages": [
+            13,
+            14,
+            15
+          ],
+          "possibilitiesMaterialId": "grade-3-posibilidades-pos-dhc-3",
+          "possibilitiesColumnIndex": 2,
+          "columnEvidence": "Proyecto PA 11 agrupado en el PPA 4 desde el catalogo canonico y las paginas de Posibilidades."
+        },
+        "finalProduct": {
+          "title": "Prototipo de energía sustentable",
+          "source": "Video detonador validado en YouTube + Nuestro libro de proyectos Tomo II pp. 254-257",
+          "status": "confirmed-from-video-and-project"
+        },
+        "sourcePages": {
+          "nuestroLibroProyectos": [
+            {
+              "materialId": "grade-3-proyectos-nuestros-proyectos-tomo-2-tercer-grado",
+              "label": "Nuestro libro de proyectos Tomo II",
+              "startPage": 254,
+              "endPage": 257,
+              "pagesLabel": "pp. 254-257",
+              "topicTitle": "Proyecto academico 11",
+              "status": "confirmed-source"
+            }
+          ],
+          "conceptBook": [
+            {
+              "materialId": "grade-3-conceptos-de-lo-humano-y-lo-comunitario-tercer-grado",
+              "label": "De lo Humano y lo Comunitario",
+              "startPage": 254,
+              "endPage": 254,
+              "pagesLabel": "p. 254",
+              "topicTitle": "Prototipo de energía sustentable",
+              "status": "confirmed"
+            }
+          ],
+          "multiplesLenguajes": [],
+          "otherMaterials": [
+            {
+              "label": "Video PA 11: Prototipo de energía sustentable• De lo humano y lo comunitario • 3er grado",
+              "reference": "https://www.youtube.com/watch?v=DC_u1dj_eGo",
+              "status": "confirmed"
+            },
+            {
+              "label": "Video PPA 4: 4. Rally informativo • De lo humano y lo comunitario • 3er grado",
+              "reference": "https://www.youtube.com/watch?v=mB-GVH2ccBA",
+              "status": "confirmed"
+            }
+          ]
+        },
+        "supportMaterials": [],
+        "horizonOrPurpose": {
+          "status": "pending",
+          "text": "",
+          "source": "Nuestro libro de proyectos Tomo II pp. 254-257"
+        },
+        "projectExpectationHorizon": {
+          "officialText": "Objetivo 1: Elaborar un prototipo de energía sustentable que permita disminuir el uso de combustibles fósiles, para obtener mayor bienestar personal y social en diferentes situaciones y contextos. Objetivo 2: Compartir información acerca de los daños para la salud y el medio ambiente causados por el uso de combustibles fósiles.",
+          "studentVersion": "Elaborar un prototipo de energía sustentable que permita disminuir el uso de combustibles fósiles, para obtener mayor bienestar personal y social en diferentes situaciones y contextos. Compartir información acerca de los daños para la salud y el medio ambiente causados por el uso de combustibles fósiles.",
+          "sourcePages": [
+            "Nuestro libro de proyectos Tomo II p. 255"
+          ],
+          "evidence": "Objetivo 1 y Objetivo 2 aparecen como par dentro del rango exacto del PA. Se conserva el rotulo encontrado como evidencia.",
+          "status": "confirmed-from-project-book",
+          "detectedLabel": "Objetivo 1 + Objetivo 2",
+          "validationScope": "academic-project"
+        },
+        "detonatingStrategy": {
+          "title": "4. Rally informativo • De lo humano y lo comunitario • 3er grado",
+          "text": "Video del Proyecto Parcial de Aula 4: 4. Rally informativo • De lo humano y lo comunitario • 3er grado",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=mB-GVH2ccBA",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "partial-classroom-project"
+        },
+        "academicProjectStrategy": {
+          "title": "Prototipo de energía sustentable• De lo humano y lo comunitario • 3er grado",
+          "text": "Video detonador del Proyecto Academico 11: Energía disponible",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=DC_u1dj_eGo",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "academic-project"
+        },
+        "academicConcepts": [
+          {
+            "concept": "Prototipo de energía sustentable",
+            "description": "Prototipo de energía sustentable organiza el producto de cierre y permite comunicar lo aprendido en el proyecto.",
+            "sourceBook": "De lo Humano y lo Comunitario",
+            "sourcePages": [
+              254
+            ],
+            "sourcePagesLabel": "p. 254",
+            "topicTitle": "Proyecto academico 11",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 11, al PPA 4 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Proyecto de vida",
+            "description": "Proyecto de vida ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "De lo Humano y lo Comunitario",
+            "sourcePages": [
+              254
+            ],
+            "sourcePagesLabel": "p. 254",
+            "topicTitle": "Proyecto academico 11",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 11, al PPA 4 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Bienestar",
+            "description": "Bienestar ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "De lo Humano y lo Comunitario",
+            "sourcePages": [
+              254
+            ],
+            "sourcePagesLabel": "p. 254",
+            "topicTitle": "Proyecto academico 11",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 11, al PPA 4 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Prevencion",
+            "description": "Prevencion ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "De lo Humano y lo Comunitario",
+            "sourcePages": [
+              170
+            ],
+            "sourcePagesLabel": "p. 170",
+            "topicTitle": "Proyecto academico 11",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 11, al PPA 4 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Comunidad",
+            "description": "Comunidad ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "De lo Humano y lo Comunitario",
+            "sourcePages": [
+              254
+            ],
+            "sourcePagesLabel": "p. 254",
+            "topicTitle": "Proyecto academico 11",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 11, al PPA 4 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Decisiones",
+            "description": "Decisiones ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "De lo Humano y lo Comunitario",
+            "sourcePages": [
+              254
+            ],
+            "sourcePagesLabel": "p. 254",
+            "topicTitle": "Proyecto academico 11",
+            "status": "suggested",
+            "reason": "Concepto vinculado al PA 11, al PPA 4 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "teacher-review"
+          }
+        ],
+        "thinkingCriteria": [
+          "Relacionar Energía disponible con una situacion concreta del entorno escolar o comunitario.",
+          "Usar prototipo de energía sustentable para explicar ideas con claridad y evidencia."
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Como te ayuda prototipo de energía sustentable a comprender mejor Energía disponible y a explicar sus conceptos clave en tu comunidad?",
+            "conceptsActivated": [
+              "Prototipo de energía sustentable",
+              "Proyecto de vida",
+              "Bienestar",
+              "Prevencion"
+            ],
+            "suggestedUse": "Momento 1 de autoevaluacion"
+          }
+        ],
+        "validationStatus": {
+          "readinessLevel": "curricular-bundle-generated",
+          "readyForActivities": true,
+          "needsReviewReasons": [
+            "El horizonte textual literal queda pendiente de revision fina si se requiere cita exacta.",
+            "Los apoyos complementarios impresos no se asignan cuando no hay evidencia validada por columna."
+          ]
+        },
+        "readinessLevel": "curricular-bundle-generated",
+        "readyForActivities": true,
+        "needsReviewReasons": []
+      },
+      {
+        "id": "de-lo-humano-y-lo-comunitario-3-ppa-4-pa12",
+        "projectId": "de-lo-humano-y-lo-comunitario-3-ppa-4-pa12",
+        "academicProjectNumber": 12,
+        "title": "Divulgación en comunidad",
+        "projectTitle": "Divulgación en comunidad",
+        "grade": "3",
+        "field": "De lo Humano y lo Comunitario",
+        "ppaNumber": "4",
+        "partialClassroomProject": "PPA 4",
+        "partialClassroomProjectTitle": "Rally informativo",
+        "bookVolume": "Tomo II",
+        "sourceValidation": {
+          "sourceStatus": "linked",
+          "possibilitiesPages": [
+            13,
+            14,
+            15
+          ],
+          "possibilitiesMaterialId": "grade-3-posibilidades-pos-dhc-3",
+          "possibilitiesColumnIndex": 3,
+          "columnEvidence": "Proyecto PA 12 agrupado en el PPA 4 desde el catalogo canonico y las paginas de Posibilidades."
+        },
+        "finalProduct": {
+          "title": "Revista de divulgación",
+          "source": "Video detonador validado en YouTube + Nuestro libro de proyectos Tomo II pp. 258-261",
+          "status": "confirmed-from-video-and-project"
+        },
+        "sourcePages": {
+          "nuestroLibroProyectos": [
+            {
+              "materialId": "grade-3-proyectos-nuestros-proyectos-tomo-2-tercer-grado",
+              "label": "Nuestro libro de proyectos Tomo II",
+              "startPage": 258,
+              "endPage": 261,
+              "pagesLabel": "pp. 258-261",
+              "topicTitle": "Proyecto academico 12",
+              "status": "confirmed-source"
+            }
+          ],
+          "conceptBook": [
+            {
+              "materialId": "grade-3-conceptos-de-lo-humano-y-lo-comunitario-tercer-grado",
+              "label": "De lo Humano y lo Comunitario",
+              "startPage": 258,
+              "endPage": 258,
+              "pagesLabel": "p. 258",
+              "topicTitle": "Revista de divulgación",
+              "status": "confirmed"
+            }
+          ],
+          "multiplesLenguajes": [],
+          "otherMaterials": [
+            {
+              "label": "Video PA 12: Revista de divulgación • De lo humano y lo comunitario • 3er grado",
+              "reference": "https://www.youtube.com/watch?v=L8vccgcRuiA",
+              "status": "confirmed"
+            },
+            {
+              "label": "Video PPA 4: 4. Rally informativo • De lo humano y lo comunitario • 3er grado",
+              "reference": "https://www.youtube.com/watch?v=mB-GVH2ccBA",
+              "status": "confirmed"
+            }
+          ]
+        },
+        "supportMaterials": [],
+        "horizonOrPurpose": {
+          "status": "pending",
+          "text": "",
+          "source": "Nuestro libro de proyectos Tomo II pp. 258-261"
+        },
+        "projectExpectationHorizon": {
+          "officialText": "Objetivo 1: Reconocer los comportamientos negativos de los miembros de la comunidad y su incidencia en los daños a la salud, la inseguridad y el deterioro del medio ambiente. Objetivo 2: Implementar un observatorio comunitario para informar a la comunidad sobre las técnicas, procesos y formas de organización esperadas.",
+          "studentVersion": "Reconocer los comportamientos negativos de los miembros de la comunidad y su incidencia en los daños a la salud, la inseguridad y el deterioro del medio ambiente. Implementar un observatorio comunitario para informar a la comunidad sobre las técnicas, procesos y formas de organización esperadas.",
+          "sourcePages": [
+            "Nuestro libro de proyectos Tomo II p. 259"
+          ],
+          "evidence": "Texto rotulado como Objetivo dentro del rango exacto del Proyecto Academico; se acepta como equivalente funcional de horizonte de expectativas.",
+          "status": "confirmed-from-project-book",
+          "detectedLabel": "Objetivo",
+          "validationScope": "academic-project"
+        },
+        "detonatingStrategy": {
+          "title": "4. Rally informativo • De lo humano y lo comunitario • 3er grado",
+          "text": "Video del Proyecto Parcial de Aula 4: 4. Rally informativo • De lo humano y lo comunitario • 3er grado",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=mB-GVH2ccBA",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "partial-classroom-project"
+        },
+        "academicProjectStrategy": {
+          "title": "Revista de divulgación • De lo humano y lo comunitario • 3er grado",
+          "text": "Video detonador del Proyecto Academico 12: Divulgación en comunidad",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=L8vccgcRuiA",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "academic-project"
+        },
+        "academicConcepts": [
+          {
+            "concept": "Revista de divulgación",
+            "description": "Revista de divulgación organiza el producto de cierre y permite comunicar lo aprendido en el proyecto.",
+            "sourceBook": "De lo Humano y lo Comunitario",
+            "sourcePages": [
+              258
+            ],
+            "sourcePagesLabel": "p. 258",
+            "topicTitle": "Proyecto academico 12",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 12, al PPA 4 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Proyecto de vida",
+            "description": "Proyecto de vida ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "De lo Humano y lo Comunitario",
+            "sourcePages": [
+              258
+            ],
+            "sourcePagesLabel": "p. 258",
+            "topicTitle": "Proyecto academico 12",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 12, al PPA 4 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Bienestar",
+            "description": "Bienestar ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "De lo Humano y lo Comunitario",
+            "sourcePages": [
+              258
+            ],
+            "sourcePagesLabel": "p. 258",
+            "topicTitle": "Proyecto academico 12",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 12, al PPA 4 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Prevencion",
+            "description": "Prevencion ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "De lo Humano y lo Comunitario",
+            "sourcePages": [
+              170
+            ],
+            "sourcePagesLabel": "p. 170",
+            "topicTitle": "Proyecto academico 12",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 12, al PPA 4 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Comunidad",
+            "description": "Comunidad ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "De lo Humano y lo Comunitario",
+            "sourcePages": [
+              258
+            ],
+            "sourcePagesLabel": "p. 258",
+            "topicTitle": "Proyecto academico 12",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 12, al PPA 4 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Decisiones",
+            "description": "Decisiones ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "De lo Humano y lo Comunitario",
+            "sourcePages": [
+              258
+            ],
+            "sourcePagesLabel": "p. 258",
+            "topicTitle": "Proyecto academico 12",
+            "status": "suggested",
+            "reason": "Concepto vinculado al PA 12, al PPA 4 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "teacher-review"
+          }
+        ],
+        "thinkingCriteria": [
+          "Relacionar Divulgación en comunidad con una situacion concreta del entorno escolar o comunitario.",
+          "Usar revista de divulgación para explicar ideas con claridad y evidencia."
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Como te ayuda revista de divulgación a comprender mejor Divulgación en comunidad y a explicar sus conceptos clave en tu comunidad?",
+            "conceptsActivated": [
+              "Revista de divulgación",
+              "Proyecto de vida",
+              "Bienestar",
+              "Prevencion"
+            ],
+            "suggestedUse": "Momento 1 de autoevaluacion"
+          }
+        ],
+        "validationStatus": {
+          "readinessLevel": "curricular-bundle-generated",
+          "readyForActivities": true,
+          "needsReviewReasons": [
+            "El horizonte textual literal queda pendiente de revision fina si se requiere cita exacta.",
+            "Los apoyos complementarios impresos no se asignan cuando no hay evidencia validada por columna."
+          ]
+        },
+        "readinessLevel": "curricular-bundle-generated",
+        "readyForActivities": true,
+        "needsReviewReasons": []
+      }
+    ]
+  },
+  "conceptsValidation": {
+    "grade": "3",
+    "field": "De lo Humano y lo Comunitario",
+    "ppaNumber": "4",
+    "status": "concept-validation",
+    "generatedAt": "2026-06-07T03:06:25.950Z",
+    "entries": [
+      {
+        "projectId": "de-lo-humano-y-lo-comunitario-3-ppa-4-pa10",
+        "projectTitle": "Una muestra de prevención",
+        "concept": "Muestrario funcional",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "pages": [
+            249
+          ],
+          "reason": "Concepto vinculado al PA 10, al PPA 4 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "de-lo-humano-y-lo-comunitario-3-ppa-4-pa10",
+        "projectTitle": "Una muestra de prevención",
+        "concept": "Proyecto de vida",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "pages": [
+            249
+          ],
+          "reason": "Concepto vinculado al PA 10, al PPA 4 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "de-lo-humano-y-lo-comunitario-3-ppa-4-pa10",
+        "projectTitle": "Una muestra de prevención",
+        "concept": "Bienestar",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "pages": [
+            249
+          ],
+          "reason": "Concepto vinculado al PA 10, al PPA 4 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "de-lo-humano-y-lo-comunitario-3-ppa-4-pa10",
+        "projectTitle": "Una muestra de prevención",
+        "concept": "Prevencion",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "pages": [
+            170
+          ],
+          "reason": "Concepto vinculado al PA 10, al PPA 4 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "de-lo-humano-y-lo-comunitario-3-ppa-4-pa10",
+        "projectTitle": "Una muestra de prevención",
+        "concept": "Comunidad",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "pages": [
+            249
+          ],
+          "reason": "Concepto vinculado al PA 10, al PPA 4 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "de-lo-humano-y-lo-comunitario-3-ppa-4-pa10",
+        "projectTitle": "Una muestra de prevención",
+        "concept": "Decisiones",
+        "status": "suggested",
+        "evidence": {
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "pages": [
+            249
+          ],
+          "reason": "Concepto vinculado al PA 10, al PPA 4 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "teacher-review"
+      },
+      {
+        "projectId": "de-lo-humano-y-lo-comunitario-3-ppa-4-pa11",
+        "projectTitle": "Energía disponible",
+        "concept": "Prototipo de energía sustentable",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "pages": [
+            254
+          ],
+          "reason": "Concepto vinculado al PA 11, al PPA 4 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "de-lo-humano-y-lo-comunitario-3-ppa-4-pa11",
+        "projectTitle": "Energía disponible",
+        "concept": "Proyecto de vida",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "pages": [
+            254
+          ],
+          "reason": "Concepto vinculado al PA 11, al PPA 4 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "de-lo-humano-y-lo-comunitario-3-ppa-4-pa11",
+        "projectTitle": "Energía disponible",
+        "concept": "Bienestar",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "pages": [
+            254
+          ],
+          "reason": "Concepto vinculado al PA 11, al PPA 4 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "de-lo-humano-y-lo-comunitario-3-ppa-4-pa11",
+        "projectTitle": "Energía disponible",
+        "concept": "Prevencion",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "pages": [
+            170
+          ],
+          "reason": "Concepto vinculado al PA 11, al PPA 4 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "de-lo-humano-y-lo-comunitario-3-ppa-4-pa11",
+        "projectTitle": "Energía disponible",
+        "concept": "Comunidad",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "pages": [
+            254
+          ],
+          "reason": "Concepto vinculado al PA 11, al PPA 4 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "de-lo-humano-y-lo-comunitario-3-ppa-4-pa11",
+        "projectTitle": "Energía disponible",
+        "concept": "Decisiones",
+        "status": "suggested",
+        "evidence": {
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "pages": [
+            254
+          ],
+          "reason": "Concepto vinculado al PA 11, al PPA 4 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "teacher-review"
+      },
+      {
+        "projectId": "de-lo-humano-y-lo-comunitario-3-ppa-4-pa12",
+        "projectTitle": "Divulgación en comunidad",
+        "concept": "Revista de divulgación",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "pages": [
+            258
+          ],
+          "reason": "Concepto vinculado al PA 12, al PPA 4 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "de-lo-humano-y-lo-comunitario-3-ppa-4-pa12",
+        "projectTitle": "Divulgación en comunidad",
+        "concept": "Proyecto de vida",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "pages": [
+            258
+          ],
+          "reason": "Concepto vinculado al PA 12, al PPA 4 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "de-lo-humano-y-lo-comunitario-3-ppa-4-pa12",
+        "projectTitle": "Divulgación en comunidad",
+        "concept": "Bienestar",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "pages": [
+            258
+          ],
+          "reason": "Concepto vinculado al PA 12, al PPA 4 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "de-lo-humano-y-lo-comunitario-3-ppa-4-pa12",
+        "projectTitle": "Divulgación en comunidad",
+        "concept": "Prevencion",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "pages": [
+            170
+          ],
+          "reason": "Concepto vinculado al PA 12, al PPA 4 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "de-lo-humano-y-lo-comunitario-3-ppa-4-pa12",
+        "projectTitle": "Divulgación en comunidad",
+        "concept": "Comunidad",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "pages": [
+            258
+          ],
+          "reason": "Concepto vinculado al PA 12, al PPA 4 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "de-lo-humano-y-lo-comunitario-3-ppa-4-pa12",
+        "projectTitle": "Divulgación en comunidad",
+        "concept": "Decisiones",
+        "status": "suggested",
+        "evidence": {
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "pages": [
+            258
+          ],
+          "reason": "Concepto vinculado al PA 12, al PPA 4 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "teacher-review"
+      }
+    ]
+  },
+  "pedagogicalArticulation": {
+    "grade": "3",
+    "field": "De lo Humano y lo Comunitario",
+    "ppaNumber": "4",
+    "status": "teacher-orientation",
+    "officialHorizonStatus": "pending",
+    "situatedPedagogicalOrientation": "El PPA 4 propone trabajar Rally informativo mediante productos de cierre, conceptos confirmados y videos directos para reforzar la autoevaluacion.",
+    "integratingQuestions": [
+      "¿Como se relacionan los tres proyectos academicos del PPA 4 con Rally informativo?",
+      "¿Que conceptos necesita dominar el estudiante para explicar su producto final?",
+      "¿Como usar el producto final para comunicar una comprension y no solo presentar informacion?"
+    ],
+    "possibleResonanceQuestion": "¿Que comprension nueva sobre Rally informativo puedes explicar con los productos del PPA 4?",
+    "teacherNotes": [
+      "Usar los videos directos como detonadores, no como enlaces de busqueda.",
+      "Retomar los conceptos confirmados antes de resolver la relacion de columnas y el juego."
+    ],
+    "projectConnections": [
+      {
+        "projectId": "de-lo-humano-y-lo-comunitario-3-ppa-4-pa10",
+        "projectTitle": "Una muestra de prevención",
+        "roleInPpa": "Aporta muestrario funcional al desarrollo del PPA 4.",
+        "confirmedConcepts": [
+          "Muestrario funcional",
+          "Proyecto de vida",
+          "Bienestar",
+          "Prevencion",
+          "Comunidad"
+        ],
+        "suggestedConcepts": [
+          "Decisiones"
+        ],
+        "pedagogicalUse": "Video detonador del Proyecto Academico 10: Una muestra de prevención"
+      },
+      {
+        "projectId": "de-lo-humano-y-lo-comunitario-3-ppa-4-pa11",
+        "projectTitle": "Energía disponible",
+        "roleInPpa": "Aporta prototipo de energía sustentable al desarrollo del PPA 4.",
+        "confirmedConcepts": [
+          "Prototipo de energía sustentable",
+          "Proyecto de vida",
+          "Bienestar",
+          "Prevencion",
+          "Comunidad"
+        ],
+        "suggestedConcepts": [
+          "Decisiones"
+        ],
+        "pedagogicalUse": "Video detonador del Proyecto Academico 11: Energía disponible"
+      },
+      {
+        "projectId": "de-lo-humano-y-lo-comunitario-3-ppa-4-pa12",
+        "projectTitle": "Divulgación en comunidad",
+        "roleInPpa": "Aporta revista de divulgación al desarrollo del PPA 4.",
+        "confirmedConcepts": [
+          "Revista de divulgación",
+          "Proyecto de vida",
+          "Bienestar",
+          "Prevencion",
+          "Comunidad"
+        ],
+        "suggestedConcepts": [
+          "Decisiones"
+        ],
+        "pedagogicalUse": "Video detonador del Proyecto Academico 12: Divulgación en comunidad"
+      }
+    ]
+  },
+  "teacherNotesAndResonances": {
+    "grade": "3",
+    "field": "De lo Humano y lo Comunitario",
+    "ppaNumber": "4",
+    "status": "teacher-notes-and-resonances",
+    "officialHorizonStatus": "pending",
+    "ppaIntegratingResonance": "¿Que comprension nueva sobre Rally informativo puedes explicar con los productos del PPA 4?",
+    "didacticWarnings": [
+      "No sustituir el producto final por la reproduccion del video.",
+      "Evitar marcar apoyos impresos como confirmados si no existe evidencia por columna."
+    ],
+    "communityPrompts": {
+      "territoryLanguageMemory": [
+        "¿Que palabras, practicas o problemas del entorno ayudan a entender mejor este PPA?"
+      ],
+      "productCommunityConnection": [
+        "¿Como puede circular el producto final dentro de la comunidad escolar?"
+      ]
+    },
+    "projects": [
+      {
+        "projectId": "de-lo-humano-y-lo-comunitario-3-ppa-4-pa10",
+        "projectTitle": "Una muestra de prevención",
+        "teacherNotes": [
+          "Retomar muestrario funcional como evidencia del aprendizaje.",
+          "Usar los conceptos confirmados para orientar la autoevaluacion."
+        ],
+        "confirmedConceptsToUse": [
+          "Muestrario funcional",
+          "Proyecto de vida",
+          "Bienestar",
+          "Prevencion",
+          "Comunidad"
+        ],
+        "suggestedConceptsToHandleCarefully": [
+          "Decisiones"
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Como te ayuda muestrario funcional a comprender mejor Una muestra de prevención y a explicar sus conceptos clave en tu comunidad?",
+            "conceptsActivated": [
+              "Muestrario funcional",
+              "Proyecto de vida",
+              "Bienestar",
+              "Prevencion"
+            ],
+            "suggestedUse": "Momento 1 de autoevaluacion"
+          }
+        ],
+        "notReadyFor": []
+      },
+      {
+        "projectId": "de-lo-humano-y-lo-comunitario-3-ppa-4-pa11",
+        "projectTitle": "Energía disponible",
+        "teacherNotes": [
+          "Retomar prototipo de energía sustentable como evidencia del aprendizaje.",
+          "Usar los conceptos confirmados para orientar la autoevaluacion."
+        ],
+        "confirmedConceptsToUse": [
+          "Prototipo de energía sustentable",
+          "Proyecto de vida",
+          "Bienestar",
+          "Prevencion",
+          "Comunidad"
+        ],
+        "suggestedConceptsToHandleCarefully": [
+          "Decisiones"
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Como te ayuda prototipo de energía sustentable a comprender mejor Energía disponible y a explicar sus conceptos clave en tu comunidad?",
+            "conceptsActivated": [
+              "Prototipo de energía sustentable",
+              "Proyecto de vida",
+              "Bienestar",
+              "Prevencion"
+            ],
+            "suggestedUse": "Momento 1 de autoevaluacion"
+          }
+        ],
+        "notReadyFor": []
+      },
+      {
+        "projectId": "de-lo-humano-y-lo-comunitario-3-ppa-4-pa12",
+        "projectTitle": "Divulgación en comunidad",
+        "teacherNotes": [
+          "Retomar revista de divulgación como evidencia del aprendizaje.",
+          "Usar los conceptos confirmados para orientar la autoevaluacion."
+        ],
+        "confirmedConceptsToUse": [
+          "Revista de divulgación",
+          "Proyecto de vida",
+          "Bienestar",
+          "Prevencion",
+          "Comunidad"
+        ],
+        "suggestedConceptsToHandleCarefully": [
+          "Decisiones"
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Como te ayuda revista de divulgación a comprender mejor Divulgación en comunidad y a explicar sus conceptos clave en tu comunidad?",
+            "conceptsActivated": [
+              "Revista de divulgación",
+              "Proyecto de vida",
+              "Bienestar",
+              "Prevencion"
+            ],
+            "suggestedUse": "Momento 1 de autoevaluacion"
+          }
+        ],
+        "notReadyFor": []
+      }
+    ]
+  },
+  "validationAudit": {
+    "kind": "generated-validation-audit",
+    "source": "reports/caracoles/grade3-humano-ppa4-reading-bundle-audit.md",
+    "content": "# Bundle curricular tercer grado\n\n- Campo: De lo Humano y lo Comunitario\n- PPA: 4\n- Titulo: Rally informativo\n- Proyectos: PA10, PA11, PA12\n- Estado: generado y publicado\n- Cautela: horizonte literal y apoyos impresos por columna pendientes de revision fina.\n"
+  }
+}

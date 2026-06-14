@@ -1,0 +1,1205 @@
+{
+  "grade": "3",
+  "gradeLabel": "Tercer grado",
+  "field": "Lenguajes",
+  "ppaNumber": "3",
+  "partialClassroomProject": "PPA 3",
+  "partialClassroomProjectTitle": "Nuestro desarrollo mediante la cultura",
+  "source": "curricular-development-generated",
+  "generatedAt": "2026-06-07T03:06:27.130Z",
+  "development": {
+    "grade": "3",
+    "gradeLabel": "Tercer grado",
+    "field": "Lenguajes",
+    "bookVolume": "Tomo I",
+    "partialClassroomProject": "PPA 3",
+    "partialClassroomProjectTitle": "Nuestro desarrollo mediante la cultura",
+    "generatedAt": "2026-06-07T03:06:27.077Z",
+    "notes": "Capa curricular generada por lote para 3o Lenguajes, PPA 3.",
+    "sourcesUsed": [
+      "content/caracoles/curricular-catalog/all-projects-canonical.json",
+      "public/caracoles/data/generated/grade-3/concepts-index.json",
+      "src/caracoles/lib/officialVideoLinks.ts",
+      "Posibilidades de uso Lenguajes, tercer grado, pp. 10-11",
+      "Nuestro libro de proyectos, tercer grado, pp. 69-80"
+    ],
+    "partialClassroomProjectContext": {
+      "expectationHorizon": {
+        "officialText": "",
+        "sourcePages": [
+          "Nuestro libro de proyectos Tomo I pp. 69-72",
+          "Posibilidades de uso Lenguajes pp. 10-11"
+        ],
+        "evidence": "El PPA 3 articula 7. arte, lengua y cultura: las manifestaciones de nuestro lugar, 1. ¡nuestras culturas y lenguas: todas cuentan y valen!, 9. ¡nuestro entorno como inspiración! para trabajar Nuestro desarrollo mediante la cultura.",
+        "status": "pending"
+      },
+      "ppaDetonatingStrategy": {
+        "title": "Nuestro desarrollo mediante la cultura",
+        "type": "video",
+        "url": "",
+        "urlStatus": "confirmed-by-official-video-map",
+        "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+        "scope": "partial-classroom-project"
+      },
+      "ppaDigitalResource": {
+        "title": "Recurso del Proyecto Parcial de Aula 3",
+        "reference": "",
+        "status": "confirmed-by-official-video-map",
+        "source": "YouTube, acervo Aprende_MX/Telesecundaria"
+      },
+      "validationStatus": {
+        "needsHumanReview": true,
+        "needsReviewReasons": [
+          "Los videos PA/PPA se validan por el mapa oficial de enlaces directos ya generado.",
+          "Los apoyos complementarios impresos no se asignan cuando no hay evidencia validada por columna.",
+          "El horizonte textual literal queda pendiente de revision fina si se necesita cita exacta."
+        ]
+      },
+      "columnValidation": {
+        "possibilitiesPagesReviewed": [
+          10,
+          11
+        ],
+        "confirmedAsPpa": true,
+        "note": "El PPA 3 se agrupa desde el catalogo canonico de tercer grado.",
+        "columns": [
+          {
+            "columnIndex": 1,
+            "projectId": "lenguajes-3-ppa-3-pa7",
+            "projectTitle": "Un mundo de voces",
+            "finalProduct": "7. Arte, lengua y cultura: las manifestaciones de nuestro lugar",
+            "supportMaterials": []
+          },
+          {
+            "columnIndex": 2,
+            "projectId": "lenguajes-3-ppa-3-pa8",
+            "projectTitle": "Un viaje por las culturas",
+            "finalProduct": "1. ¡Nuestras culturas y lenguas: todas cuentan y valen!",
+            "supportMaterials": []
+          },
+          {
+            "columnIndex": 3,
+            "projectId": "lenguajes-3-ppa-3-pa9",
+            "projectTitle": "Tejiendo voces ancestrales",
+            "finalProduct": "9. ¡Nuestro entorno como inspiración!",
+            "supportMaterials": []
+          }
+        ]
+      }
+    },
+    "academicProjects": [
+      {
+        "id": "lenguajes-3-ppa-3-pa7",
+        "projectId": "lenguajes-3-ppa-3-pa7",
+        "academicProjectNumber": 7,
+        "title": "Un mundo de voces",
+        "projectTitle": "Un mundo de voces",
+        "grade": "3",
+        "field": "Lenguajes",
+        "ppaNumber": "3",
+        "partialClassroomProject": "PPA 3",
+        "partialClassroomProjectTitle": "Nuestro desarrollo mediante la cultura",
+        "bookVolume": "Tomo I",
+        "sourceValidation": {
+          "sourceStatus": "linked",
+          "possibilitiesPages": [
+            10,
+            11
+          ],
+          "possibilitiesMaterialId": "grade-3-posibilidades-pos-len-3",
+          "possibilitiesColumnIndex": 1,
+          "columnEvidence": "Proyecto PA 7 agrupado en el PPA 3 desde el catalogo canonico y las paginas de Posibilidades."
+        },
+        "finalProduct": {
+          "title": "7. Arte, lengua y cultura: las manifestaciones de nuestro lugar",
+          "source": "Video detonador validado en YouTube + Nuestro libro de proyectos Tomo I pp. 69-72",
+          "status": "confirmed-from-video-and-project"
+        },
+        "sourcePages": {
+          "nuestroLibroProyectos": [
+            {
+              "materialId": "grade-3-proyectos-nuestros-proyectos-tomo-1-tercer-grado",
+              "label": "Nuestro libro de proyectos Tomo I",
+              "startPage": 69,
+              "endPage": 72,
+              "pagesLabel": "pp. 69-72",
+              "topicTitle": "Proyecto academico 7",
+              "status": "confirmed-source"
+            }
+          ],
+          "conceptBook": [
+            {
+              "materialId": "grade-3-conceptos-lenguajes-tercer-grado",
+              "label": "Lenguajes",
+              "startPage": 69,
+              "endPage": 69,
+              "pagesLabel": "p. 69",
+              "topicTitle": "7. arte, lengua y cultura: las manifestaciones de nuestro lugar",
+              "status": "confirmed"
+            }
+          ],
+          "multiplesLenguajes": [],
+          "otherMaterials": [
+            {
+              "label": "Video PA 7: 7. Arte, lengua y cultura: las manifestaciones de nuestro lugar • Lenguajes • 3er grado",
+              "reference": "https://www.youtube.com/watch?v=VSQPEFeAP1A",
+              "status": "confirmed"
+            },
+            {
+              "label": "Video PPA 3: 3. Nuestro desarrollo mediante la cultura • Lenguajes • 3er grado",
+              "reference": "https://www.youtube.com/watch?v=X9CtuQoBu48",
+              "status": "confirmed"
+            }
+          ]
+        },
+        "supportMaterials": [],
+        "horizonOrPurpose": {
+          "status": "pending",
+          "text": "",
+          "source": "Nuestro libro de proyectos Tomo I pp. 69-72"
+        },
+        "projectExpectationHorizon": {
+          "officialText": "Objetivo 1: Realizar una reflexión acerca de la importancia que tienen las lenguas en la formación, tanto individual como colectiva, de las personas y, con base en ello, realizar un recital multilingüístico. Objetivo 2: Identificar las diferentes lenguas que se hablan en el país y de qué manera influyen en la identidad personal y colectiva de las personas, esto con el fin de hacer un recital multilingüístico.",
+          "studentVersion": "Realizar una reflexión acerca de la importancia que tienen las lenguas en la formación, tanto individual como colectiva, de las personas y, con base en ello, realizar un recital multilingüístico. Identificar las diferentes lenguas que se hablan en el país y de qué manera influyen en la identidad personal y colectiva de las personas, esto con el fin de hacer un recital multilingüístico.",
+          "sourcePages": [
+            "Nuestro libro de proyectos Tomo I p. 70"
+          ],
+          "evidence": "Texto rotulado como Objetivo dentro del rango exacto del Proyecto Academico; se acepta como equivalente funcional de horizonte de expectativas.",
+          "status": "confirmed-from-project-book",
+          "detectedLabel": "Objetivo",
+          "validationScope": "academic-project"
+        },
+        "detonatingStrategy": {
+          "title": "3. Nuestro desarrollo mediante la cultura • Lenguajes • 3er grado",
+          "text": "Video del Proyecto Parcial de Aula 3: 3. Nuestro desarrollo mediante la cultura • Lenguajes • 3er grado",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=X9CtuQoBu48",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "partial-classroom-project"
+        },
+        "academicProjectStrategy": {
+          "title": "7. Arte, lengua y cultura: las manifestaciones de nuestro lugar • Lenguajes • 3er grado",
+          "text": "Video detonador del Proyecto Academico 7: Un mundo de voces",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=VSQPEFeAP1A",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "academic-project"
+        },
+        "academicConcepts": [
+          {
+            "concept": "7. arte, lengua y cultura: las manifestaciones de nuestro lugar",
+            "description": "7. arte, lengua y cultura: las manifestaciones de nuestro lugar organiza el producto de cierre y permite comunicar lo aprendido en el proyecto.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              69
+            ],
+            "sourcePagesLabel": "p. 69",
+            "topicTitle": "Proyecto academico 7",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 7, al PPA 3 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Lenguaje",
+            "description": "Lenguaje ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              69
+            ],
+            "sourcePagesLabel": "p. 69",
+            "topicTitle": "Proyecto academico 7",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 7, al PPA 3 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Cultura",
+            "description": "Cultura ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              154
+            ],
+            "sourcePagesLabel": "p. 154",
+            "topicTitle": "Proyecto academico 7",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 7, al PPA 3 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Comunicacion",
+            "description": "Comunicacion ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              69
+            ],
+            "sourcePagesLabel": "p. 69",
+            "topicTitle": "Proyecto academico 7",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 7, al PPA 3 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Lectura",
+            "description": "Lectura ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              69
+            ],
+            "sourcePagesLabel": "p. 69",
+            "topicTitle": "Proyecto academico 7",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 7, al PPA 3 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Escritura",
+            "description": "Escritura ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              69
+            ],
+            "sourcePagesLabel": "p. 69",
+            "topicTitle": "Proyecto academico 7",
+            "status": "suggested",
+            "reason": "Concepto vinculado al PA 7, al PPA 3 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "teacher-review"
+          }
+        ],
+        "thinkingCriteria": [
+          "Relacionar Un mundo de voces con una situacion concreta del entorno escolar o comunitario.",
+          "Usar 7. arte, lengua y cultura: las manifestaciones de nuestro lugar para explicar ideas con claridad y evidencia."
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Como te ayuda 7. arte, lengua y cultura: las manifestaciones de nuestro lugar a comprender mejor Un mundo de voces y a explicar sus conceptos clave en tu comunidad?",
+            "conceptsActivated": [
+              "7. arte, lengua y cultura: las manifestaciones de nuestro lugar",
+              "Lenguaje",
+              "Cultura",
+              "Comunicacion"
+            ],
+            "suggestedUse": "Momento 1 de autoevaluacion"
+          }
+        ],
+        "validationStatus": {
+          "readinessLevel": "curricular-bundle-generated",
+          "readyForActivities": true,
+          "needsReviewReasons": [
+            "El horizonte textual literal queda pendiente de revision fina si se requiere cita exacta.",
+            "Los apoyos complementarios impresos no se asignan cuando no hay evidencia validada por columna."
+          ]
+        },
+        "readinessLevel": "curricular-bundle-generated",
+        "readyForActivities": true,
+        "needsReviewReasons": []
+      },
+      {
+        "id": "lenguajes-3-ppa-3-pa8",
+        "projectId": "lenguajes-3-ppa-3-pa8",
+        "academicProjectNumber": 8,
+        "title": "Un viaje por las culturas",
+        "projectTitle": "Un viaje por las culturas",
+        "grade": "3",
+        "field": "Lenguajes",
+        "ppaNumber": "3",
+        "partialClassroomProject": "PPA 3",
+        "partialClassroomProjectTitle": "Nuestro desarrollo mediante la cultura",
+        "bookVolume": "Tomo I",
+        "sourceValidation": {
+          "sourceStatus": "linked",
+          "possibilitiesPages": [
+            10,
+            11
+          ],
+          "possibilitiesMaterialId": "grade-3-posibilidades-pos-len-3",
+          "possibilitiesColumnIndex": 2,
+          "columnEvidence": "Proyecto PA 8 agrupado en el PPA 3 desde el catalogo canonico y las paginas de Posibilidades."
+        },
+        "finalProduct": {
+          "title": "1. ¡Nuestras culturas y lenguas: todas cuentan y valen!",
+          "source": "Video detonador validado en YouTube + Nuestro libro de proyectos Tomo I pp. 73-76",
+          "status": "confirmed-from-video-and-project"
+        },
+        "sourcePages": {
+          "nuestroLibroProyectos": [
+            {
+              "materialId": "grade-3-proyectos-nuestros-proyectos-tomo-1-tercer-grado",
+              "label": "Nuestro libro de proyectos Tomo I",
+              "startPage": 73,
+              "endPage": 76,
+              "pagesLabel": "pp. 73-76",
+              "topicTitle": "Proyecto academico 8",
+              "status": "confirmed-source"
+            }
+          ],
+          "conceptBook": [
+            {
+              "materialId": "grade-3-conceptos-lenguajes-tercer-grado",
+              "label": "Lenguajes",
+              "startPage": 73,
+              "endPage": 73,
+              "pagesLabel": "p. 73",
+              "topicTitle": "1. ¡nuestras culturas y lenguas: todas cuentan y valen!",
+              "status": "confirmed"
+            }
+          ],
+          "multiplesLenguajes": [],
+          "otherMaterials": [
+            {
+              "label": "Video PA 8: 1. ¡Nuestras culturas y lenguas: todas cuentan y valen! • Lenguajes • 3er grado",
+              "reference": "https://www.youtube.com/watch?v=06JX4U3DnfA",
+              "status": "confirmed"
+            },
+            {
+              "label": "Video PPA 3: 3. Nuestro desarrollo mediante la cultura • Lenguajes • 3er grado",
+              "reference": "https://www.youtube.com/watch?v=X9CtuQoBu48",
+              "status": "confirmed"
+            }
+          ]
+        },
+        "supportMaterials": [],
+        "horizonOrPurpose": {
+          "status": "pending",
+          "text": "",
+          "source": "Nuestro libro de proyectos Tomo I pp. 73-76"
+        },
+        "projectExpectationHorizon": {
+          "officialText": "Objetivo 1: Realizar una reflexión acerca de la diversidad cultural que existe en México y el mundo para su valoración y promoción en una feria cultural. Objetivo 2: Realizar una feria cultural en la que, organizados en comunidades, expongan los distintos lenguajes artísticos y lenguas de México y el mundo.",
+          "studentVersion": "Realizar una reflexión acerca de la diversidad cultural que existe en México y el mundo para su valoración y promoción en una feria cultural. Realizar una feria cultural en la que, organizados en comunidades, expongan los distintos lenguajes artísticos y lenguas de México y el mundo.",
+          "sourcePages": [
+            "Nuestro libro de proyectos Tomo I p. 74"
+          ],
+          "evidence": "Texto rotulado como Objetivo dentro del rango exacto del Proyecto Academico; se acepta como equivalente funcional de horizonte de expectativas.",
+          "status": "confirmed-from-project-book",
+          "detectedLabel": "Objetivo",
+          "validationScope": "academic-project"
+        },
+        "detonatingStrategy": {
+          "title": "3. Nuestro desarrollo mediante la cultura • Lenguajes • 3er grado",
+          "text": "Video del Proyecto Parcial de Aula 3: 3. Nuestro desarrollo mediante la cultura • Lenguajes • 3er grado",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=X9CtuQoBu48",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "partial-classroom-project"
+        },
+        "academicProjectStrategy": {
+          "title": "1. ¡Nuestras culturas y lenguas: todas cuentan y valen! • Lenguajes • 3er grado",
+          "text": "Video detonador del Proyecto Academico 8: Un viaje por las culturas",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=06JX4U3DnfA",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "academic-project"
+        },
+        "academicConcepts": [
+          {
+            "concept": "1. ¡nuestras culturas y lenguas: todas cuentan y valen!",
+            "description": "1. ¡nuestras culturas y lenguas: todas cuentan y valen! organiza el producto de cierre y permite comunicar lo aprendido en el proyecto.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              73
+            ],
+            "sourcePagesLabel": "p. 73",
+            "topicTitle": "Proyecto academico 8",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 8, al PPA 3 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Lenguaje",
+            "description": "Lenguaje ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              73
+            ],
+            "sourcePagesLabel": "p. 73",
+            "topicTitle": "Proyecto academico 8",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 8, al PPA 3 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Cultura",
+            "description": "Cultura ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              154
+            ],
+            "sourcePagesLabel": "p. 154",
+            "topicTitle": "Proyecto academico 8",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 8, al PPA 3 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Comunicacion",
+            "description": "Comunicacion ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              73
+            ],
+            "sourcePagesLabel": "p. 73",
+            "topicTitle": "Proyecto academico 8",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 8, al PPA 3 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Lectura",
+            "description": "Lectura ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              73
+            ],
+            "sourcePagesLabel": "p. 73",
+            "topicTitle": "Proyecto academico 8",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 8, al PPA 3 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Escritura",
+            "description": "Escritura ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              73
+            ],
+            "sourcePagesLabel": "p. 73",
+            "topicTitle": "Proyecto academico 8",
+            "status": "suggested",
+            "reason": "Concepto vinculado al PA 8, al PPA 3 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "teacher-review"
+          }
+        ],
+        "thinkingCriteria": [
+          "Relacionar Un viaje por las culturas con una situacion concreta del entorno escolar o comunitario.",
+          "Usar 1. ¡nuestras culturas y lenguas: todas cuentan y valen! para explicar ideas con claridad y evidencia."
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Como te ayuda 1. ¡nuestras culturas y lenguas: todas cuentan y valen! a comprender mejor Un viaje por las culturas y a explicar sus conceptos clave en tu comunidad?",
+            "conceptsActivated": [
+              "1. ¡nuestras culturas y lenguas: todas cuentan y valen!",
+              "Lenguaje",
+              "Cultura",
+              "Comunicacion"
+            ],
+            "suggestedUse": "Momento 1 de autoevaluacion"
+          }
+        ],
+        "validationStatus": {
+          "readinessLevel": "curricular-bundle-generated",
+          "readyForActivities": true,
+          "needsReviewReasons": [
+            "El horizonte textual literal queda pendiente de revision fina si se requiere cita exacta.",
+            "Los apoyos complementarios impresos no se asignan cuando no hay evidencia validada por columna."
+          ]
+        },
+        "readinessLevel": "curricular-bundle-generated",
+        "readyForActivities": true,
+        "needsReviewReasons": []
+      },
+      {
+        "id": "lenguajes-3-ppa-3-pa9",
+        "projectId": "lenguajes-3-ppa-3-pa9",
+        "academicProjectNumber": 9,
+        "title": "Tejiendo voces ancestrales",
+        "projectTitle": "Tejiendo voces ancestrales",
+        "grade": "3",
+        "field": "Lenguajes",
+        "ppaNumber": "3",
+        "partialClassroomProject": "PPA 3",
+        "partialClassroomProjectTitle": "Nuestro desarrollo mediante la cultura",
+        "bookVolume": "Tomo I",
+        "sourceValidation": {
+          "sourceStatus": "linked",
+          "possibilitiesPages": [
+            10,
+            11
+          ],
+          "possibilitiesMaterialId": "grade-3-posibilidades-pos-len-3",
+          "possibilitiesColumnIndex": 3,
+          "columnEvidence": "Proyecto PA 9 agrupado en el PPA 3 desde el catalogo canonico y las paginas de Posibilidades."
+        },
+        "finalProduct": {
+          "title": "9. ¡Nuestro entorno como inspiración!",
+          "source": "Video detonador validado en YouTube + Nuestro libro de proyectos Tomo I pp. 77-80",
+          "status": "confirmed-from-video-and-project"
+        },
+        "sourcePages": {
+          "nuestroLibroProyectos": [
+            {
+              "materialId": "grade-3-proyectos-nuestros-proyectos-tomo-1-tercer-grado",
+              "label": "Nuestro libro de proyectos Tomo I",
+              "startPage": 77,
+              "endPage": 80,
+              "pagesLabel": "pp. 77-80",
+              "topicTitle": "Proyecto academico 9",
+              "status": "confirmed-source"
+            }
+          ],
+          "conceptBook": [
+            {
+              "materialId": "grade-3-conceptos-lenguajes-tercer-grado",
+              "label": "Lenguajes",
+              "startPage": 77,
+              "endPage": 77,
+              "pagesLabel": "p. 77",
+              "topicTitle": "9. ¡nuestro entorno como inspiración!",
+              "status": "confirmed"
+            }
+          ],
+          "multiplesLenguajes": [],
+          "otherMaterials": [
+            {
+              "label": "Video PA 9: 9. ¡Nuestro entorno como inspiración! • Lenguajes • 3er grado",
+              "reference": "https://www.youtube.com/watch?v=YY4mXpH6xsc",
+              "status": "confirmed"
+            },
+            {
+              "label": "Video PPA 3: 3. Nuestro desarrollo mediante la cultura • Lenguajes • 3er grado",
+              "reference": "https://www.youtube.com/watch?v=X9CtuQoBu48",
+              "status": "confirmed"
+            }
+          ]
+        },
+        "supportMaterials": [],
+        "horizonOrPurpose": {
+          "status": "pending",
+          "text": "",
+          "source": "Nuestro libro de proyectos Tomo I pp. 77-80"
+        },
+        "projectExpectationHorizon": {
+          "officialText": "Objetivo 1: Realizar una investigación de las lenguas indígenas de su comunidad que clarifique cuáles son sus características y situación en el país, para comparar su estado frente al de otras lenguas (como el español o el inglés) mediante un reporte argumentativo. Objetivo 2: Investigar las características de los textos argumentativos y los reportes, así como de las lenguas indígenas y su posición frente a otras lenguas, y hacer un reporte argumentativo para promoverlas y fortalecerlas.",
+          "studentVersion": "Realizar una investigación de las lenguas indígenas de su comunidad que clarifique cuáles son sus características y situación en el país, para comparar su estado frente al de otras lenguas (como el español o el inglés) mediante un reporte argumentativo. Investigar las características de los textos argumentativos y los reportes, así como de las lenguas indígenas y su posición frente a otras lenguas, y hacer un reporte argumentativo para promoverlas y fortalecerlas.",
+          "sourcePages": [
+            "Nuestro libro de proyectos Tomo I p. 78"
+          ],
+          "evidence": "Texto rotulado como Objetivo dentro del rango exacto del Proyecto Academico; se acepta como equivalente funcional de horizonte de expectativas.",
+          "status": "confirmed-from-project-book",
+          "detectedLabel": "Objetivo",
+          "validationScope": "academic-project"
+        },
+        "detonatingStrategy": {
+          "title": "3. Nuestro desarrollo mediante la cultura • Lenguajes • 3er grado",
+          "text": "Video del Proyecto Parcial de Aula 3: 3. Nuestro desarrollo mediante la cultura • Lenguajes • 3er grado",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=X9CtuQoBu48",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "partial-classroom-project"
+        },
+        "academicProjectStrategy": {
+          "title": "9. ¡Nuestro entorno como inspiración! • Lenguajes • 3er grado",
+          "text": "Video detonador del Proyecto Academico 9: Tejiendo voces ancestrales",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=YY4mXpH6xsc",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "academic-project"
+        },
+        "academicConcepts": [
+          {
+            "concept": "9. ¡nuestro entorno como inspiración!",
+            "description": "9. ¡nuestro entorno como inspiración! organiza el producto de cierre y permite comunicar lo aprendido en el proyecto.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              77
+            ],
+            "sourcePagesLabel": "p. 77",
+            "topicTitle": "Proyecto academico 9",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 9, al PPA 3 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Lenguaje",
+            "description": "Lenguaje ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              77
+            ],
+            "sourcePagesLabel": "p. 77",
+            "topicTitle": "Proyecto academico 9",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 9, al PPA 3 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Cultura",
+            "description": "Cultura ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              154
+            ],
+            "sourcePagesLabel": "p. 154",
+            "topicTitle": "Proyecto academico 9",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 9, al PPA 3 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Comunicacion",
+            "description": "Comunicacion ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              77
+            ],
+            "sourcePagesLabel": "p. 77",
+            "topicTitle": "Proyecto academico 9",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 9, al PPA 3 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Lectura",
+            "description": "Lectura ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              77
+            ],
+            "sourcePagesLabel": "p. 77",
+            "topicTitle": "Proyecto academico 9",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 9, al PPA 3 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Escritura",
+            "description": "Escritura ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              77
+            ],
+            "sourcePagesLabel": "p. 77",
+            "topicTitle": "Proyecto academico 9",
+            "status": "suggested",
+            "reason": "Concepto vinculado al PA 9, al PPA 3 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "teacher-review"
+          }
+        ],
+        "thinkingCriteria": [
+          "Relacionar Tejiendo voces ancestrales con una situacion concreta del entorno escolar o comunitario.",
+          "Usar 9. ¡nuestro entorno como inspiración! para explicar ideas con claridad y evidencia."
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Como te ayuda 9. ¡nuestro entorno como inspiración! a comprender mejor Tejiendo voces ancestrales y a explicar sus conceptos clave en tu comunidad?",
+            "conceptsActivated": [
+              "9. ¡nuestro entorno como inspiración!",
+              "Lenguaje",
+              "Cultura",
+              "Comunicacion"
+            ],
+            "suggestedUse": "Momento 1 de autoevaluacion"
+          }
+        ],
+        "validationStatus": {
+          "readinessLevel": "curricular-bundle-generated",
+          "readyForActivities": true,
+          "needsReviewReasons": [
+            "El horizonte textual literal queda pendiente de revision fina si se requiere cita exacta.",
+            "Los apoyos complementarios impresos no se asignan cuando no hay evidencia validada por columna."
+          ]
+        },
+        "readinessLevel": "curricular-bundle-generated",
+        "readyForActivities": true,
+        "needsReviewReasons": []
+      }
+    ]
+  },
+  "conceptsValidation": {
+    "grade": "3",
+    "field": "Lenguajes",
+    "ppaNumber": "3",
+    "status": "concept-validation",
+    "generatedAt": "2026-06-07T03:06:27.077Z",
+    "entries": [
+      {
+        "projectId": "lenguajes-3-ppa-3-pa7",
+        "projectTitle": "Un mundo de voces",
+        "concept": "7. arte, lengua y cultura: las manifestaciones de nuestro lugar",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            69
+          ],
+          "reason": "Concepto vinculado al PA 7, al PPA 3 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-3-pa7",
+        "projectTitle": "Un mundo de voces",
+        "concept": "Lenguaje",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            69
+          ],
+          "reason": "Concepto vinculado al PA 7, al PPA 3 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-3-pa7",
+        "projectTitle": "Un mundo de voces",
+        "concept": "Cultura",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            154
+          ],
+          "reason": "Concepto vinculado al PA 7, al PPA 3 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-3-pa7",
+        "projectTitle": "Un mundo de voces",
+        "concept": "Comunicacion",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            69
+          ],
+          "reason": "Concepto vinculado al PA 7, al PPA 3 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-3-pa7",
+        "projectTitle": "Un mundo de voces",
+        "concept": "Lectura",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            69
+          ],
+          "reason": "Concepto vinculado al PA 7, al PPA 3 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-3-pa7",
+        "projectTitle": "Un mundo de voces",
+        "concept": "Escritura",
+        "status": "suggested",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            69
+          ],
+          "reason": "Concepto vinculado al PA 7, al PPA 3 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "teacher-review"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-3-pa8",
+        "projectTitle": "Un viaje por las culturas",
+        "concept": "1. ¡nuestras culturas y lenguas: todas cuentan y valen!",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            73
+          ],
+          "reason": "Concepto vinculado al PA 8, al PPA 3 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-3-pa8",
+        "projectTitle": "Un viaje por las culturas",
+        "concept": "Lenguaje",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            73
+          ],
+          "reason": "Concepto vinculado al PA 8, al PPA 3 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-3-pa8",
+        "projectTitle": "Un viaje por las culturas",
+        "concept": "Cultura",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            154
+          ],
+          "reason": "Concepto vinculado al PA 8, al PPA 3 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-3-pa8",
+        "projectTitle": "Un viaje por las culturas",
+        "concept": "Comunicacion",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            73
+          ],
+          "reason": "Concepto vinculado al PA 8, al PPA 3 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-3-pa8",
+        "projectTitle": "Un viaje por las culturas",
+        "concept": "Lectura",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            73
+          ],
+          "reason": "Concepto vinculado al PA 8, al PPA 3 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-3-pa8",
+        "projectTitle": "Un viaje por las culturas",
+        "concept": "Escritura",
+        "status": "suggested",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            73
+          ],
+          "reason": "Concepto vinculado al PA 8, al PPA 3 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "teacher-review"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-3-pa9",
+        "projectTitle": "Tejiendo voces ancestrales",
+        "concept": "9. ¡nuestro entorno como inspiración!",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            77
+          ],
+          "reason": "Concepto vinculado al PA 9, al PPA 3 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-3-pa9",
+        "projectTitle": "Tejiendo voces ancestrales",
+        "concept": "Lenguaje",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            77
+          ],
+          "reason": "Concepto vinculado al PA 9, al PPA 3 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-3-pa9",
+        "projectTitle": "Tejiendo voces ancestrales",
+        "concept": "Cultura",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            154
+          ],
+          "reason": "Concepto vinculado al PA 9, al PPA 3 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-3-pa9",
+        "projectTitle": "Tejiendo voces ancestrales",
+        "concept": "Comunicacion",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            77
+          ],
+          "reason": "Concepto vinculado al PA 9, al PPA 3 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-3-pa9",
+        "projectTitle": "Tejiendo voces ancestrales",
+        "concept": "Lectura",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            77
+          ],
+          "reason": "Concepto vinculado al PA 9, al PPA 3 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-3-pa9",
+        "projectTitle": "Tejiendo voces ancestrales",
+        "concept": "Escritura",
+        "status": "suggested",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            77
+          ],
+          "reason": "Concepto vinculado al PA 9, al PPA 3 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "teacher-review"
+      }
+    ]
+  },
+  "pedagogicalArticulation": {
+    "grade": "3",
+    "field": "Lenguajes",
+    "ppaNumber": "3",
+    "status": "teacher-orientation",
+    "officialHorizonStatus": "pending",
+    "situatedPedagogicalOrientation": "El PPA 3 propone trabajar Nuestro desarrollo mediante la cultura mediante productos de cierre, conceptos confirmados y videos directos para reforzar la autoevaluacion.",
+    "integratingQuestions": [
+      "¿Como se relacionan los tres proyectos academicos del PPA 3 con Nuestro desarrollo mediante la cultura?",
+      "¿Que conceptos necesita dominar el estudiante para explicar su producto final?",
+      "¿Como usar el producto final para comunicar una comprension y no solo presentar informacion?"
+    ],
+    "possibleResonanceQuestion": "¿Que comprension nueva sobre Nuestro desarrollo mediante la cultura puedes explicar con los productos del PPA 3?",
+    "teacherNotes": [
+      "Usar los videos directos como detonadores, no como enlaces de busqueda.",
+      "Retomar los conceptos confirmados antes de resolver la relacion de columnas y el juego."
+    ],
+    "projectConnections": [
+      {
+        "projectId": "lenguajes-3-ppa-3-pa7",
+        "projectTitle": "Un mundo de voces",
+        "roleInPpa": "Aporta 7. arte, lengua y cultura: las manifestaciones de nuestro lugar al desarrollo del PPA 3.",
+        "confirmedConcepts": [
+          "7. arte, lengua y cultura: las manifestaciones de nuestro lugar",
+          "Lenguaje",
+          "Cultura",
+          "Comunicacion",
+          "Lectura"
+        ],
+        "suggestedConcepts": [
+          "Escritura"
+        ],
+        "pedagogicalUse": "Video detonador del Proyecto Academico 7: Un mundo de voces"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-3-pa8",
+        "projectTitle": "Un viaje por las culturas",
+        "roleInPpa": "Aporta 1. ¡nuestras culturas y lenguas: todas cuentan y valen! al desarrollo del PPA 3.",
+        "confirmedConcepts": [
+          "1. ¡nuestras culturas y lenguas: todas cuentan y valen!",
+          "Lenguaje",
+          "Cultura",
+          "Comunicacion",
+          "Lectura"
+        ],
+        "suggestedConcepts": [
+          "Escritura"
+        ],
+        "pedagogicalUse": "Video detonador del Proyecto Academico 8: Un viaje por las culturas"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-3-pa9",
+        "projectTitle": "Tejiendo voces ancestrales",
+        "roleInPpa": "Aporta 9. ¡nuestro entorno como inspiración! al desarrollo del PPA 3.",
+        "confirmedConcepts": [
+          "9. ¡nuestro entorno como inspiración!",
+          "Lenguaje",
+          "Cultura",
+          "Comunicacion",
+          "Lectura"
+        ],
+        "suggestedConcepts": [
+          "Escritura"
+        ],
+        "pedagogicalUse": "Video detonador del Proyecto Academico 9: Tejiendo voces ancestrales"
+      }
+    ]
+  },
+  "teacherNotesAndResonances": {
+    "grade": "3",
+    "field": "Lenguajes",
+    "ppaNumber": "3",
+    "status": "teacher-notes-and-resonances",
+    "officialHorizonStatus": "pending",
+    "ppaIntegratingResonance": "¿Que comprension nueva sobre Nuestro desarrollo mediante la cultura puedes explicar con los productos del PPA 3?",
+    "didacticWarnings": [
+      "No sustituir el producto final por la reproduccion del video.",
+      "Evitar marcar apoyos impresos como confirmados si no existe evidencia por columna."
+    ],
+    "communityPrompts": {
+      "territoryLanguageMemory": [
+        "¿Que palabras, practicas o problemas del entorno ayudan a entender mejor este PPA?"
+      ],
+      "productCommunityConnection": [
+        "¿Como puede circular el producto final dentro de la comunidad escolar?"
+      ]
+    },
+    "projects": [
+      {
+        "projectId": "lenguajes-3-ppa-3-pa7",
+        "projectTitle": "Un mundo de voces",
+        "teacherNotes": [
+          "Retomar 7. arte, lengua y cultura: las manifestaciones de nuestro lugar como evidencia del aprendizaje.",
+          "Usar los conceptos confirmados para orientar la autoevaluacion."
+        ],
+        "confirmedConceptsToUse": [
+          "7. arte, lengua y cultura: las manifestaciones de nuestro lugar",
+          "Lenguaje",
+          "Cultura",
+          "Comunicacion",
+          "Lectura"
+        ],
+        "suggestedConceptsToHandleCarefully": [
+          "Escritura"
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Como te ayuda 7. arte, lengua y cultura: las manifestaciones de nuestro lugar a comprender mejor Un mundo de voces y a explicar sus conceptos clave en tu comunidad?",
+            "conceptsActivated": [
+              "7. arte, lengua y cultura: las manifestaciones de nuestro lugar",
+              "Lenguaje",
+              "Cultura",
+              "Comunicacion"
+            ],
+            "suggestedUse": "Momento 1 de autoevaluacion"
+          }
+        ],
+        "notReadyFor": []
+      },
+      {
+        "projectId": "lenguajes-3-ppa-3-pa8",
+        "projectTitle": "Un viaje por las culturas",
+        "teacherNotes": [
+          "Retomar 1. ¡nuestras culturas y lenguas: todas cuentan y valen! como evidencia del aprendizaje.",
+          "Usar los conceptos confirmados para orientar la autoevaluacion."
+        ],
+        "confirmedConceptsToUse": [
+          "1. ¡nuestras culturas y lenguas: todas cuentan y valen!",
+          "Lenguaje",
+          "Cultura",
+          "Comunicacion",
+          "Lectura"
+        ],
+        "suggestedConceptsToHandleCarefully": [
+          "Escritura"
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Como te ayuda 1. ¡nuestras culturas y lenguas: todas cuentan y valen! a comprender mejor Un viaje por las culturas y a explicar sus conceptos clave en tu comunidad?",
+            "conceptsActivated": [
+              "1. ¡nuestras culturas y lenguas: todas cuentan y valen!",
+              "Lenguaje",
+              "Cultura",
+              "Comunicacion"
+            ],
+            "suggestedUse": "Momento 1 de autoevaluacion"
+          }
+        ],
+        "notReadyFor": []
+      },
+      {
+        "projectId": "lenguajes-3-ppa-3-pa9",
+        "projectTitle": "Tejiendo voces ancestrales",
+        "teacherNotes": [
+          "Retomar 9. ¡nuestro entorno como inspiración! como evidencia del aprendizaje.",
+          "Usar los conceptos confirmados para orientar la autoevaluacion."
+        ],
+        "confirmedConceptsToUse": [
+          "9. ¡nuestro entorno como inspiración!",
+          "Lenguaje",
+          "Cultura",
+          "Comunicacion",
+          "Lectura"
+        ],
+        "suggestedConceptsToHandleCarefully": [
+          "Escritura"
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Como te ayuda 9. ¡nuestro entorno como inspiración! a comprender mejor Tejiendo voces ancestrales y a explicar sus conceptos clave en tu comunidad?",
+            "conceptsActivated": [
+              "9. ¡nuestro entorno como inspiración!",
+              "Lenguaje",
+              "Cultura",
+              "Comunicacion"
+            ],
+            "suggestedUse": "Momento 1 de autoevaluacion"
+          }
+        ],
+        "notReadyFor": []
+      }
+    ]
+  },
+  "validationAudit": {
+    "kind": "generated-validation-audit",
+    "source": "reports/caracoles/grade3-lenguajes-ppa3-reading-bundle-audit.md",
+    "content": "# Bundle curricular tercer grado\n\n- Campo: Lenguajes\n- PPA: 3\n- Titulo: Nuestro desarrollo mediante la cultura\n- Proyectos: PA7, PA8, PA9\n- Estado: generado y publicado\n- Cautela: horizonte literal y apoyos impresos por columna pendientes de revision fina.\n"
+  }
+}

@@ -1,0 +1,1284 @@
+{
+  "grade": "2",
+  "gradeLabel": "Segundo grado",
+  "field": "Saberes y Pensamiento Científico",
+  "ppaNumber": "3",
+  "partialClassroomProject": "PPA 3",
+  "partialClassroomProjectTitle": "Experimentación con figuras",
+  "source": "curricular-development-pilot",
+  "generatedAt": "2026-06-04T15:51:06.533Z",
+  "development": {
+    "grade": "2",
+    "gradeLabel": "Segundo grado",
+    "field": "Saberes y Pensamiento Científico",
+    "bookVolume": "Tomo I",
+    "partialClassroomProject": "PPA 3",
+    "partialClassroomProjectTitle": "Experimentación con figuras",
+    "generatedAt": "2026-06-02T18:08:11.398Z",
+    "notes": "Capa curricular generada por lote para 2o Saberes y Pensamiento Científico, PPA 3.",
+    "sourcesUsed": [
+      "public/caracoles/data/generated/grade-2/selectable-projects.json",
+      "content/caracoles/generated-private/grade-2/pages-index.full.json",
+      "Posibilidades de uso SyPC, segundo grado, pp. 10-11",
+      "Nuestro libro de proyectos Tomo I, segundo grado, pp. 139-153",
+      "Saberes y Pensamiento Científico, segundo grado, pp. 14-16, 47-61, 140-143, 198-203 y 269-276; Múltiples Lenguajes pp. 46 y 122."
+    ],
+    "partialClassroomProjectContext": {
+      "expectationHorizon": {
+        "officialText": "",
+        "sourcePages": [
+          "Nuestro libro de proyectos Tomo I pp. 139-140",
+          "Posibilidades de uso SyPC pp. 10-11"
+        ],
+        "evidence": "El PPA 3 enlaza teselaciones, modelos atómicos y constitución de la materia para que el grupo experimente con figuras, observe patrones y produzca representaciones científicas visuales.",
+        "status": "pending"
+      },
+      "ppaDetonatingStrategy": {
+        "title": "Experimentación con figuras",
+        "type": "video",
+        "url": "",
+        "urlStatus": "pending-url",
+        "reference": "bit.ly/3VfglUk",
+        "source": "Nuestro libro de proyectos Tomo I pp. 139-140 + Posibilidades de uso SyPC pp. 10-11",
+        "scope": "partial-classroom-project",
+        "youtubeSearchQuery": "Experimentación con figuras Saberes y Pensamiento Científico 2do grado Telesecundaria"
+      },
+      "ppaDigitalResource": {
+        "title": "Recurso informatico del bloque PPA 3",
+        "reference": "bit.ly/3WQBMwg",
+        "status": "pending-validation",
+        "source": "Nuestro libro de proyectos Tomo I pp. 139-153"
+      },
+      "validationStatus": {
+        "needsHumanReview": true,
+        "needsReviewReasons": [
+          "Las pp. 10-11 de Posibilidades pertenecen al mismo PPA 3.",
+          "La asignacion de apoyos por columna se fija por inferencia curricular documentada de izquierda a derecha.",
+          "Los enlaces cortos del video del PPA y del recurso informatico se mantienen en cautela hasta localizar un destino oficial confirmado.",
+          "Los apoyos de Múltiples Lenguajes del bloque se usan como complemento visual y se documentan por inferencia curricular."
+        ]
+      },
+      "columnValidation": {
+        "possibilitiesPagesReviewed": [
+          10,
+          11
+        ],
+        "confirmedAsPpa": true,
+        "note": "Las pp. 10-11 corresponden al PPA 3 Experimentación con figuras. Las tres columnas se sostienen por el orden de proyectos, productos y apoyos del mismo bloque.",
+        "columns": [
+          {
+            "columnIndex": 1,
+            "projectId": "saberes-y-pensamiento-cientifico-2-ppa-3-pa7",
+            "projectTitle": "Teselados en la vida comunitaria",
+            "finalProduct": "Galería de teselados",
+            "supportMaterials": [
+              "Teselaciones o cómo decorar el baño, p. 122"
+            ]
+          },
+          {
+            "columnIndex": 2,
+            "projectId": "saberes-y-pensamiento-cientifico-2-ppa-3-pa8",
+            "projectTitle": "Modelos atómicos y estructura de la materia",
+            "finalProduct": "Representaciones visuales de los átomos",
+            "supportMaterials": [
+              "Enormes cristales subterráneos, p. 46"
+            ]
+          },
+          {
+            "columnIndex": 3,
+            "projectId": "saberes-y-pensamiento-cientifico-2-ppa-3-pa9",
+            "projectTitle": "Constitución de la materia",
+            "finalProduct": "Gráficas poligonales y de línea",
+            "supportMaterials": []
+          }
+        ]
+      }
+    },
+    "academicProjects": [
+      {
+        "id": "saberes-y-pensamiento-cientifico-2-ppa-3-pa7",
+        "projectId": "saberes-y-pensamiento-cientifico-2-ppa-3-pa7",
+        "academicProjectNumber": 7,
+        "title": "Teselados en la vida comunitaria",
+        "projectTitle": "Teselados en la vida comunitaria",
+        "grade": "2",
+        "field": "Saberes y Pensamiento Científico",
+        "ppaNumber": "3",
+        "partialClassroomProject": "PPA 3",
+        "partialClassroomProjectTitle": "Experimentación con figuras",
+        "bookVolume": "Tomo I",
+        "sourceValidation": {
+          "sourceStatus": "linked",
+          "possibilitiesPages": [
+            10,
+            11
+          ],
+          "possibilitiesMaterialId": "grade-2-posibilidades-pos-sypc-2",
+          "possibilitiesColumnIndex": 1,
+          "columnEvidence": "Bloque PPA 3 Experimentación con figuras localizado en pp. 10-11; la columna 1 se confirma por el orden de proyectos, productos y continuidad del mismo bloque."
+        },
+        "finalProduct": {
+          "title": "Galería de teselados",
+          "source": "Posibilidades de uso SyPC pp. 10-11 + Nuestro libro de proyectos Tomo I pp. 141-144",
+          "status": "confirmed"
+        },
+        "sourcePages": {
+          "nuestroLibroProyectos": [
+            {
+              "materialId": "grade-2-proyectos-nuestro-libro-de-proyectos-tomo-1-segundo-grado",
+              "label": "Nuestro libro de proyectos Tomo I",
+              "startPage": 141,
+              "endPage": 144,
+              "pagesLabel": "pp. 141-144",
+              "topicTitle": "Proyecto academico 7",
+              "status": "confirmed-source"
+            }
+          ],
+          "conceptBook": [
+            {
+              "materialId": "grade-2-conceptos-saberes-y-pensamiento-cientifico-segundo-grado",
+              "label": "Saberes y Pensamiento Científico",
+              "startPage": 14,
+              "endPage": 16,
+              "pagesLabel": "pp. 14-16",
+              "topicTitle": "Construcción de polígonos regulares",
+              "status": "confirmed-by-column-inference"
+            },
+            {
+              "materialId": "grade-2-conceptos-saberes-y-pensamiento-cientifico-segundo-grado",
+              "label": "Saberes y Pensamiento Científico",
+              "startPage": 47,
+              "endPage": 51,
+              "pagesLabel": "pp. 47-51",
+              "topicTitle": "Construcción a escala de triángulos, cuadriláteros y polígonos regulares o irregulares",
+              "status": "confirmed-by-column-inference"
+            },
+            {
+              "materialId": "grade-2-conceptos-saberes-y-pensamiento-cientifico-segundo-grado",
+              "label": "Saberes y Pensamiento Científico",
+              "startPage": 52,
+              "endPage": 56,
+              "pagesLabel": "pp. 52-56",
+              "topicTitle": "Teselaciones",
+              "status": "confirmed-by-column-inference"
+            }
+          ],
+          "multiplesLenguajes": [
+            {
+              "materialId": "grade-2-apoyo-multiples-lenguajes-segundo-grado",
+              "label": "Multiples Lenguajes",
+              "startPage": 122,
+              "endPage": 122,
+              "pagesLabel": "p. 122",
+              "topicTitle": "Teselaciones o cómo decorar el baño",
+              "status": "confirmed-by-column-inference"
+            }
+          ],
+          "otherMaterials": [
+            {
+              "label": "Video PA 7: Galería de teselados • Saberes y pensamiento científico• 2do grado",
+              "reference": "https://www.youtube.com/watch?v=ev9UO_vdB4Q",
+              "status": "confirmed"
+            },
+            {
+              "label": "Video PPA 3: 3. Experimentación con figuras • Saberes y pensamiento científico• 2do grado",
+              "reference": "https://www.youtube.com/watch?v=qWfBSOJFT_o",
+              "status": "confirmed"
+            }
+          ]
+        },
+        "supportMaterials": [
+          {
+            "title": "Teselaciones o cómo decorar el baño",
+            "kind": "Multiples Lenguajes",
+            "pages": "p. 122",
+            "status": "confirmed-by-column-inference"
+          }
+        ],
+        "horizonOrPurpose": {
+          "status": "official",
+          "text": "Diseñar una galería de teselados con materiales de reúso para reconocer patrones geométricos presentes en la vida comunitaria.",
+          "source": "Nuestro libro de proyectos Tomo I p. 141"
+        },
+        "projectExpectationHorizon": {
+          "officialText": "Reconocer y construir teselaciones a partir de polígonos y patrones geométricos del entorno.",
+          "studentVersion": "Crear una galería de teselados que muestre cómo la geometría también está presente en la comunidad.",
+          "sourcePages": [
+            "Nuestro libro de proyectos Tomo I p. 141"
+          ],
+          "evidence": "La etapa 1 del proyecto orienta la construcción de una galería de teselados desde la observación de patrones y el uso de materiales de reúso.",
+          "status": "official"
+        },
+        "detonatingStrategy": {
+          "title": "3. Experimentación con figuras • Saberes y pensamiento científico• 2do grado",
+          "text": "Video del Proyecto Parcial de Aula 3: 3. Experimentación con figuras • Saberes y pensamiento científico• 2do grado",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=qWfBSOJFT_o",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "partial-classroom-project"
+        },
+        "academicProjectStrategy": {
+          "title": "Galería de teselados • Saberes y pensamiento científico• 2do grado",
+          "text": "Video detonador del Proyecto Academico 7: Teselados en la vida comunitaria",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=ev9UO_vdB4Q",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "academic-project"
+        },
+        "academicConcepts": [
+          {
+            "concept": "galería de teselados",
+            "description": "Galería de teselados como producto de cierre para organizar y comunicar aprendizajes del proyecto.",
+            "sourceBook": "Nuestro libro de proyectos Tomo I",
+            "sourcePages": [
+              141,
+              144
+            ],
+            "sourcePagesLabel": "pp. 141-144",
+            "topicTitle": "Proyecto academico 7",
+            "status": "confirmed",
+            "reason": "Posibilidades y el propio proyecto fijan Galería de teselados como producto final del PA 7.",
+            "pedagogicalUse": "Da una forma concreta de socializar lo comprendido sobre las teselaciones y la construcción de polígonos como formas de leer patrones geométricos presentes en la vida comunitaria.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "polígonos regulares",
+            "description": "Polígonos regulares es una idea clave para comprender las teselaciones y la construcción de polígonos como formas de leer patrones geométricos presentes en la vida comunitaria.",
+            "sourceBook": "Saberes y Pensamiento Científico",
+            "sourcePages": [
+              14,
+              16
+            ],
+            "sourcePagesLabel": "pp. 14-16",
+            "topicTitle": "Construcción de polígonos regulares",
+            "status": "confirmed",
+            "reason": "La fuente validada \"Construcción de polígonos regulares\" aporta base suficiente para trabajar polígonos regulares dentro del proyecto 7.",
+            "pedagogicalUse": "Ayuda a fortalecer galería de teselados y a explicar las teselaciones y la construcción de polígonos como formas de leer patrones geométricos presentes en la vida comunitaria con mayor claridad mediante polígonos regulares.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "construcción a escala",
+            "description": "Construcción a escala es una idea clave para comprender las teselaciones y la construcción de polígonos como formas de leer patrones geométricos presentes en la vida comunitaria.",
+            "sourceBook": "Saberes y Pensamiento Científico",
+            "sourcePages": [
+              47,
+              51
+            ],
+            "sourcePagesLabel": "pp. 47-51",
+            "topicTitle": "Construcción a escala de triángulos, cuadriláteros y polígonos regulares o irregulares",
+            "status": "confirmed",
+            "reason": "La fuente validada \"Construcción a escala de triángulos, cuadriláteros y polígonos regulares o irregulares\" aporta base suficiente para trabajar construcción a escala dentro del proyecto 7.",
+            "pedagogicalUse": "Ayuda a fortalecer galería de teselados y a explicar las teselaciones y la construcción de polígonos como formas de leer patrones geométricos presentes en la vida comunitaria con mayor claridad mediante construcción a escala.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "teselaciones",
+            "description": "Teselaciones es una idea clave para comprender las teselaciones y la construcción de polígonos como formas de leer patrones geométricos presentes en la vida comunitaria.",
+            "sourceBook": "Saberes y Pensamiento Científico",
+            "sourcePages": [
+              52,
+              56
+            ],
+            "sourcePagesLabel": "pp. 52-56",
+            "topicTitle": "Teselaciones",
+            "status": "confirmed",
+            "reason": "La fuente validada \"Teselaciones\" aporta base suficiente para trabajar teselaciones dentro del proyecto 7.",
+            "pedagogicalUse": "Ayuda a fortalecer galería de teselados y a explicar las teselaciones y la construcción de polígonos como formas de leer patrones geométricos presentes en la vida comunitaria con mayor claridad mediante teselaciones.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "patrones geométricos",
+            "description": "Patrones geométricos es una idea clave para comprender las teselaciones y la construcción de polígonos como formas de leer patrones geométricos presentes en la vida comunitaria.",
+            "sourceBook": "Saberes y Pensamiento Científico",
+            "sourcePages": [
+              52,
+              56
+            ],
+            "sourcePagesLabel": "pp. 52-56",
+            "topicTitle": "Teselaciones",
+            "status": "confirmed",
+            "reason": "La fuente validada \"Teselaciones\" aporta base suficiente para trabajar patrones geométricos dentro del proyecto 7.",
+            "pedagogicalUse": "Ayuda a fortalecer galería de teselados y a explicar las teselaciones y la construcción de polígonos como formas de leer patrones geométricos presentes en la vida comunitaria con mayor claridad mediante patrones geométricos.",
+            "activityReadiness": "usable-for-autoevaluation"
+          }
+        ],
+        "thinkingCriteria": [
+          "Identificar patrones antes de construir la figura final.",
+          "Relacionar forma geométrica y diseño comunitario.",
+          "Usar la galería para explicar propiedades, no sólo para exhibir dibujos."
+        ],
+        "validationStatus": {
+          "readinessLevel": "development-partial",
+          "readyForActivities": false,
+          "needsReviewReasons": [
+            "El bloque 3 ya es usable como lectura docente, pero el video del PPA 3 y el recurso informatico siguen pendientes de validacion de destino final.",
+            "La asignacion de apoyos de Posibilidades se sostiene por inferencia curricular documentada y no por OCR perfectamente separado por columnas.",
+            "No mover a actividades interactivas ni desbloquear juegos completos hasta ampliar validacion de videos y recursos complementarios."
+          ]
+        },
+        "readinessLevel": "development-partial",
+        "readyForActivities": false,
+        "needsReviewReasons": [
+          "No mover a actividades interactivas ni desbloquear juegos completos."
+        ],
+        "roleInPpa": "Abre el bloque al volver visible la geometría en objetos, diseños y espacios del entorno.",
+        "pedagogicalUse": "Conviene trabajar Teselados en la vida comunitaria como una oportunidad para profundizar en las teselaciones y la construcción de polígonos como formas de leer patrones geométricos presentes en la vida comunitaria sin separar contenido, comunidad y producto final.",
+        "teacherNotes": [
+          "Conviene partir de ejemplos cercanos y después pasar al lenguaje mas abstracto del campo.",
+          "El producto Galería de teselados gana fuerza cuando se usa para explicar y no solo para exhibir informacion.",
+          "Es mejor seleccionar pocos conceptos bien comprendidos que saturar el trabajo con terminos aislados."
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Qué comprendes mejor sobre las teselaciones y la construcción de polígonos como formas de leer patrones geométricos presentes en la vida comunitaria después de elaborar galería de teselados?"
+          },
+          {
+            "type": "community",
+            "prompt": "¿En qué lugares de la comunidad ya aparecen teselados o patrones que casi nunca nombramos como geometría?"
+          }
+        ],
+        "notReadyFor": [
+          "full-games",
+          "summative-exam"
+        ]
+      },
+      {
+        "id": "saberes-y-pensamiento-cientifico-2-ppa-3-pa8",
+        "projectId": "saberes-y-pensamiento-cientifico-2-ppa-3-pa8",
+        "academicProjectNumber": 8,
+        "title": "Modelos atómicos y estructura de la materia",
+        "projectTitle": "Modelos atómicos y estructura de la materia",
+        "grade": "2",
+        "field": "Saberes y Pensamiento Científico",
+        "ppaNumber": "3",
+        "partialClassroomProject": "PPA 3",
+        "partialClassroomProjectTitle": "Experimentación con figuras",
+        "bookVolume": "Tomo I",
+        "sourceValidation": {
+          "sourceStatus": "linked",
+          "possibilitiesPages": [
+            10,
+            11
+          ],
+          "possibilitiesMaterialId": "grade-2-posibilidades-pos-sypc-2",
+          "possibilitiesColumnIndex": 2,
+          "columnEvidence": "Bloque PPA 3 Experimentación con figuras localizado en pp. 10-11; la columna 2 se confirma por el orden de proyectos, productos y continuidad del mismo bloque."
+        },
+        "finalProduct": {
+          "title": "Representaciones visuales de los átomos",
+          "source": "Posibilidades de uso SyPC pp. 10-11 + Nuestro libro de proyectos Tomo I pp. 145-148",
+          "status": "confirmed"
+        },
+        "sourcePages": {
+          "nuestroLibroProyectos": [
+            {
+              "materialId": "grade-2-proyectos-nuestro-libro-de-proyectos-tomo-1-segundo-grado",
+              "label": "Nuestro libro de proyectos Tomo I",
+              "startPage": 145,
+              "endPage": 148,
+              "pagesLabel": "pp. 145-148",
+              "topicTitle": "Proyecto academico 8",
+              "status": "confirmed-source"
+            }
+          ],
+          "conceptBook": [
+            {
+              "materialId": "grade-2-conceptos-saberes-y-pensamiento-cientifico-segundo-grado",
+              "label": "Saberes y Pensamiento Científico",
+              "startPage": 57,
+              "endPage": 61,
+              "pagesLabel": "pp. 57-61",
+              "topicTitle": "Intersecciones de círculos con figuras geométricas",
+              "status": "confirmed-by-column-inference"
+            },
+            {
+              "materialId": "grade-2-conceptos-saberes-y-pensamiento-cientifico-segundo-grado",
+              "label": "Saberes y Pensamiento Científico",
+              "startPage": 198,
+              "endPage": 203,
+              "pagesLabel": "pp. 198-203",
+              "topicTitle": "Estructura de la materia",
+              "status": "confirmed-by-column-inference"
+            }
+          ],
+          "multiplesLenguajes": [
+            {
+              "materialId": "grade-2-apoyo-multiples-lenguajes-segundo-grado",
+              "label": "Multiples Lenguajes",
+              "startPage": 46,
+              "endPage": 46,
+              "pagesLabel": "p. 46",
+              "topicTitle": "Enormes cristales subterráneos",
+              "status": "confirmed-by-column-inference"
+            }
+          ],
+          "otherMaterials": [
+            {
+              "label": "Video PA 8: Modelos atómicos y moleculares •Saberes y pensamiento científico• 2do grado",
+              "reference": "https://www.youtube.com/watch?v=YQYib7zObNo",
+              "status": "confirmed"
+            },
+            {
+              "label": "Video PPA 3: 3. Experimentación con figuras • Saberes y pensamiento científico• 2do grado",
+              "reference": "https://www.youtube.com/watch?v=qWfBSOJFT_o",
+              "status": "confirmed"
+            }
+          ]
+        },
+        "supportMaterials": [
+          {
+            "title": "Enormes cristales subterráneos",
+            "kind": "Multiples Lenguajes",
+            "pages": "p. 46",
+            "status": "confirmed-by-column-inference"
+          }
+        ],
+        "horizonOrPurpose": {
+          "status": "official",
+          "text": "Representar visualmente los átomos mediante intersecciones de círculos y figuras para comprender la estructura de la materia.",
+          "source": "Nuestro libro de proyectos Tomo I p. 145"
+        },
+        "projectExpectationHorizon": {
+          "officialText": "Usar recursos geométricos para construir representaciones visuales de los átomos y explicar la estructura de la materia.",
+          "studentVersion": "Diseñar modelos visuales de átomos que ayuden a comprender cómo se organiza la materia.",
+          "sourcePages": [
+            "Nuestro libro de proyectos Tomo I p. 145"
+          ],
+          "evidence": "La etapa 1 del proyecto vincula de manera directa las intersecciones y figuras con la producción de representaciones visuales de los átomos.",
+          "status": "official"
+        },
+        "detonatingStrategy": {
+          "title": "3. Experimentación con figuras • Saberes y pensamiento científico• 2do grado",
+          "text": "Video del Proyecto Parcial de Aula 3: 3. Experimentación con figuras • Saberes y pensamiento científico• 2do grado",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=qWfBSOJFT_o",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "partial-classroom-project"
+        },
+        "academicProjectStrategy": {
+          "title": "Modelos atómicos y moleculares •Saberes y pensamiento científico• 2do grado",
+          "text": "Video detonador del Proyecto Academico 8: Modelos atómicos y estructura de la materia",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=YQYib7zObNo",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "academic-project"
+        },
+        "academicConcepts": [
+          {
+            "concept": "representaciones visuales de los átomos",
+            "description": "Representaciones visuales de los átomos como producto de cierre para organizar y comunicar aprendizajes del proyecto.",
+            "sourceBook": "Nuestro libro de proyectos Tomo I",
+            "sourcePages": [
+              145,
+              148
+            ],
+            "sourcePagesLabel": "pp. 145-148",
+            "topicTitle": "Proyecto academico 8",
+            "status": "confirmed",
+            "reason": "Posibilidades y el propio proyecto fijan Representaciones visuales de los átomos como producto final del PA 8.",
+            "pedagogicalUse": "Da una forma concreta de socializar lo comprendido sobre la estructura de la materia y los modelos atómicos mediante representaciones visuales construidas con intersecciones y figuras geométricas.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "intersecciones de círculos",
+            "description": "Intersecciones de círculos es una idea clave para comprender la estructura de la materia y los modelos atómicos mediante representaciones visuales construidas con intersecciones y figuras geométricas.",
+            "sourceBook": "Saberes y Pensamiento Científico",
+            "sourcePages": [
+              57,
+              61
+            ],
+            "sourcePagesLabel": "pp. 57-61",
+            "topicTitle": "Intersecciones de círculos con figuras geométricas",
+            "status": "confirmed",
+            "reason": "La fuente validada \"Intersecciones de círculos con figuras geométricas\" aporta base suficiente para trabajar intersecciones de círculos dentro del proyecto 8.",
+            "pedagogicalUse": "Ayuda a fortalecer representaciones visuales de los átomos y a explicar la estructura de la materia y los modelos atómicos mediante representaciones visuales construidas con intersecciones y figuras geométricas con mayor claridad mediante intersecciones de círculos.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "estructura de la materia",
+            "description": "Estructura de la materia es una idea clave para comprender la estructura de la materia y los modelos atómicos mediante representaciones visuales construidas con intersecciones y figuras geométricas.",
+            "sourceBook": "Saberes y Pensamiento Científico",
+            "sourcePages": [
+              198,
+              203
+            ],
+            "sourcePagesLabel": "pp. 198-203",
+            "topicTitle": "Estructura de la materia",
+            "status": "confirmed",
+            "reason": "La fuente validada \"Estructura de la materia\" aporta base suficiente para trabajar estructura de la materia dentro del proyecto 8.",
+            "pedagogicalUse": "Ayuda a fortalecer representaciones visuales de los átomos y a explicar la estructura de la materia y los modelos atómicos mediante representaciones visuales construidas con intersecciones y figuras geométricas con mayor claridad mediante estructura de la materia.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "modelos atómicos",
+            "description": "Modelos atómicos es una idea clave para comprender la estructura de la materia y los modelos atómicos mediante representaciones visuales construidas con intersecciones y figuras geométricas.",
+            "sourceBook": "Saberes y Pensamiento Científico",
+            "sourcePages": [
+              198,
+              203
+            ],
+            "sourcePagesLabel": "pp. 198-203",
+            "topicTitle": "Estructura de la materia",
+            "status": "confirmed",
+            "reason": "La fuente validada \"Estructura de la materia\" aporta base suficiente para trabajar modelos atómicos dentro del proyecto 8.",
+            "pedagogicalUse": "Ayuda a fortalecer representaciones visuales de los átomos y a explicar la estructura de la materia y los modelos atómicos mediante representaciones visuales construidas con intersecciones y figuras geométricas con mayor claridad mediante modelos atómicos.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "representación visual",
+            "description": "Representación visual es una idea clave para comprender la estructura de la materia y los modelos atómicos mediante representaciones visuales construidas con intersecciones y figuras geométricas.",
+            "sourceBook": "Nuestro libro de proyectos Tomo I",
+            "sourcePages": [
+              145,
+              146,
+              147,
+              148
+            ],
+            "sourcePagesLabel": "pp. 145-148",
+            "topicTitle": "Proyecto académico 8",
+            "status": "confirmed",
+            "reason": "La fuente validada \"Proyecto académico 8\" aporta base suficiente para trabajar representación visual dentro del proyecto 8.",
+            "pedagogicalUse": "Ayuda a fortalecer representaciones visuales de los átomos y a explicar la estructura de la materia y los modelos atómicos mediante representaciones visuales construidas con intersecciones y figuras geométricas con mayor claridad mediante representación visual.",
+            "activityReadiness": "usable-for-autoevaluation"
+          }
+        ],
+        "thinkingCriteria": [
+          "Usar el modelo visual para explicar una idea científica y no sólo para dibujar.",
+          "Relacionar la forma geométrica con decisiones de representación.",
+          "Distinguir entre el objeto real y el modelo que ayuda a comprenderlo."
+        ],
+        "validationStatus": {
+          "readinessLevel": "development-partial",
+          "readyForActivities": false,
+          "needsReviewReasons": [
+            "El bloque 3 ya es usable como lectura docente, pero el video del PPA 3 y el recurso informatico siguen pendientes de validacion de destino final.",
+            "La asignacion de apoyos de Posibilidades se sostiene por inferencia curricular documentada y no por OCR perfectamente separado por columnas.",
+            "No mover a actividades interactivas ni desbloquear juegos completos hasta ampliar validacion de videos y recursos complementarios."
+          ]
+        },
+        "readinessLevel": "development-partial",
+        "readyForActivities": false,
+        "needsReviewReasons": [
+          "No mover a actividades interactivas ni desbloquear juegos completos."
+        ],
+        "roleInPpa": "Profundiza el bloque al conectar la geometría con la construcción de modelos científicos.",
+        "pedagogicalUse": "Conviene trabajar Modelos atómicos y estructura de la materia como una oportunidad para profundizar en la estructura de la materia y los modelos atómicos mediante representaciones visuales construidas con intersecciones y figuras geométricas sin separar contenido, comunidad y producto final.",
+        "teacherNotes": [
+          "Conviene partir de ejemplos cercanos y después pasar al lenguaje mas abstracto del campo.",
+          "El producto Representaciones visuales de los átomos gana fuerza cuando se usa para explicar y no solo para exhibir informacion.",
+          "Es mejor seleccionar pocos conceptos bien comprendidos que saturar el trabajo con terminos aislados."
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Qué comprendes mejor sobre la estructura de la materia y los modelos atómicos mediante representaciones visuales construidas con intersecciones y figuras geométricas después de elaborar representaciones visuales de los átomos?"
+          },
+          {
+            "type": "community",
+            "prompt": "¿Qué se vuelve más claro cuando representamos lo que no vemos directamente con modelos y figuras?"
+          }
+        ],
+        "notReadyFor": [
+          "full-games",
+          "summative-exam"
+        ]
+      },
+      {
+        "id": "saberes-y-pensamiento-cientifico-2-ppa-3-pa9",
+        "projectId": "saberes-y-pensamiento-cientifico-2-ppa-3-pa9",
+        "academicProjectNumber": 9,
+        "title": "Constitución de la materia",
+        "projectTitle": "Constitución de la materia",
+        "grade": "2",
+        "field": "Saberes y Pensamiento Científico",
+        "ppaNumber": "3",
+        "partialClassroomProject": "PPA 3",
+        "partialClassroomProjectTitle": "Experimentación con figuras",
+        "bookVolume": "Tomo I",
+        "sourceValidation": {
+          "sourceStatus": "linked",
+          "possibilitiesPages": [
+            10,
+            11
+          ],
+          "possibilitiesMaterialId": "grade-2-posibilidades-pos-sypc-2",
+          "possibilitiesColumnIndex": 3,
+          "columnEvidence": "Bloque PPA 3 Experimentación con figuras localizado en pp. 10-11; la columna 3 se confirma por el orden de proyectos, productos y continuidad del mismo bloque."
+        },
+        "finalProduct": {
+          "title": "Gráficas poligonales y de línea",
+          "source": "Posibilidades de uso SyPC pp. 10-11 + Nuestro libro de proyectos Tomo I pp. 149-153",
+          "status": "confirmed"
+        },
+        "sourcePages": {
+          "nuestroLibroProyectos": [
+            {
+              "materialId": "grade-2-proyectos-nuestro-libro-de-proyectos-tomo-1-segundo-grado",
+              "label": "Nuestro libro de proyectos Tomo I",
+              "startPage": 149,
+              "endPage": 153,
+              "pagesLabel": "pp. 149-153",
+              "topicTitle": "Proyecto academico 9",
+              "status": "confirmed-source"
+            }
+          ],
+          "conceptBook": [
+            {
+              "materialId": "grade-2-conceptos-saberes-y-pensamiento-cientifico-segundo-grado",
+              "label": "Saberes y Pensamiento Científico",
+              "startPage": 140,
+              "endPage": 143,
+              "pagesLabel": "pp. 140-143",
+              "topicTitle": "Constitución de la materia",
+              "status": "confirmed-by-column-inference"
+            },
+            {
+              "materialId": "grade-2-conceptos-saberes-y-pensamiento-cientifico-segundo-grado",
+              "label": "Saberes y Pensamiento Científico",
+              "startPage": 269,
+              "endPage": 276,
+              "pagesLabel": "pp. 269-276",
+              "topicTitle": "La conformación de la materia",
+              "status": "confirmed-by-column-inference"
+            }
+          ],
+          "multiplesLenguajes": [],
+          "otherMaterials": [
+            {
+              "label": "Video PA 9: 9. ¿Cómo está compuesto el universo?• Saberes y pensamiento científico• 2do grado",
+              "reference": "https://www.youtube.com/watch?v=x8-Bp-2QoE8",
+              "status": "confirmed"
+            },
+            {
+              "label": "Video PPA 3: 3. Experimentación con figuras • Saberes y pensamiento científico• 2do grado",
+              "reference": "https://www.youtube.com/watch?v=qWfBSOJFT_o",
+              "status": "confirmed"
+            }
+          ]
+        },
+        "supportMaterials": [],
+        "horizonOrPurpose": {
+          "status": "official",
+          "text": "Elaborar gráficas poligonales y de línea para representar y comparar aspectos vinculados con la constitución de la materia.",
+          "source": "Nuestro libro de proyectos Tomo I p. 149"
+        },
+        "projectExpectationHorizon": {
+          "officialText": "Representar con gráficas poligonales y de línea información relacionada con la constitución de la materia.",
+          "studentVersion": "Usar gráficas para comparar y comunicar lo aprendido sobre la materia y sus cambios.",
+          "sourcePages": [
+            "Nuestro libro de proyectos Tomo I p. 149"
+          ],
+          "evidence": "La etapa 1 del proyecto fija la construcción de gráficas como vía para poner en relación conceptos sobre la materia.",
+          "status": "official"
+        },
+        "detonatingStrategy": {
+          "title": "3. Experimentación con figuras • Saberes y pensamiento científico• 2do grado",
+          "text": "Video del Proyecto Parcial de Aula 3: 3. Experimentación con figuras • Saberes y pensamiento científico• 2do grado",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=qWfBSOJFT_o",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "partial-classroom-project"
+        },
+        "academicProjectStrategy": {
+          "title": "9. ¿Cómo está compuesto el universo?• Saberes y pensamiento científico• 2do grado",
+          "text": "Video detonador del Proyecto Academico 9: Constitución de la materia",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=x8-Bp-2QoE8",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "academic-project"
+        },
+        "academicConcepts": [
+          {
+            "concept": "gráficas poligonales y de línea",
+            "description": "Gráficas poligonales y de línea como producto de cierre para organizar y comunicar aprendizajes del proyecto.",
+            "sourceBook": "Nuestro libro de proyectos Tomo I",
+            "sourcePages": [
+              149,
+              153
+            ],
+            "sourcePagesLabel": "pp. 149-153",
+            "topicTitle": "Proyecto academico 9",
+            "status": "confirmed",
+            "reason": "Posibilidades y el propio proyecto fijan Gráficas poligonales y de línea como producto final del PA 9.",
+            "pedagogicalUse": "Da una forma concreta de socializar lo comprendido sobre la constitución de la materia y su representación en gráficas para comparar procesos, cambios o comportamientos.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "constitución de la materia",
+            "description": "Constitución de la materia es una idea clave para comprender la constitución de la materia y su representación en gráficas para comparar procesos, cambios o comportamientos.",
+            "sourceBook": "Saberes y Pensamiento Científico",
+            "sourcePages": [
+              140,
+              143
+            ],
+            "sourcePagesLabel": "pp. 140-143",
+            "topicTitle": "Constitución de la materia",
+            "status": "confirmed",
+            "reason": "La fuente validada \"Constitución de la materia\" aporta base suficiente para trabajar constitución de la materia dentro del proyecto 9.",
+            "pedagogicalUse": "Ayuda a fortalecer gráficas poligonales y de línea y a explicar la constitución de la materia y su representación en gráficas para comparar procesos, cambios o comportamientos con mayor claridad mediante constitución de la materia.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "modelos de partículas",
+            "description": "Modelos de partículas es una idea clave para comprender la constitución de la materia y su representación en gráficas para comparar procesos, cambios o comportamientos.",
+            "sourceBook": "Saberes y Pensamiento Científico",
+            "sourcePages": [
+              269,
+              276
+            ],
+            "sourcePagesLabel": "pp. 269-276",
+            "topicTitle": "La conformación de la materia",
+            "status": "confirmed",
+            "reason": "La fuente validada \"La conformación de la materia\" aporta base suficiente para trabajar modelos de partículas dentro del proyecto 9.",
+            "pedagogicalUse": "Ayuda a fortalecer gráficas poligonales y de línea y a explicar la constitución de la materia y su representación en gráficas para comparar procesos, cambios o comportamientos con mayor claridad mediante modelos de partículas.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "estados de la materia",
+            "description": "Estados de la materia es una idea clave para comprender la constitución de la materia y su representación en gráficas para comparar procesos, cambios o comportamientos.",
+            "sourceBook": "Saberes y Pensamiento Científico",
+            "sourcePages": [
+              269,
+              276
+            ],
+            "sourcePagesLabel": "pp. 269-276",
+            "topicTitle": "La conformación de la materia",
+            "status": "confirmed",
+            "reason": "La fuente validada \"La conformación de la materia\" aporta base suficiente para trabajar estados de la materia dentro del proyecto 9.",
+            "pedagogicalUse": "Ayuda a fortalecer gráficas poligonales y de línea y a explicar la constitución de la materia y su representación en gráficas para comparar procesos, cambios o comportamientos con mayor claridad mediante estados de la materia.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "gráfica de línea",
+            "description": "Gráfica de línea es una idea clave para comprender la constitución de la materia y su representación en gráficas para comparar procesos, cambios o comportamientos.",
+            "sourceBook": "Nuestro libro de proyectos Tomo I",
+            "sourcePages": [
+              149,
+              150,
+              151,
+              152
+            ],
+            "sourcePagesLabel": "pp. 149-152",
+            "topicTitle": "Proyecto académico 9",
+            "status": "confirmed",
+            "reason": "La fuente validada \"Proyecto académico 9\" aporta base suficiente para trabajar gráfica de línea dentro del proyecto 9.",
+            "pedagogicalUse": "Ayuda a fortalecer gráficas poligonales y de línea y a explicar la constitución de la materia y su representación en gráficas para comparar procesos, cambios o comportamientos con mayor claridad mediante gráfica de línea.",
+            "activityReadiness": "usable-for-autoevaluation"
+          }
+        ],
+        "thinkingCriteria": [
+          "Vincular el comportamiento de la materia con lo que muestra la gráfica.",
+          "No separar la explicación científica de su representación visual.",
+          "Comparar datos y procesos antes de sacar conclusiones."
+        ],
+        "validationStatus": {
+          "readinessLevel": "development-partial",
+          "readyForActivities": false,
+          "needsReviewReasons": [
+            "El bloque 3 ya es usable como lectura docente, pero el video del PPA 3 y el recurso informatico siguen pendientes de validacion de destino final.",
+            "La asignacion de apoyos de Posibilidades se sostiene por inferencia curricular documentada y no por OCR perfectamente separado por columnas.",
+            "No mover a actividades interactivas ni desbloquear juegos completos hasta ampliar validacion de videos y recursos complementarios."
+          ]
+        },
+        "readinessLevel": "development-partial",
+        "readyForActivities": false,
+        "needsReviewReasons": [
+          "No mover a actividades interactivas ni desbloquear juegos completos."
+        ],
+        "roleInPpa": "Cierra el bloque al llevar las representaciones de la materia hacia lecturas comparativas apoyadas en gráficas.",
+        "pedagogicalUse": "Conviene trabajar Constitución de la materia como una oportunidad para profundizar en la constitución de la materia y su representación en gráficas para comparar procesos, cambios o comportamientos sin separar contenido, comunidad y producto final.",
+        "teacherNotes": [
+          "Conviene partir de ejemplos cercanos y después pasar al lenguaje mas abstracto del campo.",
+          "El producto Gráficas poligonales y de línea gana fuerza cuando se usa para explicar y no solo para exhibir informacion.",
+          "Es mejor seleccionar pocos conceptos bien comprendidos que saturar el trabajo con terminos aislados."
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Qué comprendes mejor sobre la constitución de la materia y su representación en gráficas para comparar procesos, cambios o comportamientos después de elaborar gráficas poligonales y de línea?"
+          },
+          {
+            "type": "community",
+            "prompt": "¿Qué procesos materiales del entorno podrían comprenderse mejor si los representamos y comparamos con gráficas?"
+          }
+        ],
+        "notReadyFor": [
+          "full-games",
+          "summative-exam"
+        ]
+      }
+    ]
+  },
+  "conceptsValidation": {
+    "grade": "2",
+    "field": "Saberes y Pensamiento Científico",
+    "ppaNumber": "3",
+    "status": "concept-validation",
+    "generatedAt": "2026-06-02T18:08:11.398Z",
+    "entries": [
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-2-ppa-3-pa7",
+        "projectTitle": "Teselados en la vida comunitaria",
+        "concept": "galería de teselados",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Nuestro libro de proyectos Tomo I",
+          "pages": [
+            141,
+            144
+          ],
+          "reason": "Posibilidades y el propio proyecto fijan Galería de teselados como producto final del PA 7."
+        },
+        "pedagogicalUse": "Da una forma concreta de socializar lo comprendido sobre las teselaciones y la construcción de polígonos como formas de leer patrones geométricos presentes en la vida comunitaria.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-2-ppa-3-pa7",
+        "projectTitle": "Teselados en la vida comunitaria",
+        "concept": "polígonos regulares",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Saberes y Pensamiento Científico",
+          "pages": [
+            14,
+            16
+          ],
+          "reason": "La fuente validada \"Construcción de polígonos regulares\" aporta base suficiente para trabajar polígonos regulares dentro del proyecto 7."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer galería de teselados y a explicar las teselaciones y la construcción de polígonos como formas de leer patrones geométricos presentes en la vida comunitaria con mayor claridad mediante polígonos regulares.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-2-ppa-3-pa7",
+        "projectTitle": "Teselados en la vida comunitaria",
+        "concept": "construcción a escala",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Saberes y Pensamiento Científico",
+          "pages": [
+            47,
+            51
+          ],
+          "reason": "La fuente validada \"Construcción a escala de triángulos, cuadriláteros y polígonos regulares o irregulares\" aporta base suficiente para trabajar construcción a escala dentro del proyecto 7."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer galería de teselados y a explicar las teselaciones y la construcción de polígonos como formas de leer patrones geométricos presentes en la vida comunitaria con mayor claridad mediante construcción a escala.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-2-ppa-3-pa7",
+        "projectTitle": "Teselados en la vida comunitaria",
+        "concept": "teselaciones",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Saberes y Pensamiento Científico",
+          "pages": [
+            52,
+            56
+          ],
+          "reason": "La fuente validada \"Teselaciones\" aporta base suficiente para trabajar teselaciones dentro del proyecto 7."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer galería de teselados y a explicar las teselaciones y la construcción de polígonos como formas de leer patrones geométricos presentes en la vida comunitaria con mayor claridad mediante teselaciones.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-2-ppa-3-pa7",
+        "projectTitle": "Teselados en la vida comunitaria",
+        "concept": "patrones geométricos",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Saberes y Pensamiento Científico",
+          "pages": [
+            52,
+            56
+          ],
+          "reason": "La fuente validada \"Teselaciones\" aporta base suficiente para trabajar patrones geométricos dentro del proyecto 7."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer galería de teselados y a explicar las teselaciones y la construcción de polígonos como formas de leer patrones geométricos presentes en la vida comunitaria con mayor claridad mediante patrones geométricos.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-2-ppa-3-pa8",
+        "projectTitle": "Modelos atómicos y estructura de la materia",
+        "concept": "representaciones visuales de los átomos",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Nuestro libro de proyectos Tomo I",
+          "pages": [
+            145,
+            148
+          ],
+          "reason": "Posibilidades y el propio proyecto fijan Representaciones visuales de los átomos como producto final del PA 8."
+        },
+        "pedagogicalUse": "Da una forma concreta de socializar lo comprendido sobre la estructura de la materia y los modelos atómicos mediante representaciones visuales construidas con intersecciones y figuras geométricas.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-2-ppa-3-pa8",
+        "projectTitle": "Modelos atómicos y estructura de la materia",
+        "concept": "intersecciones de círculos",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Saberes y Pensamiento Científico",
+          "pages": [
+            57,
+            61
+          ],
+          "reason": "La fuente validada \"Intersecciones de círculos con figuras geométricas\" aporta base suficiente para trabajar intersecciones de círculos dentro del proyecto 8."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer representaciones visuales de los átomos y a explicar la estructura de la materia y los modelos atómicos mediante representaciones visuales construidas con intersecciones y figuras geométricas con mayor claridad mediante intersecciones de círculos.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-2-ppa-3-pa8",
+        "projectTitle": "Modelos atómicos y estructura de la materia",
+        "concept": "estructura de la materia",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Saberes y Pensamiento Científico",
+          "pages": [
+            198,
+            203
+          ],
+          "reason": "La fuente validada \"Estructura de la materia\" aporta base suficiente para trabajar estructura de la materia dentro del proyecto 8."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer representaciones visuales de los átomos y a explicar la estructura de la materia y los modelos atómicos mediante representaciones visuales construidas con intersecciones y figuras geométricas con mayor claridad mediante estructura de la materia.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-2-ppa-3-pa8",
+        "projectTitle": "Modelos atómicos y estructura de la materia",
+        "concept": "modelos atómicos",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Saberes y Pensamiento Científico",
+          "pages": [
+            198,
+            203
+          ],
+          "reason": "La fuente validada \"Estructura de la materia\" aporta base suficiente para trabajar modelos atómicos dentro del proyecto 8."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer representaciones visuales de los átomos y a explicar la estructura de la materia y los modelos atómicos mediante representaciones visuales construidas con intersecciones y figuras geométricas con mayor claridad mediante modelos atómicos.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-2-ppa-3-pa8",
+        "projectTitle": "Modelos atómicos y estructura de la materia",
+        "concept": "representación visual",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Nuestro libro de proyectos Tomo I",
+          "pages": [
+            145,
+            146,
+            147,
+            148
+          ],
+          "reason": "La fuente validada \"Proyecto académico 8\" aporta base suficiente para trabajar representación visual dentro del proyecto 8."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer representaciones visuales de los átomos y a explicar la estructura de la materia y los modelos atómicos mediante representaciones visuales construidas con intersecciones y figuras geométricas con mayor claridad mediante representación visual.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-2-ppa-3-pa9",
+        "projectTitle": "Constitución de la materia",
+        "concept": "gráficas poligonales y de línea",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Nuestro libro de proyectos Tomo I",
+          "pages": [
+            149,
+            153
+          ],
+          "reason": "Posibilidades y el propio proyecto fijan Gráficas poligonales y de línea como producto final del PA 9."
+        },
+        "pedagogicalUse": "Da una forma concreta de socializar lo comprendido sobre la constitución de la materia y su representación en gráficas para comparar procesos, cambios o comportamientos.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-2-ppa-3-pa9",
+        "projectTitle": "Constitución de la materia",
+        "concept": "constitución de la materia",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Saberes y Pensamiento Científico",
+          "pages": [
+            140,
+            143
+          ],
+          "reason": "La fuente validada \"Constitución de la materia\" aporta base suficiente para trabajar constitución de la materia dentro del proyecto 9."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer gráficas poligonales y de línea y a explicar la constitución de la materia y su representación en gráficas para comparar procesos, cambios o comportamientos con mayor claridad mediante constitución de la materia.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-2-ppa-3-pa9",
+        "projectTitle": "Constitución de la materia",
+        "concept": "modelos de partículas",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Saberes y Pensamiento Científico",
+          "pages": [
+            269,
+            276
+          ],
+          "reason": "La fuente validada \"La conformación de la materia\" aporta base suficiente para trabajar modelos de partículas dentro del proyecto 9."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer gráficas poligonales y de línea y a explicar la constitución de la materia y su representación en gráficas para comparar procesos, cambios o comportamientos con mayor claridad mediante modelos de partículas.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-2-ppa-3-pa9",
+        "projectTitle": "Constitución de la materia",
+        "concept": "estados de la materia",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Saberes y Pensamiento Científico",
+          "pages": [
+            269,
+            276
+          ],
+          "reason": "La fuente validada \"La conformación de la materia\" aporta base suficiente para trabajar estados de la materia dentro del proyecto 9."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer gráficas poligonales y de línea y a explicar la constitución de la materia y su representación en gráficas para comparar procesos, cambios o comportamientos con mayor claridad mediante estados de la materia.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-2-ppa-3-pa9",
+        "projectTitle": "Constitución de la materia",
+        "concept": "gráfica de línea",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Nuestro libro de proyectos Tomo I",
+          "pages": [
+            149,
+            150,
+            151,
+            152
+          ],
+          "reason": "La fuente validada \"Proyecto académico 9\" aporta base suficiente para trabajar gráfica de línea dentro del proyecto 9."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer gráficas poligonales y de línea y a explicar la constitución de la materia y su representación en gráficas para comparar procesos, cambios o comportamientos con mayor claridad mediante gráfica de línea.",
+        "activityReadiness": "usable-for-autoevaluation"
+      }
+    ]
+  },
+  "pedagogicalArticulation": {
+    "grade": "2",
+    "field": "Saberes y Pensamiento Científico",
+    "ppaNumber": "3",
+    "status": "teacher-orientation",
+    "officialHorizonStatus": "pending",
+    "situatedPedagogicalOrientation": "El PPA 3 enlaza teselaciones, modelos atómicos y constitución de la materia para que el grupo experimente con figuras, observe patrones y produzca representaciones científicas visuales.",
+    "integratingQuestions": [
+      "Como dialogan galería de teselados, representaciones visuales de los átomos, gráficas poligonales y de línea dentro del mismo PPA 3?",
+      "Que cambia en la comprension de la construcción geométrica y los modelos de la materia como una conversación entre forma, representación y observación científica cuando el grupo pone en relacion conceptos, producto y comunidad?",
+      "Como convertir el producto final en una herramienta de explicacion y no solo de presentacion?"
+    ],
+    "projectConnections": [
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-2-ppa-3-pa7",
+        "projectTitle": "Teselados en la vida comunitaria",
+        "roleInPpa": "Abre el bloque al volver visible la geometría en objetos, diseños y espacios del entorno.",
+        "confirmedConcepts": [
+          "galería de teselados",
+          "polígonos regulares",
+          "construcción a escala",
+          "teselaciones",
+          "patrones geométricos"
+        ],
+        "suggestedConcepts": [],
+        "pedagogicalUse": "Conviene trabajar Teselados en la vida comunitaria como una oportunidad para profundizar en las teselaciones y la construcción de polígonos como formas de leer patrones geométricos presentes en la vida comunitaria sin separar contenido, comunidad y producto final."
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-2-ppa-3-pa8",
+        "projectTitle": "Modelos atómicos y estructura de la materia",
+        "roleInPpa": "Profundiza el bloque al conectar la geometría con la construcción de modelos científicos.",
+        "confirmedConcepts": [
+          "representaciones visuales de los átomos",
+          "intersecciones de círculos",
+          "estructura de la materia",
+          "modelos atómicos",
+          "representación visual"
+        ],
+        "suggestedConcepts": [],
+        "pedagogicalUse": "Conviene trabajar Modelos atómicos y estructura de la materia como una oportunidad para profundizar en la estructura de la materia y los modelos atómicos mediante representaciones visuales construidas con intersecciones y figuras geométricas sin separar contenido, comunidad y producto final."
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-2-ppa-3-pa9",
+        "projectTitle": "Constitución de la materia",
+        "roleInPpa": "Cierra el bloque al llevar las representaciones de la materia hacia lecturas comparativas apoyadas en gráficas.",
+        "confirmedConcepts": [
+          "gráficas poligonales y de línea",
+          "constitución de la materia",
+          "modelos de partículas",
+          "estados de la materia",
+          "gráfica de línea"
+        ],
+        "suggestedConcepts": [],
+        "pedagogicalUse": "Conviene trabajar Constitución de la materia como una oportunidad para profundizar en la constitución de la materia y su representación en gráficas para comparar procesos, cambios o comportamientos sin separar contenido, comunidad y producto final."
+      }
+    ],
+    "criteriaOfThought": [
+      {
+        "criterion": "Relacionar la construcción geométrica y los modelos de la materia como una conversación entre forma, representación y observación científica con experiencias concretas del entorno.",
+        "status": "suggested"
+      },
+      {
+        "criterion": "Usar el producto final para comunicar con claridad, no solo para acumular definiciones.",
+        "status": "suggested"
+      }
+    ],
+    "possibleResonanceQuestion": "¿Qué comprensiones nuevas sobre la construcción geométrica y los modelos de la materia como una conversación entre forma, representación y observación científica se vuelven visibles cuando el grupo comparte los productos del PPA 3?",
+    "teacherNotes": [
+      "No reducir el PPA 3 a tres productos aislados; el bloque construye una misma conversacion curricular.",
+      "Las paginas de Posibilidades forman un mismo bloque y los apoyos por columna se documentan por inferencia curricular situada.",
+      "Los enlaces cortos del video detonador y del recurso informatico se mantienen en cautela y no deben tratarse como recursos ya validados."
+    ],
+    "notReadyFor": [
+      "actividades interactivas",
+      "full-games",
+      "summative-exam"
+    ]
+  },
+  "teacherNotesAndResonances": {
+    "grade": "2",
+    "field": "Saberes y Pensamiento Científico",
+    "ppaNumber": "3",
+    "status": "teacher-orientation",
+    "officialHorizonStatus": "pending",
+    "ppaIntegratingResonance": "¿Qué comprensiones nuevas sobre la construcción geométrica y los modelos de la materia como una conversación entre forma, representación y observación científica se vuelven visibles cuando el grupo comparte los productos del PPA 3?",
+    "didacticWarnings": [
+      "No convertir el bloque en una lista de definiciones; importa relacionar conceptos con producto, comunidad y dialogo.",
+      "Los enlaces cortos bit.ly/3VfglUk y bit.ly/3WQBMwg se mantienen como cautela y no deben tratarse como recursos ya validados.",
+      "La distribucion de apoyos por columna se fija por inferencia curricular documentada a partir de Posibilidades."
+    ],
+    "communityPrompts": {
+      "communityKnowledge": [
+        "Que saberes de la comunidad ayudan a profundizar en la construcción geométrica y los modelos de la materia como una conversación entre forma, representación y observación científica?",
+        "Que ejemplos cercanos permiten que los conceptos del campo se vuelvan mas claros para el grupo?"
+      ],
+      "families": [
+        "Que experiencias, relatos o practicas familiares pueden enriquecer el proyecto sin desplazar su foco academico?",
+        "Que aprendizajes vale la pena compartir con otras generaciones a partir del producto final?"
+      ],
+      "territoryLanguageMemory": [
+        "Que palabras, lugares o memorias ayudan a nombrar mejor lo que el proyecto esta buscando comprender?",
+        "Como pueden circular estos productos dentro de la comunidad escolar sin perder precision ni sentido?"
+      ],
+      "productCommunityConnection": [
+        "Como podria circular galería de teselados, representaciones visuales de los átomos, gráficas poligonales y de línea para fortalecer el dialogo comunitario?"
+      ]
+    },
+    "suggestedThinkingCriteria": [
+      "Relacionar la construcción geométrica y los modelos de la materia como una conversación entre forma, representación y observación científica con problemas, experiencias y preguntas del entorno cercano.",
+      "Valorar el producto final como herramienta de comprension y comunicacion compartida."
+    ],
+    "projects": [
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-2-ppa-3-pa7",
+        "projectTitle": "Teselados en la vida comunitaria",
+        "teacherNotes": [
+          "Conviene partir de ejemplos cercanos y después pasar al lenguaje mas abstracto del campo.",
+          "El producto Galería de teselados gana fuerza cuando se usa para explicar y no solo para exhibir informacion.",
+          "Es mejor seleccionar pocos conceptos bien comprendidos que saturar el trabajo con terminos aislados."
+        ],
+        "confirmedConceptsToUse": [
+          "galería de teselados",
+          "polígonos regulares",
+          "construcción a escala",
+          "teselaciones",
+          "patrones geométricos"
+        ],
+        "suggestedConceptsToHandleCarefully": [],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Qué comprendes mejor sobre las teselaciones y la construcción de polígonos como formas de leer patrones geométricos presentes en la vida comunitaria después de elaborar galería de teselados?"
+          },
+          {
+            "type": "community",
+            "prompt": "¿En qué lugares de la comunidad ya aparecen teselados o patrones que casi nunca nombramos como geometría?"
+          }
+        ],
+        "notReadyFor": [
+          "full-games",
+          "summative-exam"
+        ]
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-2-ppa-3-pa8",
+        "projectTitle": "Modelos atómicos y estructura de la materia",
+        "teacherNotes": [
+          "Conviene partir de ejemplos cercanos y después pasar al lenguaje mas abstracto del campo.",
+          "El producto Representaciones visuales de los átomos gana fuerza cuando se usa para explicar y no solo para exhibir informacion.",
+          "Es mejor seleccionar pocos conceptos bien comprendidos que saturar el trabajo con terminos aislados."
+        ],
+        "confirmedConceptsToUse": [
+          "representaciones visuales de los átomos",
+          "intersecciones de círculos",
+          "estructura de la materia",
+          "modelos atómicos",
+          "representación visual"
+        ],
+        "suggestedConceptsToHandleCarefully": [],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Qué comprendes mejor sobre la estructura de la materia y los modelos atómicos mediante representaciones visuales construidas con intersecciones y figuras geométricas después de elaborar representaciones visuales de los átomos?"
+          },
+          {
+            "type": "community",
+            "prompt": "¿Qué se vuelve más claro cuando representamos lo que no vemos directamente con modelos y figuras?"
+          }
+        ],
+        "notReadyFor": [
+          "full-games",
+          "summative-exam"
+        ]
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-2-ppa-3-pa9",
+        "projectTitle": "Constitución de la materia",
+        "teacherNotes": [
+          "Conviene partir de ejemplos cercanos y después pasar al lenguaje mas abstracto del campo.",
+          "El producto Gráficas poligonales y de línea gana fuerza cuando se usa para explicar y no solo para exhibir informacion.",
+          "Es mejor seleccionar pocos conceptos bien comprendidos que saturar el trabajo con terminos aislados."
+        ],
+        "confirmedConceptsToUse": [
+          "gráficas poligonales y de línea",
+          "constitución de la materia",
+          "modelos de partículas",
+          "estados de la materia",
+          "gráfica de línea"
+        ],
+        "suggestedConceptsToHandleCarefully": [],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Qué comprendes mejor sobre la constitución de la materia y su representación en gráficas para comparar procesos, cambios o comportamientos después de elaborar gráficas poligonales y de línea?"
+          },
+          {
+            "type": "community",
+            "prompt": "¿Qué procesos materiales del entorno podrían comprenderse mejor si los representamos y comparamos con gráficas?"
+          }
+        ],
+        "notReadyFor": [
+          "full-games",
+          "summative-exam"
+        ]
+      }
+    ]
+  },
+  "validationAudit": {
+    "kind": "fine-validation-audit",
+    "source": "reports/caracoles/grade2-saberes-ppa3-reading-bundle-audit.md",
+    "content": "# Auditoria de lectura docente\n\n## Alcance\n\n- Campo: 2o Saberes y Pensamiento Científico\n- Bloque: PPA 3\n- Titulo del PPA: Experimentación con figuras\n- Proyectos: PA7-PA9\n\n## Proyectos validados\n\n7. Teselados en la vida comunitaria\n   - Producto final: Galería de teselados\n   - Paginas: Nuestro libro de proyectos Tomo I pp. 141-144\n8. Modelos atómicos y estructura de la materia\n   - Producto final: Representaciones visuales de los átomos\n   - Paginas: Nuestro libro de proyectos Tomo I pp. 145-148\n9. Constitución de la materia\n   - Producto final: Gráficas poligonales y de línea\n   - Paginas: Nuestro libro de proyectos Tomo I pp. 149-153\n\n## Evidencia base usada\n\n- Posibilidades de uso SyPC pp. 10-11.\n- Nuestro libro de proyectos Tomo I pp. 139-153.\n- Saberes y Pensamiento Científico, segundo grado, pp. 14-16, 47-61, 140-143, 198-203 y 269-276; Múltiples Lenguajes pp. 46 y 122..\n\n## Decisiones curriculares del bloque\n\n- El horizonte comun del PPA 3 se mantiene en estado pendiente como formula unica; se privilegia una orientacion pedagogica situada y documentada.\n- Los productos finales quedan confirmados desde Posibilidades y la secuencia del propio proyecto.\n- Los conceptos confirmados se normalizan para sostener lectura docente, autoevaluacion y actividades de relacion de columnas.\n- La resonancia se formula como pregunta abierta para reforzar el sentido formativo del bloque.\n\n## Cautelas reales\n\n- El video detonador del PPA 3 y el recurso informatico del bloque siguen sin URL oficial confirmada.\n- La asignacion de apoyos por columna se sostiene por inferencia curricular documentada, no por OCR limpio de tabla.\n- No se marca el bloque como actividades interactivas ni se desbloquean juegos completos.\n"
+  }
+}

@@ -1,0 +1,1199 @@
+{
+  "grade": "3",
+  "gradeLabel": "Tercer grado",
+  "field": "Lenguajes",
+  "ppaNumber": "11",
+  "partialClassroomProject": "PPA 11",
+  "partialClassroomProjectTitle": "Comuniquemos nuestra historia con nuestra voz",
+  "source": "curricular-development-generated",
+  "generatedAt": "2026-06-07T03:06:27.691Z",
+  "development": {
+    "grade": "3",
+    "gradeLabel": "Tercer grado",
+    "field": "Lenguajes",
+    "bookVolume": "Tomo III",
+    "partialClassroomProject": "PPA 11",
+    "partialClassroomProjectTitle": "Comuniquemos nuestra historia con nuestra voz",
+    "generatedAt": "2026-06-07T03:06:27.647Z",
+    "notes": "Capa curricular generada por lote para 3o Lenguajes, PPA 11.",
+    "sourcesUsed": [
+      "content/caracoles/curricular-catalog/all-projects-canonical.json",
+      "public/caracoles/data/generated/grade-3/concepts-index.json",
+      "src/caracoles/lib/officialVideoLinks.ts",
+      "Posibilidades de uso Lenguajes, tercer grado, p. 26",
+      "Nuestro libro de proyectos, tercer grado, pp. 13-24"
+    ],
+    "partialClassroomProjectContext": {
+      "expectationHorizon": {
+        "officialText": "",
+        "sourcePages": [
+          "Nuestro libro de proyectos Tomo III pp. 13-16",
+          "Posibilidades de uso Lenguajes p. 26"
+        ],
+        "evidence": "El PPA 11 articula 6. ¡somos una fiesta de lenguajes creativos!, recital multilingüístico, 15. comunidad, empatía e inclusión: un trabajo de todxs para trabajar Comuniquemos nuestra historia con nuestra voz.",
+        "status": "pending"
+      },
+      "ppaDetonatingStrategy": {
+        "title": "Comuniquemos nuestra historia con nuestra voz",
+        "type": "video",
+        "url": "",
+        "urlStatus": "confirmed-by-official-video-map",
+        "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+        "scope": "partial-classroom-project"
+      },
+      "ppaDigitalResource": {
+        "title": "Recurso del Proyecto Parcial de Aula 11",
+        "reference": "",
+        "status": "confirmed-by-official-video-map",
+        "source": "YouTube, acervo Aprende_MX/Telesecundaria"
+      },
+      "validationStatus": {
+        "needsHumanReview": true,
+        "needsReviewReasons": [
+          "Los videos PA/PPA se validan por el mapa oficial de enlaces directos ya generado.",
+          "Los apoyos complementarios impresos no se asignan cuando no hay evidencia validada por columna.",
+          "El horizonte textual literal queda pendiente de revision fina si se necesita cita exacta."
+        ]
+      },
+      "columnValidation": {
+        "possibilitiesPagesReviewed": [
+          26
+        ],
+        "confirmedAsPpa": true,
+        "note": "El PPA 11 se agrupa desde el catalogo canonico de tercer grado.",
+        "columns": [
+          {
+            "columnIndex": 1,
+            "projectId": "lenguajes-3-ppa-11-pa31",
+            "projectTitle": "¡Somos reporteros locales!",
+            "finalProduct": "6. ¡Somos una fiesta de lenguajes creativos!",
+            "supportMaterials": []
+          },
+          {
+            "columnIndex": 2,
+            "projectId": "lenguajes-3-ppa-11-pa32",
+            "projectTitle": "Nuestro escenario comunal",
+            "finalProduct": "Recital multilingüístico",
+            "supportMaterials": []
+          },
+          {
+            "columnIndex": 3,
+            "projectId": "lenguajes-3-ppa-11-pa33",
+            "projectTitle": "¡Que nos escuchen todxs!",
+            "finalProduct": "15. Comunidad, empatía e inclusión: un trabajo de todxs",
+            "supportMaterials": []
+          }
+        ]
+      }
+    },
+    "academicProjects": [
+      {
+        "id": "lenguajes-3-ppa-11-pa31",
+        "projectId": "lenguajes-3-ppa-11-pa31",
+        "academicProjectNumber": 31,
+        "title": "¡Somos reporteros locales!",
+        "projectTitle": "¡Somos reporteros locales!",
+        "grade": "3",
+        "field": "Lenguajes",
+        "ppaNumber": "11",
+        "partialClassroomProject": "PPA 11",
+        "partialClassroomProjectTitle": "Comuniquemos nuestra historia con nuestra voz",
+        "bookVolume": "Tomo III",
+        "sourceValidation": {
+          "sourceStatus": "linked",
+          "possibilitiesPages": [
+            26
+          ],
+          "possibilitiesMaterialId": "grade-3-posibilidades-pos-len-3",
+          "possibilitiesColumnIndex": 1,
+          "columnEvidence": "Proyecto PA 31 agrupado en el PPA 11 desde el catalogo canonico y las paginas de Posibilidades."
+        },
+        "finalProduct": {
+          "title": "6. ¡Somos una fiesta de lenguajes creativos!",
+          "source": "Video detonador validado en YouTube + Nuestro libro de proyectos Tomo III pp. 13-16",
+          "status": "confirmed-from-video-and-project"
+        },
+        "sourcePages": {
+          "nuestroLibroProyectos": [
+            {
+              "materialId": "grade-3-proyectos-nuestros-proyectos-tomo-3-tercer-grado",
+              "label": "Nuestro libro de proyectos Tomo III",
+              "startPage": 13,
+              "endPage": 16,
+              "pagesLabel": "pp. 13-16",
+              "topicTitle": "Proyecto academico 31",
+              "status": "confirmed-source"
+            }
+          ],
+          "conceptBook": [
+            {
+              "materialId": "grade-3-conceptos-lenguajes-tercer-grado",
+              "label": "Lenguajes",
+              "startPage": 13,
+              "endPage": 13,
+              "pagesLabel": "p. 13",
+              "topicTitle": "6. ¡somos una fiesta de lenguajes creativos!",
+              "status": "confirmed"
+            }
+          ],
+          "multiplesLenguajes": [],
+          "otherMaterials": [
+            {
+              "label": "Video PA 31: 6. ¡Somos una fiesta de lenguajes creativos! • Lenguajes • 3er grado",
+              "reference": "https://www.youtube.com/watch?v=v1b-TQg82fI",
+              "status": "confirmed"
+            },
+            {
+              "label": "Video PPA 11: 11. Comuniquemos nuestra historia con nuestra voz • Lenguajes • 3er grado",
+              "reference": "https://www.youtube.com/watch?v=E3q6gU1rJIU",
+              "status": "confirmed"
+            }
+          ]
+        },
+        "supportMaterials": [],
+        "horizonOrPurpose": {
+          "status": "pending",
+          "text": "",
+          "source": "Nuestro libro de proyectos Tomo III pp. 13-16"
+        },
+        "projectExpectationHorizon": {
+          "officialText": "Objetivo 1: Realizar una investigación de algún acontecimiento que esté marcado en la memoria colectiva de la comunidad para trabajar en torno a él y elaborar una nota informativa con el fin de presentarla en el noticiero cultural. Objetivo 2: Identificar las características básicas del noticiero con la intención de realizar un proyecto basado en hechos verídicos que sean parte de la memoria colectiva.",
+          "studentVersion": "Realizar una investigación de algún acontecimiento que esté marcado en la memoria colectiva de la comunidad para trabajar en torno a él y elaborar una nota informativa con el fin de presentarla en el noticiero cultural. Identificar las características básicas del noticiero con la intención de realizar un proyecto basado en hechos verídicos que sean parte de la memoria colectiva.",
+          "sourcePages": [
+            "Nuestro libro de proyectos Tomo III p. 14"
+          ],
+          "evidence": "Texto rotulado como Objetivo dentro del rango exacto del Proyecto Academico; se acepta como equivalente funcional de horizonte de expectativas.",
+          "status": "confirmed-from-project-book",
+          "detectedLabel": "Objetivo",
+          "validationScope": "academic-project"
+        },
+        "detonatingStrategy": {
+          "title": "11. Comuniquemos nuestra historia con nuestra voz • Lenguajes • 3er grado",
+          "text": "Video del Proyecto Parcial de Aula 11: 11. Comuniquemos nuestra historia con nuestra voz • Lenguajes • 3er grado",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=E3q6gU1rJIU",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "partial-classroom-project"
+        },
+        "academicProjectStrategy": {
+          "title": "6. ¡Somos una fiesta de lenguajes creativos! • Lenguajes • 3er grado",
+          "text": "Video detonador del Proyecto Academico 31: ¡Somos reporteros locales!",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=v1b-TQg82fI",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "academic-project"
+        },
+        "academicConcepts": [
+          {
+            "concept": "6. ¡somos una fiesta de lenguajes creativos!",
+            "description": "6. ¡somos una fiesta de lenguajes creativos! organiza el producto de cierre y permite comunicar lo aprendido en el proyecto.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              13
+            ],
+            "sourcePagesLabel": "p. 13",
+            "topicTitle": "Proyecto academico 31",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 31, al PPA 11 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Lenguaje",
+            "description": "Lenguaje ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              13
+            ],
+            "sourcePagesLabel": "p. 13",
+            "topicTitle": "Proyecto academico 31",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 31, al PPA 11 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Cultura",
+            "description": "Cultura ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              154
+            ],
+            "sourcePagesLabel": "p. 154",
+            "topicTitle": "Proyecto academico 31",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 31, al PPA 11 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Comunicacion",
+            "description": "Comunicacion ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              13
+            ],
+            "sourcePagesLabel": "p. 13",
+            "topicTitle": "Proyecto academico 31",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 31, al PPA 11 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Lectura",
+            "description": "Lectura ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              13
+            ],
+            "sourcePagesLabel": "p. 13",
+            "topicTitle": "Proyecto academico 31",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 31, al PPA 11 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Escritura",
+            "description": "Escritura ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              13
+            ],
+            "sourcePagesLabel": "p. 13",
+            "topicTitle": "Proyecto academico 31",
+            "status": "suggested",
+            "reason": "Concepto vinculado al PA 31, al PPA 11 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "teacher-review"
+          }
+        ],
+        "thinkingCriteria": [
+          "Relacionar ¡Somos reporteros locales! con una situacion concreta del entorno escolar o comunitario.",
+          "Usar 6. ¡somos una fiesta de lenguajes creativos! para explicar ideas con claridad y evidencia."
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Como te ayuda 6. ¡somos una fiesta de lenguajes creativos! a comprender mejor ¡Somos reporteros locales! y a explicar sus conceptos clave en tu comunidad?",
+            "conceptsActivated": [
+              "6. ¡somos una fiesta de lenguajes creativos!",
+              "Lenguaje",
+              "Cultura",
+              "Comunicacion"
+            ],
+            "suggestedUse": "Momento 1 de autoevaluacion"
+          }
+        ],
+        "validationStatus": {
+          "readinessLevel": "curricular-bundle-generated",
+          "readyForActivities": true,
+          "needsReviewReasons": [
+            "El horizonte textual literal queda pendiente de revision fina si se requiere cita exacta.",
+            "Los apoyos complementarios impresos no se asignan cuando no hay evidencia validada por columna."
+          ]
+        },
+        "readinessLevel": "curricular-bundle-generated",
+        "readyForActivities": true,
+        "needsReviewReasons": []
+      },
+      {
+        "id": "lenguajes-3-ppa-11-pa32",
+        "projectId": "lenguajes-3-ppa-11-pa32",
+        "academicProjectNumber": 32,
+        "title": "Nuestro escenario comunal",
+        "projectTitle": "Nuestro escenario comunal",
+        "grade": "3",
+        "field": "Lenguajes",
+        "ppaNumber": "11",
+        "partialClassroomProject": "PPA 11",
+        "partialClassroomProjectTitle": "Comuniquemos nuestra historia con nuestra voz",
+        "bookVolume": "Tomo III",
+        "sourceValidation": {
+          "sourceStatus": "linked",
+          "possibilitiesPages": [
+            26
+          ],
+          "possibilitiesMaterialId": "grade-3-posibilidades-pos-len-3",
+          "possibilitiesColumnIndex": 2,
+          "columnEvidence": "Proyecto PA 32 agrupado en el PPA 11 desde el catalogo canonico y las paginas de Posibilidades."
+        },
+        "finalProduct": {
+          "title": "Recital multilingüístico",
+          "source": "Video detonador validado en YouTube + Nuestro libro de proyectos Tomo III pp. 17-20",
+          "status": "confirmed-from-video-and-project"
+        },
+        "sourcePages": {
+          "nuestroLibroProyectos": [
+            {
+              "materialId": "grade-3-proyectos-nuestros-proyectos-tomo-3-tercer-grado",
+              "label": "Nuestro libro de proyectos Tomo III",
+              "startPage": 17,
+              "endPage": 20,
+              "pagesLabel": "pp. 17-20",
+              "topicTitle": "Proyecto academico 32",
+              "status": "confirmed-source"
+            }
+          ],
+          "conceptBook": [
+            {
+              "materialId": "grade-3-conceptos-lenguajes-tercer-grado",
+              "label": "Lenguajes",
+              "startPage": 17,
+              "endPage": 17,
+              "pagesLabel": "p. 17",
+              "topicTitle": "Recital multilingüístico",
+              "status": "confirmed"
+            }
+          ],
+          "multiplesLenguajes": [],
+          "otherMaterials": [
+            {
+              "label": "Video PA 32: Recital multilingüístico • Lenguajes • 3er. grado",
+              "reference": "https://www.youtube.com/watch?v=4Tj10gt-at4",
+              "status": "confirmed"
+            },
+            {
+              "label": "Video PPA 11: 11. Comuniquemos nuestra historia con nuestra voz • Lenguajes • 3er grado",
+              "reference": "https://www.youtube.com/watch?v=E3q6gU1rJIU",
+              "status": "confirmed"
+            }
+          ]
+        },
+        "supportMaterials": [],
+        "horizonOrPurpose": {
+          "status": "pending",
+          "text": "",
+          "source": "Nuestro libro de proyectos Tomo III pp. 17-20"
+        },
+        "projectExpectationHorizon": {
+          "officialText": "",
+          "studentVersion": "",
+          "sourcePages": [
+            "Nuestro libro de proyectos Tomo III pp. 17-20"
+          ],
+          "evidence": "El PA 32 cuenta con paginas de proyecto, producto de cierre, conceptos y videos directos validados; el horizonte textual literal queda pendiente de transcripcion fina.",
+          "status": "pending"
+        },
+        "detonatingStrategy": {
+          "title": "11. Comuniquemos nuestra historia con nuestra voz • Lenguajes • 3er grado",
+          "text": "Video del Proyecto Parcial de Aula 11: 11. Comuniquemos nuestra historia con nuestra voz • Lenguajes • 3er grado",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=E3q6gU1rJIU",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "partial-classroom-project"
+        },
+        "academicProjectStrategy": {
+          "title": "Recital multilingüístico • Lenguajes • 3er. grado",
+          "text": "Video detonador del Proyecto Academico 32: Nuestro escenario comunal",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=4Tj10gt-at4",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "academic-project"
+        },
+        "academicConcepts": [
+          {
+            "concept": "Recital multilingüístico",
+            "description": "Recital multilingüístico organiza el producto de cierre y permite comunicar lo aprendido en el proyecto.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              17
+            ],
+            "sourcePagesLabel": "p. 17",
+            "topicTitle": "Proyecto academico 32",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 32, al PPA 11 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Lenguaje",
+            "description": "Lenguaje ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              17
+            ],
+            "sourcePagesLabel": "p. 17",
+            "topicTitle": "Proyecto academico 32",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 32, al PPA 11 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Cultura",
+            "description": "Cultura ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              154
+            ],
+            "sourcePagesLabel": "p. 154",
+            "topicTitle": "Proyecto academico 32",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 32, al PPA 11 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Comunicacion",
+            "description": "Comunicacion ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              17
+            ],
+            "sourcePagesLabel": "p. 17",
+            "topicTitle": "Proyecto academico 32",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 32, al PPA 11 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Lectura",
+            "description": "Lectura ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              17
+            ],
+            "sourcePagesLabel": "p. 17",
+            "topicTitle": "Proyecto academico 32",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 32, al PPA 11 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Escritura",
+            "description": "Escritura ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              17
+            ],
+            "sourcePagesLabel": "p. 17",
+            "topicTitle": "Proyecto academico 32",
+            "status": "suggested",
+            "reason": "Concepto vinculado al PA 32, al PPA 11 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "teacher-review"
+          }
+        ],
+        "thinkingCriteria": [
+          "Relacionar Nuestro escenario comunal con una situacion concreta del entorno escolar o comunitario.",
+          "Usar recital multilingüístico para explicar ideas con claridad y evidencia."
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Como te ayuda recital multilingüístico a comprender mejor Nuestro escenario comunal y a explicar sus conceptos clave en tu comunidad?",
+            "conceptsActivated": [
+              "Recital multilingüístico",
+              "Lenguaje",
+              "Cultura",
+              "Comunicacion"
+            ],
+            "suggestedUse": "Momento 1 de autoevaluacion"
+          }
+        ],
+        "validationStatus": {
+          "readinessLevel": "curricular-bundle-generated",
+          "readyForActivities": true,
+          "needsReviewReasons": [
+            "El horizonte textual literal queda pendiente de revision fina si se requiere cita exacta.",
+            "Los apoyos complementarios impresos no se asignan cuando no hay evidencia validada por columna."
+          ]
+        },
+        "readinessLevel": "curricular-bundle-generated",
+        "readyForActivities": true,
+        "needsReviewReasons": []
+      },
+      {
+        "id": "lenguajes-3-ppa-11-pa33",
+        "projectId": "lenguajes-3-ppa-11-pa33",
+        "academicProjectNumber": 33,
+        "title": "¡Que nos escuchen todxs!",
+        "projectTitle": "¡Que nos escuchen todxs!",
+        "grade": "3",
+        "field": "Lenguajes",
+        "ppaNumber": "11",
+        "partialClassroomProject": "PPA 11",
+        "partialClassroomProjectTitle": "Comuniquemos nuestra historia con nuestra voz",
+        "bookVolume": "Tomo III",
+        "sourceValidation": {
+          "sourceStatus": "linked",
+          "possibilitiesPages": [
+            26
+          ],
+          "possibilitiesMaterialId": "grade-3-posibilidades-pos-len-3",
+          "possibilitiesColumnIndex": 3,
+          "columnEvidence": "Proyecto PA 33 agrupado en el PPA 11 desde el catalogo canonico y las paginas de Posibilidades."
+        },
+        "finalProduct": {
+          "title": "15. Comunidad, empatía e inclusión: un trabajo de todxs",
+          "source": "Video detonador validado en YouTube + Nuestro libro de proyectos Tomo III pp. 21-24",
+          "status": "confirmed-from-video-and-project"
+        },
+        "sourcePages": {
+          "nuestroLibroProyectos": [
+            {
+              "materialId": "grade-3-proyectos-nuestros-proyectos-tomo-3-tercer-grado",
+              "label": "Nuestro libro de proyectos Tomo III",
+              "startPage": 21,
+              "endPage": 24,
+              "pagesLabel": "pp. 21-24",
+              "topicTitle": "Proyecto academico 33",
+              "status": "confirmed-source"
+            }
+          ],
+          "conceptBook": [
+            {
+              "materialId": "grade-3-conceptos-lenguajes-tercer-grado",
+              "label": "Lenguajes",
+              "startPage": 21,
+              "endPage": 21,
+              "pagesLabel": "p. 21",
+              "topicTitle": "15. comunidad, empatía e inclusión: un trabajo de todxs",
+              "status": "confirmed"
+            }
+          ],
+          "multiplesLenguajes": [],
+          "otherMaterials": [
+            {
+              "label": "Video PA 33: 15. Comunidad, empatía e inclusión: un trabajo de todxs • Lenguajes • 3er grado",
+              "reference": "https://www.youtube.com/watch?v=RRxRmiRZKzg",
+              "status": "confirmed"
+            },
+            {
+              "label": "Video PPA 11: 11. Comuniquemos nuestra historia con nuestra voz • Lenguajes • 3er grado",
+              "reference": "https://www.youtube.com/watch?v=E3q6gU1rJIU",
+              "status": "confirmed"
+            }
+          ]
+        },
+        "supportMaterials": [],
+        "horizonOrPurpose": {
+          "status": "pending",
+          "text": "",
+          "source": "Nuestro libro de proyectos Tomo III pp. 21-24"
+        },
+        "projectExpectationHorizon": {
+          "officialText": "Objetivo 1: Realizar una investigación para saber cuáles son los hechos que marcaron a la comunidad en su memoria colectiva y así obtener información para la canción conmemorativa. Objetivo 2: Crear una lista de acontecimientos mediante una lluvia de ideas o entrevistar a personas de la comunidad para obtener información verídica para la canción conmemorativa.",
+          "studentVersion": "Realizar una investigación para saber cuáles son los hechos que marcaron a la comunidad en su memoria colectiva y así obtener información para la canción conmemorativa. Crear una lista de acontecimientos mediante una lluvia de ideas o entrevistar a personas de la comunidad para obtener información verídica para la canción conmemorativa.",
+          "sourcePages": [
+            "Nuestro libro de proyectos Tomo III p. 22"
+          ],
+          "evidence": "Texto rotulado como Objetivo dentro del rango exacto del Proyecto Academico; se acepta como equivalente funcional de horizonte de expectativas.",
+          "status": "confirmed-from-project-book",
+          "detectedLabel": "Objetivo",
+          "validationScope": "academic-project"
+        },
+        "detonatingStrategy": {
+          "title": "11. Comuniquemos nuestra historia con nuestra voz • Lenguajes • 3er grado",
+          "text": "Video del Proyecto Parcial de Aula 11: 11. Comuniquemos nuestra historia con nuestra voz • Lenguajes • 3er grado",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=E3q6gU1rJIU",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "partial-classroom-project"
+        },
+        "academicProjectStrategy": {
+          "title": "15. Comunidad, empatía e inclusión: un trabajo de todxs • Lenguajes • 3er grado",
+          "text": "Video detonador del Proyecto Academico 33: ¡Que nos escuchen todxs!",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=RRxRmiRZKzg",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "academic-project"
+        },
+        "academicConcepts": [
+          {
+            "concept": "15. comunidad, empatía e inclusión: un trabajo de todxs",
+            "description": "15. comunidad, empatía e inclusión: un trabajo de todxs organiza el producto de cierre y permite comunicar lo aprendido en el proyecto.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              21
+            ],
+            "sourcePagesLabel": "p. 21",
+            "topicTitle": "Proyecto academico 33",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 33, al PPA 11 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Lenguaje",
+            "description": "Lenguaje ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              21
+            ],
+            "sourcePagesLabel": "p. 21",
+            "topicTitle": "Proyecto academico 33",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 33, al PPA 11 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Cultura",
+            "description": "Cultura ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              154
+            ],
+            "sourcePagesLabel": "p. 154",
+            "topicTitle": "Proyecto academico 33",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 33, al PPA 11 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Comunicacion",
+            "description": "Comunicacion ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              21
+            ],
+            "sourcePagesLabel": "p. 21",
+            "topicTitle": "Proyecto academico 33",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 33, al PPA 11 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Lectura",
+            "description": "Lectura ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              21
+            ],
+            "sourcePagesLabel": "p. 21",
+            "topicTitle": "Proyecto academico 33",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 33, al PPA 11 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Escritura",
+            "description": "Escritura ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              21
+            ],
+            "sourcePagesLabel": "p. 21",
+            "topicTitle": "Proyecto academico 33",
+            "status": "suggested",
+            "reason": "Concepto vinculado al PA 33, al PPA 11 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "teacher-review"
+          }
+        ],
+        "thinkingCriteria": [
+          "Relacionar ¡Que nos escuchen todxs! con una situacion concreta del entorno escolar o comunitario.",
+          "Usar 15. comunidad, empatía e inclusión: un trabajo de todxs para explicar ideas con claridad y evidencia."
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Como te ayuda 15. comunidad, empatía e inclusión: un trabajo de todxs a comprender mejor ¡Que nos escuchen todxs! y a explicar sus conceptos clave en tu comunidad?",
+            "conceptsActivated": [
+              "15. comunidad, empatía e inclusión: un trabajo de todxs",
+              "Lenguaje",
+              "Cultura",
+              "Comunicacion"
+            ],
+            "suggestedUse": "Momento 1 de autoevaluacion"
+          }
+        ],
+        "validationStatus": {
+          "readinessLevel": "curricular-bundle-generated",
+          "readyForActivities": true,
+          "needsReviewReasons": [
+            "El horizonte textual literal queda pendiente de revision fina si se requiere cita exacta.",
+            "Los apoyos complementarios impresos no se asignan cuando no hay evidencia validada por columna."
+          ]
+        },
+        "readinessLevel": "curricular-bundle-generated",
+        "readyForActivities": true,
+        "needsReviewReasons": []
+      }
+    ]
+  },
+  "conceptsValidation": {
+    "grade": "3",
+    "field": "Lenguajes",
+    "ppaNumber": "11",
+    "status": "concept-validation",
+    "generatedAt": "2026-06-07T03:06:27.647Z",
+    "entries": [
+      {
+        "projectId": "lenguajes-3-ppa-11-pa31",
+        "projectTitle": "¡Somos reporteros locales!",
+        "concept": "6. ¡somos una fiesta de lenguajes creativos!",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            13
+          ],
+          "reason": "Concepto vinculado al PA 31, al PPA 11 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-11-pa31",
+        "projectTitle": "¡Somos reporteros locales!",
+        "concept": "Lenguaje",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            13
+          ],
+          "reason": "Concepto vinculado al PA 31, al PPA 11 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-11-pa31",
+        "projectTitle": "¡Somos reporteros locales!",
+        "concept": "Cultura",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            154
+          ],
+          "reason": "Concepto vinculado al PA 31, al PPA 11 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-11-pa31",
+        "projectTitle": "¡Somos reporteros locales!",
+        "concept": "Comunicacion",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            13
+          ],
+          "reason": "Concepto vinculado al PA 31, al PPA 11 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-11-pa31",
+        "projectTitle": "¡Somos reporteros locales!",
+        "concept": "Lectura",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            13
+          ],
+          "reason": "Concepto vinculado al PA 31, al PPA 11 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-11-pa31",
+        "projectTitle": "¡Somos reporteros locales!",
+        "concept": "Escritura",
+        "status": "suggested",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            13
+          ],
+          "reason": "Concepto vinculado al PA 31, al PPA 11 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "teacher-review"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-11-pa32",
+        "projectTitle": "Nuestro escenario comunal",
+        "concept": "Recital multilingüístico",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            17
+          ],
+          "reason": "Concepto vinculado al PA 32, al PPA 11 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-11-pa32",
+        "projectTitle": "Nuestro escenario comunal",
+        "concept": "Lenguaje",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            17
+          ],
+          "reason": "Concepto vinculado al PA 32, al PPA 11 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-11-pa32",
+        "projectTitle": "Nuestro escenario comunal",
+        "concept": "Cultura",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            154
+          ],
+          "reason": "Concepto vinculado al PA 32, al PPA 11 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-11-pa32",
+        "projectTitle": "Nuestro escenario comunal",
+        "concept": "Comunicacion",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            17
+          ],
+          "reason": "Concepto vinculado al PA 32, al PPA 11 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-11-pa32",
+        "projectTitle": "Nuestro escenario comunal",
+        "concept": "Lectura",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            17
+          ],
+          "reason": "Concepto vinculado al PA 32, al PPA 11 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-11-pa32",
+        "projectTitle": "Nuestro escenario comunal",
+        "concept": "Escritura",
+        "status": "suggested",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            17
+          ],
+          "reason": "Concepto vinculado al PA 32, al PPA 11 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "teacher-review"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-11-pa33",
+        "projectTitle": "¡Que nos escuchen todxs!",
+        "concept": "15. comunidad, empatía e inclusión: un trabajo de todxs",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            21
+          ],
+          "reason": "Concepto vinculado al PA 33, al PPA 11 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-11-pa33",
+        "projectTitle": "¡Que nos escuchen todxs!",
+        "concept": "Lenguaje",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            21
+          ],
+          "reason": "Concepto vinculado al PA 33, al PPA 11 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-11-pa33",
+        "projectTitle": "¡Que nos escuchen todxs!",
+        "concept": "Cultura",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            154
+          ],
+          "reason": "Concepto vinculado al PA 33, al PPA 11 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-11-pa33",
+        "projectTitle": "¡Que nos escuchen todxs!",
+        "concept": "Comunicacion",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            21
+          ],
+          "reason": "Concepto vinculado al PA 33, al PPA 11 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-11-pa33",
+        "projectTitle": "¡Que nos escuchen todxs!",
+        "concept": "Lectura",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            21
+          ],
+          "reason": "Concepto vinculado al PA 33, al PPA 11 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-11-pa33",
+        "projectTitle": "¡Que nos escuchen todxs!",
+        "concept": "Escritura",
+        "status": "suggested",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            21
+          ],
+          "reason": "Concepto vinculado al PA 33, al PPA 11 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "teacher-review"
+      }
+    ]
+  },
+  "pedagogicalArticulation": {
+    "grade": "3",
+    "field": "Lenguajes",
+    "ppaNumber": "11",
+    "status": "teacher-orientation",
+    "officialHorizonStatus": "pending",
+    "situatedPedagogicalOrientation": "El PPA 11 propone trabajar Comuniquemos nuestra historia con nuestra voz mediante productos de cierre, conceptos confirmados y videos directos para reforzar la autoevaluacion.",
+    "integratingQuestions": [
+      "¿Como se relacionan los tres proyectos academicos del PPA 11 con Comuniquemos nuestra historia con nuestra voz?",
+      "¿Que conceptos necesita dominar el estudiante para explicar su producto final?",
+      "¿Como usar el producto final para comunicar una comprension y no solo presentar informacion?"
+    ],
+    "possibleResonanceQuestion": "¿Que comprension nueva sobre Comuniquemos nuestra historia con nuestra voz puedes explicar con los productos del PPA 11?",
+    "teacherNotes": [
+      "Usar los videos directos como detonadores, no como enlaces de busqueda.",
+      "Retomar los conceptos confirmados antes de resolver la relacion de columnas y el juego."
+    ],
+    "projectConnections": [
+      {
+        "projectId": "lenguajes-3-ppa-11-pa31",
+        "projectTitle": "¡Somos reporteros locales!",
+        "roleInPpa": "Aporta 6. ¡somos una fiesta de lenguajes creativos! al desarrollo del PPA 11.",
+        "confirmedConcepts": [
+          "6. ¡somos una fiesta de lenguajes creativos!",
+          "Lenguaje",
+          "Cultura",
+          "Comunicacion",
+          "Lectura"
+        ],
+        "suggestedConcepts": [
+          "Escritura"
+        ],
+        "pedagogicalUse": "Video detonador del Proyecto Academico 31: ¡Somos reporteros locales!"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-11-pa32",
+        "projectTitle": "Nuestro escenario comunal",
+        "roleInPpa": "Aporta recital multilingüístico al desarrollo del PPA 11.",
+        "confirmedConcepts": [
+          "Recital multilingüístico",
+          "Lenguaje",
+          "Cultura",
+          "Comunicacion",
+          "Lectura"
+        ],
+        "suggestedConcepts": [
+          "Escritura"
+        ],
+        "pedagogicalUse": "Video detonador del Proyecto Academico 32: Nuestro escenario comunal"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-11-pa33",
+        "projectTitle": "¡Que nos escuchen todxs!",
+        "roleInPpa": "Aporta 15. comunidad, empatía e inclusión: un trabajo de todxs al desarrollo del PPA 11.",
+        "confirmedConcepts": [
+          "15. comunidad, empatía e inclusión: un trabajo de todxs",
+          "Lenguaje",
+          "Cultura",
+          "Comunicacion",
+          "Lectura"
+        ],
+        "suggestedConcepts": [
+          "Escritura"
+        ],
+        "pedagogicalUse": "Video detonador del Proyecto Academico 33: ¡Que nos escuchen todxs!"
+      }
+    ]
+  },
+  "teacherNotesAndResonances": {
+    "grade": "3",
+    "field": "Lenguajes",
+    "ppaNumber": "11",
+    "status": "teacher-notes-and-resonances",
+    "officialHorizonStatus": "pending",
+    "ppaIntegratingResonance": "¿Que comprension nueva sobre Comuniquemos nuestra historia con nuestra voz puedes explicar con los productos del PPA 11?",
+    "didacticWarnings": [
+      "No sustituir el producto final por la reproduccion del video.",
+      "Evitar marcar apoyos impresos como confirmados si no existe evidencia por columna."
+    ],
+    "communityPrompts": {
+      "territoryLanguageMemory": [
+        "¿Que palabras, practicas o problemas del entorno ayudan a entender mejor este PPA?"
+      ],
+      "productCommunityConnection": [
+        "¿Como puede circular el producto final dentro de la comunidad escolar?"
+      ]
+    },
+    "projects": [
+      {
+        "projectId": "lenguajes-3-ppa-11-pa31",
+        "projectTitle": "¡Somos reporteros locales!",
+        "teacherNotes": [
+          "Retomar 6. ¡somos una fiesta de lenguajes creativos! como evidencia del aprendizaje.",
+          "Usar los conceptos confirmados para orientar la autoevaluacion."
+        ],
+        "confirmedConceptsToUse": [
+          "6. ¡somos una fiesta de lenguajes creativos!",
+          "Lenguaje",
+          "Cultura",
+          "Comunicacion",
+          "Lectura"
+        ],
+        "suggestedConceptsToHandleCarefully": [
+          "Escritura"
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Como te ayuda 6. ¡somos una fiesta de lenguajes creativos! a comprender mejor ¡Somos reporteros locales! y a explicar sus conceptos clave en tu comunidad?",
+            "conceptsActivated": [
+              "6. ¡somos una fiesta de lenguajes creativos!",
+              "Lenguaje",
+              "Cultura",
+              "Comunicacion"
+            ],
+            "suggestedUse": "Momento 1 de autoevaluacion"
+          }
+        ],
+        "notReadyFor": []
+      },
+      {
+        "projectId": "lenguajes-3-ppa-11-pa32",
+        "projectTitle": "Nuestro escenario comunal",
+        "teacherNotes": [
+          "Retomar recital multilingüístico como evidencia del aprendizaje.",
+          "Usar los conceptos confirmados para orientar la autoevaluacion."
+        ],
+        "confirmedConceptsToUse": [
+          "Recital multilingüístico",
+          "Lenguaje",
+          "Cultura",
+          "Comunicacion",
+          "Lectura"
+        ],
+        "suggestedConceptsToHandleCarefully": [
+          "Escritura"
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Como te ayuda recital multilingüístico a comprender mejor Nuestro escenario comunal y a explicar sus conceptos clave en tu comunidad?",
+            "conceptsActivated": [
+              "Recital multilingüístico",
+              "Lenguaje",
+              "Cultura",
+              "Comunicacion"
+            ],
+            "suggestedUse": "Momento 1 de autoevaluacion"
+          }
+        ],
+        "notReadyFor": []
+      },
+      {
+        "projectId": "lenguajes-3-ppa-11-pa33",
+        "projectTitle": "¡Que nos escuchen todxs!",
+        "teacherNotes": [
+          "Retomar 15. comunidad, empatía e inclusión: un trabajo de todxs como evidencia del aprendizaje.",
+          "Usar los conceptos confirmados para orientar la autoevaluacion."
+        ],
+        "confirmedConceptsToUse": [
+          "15. comunidad, empatía e inclusión: un trabajo de todxs",
+          "Lenguaje",
+          "Cultura",
+          "Comunicacion",
+          "Lectura"
+        ],
+        "suggestedConceptsToHandleCarefully": [
+          "Escritura"
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Como te ayuda 15. comunidad, empatía e inclusión: un trabajo de todxs a comprender mejor ¡Que nos escuchen todxs! y a explicar sus conceptos clave en tu comunidad?",
+            "conceptsActivated": [
+              "15. comunidad, empatía e inclusión: un trabajo de todxs",
+              "Lenguaje",
+              "Cultura",
+              "Comunicacion"
+            ],
+            "suggestedUse": "Momento 1 de autoevaluacion"
+          }
+        ],
+        "notReadyFor": []
+      }
+    ]
+  },
+  "validationAudit": {
+    "kind": "generated-validation-audit",
+    "source": "reports/caracoles/grade3-lenguajes-ppa11-reading-bundle-audit.md",
+    "content": "# Bundle curricular tercer grado\n\n- Campo: Lenguajes\n- PPA: 11\n- Titulo: Comuniquemos nuestra historia con nuestra voz\n- Proyectos: PA31, PA32, PA33\n- Estado: generado y publicado\n- Cautela: horizonte literal y apoyos impresos por columna pendientes de revision fina.\n"
+  }
+}

@@ -1,0 +1,1201 @@
+{
+  "grade": "3",
+  "gradeLabel": "Tercer grado",
+  "field": "Lenguajes",
+  "ppaNumber": "9",
+  "partialClassroomProject": "PPA 9",
+  "partialClassroomProjectTitle": "¡Nuestro entorno como inspiración!",
+  "source": "curricular-development-generated",
+  "generatedAt": "2026-06-07T03:06:27.583Z",
+  "development": {
+    "grade": "3",
+    "gradeLabel": "Tercer grado",
+    "field": "Lenguajes",
+    "bookVolume": "Tomo II",
+    "partialClassroomProject": "PPA 9",
+    "partialClassroomProjectTitle": "¡Nuestro entorno como inspiración!",
+    "generatedAt": "2026-06-07T03:06:27.536Z",
+    "notes": "Capa curricular generada por lote para 3o Lenguajes, PPA 9.",
+    "sourcesUsed": [
+      "content/caracoles/curricular-catalog/all-projects-canonical.json",
+      "public/caracoles/data/generated/grade-3/concepts-index.json",
+      "src/caracoles/lib/officialVideoLinks.ts",
+      "Posibilidades de uso Lenguajes, tercer grado, pp. 21-22",
+      "Nuestro libro de proyectos, tercer grado, pp. 59-71"
+    ],
+    "partialClassroomProjectContext": {
+      "expectationHorizon": {
+        "officialText": "",
+        "sourcePages": [
+          "Nuestro libro de proyectos Tomo II pp. 59-62",
+          "Posibilidades de uso Lenguajes pp. 21-22"
+        ],
+        "evidence": "El PPA 9 articula festival literario, 13. ¡resolvamos problemas mientras creamos arte!, minimusical cultural para trabajar ¡Nuestro entorno como inspiración!.",
+        "status": "pending"
+      },
+      "ppaDetonatingStrategy": {
+        "title": "¡Nuestro entorno como inspiración!",
+        "type": "video",
+        "url": "",
+        "urlStatus": "confirmed-by-official-video-map",
+        "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+        "scope": "partial-classroom-project"
+      },
+      "ppaDigitalResource": {
+        "title": "Recurso del Proyecto Parcial de Aula 9",
+        "reference": "",
+        "status": "confirmed-by-official-video-map",
+        "source": "YouTube, acervo Aprende_MX/Telesecundaria"
+      },
+      "validationStatus": {
+        "needsHumanReview": true,
+        "needsReviewReasons": [
+          "Los videos PA/PPA se validan por el mapa oficial de enlaces directos ya generado.",
+          "Los apoyos complementarios impresos no se asignan cuando no hay evidencia validada por columna.",
+          "El horizonte textual literal queda pendiente de revision fina si se necesita cita exacta."
+        ]
+      },
+      "columnValidation": {
+        "possibilitiesPagesReviewed": [
+          21,
+          22
+        ],
+        "confirmedAsPpa": true,
+        "note": "El PPA 9 se agrupa desde el catalogo canonico de tercer grado.",
+        "columns": [
+          {
+            "columnIndex": 1,
+            "projectId": "lenguajes-3-ppa-9-pa25",
+            "projectTitle": "Nos sumergimos y jugamos en un mar de letras",
+            "finalProduct": "Festival literario",
+            "supportMaterials": []
+          },
+          {
+            "columnIndex": 2,
+            "projectId": "lenguajes-3-ppa-9-pa26",
+            "projectTitle": "Creamos y dirigimos historias de vida",
+            "finalProduct": "13. ¡Resolvamos problemas mientras creamos arte!",
+            "supportMaterials": []
+          },
+          {
+            "columnIndex": 3,
+            "projectId": "lenguajes-3-ppa-9-pa27",
+            "projectTitle": "Melodías comunitarias",
+            "finalProduct": "Minimusical cultural",
+            "supportMaterials": []
+          }
+        ]
+      }
+    },
+    "academicProjects": [
+      {
+        "id": "lenguajes-3-ppa-9-pa25",
+        "projectId": "lenguajes-3-ppa-9-pa25",
+        "academicProjectNumber": 25,
+        "title": "Nos sumergimos y jugamos en un mar de letras",
+        "projectTitle": "Nos sumergimos y jugamos en un mar de letras",
+        "grade": "3",
+        "field": "Lenguajes",
+        "ppaNumber": "9",
+        "partialClassroomProject": "PPA 9",
+        "partialClassroomProjectTitle": "¡Nuestro entorno como inspiración!",
+        "bookVolume": "Tomo II",
+        "sourceValidation": {
+          "sourceStatus": "linked",
+          "possibilitiesPages": [
+            21,
+            22
+          ],
+          "possibilitiesMaterialId": "grade-3-posibilidades-pos-len-3",
+          "possibilitiesColumnIndex": 1,
+          "columnEvidence": "Proyecto PA 25 agrupado en el PPA 9 desde el catalogo canonico y las paginas de Posibilidades."
+        },
+        "finalProduct": {
+          "title": "Festival literario",
+          "source": "Video detonador validado en YouTube + Nuestro libro de proyectos Tomo II pp. 59-62",
+          "status": "confirmed-from-video-and-project"
+        },
+        "sourcePages": {
+          "nuestroLibroProyectos": [
+            {
+              "materialId": "grade-3-proyectos-nuestros-proyectos-tomo-2-tercer-grado",
+              "label": "Nuestro libro de proyectos Tomo II",
+              "startPage": 59,
+              "endPage": 62,
+              "pagesLabel": "pp. 59-62",
+              "topicTitle": "Proyecto academico 25",
+              "status": "confirmed-source"
+            }
+          ],
+          "conceptBook": [
+            {
+              "materialId": "grade-3-conceptos-lenguajes-tercer-grado",
+              "label": "Lenguajes",
+              "startPage": 59,
+              "endPage": 59,
+              "pagesLabel": "p. 59",
+              "topicTitle": "Festival literario",
+              "status": "confirmed"
+            }
+          ],
+          "multiplesLenguajes": [],
+          "otherMaterials": [
+            {
+              "label": "Video PA 25: Festival literario • Lenguajes • 3er. grado",
+              "reference": "https://www.youtube.com/watch?v=UysGtrVx3hg",
+              "status": "confirmed"
+            },
+            {
+              "label": "Video PPA 9: 9. ¡Nuestro entorno como inspiración! • Lenguajes • 3er grado",
+              "reference": "https://www.youtube.com/watch?v=YY4mXpH6xsc",
+              "status": "confirmed"
+            }
+          ]
+        },
+        "supportMaterials": [],
+        "horizonOrPurpose": {
+          "status": "pending",
+          "text": "",
+          "source": "Nuestro libro de proyectos Tomo II pp. 59-62"
+        },
+        "projectExpectationHorizon": {
+          "officialText": "Objetivo 1: Indagar, en diversas fuentes de consulta, las características, los tipos y la función de los recursos literarios; además, identificar, recopilar y revisar las creaciones literarias originarias de su comunidad y determinar cómo exponer en un festival literario tales recursos y la información reunida. Objetivo 2: Buscar creaciones literarias originarias de su comunidad para analizarlas, valorarlas y familiarizarse con los recursos literarios empleados en ellas, con el fin de exponer sus conocimientos en un festival literario en distintas lenguas.",
+          "studentVersion": "Indagar, en diversas fuentes de consulta, las características, los tipos y la función de los recursos literarios; además, identificar, recopilar y revisar las creaciones literarias originarias de su comunidad y determinar cómo exponer en un festival literario tales recursos y la información reunida. Buscar creaciones literarias originarias de su comunidad para analizarlas, valorarlas y familiarizarse con los recursos literarios empleados en ellas, con el fin de exponer sus conocimientos en un festival literario en distintas lenguas.",
+          "sourcePages": [
+            "Nuestro libro de proyectos Tomo II p. 60"
+          ],
+          "evidence": "Texto rotulado como Objetivo dentro del rango exacto del Proyecto Academico; se acepta como equivalente funcional de horizonte de expectativas.",
+          "status": "confirmed-from-project-book",
+          "detectedLabel": "Objetivo",
+          "validationScope": "academic-project"
+        },
+        "detonatingStrategy": {
+          "title": "9. ¡Nuestro entorno como inspiración! • Lenguajes • 3er grado",
+          "text": "Video del Proyecto Parcial de Aula 9: 9. ¡Nuestro entorno como inspiración! • Lenguajes • 3er grado",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=YY4mXpH6xsc",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "partial-classroom-project"
+        },
+        "academicProjectStrategy": {
+          "title": "Festival literario • Lenguajes • 3er. grado",
+          "text": "Video detonador del Proyecto Academico 25: Nos sumergimos y jugamos en un mar de letras",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=UysGtrVx3hg",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "academic-project"
+        },
+        "academicConcepts": [
+          {
+            "concept": "Festival literario",
+            "description": "Festival literario organiza el producto de cierre y permite comunicar lo aprendido en el proyecto.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              59
+            ],
+            "sourcePagesLabel": "p. 59",
+            "topicTitle": "Proyecto academico 25",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 25, al PPA 9 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Lenguaje",
+            "description": "Lenguaje ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              59
+            ],
+            "sourcePagesLabel": "p. 59",
+            "topicTitle": "Proyecto academico 25",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 25, al PPA 9 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Cultura",
+            "description": "Cultura ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              154
+            ],
+            "sourcePagesLabel": "p. 154",
+            "topicTitle": "Proyecto academico 25",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 25, al PPA 9 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Comunicacion",
+            "description": "Comunicacion ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              59
+            ],
+            "sourcePagesLabel": "p. 59",
+            "topicTitle": "Proyecto academico 25",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 25, al PPA 9 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Lectura",
+            "description": "Lectura ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              59
+            ],
+            "sourcePagesLabel": "p. 59",
+            "topicTitle": "Proyecto academico 25",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 25, al PPA 9 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Escritura",
+            "description": "Escritura ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              59
+            ],
+            "sourcePagesLabel": "p. 59",
+            "topicTitle": "Proyecto academico 25",
+            "status": "suggested",
+            "reason": "Concepto vinculado al PA 25, al PPA 9 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "teacher-review"
+          }
+        ],
+        "thinkingCriteria": [
+          "Relacionar Nos sumergimos y jugamos en un mar de letras con una situacion concreta del entorno escolar o comunitario.",
+          "Usar festival literario para explicar ideas con claridad y evidencia."
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Como te ayuda festival literario a comprender mejor Nos sumergimos y jugamos en un mar de letras y a explicar sus conceptos clave en tu comunidad?",
+            "conceptsActivated": [
+              "Festival literario",
+              "Lenguaje",
+              "Cultura",
+              "Comunicacion"
+            ],
+            "suggestedUse": "Momento 1 de autoevaluacion"
+          }
+        ],
+        "validationStatus": {
+          "readinessLevel": "curricular-bundle-generated",
+          "readyForActivities": true,
+          "needsReviewReasons": [
+            "El horizonte textual literal queda pendiente de revision fina si se requiere cita exacta.",
+            "Los apoyos complementarios impresos no se asignan cuando no hay evidencia validada por columna."
+          ]
+        },
+        "readinessLevel": "curricular-bundle-generated",
+        "readyForActivities": true,
+        "needsReviewReasons": []
+      },
+      {
+        "id": "lenguajes-3-ppa-9-pa26",
+        "projectId": "lenguajes-3-ppa-9-pa26",
+        "academicProjectNumber": 26,
+        "title": "Creamos y dirigimos historias de vida",
+        "projectTitle": "Creamos y dirigimos historias de vida",
+        "grade": "3",
+        "field": "Lenguajes",
+        "ppaNumber": "9",
+        "partialClassroomProject": "PPA 9",
+        "partialClassroomProjectTitle": "¡Nuestro entorno como inspiración!",
+        "bookVolume": "Tomo II",
+        "sourceValidation": {
+          "sourceStatus": "linked",
+          "possibilitiesPages": [
+            21,
+            22
+          ],
+          "possibilitiesMaterialId": "grade-3-posibilidades-pos-len-3",
+          "possibilitiesColumnIndex": 2,
+          "columnEvidence": "Proyecto PA 26 agrupado en el PPA 9 desde el catalogo canonico y las paginas de Posibilidades."
+        },
+        "finalProduct": {
+          "title": "13. ¡Resolvamos problemas mientras creamos arte!",
+          "source": "Video detonador validado en YouTube + Nuestro libro de proyectos Tomo II pp. 63-67",
+          "status": "confirmed-from-video-and-project"
+        },
+        "sourcePages": {
+          "nuestroLibroProyectos": [
+            {
+              "materialId": "grade-3-proyectos-nuestros-proyectos-tomo-2-tercer-grado",
+              "label": "Nuestro libro de proyectos Tomo II",
+              "startPage": 63,
+              "endPage": 67,
+              "pagesLabel": "pp. 63-67",
+              "topicTitle": "Proyecto academico 26",
+              "status": "confirmed-source"
+            }
+          ],
+          "conceptBook": [
+            {
+              "materialId": "grade-3-conceptos-lenguajes-tercer-grado",
+              "label": "Lenguajes",
+              "startPage": 63,
+              "endPage": 63,
+              "pagesLabel": "p. 63",
+              "topicTitle": "13. ¡resolvamos problemas mientras creamos arte!",
+              "status": "confirmed"
+            }
+          ],
+          "multiplesLenguajes": [],
+          "otherMaterials": [
+            {
+              "label": "Video PA 26: 13. ¡Resolvamos problemas mientras creamos arte! • Lenguajes • 3er grado",
+              "reference": "https://www.youtube.com/watch?v=Wj-h8xAkYs0",
+              "status": "confirmed"
+            },
+            {
+              "label": "Video PPA 9: 9. ¡Nuestro entorno como inspiración! • Lenguajes • 3er grado",
+              "reference": "https://www.youtube.com/watch?v=YY4mXpH6xsc",
+              "status": "confirmed"
+            }
+          ]
+        },
+        "supportMaterials": [],
+        "horizonOrPurpose": {
+          "status": "pending",
+          "text": "",
+          "source": "Nuestro libro de proyectos Tomo II pp. 63-67"
+        },
+        "projectExpectationHorizon": {
+          "officialText": "",
+          "studentVersion": "",
+          "sourcePages": [
+            "Nuestro libro de proyectos Tomo II pp. 63-67"
+          ],
+          "evidence": "El PA 26 cuenta con paginas de proyecto, producto de cierre, conceptos y videos directos validados; el horizonte textual literal queda pendiente de transcripcion fina.",
+          "status": "pending"
+        },
+        "detonatingStrategy": {
+          "title": "9. ¡Nuestro entorno como inspiración! • Lenguajes • 3er grado",
+          "text": "Video del Proyecto Parcial de Aula 9: 9. ¡Nuestro entorno como inspiración! • Lenguajes • 3er grado",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=YY4mXpH6xsc",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "partial-classroom-project"
+        },
+        "academicProjectStrategy": {
+          "title": "13. ¡Resolvamos problemas mientras creamos arte! • Lenguajes • 3er grado",
+          "text": "Video detonador del Proyecto Academico 26: Creamos y dirigimos historias de vida",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=Wj-h8xAkYs0",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "academic-project"
+        },
+        "academicConcepts": [
+          {
+            "concept": "13. ¡resolvamos problemas mientras creamos arte!",
+            "description": "13. ¡resolvamos problemas mientras creamos arte! organiza el producto de cierre y permite comunicar lo aprendido en el proyecto.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              63
+            ],
+            "sourcePagesLabel": "p. 63",
+            "topicTitle": "Proyecto academico 26",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 26, al PPA 9 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Lenguaje",
+            "description": "Lenguaje ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              63
+            ],
+            "sourcePagesLabel": "p. 63",
+            "topicTitle": "Proyecto academico 26",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 26, al PPA 9 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Cultura",
+            "description": "Cultura ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              154
+            ],
+            "sourcePagesLabel": "p. 154",
+            "topicTitle": "Proyecto academico 26",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 26, al PPA 9 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Comunicacion",
+            "description": "Comunicacion ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              63
+            ],
+            "sourcePagesLabel": "p. 63",
+            "topicTitle": "Proyecto academico 26",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 26, al PPA 9 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Lectura",
+            "description": "Lectura ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              63
+            ],
+            "sourcePagesLabel": "p. 63",
+            "topicTitle": "Proyecto academico 26",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 26, al PPA 9 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Escritura",
+            "description": "Escritura ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              63
+            ],
+            "sourcePagesLabel": "p. 63",
+            "topicTitle": "Proyecto academico 26",
+            "status": "suggested",
+            "reason": "Concepto vinculado al PA 26, al PPA 9 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "teacher-review"
+          }
+        ],
+        "thinkingCriteria": [
+          "Relacionar Creamos y dirigimos historias de vida con una situacion concreta del entorno escolar o comunitario.",
+          "Usar 13. ¡resolvamos problemas mientras creamos arte! para explicar ideas con claridad y evidencia."
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Como te ayuda 13. ¡resolvamos problemas mientras creamos arte! a comprender mejor Creamos y dirigimos historias de vida y a explicar sus conceptos clave en tu comunidad?",
+            "conceptsActivated": [
+              "13. ¡resolvamos problemas mientras creamos arte!",
+              "Lenguaje",
+              "Cultura",
+              "Comunicacion"
+            ],
+            "suggestedUse": "Momento 1 de autoevaluacion"
+          }
+        ],
+        "validationStatus": {
+          "readinessLevel": "curricular-bundle-generated",
+          "readyForActivities": true,
+          "needsReviewReasons": [
+            "El horizonte textual literal queda pendiente de revision fina si se requiere cita exacta.",
+            "Los apoyos complementarios impresos no se asignan cuando no hay evidencia validada por columna."
+          ]
+        },
+        "readinessLevel": "curricular-bundle-generated",
+        "readyForActivities": true,
+        "needsReviewReasons": []
+      },
+      {
+        "id": "lenguajes-3-ppa-9-pa27",
+        "projectId": "lenguajes-3-ppa-9-pa27",
+        "academicProjectNumber": 27,
+        "title": "Melodías comunitarias",
+        "projectTitle": "Melodías comunitarias",
+        "grade": "3",
+        "field": "Lenguajes",
+        "ppaNumber": "9",
+        "partialClassroomProject": "PPA 9",
+        "partialClassroomProjectTitle": "¡Nuestro entorno como inspiración!",
+        "bookVolume": "Tomo II",
+        "sourceValidation": {
+          "sourceStatus": "linked",
+          "possibilitiesPages": [
+            21,
+            22
+          ],
+          "possibilitiesMaterialId": "grade-3-posibilidades-pos-len-3",
+          "possibilitiesColumnIndex": 3,
+          "columnEvidence": "Proyecto PA 27 agrupado en el PPA 9 desde el catalogo canonico y las paginas de Posibilidades."
+        },
+        "finalProduct": {
+          "title": "Minimusical cultural",
+          "source": "Video detonador validado en YouTube + Nuestro libro de proyectos Tomo II pp. 68-71",
+          "status": "confirmed-from-video-and-project"
+        },
+        "sourcePages": {
+          "nuestroLibroProyectos": [
+            {
+              "materialId": "grade-3-proyectos-nuestros-proyectos-tomo-2-tercer-grado",
+              "label": "Nuestro libro de proyectos Tomo II",
+              "startPage": 68,
+              "endPage": 71,
+              "pagesLabel": "pp. 68-71",
+              "topicTitle": "Proyecto academico 27",
+              "status": "confirmed-source"
+            }
+          ],
+          "conceptBook": [
+            {
+              "materialId": "grade-3-conceptos-lenguajes-tercer-grado",
+              "label": "Lenguajes",
+              "startPage": 68,
+              "endPage": 68,
+              "pagesLabel": "p. 68",
+              "topicTitle": "Minimusical cultural",
+              "status": "confirmed"
+            }
+          ],
+          "multiplesLenguajes": [],
+          "otherMaterials": [
+            {
+              "label": "Video PA 27: Minimusical cultural • Lenguajes • 3er. grado",
+              "reference": "https://www.youtube.com/watch?v=tc6cAiUi11Y",
+              "status": "confirmed"
+            },
+            {
+              "label": "Video PPA 9: 9. ¡Nuestro entorno como inspiración! • Lenguajes • 3er grado",
+              "reference": "https://www.youtube.com/watch?v=YY4mXpH6xsc",
+              "status": "confirmed"
+            }
+          ]
+        },
+        "supportMaterials": [],
+        "horizonOrPurpose": {
+          "status": "pending",
+          "text": "",
+          "source": "Nuestro libro de proyectos Tomo II pp. 68-71"
+        },
+        "projectExpectationHorizon": {
+          "officialText": "",
+          "studentVersion": "",
+          "sourcePages": [
+            "Nuestro libro de proyectos Tomo II pp. 68-71"
+          ],
+          "evidence": "El PA 27 cuenta con paginas de proyecto, producto de cierre, conceptos y videos directos validados; el horizonte textual literal queda pendiente de transcripcion fina.",
+          "status": "pending"
+        },
+        "detonatingStrategy": {
+          "title": "9. ¡Nuestro entorno como inspiración! • Lenguajes • 3er grado",
+          "text": "Video del Proyecto Parcial de Aula 9: 9. ¡Nuestro entorno como inspiración! • Lenguajes • 3er grado",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=YY4mXpH6xsc",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "partial-classroom-project"
+        },
+        "academicProjectStrategy": {
+          "title": "Minimusical cultural • Lenguajes • 3er. grado",
+          "text": "Video detonador del Proyecto Academico 27: Melodías comunitarias",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=tc6cAiUi11Y",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "academic-project"
+        },
+        "academicConcepts": [
+          {
+            "concept": "Minimusical cultural",
+            "description": "Minimusical cultural organiza el producto de cierre y permite comunicar lo aprendido en el proyecto.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              68
+            ],
+            "sourcePagesLabel": "p. 68",
+            "topicTitle": "Proyecto academico 27",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 27, al PPA 9 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Lenguaje",
+            "description": "Lenguaje ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              68
+            ],
+            "sourcePagesLabel": "p. 68",
+            "topicTitle": "Proyecto academico 27",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 27, al PPA 9 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Cultura",
+            "description": "Cultura ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              154
+            ],
+            "sourcePagesLabel": "p. 154",
+            "topicTitle": "Proyecto academico 27",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 27, al PPA 9 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Comunicacion",
+            "description": "Comunicacion ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              68
+            ],
+            "sourcePagesLabel": "p. 68",
+            "topicTitle": "Proyecto academico 27",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 27, al PPA 9 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Lectura",
+            "description": "Lectura ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              68
+            ],
+            "sourcePagesLabel": "p. 68",
+            "topicTitle": "Proyecto academico 27",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 27, al PPA 9 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Escritura",
+            "description": "Escritura ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              68
+            ],
+            "sourcePagesLabel": "p. 68",
+            "topicTitle": "Proyecto academico 27",
+            "status": "suggested",
+            "reason": "Concepto vinculado al PA 27, al PPA 9 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "teacher-review"
+          }
+        ],
+        "thinkingCriteria": [
+          "Relacionar Melodías comunitarias con una situacion concreta del entorno escolar o comunitario.",
+          "Usar minimusical cultural para explicar ideas con claridad y evidencia."
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Como te ayuda minimusical cultural a comprender mejor Melodías comunitarias y a explicar sus conceptos clave en tu comunidad?",
+            "conceptsActivated": [
+              "Minimusical cultural",
+              "Lenguaje",
+              "Cultura",
+              "Comunicacion"
+            ],
+            "suggestedUse": "Momento 1 de autoevaluacion"
+          }
+        ],
+        "validationStatus": {
+          "readinessLevel": "curricular-bundle-generated",
+          "readyForActivities": true,
+          "needsReviewReasons": [
+            "El horizonte textual literal queda pendiente de revision fina si se requiere cita exacta.",
+            "Los apoyos complementarios impresos no se asignan cuando no hay evidencia validada por columna."
+          ]
+        },
+        "readinessLevel": "curricular-bundle-generated",
+        "readyForActivities": true,
+        "needsReviewReasons": []
+      }
+    ]
+  },
+  "conceptsValidation": {
+    "grade": "3",
+    "field": "Lenguajes",
+    "ppaNumber": "9",
+    "status": "concept-validation",
+    "generatedAt": "2026-06-07T03:06:27.536Z",
+    "entries": [
+      {
+        "projectId": "lenguajes-3-ppa-9-pa25",
+        "projectTitle": "Nos sumergimos y jugamos en un mar de letras",
+        "concept": "Festival literario",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            59
+          ],
+          "reason": "Concepto vinculado al PA 25, al PPA 9 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-9-pa25",
+        "projectTitle": "Nos sumergimos y jugamos en un mar de letras",
+        "concept": "Lenguaje",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            59
+          ],
+          "reason": "Concepto vinculado al PA 25, al PPA 9 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-9-pa25",
+        "projectTitle": "Nos sumergimos y jugamos en un mar de letras",
+        "concept": "Cultura",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            154
+          ],
+          "reason": "Concepto vinculado al PA 25, al PPA 9 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-9-pa25",
+        "projectTitle": "Nos sumergimos y jugamos en un mar de letras",
+        "concept": "Comunicacion",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            59
+          ],
+          "reason": "Concepto vinculado al PA 25, al PPA 9 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-9-pa25",
+        "projectTitle": "Nos sumergimos y jugamos en un mar de letras",
+        "concept": "Lectura",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            59
+          ],
+          "reason": "Concepto vinculado al PA 25, al PPA 9 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-9-pa25",
+        "projectTitle": "Nos sumergimos y jugamos en un mar de letras",
+        "concept": "Escritura",
+        "status": "suggested",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            59
+          ],
+          "reason": "Concepto vinculado al PA 25, al PPA 9 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "teacher-review"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-9-pa26",
+        "projectTitle": "Creamos y dirigimos historias de vida",
+        "concept": "13. ¡resolvamos problemas mientras creamos arte!",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            63
+          ],
+          "reason": "Concepto vinculado al PA 26, al PPA 9 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-9-pa26",
+        "projectTitle": "Creamos y dirigimos historias de vida",
+        "concept": "Lenguaje",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            63
+          ],
+          "reason": "Concepto vinculado al PA 26, al PPA 9 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-9-pa26",
+        "projectTitle": "Creamos y dirigimos historias de vida",
+        "concept": "Cultura",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            154
+          ],
+          "reason": "Concepto vinculado al PA 26, al PPA 9 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-9-pa26",
+        "projectTitle": "Creamos y dirigimos historias de vida",
+        "concept": "Comunicacion",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            63
+          ],
+          "reason": "Concepto vinculado al PA 26, al PPA 9 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-9-pa26",
+        "projectTitle": "Creamos y dirigimos historias de vida",
+        "concept": "Lectura",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            63
+          ],
+          "reason": "Concepto vinculado al PA 26, al PPA 9 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-9-pa26",
+        "projectTitle": "Creamos y dirigimos historias de vida",
+        "concept": "Escritura",
+        "status": "suggested",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            63
+          ],
+          "reason": "Concepto vinculado al PA 26, al PPA 9 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "teacher-review"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-9-pa27",
+        "projectTitle": "Melodías comunitarias",
+        "concept": "Minimusical cultural",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            68
+          ],
+          "reason": "Concepto vinculado al PA 27, al PPA 9 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-9-pa27",
+        "projectTitle": "Melodías comunitarias",
+        "concept": "Lenguaje",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            68
+          ],
+          "reason": "Concepto vinculado al PA 27, al PPA 9 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-9-pa27",
+        "projectTitle": "Melodías comunitarias",
+        "concept": "Cultura",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            154
+          ],
+          "reason": "Concepto vinculado al PA 27, al PPA 9 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-9-pa27",
+        "projectTitle": "Melodías comunitarias",
+        "concept": "Comunicacion",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            68
+          ],
+          "reason": "Concepto vinculado al PA 27, al PPA 9 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-9-pa27",
+        "projectTitle": "Melodías comunitarias",
+        "concept": "Lectura",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            68
+          ],
+          "reason": "Concepto vinculado al PA 27, al PPA 9 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-9-pa27",
+        "projectTitle": "Melodías comunitarias",
+        "concept": "Escritura",
+        "status": "suggested",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            68
+          ],
+          "reason": "Concepto vinculado al PA 27, al PPA 9 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "teacher-review"
+      }
+    ]
+  },
+  "pedagogicalArticulation": {
+    "grade": "3",
+    "field": "Lenguajes",
+    "ppaNumber": "9",
+    "status": "teacher-orientation",
+    "officialHorizonStatus": "pending",
+    "situatedPedagogicalOrientation": "El PPA 9 propone trabajar ¡Nuestro entorno como inspiración! mediante productos de cierre, conceptos confirmados y videos directos para reforzar la autoevaluacion.",
+    "integratingQuestions": [
+      "¿Como se relacionan los tres proyectos academicos del PPA 9 con ¡Nuestro entorno como inspiración!?",
+      "¿Que conceptos necesita dominar el estudiante para explicar su producto final?",
+      "¿Como usar el producto final para comunicar una comprension y no solo presentar informacion?"
+    ],
+    "possibleResonanceQuestion": "¿Que comprension nueva sobre ¡Nuestro entorno como inspiración! puedes explicar con los productos del PPA 9?",
+    "teacherNotes": [
+      "Usar los videos directos como detonadores, no como enlaces de busqueda.",
+      "Retomar los conceptos confirmados antes de resolver la relacion de columnas y el juego."
+    ],
+    "projectConnections": [
+      {
+        "projectId": "lenguajes-3-ppa-9-pa25",
+        "projectTitle": "Nos sumergimos y jugamos en un mar de letras",
+        "roleInPpa": "Aporta festival literario al desarrollo del PPA 9.",
+        "confirmedConcepts": [
+          "Festival literario",
+          "Lenguaje",
+          "Cultura",
+          "Comunicacion",
+          "Lectura"
+        ],
+        "suggestedConcepts": [
+          "Escritura"
+        ],
+        "pedagogicalUse": "Video detonador del Proyecto Academico 25: Nos sumergimos y jugamos en un mar de letras"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-9-pa26",
+        "projectTitle": "Creamos y dirigimos historias de vida",
+        "roleInPpa": "Aporta 13. ¡resolvamos problemas mientras creamos arte! al desarrollo del PPA 9.",
+        "confirmedConcepts": [
+          "13. ¡resolvamos problemas mientras creamos arte!",
+          "Lenguaje",
+          "Cultura",
+          "Comunicacion",
+          "Lectura"
+        ],
+        "suggestedConcepts": [
+          "Escritura"
+        ],
+        "pedagogicalUse": "Video detonador del Proyecto Academico 26: Creamos y dirigimos historias de vida"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-9-pa27",
+        "projectTitle": "Melodías comunitarias",
+        "roleInPpa": "Aporta minimusical cultural al desarrollo del PPA 9.",
+        "confirmedConcepts": [
+          "Minimusical cultural",
+          "Lenguaje",
+          "Cultura",
+          "Comunicacion",
+          "Lectura"
+        ],
+        "suggestedConcepts": [
+          "Escritura"
+        ],
+        "pedagogicalUse": "Video detonador del Proyecto Academico 27: Melodías comunitarias"
+      }
+    ]
+  },
+  "teacherNotesAndResonances": {
+    "grade": "3",
+    "field": "Lenguajes",
+    "ppaNumber": "9",
+    "status": "teacher-notes-and-resonances",
+    "officialHorizonStatus": "pending",
+    "ppaIntegratingResonance": "¿Que comprension nueva sobre ¡Nuestro entorno como inspiración! puedes explicar con los productos del PPA 9?",
+    "didacticWarnings": [
+      "No sustituir el producto final por la reproduccion del video.",
+      "Evitar marcar apoyos impresos como confirmados si no existe evidencia por columna."
+    ],
+    "communityPrompts": {
+      "territoryLanguageMemory": [
+        "¿Que palabras, practicas o problemas del entorno ayudan a entender mejor este PPA?"
+      ],
+      "productCommunityConnection": [
+        "¿Como puede circular el producto final dentro de la comunidad escolar?"
+      ]
+    },
+    "projects": [
+      {
+        "projectId": "lenguajes-3-ppa-9-pa25",
+        "projectTitle": "Nos sumergimos y jugamos en un mar de letras",
+        "teacherNotes": [
+          "Retomar festival literario como evidencia del aprendizaje.",
+          "Usar los conceptos confirmados para orientar la autoevaluacion."
+        ],
+        "confirmedConceptsToUse": [
+          "Festival literario",
+          "Lenguaje",
+          "Cultura",
+          "Comunicacion",
+          "Lectura"
+        ],
+        "suggestedConceptsToHandleCarefully": [
+          "Escritura"
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Como te ayuda festival literario a comprender mejor Nos sumergimos y jugamos en un mar de letras y a explicar sus conceptos clave en tu comunidad?",
+            "conceptsActivated": [
+              "Festival literario",
+              "Lenguaje",
+              "Cultura",
+              "Comunicacion"
+            ],
+            "suggestedUse": "Momento 1 de autoevaluacion"
+          }
+        ],
+        "notReadyFor": []
+      },
+      {
+        "projectId": "lenguajes-3-ppa-9-pa26",
+        "projectTitle": "Creamos y dirigimos historias de vida",
+        "teacherNotes": [
+          "Retomar 13. ¡resolvamos problemas mientras creamos arte! como evidencia del aprendizaje.",
+          "Usar los conceptos confirmados para orientar la autoevaluacion."
+        ],
+        "confirmedConceptsToUse": [
+          "13. ¡resolvamos problemas mientras creamos arte!",
+          "Lenguaje",
+          "Cultura",
+          "Comunicacion",
+          "Lectura"
+        ],
+        "suggestedConceptsToHandleCarefully": [
+          "Escritura"
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Como te ayuda 13. ¡resolvamos problemas mientras creamos arte! a comprender mejor Creamos y dirigimos historias de vida y a explicar sus conceptos clave en tu comunidad?",
+            "conceptsActivated": [
+              "13. ¡resolvamos problemas mientras creamos arte!",
+              "Lenguaje",
+              "Cultura",
+              "Comunicacion"
+            ],
+            "suggestedUse": "Momento 1 de autoevaluacion"
+          }
+        ],
+        "notReadyFor": []
+      },
+      {
+        "projectId": "lenguajes-3-ppa-9-pa27",
+        "projectTitle": "Melodías comunitarias",
+        "teacherNotes": [
+          "Retomar minimusical cultural como evidencia del aprendizaje.",
+          "Usar los conceptos confirmados para orientar la autoevaluacion."
+        ],
+        "confirmedConceptsToUse": [
+          "Minimusical cultural",
+          "Lenguaje",
+          "Cultura",
+          "Comunicacion",
+          "Lectura"
+        ],
+        "suggestedConceptsToHandleCarefully": [
+          "Escritura"
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Como te ayuda minimusical cultural a comprender mejor Melodías comunitarias y a explicar sus conceptos clave en tu comunidad?",
+            "conceptsActivated": [
+              "Minimusical cultural",
+              "Lenguaje",
+              "Cultura",
+              "Comunicacion"
+            ],
+            "suggestedUse": "Momento 1 de autoevaluacion"
+          }
+        ],
+        "notReadyFor": []
+      }
+    ]
+  },
+  "validationAudit": {
+    "kind": "generated-validation-audit",
+    "source": "reports/caracoles/grade3-lenguajes-ppa9-reading-bundle-audit.md",
+    "content": "# Bundle curricular tercer grado\n\n- Campo: Lenguajes\n- PPA: 9\n- Titulo: ¡Nuestro entorno como inspiración!\n- Proyectos: PA25, PA26, PA27\n- Estado: generado y publicado\n- Cautela: horizonte literal y apoyos impresos por columna pendientes de revision fina.\n"
+  }
+}

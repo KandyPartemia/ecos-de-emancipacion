@@ -1,0 +1,1205 @@
+{
+  "grade": "3",
+  "gradeLabel": "Tercer grado",
+  "field": "Saberes y Pensamiento Cientifico",
+  "ppaNumber": "1",
+  "partialClassroomProject": "PPA 1",
+  "partialClassroomProjectTitle": "Necesidades satisfechas sin la Tierra desecha",
+  "source": "curricular-development-generated",
+  "generatedAt": "2026-06-07T03:06:27.898Z",
+  "development": {
+    "grade": "3",
+    "gradeLabel": "Tercer grado",
+    "field": "Saberes y Pensamiento Cientifico",
+    "bookVolume": "Tomo I",
+    "partialClassroomProject": "PPA 1",
+    "partialClassroomProjectTitle": "Necesidades satisfechas sin la Tierra desecha",
+    "generatedAt": "2026-06-07T03:06:27.856Z",
+    "notes": "Capa curricular generada por lote para 3o Saberes y Pensamiento Cientifico, PPA 1.",
+    "sourcesUsed": [
+      "content/caracoles/curricular-catalog/all-projects-canonical.json",
+      "public/caracoles/data/generated/grade-3/concepts-index.json",
+      "src/caracoles/lib/officialVideoLinks.ts",
+      "Posibilidades de uso SyPC, tercer grado, pp. 6-7",
+      "Nuestro libro de proyectos, tercer grado, pp. 113-124"
+    ],
+    "partialClassroomProjectContext": {
+      "expectationHorizon": {
+        "officialText": "",
+        "sourcePages": [
+          "Nuestro libro de proyectos Tomo I pp. 113-116",
+          "Posibilidades de uso SyPC pp. 6-7"
+        ],
+        "evidence": "El PPA 1 articula 1.necesidades satisfechas sin la tierra desecha, 7. mundo atómico, periódico mural para trabajar Necesidades satisfechas sin la Tierra desecha.",
+        "status": "pending"
+      },
+      "ppaDetonatingStrategy": {
+        "title": "Necesidades satisfechas sin la Tierra desecha",
+        "type": "video",
+        "url": "",
+        "urlStatus": "confirmed-by-official-video-map",
+        "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+        "scope": "partial-classroom-project"
+      },
+      "ppaDigitalResource": {
+        "title": "Recurso del Proyecto Parcial de Aula 1",
+        "reference": "",
+        "status": "confirmed-by-official-video-map",
+        "source": "YouTube, acervo Aprende_MX/Telesecundaria"
+      },
+      "validationStatus": {
+        "needsHumanReview": true,
+        "needsReviewReasons": [
+          "Los videos PA/PPA se validan por el mapa oficial de enlaces directos ya generado.",
+          "Los apoyos complementarios impresos no se asignan cuando no hay evidencia validada por columna.",
+          "El horizonte textual literal queda pendiente de revision fina si se necesita cita exacta."
+        ]
+      },
+      "columnValidation": {
+        "possibilitiesPagesReviewed": [
+          6,
+          7
+        ],
+        "confirmedAsPpa": true,
+        "note": "El PPA 1 se agrupa desde el catalogo canonico de tercer grado.",
+        "columns": [
+          {
+            "columnIndex": 1,
+            "projectId": "saberes-y-pensamiento-cientifico-3-ppa-1-pa1",
+            "projectTitle": "Las prácticas tradicionales en el hogar",
+            "finalProduct": "1.Necesidades satisfechas sin la Tierra desecha",
+            "supportMaterials": []
+          },
+          {
+            "columnIndex": 2,
+            "projectId": "saberes-y-pensamiento-cientifico-3-ppa-1-pa2",
+            "projectTitle": "Mujeres y hombres de ciencia",
+            "finalProduct": "7. Mundo atómico",
+            "supportMaterials": []
+          },
+          {
+            "columnIndex": 3,
+            "projectId": "saberes-y-pensamiento-cientifico-3-ppa-1-pa3",
+            "projectTitle": "Vive y deja vivir",
+            "finalProduct": "Periódico mural",
+            "supportMaterials": []
+          }
+        ]
+      }
+    },
+    "academicProjects": [
+      {
+        "id": "saberes-y-pensamiento-cientifico-3-ppa-1-pa1",
+        "projectId": "saberes-y-pensamiento-cientifico-3-ppa-1-pa1",
+        "academicProjectNumber": 1,
+        "title": "Las prácticas tradicionales en el hogar",
+        "projectTitle": "Las prácticas tradicionales en el hogar",
+        "grade": "3",
+        "field": "Saberes y Pensamiento Científico",
+        "ppaNumber": "1",
+        "partialClassroomProject": "PPA 1",
+        "partialClassroomProjectTitle": "Necesidades satisfechas sin la Tierra desecha",
+        "bookVolume": "Tomo I",
+        "sourceValidation": {
+          "sourceStatus": "linked",
+          "possibilitiesPages": [
+            6,
+            7
+          ],
+          "possibilitiesMaterialId": "grade-3-posibilidades-pos-sypc-3",
+          "possibilitiesColumnIndex": 1,
+          "columnEvidence": "Proyecto PA 1 agrupado en el PPA 1 desde el catalogo canonico y las paginas de Posibilidades."
+        },
+        "finalProduct": {
+          "title": "1.Necesidades satisfechas sin la Tierra desecha",
+          "source": "Video detonador validado en YouTube + Nuestro libro de proyectos Tomo I pp. 113-116",
+          "status": "confirmed-from-video-and-project"
+        },
+        "sourcePages": {
+          "nuestroLibroProyectos": [
+            {
+              "materialId": "grade-3-proyectos-nuestros-proyectos-tomo-1-tercer-grado",
+              "label": "Nuestro libro de proyectos Tomo I",
+              "startPage": 113,
+              "endPage": 116,
+              "pagesLabel": "pp. 113-116",
+              "topicTitle": "Proyecto academico 1",
+              "status": "confirmed-source"
+            }
+          ],
+          "conceptBook": [
+            {
+              "materialId": "grade-3-conceptos-saberes-y-pensamiento-cientifico-tercer-grado",
+              "label": "Saberes y Pensamiento Cientifico",
+              "startPage": 113,
+              "endPage": 113,
+              "pagesLabel": "p. 113",
+              "topicTitle": "1.necesidades satisfechas sin la tierra desecha",
+              "status": "confirmed"
+            }
+          ],
+          "multiplesLenguajes": [],
+          "otherMaterials": [
+            {
+              "label": "Video PA 1: 1.Necesidades satisfechas sin la Tierra desecha • Saberes y pensamiento científico• 3er grado",
+              "reference": "https://www.youtube.com/watch?v=gJdrmqV0FVY",
+              "status": "confirmed"
+            },
+            {
+              "label": "Video PPA 1: 1.Necesidades satisfechas sin la Tierra desecha • Saberes y pensamiento científico• 3er grado",
+              "reference": "https://www.youtube.com/watch?v=gJdrmqV0FVY",
+              "status": "confirmed"
+            }
+          ]
+        },
+        "supportMaterials": [],
+        "horizonOrPurpose": {
+          "status": "pending",
+          "text": "",
+          "source": "Nuestro libro de proyectos Tomo I pp. 113-116"
+        },
+        "projectExpectationHorizon": {
+          "officialText": "Objetivo 1: Contar con una base de datos acerca de las aportaciones de los pueblos y las culturas de México (así como de nuestra propia comunidad) a la ciencia y la tecnología para representar dicha información en una línea del tiempo con el apoyo de gráficas, a partir de la aplicación de la media, mediana, y moda, así como del rango y la desviación media. Objetivo 2: Elaborar un diseño innovador que cumpla con el formato de la línea del tiempo y establecer el tipo de material del que estará hecho, el tamaño de la fuente y la hoja, junto con la relación imágenesgráficas-texto, para representar las aportaciones de los pueblos y las culturas de México en la ciencia y la tecnología, así como de nuestra propia comunidad.",
+          "studentVersion": "Contar con una base de datos acerca de las aportaciones de los pueblos y las culturas de México (así como de nuestra propia comunidad) a la ciencia y la tecnología para representar dicha información en una línea del tiempo con el apoyo de gráficas, a partir de la aplicación de la media, mediana, y moda, así como del rango y la desviación media. Elaborar un diseño innovador que cumpla con el formato de la línea del tiempo y establecer el tipo de material del que estará hecho, el tamaño de la fuente y la hoja, junto con la relación imágenesgráficas-texto, para representar las aportaciones de los pueblos y las culturas de México en la ciencia y la tecnología, así como de nuestra propia comunidad.",
+          "sourcePages": [
+            "Nuestro libro de proyectos Tomo I p. 114"
+          ],
+          "evidence": "Objetivo 1 y Objetivo 2 aparecen como par dentro del rango exacto del PA. Se conserva el rotulo encontrado como evidencia.",
+          "status": "confirmed-from-project-book",
+          "detectedLabel": "Objetivo 1 + Objetivo 2",
+          "validationScope": "academic-project"
+        },
+        "detonatingStrategy": {
+          "title": "1.Necesidades satisfechas sin la Tierra desecha • Saberes y pensamiento científico• 3er grado",
+          "text": "Video del Proyecto Parcial de Aula 1: 1.Necesidades satisfechas sin la Tierra desecha • Saberes y pensamiento científico• 3er grado",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=gJdrmqV0FVY",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "partial-classroom-project"
+        },
+        "academicProjectStrategy": {
+          "title": "1.Necesidades satisfechas sin la Tierra desecha • Saberes y pensamiento científico• 3er grado",
+          "text": "Video detonador del Proyecto Academico 1: Las prácticas tradicionales en el hogar",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=gJdrmqV0FVY",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "academic-project"
+        },
+        "academicConcepts": [
+          {
+            "concept": "1.necesidades satisfechas sin la tierra desecha",
+            "description": "1.necesidades satisfechas sin la tierra desecha organiza el producto de cierre y permite comunicar lo aprendido en el proyecto.",
+            "sourceBook": "Saberes y Pensamiento Cientifico",
+            "sourcePages": [
+              113
+            ],
+            "sourcePagesLabel": "p. 113",
+            "topicTitle": "Proyecto academico 1",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 1, al PPA 1 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Materia",
+            "description": "Materia ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Saberes y Pensamiento Cientifico",
+            "sourcePages": [
+              265
+            ],
+            "sourcePagesLabel": "p. 265",
+            "topicTitle": "Proyecto academico 1",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 1, al PPA 1 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Mezclas",
+            "description": "Mezclas ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Saberes y Pensamiento Cientifico",
+            "sourcePages": [
+              265
+            ],
+            "sourcePagesLabel": "p. 265",
+            "topicTitle": "Proyecto academico 1",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 1, al PPA 1 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Quimica",
+            "description": "Quimica ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Saberes y Pensamiento Cientifico",
+            "sourcePages": [
+              9
+            ],
+            "sourcePagesLabel": "p. 9",
+            "topicTitle": "Proyecto academico 1",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 1, al PPA 1 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Figuras",
+            "description": "Figuras ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Saberes y Pensamiento Cientifico",
+            "sourcePages": [
+              113
+            ],
+            "sourcePagesLabel": "p. 113",
+            "topicTitle": "Proyecto academico 1",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 1, al PPA 1 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Medicion",
+            "description": "Medicion ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Saberes y Pensamiento Cientifico",
+            "sourcePages": [
+              113
+            ],
+            "sourcePagesLabel": "p. 113",
+            "topicTitle": "Proyecto academico 1",
+            "status": "suggested",
+            "reason": "Concepto vinculado al PA 1, al PPA 1 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "teacher-review"
+          }
+        ],
+        "thinkingCriteria": [
+          "Relacionar Las prácticas tradicionales en el hogar con una situacion concreta del entorno escolar o comunitario.",
+          "Usar 1.necesidades satisfechas sin la tierra desecha para explicar ideas con claridad y evidencia."
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Como te ayuda 1.necesidades satisfechas sin la tierra desecha a comprender mejor Las prácticas tradicionales en el hogar y a explicar sus conceptos clave en tu comunidad?",
+            "conceptsActivated": [
+              "1.necesidades satisfechas sin la tierra desecha",
+              "Materia",
+              "Mezclas",
+              "Quimica"
+            ],
+            "suggestedUse": "Momento 1 de autoevaluacion"
+          }
+        ],
+        "validationStatus": {
+          "readinessLevel": "curricular-bundle-generated",
+          "readyForActivities": true,
+          "needsReviewReasons": [
+            "El horizonte textual literal queda pendiente de revision fina si se requiere cita exacta.",
+            "Los apoyos complementarios impresos no se asignan cuando no hay evidencia validada por columna."
+          ]
+        },
+        "readinessLevel": "curricular-bundle-generated",
+        "readyForActivities": true,
+        "needsReviewReasons": []
+      },
+      {
+        "id": "saberes-y-pensamiento-cientifico-3-ppa-1-pa2",
+        "projectId": "saberes-y-pensamiento-cientifico-3-ppa-1-pa2",
+        "academicProjectNumber": 2,
+        "title": "Mujeres y hombres de ciencia",
+        "projectTitle": "Mujeres y hombres de ciencia",
+        "grade": "3",
+        "field": "Saberes y Pensamiento Científico",
+        "ppaNumber": "1",
+        "partialClassroomProject": "PPA 1",
+        "partialClassroomProjectTitle": "Necesidades satisfechas sin la Tierra desecha",
+        "bookVolume": "Tomo I",
+        "sourceValidation": {
+          "sourceStatus": "linked",
+          "possibilitiesPages": [
+            6,
+            7
+          ],
+          "possibilitiesMaterialId": "grade-3-posibilidades-pos-sypc-3",
+          "possibilitiesColumnIndex": 2,
+          "columnEvidence": "Proyecto PA 2 agrupado en el PPA 1 desde el catalogo canonico y las paginas de Posibilidades."
+        },
+        "finalProduct": {
+          "title": "7. Mundo atómico",
+          "source": "Video detonador validado en YouTube + Nuestro libro de proyectos Tomo I pp. 117-120",
+          "status": "confirmed-from-video-and-project"
+        },
+        "sourcePages": {
+          "nuestroLibroProyectos": [
+            {
+              "materialId": "grade-3-proyectos-nuestros-proyectos-tomo-1-tercer-grado",
+              "label": "Nuestro libro de proyectos Tomo I",
+              "startPage": 117,
+              "endPage": 120,
+              "pagesLabel": "pp. 117-120",
+              "topicTitle": "Proyecto academico 2",
+              "status": "confirmed-source"
+            }
+          ],
+          "conceptBook": [
+            {
+              "materialId": "grade-3-conceptos-saberes-y-pensamiento-cientifico-tercer-grado",
+              "label": "Saberes y Pensamiento Cientifico",
+              "startPage": 117,
+              "endPage": 117,
+              "pagesLabel": "p. 117",
+              "topicTitle": "7. mundo atómico",
+              "status": "confirmed"
+            }
+          ],
+          "multiplesLenguajes": [],
+          "otherMaterials": [
+            {
+              "label": "Video PA 2: 7. Mundo atómico • Saberes y pensamiento científico• 3er grado",
+              "reference": "https://www.youtube.com/watch?v=-3hWka-HtPk",
+              "status": "confirmed"
+            },
+            {
+              "label": "Video PPA 1: 1.Necesidades satisfechas sin la Tierra desecha • Saberes y pensamiento científico• 3er grado",
+              "reference": "https://www.youtube.com/watch?v=gJdrmqV0FVY",
+              "status": "confirmed"
+            }
+          ]
+        },
+        "supportMaterials": [],
+        "horizonOrPurpose": {
+          "status": "pending",
+          "text": "",
+          "source": "Nuestro libro de proyectos Tomo I pp. 117-120"
+        },
+        "projectExpectationHorizon": {
+          "officialText": "Objetivo 1: Concientizar a la comunidad acerca de las aportaciones de mujeres y hombres de los pueblos y las culturas de México, así como las de nuestra propia comunidad, a la ciencia y la tecnología para representar estos datos en gráficas con la utilización de la media, la mediana, la moda, el rango y la desviación media, y exponer dicha información mediante un sociodrama con títeres. Objetivo 2: Elaborar un guion con información concreta para llevar a cabo un sociodrama con títeres donde se concentre la información acerca de las aportaciones de mujeres y hombres a la ciencia y la tecnología, además de establecer el tipo de material que se va a utilizar para elaborar los títeres, junto con la relación imágenes-gráficas-texto.",
+          "studentVersion": "Concientizar a la comunidad acerca de las aportaciones de mujeres y hombres de los pueblos y las culturas de México, así como las de nuestra propia comunidad, a la ciencia y la tecnología para representar estos datos en gráficas con la utilización de la media, la mediana, la moda, el rango y la desviación media, y exponer dicha información mediante un sociodrama con títeres. Elaborar un guion con información concreta para llevar a cabo un sociodrama con títeres donde se concentre la información acerca de las aportaciones de mujeres y hombres a la ciencia y la tecnología, además de establecer el tipo de material que se va a utilizar para elaborar los títeres, junto con la relación imágenes-gráficas-texto.",
+          "sourcePages": [
+            "Nuestro libro de proyectos Tomo I p. 118"
+          ],
+          "evidence": "Texto rotulado como Objetivo dentro del rango exacto del Proyecto Academico; se acepta como equivalente funcional de horizonte de expectativas.",
+          "status": "confirmed-from-project-book",
+          "detectedLabel": "Objetivo",
+          "validationScope": "academic-project"
+        },
+        "detonatingStrategy": {
+          "title": "1.Necesidades satisfechas sin la Tierra desecha • Saberes y pensamiento científico• 3er grado",
+          "text": "Video del Proyecto Parcial de Aula 1: 1.Necesidades satisfechas sin la Tierra desecha • Saberes y pensamiento científico• 3er grado",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=gJdrmqV0FVY",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "partial-classroom-project"
+        },
+        "academicProjectStrategy": {
+          "title": "7. Mundo atómico • Saberes y pensamiento científico• 3er grado",
+          "text": "Video detonador del Proyecto Academico 2: Mujeres y hombres de ciencia",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=-3hWka-HtPk",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "academic-project"
+        },
+        "academicConcepts": [
+          {
+            "concept": "7. mundo atómico",
+            "description": "7. mundo atómico organiza el producto de cierre y permite comunicar lo aprendido en el proyecto.",
+            "sourceBook": "Saberes y Pensamiento Cientifico",
+            "sourcePages": [
+              117
+            ],
+            "sourcePagesLabel": "p. 117",
+            "topicTitle": "Proyecto academico 2",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 2, al PPA 1 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Materia",
+            "description": "Materia ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Saberes y Pensamiento Cientifico",
+            "sourcePages": [
+              265
+            ],
+            "sourcePagesLabel": "p. 265",
+            "topicTitle": "Proyecto academico 2",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 2, al PPA 1 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Mezclas",
+            "description": "Mezclas ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Saberes y Pensamiento Cientifico",
+            "sourcePages": [
+              265
+            ],
+            "sourcePagesLabel": "p. 265",
+            "topicTitle": "Proyecto academico 2",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 2, al PPA 1 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Quimica",
+            "description": "Quimica ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Saberes y Pensamiento Cientifico",
+            "sourcePages": [
+              9
+            ],
+            "sourcePagesLabel": "p. 9",
+            "topicTitle": "Proyecto academico 2",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 2, al PPA 1 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Figuras",
+            "description": "Figuras ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Saberes y Pensamiento Cientifico",
+            "sourcePages": [
+              117
+            ],
+            "sourcePagesLabel": "p. 117",
+            "topicTitle": "Proyecto academico 2",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 2, al PPA 1 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Medicion",
+            "description": "Medicion ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Saberes y Pensamiento Cientifico",
+            "sourcePages": [
+              117
+            ],
+            "sourcePagesLabel": "p. 117",
+            "topicTitle": "Proyecto academico 2",
+            "status": "suggested",
+            "reason": "Concepto vinculado al PA 2, al PPA 1 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "teacher-review"
+          }
+        ],
+        "thinkingCriteria": [
+          "Relacionar Mujeres y hombres de ciencia con una situacion concreta del entorno escolar o comunitario.",
+          "Usar 7. mundo atómico para explicar ideas con claridad y evidencia."
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Como te ayuda 7. mundo atómico a comprender mejor Mujeres y hombres de ciencia y a explicar sus conceptos clave en tu comunidad?",
+            "conceptsActivated": [
+              "7. mundo atómico",
+              "Materia",
+              "Mezclas",
+              "Quimica"
+            ],
+            "suggestedUse": "Momento 1 de autoevaluacion"
+          }
+        ],
+        "validationStatus": {
+          "readinessLevel": "curricular-bundle-generated",
+          "readyForActivities": true,
+          "needsReviewReasons": [
+            "El horizonte textual literal queda pendiente de revision fina si se requiere cita exacta.",
+            "Los apoyos complementarios impresos no se asignan cuando no hay evidencia validada por columna."
+          ]
+        },
+        "readinessLevel": "curricular-bundle-generated",
+        "readyForActivities": true,
+        "needsReviewReasons": []
+      },
+      {
+        "id": "saberes-y-pensamiento-cientifico-3-ppa-1-pa3",
+        "projectId": "saberes-y-pensamiento-cientifico-3-ppa-1-pa3",
+        "academicProjectNumber": 3,
+        "title": "Vive y deja vivir",
+        "projectTitle": "Vive y deja vivir",
+        "grade": "3",
+        "field": "Saberes y Pensamiento Científico",
+        "ppaNumber": "1",
+        "partialClassroomProject": "PPA 1",
+        "partialClassroomProjectTitle": "Necesidades satisfechas sin la Tierra desecha",
+        "bookVolume": "Tomo I",
+        "sourceValidation": {
+          "sourceStatus": "linked",
+          "possibilitiesPages": [
+            6,
+            7
+          ],
+          "possibilitiesMaterialId": "grade-3-posibilidades-pos-sypc-3",
+          "possibilitiesColumnIndex": 3,
+          "columnEvidence": "Proyecto PA 3 agrupado en el PPA 1 desde el catalogo canonico y las paginas de Posibilidades."
+        },
+        "finalProduct": {
+          "title": "Periódico mural",
+          "source": "Video detonador validado en YouTube + Nuestro libro de proyectos Tomo I pp. 121-124",
+          "status": "confirmed-from-video-and-project"
+        },
+        "sourcePages": {
+          "nuestroLibroProyectos": [
+            {
+              "materialId": "grade-3-proyectos-nuestros-proyectos-tomo-1-tercer-grado",
+              "label": "Nuestro libro de proyectos Tomo I",
+              "startPage": 121,
+              "endPage": 124,
+              "pagesLabel": "pp. 121-124",
+              "topicTitle": "Proyecto academico 3",
+              "status": "confirmed-source"
+            }
+          ],
+          "conceptBook": [
+            {
+              "materialId": "grade-3-conceptos-saberes-y-pensamiento-cientifico-tercer-grado",
+              "label": "Saberes y Pensamiento Cientifico",
+              "startPage": 121,
+              "endPage": 121,
+              "pagesLabel": "p. 121",
+              "topicTitle": "Periódico mural",
+              "status": "confirmed"
+            }
+          ],
+          "multiplesLenguajes": [],
+          "otherMaterials": [
+            {
+              "label": "Video PA 3: Periódico mural • Saberes y pensamiento científico • 3er grado",
+              "reference": "https://www.youtube.com/watch?v=XZzxRFRzPAA",
+              "status": "confirmed"
+            },
+            {
+              "label": "Video PPA 1: 1.Necesidades satisfechas sin la Tierra desecha • Saberes y pensamiento científico• 3er grado",
+              "reference": "https://www.youtube.com/watch?v=gJdrmqV0FVY",
+              "status": "confirmed"
+            }
+          ]
+        },
+        "supportMaterials": [],
+        "horizonOrPurpose": {
+          "status": "pending",
+          "text": "",
+          "source": "Nuestro libro de proyectos Tomo I pp. 121-124"
+        },
+        "projectExpectationHorizon": {
+          "officialText": "Objetivo 1: Identificar las principales necesidades de nuestra comunidad, los recursos requeridos y una cuantificación de los hábitos de consumo en tablas, gráficas y expresiones algebraicas para incluirlas en un periódico mural que dé un referente sobre el cual tomar decisiones responsables y sustentables. Objetivo 2: Seleccionar la información que tenga más relevancia para exponerla en un periódico mural comparando los datos que ofrecen las diversas bases, con el uso de gráficas y expresiones algebraicas, respecto a los hábitos de consumo que afectan el medio ambiente.",
+          "studentVersion": "Identificar las principales necesidades de nuestra comunidad, los recursos requeridos y una cuantificación de los hábitos de consumo en tablas, gráficas y expresiones algebraicas para incluirlas en un periódico mural que dé un referente sobre el cual tomar decisiones responsables y sustentables. Seleccionar la información que tenga más relevancia para exponerla en un periódico mural comparando los datos que ofrecen las diversas bases, con el uso de gráficas y expresiones algebraicas, respecto a los hábitos de consumo que afectan el medio ambiente.",
+          "sourcePages": [
+            "Nuestro libro de proyectos Tomo I p. 122"
+          ],
+          "evidence": "Texto rotulado como Objetivo dentro del rango exacto del Proyecto Academico; se acepta como equivalente funcional de horizonte de expectativas.",
+          "status": "confirmed-from-project-book",
+          "detectedLabel": "Objetivo",
+          "validationScope": "academic-project"
+        },
+        "detonatingStrategy": {
+          "title": "1.Necesidades satisfechas sin la Tierra desecha • Saberes y pensamiento científico• 3er grado",
+          "text": "Video del Proyecto Parcial de Aula 1: 1.Necesidades satisfechas sin la Tierra desecha • Saberes y pensamiento científico• 3er grado",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=gJdrmqV0FVY",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "partial-classroom-project"
+        },
+        "academicProjectStrategy": {
+          "title": "Periódico mural • Saberes y pensamiento científico • 3er grado",
+          "text": "Video detonador del Proyecto Academico 3: Vive y deja vivir",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=XZzxRFRzPAA",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "academic-project"
+        },
+        "academicConcepts": [
+          {
+            "concept": "Periódico mural",
+            "description": "Periódico mural organiza el producto de cierre y permite comunicar lo aprendido en el proyecto.",
+            "sourceBook": "Saberes y Pensamiento Cientifico",
+            "sourcePages": [
+              121
+            ],
+            "sourcePagesLabel": "p. 121",
+            "topicTitle": "Proyecto academico 3",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 3, al PPA 1 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Materia",
+            "description": "Materia ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Saberes y Pensamiento Cientifico",
+            "sourcePages": [
+              265
+            ],
+            "sourcePagesLabel": "p. 265",
+            "topicTitle": "Proyecto academico 3",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 3, al PPA 1 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Mezclas",
+            "description": "Mezclas ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Saberes y Pensamiento Cientifico",
+            "sourcePages": [
+              265
+            ],
+            "sourcePagesLabel": "p. 265",
+            "topicTitle": "Proyecto academico 3",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 3, al PPA 1 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Quimica",
+            "description": "Quimica ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Saberes y Pensamiento Cientifico",
+            "sourcePages": [
+              9
+            ],
+            "sourcePagesLabel": "p. 9",
+            "topicTitle": "Proyecto academico 3",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 3, al PPA 1 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Figuras",
+            "description": "Figuras ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Saberes y Pensamiento Cientifico",
+            "sourcePages": [
+              121
+            ],
+            "sourcePagesLabel": "p. 121",
+            "topicTitle": "Proyecto academico 3",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 3, al PPA 1 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Medicion",
+            "description": "Medicion ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Saberes y Pensamiento Cientifico",
+            "sourcePages": [
+              121
+            ],
+            "sourcePagesLabel": "p. 121",
+            "topicTitle": "Proyecto academico 3",
+            "status": "suggested",
+            "reason": "Concepto vinculado al PA 3, al PPA 1 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "teacher-review"
+          }
+        ],
+        "thinkingCriteria": [
+          "Relacionar Vive y deja vivir con una situacion concreta del entorno escolar o comunitario.",
+          "Usar periódico mural para explicar ideas con claridad y evidencia."
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Como te ayuda periódico mural a comprender mejor Vive y deja vivir y a explicar sus conceptos clave en tu comunidad?",
+            "conceptsActivated": [
+              "Periódico mural",
+              "Materia",
+              "Mezclas",
+              "Quimica"
+            ],
+            "suggestedUse": "Momento 1 de autoevaluacion"
+          }
+        ],
+        "validationStatus": {
+          "readinessLevel": "curricular-bundle-generated",
+          "readyForActivities": true,
+          "needsReviewReasons": [
+            "El horizonte textual literal queda pendiente de revision fina si se requiere cita exacta.",
+            "Los apoyos complementarios impresos no se asignan cuando no hay evidencia validada por columna."
+          ]
+        },
+        "readinessLevel": "curricular-bundle-generated",
+        "readyForActivities": true,
+        "needsReviewReasons": []
+      }
+    ]
+  },
+  "conceptsValidation": {
+    "grade": "3",
+    "field": "Saberes y Pensamiento Cientifico",
+    "ppaNumber": "1",
+    "status": "concept-validation",
+    "generatedAt": "2026-06-07T03:06:27.856Z",
+    "entries": [
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-3-ppa-1-pa1",
+        "projectTitle": "Las prácticas tradicionales en el hogar",
+        "concept": "1.necesidades satisfechas sin la tierra desecha",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "pages": [
+            113
+          ],
+          "reason": "Concepto vinculado al PA 1, al PPA 1 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-3-ppa-1-pa1",
+        "projectTitle": "Las prácticas tradicionales en el hogar",
+        "concept": "Materia",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "pages": [
+            265
+          ],
+          "reason": "Concepto vinculado al PA 1, al PPA 1 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-3-ppa-1-pa1",
+        "projectTitle": "Las prácticas tradicionales en el hogar",
+        "concept": "Mezclas",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "pages": [
+            265
+          ],
+          "reason": "Concepto vinculado al PA 1, al PPA 1 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-3-ppa-1-pa1",
+        "projectTitle": "Las prácticas tradicionales en el hogar",
+        "concept": "Quimica",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "pages": [
+            9
+          ],
+          "reason": "Concepto vinculado al PA 1, al PPA 1 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-3-ppa-1-pa1",
+        "projectTitle": "Las prácticas tradicionales en el hogar",
+        "concept": "Figuras",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "pages": [
+            113
+          ],
+          "reason": "Concepto vinculado al PA 1, al PPA 1 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-3-ppa-1-pa1",
+        "projectTitle": "Las prácticas tradicionales en el hogar",
+        "concept": "Medicion",
+        "status": "suggested",
+        "evidence": {
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "pages": [
+            113
+          ],
+          "reason": "Concepto vinculado al PA 1, al PPA 1 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "teacher-review"
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-3-ppa-1-pa2",
+        "projectTitle": "Mujeres y hombres de ciencia",
+        "concept": "7. mundo atómico",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "pages": [
+            117
+          ],
+          "reason": "Concepto vinculado al PA 2, al PPA 1 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-3-ppa-1-pa2",
+        "projectTitle": "Mujeres y hombres de ciencia",
+        "concept": "Materia",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "pages": [
+            265
+          ],
+          "reason": "Concepto vinculado al PA 2, al PPA 1 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-3-ppa-1-pa2",
+        "projectTitle": "Mujeres y hombres de ciencia",
+        "concept": "Mezclas",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "pages": [
+            265
+          ],
+          "reason": "Concepto vinculado al PA 2, al PPA 1 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-3-ppa-1-pa2",
+        "projectTitle": "Mujeres y hombres de ciencia",
+        "concept": "Quimica",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "pages": [
+            9
+          ],
+          "reason": "Concepto vinculado al PA 2, al PPA 1 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-3-ppa-1-pa2",
+        "projectTitle": "Mujeres y hombres de ciencia",
+        "concept": "Figuras",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "pages": [
+            117
+          ],
+          "reason": "Concepto vinculado al PA 2, al PPA 1 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-3-ppa-1-pa2",
+        "projectTitle": "Mujeres y hombres de ciencia",
+        "concept": "Medicion",
+        "status": "suggested",
+        "evidence": {
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "pages": [
+            117
+          ],
+          "reason": "Concepto vinculado al PA 2, al PPA 1 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "teacher-review"
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-3-ppa-1-pa3",
+        "projectTitle": "Vive y deja vivir",
+        "concept": "Periódico mural",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "pages": [
+            121
+          ],
+          "reason": "Concepto vinculado al PA 3, al PPA 1 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-3-ppa-1-pa3",
+        "projectTitle": "Vive y deja vivir",
+        "concept": "Materia",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "pages": [
+            265
+          ],
+          "reason": "Concepto vinculado al PA 3, al PPA 1 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-3-ppa-1-pa3",
+        "projectTitle": "Vive y deja vivir",
+        "concept": "Mezclas",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "pages": [
+            265
+          ],
+          "reason": "Concepto vinculado al PA 3, al PPA 1 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-3-ppa-1-pa3",
+        "projectTitle": "Vive y deja vivir",
+        "concept": "Quimica",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "pages": [
+            9
+          ],
+          "reason": "Concepto vinculado al PA 3, al PPA 1 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-3-ppa-1-pa3",
+        "projectTitle": "Vive y deja vivir",
+        "concept": "Figuras",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "pages": [
+            121
+          ],
+          "reason": "Concepto vinculado al PA 3, al PPA 1 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-3-ppa-1-pa3",
+        "projectTitle": "Vive y deja vivir",
+        "concept": "Medicion",
+        "status": "suggested",
+        "evidence": {
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "pages": [
+            121
+          ],
+          "reason": "Concepto vinculado al PA 3, al PPA 1 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "teacher-review"
+      }
+    ]
+  },
+  "pedagogicalArticulation": {
+    "grade": "3",
+    "field": "Saberes y Pensamiento Cientifico",
+    "ppaNumber": "1",
+    "status": "teacher-orientation",
+    "officialHorizonStatus": "pending",
+    "situatedPedagogicalOrientation": "El PPA 1 propone trabajar Necesidades satisfechas sin la Tierra desecha mediante productos de cierre, conceptos confirmados y videos directos para reforzar la autoevaluacion.",
+    "integratingQuestions": [
+      "¿Como se relacionan los tres proyectos academicos del PPA 1 con Necesidades satisfechas sin la Tierra desecha?",
+      "¿Que conceptos necesita dominar el estudiante para explicar su producto final?",
+      "¿Como usar el producto final para comunicar una comprension y no solo presentar informacion?"
+    ],
+    "possibleResonanceQuestion": "¿Que comprension nueva sobre Necesidades satisfechas sin la Tierra desecha puedes explicar con los productos del PPA 1?",
+    "teacherNotes": [
+      "Usar los videos directos como detonadores, no como enlaces de busqueda.",
+      "Retomar los conceptos confirmados antes de resolver la relacion de columnas y el juego."
+    ],
+    "projectConnections": [
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-3-ppa-1-pa1",
+        "projectTitle": "Las prácticas tradicionales en el hogar",
+        "roleInPpa": "Aporta 1.necesidades satisfechas sin la tierra desecha al desarrollo del PPA 1.",
+        "confirmedConcepts": [
+          "1.necesidades satisfechas sin la tierra desecha",
+          "Materia",
+          "Mezclas",
+          "Quimica",
+          "Figuras"
+        ],
+        "suggestedConcepts": [
+          "Medicion"
+        ],
+        "pedagogicalUse": "Video detonador del Proyecto Academico 1: Las prácticas tradicionales en el hogar"
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-3-ppa-1-pa2",
+        "projectTitle": "Mujeres y hombres de ciencia",
+        "roleInPpa": "Aporta 7. mundo atómico al desarrollo del PPA 1.",
+        "confirmedConcepts": [
+          "7. mundo atómico",
+          "Materia",
+          "Mezclas",
+          "Quimica",
+          "Figuras"
+        ],
+        "suggestedConcepts": [
+          "Medicion"
+        ],
+        "pedagogicalUse": "Video detonador del Proyecto Academico 2: Mujeres y hombres de ciencia"
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-3-ppa-1-pa3",
+        "projectTitle": "Vive y deja vivir",
+        "roleInPpa": "Aporta periódico mural al desarrollo del PPA 1.",
+        "confirmedConcepts": [
+          "Periódico mural",
+          "Materia",
+          "Mezclas",
+          "Quimica",
+          "Figuras"
+        ],
+        "suggestedConcepts": [
+          "Medicion"
+        ],
+        "pedagogicalUse": "Video detonador del Proyecto Academico 3: Vive y deja vivir"
+      }
+    ]
+  },
+  "teacherNotesAndResonances": {
+    "grade": "3",
+    "field": "Saberes y Pensamiento Cientifico",
+    "ppaNumber": "1",
+    "status": "teacher-notes-and-resonances",
+    "officialHorizonStatus": "pending",
+    "ppaIntegratingResonance": "¿Que comprension nueva sobre Necesidades satisfechas sin la Tierra desecha puedes explicar con los productos del PPA 1?",
+    "didacticWarnings": [
+      "No sustituir el producto final por la reproduccion del video.",
+      "Evitar marcar apoyos impresos como confirmados si no existe evidencia por columna."
+    ],
+    "communityPrompts": {
+      "territoryLanguageMemory": [
+        "¿Que palabras, practicas o problemas del entorno ayudan a entender mejor este PPA?"
+      ],
+      "productCommunityConnection": [
+        "¿Como puede circular el producto final dentro de la comunidad escolar?"
+      ]
+    },
+    "projects": [
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-3-ppa-1-pa1",
+        "projectTitle": "Las prácticas tradicionales en el hogar",
+        "teacherNotes": [
+          "Retomar 1.necesidades satisfechas sin la tierra desecha como evidencia del aprendizaje.",
+          "Usar los conceptos confirmados para orientar la autoevaluacion."
+        ],
+        "confirmedConceptsToUse": [
+          "1.necesidades satisfechas sin la tierra desecha",
+          "Materia",
+          "Mezclas",
+          "Quimica",
+          "Figuras"
+        ],
+        "suggestedConceptsToHandleCarefully": [
+          "Medicion"
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Como te ayuda 1.necesidades satisfechas sin la tierra desecha a comprender mejor Las prácticas tradicionales en el hogar y a explicar sus conceptos clave en tu comunidad?",
+            "conceptsActivated": [
+              "1.necesidades satisfechas sin la tierra desecha",
+              "Materia",
+              "Mezclas",
+              "Quimica"
+            ],
+            "suggestedUse": "Momento 1 de autoevaluacion"
+          }
+        ],
+        "notReadyFor": []
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-3-ppa-1-pa2",
+        "projectTitle": "Mujeres y hombres de ciencia",
+        "teacherNotes": [
+          "Retomar 7. mundo atómico como evidencia del aprendizaje.",
+          "Usar los conceptos confirmados para orientar la autoevaluacion."
+        ],
+        "confirmedConceptsToUse": [
+          "7. mundo atómico",
+          "Materia",
+          "Mezclas",
+          "Quimica",
+          "Figuras"
+        ],
+        "suggestedConceptsToHandleCarefully": [
+          "Medicion"
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Como te ayuda 7. mundo atómico a comprender mejor Mujeres y hombres de ciencia y a explicar sus conceptos clave en tu comunidad?",
+            "conceptsActivated": [
+              "7. mundo atómico",
+              "Materia",
+              "Mezclas",
+              "Quimica"
+            ],
+            "suggestedUse": "Momento 1 de autoevaluacion"
+          }
+        ],
+        "notReadyFor": []
+      },
+      {
+        "projectId": "saberes-y-pensamiento-cientifico-3-ppa-1-pa3",
+        "projectTitle": "Vive y deja vivir",
+        "teacherNotes": [
+          "Retomar periódico mural como evidencia del aprendizaje.",
+          "Usar los conceptos confirmados para orientar la autoevaluacion."
+        ],
+        "confirmedConceptsToUse": [
+          "Periódico mural",
+          "Materia",
+          "Mezclas",
+          "Quimica",
+          "Figuras"
+        ],
+        "suggestedConceptsToHandleCarefully": [
+          "Medicion"
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Como te ayuda periódico mural a comprender mejor Vive y deja vivir y a explicar sus conceptos clave en tu comunidad?",
+            "conceptsActivated": [
+              "Periódico mural",
+              "Materia",
+              "Mezclas",
+              "Quimica"
+            ],
+            "suggestedUse": "Momento 1 de autoevaluacion"
+          }
+        ],
+        "notReadyFor": []
+      }
+    ]
+  },
+  "validationAudit": {
+    "kind": "generated-validation-audit",
+    "source": "reports/caracoles/grade3-saberes-ppa1-reading-bundle-audit.md",
+    "content": "# Bundle curricular tercer grado\n\n- Campo: Saberes y Pensamiento Cientifico\n- PPA: 1\n- Titulo: Necesidades satisfechas sin la Tierra desecha\n- Proyectos: PA1, PA2, PA3\n- Estado: generado y publicado\n- Cautela: horizonte literal y apoyos impresos por columna pendientes de revision fina.\n"
+  }
+}

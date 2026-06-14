@@ -1,0 +1,2049 @@
+{
+  "grade": "1",
+  "gradeLabel": "Primer grado",
+  "field": "Lenguajes",
+  "ppaNumber": "10",
+  "partialClassroomProject": "PPA 10",
+  "partialClassroomProjectTitle": "El artista crea, el espectador disfruta",
+  "source": "curricular-development-pilot",
+  "generatedAt": "2026-06-04T15:51:04.951Z",
+  "development": {
+    "grade": "1",
+    "gradeLabel": "Primer grado",
+    "field": "Lenguajes",
+    "bookVolume": "Tomo II",
+    "partialClassroomProject": "PPA 10",
+    "partialClassroomProjectTitle": "El artista crea, el espectador disfruta",
+    "generatedAt": "2026-05-25T01:49:12.774Z",
+    "notes": "Capa curricular piloto aislada para 1° Lenguajes PPA 10. No alimenta la app pública automáticamente.",
+    "sourcesUsed": [
+      "content/caracoles/templates/teacher-community-prompts-template.json",
+      "content/caracoles/templates/examples/grade-1-lenguajes-ppa-9-teacher-community-prompts-example.json",
+      "content/caracoles/curricular-catalog/all-projects-canonical.json",
+      "content/caracoles/curricular-inventory/all-grades-projects-inventory.json",
+      "content/caracoles/curricular-links/grade-1-project-source-links.json",
+      "content/caracoles/concepts-registry/grade-1-concepts-registry.json",
+      "content/caracoles/generated-private/grade-1/pages-index.full.json"
+    ],
+    "templateReference": {
+      "templateVersion": "1.0",
+      "exampleDerivedFrom": [
+        "grade-1-lenguajes-ppa-9-development.json",
+        "grade-1-lenguajes-ppa-9-concepts-validation.json",
+        "grade-1-lenguajes-ppa-9-pedagogical-articulation.json",
+        "grade-1-lenguajes-ppa-9-teacher-notes-and-resonances.json"
+      ]
+    },
+    "partialClassroomProjectContext": {
+      "expectationHorizon": {
+        "officialText": "",
+        "sourcePages": [
+          "Nuestro libro de proyectos Tomo II pp. 74-85",
+          "Posibilidades de uso Lenguajes pp. 24-26"
+        ],
+        "evidence": "El bloque sí tiene propósito compartido en torno a creación, expresión, comunicación y juego con el lenguaje, pero no se localizó una formulación única de horizonte oficial del PPA 10.",
+        "status": "pending"
+      },
+      "ppaDetonatingStrategy": {
+        "title": "El artista crea, el espectador disfruta",
+        "type": "video",
+        "url": "",
+        "urlStatus": "pending-url",
+        "source": "Posibilidades de uso Lenguajes pp. 24-26",
+        "scope": "partial-classroom-project",
+        "youtubeSearchQuery": "El artista crea, el espectador disfruta Lenguajes 1er grado Telesecundaria"
+      },
+      "validationStatus": {
+        "needsHumanReview": true,
+        "needsReviewReasons": [
+          "El nombre del PPA esta confirmado desde Posibilidades y el inventario.",
+          "La separacion de columnas del bloque 24-25 fue validada visualmente; la pagina 26 funciona como indice contextual de videos academicos y no como asignacion por columna.",
+          "No se localizo una URL confirmada para el video del PPA."
+        ]
+      }
+    },
+    "academicProjects": [
+      {
+        "id": "lenguajes-1-ppa-10-pa28",
+        "projectId": "lenguajes-1-ppa-10-pa28",
+        "academicProjectNumber": 28,
+        "projectTitle": "Expresa tus emociones, sentimientos e ideas",
+        "grade": "1",
+        "field": "Lenguajes",
+        "ppaNumber": "10",
+        "partialClassroomProject": "PPA 10",
+        "partialClassroomProjectTitle": "El artista crea, el espectador disfruta",
+        "bookVolume": "Tomo II",
+        "sourceValidation": {
+          "sourceStatus": "linked",
+          "possibilitiesPages": [
+            24,
+            25,
+            26
+          ],
+          "possibilitiesMaterialId": "grade-1-posibilidades-pos-len-1",
+          "possibilitiesColumnIndex": 1,
+          "columnEvidence": "Validacion visual directa en Posibilidades de uso Lenguajes pp. 24-25: la columna 1 corresponde a PA28, con continuidad de Carta desde Varsovia y del bloque 296-300. La p. 26 se conserva solo como contexto general de videos academicos."
+        },
+        "finalProduct": {
+          "title": "Carta de presentación emotiva",
+          "source": "Posibilidades de uso Lenguajes p. 24 + Nuestro libro de proyectos Tomo II pp. 74-77",
+          "status": "confirmed"
+        },
+        "sourcePages": {
+          "nuestroLibroProyectos": [
+            {
+              "materialId": "grade-1-proyectos-nuestro-libro-de-proyectos-tomo-ii-primer-grado",
+              "label": "Nuestro libro de proyectos Tomo II",
+              "startPage": 74,
+              "endPage": 77,
+              "pagesLabel": "pp. 74-77",
+              "topicTitle": "Proyecto académico 28",
+              "status": "confirmed-source"
+            }
+          ],
+          "conceptBook": [
+            {
+              "materialId": "grade-1-conceptos-lenguajes-primer-grado",
+              "label": "Lenguajes",
+              "startPage": 61,
+              "endPage": 71,
+              "pagesLabel": "pp. 61-71",
+              "topicTitle": "Figuras retoricas, lenguaje connotativo y denotativo, y uso de figuras retoricas",
+              "status": "confirmed-source"
+            },
+            {
+              "materialId": "grade-1-conceptos-lenguajes-primer-grado",
+              "label": "Lenguajes",
+              "startPage": 184,
+              "endPage": 191,
+              "pagesLabel": "pp. 184-191",
+              "topicTitle": "Medios de expresion en lenguas indigenas, sensaciones e ideas, y semblanza",
+              "status": "confirmed-source"
+            },
+            {
+              "materialId": "grade-1-conceptos-lenguajes-primer-grado",
+              "label": "Lenguajes",
+              "startPage": 296,
+              "endPage": 300,
+              "pagesLabel": "pp. 296-300",
+              "topicTitle": "Las expresiones artisticas escenicas y su relacion con el entorno familiar",
+              "status": "confirmed-source"
+            }
+          ],
+          "multiplesLenguajes": [
+            {
+              "materialId": "grade-1-apoyo-muiltiples-lenguajes-primer-grado",
+              "label": "Múltiples Lenguajes",
+              "startPage": 48,
+              "endPage": 53,
+              "pagesLabel": "pp. 48-53",
+              "topicTitle": "Carta desde Varsovia",
+              "status": "confirmed-source"
+            }
+          ],
+          "otherMaterials": [
+            {
+              "label": "Video PA 28: Carta de presentación emotiva• Lenguajes • 1er grado",
+              "reference": "https://www.youtube.com/watch?v=NtsEhI7dqwQ",
+              "status": "confirmed"
+            },
+            {
+              "label": "Video PPA 10: 10. El artista crea, el espectador disfruta • Lenguajes • 1er grado",
+              "reference": "https://www.youtube.com/watch?v=ArdR1HHomjg",
+              "status": "confirmed"
+            },
+            {
+              "label": "Recurso de consulta del proyecto",
+              "reference": "Consulta: ¿Qué es una carta de presentación emotiva y cuáles son sus elementos? bit.ly/3R0ForE",
+              "status": "pending-validation"
+            },
+            {
+              "label": "Recurso general del bloque",
+              "reference": "bit.ly/3RpbgXa",
+              "status": "pending-validation"
+            }
+          ]
+        },
+        "supportMaterials": [
+          {
+            "title": "Carta desde Varsovia",
+            "kind": "Múltiples Lenguajes",
+            "pages": "pp. 48-53",
+            "status": "confirmed-source"
+          }
+        ],
+        "horizonOrPurpose": {
+          "status": "official",
+          "text": "Escribir una carta de presentación emotiva dirigida a un amigo anónimo para expresar sensaciones, emociones, sentimientos e ideas relacionadas con la vida cotidiana y con el ingreso a la Telesecundaria.",
+          "source": "Nuestro libro de proyectos Tomo II pp. 74-75"
+        },
+        "detonatingStrategy": {
+          "title": "10. El artista crea, el espectador disfruta • Lenguajes • 1er grado",
+          "text": "Video del Proyecto Parcial de Aula 10: 10. El artista crea, el espectador disfruta • Lenguajes • 1er grado",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=ArdR1HHomjg",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "partial-classroom-project"
+        },
+        "academicProjectStrategy": {
+          "title": "Carta de presentación emotiva• Lenguajes • 1er grado",
+          "text": "Video detonador del Proyecto Academico 28: Carta de presentación emotiva• Lenguajes • 1er grado",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=NtsEhI7dqwQ",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "academic-project"
+        },
+        "academicConcepts": [
+          {
+            "concept": "carta de presentación emotiva",
+            "status": "confirmed",
+            "sourceBook": "Nuestro libro de proyectos Tomo II",
+            "sourcePages": [
+              74,
+              75,
+              76
+            ],
+            "sourcePagesLabel": "pp. 74-76",
+            "topicTitle": "carta de presentación emotiva",
+            "evidenceSnippet": "sentimientos. Etapa 1. ¿Qué haremos? Escribir una carta de presentación emotiva, dirigida a un amigo anónimo, en la que expresen las sensaciones, las emociones, los sentimientos y las ideas que les vengan a la mente con respecto a la vida c",
+            "reason": "El proyecto nombra explícitamente la carta de presentación emotiva como acción central, producto y pregunta de apoyo.",
+            "pedagogicalUse": "Permite orientar la escritura personal y la presentación pública del proyecto sin reducirlo a un formato vacío.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "carta",
+            "status": "confirmed",
+            "sourceBook": "Nuestro libro de proyectos Tomo II",
+            "sourcePages": [
+              74,
+              75,
+              76
+            ],
+            "sourcePagesLabel": "pp. 74-76",
+            "topicTitle": "La carta como producto del proyecto",
+            "evidenceSnippet": "Escribir una carta de presentacion emotiva dirigida a un amigo anonimo para expresar emociones, sentimientos, ideas y experiencias del ingreso a la Telesecundaria.",
+            "reason": "La validacion visual retiro las pp. 98-100 de la columna de PA28; la carta sigue confirmada desde el propio proyecto y su producto final.",
+            "pedagogicalUse": "Ayuda a revisar destinatario, intencion comunicativa y tono desde el producto central del proyecto.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "expresión escrita de sentimientos y emociones",
+            "status": "confirmed",
+            "sourceBook": "Nuestro libro de proyectos Tomo II",
+            "sourcePages": [
+              74,
+              76
+            ],
+            "sourcePagesLabel": "pp. 74-76",
+            "topicTitle": "expresión escrita de sentimientos y emociones",
+            "evidenceSnippet": "74 Proyecto académico 28 Expresa tus emociones, sentimientos e ideas Cuando se inicia algo nuevo e importante en la vida, se experimentan múltiples emociones y sentimientos: alegría, miedo, enojo e incluso esperanza sobre lo que viene. Es m",
+            "reason": "La descripción del proyecto y las fuentes de consulta mencionan de forma explícita sentimientos, emociones y su expresión escrita.",
+            "pedagogicalUse": "Sostiene la resonancia individual y evita que la carta se vuelva un mero llenado de formato.",
+            "activityReadiness": "usable-for-resonance"
+          },
+          {
+            "concept": "figuras retóricas",
+            "status": "confirmed",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              61,
+              62,
+              63,
+              68,
+              71
+            ],
+            "sourcePagesLabel": "pp. 61-71",
+            "topicTitle": "Figuras retóricas en textos literarios y orales en español",
+            "evidenceSnippet": "El español ofrece la posibilidad de comunicar ideas y emociones de forma expresiva y estética. La literatura es un tipo de escritura creativa que ofrece la oportunidad de acuñar nuevos significados con las mismas palabras ( lenguaje connotativo ). También util",
+            "reason": "El bloque de Posibilidades asocia al PA28 las páginas sobre figuras retóricas como recurso para enriquecer la escritura emotiva.",
+            "pedagogicalUse": "Permite trabajar la expresividad del lenguaje y discutir cómo las palabras intensifican sensaciones e ideas.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "lenguaje connotativo",
+            "status": "suggested",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              62,
+              63
+            ],
+            "sourcePagesLabel": "pp. 62-63",
+            "topicTitle": "El lenguaje connotativo y denotativo",
+            "evidenceSnippet": "El lenguaje connotativo y denotativo “Mira nada más, pero ¡qué bonito te ves así!” o “¡Me rompiste el corazón con tu llamada!” son enunciados que significan más de lo que dicen ya que ni el corazón humano se rompe con una llamada ni, necesariamente, alguien es",
+            "reason": "La página fuente lo incluye con claridad, pero su uso como eje del PA28 todavía depende de validar visualmente la separación por columna.",
+            "pedagogicalUse": "Puede orientar conversaciones sobre sentidos literales y sugeridos en la carta, pero conviene manejarlo con cuidado.",
+            "activityReadiness": "usable-for-resonance"
+          },
+          {
+            "concept": "lenguaje denotativo",
+            "status": "suggested",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              62,
+              63
+            ],
+            "sourcePagesLabel": "pp. 62-63",
+            "topicTitle": "El lenguaje connotativo y denotativo",
+            "evidenceSnippet": "El lenguaje connotativo y denotativo “Mira nada más, pero ¡qué bonito te ves así!” o “¡Me rompiste el corazón con tu llamada!” son enunciados que significan más de lo que dicen ya que ni el corazón humano se rompe con una llamada ni, necesariamente, alguien es",
+            "reason": "La fuente lo presenta de manera directa, aunque la vinculación exclusiva con el PA28 aún requiere revisión visual de columnas.",
+            "pedagogicalUse": "Ayuda a comparar usos literales y expresivos del lenguaje dentro de la carta.",
+            "activityReadiness": "usable-for-resonance"
+          },
+          {
+            "concept": "comparación",
+            "status": "suggested",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              63,
+              64,
+              65,
+              66,
+              67,
+              68
+            ],
+            "sourcePagesLabel": "pp. 63-68",
+            "topicTitle": "Figuras retóricas: comparación, metáfora, hipérbole y metonimia",
+            "evidenceSnippet": "El lenguaje denotativo es el que sirve para dar información precisa, objeti- va y con una sola interpretación. Se usa, sobre todo, en textos científicos y escolares. En cambio, el lenguaje connotativo permite jugar con las pala- bras y ofrece más de un signifi",
+            "reason": "Aparece de forma clara en las páginas fuente, pero se conserva como suggested por la asignación inferida desde Posibilidades.",
+            "pedagogicalUse": "Puede usarse para enriquecer expresiones y sentimientos en la carta sin tratarlo todavía como contenido cerrado.",
+            "activityReadiness": "usable-for-resonance"
+          },
+          {
+            "concept": "metáfora",
+            "status": "suggested",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              63,
+              64,
+              65,
+              66,
+              67,
+              68
+            ],
+            "sourcePagesLabel": "pp. 63-68",
+            "topicTitle": "Figuras retóricas: comparación, metáfora, hipérbole y metonimia",
+            "evidenceSnippet": "El lenguaje denotativo es el que sirve para dar información precisa, objeti- va y con una sola interpretación. Se usa, sobre todo, en textos científicos y escolares. En cambio, el lenguaje connotativo permite jugar con las pala- bras y ofrece más de un signifi",
+            "reason": "El concepto está presente en la fuente, pero la relación exclusiva con el PA28 aún no se cierra por validación visual.",
+            "pedagogicalUse": "Aporta recursos expresivos que pueden explorarse sin forzar definiciones exhaustivas.",
+            "activityReadiness": "usable-for-resonance"
+          },
+          {
+            "concept": "hipérbole",
+            "status": "suggested",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              63,
+              64,
+              65,
+              66,
+              67,
+              68
+            ],
+            "sourcePagesLabel": "pp. 63-68",
+            "topicTitle": "Figuras retóricas: comparación, metáfora, hipérbole y metonimia",
+            "evidenceSnippet": "El lenguaje denotativo es el que sirve para dar información precisa, objeti- va y con una sola interpretación. Se usa, sobre todo, en textos científicos y escolares. En cambio, el lenguaje connotativo permite jugar con las pala- bras y ofrece más de un signifi",
+            "reason": "La fuente la incluye claramente, pero la columna específica del PA28 todavía se sostiene como inferencia robusta, no como certeza visual.",
+            "pedagogicalUse": "Puede ayudar a discutir intensidad expresiva en la carta.",
+            "activityReadiness": "usable-for-resonance"
+          },
+          {
+            "concept": "metonimia",
+            "status": "suggested",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              63,
+              64,
+              65,
+              66,
+              67,
+              68
+            ],
+            "sourcePagesLabel": "pp. 63-68",
+            "topicTitle": "Figuras retóricas: comparación, metáfora, hipérbole y metonimia",
+            "evidenceSnippet": "El lenguaje denotativo es el que sirve para dar información precisa, objeti- va y con una sola interpretación. Se usa, sobre todo, en textos científicos y escolares. En cambio, el lenguaje connotativo permite jugar con las pala- bras y ofrece más de un signifi",
+            "reason": "La fuente la presenta con claridad, aunque su confirmación para este PA depende de revisar la multicolumna original.",
+            "pedagogicalUse": "Puede trabajarse como referencia interpretativa en borradores de la carta.",
+            "activityReadiness": "usable-for-resonance"
+          },
+          {
+            "concept": "sensaciones e ideas a través de los lenguajes en lenguas indígenas",
+            "status": "needsReview",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              185,
+              186,
+              187,
+              188
+            ],
+            "sourcePagesLabel": "pp. 185-188",
+            "topicTitle": "Sensaciones e ideas",
+            "evidenceSnippet": "Los lenguajes intervienen en la expresi?n de pensamientos, emociones e ideas.",
+            "reason": "La validaci?n visual confirm? que las pp. 184-191 s? pertenecen a la columna de PA28, pero todav?a falta decidir su peso did?ctico dentro del proyecto.",
+            "pedagogicalUse": "Puede enriquecer la relaci?n entre emociones, lenguaje y expresi?n cultural, sin volverlo a?n contenido central confirmado.",
+            "activityReadiness": "not-usable-yet"
+          },
+          {
+            "concept": "biografía",
+            "status": "discarded",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              101,
+              102
+            ],
+            "sourcePagesLabel": "pp. 101-102",
+            "topicTitle": "La biograf?a",
+            "evidenceSnippet": "La biograf?a narra la historia de vida de una persona.",
+            "reason": "Las pp. 97-102 quedaron visualmente confirmadas en la columna de PA29 y ya no corresponden a PA28.",
+            "pedagogicalUse": "No usarla como concepto del proyecto mientras no aparezca una fuente propia dentro de la columna validada.",
+            "activityReadiness": "not-usable-yet"
+          },
+          {
+            "concept": "expresiones artísticas escénicas",
+            "status": "needsReview",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              296,
+              297,
+              298,
+              299,
+              300
+            ],
+            "sourcePagesLabel": "pp. 296-300",
+            "topicTitle": "Las expresiones art?sticas esc?nicas y su relaci?n con el entorno familiar",
+            "evidenceSnippet": "Las artes esc?nicas son una parte fundamental en la cultura e identidad de las comunidades.",
+            "reason": "La validaci?n visual confirm? que el bloque 296-300 pertenece a la columna 1 de PA28, aunque su funci?n exacta dentro del producto final todav?a requiere mediaci?n docente.",
+            "pedagogicalUse": "Puede abrir di?logos entre expresi?n escrita, escena y entorno familiar, sin volverlo a?n concepto plenamente confirmado.",
+            "activityReadiness": "not-usable-yet"
+          }
+        ],
+        "thinkingCriteria": [
+          {
+            "criterion": "Reconocer cómo la escritura puede expresar emociones, ideas y experiencias personales.",
+            "status": "suggested"
+          },
+          {
+            "criterion": "Relacionar recursos retóricos con la intención de comunicar sentimientos y construir identidad.",
+            "status": "suggested"
+          },
+          {
+            "criterion": "Valorar la carta como medio de comunicación personal y cultural.",
+            "status": "suggested"
+          }
+        ],
+        "readinessLevel": "development-partial",
+        "readyForActivities": false,
+        "needsReviewReasons": [
+          "El proyecto ya cuenta con una capa curricular aislada y con validacion visual de columna, pero todavia no debe pasar a actividades interactivas.",
+          "Los enlaces bit.ly del proyecto continuan como recursos pendientes de verificacion de destino final.",
+          "Las paginas 184-191 y 296-300 ya quedaron en la columna correcta; falta decidir con precision didactica cuales de sus conceptos conviene elevar despues."
+        ]
+      },
+      {
+        "id": "lenguajes-1-ppa-10-pa29",
+        "projectId": "lenguajes-1-ppa-10-pa29",
+        "academicProjectNumber": 29,
+        "projectTitle": "Vamos a discurrir",
+        "grade": "1",
+        "field": "Lenguajes",
+        "ppaNumber": "10",
+        "partialClassroomProject": "PPA 10",
+        "partialClassroomProjectTitle": "El artista crea, el espectador disfruta",
+        "bookVolume": "Tomo II",
+        "sourceValidation": {
+          "sourceStatus": "linked",
+          "possibilitiesPages": [
+            24,
+            25,
+            26
+          ],
+          "possibilitiesMaterialId": "grade-1-posibilidades-pos-len-1",
+          "possibilitiesColumnIndex": 2,
+          "columnEvidence": "Validacion visual directa en Posibilidades de uso Lenguajes pp. 24-25: la columna 2 corresponde a PA29. En p. 24 concentra 44-52, 97-102 y 149-156; en p. 25 no agrega apoyo de Multiples Lenguajes."
+        },
+        "finalProduct": {
+          "title": "Texto discursivo",
+          "source": "Posibilidades de uso Lenguajes p. 24 + Nuestro libro de proyectos Tomo II pp. 78-81",
+          "status": "confirmed"
+        },
+        "sourcePages": {
+          "nuestroLibroProyectos": [
+            {
+              "materialId": "grade-1-proyectos-nuestro-libro-de-proyectos-tomo-ii-primer-grado",
+              "label": "Nuestro libro de proyectos Tomo II",
+              "startPage": 78,
+              "endPage": 81,
+              "pagesLabel": "pp. 78-81",
+              "topicTitle": "Proyecto académico 29",
+              "status": "confirmed-source"
+            }
+          ],
+          "conceptBook": [
+            {
+              "materialId": "grade-1-conceptos-lenguajes-primer-grado",
+              "label": "Lenguajes",
+              "startPage": 44,
+              "endPage": 52,
+              "pagesLabel": "pp. 44-52",
+              "topicTitle": "Comentario de texto, exposicion oral y escrita, y tecnicas para la comunicacion oral y escrita",
+              "status": "confirmed-source"
+            },
+            {
+              "materialId": "grade-1-conceptos-lenguajes-primer-grado",
+              "label": "Lenguajes",
+              "startPage": 97,
+              "endPage": 102,
+              "pagesLabel": "pp. 97-102",
+              "topicTitle": "Textos de comunicacion familiar y social: carta y biografia",
+              "status": "confirmed-source"
+            },
+            {
+              "materialId": "grade-1-conceptos-lenguajes-primer-grado",
+              "label": "Lenguajes",
+              "startPage": 149,
+              "endPage": 156,
+              "pagesLabel": "pp. 149-156",
+              "topicTitle": "Diversidad linguistica de Mexico y America Latina",
+              "status": "confirmed-source"
+            }
+          ],
+          "multiplesLenguajes": [],
+          "otherMaterials": [
+            {
+              "label": "Video PA 29: Texto discursivo • Lenguajes • 1er grado",
+              "reference": "https://www.youtube.com/watch?v=Ky4qdRrwlfY",
+              "status": "confirmed"
+            },
+            {
+              "label": "Video PPA 10: 10. El artista crea, el espectador disfruta • Lenguajes • 1er grado",
+              "reference": "https://www.youtube.com/watch?v=ArdR1HHomjg",
+              "status": "confirmed"
+            },
+            {
+              "label": "Recurso de consulta del proyecto",
+              "reference": "Consulta: ¿Qué es un texto discursivo y cuáles son sus características? bit.ly/3R0ForE",
+              "status": "pending-validation"
+            },
+            {
+              "label": "Recurso general del bloque",
+              "reference": "bit.ly/3RpbgXa",
+              "status": "pending-validation"
+            }
+          ]
+        },
+        "supportMaterials": [],
+        "horizonOrPurpose": {
+          "status": "official",
+          "text": "Redactar un texto discursivo sobre la importancia social y personal de la comunicación, atendiendo la relevancia del inglés y de las lenguas originarias del país.",
+          "source": "Nuestro libro de proyectos Tomo II pp. 78-79"
+        },
+        "detonatingStrategy": {
+          "title": "10. El artista crea, el espectador disfruta • Lenguajes • 1er grado",
+          "text": "Video del Proyecto Parcial de Aula 10: 10. El artista crea, el espectador disfruta • Lenguajes • 1er grado",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=ArdR1HHomjg",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "partial-classroom-project"
+        },
+        "academicProjectStrategy": {
+          "title": "Texto discursivo • Lenguajes • 1er grado",
+          "text": "Video detonador del Proyecto Academico 29: Texto discursivo • Lenguajes • 1er grado",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=Ky4qdRrwlfY",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "academic-project"
+        },
+        "academicConcepts": [
+          {
+            "concept": "texto discursivo",
+            "status": "confirmed",
+            "sourceBook": "Nuestro libro de proyectos Tomo II",
+            "sourcePages": [
+              78,
+              79,
+              80
+            ],
+            "sourcePagesLabel": "pp. 78-80",
+            "topicTitle": "texto discursivo",
+            "evidenceSnippet": "eres humanos. Etapa 1. ¿Qué haremos Redactarán un texto discursivo acerca de la importancia social y personal de la comunicación, atendiendo la relevancia de idiomas como el inglés y las lenguas originarias del país. Interculturalidad críti",
+            "reason": "El proyecto lo nombra explícitamente como producto y desarrolla preguntas y actividades sobre sus características.",
+            "pedagogicalUse": "Da sentido al producto final y ayuda a organizar introducción, desarrollo y cierre del discurso.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "importancia social y personal de la comunicación",
+            "status": "confirmed",
+            "sourceBook": "Nuestro libro de proyectos Tomo II",
+            "sourcePages": [
+              78,
+              79,
+              80
+            ],
+            "sourcePagesLabel": "pp. 78-80",
+            "topicTitle": "importancia social y personal de la comunicación",
+            "evidenceSnippet": "remos Redactarán un texto discursivo acerca de la importancia social y personal de la comunicación, atendiendo la relevancia de idiomas como el inglés y las lenguas originarias del país. Interculturalidad crítica: la expresión de los sentim",
+            "reason": "La finalidad del proyecto y sus fuentes de consulta giran alrededor de la importancia de la comunicación para la vida personal y social.",
+            "pedagogicalUse": "Permite evitar un discurso vacío y sostenerlo en experiencias reales de comunicación dentro y fuera de la escuela.",
+            "activityReadiness": "usable-for-resonance"
+          },
+          {
+            "concept": "comentario de texto",
+            "status": "confirmed",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              44,
+              45,
+              46
+            ],
+            "sourcePagesLabel": "pp. 44-46",
+            "topicTitle": "El comentario",
+            "evidenceSnippet": "El comentario es una de las estrategias más recomendables para trabajar la comprensión lectora, ya que ofrece la oportunidad de compartir las ideas propias con los demás, ya sea de forma oral o escrita. La preparación y exposición del comentario son ejercicios",
+            "reason": "Las páginas fuente trabajan el comentario como práctica para comprender, opinar y construir juicios sobre un texto.",
+            "pedagogicalUse": "Sirve como andamiaje para pasar de la comprensión de lecturas a la producción del texto discursivo.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "exposición oral y escrita",
+            "status": "confirmed",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              47,
+              48,
+              49
+            ],
+            "sourcePagesLabel": "pp. 47-49",
+            "topicTitle": "También es importante comprender lo que",
+            "evidenceSnippet": "El comentario de texto tiene una doble fi- nalidad: favorecer la comprensión total o parcial de un texto, explicarlo y darle valor. También es importante comprender lo que rodea al texto: investigar sobre el autor, el tipo de texto y su lugar o territorio de o",
+            "reason": "La fuente presenta de manera clara las características, estructura y preparación de la exposición oral y escrita.",
+            "pedagogicalUse": "Ayuda a planear la presentación del texto discursivo ante la comunidad de aula o invitados.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "técnicas para la comunicación oral y escrita",
+            "status": "confirmed",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              50,
+              51,
+              52
+            ],
+            "sourcePagesLabel": "pp. 50-52",
+            "topicTitle": "Técnicas para la comunicación",
+            "evidenceSnippet": "Técnicas para la comunicación oral y escrita Toda comunicación oral o escrita es una oportunidad de fortalecer la identidad y expresividad de cada persona, es decir, de conformar su voz. No sólo se comunica para informar sobre un tema, sino para interactuar co",
+            "reason": "Las páginas fuente nombran directamente técnicas para la comunicación oral y escrita y sus propiedades básicas.",
+            "pedagogicalUse": "Permite revisar claridad, coherencia, adecuación al público e intercambio de ideas antes de la presentación final.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "diversidad lingüística",
+            "status": "confirmed",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              149,
+              150
+            ],
+            "sourcePagesLabel": "pp. 149-150",
+            "topicTitle": "La diversidad",
+            "evidenceSnippet": "La humanidad funciona a través de la comunicación. Cada individuo tiene la capacidad de expresarse mediante el lenguaje. Éste puede presentarse de muchas formas: la palabra oral y escrita, el sonido, el movimiento, etcétera. Quizás el más conocido y entendido",
+            "reason": "El proyecto pide atender la relevancia del inglés y de las lenguas originarias, y las páginas fuente explican de manera directa la diversidad lingüística.",
+            "pedagogicalUse": "Ayuda a argumentar por qué distintas lenguas conviven y por qué importa reconocerlas en el discurso.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "lenguas más y menos habladas de México y América Latina",
+            "status": "suggested",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              152,
+              153,
+              154
+            ],
+            "sourcePagesLabel": "pp. 152-154",
+            "topicTitle": "escribir. Los anteriores son métodos de",
+            "evidenceSnippet": "Además de muchos modos de hablar, también hay distintas formas de bailar, cantar, pintar, actuar, cocinar, jugar o escribir. Los anteriores son métodos de expresión que permiten no sólo inte- ractuar, sino también establecer lazos y crear sentidos de pertenenc",
+            "reason": "Las páginas fuente lo tratan de manera explícita, pero se mantiene como suggested porque el bloque de Posibilidades duplica estas páginas en más de una columna.",
+            "pedagogicalUse": "Sirve para apoyar argumentos comparativos sobre presencia y valoración de las lenguas.",
+            "activityReadiness": "usable-for-resonance"
+          },
+          {
+            "concept": "revitalización cultural a través de las lenguas indígenas",
+            "status": "suggested",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              155,
+              156
+            ],
+            "sourcePagesLabel": "pp. 155-156",
+            "topicTitle": "La revitalización cultural",
+            "evidenceSnippet": "La revitalización cultural a través de las lenguas indígenas Las lenguas forman parte del patrimonio cultural más valioso de la humani- dad, pues no sólo son importantes para la comunicación, sino también para la difusión de conocimientos, realidades e histori",
+            "reason": "La fuente la desarrolla con claridad, pero aún conviene sostenerla como suggested dentro de este PA hasta revisar la columna de manera visual.",
+            "pedagogicalUse": "Enriquece el cierre del discurso y su relación con patrimonio vivo y memoria colectiva.",
+            "activityReadiness": "usable-for-resonance"
+          },
+          {
+            "concept": "lenguas originarias y extranjeras",
+            "status": "suggested",
+            "sourceBook": "Nuestro libro de proyectos Tomo II",
+            "sourcePages": [
+              79,
+              80
+            ],
+            "sourcePagesLabel": "pp. 79-80",
+            "topicTitle": "lenguas originarias y extranjeras",
+            "evidenceSnippet": "79 Etapa 3. ¡Una propuesta de solución! De modo colaborativo, con su maestra o maestro, elijan el horizonte de expectativas que guiará sus actividades durante el proyecto. Objetivo 1 Objetivo 2 Redactar un texto discursivo en la lengua prop",
+            "reason": "El proyecto las menciona de forma directa, aunque conviene mantener la formulación como suggested al no estar nombrada así en una página temática única.",
+            "pedagogicalUse": "Ayuda a no reducir la reflexión solo al español y a sostener el diálogo entre inglés y lenguas originarias.",
+            "activityReadiness": "usable-for-resonance"
+          }
+        ],
+        "thinkingCriteria": [
+          {
+            "criterion": "Organizar argumentos e ideas para comunicar un punto de vista con claridad.",
+            "status": "suggested"
+          },
+          {
+            "criterion": "Reconocer la diversidad lingüística como parte de la vida personal y social.",
+            "status": "suggested"
+          },
+          {
+            "criterion": "Ajustar la comunicación al público, propósito y contexto.",
+            "status": "suggested"
+          }
+        ],
+        "readinessLevel": "development-partial",
+        "readyForActivities": false,
+        "needsReviewReasons": [
+          "El proyecto ya cuenta con una capa curricular aislada y con validacion visual de columna, pero todavia no debe pasar a actividades interactivas.",
+          "Los enlaces bit.ly del proyecto continuan como recursos pendientes de verificacion de destino final.",
+          "Las pp. 97-102 quedaron confirmadas en la columna 2; falta decidir en una fase posterior si carta y biografia conviene elevarlas a conceptos del proyecto."
+        ]
+      },
+      {
+        "id": "lenguajes-1-ppa-10-pa30",
+        "projectId": "lenguajes-1-ppa-10-pa30",
+        "academicProjectNumber": 30,
+        "projectTitle": "Aprendiendo y jugando, jugando y recordando",
+        "grade": "1",
+        "field": "Lenguajes",
+        "ppaNumber": "10",
+        "partialClassroomProject": "PPA 10",
+        "partialClassroomProjectTitle": "El artista crea, el espectador disfruta",
+        "bookVolume": "Tomo II",
+        "sourceValidation": {
+          "sourceStatus": "linked",
+          "possibilitiesPages": [
+            24,
+            25,
+            26
+          ],
+          "possibilitiesMaterialId": "grade-1-posibilidades-pos-len-1",
+          "possibilitiesColumnIndex": 3,
+          "columnEvidence": "Validacion visual directa en Posibilidades de uso Lenguajes pp. 24-25: la columna 3 corresponde a PA30, con continuidad de 184-191 y del apoyo David Lara. La p. 26 se conserva solo como contexto general de videos academicos."
+        },
+        "finalProduct": {
+          "title": "Memorama",
+          "source": "Posibilidades de uso Lenguajes p. 24 + Nuestro libro de proyectos Tomo II pp. 82-85",
+          "status": "confirmed"
+        },
+        "sourcePages": {
+          "nuestroLibroProyectos": [
+            {
+              "materialId": "grade-1-proyectos-nuestro-libro-de-proyectos-tomo-ii-primer-grado",
+              "label": "Nuestro libro de proyectos Tomo II",
+              "startPage": 82,
+              "endPage": 85,
+              "pagesLabel": "pp. 82-85",
+              "topicTitle": "Proyecto académico 30",
+              "status": "confirmed-source"
+            }
+          ],
+          "conceptBook": [
+            {
+              "materialId": "grade-1-conceptos-lenguajes-primer-grado",
+              "label": "Lenguajes",
+              "startPage": 12,
+              "endPage": 24,
+              "pagesLabel": "pp. 12-24",
+              "topicTitle": "Comprension lectora, tipos de texto y estrategias de comprension",
+              "status": "confirmed-source"
+            },
+            {
+              "materialId": "grade-1-conceptos-lenguajes-primer-grado",
+              "label": "Lenguajes",
+              "startPage": 149,
+              "endPage": 156,
+              "pagesLabel": "pp. 149-156",
+              "topicTitle": "Diversidad linguistica de Mexico y America Latina",
+              "status": "confirmed-source"
+            },
+            {
+              "materialId": "grade-1-conceptos-lenguajes-primer-grado",
+              "label": "Lenguajes",
+              "startPage": 184,
+              "endPage": 191,
+              "pagesLabel": "pp. 184-191",
+              "topicTitle": "Medios de expresion en lenguas indigenas, sensaciones e ideas, y semblanza",
+              "status": "confirmed-source"
+            }
+          ],
+          "multiplesLenguajes": [
+            {
+              "materialId": "grade-1-apoyo-muiltiples-lenguajes-primer-grado",
+              "label": "Múltiples Lenguajes",
+              "startPage": 54,
+              "endPage": 57,
+              "pagesLabel": "pp. 54-57",
+              "topicTitle": "David Lara",
+              "status": "confirmed-source"
+            }
+          ],
+          "otherMaterials": [
+            {
+              "label": "Video PA 30: Memorama  • Lenguajes • 1er grado • Video detonador",
+              "reference": "https://www.youtube.com/watch?v=AMnoOFTIrR8",
+              "status": "confirmed"
+            },
+            {
+              "label": "Video PPA 10: 10. El artista crea, el espectador disfruta • Lenguajes • 1er grado",
+              "reference": "https://www.youtube.com/watch?v=ArdR1HHomjg",
+              "status": "confirmed"
+            },
+            {
+              "label": "Recurso de consulta del proyecto",
+              "reference": "Consulta: ¿Cómo se elabora un memorama? bit.ly/3R0ForE",
+              "status": "pending-validation"
+            },
+            {
+              "label": "Recurso general del bloque",
+              "reference": "bit.ly/3RpbgXa",
+              "status": "pending-validation"
+            }
+          ]
+        },
+        "supportMaterials": [
+          {
+            "title": "David Lara",
+            "kind": "Múltiples Lenguajes",
+            "pages": "pp. 54-57",
+            "status": "confirmed-source"
+          }
+        ],
+        "horizonOrPurpose": {
+          "status": "official",
+          "text": "Elaborar en comunidad un memorama significativo que permita repasar conocimientos, expresar sentimientos, pensamientos y opiniones, y abordar contenidos de interés.",
+          "source": "Nuestro libro de proyectos Tomo II pp. 82-83"
+        },
+        "detonatingStrategy": {
+          "title": "10. El artista crea, el espectador disfruta • Lenguajes • 1er grado",
+          "text": "Video del Proyecto Parcial de Aula 10: 10. El artista crea, el espectador disfruta • Lenguajes • 1er grado",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=ArdR1HHomjg",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "partial-classroom-project"
+        },
+        "academicProjectStrategy": {
+          "title": "Memorama  • Lenguajes • 1er grado • Video detonador",
+          "text": "Video detonador del Proyecto Academico 30: Memorama  • Lenguajes • 1er grado • Video detonador",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=AMnoOFTIrR8",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "academic-project"
+        },
+        "academicConcepts": [
+          {
+            "concept": "memorama",
+            "status": "confirmed",
+            "sourceBook": "Nuestro libro de proyectos Tomo II",
+            "sourcePages": [
+              82,
+              84,
+              85
+            ],
+            "sourcePagesLabel": "pp. 82-85",
+            "topicTitle": "memorama",
+            "evidenceSnippet": "n sentido lógico a lo que se quiere recordar. Los memoramas, por ejemplo, ayudan a ello, porque en su mayoría sus elementos individuales tienen una relación entre sí con una temática común: animales, plantas, juguetes, entre otros. Etapa 1.",
+            "reason": "El memorama aparece explícitamente como producto final, pregunta de apoyo y eje del proyecto.",
+            "pedagogicalUse": "Permite trabajar juego, memoria, reglas y selección de contenidos con sentido comunitario.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "diversidad lingüística",
+            "status": "confirmed",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              149,
+              150
+            ],
+            "sourcePagesLabel": "pp. 149-150",
+            "topicTitle": "La diversidad",
+            "evidenceSnippet": "La humanidad funciona a través de la comunicación. Cada individuo tiene la capacidad de expresarse mediante el lenguaje. Éste puede presentarse de muchas formas: la palabra oral y escrita, el sonido, el movimiento, etcétera. Quizás el más conocido y entendido",
+            "reason": "El proyecto habla de distintas lenguas y la fuente define con claridad la diversidad lingüística como coexistencia de lenguas.",
+            "pedagogicalUse": "Ayuda a decidir qué contenidos y lenguas pueden dialogar dentro del memorama sin trivializarlas.",
+            "activityReadiness": "usable-for-resonance"
+          },
+          {
+            "concept": "lenguas originarias y extranjeras",
+            "status": "confirmed",
+            "sourceBook": "Nuestro libro de proyectos Tomo II",
+            "sourcePages": [
+              83,
+              84,
+              85
+            ],
+            "sourcePagesLabel": "pp. 83-85",
+            "topicTitle": "lenguas originarias y extranjeras",
+            "evidenceSnippet": "cursivos W Emociones, expresiones y sensaciones W Lenguas originarias y extranjeras W Importancia de la comunicación bit.ly/3RpbgXa Etapa 4. Paso a paso Es importante considerar las expresiones en nuestro idioma y en otros, nacionales o mun",
+            "reason": "El problema del proyecto, las fuentes y las actividades mencionan traducir o estructurar expresiones en inglés y en lenguas indígenas.",
+            "pedagogicalUse": "Permite reconocer que el memorama puede comunicar significados entre distintas lenguas y no solo repetir palabras.",
+            "activityReadiness": "usable-for-resonance"
+          },
+          {
+            "concept": "comprensión lectora",
+            "status": "suggested",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              12,
+              13,
+              20,
+              22
+            ],
+            "sourcePagesLabel": "pp. 12-22",
+            "topicTitle": "La comprensión lectora consiste en",
+            "evidenceSnippet": "La comprensión lectora consiste en interpretar un texto a partir de las ideas presentes en él y los saberes previos del lector. Existen diversas estrategias para comprender un texto con mayor facilidad; éstas se seleccionan y ajustan de acuerdo con el tipo de",
+            "reason": "Las páginas fuente sí la trabajan, pero su relación con el memorama depende de validar plenamente la asignación por columna.",
+            "pedagogicalUse": "Puede servir para elegir contenidos y elaborar tarjetas con sentido, pero todavía no como concepto completamente confirmado del proyecto.",
+            "activityReadiness": "usable-for-resonance"
+          },
+          {
+            "concept": "tipos de texto",
+            "status": "suggested",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              13,
+              14,
+              15,
+              16,
+              17
+            ],
+            "sourcePagesLabel": "pp. 13-17",
+            "topicTitle": "Tipos de texto",
+            "evidenceSnippet": "Tipos de texto Los textos que se utilizan en la escuela y en la vida cotidiana tratan sobre diversos temas; además, sus formas y extensiones suelen ser muy distintas. Cada persona los selecciona y lee de acuerdo con los intereses y las necesi- dades que tiene",
+            "reason": "La fuente los desarrolla con claridad, aunque su función específica dentro del memorama todavía debe revisarse didácticamente.",
+            "pedagogicalUse": "Aporta criterios para decidir qué tipo de contenidos conviene representar o recordar en el juego.",
+            "activityReadiness": "usable-for-resonance"
+          },
+          {
+            "concept": "ideas principales y secundarias",
+            "status": "suggested",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              22
+            ],
+            "sourcePagesLabel": "p. 22",
+            "topicTitle": "Un texto se constituye de ideas principales y secundarias. Dado que cada tipo de",
+            "evidenceSnippet": "Un texto se constituye de ideas principales y secundarias. Dado que cada tipo de texto organiza de una manera específica la información y sus ideas, reconocer previa- mente a cuál de los cinco pertenece el texto por leer facilita encontrar las ideas prin- cipa",
+            "reason": "La página fuente la menciona claramente, pero aún se sostiene como suggested porque la asignación de esta secuencia al PA30 es inferida.",
+            "pedagogicalUse": "Puede ayudar a seleccionar qué información merece pasar a las tarjetas del memorama.",
+            "activityReadiness": "usable-for-resonance"
+          },
+          {
+            "concept": "expresiones artísticas escénicas",
+            "status": "discarded",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              296,
+              297,
+              298,
+              299,
+              300
+            ],
+            "sourcePagesLabel": "pp. 296-300",
+            "topicTitle": "Las expresiones art?sticas esc?nicas y su relaci?n con el entorno familiar",
+            "evidenceSnippet": "Las artes esc?nicas son una parte fundamental en la cultura e identidad de las comunidades.",
+            "reason": "La validaci?n visual del bloque 24-25 mostr? que las pp. 296-300 pertenecen a la columna 1 de PA28, no a PA30.",
+            "pedagogicalUse": "No usar este concepto en PA30 mientras no exista una fuente propia del proyecto que lo sostenga.",
+            "activityReadiness": "not-usable-yet"
+          },
+          {
+            "concept": "pensamientos, sentimientos y opiniones",
+            "status": "confirmed",
+            "sourceBook": "Nuestro libro de proyectos Tomo II",
+            "sourcePages": [
+              82,
+              83,
+              84
+            ],
+            "sourcePagesLabel": "pp. 82-84",
+            "topicTitle": "pensamientos, sentimientos y opiniones",
+            "evidenceSnippet": "82 Proyecto académico 30 Aprendiendo y jugando, jugando y recordando Lo lúdico hace referencia a la diversión y al juego, dos elementos que no suelen asociarse con el aprendizaje y el estudio. Una de las formas en las que actúa la memoria e",
+            "reason": "El proyecto enuncia de forma explícita que el memorama servirá para expresar sentimientos, pensamientos y opiniones.",
+            "pedagogicalUse": "Evita que el producto se convierta en un juego vacío y lo conecta con expresión, reflexión y diálogo.",
+            "activityReadiness": "usable-for-resonance"
+          },
+          {
+            "concept": "revitalización cultural a través de las lenguas indígenas",
+            "status": "suggested",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              155,
+              156
+            ],
+            "sourcePagesLabel": "pp. 155-156",
+            "topicTitle": "La revitalización cultural",
+            "evidenceSnippet": "La revitalización cultural a través de las lenguas indígenas Las lenguas forman parte del patrimonio cultural más valioso de la humani- dad, pues no sólo son importantes para la comunicación, sino también para la difusión de conocimientos, realidades e histori",
+            "reason": "La fuente lo desarrolla con claridad y dialoga con el uso de lenguas indígenas en el memorama, pero sigue siendo una asignación por columna inferida.",
+            "pedagogicalUse": "Abre diálogo sobre cuidado de las lenguas y sentido cultural del juego.",
+            "activityReadiness": "usable-for-resonance"
+          },
+          {
+            "concept": "sensaciones e ideas a través de los lenguajes en lenguas indígenas",
+            "status": "suggested",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              185,
+              186,
+              187,
+              188
+            ],
+            "sourcePagesLabel": "pp. 185-188",
+            "topicTitle": "Sensaciones e ideas",
+            "evidenceSnippet": "Los lenguajes intervienen en la expresi?n de pensamientos, emociones e ideas, as? como en la construcci?n de significados.",
+            "reason": "La validaci?n visual confirm? que las pp. 184-191 s? pertenecen a la columna 3 de PA30, aunque todav?a no conviene elevar este contenido a concepto confirmado del proyecto.",
+            "pedagogicalUse": "Puede apoyar la selecci?n de pares y categor?as del memorama relacionadas con expresi?n, lengua e identidad.",
+            "activityReadiness": "usable-for-resonance"
+          }
+        ],
+        "thinkingCriteria": [
+          {
+            "criterion": "Relacionar juego, memoria y lenguaje para construir un producto con sentido.",
+            "status": "suggested"
+          },
+          {
+            "criterion": "Distinguir información principal y tipos de texto antes de trasladarlos a un soporte lúdico.",
+            "status": "suggested"
+          },
+          {
+            "criterion": "Valorar distintas lenguas como medios de expresión, convivencia e identidad.",
+            "status": "suggested"
+          }
+        ],
+        "readinessLevel": "development-partial",
+        "readyForActivities": false,
+        "needsReviewReasons": [
+          "El proyecto ya cuenta con una capa curricular aislada y con validacion visual de columna, pero todavia no debe pasar a actividades interactivas.",
+          "Los enlaces bit.ly del proyecto continuan como recursos pendientes de verificacion de destino final.",
+          "El apoyo David Lara quedo confirmado como fuente, pero todavia conviene revisar su OCR y su uso didactico con mas detalle."
+        ]
+      }
+    ]
+  },
+  "conceptsValidation": {
+    "grade": "1",
+    "field": "Lenguajes",
+    "partialClassroomProject": "PPA 10",
+    "partialClassroomProjectTitle": "El artista crea, el espectador disfruta",
+    "generatedAt": "2026-05-25T01:49:12.793Z",
+    "entries": [
+      {
+        "projectId": "lenguajes-1-ppa-10-pa28",
+        "projectTitle": "Expresa tus emociones, sentimientos e ideas",
+        "concept": "carta de presentación emotiva",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Nuestro libro de proyectos Tomo II",
+          "pages": [
+            74,
+            75,
+            76
+          ],
+          "reason": "El proyecto nombra explícitamente la carta de presentación emotiva como acción central, producto y pregunta de apoyo."
+        },
+        "pedagogicalUse": "Permite orientar la escritura personal y la presentación pública del proyecto sin reducirlo a un formato vacío.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-1-ppa-10-pa28",
+        "projectTitle": "Expresa tus emociones, sentimientos e ideas",
+        "concept": "carta",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Nuestro libro de proyectos Tomo II",
+          "pages": [
+            74,
+            75,
+            76
+          ],
+          "reason": "La validacion visual retiro las pp. 98-100 de la columna de PA28; la carta sigue confirmada desde el propio proyecto y su producto final."
+        },
+        "pedagogicalUse": "Ayuda a revisar destinatario, intencion comunicativa y tono desde el producto central del proyecto.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-1-ppa-10-pa28",
+        "projectTitle": "Expresa tus emociones, sentimientos e ideas",
+        "concept": "expresión escrita de sentimientos y emociones",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Nuestro libro de proyectos Tomo II",
+          "pages": [
+            74,
+            76
+          ],
+          "reason": "La descripción del proyecto y las fuentes de consulta mencionan de forma explícita sentimientos, emociones y su expresión escrita."
+        },
+        "pedagogicalUse": "Sostiene la resonancia individual y evita que la carta se vuelva un mero llenado de formato.",
+        "activityReadiness": "usable-for-resonance"
+      },
+      {
+        "projectId": "lenguajes-1-ppa-10-pa28",
+        "projectTitle": "Expresa tus emociones, sentimientos e ideas",
+        "concept": "figuras retóricas",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            61,
+            62,
+            63,
+            68,
+            71
+          ],
+          "reason": "El bloque de Posibilidades asocia al PA28 las páginas sobre figuras retóricas como recurso para enriquecer la escritura emotiva."
+        },
+        "pedagogicalUse": "Permite trabajar la expresividad del lenguaje y discutir cómo las palabras intensifican sensaciones e ideas.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-1-ppa-10-pa28",
+        "projectTitle": "Expresa tus emociones, sentimientos e ideas",
+        "concept": "lenguaje connotativo",
+        "status": "suggested",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            62,
+            63
+          ],
+          "reason": "La página fuente lo incluye con claridad, pero su uso como eje del PA28 todavía depende de validar visualmente la separación por columna."
+        },
+        "pedagogicalUse": "Puede orientar conversaciones sobre sentidos literales y sugeridos en la carta, pero conviene manejarlo con cuidado.",
+        "activityReadiness": "usable-for-resonance"
+      },
+      {
+        "projectId": "lenguajes-1-ppa-10-pa28",
+        "projectTitle": "Expresa tus emociones, sentimientos e ideas",
+        "concept": "lenguaje denotativo",
+        "status": "suggested",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            62,
+            63
+          ],
+          "reason": "La fuente lo presenta de manera directa, aunque la vinculación exclusiva con el PA28 aún requiere revisión visual de columnas."
+        },
+        "pedagogicalUse": "Ayuda a comparar usos literales y expresivos del lenguaje dentro de la carta.",
+        "activityReadiness": "usable-for-resonance"
+      },
+      {
+        "projectId": "lenguajes-1-ppa-10-pa28",
+        "projectTitle": "Expresa tus emociones, sentimientos e ideas",
+        "concept": "comparación",
+        "status": "suggested",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            63,
+            64,
+            65,
+            66,
+            67,
+            68
+          ],
+          "reason": "Aparece de forma clara en las páginas fuente, pero se conserva como suggested por la asignación inferida desde Posibilidades."
+        },
+        "pedagogicalUse": "Puede usarse para enriquecer expresiones y sentimientos en la carta sin tratarlo todavía como contenido cerrado.",
+        "activityReadiness": "usable-for-resonance"
+      },
+      {
+        "projectId": "lenguajes-1-ppa-10-pa28",
+        "projectTitle": "Expresa tus emociones, sentimientos e ideas",
+        "concept": "metáfora",
+        "status": "suggested",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            63,
+            64,
+            65,
+            66,
+            67,
+            68
+          ],
+          "reason": "El concepto está presente en la fuente, pero la relación exclusiva con el PA28 aún no se cierra por validación visual."
+        },
+        "pedagogicalUse": "Aporta recursos expresivos que pueden explorarse sin forzar definiciones exhaustivas.",
+        "activityReadiness": "usable-for-resonance"
+      },
+      {
+        "projectId": "lenguajes-1-ppa-10-pa28",
+        "projectTitle": "Expresa tus emociones, sentimientos e ideas",
+        "concept": "hipérbole",
+        "status": "suggested",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            63,
+            64,
+            65,
+            66,
+            67,
+            68
+          ],
+          "reason": "La fuente la incluye claramente, pero la columna específica del PA28 todavía se sostiene como inferencia robusta, no como certeza visual."
+        },
+        "pedagogicalUse": "Puede ayudar a discutir intensidad expresiva en la carta.",
+        "activityReadiness": "usable-for-resonance"
+      },
+      {
+        "projectId": "lenguajes-1-ppa-10-pa28",
+        "projectTitle": "Expresa tus emociones, sentimientos e ideas",
+        "concept": "metonimia",
+        "status": "suggested",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            63,
+            64,
+            65,
+            66,
+            67,
+            68
+          ],
+          "reason": "La fuente la presenta con claridad, aunque su confirmación para este PA depende de revisar la multicolumna original."
+        },
+        "pedagogicalUse": "Puede trabajarse como referencia interpretativa en borradores de la carta.",
+        "activityReadiness": "usable-for-resonance"
+      },
+      {
+        "projectId": "lenguajes-1-ppa-10-pa28",
+        "projectTitle": "Expresa tus emociones, sentimientos e ideas",
+        "concept": "sensaciones e ideas a través de los lenguajes en lenguas indígenas",
+        "status": "needsReview",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            185,
+            186,
+            187,
+            188
+          ],
+          "reason": "La validaci?n visual confirm? que las pp. 184-191 s? pertenecen a la columna de PA28, pero todav?a falta decidir su peso did?ctico dentro del proyecto."
+        },
+        "pedagogicalUse": "Puede enriquecer la relaci?n entre emociones, lenguaje y expresi?n cultural, sin volverlo a?n contenido central confirmado.",
+        "activityReadiness": "not-usable-yet"
+      },
+      {
+        "projectId": "lenguajes-1-ppa-10-pa28",
+        "projectTitle": "Expresa tus emociones, sentimientos e ideas",
+        "concept": "biografía",
+        "status": "discarded",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            101,
+            102
+          ],
+          "reason": "Las pp. 97-102 quedaron visualmente confirmadas en la columna de PA29 y ya no corresponden a PA28."
+        },
+        "pedagogicalUse": "No usarla como concepto del proyecto mientras no aparezca una fuente propia dentro de la columna validada.",
+        "activityReadiness": "not-usable-yet"
+      },
+      {
+        "projectId": "lenguajes-1-ppa-10-pa29",
+        "projectTitle": "Vamos a discurrir",
+        "concept": "texto discursivo",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Nuestro libro de proyectos Tomo II",
+          "pages": [
+            78,
+            79,
+            80
+          ],
+          "reason": "El proyecto lo nombra explícitamente como producto y desarrolla preguntas y actividades sobre sus características."
+        },
+        "pedagogicalUse": "Da sentido al producto final y ayuda a organizar introducción, desarrollo y cierre del discurso.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-1-ppa-10-pa29",
+        "projectTitle": "Vamos a discurrir",
+        "concept": "importancia social y personal de la comunicación",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Nuestro libro de proyectos Tomo II",
+          "pages": [
+            78,
+            79,
+            80
+          ],
+          "reason": "La finalidad del proyecto y sus fuentes de consulta giran alrededor de la importancia de la comunicación para la vida personal y social."
+        },
+        "pedagogicalUse": "Permite evitar un discurso vacío y sostenerlo en experiencias reales de comunicación dentro y fuera de la escuela.",
+        "activityReadiness": "usable-for-resonance"
+      },
+      {
+        "projectId": "lenguajes-1-ppa-10-pa29",
+        "projectTitle": "Vamos a discurrir",
+        "concept": "comentario de texto",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            44,
+            45,
+            46
+          ],
+          "reason": "Las páginas fuente trabajan el comentario como práctica para comprender, opinar y construir juicios sobre un texto."
+        },
+        "pedagogicalUse": "Sirve como andamiaje para pasar de la comprensión de lecturas a la producción del texto discursivo.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-1-ppa-10-pa29",
+        "projectTitle": "Vamos a discurrir",
+        "concept": "exposición oral y escrita",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            47,
+            48,
+            49
+          ],
+          "reason": "La fuente presenta de manera clara las características, estructura y preparación de la exposición oral y escrita."
+        },
+        "pedagogicalUse": "Ayuda a planear la presentación del texto discursivo ante la comunidad de aula o invitados.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-1-ppa-10-pa29",
+        "projectTitle": "Vamos a discurrir",
+        "concept": "técnicas para la comunicación oral y escrita",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            50,
+            51,
+            52
+          ],
+          "reason": "Las páginas fuente nombran directamente técnicas para la comunicación oral y escrita y sus propiedades básicas."
+        },
+        "pedagogicalUse": "Permite revisar claridad, coherencia, adecuación al público e intercambio de ideas antes de la presentación final.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-1-ppa-10-pa29",
+        "projectTitle": "Vamos a discurrir",
+        "concept": "diversidad lingüística",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            149,
+            150
+          ],
+          "reason": "El proyecto pide atender la relevancia del inglés y de las lenguas originarias, y las páginas fuente explican de manera directa la diversidad lingüística."
+        },
+        "pedagogicalUse": "Ayuda a argumentar por qué distintas lenguas conviven y por qué importa reconocerlas en el discurso.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-1-ppa-10-pa29",
+        "projectTitle": "Vamos a discurrir",
+        "concept": "lenguas más y menos habladas de México y América Latina",
+        "status": "suggested",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            152,
+            153,
+            154
+          ],
+          "reason": "Las páginas fuente lo tratan de manera explícita, pero se mantiene como suggested porque el bloque de Posibilidades duplica estas páginas en más de una columna."
+        },
+        "pedagogicalUse": "Sirve para apoyar argumentos comparativos sobre presencia y valoración de las lenguas.",
+        "activityReadiness": "usable-for-resonance"
+      },
+      {
+        "projectId": "lenguajes-1-ppa-10-pa29",
+        "projectTitle": "Vamos a discurrir",
+        "concept": "revitalización cultural a través de las lenguas indígenas",
+        "status": "suggested",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            155,
+            156
+          ],
+          "reason": "La fuente la desarrolla con claridad, pero aún conviene sostenerla como suggested dentro de este PA hasta revisar la columna de manera visual."
+        },
+        "pedagogicalUse": "Enriquece el cierre del discurso y su relación con patrimonio vivo y memoria colectiva.",
+        "activityReadiness": "usable-for-resonance"
+      },
+      {
+        "projectId": "lenguajes-1-ppa-10-pa29",
+        "projectTitle": "Vamos a discurrir",
+        "concept": "lenguas originarias y extranjeras",
+        "status": "suggested",
+        "evidence": {
+          "sourceBook": "Nuestro libro de proyectos Tomo II",
+          "pages": [
+            79,
+            80
+          ],
+          "reason": "El proyecto las menciona de forma directa, aunque conviene mantener la formulación como suggested al no estar nombrada así en una página temática única."
+        },
+        "pedagogicalUse": "Ayuda a no reducir la reflexión solo al español y a sostener el diálogo entre inglés y lenguas originarias.",
+        "activityReadiness": "usable-for-resonance"
+      },
+      {
+        "projectId": "lenguajes-1-ppa-10-pa30",
+        "projectTitle": "Aprendiendo y jugando, jugando y recordando",
+        "concept": "memorama",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Nuestro libro de proyectos Tomo II",
+          "pages": [
+            82,
+            84,
+            85
+          ],
+          "reason": "El memorama aparece explícitamente como producto final, pregunta de apoyo y eje del proyecto."
+        },
+        "pedagogicalUse": "Permite trabajar juego, memoria, reglas y selección de contenidos con sentido comunitario.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-1-ppa-10-pa30",
+        "projectTitle": "Aprendiendo y jugando, jugando y recordando",
+        "concept": "diversidad lingüística",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            149,
+            150
+          ],
+          "reason": "El proyecto habla de distintas lenguas y la fuente define con claridad la diversidad lingüística como coexistencia de lenguas."
+        },
+        "pedagogicalUse": "Ayuda a decidir qué contenidos y lenguas pueden dialogar dentro del memorama sin trivializarlas.",
+        "activityReadiness": "usable-for-resonance"
+      },
+      {
+        "projectId": "lenguajes-1-ppa-10-pa30",
+        "projectTitle": "Aprendiendo y jugando, jugando y recordando",
+        "concept": "lenguas originarias y extranjeras",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Nuestro libro de proyectos Tomo II",
+          "pages": [
+            83,
+            84,
+            85
+          ],
+          "reason": "El problema del proyecto, las fuentes y las actividades mencionan traducir o estructurar expresiones en inglés y en lenguas indígenas."
+        },
+        "pedagogicalUse": "Permite reconocer que el memorama puede comunicar significados entre distintas lenguas y no solo repetir palabras.",
+        "activityReadiness": "usable-for-resonance"
+      },
+      {
+        "projectId": "lenguajes-1-ppa-10-pa30",
+        "projectTitle": "Aprendiendo y jugando, jugando y recordando",
+        "concept": "comprensión lectora",
+        "status": "suggested",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            12,
+            13,
+            20,
+            22
+          ],
+          "reason": "Las páginas fuente sí la trabajan, pero su relación con el memorama depende de validar plenamente la asignación por columna."
+        },
+        "pedagogicalUse": "Puede servir para elegir contenidos y elaborar tarjetas con sentido, pero todavía no como concepto completamente confirmado del proyecto.",
+        "activityReadiness": "usable-for-resonance"
+      },
+      {
+        "projectId": "lenguajes-1-ppa-10-pa30",
+        "projectTitle": "Aprendiendo y jugando, jugando y recordando",
+        "concept": "tipos de texto",
+        "status": "suggested",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            13,
+            14,
+            15,
+            16,
+            17
+          ],
+          "reason": "La fuente los desarrolla con claridad, aunque su función específica dentro del memorama todavía debe revisarse didácticamente."
+        },
+        "pedagogicalUse": "Aporta criterios para decidir qué tipo de contenidos conviene representar o recordar en el juego.",
+        "activityReadiness": "usable-for-resonance"
+      },
+      {
+        "projectId": "lenguajes-1-ppa-10-pa30",
+        "projectTitle": "Aprendiendo y jugando, jugando y recordando",
+        "concept": "ideas principales y secundarias",
+        "status": "suggested",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            22
+          ],
+          "reason": "La página fuente la menciona claramente, pero aún se sostiene como suggested porque la asignación de esta secuencia al PA30 es inferida."
+        },
+        "pedagogicalUse": "Puede ayudar a seleccionar qué información merece pasar a las tarjetas del memorama.",
+        "activityReadiness": "usable-for-resonance"
+      },
+      {
+        "projectId": "lenguajes-1-ppa-10-pa30",
+        "projectTitle": "Aprendiendo y jugando, jugando y recordando",
+        "concept": "expresiones artísticas escénicas",
+        "status": "discarded",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            296,
+            297,
+            298,
+            299,
+            300
+          ],
+          "reason": "La validaci?n visual del bloque 24-25 mostr? que las pp. 296-300 pertenecen a la columna 1 de PA28, no a PA30."
+        },
+        "pedagogicalUse": "No usar este concepto en PA30 mientras no exista una fuente propia del proyecto que lo sostenga.",
+        "activityReadiness": "not-usable-yet"
+      },
+      {
+        "projectId": "lenguajes-1-ppa-10-pa30",
+        "projectTitle": "Aprendiendo y jugando, jugando y recordando",
+        "concept": "pensamientos, sentimientos y opiniones",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Nuestro libro de proyectos Tomo II",
+          "pages": [
+            82,
+            83,
+            84
+          ],
+          "reason": "El proyecto enuncia de forma explícita que el memorama servirá para expresar sentimientos, pensamientos y opiniones."
+        },
+        "pedagogicalUse": "Evita que el producto se convierta en un juego vacío y lo conecta con expresión, reflexión y diálogo.",
+        "activityReadiness": "usable-for-resonance"
+      },
+      {
+        "projectId": "lenguajes-1-ppa-10-pa30",
+        "projectTitle": "Aprendiendo y jugando, jugando y recordando",
+        "concept": "revitalización cultural a través de las lenguas indígenas",
+        "status": "suggested",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            155,
+            156
+          ],
+          "reason": "La fuente lo desarrolla con claridad y dialoga con el uso de lenguas indígenas en el memorama, pero sigue siendo una asignación por columna inferida."
+        },
+        "pedagogicalUse": "Abre diálogo sobre cuidado de las lenguas y sentido cultural del juego.",
+        "activityReadiness": "usable-for-resonance"
+      },
+      {
+        "projectId": "lenguajes-1-ppa-10-pa28",
+        "projectTitle": "Expresa tus emociones, sentimientos e ideas",
+        "concept": "expresiones artísticas escénicas",
+        "status": "needsReview",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            296,
+            297,
+            298,
+            299,
+            300
+          ],
+          "reason": "La validaci?n visual confirm? que el bloque 296-300 pertenece a la columna 1 de PA28, aunque su funci?n exacta dentro del producto final todav?a requiere mediaci?n docente."
+        },
+        "pedagogicalUse": "Puede abrir di?logos entre expresi?n escrita, escena y entorno familiar, sin volverlo a?n concepto plenamente confirmado.",
+        "activityReadiness": "not-usable-yet"
+      },
+      {
+        "projectId": "lenguajes-1-ppa-10-pa30",
+        "projectTitle": "Aprendiendo y jugando, jugando y recordando",
+        "concept": "sensaciones e ideas a través de los lenguajes en lenguas indígenas",
+        "status": "suggested",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            185,
+            186,
+            187,
+            188
+          ],
+          "reason": "La validaci?n visual confirm? que las pp. 184-191 s? pertenecen a la columna 3 de PA30, aunque todav?a no conviene elevar este contenido a concepto confirmado del proyecto."
+        },
+        "pedagogicalUse": "Puede apoyar la selecci?n de pares y categor?as del memorama relacionadas con expresi?n, lengua e identidad.",
+        "activityReadiness": "usable-for-resonance"
+      }
+    ]
+  },
+  "pedagogicalArticulation": {
+    "grade": "1",
+    "field": "Lenguajes",
+    "ppaNumber": "10",
+    "ppaTitle": "El artista crea, el espectador disfruta",
+    "status": "teacher-orientation",
+    "officialHorizonStatus": "pending",
+    "situatedPedagogicalOrientation": "Este PPA puede orientar un trabajo situado donde las y los estudiantes reconozcan que el lenguaje tambi?n es una forma de creaci?n art?stica, de di?logo con otras personas y de construcci?n de comunidad. PA28 abre la exploraci?n de emociones, ideas y experiencias mediante la carta de presentaci?n emotiva, con apoyo de Carta desde Varsovia y con ?nfasis en la expresividad del lenguaje; PA29 permite argumentar sobre la importancia de la comunicaci?n y de la convivencia entre lenguas, incluyendo el ingl?s y las lenguas originarias, sin forzar todav?a los contenidos de las pp. 97-102 como conceptos confirmados; y PA30 ofrece una entrada l?dica para relacionar memoria, juego, diversidad ling??stica y expresi?n de pensamientos y opiniones, con apoyo de David Lara. En conjunto, el bloque puede ayudar a que la lectura, la escritura, la oralidad y el juego no se separen de la identidad, de la vida cotidiana ni de la participaci?n comunitaria.",
+    "integratingQuestions": [
+      "¿Qué cambia cuando usamos cartas, discursos y juegos para decir lo que sentimos, pensamos y valoramos?",
+      "¿Cómo se relacionan la creación artística, la comunicación y la diversidad de lenguas en la vida de una comunidad?",
+      "¿De qué manera un producto escolar puede volverse una forma real de diálogo con otras personas?"
+    ],
+    "projectConnections": [
+      {
+        "projectId": "lenguajes-1-ppa-10-pa28",
+        "projectTitle": "Expresa tus emociones, sentimientos e ideas",
+        "roleInPpa": "Abre el bloque desde la expresi?n personal, la carta y el cuidado de emociones, ideas e identidad, con apoyo de Carta desde Varsovia.",
+        "confirmedConcepts": [
+          "carta de presentación emotiva",
+          "carta",
+          "expresión escrita de sentimientos y emociones",
+          "figuras retóricas"
+        ],
+        "suggestedConcepts": [
+          "lenguaje connotativo",
+          "lenguaje denotativo",
+          "comparaci?n",
+          "met?fora",
+          "hip?rbole",
+          "metonimia",
+          "sensaciones e ideas a trav?s de los lenguajes en lenguas ind?genas",
+          "expresiones art?sticas esc?nicas"
+        ],
+        "pedagogicalUse": "Favorece la autoexpresi?n escrita con sentido comunitario y cuidado de la forma; Carta desde Varsovia puede funcionar como apoyo de lectura sin desplazar el producto central del proyecto."
+      },
+      {
+        "projectId": "lenguajes-1-ppa-10-pa29",
+        "projectTitle": "Vamos a discurrir",
+        "roleInPpa": "Profundiza en la comunicaci?n como pr?ctica social y en la relaci?n entre distintas lenguas y p?blicos, con p?ginas adicionales de apoyo en pp. 97-102 todav?a sin convertir en conceptos confirmados.",
+        "confirmedConcepts": [
+          "texto discursivo",
+          "importancia social y personal de la comunicación",
+          "comentario de texto",
+          "exposición oral y escrita",
+          "técnicas para la comunicación oral y escrita",
+          "diversidad lingüística"
+        ],
+        "suggestedConcepts": [
+          "lenguas más y menos habladas de México y América Latina",
+          "revitalización cultural a través de las lenguas indígenas",
+          "lenguas originarias y extranjeras"
+        ],
+        "pedagogicalUse": "Ayuda a construir argumentaci?n, exposici?n y reflexi?n sobre diversidad ling??stica; las pp. 97-102 pueden usarse como apoyo de lectura, pero no como n?cleo conceptual confirmado, y por ahora no hay apoyo de M?ltiples Lenguajes claramente asignado a esta columna."
+      },
+      {
+        "projectId": "lenguajes-1-ppa-10-pa30",
+        "projectTitle": "Aprendiendo y jugando, jugando y recordando",
+        "roleInPpa": "Lleva el bloque hacia una experiencia l?dica y memor?stica donde las lenguas y los contenidos se organizan para compartirse, con apoyo de David Lara.",
+        "confirmedConcepts": [
+          "memorama",
+          "diversidad lingüística",
+          "lenguas originarias y extranjeras",
+          "pensamientos, sentimientos y opiniones"
+        ],
+        "suggestedConcepts": [
+          "comprensi?n lectora",
+          "tipos de texto",
+          "ideas principales y secundarias",
+          "revitalizaci?n cultural a trav?s de las lenguas ind?genas",
+          "sensaciones e ideas a trav?s de los lenguajes en lenguas ind?genas"
+        ],
+        "pedagogicalUse": "Permite articular memoria, juego, selecci?n de contenidos y valoraci?n de distintas lenguas; David Lara puede funcionar como apoyo, mientras que expresiones art?sticas esc?nicas ya no debe usarse como concepto del proyecto."
+      }
+    ],
+    "criteriaOfThought": [
+      {
+        "criterion": "Reconocer que distintas formas de lenguaje pueden expresar emociones, ideas, argumentos y memoria.",
+        "status": "suggested",
+        "basis": [
+          "carta de presentación emotiva",
+          "texto discursivo",
+          "memorama"
+        ]
+      },
+      {
+        "criterion": "Relacionar comunicación, creación artística y vida comunitaria sin separar forma y contenido.",
+        "status": "suggested",
+        "basis": [
+          "figuras retóricas",
+          "técnicas para la comunicación oral y escrita",
+          "pensamientos, sentimientos y opiniones"
+        ]
+      },
+      {
+        "criterion": "Valorar la diversidad lingüística y el papel de las lenguas originarias e inglesa en la construcción de identidad.",
+        "status": "suggested",
+        "basis": [
+          "diversidad lingüística",
+          "lenguas originarias y extranjeras",
+          "revitalización cultural a través de las lenguas indígenas"
+        ]
+      },
+      {
+        "criterion": "Seleccionar y organizar información con sentido para comunicarla a otras personas.",
+        "status": "suggested",
+        "basis": [
+          "comentario de texto",
+          "comprensión lectora",
+          "tipos de texto"
+        ]
+      }
+    ],
+    "possibleResonanceQuestion": "Si una carta, un texto discursivo y un memorama pueden ayudarnos a decir lo que sentimos, pensamos y recordamos, ¿qué nos muestran juntos sobre la manera en que una comunidad se comunica, crea y cuida sus lenguas?",
+    "teacherNotes": [
+      "El bloque funciona mejor si no se divide en tres tareas aisladas, sino como tres modos de expresar, interpretar y compartir lenguaje.",
+      "Conviene cuidar que el juego, la argumentación y la carta mantengan relación con experiencias reales de la comunidad y no se queden en ejercicios descontextualizados.",
+      "Aunque el PPA dialoga con el arte y con otras lenguas, todavía no debe tratarse como actividades interactivas ni como secuencia cerrada."
+    ],
+    "notReadyFor": [
+      "actividades interactivas",
+      "full-games",
+      "summative-exam"
+    ]
+  },
+  "teacherNotesAndResonances": {
+    "grade": "1",
+    "field": "Lenguajes",
+    "ppaNumber": "10",
+    "status": "teacher-orientation",
+    "officialHorizonStatus": "pending",
+    "ppaIntegratingResonance": "Cuando escribimos una carta de presentaci?n emotiva, preparamos un texto discursivo y construimos un memorama con distintas lenguas y formas de expresi?n, ?qu? descubrimos sobre nuestras emociones, nuestras ideas y la manera en que una comunidad se comunica, se recuerda y se reconoce?",
+    "communityPrompts": {
+      "recoverCommunityKnowledge": [
+        "¿Qué formas de comunicación, relatos, juegos de palabras o mensajes son importantes en nuestra comunidad?",
+        "¿Qué lenguas, expresiones o maneras de decir siguen vivas en la familia, la escuela o el territorio?"
+      ],
+      "familyDialogue": [
+        "¿Qué cartas, mensajes, discursos, consejos o juegos recuerdan en casa que hayan ayudado a comunicar algo importante?",
+        "¿Qué palabras, expresiones o lenguas consideran valiosas para que no se pierdan?"
+      ],
+      "territoryLanguageMemoryPractices": [
+        "¿Dónde se escuchan más claramente las distintas formas de hablar, cantar, contar o explicar en nuestra comunidad?",
+        "¿Qué prácticas culturales muestran mejor la relación entre lenguaje, arte y memoria?"
+      ],
+      "connectFinalProductWithCommunity": [
+        "¿Cómo podría compartirse cada producto con otras personas para que abra diálogo y no se quede guardado en el salón?",
+        "¿Qué aportes de la comunidad podrían enriquecer la carta, el texto discursivo o el memorama antes de su versión final?"
+      ]
+    },
+    "criteriaOfThoughtSuggested": [
+      {
+        "criterion": "Reconocer que distintas formas de lenguaje pueden expresar emociones, ideas, argumentos y memoria.",
+        "status": "suggested",
+        "basis": [
+          "carta de presentación emotiva",
+          "texto discursivo",
+          "memorama"
+        ]
+      },
+      {
+        "criterion": "Relacionar comunicación, creación artística y vida comunitaria sin separar forma y contenido.",
+        "status": "suggested",
+        "basis": [
+          "figuras retóricas",
+          "técnicas para la comunicación oral y escrita",
+          "pensamientos, sentimientos y opiniones"
+        ]
+      },
+      {
+        "criterion": "Valorar la diversidad lingüística y el papel de las lenguas originarias e inglesa en la construcción de identidad.",
+        "status": "suggested",
+        "basis": [
+          "diversidad lingüística",
+          "lenguas originarias y extranjeras",
+          "revitalización cultural a través de las lenguas indígenas"
+        ]
+      },
+      {
+        "criterion": "Seleccionar y organizar información con sentido para comunicarla a otras personas.",
+        "status": "suggested",
+        "basis": [
+          "comentario de texto",
+          "comprensión lectora",
+          "tipos de texto"
+        ]
+      }
+    ],
+    "didacticWarnings": [
+      "No convertir la carta, el discurso o el memorama en formatos vacíos de copia o repetición.",
+      "No usar la diversidad lingüística solo como adorno; debe tener sentido real dentro del producto.",
+      "No tratar conceptos suggested como si ya fueran cierres definitivos del proyecto."
+    ],
+    "projects": [
+      {
+        "projectId": "lenguajes-1-ppa-10-pa28",
+        "projectTitle": "Expresa tus emociones, sentimientos e ideas",
+        "teacherNotes": [
+          "El sentido pedag?gico del proyecto est? en escribir con honestidad y cuidado, no solo en cumplir con una estructura de carta.",
+          "Carta desde Varsovia puede funcionar como apoyo para observar tono, destinatario y expresividad, sin desplazar la voz propia del grupo.",
+          "Conviene ayudar a que las emociones y experiencias tengan relaci?n con la vida cotidiana y con el ingreso a la Telesecundaria.",
+          "Las figuras ret?ricas pueden enriquecer la escritura, pero no deben convertirse en una lista de tecnicismos aislados.",
+          "Es mejor evitar una carta estandarizada y decorativa; importa m?s la voz propia y el sentido de compartirla, y no conviene usar biograf?a como concepto de este PA."
+        ],
+        "confirmedConceptsToUse": [
+          "carta de presentación emotiva",
+          "carta",
+          "expresión escrita de sentimientos y emociones",
+          "figuras retóricas"
+        ],
+        "suggestedConceptsToHandleCarefully": [
+          "lenguaje connotativo",
+          "lenguaje denotativo",
+          "comparaci?n",
+          "met?fora",
+          "hip?rbole",
+          "metonimia",
+          "sensaciones e ideas a trav?s de los lenguajes en lenguas ind?genas",
+          "expresiones art?sticas esc?nicas"
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "Si tuvieras que presentarte a alguien que no te conoce, ¿qué emociones, ideas o experiencias de tu vida cotidiana elegirías compartir y por qué?",
+            "conceptsActivated": [
+              "carta de presentación emotiva",
+              "expresión escrita de sentimientos y emociones"
+            ],
+            "thinkingCriteria": [
+              "Reconocer que la escritura también comunica identidad y experiencia."
+            ],
+            "suggestedUse": "Apertura del borrador personal o bitácora inicial."
+          },
+          {
+            "type": "collective",
+            "prompt": "¿Qué cambia en una carta cuando buscamos que no solo informe, sino que también haga sentir, imaginar o comprender mejor a quien la recibe?",
+            "conceptsActivated": [
+              "carta",
+              "figuras retóricas"
+            ],
+            "thinkingCriteria": [
+              "Relacionar forma y contenido en la comunicación escrita."
+            ],
+            "suggestedUse": "Conversación grupal después de revisar modelos o borradores."
+          },
+          {
+            "type": "community",
+            "prompt": "¿Qué formas de expresar cariño, preocupación, esperanza o identidad usan en tu familia o comunidad cuando quieren presentarse o contar algo importante?",
+            "conceptsActivated": [
+              "expresión escrita de sentimientos y emociones",
+              "carta"
+            ],
+            "thinkingCriteria": [
+              "Vincular lenguaje escrito con prácticas reales de la comunidad."
+            ],
+            "suggestedUse": "Entrevista breve o diálogo con familia y comunidad."
+          },
+          {
+            "type": "closing",
+            "prompt": "Después de escribir tu carta, ¿qué aprendiste sobre la manera en que las palabras pueden guardar emociones, memoria y forma de ser?",
+            "conceptsActivated": [
+              "carta de presentación emotiva",
+              "figuras retóricas"
+            ],
+            "thinkingCriteria": [
+              "Reflexionar sobre la relación entre lenguaje, identidad y emoción."
+            ],
+            "suggestedUse": "Cierre reflexivo o autoevaluación narrativa."
+          }
+        ],
+        "notReadyFor": [
+          "summative-exam",
+          "full-games",
+          "actividades interactivas"
+        ]
+      },
+      {
+        "projectId": "lenguajes-1-ppa-10-pa29",
+        "projectTitle": "Vamos a discurrir",
+        "teacherNotes": [
+          "El texto discursivo debe surgir de una pregunta o postura real sobre la comunicaci?n, no de una redacci?n mec?nica.",
+          "Conviene trabajar con ejemplos cercanos de c?mo cambia la vida cuando se escucha, se explica y se argumenta mejor.",
+          "La relaci?n entre ingl?s y lenguas originarias no debe tratarse como contraste superficial, sino como convivencia de lenguas con usos y valores distintos.",
+          "Las pp. 97-102 quedaron dentro de la columna validada del proyecto, pero por ahora conviene tratarlas como apoyo de lectura y no como conceptos nuevos ya confirmados.",
+          "Este PA no tiene todav?a un apoyo de M?ltiples Lenguajes confirmado; importa m?s sostener ideas comprensibles y razones claras que rellenar la secuencia con materiales no seguros."
+        ],
+        "confirmedConceptsToUse": [
+          "texto discursivo",
+          "importancia social y personal de la comunicación",
+          "comentario de texto",
+          "exposición oral y escrita",
+          "técnicas para la comunicación oral y escrita",
+          "diversidad lingüística"
+        ],
+        "suggestedConceptsToHandleCarefully": [
+          "lenguas más y menos habladas de México y América Latina",
+          "revitalización cultural a través de las lenguas indígenas",
+          "lenguas originarias y extranjeras"
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Por qué crees que la comunicación puede cambiar algo importante en la vida personal o en la vida de una comunidad?",
+            "conceptsActivated": [
+              "importancia social y personal de la comunicación",
+              "texto discursivo"
+            ],
+            "thinkingCriteria": [
+              "Relacionar comunicación con vida cotidiana y convivencia."
+            ],
+            "suggestedUse": "Apertura del tema o escritura de postura inicial."
+          },
+          {
+            "type": "collective",
+            "prompt": "Cuando una comunidad habla en más de una lengua, ¿qué gana y qué desafíos enfrenta al momento de entenderse y compartir sus ideas?",
+            "conceptsActivated": [
+              "diversidad lingüística",
+              "lenguas originarias y extranjeras"
+            ],
+            "thinkingCriteria": [
+              "Reconocer convivencia entre lenguas y diversidad cultural."
+            ],
+            "suggestedUse": "Asamblea o diálogo previo a redactar el discurso."
+          },
+          {
+            "type": "community",
+            "prompt": "¿Qué mensajes necesitarían decirse con más claridad en la escuela o en la comunidad para convivir mejor?",
+            "conceptsActivated": [
+              "técnicas para la comunicación oral y escrita",
+              "exposición oral y escrita"
+            ],
+            "thinkingCriteria": [
+              "Ajustar lenguaje al público, propósito y contexto."
+            ],
+            "suggestedUse": "Vinculación del producto con una necesidad real de comunicación."
+          },
+          {
+            "type": "closing",
+            "prompt": "Después de preparar tu texto discursivo, ¿qué entendiste sobre la responsabilidad de hablar o escribir frente a otras personas?",
+            "conceptsActivated": [
+              "texto discursivo",
+              "comentario de texto",
+              "exposición oral y escrita"
+            ],
+            "thinkingCriteria": [
+              "Valorar la comunicación como práctica pública y reflexiva."
+            ],
+            "suggestedUse": "Cierre o autoevaluación narrativa del proyecto."
+          }
+        ],
+        "notReadyFor": [
+          "summative-exam",
+          "full-games",
+          "actividades interactivas"
+        ]
+      },
+      {
+        "projectId": "lenguajes-1-ppa-10-pa30",
+        "projectTitle": "Aprendiendo y jugando, jugando y recordando",
+        "teacherNotes": [
+          "El memorama tiene sentido si ayuda a pensar, recordar y dialogar; no solo si entretiene.",
+          "David Lara puede funcionar como apoyo para conversar sobre memoria, identidad y selecci?n de contenidos antes de dise?ar las tarjetas.",
+          "Conviene seleccionar contenidos que realmente valga la pena compartir o preservar en distintas lenguas.",
+          "La relaci?n entre juego y aprendizaje puede fortalecerse cuando el grupo explica por qu? eligi? ciertas palabras, im?genes o mensajes.",
+          "Es mejor evitar un memorama superficial o solo decorativo; el producto debe comunicar algo significativo y no conviene usar expresiones art?sticas esc?nicas como concepto de este PA."
+        ],
+        "confirmedConceptsToUse": [
+          "memorama",
+          "diversidad lingüística",
+          "lenguas originarias y extranjeras",
+          "pensamientos, sentimientos y opiniones"
+        ],
+        "suggestedConceptsToHandleCarefully": [
+          "comprensi?n lectora",
+          "tipos de texto",
+          "ideas principales y secundarias",
+          "revitalizaci?n cultural a trav?s de las lenguas ind?genas",
+          "sensaciones e ideas a trav?s de los lenguajes en lenguas ind?genas"
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Qué palabra, expresión o idea te gustaría recordar y compartir en un memorama porque sientes que dice algo importante sobre ti o tu comunidad?",
+            "conceptsActivated": [
+              "memorama",
+              "pensamientos, sentimientos y opiniones"
+            ],
+            "thinkingCriteria": [
+              "Relacionar memoria, selección y sentido del producto."
+            ],
+            "suggestedUse": "Inicio de selección de tarjetas o contenidos."
+          },
+          {
+            "type": "collective",
+            "prompt": "¿Cómo puede un juego ayudar a aprender mejor sobre distintas lenguas sin volverlas solo un adorno o una curiosidad?",
+            "conceptsActivated": [
+              "memorama",
+              "diversidad lingüística",
+              "lenguas originarias y extranjeras"
+            ],
+            "thinkingCriteria": [
+              "Valorar las lenguas como medios vivos de expresión y convivencia."
+            ],
+            "suggestedUse": "Discusión grupal antes de diseñar reglas y contenidos."
+          },
+          {
+            "type": "community",
+            "prompt": "¿Qué expresiones, palabras, imágenes o recuerdos de la comunidad valdría la pena convertir en un juego para que otras personas también los conozcan?",
+            "conceptsActivated": [
+              "diversidad lingüística",
+              "pensamientos, sentimientos y opiniones"
+            ],
+            "thinkingCriteria": [
+              "Conectar juego, territorio y memoria compartida."
+            ],
+            "suggestedUse": "Consulta con familia, vecinos o asamblea de aula."
+          },
+          {
+            "type": "closing",
+            "prompt": "Después de jugar y revisar el memorama, ¿qué descubriste sobre la forma en que las lenguas y los recuerdos también pueden cuidarse jugando?",
+            "conceptsActivated": [
+              "memorama",
+              "diversidad lingüística"
+            ],
+            "thinkingCriteria": [
+              "Reflexionar sobre aprendizaje lúdico y cuidado del lenguaje."
+            ],
+            "suggestedUse": "Cierre colectivo o bitácora final."
+          }
+        ],
+        "notReadyFor": [
+          "summative-exam",
+          "full-games",
+          "actividades interactivas"
+        ]
+      }
+    ]
+  }
+}

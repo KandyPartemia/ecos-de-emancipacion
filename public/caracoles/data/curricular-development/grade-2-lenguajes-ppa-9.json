@@ -1,0 +1,1396 @@
+{
+  "grade": "2",
+  "gradeLabel": "Segundo grado",
+  "field": "Lenguajes",
+  "ppaNumber": "9",
+  "partialClassroomProject": "PPA 9",
+  "partialClassroomProjectTitle": "Relatos del pasado y contemporáneos de mi comunidad",
+  "source": "curricular-development-pilot",
+  "generatedAt": "2026-06-04T15:51:06.102Z",
+  "development": {
+    "grade": "2",
+    "gradeLabel": "Segundo grado",
+    "field": "Lenguajes",
+    "bookVolume": "Tomo II",
+    "partialClassroomProject": "PPA 9",
+    "partialClassroomProjectTitle": "Relatos del pasado y contemporáneos de mi comunidad",
+    "generatedAt": "2026-06-02T14:59:02.880Z",
+    "notes": "Capa curricular generada por lote para 2o Lenguajes, PPA 9.",
+    "sourcesUsed": [
+      "public/caracoles/data/generated/grade-2/selectable-projects.json",
+      "content/caracoles/generated-private/grade-2/pages-index.full.json",
+      "Posibilidades de uso Lenguajes, segundo grado, pp. 26-27",
+      "Nuestro libro de proyectos Tomo II, segundo grado, pp. 55-69",
+      "Lenguajes, segundo grado, pp. 12-16, 21, 27-28, 52-58, 68-75, 82-94, 159-163, 246-248, 255-262 y 293-295; Múltiples Lenguajes pp. 16-17 y 78-79."
+    ],
+    "partialClassroomProjectContext": {
+      "expectationHorizon": {
+        "officialText": "",
+        "sourcePages": [
+          "Nuestro libro de proyectos Tomo II pp. 55-56",
+          "Posibilidades de uso Lenguajes pp. 26-27"
+        ],
+        "evidence": "El PPA 9 busca rescatar relatos de la comunidad y reinterpretarlos mediante teatro guiñol, musical plurilingüístico e historieta muda para valorar la literatura en distintas lenguas y sus vínculos con la memoria local.",
+        "status": "pending"
+      },
+      "ppaDetonatingStrategy": {
+        "title": "Relatos del pasado y contemporáneos de mi comunidad",
+        "type": "video",
+        "url": "",
+        "urlStatus": "pending-url",
+        "reference": "bit.ly/3VfglUk",
+        "source": "Nuestro libro de proyectos Tomo II pp. 55-56 + Posibilidades de uso Lenguajes pp. 26-27",
+        "scope": "partial-classroom-project",
+        "youtubeSearchQuery": "Relatos del pasado y contemporáneos de mi comunidad Lenguajes 2do grado Telesecundaria"
+      },
+      "ppaDigitalResource": {
+        "title": "Recurso informatico del bloque PPA 9",
+        "reference": "bit.ly/3WQBMwg",
+        "status": "pending-validation",
+        "source": "Nuestro libro de proyectos Tomo II pp. 55-69"
+      },
+      "validationStatus": {
+        "needsHumanReview": true,
+        "needsReviewReasons": [
+          "Las pp. 26-27 de Posibilidades pertenecen al mismo PPA 9.",
+          "La asignacion de apoyos por columna se fija por inferencia curricular documentada de izquierda a derecha.",
+          "Los enlaces cortos del video del PPA y del recurso informatico se mantienen en cautela hasta localizar un destino oficial confirmado.",
+          "La segunda columna no conserva un apoyo de Múltiples Lenguajes con la misma nitidez que la primera y la tercera; se privilegian producto, objetivos y conceptos del libro del campo."
+        ]
+      },
+      "columnValidation": {
+        "possibilitiesPagesReviewed": [
+          26,
+          27
+        ],
+        "confirmedAsPpa": true,
+        "note": "Las pp. 26-27 corresponden al PPA 9 Relatos del pasado y contemporáneos de mi comunidad. Las tres columnas se sostienen por el orden de proyectos, productos y apoyos del mismo bloque.",
+        "columns": [
+          {
+            "columnIndex": 1,
+            "projectId": "lenguajes-2-ppa-9-pa25",
+            "projectTitle": "Títeres narradores",
+            "finalProduct": "Teatro guiñol",
+            "supportMaterials": [
+              "Conejo sombra, pp. 78-79"
+            ]
+          },
+          {
+            "columnIndex": 2,
+            "projectId": "lenguajes-2-ppa-9-pa26",
+            "projectTitle": "La música como identidad cultural",
+            "finalProduct": "Musical plurilingüístico",
+            "supportMaterials": []
+          },
+          {
+            "columnIndex": 3,
+            "projectId": "lenguajes-2-ppa-9-pa27",
+            "projectTitle": "¡Historietas que se sienten!",
+            "finalProduct": "Historieta muda",
+            "supportMaterials": [
+              "Autómatas, los antecesores de los robots, pp. 16-17"
+            ]
+          }
+        ]
+      }
+    },
+    "academicProjects": [
+      {
+        "id": "lenguajes-2-ppa-9-pa25",
+        "projectId": "lenguajes-2-ppa-9-pa25",
+        "academicProjectNumber": 25,
+        "title": "Títeres narradores",
+        "projectTitle": "Títeres narradores",
+        "grade": "2",
+        "field": "Lenguajes",
+        "ppaNumber": "9",
+        "partialClassroomProject": "PPA 9",
+        "partialClassroomProjectTitle": "Relatos del pasado y contemporáneos de mi comunidad",
+        "bookVolume": "Tomo II",
+        "sourceValidation": {
+          "sourceStatus": "linked",
+          "possibilitiesPages": [
+            26,
+            27
+          ],
+          "possibilitiesMaterialId": "grade-2-posibilidades-pos-len-2",
+          "possibilitiesColumnIndex": 1,
+          "columnEvidence": "Bloque PPA 9 Relatos del pasado y contemporáneos de mi comunidad localizado en pp. 26-27; la columna 1 se confirma por el orden de proyectos, productos y continuidad del mismo bloque."
+        },
+        "finalProduct": {
+          "title": "Teatro guiñol",
+          "source": "Posibilidades de uso Lenguajes pp. 26-27 + Nuestro libro de proyectos Tomo II pp. 57-60",
+          "status": "confirmed"
+        },
+        "sourcePages": {
+          "nuestroLibroProyectos": [
+            {
+              "materialId": "grade-2-proyectos-nuestro-libro-de-proyectos-tomo-2-segundo-grado",
+              "label": "Nuestro libro de proyectos Tomo II",
+              "startPage": 57,
+              "endPage": 60,
+              "pagesLabel": "pp. 57-60",
+              "topicTitle": "Proyecto academico 25",
+              "status": "confirmed-source"
+            }
+          ],
+          "conceptBook": [
+            {
+              "materialId": "grade-2-conceptos-lenguajes-segundo-grado",
+              "label": "Lenguajes",
+              "startPage": 53,
+              "endPage": 58,
+              "pagesLabel": "pp. 53-58",
+              "topicTitle": "La crónica desde una perspectiva familiar y comunitaria",
+              "status": "confirmed-by-column-inference"
+            },
+            {
+              "materialId": "grade-2-conceptos-lenguajes-segundo-grado",
+              "label": "Lenguajes",
+              "startPage": 247,
+              "endPage": 248,
+              "pagesLabel": "pp. 247-248",
+              "topicTitle": "Textos biográficos",
+              "status": "confirmed-by-column-inference"
+            },
+            {
+              "materialId": "grade-2-conceptos-lenguajes-segundo-grado",
+              "label": "Lenguajes",
+              "startPage": 261,
+              "endPage": 261,
+              "pagesLabel": "p. 261",
+              "topicTitle": "El teatro como método de acción social y creación colectiva",
+              "status": "confirmed-by-column-inference"
+            }
+          ],
+          "multiplesLenguajes": [
+            {
+              "materialId": "grade-2-apoyo-multiples-lenguajes-segundo-grado",
+              "label": "Multiples Lenguajes",
+              "startPage": 78,
+              "endPage": 79,
+              "pagesLabel": "pp. 78-79",
+              "topicTitle": "Conejo sombra",
+              "status": "confirmed-by-column-inference"
+            }
+          ],
+          "otherMaterials": [
+            {
+              "label": "Video PA 25: Teatro guiñol • Lenguajes • 2do grado",
+              "reference": "https://www.youtube.com/watch?v=k-WlW-EZvRc",
+              "status": "confirmed"
+            },
+            {
+              "label": "Video PPA 9: 9. Relatos del pasado y contemporáneos de mi comunidad • Lenguajes • 2do grado",
+              "reference": "https://www.youtube.com/watch?v=87gKE85Ubps",
+              "status": "confirmed"
+            }
+          ]
+        },
+        "supportMaterials": [
+          {
+            "title": "Conejo sombra",
+            "kind": "Multiples Lenguajes",
+            "pages": "pp. 78-79",
+            "status": "confirmed-by-column-inference"
+          }
+        ],
+        "horizonOrPurpose": {
+          "status": "official",
+          "text": "Recrear narraciones biográficas o autobiográficas, en español u otras lenguas, por medio de una representación de teatro guiñol para rescatar relatos vinculados a ustedes mismos o a su comunidad.",
+          "source": "Nuestro libro de proyectos Tomo II p. 57"
+        },
+        "projectExpectationHorizon": {
+          "officialText": "Valorar narraciones biográficas o autobiográficas de la comunidad mediante su investigación y adaptación a un guion para teatro guiñol.",
+          "studentVersion": "Recuperar relatos biográficos de la comunidad y adaptarlos a una representación de teatro guiñol.",
+          "sourcePages": [
+            "Nuestro libro de proyectos Tomo II p. 58"
+          ],
+          "evidence": "La propuesta de solución une investigación comunitaria, guion y representación de teatro guiñol como centro del proyecto.",
+          "status": "official"
+        },
+        "detonatingStrategy": {
+          "title": "9. Relatos del pasado y contemporáneos de mi comunidad • Lenguajes • 2do grado",
+          "text": "Video del Proyecto Parcial de Aula 9: 9. Relatos del pasado y contemporáneos de mi comunidad • Lenguajes • 2do grado",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=87gKE85Ubps",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "partial-classroom-project"
+        },
+        "academicProjectStrategy": {
+          "title": "Teatro guiñol • Lenguajes • 2do grado",
+          "text": "Video detonador del Proyecto Academico 25: Títeres narradores",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=k-WlW-EZvRc",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "academic-project"
+        },
+        "academicConcepts": [
+          {
+            "concept": "teatro guiñol",
+            "description": "Teatro guiñol como producto de cierre para organizar y comunicar aprendizajes del proyecto.",
+            "sourceBook": "Nuestro libro de proyectos Tomo II",
+            "sourcePages": [
+              57,
+              60
+            ],
+            "sourcePagesLabel": "pp. 57-60",
+            "topicTitle": "Proyecto academico 25",
+            "status": "confirmed",
+            "reason": "Posibilidades y el propio proyecto fijan Teatro guiñol como producto final del PA 25.",
+            "pedagogicalUse": "Da una forma concreta de socializar lo comprendido sobre el rescate de narraciones biográficas o autobiográficas de la comunidad y su adaptación a una representación de teatro guiñol.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "narración biográfica",
+            "description": "Relato que presenta hechos significativos de la vida de una persona desde una mirada organizada y comunicable.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              247,
+              248
+            ],
+            "sourcePagesLabel": "pp. 247-248",
+            "topicTitle": "Textos biográficos",
+            "status": "confirmed",
+            "reason": "La fuente validada \"Textos biográficos\" aporta base suficiente para trabajar narración biográfica dentro del proyecto 25.",
+            "pedagogicalUse": "Ayuda a fortalecer teatro guiñol y a explicar el rescate de narraciones biográficas o autobiográficas de la comunidad y su adaptación a una representación de teatro guiñol con mayor claridad mediante narración biográfica.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "autobiografía",
+            "description": "Autobiografía es una idea clave para comprender el rescate de narraciones biográficas o autobiográficas de la comunidad y su adaptación a una representación de teatro guiñol.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              53,
+              58
+            ],
+            "sourcePagesLabel": "pp. 53-58",
+            "topicTitle": "La crónica desde una perspectiva familiar y comunitaria",
+            "status": "confirmed",
+            "reason": "La fuente validada \"La crónica desde una perspectiva familiar y comunitaria\" aporta base suficiente para trabajar autobiografía dentro del proyecto 25.",
+            "pedagogicalUse": "Ayuda a fortalecer teatro guiñol y a explicar el rescate de narraciones biográficas o autobiográficas de la comunidad y su adaptación a una representación de teatro guiñol con mayor claridad mediante autobiografía.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "guion teatral",
+            "description": "Guion teatral es una idea clave para comprender el rescate de narraciones biográficas o autobiográficas de la comunidad y su adaptación a una representación de teatro guiñol.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              261
+            ],
+            "sourcePagesLabel": "p. 261",
+            "topicTitle": "El teatro como método de acción social y creación colectiva",
+            "status": "confirmed",
+            "reason": "La fuente validada \"El teatro como método de acción social y creación colectiva\" aporta base suficiente para trabajar guion teatral dentro del proyecto 25.",
+            "pedagogicalUse": "Ayuda a fortalecer teatro guiñol y a explicar el rescate de narraciones biográficas o autobiográficas de la comunidad y su adaptación a una representación de teatro guiñol con mayor claridad mediante guion teatral.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "oralidad comunitaria",
+            "description": "Circulación de historias, recuerdos y saberes mediante la voz y la conversación en una comunidad.",
+            "sourceBook": "Nuestro libro de proyectos Tomo II",
+            "sourcePages": [
+              57,
+              58,
+              59
+            ],
+            "sourcePagesLabel": "pp. 57-59",
+            "topicTitle": "Proyecto académico 25",
+            "status": "confirmed",
+            "reason": "La fuente validada \"Proyecto académico 25\" aporta base suficiente para trabajar oralidad comunitaria dentro del proyecto 25.",
+            "pedagogicalUse": "Ayuda a fortalecer teatro guiñol y a explicar el rescate de narraciones biográficas o autobiográficas de la comunidad y su adaptación a una representación de teatro guiñol con mayor claridad mediante oralidad comunitaria.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "adaptación dramática",
+            "description": "Transformación de un relato en acciones, parlamentos y escenas pensadas para su representación.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              261
+            ],
+            "sourcePagesLabel": "p. 261",
+            "topicTitle": "El teatro como método de acción social y creación colectiva",
+            "status": "confirmed",
+            "reason": "La fuente validada \"El teatro como método de acción social y creación colectiva\" aporta base suficiente para trabajar adaptación dramática dentro del proyecto 25.",
+            "pedagogicalUse": "Ayuda a fortalecer teatro guiñol y a explicar el rescate de narraciones biográficas o autobiográficas de la comunidad y su adaptación a una representación de teatro guiñol con mayor claridad mediante adaptación dramática.",
+            "activityReadiness": "usable-for-autoevaluation"
+          }
+        ],
+        "thinkingCriteria": [
+          "Relacionar el rescate de narraciones biográficas o autobiográficas de la comunidad y su adaptación a una representación de teatro guiñol con situaciones cercanas a la comunidad.",
+          "Usar teatro guiñol para explicar y no solo para recopilar informacion.",
+          "Distinguir entre mencionar conceptos y comprender como dialogan entre si dentro del proyecto."
+        ],
+        "validationStatus": {
+          "readinessLevel": "development-partial",
+          "readyForActivities": false,
+          "needsReviewReasons": [
+            "El bloque 9 ya es usable como lectura docente, pero el video del PPA 9 y el recurso informatico siguen pendientes de validacion de destino final.",
+            "La asignacion de apoyos de Posibilidades se sostiene por inferencia curricular documentada y no por OCR perfectamente separado por columnas.",
+            "No mover a actividades interactivas ni desbloquear juegos completos hasta ampliar validacion de videos y recursos complementarios."
+          ]
+        },
+        "readinessLevel": "development-partial",
+        "readyForActivities": false,
+        "needsReviewReasons": [
+          "No mover a actividades interactivas ni desbloquear juegos completos."
+        ],
+        "roleInPpa": "Abre el bloque al recuperar relatos de la comunidad y convertirlos en representación dramática compartida.",
+        "pedagogicalUse": "Conviene trabajar Títeres narradores como una oportunidad para profundizar en el rescate de narraciones biográficas o autobiográficas de la comunidad y su adaptación a una representación de teatro guiñol sin separar contenido, comunidad y producto final.",
+        "teacherNotes": [
+          "Conviene partir de ejemplos cercanos y después pasar al lenguaje mas abstracto del campo.",
+          "El producto Teatro guiñol gana fuerza cuando se usa para explicar y no solo para exhibir informacion.",
+          "Es mejor seleccionar pocos conceptos bien comprendidos que saturar el trabajo con terminos aislados."
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Qué comprendes mejor sobre el rescate de narraciones biográficas o autobiográficas de la comunidad y su adaptación a una representación de teatro guiñol después de elaborar teatro guiñol?"
+          },
+          {
+            "type": "community",
+            "prompt": "¿Qué diálogos comunitarios podrían fortalecerse si compartimos teatro guiñol y lo ponemos en conversación con otras personas?"
+          }
+        ],
+        "notReadyFor": [
+          "full-games",
+          "summative-exam"
+        ]
+      },
+      {
+        "id": "lenguajes-2-ppa-9-pa26",
+        "projectId": "lenguajes-2-ppa-9-pa26",
+        "academicProjectNumber": 26,
+        "title": "La música como identidad cultural",
+        "projectTitle": "La música como identidad cultural",
+        "grade": "2",
+        "field": "Lenguajes",
+        "ppaNumber": "9",
+        "partialClassroomProject": "PPA 9",
+        "partialClassroomProjectTitle": "Relatos del pasado y contemporáneos de mi comunidad",
+        "bookVolume": "Tomo II",
+        "sourceValidation": {
+          "sourceStatus": "linked",
+          "possibilitiesPages": [
+            26,
+            27
+          ],
+          "possibilitiesMaterialId": "grade-2-posibilidades-pos-len-2",
+          "possibilitiesColumnIndex": 2,
+          "columnEvidence": "Bloque PPA 9 Relatos del pasado y contemporáneos de mi comunidad localizado en pp. 26-27; la columna 2 se confirma por el orden de proyectos, productos y continuidad del mismo bloque."
+        },
+        "finalProduct": {
+          "title": "Musical plurilingüístico",
+          "source": "Posibilidades de uso Lenguajes pp. 26-27 + Nuestro libro de proyectos Tomo II pp. 61-64",
+          "status": "confirmed"
+        },
+        "sourcePages": {
+          "nuestroLibroProyectos": [
+            {
+              "materialId": "grade-2-proyectos-nuestro-libro-de-proyectos-tomo-2-segundo-grado",
+              "label": "Nuestro libro de proyectos Tomo II",
+              "startPage": 61,
+              "endPage": 64,
+              "pagesLabel": "pp. 61-64",
+              "topicTitle": "Proyecto academico 26",
+              "status": "confirmed-source"
+            }
+          ],
+          "conceptBook": [
+            {
+              "materialId": "grade-2-conceptos-lenguajes-segundo-grado",
+              "label": "Lenguajes",
+              "startPage": 294,
+              "endPage": 295,
+              "pagesLabel": "pp. 294-295",
+              "topicTitle": "Música y danza: lenguajes de las fiestas comunitarias",
+              "status": "confirmed-by-column-inference"
+            },
+            {
+              "materialId": "grade-2-conceptos-lenguajes-segundo-grado",
+              "label": "Lenguajes",
+              "startPage": 160,
+              "endPage": 161,
+              "pagesLabel": "pp. 160-161",
+              "topicTitle": "La poesía en la tradición oral indígena",
+              "status": "confirmed-by-column-inference"
+            }
+          ],
+          "multiplesLenguajes": [],
+          "otherMaterials": [
+            {
+              "label": "Video PA 26: Musical plurilingüístico • Lenguajes • 2do grado",
+              "reference": "https://www.youtube.com/watch?v=uKWfc0ECCII",
+              "status": "confirmed"
+            },
+            {
+              "label": "Video PPA 9: 9. Relatos del pasado y contemporáneos de mi comunidad • Lenguajes • 2do grado",
+              "reference": "https://www.youtube.com/watch?v=87gKE85Ubps",
+              "status": "confirmed"
+            }
+          ]
+        },
+        "supportMaterials": [],
+        "horizonOrPurpose": {
+          "status": "official",
+          "text": "Adaptar textos literarios, tradicionales y contemporáneos, escritos en español a lenguas indígenas mediante la organización de un musical plurilingüístico para sensibilizar a la comunidad sobre las formas de expresión de los pueblos originarios.",
+          "source": "Nuestro libro de proyectos Tomo II p. 61"
+        },
+        "projectExpectationHorizon": {
+          "officialText": "Organizar la adaptación de canciones en español a lengua indígena y la realización de un musical plurilingüístico para valorar la riqueza lingüística, musical y cultural.",
+          "studentVersion": "Traducir o adaptar canciones y presentarlas en un musical plurilingüístico que recupere la identidad cultural.",
+          "sourcePages": [
+            "Nuestro libro de proyectos Tomo II p. 62"
+          ],
+          "evidence": "La etapa 1 y el objetivo 2 fijan claramente la adaptación de canciones y la organización del musical como núcleo del proyecto.",
+          "status": "official"
+        },
+        "detonatingStrategy": {
+          "title": "9. Relatos del pasado y contemporáneos de mi comunidad • Lenguajes • 2do grado",
+          "text": "Video del Proyecto Parcial de Aula 9: 9. Relatos del pasado y contemporáneos de mi comunidad • Lenguajes • 2do grado",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=87gKE85Ubps",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "partial-classroom-project"
+        },
+        "academicProjectStrategy": {
+          "title": "Musical plurilingüístico • Lenguajes • 2do grado",
+          "text": "Video detonador del Proyecto Academico 26: La música como identidad cultural",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=uKWfc0ECCII",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "academic-project"
+        },
+        "academicConcepts": [
+          {
+            "concept": "musical plurilingüístico",
+            "description": "Musical plurilingüístico como producto de cierre para organizar y comunicar aprendizajes del proyecto.",
+            "sourceBook": "Nuestro libro de proyectos Tomo II",
+            "sourcePages": [
+              61,
+              64
+            ],
+            "sourcePagesLabel": "pp. 61-64",
+            "topicTitle": "Proyecto academico 26",
+            "status": "confirmed",
+            "reason": "Posibilidades y el propio proyecto fijan Musical plurilingüístico como producto final del PA 26.",
+            "pedagogicalUse": "Da una forma concreta de socializar lo comprendido sobre la adaptación de canciones a lenguas indígenas y la reflexión sobre la música como expresión de identidad cultural.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "identidad cultural",
+            "description": "Sentido de pertenencia y reconocimiento que se expresa en prácticas, memorias y formas de comunicación compartidas.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              294,
+              295
+            ],
+            "sourcePagesLabel": "pp. 294-295",
+            "topicTitle": "Música y danza: lenguajes de las fiestas comunitarias",
+            "status": "confirmed",
+            "reason": "La fuente validada \"Música y danza: lenguajes de las fiestas comunitarias\" aporta base suficiente para trabajar identidad cultural dentro del proyecto 26.",
+            "pedagogicalUse": "Ayuda a fortalecer musical plurilingüístico y a explicar la adaptación de canciones a lenguas indígenas y la reflexión sobre la música como expresión de identidad cultural con mayor claridad mediante identidad cultural.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "música tradicional",
+            "description": "Expresiones musicales ligadas a memorias, celebraciones o prácticas heredadas de una comunidad.",
+            "sourceBook": "Nuestro libro de proyectos Tomo II",
+            "sourcePages": [
+              61,
+              62,
+              63
+            ],
+            "sourcePagesLabel": "pp. 61-63",
+            "topicTitle": "Proyecto académico 26",
+            "status": "confirmed",
+            "reason": "La fuente validada \"Proyecto académico 26\" aporta base suficiente para trabajar música tradicional dentro del proyecto 26.",
+            "pedagogicalUse": "Ayuda a fortalecer musical plurilingüístico y a explicar la adaptación de canciones a lenguas indígenas y la reflexión sobre la música como expresión de identidad cultural con mayor claridad mediante música tradicional.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "plurilingüismo",
+            "description": "Convivencia y uso de varias lenguas en un mismo proceso comunicativo, artístico o social.",
+            "sourceBook": "Nuestro libro de proyectos Tomo II",
+            "sourcePages": [
+              61,
+              62,
+              64
+            ],
+            "sourcePagesLabel": "pp. 61-64",
+            "topicTitle": "Proyecto académico 26",
+            "status": "confirmed",
+            "reason": "La fuente validada \"Proyecto académico 26\" aporta base suficiente para trabajar plurilingüismo dentro del proyecto 26.",
+            "pedagogicalUse": "Ayuda a fortalecer musical plurilingüístico y a explicar la adaptación de canciones a lenguas indígenas y la reflexión sobre la música como expresión de identidad cultural con mayor claridad mediante plurilingüismo.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "traducción a lenguas indígenas",
+            "description": "Proceso de adaptar expresiones o canciones para que cobren sentido en otra lengua sin perder su intención.",
+            "sourceBook": "Nuestro libro de proyectos Tomo II",
+            "sourcePages": [
+              61,
+              62,
+              63
+            ],
+            "sourcePagesLabel": "pp. 61-63",
+            "topicTitle": "Proyecto académico 26",
+            "status": "confirmed",
+            "reason": "La fuente validada \"Proyecto académico 26\" aporta base suficiente para trabajar traducción a lenguas indígenas dentro del proyecto 26.",
+            "pedagogicalUse": "Ayuda a fortalecer musical plurilingüístico y a explicar la adaptación de canciones a lenguas indígenas y la reflexión sobre la música como expresión de identidad cultural con mayor claridad mediante traducción a lenguas indígenas.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "memoria musical comunitaria",
+            "description": "Recuerdo compartido de estilos, canciones y formas de sentir la música en distintas generaciones de la comunidad.",
+            "sourceBook": "Nuestro libro de proyectos Tomo II",
+            "sourcePages": [
+              62,
+              63,
+              64
+            ],
+            "sourcePagesLabel": "pp. 62-64",
+            "topicTitle": "Proyecto académico 26",
+            "status": "confirmed",
+            "reason": "La fuente validada \"Proyecto académico 26\" aporta base suficiente para trabajar memoria musical comunitaria dentro del proyecto 26.",
+            "pedagogicalUse": "Ayuda a fortalecer musical plurilingüístico y a explicar la adaptación de canciones a lenguas indígenas y la reflexión sobre la música como expresión de identidad cultural con mayor claridad mediante memoria musical comunitaria.",
+            "activityReadiness": "usable-for-autoevaluation"
+          }
+        ],
+        "thinkingCriteria": [
+          "Relacionar la adaptación de canciones a lenguas indígenas y la reflexión sobre la música como expresión de identidad cultural con situaciones cercanas a la comunidad.",
+          "Usar musical plurilingüístico para explicar y no solo para recopilar informacion.",
+          "Distinguir entre mencionar conceptos y comprender como dialogan entre si dentro del proyecto."
+        ],
+        "validationStatus": {
+          "readinessLevel": "development-partial",
+          "readyForActivities": false,
+          "needsReviewReasons": [
+            "El bloque 9 ya es usable como lectura docente, pero el video del PPA 9 y el recurso informatico siguen pendientes de validacion de destino final.",
+            "La asignacion de apoyos de Posibilidades se sostiene por inferencia curricular documentada y no por OCR perfectamente separado por columnas.",
+            "No mover a actividades interactivas ni desbloquear juegos completos hasta ampliar validacion de videos y recursos complementarios."
+          ]
+        },
+        "readinessLevel": "development-partial",
+        "readyForActivities": false,
+        "needsReviewReasons": [
+          "No mover a actividades interactivas ni desbloquear juegos completos."
+        ],
+        "roleInPpa": "Profundiza el bloque al convertir memoria musical, traducción y convivencia comunitaria en un evento plurilingüe.",
+        "pedagogicalUse": "Conviene trabajar La música como identidad cultural como una oportunidad para profundizar en la adaptación de canciones a lenguas indígenas y la reflexión sobre la música como expresión de identidad cultural sin separar contenido, comunidad y producto final.",
+        "teacherNotes": [
+          "Conviene partir de ejemplos cercanos y después pasar al lenguaje mas abstracto del campo.",
+          "El producto Musical plurilingüístico gana fuerza cuando se usa para explicar y no solo para exhibir informacion.",
+          "Es mejor seleccionar pocos conceptos bien comprendidos que saturar el trabajo con terminos aislados."
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Qué comprendes mejor sobre la adaptación de canciones a lenguas indígenas y la reflexión sobre la música como expresión de identidad cultural después de elaborar musical plurilingüístico?"
+          },
+          {
+            "type": "community",
+            "prompt": "¿Qué diálogos comunitarios podrían fortalecerse si compartimos musical plurilingüístico y lo ponemos en conversación con otras personas?"
+          }
+        ],
+        "notReadyFor": [
+          "full-games",
+          "summative-exam"
+        ]
+      },
+      {
+        "id": "lenguajes-2-ppa-9-pa27",
+        "projectId": "lenguajes-2-ppa-9-pa27",
+        "academicProjectNumber": 27,
+        "title": "¡Historietas que se sienten!",
+        "projectTitle": "¡Historietas que se sienten!",
+        "grade": "2",
+        "field": "Lenguajes",
+        "ppaNumber": "9",
+        "partialClassroomProject": "PPA 9",
+        "partialClassroomProjectTitle": "Relatos del pasado y contemporáneos de mi comunidad",
+        "bookVolume": "Tomo II",
+        "sourceValidation": {
+          "sourceStatus": "linked",
+          "possibilitiesPages": [
+            26,
+            27
+          ],
+          "possibilitiesMaterialId": "grade-2-posibilidades-pos-len-2",
+          "possibilitiesColumnIndex": 3,
+          "columnEvidence": "Bloque PPA 9 Relatos del pasado y contemporáneos de mi comunidad localizado en pp. 26-27; la columna 3 se confirma por el orden de proyectos, productos y continuidad del mismo bloque."
+        },
+        "finalProduct": {
+          "title": "Historieta muda",
+          "source": "Posibilidades de uso Lenguajes pp. 26-27 + Nuestro libro de proyectos Tomo II pp. 65-69",
+          "status": "confirmed"
+        },
+        "sourcePages": {
+          "nuestroLibroProyectos": [
+            {
+              "materialId": "grade-2-proyectos-nuestro-libro-de-proyectos-tomo-2-segundo-grado",
+              "label": "Nuestro libro de proyectos Tomo II",
+              "startPage": 65,
+              "endPage": 69,
+              "pagesLabel": "pp. 65-69",
+              "topicTitle": "Proyecto academico 27",
+              "status": "confirmed-source"
+            }
+          ],
+          "conceptBook": [
+            {
+              "materialId": "grade-2-conceptos-lenguajes-segundo-grado",
+              "label": "Lenguajes",
+              "startPage": 27,
+              "endPage": 28,
+              "pagesLabel": "pp. 27-28",
+              "topicTitle": "La historieta como instrumento para representar la interacción lingüística",
+              "status": "confirmed-by-column-inference"
+            },
+            {
+              "materialId": "grade-2-conceptos-lenguajes-segundo-grado",
+              "label": "Lenguajes",
+              "startPage": 69,
+              "endPage": 75,
+              "pagesLabel": "pp. 69-75",
+              "topicTitle": "Características de las narraciones orales y las escritas",
+              "status": "confirmed-by-column-inference"
+            },
+            {
+              "materialId": "grade-2-conceptos-lenguajes-segundo-grado",
+              "label": "Lenguajes",
+              "startPage": 160,
+              "endPage": 161,
+              "pagesLabel": "pp. 160-161",
+              "topicTitle": "La poesía en la tradición oral indígena",
+              "status": "confirmed-by-column-inference"
+            }
+          ],
+          "multiplesLenguajes": [
+            {
+              "materialId": "grade-2-apoyo-multiples-lenguajes-segundo-grado",
+              "label": "Multiples Lenguajes",
+              "startPage": 16,
+              "endPage": 17,
+              "pagesLabel": "pp. 16-17",
+              "topicTitle": "Autómatas, los antecesores de los robots",
+              "status": "confirmed-by-column-inference"
+            }
+          ],
+          "otherMaterials": [
+            {
+              "label": "Video PA 27: Historieta muda • Lenguajes • 2do grado",
+              "reference": "https://www.youtube.com/watch?v=wEkunu5U8L0",
+              "status": "confirmed"
+            },
+            {
+              "label": "Video PPA 9: 9. Relatos del pasado y contemporáneos de mi comunidad • Lenguajes • 2do grado",
+              "reference": "https://www.youtube.com/watch?v=87gKE85Ubps",
+              "status": "confirmed"
+            }
+          ]
+        },
+        "supportMaterials": [
+          {
+            "title": "Autómatas, los antecesores de los robots",
+            "kind": "Multiples Lenguajes",
+            "pages": "pp. 16-17",
+            "status": "confirmed-by-column-inference"
+          }
+        ],
+        "horizonOrPurpose": {
+          "status": "official",
+          "text": "Adaptar un texto literario en lengua indígena a una historieta muda para sensibilizar a la comunidad acerca de la relevancia social y cultural de la literatura en lenguas indígenas.",
+          "source": "Nuestro libro de proyectos Tomo II p. 65"
+        },
+        "projectExpectationHorizon": {
+          "officialText": "Adaptar y traducir textos literarios tradicionales y contemporáneos a una historieta muda para reconocer y valorar la literatura en lengua indígena.",
+          "studentVersion": "Seleccionar un texto literario en lengua indígena y transformarlo en una historieta muda con sentido cultural.",
+          "sourcePages": [
+            "Nuestro libro de proyectos Tomo II p. 66"
+          ],
+          "evidence": "La propuesta de solución vincula la adaptación del texto, el reconocimiento de la lengua indígena y la historieta muda como producto central.",
+          "status": "official"
+        },
+        "detonatingStrategy": {
+          "title": "9. Relatos del pasado y contemporáneos de mi comunidad • Lenguajes • 2do grado",
+          "text": "Video del Proyecto Parcial de Aula 9: 9. Relatos del pasado y contemporáneos de mi comunidad • Lenguajes • 2do grado",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=87gKE85Ubps",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "partial-classroom-project"
+        },
+        "academicProjectStrategy": {
+          "title": "Historieta muda • Lenguajes • 2do grado",
+          "text": "Video detonador del Proyecto Academico 27: ¡Historietas que se sienten!",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=wEkunu5U8L0",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "academic-project"
+        },
+        "academicConcepts": [
+          {
+            "concept": "historieta muda",
+            "description": "Historieta muda como producto de cierre para organizar y comunicar aprendizajes del proyecto.",
+            "sourceBook": "Nuestro libro de proyectos Tomo II",
+            "sourcePages": [
+              65,
+              69
+            ],
+            "sourcePagesLabel": "pp. 65-69",
+            "topicTitle": "Proyecto academico 27",
+            "status": "confirmed",
+            "reason": "Posibilidades y el propio proyecto fijan Historieta muda como producto final del PA 27.",
+            "pedagogicalUse": "Da una forma concreta de socializar lo comprendido sobre la adaptación de textos literarios en lengua indígena a una secuencia visual que sensibilice sobre su relevancia social y cultural.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "interacción lingüística",
+            "description": "Relación entre hablantes, lenguas y contextos que se hace visible incluso cuando cambia el medio de comunicación.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              27,
+              28
+            ],
+            "sourcePagesLabel": "pp. 27-28",
+            "topicTitle": "La historieta como instrumento para representar la interacción lingüística",
+            "status": "confirmed",
+            "reason": "La fuente validada \"La historieta como instrumento para representar la interacción lingüística\" aporta base suficiente para trabajar interacción lingüística dentro del proyecto 27.",
+            "pedagogicalUse": "Ayuda a fortalecer historieta muda y a explicar la adaptación de textos literarios en lengua indígena a una secuencia visual que sensibilice sobre su relevancia social y cultural con mayor claridad mediante interacción lingüística.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "secuencia de viñetas",
+            "description": "Organización visual de escenas que permite narrar sin depender de abundante texto escrito.",
+            "sourceBook": "Nuestro libro de proyectos Tomo II",
+            "sourcePages": [
+              65,
+              66,
+              67
+            ],
+            "sourcePagesLabel": "pp. 65-67",
+            "topicTitle": "Proyecto académico 27",
+            "status": "confirmed",
+            "reason": "La fuente validada \"Proyecto académico 27\" aporta base suficiente para trabajar secuencia de viñetas dentro del proyecto 27.",
+            "pedagogicalUse": "Ayuda a fortalecer historieta muda y a explicar la adaptación de textos literarios en lengua indígena a una secuencia visual que sensibilice sobre su relevancia social y cultural con mayor claridad mediante secuencia de viñetas.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "literatura en lengua indígena",
+            "description": "Textos que expresan memoria, experiencia y creatividad desde una lengua originaria.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              160,
+              161
+            ],
+            "sourcePagesLabel": "pp. 160-161",
+            "topicTitle": "La poesía en la tradición oral indígena",
+            "status": "confirmed",
+            "reason": "La fuente validada \"La poesía en la tradición oral indígena\" aporta base suficiente para trabajar literatura en lengua indígena dentro del proyecto 27.",
+            "pedagogicalUse": "Ayuda a fortalecer historieta muda y a explicar la adaptación de textos literarios en lengua indígena a una secuencia visual que sensibilice sobre su relevancia social y cultural con mayor claridad mediante literatura en lengua indígena.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "adaptación visual",
+            "description": "Transformación de un relato en imágenes, secuencias y decisiones gráficas que sostienen su sentido.",
+            "sourceBook": "Nuestro libro de proyectos Tomo II",
+            "sourcePages": [
+              65,
+              66,
+              67
+            ],
+            "sourcePagesLabel": "pp. 65-67",
+            "topicTitle": "Proyecto académico 27",
+            "status": "confirmed",
+            "reason": "La fuente validada \"Proyecto académico 27\" aporta base suficiente para trabajar adaptación visual dentro del proyecto 27.",
+            "pedagogicalUse": "Ayuda a fortalecer historieta muda y a explicar la adaptación de textos literarios en lengua indígena a una secuencia visual que sensibilice sobre su relevancia social y cultural con mayor claridad mediante adaptación visual.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "sensibilización cultural",
+            "description": "Proceso de generar aprecio, comprensión y respeto hacia la relevancia social y cultural de una obra o tradición.",
+            "sourceBook": "Nuestro libro de proyectos Tomo II",
+            "sourcePages": [
+              65,
+              66,
+              67
+            ],
+            "sourcePagesLabel": "pp. 65-67",
+            "topicTitle": "Proyecto académico 27",
+            "status": "confirmed",
+            "reason": "La fuente validada \"Proyecto académico 27\" aporta base suficiente para trabajar sensibilización cultural dentro del proyecto 27.",
+            "pedagogicalUse": "Ayuda a fortalecer historieta muda y a explicar la adaptación de textos literarios en lengua indígena a una secuencia visual que sensibilice sobre su relevancia social y cultural con mayor claridad mediante sensibilización cultural.",
+            "activityReadiness": "usable-for-autoevaluation"
+          }
+        ],
+        "thinkingCriteria": [
+          "Relacionar la adaptación de textos literarios en lengua indígena a una secuencia visual que sensibilice sobre su relevancia social y cultural con situaciones cercanas a la comunidad.",
+          "Usar historieta muda para explicar y no solo para recopilar informacion.",
+          "Distinguir entre mencionar conceptos y comprender como dialogan entre si dentro del proyecto."
+        ],
+        "validationStatus": {
+          "readinessLevel": "development-partial",
+          "readyForActivities": false,
+          "needsReviewReasons": [
+            "El bloque 9 ya es usable como lectura docente, pero el video del PPA 9 y el recurso informatico siguen pendientes de validacion de destino final.",
+            "La asignacion de apoyos de Posibilidades se sostiene por inferencia curricular documentada y no por OCR perfectamente separado por columnas.",
+            "No mover a actividades interactivas ni desbloquear juegos completos hasta ampliar validacion de videos y recursos complementarios."
+          ]
+        },
+        "readinessLevel": "development-partial",
+        "readyForActivities": false,
+        "needsReviewReasons": [
+          "No mover a actividades interactivas ni desbloquear juegos completos."
+        ],
+        "roleInPpa": "Cierra el bloque al pasar del relato y la música a una reinterpretación visual de la literatura en lenguas indígenas.",
+        "pedagogicalUse": "Conviene trabajar ¡Historietas que se sienten! como una oportunidad para profundizar en la adaptación de textos literarios en lengua indígena a una secuencia visual que sensibilice sobre su relevancia social y cultural sin separar contenido, comunidad y producto final.",
+        "teacherNotes": [
+          "Conviene partir de ejemplos cercanos y después pasar al lenguaje mas abstracto del campo.",
+          "El producto Historieta muda gana fuerza cuando se usa para explicar y no solo para exhibir informacion.",
+          "Es mejor seleccionar pocos conceptos bien comprendidos que saturar el trabajo con terminos aislados."
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Qué comprendes mejor sobre la adaptación de textos literarios en lengua indígena a una secuencia visual que sensibilice sobre su relevancia social y cultural después de elaborar historieta muda?"
+          },
+          {
+            "type": "community",
+            "prompt": "¿Qué diálogos comunitarios podrían fortalecerse si compartimos historieta muda y lo ponemos en conversación con otras personas?"
+          }
+        ],
+        "notReadyFor": [
+          "full-games",
+          "summative-exam"
+        ]
+      }
+    ]
+  },
+  "conceptsValidation": {
+    "grade": "2",
+    "field": "Lenguajes",
+    "ppaNumber": "9",
+    "status": "concept-validation",
+    "generatedAt": "2026-06-02T14:59:02.880Z",
+    "entries": [
+      {
+        "projectId": "lenguajes-2-ppa-9-pa25",
+        "projectTitle": "Títeres narradores",
+        "concept": "teatro guiñol",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Nuestro libro de proyectos Tomo II",
+          "pages": [
+            57,
+            60
+          ],
+          "reason": "Posibilidades y el propio proyecto fijan Teatro guiñol como producto final del PA 25."
+        },
+        "pedagogicalUse": "Da una forma concreta de socializar lo comprendido sobre el rescate de narraciones biográficas o autobiográficas de la comunidad y su adaptación a una representación de teatro guiñol.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-2-ppa-9-pa25",
+        "projectTitle": "Títeres narradores",
+        "concept": "narración biográfica",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            247,
+            248
+          ],
+          "reason": "La fuente validada \"Textos biográficos\" aporta base suficiente para trabajar narración biográfica dentro del proyecto 25."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer teatro guiñol y a explicar el rescate de narraciones biográficas o autobiográficas de la comunidad y su adaptación a una representación de teatro guiñol con mayor claridad mediante narración biográfica.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-2-ppa-9-pa25",
+        "projectTitle": "Títeres narradores",
+        "concept": "autobiografía",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            53,
+            58
+          ],
+          "reason": "La fuente validada \"La crónica desde una perspectiva familiar y comunitaria\" aporta base suficiente para trabajar autobiografía dentro del proyecto 25."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer teatro guiñol y a explicar el rescate de narraciones biográficas o autobiográficas de la comunidad y su adaptación a una representación de teatro guiñol con mayor claridad mediante autobiografía.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-2-ppa-9-pa25",
+        "projectTitle": "Títeres narradores",
+        "concept": "guion teatral",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            261
+          ],
+          "reason": "La fuente validada \"El teatro como método de acción social y creación colectiva\" aporta base suficiente para trabajar guion teatral dentro del proyecto 25."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer teatro guiñol y a explicar el rescate de narraciones biográficas o autobiográficas de la comunidad y su adaptación a una representación de teatro guiñol con mayor claridad mediante guion teatral.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-2-ppa-9-pa25",
+        "projectTitle": "Títeres narradores",
+        "concept": "oralidad comunitaria",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Nuestro libro de proyectos Tomo II",
+          "pages": [
+            57,
+            58,
+            59
+          ],
+          "reason": "La fuente validada \"Proyecto académico 25\" aporta base suficiente para trabajar oralidad comunitaria dentro del proyecto 25."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer teatro guiñol y a explicar el rescate de narraciones biográficas o autobiográficas de la comunidad y su adaptación a una representación de teatro guiñol con mayor claridad mediante oralidad comunitaria.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-2-ppa-9-pa25",
+        "projectTitle": "Títeres narradores",
+        "concept": "adaptación dramática",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            261
+          ],
+          "reason": "La fuente validada \"El teatro como método de acción social y creación colectiva\" aporta base suficiente para trabajar adaptación dramática dentro del proyecto 25."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer teatro guiñol y a explicar el rescate de narraciones biográficas o autobiográficas de la comunidad y su adaptación a una representación de teatro guiñol con mayor claridad mediante adaptación dramática.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-2-ppa-9-pa26",
+        "projectTitle": "La música como identidad cultural",
+        "concept": "musical plurilingüístico",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Nuestro libro de proyectos Tomo II",
+          "pages": [
+            61,
+            64
+          ],
+          "reason": "Posibilidades y el propio proyecto fijan Musical plurilingüístico como producto final del PA 26."
+        },
+        "pedagogicalUse": "Da una forma concreta de socializar lo comprendido sobre la adaptación de canciones a lenguas indígenas y la reflexión sobre la música como expresión de identidad cultural.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-2-ppa-9-pa26",
+        "projectTitle": "La música como identidad cultural",
+        "concept": "identidad cultural",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            294,
+            295
+          ],
+          "reason": "La fuente validada \"Música y danza: lenguajes de las fiestas comunitarias\" aporta base suficiente para trabajar identidad cultural dentro del proyecto 26."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer musical plurilingüístico y a explicar la adaptación de canciones a lenguas indígenas y la reflexión sobre la música como expresión de identidad cultural con mayor claridad mediante identidad cultural.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-2-ppa-9-pa26",
+        "projectTitle": "La música como identidad cultural",
+        "concept": "música tradicional",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Nuestro libro de proyectos Tomo II",
+          "pages": [
+            61,
+            62,
+            63
+          ],
+          "reason": "La fuente validada \"Proyecto académico 26\" aporta base suficiente para trabajar música tradicional dentro del proyecto 26."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer musical plurilingüístico y a explicar la adaptación de canciones a lenguas indígenas y la reflexión sobre la música como expresión de identidad cultural con mayor claridad mediante música tradicional.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-2-ppa-9-pa26",
+        "projectTitle": "La música como identidad cultural",
+        "concept": "plurilingüismo",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Nuestro libro de proyectos Tomo II",
+          "pages": [
+            61,
+            62,
+            64
+          ],
+          "reason": "La fuente validada \"Proyecto académico 26\" aporta base suficiente para trabajar plurilingüismo dentro del proyecto 26."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer musical plurilingüístico y a explicar la adaptación de canciones a lenguas indígenas y la reflexión sobre la música como expresión de identidad cultural con mayor claridad mediante plurilingüismo.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-2-ppa-9-pa26",
+        "projectTitle": "La música como identidad cultural",
+        "concept": "traducción a lenguas indígenas",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Nuestro libro de proyectos Tomo II",
+          "pages": [
+            61,
+            62,
+            63
+          ],
+          "reason": "La fuente validada \"Proyecto académico 26\" aporta base suficiente para trabajar traducción a lenguas indígenas dentro del proyecto 26."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer musical plurilingüístico y a explicar la adaptación de canciones a lenguas indígenas y la reflexión sobre la música como expresión de identidad cultural con mayor claridad mediante traducción a lenguas indígenas.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-2-ppa-9-pa26",
+        "projectTitle": "La música como identidad cultural",
+        "concept": "memoria musical comunitaria",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Nuestro libro de proyectos Tomo II",
+          "pages": [
+            62,
+            63,
+            64
+          ],
+          "reason": "La fuente validada \"Proyecto académico 26\" aporta base suficiente para trabajar memoria musical comunitaria dentro del proyecto 26."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer musical plurilingüístico y a explicar la adaptación de canciones a lenguas indígenas y la reflexión sobre la música como expresión de identidad cultural con mayor claridad mediante memoria musical comunitaria.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-2-ppa-9-pa27",
+        "projectTitle": "¡Historietas que se sienten!",
+        "concept": "historieta muda",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Nuestro libro de proyectos Tomo II",
+          "pages": [
+            65,
+            69
+          ],
+          "reason": "Posibilidades y el propio proyecto fijan Historieta muda como producto final del PA 27."
+        },
+        "pedagogicalUse": "Da una forma concreta de socializar lo comprendido sobre la adaptación de textos literarios en lengua indígena a una secuencia visual que sensibilice sobre su relevancia social y cultural.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-2-ppa-9-pa27",
+        "projectTitle": "¡Historietas que se sienten!",
+        "concept": "interacción lingüística",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            27,
+            28
+          ],
+          "reason": "La fuente validada \"La historieta como instrumento para representar la interacción lingüística\" aporta base suficiente para trabajar interacción lingüística dentro del proyecto 27."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer historieta muda y a explicar la adaptación de textos literarios en lengua indígena a una secuencia visual que sensibilice sobre su relevancia social y cultural con mayor claridad mediante interacción lingüística.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-2-ppa-9-pa27",
+        "projectTitle": "¡Historietas que se sienten!",
+        "concept": "secuencia de viñetas",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Nuestro libro de proyectos Tomo II",
+          "pages": [
+            65,
+            66,
+            67
+          ],
+          "reason": "La fuente validada \"Proyecto académico 27\" aporta base suficiente para trabajar secuencia de viñetas dentro del proyecto 27."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer historieta muda y a explicar la adaptación de textos literarios en lengua indígena a una secuencia visual que sensibilice sobre su relevancia social y cultural con mayor claridad mediante secuencia de viñetas.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-2-ppa-9-pa27",
+        "projectTitle": "¡Historietas que se sienten!",
+        "concept": "literatura en lengua indígena",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            160,
+            161
+          ],
+          "reason": "La fuente validada \"La poesía en la tradición oral indígena\" aporta base suficiente para trabajar literatura en lengua indígena dentro del proyecto 27."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer historieta muda y a explicar la adaptación de textos literarios en lengua indígena a una secuencia visual que sensibilice sobre su relevancia social y cultural con mayor claridad mediante literatura en lengua indígena.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-2-ppa-9-pa27",
+        "projectTitle": "¡Historietas que se sienten!",
+        "concept": "adaptación visual",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Nuestro libro de proyectos Tomo II",
+          "pages": [
+            65,
+            66,
+            67
+          ],
+          "reason": "La fuente validada \"Proyecto académico 27\" aporta base suficiente para trabajar adaptación visual dentro del proyecto 27."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer historieta muda y a explicar la adaptación de textos literarios en lengua indígena a una secuencia visual que sensibilice sobre su relevancia social y cultural con mayor claridad mediante adaptación visual.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-2-ppa-9-pa27",
+        "projectTitle": "¡Historietas que se sienten!",
+        "concept": "sensibilización cultural",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Nuestro libro de proyectos Tomo II",
+          "pages": [
+            65,
+            66,
+            67
+          ],
+          "reason": "La fuente validada \"Proyecto académico 27\" aporta base suficiente para trabajar sensibilización cultural dentro del proyecto 27."
+        },
+        "pedagogicalUse": "Ayuda a fortalecer historieta muda y a explicar la adaptación de textos literarios en lengua indígena a una secuencia visual que sensibilice sobre su relevancia social y cultural con mayor claridad mediante sensibilización cultural.",
+        "activityReadiness": "usable-for-autoevaluation"
+      }
+    ]
+  },
+  "pedagogicalArticulation": {
+    "grade": "2",
+    "field": "Lenguajes",
+    "ppaNumber": "9",
+    "status": "teacher-orientation",
+    "officialHorizonStatus": "pending",
+    "situatedPedagogicalOrientation": "El PPA 9 busca rescatar relatos de la comunidad y reinterpretarlos mediante teatro guiñol, musical plurilingüístico e historieta muda para valorar la literatura en distintas lenguas y sus vínculos con la memoria local.",
+    "integratingQuestions": [
+      "Como dialogan teatro guiñol, musical plurilingüístico, historieta muda dentro del mismo PPA 9?",
+      "Que cambia en la comprension de el rescate de relatos comunitarios y su adaptación a lenguajes teatrales, musicales y visuales para valorar la memoria local cuando el grupo pone en relacion conceptos, producto y comunidad?",
+      "Como convertir el producto final en una herramienta de explicacion y no solo de presentacion?"
+    ],
+    "projectConnections": [
+      {
+        "projectId": "lenguajes-2-ppa-9-pa25",
+        "projectTitle": "Títeres narradores",
+        "roleInPpa": "Abre el bloque al recuperar relatos de la comunidad y convertirlos en representación dramática compartida.",
+        "confirmedConcepts": [
+          "teatro guiñol",
+          "narración biográfica",
+          "autobiografía",
+          "guion teatral",
+          "oralidad comunitaria",
+          "adaptación dramática"
+        ],
+        "suggestedConcepts": [],
+        "pedagogicalUse": "Conviene trabajar Títeres narradores como una oportunidad para profundizar en el rescate de narraciones biográficas o autobiográficas de la comunidad y su adaptación a una representación de teatro guiñol sin separar contenido, comunidad y producto final."
+      },
+      {
+        "projectId": "lenguajes-2-ppa-9-pa26",
+        "projectTitle": "La música como identidad cultural",
+        "roleInPpa": "Profundiza el bloque al convertir memoria musical, traducción y convivencia comunitaria en un evento plurilingüe.",
+        "confirmedConcepts": [
+          "musical plurilingüístico",
+          "identidad cultural",
+          "música tradicional",
+          "plurilingüismo",
+          "traducción a lenguas indígenas",
+          "memoria musical comunitaria"
+        ],
+        "suggestedConcepts": [],
+        "pedagogicalUse": "Conviene trabajar La música como identidad cultural como una oportunidad para profundizar en la adaptación de canciones a lenguas indígenas y la reflexión sobre la música como expresión de identidad cultural sin separar contenido, comunidad y producto final."
+      },
+      {
+        "projectId": "lenguajes-2-ppa-9-pa27",
+        "projectTitle": "¡Historietas que se sienten!",
+        "roleInPpa": "Cierra el bloque al pasar del relato y la música a una reinterpretación visual de la literatura en lenguas indígenas.",
+        "confirmedConcepts": [
+          "historieta muda",
+          "interacción lingüística",
+          "secuencia de viñetas",
+          "literatura en lengua indígena",
+          "adaptación visual",
+          "sensibilización cultural"
+        ],
+        "suggestedConcepts": [],
+        "pedagogicalUse": "Conviene trabajar ¡Historietas que se sienten! como una oportunidad para profundizar en la adaptación de textos literarios en lengua indígena a una secuencia visual que sensibilice sobre su relevancia social y cultural sin separar contenido, comunidad y producto final."
+      }
+    ],
+    "criteriaOfThought": [
+      {
+        "criterion": "Relacionar el rescate de relatos comunitarios y su adaptación a lenguajes teatrales, musicales y visuales para valorar la memoria local con experiencias concretas del entorno.",
+        "status": "suggested"
+      },
+      {
+        "criterion": "Usar el producto final para comunicar con claridad, no solo para acumular definiciones.",
+        "status": "suggested"
+      }
+    ],
+    "possibleResonanceQuestion": "¿Qué comprensiones nuevas sobre el rescate de relatos comunitarios y su adaptación a lenguajes teatrales, musicales y visuales para valorar la memoria local se vuelven visibles cuando el grupo comparte los productos del PPA 9?",
+    "teacherNotes": [
+      "No reducir el PPA 9 a tres productos aislados; el bloque construye una misma conversacion curricular.",
+      "Las paginas de Posibilidades forman un mismo bloque y los apoyos por columna se documentan por inferencia curricular situada.",
+      "Los enlaces cortos del video detonador y del recurso informatico se mantienen en cautela y no deben tratarse como recursos ya validados."
+    ],
+    "notReadyFor": [
+      "actividades interactivas",
+      "full-games",
+      "summative-exam"
+    ]
+  },
+  "teacherNotesAndResonances": {
+    "grade": "2",
+    "field": "Lenguajes",
+    "ppaNumber": "9",
+    "status": "teacher-orientation",
+    "officialHorizonStatus": "pending",
+    "ppaIntegratingResonance": "¿Qué comprensiones nuevas sobre el rescate de relatos comunitarios y su adaptación a lenguajes teatrales, musicales y visuales para valorar la memoria local se vuelven visibles cuando el grupo comparte los productos del PPA 9?",
+    "didacticWarnings": [
+      "No convertir el bloque en una lista de definiciones; importa relacionar conceptos con producto, comunidad y dialogo.",
+      "Los enlaces cortos bit.ly/3VfglUk y bit.ly/3WQBMwg se mantienen como cautela y no deben tratarse como recursos ya validados.",
+      "La distribucion de apoyos por columna se fija por inferencia curricular documentada a partir de Posibilidades."
+    ],
+    "communityPrompts": {
+      "communityKnowledge": [
+        "Que saberes de la comunidad ayudan a profundizar en el rescate de relatos comunitarios y su adaptación a lenguajes teatrales, musicales y visuales para valorar la memoria local?",
+        "Que ejemplos cercanos permiten que los conceptos del campo se vuelvan mas claros para el grupo?"
+      ],
+      "families": [
+        "Que experiencias, relatos o practicas familiares pueden enriquecer el proyecto sin desplazar su foco academico?",
+        "Que aprendizajes vale la pena compartir con otras generaciones a partir del producto final?"
+      ],
+      "territoryLanguageMemory": [
+        "Que palabras, lugares o memorias ayudan a nombrar mejor lo que el proyecto esta buscando comprender?",
+        "Como pueden circular estos productos dentro de la comunidad escolar sin perder precision ni sentido?"
+      ],
+      "productCommunityConnection": [
+        "Como podria circular teatro guiñol, musical plurilingüístico, historieta muda para fortalecer el dialogo comunitario?"
+      ]
+    },
+    "suggestedThinkingCriteria": [
+      "Relacionar el rescate de relatos comunitarios y su adaptación a lenguajes teatrales, musicales y visuales para valorar la memoria local con problemas, experiencias y preguntas del entorno cercano.",
+      "Valorar el producto final como herramienta de comprension y comunicacion compartida."
+    ],
+    "projects": [
+      {
+        "projectId": "lenguajes-2-ppa-9-pa25",
+        "projectTitle": "Títeres narradores",
+        "teacherNotes": [
+          "Conviene partir de ejemplos cercanos y después pasar al lenguaje mas abstracto del campo.",
+          "El producto Teatro guiñol gana fuerza cuando se usa para explicar y no solo para exhibir informacion.",
+          "Es mejor seleccionar pocos conceptos bien comprendidos que saturar el trabajo con terminos aislados."
+        ],
+        "confirmedConceptsToUse": [
+          "teatro guiñol",
+          "narración biográfica",
+          "autobiografía",
+          "guion teatral",
+          "oralidad comunitaria",
+          "adaptación dramática"
+        ],
+        "suggestedConceptsToHandleCarefully": [],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Qué comprendes mejor sobre el rescate de narraciones biográficas o autobiográficas de la comunidad y su adaptación a una representación de teatro guiñol después de elaborar teatro guiñol?"
+          },
+          {
+            "type": "community",
+            "prompt": "¿Qué diálogos comunitarios podrían fortalecerse si compartimos teatro guiñol y lo ponemos en conversación con otras personas?"
+          }
+        ],
+        "notReadyFor": [
+          "full-games",
+          "summative-exam"
+        ]
+      },
+      {
+        "projectId": "lenguajes-2-ppa-9-pa26",
+        "projectTitle": "La música como identidad cultural",
+        "teacherNotes": [
+          "Conviene partir de ejemplos cercanos y después pasar al lenguaje mas abstracto del campo.",
+          "El producto Musical plurilingüístico gana fuerza cuando se usa para explicar y no solo para exhibir informacion.",
+          "Es mejor seleccionar pocos conceptos bien comprendidos que saturar el trabajo con terminos aislados."
+        ],
+        "confirmedConceptsToUse": [
+          "musical plurilingüístico",
+          "identidad cultural",
+          "música tradicional",
+          "plurilingüismo",
+          "traducción a lenguas indígenas",
+          "memoria musical comunitaria"
+        ],
+        "suggestedConceptsToHandleCarefully": [],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Qué comprendes mejor sobre la adaptación de canciones a lenguas indígenas y la reflexión sobre la música como expresión de identidad cultural después de elaborar musical plurilingüístico?"
+          },
+          {
+            "type": "community",
+            "prompt": "¿Qué diálogos comunitarios podrían fortalecerse si compartimos musical plurilingüístico y lo ponemos en conversación con otras personas?"
+          }
+        ],
+        "notReadyFor": [
+          "full-games",
+          "summative-exam"
+        ]
+      },
+      {
+        "projectId": "lenguajes-2-ppa-9-pa27",
+        "projectTitle": "¡Historietas que se sienten!",
+        "teacherNotes": [
+          "Conviene partir de ejemplos cercanos y después pasar al lenguaje mas abstracto del campo.",
+          "El producto Historieta muda gana fuerza cuando se usa para explicar y no solo para exhibir informacion.",
+          "Es mejor seleccionar pocos conceptos bien comprendidos que saturar el trabajo con terminos aislados."
+        ],
+        "confirmedConceptsToUse": [
+          "historieta muda",
+          "interacción lingüística",
+          "secuencia de viñetas",
+          "literatura en lengua indígena",
+          "adaptación visual",
+          "sensibilización cultural"
+        ],
+        "suggestedConceptsToHandleCarefully": [],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Qué comprendes mejor sobre la adaptación de textos literarios en lengua indígena a una secuencia visual que sensibilice sobre su relevancia social y cultural después de elaborar historieta muda?"
+          },
+          {
+            "type": "community",
+            "prompt": "¿Qué diálogos comunitarios podrían fortalecerse si compartimos historieta muda y lo ponemos en conversación con otras personas?"
+          }
+        ],
+        "notReadyFor": [
+          "full-games",
+          "summative-exam"
+        ]
+      }
+    ]
+  },
+  "validationAudit": {
+    "kind": "fine-validation-audit",
+    "source": "reports/caracoles/grade2-lenguajes-ppa9-reading-bundle-audit.md",
+    "content": "# Auditoria de lectura docente\n\n## Alcance\n\n- Campo: 2o Lenguajes\n- Bloque: PPA 9\n- Titulo del PPA: Relatos del pasado y contemporáneos de mi comunidad\n- Proyectos: PA25-PA27\n\n## Proyectos validados\n\n25. Títeres narradores\n   - Producto final: Teatro guiñol\n   - Paginas: Nuestro libro de proyectos Tomo II pp. 57-60\n26. La música como identidad cultural\n   - Producto final: Musical plurilingüístico\n   - Paginas: Nuestro libro de proyectos Tomo II pp. 61-64\n27. ¡Historietas que se sienten!\n   - Producto final: Historieta muda\n   - Paginas: Nuestro libro de proyectos Tomo II pp. 65-69\n\n## Evidencia base usada\n\n- Posibilidades de uso Lenguajes pp. 26-27.\n- Nuestro libro de proyectos Tomo II pp. 55-69.\n- Lenguajes, segundo grado, pp. 12-16, 21, 27-28, 52-58, 68-75, 82-94, 159-163, 246-248, 255-262 y 293-295; Múltiples Lenguajes pp. 16-17 y 78-79..\n\n## Decisiones curriculares del bloque\n\n- El horizonte comun del PPA 9 se mantiene en estado pendiente como formula unica; se privilegia una orientacion pedagogica situada y documentada.\n- Los productos finales quedan confirmados desde Posibilidades y la secuencia del propio proyecto.\n- Los conceptos confirmados se normalizan para sostener lectura docente, autoevaluacion y actividades de relacion de columnas.\n- La resonancia se formula como pregunta abierta para reforzar el sentido formativo del bloque.\n\n## Cautelas reales\n\n- El video detonador del PPA 9 y el recurso informatico del bloque siguen sin URL oficial confirmada.\n- La asignacion de apoyos por columna se sostiene por inferencia curricular documentada, no por OCR limpio de tabla.\n- No se marca el bloque como actividades interactivas ni se desbloquean juegos completos.\n"
+  }
+}

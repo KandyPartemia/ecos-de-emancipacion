@@ -1,0 +1,1201 @@
+{
+  "grade": "3",
+  "gradeLabel": "Tercer grado",
+  "field": "Lenguajes",
+  "ppaNumber": "2",
+  "partialClassroomProject": "PPA 2",
+  "partialClassroomProjectTitle": "Interactuamos, compartimos y solucionamos problemas",
+  "source": "curricular-development-generated",
+  "generatedAt": "2026-06-07T03:06:27.065Z",
+  "development": {
+    "grade": "3",
+    "gradeLabel": "Tercer grado",
+    "field": "Lenguajes",
+    "bookVolume": "Tomo I",
+    "partialClassroomProject": "PPA 2",
+    "partialClassroomProjectTitle": "Interactuamos, compartimos y solucionamos problemas",
+    "generatedAt": "2026-06-07T03:06:27.031Z",
+    "notes": "Capa curricular generada por lote para 3o Lenguajes, PPA 2.",
+    "sourcesUsed": [
+      "content/caracoles/curricular-catalog/all-projects-canonical.json",
+      "public/caracoles/data/generated/grade-3/concepts-index.json",
+      "src/caracoles/lib/officialVideoLinks.ts",
+      "Posibilidades de uso Lenguajes, tercer grado, p. 9",
+      "Nuestro libro de proyectos, tercer grado, pp. 54-66"
+    ],
+    "partialClassroomProjectContext": {
+      "expectationHorizon": {
+        "officialText": "",
+        "sourcePages": [
+          "Nuestro libro de proyectos Tomo I pp. 54-58",
+          "Posibilidades de uso Lenguajes p. 9"
+        ],
+        "evidence": "El PPA 2 articula 4. patrimonio cultural y el dinamismo de las lenguas, 5. problemas e intereses comunitarios y los lenguajes, debate corto de la paz para trabajar Interactuamos, compartimos y solucionamos problemas.",
+        "status": "pending"
+      },
+      "ppaDetonatingStrategy": {
+        "title": "Interactuamos, compartimos y solucionamos problemas",
+        "type": "video",
+        "url": "",
+        "urlStatus": "confirmed-by-official-video-map",
+        "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+        "scope": "partial-classroom-project"
+      },
+      "ppaDigitalResource": {
+        "title": "Recurso del Proyecto Parcial de Aula 2",
+        "reference": "",
+        "status": "confirmed-by-official-video-map",
+        "source": "YouTube, acervo Aprende_MX/Telesecundaria"
+      },
+      "validationStatus": {
+        "needsHumanReview": true,
+        "needsReviewReasons": [
+          "Los videos PA/PPA se validan por el mapa oficial de enlaces directos ya generado.",
+          "Los apoyos complementarios impresos no se asignan cuando no hay evidencia validada por columna.",
+          "El horizonte textual literal queda pendiente de revision fina si se necesita cita exacta."
+        ]
+      },
+      "columnValidation": {
+        "possibilitiesPagesReviewed": [
+          9
+        ],
+        "confirmedAsPpa": true,
+        "note": "El PPA 2 se agrupa desde el catalogo canonico de tercer grado.",
+        "columns": [
+          {
+            "columnIndex": 1,
+            "projectId": "lenguajes-3-ppa-2-pa4",
+            "projectTitle": "Una colmena de culturas",
+            "finalProduct": "4. Patrimonio cultural y el dinamismo de las lenguas",
+            "supportMaterials": []
+          },
+          {
+            "columnIndex": 2,
+            "projectId": "lenguajes-3-ppa-2-pa5",
+            "projectTitle": "Un laberinto de problemas",
+            "finalProduct": "5. Problemas e intereses comunitarios y los lenguajes",
+            "supportMaterials": []
+          },
+          {
+            "columnIndex": 3,
+            "projectId": "lenguajes-3-ppa-2-pa6",
+            "projectTitle": "Encuentros para reflexionar",
+            "finalProduct": "Debate corto de la paz",
+            "supportMaterials": []
+          }
+        ]
+      }
+    },
+    "academicProjects": [
+      {
+        "id": "lenguajes-3-ppa-2-pa4",
+        "projectId": "lenguajes-3-ppa-2-pa4",
+        "academicProjectNumber": 4,
+        "title": "Una colmena de culturas",
+        "projectTitle": "Una colmena de culturas",
+        "grade": "3",
+        "field": "Lenguajes",
+        "ppaNumber": "2",
+        "partialClassroomProject": "PPA 2",
+        "partialClassroomProjectTitle": "Interactuamos, compartimos y solucionamos problemas",
+        "bookVolume": "Tomo I",
+        "sourceValidation": {
+          "sourceStatus": "linked",
+          "possibilitiesPages": [
+            9
+          ],
+          "possibilitiesMaterialId": "grade-3-posibilidades-pos-len-3",
+          "possibilitiesColumnIndex": 1,
+          "columnEvidence": "Proyecto PA 4 agrupado en el PPA 2 desde el catalogo canonico y las paginas de Posibilidades."
+        },
+        "finalProduct": {
+          "title": "4. Patrimonio cultural y el dinamismo de las lenguas",
+          "source": "Video detonador validado en YouTube + Nuestro libro de proyectos Tomo I pp. 54-58",
+          "status": "confirmed-from-video-and-project"
+        },
+        "sourcePages": {
+          "nuestroLibroProyectos": [
+            {
+              "materialId": "grade-3-proyectos-nuestros-proyectos-tomo-1-tercer-grado",
+              "label": "Nuestro libro de proyectos Tomo I",
+              "startPage": 54,
+              "endPage": 58,
+              "pagesLabel": "pp. 54-58",
+              "topicTitle": "Proyecto academico 4",
+              "status": "confirmed-source"
+            }
+          ],
+          "conceptBook": [
+            {
+              "materialId": "grade-3-conceptos-lenguajes-tercer-grado",
+              "label": "Lenguajes",
+              "startPage": 54,
+              "endPage": 54,
+              "pagesLabel": "p. 54",
+              "topicTitle": "4. patrimonio cultural y el dinamismo de las lenguas",
+              "status": "confirmed"
+            }
+          ],
+          "multiplesLenguajes": [],
+          "otherMaterials": [
+            {
+              "label": "Video PA 4: 4. Patrimonio cultural y el dinamismo de las lenguas • Lenguajes • 3er grado",
+              "reference": "https://www.youtube.com/watch?v=vpbNe7xpt7E",
+              "status": "confirmed"
+            },
+            {
+              "label": "Video PPA 2: 2. Interactuamos, compartimos y solucionamos problemas • Lenguajes • 3er grado",
+              "reference": "https://www.youtube.com/watch?v=p91nblUma70",
+              "status": "confirmed"
+            }
+          ]
+        },
+        "supportMaterials": [],
+        "horizonOrPurpose": {
+          "status": "pending",
+          "text": "",
+          "source": "Nuestro libro de proyectos Tomo I pp. 54-58"
+        },
+        "projectExpectationHorizon": {
+          "officialText": "Objetivo 1: Conocer los principios y las características de la interculturalidad mediante una investigación con el fin de entender el concepto, relacionarlo con nuestro entorno e identificarlo en nuestras lecturas. Objetivo 2: Investigar en distintas bases de datos sobre las múltiples fuentes de consulta que albergan textos literarios e interculturales para su recopilación, lectura y revisión y, a partir de ello, organizar un encuentro de argumentos dramatizados.",
+          "studentVersion": "Conocer los principios y las características de la interculturalidad mediante una investigación con el fin de entender el concepto, relacionarlo con nuestro entorno e identificarlo en nuestras lecturas. Investigar en distintas bases de datos sobre las múltiples fuentes de consulta que albergan textos literarios e interculturales para su recopilación, lectura y revisión y, a partir de ello, organizar un encuentro de argumentos dramatizados.",
+          "sourcePages": [
+            "Nuestro libro de proyectos Tomo I p. 55"
+          ],
+          "evidence": "Objetivo 1 y Objetivo 2 aparecen como par dentro del rango exacto del PA. Se conserva el rotulo encontrado como evidencia.",
+          "status": "confirmed-from-project-book",
+          "detectedLabel": "Objetivo 1 + Objetivo 2",
+          "validationScope": "academic-project"
+        },
+        "detonatingStrategy": {
+          "title": "2. Interactuamos, compartimos y solucionamos problemas • Lenguajes • 3er grado",
+          "text": "Video del Proyecto Parcial de Aula 2: 2. Interactuamos, compartimos y solucionamos problemas • Lenguajes • 3er grado",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=p91nblUma70",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "partial-classroom-project"
+        },
+        "academicProjectStrategy": {
+          "title": "4. Patrimonio cultural y el dinamismo de las lenguas • Lenguajes • 3er grado",
+          "text": "Video detonador del Proyecto Academico 4: Una colmena de culturas",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=vpbNe7xpt7E",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "academic-project"
+        },
+        "academicConcepts": [
+          {
+            "concept": "4. patrimonio cultural y el dinamismo de las lenguas",
+            "description": "4. patrimonio cultural y el dinamismo de las lenguas organiza el producto de cierre y permite comunicar lo aprendido en el proyecto.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              54
+            ],
+            "sourcePagesLabel": "p. 54",
+            "topicTitle": "Proyecto academico 4",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 4, al PPA 2 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Lenguaje",
+            "description": "Lenguaje ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              54
+            ],
+            "sourcePagesLabel": "p. 54",
+            "topicTitle": "Proyecto academico 4",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 4, al PPA 2 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Cultura",
+            "description": "Cultura ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              154
+            ],
+            "sourcePagesLabel": "p. 154",
+            "topicTitle": "Proyecto academico 4",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 4, al PPA 2 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Comunicacion",
+            "description": "Comunicacion ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              54
+            ],
+            "sourcePagesLabel": "p. 54",
+            "topicTitle": "Proyecto academico 4",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 4, al PPA 2 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Lectura",
+            "description": "Lectura ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              54
+            ],
+            "sourcePagesLabel": "p. 54",
+            "topicTitle": "Proyecto academico 4",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 4, al PPA 2 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Escritura",
+            "description": "Escritura ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              54
+            ],
+            "sourcePagesLabel": "p. 54",
+            "topicTitle": "Proyecto academico 4",
+            "status": "suggested",
+            "reason": "Concepto vinculado al PA 4, al PPA 2 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "teacher-review"
+          }
+        ],
+        "thinkingCriteria": [
+          "Relacionar Una colmena de culturas con una situacion concreta del entorno escolar o comunitario.",
+          "Usar 4. patrimonio cultural y el dinamismo de las lenguas para explicar ideas con claridad y evidencia."
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Como te ayuda 4. patrimonio cultural y el dinamismo de las lenguas a comprender mejor Una colmena de culturas y a explicar sus conceptos clave en tu comunidad?",
+            "conceptsActivated": [
+              "4. patrimonio cultural y el dinamismo de las lenguas",
+              "Lenguaje",
+              "Cultura",
+              "Comunicacion"
+            ],
+            "suggestedUse": "Momento 1 de autoevaluacion"
+          }
+        ],
+        "validationStatus": {
+          "readinessLevel": "curricular-bundle-generated",
+          "readyForActivities": true,
+          "needsReviewReasons": [
+            "El horizonte textual literal queda pendiente de revision fina si se requiere cita exacta.",
+            "Los apoyos complementarios impresos no se asignan cuando no hay evidencia validada por columna."
+          ]
+        },
+        "readinessLevel": "curricular-bundle-generated",
+        "readyForActivities": true,
+        "needsReviewReasons": []
+      },
+      {
+        "id": "lenguajes-3-ppa-2-pa5",
+        "projectId": "lenguajes-3-ppa-2-pa5",
+        "academicProjectNumber": 5,
+        "title": "Un laberinto de problemas",
+        "projectTitle": "Un laberinto de problemas",
+        "grade": "3",
+        "field": "Lenguajes",
+        "ppaNumber": "2",
+        "partialClassroomProject": "PPA 2",
+        "partialClassroomProjectTitle": "Interactuamos, compartimos y solucionamos problemas",
+        "bookVolume": "Tomo I",
+        "sourceValidation": {
+          "sourceStatus": "linked",
+          "possibilitiesPages": [
+            9
+          ],
+          "possibilitiesMaterialId": "grade-3-posibilidades-pos-len-3",
+          "possibilitiesColumnIndex": 2,
+          "columnEvidence": "Proyecto PA 5 agrupado en el PPA 2 desde el catalogo canonico y las paginas de Posibilidades."
+        },
+        "finalProduct": {
+          "title": "5. Problemas e intereses comunitarios y los lenguajes",
+          "source": "Video detonador validado en YouTube + Nuestro libro de proyectos Tomo I pp. 59-62",
+          "status": "confirmed-from-video-and-project"
+        },
+        "sourcePages": {
+          "nuestroLibroProyectos": [
+            {
+              "materialId": "grade-3-proyectos-nuestros-proyectos-tomo-1-tercer-grado",
+              "label": "Nuestro libro de proyectos Tomo I",
+              "startPage": 59,
+              "endPage": 62,
+              "pagesLabel": "pp. 59-62",
+              "topicTitle": "Proyecto academico 5",
+              "status": "confirmed-source"
+            }
+          ],
+          "conceptBook": [
+            {
+              "materialId": "grade-3-conceptos-lenguajes-tercer-grado",
+              "label": "Lenguajes",
+              "startPage": 59,
+              "endPage": 59,
+              "pagesLabel": "p. 59",
+              "topicTitle": "5. problemas e intereses comunitarios y los lenguajes",
+              "status": "confirmed"
+            }
+          ],
+          "multiplesLenguajes": [],
+          "otherMaterials": [
+            {
+              "label": "Video PA 5: 5. Problemas e intereses comunitarios y los lenguajes • Lenguajes • 3er grado",
+              "reference": "https://www.youtube.com/watch?v=qEeSpk-12mw",
+              "status": "confirmed"
+            },
+            {
+              "label": "Video PPA 2: 2. Interactuamos, compartimos y solucionamos problemas • Lenguajes • 3er grado",
+              "reference": "https://www.youtube.com/watch?v=p91nblUma70",
+              "status": "confirmed"
+            }
+          ]
+        },
+        "supportMaterials": [],
+        "horizonOrPurpose": {
+          "status": "pending",
+          "text": "",
+          "source": "Nuestro libro de proyectos Tomo I pp. 59-62"
+        },
+        "projectExpectationHorizon": {
+          "officialText": "Objetivo 1: Conocer los elementos, las características y las causas de los conflictos interculturales, mediante una investigación o entrevista, para identificar su impacto en la comunidad. Objetivo 2: Desarrollar propuestas de solución a conflictos interculturales mediante la realización de varias actividades en el grupo para encontrar, en comunidad, técnicas de resolución, y expresarlas por medio de un juego de roles.",
+          "studentVersion": "Conocer los elementos, las características y las causas de los conflictos interculturales, mediante una investigación o entrevista, para identificar su impacto en la comunidad. Desarrollar propuestas de solución a conflictos interculturales mediante la realización de varias actividades en el grupo para encontrar, en comunidad, técnicas de resolución, y expresarlas por medio de un juego de roles.",
+          "sourcePages": [
+            "Nuestro libro de proyectos Tomo I p. 60"
+          ],
+          "evidence": "Texto rotulado como Objetivo dentro del rango exacto del Proyecto Academico; se acepta como equivalente funcional de horizonte de expectativas.",
+          "status": "confirmed-from-project-book",
+          "detectedLabel": "Objetivo",
+          "validationScope": "academic-project"
+        },
+        "detonatingStrategy": {
+          "title": "2. Interactuamos, compartimos y solucionamos problemas • Lenguajes • 3er grado",
+          "text": "Video del Proyecto Parcial de Aula 2: 2. Interactuamos, compartimos y solucionamos problemas • Lenguajes • 3er grado",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=p91nblUma70",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "partial-classroom-project"
+        },
+        "academicProjectStrategy": {
+          "title": "5. Problemas e intereses comunitarios y los lenguajes • Lenguajes • 3er grado",
+          "text": "Video detonador del Proyecto Academico 5: Un laberinto de problemas",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=qEeSpk-12mw",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "academic-project"
+        },
+        "academicConcepts": [
+          {
+            "concept": "5. problemas e intereses comunitarios y los lenguajes",
+            "description": "5. problemas e intereses comunitarios y los lenguajes organiza el producto de cierre y permite comunicar lo aprendido en el proyecto.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              59
+            ],
+            "sourcePagesLabel": "p. 59",
+            "topicTitle": "Proyecto academico 5",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 5, al PPA 2 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Lenguaje",
+            "description": "Lenguaje ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              59
+            ],
+            "sourcePagesLabel": "p. 59",
+            "topicTitle": "Proyecto academico 5",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 5, al PPA 2 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Cultura",
+            "description": "Cultura ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              154
+            ],
+            "sourcePagesLabel": "p. 154",
+            "topicTitle": "Proyecto academico 5",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 5, al PPA 2 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Comunicacion",
+            "description": "Comunicacion ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              59
+            ],
+            "sourcePagesLabel": "p. 59",
+            "topicTitle": "Proyecto academico 5",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 5, al PPA 2 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Lectura",
+            "description": "Lectura ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              59
+            ],
+            "sourcePagesLabel": "p. 59",
+            "topicTitle": "Proyecto academico 5",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 5, al PPA 2 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Escritura",
+            "description": "Escritura ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              59
+            ],
+            "sourcePagesLabel": "p. 59",
+            "topicTitle": "Proyecto academico 5",
+            "status": "suggested",
+            "reason": "Concepto vinculado al PA 5, al PPA 2 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "teacher-review"
+          }
+        ],
+        "thinkingCriteria": [
+          "Relacionar Un laberinto de problemas con una situacion concreta del entorno escolar o comunitario.",
+          "Usar 5. problemas e intereses comunitarios y los lenguajes para explicar ideas con claridad y evidencia."
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Como te ayuda 5. problemas e intereses comunitarios y los lenguajes a comprender mejor Un laberinto de problemas y a explicar sus conceptos clave en tu comunidad?",
+            "conceptsActivated": [
+              "5. problemas e intereses comunitarios y los lenguajes",
+              "Lenguaje",
+              "Cultura",
+              "Comunicacion"
+            ],
+            "suggestedUse": "Momento 1 de autoevaluacion"
+          }
+        ],
+        "validationStatus": {
+          "readinessLevel": "curricular-bundle-generated",
+          "readyForActivities": true,
+          "needsReviewReasons": [
+            "El horizonte textual literal queda pendiente de revision fina si se requiere cita exacta.",
+            "Los apoyos complementarios impresos no se asignan cuando no hay evidencia validada por columna."
+          ]
+        },
+        "readinessLevel": "curricular-bundle-generated",
+        "readyForActivities": true,
+        "needsReviewReasons": []
+      },
+      {
+        "id": "lenguajes-3-ppa-2-pa6",
+        "projectId": "lenguajes-3-ppa-2-pa6",
+        "academicProjectNumber": 6,
+        "title": "Encuentros para reflexionar",
+        "projectTitle": "Encuentros para reflexionar",
+        "grade": "3",
+        "field": "Lenguajes",
+        "ppaNumber": "2",
+        "partialClassroomProject": "PPA 2",
+        "partialClassroomProjectTitle": "Interactuamos, compartimos y solucionamos problemas",
+        "bookVolume": "Tomo I",
+        "sourceValidation": {
+          "sourceStatus": "linked",
+          "possibilitiesPages": [
+            9
+          ],
+          "possibilitiesMaterialId": "grade-3-posibilidades-pos-len-3",
+          "possibilitiesColumnIndex": 3,
+          "columnEvidence": "Proyecto PA 6 agrupado en el PPA 2 desde el catalogo canonico y las paginas de Posibilidades."
+        },
+        "finalProduct": {
+          "title": "Debate corto de la paz",
+          "source": "Video detonador validado en YouTube + Nuestro libro de proyectos Tomo I pp. 63-66",
+          "status": "confirmed-from-video-and-project"
+        },
+        "sourcePages": {
+          "nuestroLibroProyectos": [
+            {
+              "materialId": "grade-3-proyectos-nuestros-proyectos-tomo-1-tercer-grado",
+              "label": "Nuestro libro de proyectos Tomo I",
+              "startPage": 63,
+              "endPage": 66,
+              "pagesLabel": "pp. 63-66",
+              "topicTitle": "Proyecto academico 6",
+              "status": "confirmed-source"
+            }
+          ],
+          "conceptBook": [
+            {
+              "materialId": "grade-3-conceptos-lenguajes-tercer-grado",
+              "label": "Lenguajes",
+              "startPage": 63,
+              "endPage": 63,
+              "pagesLabel": "p. 63",
+              "topicTitle": "Debate corto de la paz",
+              "status": "confirmed"
+            }
+          ],
+          "multiplesLenguajes": [],
+          "otherMaterials": [
+            {
+              "label": "Video PA 6: Debate corto de la paz • Lenguajes • 3er grado",
+              "reference": "https://www.youtube.com/watch?v=Fw1Wf4-7fhI",
+              "status": "confirmed"
+            },
+            {
+              "label": "Video PPA 2: 2. Interactuamos, compartimos y solucionamos problemas • Lenguajes • 3er grado",
+              "reference": "https://www.youtube.com/watch?v=p91nblUma70",
+              "status": "confirmed"
+            }
+          ]
+        },
+        "supportMaterials": [],
+        "horizonOrPurpose": {
+          "status": "pending",
+          "text": "",
+          "source": "Nuestro libro de proyectos Tomo I pp. 63-66"
+        },
+        "projectExpectationHorizon": {
+          "officialText": "Objetivo 1: Identificar los puntos clave para desarrollar un debate corto de la paz sobre la interculturalidad, las relaciones sociales y la diversidad cultural, con el fin de fomentar la comunicación asertiva. Objetivo 2: Investigar y reconocer los rasgos que identifican a la sociedad intercultural, con la finalidad de reconocerlos dentro de su comunidad y, a partir de ello, realizar un debate corto en las lenguas de su elección.",
+          "studentVersion": "Identificar los puntos clave para desarrollar un debate corto de la paz sobre la interculturalidad, las relaciones sociales y la diversidad cultural, con el fin de fomentar la comunicación asertiva. Investigar y reconocer los rasgos que identifican a la sociedad intercultural, con la finalidad de reconocerlos dentro de su comunidad y, a partir de ello, realizar un debate corto en las lenguas de su elección.",
+          "sourcePages": [
+            "Nuestro libro de proyectos Tomo I p. 64"
+          ],
+          "evidence": "Objetivo 1 y Objetivo 2 aparecen como par dentro del rango exacto del PA. Se conserva el rotulo encontrado como evidencia.",
+          "status": "confirmed-from-project-book",
+          "detectedLabel": "Objetivo 1 + Objetivo 2",
+          "validationScope": "academic-project"
+        },
+        "detonatingStrategy": {
+          "title": "2. Interactuamos, compartimos y solucionamos problemas • Lenguajes • 3er grado",
+          "text": "Video del Proyecto Parcial de Aula 2: 2. Interactuamos, compartimos y solucionamos problemas • Lenguajes • 3er grado",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=p91nblUma70",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "partial-classroom-project"
+        },
+        "academicProjectStrategy": {
+          "title": "Debate corto de la paz • Lenguajes • 3er grado",
+          "text": "Video detonador del Proyecto Academico 6: Encuentros para reflexionar",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=Fw1Wf4-7fhI",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "academic-project"
+        },
+        "academicConcepts": [
+          {
+            "concept": "Debate corto de la paz",
+            "description": "Debate corto de la paz organiza el producto de cierre y permite comunicar lo aprendido en el proyecto.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              63
+            ],
+            "sourcePagesLabel": "p. 63",
+            "topicTitle": "Proyecto academico 6",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 6, al PPA 2 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Lenguaje",
+            "description": "Lenguaje ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              63
+            ],
+            "sourcePagesLabel": "p. 63",
+            "topicTitle": "Proyecto academico 6",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 6, al PPA 2 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Cultura",
+            "description": "Cultura ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              154
+            ],
+            "sourcePagesLabel": "p. 154",
+            "topicTitle": "Proyecto academico 6",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 6, al PPA 2 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Comunicacion",
+            "description": "Comunicacion ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              63
+            ],
+            "sourcePagesLabel": "p. 63",
+            "topicTitle": "Proyecto academico 6",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 6, al PPA 2 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Lectura",
+            "description": "Lectura ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              63
+            ],
+            "sourcePagesLabel": "p. 63",
+            "topicTitle": "Proyecto academico 6",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 6, al PPA 2 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Escritura",
+            "description": "Escritura ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Lenguajes",
+            "sourcePages": [
+              63
+            ],
+            "sourcePagesLabel": "p. 63",
+            "topicTitle": "Proyecto academico 6",
+            "status": "suggested",
+            "reason": "Concepto vinculado al PA 6, al PPA 2 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "teacher-review"
+          }
+        ],
+        "thinkingCriteria": [
+          "Relacionar Encuentros para reflexionar con una situacion concreta del entorno escolar o comunitario.",
+          "Usar debate corto de la paz para explicar ideas con claridad y evidencia."
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Como te ayuda debate corto de la paz a comprender mejor Encuentros para reflexionar y a explicar sus conceptos clave en tu comunidad?",
+            "conceptsActivated": [
+              "Debate corto de la paz",
+              "Lenguaje",
+              "Cultura",
+              "Comunicacion"
+            ],
+            "suggestedUse": "Momento 1 de autoevaluacion"
+          }
+        ],
+        "validationStatus": {
+          "readinessLevel": "curricular-bundle-generated",
+          "readyForActivities": true,
+          "needsReviewReasons": [
+            "El horizonte textual literal queda pendiente de revision fina si se requiere cita exacta.",
+            "Los apoyos complementarios impresos no se asignan cuando no hay evidencia validada por columna."
+          ]
+        },
+        "readinessLevel": "curricular-bundle-generated",
+        "readyForActivities": true,
+        "needsReviewReasons": []
+      }
+    ]
+  },
+  "conceptsValidation": {
+    "grade": "3",
+    "field": "Lenguajes",
+    "ppaNumber": "2",
+    "status": "concept-validation",
+    "generatedAt": "2026-06-07T03:06:27.031Z",
+    "entries": [
+      {
+        "projectId": "lenguajes-3-ppa-2-pa4",
+        "projectTitle": "Una colmena de culturas",
+        "concept": "4. patrimonio cultural y el dinamismo de las lenguas",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            54
+          ],
+          "reason": "Concepto vinculado al PA 4, al PPA 2 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-2-pa4",
+        "projectTitle": "Una colmena de culturas",
+        "concept": "Lenguaje",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            54
+          ],
+          "reason": "Concepto vinculado al PA 4, al PPA 2 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-2-pa4",
+        "projectTitle": "Una colmena de culturas",
+        "concept": "Cultura",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            154
+          ],
+          "reason": "Concepto vinculado al PA 4, al PPA 2 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-2-pa4",
+        "projectTitle": "Una colmena de culturas",
+        "concept": "Comunicacion",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            54
+          ],
+          "reason": "Concepto vinculado al PA 4, al PPA 2 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-2-pa4",
+        "projectTitle": "Una colmena de culturas",
+        "concept": "Lectura",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            54
+          ],
+          "reason": "Concepto vinculado al PA 4, al PPA 2 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-2-pa4",
+        "projectTitle": "Una colmena de culturas",
+        "concept": "Escritura",
+        "status": "suggested",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            54
+          ],
+          "reason": "Concepto vinculado al PA 4, al PPA 2 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "teacher-review"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-2-pa5",
+        "projectTitle": "Un laberinto de problemas",
+        "concept": "5. problemas e intereses comunitarios y los lenguajes",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            59
+          ],
+          "reason": "Concepto vinculado al PA 5, al PPA 2 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-2-pa5",
+        "projectTitle": "Un laberinto de problemas",
+        "concept": "Lenguaje",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            59
+          ],
+          "reason": "Concepto vinculado al PA 5, al PPA 2 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-2-pa5",
+        "projectTitle": "Un laberinto de problemas",
+        "concept": "Cultura",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            154
+          ],
+          "reason": "Concepto vinculado al PA 5, al PPA 2 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-2-pa5",
+        "projectTitle": "Un laberinto de problemas",
+        "concept": "Comunicacion",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            59
+          ],
+          "reason": "Concepto vinculado al PA 5, al PPA 2 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-2-pa5",
+        "projectTitle": "Un laberinto de problemas",
+        "concept": "Lectura",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            59
+          ],
+          "reason": "Concepto vinculado al PA 5, al PPA 2 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-2-pa5",
+        "projectTitle": "Un laberinto de problemas",
+        "concept": "Escritura",
+        "status": "suggested",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            59
+          ],
+          "reason": "Concepto vinculado al PA 5, al PPA 2 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "teacher-review"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-2-pa6",
+        "projectTitle": "Encuentros para reflexionar",
+        "concept": "Debate corto de la paz",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            63
+          ],
+          "reason": "Concepto vinculado al PA 6, al PPA 2 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-2-pa6",
+        "projectTitle": "Encuentros para reflexionar",
+        "concept": "Lenguaje",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            63
+          ],
+          "reason": "Concepto vinculado al PA 6, al PPA 2 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-2-pa6",
+        "projectTitle": "Encuentros para reflexionar",
+        "concept": "Cultura",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            154
+          ],
+          "reason": "Concepto vinculado al PA 6, al PPA 2 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-2-pa6",
+        "projectTitle": "Encuentros para reflexionar",
+        "concept": "Comunicacion",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            63
+          ],
+          "reason": "Concepto vinculado al PA 6, al PPA 2 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-2-pa6",
+        "projectTitle": "Encuentros para reflexionar",
+        "concept": "Lectura",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            63
+          ],
+          "reason": "Concepto vinculado al PA 6, al PPA 2 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-2-pa6",
+        "projectTitle": "Encuentros para reflexionar",
+        "concept": "Escritura",
+        "status": "suggested",
+        "evidence": {
+          "sourceBook": "Lenguajes",
+          "pages": [
+            63
+          ],
+          "reason": "Concepto vinculado al PA 6, al PPA 2 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "teacher-review"
+      }
+    ]
+  },
+  "pedagogicalArticulation": {
+    "grade": "3",
+    "field": "Lenguajes",
+    "ppaNumber": "2",
+    "status": "teacher-orientation",
+    "officialHorizonStatus": "pending",
+    "situatedPedagogicalOrientation": "El PPA 2 propone trabajar Interactuamos, compartimos y solucionamos problemas mediante productos de cierre, conceptos confirmados y videos directos para reforzar la autoevaluacion.",
+    "integratingQuestions": [
+      "¿Como se relacionan los tres proyectos academicos del PPA 2 con Interactuamos, compartimos y solucionamos problemas?",
+      "¿Que conceptos necesita dominar el estudiante para explicar su producto final?",
+      "¿Como usar el producto final para comunicar una comprension y no solo presentar informacion?"
+    ],
+    "possibleResonanceQuestion": "¿Que comprension nueva sobre Interactuamos, compartimos y solucionamos problemas puedes explicar con los productos del PPA 2?",
+    "teacherNotes": [
+      "Usar los videos directos como detonadores, no como enlaces de busqueda.",
+      "Retomar los conceptos confirmados antes de resolver la relacion de columnas y el juego."
+    ],
+    "projectConnections": [
+      {
+        "projectId": "lenguajes-3-ppa-2-pa4",
+        "projectTitle": "Una colmena de culturas",
+        "roleInPpa": "Aporta 4. patrimonio cultural y el dinamismo de las lenguas al desarrollo del PPA 2.",
+        "confirmedConcepts": [
+          "4. patrimonio cultural y el dinamismo de las lenguas",
+          "Lenguaje",
+          "Cultura",
+          "Comunicacion",
+          "Lectura"
+        ],
+        "suggestedConcepts": [
+          "Escritura"
+        ],
+        "pedagogicalUse": "Video detonador del Proyecto Academico 4: Una colmena de culturas"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-2-pa5",
+        "projectTitle": "Un laberinto de problemas",
+        "roleInPpa": "Aporta 5. problemas e intereses comunitarios y los lenguajes al desarrollo del PPA 2.",
+        "confirmedConcepts": [
+          "5. problemas e intereses comunitarios y los lenguajes",
+          "Lenguaje",
+          "Cultura",
+          "Comunicacion",
+          "Lectura"
+        ],
+        "suggestedConcepts": [
+          "Escritura"
+        ],
+        "pedagogicalUse": "Video detonador del Proyecto Academico 5: Un laberinto de problemas"
+      },
+      {
+        "projectId": "lenguajes-3-ppa-2-pa6",
+        "projectTitle": "Encuentros para reflexionar",
+        "roleInPpa": "Aporta debate corto de la paz al desarrollo del PPA 2.",
+        "confirmedConcepts": [
+          "Debate corto de la paz",
+          "Lenguaje",
+          "Cultura",
+          "Comunicacion",
+          "Lectura"
+        ],
+        "suggestedConcepts": [
+          "Escritura"
+        ],
+        "pedagogicalUse": "Video detonador del Proyecto Academico 6: Encuentros para reflexionar"
+      }
+    ]
+  },
+  "teacherNotesAndResonances": {
+    "grade": "3",
+    "field": "Lenguajes",
+    "ppaNumber": "2",
+    "status": "teacher-notes-and-resonances",
+    "officialHorizonStatus": "pending",
+    "ppaIntegratingResonance": "¿Que comprension nueva sobre Interactuamos, compartimos y solucionamos problemas puedes explicar con los productos del PPA 2?",
+    "didacticWarnings": [
+      "No sustituir el producto final por la reproduccion del video.",
+      "Evitar marcar apoyos impresos como confirmados si no existe evidencia por columna."
+    ],
+    "communityPrompts": {
+      "territoryLanguageMemory": [
+        "¿Que palabras, practicas o problemas del entorno ayudan a entender mejor este PPA?"
+      ],
+      "productCommunityConnection": [
+        "¿Como puede circular el producto final dentro de la comunidad escolar?"
+      ]
+    },
+    "projects": [
+      {
+        "projectId": "lenguajes-3-ppa-2-pa4",
+        "projectTitle": "Una colmena de culturas",
+        "teacherNotes": [
+          "Retomar 4. patrimonio cultural y el dinamismo de las lenguas como evidencia del aprendizaje.",
+          "Usar los conceptos confirmados para orientar la autoevaluacion."
+        ],
+        "confirmedConceptsToUse": [
+          "4. patrimonio cultural y el dinamismo de las lenguas",
+          "Lenguaje",
+          "Cultura",
+          "Comunicacion",
+          "Lectura"
+        ],
+        "suggestedConceptsToHandleCarefully": [
+          "Escritura"
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Como te ayuda 4. patrimonio cultural y el dinamismo de las lenguas a comprender mejor Una colmena de culturas y a explicar sus conceptos clave en tu comunidad?",
+            "conceptsActivated": [
+              "4. patrimonio cultural y el dinamismo de las lenguas",
+              "Lenguaje",
+              "Cultura",
+              "Comunicacion"
+            ],
+            "suggestedUse": "Momento 1 de autoevaluacion"
+          }
+        ],
+        "notReadyFor": []
+      },
+      {
+        "projectId": "lenguajes-3-ppa-2-pa5",
+        "projectTitle": "Un laberinto de problemas",
+        "teacherNotes": [
+          "Retomar 5. problemas e intereses comunitarios y los lenguajes como evidencia del aprendizaje.",
+          "Usar los conceptos confirmados para orientar la autoevaluacion."
+        ],
+        "confirmedConceptsToUse": [
+          "5. problemas e intereses comunitarios y los lenguajes",
+          "Lenguaje",
+          "Cultura",
+          "Comunicacion",
+          "Lectura"
+        ],
+        "suggestedConceptsToHandleCarefully": [
+          "Escritura"
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Como te ayuda 5. problemas e intereses comunitarios y los lenguajes a comprender mejor Un laberinto de problemas y a explicar sus conceptos clave en tu comunidad?",
+            "conceptsActivated": [
+              "5. problemas e intereses comunitarios y los lenguajes",
+              "Lenguaje",
+              "Cultura",
+              "Comunicacion"
+            ],
+            "suggestedUse": "Momento 1 de autoevaluacion"
+          }
+        ],
+        "notReadyFor": []
+      },
+      {
+        "projectId": "lenguajes-3-ppa-2-pa6",
+        "projectTitle": "Encuentros para reflexionar",
+        "teacherNotes": [
+          "Retomar debate corto de la paz como evidencia del aprendizaje.",
+          "Usar los conceptos confirmados para orientar la autoevaluacion."
+        ],
+        "confirmedConceptsToUse": [
+          "Debate corto de la paz",
+          "Lenguaje",
+          "Cultura",
+          "Comunicacion",
+          "Lectura"
+        ],
+        "suggestedConceptsToHandleCarefully": [
+          "Escritura"
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Como te ayuda debate corto de la paz a comprender mejor Encuentros para reflexionar y a explicar sus conceptos clave en tu comunidad?",
+            "conceptsActivated": [
+              "Debate corto de la paz",
+              "Lenguaje",
+              "Cultura",
+              "Comunicacion"
+            ],
+            "suggestedUse": "Momento 1 de autoevaluacion"
+          }
+        ],
+        "notReadyFor": []
+      }
+    ]
+  },
+  "validationAudit": {
+    "kind": "generated-validation-audit",
+    "source": "reports/caracoles/grade3-lenguajes-ppa2-reading-bundle-audit.md",
+    "content": "# Bundle curricular tercer grado\n\n- Campo: Lenguajes\n- PPA: 2\n- Titulo: Interactuamos, compartimos y solucionamos problemas\n- Proyectos: PA4, PA5, PA6\n- Estado: generado y publicado\n- Cautela: horizonte literal y apoyos impresos por columna pendientes de revision fina.\n"
+  }
+}

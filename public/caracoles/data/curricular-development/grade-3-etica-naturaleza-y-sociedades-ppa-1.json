@@ -1,0 +1,1199 @@
+{
+  "grade": "3",
+  "gradeLabel": "Tercer grado",
+  "field": "Etica, Naturaleza y Sociedades",
+  "ppaNumber": "1",
+  "partialClassroomProject": "PPA 1",
+  "partialClassroomProjectTitle": "Somos las mismas y los mismos desde la prehistoria, sólo que ahora más desiguales",
+  "source": "curricular-development-generated",
+  "generatedAt": "2026-06-07T03:06:26.223Z",
+  "development": {
+    "grade": "3",
+    "gradeLabel": "Tercer grado",
+    "field": "Etica, Naturaleza y Sociedades",
+    "bookVolume": "Tomo I",
+    "partialClassroomProject": "PPA 1",
+    "partialClassroomProjectTitle": "Somos las mismas y los mismos desde la prehistoria, sólo que ahora más desiguales",
+    "generatedAt": "2026-06-07T03:06:26.168Z",
+    "notes": "Capa curricular generada por lote para 3o Etica, Naturaleza y Sociedades, PPA 1.",
+    "sourcesUsed": [
+      "content/caracoles/curricular-catalog/all-projects-canonical.json",
+      "public/caracoles/data/generated/grade-3/concepts-index.json",
+      "src/caracoles/lib/officialVideoLinks.ts",
+      "Posibilidades de uso ENS, tercer grado, p. 6",
+      "Nuestro libro de proyectos, tercer grado, pp. 187-201"
+    ],
+    "partialClassroomProjectContext": {
+      "expectationHorizon": {
+        "officialText": "",
+        "sourcePages": [
+          "Nuestro libro de proyectos Tomo I pp. 187-192",
+          "Posibilidades de uso ENS p. 6"
+        ],
+        "evidence": "El PPA 1 articula 1. somos las y los mismos desde la prehistoria..., 12. los conflictos en el mundo actual y ..., estampas contra la desigualdad para trabajar Somos las mismas y los mismos desde la prehistoria, sólo que ahora más desiguales.",
+        "status": "pending"
+      },
+      "ppaDetonatingStrategy": {
+        "title": "Somos las mismas y los mismos desde la prehistoria, sólo que ahora más desiguales",
+        "type": "video",
+        "url": "",
+        "urlStatus": "confirmed-by-official-video-map",
+        "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+        "scope": "partial-classroom-project"
+      },
+      "ppaDigitalResource": {
+        "title": "Recurso del Proyecto Parcial de Aula 1",
+        "reference": "",
+        "status": "confirmed-by-official-video-map",
+        "source": "YouTube, acervo Aprende_MX/Telesecundaria"
+      },
+      "validationStatus": {
+        "needsHumanReview": true,
+        "needsReviewReasons": [
+          "Los videos PA/PPA se validan por el mapa oficial de enlaces directos ya generado.",
+          "Los apoyos complementarios impresos no se asignan cuando no hay evidencia validada por columna.",
+          "El horizonte textual literal queda pendiente de revision fina si se necesita cita exacta."
+        ]
+      },
+      "columnValidation": {
+        "possibilitiesPagesReviewed": [
+          6
+        ],
+        "confirmedAsPpa": true,
+        "note": "El PPA 1 se agrupa desde el catalogo canonico de tercer grado.",
+        "columns": [
+          {
+            "columnIndex": 1,
+            "projectId": "etica-naturaleza-y-sociedades-3-ppa-1-pa1",
+            "projectTitle": "Proceso de hominización",
+            "finalProduct": "1. Somos las y los mismos desde la prehistoria...",
+            "supportMaterials": []
+          },
+          {
+            "columnIndex": 2,
+            "projectId": "etica-naturaleza-y-sociedades-3-ppa-1-pa2",
+            "projectTitle": "El surgimiento de la civilización",
+            "finalProduct": "12. Los conflictos en el mundo actual y ...",
+            "supportMaterials": []
+          },
+          {
+            "columnIndex": 3,
+            "projectId": "etica-naturaleza-y-sociedades-3-ppa-1-pa3",
+            "projectTitle": "Las acciones para reducir las brechas de desigualdad",
+            "finalProduct": "Estampas contra la desigualdad",
+            "supportMaterials": []
+          }
+        ]
+      }
+    },
+    "academicProjects": [
+      {
+        "id": "etica-naturaleza-y-sociedades-3-ppa-1-pa1",
+        "projectId": "etica-naturaleza-y-sociedades-3-ppa-1-pa1",
+        "academicProjectNumber": 1,
+        "title": "Proceso de hominización",
+        "projectTitle": "Proceso de hominización",
+        "grade": "3",
+        "field": "Ética, Naturaleza y Sociedades",
+        "ppaNumber": "1",
+        "partialClassroomProject": "PPA 1",
+        "partialClassroomProjectTitle": "Somos las mismas y los mismos desde la prehistoria, sólo que ahora más desiguales",
+        "bookVolume": "Tomo I",
+        "sourceValidation": {
+          "sourceStatus": "linked",
+          "possibilitiesPages": [
+            6
+          ],
+          "possibilitiesMaterialId": "grade-3-posibilidades-pos-ens-3",
+          "possibilitiesColumnIndex": 1,
+          "columnEvidence": "Proyecto PA 1 agrupado en el PPA 1 desde el catalogo canonico y las paginas de Posibilidades."
+        },
+        "finalProduct": {
+          "title": "1. Somos las y los mismos desde la prehistoria...",
+          "source": "Video detonador validado en YouTube + Nuestro libro de proyectos Tomo I pp. 187-192",
+          "status": "confirmed-from-video-and-project"
+        },
+        "sourcePages": {
+          "nuestroLibroProyectos": [
+            {
+              "materialId": "grade-3-proyectos-nuestros-proyectos-tomo-1-tercer-grado",
+              "label": "Nuestro libro de proyectos Tomo I",
+              "startPage": 187,
+              "endPage": 192,
+              "pagesLabel": "pp. 187-192",
+              "topicTitle": "Proyecto academico 1",
+              "status": "confirmed-source"
+            }
+          ],
+          "conceptBook": [
+            {
+              "materialId": "grade-3-conceptos-etica-naturaleza-y-sociedades-tercer-grado",
+              "label": "Etica, Naturaleza y Sociedades",
+              "startPage": 187,
+              "endPage": 187,
+              "pagesLabel": "p. 187",
+              "topicTitle": "1. somos las y los mismos desde la prehistoria...",
+              "status": "confirmed"
+            }
+          ],
+          "multiplesLenguajes": [],
+          "otherMaterials": [
+            {
+              "label": "Video PA 1: 1. Somos las y los mismos desde la prehistoria...• Ética, naturaleza y sociedades • 3er grado",
+              "reference": "https://www.youtube.com/watch?v=2QiUv8cBMJg",
+              "status": "confirmed"
+            },
+            {
+              "label": "Video PPA 1: 1. Somos las y los mismos desde la prehistoria...• Ética, naturaleza y sociedades • 3er grado",
+              "reference": "https://www.youtube.com/watch?v=2QiUv8cBMJg",
+              "status": "confirmed"
+            }
+          ]
+        },
+        "supportMaterials": [],
+        "horizonOrPurpose": {
+          "status": "pending",
+          "text": "",
+          "source": "Nuestro libro de proyectos Tomo I pp. 187-192"
+        },
+        "projectExpectationHorizon": {
+          "officialText": "",
+          "studentVersion": "",
+          "sourcePages": [
+            "Nuestro libro de proyectos Tomo I pp. 187-192"
+          ],
+          "evidence": "El PA 1 cuenta con paginas de proyecto, producto de cierre, conceptos y videos directos validados; el horizonte textual literal queda pendiente de transcripcion fina.",
+          "status": "pending"
+        },
+        "detonatingStrategy": {
+          "title": "1. Somos las y los mismos desde la prehistoria...• Ética, naturaleza y sociedades • 3er grado",
+          "text": "Video del Proyecto Parcial de Aula 1: 1. Somos las y los mismos desde la prehistoria...• Ética, naturaleza y sociedades • 3er grado",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=2QiUv8cBMJg",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "partial-classroom-project"
+        },
+        "academicProjectStrategy": {
+          "title": "1. Somos las y los mismos desde la prehistoria...• Ética, naturaleza y sociedades • 3er grado",
+          "text": "Video detonador del Proyecto Academico 1: Proceso de hominización",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=2QiUv8cBMJg",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "academic-project"
+        },
+        "academicConcepts": [
+          {
+            "concept": "1. somos las y los mismos desde la prehistoria...",
+            "description": "1. somos las y los mismos desde la prehistoria... organiza el producto de cierre y permite comunicar lo aprendido en el proyecto.",
+            "sourceBook": "Etica, Naturaleza y Sociedades",
+            "sourcePages": [
+              187
+            ],
+            "sourcePagesLabel": "p. 187",
+            "topicTitle": "Proyecto academico 1",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 1, al PPA 1 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Historia",
+            "description": "Historia ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Etica, Naturaleza y Sociedades",
+            "sourcePages": [
+              9
+            ],
+            "sourcePagesLabel": "p. 9",
+            "topicTitle": "Proyecto academico 1",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 1, al PPA 1 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Derechos humanos",
+            "description": "Derechos humanos ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Etica, Naturaleza y Sociedades",
+            "sourcePages": [
+              187
+            ],
+            "sourcePagesLabel": "p. 187",
+            "topicTitle": "Proyecto academico 1",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 1, al PPA 1 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Democracia",
+            "description": "Democracia ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Etica, Naturaleza y Sociedades",
+            "sourcePages": [
+              315
+            ],
+            "sourcePagesLabel": "p. 315",
+            "topicTitle": "Proyecto academico 1",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 1, al PPA 1 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Desigualdad",
+            "description": "Desigualdad ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Etica, Naturaleza y Sociedades",
+            "sourcePages": [
+              187
+            ],
+            "sourcePagesLabel": "p. 187",
+            "topicTitle": "Proyecto academico 1",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 1, al PPA 1 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Sociedad",
+            "description": "Sociedad ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Etica, Naturaleza y Sociedades",
+            "sourcePages": [
+              83
+            ],
+            "sourcePagesLabel": "p. 83",
+            "topicTitle": "Proyecto academico 1",
+            "status": "suggested",
+            "reason": "Concepto vinculado al PA 1, al PPA 1 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "teacher-review"
+          }
+        ],
+        "thinkingCriteria": [
+          "Relacionar Proceso de hominización con una situacion concreta del entorno escolar o comunitario.",
+          "Usar 1. somos las y los mismos desde la prehistoria... para explicar ideas con claridad y evidencia."
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Como te ayuda 1. somos las y los mismos desde la prehistoria... a comprender mejor Proceso de hominización y a explicar sus conceptos clave en tu comunidad?",
+            "conceptsActivated": [
+              "1. somos las y los mismos desde la prehistoria...",
+              "Historia",
+              "Derechos humanos",
+              "Democracia"
+            ],
+            "suggestedUse": "Momento 1 de autoevaluacion"
+          }
+        ],
+        "validationStatus": {
+          "readinessLevel": "curricular-bundle-generated",
+          "readyForActivities": true,
+          "needsReviewReasons": [
+            "El horizonte textual literal queda pendiente de revision fina si se requiere cita exacta.",
+            "Los apoyos complementarios impresos no se asignan cuando no hay evidencia validada por columna."
+          ]
+        },
+        "readinessLevel": "curricular-bundle-generated",
+        "readyForActivities": true,
+        "needsReviewReasons": []
+      },
+      {
+        "id": "etica-naturaleza-y-sociedades-3-ppa-1-pa2",
+        "projectId": "etica-naturaleza-y-sociedades-3-ppa-1-pa2",
+        "academicProjectNumber": 2,
+        "title": "El surgimiento de la civilización",
+        "projectTitle": "El surgimiento de la civilización",
+        "grade": "3",
+        "field": "Ética, Naturaleza y Sociedades",
+        "ppaNumber": "1",
+        "partialClassroomProject": "PPA 1",
+        "partialClassroomProjectTitle": "Somos las mismas y los mismos desde la prehistoria, sólo que ahora más desiguales",
+        "bookVolume": "Tomo I",
+        "sourceValidation": {
+          "sourceStatus": "linked",
+          "possibilitiesPages": [
+            6
+          ],
+          "possibilitiesMaterialId": "grade-3-posibilidades-pos-ens-3",
+          "possibilitiesColumnIndex": 2,
+          "columnEvidence": "Proyecto PA 2 agrupado en el PPA 1 desde el catalogo canonico y las paginas de Posibilidades."
+        },
+        "finalProduct": {
+          "title": "12. Los conflictos en el mundo actual y ...",
+          "source": "Video detonador validado en YouTube + Nuestro libro de proyectos Tomo I pp. 193-197",
+          "status": "confirmed-from-video-and-project"
+        },
+        "sourcePages": {
+          "nuestroLibroProyectos": [
+            {
+              "materialId": "grade-3-proyectos-nuestros-proyectos-tomo-1-tercer-grado",
+              "label": "Nuestro libro de proyectos Tomo I",
+              "startPage": 193,
+              "endPage": 197,
+              "pagesLabel": "pp. 193-197",
+              "topicTitle": "Proyecto academico 2",
+              "status": "confirmed-source"
+            }
+          ],
+          "conceptBook": [
+            {
+              "materialId": "grade-3-conceptos-etica-naturaleza-y-sociedades-tercer-grado",
+              "label": "Etica, Naturaleza y Sociedades",
+              "startPage": 193,
+              "endPage": 193,
+              "pagesLabel": "p. 193",
+              "topicTitle": "12. los conflictos en el mundo actual y ...",
+              "status": "confirmed"
+            }
+          ],
+          "multiplesLenguajes": [],
+          "otherMaterials": [
+            {
+              "label": "Video PA 2: 12. Los conflictos en el mundo actual y ... • Ética, naturaleza y sociedades • 3er grado",
+              "reference": "https://www.youtube.com/watch?v=-T6ONWHi5Gw",
+              "status": "confirmed"
+            },
+            {
+              "label": "Video PPA 1: 1. Somos las y los mismos desde la prehistoria...• Ética, naturaleza y sociedades • 3er grado",
+              "reference": "https://www.youtube.com/watch?v=2QiUv8cBMJg",
+              "status": "confirmed"
+            }
+          ]
+        },
+        "supportMaterials": [],
+        "horizonOrPurpose": {
+          "status": "pending",
+          "text": "",
+          "source": "Nuestro libro de proyectos Tomo I pp. 193-197"
+        },
+        "projectExpectationHorizon": {
+          "officialText": "Objetivo 1: Identificar las características económicas, culturales y ambientales de las primeras civilizaciones del mundo, resultado de su relación con el agua y su gestión; además, dibujar imágenes o conseguir ilustraciones para visualizar esa relación. Objetivo 2: Reconocer el papel civilizatorio que tuvo la gestión del agua en las primeras civilizaciones del mundo, y su relación con el lugar donde se asentaron. También, necesitamos elaborar ilustraciones que ayuden a entender el contenido.",
+          "studentVersion": "Identificar las características económicas, culturales y ambientales de las primeras civilizaciones del mundo, resultado de su relación con el agua y su gestión; además, dibujar imágenes o conseguir ilustraciones para visualizar esa relación. Reconocer el papel civilizatorio que tuvo la gestión del agua en las primeras civilizaciones del mundo, y su relación con el lugar donde se asentaron. También, necesitamos elaborar ilustraciones que ayuden a entender el contenido.",
+          "sourcePages": [
+            "Nuestro libro de proyectos Tomo I p. 194"
+          ],
+          "evidence": "Objetivo 1 y Objetivo 2 aparecen como par dentro del rango exacto del PA. Se conserva el rotulo encontrado como evidencia.",
+          "status": "confirmed-from-project-book",
+          "detectedLabel": "Objetivo 1 + Objetivo 2",
+          "validationScope": "academic-project"
+        },
+        "detonatingStrategy": {
+          "title": "1. Somos las y los mismos desde la prehistoria...• Ética, naturaleza y sociedades • 3er grado",
+          "text": "Video del Proyecto Parcial de Aula 1: 1. Somos las y los mismos desde la prehistoria...• Ética, naturaleza y sociedades • 3er grado",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=2QiUv8cBMJg",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "partial-classroom-project"
+        },
+        "academicProjectStrategy": {
+          "title": "12. Los conflictos en el mundo actual y ... • Ética, naturaleza y sociedades • 3er grado",
+          "text": "Video detonador del Proyecto Academico 2: El surgimiento de la civilización",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=-T6ONWHi5Gw",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "academic-project"
+        },
+        "academicConcepts": [
+          {
+            "concept": "12. los conflictos en el mundo actual y ...",
+            "description": "12. los conflictos en el mundo actual y ... organiza el producto de cierre y permite comunicar lo aprendido en el proyecto.",
+            "sourceBook": "Etica, Naturaleza y Sociedades",
+            "sourcePages": [
+              193
+            ],
+            "sourcePagesLabel": "p. 193",
+            "topicTitle": "Proyecto academico 2",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 2, al PPA 1 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Historia",
+            "description": "Historia ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Etica, Naturaleza y Sociedades",
+            "sourcePages": [
+              9
+            ],
+            "sourcePagesLabel": "p. 9",
+            "topicTitle": "Proyecto academico 2",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 2, al PPA 1 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Derechos humanos",
+            "description": "Derechos humanos ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Etica, Naturaleza y Sociedades",
+            "sourcePages": [
+              193
+            ],
+            "sourcePagesLabel": "p. 193",
+            "topicTitle": "Proyecto academico 2",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 2, al PPA 1 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Democracia",
+            "description": "Democracia ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Etica, Naturaleza y Sociedades",
+            "sourcePages": [
+              315
+            ],
+            "sourcePagesLabel": "p. 315",
+            "topicTitle": "Proyecto academico 2",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 2, al PPA 1 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Desigualdad",
+            "description": "Desigualdad ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Etica, Naturaleza y Sociedades",
+            "sourcePages": [
+              193
+            ],
+            "sourcePagesLabel": "p. 193",
+            "topicTitle": "Proyecto academico 2",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 2, al PPA 1 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Sociedad",
+            "description": "Sociedad ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Etica, Naturaleza y Sociedades",
+            "sourcePages": [
+              83
+            ],
+            "sourcePagesLabel": "p. 83",
+            "topicTitle": "Proyecto academico 2",
+            "status": "suggested",
+            "reason": "Concepto vinculado al PA 2, al PPA 1 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "teacher-review"
+          }
+        ],
+        "thinkingCriteria": [
+          "Relacionar El surgimiento de la civilización con una situacion concreta del entorno escolar o comunitario.",
+          "Usar 12. los conflictos en el mundo actual y ... para explicar ideas con claridad y evidencia."
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Como te ayuda 12. los conflictos en el mundo actual y ... a comprender mejor El surgimiento de la civilización y a explicar sus conceptos clave en tu comunidad?",
+            "conceptsActivated": [
+              "12. los conflictos en el mundo actual y ...",
+              "Historia",
+              "Derechos humanos",
+              "Democracia"
+            ],
+            "suggestedUse": "Momento 1 de autoevaluacion"
+          }
+        ],
+        "validationStatus": {
+          "readinessLevel": "curricular-bundle-generated",
+          "readyForActivities": true,
+          "needsReviewReasons": [
+            "El horizonte textual literal queda pendiente de revision fina si se requiere cita exacta.",
+            "Los apoyos complementarios impresos no se asignan cuando no hay evidencia validada por columna."
+          ]
+        },
+        "readinessLevel": "curricular-bundle-generated",
+        "readyForActivities": true,
+        "needsReviewReasons": []
+      },
+      {
+        "id": "etica-naturaleza-y-sociedades-3-ppa-1-pa3",
+        "projectId": "etica-naturaleza-y-sociedades-3-ppa-1-pa3",
+        "academicProjectNumber": 3,
+        "title": "Las acciones para reducir las brechas de desigualdad",
+        "projectTitle": "Las acciones para reducir las brechas de desigualdad",
+        "grade": "3",
+        "field": "Ética, Naturaleza y Sociedades",
+        "ppaNumber": "1",
+        "partialClassroomProject": "PPA 1",
+        "partialClassroomProjectTitle": "Somos las mismas y los mismos desde la prehistoria, sólo que ahora más desiguales",
+        "bookVolume": "Tomo I",
+        "sourceValidation": {
+          "sourceStatus": "linked",
+          "possibilitiesPages": [
+            6
+          ],
+          "possibilitiesMaterialId": "grade-3-posibilidades-pos-ens-3",
+          "possibilitiesColumnIndex": 3,
+          "columnEvidence": "Proyecto PA 3 agrupado en el PPA 1 desde el catalogo canonico y las paginas de Posibilidades."
+        },
+        "finalProduct": {
+          "title": "Estampas contra la desigualdad",
+          "source": "Video detonador validado en YouTube + Nuestro libro de proyectos Tomo I pp. 198-201",
+          "status": "confirmed-from-video-and-project"
+        },
+        "sourcePages": {
+          "nuestroLibroProyectos": [
+            {
+              "materialId": "grade-3-proyectos-nuestros-proyectos-tomo-1-tercer-grado",
+              "label": "Nuestro libro de proyectos Tomo I",
+              "startPage": 198,
+              "endPage": 201,
+              "pagesLabel": "pp. 198-201",
+              "topicTitle": "Proyecto academico 3",
+              "status": "confirmed-source"
+            }
+          ],
+          "conceptBook": [
+            {
+              "materialId": "grade-3-conceptos-etica-naturaleza-y-sociedades-tercer-grado",
+              "label": "Etica, Naturaleza y Sociedades",
+              "startPage": 198,
+              "endPage": 198,
+              "pagesLabel": "p. 198",
+              "topicTitle": "Estampas contra la desigualdad",
+              "status": "confirmed"
+            }
+          ],
+          "multiplesLenguajes": [],
+          "otherMaterials": [
+            {
+              "label": "Video PA 3: Estampas contra la desigualdad • Ética, naturaleza y sociedades • 3er grado",
+              "reference": "https://www.youtube.com/watch?v=WJWlD5qOqsI",
+              "status": "confirmed"
+            },
+            {
+              "label": "Video PPA 1: 1. Somos las y los mismos desde la prehistoria...• Ética, naturaleza y sociedades • 3er grado",
+              "reference": "https://www.youtube.com/watch?v=2QiUv8cBMJg",
+              "status": "confirmed"
+            }
+          ]
+        },
+        "supportMaterials": [],
+        "horizonOrPurpose": {
+          "status": "pending",
+          "text": "",
+          "source": "Nuestro libro de proyectos Tomo I pp. 198-201"
+        },
+        "projectExpectationHorizon": {
+          "officialText": "Objetivo 1: Identificar las características de las desigualdades y sus implicaciones en aspectos económicos, sociales y culturales de nuestra sociedad, que limitan el acceso a una justicia social. Objetivo 2: Reconocer la existencia de actitudes, comportamientos, acciones y valores en nuestra vida cotidiana, tanto en la comunidad escolar como fuera de ella que contribuyen a eliminar las desigualdades.",
+          "studentVersion": "Identificar las características de las desigualdades y sus implicaciones en aspectos económicos, sociales y culturales de nuestra sociedad, que limitan el acceso a una justicia social. Reconocer la existencia de actitudes, comportamientos, acciones y valores en nuestra vida cotidiana, tanto en la comunidad escolar como fuera de ella que contribuyen a eliminar las desigualdades.",
+          "sourcePages": [
+            "Nuestro libro de proyectos Tomo I p. 199"
+          ],
+          "evidence": "Texto rotulado como Objetivo dentro del rango exacto del Proyecto Academico; se acepta como equivalente funcional de horizonte de expectativas.",
+          "status": "confirmed-from-project-book",
+          "detectedLabel": "Objetivo",
+          "validationScope": "academic-project"
+        },
+        "detonatingStrategy": {
+          "title": "1. Somos las y los mismos desde la prehistoria...• Ética, naturaleza y sociedades • 3er grado",
+          "text": "Video del Proyecto Parcial de Aula 1: 1. Somos las y los mismos desde la prehistoria...• Ética, naturaleza y sociedades • 3er grado",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=2QiUv8cBMJg",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "partial-classroom-project"
+        },
+        "academicProjectStrategy": {
+          "title": "Estampas contra la desigualdad • Ética, naturaleza y sociedades • 3er grado",
+          "text": "Video detonador del Proyecto Academico 3: Las acciones para reducir las brechas de desigualdad",
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=WJWlD5qOqsI",
+          "urlStatus": "confirmed",
+          "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+          "scope": "academic-project"
+        },
+        "academicConcepts": [
+          {
+            "concept": "Estampas contra la desigualdad",
+            "description": "Estampas contra la desigualdad organiza el producto de cierre y permite comunicar lo aprendido en el proyecto.",
+            "sourceBook": "Etica, Naturaleza y Sociedades",
+            "sourcePages": [
+              198
+            ],
+            "sourcePagesLabel": "p. 198",
+            "topicTitle": "Proyecto academico 3",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 3, al PPA 1 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Historia",
+            "description": "Historia ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Etica, Naturaleza y Sociedades",
+            "sourcePages": [
+              9
+            ],
+            "sourcePagesLabel": "p. 9",
+            "topicTitle": "Proyecto academico 3",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 3, al PPA 1 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Derechos humanos",
+            "description": "Derechos humanos ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Etica, Naturaleza y Sociedades",
+            "sourcePages": [
+              198
+            ],
+            "sourcePagesLabel": "p. 198",
+            "topicTitle": "Proyecto academico 3",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 3, al PPA 1 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Democracia",
+            "description": "Democracia ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Etica, Naturaleza y Sociedades",
+            "sourcePages": [
+              315
+            ],
+            "sourcePagesLabel": "p. 315",
+            "topicTitle": "Proyecto academico 3",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 3, al PPA 1 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Desigualdad",
+            "description": "Desigualdad ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Etica, Naturaleza y Sociedades",
+            "sourcePages": [
+              198
+            ],
+            "sourcePagesLabel": "p. 198",
+            "topicTitle": "Proyecto academico 3",
+            "status": "confirmed",
+            "reason": "Concepto vinculado al PA 3, al PPA 1 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "usable-for-autoevaluation"
+          },
+          {
+            "concept": "Sociedad",
+            "description": "Sociedad ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+            "sourceBook": "Etica, Naturaleza y Sociedades",
+            "sourcePages": [
+              83
+            ],
+            "sourcePagesLabel": "p. 83",
+            "topicTitle": "Proyecto academico 3",
+            "status": "suggested",
+            "reason": "Concepto vinculado al PA 3, al PPA 1 y a las fuentes curriculares de tercer grado.",
+            "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+            "activityReadiness": "teacher-review"
+          }
+        ],
+        "thinkingCriteria": [
+          "Relacionar Las acciones para reducir las brechas de desigualdad con una situacion concreta del entorno escolar o comunitario.",
+          "Usar estampas contra la desigualdad para explicar ideas con claridad y evidencia."
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Como te ayuda estampas contra la desigualdad a comprender mejor Las acciones para reducir las brechas de desigualdad y a explicar sus conceptos clave en tu comunidad?",
+            "conceptsActivated": [
+              "Estampas contra la desigualdad",
+              "Historia",
+              "Derechos humanos",
+              "Democracia"
+            ],
+            "suggestedUse": "Momento 1 de autoevaluacion"
+          }
+        ],
+        "validationStatus": {
+          "readinessLevel": "curricular-bundle-generated",
+          "readyForActivities": true,
+          "needsReviewReasons": [
+            "El horizonte textual literal queda pendiente de revision fina si se requiere cita exacta.",
+            "Los apoyos complementarios impresos no se asignan cuando no hay evidencia validada por columna."
+          ]
+        },
+        "readinessLevel": "curricular-bundle-generated",
+        "readyForActivities": true,
+        "needsReviewReasons": []
+      }
+    ]
+  },
+  "conceptsValidation": {
+    "grade": "3",
+    "field": "Etica, Naturaleza y Sociedades",
+    "ppaNumber": "1",
+    "status": "concept-validation",
+    "generatedAt": "2026-06-07T03:06:26.168Z",
+    "entries": [
+      {
+        "projectId": "etica-naturaleza-y-sociedades-3-ppa-1-pa1",
+        "projectTitle": "Proceso de hominización",
+        "concept": "1. somos las y los mismos desde la prehistoria...",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Etica, Naturaleza y Sociedades",
+          "pages": [
+            187
+          ],
+          "reason": "Concepto vinculado al PA 1, al PPA 1 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "etica-naturaleza-y-sociedades-3-ppa-1-pa1",
+        "projectTitle": "Proceso de hominización",
+        "concept": "Historia",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Etica, Naturaleza y Sociedades",
+          "pages": [
+            9
+          ],
+          "reason": "Concepto vinculado al PA 1, al PPA 1 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "etica-naturaleza-y-sociedades-3-ppa-1-pa1",
+        "projectTitle": "Proceso de hominización",
+        "concept": "Derechos humanos",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Etica, Naturaleza y Sociedades",
+          "pages": [
+            187
+          ],
+          "reason": "Concepto vinculado al PA 1, al PPA 1 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "etica-naturaleza-y-sociedades-3-ppa-1-pa1",
+        "projectTitle": "Proceso de hominización",
+        "concept": "Democracia",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Etica, Naturaleza y Sociedades",
+          "pages": [
+            315
+          ],
+          "reason": "Concepto vinculado al PA 1, al PPA 1 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "etica-naturaleza-y-sociedades-3-ppa-1-pa1",
+        "projectTitle": "Proceso de hominización",
+        "concept": "Desigualdad",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Etica, Naturaleza y Sociedades",
+          "pages": [
+            187
+          ],
+          "reason": "Concepto vinculado al PA 1, al PPA 1 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "etica-naturaleza-y-sociedades-3-ppa-1-pa1",
+        "projectTitle": "Proceso de hominización",
+        "concept": "Sociedad",
+        "status": "suggested",
+        "evidence": {
+          "sourceBook": "Etica, Naturaleza y Sociedades",
+          "pages": [
+            83
+          ],
+          "reason": "Concepto vinculado al PA 1, al PPA 1 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "teacher-review"
+      },
+      {
+        "projectId": "etica-naturaleza-y-sociedades-3-ppa-1-pa2",
+        "projectTitle": "El surgimiento de la civilización",
+        "concept": "12. los conflictos en el mundo actual y ...",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Etica, Naturaleza y Sociedades",
+          "pages": [
+            193
+          ],
+          "reason": "Concepto vinculado al PA 2, al PPA 1 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "etica-naturaleza-y-sociedades-3-ppa-1-pa2",
+        "projectTitle": "El surgimiento de la civilización",
+        "concept": "Historia",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Etica, Naturaleza y Sociedades",
+          "pages": [
+            9
+          ],
+          "reason": "Concepto vinculado al PA 2, al PPA 1 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "etica-naturaleza-y-sociedades-3-ppa-1-pa2",
+        "projectTitle": "El surgimiento de la civilización",
+        "concept": "Derechos humanos",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Etica, Naturaleza y Sociedades",
+          "pages": [
+            193
+          ],
+          "reason": "Concepto vinculado al PA 2, al PPA 1 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "etica-naturaleza-y-sociedades-3-ppa-1-pa2",
+        "projectTitle": "El surgimiento de la civilización",
+        "concept": "Democracia",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Etica, Naturaleza y Sociedades",
+          "pages": [
+            315
+          ],
+          "reason": "Concepto vinculado al PA 2, al PPA 1 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "etica-naturaleza-y-sociedades-3-ppa-1-pa2",
+        "projectTitle": "El surgimiento de la civilización",
+        "concept": "Desigualdad",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Etica, Naturaleza y Sociedades",
+          "pages": [
+            193
+          ],
+          "reason": "Concepto vinculado al PA 2, al PPA 1 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "etica-naturaleza-y-sociedades-3-ppa-1-pa2",
+        "projectTitle": "El surgimiento de la civilización",
+        "concept": "Sociedad",
+        "status": "suggested",
+        "evidence": {
+          "sourceBook": "Etica, Naturaleza y Sociedades",
+          "pages": [
+            83
+          ],
+          "reason": "Concepto vinculado al PA 2, al PPA 1 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "teacher-review"
+      },
+      {
+        "projectId": "etica-naturaleza-y-sociedades-3-ppa-1-pa3",
+        "projectTitle": "Las acciones para reducir las brechas de desigualdad",
+        "concept": "Estampas contra la desigualdad",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Etica, Naturaleza y Sociedades",
+          "pages": [
+            198
+          ],
+          "reason": "Concepto vinculado al PA 3, al PPA 1 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "etica-naturaleza-y-sociedades-3-ppa-1-pa3",
+        "projectTitle": "Las acciones para reducir las brechas de desigualdad",
+        "concept": "Historia",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Etica, Naturaleza y Sociedades",
+          "pages": [
+            9
+          ],
+          "reason": "Concepto vinculado al PA 3, al PPA 1 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "etica-naturaleza-y-sociedades-3-ppa-1-pa3",
+        "projectTitle": "Las acciones para reducir las brechas de desigualdad",
+        "concept": "Derechos humanos",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Etica, Naturaleza y Sociedades",
+          "pages": [
+            198
+          ],
+          "reason": "Concepto vinculado al PA 3, al PPA 1 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "etica-naturaleza-y-sociedades-3-ppa-1-pa3",
+        "projectTitle": "Las acciones para reducir las brechas de desigualdad",
+        "concept": "Democracia",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Etica, Naturaleza y Sociedades",
+          "pages": [
+            315
+          ],
+          "reason": "Concepto vinculado al PA 3, al PPA 1 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "etica-naturaleza-y-sociedades-3-ppa-1-pa3",
+        "projectTitle": "Las acciones para reducir las brechas de desigualdad",
+        "concept": "Desigualdad",
+        "status": "confirmed",
+        "evidence": {
+          "sourceBook": "Etica, Naturaleza y Sociedades",
+          "pages": [
+            198
+          ],
+          "reason": "Concepto vinculado al PA 3, al PPA 1 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "usable-for-autoevaluation"
+      },
+      {
+        "projectId": "etica-naturaleza-y-sociedades-3-ppa-1-pa3",
+        "projectTitle": "Las acciones para reducir las brechas de desigualdad",
+        "concept": "Sociedad",
+        "status": "suggested",
+        "evidence": {
+          "sourceBook": "Etica, Naturaleza y Sociedades",
+          "pages": [
+            83
+          ],
+          "reason": "Concepto vinculado al PA 3, al PPA 1 y a las fuentes curriculares de tercer grado."
+        },
+        "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+        "activityReadiness": "teacher-review"
+      }
+    ]
+  },
+  "pedagogicalArticulation": {
+    "grade": "3",
+    "field": "Etica, Naturaleza y Sociedades",
+    "ppaNumber": "1",
+    "status": "teacher-orientation",
+    "officialHorizonStatus": "pending",
+    "situatedPedagogicalOrientation": "El PPA 1 propone trabajar Somos las mismas y los mismos desde la prehistoria, sólo que ahora más desiguales mediante productos de cierre, conceptos confirmados y videos directos para reforzar la autoevaluacion.",
+    "integratingQuestions": [
+      "¿Como se relacionan los tres proyectos academicos del PPA 1 con Somos las mismas y los mismos desde la prehistoria, sólo que ahora más desiguales?",
+      "¿Que conceptos necesita dominar el estudiante para explicar su producto final?",
+      "¿Como usar el producto final para comunicar una comprension y no solo presentar informacion?"
+    ],
+    "possibleResonanceQuestion": "¿Que comprension nueva sobre Somos las mismas y los mismos desde la prehistoria, sólo que ahora más desiguales puedes explicar con los productos del PPA 1?",
+    "teacherNotes": [
+      "Usar los videos directos como detonadores, no como enlaces de busqueda.",
+      "Retomar los conceptos confirmados antes de resolver la relacion de columnas y el juego."
+    ],
+    "projectConnections": [
+      {
+        "projectId": "etica-naturaleza-y-sociedades-3-ppa-1-pa1",
+        "projectTitle": "Proceso de hominización",
+        "roleInPpa": "Aporta 1. somos las y los mismos desde la prehistoria... al desarrollo del PPA 1.",
+        "confirmedConcepts": [
+          "1. somos las y los mismos desde la prehistoria...",
+          "Historia",
+          "Derechos humanos",
+          "Democracia",
+          "Desigualdad"
+        ],
+        "suggestedConcepts": [
+          "Sociedad"
+        ],
+        "pedagogicalUse": "Video detonador del Proyecto Academico 1: Proceso de hominización"
+      },
+      {
+        "projectId": "etica-naturaleza-y-sociedades-3-ppa-1-pa2",
+        "projectTitle": "El surgimiento de la civilización",
+        "roleInPpa": "Aporta 12. los conflictos en el mundo actual y ... al desarrollo del PPA 1.",
+        "confirmedConcepts": [
+          "12. los conflictos en el mundo actual y ...",
+          "Historia",
+          "Derechos humanos",
+          "Democracia",
+          "Desigualdad"
+        ],
+        "suggestedConcepts": [
+          "Sociedad"
+        ],
+        "pedagogicalUse": "Video detonador del Proyecto Academico 2: El surgimiento de la civilización"
+      },
+      {
+        "projectId": "etica-naturaleza-y-sociedades-3-ppa-1-pa3",
+        "projectTitle": "Las acciones para reducir las brechas de desigualdad",
+        "roleInPpa": "Aporta estampas contra la desigualdad al desarrollo del PPA 1.",
+        "confirmedConcepts": [
+          "Estampas contra la desigualdad",
+          "Historia",
+          "Derechos humanos",
+          "Democracia",
+          "Desigualdad"
+        ],
+        "suggestedConcepts": [
+          "Sociedad"
+        ],
+        "pedagogicalUse": "Video detonador del Proyecto Academico 3: Las acciones para reducir las brechas de desigualdad"
+      }
+    ]
+  },
+  "teacherNotesAndResonances": {
+    "grade": "3",
+    "field": "Etica, Naturaleza y Sociedades",
+    "ppaNumber": "1",
+    "status": "teacher-notes-and-resonances",
+    "officialHorizonStatus": "pending",
+    "ppaIntegratingResonance": "¿Que comprension nueva sobre Somos las mismas y los mismos desde la prehistoria, sólo que ahora más desiguales puedes explicar con los productos del PPA 1?",
+    "didacticWarnings": [
+      "No sustituir el producto final por la reproduccion del video.",
+      "Evitar marcar apoyos impresos como confirmados si no existe evidencia por columna."
+    ],
+    "communityPrompts": {
+      "territoryLanguageMemory": [
+        "¿Que palabras, practicas o problemas del entorno ayudan a entender mejor este PPA?"
+      ],
+      "productCommunityConnection": [
+        "¿Como puede circular el producto final dentro de la comunidad escolar?"
+      ]
+    },
+    "projects": [
+      {
+        "projectId": "etica-naturaleza-y-sociedades-3-ppa-1-pa1",
+        "projectTitle": "Proceso de hominización",
+        "teacherNotes": [
+          "Retomar 1. somos las y los mismos desde la prehistoria... como evidencia del aprendizaje.",
+          "Usar los conceptos confirmados para orientar la autoevaluacion."
+        ],
+        "confirmedConceptsToUse": [
+          "1. somos las y los mismos desde la prehistoria...",
+          "Historia",
+          "Derechos humanos",
+          "Democracia",
+          "Desigualdad"
+        ],
+        "suggestedConceptsToHandleCarefully": [
+          "Sociedad"
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Como te ayuda 1. somos las y los mismos desde la prehistoria... a comprender mejor Proceso de hominización y a explicar sus conceptos clave en tu comunidad?",
+            "conceptsActivated": [
+              "1. somos las y los mismos desde la prehistoria...",
+              "Historia",
+              "Derechos humanos",
+              "Democracia"
+            ],
+            "suggestedUse": "Momento 1 de autoevaluacion"
+          }
+        ],
+        "notReadyFor": []
+      },
+      {
+        "projectId": "etica-naturaleza-y-sociedades-3-ppa-1-pa2",
+        "projectTitle": "El surgimiento de la civilización",
+        "teacherNotes": [
+          "Retomar 12. los conflictos en el mundo actual y ... como evidencia del aprendizaje.",
+          "Usar los conceptos confirmados para orientar la autoevaluacion."
+        ],
+        "confirmedConceptsToUse": [
+          "12. los conflictos en el mundo actual y ...",
+          "Historia",
+          "Derechos humanos",
+          "Democracia",
+          "Desigualdad"
+        ],
+        "suggestedConceptsToHandleCarefully": [
+          "Sociedad"
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Como te ayuda 12. los conflictos en el mundo actual y ... a comprender mejor El surgimiento de la civilización y a explicar sus conceptos clave en tu comunidad?",
+            "conceptsActivated": [
+              "12. los conflictos en el mundo actual y ...",
+              "Historia",
+              "Derechos humanos",
+              "Democracia"
+            ],
+            "suggestedUse": "Momento 1 de autoevaluacion"
+          }
+        ],
+        "notReadyFor": []
+      },
+      {
+        "projectId": "etica-naturaleza-y-sociedades-3-ppa-1-pa3",
+        "projectTitle": "Las acciones para reducir las brechas de desigualdad",
+        "teacherNotes": [
+          "Retomar estampas contra la desigualdad como evidencia del aprendizaje.",
+          "Usar los conceptos confirmados para orientar la autoevaluacion."
+        ],
+        "confirmedConceptsToUse": [
+          "Estampas contra la desigualdad",
+          "Historia",
+          "Derechos humanos",
+          "Democracia",
+          "Desigualdad"
+        ],
+        "suggestedConceptsToHandleCarefully": [
+          "Sociedad"
+        ],
+        "resonancePrompts": [
+          {
+            "type": "individual",
+            "prompt": "¿Como te ayuda estampas contra la desigualdad a comprender mejor Las acciones para reducir las brechas de desigualdad y a explicar sus conceptos clave en tu comunidad?",
+            "conceptsActivated": [
+              "Estampas contra la desigualdad",
+              "Historia",
+              "Derechos humanos",
+              "Democracia"
+            ],
+            "suggestedUse": "Momento 1 de autoevaluacion"
+          }
+        ],
+        "notReadyFor": []
+      }
+    ]
+  },
+  "validationAudit": {
+    "kind": "generated-validation-audit",
+    "source": "reports/caracoles/grade3-etica-ppa1-reading-bundle-audit.md",
+    "content": "# Bundle curricular tercer grado\n\n- Campo: Etica, Naturaleza y Sociedades\n- PPA: 1\n- Titulo: Somos las mismas y los mismos desde la prehistoria, sólo que ahora más desiguales\n- Proyectos: PA1, PA2, PA3\n- Estado: generado y publicado\n- Cautela: horizonte literal y apoyos impresos por columna pendientes de revision fina.\n"
+  }
+}
