@@ -269,7 +269,7 @@ function CaracolesApp() {
     : undefined;
 
   return (
-    <main id="caracoles-top" className="min-h-screen bg-[#f8f1e6] px-4 pb-8 pt-28 text-[#241a12] md:px-6 lg:px-8">
+    <main id="caracoles-top" className="min-h-screen bg-[#f8f1e6] px-4 pb-8 pt-44 text-[#241a12] sm:pt-40 md:px-6 lg:px-8 lg:pt-28">
       <header className="fixed inset-x-0 top-0 z-50 border-b border-[#315344]/15 bg-[#f8f1e6]/94 px-4 py-3 shadow-[0_18px_55px_rgba(21,18,14,0.08)] backdrop-blur-xl sm:px-8 lg:px-10">
         <nav className="mx-auto flex max-w-7xl items-center justify-between gap-4 text-sm" aria-label="Menú de Caracoles Resonando">
           <a className="shrink-0 font-serif text-xl leading-none text-[#315344] sm:text-2xl" href="/">
@@ -316,16 +316,15 @@ function CaracolesApp() {
               {item.label}
             </a>
           ))}
-          <BuyMeACoffeeLink variant="header" className="shrink-0 text-xs uppercase tracking-[0.12em]" />
         </div>
       </header>
 
       <div className="mx-auto grid max-w-7xl gap-6">
-        <section className="rounded-[2rem] border border-[#315344]/12 bg-white/88 p-5 shadow-[0_22px_70px_rgba(36,26,18,0.08)] md:p-6">
+        <section className="min-w-0 overflow-hidden rounded-[2rem] border border-[#315344]/12 bg-white/88 p-5 shadow-[0_22px_70px_rgba(36,26,18,0.08)] md:p-6">
           <p className="text-xs font-black uppercase tracking-[0.18em] text-[#8f4d32]">Caracoles Resonando</p>
           <div className="mt-2 flex flex-col gap-3 md:flex-row md:items-end md:justify-between">
             <div>
-              <h1 className="font-serif text-4xl leading-tight text-[#315344] md:text-5xl">Base pedagógica de Proyectos Académicos</h1>
+              <h1 className="break-words font-serif text-4xl leading-tight text-[#315344] sm:text-5xl">Base pedagógica de Proyectos Académicos</h1>
               <p className="mt-3 max-w-4xl text-base leading-8 text-[#675c51]">
                 Selecciona grado, campo formativo y PA para revisar ficha curricular, fuentes, mapa mental integrado y autoevaluación.
               </p>
