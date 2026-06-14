@@ -69,6 +69,12 @@ html = replaceRequired(
 html = replaceOpenGraph(html, 'og:title', metadata.title)
 html = replaceOpenGraph(html, 'og:description', metadata.description)
 html = replaceOpenGraph(html, 'og:url', metadata.url)
+html = replaceRequired(
+  html,
+  /<link\b[^>]*\brel=['"]canonical['"][^>]*>/i,
+  `<link rel="canonical" href="${metadata.url}" />`,
+  'link canonical',
+)
 
 await mkdir(path.dirname(outputFile), { recursive: true })
 await writeFile(outputFile, html, 'utf8')
