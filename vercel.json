@@ -1,7 +1,12 @@
 {
+  "outputDirectory": "dist",
   "rewrites": [
     {
-      "source": "/recursos/caracoles-resonando/:path*",
+      "source": "/recursos/caracoles-resonando",
+      "destination": "/recursos/caracoles-resonando/index.html"
+    },
+    {
+      "source": "/recursos/caracoles-resonando/",
       "destination": "/recursos/caracoles-resonando/index.html"
     },
     {
