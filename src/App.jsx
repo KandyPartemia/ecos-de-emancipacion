@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import CaracolesApp from './caracoles/CaracolesApp';
-import BuyMeACoffeeLink, { BUY_ME_A_COFFEE_URL } from './components/BuyMeACoffeeLink';
+import BuyMeACoffeeLink from './components/BuyMeACoffeeLink';
 import {
   ArrowDown,
   ArrowUp,
@@ -10,7 +10,6 @@ import {
   Brain,
   CircleDot,
   Compass,
-  Coffee,
   DoorOpen,
   Eye,
   Facebook,
@@ -498,6 +497,7 @@ function App() {
       <Header />
       <main className="min-h-screen overflow-hidden bg-cream pt-[4.75rem] text-ink sm:pt-[5rem]">
         <Hero />
+        <CaracolesSpotlight />
         <QuickExplore />
         <About />
         <BuyMeACoffeeLink variant="inline" />
@@ -506,7 +506,6 @@ function App() {
         <Resonances />
         <Pillars />
         <Projects />
-        <CaracolesSpotlight />
         <Resources />
         <Store />
         <SchoolSection />
@@ -1345,10 +1344,6 @@ function Invitation() {
           <ExternalLink className="btn-light" href={LINKS.instagram} label="Ver Instagram">
             <Instagram size={18} aria-hidden="true" />
             Ver Instagram
-          </ExternalLink>
-          <ExternalLink className="btn-gold" href={BUY_ME_A_COFFEE_URL} label="Apoyar a Maestra Kandy en Buy Me a Coffee">
-            <Coffee size={18} aria-hidden="true" />
-            Invitarme un café
           </ExternalLink>
         </div>
       </div>

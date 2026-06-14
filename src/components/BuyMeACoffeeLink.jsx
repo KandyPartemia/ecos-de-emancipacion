@@ -20,10 +20,10 @@ function BuyMeACoffeeLink({ variant = 'inline', className = '' }) {
         target="_blank"
         rel="noopener noreferrer"
         aria-label={labels.header}
-        className={`inline-flex min-h-10 items-center justify-center gap-2 rounded-full border border-gold/35 bg-gold/18 px-3 py-2 text-sm font-black text-forest shadow-sm transition hover:border-forest/30 hover:bg-forest hover:text-cream focus:outline-none focus:ring-4 focus:ring-gold/35 ${className}`}
+        className={`inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-full border border-gold/35 bg-gold/18 text-forest shadow-sm transition hover:border-forest/30 hover:bg-forest hover:text-cream focus:outline-none focus:ring-4 focus:ring-gold/35 ${className}`}
       >
-        <CoffeeIcon size={16} />
-        <span>Apóyame</span>
+        <CoffeeIcon size={18} />
+        <span className="sr-only">Apóyame</span>
       </a>
     );
   }
@@ -49,11 +49,10 @@ function BuyMeACoffeeLink({ variant = 'inline', className = '' }) {
         <div className="grid gap-5 md:grid-cols-[1fr_auto] md:items-center">
           <div>
             <p className="section-kicker text-terracotta">Apoyo solidario</p>
-            <h2 className="mt-2 font-serif text-3xl leading-tight text-forest sm:text-4xl">Invitar un café al proyecto</h2>
+            <h2 className="mt-2 font-serif text-3xl leading-tight text-forest sm:text-4xl">Apoyo solidario</h2>
             <p className="mt-3 max-w-3xl leading-8 text-earth">
-              Este proyecto educativo se sostiene con tiempo, investigación y mucho amor por la enseñanza. Si deseas
-              apoyar la creación de más recursos para maestras, maestros, estudiantes y familias, puedes invitarme un
-              café.
+              Tu apoyo solidario permite seguir mejorando esta y otras herramientas pedagógicas de Ecos de
+              Emancipación para maestras, maestros, estudiantes y familias.
             </p>
           </div>
           <a
