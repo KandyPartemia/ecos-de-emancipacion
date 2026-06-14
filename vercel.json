@@ -1,15 +1,11 @@
 {
   "rewrites": [
     {
-      "source": "/recursos/caracoles-resonando",
-      "destination": "/index.html"
-    },
-    {
-      "source": "/recursos/caracoles-resonando/",
-      "destination": "/index.html"
-    },
-    {
       "source": "/recursos/caracoles-resonando/:path*",
+      "destination": "/recursos/caracoles-resonando/index.html"
+    },
+    {
+      "source": "/((?!recursos/caracoles-resonando).*)",
       "destination": "/index.html"
     }
   ]
