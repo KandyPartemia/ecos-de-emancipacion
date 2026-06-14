@@ -41,6 +41,10 @@ function hasActiveVideo(strategy?: ProjectStrategyRecord) {
   );
 }
 
+function isYouTubeUrl(url?: string) {
+  return Boolean(url && /^https?:\/\/(www\.)?(youtube\.com|youtu\.be)\//i.test(url));
+}
+
 type DisplayHorizon = AcademicProjectRecord['horizon'];
 
 function resolveDisplayHorizon(
@@ -357,7 +361,7 @@ function StrategyCard({ strategy }: { strategy: ProjectStrategyRecord }) {
             className="inline-flex items-center gap-2 rounded-full bg-[#315344] px-5 py-3 text-sm font-bold text-[#f8f1e6] transition hover:bg-[#274338]"
           >
             <LinkIcon size={16} />
-            Abrir recurso
+            {isYouTubeUrl(strategy.videoUrl) ? 'Ver en YouTube' : 'Ver video'}
           </a>
         ) : (
           <p className="text-sm font-semibold leading-7 text-[#675c51]">Video en verificación</p>
@@ -649,10 +653,10 @@ function CrosswordGame({ data }: { data: CrosswordGameData }) {
       </div>
 
       <div className="grid gap-4 lg:grid-cols-[minmax(0,0.56fr)_minmax(17rem,1fr)]">
-        <div className="overflow-x-auto rounded-[1.5rem] border border-[#315344]/12 bg-[#efe6d8] p-2.5 shadow-inner">
+        <div className="max-w-full overflow-hidden rounded-[1.5rem] border border-[#315344]/12 bg-[#efe6d8] p-2.5 shadow-inner">
           <div
-            className="mx-auto grid w-max gap-0.5 rounded-[1rem] bg-[#f8f1e6] p-2"
-            style={{ gridTemplateColumns: `repeat(${data.width}, minmax(0, 1fr))` }}
+            className="mx-auto grid h-auto w-full max-w-full gap-0.5 rounded-[1rem] bg-[#f8f1e6] p-2"
+            style={{ gridTemplateColumns: `repeat(${data.width}, minmax(0, 1fr))`, maxWidth: '100%', height: 'auto' }}
           >
             {data.grid.flatMap((row, rowIndex) =>
               row.map((cell, colIndex) => {
@@ -661,7 +665,7 @@ function CrosswordGame({ data }: { data: CrosswordGameData }) {
                 return (
                   <span
                     key={key}
-                    className={`relative inline-flex h-5 w-5 items-center justify-center rounded-md border text-[9px] font-black shadow-sm transition sm:h-6 sm:w-6 ${
+                    className={`relative inline-flex aspect-square h-auto w-full min-w-0 items-center justify-center rounded-md border text-[9px] font-black shadow-sm transition ${
                       cell
                         ? 'border-[#d9c7ae] bg-white text-[#241a12]'
                         : 'border-transparent bg-[#cfbea5]'
@@ -1360,7 +1364,9 @@ function ProjectDashboard({
                         className="mt-3 inline-flex items-center gap-2 rounded-full bg-[#315344] px-4 py-2 text-sm font-bold text-[#f8f1e6] transition hover:bg-[#274338]"
                       >
                         <LinkIcon size={16} />
-                        Abrir vínculo
+                        {resource.urlStatus === 'active' || resource.urlStatus === 'confirmed'
+                          ? 'Ver en YouTube'
+                          : 'Abrir vínculo'}
                       </a>
                     ) : null}
                   </div>

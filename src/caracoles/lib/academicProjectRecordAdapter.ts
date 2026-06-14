@@ -450,6 +450,10 @@ function isDirectVideoUrl(value?: string) {
   );
 }
 
+function isYouTubeUrl(value?: string) {
+  return Boolean(value && /^https?:\/\/(www\.)?(youtube\.com|youtu\.be)\//i.test(value));
+}
+
 function isSearchResultsUrl(value?: string) {
   if (!value) return false;
   return /youtube\.com\/results\?search_query=/i.test(value);
@@ -829,6 +833,11 @@ function buildComplementaryResources(
           : item.label || 'Recurso complementario',
         reference,
         url: resolvedUrl,
+        urlStatus: isYouTubeUrl(resolvedUrl)
+          ? inferredStatus === 'confirmed'
+            ? ('confirmed' as const)
+            : ('pending' as const)
+          : undefined,
         status: inferredStatus,
       };
     }) ?? [];
@@ -844,6 +853,11 @@ function buildComplementaryResources(
         label: item.title || 'Material de apoyo',
         reference: [item.kind, item.pages].filter(Boolean).join(' · '),
         url: resolveSupportUrl(item.title || 'Material de apoyo', item.title || ''),
+        urlStatus: isYouTubeUrl(resolveSupportUrl(item.title || 'Material de apoyo', item.title || ''))
+          ? sourceStatus(item.status) === 'confirmed'
+            ? ('confirmed' as const)
+            : ('pending' as const)
+          : undefined,
         status: sourceStatus(item.status),
       })) ?? [];
 
@@ -861,22 +875,30 @@ function buildComplementaryResources(
       }
     }
 
+    const resolvedUrl = resolveSupportUrl(labelPart || item, referencePart || '');
+    const status = usesStructuredSupportRoute(labelPart || item, resolvedUrl) && !isSearchResultsUrl(resolvedUrl)
+      ? ('confirmed' as const)
+      : ('pending' as const);
+
     return {
       label: labelPart || item,
       reference: displaySupportReference(labelPart || item, referencePart || item),
-      url: resolveSupportUrl(labelPart || item, referencePart || ''),
-      status: usesStructuredSupportRoute(
-        labelPart || item,
-        resolveSupportUrl(labelPart || item, referencePart || ''),
-      ) && !isSearchResultsUrl(resolveSupportUrl(labelPart || item, referencePart || ''))
-        ? ('confirmed' as const)
-        : ('pending' as const),
+      url: resolvedUrl,
+      urlStatus: isYouTubeUrl(resolvedUrl) ? status : undefined,
+      status,
     };
   }).filter((item) => !normalizeKey(item.label).includes('recurso general del bloque'));
 
   const merged = new Map<
     string,
-    { label: string; reference?: string; url?: string; status: ProjectSourceStatus; priority: number }
+    {
+      label: string;
+      reference?: string;
+      url?: string;
+      urlStatus?: ProjectStrategyRecord['urlStatus'];
+      status: ProjectSourceStatus;
+      priority: number;
+    }
   >();
 
   const curatedResources = [...(OFFICIAL_COMPLEMENTARY_RESOURCES[partialClassroomKey] ?? [])];

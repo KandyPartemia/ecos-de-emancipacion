@@ -57,6 +57,7 @@ export type AcademicProjectRecord = {
     label: string;
     reference?: string;
     url?: string;
+    urlStatus?: 'active' | 'confirmed' | 'pending' | 'not-found';
     status: ProjectSourceStatus;
   }[];
   detonatingStrategy: ProjectStrategyRecord;
