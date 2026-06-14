@@ -506,6 +506,7 @@ function App() {
         <Resonances />
         <Pillars />
         <Projects />
+        <CaracolesSpotlight />
         <Resources />
         <Store />
         <SchoolSection />
@@ -934,6 +935,36 @@ function Projects() {
         >
           {showAllProjects ? 'Ver menos proyectos' : 'Ver más proyectos'}
         </button>
+      </div>
+    </section>
+  );
+}
+
+function CaracolesSpotlight() {
+  return (
+    <section aria-labelledby="caracoles-home-title" className="section-pad bg-forest text-cream">
+      <div className="mx-auto flex max-w-7xl flex-col gap-7 lg:flex-row lg:items-center lg:justify-between">
+        <div className="max-w-3xl">
+          <div className="flex items-center gap-3 text-gold">
+            <Shell size={27} aria-hidden="true" />
+            <p className="section-kicker text-gold">Herramienta pedagógica</p>
+          </div>
+          <h2 id="caracoles-home-title" className="mt-4 font-serif text-4xl leading-tight sm:text-5xl">
+            Caracoles Resonando
+          </h2>
+          <p className="mt-4 max-w-3xl text-lg leading-8 text-cream/85">
+            Planea tu Proyecto Académico de Telesecundaria: ficha curricular, fuentes, mapa mental y autoevaluación en
+            un solo lugar.
+          </p>
+        </div>
+        <a
+          href="/recursos/caracoles-resonando"
+          className="inline-flex min-h-12 shrink-0 items-center justify-center gap-2 self-start rounded-full bg-gold px-6 py-3 font-bold text-ink shadow-soft transition hover:bg-cream focus:outline-none focus:ring-4 focus:ring-gold/35 lg:self-auto"
+          aria-label="Abrir la herramienta Caracoles Resonando"
+        >
+          Abrir herramienta
+          <ArrowUpRight size={18} aria-hidden="true" />
+        </a>
       </div>
     </section>
   );
