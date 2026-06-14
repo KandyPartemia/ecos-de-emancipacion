@@ -254,6 +254,7 @@ function CaracolesApp() {
         label: `PA${project.academicProjectNumber ? project.academicProjectNumber : ' pendiente'} — ${displayProjectTitle(
           project,
         )}`,
+        readinessLevel: project.readinessLevel,
       })),
     ];
   }, [englishFieldSelected, englishLessons, fieldProjects]);

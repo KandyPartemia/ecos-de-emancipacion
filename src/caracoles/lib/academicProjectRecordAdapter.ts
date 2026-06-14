@@ -1036,6 +1036,7 @@ function inferUrlStatus(
   url?: string,
 ): ProjectStrategyRecord['urlStatus'] {
   const normalized = normalizeKey(entry?.urlStatus || fallbackStatus || entry?.status || '');
+  if (normalized.includes('active')) return 'active';
   if (normalized.includes('confirmed')) return 'confirmed';
   if (
     normalized.includes('pending') ||

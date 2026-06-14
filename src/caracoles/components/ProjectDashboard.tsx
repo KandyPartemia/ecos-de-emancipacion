@@ -10,6 +10,7 @@
   Lightbulb,
   Link as LinkIcon,
   Megaphone,
+  MessageCircle,
   PenLine,
   Users,
   Wrench,
@@ -32,9 +33,81 @@ function horizonPendingCopy() {
   return 'Horizonte pendiente de validación en fuente.';
 }
 
-function horizonSummary(record: AcademicProjectRecord) {
-  if (record.horizon.text) return record.horizon.text;
-  return record.horizon.displayLabel || horizonPendingCopy();
+const WHATSAPP_REPORT_URL = 'https://wa.me/message/XRGTMKCKFGWZP1?src=qr';
+
+function hasActiveVideo(strategy?: ProjectStrategyRecord) {
+  return Boolean(
+    strategy?.videoUrl && (strategy.urlStatus === 'active' || strategy.urlStatus === 'confirmed'),
+  );
+}
+
+type DisplayHorizon = AcademicProjectRecord['horizon'];
+
+function resolveDisplayHorizon(
+  record: AcademicProjectRecord,
+  curricularView: CurricularDevelopmentProjectView | null,
+): DisplayHorizon {
+  const developmentProject = curricularView?.developmentProject;
+  const expectation = developmentProject?.projectExpectationHorizon;
+  const rawStatus = String(expectation?.status || '').trim().toLowerCase().replace(/[\s-]+/g, '_');
+  const isPendingOrReview = rawStatus === 'pending' || rawStatus.startsWith('needsreview_') || rawStatus.startsWith('needs_review_');
+  const confirmedStatuses = new Set([
+    'confirmed',
+    'confirmed_from_objective',
+    'confirmed_from_horizon_label',
+    'confirmed_from_fallback',
+  ]);
+  const isConfirmed = confirmedStatuses.has(rawStatus) || record.horizon.status === 'confirmed';
+  const bookVolume = developmentProject?.bookVolume || record.sourcePages.nuestrosProyectos?.tomo || 'correspondiente';
+  const reviewText = `Horizonte en revisión — consulta Nuestros Proyectos ${bookVolume}`;
+
+  if (isPendingOrReview) {
+    return {
+      text: reviewText,
+      status: 'review',
+      source: record.horizon.source,
+      displayLabel: 'Horizonte en revisión',
+      note: 'El texto requiere validación directa en la fuente curricular.',
+    };
+  }
+
+  if (isConfirmed && expectation?.officialText?.trim()) {
+    return {
+      text: expectation.officialText.trim(),
+      status: 'confirmed',
+      source: record.horizon.source,
+      displayLabel: 'Horizonte de expectativa confirmado',
+    };
+  }
+
+  if (expectation?.studentVersion?.trim()) {
+    return {
+      text: expectation.studentVersion.trim(),
+      status: isConfirmed ? 'confirmed' : 'teacher-orientation',
+      source: record.horizon.source,
+      displayLabel: isConfirmed
+        ? 'Horizonte de expectativa confirmado'
+        : 'Orientación pedagógica provisional',
+    };
+  }
+
+  if (developmentProject?.horizonOrPurpose?.text?.trim()) {
+    return {
+      text: developmentProject.horizonOrPurpose.text.trim(),
+      status: record.horizon.status,
+      source: developmentProject.horizonOrPurpose.source || record.horizon.source,
+      displayLabel: record.horizon.displayLabel || 'Horizonte de expectativas',
+      note: record.horizon.note,
+    };
+  }
+
+  return {
+    text: reviewText,
+    status: 'review',
+    source: record.horizon.source,
+    displayLabel: 'Horizonte en revisión',
+    note: 'El texto requiere validación directa en la fuente curricular.',
+  };
 }
 
 function humanizePendingNote(text: string) {
@@ -186,11 +259,11 @@ function DataRow({
   );
 }
 
-function HorizonCard({ record }: { record: AcademicProjectRecord }) {
-  const label = record.horizon.displayLabel || (record.horizon.text ? 'Horizonte de expectativas' : horizonPendingCopy());
+function HorizonCard({ horizon }: { horizon: DisplayHorizon }) {
+  const label = horizon.displayLabel || (horizon.text ? 'Horizonte de expectativas' : horizonPendingCopy());
   const note =
-    record.horizon.note ||
-    (record.horizon.status === 'pending'
+    horizon.note ||
+    (horizon.status === 'pending'
       ? 'No se muestra un horizonte inventado; falta validarlo directamente en la fuente curricular.'
       : '');
 
@@ -198,16 +271,16 @@ function HorizonCard({ record }: { record: AcademicProjectRecord }) {
     <div className="rounded-[1.5rem] bg-[#f5efe4] p-5">
       <div className="flex flex-wrap items-center gap-3">
         <p className="text-xs font-bold uppercase tracking-[0.14em] text-[#8f4d32]">{label}</p>
-        {record.horizon.status === 'confirmed' ? <SourceStatusBadge status="confirmed" /> : null}
-        {record.horizon.status === 'teacher-orientation' ? <SourceStatusBadge status="caution" /> : null}
-        {record.horizon.status === 'pending' || record.horizon.status === 'review' ? (
+        {horizon.status === 'confirmed' ? <SourceStatusBadge status="confirmed" /> : null}
+        {horizon.status === 'teacher-orientation' ? <SourceStatusBadge status="caution" /> : null}
+        {horizon.status === 'pending' || horizon.status === 'review' ? (
           <SourceStatusBadge status="pending" />
         ) : null}
       </div>
-      {record.horizon.text ? <p className="mt-2 leading-8 text-[#241a12]">{record.horizon.text}</p> : null}
+      <p className="mt-2 leading-8 text-[#241a12]">{horizon.text || horizonPendingCopy()}</p>
       {note ? <p className="mt-2 text-sm leading-7 text-[#675c51]">{note}</p> : null}
-      {record.horizon.source ? (
-        <p className="mt-2 text-sm font-semibold text-[#8f4d32]">Fuente: {record.horizon.source}</p>
+      {horizon.source ? (
+        <p className="mt-2 text-sm font-semibold text-[#8f4d32]">Fuente: {horizon.source}</p>
       ) : null}
     </div>
   );
@@ -276,7 +349,7 @@ function StrategyCard({ strategy }: { strategy: ProjectStrategyRecord }) {
       {strategy.source ? <p className="mt-2 text-sm font-semibold text-[#8f4d32]">Fuente: {strategy.source}</p> : null}
 
       <div className="mt-4 flex flex-wrap items-center gap-3">
-        {strategy.videoUrl ? (
+        {hasActiveVideo(strategy) ? (
           <a
             href={strategy.videoUrl}
             target="_blank"
@@ -286,13 +359,9 @@ function StrategyCard({ strategy }: { strategy: ProjectStrategyRecord }) {
             <LinkIcon size={16} />
             Abrir recurso
           </a>
-        ) : null}
-        {strategy.urlStatus === 'pending' ? (
-          <p className="text-sm leading-7 text-[#675c51]">Enlace pendiente de validación específica.</p>
-        ) : null}
-        {!strategy.videoUrl && strategy.urlStatus === 'not-found' ? (
-          <p className="text-sm leading-7 text-[#675c51]">Link pendiente de confirmación.</p>
-        ) : null}
+        ) : (
+          <p className="text-sm font-semibold leading-7 text-[#675c51]">Video en verificación</p>
+        )}
       </div>
     </article>
   );
@@ -1159,23 +1228,33 @@ function ProjectDashboard({
     () => buildAcademicProjectRecord(project, curricularView, linkedConcepts),
     [curricularView, linkedConcepts, project],
   );
+  const displayHorizon = useMemo(
+    () => resolveDisplayHorizon(record, curricularView),
+    [curricularView, record],
+  );
 
   const visibleConcepts = record.academicConcepts.filter((concept) => concept.status !== 'discarded');
   const strategyVideo =
     (record.detonatingStrategy.scope === 'academic-project' &&
-    record.detonatingStrategy.videoUrl &&
-    record.detonatingStrategy.urlStatus === 'confirmed'
+    hasActiveVideo(record.detonatingStrategy)
       ? record.detonatingStrategy
       : undefined) ||
     record.relatedStrategies?.find(
-      (strategy) => strategy.scope === 'academic-project' && Boolean(strategy.videoUrl) && strategy.urlStatus === 'confirmed',
+      (strategy) => strategy.scope === 'academic-project' && hasActiveVideo(strategy),
     ) ||
-    (record.detonatingStrategy.scope === 'partial-classroom-project' && record.detonatingStrategy.videoUrl
+    (record.detonatingStrategy.scope === 'partial-classroom-project' && hasActiveVideo(record.detonatingStrategy)
       ? record.detonatingStrategy
       : undefined) ||
     record.relatedStrategies?.find(
-      (strategy) => strategy.scope === 'partial-classroom-project' && Boolean(strategy.videoUrl),
+      (strategy) => strategy.scope === 'partial-classroom-project' && hasActiveVideo(strategy),
     );
+  const reportVolume =
+    curricularView?.developmentProject?.bookVolume ||
+    project.bookVolume ||
+    record.sourcePages.nuestrosProyectos?.tomo ||
+    'Tomo pendiente';
+  const reportMessage = `Hola Kandy, encontré un dato incorrecto en el PA: ${record.academicProjectTitle}, Grado ${record.grade}, ${reportVolume}: `;
+  const reportUrl = `${WHATSAPP_REPORT_URL}&text=${encodeURIComponent(reportMessage)}`;
 
   return (
     <section className="grid gap-5" id="caracoles-project-dashboard">
@@ -1191,7 +1270,7 @@ function ProjectDashboard({
           </p>
         ) : (
           <div className="mt-4 max-w-5xl">
-            <HorizonCard record={record} />
+            <HorizonCard horizon={displayHorizon} />
           </div>
         )}
       </div>
@@ -1212,7 +1291,7 @@ function ProjectDashboard({
           <DataRow label="Producto final" value={record.finalProduct || 'Pendiente de validación'} />
           <DataRow
             label="Horizonte u orientación"
-            value={horizonSummary(record)}
+            value={displayHorizon.text || horizonPendingCopy()}
           />
           <DataRow
             label="Estrategia detonadora"
@@ -1228,7 +1307,9 @@ function ProjectDashboard({
                   <LinkIcon size={16} />
                   Abrir video
                 </a>
-              ) : null
+              ) : (
+                <p className="text-sm font-semibold leading-7 text-[#675c51]">Video en verificación</p>
+              )
             }
           />
         </div>
@@ -1236,7 +1317,7 @@ function ProjectDashboard({
 
       <Section index={2} title="Horizonte de expectativas">
         <div className="grid gap-3">
-          <HorizonCard record={record} />
+          <HorizonCard horizon={displayHorizon} />
         </div>
       </Section>
 
@@ -1395,6 +1476,22 @@ function ProjectDashboard({
         >
           <BookOpen size={16} />
           Volver al sitio principal
+        </a>
+      </div>
+
+      <div className="rounded-[1.5rem] border border-[#315344]/15 bg-white/88 p-5">
+        <p className="font-serif text-2xl text-[#315344]">¿Encontraste un dato incorrecto?</p>
+        <p className="mt-2 max-w-3xl text-sm leading-7 text-[#675c51]">
+          Ayúdanos a mantener esta ficha clara y confiable. El mensaje incluirá el proyecto, grado y tomo que estás consultando.
+        </p>
+        <a
+          href={reportUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="mt-4 inline-flex items-center gap-2 rounded-full bg-[#315344] px-5 py-3 text-sm font-bold text-[#f8f1e6] transition hover:bg-[#274338] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#8f4d32]"
+        >
+          <MessageCircle size={17} />
+          Reportar dato por WhatsApp
         </a>
       </div>
     </section>

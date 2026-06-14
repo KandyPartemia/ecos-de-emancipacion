@@ -10,7 +10,7 @@ export type ProjectStrategyRecord = {
   scope?: 'academic-project' | 'partial-classroom-project' | 'complementary' | 'unknown';
   scopeLabel?: string;
   resourceLabel?: string;
-  urlStatus?: 'confirmed' | 'pending' | 'not-found';
+  urlStatus?: 'active' | 'confirmed' | 'pending' | 'not-found';
   relatedResource?: string;
   validationNote?: string;
 };

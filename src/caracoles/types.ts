@@ -146,7 +146,16 @@ export type AcademicProject = {
   status?: string;
   needsReview?: boolean;
   readyForActivities?: boolean;
-  readinessLevel?: 'identity-confirmed' | 'guide-ready' | 'activities-partial' | 'activities-ready' | 'catalog-only' | 'incomplete';
+  readinessLevel?:
+    | 'ready'
+    | 'partial'
+    | 'needs-review'
+    | 'identity-confirmed'
+    | 'guide-ready'
+    | 'activities-partial'
+    | 'activities-ready'
+    | 'catalog-only'
+    | 'incomplete';
   warnings?: string[];
   catalogStatus?: 'validated' | 'pending-validation' | 'in-development';
   linkedConfirmedProjectId?: string;
