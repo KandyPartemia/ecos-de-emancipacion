@@ -485,8 +485,48 @@ function SmartLink({ href, children, className, label, external = false }) {
   );
 }
 
+const ROUTE_METADATA = {
+  '/': {
+    title: 'Ecos de Emancipación | Educación crítica, conciencia y recursos pedagógicos',
+    description:
+      'Ecos de Emancipación es un proyecto pedagógico y espiritual que comparte recursos educativos, conciencia crítica, Caracoles Resonando, herramientas para docentes, familias y estudiantes.',
+  },
+  '/recursos/caracoles-resonando': {
+    title: 'Caracoles Resonando — Planea tu PA de Telesecundaria',
+    description:
+      'Ficha curricular, fuentes, mapa mental y autoevaluación para los 432 Proyectos Académicos de Telesecundaria NEM.',
+  },
+};
+
+function updateMetaTag(selector, attribute, value) {
+  let element = document.querySelector(selector);
+
+  if (!element) {
+    element = document.createElement('meta');
+    const propertyMatch = selector.match(/meta\[property="([^"]+)"\]/);
+    const nameMatch = selector.match(/meta\[name="([^"]+)"\]/);
+    if (propertyMatch) element.setAttribute('property', propertyMatch[1]);
+    if (nameMatch) element.setAttribute('name', nameMatch[1]);
+    document.head.appendChild(element);
+  }
+
+  element.setAttribute(attribute, value);
+}
+
 function App() {
-  const currentPath = typeof window !== 'undefined' ? window.location.pathname.replace(/\/$/, '') : '';
+  const currentPath =
+    typeof window !== 'undefined' ? window.location.pathname.replace(/\/$/, '') || '/' : '/';
+
+  useEffect(() => {
+    const metadata = ROUTE_METADATA[currentPath] || ROUTE_METADATA['/'];
+    const url = new URL(currentPath, 'https://ecos-de-emancipacion.vercel.app').toString();
+
+    document.title = metadata.title;
+    updateMetaTag('meta[name="description"]', 'content', metadata.description);
+    updateMetaTag('meta[property="og:title"]', 'content', metadata.title);
+    updateMetaTag('meta[property="og:description"]', 'content', metadata.description);
+    updateMetaTag('meta[property="og:url"]', 'content', url);
+  }, [currentPath]);
 
   if (currentPath === '/recursos/caracoles-resonando') {
     return <CaracolesApp />;
