@@ -233,14 +233,14 @@ function Section({
   children: ReactNode;
 }) {
   return (
-    <section className="rounded-[1.75rem] border border-[#315344]/12 bg-white/88 p-5 shadow-[0_18px_60px_rgba(36,26,18,0.06)]">
-      <div className="flex items-center gap-3">
+    <section className="min-w-0 max-w-full overflow-hidden rounded-[1.75rem] border border-[#315344]/12 bg-white/88 p-4 shadow-[0_18px_60px_rgba(36,26,18,0.06)] sm:p-5">
+      <div className="flex min-w-0 items-center gap-3">
         <span className="inline-flex h-10 w-10 items-center justify-center rounded-full bg-[#315344] text-sm font-black text-[#f8f1e6]">
           {index}
         </span>
-        <h3 className="font-serif text-3xl text-[#315344]">{title}</h3>
+        <h3 className="min-w-0 break-words font-serif text-2xl text-[#315344] sm:text-3xl">{title}</h3>
       </div>
-      <div className="mt-5">{children}</div>
+      <div className="mt-5 min-w-0 max-w-full">{children}</div>
     </section>
   );
 }
@@ -255,10 +255,10 @@ function DataRow({
   extra?: ReactNode;
 }) {
   return (
-    <div className="rounded-2xl bg-[#f5efe4] p-4">
+    <div className="min-w-0 max-w-full rounded-2xl bg-[#f5efe4] p-4">
       <p className="text-xs font-bold uppercase tracking-[0.14em] text-[#8f4d32]">{label}</p>
-      <p className="mt-2 text-base leading-7 text-[#241a12]">{value}</p>
-      {extra ? <div className="mt-3">{extra}</div> : null}
+      <p className="mt-2 break-words text-base leading-7 text-[#241a12] [overflow-wrap:anywhere]">{value}</p>
+      {extra ? <div className="mt-3 min-w-0 max-w-full">{extra}</div> : null}
     </div>
   );
 }
@@ -272,7 +272,7 @@ function HorizonCard({ horizon }: { horizon: DisplayHorizon }) {
       : '');
 
   return (
-    <div className="rounded-[1.5rem] bg-[#f5efe4] p-5">
+    <div className="min-w-0 max-w-full rounded-[1.5rem] bg-[#f5efe4] p-5">
       <div className="flex flex-wrap items-center gap-3">
         <p className="text-xs font-bold uppercase tracking-[0.14em] text-[#8f4d32]">{label}</p>
         {horizon.status === 'confirmed' ? <SourceStatusBadge status="confirmed" /> : null}
@@ -281,10 +281,10 @@ function HorizonCard({ horizon }: { horizon: DisplayHorizon }) {
           <SourceStatusBadge status="pending" />
         ) : null}
       </div>
-      <p className="mt-2 leading-8 text-[#241a12]">{horizon.text || horizonPendingCopy()}</p>
+      <p className="mt-2 break-words leading-8 text-[#241a12] [overflow-wrap:anywhere]">{horizon.text || horizonPendingCopy()}</p>
       {note ? <p className="mt-2 text-sm leading-7 text-[#675c51]">{note}</p> : null}
       {horizon.source ? (
-        <p className="mt-2 text-sm font-semibold text-[#8f4d32]">Fuente: {horizon.source}</p>
+        <p className="mt-2 break-words text-sm font-semibold text-[#8f4d32] [overflow-wrap:anywhere]">Fuente: {horizon.source}</p>
       ) : null}
     </div>
   );
@@ -303,7 +303,7 @@ function BookGroup({
 }) {
   if (!title && !pages?.length) {
     return (
-      <div className="rounded-2xl bg-[#f5efe4] p-4 text-sm leading-7 text-[#675c51]">
+      <div className="min-w-0 max-w-full rounded-2xl bg-[#f5efe4] p-4 text-sm leading-7 text-[#675c51]">
         <p className="font-bold uppercase tracking-[0.14em] text-[#8f4d32]">{label}</p>
         <p className="mt-2">{sectionPendingCopy()}</p>
       </div>
@@ -311,13 +311,13 @@ function BookGroup({
   }
 
   return (
-    <div className="rounded-2xl bg-[#f5efe4] p-4">
+    <div className="min-w-0 max-w-full rounded-2xl bg-[#f5efe4] p-4">
       <div className="flex flex-wrap items-center gap-3">
         <p className="text-xs font-bold uppercase tracking-[0.14em] text-[#8f4d32]">{label}</p>
         {status ? <SourceStatusBadge status={status} /> : null}
       </div>
-      {title ? <p className="mt-2 text-base font-semibold text-[#241a12]">{title}</p> : null}
-      {pages?.length ? <p className="mt-2 text-sm leading-7 text-[#675c51]">{pages.join(' · ')}</p> : null}
+      {title ? <p className="mt-2 break-words text-base font-semibold text-[#241a12] [overflow-wrap:anywhere]">{title}</p> : null}
+      {pages?.length ? <p className="mt-2 break-words text-sm leading-7 text-[#675c51] [overflow-wrap:anywhere]">{pages.join(' · ')}</p> : null}
     </div>
   );
 }
@@ -326,7 +326,7 @@ function StrategyCard({ strategy }: { strategy: ProjectStrategyRecord }) {
   if (!strategy.title && !strategy.text) return null;
 
   return (
-    <article className="rounded-[1.5rem] bg-[#f5efe4] p-5">
+    <article className="min-w-0 max-w-full rounded-[1.5rem] bg-[#f5efe4] p-5">
       <div className="flex flex-wrap items-center gap-3">
         {strategy.scopeLabel ? (
           <span className="rounded-full border border-[#315344]/20 bg-white px-3 py-1 text-xs font-bold uppercase tracking-[0.14em] text-[#315344]">
@@ -340,12 +340,12 @@ function StrategyCard({ strategy }: { strategy: ProjectStrategyRecord }) {
         ) : null}
       </div>
 
-      <h4 className="mt-3 font-serif text-2xl text-[#315344]">{strategy.displayTitle || strategy.title || strategy.text}</h4>
+      <h4 className="mt-3 break-words font-serif text-2xl text-[#315344] [overflow-wrap:anywhere]">{strategy.displayTitle || strategy.title || strategy.text}</h4>
       {strategy.text && strategy.text !== (strategy.displayTitle || strategy.title) ? (
         <p className="mt-2 leading-8 text-[#241a12]">{strategy.text}</p>
       ) : null}
       {strategy.relatedResource ? (
-        <p className="mt-2 text-sm leading-7 text-[#675c51]">Referencia asociada: {strategy.relatedResource}</p>
+        <p className="mt-2 break-words text-sm leading-7 text-[#675c51] [overflow-wrap:anywhere]">Referencia asociada: {strategy.relatedResource}</p>
       ) : null}
       {strategy.validationNote ? (
         <p className="mt-2 rounded-2xl bg-white/70 p-3 text-sm leading-7 text-[#675c51]">{strategy.validationNote}</p>
@@ -358,7 +358,7 @@ function StrategyCard({ strategy }: { strategy: ProjectStrategyRecord }) {
             href={strategy.videoUrl}
             target="_blank"
             rel="noreferrer"
-            className="inline-flex items-center gap-2 rounded-full bg-[#315344] px-5 py-3 text-sm font-bold text-[#f8f1e6] transition hover:bg-[#274338]"
+            className="inline-flex max-w-full flex-wrap items-center justify-center gap-2 rounded-full bg-[#315344] px-5 py-3 text-center text-sm font-bold text-[#f8f1e6] transition hover:bg-[#274338]"
           >
             <LinkIcon size={16} />
             {isYouTubeUrl(strategy.videoUrl) ? 'Ver en YouTube' : 'Ver video'}
@@ -471,7 +471,7 @@ function MatchingActivity({ record }: { record: AcademicProjectRecord }) {
       </p>
       <div className="grid gap-3">
         {promptPairs.map((pair) => (
-          <div key={pair.concept} className="grid gap-3 rounded-2xl bg-[#f5efe4] p-4 md:grid-cols-[1.05fr_0.95fr] md:items-center">
+          <div key={pair.concept} className="grid min-w-0 max-w-full gap-3 rounded-2xl bg-[#f5efe4] p-4 md:grid-cols-[1.05fr_0.95fr] md:items-center">
             <div
               className={`rounded-2xl px-4 py-4 transition ${
                 !checked
@@ -500,7 +500,7 @@ function MatchingActivity({ record }: { record: AcademicProjectRecord }) {
             <select
               value={answers[pair.concept] ?? ''}
               onChange={(event) => setAnswer(pair.concept, event.target.value)}
-              className="min-h-12 rounded-2xl border border-[#315344]/18 bg-white px-4 py-3 text-sm text-[#241a12] outline-none transition focus:border-[#315344]"
+              className="min-h-12 w-full min-w-0 max-w-full rounded-2xl border border-[#315344]/18 bg-white px-4 py-3 text-sm text-[#241a12] outline-none transition focus:border-[#315344]"
             >
               <option value="">Selecciona un concepto</option>
               {(availableConcepts[pair.concept] ?? conceptOptions).map((concept) => (
@@ -614,8 +614,8 @@ function CrosswordGame({ data }: { data: CrosswordGameData }) {
   }, [allSolved, data.entries.length]);
 
   return (
-    <div className="grid gap-5">
-      <div className="rounded-[1.5rem] bg-white p-5">
+    <div className="grid min-w-0 max-w-full gap-5 overflow-x-hidden">
+      <div className="min-w-0 max-w-full rounded-[1.5rem] bg-white p-4 sm:p-5">
         <div className="flex flex-wrap items-start justify-between gap-4">
           <div className="max-w-2xl">
             <p className="text-sm font-bold uppercase tracking-[0.14em] text-[#8f4d32]">Cómo jugar</p>
@@ -652,7 +652,7 @@ function CrosswordGame({ data }: { data: CrosswordGameData }) {
         </div>
       </div>
 
-      <div className="grid gap-4 lg:grid-cols-[minmax(0,0.56fr)_minmax(17rem,1fr)]">
+      <div className="grid min-w-0 max-w-full gap-4 lg:grid-cols-[minmax(0,0.56fr)_minmax(17rem,1fr)]">
         <div className="max-w-full overflow-hidden rounded-[1.5rem] border border-[#315344]/12 bg-[#efe6d8] p-2.5 shadow-inner">
           <div
             className="mx-auto grid h-auto w-full max-w-full gap-0.5 rounded-[1rem] bg-[#f8f1e6] p-2"
@@ -688,7 +688,7 @@ function CrosswordGame({ data }: { data: CrosswordGameData }) {
           </div>
         </div>
 
-        <div className="rounded-[1.5rem] bg-[#f5efe4] p-4">
+        <div className="min-w-0 max-w-full rounded-[1.5rem] bg-[#f5efe4] p-4">
           <p className="text-xs font-bold uppercase tracking-[0.14em] text-[#8f4d32]">Pistas del crucigrama</p>
           <div className="mt-3 grid gap-4">
             {(['across', 'down'] as const).map((direction) => {
@@ -720,8 +720,8 @@ function CrosswordGame({ data }: { data: CrosswordGameData }) {
                           <span className="rounded-full bg-[#efe6d8] px-3 py-1 text-xs font-black text-[#8f4d32]">
                             {entry.number}
                           </span>
-                          <div className="grid gap-1">
-                            <p className="text-sm leading-7 text-[#241a12]">{entry.clue}</p>
+                          <div className="grid min-w-0 gap-1">
+                            <p className="break-words text-sm leading-7 text-[#241a12] [overflow-wrap:anywhere]">{entry.clue}</p>
                             <p className="text-xs font-semibold uppercase tracking-[0.12em] text-[#8f4d32]">
                               {entry.term.length} letras
                             </p>
@@ -738,7 +738,7 @@ function CrosswordGame({ data }: { data: CrosswordGameData }) {
                           }}
                           placeholder={`Escribe una palabra de ${entry.term.length} letras`}
                           autoComplete="off"
-                          className="mt-3 min-h-11 w-full rounded-2xl border border-[#315344]/18 bg-[#fffdf8] px-4 py-2.5 text-sm text-[#241a12] outline-none transition focus:border-[#315344]"
+                          className="mt-3 min-h-11 w-full min-w-0 max-w-full rounded-2xl border border-[#315344]/18 bg-[#fffdf8] px-4 py-2.5 text-sm text-[#241a12] outline-none transition focus:border-[#315344]"
                         />
                         {isCorrect ? (
                           <p className="mt-2 text-sm leading-7 text-[#315344]">Respuesta correcta.</p>
@@ -1031,7 +1031,7 @@ function ConceptMindMap({
   const presentation = presentationBullets(record);
 
   return (
-    <article id="caracoles-mapa-mental" className="overflow-visible rounded-[2rem] border-2 border-[#e0c492] bg-[#fffdf7] p-3 shadow-[0_18px_55px_rgba(36,26,18,0.08)] md:p-5">
+    <article id="caracoles-mapa-mental" className="min-w-0 max-w-full overflow-hidden rounded-[2rem] border-2 border-[#e0c492] bg-[#fffdf7] p-3 shadow-[0_18px_55px_rgba(36,26,18,0.08)] md:p-5">
       <div className="mb-4 flex flex-col gap-2 rounded-[1.4rem] bg-[#315344] px-5 py-4 text-[#f8f1e6] md:flex-row md:items-end md:justify-between">
         <div>
           <p className="text-xs font-black uppercase tracking-[0.18em] text-[#d9b56d]">Recurso visual del proyecto</p>
@@ -1041,7 +1041,7 @@ function ConceptMindMap({
           Síntesis didáctica para leer, comentar, imprimir o proyectar durante el trabajo del Proyecto Académico.
         </p>
       </div>
-      <div className="relative rounded-[1.7rem] bg-[#fffaf0] p-3 md:p-5">
+      <div className="relative min-w-0 max-w-full overflow-hidden rounded-[1.7rem] bg-[#fffaf0] p-3 md:p-5">
         <div className="pointer-events-none absolute inset-4 hidden rounded-[2rem] border-2 border-dashed border-[#d7b779]/55 xl:block" />
         <div className="relative grid gap-4 xl:hidden">
           <MapBlock number="1" title="Propósito" color="#1f63b5" icon={<Lightbulb size={30} />} items={purposeItems} />
@@ -1261,10 +1261,10 @@ function ProjectDashboard({
   const reportUrl = `${WHATSAPP_REPORT_URL}&text=${encodeURIComponent(reportMessage)}`;
 
   return (
-    <section className="grid gap-5" id="caracoles-project-dashboard">
-      <div className="rounded-[2rem] border border-[#315344]/12 bg-white/88 p-5 shadow-[0_22px_70px_rgba(36,26,18,0.08)] md:p-7">
+    <section className="grid min-w-0 max-w-full gap-5 overflow-x-hidden" id="caracoles-project-dashboard">
+      <div className="min-w-0 max-w-full overflow-hidden rounded-[2rem] border border-[#315344]/12 bg-white/88 p-4 shadow-[0_22px_70px_rgba(36,26,18,0.08)] sm:p-5 md:p-7">
         <p className="text-xs font-bold uppercase tracking-[0.18em] text-[#8f4d32]">Ficha curricular del proyecto</p>
-        <h2 className="mt-2 font-serif text-4xl leading-tight text-[#315344] md:text-5xl">
+        <h2 className="mt-2 break-words font-serif text-3xl leading-tight text-[#315344] [overflow-wrap:anywhere] sm:text-4xl md:text-5xl">
           PA {record.academicProjectNumber || 'pendiente'} — {record.academicProjectTitle}
         </h2>
 
@@ -1345,23 +1345,23 @@ function ProjectDashboard({
             pages={record.sourcePages.multiplesLenguajes?.pages}
             status={record.sourcePages.multiplesLenguajes?.status}
           />
-          <div className="rounded-2xl bg-[#f5efe4] p-4">
+          <div className="min-w-0 max-w-full rounded-2xl bg-[#f5efe4] p-4">
             <p className="text-xs font-bold uppercase tracking-[0.14em] text-[#8f4d32]">Apoyos</p>
             {record.complementaryResources?.length ? (
               <div className="mt-3 grid gap-3">
                 {record.complementaryResources.map((resource) => (
-                  <div key={`${resource.label}-${resource.reference}`} className="rounded-2xl bg-white p-3">
+                  <div key={`${resource.label}-${resource.reference}`} className="min-w-0 max-w-full rounded-2xl bg-white p-3">
                     <div className="flex flex-wrap items-center gap-3">
-                      <p className="font-semibold text-[#241a12]">{resource.label}</p>
+                      <p className="min-w-0 break-words font-semibold text-[#241a12] [overflow-wrap:anywhere]">{resource.label}</p>
                       <SourceStatusBadge status={resource.status} />
                     </div>
-                    {resource.reference ? <p className="mt-2 text-sm leading-7 text-[#675c51]">{resource.reference}</p> : null}
+                    {resource.reference ? <p className="mt-2 break-words text-sm leading-7 text-[#675c51] [overflow-wrap:anywhere]">{resource.reference}</p> : null}
                     {resource.url ? (
                       <a
                         href={resource.url}
                         target="_blank"
                         rel="noreferrer"
-                        className="mt-3 inline-flex items-center gap-2 rounded-full bg-[#315344] px-4 py-2 text-sm font-bold text-[#f8f1e6] transition hover:bg-[#274338]"
+                        className="mt-3 inline-flex max-w-full flex-wrap items-center justify-center gap-2 rounded-full bg-[#315344] px-4 py-2 text-center text-sm font-bold text-[#f8f1e6] transition hover:bg-[#274338]"
                       >
                         <LinkIcon size={16} />
                         {resource.urlStatus === 'active' || resource.urlStatus === 'confirmed'
@@ -1420,11 +1420,11 @@ function ProjectDashboard({
         {visibleConcepts.length ? (
           <div className="grid gap-4">
             {visibleConcepts.map((concept) => (
-              <article key={`${concept.concept}-${concept.sourceBook}`} className="rounded-[1.5rem] bg-[#f5efe4] p-5">
+              <article key={`${concept.concept}-${concept.sourceBook}`} className="min-w-0 max-w-full rounded-[1.5rem] bg-[#f5efe4] p-5">
                 <div className="flex flex-wrap items-start justify-between gap-3">
                   <div>
-                    <h4 className="font-serif text-2xl text-[#315344]">{concept.concept}</h4>
-                    <p className="mt-2 leading-7 text-[#241a12]">
+                    <h4 className="break-words font-serif text-2xl text-[#315344] [overflow-wrap:anywhere]">{concept.concept}</h4>
+                    <p className="mt-2 break-words leading-7 text-[#241a12] [overflow-wrap:anywhere]">
                       {concept.description || 'Descripción pendiente de validación.'}
                     </p>
                   </div>
@@ -1449,7 +1449,7 @@ function ProjectDashboard({
         </Section>
       </div>
 
-      <div className="rounded-[1.75rem] border border-[#315344]/12 bg-white/88 p-5 shadow-[0_18px_60px_rgba(36,26,18,0.06)]">
+      <div className="min-w-0 max-w-full overflow-hidden rounded-[1.75rem] border border-[#315344]/12 bg-white/88 p-5 shadow-[0_18px_60px_rgba(36,26,18,0.06)]">
         <p className="text-xs font-bold uppercase tracking-[0.14em] text-[#8f4d32]">Materiales oficiales de apoyo</p>
         <p className="mt-3 max-w-4xl leading-8 text-[#241a12]">
           En la Nueva Escuela Mexicana Digital puedes encontrar más recursos oficiales del Gobierno de México para
@@ -1459,14 +1459,14 @@ function ProjectDashboard({
           href="https://nemd.aprende.gob.mx/"
           target="_blank"
           rel="noreferrer"
-          className="mt-4 inline-flex items-center gap-2 rounded-full bg-[#315344] px-5 py-3 text-sm font-bold text-[#f8f1e6] transition hover:bg-[#274338]"
+          className="mt-4 inline-flex max-w-full flex-wrap items-center justify-center gap-2 rounded-full bg-[#315344] px-5 py-3 text-center text-sm font-bold text-[#f8f1e6] transition hover:bg-[#274338]"
         >
           <LinkIcon size={16} />
           Abrir sitio oficial de la NEMD
         </a>
       </div>
 
-      <div className="rounded-[1.5rem] border border-[#d9b56d]/35 bg-[#fff8ee] p-5">
+      <div className="min-w-0 max-w-full overflow-hidden rounded-[1.5rem] border border-[#d9b56d]/35 bg-[#fff8ee] p-5">
         <p className="text-xs font-bold uppercase tracking-[0.14em] text-[#8f4d32]">Aviso</p>
         <p className="mt-3 max-w-4xl leading-8 text-[#241a12]">
           Esta aplicación fue elaborada para el entorno de Ecos de Emancipación, propuesta de la maestra Kandy
@@ -1478,14 +1478,14 @@ function ProjectDashboard({
         </p>
         <a
           href="/"
-          className="mt-4 inline-flex items-center gap-2 rounded-full border border-[#315344]/20 bg-white px-5 py-3 text-sm font-bold text-[#315344] transition hover:border-[#315344]/45"
+          className="mt-4 inline-flex max-w-full flex-wrap items-center justify-center gap-2 rounded-full border border-[#315344]/20 bg-white px-5 py-3 text-center text-sm font-bold text-[#315344] transition hover:border-[#315344]/45"
         >
           <BookOpen size={16} />
           Volver al sitio principal
         </a>
       </div>
 
-      <div className="rounded-[1.5rem] border border-[#315344]/15 bg-white/88 p-5">
+      <div className="min-w-0 max-w-full overflow-hidden rounded-[1.5rem] border border-[#315344]/15 bg-white/88 p-5">
         <p className="font-serif text-2xl text-[#315344]">¿Encontraste un dato incorrecto?</p>
         <p className="mt-2 max-w-3xl text-sm leading-7 text-[#675c51]">
           Ayúdanos a mantener esta ficha clara y confiable. El mensaje incluirá el proyecto, grado y tomo que estás consultando.
@@ -1494,7 +1494,7 @@ function ProjectDashboard({
           href={reportUrl}
           target="_blank"
           rel="noopener noreferrer"
-          className="mt-4 inline-flex items-center gap-2 rounded-full bg-[#315344] px-5 py-3 text-sm font-bold text-[#f8f1e6] transition hover:bg-[#274338] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#8f4d32]"
+          className="mt-4 inline-flex max-w-full flex-wrap items-center justify-center gap-2 rounded-full bg-[#315344] px-5 py-3 text-center text-sm font-bold text-[#f8f1e6] transition hover:bg-[#274338] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#8f4d32]"
         >
           <MessageCircle size={17} />
           Reportar dato por WhatsApp
