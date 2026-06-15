@@ -17,6 +17,8 @@ const metadata = {
   description:
     'Ficha curricular, fuentes, mapa mental y autoevaluación para los 432 Proyectos Académicos de Telesecundaria NEM.',
   url: 'https://ecos-de-emancipacion.vercel.app/recursos/caracoles-resonando',
+  image:
+    'https://ecos-de-emancipacion.vercel.app/images/og-caracoles-resonando.png',
 }
 
 function escapeHtml(value) {
@@ -58,6 +60,29 @@ function replaceOpenGraph(html, property, value) {
   )
 }
 
+function replaceNamedMeta(html, name, value) {
+  const tagPattern = new RegExp(
+    `<meta\\b[^>]*\\bname=(['"])${name}\\1[^>]*>`,
+    'i',
+  )
+
+  return replaceRequired(
+    html,
+    tagPattern,
+    (tag) => {
+      const contentPattern = /\bcontent=(['"])[\s\S]*?\1/i
+      const content = `content="${escapeHtml(value)}"`
+
+      if (contentPattern.test(tag)) {
+        return tag.replace(contentPattern, content)
+      }
+
+      return tag.replace(/\s*\/?\s*>$/, ` ${content} />`)
+    },
+    `meta[name="${name}"]`,
+  )
+}
+
 let html = await readFile(sourceFile, 'utf8')
 
 html = replaceRequired(
@@ -69,6 +94,8 @@ html = replaceRequired(
 html = replaceOpenGraph(html, 'og:title', metadata.title)
 html = replaceOpenGraph(html, 'og:description', metadata.description)
 html = replaceOpenGraph(html, 'og:url', metadata.url)
+html = replaceOpenGraph(html, 'og:image', metadata.image)
+html = replaceNamedMeta(html, 'twitter:image', metadata.image)
 html = replaceRequired(
   html,
   /<link\b[^>]*\brel=['"]canonical['"][^>]*>/i,
