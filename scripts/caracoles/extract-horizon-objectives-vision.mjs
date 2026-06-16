@@ -330,7 +330,7 @@ async function main() {
         const pagesToTry = [source.page];
         // Add adjacent pages if primary is not startPage+2 already
         if (source.startPage) {
-          const offsets = [1, 3];
+          const offsets = [1, 3, 4, 5];
           for (const off of offsets) {
             const adj = source.startPage + off;
             if (!pagesToTry.includes(adj) && adj !== source.page) pagesToTry.push(adj);
