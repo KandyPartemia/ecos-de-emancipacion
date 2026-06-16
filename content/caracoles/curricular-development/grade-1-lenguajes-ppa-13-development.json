@@ -1,0 +1,927 @@
+{
+  "grade": "1",
+  "gradeLabel": "Primer grado",
+  "field": "Lenguajes",
+  "bookVolume": "Tomo III",
+  "partialClassroomProject": "PPA 13",
+  "partialClassroomProjectTitle": "Los mensajes artisticos y la vida saludable",
+  "generatedAt": "2026-05-28T23:50:44.632Z",
+  "notes": "Capa curricular aislada para 1° Lenguajes PPA 13.",
+  "sourcesUsed": [
+    "reports/caracoles/grade1-lenguajes-reading-teacher-hito-2-standard.md",
+    "content/caracoles/curricular-catalog/all-projects-canonical.json",
+    "content/caracoles/curricular-links/grade-1-project-source-links.json",
+    "content/caracoles/generated-private/grade-1/pages-index.full.json",
+    "Posibilidades de uso Lenguajes, primer grado, p. 29",
+    "Posibilidades de uso Lenguajes, primer grado, p. 30",
+    "Nuestro libro de proyectos Tomo III, primer grado, p. 57"
+  ],
+  "partialClassroomProjectContext": {
+    "expectationHorizon": {
+      "officialText": "",
+      "sourcePages": [
+        "Nuestro libro de proyectos Tomo III p. 57",
+        "Posibilidades de uso Lenguajes p. 29",
+        "Posibilidades de uso Lenguajes p. 30"
+      ],
+      "evidence": "El bloque del PPA 13 comparte un trabajo integrado, pero no se localizo un horizonte unico redactado como texto oficial independiente.",
+      "status": "pending"
+    },
+    "ppaDetonatingStrategy": {
+      "title": "Los mensajes artisticos y la vida saludable",
+      "type": "video",
+      "url": "",
+      "urlStatus": "pending-url",
+      "source": "Posibilidades de uso Lenguajes p. 29",
+      "scope": "partial-classroom-project",
+      "youtubeSearchQuery": "Los mensajes artisticos y la vida saludable Lenguajes 1er grado Telesecundaria"
+    },
+    "ppaDigitalResource": {
+      "title": "Recurso informatico del bloque PPA 13",
+      "reference": "bit.ly/3WQBMwg",
+      "status": "pending-validation",
+      "source": "Nuestro libro de proyectos Tomo III p. 57"
+    },
+    "validationStatus": {
+      "needsHumanReview": true,
+      "needsReviewReasons": [
+        "La p. 29 de Posibilidades corresponde al arranque del PPA 13 y la p. 30 funciona como continuidad del tercer bloque de columna. La p. 34 es un indice de videos y no se uso como fuente del PPA 13.",
+        "Los enlaces cortos del bloque se mantienen como referencias pendientes de validacion de destino final."
+      ]
+    },
+    "columnValidation": {
+      "possibilitiesPagesReviewed": [
+        29,
+        30
+      ],
+      "confirmedAsPpa": true,
+      "note": "La p. 29 de Posibilidades corresponde al arranque del PPA 13 y la p. 30 funciona como continuidad del tercer bloque de columna. La p. 34 es un indice de videos y no se uso como fuente del PPA 13.",
+      "columns": [
+        {
+          "columnIndex": 1,
+          "projectId": "lenguajes-1-ppa-13-pa37",
+          "projectTitle": "Cuida tu salud, ¡pasa la voz!",
+          "finalProduct": "Esquema comparativo",
+          "supportMaterials": [
+            "Maderas que cantan, pp. 86-87"
+          ]
+        },
+        {
+          "columnIndex": 2,
+          "projectId": "lenguajes-1-ppa-13-pa38",
+          "projectTitle": "Salud y costumbres: construyamos en comunidad",
+          "finalProduct": "Articulo de divulgacion",
+          "supportMaterials": []
+        },
+        {
+          "columnIndex": 3,
+          "projectId": "lenguajes-1-ppa-13-pa39",
+          "projectTitle": "¡También puedes agregar tus propuestas!",
+          "finalProduct": "Historieta corta",
+          "supportMaterials": [
+            "Man Ray: pintar con fotografias, pp. 40-45",
+            "El momento imperfecto, pp. 100-107"
+          ]
+        }
+      ]
+    }
+  },
+  "academicProjects": [
+    {
+      "id": "lenguajes-1-ppa-13-pa37",
+      "projectId": "lenguajes-1-ppa-13-pa37",
+      "academicProjectNumber": 37,
+      "projectTitle": "Cuida tu salud, ¡pasa la voz!",
+      "grade": "1",
+      "field": "Lenguajes",
+      "ppaNumber": "13",
+      "partialClassroomProject": "PPA 13",
+      "partialClassroomProjectTitle": "Los mensajes artisticos y la vida saludable",
+      "bookVolume": "Tomo III",
+      "sourceValidation": {
+        "sourceStatus": "linked",
+        "possibilitiesPages": [
+          29
+        ],
+        "possibilitiesMaterialId": "grade-1-posibilidades-pos-len-1",
+        "possibilitiesColumnIndex": 1,
+        "columnEvidence": "Bloque PPA 13 Los mensajes artísticos y la vida saludable localizado en pp. 29, 30; PA 37 presente en el bloque, pero el OCR multicolumna no permite fijar columna con confianza automática."
+      },
+      "finalProduct": {
+        "title": "Esquema comparativo",
+        "source": "Posibilidades de uso Lenguajes p. 29 + Nuestro libro de proyectos Tomo III pp. 46-48",
+        "status": "confirmed"
+      },
+      "sourcePages": {
+        "nuestroLibroProyectos": [
+          {
+            "materialId": "grade-1-proyectos-nuestro-libro-de-proyectos-tomo-iii-primer-grado",
+            "label": "Nuestro libro de proyectos Tomo III",
+            "startPage": 46,
+            "endPage": 48,
+            "pagesLabel": "pp. 46-48",
+            "topicTitle": "Proyecto academico 37",
+            "status": "confirmed-source"
+          }
+        ],
+        "conceptBook": [
+          {
+            "materialId": "grade-1-conceptos-lenguajes-primer-grado",
+            "label": "Lenguajes",
+            "startPage": 164,
+            "endPage": 168,
+            "pagesLabel": "pp. 164-168",
+            "topicTitle": "Fuentes de investigacion y mensajes informativos",
+            "status": "confirmed-source"
+          },
+          {
+            "materialId": "grade-1-conceptos-lenguajes-primer-grado",
+            "label": "Lenguajes",
+            "startPage": 268,
+            "endPage": 271,
+            "pagesLabel": "pp. 268-271",
+            "topicTitle": "Beneficios de las artes para la salud individual y comunitaria",
+            "status": "confirmed-source"
+          }
+        ],
+        "multiplesLenguajes": [
+          {
+            "materialId": "grade-1-apoyo-muiltiples-lenguajes-primer-grado",
+            "label": "Multiples Lenguajes",
+            "startPage": 86,
+            "endPage": 87,
+            "pagesLabel": "pp. 86-87",
+            "topicTitle": "Maderas que cantan",
+            "status": "confirmed-source"
+          }
+        ],
+        "otherMaterials": [
+          {
+            "label": "Video PPA 13: Los mensajes artisticos y la vida saludable",
+            "reference": "",
+            "status": "pending-url",
+            "youtubeSearchQuery": "Los mensajes artisticos y la vida saludable Lenguajes 1er grado Telesecundaria"
+          },
+          {
+            "label": "Recurso de consulta del proyecto",
+            "reference": "Como elaborar un esquema comparativo? bit.ly/3R0ForE",
+            "status": "pending-validation"
+          },
+          {
+            "label": "Recurso general del bloque",
+            "reference": "bit.ly/3RpbgXa",
+            "status": "pending-validation"
+          },
+          {
+            "label": "Recurso informatico del bloque",
+            "reference": "bit.ly/3WQBMwg",
+            "status": "pending-validation"
+          }
+        ]
+      },
+      "supportMaterials": [
+        {
+          "title": "Maderas que cantan",
+          "kind": "Multiples Lenguajes",
+          "pages": "pp. 86-87",
+          "status": "confirmed-source"
+        }
+      ],
+      "horizonOrPurpose": {
+        "status": "confirmed-from-project-book",
+        "text": "Iniciar una investigación bibliográfica acerca de los medios de comunicación y sus características, y determinar la opción para promover una vida saludable en la comunidad.",
+        "source": "Visión — Horizonte 2 (p. 46)"
+      },
+      "detonatingStrategy": {
+        "status": "pending-url",
+        "text": "Video PPA 13: Los mensajes artisticos y la vida saludable",
+        "source": "Posibilidades de uso Lenguajes p. 29"
+      },
+      "academicProjectStrategy": {
+        "status": "needsReview",
+        "text": "Consulta: Como elaborar un esquema comparativo? bit.ly/3R0ForE",
+        "source": "Nuestro libro de proyectos Tomo III p. 47"
+      },
+      "academicConcepts": [
+        {
+          "concept": "esquema comparativo",
+          "status": "confirmed",
+          "sourceBook": "Nuestro libro de proyectos Tomo III",
+          "sourcePages": [
+            46,
+            47
+          ],
+          "sourcePagesLabel": "pp. 46-47",
+          "topicTitle": "esquema comparativo",
+          "evidenceSnippet": "modifíquenla o generen una propia. Etapa 1. ¿Qué haremos? Diseñar un esquema comparativo donde se mencionen los diferentes medios de comunicación masivos, impresos y audiovisuales, y sus características. Con ello se podrá decidir cuál es e",
+          "reason": "La etapa 1 nombra de forma explicita el esquema comparativo como producto y soporte de la presentacion.",
+          "pedagogicalUse": "Permite organizar semejanzas y diferencias entre medios antes de elegir como difundir un mensaje comunitario.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "fuentes de investigacion",
+          "status": "confirmed",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            164,
+            165,
+            166
+          ],
+          "sourcePagesLabel": "pp. 164-166",
+          "topicTitle": "fuentes de investigacion",
+          "evidenceSnippet": "46 Inclusión: la participación ciudadana sirve para fortalecer vínculos con la comunidad y con las personas que les rodean. ❙ Proyecto académico 37 Cuida tu salud, ¡pasa la voz! Etapa 3. ¡Una propuesta de solución! Enfrentarse a un problema",
+          "reason": "La columna asignada remite de manera directa al bloque de fuentes de investigacion.",
+          "pedagogicalUse": "Ayuda a sostener con evidencia las decisiones del esquema y a distinguir informacion verificable.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "tipos de fuentes de informacion",
+          "status": "confirmed",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            165,
+            166
+          ],
+          "sourcePagesLabel": "pp. 165-166",
+          "topicTitle": "tipos de fuentes de informacion",
+          "evidenceSnippet": "46 Inclusión: la participación ciudadana sirve para fortalecer vínculos con la comunidad y con las personas que les rodean. ❙ Proyecto académico 37 Cuida tu salud, ¡pasa la voz! Etapa 3. ¡Una propuesta de solución! Enfrentarse a un problema",
+          "reason": "Las paginas asignadas desarrollan los tipos de fuentes de informacion como contenido explicito.",
+          "pedagogicalUse": "Sirve para revisar si la investigacion mezcla opiniones, rumores y datos sin criterio.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "mensajes informativos",
+          "status": "confirmed",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            166,
+            167,
+            168
+          ],
+          "sourcePagesLabel": "pp. 166-168",
+          "topicTitle": "mensajes informativos",
+          "evidenceSnippet": "46 Inclusión: la participación ciudadana sirve para fortalecer vínculos con la comunidad y con las personas que les rodean. ❙ Proyecto académico 37 Cuida tu salud, ¡pasa la voz! Etapa 3. ¡Una propuesta de solución! Enfrentarse a un problema",
+          "reason": "La fuente del bloque menciona reflexion y redaccion de mensajes informativos.",
+          "pedagogicalUse": "Permite valorar si el medio elegido comunica con claridad, proposito y pertinencia social.",
+          "activityReadiness": "usable-for-resonance"
+        },
+        {
+          "concept": "beneficios de las artes para la salud individual y comunitaria",
+          "status": "confirmed",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            268,
+            269,
+            270,
+            271
+          ],
+          "sourcePagesLabel": "pp. 268-271",
+          "topicTitle": "beneficios de las artes para la salud individual y comunitaria",
+          "evidenceSnippet": "46 Inclusión: la participación ciudadana sirve para fortalecer vínculos con la comunidad y con las personas que les rodean. ❙ Proyecto académico 37 Cuida tu salud, ¡pasa la voz! Etapa 3. ¡Una propuesta de solución! Enfrentarse a un problema",
+          "reason": "La columna incluye de forma explicita este bloque como apoyo conceptual del proyecto.",
+          "pedagogicalUse": "Amplia el cuidado de la salud hacia dimensiones expresivas, sensibles y comunitarias.",
+          "activityReadiness": "usable-for-resonance"
+        },
+        {
+          "concept": "medios de comunicacion comunitarios",
+          "status": "suggested",
+          "sourceBook": "Nuestro libro de proyectos Tomo III",
+          "sourcePages": [
+            47
+          ],
+          "sourcePagesLabel": "p. 47",
+          "topicTitle": "medios de comunicacion comunitarios",
+          "evidenceSnippet": "46 Inclusión: la participación ciudadana sirve para fortalecer vínculos con la comunidad y con las personas que les rodean. ❙ Proyecto académico 37 Cuida tu salud, ¡pasa la voz! Etapa 3. ¡Una propuesta de solución! Enfrentarse a un problema",
+          "reason": "Aparece como contenido de investigacion del proyecto, pero no se localizo una pagina conceptual exclusiva para elevarlo mas en esta fase.",
+          "pedagogicalUse": "Orienta a relacionar el esquema con canales de difusion reales de la comunidad.",
+          "activityReadiness": "usable-for-resonance"
+        },
+        {
+          "concept": "medios de comunicacion masiva",
+          "status": "suggested",
+          "sourceBook": "Nuestro libro de proyectos Tomo III",
+          "sourcePages": [
+            47
+          ],
+          "sourcePagesLabel": "p. 47",
+          "topicTitle": "medios de comunicacion masiva",
+          "evidenceSnippet": "46 Inclusión: la participación ciudadana sirve para fortalecer vínculos con la comunidad y con las personas que les rodean. ❙ Proyecto académico 37 Cuida tu salud, ¡pasa la voz! Etapa 3. ¡Una propuesta de solución! Enfrentarse a un problema",
+          "reason": "El proyecto los nombra como linea de investigacion, aunque la validacion principal recae en el producto comparativo.",
+          "pedagogicalUse": "Ayuda a contrastar alcance, lenguaje y limites de distintos medios.",
+          "activityReadiness": "usable-for-resonance"
+        },
+        {
+          "concept": "caracteristicas y recursos de mensajes que promueven una vida saludable",
+          "status": "needsReview",
+          "sourceBook": "Videos academicos Trimestre III",
+          "sourcePages": [
+            34
+          ],
+          "sourcePagesLabel": "p. 34",
+          "topicTitle": "caracteristicas y recursos de mensajes que promueven una vida saludable",
+          "evidenceSnippet": "46 Inclusión: la participación ciudadana sirve para fortalecer vínculos con la comunidad y con las personas que les rodean. ❙ Proyecto académico 37 Cuida tu salud, ¡pasa la voz! Etapa 3. ¡Una propuesta de solución! Enfrentarse a un problema",
+          "reason": "Se localizo como indice de apoyo del trimestre, pero no se uso como base fuerte del proyecto especifico.",
+          "pedagogicalUse": "Conviene mantenerlo como referencia de fondo y no como concepto confirmado del PA.",
+          "activityReadiness": "not-usable-yet"
+        }
+      ],
+      "thinkingCriteria": [
+        "Comparar rasgos de distintos medios de comunicacion y justificar una eleccion.",
+        "Distinguir fuentes confiables de consulta al preparar mensajes para la comunidad.",
+        "Relacionar arte, informacion y salud sin reducir el proyecto a una lista de recomendaciones."
+      ],
+      "validationStatus": {
+        "readinessLevel": "development-partial",
+        "readyForActivities": false,
+        "needsReviewReasons": [
+          "El video del PPA sigue sin URL confirmada.",
+          "Las caracteristicas y recursos de mensajes que promueven una vida saludable aparecen como apoyo general del bloque, pero no se elevan a concepto confirmado en esta fase."
+        ]
+      },
+      "readinessLevel": "development-partial",
+      "readyForActivities": false,
+      "needsReviewReasons": [
+        "El video del PPA sigue sin URL confirmada.",
+        "Las caracteristicas y recursos de mensajes que promueven una vida saludable aparecen como apoyo general del bloque, pero no se elevan a concepto confirmado en esta fase."
+      ],
+      "projectExpectationHorizon": {
+        "officialText": "Iniciar una investigación bibliográfica acerca de los medios de comunicación y sus características, y determinar la opción para promover una vida saludable en la comunidad.",
+        "studentVersion": "Iniciar una investigación bibliográfica acerca de los medios de comunicación y sus características, y determinar la opción para promover una vida saludable en la comunidad.",
+        "horizon1Raw": "Llevar a cabo una presentación del esquema comparativo para argumentar acerca del medio seleccionado y promover una vida saludable.",
+        "horizon2Raw": "Iniciar una investigación bibliográfica acerca de los medios de comunicación y sus características, y determinar la opción para promover una vida saludable en la comunidad.",
+        "sourcePages": [
+          "Visión — Horizonte 2 (p. 46)"
+        ],
+        "evidence": "Extraído por visión de imagen de la página 46 del libro de proyectos. Confianza: alta.",
+        "status": "confirmed-from-project-book",
+        "extractedAt": "2026-06-16T05:00:40.772Z"
+      }
+    },
+    {
+      "id": "lenguajes-1-ppa-13-pa38",
+      "projectId": "lenguajes-1-ppa-13-pa38",
+      "academicProjectNumber": 38,
+      "projectTitle": "Salud y costumbres: construyamos en comunidad",
+      "grade": "1",
+      "field": "Lenguajes",
+      "ppaNumber": "13",
+      "partialClassroomProject": "PPA 13",
+      "partialClassroomProjectTitle": "Los mensajes artisticos y la vida saludable",
+      "bookVolume": "Tomo III",
+      "sourceValidation": {
+        "sourceStatus": "linked",
+        "possibilitiesPages": [
+          29
+        ],
+        "possibilitiesMaterialId": "grade-1-posibilidades-pos-len-1",
+        "possibilitiesColumnIndex": 2,
+        "columnEvidence": "Bloque PPA 13 Los mensajes artísticos y la vida saludable localizado en pp. 29, 30; PA 38 presente en el bloque, pero el OCR multicolumna no permite fijar columna con confianza automática."
+      },
+      "finalProduct": {
+        "title": "Articulo de divulgacion",
+        "source": "Posibilidades de uso Lenguajes p. 29 + Nuestro libro de proyectos Tomo III pp. 49-52",
+        "status": "confirmed"
+      },
+      "sourcePages": {
+        "nuestroLibroProyectos": [
+          {
+            "materialId": "grade-1-proyectos-nuestro-libro-de-proyectos-tomo-iii-primer-grado",
+            "label": "Nuestro libro de proyectos Tomo III",
+            "startPage": 49,
+            "endPage": 52,
+            "pagesLabel": "pp. 49-52",
+            "topicTitle": "Proyecto academico 38",
+            "status": "confirmed-source"
+          }
+        ],
+        "conceptBook": [
+          {
+            "materialId": "grade-1-conceptos-lenguajes-primer-grado",
+            "label": "Lenguajes",
+            "startPage": 138,
+            "endPage": 141,
+            "pagesLabel": "pp. 138-141",
+            "topicTitle": "Practicas sociales relacionadas con la tierra como madre y como territorio",
+            "status": "confirmed-source"
+          },
+          {
+            "materialId": "grade-1-conceptos-lenguajes-primer-grado",
+            "label": "Lenguajes",
+            "startPage": 145,
+            "endPage": 147,
+            "pagesLabel": "pp. 145-147",
+            "topicTitle": "Trascendencia simbolica de la milpa en las comunidades indigenas de Mexico",
+            "status": "confirmed-source"
+          }
+        ],
+        "multiplesLenguajes": [],
+        "otherMaterials": [
+          {
+            "label": "Video PPA 13: Los mensajes artisticos y la vida saludable",
+            "reference": "",
+            "status": "pending-url",
+            "youtubeSearchQuery": "Los mensajes artisticos y la vida saludable Lenguajes 1er grado Telesecundaria"
+          },
+          {
+            "label": "Recurso de consulta del proyecto",
+            "reference": "Cual es la estructura de un articulo de divulgacion? bit.ly/3R0ForE",
+            "status": "pending-validation"
+          },
+          {
+            "label": "Recurso general del bloque",
+            "reference": "bit.ly/3RpbgXa",
+            "status": "pending-validation"
+          },
+          {
+            "label": "Recurso informatico del bloque",
+            "reference": "bit.ly/3WQBMwg",
+            "status": "pending-validation"
+          }
+        ]
+      },
+      "supportMaterials": [],
+      "horizonOrPurpose": {
+        "status": "confirmed-from-project-book",
+        "text": "Aprender acerca de la estructura y características de un artículo de divulgación para iniciar con una investigación en diferentes fuentes de consulta, como libros, revistas especializadas, internet, entre otras.",
+        "source": "Visión — Horizonte 1 (p. 50)"
+      },
+      "detonatingStrategy": {
+        "status": "pending-url",
+        "text": "Video PPA 13: Los mensajes artisticos y la vida saludable",
+        "source": "Posibilidades de uso Lenguajes p. 29"
+      },
+      "academicProjectStrategy": {
+        "status": "needsReview",
+        "text": "Consulta: Cual es la estructura de un articulo de divulgacion? bit.ly/3R0ForE",
+        "source": "Nuestro libro de proyectos Tomo III p. 51"
+      },
+      "academicConcepts": [
+        {
+          "concept": "articulo de divulgacion",
+          "status": "confirmed",
+          "sourceBook": "Nuestro libro de proyectos Tomo III",
+          "sourcePages": [
+            49,
+            50,
+            51,
+            52
+          ],
+          "sourcePagesLabel": "pp. 49-52",
+          "topicTitle": "articulo de divulgacion",
+          "evidenceSnippet": "49 Etapa 1. ¿Qué haremos? Usar las variantes lingüísticas del lugar donde viven para escribir un artículo de divulgación sobre el análisis de las costumbres en la localidad, con el fin de difundir hábitos para una vida saludable en la comun",
+          "reason": "El proyecto lo nombra como producto central y lo trabaja en etapas, objetivos y presentacion.",
+          "pedagogicalUse": "Sirve para orientar estructura, tono informativo y seleccion de datos relevantes.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "variantes linguisticas de la localidad",
+          "status": "confirmed",
+          "sourceBook": "Nuestro libro de proyectos Tomo III",
+          "sourcePages": [
+            49,
+            50
+          ],
+          "sourcePagesLabel": "pp. 49-50",
+          "topicTitle": "variantes linguisticas de la localidad",
+          "evidenceSnippet": "49 Etapa 1. ¿Qué haremos? Usar las variantes lingüísticas del lugar donde viven para escribir un artículo de divulgación sobre el análisis de las costumbres en la localidad, con el fin de difundir hábitos para una vida saludable en la comun",
+          "reason": "La etapa 1 pide usar las variantes linguisticas del lugar como parte de la redaccion del articulo.",
+          "pedagogicalUse": "Ayuda a situar la escritura en formas reales de hablar y nombrar el mundo.",
+          "activityReadiness": "usable-for-resonance"
+        },
+        {
+          "concept": "practicas sociales relacionadas con la tierra como madre y como territorio",
+          "status": "confirmed",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            138,
+            139,
+            140,
+            141
+          ],
+          "sourcePagesLabel": "pp. 138-141",
+          "topicTitle": "practicas sociales relacionadas con la tierra como madre y como territorio",
+          "evidenceSnippet": "49 Etapa 1. ¿Qué haremos? Usar las variantes lingüísticas del lugar donde viven para escribir un artículo de divulgación sobre el análisis de las costumbres en la localidad, con el fin de difundir hábitos para una vida saludable en la comun",
+          "reason": "La columna asignada vincula el proyecto con este bloque conceptual de manera explicita.",
+          "pedagogicalUse": "Permite leer costumbres y habitos de salud como parte de una relacion historica con el territorio.",
+          "activityReadiness": "usable-for-resonance"
+        },
+        {
+          "concept": "trascendencia simbolica de la milpa",
+          "status": "confirmed",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            145,
+            146,
+            147
+          ],
+          "sourcePagesLabel": "pp. 145-147",
+          "topicTitle": "trascendencia simbolica de la milpa",
+          "evidenceSnippet": "49 Etapa 1. ¿Qué haremos? Usar las variantes lingüísticas del lugar donde viven para escribir un artículo de divulgación sobre el análisis de las costumbres en la localidad, con el fin de difundir hábitos para una vida saludable en la comun",
+          "reason": "Las paginas asignadas desarrollan la milpa como referencia cultural y linguistica de la vida comunitaria.",
+          "pedagogicalUse": "Ayuda a que el articulo no se quede en consejos aislados y dialogue con practicas de cuidado ancladas en la comunidad.",
+          "activityReadiness": "usable-for-resonance"
+        },
+        {
+          "concept": "uso de las lenguas indigenas en la cultura agricola",
+          "status": "confirmed",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            146
+          ],
+          "sourcePagesLabel": "p. 146",
+          "topicTitle": "uso de las lenguas indigenas en la cultura agricola",
+          "evidenceSnippet": "49 Etapa 1. ¿Qué haremos? Usar las variantes lingüísticas del lugar donde viven para escribir un artículo de divulgación sobre el análisis de las costumbres en la localidad, con el fin de difundir hábitos para una vida saludable en la comun",
+          "reason": "La pagina 146 lo nombra de forma directa dentro del bloque asignado al proyecto.",
+          "pedagogicalUse": "Sirve para valorar la lengua como parte del saber agricola y de la explicacion comunitaria.",
+          "activityReadiness": "usable-for-resonance"
+        },
+        {
+          "concept": "narraciones de distintos generos en torno a la tierra",
+          "status": "suggested",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            141
+          ],
+          "sourcePagesLabel": "p. 141",
+          "topicTitle": "narraciones de distintos generos en torno a la tierra",
+          "evidenceSnippet": "49 Etapa 1. ¿Qué haremos? Usar las variantes lingüísticas del lugar donde viven para escribir un artículo de divulgación sobre el análisis de las costumbres en la localidad, con el fin de difundir hábitos para una vida saludable en la comun",
+          "reason": "El concepto aparece en las fuentes del bloque, pero en esta fase se mantiene como apoyo de lectura y no como nucleo del producto.",
+          "pedagogicalUse": "Puede enriquecer ejemplos y comparaciones al escribir el articulo.",
+          "activityReadiness": "usable-for-resonance"
+        },
+        {
+          "concept": "narraciones de distintos generos en torno a la milpa",
+          "status": "suggested",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            147
+          ],
+          "sourcePagesLabel": "p. 147",
+          "topicTitle": "narraciones de distintos generos en torno a la milpa",
+          "evidenceSnippet": "49 Etapa 1. ¿Qué haremos? Usar las variantes lingüísticas del lugar donde viven para escribir un artículo de divulgación sobre el análisis de las costumbres en la localidad, con el fin de difundir hábitos para una vida saludable en la comun",
+          "reason": "Aporta contexto valioso, aunque todavia no se usa como eje confirmado de evaluacion o juego.",
+          "pedagogicalUse": "Ayuda a relacionar memoria, alimentacion y lenguaje dentro del articulo.",
+          "activityReadiness": "usable-for-resonance"
+        }
+      ],
+      "thinkingCriteria": [
+        "Relacionar costumbres locales y vida saludable sin separar lengua y territorio.",
+        "Valorar la divulgacion como una forma de explicar, no solo de opinar.",
+        "Reconocer que las practicas culturales requieren interpretacion contextual y respeto por su sentido comunitario."
+      ],
+      "validationStatus": {
+        "readinessLevel": "development-partial",
+        "readyForActivities": false,
+        "needsReviewReasons": [
+          "No se localizo apoyo confirmado de Multiples Lenguajes para esta columna.",
+          "El articulo se sostiene con fuerza en el proyecto y las paginas de tierra y milpa, pero el enlace corto sigue pendiente de validacion."
+        ]
+      },
+      "readinessLevel": "development-partial",
+      "readyForActivities": false,
+      "needsReviewReasons": [
+        "No se localizo apoyo confirmado de Multiples Lenguajes para esta columna.",
+        "El articulo se sostiene con fuerza en el proyecto y las paginas de tierra y milpa, pero el enlace corto sigue pendiente de validacion."
+      ],
+      "projectExpectationHorizon": {
+        "officialText": "Aprender acerca de la estructura y características de un artículo de divulgación para iniciar con una investigación en diferentes fuentes de consulta, como libros, revistas especializadas, internet, entre otras.",
+        "studentVersion": "Aprender acerca de la estructura y características de un artículo de divulgación para iniciar con una investigación en diferentes fuentes de consulta, como libros, revistas especializadas, internet, entre otras.",
+        "horizon1Raw": "Aprender acerca de la estructura y características de un artículo de divulgación para iniciar con una investigación en diferentes fuentes de consulta, como libros, revistas especializadas, internet, entre otras.",
+        "horizon2Raw": "Recabar información dentro de la comunidad para obtener datos relevantes sobre las costumbres que contribuyen a tener una vida saludable.",
+        "sourcePages": [
+          "Visión — Horizonte 1 (p. 50)"
+        ],
+        "evidence": "Extraído por visión de imagen de la página 50 del libro de proyectos. Confianza: alta.",
+        "status": "confirmed-from-project-book",
+        "extractedAt": "2026-06-16T05:00:44.759Z"
+      }
+    },
+    {
+      "id": "lenguajes-1-ppa-13-pa39",
+      "projectId": "lenguajes-1-ppa-13-pa39",
+      "academicProjectNumber": 39,
+      "projectTitle": "¡También puedes agregar tus propuestas!",
+      "grade": "1",
+      "field": "Lenguajes",
+      "ppaNumber": "13",
+      "partialClassroomProject": "PPA 13",
+      "partialClassroomProjectTitle": "Los mensajes artisticos y la vida saludable",
+      "bookVolume": "Tomo III",
+      "sourceValidation": {
+        "sourceStatus": "linked",
+        "possibilitiesPages": [
+          29,
+          30
+        ],
+        "possibilitiesMaterialId": "grade-1-posibilidades-pos-len-1",
+        "possibilitiesColumnIndex": 3,
+        "columnEvidence": "Bloque PPA 13 Los mensajes artísticos y la vida saludable localizado en pp. 29, 30; PA 39 presente en el bloque, pero el OCR multicolumna no permite fijar columna con confianza automática."
+      },
+      "finalProduct": {
+        "title": "Historieta corta",
+        "source": "Posibilidades de uso Lenguajes p. 29-30 + Nuestro libro de proyectos Tomo III pp. 53-56",
+        "status": "confirmed"
+      },
+      "sourcePages": {
+        "nuestroLibroProyectos": [
+          {
+            "materialId": "grade-1-proyectos-nuestro-libro-de-proyectos-tomo-iii-primer-grado",
+            "label": "Nuestro libro de proyectos Tomo III",
+            "startPage": 53,
+            "endPage": 56,
+            "pagesLabel": "pp. 53-56",
+            "topicTitle": "Proyecto academico 39",
+            "status": "confirmed-source"
+          }
+        ],
+        "conceptBook": [
+          {
+            "materialId": "grade-1-conceptos-lenguajes-primer-grado",
+            "label": "Lenguajes",
+            "startPage": 149,
+            "endPage": 156,
+            "pagesLabel": "pp. 149-156",
+            "topicTitle": "Diversidad linguistica de Mexico y America Latina",
+            "status": "confirmed-source"
+          },
+          {
+            "materialId": "grade-1-conceptos-lenguajes-primer-grado",
+            "label": "Lenguajes",
+            "startPage": 253,
+            "endPage": 260,
+            "pagesLabel": "pp. 253-260",
+            "topicTitle": "Tradicion y comunidad en textos literarios",
+            "status": "confirmed-source"
+          },
+          {
+            "materialId": "grade-1-conceptos-lenguajes-primer-grado",
+            "label": "Lenguajes",
+            "startPage": 268,
+            "endPage": 271,
+            "pagesLabel": "pp. 268-271",
+            "topicTitle": "Beneficios de las artes para la salud individual y comunitaria",
+            "status": "confirmed-source"
+          }
+        ],
+        "multiplesLenguajes": [
+          {
+            "materialId": "grade-1-apoyo-muiltiples-lenguajes-primer-grado",
+            "label": "Multiples Lenguajes",
+            "startPage": 40,
+            "endPage": 45,
+            "pagesLabel": "pp. 40-45",
+            "topicTitle": "Man Ray: pintar con fotografias",
+            "status": "confirmed-source"
+          },
+          {
+            "materialId": "grade-1-apoyo-muiltiples-lenguajes-primer-grado",
+            "label": "Multiples Lenguajes",
+            "startPage": 100,
+            "endPage": 107,
+            "pagesLabel": "pp. 100-107",
+            "topicTitle": "El momento imperfecto",
+            "status": "confirmed-source"
+          }
+        ],
+        "otherMaterials": [
+          {
+            "label": "Video PPA 13: Los mensajes artisticos y la vida saludable",
+            "reference": "",
+            "status": "pending-url",
+            "youtubeSearchQuery": "Los mensajes artisticos y la vida saludable Lenguajes 1er grado Telesecundaria"
+          },
+          {
+            "label": "Recurso de consulta del proyecto",
+            "reference": "Como elaborar una historieta corta? bit.ly/3R0ForE",
+            "status": "pending-validation"
+          },
+          {
+            "label": "Recurso general del bloque",
+            "reference": "bit.ly/3RpbgXa",
+            "status": "pending-validation"
+          },
+          {
+            "label": "Recurso informatico del bloque",
+            "reference": "bit.ly/3WQBMwg",
+            "status": "pending-validation"
+          }
+        ]
+      },
+      "supportMaterials": [
+        {
+          "title": "Man Ray: pintar con fotografias",
+          "kind": "Multiples Lenguajes",
+          "pages": "pp. 40-45",
+          "status": "confirmed-source"
+        },
+        {
+          "title": "El momento imperfecto",
+          "kind": "Multiples Lenguajes",
+          "pages": "pp. 100-107",
+          "status": "confirmed-source"
+        }
+      ],
+      "horizonOrPurpose": {
+        "status": "confirmed-from-project-book",
+        "text": "Elaborar una historieta con apartados en blanco para que las personas de la localidad hagan propuestas de actividades que promuevan hábitos para una vida saludable.",
+        "source": "Visión — Horizonte 2 (p. 54)"
+      },
+      "detonatingStrategy": {
+        "status": "pending-url",
+        "text": "Video PPA 13: Los mensajes artisticos y la vida saludable",
+        "source": "Posibilidades de uso Lenguajes pp. 29-30"
+      },
+      "academicProjectStrategy": {
+        "status": "needsReview",
+        "text": "Consulta: Como elaborar una historieta corta? bit.ly/3R0ForE",
+        "source": "Nuestro libro de proyectos Tomo III p. 55"
+      },
+      "academicConcepts": [
+        {
+          "concept": "historieta corta",
+          "status": "confirmed",
+          "sourceBook": "Nuestro libro de proyectos Tomo III",
+          "sourcePages": [
+            53,
+            54,
+            55,
+            56
+          ],
+          "sourcePagesLabel": "pp. 53-56",
+          "topicTitle": "historieta corta",
+          "evidenceSnippet": "esario, contribuir a cambiarla. ❙ Etapa 1. ¿Qué haremos? Elaborar una historieta corta mediante la cual se despierte el interés por aprender acerca de los hábitos personales para una vida saludable, con el fin de invitar a la comunidad a un",
+          "reason": "El proyecto la nombra de forma expresa como producto y como medio de sensibilizacion y propuesta.",
+          "pedagogicalUse": "Ayuda a organizar imagenes, dialogos y secuencias con un proposito claro hacia la comunidad.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "habitos personales para una vida saludable",
+          "status": "confirmed",
+          "sourceBook": "Nuestro libro de proyectos Tomo III",
+          "sourcePages": [
+            53,
+            54
+          ],
+          "sourcePagesLabel": "pp. 53-54",
+          "topicTitle": "habitos personales para una vida saludable",
+          "evidenceSnippet": "53 Proyecto académico 39 ¡También puedes agregar tus propuestas! Pensamiento crítico: este eje permite acercarse a la realidad desde diferentes puntos de vista, cuestionarla y, si es necesario, contribuir a cambiarla. ❙ Etapa 1. ¿Qué haremo",
+          "reason": "La etapa 1 y los objetivos hacen explicito que la historieta gira en torno a habitos de mejora.",
+          "pedagogicalUse": "Permite anclar el producto en situaciones concretas del cuidado cotidiano.",
+          "activityReadiness": "usable-for-resonance"
+        },
+        {
+          "concept": "diversidad linguistica de Mexico y America Latina",
+          "status": "confirmed",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            149,
+            150,
+            151,
+            152,
+            153,
+            154,
+            155,
+            156
+          ],
+          "sourcePagesLabel": "pp. 149-156",
+          "topicTitle": "diversidad linguistica de Mexico y America Latina",
+          "evidenceSnippet": "53 Proyecto académico 39 ¡También puedes agregar tus propuestas! Pensamiento crítico: este eje permite acercarse a la realidad desde diferentes puntos de vista, cuestionarla y, si es necesario, contribuir a cambiarla. ❙ Etapa 1. ¿Qué haremo",
+          "reason": "La columna asignada lo vincula directamente con el proyecto y con la sensibilizacion sobre lengua indigena.",
+          "pedagogicalUse": "Ayuda a valorar por que la historieta puede hablar desde varias lenguas y formas de nombrar la realidad.",
+          "activityReadiness": "usable-for-resonance"
+        },
+        {
+          "concept": "revitalizacion cultural a traves de las lenguas indigenas",
+          "status": "confirmed",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            155,
+            156
+          ],
+          "sourcePagesLabel": "pp. 155-156",
+          "topicTitle": "revitalizacion cultural a traves de las lenguas indigenas",
+          "evidenceSnippet": "53 Proyecto académico 39 ¡También puedes agregar tus propuestas! Pensamiento crítico: este eje permite acercarse a la realidad desde diferentes puntos de vista, cuestionarla y, si es necesario, contribuir a cambiarla. ❙ Etapa 1. ¿Qué haremo",
+          "reason": "Las paginas de cierre del bloque lo nombran de manera explicita como parte de la diversidad linguistica.",
+          "pedagogicalUse": "Sostiene la intencion de sensibilizacion sin volverla abstracta o folclorizante.",
+          "activityReadiness": "usable-for-resonance"
+        },
+        {
+          "concept": "tradicion y comunidad en textos literarios",
+          "status": "confirmed",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            253,
+            254,
+            255,
+            256,
+            257,
+            258,
+            259,
+            260
+          ],
+          "sourcePagesLabel": "pp. 253-260",
+          "topicTitle": "tradicion y comunidad en textos literarios",
+          "evidenceSnippet": "53 Proyecto académico 39 ¡También puedes agregar tus propuestas! Pensamiento crítico: este eje permite acercarse a la realidad desde diferentes puntos de vista, cuestionarla y, si es necesario, contribuir a cambiarla. ❙ Etapa 1. ¿Qué haremo",
+          "reason": "La continuidad de la p. 30 incorpora este bloque como parte del mismo proyecto academico.",
+          "pedagogicalUse": "Permite pensar la historieta como una forma narrativa que tambien circula en comunidad.",
+          "activityReadiness": "usable-for-resonance"
+        },
+        {
+          "concept": "beneficios de las artes para la salud individual y comunitaria",
+          "status": "confirmed",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            268,
+            269,
+            270,
+            271
+          ],
+          "sourcePagesLabel": "pp. 268-271",
+          "topicTitle": "beneficios de las artes para la salud individual y comunitaria",
+          "evidenceSnippet": "53 Proyecto académico 39 ¡También puedes agregar tus propuestas! Pensamiento crítico: este eje permite acercarse a la realidad desde diferentes puntos de vista, cuestionarla y, si es necesario, contribuir a cambiarla. ❙ Etapa 1. ¿Qué haremo",
+          "reason": "El bloque del PA39 conserva este apoyo en la misma columna de Posibilidades.",
+          "pedagogicalUse": "Refuerza que la historieta puede promover salud desde recursos artisticos y no solo desde datos.",
+          "activityReadiness": "usable-for-resonance"
+        },
+        {
+          "concept": "tradiciones literarias: mitos, fabulas y leyendas",
+          "status": "suggested",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            254,
+            255,
+            256
+          ],
+          "sourcePagesLabel": "pp. 254-256",
+          "topicTitle": "tradiciones literarias: mitos, fabulas y leyendas",
+          "evidenceSnippet": "53 Proyecto académico 39 ¡También puedes agregar tus propuestas! Pensamiento crítico: este eje permite acercarse a la realidad desde diferentes puntos de vista, cuestionarla y, si es necesario, contribuir a cambiarla. ❙ Etapa 1. ¿Qué haremo",
+          "reason": "Aparece en la continuidad de la fuente, pero por ahora se usa como contexto literario mas que como nucleo de la historieta.",
+          "pedagogicalUse": "Puede enriquecer personajes, escenas o formas narrativas del producto.",
+          "activityReadiness": "usable-for-games-later"
+        },
+        {
+          "concept": "literatura contemporanea en lengua inglesa",
+          "status": "needsReview",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            257,
+            258
+          ],
+          "sourcePagesLabel": "pp. 257-258",
+          "topicTitle": "literatura contemporanea en lengua inglesa",
+          "evidenceSnippet": "53 Proyecto académico 39 ¡También puedes agregar tus propuestas! Pensamiento crítico: este eje permite acercarse a la realidad desde diferentes puntos de vista, cuestionarla y, si es necesario, contribuir a cambiarla. ❙ Etapa 1. ¿Qué haremo",
+          "reason": "La pagina asignada la menciona, pero no se encontro suficiente evidencia para volverla eje confirmado de este PA.",
+          "pedagogicalUse": "Conviene mantenerla en cautela para no mezclar el proyecto con otro foco tematico.",
+          "activityReadiness": "not-usable-yet"
+        },
+        {
+          "concept": "medios para la promocion y difusion de la literatura",
+          "status": "confirmed",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            258,
+            259,
+            260
+          ],
+          "sourcePagesLabel": "pp. 258-260",
+          "topicTitle": "medios para la promocion y difusion de la literatura",
+          "evidenceSnippet": "53 Proyecto académico 39 ¡También puedes agregar tus propuestas! Pensamiento crítico: este eje permite acercarse a la realidad desde diferentes puntos de vista, cuestionarla y, si es necesario, contribuir a cambiarla. ❙ Etapa 1. ¿Qué haremo",
+          "reason": "El cierre del bloque en p. 30 la ubica como referencia clara para la circulacion del producto.",
+          "pedagogicalUse": "Ayuda a pensar como la historieta se comparte, se lee y circula en la comunidad.",
+          "activityReadiness": "usable-for-resonance"
+        }
+      ],
+      "thinkingCriteria": [
+        "Relacionar imagen, texto y dialogo para comunicar una propuesta de cuidado.",
+        "Reconocer como la diversidad linguistica y la literatura pueden fortalecer mensajes comunitarios.",
+        "Evitar que la historieta reduzca los habitos saludables a consignas sin reflexion."
+      ],
+      "validationStatus": {
+        "readinessLevel": "development-partial",
+        "readyForActivities": false,
+        "needsReviewReasons": [
+          "La p. 30 se uso como continuidad del tercer bloque del PPA 13; conviene mantener esa decision visible en auditoria.",
+          "La literatura contemporanea en lengua inglesa aparece en la fuente asignada, pero no se eleva a concepto confirmado del proyecto."
+        ]
+      },
+      "readinessLevel": "development-partial",
+      "readyForActivities": false,
+      "needsReviewReasons": [
+        "La p. 30 se uso como continuidad del tercer bloque del PPA 13; conviene mantener esa decision visible en auditoria.",
+        "La literatura contemporanea en lengua inglesa aparece en la fuente asignada, pero no se eleva a concepto confirmado del proyecto."
+      ],
+      "projectExpectationHorizon": {
+        "officialText": "Elaborar una historieta con apartados en blanco para que las personas de la localidad hagan propuestas de actividades que promuevan hábitos para una vida saludable.",
+        "studentVersion": "Elaborar una historieta con apartados en blanco para que las personas de la localidad hagan propuestas de actividades que promuevan hábitos para una vida saludable.",
+        "horizon1Raw": "Utilizar una historieta para revisar los hábitos que promuevan una vida saludable y establecer un programa de mejora.",
+        "horizon2Raw": "Elaborar una historieta con apartados en blanco para que las personas de la localidad hagan propuestas de actividades que promuevan hábitos para una vida saludable.",
+        "sourcePages": [
+          "Visión — Horizonte 2 (p. 54)"
+        ],
+        "evidence": "Extraído por visión de imagen de la página 54 del libro de proyectos. Confianza: alta.",
+        "status": "confirmed-from-project-book",
+        "extractedAt": "2026-06-16T05:00:48.380Z"
+      }
+    }
+  ]
+}

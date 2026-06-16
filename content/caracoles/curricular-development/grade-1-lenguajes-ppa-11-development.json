@@ -1,0 +1,941 @@
+{
+  "grade": "1",
+  "gradeLabel": "Primer grado",
+  "field": "Lenguajes",
+  "bookVolume": "Tomo III",
+  "partialClassroomProject": "PPA 11",
+  "partialClassroomProjectTitle": "Los generos que comunican nuestra realidad",
+  "generatedAt": "2026-05-25T03:02:31.634Z",
+  "notes": "Capa curricular piloto aislada para 1° Lenguajes PPA 11. No alimenta la app publica automaticamente.",
+  "sourcesUsed": [
+    "content/caracoles/templates/teacher-community-prompts-template.json",
+    "content/caracoles/templates/examples/grade-1-lenguajes-ppa-9-teacher-community-prompts-example.json",
+    "content/caracoles/curricular-catalog/all-projects-canonical.json",
+    "content/caracoles/generated-private/grade-1/pages-index.full.json",
+    "Posibilidades de uso Lenguajes, primer grado, p. 27",
+    "Nuestro libro de proyectos Tomo III, primer grado, pp. 14-26",
+    "Lenguajes primer grado, pp. 72-96, 199-203, 261-265, 296-304",
+    "Multiples Lenguajes primer grado, pp. 10-11, 30-33, 34-38"
+  ],
+  "templateReference": {
+    "templateVersion": "1.0",
+    "exampleDerivedFrom": [
+      "grade-1-lenguajes-ppa-9-development.json",
+      "grade-1-lenguajes-ppa-9-concepts-validation.json",
+      "grade-1-lenguajes-ppa-9-pedagogical-articulation.json",
+      "grade-1-lenguajes-ppa-9-teacher-notes-and-resonances.json",
+      "grade-1-lenguajes-ppa-10-development.json",
+      "grade-1-lenguajes-ppa-10-concepts-validation.json",
+      "grade-1-lenguajes-ppa-10-pedagogical-articulation.json",
+      "grade-1-lenguajes-ppa-10-teacher-notes-and-resonances.json"
+    ],
+    "exampleSourceStatus": "teacher-orientation-example"
+  },
+  "partialClassroomProjectContext": {
+    "expectationHorizon": {
+      "officialText": "",
+      "sourcePages": [
+        "Posibilidades de uso Lenguajes p. 27",
+        "Nuestro libro de proyectos Tomo III pp. 14-26"
+      ],
+      "evidence": "El bloque comparte un trabajo en torno a memoria colectiva, generos que comunican la realidad y expresiones comunitarias, pero no se localizo una formulacion unica de horizonte oficial del PPA 11.",
+      "status": "pending"
+    },
+    "ppaDetonatingStrategy": {
+      "title": "Los generos que comunican nuestra realidad",
+      "type": "video",
+      "url": "",
+      "urlStatus": "pending-url",
+      "source": "Posibilidades de uso Lenguajes p. 27",
+      "scope": "partial-classroom-project",
+      "youtubeSearchQuery": "Los generos que comunican nuestra realidad Lenguajes 1er grado Telesecundaria"
+    },
+    "validationStatus": {
+      "needsHumanReview": true,
+      "needsReviewReasons": [
+        "La validacion visual directa confirmo que el bloque del PPA 11 corresponde a la p. 27 de Posibilidades de uso.",
+        "La p. 28 ya corresponde a PPA 12 y no debe mezclarse con este bloque.",
+        "No se localizo una URL confirmada para el video del PPA."
+      ]
+    },
+    "columnValidation": {
+      "pagesReviewed": [
+        27,
+        28
+      ],
+      "page27Evidence": "27 Lenguajes | Primer grado | Nuestro libro de proyectos | Tomo III PPA11: Los géneros que comunican nuestra realidad Periódico semanal Memoria colectiva y géneros periodísticos, p.89. • La memoria colectiva de la comunidad, pp. 90- 93 • Los géneros periodísti",
+      "page28Evidence": "28 Lenguajes | Primer grado | Nuestro libro de proyectos | Tomo III PPA12: Puentes de comunicación en construcción Mesa de discusión El uso de la lengua indígena para expresar problemáticas sociales, p. 199. • Textos literarios e informativos que aborden temas"
+    }
+  },
+  "academicProjects": [
+    {
+      "id": "lenguajes-1-ppa-11-pa31",
+      "projectId": "lenguajes-1-ppa-11-pa31",
+      "academicProjectNumber": 31,
+      "projectTitle": "Entre lo notable y lo cotidiano",
+      "grade": "1",
+      "field": "Lenguajes",
+      "ppaNumber": "11",
+      "partialClassroomProject": "PPA 11",
+      "partialClassroomProjectTitle": "Los generos que comunican nuestra realidad",
+      "bookVolume": "Tomo III",
+      "sourceValidation": {
+        "sourceStatus": "linked",
+        "possibilitiesPages": [
+          27
+        ],
+        "possibilitiesMaterialId": "grade-1-posibilidades-pos-len-1",
+        "possibilitiesColumnIndex": 1,
+        "columnEvidence": "Validacion visual directa en Posibilidades de uso Lenguajes p. 27: la columna 1 corresponde a PA31. La p. 28 ya pertenece a PPA12 y no se asigno a este bloque."
+      },
+      "finalProduct": {
+        "title": "Periodico semanal",
+        "source": "Posibilidades de uso Lenguajes p. 27 + Nuestro libro de proyectos Tomo III pp. 14-18",
+        "status": "confirmed"
+      },
+      "sourcePages": {
+        "nuestroLibroProyectos": [
+          {
+            "materialId": "grade-1-proyectos-nuestro-libro-de-proyectos-tomo-iii-primer-grado",
+            "label": "Nuestro libro de proyectos Tomo III",
+            "startPage": 14,
+            "endPage": 18,
+            "pagesLabel": "pp. 14-18",
+            "topicTitle": "Proyecto academico 31",
+            "status": "confirmed-source"
+          }
+        ],
+        "conceptBook": [
+          {
+            "materialId": "grade-1-conceptos-lenguajes-primer-grado",
+            "label": "Lenguajes",
+            "startPage": 89,
+            "endPage": 96,
+            "pagesLabel": "pp. 89-96",
+            "topicTitle": "Memoria colectiva y generos periodisticos informativos",
+            "status": "confirmed-source"
+          },
+          {
+            "materialId": "grade-1-conceptos-lenguajes-primer-grado",
+            "label": "Lenguajes",
+            "startPage": 199,
+            "endPage": 203,
+            "pagesLabel": "pp. 199-203",
+            "topicTitle": "Uso de la lengua indigena para expresar problematicas sociales y textos informativos de la comunidad",
+            "status": "confirmed-source"
+          }
+        ],
+        "multiplesLenguajes": [
+          {
+            "materialId": "grade-1-apoyo-muiltiples-lenguajes-primer-grado",
+            "label": "Multiples Lenguajes",
+            "startPage": 10,
+            "endPage": 11,
+            "pagesLabel": "pp. 10-11",
+            "topicTitle": "El asombroso mundo de los arrecifes de coral",
+            "status": "confirmed-source"
+          }
+        ],
+        "otherMaterials": [
+          {
+            "label": "Video PPA 11: Los generos que comunican nuestra realidad",
+            "reference": "",
+            "status": "pending-url",
+            "youtubeSearchQuery": "Los generos que comunican nuestra realidad Lenguajes 1er grado Telesecundaria"
+          },
+          {
+            "label": "Recurso de consulta del proyecto",
+            "reference": "Consulta: Que es y como se elabora un periodico semanal? bit.ly/3R0ForE",
+            "status": "pending-validation"
+          },
+          {
+            "label": "Recurso general del bloque",
+            "reference": "bit.ly/3RpbgXa",
+            "status": "pending-validation"
+          }
+        ]
+      },
+      "supportMaterials": [
+        {
+          "title": "El asombroso mundo de los arrecifes de coral",
+          "kind": "Multiples Lenguajes",
+          "pages": "pp. 10-11",
+          "status": "confirmed-source"
+        }
+      ],
+      "horizonOrPurpose": {
+        "status": "confirmed-from-project-book",
+        "text": "Elegir, observar e indagar eventos importantes que ocurren en el entorno para compartirlos con la comunidad por medio de un periódico semanal. Además, dialogar acerca de las posibles causas de esos sucesos relevantes.",
+        "source": "Visión — Horizonte 2 (p. 15)"
+      },
+      "detonatingStrategy": {
+        "status": "pending-url",
+        "text": "Video PPA: Los generos que comunican nuestra realidad",
+        "source": "Posibilidades de uso Lenguajes p. 27",
+        "youtubeSearchQuery": "Los generos que comunican nuestra realidad Lenguajes 1er grado Telesecundaria"
+      },
+      "academicProjectStrategy": {
+        "status": "needsReview",
+        "text": "Consulta: Que es y como se elabora un periodico semanal? bit.ly/3R0ForE",
+        "source": "Nuestro libro de proyectos Tomo III p. 16"
+      },
+      "academicConcepts": [
+        {
+          "concept": "periodico semanal",
+          "status": "confirmed",
+          "sourceBook": "Nuestro libro de proyectos Tomo III",
+          "sourcePages": [
+            14,
+            15,
+            16
+          ],
+          "sourcePagesLabel": "pp. 14-16",
+          "topicTitle": "periodico semanal",
+          "evidenceSnippet": "14 Etapa 3. ¡Una propuesta de solución! En comunidades, establezcan el horizonte de expectativas que guiará el proceso de trabajo. Seleccionen o ajusten alguna de las siguientes propuestas: Situación 1 Situación 2 Desconocemos qué es un periódico semanal y cuá",
+          "reason": "El producto y la pregunta de apoyo del proyecto nombran de forma explicita el periodico semanal.",
+          "pedagogicalUse": "Permite orientar la seleccion, organizacion y revision del producto sin reducirlo a un formato vacio.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "nota informativa",
+          "status": "confirmed",
+          "sourceBook": "Nuestro libro de proyectos Tomo III",
+          "sourcePages": [
+            14,
+            16
+          ],
+          "sourcePagesLabel": "pp. 14-16",
+          "topicTitle": "nota informativa",
+          "evidenceSnippet": "14 Etapa 3. ¡Una propuesta de solución! En comunidades, establezcan el horizonte de expectativas que guiará el proceso de trabajo. Seleccionen o ajusten alguna de las siguientes propuestas: Situación 1 Situación 2 Desconocemos qué es un periódico semanal y cuá",
+          "reason": "El proyecto pide integrar notas informativas y las fuentes de consulta remiten a generos periodisticos y redaccion informativa.",
+          "pedagogicalUse": "Ayuda a distinguir el nucleo escrito del periodico y a revisar si cada nota comunica hechos con claridad.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "memoria colectiva",
+          "status": "confirmed",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            89,
+            90
+          ],
+          "sourcePagesLabel": "pp. 89-90",
+          "topicTitle": "memoria colectiva",
+          "evidenceSnippet": "La memoria colectiva se construye a partir del conjunto de experiencias, vivencias y relatos orales y escritos de la comunidad, los cuales dan cuenta de las tradiciones, costumbres y prácticas provenientes de los antepasados. Una forma importante de comunicar",
+          "reason": "Las paginas fuente explican que la memoria colectiva se comunica y permanece mediante relatos y escritura comunitaria.",
+          "pedagogicalUse": "Permite discutir por que un periodico local no solo informa hechos, sino que tambien guarda memoria de la comunidad.",
+          "activityReadiness": "usable-for-resonance"
+        },
+        {
+          "concept": "generos periodisticos informativos",
+          "status": "confirmed",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            94,
+            95,
+            96
+          ],
+          "sourcePagesLabel": "pp. 94-96",
+          "topicTitle": "generos periodisticos informativos",
+          "evidenceSnippet": "Los géneros periodísticos informativos La esencia de los géneros periodísticos está más presente en la vida cotidiana- de lo que podría pensarse. Cuando un o una estudiante llega por primera vez a un salón de clases o a un lugar nuevo, es común que alguien del",
+          "reason": "El bloque asignado al proyecto desarrolla de manera directa los generos periodisticos informativos y su funcion en la vida cotidiana.",
+          "pedagogicalUse": "Ayuda a reconocer diferencias entre nota, entrevista y reportaje al momento de decidir como narrar los sucesos locales.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "sucesos significativos de la comunidad",
+          "status": "confirmed",
+          "sourceBook": "Nuestro libro de proyectos Tomo III",
+          "sourcePages": [
+            14,
+            15,
+            16
+          ],
+          "sourcePagesLabel": "pp. 14-16",
+          "topicTitle": "sucesos significativos de la comunidad",
+          "evidenceSnippet": "riodísticos W Notas informativas y su redacción W Sucesos significativos de la comunidad Es necesario llevar un registro de la información consultada, para ello utilicen algún organizador de información. En este caso, puede serles de utilidad una ficha periodí",
+          "reason": "El proyecto insiste en identificar, observar y compartir sucesos significativos del entorno como base del producto.",
+          "pedagogicalUse": "Evita que el periodico se vuelva una tarea artificial y lo ancla en lo que realmente importa a la comunidad.",
+          "activityReadiness": "usable-for-resonance"
+        },
+        {
+          "concept": "textos literarios e informativos que aborden temas de la comunidad",
+          "status": "suggested",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            200,
+            201,
+            202,
+            203
+          ],
+          "sourcePagesLabel": "pp. 200-203",
+          "topicTitle": "textos literarios e informativos que aborden temas de la comunidad",
+          "evidenceSnippet": "Textos literarios e informativos que aborden temas de la comunidad Los humanos poseen muchas formas de comunicación, como las palabras, movimientos, gestos y expresiones faciales, con sonidos o sin ellos, con dibu- jos y señas. Así pues, la lengua es uno de lo",
+          "reason": "La fuente los desarrolla con claridad, pero el producto del proyecto privilegia lo informativo; conviene manejar esta amplitud con cautela.",
+          "pedagogicalUse": "Puede ampliar la conversacion sobre como distintas formas de texto representan a la comunidad, sin volverlo eje confirmado.",
+          "activityReadiness": "usable-for-resonance"
+        },
+        {
+          "concept": "uso de la lengua indigena para expresar problematicas sociales",
+          "status": "needsReview",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            199,
+            200
+          ],
+          "sourcePagesLabel": "pp. 199-200",
+          "topicTitle": "uso de la lengua indigena para expresar problematicas sociales",
+          "evidenceSnippet": "Las problemáticas sociales son situaciones que afectan a un grupo, población o nación, e impiden una sana convivencia. La discriminación, la desigualdad, la pobreza y el racismo son algunos ejemplos de ellas. Para visibilizar las distintas problemáticas social",
+          "reason": "La pagina fuente si pertenece a la columna del proyecto, pero todavia falta decidir su peso didactico dentro del periodico semanal.",
+          "pedagogicalUse": "Puede orientar una lectura mas situada de los sucesos locales, pero no conviene tratarlo aun como contenido plenamente asentado.",
+          "activityReadiness": "not-usable-yet"
+        }
+      ],
+      "thinkingCriteria": [
+        {
+          "criterion": "Distinguir hechos relevantes del entorno y decidir como contarlos con claridad.",
+          "status": "suggested"
+        },
+        {
+          "criterion": "Relacionar informacion periodistica con memoria colectiva y vida comunitaria.",
+          "status": "suggested"
+        },
+        {
+          "criterion": "Comunicar sucesos locales con responsabilidad, contexto y sentido publico.",
+          "status": "suggested"
+        }
+      ],
+      "readinessLevel": "development-partial",
+      "readyForActivities": false,
+      "needsReviewReasons": [
+        "El proyecto ya cuenta con una capa curricular aislada y con validacion visual de columna, pero todavia no debe pasar a actividades interactivas.",
+        "Los enlaces bit.ly del proyecto continuan como recursos pendientes de verificacion de destino final.",
+        "El bloque 199-203 esta confirmado en la columna del proyecto, pero todavia se requiere decidir con mas detalle el peso didactico del uso de lengua indigena frente al nucleo periodistico."
+      ],
+      "sourceType": "projectBook+possibilities",
+      "sourceStatus": "linked",
+      "projectExpectationHorizon": {
+        "officialText": "Elegir, observar e indagar eventos importantes que ocurren en el entorno para compartirlos con la comunidad por medio de un periódico semanal. Además, dialogar acerca de las posibles causas de esos sucesos relevantes.",
+        "studentVersion": "Elegir, observar e indagar eventos importantes que ocurren en el entorno para compartirlos con la comunidad por medio de un periódico semanal. Además, dialogar acerca de las posibles causas de esos sucesos relevantes.",
+        "horizon1Raw": "Indagar las características de un periódico semanal y, con base en ellas, elaborar uno con noticias relevantes para la comunidad, las cuales se compartirán con personas de su localidad.",
+        "horizon2Raw": "Elegir, observar e indagar eventos importantes que ocurren en el entorno para compartirlos con la comunidad por medio de un periódico semanal. Además, dialogar acerca de las posibles causas de esos sucesos relevantes.",
+        "sourcePages": [
+          "Visión — Horizonte 2 (p. 15)"
+        ],
+        "evidence": "Extraído por visión de imagen de la página 15 del libro de proyectos. Confianza: alta.",
+        "status": "confirmed-from-project-book",
+        "extractedAt": "2026-06-16T05:26:33.157Z"
+      }
+    },
+    {
+      "id": "lenguajes-1-ppa-11-pa32",
+      "projectId": "lenguajes-1-ppa-11-pa32",
+      "academicProjectNumber": 32,
+      "projectTitle": "Entre letras y pinceles: la memoria colectiva",
+      "grade": "1",
+      "field": "Lenguajes",
+      "ppaNumber": "11",
+      "partialClassroomProject": "PPA 11",
+      "partialClassroomProjectTitle": "Los generos que comunican nuestra realidad",
+      "bookVolume": "Tomo III",
+      "sourceValidation": {
+        "sourceStatus": "linked",
+        "possibilitiesPages": [
+          27
+        ],
+        "possibilitiesMaterialId": "grade-1-posibilidades-pos-len-1",
+        "possibilitiesColumnIndex": 2,
+        "columnEvidence": "Validacion visual directa en Posibilidades de uso Lenguajes p. 27: la columna 2 corresponde a PA32. La p. 28 ya pertenece a PPA12 y no se asigno a este bloque."
+      },
+      "finalProduct": {
+        "title": "Exposicion oral colectiva",
+        "source": "Posibilidades de uso Lenguajes p. 27 + Nuestro libro de proyectos Tomo III pp. 19-22",
+        "status": "confirmed"
+      },
+      "sourcePages": {
+        "nuestroLibroProyectos": [
+          {
+            "materialId": "grade-1-proyectos-nuestro-libro-de-proyectos-tomo-iii-primer-grado",
+            "label": "Nuestro libro de proyectos Tomo III",
+            "startPage": 19,
+            "endPage": 22,
+            "pagesLabel": "pp. 19-22",
+            "topicTitle": "Proyecto academico 32",
+            "status": "confirmed-source"
+          }
+        ],
+        "conceptBook": [
+          {
+            "materialId": "grade-1-conceptos-lenguajes-primer-grado",
+            "label": "Lenguajes",
+            "startPage": 72,
+            "endPage": 83,
+            "pagesLabel": "pp. 72-83",
+            "topicTitle": "Generos literarios: narrativo, lirico y dramatico",
+            "status": "confirmed-source"
+          },
+          {
+            "materialId": "grade-1-conceptos-lenguajes-primer-grado",
+            "label": "Lenguajes",
+            "startPage": 89,
+            "endPage": 96,
+            "pagesLabel": "pp. 89-96",
+            "topicTitle": "Memoria colectiva y generos periodisticos informativos",
+            "status": "confirmed-source"
+          },
+          {
+            "materialId": "grade-1-conceptos-lenguajes-primer-grado",
+            "label": "Lenguajes",
+            "startPage": 261,
+            "endPage": 265,
+            "pagesLabel": "pp. 261-265",
+            "topicTitle": "Manifestaciones culturales y artisticas de pueblos de habla inglesa",
+            "status": "confirmed-source"
+          }
+        ],
+        "multiplesLenguajes": [
+          {
+            "materialId": "grade-1-apoyo-muiltiples-lenguajes-primer-grado",
+            "label": "Multiples Lenguajes",
+            "startPage": 30,
+            "endPage": 33,
+            "pagesLabel": "pp. 30-33",
+            "topicTitle": "Somos fuerza",
+            "status": "confirmed-source"
+          }
+        ],
+        "otherMaterials": [
+          {
+            "label": "Video PPA 11: Los generos que comunican nuestra realidad",
+            "reference": "",
+            "status": "pending-url",
+            "youtubeSearchQuery": "Los generos que comunican nuestra realidad Lenguajes 1er grado Telesecundaria"
+          },
+          {
+            "label": "Recurso de consulta del proyecto",
+            "reference": "Consulta: Como se lleva a cabo una exposicion oral colectiva? bit.ly/3R0ForE",
+            "status": "pending-validation"
+          },
+          {
+            "label": "Recurso general del bloque",
+            "reference": "bit.ly/3RpbgXa",
+            "status": "pending-validation"
+          }
+        ]
+      },
+      "supportMaterials": [
+        {
+          "title": "Somos fuerza",
+          "kind": "Multiples Lenguajes",
+          "pages": "pp. 30-33",
+          "status": "confirmed-source",
+          "note": "El OCR del apoyo es debil, pero la asignacion por columna quedo validada visualmente en Posibilidades."
+        }
+      ],
+      "horizonOrPurpose": {
+        "status": "confirmed-from-project-book",
+        "text": "Investigar el concepto memoria colectiva, además de buscar textos literarios y artísticos de la comunidad donde se hable de ella, para difundirlos.",
+        "source": "Visión — Horizonte 1 (p. 20)"
+      },
+      "detonatingStrategy": {
+        "status": "pending-url",
+        "text": "Video PPA: Los generos que comunican nuestra realidad",
+        "source": "Posibilidades de uso Lenguajes p. 27",
+        "youtubeSearchQuery": "Los generos que comunican nuestra realidad Lenguajes 1er grado Telesecundaria"
+      },
+      "academicProjectStrategy": {
+        "status": "needsReview",
+        "text": "Consulta: Como se lleva a cabo una exposicion oral colectiva? bit.ly/3R0ForE",
+        "source": "Nuestro libro de proyectos Tomo III p. 21"
+      },
+      "academicConcepts": [
+        {
+          "concept": "exposicion oral colectiva",
+          "status": "confirmed",
+          "sourceBook": "Nuestro libro de proyectos Tomo III",
+          "sourcePages": [
+            19,
+            20,
+            21
+          ],
+          "sourcePagesLabel": "pp. 19-21",
+          "topicTitle": "exposicion oral colectiva",
+          "evidenceSnippet": "19 Proyecto académico 32 Entre letras y pinceles: la memoria colectiva La memoria colectiva y su manifestación en la comunidad son fundamentales para comprender y preservar la historia y la cultura de una sociedad. Desde la literatura y la poesía hasta la músi",
+          "reason": "El proyecto nombra de forma explicita la exposicion oral colectiva como producto y como pregunta de apoyo.",
+          "pedagogicalUse": "Da estructura al producto final y ayuda a organizar turnos, materiales y formas de comunicar a otras personas.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "memoria colectiva",
+          "status": "confirmed",
+          "sourceBook": "Nuestro libro de proyectos Tomo III",
+          "sourcePages": [
+            19,
+            20,
+            21
+          ],
+          "sourcePagesLabel": "pp. 19-21",
+          "topicTitle": "memoria colectiva",
+          "evidenceSnippet": "Proyecto académico 32 Entre letras y pinceles: la memoria colectiva La memoria colectiva y su manifestación en la comunidad son fundamentales para comprender y preservar la historia y la cultura de una sociedad. Desde la literatura y la poesía hasta la música,",
+          "reason": "El problema, los objetivos y las paginas de Lenguajes colocan a la memoria colectiva como centro del proyecto.",
+          "pedagogicalUse": "Permite sostener que la exposicion no solo enumere generos, sino que explique como una comunidad recuerda y comunica su historia.",
+          "activityReadiness": "usable-for-resonance"
+        },
+        {
+          "concept": "generos literarios",
+          "status": "confirmed",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            72,
+            73,
+            76,
+            80
+          ],
+          "sourcePagesLabel": "pp. 72-80",
+          "topicTitle": "generos literarios",
+          "evidenceSnippet": "La literatura es una expresión estética de la lengua oral y escrita. Desde la academia, a partir de estructuras y formas del discurso, se la ha clasificado en tres géneros: narrativo, lírico y dramático. En la actualidad, han evolucionado y se puede hablar de ",
+          "reason": "La secuencia de Lenguajes asignada al proyecto presenta de manera directa los generos literarios y sus diferencias principales.",
+          "pedagogicalUse": "Ayuda a seleccionar ejemplos y a explicar con claridad por que una obra es narrativa, lirica o dramatica.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "genero narrativo",
+          "status": "confirmed",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            73,
+            74,
+            75
+          ],
+          "sourcePagesLabel": "pp. 73-75",
+          "topicTitle": "genero narrativo",
+          "evidenceSnippet": "Género narrativo y sus recursos El género narrativo y sus recursos permiten ampliar la imaginación y usar el lenguaje desde la ficción. Existen muchas e interesantes narraciones orales o escritas que pueden expresar recuerdos, ideas, experiencias y emociones m",
+          "reason": "El genero narrativo aparece explicitamente en las paginas fuente como parte del bloque asignado.",
+          "pedagogicalUse": "Permite reconocer relatos y memorias que la comunidad comunica mediante historias y narraciones.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "genero lirico",
+          "status": "confirmed",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            76,
+            77,
+            78,
+            79
+          ],
+          "sourcePagesLabel": "pp. 76-79",
+          "topicTitle": "genero lirico",
+          "evidenceSnippet": "El texto narrativo posee recursos para contar historias con una mayor fuerza expresiva. Las narraciones, aunque con fines estéticos, también sirven a las comunidades, barrios y vecin- darios para materializar, en discursos, experiencias de la vida social y per",
+          "reason": "La pagina fuente dedica un desarrollo claro al genero lirico y a su relacion con emociones e ideas.",
+          "pedagogicalUse": "Ayuda a trabajar la expresion emotiva y poetica dentro de la exposicion, sin limitarla solo a lo informativo.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "genero dramatico",
+          "status": "confirmed",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            80,
+            81,
+            82,
+            83
+          ],
+          "sourcePagesLabel": "pp. 80-83",
+          "topicTitle": "genero dramatico",
+          "evidenceSnippet": "Cualquier historia puede adaptarse al teatro, desde un proble- ma social hasta un hecho histórico o ficticio. El guion teatral contiene diálogos y acotaciones; éstas son las indicaciones para la puesta en escena y su objetivo es guiar la actuación, la disposic",
+          "reason": "El genero dramatico se presenta de forma directa en las paginas del bloque, con enfasis en dialogo y puesta en escena.",
+          "pedagogicalUse": "Puede enriquecer la exposicion al mostrar que la memoria colectiva tambien se representa y se actua.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "manifestaciones culturales y artisticas",
+          "status": "confirmed",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            261,
+            262,
+            263,
+            264,
+            265
+          ],
+          "sourcePagesLabel": "pp. 261-265",
+          "topicTitle": "manifestaciones culturales y artisticas",
+          "evidenceSnippet": "Muchas manifestaciones culturales y artísticas de países de habla inglesa están determinadas por sus fiestas nacionales y celebraciones. La tradición cristiana de Inglaterra y Estados Unidos es la base de varias festividades. Hacer una lectura de reflexión sob",
+          "reason": "Las paginas fuente desarrollan manifestaciones culturales y artisticas como expresion de identidad colectiva y analisis cultural.",
+          "pedagogicalUse": "Aporta referentes para vincular textos, arte y memoria con una mirada comparativa y comunitaria.",
+          "activityReadiness": "usable-for-resonance"
+        },
+        {
+          "concept": "generos periodisticos informativos",
+          "status": "suggested",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            94,
+            95,
+            96
+          ],
+          "sourcePagesLabel": "pp. 94-96",
+          "topicTitle": "generos periodisticos informativos",
+          "evidenceSnippet": "Los géneros periodísticos informativos La esencia de los géneros periodísticos está más presente en la vida cotidiana- de lo que podría pensarse. Cuando un o una estudiante llega por primera vez a un salón de clases o a un lugar nuevo, es común que alguien del",
+          "reason": "Aparecen en la columna validada del proyecto, pero conviene manejarlos como apoyo complementario y no como centro conceptual del producto.",
+          "pedagogicalUse": "Puede ayudar a comparar modos de comunicar memoria colectiva, sin desplazar el foco en la exposicion oral y los generos literarios y artisticos.",
+          "activityReadiness": "usable-for-resonance"
+        },
+        {
+          "concept": "manifestaciones de los pueblos de habla inglesa",
+          "status": "suggested",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            262,
+            263,
+            264,
+            265
+          ],
+          "sourcePagesLabel": "pp. 262-265",
+          "topicTitle": "manifestaciones de los pueblos de habla inglesa",
+          "evidenceSnippet": "Manifestaciones de los pueblos de habla inglesa Las culturas de Estados Unidos e Inglaterra se han extendido de forma im- portante, y están presentes todos los días en películas, series de televisión y literatura. Para muchos, las celebraciones como la Navidad",
+          "reason": "La fuente lo desarrolla con claridad, aunque su relacion exacta con el producto final aun requiere mediacion docente para no forzar comparaciones superficiales.",
+          "pedagogicalUse": "Puede abrir comparaciones sobre identidad, celebraciones y memoria, con cuidado de no volverlo contenido accesorio sin sentido.",
+          "activityReadiness": "usable-for-resonance"
+        },
+        {
+          "concept": "generos textuales",
+          "status": "needsReview",
+          "sourceBook": "Nuestro libro de proyectos Tomo III",
+          "sourcePages": [
+            19,
+            21
+          ],
+          "sourcePagesLabel": "pp. 19-21",
+          "topicTitle": "generos textuales",
+          "evidenceSnippet": "19 Proyecto académico 32 Entre letras y pinceles: la memoria colectiva La memoria colectiva y su manifestación en la comunidad son fundamentales para comprender y preservar la historia y la cultura de una sociedad. Desde la literatura y la poesía hasta la músi",
+          "reason": "El proyecto lo nombra en sus fuentes de consulta, pero todavia falta una pagina tematica mas precisa para convertirlo en concepto confirmado de este PA.",
+          "pedagogicalUse": "Puede orientar la seleccion de ejemplos para la exposicion, pero conviene manejarlo con cautela hasta ubicar mejor su soporte especifico.",
+          "activityReadiness": "not-usable-yet"
+        }
+      ],
+      "thinkingCriteria": [
+        {
+          "criterion": "Comparar distintos generos literarios, artistico-culturales e informativos.",
+          "status": "suggested"
+        },
+        {
+          "criterion": "Organizar una presentacion colectiva que informe con claridad y variedad de ejemplos.",
+          "status": "suggested"
+        },
+        {
+          "criterion": "Relacionar memoria colectiva con formas de expresion textual y artistica.",
+          "status": "suggested"
+        }
+      ],
+      "readinessLevel": "development-partial",
+      "readyForActivities": false,
+      "needsReviewReasons": [
+        "El proyecto ya cuenta con una capa curricular aislada y con validacion visual de columna, pero todavia no debe pasar a actividades interactivas.",
+        "Los enlaces bit.ly del proyecto continuan como recursos pendientes de verificacion de destino final.",
+        "El apoyo Somos fuerza quedo confirmado por columna, pero su OCR sigue siendo debil y aun conviene una lectura directa mas fina del material."
+      ],
+      "sourceType": "projectBook+possibilities",
+      "sourceStatus": "linked",
+      "projectExpectationHorizon": {
+        "officialText": "Investigar el concepto memoria colectiva, además de buscar textos literarios y artísticos de la comunidad donde se hable de ella, para difundirlos.",
+        "studentVersion": "Investigar el concepto memoria colectiva, además de buscar textos literarios y artísticos de la comunidad donde se hable de ella, para difundirlos.",
+        "horizon1Raw": "Investigar el concepto memoria colectiva, además de buscar textos literarios y artísticos de la comunidad donde se hable de ella, para difundirlos.",
+        "horizon2Raw": "Realizar una exposición oral colectiva con textos literarios y artísticos que contribuyan al enriquecimiento de la memoria colectiva comunitaria.",
+        "sourcePages": [
+          "Visión — Horizonte 1 (p. 20)"
+        ],
+        "evidence": "Extraído por visión de imagen de la página 20 del libro de proyectos. Confianza: alta.",
+        "status": "confirmed-from-project-book",
+        "extractedAt": "2026-06-16T05:00:22.574Z"
+      }
+    },
+    {
+      "id": "lenguajes-1-ppa-11-pa33",
+      "projectId": "lenguajes-1-ppa-11-pa33",
+      "academicProjectNumber": 33,
+      "projectTitle": "El arte de la memoria",
+      "grade": "1",
+      "field": "Lenguajes",
+      "ppaNumber": "11",
+      "partialClassroomProject": "PPA 11",
+      "partialClassroomProjectTitle": "Los generos que comunican nuestra realidad",
+      "bookVolume": "Tomo III",
+      "sourceValidation": {
+        "sourceStatus": "linked",
+        "possibilitiesPages": [
+          27
+        ],
+        "possibilitiesMaterialId": "grade-1-posibilidades-pos-len-1",
+        "possibilitiesColumnIndex": 3,
+        "columnEvidence": "Validacion visual directa en Posibilidades de uso Lenguajes p. 27: la columna 3 corresponde a PA33. La p. 28 ya pertenece a PPA12 y no se asigno a este bloque."
+      },
+      "finalProduct": {
+        "title": "Acervo artistico",
+        "source": "Posibilidades de uso Lenguajes p. 27 + Nuestro libro de proyectos Tomo III pp. 23-26",
+        "status": "confirmed"
+      },
+      "sourcePages": {
+        "nuestroLibroProyectos": [
+          {
+            "materialId": "grade-1-proyectos-nuestro-libro-de-proyectos-tomo-iii-primer-grado",
+            "label": "Nuestro libro de proyectos Tomo III",
+            "startPage": 23,
+            "endPage": 26,
+            "pagesLabel": "pp. 23-26",
+            "topicTitle": "Proyecto academico 33",
+            "status": "confirmed-source"
+          }
+        ],
+        "conceptBook": [
+          {
+            "materialId": "grade-1-conceptos-lenguajes-primer-grado",
+            "label": "Lenguajes",
+            "startPage": 296,
+            "endPage": 300,
+            "pagesLabel": "pp. 296-300",
+            "topicTitle": "Expresiones artisticas escenicas y recreacion de emociones e ideas",
+            "status": "confirmed-source"
+          },
+          {
+            "materialId": "grade-1-conceptos-lenguajes-primer-grado",
+            "label": "Lenguajes",
+            "startPage": 301,
+            "endPage": 304,
+            "pagesLabel": "pp. 301-304",
+            "topicTitle": "Reinterpretacion de obras comunitarias tradicionales, cultura tradicional y danzas de Mexico",
+            "status": "confirmed-source"
+          }
+        ],
+        "multiplesLenguajes": [
+          {
+            "materialId": "grade-1-apoyo-muiltiples-lenguajes-primer-grado",
+            "label": "Multiples Lenguajes",
+            "startPage": 34,
+            "endPage": 38,
+            "pagesLabel": "pp. 34-38",
+            "topicTitle": "El Museo Nacional de Antropologia",
+            "status": "confirmed-source"
+          }
+        ],
+        "otherMaterials": [
+          {
+            "label": "Video PPA 11: Los generos que comunican nuestra realidad",
+            "reference": "",
+            "status": "pending-url",
+            "youtubeSearchQuery": "Los generos que comunican nuestra realidad Lenguajes 1er grado Telesecundaria"
+          },
+          {
+            "label": "Recurso de consulta del proyecto",
+            "reference": "Consulta: Que es un acervo artistico? bit.ly/3R0ForE",
+            "status": "pending-validation"
+          },
+          {
+            "label": "Recurso general del bloque",
+            "reference": "bit.ly/3RpbgXa",
+            "status": "pending-validation"
+          }
+        ]
+      },
+      "supportMaterials": [
+        {
+          "title": "El Museo Nacional de Antropologia",
+          "kind": "Multiples Lenguajes",
+          "pages": "pp. 34-38",
+          "status": "confirmed-source"
+        }
+      ],
+      "horizonOrPurpose": {
+        "status": "confirmed-from-project-book",
+        "text": "Recopilar objetos artesanales para formar un acervo artístico que represente la memoria colectiva de la comunidad y realizar fichas técnicas de ellos.",
+        "source": "Visión — Horizonte 1 (p. 24)"
+      },
+      "detonatingStrategy": {
+        "status": "pending-url",
+        "text": "Video PPA: Los generos que comunican nuestra realidad",
+        "source": "Posibilidades de uso Lenguajes p. 27",
+        "youtubeSearchQuery": "Los generos que comunican nuestra realidad Lenguajes 1er grado Telesecundaria"
+      },
+      "academicProjectStrategy": {
+        "status": "needsReview",
+        "text": "Consulta: Que es un acervo artistico? bit.ly/3R0ForE",
+        "source": "Nuestro libro de proyectos Tomo III p. 24"
+      },
+      "academicConcepts": [
+        {
+          "concept": "acervo artistico",
+          "status": "confirmed",
+          "sourceBook": "Nuestro libro de proyectos Tomo III",
+          "sourcePages": [
+            23,
+            24,
+            25
+          ],
+          "sourcePagesLabel": "pp. 23-25",
+          "topicTitle": "acervo artistico",
+          "evidenceSnippet": "23 Proyecto académico 33 El arte de la memoria Artes y experiencias estéticas: las artes, como expresiones culturales, permiten a los estudiantes establecer relaciones reflexivas. ❙ Los acervos artísticos son importantes para la construcción de la memoria cole",
+          "reason": "El proyecto nombra de forma explicita el acervo artistico como producto y pregunta de apoyo.",
+          "pedagogicalUse": "Da sentido al proyecto y orienta la seleccion, organizacion y presentacion del conjunto de objetos o imagenes.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "objetos regionales o artesanales",
+          "status": "confirmed",
+          "sourceBook": "Nuestro libro de proyectos Tomo III",
+          "sourcePages": [
+            23,
+            24,
+            25
+          ],
+          "sourcePagesLabel": "pp. 23-25",
+          "topicTitle": "objetos regionales o artesanales",
+          "evidenceSnippet": "1. ¿Qué haremos? Elaborar un acervo artístico de objetos regionales o artesanales que exhiban y den referencia de la memoria colectiva mediante el uso de fichas técnicas. Etapa 2. ¡Ése es el problema! Lean las siguientes situaciones problemáticas y elijan la",
+          "reason": "El proyecto pide de manera directa seleccionar objetos regionales o artesanales que representen la memoria colectiva.",
+          "pedagogicalUse": "Evita que el acervo se vuelva abstracto y lo conecta con piezas concretas del entorno comunitario.",
+          "activityReadiness": "usable-for-resonance"
+        },
+        {
+          "concept": "fichas tecnicas",
+          "status": "confirmed",
+          "sourceBook": "Nuestro libro de proyectos Tomo III",
+          "sourcePages": [
+            23,
+            24,
+            25
+          ],
+          "sourcePagesLabel": "pp. 23-25",
+          "topicTitle": "fichas tecnicas",
+          "evidenceSnippet": "23 Proyecto académico 33 El arte de la memoria Artes y experiencias estéticas: las artes, como expresiones culturales, permiten a los estudiantes establecer relaciones reflexivas. ❙ Los acervos artísticos son importantes para la construcción de la memoria cole",
+          "reason": "Las fichas tecnicas aparecen como medio necesario para describir y presentar cada objeto del acervo artistico.",
+          "pedagogicalUse": "Ayuda a pasar de la simple exhibicion a una descripcion informada, ordenada y compartible.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "memoria colectiva",
+          "status": "confirmed",
+          "sourceBook": "Nuestro libro de proyectos Tomo III",
+          "sourcePages": [
+            23,
+            24
+          ],
+          "sourcePagesLabel": "pp. 23-24",
+          "topicTitle": "memoria colectiva",
+          "evidenceSnippet": "sticos son importantes para la construcción de la memoria colectiva. Las obras de artistas y creadores reflejan y expresan las experiencias, emociones y cosmovisión de una sociedad, permitiendo que permanezcan en el tiempo. Los acervos artísticos conservan tes",
+          "reason": "El proyecto explica que los objetos y obras conservan testimonios de la historia y de la cultura de una comunidad.",
+          "pedagogicalUse": "Permite que el acervo se comprenda como una forma de resguardar memoria viva y no solo como una exhibicion estetica.",
+          "activityReadiness": "usable-for-resonance"
+        },
+        {
+          "concept": "reinterpretacion de obras comunitarias tradicionales",
+          "status": "confirmed",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            301,
+            302
+          ],
+          "sourcePagesLabel": "pp. 301-302",
+          "topicTitle": "reinterpretacion de obras comunitarias tradicionales",
+          "evidenceSnippet": "La historia de México es muy amplia y rica en tradiciones. Conservar y reinterpretar obras comunitarias tradicionales es una forma de enriquecer su historia y su patrimonio cultural. La reinterpretación de obras comunitarias tradicionales Comunidad y tradición",
+          "reason": "Las paginas fuente asignadas al proyecto desarrollan de manera directa la reinterpretacion de obras comunitarias tradicionales.",
+          "pedagogicalUse": "Ayuda a pensar el acervo como espacio de continuidad, actualizacion y lectura comunitaria de las tradiciones.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "comunidad y tradicion",
+          "status": "confirmed",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            302
+          ],
+          "sourcePagesLabel": "p. 302",
+          "topicTitle": "comunidad y tradicion",
+          "evidenceSnippet": "Comunidad y tradición La participación en comunidad es esencial para conservar y reinterpretar las tradiciones. Quienes habitan una región comparten muchos elementos en común, como valores, idioma, costumbres, geografía y religión. Estos elemen- tos forman una",
+          "reason": "La pagina fuente vincula de forma directa comunidad, identidad, pertenencia y tradicion como base de la memoria compartida.",
+          "pedagogicalUse": "Sostiene la seleccion de objetos y relatos con sentido comunitario y no solo decorativo.",
+          "activityReadiness": "usable-for-resonance"
+        },
+        {
+          "concept": "expresiones artisticas escenicas",
+          "status": "needsReview",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            296,
+            297,
+            298,
+            300
+          ],
+          "sourcePagesLabel": "pp. 296-300",
+          "topicTitle": "expresiones artisticas escenicas",
+          "evidenceSnippet": "Las artes escénicas son una parte fundamental en la cultura e identidad de las comunidades que conforman un país o una región. Son un reflejo directo de las costumbres, tradiciones o expresiones idiomáticas del lugar donde se crean. Una de sus características ",
+          "reason": "Las paginas si pertenecen a la columna del proyecto, pero todavia conviene decidir con mayor cuidado su peso didactico dentro de un acervo de objetos y fichas tecnicas.",
+          "pedagogicalUse": "Puede enriquecer la comprension de la memoria comunitaria, pero no debe imponerse como eje central del producto sin una mediacion clara.",
+          "activityReadiness": "not-usable-yet"
+        },
+        {
+          "concept": "cultura tradicional de Mexico",
+          "status": "suggested",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            303
+          ],
+          "sourcePagesLabel": "p. 303",
+          "topicTitle": "cultura tradicional de Mexico",
+          "evidenceSnippet": "Por naturaleza, los seres humanos forman grupos y co- munidades. Los rasgos culturales de cada comunidad conforman tradiciones que cada generación representa fielmente o reinterpreta de acuerdo con ideas de nuevos tiempos. Las tradiciones conservan el sentido ",
+          "reason": "La pagina ofrece un desarrollo claro y relevante, aunque conviene tratarla como apoyo interpretativo y no como nucleo exclusivo del proyecto.",
+          "pedagogicalUse": "Puede ampliar la conversacion sobre identidad, patrimonio y diversidad cultural de las piezas elegidas.",
+          "activityReadiness": "usable-for-resonance"
+        },
+        {
+          "concept": "musica y danzas tradicionales de Mexico",
+          "status": "suggested",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            304
+          ],
+          "sourcePagesLabel": "p. 304",
+          "topicTitle": "musica y danzas tradicionales de Mexico",
+          "evidenceSnippet": "Es imposible dejar de lado refranes, dichos y canciones que se han transmitido por generaciones. La lírica mexicana tradicional suele caracterizarse por su hu- mor, juguetón o corrosivo, y por emitir críticas al poder y a quienes lo detentan. Los corridos y la",
+          "reason": "La pagina aporta ejemplos concretos de patrimonio vivo, pero su traslado al acervo artistico depende de la seleccion contextual del grupo.",
+          "pedagogicalUse": "Puede ayudar a relacionar objetos, practicas y memoria, sin obligar a que todo el acervo se concentre en lo musical o dancistico.",
+          "activityReadiness": "usable-for-resonance"
+        }
+      ],
+      "thinkingCriteria": [
+        {
+          "criterion": "Seleccionar objetos y referentes artisticos con sentido comunitario e historico.",
+          "status": "suggested"
+        },
+        {
+          "criterion": "Describir piezas y tradiciones con apoyo de fichas tecnicas y referencias claras.",
+          "status": "suggested"
+        },
+        {
+          "criterion": "Valorar patrimonio, tradicion y memoria como procesos vivos y reinterpretables.",
+          "status": "suggested"
+        }
+      ],
+      "readinessLevel": "development-partial",
+      "readyForActivities": false,
+      "needsReviewReasons": [
+        "El proyecto ya cuenta con una capa curricular aislada y con validacion visual de columna, pero todavia no debe pasar a actividades interactivas.",
+        "Los enlaces bit.ly del proyecto continuan como recursos pendientes de verificacion de destino final.",
+        "Las expresiones artisticas escenicas quedaron confirmadas como paginas de apoyo del proyecto, pero aun necesitan mediacion docente para no desplazar el eje del acervo artistico."
+      ],
+      "sourceType": "projectBook+possibilities",
+      "sourceStatus": "linked",
+      "projectExpectationHorizon": {
+        "officialText": "Recopilar objetos artesanales para formar un acervo artístico que represente la memoria colectiva de la comunidad y realizar fichas técnicas de ellos.",
+        "studentVersion": "Recopilar objetos artesanales para formar un acervo artístico que represente la memoria colectiva de la comunidad y realizar fichas técnicas de ellos.",
+        "horizon1Raw": "Recopilar objetos artesanales para formar un acervo artístico que represente la memoria colectiva de la comunidad y realizar fichas técnicas de ellos.",
+        "horizon2Raw": "Generar un acervo artístico con imágenes o fotografías de objetos artesanales representativos de la comunidad que cuenten con fichas técnicas.",
+        "sourcePages": [
+          "Visión — Horizonte 1 (p. 24)"
+        ],
+        "evidence": "Extraído por visión de imagen de la página 24 del libro de proyectos. Confianza: alta.",
+        "status": "confirmed-from-project-book",
+        "extractedAt": "2026-06-16T05:26:40.338Z"
+      }
+    }
+  ]
+}

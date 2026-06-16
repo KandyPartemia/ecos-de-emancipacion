@@ -1,0 +1,704 @@
+{
+  "grade": "3",
+  "gradeLabel": "Tercer grado",
+  "field": "Saberes y Pensamiento Cientifico",
+  "bookVolume": "Tomo I",
+  "partialClassroomProject": "PPA 3",
+  "partialClassroomProjectTitle": "La química y las figuras también se mezclan",
+  "generatedAt": "2026-06-07T03:06:27.960Z",
+  "notes": "Capa curricular generada por lote para 3o Saberes y Pensamiento Cientifico, PPA 3.",
+  "sourcesUsed": [
+    "content/caracoles/curricular-catalog/all-projects-canonical.json",
+    "public/caracoles/data/generated/grade-3/concepts-index.json",
+    "src/caracoles/lib/officialVideoLinks.ts",
+    "Posibilidades de uso SyPC, tercer grado, pp. 10-11",
+    "Nuestro libro de proyectos, tercer grado, pp. 141-153"
+  ],
+  "partialClassroomProjectContext": {
+    "expectationHorizon": {
+      "officialText": "",
+      "sourcePages": [
+        "Nuestro libro de proyectos Tomo I pp. 141-144",
+        "Posibilidades de uso SyPC pp. 10-11"
+      ],
+      "evidence": "El PPA 3 articula 7. mundo atómico, prototipo 3d de equipo de..., maqueta didáctica para trabajar La química y las figuras también se mezclan.",
+      "status": "pending"
+    },
+    "ppaDetonatingStrategy": {
+      "title": "La química y las figuras también se mezclan",
+      "type": "video",
+      "url": "",
+      "urlStatus": "confirmed-by-official-video-map",
+      "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+      "scope": "partial-classroom-project"
+    },
+    "ppaDigitalResource": {
+      "title": "Recurso del Proyecto Parcial de Aula 3",
+      "reference": "",
+      "status": "confirmed-by-official-video-map",
+      "source": "YouTube, acervo Aprende_MX/Telesecundaria"
+    },
+    "validationStatus": {
+      "needsHumanReview": true,
+      "needsReviewReasons": [
+        "Los videos PA/PPA se validan por el mapa oficial de enlaces directos ya generado.",
+        "Los apoyos complementarios impresos no se asignan cuando no hay evidencia validada por columna.",
+        "El horizonte textual literal queda pendiente de revision fina si se necesita cita exacta."
+      ]
+    },
+    "columnValidation": {
+      "possibilitiesPagesReviewed": [
+        10,
+        11
+      ],
+      "confirmedAsPpa": true,
+      "note": "El PPA 3 se agrupa desde el catalogo canonico de tercer grado.",
+      "columns": [
+        {
+          "columnIndex": 1,
+          "projectId": "saberes-y-pensamiento-cientifico-3-ppa-3-pa7",
+          "projectTitle": "Mundo homogéneo y heterogéneo",
+          "finalProduct": "7. Mundo atómico",
+          "supportMaterials": []
+        },
+        {
+          "columnIndex": 2,
+          "projectId": "saberes-y-pensamiento-cientifico-3-ppa-3-pa8",
+          "projectTitle": "Dividir lo uniforme",
+          "finalProduct": "Prototipo 3D de equipo de...",
+          "supportMaterials": []
+        },
+        {
+          "columnIndex": 3,
+          "projectId": "saberes-y-pensamiento-cientifico-3-ppa-3-pa9",
+          "projectTitle": "Es necesario purificar",
+          "finalProduct": "Maqueta didáctica",
+          "supportMaterials": []
+        }
+      ]
+    }
+  },
+  "academicProjects": [
+    {
+      "id": "saberes-y-pensamiento-cientifico-3-ppa-3-pa7",
+      "projectId": "saberes-y-pensamiento-cientifico-3-ppa-3-pa7",
+      "academicProjectNumber": 7,
+      "title": "Mundo homogéneo y heterogéneo",
+      "projectTitle": "Mundo homogéneo y heterogéneo",
+      "grade": "3",
+      "field": "Saberes y Pensamiento Científico",
+      "ppaNumber": "3",
+      "partialClassroomProject": "PPA 3",
+      "partialClassroomProjectTitle": "La química y las figuras también se mezclan",
+      "bookVolume": "Tomo I",
+      "sourceValidation": {
+        "sourceStatus": "linked",
+        "possibilitiesPages": [
+          10,
+          11
+        ],
+        "possibilitiesMaterialId": "grade-3-posibilidades-pos-sypc-3",
+        "possibilitiesColumnIndex": 1,
+        "columnEvidence": "Proyecto PA 7 agrupado en el PPA 3 desde el catalogo canonico y las paginas de Posibilidades."
+      },
+      "finalProduct": {
+        "title": "7. Mundo atómico",
+        "source": "Video detonador validado en YouTube + Nuestro libro de proyectos Tomo I pp. 141-144",
+        "status": "confirmed-from-video-and-project"
+      },
+      "sourcePages": {
+        "nuestroLibroProyectos": [
+          {
+            "materialId": "grade-3-proyectos-nuestros-proyectos-tomo-1-tercer-grado",
+            "label": "Nuestro libro de proyectos Tomo I",
+            "startPage": 141,
+            "endPage": 144,
+            "pagesLabel": "pp. 141-144",
+            "topicTitle": "Proyecto academico 7",
+            "status": "confirmed-source"
+          }
+        ],
+        "conceptBook": [
+          {
+            "materialId": "grade-3-conceptos-saberes-y-pensamiento-cientifico-tercer-grado",
+            "label": "Saberes y Pensamiento Cientifico",
+            "startPage": 141,
+            "endPage": 141,
+            "pagesLabel": "p. 141",
+            "topicTitle": "7. mundo atómico",
+            "status": "confirmed"
+          }
+        ],
+        "multiplesLenguajes": [],
+        "otherMaterials": [
+          {
+            "label": "Video PA 7: Mundo homogéneo y heterogéneo",
+            "reference": "",
+            "status": "confirmed"
+          }
+        ]
+      },
+      "supportMaterials": [],
+      "horizonOrPurpose": {
+        "status": "pending",
+        "text": "",
+        "source": "Nuestro libro de proyectos Tomo I pp. 141-144"
+      },
+      "projectExpectationHorizon": {
+        "officialText": "",
+        "studentVersion": "",
+        "sourcePages": [
+          "Nuestro libro de proyectos Tomo I pp. 141-144"
+        ],
+        "evidence": "El PA 7 cuenta con paginas de proyecto, producto de cierre, conceptos y videos directos validados; el horizonte textual literal queda pendiente de transcripcion fina.",
+        "status": "pending"
+      },
+      "detonatingStrategy": {
+        "status": "confirmed",
+        "title": "La química y las figuras también se mezclan",
+        "text": "Video del Proyecto Parcial de Aula 3: La química y las figuras también se mezclan",
+        "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+        "scope": "partial-classroom-project",
+        "type": "video"
+      },
+      "academicProjectStrategy": {
+        "title": "7. Mundo atómico • Saberes y pensamiento científico• 3er grado",
+        "text": "Video detonador del Proyecto Academico 7: Mundo homogéneo y heterogéneo",
+        "type": "video",
+        "status": "confirmed-from-video-and-project",
+        "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+        "scope": "academic-project"
+      },
+      "academicConcepts": [
+        {
+          "concept": "7. mundo atómico",
+          "description": "7. mundo atómico organiza el producto de cierre y permite comunicar lo aprendido en el proyecto.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            141
+          ],
+          "sourcePagesLabel": "p. 141",
+          "topicTitle": "Proyecto academico 7",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 7, al PPA 3 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Materia",
+          "description": "Materia ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            265
+          ],
+          "sourcePagesLabel": "p. 265",
+          "topicTitle": "Proyecto academico 7",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 7, al PPA 3 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Mezclas",
+          "description": "Mezclas ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            265
+          ],
+          "sourcePagesLabel": "p. 265",
+          "topicTitle": "Proyecto academico 7",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 7, al PPA 3 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Quimica",
+          "description": "Quimica ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            9
+          ],
+          "sourcePagesLabel": "p. 9",
+          "topicTitle": "Proyecto academico 7",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 7, al PPA 3 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Figuras",
+          "description": "Figuras ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            141
+          ],
+          "sourcePagesLabel": "p. 141",
+          "topicTitle": "Proyecto academico 7",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 7, al PPA 3 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Medicion",
+          "description": "Medicion ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            141
+          ],
+          "sourcePagesLabel": "p. 141",
+          "topicTitle": "Proyecto academico 7",
+          "status": "suggested",
+          "reason": "Concepto vinculado al PA 7, al PPA 3 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "teacher-review"
+        }
+      ],
+      "thinkingCriteria": [
+        "Relacionar Mundo homogéneo y heterogéneo con una situacion concreta del entorno escolar o comunitario.",
+        "Usar 7. mundo atómico para explicar ideas con claridad y evidencia."
+      ],
+      "resonancePrompts": [
+        {
+          "type": "individual",
+          "prompt": "¿Como te ayuda 7. mundo atómico a comprender mejor Mundo homogéneo y heterogéneo y a explicar sus conceptos clave en tu comunidad?",
+          "conceptsActivated": [
+            "7. mundo atómico",
+            "Materia",
+            "Mezclas",
+            "Quimica"
+          ],
+          "suggestedUse": "Momento 1 de autoevaluacion"
+        }
+      ],
+      "validationStatus": {
+        "readinessLevel": "curricular-bundle-generated",
+        "readyForActivities": true,
+        "needsReviewReasons": [
+          "El horizonte textual literal queda pendiente de revision fina si se requiere cita exacta.",
+          "Los apoyos complementarios impresos no se asignan cuando no hay evidencia validada por columna."
+        ]
+      },
+      "readinessLevel": "curricular-bundle-generated",
+      "readyForActivities": true,
+      "needsReviewReasons": []
+    },
+    {
+      "id": "saberes-y-pensamiento-cientifico-3-ppa-3-pa8",
+      "projectId": "saberes-y-pensamiento-cientifico-3-ppa-3-pa8",
+      "academicProjectNumber": 8,
+      "title": "Dividir lo uniforme",
+      "projectTitle": "Dividir lo uniforme",
+      "grade": "3",
+      "field": "Saberes y Pensamiento Científico",
+      "ppaNumber": "3",
+      "partialClassroomProject": "PPA 3",
+      "partialClassroomProjectTitle": "La química y las figuras también se mezclan",
+      "bookVolume": "Tomo I",
+      "sourceValidation": {
+        "sourceStatus": "linked",
+        "possibilitiesPages": [
+          10,
+          11
+        ],
+        "possibilitiesMaterialId": "grade-3-posibilidades-pos-sypc-3",
+        "possibilitiesColumnIndex": 2,
+        "columnEvidence": "Proyecto PA 8 agrupado en el PPA 3 desde el catalogo canonico y las paginas de Posibilidades."
+      },
+      "finalProduct": {
+        "title": "Prototipo 3D de equipo de...",
+        "source": "Video detonador validado en YouTube + Nuestro libro de proyectos Tomo I pp. 145-149",
+        "status": "confirmed-from-video-and-project"
+      },
+      "sourcePages": {
+        "nuestroLibroProyectos": [
+          {
+            "materialId": "grade-3-proyectos-nuestros-proyectos-tomo-1-tercer-grado",
+            "label": "Nuestro libro de proyectos Tomo I",
+            "startPage": 145,
+            "endPage": 149,
+            "pagesLabel": "pp. 145-149",
+            "topicTitle": "Proyecto academico 8",
+            "status": "confirmed-source"
+          }
+        ],
+        "conceptBook": [
+          {
+            "materialId": "grade-3-conceptos-saberes-y-pensamiento-cientifico-tercer-grado",
+            "label": "Saberes y Pensamiento Cientifico",
+            "startPage": 145,
+            "endPage": 145,
+            "pagesLabel": "p. 145",
+            "topicTitle": "Prototipo 3d de equipo de...",
+            "status": "confirmed"
+          }
+        ],
+        "multiplesLenguajes": [],
+        "otherMaterials": [
+          {
+            "label": "Video PA 8: Dividir lo uniforme",
+            "reference": "",
+            "status": "confirmed"
+          }
+        ]
+      },
+      "supportMaterials": [],
+      "horizonOrPurpose": {
+        "status": "confirmed-from-project-book",
+        "text": "Investigar y aprender lo relacionado con la construcción de desarrollos planos de diferentes figuras tridimensionales para construir el prototipo 3D de equipo de separación de mezclas.",
+        "source": "Visión — Horizonte 2 (p. 146)"
+      },
+      "projectExpectationHorizon": {
+        "officialText": "Investigar y aprender lo relacionado con la construcción de desarrollos planos de diferentes figuras tridimensionales para construir el prototipo 3D de equipo de separación de mezclas.",
+        "studentVersion": "Investigar y aprender lo relacionado con la construcción de desarrollos planos de diferentes figuras tridimensionales para construir el prototipo 3D de equipo de separación de mezclas.",
+        "horizon1Raw": "Realizar una investigación bibliográfica o de campo de los principales equipos de separación de mezclas para diseñar y elaborar el prototipo 3D.",
+        "horizon2Raw": "Investigar y aprender lo relacionado con la construcción de desarrollos planos de diferentes figuras tridimensionales para construir el prototipo 3D de equipo de separación de mezclas.",
+        "sourcePages": [
+          "Visión — Horizonte 2 (p. 146)"
+        ],
+        "evidence": "Extraído por visión de imagen de la página 146 del libro de proyectos. Confianza: alta.",
+        "status": "confirmed-from-project-book",
+        "extractedAt": "2026-06-16T05:19:24.895Z"
+      },
+      "detonatingStrategy": {
+        "status": "confirmed",
+        "title": "La química y las figuras también se mezclan",
+        "text": "Video del Proyecto Parcial de Aula 3: La química y las figuras también se mezclan",
+        "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+        "scope": "partial-classroom-project",
+        "type": "video"
+      },
+      "academicProjectStrategy": {
+        "title": "Prototipo 3D de equipo de...• Saberes y pensamiento científico • 3er grado",
+        "text": "Video detonador del Proyecto Academico 8: Dividir lo uniforme",
+        "type": "video",
+        "status": "confirmed-from-video-and-project",
+        "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+        "scope": "academic-project"
+      },
+      "academicConcepts": [
+        {
+          "concept": "Prototipo 3d de equipo de...",
+          "description": "Prototipo 3d de equipo de... organiza el producto de cierre y permite comunicar lo aprendido en el proyecto.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            145
+          ],
+          "sourcePagesLabel": "p. 145",
+          "topicTitle": "Proyecto academico 8",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 8, al PPA 3 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Materia",
+          "description": "Materia ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            265
+          ],
+          "sourcePagesLabel": "p. 265",
+          "topicTitle": "Proyecto academico 8",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 8, al PPA 3 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Mezclas",
+          "description": "Mezclas ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            265
+          ],
+          "sourcePagesLabel": "p. 265",
+          "topicTitle": "Proyecto academico 8",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 8, al PPA 3 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Quimica",
+          "description": "Quimica ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            9
+          ],
+          "sourcePagesLabel": "p. 9",
+          "topicTitle": "Proyecto academico 8",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 8, al PPA 3 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Figuras",
+          "description": "Figuras ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            145
+          ],
+          "sourcePagesLabel": "p. 145",
+          "topicTitle": "Proyecto academico 8",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 8, al PPA 3 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Medicion",
+          "description": "Medicion ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            145
+          ],
+          "sourcePagesLabel": "p. 145",
+          "topicTitle": "Proyecto academico 8",
+          "status": "suggested",
+          "reason": "Concepto vinculado al PA 8, al PPA 3 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "teacher-review"
+        }
+      ],
+      "thinkingCriteria": [
+        "Relacionar Dividir lo uniforme con una situacion concreta del entorno escolar o comunitario.",
+        "Usar prototipo 3d de equipo de... para explicar ideas con claridad y evidencia."
+      ],
+      "resonancePrompts": [
+        {
+          "type": "individual",
+          "prompt": "¿Como te ayuda prototipo 3d de equipo de... a comprender mejor Dividir lo uniforme y a explicar sus conceptos clave en tu comunidad?",
+          "conceptsActivated": [
+            "Prototipo 3d de equipo de...",
+            "Materia",
+            "Mezclas",
+            "Quimica"
+          ],
+          "suggestedUse": "Momento 1 de autoevaluacion"
+        }
+      ],
+      "validationStatus": {
+        "readinessLevel": "curricular-bundle-generated",
+        "readyForActivities": true,
+        "needsReviewReasons": [
+          "El horizonte textual literal queda pendiente de revision fina si se requiere cita exacta.",
+          "Los apoyos complementarios impresos no se asignan cuando no hay evidencia validada por columna."
+        ]
+      },
+      "readinessLevel": "curricular-bundle-generated",
+      "readyForActivities": true,
+      "needsReviewReasons": []
+    },
+    {
+      "id": "saberes-y-pensamiento-cientifico-3-ppa-3-pa9",
+      "projectId": "saberes-y-pensamiento-cientifico-3-ppa-3-pa9",
+      "academicProjectNumber": 9,
+      "title": "Es necesario purificar",
+      "projectTitle": "Es necesario purificar",
+      "grade": "3",
+      "field": "Saberes y Pensamiento Científico",
+      "ppaNumber": "3",
+      "partialClassroomProject": "PPA 3",
+      "partialClassroomProjectTitle": "La química y las figuras también se mezclan",
+      "bookVolume": "Tomo I",
+      "sourceValidation": {
+        "sourceStatus": "linked",
+        "possibilitiesPages": [
+          10,
+          11
+        ],
+        "possibilitiesMaterialId": "grade-3-posibilidades-pos-sypc-3",
+        "possibilitiesColumnIndex": 3,
+        "columnEvidence": "Proyecto PA 9 agrupado en el PPA 3 desde el catalogo canonico y las paginas de Posibilidades."
+      },
+      "finalProduct": {
+        "title": "Maqueta didáctica",
+        "source": "Video detonador validado en YouTube + Nuestro libro de proyectos Tomo I pp. 150-153",
+        "status": "confirmed-from-video-and-project"
+      },
+      "sourcePages": {
+        "nuestroLibroProyectos": [
+          {
+            "materialId": "grade-3-proyectos-nuestros-proyectos-tomo-1-tercer-grado",
+            "label": "Nuestro libro de proyectos Tomo I",
+            "startPage": 150,
+            "endPage": 153,
+            "pagesLabel": "pp. 150-153",
+            "topicTitle": "Proyecto academico 9",
+            "status": "confirmed-source"
+          }
+        ],
+        "conceptBook": [
+          {
+            "materialId": "grade-3-conceptos-saberes-y-pensamiento-cientifico-tercer-grado",
+            "label": "Saberes y Pensamiento Cientifico",
+            "startPage": 150,
+            "endPage": 150,
+            "pagesLabel": "p. 150",
+            "topicTitle": "Maqueta didáctica",
+            "status": "confirmed"
+          }
+        ],
+        "multiplesLenguajes": [],
+        "otherMaterials": [
+          {
+            "label": "Video PA 9: Es necesario purificar",
+            "reference": "",
+            "status": "confirmed"
+          }
+        ]
+      },
+      "supportMaterials": [],
+      "horizonOrPurpose": {
+        "status": "confirmed-from-project-book",
+        "text": "Identificar el concepto purificación de un producto de uso cotidiano para que, con el uso de figuras tridimensionales en una maqueta didáctica, se explique el procedimiento que se sigue.",
+        "source": "Visión — Horizonte 2 (p. 151)"
+      },
+      "projectExpectationHorizon": {
+        "officialText": "Identificar el concepto purificación de un producto de uso cotidiano para que, con el uso de figuras tridimensionales en una maqueta didáctica, se explique el procedimiento que se sigue.",
+        "studentVersion": "Identificar el concepto purificación de un producto de uso cotidiano para que, con el uso de figuras tridimensionales en una maqueta didáctica, se explique el procedimiento que se sigue.",
+        "horizon1Raw": "Investigar el proceso de purificación que se sigue a un producto de uso cotidiano, que permita socializar y entender el proceso para poder crear una maqueta didáctica.",
+        "horizon2Raw": "Identificar el concepto purificación de un producto de uso cotidiano para que, con el uso de figuras tridimensionales en una maqueta didáctica, se explique el procedimiento que se sigue.",
+        "sourcePages": [
+          "Visión — Horizonte 2 (p. 151)"
+        ],
+        "evidence": "Extraído por visión de imagen de la página 151 del libro de proyectos. Confianza: alta.",
+        "status": "confirmed-from-project-book",
+        "extractedAt": "2026-06-16T05:19:28.791Z"
+      },
+      "detonatingStrategy": {
+        "status": "confirmed",
+        "title": "La química y las figuras también se mezclan",
+        "text": "Video del Proyecto Parcial de Aula 3: La química y las figuras también se mezclan",
+        "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+        "scope": "partial-classroom-project",
+        "type": "video"
+      },
+      "academicProjectStrategy": {
+        "title": "Maqueta didáctica • Saberes y pensamiento científico • 3er grado",
+        "text": "Video detonador del Proyecto Academico 9: Es necesario purificar",
+        "type": "video",
+        "status": "confirmed-from-video-and-project",
+        "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+        "scope": "academic-project"
+      },
+      "academicConcepts": [
+        {
+          "concept": "Maqueta didáctica",
+          "description": "Maqueta didáctica organiza el producto de cierre y permite comunicar lo aprendido en el proyecto.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            150
+          ],
+          "sourcePagesLabel": "p. 150",
+          "topicTitle": "Proyecto academico 9",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 9, al PPA 3 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Materia",
+          "description": "Materia ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            265
+          ],
+          "sourcePagesLabel": "p. 265",
+          "topicTitle": "Proyecto academico 9",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 9, al PPA 3 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Mezclas",
+          "description": "Mezclas ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            265
+          ],
+          "sourcePagesLabel": "p. 265",
+          "topicTitle": "Proyecto academico 9",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 9, al PPA 3 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Quimica",
+          "description": "Quimica ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            9
+          ],
+          "sourcePagesLabel": "p. 9",
+          "topicTitle": "Proyecto academico 9",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 9, al PPA 3 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Figuras",
+          "description": "Figuras ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            150
+          ],
+          "sourcePagesLabel": "p. 150",
+          "topicTitle": "Proyecto academico 9",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 9, al PPA 3 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Medicion",
+          "description": "Medicion ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            150
+          ],
+          "sourcePagesLabel": "p. 150",
+          "topicTitle": "Proyecto academico 9",
+          "status": "suggested",
+          "reason": "Concepto vinculado al PA 9, al PPA 3 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "teacher-review"
+        }
+      ],
+      "thinkingCriteria": [
+        "Relacionar Es necesario purificar con una situacion concreta del entorno escolar o comunitario.",
+        "Usar maqueta didáctica para explicar ideas con claridad y evidencia."
+      ],
+      "resonancePrompts": [
+        {
+          "type": "individual",
+          "prompt": "¿Como te ayuda maqueta didáctica a comprender mejor Es necesario purificar y a explicar sus conceptos clave en tu comunidad?",
+          "conceptsActivated": [
+            "Maqueta didáctica",
+            "Materia",
+            "Mezclas",
+            "Quimica"
+          ],
+          "suggestedUse": "Momento 1 de autoevaluacion"
+        }
+      ],
+      "validationStatus": {
+        "readinessLevel": "curricular-bundle-generated",
+        "readyForActivities": true,
+        "needsReviewReasons": [
+          "El horizonte textual literal queda pendiente de revision fina si se requiere cita exacta.",
+          "Los apoyos complementarios impresos no se asignan cuando no hay evidencia validada por columna."
+        ]
+      },
+      "readinessLevel": "curricular-bundle-generated",
+      "readyForActivities": true,
+      "needsReviewReasons": []
+    }
+  ]
+}

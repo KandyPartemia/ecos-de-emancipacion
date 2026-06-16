@@ -1,0 +1,701 @@
+{
+  "grade": "3",
+  "gradeLabel": "Tercer grado",
+  "field": "Saberes y Pensamiento Cientifico",
+  "bookVolume": "Tomo III",
+  "partialClassroomProject": "PPA 13",
+  "partialClassroomProjectTitle": "Una sociedad de redacciones químicas",
+  "generatedAt": "2026-06-07T03:06:28.586Z",
+  "notes": "Capa curricular generada por lote para 3o Saberes y Pensamiento Cientifico, PPA 13.",
+  "sourcesUsed": [
+    "content/caracoles/curricular-catalog/all-projects-canonical.json",
+    "public/caracoles/data/generated/grade-3/concepts-index.json",
+    "src/caracoles/lib/officialVideoLinks.ts",
+    "Posibilidades de uso SyPC, tercer grado, pp. 32-33",
+    "Nuestro libro de proyectos, tercer grado, pp. 113-125"
+  ],
+  "partialClassroomProjectContext": {
+    "expectationHorizon": {
+      "officialText": "",
+      "sourcePages": [
+        "Nuestro libro de proyectos Tomo III pp. 113-117",
+        "Posibilidades de uso SyPC pp. 32-33"
+      ],
+      "evidence": "El PPA 13 articula 11. el fantástico mundo de los ácidos y las bases, 13. una sociedad de reacciones químicas, 13. una sociedad de reacciones químicas para trabajar Una sociedad de redacciones químicas.",
+      "status": "pending"
+    },
+    "ppaDetonatingStrategy": {
+      "title": "Una sociedad de redacciones químicas",
+      "type": "video",
+      "url": "",
+      "urlStatus": "confirmed-by-official-video-map",
+      "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+      "scope": "partial-classroom-project"
+    },
+    "ppaDigitalResource": {
+      "title": "Recurso del Proyecto Parcial de Aula 13",
+      "reference": "",
+      "status": "confirmed-by-official-video-map",
+      "source": "YouTube, acervo Aprende_MX/Telesecundaria"
+    },
+    "validationStatus": {
+      "needsHumanReview": true,
+      "needsReviewReasons": [
+        "Los videos PA/PPA se validan por el mapa oficial de enlaces directos ya generado.",
+        "Los apoyos complementarios impresos no se asignan cuando no hay evidencia validada por columna.",
+        "El horizonte textual literal queda pendiente de revision fina si se necesita cita exacta."
+      ]
+    },
+    "columnValidation": {
+      "possibilitiesPagesReviewed": [
+        32,
+        33
+      ],
+      "confirmedAsPpa": true,
+      "note": "El PPA 13 se agrupa desde el catalogo canonico de tercer grado.",
+      "columns": [
+        {
+          "columnIndex": 1,
+          "projectId": "saberes-y-pensamiento-cientifico-3-ppa-13-pa37",
+          "projectTitle": "Reductores, oxidantes, ácidos, bases y medio ambiente",
+          "finalProduct": "11. El fantástico mundo de los ácidos y las bases",
+          "supportMaterials": []
+        },
+        {
+          "columnIndex": 2,
+          "projectId": "saberes-y-pensamiento-cientifico-3-ppa-13-pa38",
+          "projectTitle": "La salud, el medio ambiente y las reacciones químicas",
+          "finalProduct": "13. Una sociedad de reacciones químicas",
+          "supportMaterials": []
+        },
+        {
+          "columnIndex": 3,
+          "projectId": "saberes-y-pensamiento-cientifico-3-ppa-13-pa39",
+          "projectTitle": "Beneficios y efectos de las reacciones químicas",
+          "finalProduct": "13. Una sociedad de reacciones químicas",
+          "supportMaterials": []
+        }
+      ]
+    }
+  },
+  "academicProjects": [
+    {
+      "id": "saberes-y-pensamiento-cientifico-3-ppa-13-pa37",
+      "projectId": "saberes-y-pensamiento-cientifico-3-ppa-13-pa37",
+      "academicProjectNumber": 37,
+      "title": "Reductores, oxidantes, ácidos, bases y medio ambiente",
+      "projectTitle": "Reductores, oxidantes, ácidos, bases y medio ambiente",
+      "grade": "3",
+      "field": "Saberes y Pensamiento Científico",
+      "ppaNumber": "13",
+      "partialClassroomProject": "PPA 13",
+      "partialClassroomProjectTitle": "Una sociedad de redacciones químicas",
+      "bookVolume": "Tomo III",
+      "sourceValidation": {
+        "sourceStatus": "linked",
+        "possibilitiesPages": [
+          32,
+          33
+        ],
+        "possibilitiesMaterialId": "grade-3-posibilidades-pos-sypc-3",
+        "possibilitiesColumnIndex": 1,
+        "columnEvidence": "Proyecto PA 37 agrupado en el PPA 13 desde el catalogo canonico y las paginas de Posibilidades."
+      },
+      "finalProduct": {
+        "title": "11. El fantástico mundo de los ácidos y las bases",
+        "source": "Video detonador validado en YouTube + Nuestro libro de proyectos Tomo III pp. 113-117",
+        "status": "confirmed-from-video-and-project"
+      },
+      "sourcePages": {
+        "nuestroLibroProyectos": [
+          {
+            "materialId": "grade-3-proyectos-nuestros-proyectos-tomo-3-tercer-grado",
+            "label": "Nuestro libro de proyectos Tomo III",
+            "startPage": 113,
+            "endPage": 117,
+            "pagesLabel": "pp. 113-117",
+            "topicTitle": "Proyecto academico 37",
+            "status": "confirmed-source"
+          }
+        ],
+        "conceptBook": [
+          {
+            "materialId": "grade-3-conceptos-saberes-y-pensamiento-cientifico-tercer-grado",
+            "label": "Saberes y Pensamiento Cientifico",
+            "startPage": 113,
+            "endPage": 113,
+            "pagesLabel": "p. 113",
+            "topicTitle": "11. el fantástico mundo de los ácidos y las bases",
+            "status": "confirmed"
+          }
+        ],
+        "multiplesLenguajes": [],
+        "otherMaterials": [
+          {
+            "label": "Video PA 37: Reductores, oxidantes, ácidos, bases y medio ambiente",
+            "reference": "",
+            "status": "confirmed"
+          }
+        ]
+      },
+      "supportMaterials": [],
+      "horizonOrPurpose": {
+        "status": "pending",
+        "text": "",
+        "source": "Nuestro libro de proyectos Tomo III pp. 113-117"
+      },
+      "projectExpectationHorizon": {
+        "officialText": "",
+        "studentVersion": "",
+        "sourcePages": [
+          "Nuestro libro de proyectos Tomo III pp. 113-117"
+        ],
+        "evidence": "El PA 37 cuenta con paginas de proyecto, producto de cierre, conceptos y videos directos validados; el horizonte textual literal queda pendiente de transcripcion fina.",
+        "status": "pending"
+      },
+      "detonatingStrategy": {
+        "status": "confirmed",
+        "title": "Una sociedad de redacciones químicas",
+        "text": "Video del Proyecto Parcial de Aula 13: Una sociedad de redacciones químicas",
+        "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+        "scope": "partial-classroom-project",
+        "type": "video"
+      },
+      "academicProjectStrategy": {
+        "title": "11. El fantástico mundo de los ácidos y las bases • Saberes y pensamiento científico• 3er grado",
+        "text": "Video detonador del Proyecto Academico 37: Reductores, oxidantes, ácidos, bases y medio ambiente",
+        "type": "video",
+        "status": "confirmed-from-video-and-project",
+        "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+        "scope": "academic-project"
+      },
+      "academicConcepts": [
+        {
+          "concept": "11. el fantástico mundo de los ácidos y las bases",
+          "description": "11. el fantástico mundo de los ácidos y las bases organiza el producto de cierre y permite comunicar lo aprendido en el proyecto.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            113
+          ],
+          "sourcePagesLabel": "p. 113",
+          "topicTitle": "Proyecto academico 37",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 37, al PPA 13 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Materia",
+          "description": "Materia ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            265
+          ],
+          "sourcePagesLabel": "p. 265",
+          "topicTitle": "Proyecto academico 37",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 37, al PPA 13 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Mezclas",
+          "description": "Mezclas ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            265
+          ],
+          "sourcePagesLabel": "p. 265",
+          "topicTitle": "Proyecto academico 37",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 37, al PPA 13 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Quimica",
+          "description": "Quimica ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            9
+          ],
+          "sourcePagesLabel": "p. 9",
+          "topicTitle": "Proyecto academico 37",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 37, al PPA 13 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Figuras",
+          "description": "Figuras ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            113
+          ],
+          "sourcePagesLabel": "p. 113",
+          "topicTitle": "Proyecto academico 37",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 37, al PPA 13 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Medicion",
+          "description": "Medicion ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            113
+          ],
+          "sourcePagesLabel": "p. 113",
+          "topicTitle": "Proyecto academico 37",
+          "status": "suggested",
+          "reason": "Concepto vinculado al PA 37, al PPA 13 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "teacher-review"
+        }
+      ],
+      "thinkingCriteria": [
+        "Relacionar Reductores, oxidantes, ácidos, bases y medio ambiente con una situacion concreta del entorno escolar o comunitario.",
+        "Usar 11. el fantástico mundo de los ácidos y las bases para explicar ideas con claridad y evidencia."
+      ],
+      "resonancePrompts": [
+        {
+          "type": "individual",
+          "prompt": "¿Como te ayuda 11. el fantástico mundo de los ácidos y las bases a comprender mejor Reductores, oxidantes, ácidos, bases y medio ambiente y a explicar sus conceptos clave en tu comunidad?",
+          "conceptsActivated": [
+            "11. el fantástico mundo de los ácidos y las bases",
+            "Materia",
+            "Mezclas",
+            "Quimica"
+          ],
+          "suggestedUse": "Momento 1 de autoevaluacion"
+        }
+      ],
+      "validationStatus": {
+        "readinessLevel": "curricular-bundle-generated",
+        "readyForActivities": true,
+        "needsReviewReasons": [
+          "El horizonte textual literal queda pendiente de revision fina si se requiere cita exacta.",
+          "Los apoyos complementarios impresos no se asignan cuando no hay evidencia validada por columna."
+        ]
+      },
+      "readinessLevel": "curricular-bundle-generated",
+      "readyForActivities": true,
+      "needsReviewReasons": []
+    },
+    {
+      "id": "saberes-y-pensamiento-cientifico-3-ppa-13-pa38",
+      "projectId": "saberes-y-pensamiento-cientifico-3-ppa-13-pa38",
+      "academicProjectNumber": 38,
+      "title": "La salud, el medio ambiente y las reacciones químicas",
+      "projectTitle": "La salud, el medio ambiente y las reacciones químicas",
+      "grade": "3",
+      "field": "Saberes y Pensamiento Científico",
+      "ppaNumber": "13",
+      "partialClassroomProject": "PPA 13",
+      "partialClassroomProjectTitle": "Una sociedad de redacciones químicas",
+      "bookVolume": "Tomo III",
+      "sourceValidation": {
+        "sourceStatus": "linked",
+        "possibilitiesPages": [
+          32,
+          33
+        ],
+        "possibilitiesMaterialId": "grade-3-posibilidades-pos-sypc-3",
+        "possibilitiesColumnIndex": 2,
+        "columnEvidence": "Proyecto PA 38 agrupado en el PPA 13 desde el catalogo canonico y las paginas de Posibilidades."
+      },
+      "finalProduct": {
+        "title": "13. Una sociedad de reacciones químicas",
+        "source": "Video detonador validado en YouTube + Nuestro libro de proyectos Tomo III pp. 118-121",
+        "status": "confirmed-from-video-and-project"
+      },
+      "sourcePages": {
+        "nuestroLibroProyectos": [
+          {
+            "materialId": "grade-3-proyectos-nuestros-proyectos-tomo-3-tercer-grado",
+            "label": "Nuestro libro de proyectos Tomo III",
+            "startPage": 118,
+            "endPage": 121,
+            "pagesLabel": "pp. 118-121",
+            "topicTitle": "Proyecto academico 38",
+            "status": "confirmed-source"
+          }
+        ],
+        "conceptBook": [
+          {
+            "materialId": "grade-3-conceptos-saberes-y-pensamiento-cientifico-tercer-grado",
+            "label": "Saberes y Pensamiento Cientifico",
+            "startPage": 118,
+            "endPage": 118,
+            "pagesLabel": "p. 118",
+            "topicTitle": "13. una sociedad de reacciones químicas",
+            "status": "confirmed"
+          }
+        ],
+        "multiplesLenguajes": [],
+        "otherMaterials": [
+          {
+            "label": "Video PA 38: La salud, el medio ambiente y las reacciones químicas",
+            "reference": "",
+            "status": "confirmed"
+          }
+        ]
+      },
+      "supportMaterials": [],
+      "horizonOrPurpose": {
+        "status": "pending",
+        "text": "",
+        "source": "Nuestro libro de proyectos Tomo III pp. 118-121"
+      },
+      "projectExpectationHorizon": {
+        "officialText": "",
+        "studentVersion": "",
+        "sourcePages": [
+          "Nuestro libro de proyectos Tomo III pp. 118-121"
+        ],
+        "evidence": "El PA 38 cuenta con paginas de proyecto, producto de cierre, conceptos y videos directos validados; el horizonte textual literal queda pendiente de transcripcion fina.",
+        "status": "pending"
+      },
+      "detonatingStrategy": {
+        "status": "confirmed",
+        "title": "Una sociedad de redacciones químicas",
+        "text": "Video del Proyecto Parcial de Aula 13: Una sociedad de redacciones químicas",
+        "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+        "scope": "partial-classroom-project",
+        "type": "video"
+      },
+      "academicProjectStrategy": {
+        "title": "13. Una sociedad de reacciones químicas • Saberes y pensamiento científico• 3er grado",
+        "text": "Video detonador del Proyecto Academico 38: La salud, el medio ambiente y las reacciones químicas",
+        "type": "video",
+        "status": "confirmed-from-video-and-project",
+        "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+        "scope": "academic-project"
+      },
+      "academicConcepts": [
+        {
+          "concept": "13. una sociedad de reacciones químicas",
+          "description": "13. una sociedad de reacciones químicas organiza el producto de cierre y permite comunicar lo aprendido en el proyecto.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            118
+          ],
+          "sourcePagesLabel": "p. 118",
+          "topicTitle": "Proyecto academico 38",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 38, al PPA 13 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Materia",
+          "description": "Materia ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            265
+          ],
+          "sourcePagesLabel": "p. 265",
+          "topicTitle": "Proyecto academico 38",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 38, al PPA 13 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Mezclas",
+          "description": "Mezclas ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            265
+          ],
+          "sourcePagesLabel": "p. 265",
+          "topicTitle": "Proyecto academico 38",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 38, al PPA 13 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Quimica",
+          "description": "Quimica ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            9
+          ],
+          "sourcePagesLabel": "p. 9",
+          "topicTitle": "Proyecto academico 38",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 38, al PPA 13 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Figuras",
+          "description": "Figuras ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            118
+          ],
+          "sourcePagesLabel": "p. 118",
+          "topicTitle": "Proyecto academico 38",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 38, al PPA 13 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Medicion",
+          "description": "Medicion ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            118
+          ],
+          "sourcePagesLabel": "p. 118",
+          "topicTitle": "Proyecto academico 38",
+          "status": "suggested",
+          "reason": "Concepto vinculado al PA 38, al PPA 13 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "teacher-review"
+        }
+      ],
+      "thinkingCriteria": [
+        "Relacionar La salud, el medio ambiente y las reacciones químicas con una situacion concreta del entorno escolar o comunitario.",
+        "Usar 13. una sociedad de reacciones químicas para explicar ideas con claridad y evidencia."
+      ],
+      "resonancePrompts": [
+        {
+          "type": "individual",
+          "prompt": "¿Como te ayuda 13. una sociedad de reacciones químicas a comprender mejor La salud, el medio ambiente y las reacciones químicas y a explicar sus conceptos clave en tu comunidad?",
+          "conceptsActivated": [
+            "13. una sociedad de reacciones químicas",
+            "Materia",
+            "Mezclas",
+            "Quimica"
+          ],
+          "suggestedUse": "Momento 1 de autoevaluacion"
+        }
+      ],
+      "validationStatus": {
+        "readinessLevel": "curricular-bundle-generated",
+        "readyForActivities": true,
+        "needsReviewReasons": [
+          "El horizonte textual literal queda pendiente de revision fina si se requiere cita exacta.",
+          "Los apoyos complementarios impresos no se asignan cuando no hay evidencia validada por columna."
+        ]
+      },
+      "readinessLevel": "curricular-bundle-generated",
+      "readyForActivities": true,
+      "needsReviewReasons": []
+    },
+    {
+      "id": "saberes-y-pensamiento-cientifico-3-ppa-13-pa39",
+      "projectId": "saberes-y-pensamiento-cientifico-3-ppa-13-pa39",
+      "academicProjectNumber": 39,
+      "title": "Beneficios y efectos de las reacciones químicas",
+      "projectTitle": "Beneficios y efectos de las reacciones químicas",
+      "grade": "3",
+      "field": "Saberes y Pensamiento Científico",
+      "ppaNumber": "13",
+      "partialClassroomProject": "PPA 13",
+      "partialClassroomProjectTitle": "Una sociedad de redacciones químicas",
+      "bookVolume": "Tomo III",
+      "sourceValidation": {
+        "sourceStatus": "linked",
+        "possibilitiesPages": [
+          32,
+          33
+        ],
+        "possibilitiesMaterialId": "grade-3-posibilidades-pos-sypc-3",
+        "possibilitiesColumnIndex": 3,
+        "columnEvidence": "Proyecto PA 39 agrupado en el PPA 13 desde el catalogo canonico y las paginas de Posibilidades."
+      },
+      "finalProduct": {
+        "title": "13. Una sociedad de reacciones químicas",
+        "source": "Video detonador validado en YouTube + Nuestro libro de proyectos Tomo III pp. 122-125",
+        "status": "confirmed-from-video-and-project"
+      },
+      "sourcePages": {
+        "nuestroLibroProyectos": [
+          {
+            "materialId": "grade-3-proyectos-nuestros-proyectos-tomo-3-tercer-grado",
+            "label": "Nuestro libro de proyectos Tomo III",
+            "startPage": 122,
+            "endPage": 125,
+            "pagesLabel": "pp. 122-125",
+            "topicTitle": "Proyecto academico 39",
+            "status": "confirmed-source"
+          }
+        ],
+        "conceptBook": [
+          {
+            "materialId": "grade-3-conceptos-saberes-y-pensamiento-cientifico-tercer-grado",
+            "label": "Saberes y Pensamiento Cientifico",
+            "startPage": 122,
+            "endPage": 122,
+            "pagesLabel": "p. 122",
+            "topicTitle": "13. una sociedad de reacciones químicas",
+            "status": "confirmed"
+          }
+        ],
+        "multiplesLenguajes": [],
+        "otherMaterials": [
+          {
+            "label": "Video PA 39: Beneficios y efectos de las reacciones químicas",
+            "reference": "",
+            "status": "confirmed"
+          }
+        ]
+      },
+      "supportMaterials": [],
+      "horizonOrPurpose": {
+        "status": "confirmed-from-project-book",
+        "text": "Ejercitar la forma de realizar un diagrama de flujo para expresar con seguridad los cambios que ocurren y las características que permanecen en una reacción química cuando se forman nuevas sustancias.",
+        "source": "Visión — Horizonte 2 (p. 123)"
+      },
+      "projectExpectationHorizon": {
+        "officialText": "Ejercitar la forma de realizar un diagrama de flujo para expresar con seguridad los cambios que ocurren y las características que permanecen en una reacción química cuando se forman nuevas sustancias.",
+        "studentVersion": "Ejercitar la forma de realizar un diagrama de flujo para expresar con seguridad los cambios que ocurren y las características que permanecen en una reacción química cuando se forman nuevas sustancias.",
+        "horizon1Raw": "Recabar información sobre los cambios que ocurren y las características que permanecen en una reacción química cuando se forman nuevas sustancias para poder expresarla mediante un diagrama de flujo.",
+        "horizon2Raw": "Ejercitar la forma de realizar un diagrama de flujo para expresar con seguridad los cambios que ocurren y las características que permanecen en una reacción química cuando se forman nuevas sustancias.",
+        "sourcePages": [
+          "Visión — Horizonte 2 (p. 123)"
+        ],
+        "evidence": "Extraído por visión de imagen de la página 123 del libro de proyectos. Confianza: alta.",
+        "status": "confirmed-from-project-book",
+        "extractedAt": "2026-06-16T05:46:28.329Z"
+      },
+      "detonatingStrategy": {
+        "status": "confirmed",
+        "title": "Una sociedad de redacciones químicas",
+        "text": "Video del Proyecto Parcial de Aula 13: Una sociedad de redacciones químicas",
+        "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+        "scope": "partial-classroom-project",
+        "type": "video"
+      },
+      "academicProjectStrategy": {
+        "title": "13. Una sociedad de reacciones químicas • Saberes y pensamiento científico• 3er grado",
+        "text": "Video detonador del Proyecto Academico 39: Beneficios y efectos de las reacciones químicas",
+        "type": "video",
+        "status": "confirmed-from-video-and-project",
+        "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+        "scope": "academic-project"
+      },
+      "academicConcepts": [
+        {
+          "concept": "13. una sociedad de reacciones químicas",
+          "description": "13. una sociedad de reacciones químicas organiza el producto de cierre y permite comunicar lo aprendido en el proyecto.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            122
+          ],
+          "sourcePagesLabel": "p. 122",
+          "topicTitle": "Proyecto academico 39",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 39, al PPA 13 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Materia",
+          "description": "Materia ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            265
+          ],
+          "sourcePagesLabel": "p. 265",
+          "topicTitle": "Proyecto academico 39",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 39, al PPA 13 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Mezclas",
+          "description": "Mezclas ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            265
+          ],
+          "sourcePagesLabel": "p. 265",
+          "topicTitle": "Proyecto academico 39",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 39, al PPA 13 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Quimica",
+          "description": "Quimica ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            9
+          ],
+          "sourcePagesLabel": "p. 9",
+          "topicTitle": "Proyecto academico 39",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 39, al PPA 13 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Figuras",
+          "description": "Figuras ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            122
+          ],
+          "sourcePagesLabel": "p. 122",
+          "topicTitle": "Proyecto academico 39",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 39, al PPA 13 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Medicion",
+          "description": "Medicion ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            122
+          ],
+          "sourcePagesLabel": "p. 122",
+          "topicTitle": "Proyecto academico 39",
+          "status": "suggested",
+          "reason": "Concepto vinculado al PA 39, al PPA 13 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "teacher-review"
+        }
+      ],
+      "thinkingCriteria": [
+        "Relacionar Beneficios y efectos de las reacciones químicas con una situacion concreta del entorno escolar o comunitario.",
+        "Usar 13. una sociedad de reacciones químicas para explicar ideas con claridad y evidencia."
+      ],
+      "resonancePrompts": [
+        {
+          "type": "individual",
+          "prompt": "¿Como te ayuda 13. una sociedad de reacciones químicas a comprender mejor Beneficios y efectos de las reacciones químicas y a explicar sus conceptos clave en tu comunidad?",
+          "conceptsActivated": [
+            "13. una sociedad de reacciones químicas",
+            "Materia",
+            "Mezclas",
+            "Quimica"
+          ],
+          "suggestedUse": "Momento 1 de autoevaluacion"
+        }
+      ],
+      "validationStatus": {
+        "readinessLevel": "curricular-bundle-generated",
+        "readyForActivities": true,
+        "needsReviewReasons": [
+          "El horizonte textual literal queda pendiente de revision fina si se requiere cita exacta.",
+          "Los apoyos complementarios impresos no se asignan cuando no hay evidencia validada por columna."
+        ]
+      },
+      "readinessLevel": "curricular-bundle-generated",
+      "readyForActivities": true,
+      "needsReviewReasons": []
+    }
+  ]
+}

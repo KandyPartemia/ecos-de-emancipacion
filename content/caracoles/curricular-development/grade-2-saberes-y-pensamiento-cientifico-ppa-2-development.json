@@ -1,0 +1,774 @@
+{
+  "grade": "2",
+  "gradeLabel": "Segundo grado",
+  "field": "Saberes y Pensamiento Científico",
+  "bookVolume": "Tomo I",
+  "partialClassroomProject": "PPA 2",
+  "partialClassroomProjectTitle": "La física y el álgebra se unen",
+  "generatedAt": "2026-06-02T18:08:11.398Z",
+  "notes": "Capa curricular generada por lote para 2o Saberes y Pensamiento Científico, PPA 2.",
+  "sourcesUsed": [
+    "public/caracoles/data/generated/grade-2/selectable-projects.json",
+    "content/caracoles/generated-private/grade-2/pages-index.full.json",
+    "Posibilidades de uso SyPC, segundo grado, pp. 8-9",
+    "Nuestro libro de proyectos Tomo I, segundo grado, pp. 124-139",
+    "Saberes y Pensamiento Científico, segundo grado, pp. 22-26, 47-51, 62-79, 144-151 y 249-256; Múltiples Lenguajes pp. 14 y 18."
+  ],
+  "partialClassroomProjectContext": {
+    "expectationHorizon": {
+      "officialText": "",
+      "sourcePages": [
+        "Nuestro libro de proyectos Tomo I pp. 124-125",
+        "Posibilidades de uso SyPC pp. 8-9"
+      ],
+      "evidence": "El PPA 2 articula álgebra, metrología y medición del entorno para que el grupo entienda cómo las unidades, los símbolos y los instrumentos de medida ayudan a describir fenómenos físicos y problemas cotidianos.",
+      "status": "pending"
+    },
+    "ppaDetonatingStrategy": {
+      "title": "La física y el álgebra se unen",
+      "type": "video",
+      "url": "",
+      "urlStatus": "pending-url",
+      "reference": "bit.ly/3VfglUk",
+      "source": "Nuestro libro de proyectos Tomo I pp. 124-125 + Posibilidades de uso SyPC pp. 8-9",
+      "scope": "partial-classroom-project",
+      "youtubeSearchQuery": "La física y el álgebra se unen Saberes y Pensamiento Científico 2do grado Telesecundaria"
+    },
+    "ppaDigitalResource": {
+      "title": "Recurso informatico del bloque PPA 2",
+      "reference": "bit.ly/3WQBMwg",
+      "status": "pending-validation",
+      "source": "Nuestro libro de proyectos Tomo I pp. 124-139"
+    },
+    "validationStatus": {
+      "needsHumanReview": true,
+      "needsReviewReasons": [
+        "Las pp. 8-9 de Posibilidades pertenecen al mismo PPA 2.",
+        "La asignacion de apoyos por columna se fija por inferencia curricular documentada de izquierda a derecha.",
+        "Los enlaces cortos del video del PPA y del recurso informatico se mantienen en cautela hasta localizar un destino oficial confirmado.",
+        "Los apoyos de Múltiples Lenguajes son puntuales y se mantienen por inferencia curricular; el grueso de la validación del bloque descansa en el libro del campo."
+      ]
+    },
+    "columnValidation": {
+      "possibilitiesPagesReviewed": [
+        8,
+        9
+      ],
+      "confirmedAsPpa": true,
+      "note": "Las pp. 8-9 corresponden al PPA 2 La física y el álgebra se unen. Las tres columnas se sostienen por el orden de proyectos, productos y apoyos del mismo bloque.",
+      "columns": [
+        {
+          "columnIndex": 1,
+          "projectId": "saberes-y-pensamiento-cientifico-2-ppa-2-pa4",
+          "projectTitle": "El álgebra y las unidades de medida",
+          "finalProduct": "Demostración de medidas",
+          "supportMaterials": []
+        },
+        {
+          "columnIndex": 2,
+          "projectId": "saberes-y-pensamiento-cientifico-2-ppa-2-pa5",
+          "projectTitle": "Símbolos y exponentes",
+          "finalProduct": "Glosario de conceptos",
+          "supportMaterials": [
+            "La operación estrella, p. 14"
+          ]
+        },
+        {
+          "columnIndex": 3,
+          "projectId": "saberes-y-pensamiento-cientifico-2-ppa-2-pa6",
+          "projectTitle": "Medir la comunidad",
+          "finalProduct": "Instrumentos de medición sencillos",
+          "supportMaterials": []
+        }
+      ]
+    }
+  },
+  "academicProjects": [
+    {
+      "id": "saberes-y-pensamiento-cientifico-2-ppa-2-pa4",
+      "projectId": "saberes-y-pensamiento-cientifico-2-ppa-2-pa4",
+      "academicProjectNumber": 4,
+      "title": "El álgebra y las unidades de medida",
+      "projectTitle": "El álgebra y las unidades de medida",
+      "grade": "2",
+      "field": "Saberes y Pensamiento Científico",
+      "ppaNumber": "2",
+      "partialClassroomProject": "PPA 2",
+      "partialClassroomProjectTitle": "La física y el álgebra se unen",
+      "bookVolume": "Tomo I",
+      "sourceValidation": {
+        "sourceStatus": "linked",
+        "possibilitiesPages": [
+          8,
+          9
+        ],
+        "possibilitiesMaterialId": "grade-2-posibilidades-pos-sypc-2",
+        "possibilitiesColumnIndex": 1,
+        "columnEvidence": "Bloque PPA 2 La física y el álgebra se unen localizado en pp. 8-9; la columna 1 se confirma por el orden de proyectos, productos y continuidad del mismo bloque."
+      },
+      "finalProduct": {
+        "title": "Demostración de medidas",
+        "source": "Posibilidades de uso SyPC pp. 8-9 + Nuestro libro de proyectos Tomo I pp. 126-129",
+        "status": "confirmed"
+      },
+      "sourcePages": {
+        "nuestroLibroProyectos": [
+          {
+            "materialId": "grade-2-proyectos-nuestro-libro-de-proyectos-tomo-1-segundo-grado",
+            "label": "Nuestro libro de proyectos Tomo I",
+            "startPage": 126,
+            "endPage": 129,
+            "pagesLabel": "pp. 126-129",
+            "topicTitle": "Proyecto academico 4",
+            "status": "confirmed-source"
+          }
+        ],
+        "conceptBook": [
+          {
+            "materialId": "grade-2-conceptos-saberes-y-pensamiento-cientifico-segundo-grado",
+            "label": "Saberes y Pensamiento Científico",
+            "startPage": 144,
+            "endPage": 151,
+            "pagesLabel": "pp. 144-151",
+            "topicTitle": "Cuantificación de la realidad",
+            "status": "confirmed-by-column-inference"
+          },
+          {
+            "materialId": "grade-2-conceptos-saberes-y-pensamiento-cientifico-segundo-grado",
+            "label": "Saberes y Pensamiento Científico",
+            "startPage": 249,
+            "endPage": 256,
+            "pagesLabel": "pp. 249-256",
+            "topicTitle": "Metrología",
+            "status": "confirmed-by-column-inference"
+          },
+          {
+            "materialId": "grade-2-conceptos-saberes-y-pensamiento-cientifico-segundo-grado",
+            "label": "Saberes y Pensamiento Científico",
+            "startPage": 62,
+            "endPage": 68,
+            "pagesLabel": "pp. 62-68",
+            "topicTitle": "Múltiplos y submúltiplos de sistemas de medidas",
+            "status": "confirmed-by-column-inference"
+          }
+        ],
+        "multiplesLenguajes": [],
+        "otherMaterials": [
+          {
+            "label": "Video PPA 2: La física y el álgebra se unen",
+            "reference": "bit.ly/3VfglUk",
+            "status": "pending-validation"
+          }
+        ]
+      },
+      "supportMaterials": [],
+      "horizonOrPurpose": {
+        "status": "official",
+        "text": "Aplicar las unidades de medida del Sistema Internacional y del sistema inglés en una demostración de medidas con reglas, reglillas o flexómetros.",
+        "source": "Nuestro libro de proyectos Tomo I p. 126"
+      },
+      "projectExpectationHorizon": {
+        "officialText": "Aplicar unidades de medida y reconocer su utilidad en una demostración de medidas vinculada con situaciones reales del entorno.",
+        "studentVersion": "Demostrar cómo se usan distintas unidades e instrumentos de medida para describir objetos y espacios cercanos.",
+        "sourcePages": [
+          "Nuestro libro de proyectos Tomo I p. 126"
+        ],
+        "evidence": "La etapa 1 del proyecto fija la demostración de medidas como núcleo del trabajo y la conecta con el uso de diferentes sistemas e instrumentos.",
+        "status": "official"
+      },
+      "detonatingStrategy": {
+        "status": "pending-url",
+        "text": "Video PPA 2: La física y el álgebra se unen",
+        "reference": "bit.ly/3VfglUk",
+        "source": "Nuestro libro de proyectos Tomo I pp. 124-125 + Posibilidades de uso SyPC pp. 8-9"
+      },
+      "academicProjectStrategy": {
+        "title": "Demostración de medidas",
+        "text": "Comparar unidades, instrumentos y sistemas de medida para realizar una demostración clara de cómo se mide en contextos reales.",
+        "type": "project-product",
+        "status": "confirmed-from-project-book",
+        "source": "Nuestro libro de proyectos Tomo I pp. 126-129"
+      },
+      "academicConcepts": [
+        {
+          "concept": "demostración de medidas",
+          "description": "Demostración de medidas como producto de cierre para organizar y comunicar aprendizajes del proyecto.",
+          "sourceBook": "Nuestro libro de proyectos Tomo I",
+          "sourcePages": [
+            126,
+            129
+          ],
+          "sourcePagesLabel": "pp. 126-129",
+          "topicTitle": "Proyecto academico 4",
+          "status": "confirmed",
+          "reason": "Posibilidades y el propio proyecto fijan Demostración de medidas como producto final del PA 4.",
+          "pedagogicalUse": "Da una forma concreta de socializar lo comprendido sobre las unidades de medida del Sistema Internacional y del sistema inglés en una demostración aplicada al entorno.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "magnitudes y unidades físicas",
+          "description": "Magnitudes y unidades físicas es una idea clave para comprender las unidades de medida del Sistema Internacional y del sistema inglés en una demostración aplicada al entorno.",
+          "sourceBook": "Saberes y Pensamiento Científico",
+          "sourcePages": [
+            144,
+            151
+          ],
+          "sourcePagesLabel": "pp. 144-151",
+          "topicTitle": "Cuantificación de la realidad",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Cuantificación de la realidad\" aporta base suficiente para trabajar magnitudes y unidades físicas dentro del proyecto 4.",
+          "pedagogicalUse": "Ayuda a fortalecer demostración de medidas y a explicar las unidades de medida del Sistema Internacional y del sistema inglés en una demostración aplicada al entorno con mayor claridad mediante magnitudes y unidades físicas.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "unidades básicas y derivadas",
+          "description": "Unidades básicas y derivadas es una idea clave para comprender las unidades de medida del Sistema Internacional y del sistema inglés en una demostración aplicada al entorno.",
+          "sourceBook": "Saberes y Pensamiento Científico",
+          "sourcePages": [
+            144,
+            151
+          ],
+          "sourcePagesLabel": "pp. 144-151",
+          "topicTitle": "Cuantificación de la realidad",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Cuantificación de la realidad\" aporta base suficiente para trabajar unidades básicas y derivadas dentro del proyecto 4.",
+          "pedagogicalUse": "Ayuda a fortalecer demostración de medidas y a explicar las unidades de medida del Sistema Internacional y del sistema inglés en una demostración aplicada al entorno con mayor claridad mediante unidades básicas y derivadas.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "metrología",
+          "description": "Metrología es una idea clave para comprender las unidades de medida del Sistema Internacional y del sistema inglés en una demostración aplicada al entorno.",
+          "sourceBook": "Saberes y Pensamiento Científico",
+          "sourcePages": [
+            249,
+            256
+          ],
+          "sourcePagesLabel": "pp. 249-256",
+          "topicTitle": "Metrología",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Metrología\" aporta base suficiente para trabajar metrología dentro del proyecto 4.",
+          "pedagogicalUse": "Ayuda a fortalecer demostración de medidas y a explicar las unidades de medida del Sistema Internacional y del sistema inglés en una demostración aplicada al entorno con mayor claridad mediante metrología.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "múltiplos y submúltiplos",
+          "description": "Múltiplos y submúltiplos es una idea clave para comprender las unidades de medida del Sistema Internacional y del sistema inglés en una demostración aplicada al entorno.",
+          "sourceBook": "Saberes y Pensamiento Científico",
+          "sourcePages": [
+            62,
+            68
+          ],
+          "sourcePagesLabel": "pp. 62-68",
+          "topicTitle": "Múltiplos y submúltiplos de sistemas de medidas",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Múltiplos y submúltiplos de sistemas de medidas\" aporta base suficiente para trabajar múltiplos y submúltiplos dentro del proyecto 4.",
+          "pedagogicalUse": "Ayuda a fortalecer demostración de medidas y a explicar las unidades de medida del Sistema Internacional y del sistema inglés en una demostración aplicada al entorno con mayor claridad mediante múltiplos y submúltiplos.",
+          "activityReadiness": "usable-for-autoevaluation"
+        }
+      ],
+      "thinkingCriteria": [
+        "Relacionar el sistema de medida con el contexto donde se usa.",
+        "Explicar por qué un mismo fenómeno puede medirse con distintas unidades.",
+        "Usar la demostración como explicación razonada y no sólo como exhibición de instrumentos."
+      ],
+      "validationStatus": {
+        "readinessLevel": "development-partial",
+        "readyForActivities": false,
+        "needsReviewReasons": [
+          "El bloque 2 ya es usable como lectura docente, pero el video del PPA 2 y el recurso informatico siguen pendientes de validacion de destino final.",
+          "La asignacion de apoyos de Posibilidades se sostiene por inferencia curricular documentada y no por OCR perfectamente separado por columnas.",
+          "No mover a actividades interactivas ni desbloquear juegos completos hasta ampliar validacion de videos y recursos complementarios."
+        ]
+      },
+      "readinessLevel": "development-partial",
+      "readyForActivities": false,
+      "needsReviewReasons": [
+        "No mover a actividades interactivas ni desbloquear juegos completos."
+      ],
+      "roleInPpa": "Abre el bloque al conectar magnitudes y sistemas de medida con problemas concretos de la comunidad.",
+      "pedagogicalUse": "Conviene trabajar El álgebra y las unidades de medida como una oportunidad para profundizar en las unidades de medida del Sistema Internacional y del sistema inglés en una demostración aplicada al entorno sin separar contenido, comunidad y producto final.",
+      "teacherNotes": [
+        "Conviene partir de ejemplos cercanos y después pasar al lenguaje mas abstracto del campo.",
+        "El producto Demostración de medidas gana fuerza cuando se usa para explicar y no solo para exhibir informacion.",
+        "Es mejor seleccionar pocos conceptos bien comprendidos que saturar el trabajo con terminos aislados."
+      ],
+      "resonancePrompts": [
+        {
+          "type": "individual",
+          "prompt": "¿Qué comprendes mejor sobre las unidades de medida del Sistema Internacional y del sistema inglés en una demostración aplicada al entorno después de elaborar demostración de medidas?"
+        },
+        {
+          "type": "community",
+          "prompt": "¿Qué problemas cotidianos de la comunidad se entienden mejor cuando elegimos bien cómo medirlos?"
+        }
+      ],
+      "notReadyFor": [
+        "full-games",
+        "summative-exam"
+      ]
+    },
+    {
+      "id": "saberes-y-pensamiento-cientifico-2-ppa-2-pa5",
+      "projectId": "saberes-y-pensamiento-cientifico-2-ppa-2-pa5",
+      "academicProjectNumber": 5,
+      "title": "Símbolos y exponentes",
+      "projectTitle": "Símbolos y exponentes",
+      "grade": "2",
+      "field": "Saberes y Pensamiento Científico",
+      "ppaNumber": "2",
+      "partialClassroomProject": "PPA 2",
+      "partialClassroomProjectTitle": "La física y el álgebra se unen",
+      "bookVolume": "Tomo I",
+      "sourceValidation": {
+        "sourceStatus": "linked",
+        "possibilitiesPages": [
+          8,
+          9
+        ],
+        "possibilitiesMaterialId": "grade-2-posibilidades-pos-sypc-2",
+        "possibilitiesColumnIndex": 2,
+        "columnEvidence": "Bloque PPA 2 La física y el álgebra se unen localizado en pp. 8-9; la columna 2 se confirma por el orden de proyectos, productos y continuidad del mismo bloque."
+      },
+      "finalProduct": {
+        "title": "Glosario de conceptos",
+        "source": "Posibilidades de uso SyPC pp. 8-9 + Nuestro libro de proyectos Tomo I pp. 130-134",
+        "status": "confirmed"
+      },
+      "sourcePages": {
+        "nuestroLibroProyectos": [
+          {
+            "materialId": "grade-2-proyectos-nuestro-libro-de-proyectos-tomo-1-segundo-grado",
+            "label": "Nuestro libro de proyectos Tomo I",
+            "startPage": 130,
+            "endPage": 134,
+            "pagesLabel": "pp. 130-134",
+            "topicTitle": "Proyecto academico 5",
+            "status": "confirmed-source"
+          }
+        ],
+        "conceptBook": [
+          {
+            "materialId": "grade-2-conceptos-saberes-y-pensamiento-cientifico-segundo-grado",
+            "label": "Saberes y Pensamiento Científico",
+            "startPage": 22,
+            "endPage": 26,
+            "pagesLabel": "pp. 22-26",
+            "topicTitle": "Propiedades de los exponentes",
+            "status": "confirmed-by-column-inference"
+          },
+          {
+            "materialId": "grade-2-conceptos-saberes-y-pensamiento-cientifico-segundo-grado",
+            "label": "Saberes y Pensamiento Científico",
+            "startPage": 144,
+            "endPage": 151,
+            "pagesLabel": "pp. 144-151",
+            "topicTitle": "Cuantificación de la realidad",
+            "status": "confirmed-by-column-inference"
+          },
+          {
+            "materialId": "grade-2-conceptos-saberes-y-pensamiento-cientifico-segundo-grado",
+            "label": "Saberes y Pensamiento Científico",
+            "startPage": 249,
+            "endPage": 256,
+            "pagesLabel": "pp. 249-256",
+            "topicTitle": "Metrología",
+            "status": "confirmed-by-column-inference"
+          }
+        ],
+        "multiplesLenguajes": [
+          {
+            "materialId": "grade-2-apoyo-multiples-lenguajes-segundo-grado",
+            "label": "Multiples Lenguajes",
+            "startPage": 14,
+            "endPage": 14,
+            "pagesLabel": "p. 14",
+            "topicTitle": "La operación estrella",
+            "status": "confirmed-by-column-inference"
+          }
+        ],
+        "otherMaterials": [
+          {
+            "label": "Video PPA 2: La física y el álgebra se unen",
+            "reference": "bit.ly/3VfglUk",
+            "status": "pending-validation"
+          }
+        ]
+      },
+      "supportMaterials": [
+        {
+          "title": "La operación estrella",
+          "kind": "Multiples Lenguajes",
+          "pages": "p. 14",
+          "status": "confirmed-by-column-inference"
+        }
+      ],
+      "horizonOrPurpose": {
+        "status": "official",
+        "text": "Reconocer la simbología de las unidades básicas y derivadas, así como las propiedades de los exponentes, mediante un glosario de conceptos.",
+        "source": "Nuestro libro de proyectos Tomo I p. 130"
+      },
+      "projectExpectationHorizon": {
+        "officialText": "Reconocer la simbología de las unidades y las propiedades de los exponentes para explicarlas mediante un glosario de conceptos.",
+        "studentVersion": "Organizar un glosario que ayude a comprender unidades, símbolos y exponentes útiles en física y matemáticas.",
+        "sourcePages": [
+          "Nuestro libro de proyectos Tomo I p. 130"
+        ],
+        "evidence": "La etapa 1 deja explícito que la tarea central es reconocer símbolos y exponentes para construir un glosario utilizable.",
+        "status": "official"
+      },
+      "detonatingStrategy": {
+        "status": "pending-url",
+        "text": "Video PPA 2: La física y el álgebra se unen",
+        "reference": "bit.ly/3VfglUk",
+        "source": "Nuestro libro de proyectos Tomo I pp. 128-129 + Posibilidades de uso SyPC pp. 8-9"
+      },
+      "academicProjectStrategy": {
+        "title": "Glosario de conceptos",
+        "text": "Recopilar símbolos, ejemplos y propiedades para construir un glosario que vuelva más legible el lenguaje algebraico del bloque.",
+        "type": "project-product",
+        "status": "confirmed-from-project-book",
+        "source": "Nuestro libro de proyectos Tomo I pp. 130-134"
+      },
+      "academicConcepts": [
+        {
+          "concept": "glosario de conceptos",
+          "description": "Glosario de conceptos como producto de cierre para organizar y comunicar aprendizajes del proyecto.",
+          "sourceBook": "Nuestro libro de proyectos Tomo I",
+          "sourcePages": [
+            130,
+            134
+          ],
+          "sourcePagesLabel": "pp. 130-134",
+          "topicTitle": "Proyecto academico 5",
+          "status": "confirmed",
+          "reason": "Posibilidades y el propio proyecto fijan Glosario de conceptos como producto final del PA 5.",
+          "pedagogicalUse": "Da una forma concreta de socializar lo comprendido sobre la simbología de las unidades básicas y derivadas y las propiedades de los exponentes para comprender expresiones de la física.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "propiedades de los exponentes",
+          "description": "Propiedades de los exponentes es una idea clave para comprender la simbología de las unidades básicas y derivadas y las propiedades de los exponentes para comprender expresiones de la física.",
+          "sourceBook": "Saberes y Pensamiento Científico",
+          "sourcePages": [
+            22,
+            26
+          ],
+          "sourcePagesLabel": "pp. 22-26",
+          "topicTitle": "Propiedades de los exponentes",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Propiedades de los exponentes\" aporta base suficiente para trabajar propiedades de los exponentes dentro del proyecto 5.",
+          "pedagogicalUse": "Ayuda a fortalecer glosario de conceptos y a explicar la simbología de las unidades básicas y derivadas y las propiedades de los exponentes para comprender expresiones de la física con mayor claridad mediante propiedades de los exponentes.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "base y exponente",
+          "description": "Base y exponente es una idea clave para comprender la simbología de las unidades básicas y derivadas y las propiedades de los exponentes para comprender expresiones de la física.",
+          "sourceBook": "Saberes y Pensamiento Científico",
+          "sourcePages": [
+            22,
+            26
+          ],
+          "sourcePagesLabel": "pp. 22-26",
+          "topicTitle": "Propiedades de los exponentes",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Propiedades de los exponentes\" aporta base suficiente para trabajar base y exponente dentro del proyecto 5.",
+          "pedagogicalUse": "Ayuda a fortalecer glosario de conceptos y a explicar la simbología de las unidades básicas y derivadas y las propiedades de los exponentes para comprender expresiones de la física con mayor claridad mediante base y exponente.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "unidades básicas",
+          "description": "Unidades básicas es una idea clave para comprender la simbología de las unidades básicas y derivadas y las propiedades de los exponentes para comprender expresiones de la física.",
+          "sourceBook": "Saberes y Pensamiento Científico",
+          "sourcePages": [
+            144,
+            151
+          ],
+          "sourcePagesLabel": "pp. 144-151",
+          "topicTitle": "Cuantificación de la realidad",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Cuantificación de la realidad\" aporta base suficiente para trabajar unidades básicas dentro del proyecto 5.",
+          "pedagogicalUse": "Ayuda a fortalecer glosario de conceptos y a explicar la simbología de las unidades básicas y derivadas y las propiedades de los exponentes para comprender expresiones de la física con mayor claridad mediante unidades básicas.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "unidades derivadas",
+          "description": "Unidades derivadas es una idea clave para comprender la simbología de las unidades básicas y derivadas y las propiedades de los exponentes para comprender expresiones de la física.",
+          "sourceBook": "Saberes y Pensamiento Científico",
+          "sourcePages": [
+            144,
+            151
+          ],
+          "sourcePagesLabel": "pp. 144-151",
+          "topicTitle": "Cuantificación de la realidad",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Cuantificación de la realidad\" aporta base suficiente para trabajar unidades derivadas dentro del proyecto 5.",
+          "pedagogicalUse": "Ayuda a fortalecer glosario de conceptos y a explicar la simbología de las unidades básicas y derivadas y las propiedades de los exponentes para comprender expresiones de la física con mayor claridad mediante unidades derivadas.",
+          "activityReadiness": "usable-for-autoevaluation"
+        }
+      ],
+      "thinkingCriteria": [
+        "Distinguir un símbolo útil de una simple abreviatura memorizada.",
+        "Explicar cuándo un exponente cambia el sentido de una expresión.",
+        "Usar el glosario como herramienta de comprensión y no sólo como lista de términos."
+      ],
+      "validationStatus": {
+        "readinessLevel": "development-partial",
+        "readyForActivities": false,
+        "needsReviewReasons": [
+          "El bloque 2 ya es usable como lectura docente, pero el video del PPA 2 y el recurso informatico siguen pendientes de validacion de destino final.",
+          "La asignacion de apoyos de Posibilidades se sostiene por inferencia curricular documentada y no por OCR perfectamente separado por columnas.",
+          "No mover a actividades interactivas ni desbloquear juegos completos hasta ampliar validacion de videos y recursos complementarios."
+        ]
+      },
+      "readinessLevel": "development-partial",
+      "readyForActivities": false,
+      "needsReviewReasons": [
+        "No mover a actividades interactivas ni desbloquear juegos completos."
+      ],
+      "roleInPpa": "Profundiza el bloque al ofrecer lenguaje algebraico y simbólico para nombrar y operar con mayor precisión.",
+      "pedagogicalUse": "Conviene trabajar Símbolos y exponentes como una oportunidad para profundizar en la simbología de las unidades básicas y derivadas y las propiedades de los exponentes para comprender expresiones de la física sin separar contenido, comunidad y producto final.",
+      "teacherNotes": [
+        "Conviene partir de ejemplos cercanos y después pasar al lenguaje mas abstracto del campo.",
+        "El producto Glosario de conceptos gana fuerza cuando se usa para explicar y no solo para exhibir informacion.",
+        "Es mejor seleccionar pocos conceptos bien comprendidos que saturar el trabajo con terminos aislados."
+      ],
+      "resonancePrompts": [
+        {
+          "type": "individual",
+          "prompt": "¿Qué comprendes mejor sobre la simbología de las unidades básicas y derivadas y las propiedades de los exponentes para comprender expresiones de la física después de elaborar glosario de conceptos?"
+        },
+        {
+          "type": "community",
+          "prompt": "¿Cómo cambia la comprensión de la física cuando sabemos leer con precisión sus símbolos y expresiones?"
+        }
+      ],
+      "notReadyFor": [
+        "full-games",
+        "summative-exam"
+      ]
+    },
+    {
+      "id": "saberes-y-pensamiento-cientifico-2-ppa-2-pa6",
+      "projectId": "saberes-y-pensamiento-cientifico-2-ppa-2-pa6",
+      "academicProjectNumber": 6,
+      "title": "Medir la comunidad",
+      "projectTitle": "Medir la comunidad",
+      "grade": "2",
+      "field": "Saberes y Pensamiento Científico",
+      "ppaNumber": "2",
+      "partialClassroomProject": "PPA 2",
+      "partialClassroomProjectTitle": "La física y el álgebra se unen",
+      "bookVolume": "Tomo I",
+      "sourceValidation": {
+        "sourceStatus": "linked",
+        "possibilitiesPages": [
+          8,
+          9
+        ],
+        "possibilitiesMaterialId": "grade-2-posibilidades-pos-sypc-2",
+        "possibilitiesColumnIndex": 3,
+        "columnEvidence": "Bloque PPA 2 La física y el álgebra se unen localizado en pp. 8-9; la columna 3 se confirma por el orden de proyectos, productos y continuidad del mismo bloque."
+      },
+      "finalProduct": {
+        "title": "Instrumentos de medición sencillos",
+        "source": "Posibilidades de uso SyPC pp. 8-9 + Nuestro libro de proyectos Tomo I pp. 135-139",
+        "status": "confirmed"
+      },
+      "sourcePages": {
+        "nuestroLibroProyectos": [
+          {
+            "materialId": "grade-2-proyectos-nuestro-libro-de-proyectos-tomo-1-segundo-grado",
+            "label": "Nuestro libro de proyectos Tomo I",
+            "startPage": 135,
+            "endPage": 139,
+            "pagesLabel": "pp. 135-139",
+            "topicTitle": "Proyecto academico 6",
+            "status": "confirmed-source"
+          }
+        ],
+        "conceptBook": [
+          {
+            "materialId": "grade-2-conceptos-saberes-y-pensamiento-cientifico-segundo-grado",
+            "label": "Saberes y Pensamiento Científico",
+            "startPage": 62,
+            "endPage": 68,
+            "pagesLabel": "pp. 62-68",
+            "topicTitle": "Múltiplos y submúltiplos de sistemas de medidas",
+            "status": "confirmed-by-column-inference"
+          },
+          {
+            "materialId": "grade-2-conceptos-saberes-y-pensamiento-cientifico-segundo-grado",
+            "label": "Saberes y Pensamiento Científico",
+            "startPage": 69,
+            "endPage": 79,
+            "pagesLabel": "pp. 69-79",
+            "topicTitle": "Perímetro y área de figuras compuestas",
+            "status": "confirmed-by-column-inference"
+          },
+          {
+            "materialId": "grade-2-conceptos-saberes-y-pensamiento-cientifico-segundo-grado",
+            "label": "Saberes y Pensamiento Científico",
+            "startPage": 249,
+            "endPage": 256,
+            "pagesLabel": "pp. 249-256",
+            "topicTitle": "Metrología",
+            "status": "confirmed-by-column-inference"
+          }
+        ],
+        "multiplesLenguajes": [],
+        "otherMaterials": [
+          {
+            "label": "Video PPA 2: La física y el álgebra se unen",
+            "reference": "bit.ly/3VfglUk",
+            "status": "pending-validation"
+          }
+        ]
+      },
+      "supportMaterials": [],
+      "horizonOrPurpose": {
+        "status": "official",
+        "text": "Aplicar conversiones y procedimientos de medición para construir instrumentos de medición sencillos y usarlos en la comunidad.",
+        "source": "Nuestro libro de proyectos Tomo I p. 135"
+      },
+      "projectExpectationHorizon": {
+        "officialText": "Construir instrumentos de medición sencillos y emplearlos para resolver situaciones reales del entorno comunitario.",
+        "studentVersion": "Diseñar y usar instrumentos sencillos para medir espacios, objetos o cantidades de la comunidad.",
+        "sourcePages": [
+          "Nuestro libro de proyectos Tomo I p. 135"
+        ],
+        "evidence": "El proyecto gira sobre la medición situada del entorno y la fabricación de instrumentos sencillos como producto final.",
+        "status": "official"
+      },
+      "detonatingStrategy": {
+        "status": "pending-url",
+        "text": "Video PPA 2: La física y el álgebra se unen",
+        "reference": "bit.ly/3VfglUk",
+        "source": "Nuestro libro de proyectos Tomo I pp. 133-134 + Posibilidades de uso SyPC pp. 8-9"
+      },
+      "academicProjectStrategy": {
+        "title": "Instrumentos de medición sencillos",
+        "text": "Construir instrumentos sencillos, probarlos con mediciones reales y comparar sus resultados con unidades y conversiones conocidas.",
+        "type": "project-product",
+        "status": "confirmed-from-project-book",
+        "source": "Nuestro libro de proyectos Tomo I pp. 135-139"
+      },
+      "academicConcepts": [
+        {
+          "concept": "instrumentos de medición sencillos",
+          "description": "Instrumentos de medición sencillos como producto de cierre para organizar y comunicar aprendizajes del proyecto.",
+          "sourceBook": "Nuestro libro de proyectos Tomo I",
+          "sourcePages": [
+            135,
+            139
+          ],
+          "sourcePagesLabel": "pp. 135-139",
+          "topicTitle": "Proyecto academico 6",
+          "status": "confirmed",
+          "reason": "Posibilidades y el propio proyecto fijan Instrumentos de medición sencillos como producto final del PA 6.",
+          "pedagogicalUse": "Da una forma concreta de socializar lo comprendido sobre la medición del entorno mediante conversiones, perímetros, áreas e instrumentos sencillos construidos por el grupo.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "instrumentos de medición",
+          "description": "Instrumentos de medición es una idea clave para comprender la medición del entorno mediante conversiones, perímetros, áreas e instrumentos sencillos construidos por el grupo.",
+          "sourceBook": "Saberes y Pensamiento Científico",
+          "sourcePages": [
+            249,
+            256
+          ],
+          "sourcePagesLabel": "pp. 249-256",
+          "topicTitle": "Metrología",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Metrología\" aporta base suficiente para trabajar instrumentos de medición dentro del proyecto 6.",
+          "pedagogicalUse": "Ayuda a fortalecer instrumentos de medición sencillos y a explicar la medición del entorno mediante conversiones, perímetros, áreas e instrumentos sencillos construidos por el grupo con mayor claridad mediante instrumentos de medición.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "conversiones entre magnitudes",
+          "description": "Conversiones entre magnitudes es una idea clave para comprender la medición del entorno mediante conversiones, perímetros, áreas e instrumentos sencillos construidos por el grupo.",
+          "sourceBook": "Saberes y Pensamiento Científico",
+          "sourcePages": [
+            62,
+            68
+          ],
+          "sourcePagesLabel": "pp. 62-68",
+          "topicTitle": "Múltiplos y submúltiplos de sistemas de medidas",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Múltiplos y submúltiplos de sistemas de medidas\" aporta base suficiente para trabajar conversiones entre magnitudes dentro del proyecto 6.",
+          "pedagogicalUse": "Ayuda a fortalecer instrumentos de medición sencillos y a explicar la medición del entorno mediante conversiones, perímetros, áreas e instrumentos sencillos construidos por el grupo con mayor claridad mediante conversiones entre magnitudes.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "perímetro",
+          "description": "Perímetro es una idea clave para comprender la medición del entorno mediante conversiones, perímetros, áreas e instrumentos sencillos construidos por el grupo.",
+          "sourceBook": "Saberes y Pensamiento Científico",
+          "sourcePages": [
+            69,
+            79
+          ],
+          "sourcePagesLabel": "pp. 69-79",
+          "topicTitle": "Perímetro y área de figuras compuestas",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Perímetro y área de figuras compuestas\" aporta base suficiente para trabajar perímetro dentro del proyecto 6.",
+          "pedagogicalUse": "Ayuda a fortalecer instrumentos de medición sencillos y a explicar la medición del entorno mediante conversiones, perímetros, áreas e instrumentos sencillos construidos por el grupo con mayor claridad mediante perímetro.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "área",
+          "description": "Área es una idea clave para comprender la medición del entorno mediante conversiones, perímetros, áreas e instrumentos sencillos construidos por el grupo.",
+          "sourceBook": "Saberes y Pensamiento Científico",
+          "sourcePages": [
+            69,
+            79
+          ],
+          "sourcePagesLabel": "pp. 69-79",
+          "topicTitle": "Perímetro y área de figuras compuestas",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Perímetro y área de figuras compuestas\" aporta base suficiente para trabajar área dentro del proyecto 6.",
+          "pedagogicalUse": "Ayuda a fortalecer instrumentos de medición sencillos y a explicar la medición del entorno mediante conversiones, perímetros, áreas e instrumentos sencillos construidos por el grupo con mayor claridad mediante área.",
+          "activityReadiness": "usable-for-autoevaluation"
+        }
+      ],
+      "thinkingCriteria": [
+        "Relacionar la precisión de una medida con el instrumento y la unidad elegidos.",
+        "Usar perímetro y área para resolver problemas reales del entorno.",
+        "Valorar el instrumento construido como mediador del aprendizaje y no sólo como manualidad."
+      ],
+      "validationStatus": {
+        "readinessLevel": "development-partial",
+        "readyForActivities": false,
+        "needsReviewReasons": [
+          "El bloque 2 ya es usable como lectura docente, pero el video del PPA 2 y el recurso informatico siguen pendientes de validacion de destino final.",
+          "La asignacion de apoyos de Posibilidades se sostiene por inferencia curricular documentada y no por OCR perfectamente separado por columnas.",
+          "No mover a actividades interactivas ni desbloquear juegos completos hasta ampliar validacion de videos y recursos complementarios."
+        ]
+      },
+      "readinessLevel": "development-partial",
+      "readyForActivities": false,
+      "needsReviewReasons": [
+        "No mover a actividades interactivas ni desbloquear juegos completos."
+      ],
+      "roleInPpa": "Cierra el bloque al convertir los conceptos de medida en herramientas prácticas para leer y transformar el entorno.",
+      "pedagogicalUse": "Conviene trabajar Medir la comunidad como una oportunidad para profundizar en la medición del entorno mediante conversiones, perímetros, áreas e instrumentos sencillos construidos por el grupo sin separar contenido, comunidad y producto final.",
+      "teacherNotes": [
+        "Conviene partir de ejemplos cercanos y después pasar al lenguaje mas abstracto del campo.",
+        "El producto Instrumentos de medición sencillos gana fuerza cuando se usa para explicar y no solo para exhibir informacion.",
+        "Es mejor seleccionar pocos conceptos bien comprendidos que saturar el trabajo con terminos aislados."
+      ],
+      "resonancePrompts": [
+        {
+          "type": "individual",
+          "prompt": "¿Qué comprendes mejor sobre la medición del entorno mediante conversiones, perímetros, áreas e instrumentos sencillos construidos por el grupo después de elaborar instrumentos de medición sencillos?"
+        },
+        {
+          "type": "community",
+          "prompt": "¿Qué necesidades de la comunidad podrían resolverse mejor si contamos con instrumentos sencillos y criterios claros para medir?"
+        }
+      ],
+      "notReadyFor": [
+        "full-games",
+        "summative-exam"
+      ]
+    }
+  ]
+}

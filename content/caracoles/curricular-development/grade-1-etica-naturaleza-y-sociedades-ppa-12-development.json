@@ -1,0 +1,732 @@
+{
+  "grade": "1",
+  "gradeLabel": "Primer grado",
+  "field": "Etica, Naturaleza y Sociedades",
+  "bookVolume": "Tomo III",
+  "partialClassroomProject": "PPA 12",
+  "partialClassroomProjectTitle": "Participamos en comunidad y las cosas cambian",
+  "generatedAt": "2026-06-02T02:38:10.502Z",
+  "notes": "Capa curricular generada por lote para 1o Etica, Naturaleza y Sociedades, PPA 12.",
+  "sourcesUsed": [
+    "public/caracoles/data/generated/grade-1/selectable-projects.json",
+    "content/caracoles/generated-private/grade-1/pages-index.full.json",
+    "Posibilidades de uso ENS, primer grado, p. 29",
+    "Nuestro libro de proyectos Tomo III, primer grado, pp. 206-220",
+    "Etica, Naturaleza y Sociedades, primer grado, pp. 132-135, 295-301, 308-310 y 340-343."
+  ],
+  "partialClassroomProjectContext": {
+    "expectationHorizon": {
+      "officialText": "",
+      "sourcePages": [
+        "Nuestro libro de proyectos Tomo III pp. 206-207",
+        "Posibilidades de uso ENS p. 29"
+      ],
+      "evidence": "El PPA 12 se concentra en participacion, democracia y representacion para que el grupo reconozca que las decisiones colectivas cambian cuando se discuten y se asumen en comunidad.",
+      "status": "pending"
+    },
+    "ppaDetonatingStrategy": {
+      "title": "Participamos en comunidad y las cosas cambian",
+      "type": "video",
+      "url": "",
+      "urlStatus": "pending-url",
+      "reference": "bit.ly/3VfglUk",
+      "source": "Nuestro libro de proyectos Tomo III pp. 206-207 + Posibilidades de uso ENS p. 29",
+      "scope": "partial-classroom-project",
+      "youtubeSearchQuery": "Participamos en comunidad y las cosas cambian Etica, Naturaleza y Sociedades 1er grado Telesecundaria"
+    },
+    "ppaDigitalResource": {
+      "title": "Recurso informatico del bloque PPA 12",
+      "reference": "bit.ly/3WQBMwg",
+      "status": "pending-validation",
+      "source": "Nuestro libro de proyectos Tomo III pp. 206-220"
+    },
+    "validationStatus": {
+      "needsHumanReview": true,
+      "needsReviewReasons": [
+        "Las p. 29 de Posibilidades pertenecen al mismo PPA 12.",
+        "La asignacion de apoyos por columna se fija por inferencia curricular documentada de izquierda a derecha.",
+        "Los enlaces cortos del video del PPA y del recurso informatico se mantienen en cautela hasta localizar un destino oficial confirmado."
+      ]
+    },
+    "columnValidation": {
+      "possibilitiesPagesReviewed": [
+        29
+      ],
+      "confirmedAsPpa": true,
+      "note": "Las p. 29 corresponden al PPA 12 Participamos en comunidad y las cosas cambian. Las tres columnas se sostienen por el orden de proyectos, productos y apoyos del mismo bloque.",
+      "columns": [
+        {
+          "columnIndex": 1,
+          "projectId": "etica-naturaleza-y-sociedades-1-ppa-12-pa34",
+          "projectTitle": "Mis decisiones, mi democracia",
+          "finalProduct": "Cuadros comparativos",
+          "supportMaterials": []
+        },
+        {
+          "columnIndex": 2,
+          "projectId": "etica-naturaleza-y-sociedades-1-ppa-12-pa35",
+          "projectTitle": "Nuestros representantes, nos representan?",
+          "finalProduct": "Diagrama de imagenes",
+          "supportMaterials": []
+        },
+        {
+          "columnIndex": 3,
+          "projectId": "etica-naturaleza-y-sociedades-1-ppa-12-pa36",
+          "projectTitle": "Me expreso y participo!",
+          "finalProduct": "Lista de compromisos",
+          "supportMaterials": []
+        }
+      ]
+    }
+  },
+  "academicProjects": [
+    {
+      "id": "etica-naturaleza-y-sociedades-1-ppa-12-pa34",
+      "projectId": "etica-naturaleza-y-sociedades-1-ppa-12-pa34",
+      "academicProjectNumber": 34,
+      "title": "Mis decisiones, mi democracia",
+      "projectTitle": "Mis decisiones, mi democracia",
+      "grade": "1",
+      "field": "Etica, Naturaleza y Sociedades",
+      "ppaNumber": "12",
+      "partialClassroomProject": "PPA 12",
+      "partialClassroomProjectTitle": "Participamos en comunidad y las cosas cambian",
+      "bookVolume": "Tomo III",
+      "sourceValidation": {
+        "sourceStatus": "linked",
+        "possibilitiesPages": [
+          29
+        ],
+        "possibilitiesMaterialId": "grade-1-posibilidades-pos-ens-1",
+        "possibilitiesColumnIndex": 1,
+        "columnEvidence": "Bloque PPA 12 Participamos en comunidad y las cosas cambian localizado en p. 29; la columna 1 se confirma por el orden de proyectos, productos y continuidad del mismo bloque."
+      },
+      "finalProduct": {
+        "title": "Cuadros comparativos",
+        "source": "Posibilidades de uso ENS p. 29 + Nuestro libro de proyectos Tomo III pp. 208-211",
+        "status": "confirmed"
+      },
+      "sourcePages": {
+        "nuestroLibroProyectos": [
+          {
+            "materialId": "grade-1-proyectos-nuestro-libro-de-proyectos-tomo-iii-primer-grado",
+            "label": "Nuestro libro de proyectos Tomo III",
+            "startPage": 208,
+            "endPage": 211,
+            "pagesLabel": "pp. 208-211",
+            "topicTitle": "Proyecto academico 34",
+            "status": "confirmed-source"
+          }
+        ],
+        "conceptBook": [
+          {
+            "materialId": "grade-1-conceptos-etica-naturaleza-y-sociedades-primer-grado",
+            "label": "Etica, Naturaleza y Sociedades",
+            "startPage": 308,
+            "endPage": 310,
+            "pagesLabel": "pp. 308-310",
+            "topicTitle": "Democracia como forma de organizacion social",
+            "status": "confirmed-by-column-inference"
+          },
+          {
+            "materialId": "grade-1-conceptos-etica-naturaleza-y-sociedades-primer-grado",
+            "label": "Etica, Naturaleza y Sociedades",
+            "startPage": 132,
+            "endPage": 135,
+            "pagesLabel": "pp. 132-135",
+            "topicTitle": "Responsabilidad ante problemas y realidades socioambientales de la comunidad",
+            "status": "confirmed-by-column-inference"
+          }
+        ],
+        "multiplesLenguajes": [],
+        "otherMaterials": [
+          {
+            "label": "Video PPA 12: Participamos en comunidad y las cosas cambian",
+            "reference": "bit.ly/3VfglUk",
+            "status": "pending-validation"
+          }
+        ]
+      },
+      "supportMaterials": [],
+      "horizonOrPurpose": {
+        "status": "confirmed-from-project-book",
+        "text": "Promover la reflexión y el diálogo sobre los principios y valores de la democracia como una forma de vida y de gobierno para fortalecer los espacios de convivencia. Luego, integrar la información en cuadros comparativos.",
+        "source": "Visión — Horizonte 1 (p. 209)"
+      },
+      "projectExpectationHorizon": {
+        "officialText": "Promover la reflexión y el diálogo sobre los principios y valores de la democracia como una forma de vida y de gobierno para fortalecer los espacios de convivencia. Luego, integrar la información en cuadros comparativos.",
+        "studentVersion": "Promover la reflexión y el diálogo sobre los principios y valores de la democracia como una forma de vida y de gobierno para fortalecer los espacios de convivencia. Luego, integrar la información en cuadros comparativos.",
+        "horizon1Raw": "Promover la reflexión y el diálogo sobre los principios y valores de la democracia como una forma de vida y de gobierno para fortalecer los espacios de convivencia. Luego, integrar la información en cuadros comparativos.",
+        "horizon2Raw": "Localizar información en diferentes fuentes para hacer cuadros comparativos que permitan generar un diálogo en comunidad que incluya los significados de los principios y valores de la democracia.",
+        "sourcePages": [
+          "Visión — Horizonte 1 (p. 209)"
+        ],
+        "evidence": "Extraído por visión de imagen de la página 209 del libro de proyectos. Confianza: alta.",
+        "status": "confirmed-from-project-book",
+        "extractedAt": "2026-06-16T04:58:29.252Z"
+      },
+      "detonatingStrategy": {
+        "status": "pending-url",
+        "text": "Video PPA 12: Participamos en comunidad y las cosas cambian",
+        "reference": "bit.ly/3VfglUk",
+        "source": "Nuestro libro de proyectos Tomo III pp. 206-207 + Posibilidades de uso ENS p. 29"
+      },
+      "academicProjectStrategy": {
+        "title": "Cuadros comparativos",
+        "text": "Organizar cuadros comparativos para profundizar en la democracia como organizacion social y toma de decisiones y compartir hallazgos de manera clara con el grupo.",
+        "type": "project-product",
+        "status": "confirmed-from-project-book",
+        "source": "Nuestro libro de proyectos Tomo III pp. 208-211"
+      },
+      "academicConcepts": [
+        {
+          "concept": "cuadros comparativos",
+          "description": "Cuadros comparativos como producto de cierre para organizar y comunicar aprendizajes del proyecto.",
+          "sourceBook": "Nuestro libro de proyectos Tomo III",
+          "sourcePages": [
+            208,
+            211
+          ],
+          "sourcePagesLabel": "pp. 208-211",
+          "topicTitle": "Proyecto academico 34",
+          "status": "confirmed",
+          "reason": "Posibilidades y el propio proyecto fijan Cuadros comparativos como producto final del PA 34.",
+          "pedagogicalUse": "Da una forma concreta de socializar lo comprendido sobre la democracia como organizacion social y toma de decisiones.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "democracia",
+          "description": "Democracia es una idea clave para comprender la democracia como organizacion social y toma de decisiones.",
+          "sourceBook": "Etica, Naturaleza y Sociedades",
+          "sourcePages": [
+            308,
+            310
+          ],
+          "sourcePagesLabel": "pp. 308-310",
+          "topicTitle": "Democracia como forma de organizacion social",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Democracia como forma de organizacion social\" aporta base suficiente para trabajar democracia dentro del proyecto 34.",
+          "pedagogicalUse": "Ayuda a fortalecer cuadros comparativos y a explicar la democracia como organizacion social y toma de decisiones con mayor claridad mediante democracia.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "participacion",
+          "description": "Participacion es una idea clave para comprender la democracia como organizacion social y toma de decisiones.",
+          "sourceBook": "Etica, Naturaleza y Sociedades",
+          "sourcePages": [
+            308,
+            310
+          ],
+          "sourcePagesLabel": "pp. 308-310",
+          "topicTitle": "Democracia como forma de organizacion social",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Democracia como forma de organizacion social\" aporta base suficiente para trabajar participacion dentro del proyecto 34.",
+          "pedagogicalUse": "Ayuda a fortalecer cuadros comparativos y a explicar la democracia como organizacion social y toma de decisiones con mayor claridad mediante participacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "responsabilidad colectiva",
+          "description": "Responsabilidad colectiva es una idea clave para comprender la democracia como organizacion social y toma de decisiones.",
+          "sourceBook": "Etica, Naturaleza y Sociedades",
+          "sourcePages": [
+            132,
+            135
+          ],
+          "sourcePagesLabel": "pp. 132-135",
+          "topicTitle": "Responsabilidad ante problemas y realidades socioambientales de la comunidad",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Responsabilidad ante problemas y realidades socioambientales de la comunidad\" aporta base suficiente para trabajar responsabilidad colectiva dentro del proyecto 34.",
+          "pedagogicalUse": "Ayuda a fortalecer cuadros comparativos y a explicar la democracia como organizacion social y toma de decisiones con mayor claridad mediante responsabilidad colectiva.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "toma de decisiones",
+          "description": "Toma de decisiones es una idea clave para comprender la democracia como organizacion social y toma de decisiones.",
+          "sourceBook": "Etica, Naturaleza y Sociedades",
+          "sourcePages": [
+            308,
+            310
+          ],
+          "sourcePagesLabel": "pp. 308-310",
+          "topicTitle": "Democracia como forma de organizacion social",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Democracia como forma de organizacion social\" aporta base suficiente para trabajar toma de decisiones dentro del proyecto 34.",
+          "pedagogicalUse": "Ayuda a fortalecer cuadros comparativos y a explicar la democracia como organizacion social y toma de decisiones con mayor claridad mediante toma de decisiones.",
+          "activityReadiness": "usable-for-autoevaluation"
+        }
+      ],
+      "thinkingCriteria": [
+        "Relacionar la democracia como organizacion social y toma de decisiones con situaciones cercanas a la comunidad.",
+        "Usar cuadros comparativos para explicar y no solo para recopilar informacion.",
+        "Distinguir entre mencionar conceptos y comprender como dialogan entre si dentro del proyecto."
+      ],
+      "validationStatus": {
+        "readinessLevel": "development-partial",
+        "readyForActivities": false,
+        "needsReviewReasons": [
+          "El bloque 12 ya es usable como lectura docente, pero el video del PPA 12 y el recurso informatico siguen pendientes de validacion de destino final.",
+          "La asignacion de apoyos de Posibilidades se sostiene por inferencia curricular documentada y no por OCR perfectamente separado por columnas.",
+          "No mover a actividades interactivas ni desbloquear juegos completos hasta ampliar validacion de videos y recursos complementarios."
+        ]
+      },
+      "readinessLevel": "development-partial",
+      "readyForActivities": false,
+      "needsReviewReasons": [
+        "No mover a actividades interactivas ni desbloquear juegos completos."
+      ],
+      "roleInPpa": "Abre el bloque con una reflexion sobre decisiones, democracia y responsabilidad colectiva.",
+      "pedagogicalUse": "Conviene trabajar Mis decisiones, mi democracia como una oportunidad para profundizar en la democracia como organizacion social y toma de decisiones sin separar contenido, comunidad y producto final.",
+      "teacherNotes": [
+        "Conviene partir de ejemplos cercanos y despues pasar al lenguaje mas abstracto del campo.",
+        "El producto Cuadros comparativos gana fuerza cuando se usa para explicar y no solo para exhibir informacion.",
+        "Es mejor seleccionar pocos conceptos bien comprendidos que saturar el trabajo con terminos aislados."
+      ],
+      "resonancePrompts": [
+        {
+          "type": "individual",
+          "prompt": "¿Que comprendes mejor sobre la democracia como organizacion social y toma de decisiones despues de elaborar cuadros comparativos?"
+        },
+        {
+          "type": "community",
+          "prompt": "¿Que dialogos comunitarios podrian fortalecerse si compartimos cuadros comparativos y lo ponemos en conversacion con otras personas?"
+        }
+      ],
+      "notReadyFor": [
+        "full-games",
+        "summative-exam"
+      ]
+    },
+    {
+      "id": "etica-naturaleza-y-sociedades-1-ppa-12-pa35",
+      "projectId": "etica-naturaleza-y-sociedades-1-ppa-12-pa35",
+      "academicProjectNumber": 35,
+      "title": "Nuestros representantes, nos representan?",
+      "projectTitle": "Nuestros representantes, nos representan?",
+      "grade": "1",
+      "field": "Etica, Naturaleza y Sociedades",
+      "ppaNumber": "12",
+      "partialClassroomProject": "PPA 12",
+      "partialClassroomProjectTitle": "Participamos en comunidad y las cosas cambian",
+      "bookVolume": "Tomo III",
+      "sourceValidation": {
+        "sourceStatus": "linked",
+        "possibilitiesPages": [
+          29
+        ],
+        "possibilitiesMaterialId": "grade-1-posibilidades-pos-ens-1",
+        "possibilitiesColumnIndex": 2,
+        "columnEvidence": "Bloque PPA 12 Participamos en comunidad y las cosas cambian localizado en p. 29; la columna 2 se confirma por el orden de proyectos, productos y continuidad del mismo bloque."
+      },
+      "finalProduct": {
+        "title": "Diagrama de imagenes",
+        "source": "Posibilidades de uso ENS p. 29 + Nuestro libro de proyectos Tomo III pp. 212-215",
+        "status": "confirmed"
+      },
+      "sourcePages": {
+        "nuestroLibroProyectos": [
+          {
+            "materialId": "grade-1-proyectos-nuestro-libro-de-proyectos-tomo-iii-primer-grado",
+            "label": "Nuestro libro de proyectos Tomo III",
+            "startPage": 212,
+            "endPage": 215,
+            "pagesLabel": "pp. 212-215",
+            "topicTitle": "Proyecto academico 35",
+            "status": "confirmed-source"
+          }
+        ],
+        "conceptBook": [
+          {
+            "materialId": "grade-1-conceptos-etica-naturaleza-y-sociedades-primer-grado",
+            "label": "Etica, Naturaleza y Sociedades",
+            "startPage": 340,
+            "endPage": 343,
+            "pagesLabel": "pp. 340-343",
+            "topicTitle": "Representantes sociales y servidores publicos",
+            "status": "confirmed-by-column-inference"
+          },
+          {
+            "materialId": "grade-1-conceptos-etica-naturaleza-y-sociedades-primer-grado",
+            "label": "Etica, Naturaleza y Sociedades",
+            "startPage": 308,
+            "endPage": 310,
+            "pagesLabel": "pp. 308-310",
+            "topicTitle": "Democracia como forma de organizacion social",
+            "status": "confirmed-by-column-inference"
+          }
+        ],
+        "multiplesLenguajes": [],
+        "otherMaterials": [
+          {
+            "label": "Video PPA 12: Participamos en comunidad y las cosas cambian",
+            "reference": "bit.ly/3VfglUk",
+            "status": "pending-validation"
+          }
+        ]
+      },
+      "supportMaterials": [],
+      "horizonOrPurpose": {
+        "status": "confirmed-from-project-book",
+        "text": "Localizar información, en distintas fuentes, que permita identificar cuáles son las actividades desempeñadas por los servidores públicos en nuestra comunidad, para presentarla en diagramas de imágenes.",
+        "source": "Visión — Horizonte 1 (p. 213)"
+      },
+      "projectExpectationHorizon": {
+        "officialText": "Localizar información, en distintas fuentes, que permita identificar cuáles son las actividades desempeñadas por los servidores públicos en nuestra comunidad, para presentarla en diagramas de imágenes.",
+        "studentVersion": "Localizar información, en distintas fuentes, que permita identificar cuáles son las actividades desempeñadas por los servidores públicos en nuestra comunidad, para presentarla en diagramas de imágenes.",
+        "horizon1Raw": "Localizar información, en distintas fuentes, que permita identificar cuáles son las actividades desempeñadas por los servidores públicos en nuestra comunidad, para presentarla en diagramas de imágenes.",
+        "horizon2Raw": "Por medio de diagramas de imágenes, promover la participación ciudadana con base en el conocimiento de cómo los recursos públicos pueden beneficiar a la sociedad.",
+        "sourcePages": [
+          "Visión — Horizonte 1 (p. 213)"
+        ],
+        "evidence": "Extraído por visión de imagen de la página 213 del libro de proyectos. Confianza: alta.",
+        "status": "confirmed-from-project-book",
+        "extractedAt": "2026-06-16T04:58:32.898Z"
+      },
+      "detonatingStrategy": {
+        "status": "pending-url",
+        "text": "Video PPA 12: Participamos en comunidad y las cosas cambian",
+        "reference": "bit.ly/3VfglUk",
+        "source": "Nuestro libro de proyectos Tomo III pp. 210-211 + Posibilidades de uso ENS p. 29"
+      },
+      "academicProjectStrategy": {
+        "title": "Diagrama de imagenes",
+        "text": "Organizar diagrama de imagenes para profundizar en la representacion social y el sentido de ser representados y compartir hallazgos de manera clara con el grupo.",
+        "type": "project-product",
+        "status": "confirmed-from-project-book",
+        "source": "Nuestro libro de proyectos Tomo III pp. 212-215"
+      },
+      "academicConcepts": [
+        {
+          "concept": "diagrama de imagenes",
+          "description": "Diagrama de imagenes como producto de cierre para organizar y comunicar aprendizajes del proyecto.",
+          "sourceBook": "Nuestro libro de proyectos Tomo III",
+          "sourcePages": [
+            212,
+            215
+          ],
+          "sourcePagesLabel": "pp. 212-215",
+          "topicTitle": "Proyecto academico 35",
+          "status": "confirmed",
+          "reason": "Posibilidades y el propio proyecto fijan Diagrama de imagenes como producto final del PA 35.",
+          "pedagogicalUse": "Da una forma concreta de socializar lo comprendido sobre la representacion social y el sentido de ser representados.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "representantes sociales",
+          "description": "Representantes sociales es una idea clave para comprender la representacion social y el sentido de ser representados.",
+          "sourceBook": "Etica, Naturaleza y Sociedades",
+          "sourcePages": [
+            340,
+            343
+          ],
+          "sourcePagesLabel": "pp. 340-343",
+          "topicTitle": "Representantes sociales y servidores publicos",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Representantes sociales y servidores publicos\" aporta base suficiente para trabajar representantes sociales dentro del proyecto 35.",
+          "pedagogicalUse": "Ayuda a fortalecer diagrama de imagenes y a explicar la representacion social y el sentido de ser representados con mayor claridad mediante representantes sociales.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "servidores publicos",
+          "description": "Servidores publicos es una idea clave para comprender la representacion social y el sentido de ser representados.",
+          "sourceBook": "Etica, Naturaleza y Sociedades",
+          "sourcePages": [
+            340,
+            343
+          ],
+          "sourcePagesLabel": "pp. 340-343",
+          "topicTitle": "Representantes sociales y servidores publicos",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Representantes sociales y servidores publicos\" aporta base suficiente para trabajar servidores publicos dentro del proyecto 35.",
+          "pedagogicalUse": "Ayuda a fortalecer diagrama de imagenes y a explicar la representacion social y el sentido de ser representados con mayor claridad mediante servidores publicos.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "representacion",
+          "description": "Representacion es una idea clave para comprender la representacion social y el sentido de ser representados.",
+          "sourceBook": "Etica, Naturaleza y Sociedades",
+          "sourcePages": [
+            340,
+            343
+          ],
+          "sourcePagesLabel": "pp. 340-343",
+          "topicTitle": "Representantes sociales y servidores publicos",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Representantes sociales y servidores publicos\" aporta base suficiente para trabajar representacion dentro del proyecto 35.",
+          "pedagogicalUse": "Ayuda a fortalecer diagrama de imagenes y a explicar la representacion social y el sentido de ser representados con mayor claridad mediante representacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "democracia representativa",
+          "description": "Democracia representativa es una idea clave para comprender la representacion social y el sentido de ser representados.",
+          "sourceBook": "Etica, Naturaleza y Sociedades",
+          "sourcePages": [
+            308,
+            310
+          ],
+          "sourcePagesLabel": "pp. 308-310",
+          "topicTitle": "Democracia como forma de organizacion social",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Democracia como forma de organizacion social\" aporta base suficiente para trabajar democracia representativa dentro del proyecto 35.",
+          "pedagogicalUse": "Ayuda a fortalecer diagrama de imagenes y a explicar la representacion social y el sentido de ser representados con mayor claridad mediante democracia representativa.",
+          "activityReadiness": "usable-for-autoevaluation"
+        }
+      ],
+      "thinkingCriteria": [
+        "Relacionar la representacion social y el sentido de ser representados con situaciones cercanas a la comunidad.",
+        "Usar diagrama de imagenes para explicar y no solo para recopilar informacion.",
+        "Distinguir entre mencionar conceptos y comprender como dialogan entre si dentro del proyecto."
+      ],
+      "validationStatus": {
+        "readinessLevel": "development-partial",
+        "readyForActivities": false,
+        "needsReviewReasons": [
+          "El bloque 12 ya es usable como lectura docente, pero el video del PPA 12 y el recurso informatico siguen pendientes de validacion de destino final.",
+          "La asignacion de apoyos de Posibilidades se sostiene por inferencia curricular documentada y no por OCR perfectamente separado por columnas.",
+          "No mover a actividades interactivas ni desbloquear juegos completos hasta ampliar validacion de videos y recursos complementarios."
+        ]
+      },
+      "readinessLevel": "development-partial",
+      "readyForActivities": false,
+      "needsReviewReasons": [
+        "No mover a actividades interactivas ni desbloquear juegos completos."
+      ],
+      "roleInPpa": "Profundiza el bloque con preguntas sobre representacion, servicio publico y sentido de la voz colectiva.",
+      "pedagogicalUse": "Conviene trabajar Nuestros representantes, nos representan? como una oportunidad para profundizar en la representacion social y el sentido de ser representados sin separar contenido, comunidad y producto final.",
+      "teacherNotes": [
+        "Conviene partir de ejemplos cercanos y despues pasar al lenguaje mas abstracto del campo.",
+        "El producto Diagrama de imagenes gana fuerza cuando se usa para explicar y no solo para exhibir informacion.",
+        "Es mejor seleccionar pocos conceptos bien comprendidos que saturar el trabajo con terminos aislados."
+      ],
+      "resonancePrompts": [
+        {
+          "type": "individual",
+          "prompt": "¿Que comprendes mejor sobre la representacion social y el sentido de ser representados despues de elaborar diagrama de imagenes?"
+        },
+        {
+          "type": "community",
+          "prompt": "¿Que dialogos comunitarios podrian fortalecerse si compartimos diagrama de imagenes y lo ponemos en conversacion con otras personas?"
+        }
+      ],
+      "notReadyFor": [
+        "full-games",
+        "summative-exam"
+      ]
+    },
+    {
+      "id": "etica-naturaleza-y-sociedades-1-ppa-12-pa36",
+      "projectId": "etica-naturaleza-y-sociedades-1-ppa-12-pa36",
+      "academicProjectNumber": 36,
+      "title": "Me expreso y participo!",
+      "projectTitle": "Me expreso y participo!",
+      "grade": "1",
+      "field": "Etica, Naturaleza y Sociedades",
+      "ppaNumber": "12",
+      "partialClassroomProject": "PPA 12",
+      "partialClassroomProjectTitle": "Participamos en comunidad y las cosas cambian",
+      "bookVolume": "Tomo III",
+      "sourceValidation": {
+        "sourceStatus": "linked",
+        "possibilitiesPages": [
+          29
+        ],
+        "possibilitiesMaterialId": "grade-1-posibilidades-pos-ens-1",
+        "possibilitiesColumnIndex": 3,
+        "columnEvidence": "Bloque PPA 12 Participamos en comunidad y las cosas cambian localizado en p. 29; la columna 3 se confirma por el orden de proyectos, productos y continuidad del mismo bloque."
+      },
+      "finalProduct": {
+        "title": "Lista de compromisos",
+        "source": "Posibilidades de uso ENS p. 29 + Nuestro libro de proyectos Tomo III pp. 216-220",
+        "status": "confirmed"
+      },
+      "sourcePages": {
+        "nuestroLibroProyectos": [
+          {
+            "materialId": "grade-1-proyectos-nuestro-libro-de-proyectos-tomo-iii-primer-grado",
+            "label": "Nuestro libro de proyectos Tomo III",
+            "startPage": 216,
+            "endPage": 220,
+            "pagesLabel": "pp. 216-220",
+            "topicTitle": "Proyecto academico 36",
+            "status": "confirmed-source"
+          }
+        ],
+        "conceptBook": [
+          {
+            "materialId": "grade-1-conceptos-etica-naturaleza-y-sociedades-primer-grado",
+            "label": "Etica, Naturaleza y Sociedades",
+            "startPage": 295,
+            "endPage": 301,
+            "pagesLabel": "pp. 295-301",
+            "topicTitle": "Testimonios sobre la participacion social de las mujeres",
+            "status": "confirmed-by-column-inference"
+          },
+          {
+            "materialId": "grade-1-conceptos-etica-naturaleza-y-sociedades-primer-grado",
+            "label": "Etica, Naturaleza y Sociedades",
+            "startPage": 132,
+            "endPage": 135,
+            "pagesLabel": "pp. 132-135",
+            "topicTitle": "Responsabilidad ante problemas y realidades socioambientales de la comunidad",
+            "status": "confirmed-by-column-inference"
+          }
+        ],
+        "multiplesLenguajes": [],
+        "otherMaterials": [
+          {
+            "label": "Video PPA 12: Participamos en comunidad y las cosas cambian",
+            "reference": "bit.ly/3VfglUk",
+            "status": "pending-validation"
+          }
+        ]
+      },
+      "supportMaterials": [],
+      "horizonOrPurpose": {
+        "status": "confirmed-from-project-book",
+        "text": "Crear una lista de compromisos como estudiantes, y algunas propuestas de acciones que nos lleven a ser ciudadanos participativos y presentes en las decisiones que competen a la comunidad, mediante la localización y el conocimiento de los organismos, instituciones y políticas nacionales que hacen posible la democracia.",
+        "source": "Visión — Horizonte 1 (p. 217)"
+      },
+      "projectExpectationHorizon": {
+        "officialText": "Crear una lista de compromisos como estudiantes, y algunas propuestas de acciones que nos lleven a ser ciudadanos participativos y presentes en las decisiones que competen a la comunidad, mediante la localización y el conocimiento de los organismos, instituciones y políticas nacionales que hacen posible la democracia.",
+        "studentVersion": "Crear una lista de compromisos como estudiantes, y algunas propuestas de acciones que nos lleven a ser ciudadanos participativos y presentes en las decisiones que competen a la comunidad, mediante la localización y el conocimiento de los organismos, instituciones y políticas nacionales que hacen posible la democracia.",
+        "horizon1Raw": "Crear una lista de compromisos como estudiantes, y algunas propuestas de acciones que nos lleven a ser ciudadanos participativos y presentes en las decisiones que competen a la comunidad, mediante la localización y el conocimiento de los organismos, instituciones y políticas nacionales que hacen posible la democracia.",
+        "horizon2Raw": "Localizar la información sobre organismos, instituciones y políticas nacionales que hacen posible la democracia y, a partir de ahí, elaborar una lista de compromisos que nos haga presentes en las decisiones comunitarias.",
+        "sourcePages": [
+          "Visión — Horizonte 1 (p. 217)"
+        ],
+        "evidence": "Extraído por visión de imagen de la página 217 del libro de proyectos. Confianza: alta.",
+        "status": "confirmed-from-project-book",
+        "extractedAt": "2026-06-16T05:24:39.987Z"
+      },
+      "detonatingStrategy": {
+        "status": "pending-url",
+        "text": "Video PPA 12: Participamos en comunidad y las cosas cambian",
+        "reference": "bit.ly/3VfglUk",
+        "source": "Nuestro libro de proyectos Tomo III pp. 214-215 + Posibilidades de uso ENS p. 29"
+      },
+      "academicProjectStrategy": {
+        "title": "Lista de compromisos",
+        "text": "Organizar lista de compromisos para profundizar en la expresion y la participacion social como herramientas de cambio y compartir hallazgos de manera clara con el grupo.",
+        "type": "project-product",
+        "status": "confirmed-from-project-book",
+        "source": "Nuestro libro de proyectos Tomo III pp. 216-220"
+      },
+      "academicConcepts": [
+        {
+          "concept": "lista de compromisos",
+          "description": "Lista de compromisos como producto de cierre para organizar y comunicar aprendizajes del proyecto.",
+          "sourceBook": "Nuestro libro de proyectos Tomo III",
+          "sourcePages": [
+            216,
+            220
+          ],
+          "sourcePagesLabel": "pp. 216-220",
+          "topicTitle": "Proyecto academico 36",
+          "status": "confirmed",
+          "reason": "Posibilidades y el propio proyecto fijan Lista de compromisos como producto final del PA 36.",
+          "pedagogicalUse": "Da una forma concreta de socializar lo comprendido sobre la expresion y la participacion social como herramientas de cambio.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "participacion social",
+          "description": "Participacion social es una idea clave para comprender la expresion y la participacion social como herramientas de cambio.",
+          "sourceBook": "Etica, Naturaleza y Sociedades",
+          "sourcePages": [
+            295,
+            301
+          ],
+          "sourcePagesLabel": "pp. 295-301",
+          "topicTitle": "Testimonios sobre la participacion social de las mujeres",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Testimonios sobre la participacion social de las mujeres\" aporta base suficiente para trabajar participacion social dentro del proyecto 36.",
+          "pedagogicalUse": "Ayuda a fortalecer lista de compromisos y a explicar la expresion y la participacion social como herramientas de cambio con mayor claridad mediante participacion social.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "expresion",
+          "description": "Expresion es una idea clave para comprender la expresion y la participacion social como herramientas de cambio.",
+          "sourceBook": "Etica, Naturaleza y Sociedades",
+          "sourcePages": [
+            295,
+            301
+          ],
+          "sourcePagesLabel": "pp. 295-301",
+          "topicTitle": "Testimonios sobre la participacion social de las mujeres",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Testimonios sobre la participacion social de las mujeres\" aporta base suficiente para trabajar expresion dentro del proyecto 36.",
+          "pedagogicalUse": "Ayuda a fortalecer lista de compromisos y a explicar la expresion y la participacion social como herramientas de cambio con mayor claridad mediante expresion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "testimonios de mujeres",
+          "description": "Testimonios de mujeres es una idea clave para comprender la expresion y la participacion social como herramientas de cambio.",
+          "sourceBook": "Etica, Naturaleza y Sociedades",
+          "sourcePages": [
+            295,
+            301
+          ],
+          "sourcePagesLabel": "pp. 295-301",
+          "topicTitle": "Testimonios sobre la participacion social de las mujeres",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Testimonios sobre la participacion social de las mujeres\" aporta base suficiente para trabajar testimonios de mujeres dentro del proyecto 36.",
+          "pedagogicalUse": "Ayuda a fortalecer lista de compromisos y a explicar la expresion y la participacion social como herramientas de cambio con mayor claridad mediante testimonios de mujeres.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "compromisos comunitarios",
+          "description": "Compromisos comunitarios es una idea clave para comprender la expresion y la participacion social como herramientas de cambio.",
+          "sourceBook": "Etica, Naturaleza y Sociedades",
+          "sourcePages": [
+            132,
+            135
+          ],
+          "sourcePagesLabel": "pp. 132-135",
+          "topicTitle": "Responsabilidad ante problemas y realidades socioambientales de la comunidad",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Responsabilidad ante problemas y realidades socioambientales de la comunidad\" aporta base suficiente para trabajar compromisos comunitarios dentro del proyecto 36.",
+          "pedagogicalUse": "Ayuda a fortalecer lista de compromisos y a explicar la expresion y la participacion social como herramientas de cambio con mayor claridad mediante compromisos comunitarios.",
+          "activityReadiness": "usable-for-autoevaluation"
+        }
+      ],
+      "thinkingCriteria": [
+        "Relacionar la expresion y la participacion social como herramientas de cambio con situaciones cercanas a la comunidad.",
+        "Usar lista de compromisos para explicar y no solo para recopilar informacion.",
+        "Distinguir entre mencionar conceptos y comprender como dialogan entre si dentro del proyecto."
+      ],
+      "validationStatus": {
+        "readinessLevel": "development-partial",
+        "readyForActivities": false,
+        "needsReviewReasons": [
+          "El bloque 12 ya es usable como lectura docente, pero el video del PPA 12 y el recurso informatico siguen pendientes de validacion de destino final.",
+          "La asignacion de apoyos de Posibilidades se sostiene por inferencia curricular documentada y no por OCR perfectamente separado por columnas.",
+          "No mover a actividades interactivas ni desbloquear juegos completos hasta ampliar validacion de videos y recursos complementarios."
+        ]
+      },
+      "readinessLevel": "development-partial",
+      "readyForActivities": false,
+      "needsReviewReasons": [
+        "No mover a actividades interactivas ni desbloquear juegos completos."
+      ],
+      "roleInPpa": "Cierra el bloque con compromisos de participacion y expresion situados en la comunidad escolar y barrial.",
+      "pedagogicalUse": "Conviene trabajar Me expreso y participo! como una oportunidad para profundizar en la expresion y la participacion social como herramientas de cambio sin separar contenido, comunidad y producto final.",
+      "teacherNotes": [
+        "Conviene partir de ejemplos cercanos y despues pasar al lenguaje mas abstracto del campo.",
+        "El producto Lista de compromisos gana fuerza cuando se usa para explicar y no solo para exhibir informacion.",
+        "Es mejor seleccionar pocos conceptos bien comprendidos que saturar el trabajo con terminos aislados."
+      ],
+      "resonancePrompts": [
+        {
+          "type": "individual",
+          "prompt": "¿Que comprendes mejor sobre la expresion y la participacion social como herramientas de cambio despues de elaborar lista de compromisos?"
+        },
+        {
+          "type": "community",
+          "prompt": "¿Que dialogos comunitarios podrian fortalecerse si compartimos lista de compromisos y lo ponemos en conversacion con otras personas?"
+        }
+      ],
+      "notReadyFor": [
+        "full-games",
+        "summative-exam"
+      ]
+    }
+  ]
+}

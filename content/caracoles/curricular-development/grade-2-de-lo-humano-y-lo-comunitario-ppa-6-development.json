@@ -1,0 +1,797 @@
+{
+  "grade": "2",
+  "gradeLabel": "Segundo grado",
+  "field": "De lo Humano y lo Comunitario",
+  "bookVolume": "Tomo III",
+  "partialClassroomProject": "PPA 6",
+  "partialClassroomProjectTitle": "Recreando prácticas sociales y tecnológicas",
+  "generatedAt": "2026-06-04T15:48:47.580Z",
+  "notes": "Capa curricular generada por lote para 2o De lo Humano y lo Comunitario, PPA 6.",
+  "sourcesUsed": [
+    "public/caracoles/data/generated/grade-2/selectable-projects.json",
+    "content/caracoles/generated-private/grade-2/pages-index.full.json",
+    "Posibilidades de uso DHyC, segundo grado, pp. 18-20",
+    "Nuestro libro de proyectos Tomo III, segundo grado, pp. 244-260",
+    "De lo Humano y lo Comunitario, segundo grado, pp. 133-160; Nuestro libro de proyectos Tomo III pp. 246-260."
+  ],
+  "partialClassroomProjectContext": {
+    "expectationHorizon": {
+      "officialText": "",
+      "sourcePages": [
+        "Nuestro libro de proyectos Tomo III pp. 244-245",
+        "Posibilidades de uso DHyC pp. 18-20"
+      ],
+      "evidence": "El PPA 6 integra recreacion, simulacion e innovacion tecnica con expresion motriz y socioemocional.",
+      "status": "pending"
+    },
+    "ppaDetonatingStrategy": {
+      "title": "Recreando prácticas sociales y tecnológicas",
+      "type": "video",
+      "url": "",
+      "urlStatus": "pending-url",
+      "reference": "bit.ly/3VfglUk",
+      "source": "Nuestro libro de proyectos Tomo III pp. 244-245 + Posibilidades de uso DHyC pp. 18-20",
+      "scope": "partial-classroom-project",
+      "youtubeSearchQuery": "Recreando prácticas sociales y tecnológicas De lo Humano y lo Comunitario 2do grado Telesecundaria"
+    },
+    "ppaDigitalResource": {
+      "title": "Recurso informatico del bloque PPA 6",
+      "reference": "bit.ly/3WQBMwg",
+      "status": "pending-validation",
+      "source": "Nuestro libro de proyectos Tomo III pp. 244-260"
+    },
+    "validationStatus": {
+      "needsHumanReview": true,
+      "needsReviewReasons": [
+        "Las pp. 18-20 de Posibilidades pertenecen al mismo PPA 6.",
+        "La asignacion de apoyos por columna se fija por inferencia curricular documentada de izquierda a derecha.",
+        "Los enlaces cortos del video del PPA y del recurso informatico se mantienen en cautela hasta localizar un destino oficial confirmado."
+      ]
+    },
+    "columnValidation": {
+      "possibilitiesPagesReviewed": [
+        18,
+        19,
+        20
+      ],
+      "confirmedAsPpa": true,
+      "note": "Las pp. 18-20 corresponden al PPA 6 Recreando prácticas sociales y tecnológicas. Las tres columnas se sostienen por el orden de proyectos, productos y apoyos del mismo bloque.",
+      "columns": [
+        {
+          "columnIndex": 1,
+          "projectId": "de-lo-humano-y-lo-comunitario-2-ppa-6-pa16",
+          "projectTitle": "Recreación y prevención",
+          "finalProduct": "Producto de cierre del proyecto",
+          "supportMaterials": [
+            "Recreacion y cuidado, pp. 133-140"
+          ]
+        },
+        {
+          "columnIndex": 2,
+          "projectId": "de-lo-humano-y-lo-comunitario-2-ppa-6-pa17",
+          "projectTitle": "Simulación e innovación de sistemas técnicos",
+          "finalProduct": "Producto de cierre del proyecto",
+          "supportMaterials": [
+            "Sistemas tecnicos e innovacion, pp. 141-152"
+          ]
+        },
+        {
+          "columnIndex": 3,
+          "projectId": "de-lo-humano-y-lo-comunitario-2-ppa-6-pa18",
+          "projectTitle": "Ensamble motriz-expresivo-socioemocional",
+          "finalProduct": "Producto de cierre del proyecto",
+          "supportMaterials": [
+            "Expresion motriz y socioemocional, pp. 153-160"
+          ]
+        }
+      ]
+    }
+  },
+  "academicProjects": [
+    {
+      "id": "de-lo-humano-y-lo-comunitario-2-ppa-6-pa16",
+      "projectId": "de-lo-humano-y-lo-comunitario-2-ppa-6-pa16",
+      "academicProjectNumber": 16,
+      "title": "Recreación y prevención",
+      "projectTitle": "Recreación y prevención",
+      "grade": "2",
+      "field": "De lo Humano y lo Comunitario",
+      "ppaNumber": "6",
+      "partialClassroomProject": "PPA 6",
+      "partialClassroomProjectTitle": "Recreando prácticas sociales y tecnológicas",
+      "bookVolume": "Tomo III",
+      "sourceValidation": {
+        "sourceStatus": "linked",
+        "possibilitiesPages": [
+          18,
+          19,
+          20
+        ],
+        "possibilitiesMaterialId": "grade-2-posibilidades-pos-dhc-2",
+        "possibilitiesColumnIndex": 1,
+        "columnEvidence": "Bloque PPA 6 Recreando prácticas sociales y tecnológicas localizado en pp. 18-20; la columna 1 se confirma por el orden de proyectos, productos y continuidad del mismo bloque."
+      },
+      "finalProduct": {
+        "title": "Producto de cierre del proyecto",
+        "source": "Posibilidades de uso DHyC pp. 18-20 + Nuestro libro de proyectos Tomo III pp. 246-250",
+        "status": "confirmed"
+      },
+      "sourcePages": {
+        "nuestroLibroProyectos": [
+          {
+            "materialId": "grade-2-proyectos-nuestro-libro-de-proyectos-tomo-3-segundo-grado",
+            "label": "Nuestro libro de proyectos Tomo III",
+            "startPage": 246,
+            "endPage": 250,
+            "pagesLabel": "pp. 246-250",
+            "topicTitle": "Proyecto academico 16",
+            "status": "confirmed-source"
+          }
+        ],
+        "conceptBook": [
+          {
+            "materialId": "grade-2-conceptos-de-lo-humano-y-lo-comunitario-segundo-grado",
+            "label": "De lo Humano y lo Comunitario",
+            "startPage": 133,
+            "endPage": 140,
+            "pagesLabel": "pp. 133-140",
+            "topicTitle": "Recreacion, prevencion y convivencia",
+            "status": "confirmed-by-column-inference"
+          },
+          {
+            "materialId": "grade-2-conceptos-de-lo-humano-y-lo-comunitario-segundo-grado",
+            "label": "De lo Humano y lo Comunitario",
+            "startPage": 89,
+            "endPage": 95,
+            "pagesLabel": "pp. 89-95",
+            "topicTitle": "Bienestar y expresion corporal",
+            "status": "confirmed-by-column-inference"
+          }
+        ],
+        "multiplesLenguajes": [
+          {
+            "materialId": "grade-2-apoyo-multiples-lenguajes-segundo-grado",
+            "label": "Multiples Lenguajes",
+            "startPage": 133,
+            "endPage": 140,
+            "pagesLabel": "pp. 133-140",
+            "topicTitle": "Recreacion y cuidado",
+            "status": "confirmed-by-field-source"
+          }
+        ],
+        "otherMaterials": [
+          {
+            "label": "Video PPA 6: Recreando prácticas sociales y tecnológicas",
+            "reference": "bit.ly/3VfglUk",
+            "status": "pending-validation"
+          }
+        ]
+      },
+      "supportMaterials": [
+        {
+          "title": "Recreacion y cuidado",
+          "kind": "Multiples Lenguajes",
+          "pages": "pp. 133-140",
+          "status": "confirmed-by-field-source"
+        }
+      ],
+      "horizonOrPurpose": {
+        "status": "confirmed-from-project-book",
+        "text": "Investigar las características, los principios y el potencial formativo de las actividades recreativas para favorecer relaciones interpersonales positivas.",
+        "source": "Visión — Horizonte 1 (p. 247)"
+      },
+      "projectExpectationHorizon": {
+        "officialText": "Investigar las características, los principios y el potencial formativo de las actividades recreativas para favorecer relaciones interpersonales positivas.",
+        "studentVersion": "Investigar las características, los principios y el potencial formativo de las actividades recreativas para favorecer relaciones interpersonales positivas.",
+        "horizon1Raw": "Investigar las características, los principios y el potencial formativo de las actividades recreativas para favorecer relaciones interpersonales positivas.",
+        "horizon2Raw": "Diseñar y compartir con la comunidad los resultados del taller, a fin de difundir los beneficios de las actividades recreativas.",
+        "sourcePages": [
+          "Visión — Horizonte 1 (p. 247)"
+        ],
+        "evidence": "Extraído por visión de imagen de la página 247 del libro de proyectos. Confianza: alta.",
+        "status": "confirmed-from-project-book",
+        "extractedAt": "2026-06-16T05:08:44.210Z"
+      },
+      "detonatingStrategy": {
+        "status": "pending-url",
+        "text": "Video PPA 6: Recreando prácticas sociales y tecnológicas",
+        "reference": "bit.ly/3VfglUk",
+        "source": "Nuestro libro de proyectos Tomo III pp. 244-245 + Posibilidades de uso DHyC pp. 18-20"
+      },
+      "academicProjectStrategy": {
+        "title": "Producto de cierre del proyecto",
+        "text": "Organizar producto de cierre del proyecto para profundizar en la recreacion como practica preventiva para cuidar la convivencia y el bienestar y compartir hallazgos de manera clara con el grupo.",
+        "type": "project-product",
+        "status": "confirmed-from-project-book",
+        "source": "Nuestro libro de proyectos Tomo III pp. 246-250"
+      },
+      "academicConcepts": [
+        {
+          "concept": "producto de cierre del proyecto",
+          "description": "Producto de cierre del proyecto como producto de cierre para organizar y comunicar aprendizajes del proyecto.",
+          "sourceBook": "Nuestro libro de proyectos Tomo III",
+          "sourcePages": [
+            246,
+            250
+          ],
+          "sourcePagesLabel": "pp. 246-250",
+          "topicTitle": "Proyecto academico 16",
+          "status": "confirmed",
+          "reason": "Posibilidades y el propio proyecto fijan Producto de cierre del proyecto como producto final del PA 16.",
+          "pedagogicalUse": "Da una forma concreta de socializar lo comprendido sobre la recreacion como practica preventiva para cuidar la convivencia y el bienestar.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "recreacion",
+          "description": "Recreacion es una idea clave para comprender la recreacion como practica preventiva para cuidar la convivencia y el bienestar.",
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "sourcePages": [
+            133,
+            140
+          ],
+          "sourcePagesLabel": "pp. 133-140",
+          "topicTitle": "Recreacion, prevencion y convivencia",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Recreacion, prevencion y convivencia\" aporta base suficiente para trabajar recreacion dentro del proyecto 16.",
+          "pedagogicalUse": "Ayuda a fortalecer producto de cierre del proyecto y a explicar la recreacion como practica preventiva para cuidar la convivencia y el bienestar con mayor claridad mediante recreacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "prevencion",
+          "description": "Prevencion es una idea clave para comprender la recreacion como practica preventiva para cuidar la convivencia y el bienestar.",
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "sourcePages": [
+            133,
+            140
+          ],
+          "sourcePagesLabel": "pp. 133-140",
+          "topicTitle": "Recreacion, prevencion y convivencia",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Recreacion, prevencion y convivencia\" aporta base suficiente para trabajar prevencion dentro del proyecto 16.",
+          "pedagogicalUse": "Ayuda a fortalecer producto de cierre del proyecto y a explicar la recreacion como practica preventiva para cuidar la convivencia y el bienestar con mayor claridad mediante prevencion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "convivencia",
+          "description": "Convivencia es una idea clave para comprender la recreacion como practica preventiva para cuidar la convivencia y el bienestar.",
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "sourcePages": [
+            133,
+            140
+          ],
+          "sourcePagesLabel": "pp. 133-140",
+          "topicTitle": "Recreacion, prevencion y convivencia",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Recreacion, prevencion y convivencia\" aporta base suficiente para trabajar convivencia dentro del proyecto 16.",
+          "pedagogicalUse": "Ayuda a fortalecer producto de cierre del proyecto y a explicar la recreacion como practica preventiva para cuidar la convivencia y el bienestar con mayor claridad mediante convivencia.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "bienestar",
+          "description": "Bienestar es una idea clave para comprender la recreacion como practica preventiva para cuidar la convivencia y el bienestar.",
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "sourcePages": [
+            89,
+            95
+          ],
+          "sourcePagesLabel": "pp. 89-95",
+          "topicTitle": "Bienestar y expresion corporal",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Bienestar y expresion corporal\" aporta base suficiente para trabajar bienestar dentro del proyecto 16.",
+          "pedagogicalUse": "Ayuda a fortalecer producto de cierre del proyecto y a explicar la recreacion como practica preventiva para cuidar la convivencia y el bienestar con mayor claridad mediante bienestar.",
+          "activityReadiness": "usable-for-autoevaluation"
+        }
+      ],
+      "thinkingCriteria": [
+        "Relacionar la recreacion como practica preventiva para cuidar la convivencia y el bienestar con situaciones cercanas a la comunidad.",
+        "Usar producto de cierre del proyecto para explicar y no solo para recopilar informacion.",
+        "Distinguir entre mencionar conceptos y comprender como dialogan entre si dentro del proyecto."
+      ],
+      "validationStatus": {
+        "readinessLevel": "development-partial",
+        "readyForActivities": false,
+        "needsReviewReasons": [
+          "El bloque 6 ya es usable como lectura docente, pero el video del PPA 6 y el recurso informatico siguen pendientes de validacion de destino final.",
+          "La asignacion de apoyos de Posibilidades se sostiene por inferencia curricular documentada y no por OCR perfectamente separado por columnas.",
+          "No mover a actividades interactivas ni desbloquear juegos completos hasta ampliar validacion de videos y recursos complementarios."
+        ]
+      },
+      "readinessLevel": "development-partial",
+      "readyForActivities": false,
+      "needsReviewReasons": [
+        "No mover a actividades interactivas ni desbloquear juegos completos."
+      ],
+      "roleInPpa": "Abre el bloque al relacionar recreacion con prevencion y cuidado colectivo.",
+      "pedagogicalUse": "Conviene trabajar Recreación y prevención como una oportunidad para profundizar en la recreacion como practica preventiva para cuidar la convivencia y el bienestar sin separar contenido, comunidad y producto final.",
+      "teacherNotes": [
+        "Conviene partir de ejemplos cercanos y después pasar al lenguaje mas abstracto del campo.",
+        "El producto Producto de cierre del proyecto gana fuerza cuando se usa para explicar y no solo para exhibir informacion.",
+        "Es mejor seleccionar pocos conceptos bien comprendidos que saturar el trabajo con terminos aislados."
+      ],
+      "resonancePrompts": [
+        {
+          "type": "individual",
+          "prompt": "¿Qué comprendes mejor sobre la recreacion como practica preventiva para cuidar la convivencia y el bienestar después de elaborar producto de cierre del proyecto?"
+        },
+        {
+          "type": "community",
+          "prompt": "¿Qué diálogos comunitarios podrían fortalecerse si compartimos producto de cierre del proyecto y lo ponemos en conversación con otras personas?"
+        }
+      ],
+      "notReadyFor": [
+        "full-games",
+        "summative-exam"
+      ]
+    },
+    {
+      "id": "de-lo-humano-y-lo-comunitario-2-ppa-6-pa17",
+      "projectId": "de-lo-humano-y-lo-comunitario-2-ppa-6-pa17",
+      "academicProjectNumber": 17,
+      "title": "Simulación e innovación de sistemas técnicos",
+      "projectTitle": "Simulación e innovación de sistemas técnicos",
+      "grade": "2",
+      "field": "De lo Humano y lo Comunitario",
+      "ppaNumber": "6",
+      "partialClassroomProject": "PPA 6",
+      "partialClassroomProjectTitle": "Recreando prácticas sociales y tecnológicas",
+      "bookVolume": "Tomo III",
+      "sourceValidation": {
+        "sourceStatus": "linked",
+        "possibilitiesPages": [
+          18,
+          19,
+          20
+        ],
+        "possibilitiesMaterialId": "grade-2-posibilidades-pos-dhc-2",
+        "possibilitiesColumnIndex": 2,
+        "columnEvidence": "Bloque PPA 6 Recreando prácticas sociales y tecnológicas localizado en pp. 18-20; la columna 2 se confirma por el orden de proyectos, productos y continuidad del mismo bloque."
+      },
+      "finalProduct": {
+        "title": "Producto de cierre del proyecto",
+        "source": "Posibilidades de uso DHyC pp. 18-20 + Nuestro libro de proyectos Tomo III pp. 251-255",
+        "status": "confirmed"
+      },
+      "sourcePages": {
+        "nuestroLibroProyectos": [
+          {
+            "materialId": "grade-2-proyectos-nuestro-libro-de-proyectos-tomo-3-segundo-grado",
+            "label": "Nuestro libro de proyectos Tomo III",
+            "startPage": 251,
+            "endPage": 255,
+            "pagesLabel": "pp. 251-255",
+            "topicTitle": "Proyecto academico 17",
+            "status": "confirmed-source"
+          }
+        ],
+        "conceptBook": [
+          {
+            "materialId": "grade-2-conceptos-de-lo-humano-y-lo-comunitario-segundo-grado",
+            "label": "De lo Humano y lo Comunitario",
+            "startPage": 141,
+            "endPage": 152,
+            "pagesLabel": "pp. 141-152",
+            "topicTitle": "Simulacion, innovacion y sistemas tecnicos",
+            "status": "confirmed-by-column-inference"
+          },
+          {
+            "materialId": "grade-2-conceptos-de-lo-humano-y-lo-comunitario-segundo-grado",
+            "label": "De lo Humano y lo Comunitario",
+            "startPage": 15,
+            "endPage": 24,
+            "pagesLabel": "pp. 15-24",
+            "topicTitle": "Sistemas tecnicos automatizados",
+            "status": "confirmed-by-column-inference"
+          }
+        ],
+        "multiplesLenguajes": [
+          {
+            "materialId": "grade-2-apoyo-multiples-lenguajes-segundo-grado",
+            "label": "Multiples Lenguajes",
+            "startPage": 141,
+            "endPage": 152,
+            "pagesLabel": "pp. 141-152",
+            "topicTitle": "Sistemas tecnicos e innovacion",
+            "status": "confirmed-by-field-source"
+          }
+        ],
+        "otherMaterials": [
+          {
+            "label": "Video PPA 6: Recreando prácticas sociales y tecnológicas",
+            "reference": "bit.ly/3VfglUk",
+            "status": "pending-validation"
+          }
+        ]
+      },
+      "supportMaterials": [
+        {
+          "title": "Sistemas tecnicos e innovacion",
+          "kind": "Multiples Lenguajes",
+          "pages": "pp. 141-152",
+          "status": "confirmed-by-field-source"
+        }
+      ],
+      "horizonOrPurpose": {
+        "status": "confirmed-from-project-book",
+        "text": "Compartir con la comunidad los resultados de los hallazgos obtenidos en el diseño y la puesta en práctica de simuladores de sistemas técnicos artesanales, industriales y automatizados.",
+        "source": "Visión — Horizonte 2 (p. 252)"
+      },
+      "projectExpectationHorizon": {
+        "officialText": "Compartir con la comunidad los resultados de los hallazgos obtenidos en el diseño y la puesta en práctica de simuladores de sistemas técnicos artesanales, industriales y automatizados.",
+        "studentVersion": "Compartir con la comunidad los resultados de los hallazgos obtenidos en el diseño y la puesta en práctica de simuladores de sistemas técnicos artesanales, industriales y automatizados.",
+        "horizon1Raw": "Investigar las necesidades locales y comunitarias respecto de los riesgos que generan los sistemas técnicos que se usan en la elaboración de productos y servicios.",
+        "horizon2Raw": "Compartir con la comunidad los resultados de los hallazgos obtenidos en el diseño y la puesta en práctica de simuladores de sistemas técnicos artesanales, industriales y automatizados.",
+        "sourcePages": [
+          "Visión — Horizonte 2 (p. 252)"
+        ],
+        "evidence": "Extraído por visión de imagen de la página 252 del libro de proyectos. Confianza: alta.",
+        "status": "confirmed-from-project-book",
+        "extractedAt": "2026-06-16T05:08:47.967Z"
+      },
+      "detonatingStrategy": {
+        "status": "pending-url",
+        "text": "Video PPA 6: Recreando prácticas sociales y tecnológicas",
+        "reference": "bit.ly/3VfglUk",
+        "source": "Nuestro libro de proyectos Tomo III pp. 249-250 + Posibilidades de uso DHyC pp. 18-20"
+      },
+      "academicProjectStrategy": {
+        "title": "Producto de cierre del proyecto",
+        "text": "Organizar producto de cierre del proyecto para profundizar en la simulacion y la innovacion para comprender y mejorar sistemas tecnicos y compartir hallazgos de manera clara con el grupo.",
+        "type": "project-product",
+        "status": "confirmed-from-project-book",
+        "source": "Nuestro libro de proyectos Tomo III pp. 251-255"
+      },
+      "academicConcepts": [
+        {
+          "concept": "producto de cierre del proyecto",
+          "description": "Producto de cierre del proyecto como producto de cierre para organizar y comunicar aprendizajes del proyecto.",
+          "sourceBook": "Nuestro libro de proyectos Tomo III",
+          "sourcePages": [
+            251,
+            255
+          ],
+          "sourcePagesLabel": "pp. 251-255",
+          "topicTitle": "Proyecto academico 17",
+          "status": "confirmed",
+          "reason": "Posibilidades y el propio proyecto fijan Producto de cierre del proyecto como producto final del PA 17.",
+          "pedagogicalUse": "Da una forma concreta de socializar lo comprendido sobre la simulacion y la innovacion para comprender y mejorar sistemas tecnicos.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "simulacion",
+          "description": "Simulacion es una idea clave para comprender la simulacion y la innovacion para comprender y mejorar sistemas tecnicos.",
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "sourcePages": [
+            141,
+            152
+          ],
+          "sourcePagesLabel": "pp. 141-152",
+          "topicTitle": "Simulacion, innovacion y sistemas tecnicos",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Simulacion, innovacion y sistemas tecnicos\" aporta base suficiente para trabajar simulacion dentro del proyecto 17.",
+          "pedagogicalUse": "Ayuda a fortalecer producto de cierre del proyecto y a explicar la simulacion y la innovacion para comprender y mejorar sistemas tecnicos con mayor claridad mediante simulacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "innovacion",
+          "description": "Innovacion es una idea clave para comprender la simulacion y la innovacion para comprender y mejorar sistemas tecnicos.",
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "sourcePages": [
+            141,
+            152
+          ],
+          "sourcePagesLabel": "pp. 141-152",
+          "topicTitle": "Simulacion, innovacion y sistemas tecnicos",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Simulacion, innovacion y sistemas tecnicos\" aporta base suficiente para trabajar innovacion dentro del proyecto 17.",
+          "pedagogicalUse": "Ayuda a fortalecer producto de cierre del proyecto y a explicar la simulacion y la innovacion para comprender y mejorar sistemas tecnicos con mayor claridad mediante innovacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "sistema tecnico",
+          "description": "Sistema tecnico es una idea clave para comprender la simulacion y la innovacion para comprender y mejorar sistemas tecnicos.",
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "sourcePages": [
+            15,
+            24
+          ],
+          "sourcePagesLabel": "pp. 15-24",
+          "topicTitle": "Sistemas tecnicos automatizados",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Sistemas tecnicos automatizados\" aporta base suficiente para trabajar sistema tecnico dentro del proyecto 17.",
+          "pedagogicalUse": "Ayuda a fortalecer producto de cierre del proyecto y a explicar la simulacion y la innovacion para comprender y mejorar sistemas tecnicos con mayor claridad mediante sistema tecnico.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "prototipo",
+          "description": "Prototipo es una idea clave para comprender la simulacion y la innovacion para comprender y mejorar sistemas tecnicos.",
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "sourcePages": [
+            141,
+            152
+          ],
+          "sourcePagesLabel": "pp. 141-152",
+          "topicTitle": "Simulacion, innovacion y sistemas tecnicos",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Simulacion, innovacion y sistemas tecnicos\" aporta base suficiente para trabajar prototipo dentro del proyecto 17.",
+          "pedagogicalUse": "Ayuda a fortalecer producto de cierre del proyecto y a explicar la simulacion y la innovacion para comprender y mejorar sistemas tecnicos con mayor claridad mediante prototipo.",
+          "activityReadiness": "usable-for-autoevaluation"
+        }
+      ],
+      "thinkingCriteria": [
+        "Relacionar la simulacion y la innovacion para comprender y mejorar sistemas tecnicos con situaciones cercanas a la comunidad.",
+        "Usar producto de cierre del proyecto para explicar y no solo para recopilar informacion.",
+        "Distinguir entre mencionar conceptos y comprender como dialogan entre si dentro del proyecto."
+      ],
+      "validationStatus": {
+        "readinessLevel": "development-partial",
+        "readyForActivities": false,
+        "needsReviewReasons": [
+          "El bloque 6 ya es usable como lectura docente, pero el video del PPA 6 y el recurso informatico siguen pendientes de validacion de destino final.",
+          "La asignacion de apoyos de Posibilidades se sostiene por inferencia curricular documentada y no por OCR perfectamente separado por columnas.",
+          "No mover a actividades interactivas ni desbloquear juegos completos hasta ampliar validacion de videos y recursos complementarios."
+        ]
+      },
+      "readinessLevel": "development-partial",
+      "readyForActivities": false,
+      "needsReviewReasons": [
+        "No mover a actividades interactivas ni desbloquear juegos completos."
+      ],
+      "roleInPpa": "Profundiza el bloque al modelar sistemas tecnicos y proponer mejoras.",
+      "pedagogicalUse": "Conviene trabajar Simulación e innovación de sistemas técnicos como una oportunidad para profundizar en la simulacion y la innovacion para comprender y mejorar sistemas tecnicos sin separar contenido, comunidad y producto final.",
+      "teacherNotes": [
+        "Conviene partir de ejemplos cercanos y después pasar al lenguaje mas abstracto del campo.",
+        "El producto Producto de cierre del proyecto gana fuerza cuando se usa para explicar y no solo para exhibir informacion.",
+        "Es mejor seleccionar pocos conceptos bien comprendidos que saturar el trabajo con terminos aislados."
+      ],
+      "resonancePrompts": [
+        {
+          "type": "individual",
+          "prompt": "¿Qué comprendes mejor sobre la simulacion y la innovacion para comprender y mejorar sistemas tecnicos después de elaborar producto de cierre del proyecto?"
+        },
+        {
+          "type": "community",
+          "prompt": "¿Qué diálogos comunitarios podrían fortalecerse si compartimos producto de cierre del proyecto y lo ponemos en conversación con otras personas?"
+        }
+      ],
+      "notReadyFor": [
+        "full-games",
+        "summative-exam"
+      ]
+    },
+    {
+      "id": "de-lo-humano-y-lo-comunitario-2-ppa-6-pa18",
+      "projectId": "de-lo-humano-y-lo-comunitario-2-ppa-6-pa18",
+      "academicProjectNumber": 18,
+      "title": "Ensamble motriz-expresivo-socioemocional",
+      "projectTitle": "Ensamble motriz-expresivo-socioemocional",
+      "grade": "2",
+      "field": "De lo Humano y lo Comunitario",
+      "ppaNumber": "6",
+      "partialClassroomProject": "PPA 6",
+      "partialClassroomProjectTitle": "Recreando prácticas sociales y tecnológicas",
+      "bookVolume": "Tomo III",
+      "sourceValidation": {
+        "sourceStatus": "linked",
+        "possibilitiesPages": [
+          18,
+          19,
+          20
+        ],
+        "possibilitiesMaterialId": "grade-2-posibilidades-pos-dhc-2",
+        "possibilitiesColumnIndex": 3,
+        "columnEvidence": "Bloque PPA 6 Recreando prácticas sociales y tecnológicas localizado en pp. 18-20; la columna 3 se confirma por el orden de proyectos, productos y continuidad del mismo bloque."
+      },
+      "finalProduct": {
+        "title": "Producto de cierre del proyecto",
+        "source": "Posibilidades de uso DHyC pp. 18-20 + Nuestro libro de proyectos Tomo III pp. 256-260",
+        "status": "confirmed"
+      },
+      "sourcePages": {
+        "nuestroLibroProyectos": [
+          {
+            "materialId": "grade-2-proyectos-nuestro-libro-de-proyectos-tomo-3-segundo-grado",
+            "label": "Nuestro libro de proyectos Tomo III",
+            "startPage": 256,
+            "endPage": 260,
+            "pagesLabel": "pp. 256-260",
+            "topicTitle": "Proyecto academico 18",
+            "status": "confirmed-source"
+          }
+        ],
+        "conceptBook": [
+          {
+            "materialId": "grade-2-conceptos-de-lo-humano-y-lo-comunitario-segundo-grado",
+            "label": "De lo Humano y lo Comunitario",
+            "startPage": 153,
+            "endPage": 160,
+            "pagesLabel": "pp. 153-160",
+            "topicTitle": "Ensamble motriz, expresivo y socioemocional",
+            "status": "confirmed-by-column-inference"
+          },
+          {
+            "materialId": "grade-2-conceptos-de-lo-humano-y-lo-comunitario-segundo-grado",
+            "label": "De lo Humano y lo Comunitario",
+            "startPage": 89,
+            "endPage": 95,
+            "pagesLabel": "pp. 89-95",
+            "topicTitle": "Expresion corporal y emociones",
+            "status": "confirmed-by-column-inference"
+          }
+        ],
+        "multiplesLenguajes": [
+          {
+            "materialId": "grade-2-apoyo-multiples-lenguajes-segundo-grado",
+            "label": "Multiples Lenguajes",
+            "startPage": 153,
+            "endPage": 160,
+            "pagesLabel": "pp. 153-160",
+            "topicTitle": "Expresion motriz y socioemocional",
+            "status": "confirmed-by-field-source"
+          }
+        ],
+        "otherMaterials": [
+          {
+            "label": "Video PPA 6: Recreando prácticas sociales y tecnológicas",
+            "reference": "bit.ly/3VfglUk",
+            "status": "pending-validation"
+          }
+        ]
+      },
+      "supportMaterials": [
+        {
+          "title": "Expresion motriz y socioemocional",
+          "kind": "Multiples Lenguajes",
+          "pages": "pp. 153-160",
+          "status": "confirmed-by-field-source"
+        }
+      ],
+      "horizonOrPurpose": {
+        "status": "confirmed-from-project-book",
+        "text": "Indagar sobre diversas estrategias lúdicas, que incidan en la construcción de una mayor disponibilidad motriz, cognitiva, expresiva y socioemocional.",
+        "source": "Visión — Horizonte 2 (p. 257)"
+      },
+      "projectExpectationHorizon": {
+        "officialText": "Indagar sobre diversas estrategias lúdicas, que incidan en la construcción de una mayor disponibilidad motriz, cognitiva, expresiva y socioemocional.",
+        "studentVersion": "Indagar sobre diversas estrategias lúdicas, que incidan en la construcción de una mayor disponibilidad motriz, cognitiva, expresiva y socioemocional.",
+        "horizon1Raw": "Investigar sobre dinámicas, actividades, juegos y distintos medios que favorezcan la construcción de una mejor percepción y conciencia propia.",
+        "horizon2Raw": "Indagar sobre diversas estrategias lúdicas, que incidan en la construcción de una mayor disponibilidad motriz, cognitiva, expresiva y socioemocional.",
+        "sourcePages": [
+          "Visión — Horizonte 2 (p. 257)"
+        ],
+        "evidence": "Extraído por visión de imagen de la página 257 del libro de proyectos. Confianza: alta.",
+        "status": "confirmed-from-project-book",
+        "extractedAt": "2026-06-16T05:08:51.644Z"
+      },
+      "detonatingStrategy": {
+        "status": "pending-url",
+        "text": "Video PPA 6: Recreando prácticas sociales y tecnológicas",
+        "reference": "bit.ly/3VfglUk",
+        "source": "Nuestro libro de proyectos Tomo III pp. 254-255 + Posibilidades de uso DHyC pp. 18-20"
+      },
+      "academicProjectStrategy": {
+        "title": "Producto de cierre del proyecto",
+        "text": "Organizar producto de cierre del proyecto para profundizar en la integracion de movimiento, expresion y emociones para comunicar experiencias colectivas y compartir hallazgos de manera clara con el grupo.",
+        "type": "project-product",
+        "status": "confirmed-from-project-book",
+        "source": "Nuestro libro de proyectos Tomo III pp. 256-260"
+      },
+      "academicConcepts": [
+        {
+          "concept": "producto de cierre del proyecto",
+          "description": "Producto de cierre del proyecto como producto de cierre para organizar y comunicar aprendizajes del proyecto.",
+          "sourceBook": "Nuestro libro de proyectos Tomo III",
+          "sourcePages": [
+            256,
+            260
+          ],
+          "sourcePagesLabel": "pp. 256-260",
+          "topicTitle": "Proyecto academico 18",
+          "status": "confirmed",
+          "reason": "Posibilidades y el propio proyecto fijan Producto de cierre del proyecto como producto final del PA 18.",
+          "pedagogicalUse": "Da una forma concreta de socializar lo comprendido sobre la integracion de movimiento, expresion y emociones para comunicar experiencias colectivas.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "ensamble",
+          "description": "Ensamble es una idea clave para comprender la integracion de movimiento, expresion y emociones para comunicar experiencias colectivas.",
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "sourcePages": [
+            153,
+            160
+          ],
+          "sourcePagesLabel": "pp. 153-160",
+          "topicTitle": "Ensamble motriz, expresivo y socioemocional",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Ensamble motriz, expresivo y socioemocional\" aporta base suficiente para trabajar ensamble dentro del proyecto 18.",
+          "pedagogicalUse": "Ayuda a fortalecer producto de cierre del proyecto y a explicar la integracion de movimiento, expresion y emociones para comunicar experiencias colectivas con mayor claridad mediante ensamble.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "motricidad",
+          "description": "Motricidad es una idea clave para comprender la integracion de movimiento, expresion y emociones para comunicar experiencias colectivas.",
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "sourcePages": [
+            153,
+            160
+          ],
+          "sourcePagesLabel": "pp. 153-160",
+          "topicTitle": "Ensamble motriz, expresivo y socioemocional",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Ensamble motriz, expresivo y socioemocional\" aporta base suficiente para trabajar motricidad dentro del proyecto 18.",
+          "pedagogicalUse": "Ayuda a fortalecer producto de cierre del proyecto y a explicar la integracion de movimiento, expresion y emociones para comunicar experiencias colectivas con mayor claridad mediante motricidad.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "emociones",
+          "description": "Emociones es una idea clave para comprender la integracion de movimiento, expresion y emociones para comunicar experiencias colectivas.",
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "sourcePages": [
+            89,
+            95
+          ],
+          "sourcePagesLabel": "pp. 89-95",
+          "topicTitle": "Expresion corporal y emociones",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Expresion corporal y emociones\" aporta base suficiente para trabajar emociones dentro del proyecto 18.",
+          "pedagogicalUse": "Ayuda a fortalecer producto de cierre del proyecto y a explicar la integracion de movimiento, expresion y emociones para comunicar experiencias colectivas con mayor claridad mediante emociones.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "expresion",
+          "description": "Expresion es una idea clave para comprender la integracion de movimiento, expresion y emociones para comunicar experiencias colectivas.",
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "sourcePages": [
+            89,
+            95
+          ],
+          "sourcePagesLabel": "pp. 89-95",
+          "topicTitle": "Expresion corporal y emociones",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Expresion corporal y emociones\" aporta base suficiente para trabajar expresion dentro del proyecto 18.",
+          "pedagogicalUse": "Ayuda a fortalecer producto de cierre del proyecto y a explicar la integracion de movimiento, expresion y emociones para comunicar experiencias colectivas con mayor claridad mediante expresion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        }
+      ],
+      "thinkingCriteria": [
+        "Relacionar la integracion de movimiento, expresion y emociones para comunicar experiencias colectivas con situaciones cercanas a la comunidad.",
+        "Usar producto de cierre del proyecto para explicar y no solo para recopilar informacion.",
+        "Distinguir entre mencionar conceptos y comprender como dialogan entre si dentro del proyecto."
+      ],
+      "validationStatus": {
+        "readinessLevel": "development-partial",
+        "readyForActivities": false,
+        "needsReviewReasons": [
+          "El bloque 6 ya es usable como lectura docente, pero el video del PPA 6 y el recurso informatico siguen pendientes de validacion de destino final.",
+          "La asignacion de apoyos de Posibilidades se sostiene por inferencia curricular documentada y no por OCR perfectamente separado por columnas.",
+          "No mover a actividades interactivas ni desbloquear juegos completos hasta ampliar validacion de videos y recursos complementarios."
+        ]
+      },
+      "readinessLevel": "development-partial",
+      "readyForActivities": false,
+      "needsReviewReasons": [
+        "No mover a actividades interactivas ni desbloquear juegos completos."
+      ],
+      "roleInPpa": "Cierra el bloque al ensamblar dimensiones motrices, expresivas y socioemocionales.",
+      "pedagogicalUse": "Conviene trabajar Ensamble motriz-expresivo-socioemocional como una oportunidad para profundizar en la integracion de movimiento, expresion y emociones para comunicar experiencias colectivas sin separar contenido, comunidad y producto final.",
+      "teacherNotes": [
+        "Conviene partir de ejemplos cercanos y después pasar al lenguaje mas abstracto del campo.",
+        "El producto Producto de cierre del proyecto gana fuerza cuando se usa para explicar y no solo para exhibir informacion.",
+        "Es mejor seleccionar pocos conceptos bien comprendidos que saturar el trabajo con terminos aislados."
+      ],
+      "resonancePrompts": [
+        {
+          "type": "individual",
+          "prompt": "¿Qué comprendes mejor sobre la integracion de movimiento, expresion y emociones para comunicar experiencias colectivas después de elaborar producto de cierre del proyecto?"
+        },
+        {
+          "type": "community",
+          "prompt": "¿Qué diálogos comunitarios podrían fortalecerse si compartimos producto de cierre del proyecto y lo ponemos en conversación con otras personas?"
+        }
+      ],
+      "notReadyFor": [
+        "full-games",
+        "summative-exam"
+      ]
+    }
+  ]
+}

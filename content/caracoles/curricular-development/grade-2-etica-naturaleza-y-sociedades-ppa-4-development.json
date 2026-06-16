@@ -1,0 +1,781 @@
+{
+  "grade": "2",
+  "gradeLabel": "Segundo grado",
+  "field": "Etica, Naturaleza y Sociedades",
+  "bookVolume": "Tomo I",
+  "partialClassroomProject": "PPA 4",
+  "partialClassroomProjectTitle": "¡Qué vivan la independencia y la interculturalidad!",
+  "generatedAt": "2026-06-02T19:34:55.623Z",
+  "notes": "Capa curricular generada por lote para 2o Etica, Naturaleza y Sociedades, PPA 4.",
+  "sourcesUsed": [
+    "public/caracoles/data/generated/grade-2/selectable-projects.json",
+    "content/caracoles/generated-private/grade-2/pages-index.full.json",
+    "Posibilidades de uso ENS, segundo grado, pp. 11-12",
+    "Nuestro libro de proyectos Tomo I, segundo grado, pp. 229-244",
+    "Etica, Naturaleza y Sociedades, segundo grado, pp. 65-83 y 293-300; Multiples Lenguajes pp. 42-43, 62-63 y 106-109."
+  ],
+  "partialClassroomProjectContext": {
+    "expectationHorizon": {
+      "officialText": "",
+      "sourcePages": [
+        "Nuestro libro de proyectos Tomo I pp. 229-230",
+        "Posibilidades de uso ENS pp. 11-12"
+      ],
+      "evidence": "El PPA 4 enlaza luchas independentistas, consumacion de la independencia e interculturalidad para discutir igualdad, poder y participacion popular.",
+      "status": "pending"
+    },
+    "ppaDetonatingStrategy": {
+      "title": "¡Qué vivan la independencia y la interculturalidad!",
+      "type": "video",
+      "url": "",
+      "urlStatus": "pending-url",
+      "reference": "bit.ly/3VfglUk",
+      "source": "Nuestro libro de proyectos Tomo I pp. 229-230 + Posibilidades de uso ENS pp. 11-12",
+      "scope": "partial-classroom-project",
+      "youtubeSearchQuery": "¡Qué vivan la independencia y la interculturalidad! Etica, Naturaleza y Sociedades 2do grado Telesecundaria"
+    },
+    "ppaDigitalResource": {
+      "title": "Recurso informatico del bloque PPA 4",
+      "reference": "bit.ly/3WQBMwg",
+      "status": "pending-validation",
+      "source": "Nuestro libro de proyectos Tomo I pp. 229-244"
+    },
+    "validationStatus": {
+      "needsHumanReview": true,
+      "needsReviewReasons": [
+        "Las pp. 11-12 de Posibilidades pertenecen al mismo PPA 4.",
+        "La asignacion de apoyos por columna se fija por inferencia curricular documentada de izquierda a derecha.",
+        "Los enlaces cortos del video del PPA y del recurso informatico se mantienen en cautela hasta localizar un destino oficial confirmado."
+      ]
+    },
+    "columnValidation": {
+      "possibilitiesPagesReviewed": [
+        11,
+        12
+      ],
+      "confirmedAsPpa": true,
+      "note": "Las pp. 11-12 corresponden al PPA 4 ¡Qué vivan la independencia y la interculturalidad!. Las tres columnas se sostienen por el orden de proyectos, productos y apoyos del mismo bloque.",
+      "columns": [
+        {
+          "columnIndex": 1,
+          "projectId": "etica-naturaleza-y-sociedades-2-ppa-4-pa10",
+          "projectTitle": "Las luchas populares de Hidalgo y Morelos",
+          "finalProduct": "Línea del tiempo",
+          "supportMaterials": [
+            "Los emulantes, pp. 106-109"
+          ]
+        },
+        {
+          "columnIndex": 2,
+          "projectId": "etica-naturaleza-y-sociedades-2-ppa-4-pa11",
+          "projectTitle": "La consumación de la Independencia que mantuvo las mismas estructuras de poder",
+          "finalProduct": "Historieta histórica",
+          "supportMaterials": [
+            "4 de octubre de 1821, pp. 62-63"
+          ]
+        },
+        {
+          "columnIndex": 3,
+          "projectId": "etica-naturaleza-y-sociedades-2-ppa-4-pa12",
+          "projectTitle": "La igualdad en el marco de la interculturalidad",
+          "finalProduct": "Cartel informativo",
+          "supportMaterials": [
+            "Nakasmati, pp. 42-43"
+          ]
+        }
+      ]
+    }
+  },
+  "academicProjects": [
+    {
+      "id": "etica-naturaleza-y-sociedades-2-ppa-4-pa10",
+      "projectId": "etica-naturaleza-y-sociedades-2-ppa-4-pa10",
+      "academicProjectNumber": 10,
+      "title": "Las luchas populares de Hidalgo y Morelos",
+      "projectTitle": "Las luchas populares de Hidalgo y Morelos",
+      "grade": "2",
+      "field": "Etica, Naturaleza y Sociedades",
+      "ppaNumber": "4",
+      "partialClassroomProject": "PPA 4",
+      "partialClassroomProjectTitle": "¡Qué vivan la independencia y la interculturalidad!",
+      "bookVolume": "Tomo I",
+      "sourceValidation": {
+        "sourceStatus": "linked",
+        "possibilitiesPages": [
+          11,
+          12
+        ],
+        "possibilitiesMaterialId": "grade-2-posibilidades-pos-ens-2",
+        "possibilitiesColumnIndex": 1,
+        "columnEvidence": "Bloque PPA 4 ¡Qué vivan la independencia y la interculturalidad! localizado en pp. 11-12; la columna 1 se confirma por el orden de proyectos, productos y continuidad del mismo bloque."
+      },
+      "finalProduct": {
+        "title": "Línea del tiempo",
+        "source": "Posibilidades de uso ENS pp. 11-12 + Nuestro libro de proyectos Tomo I pp. 231-235",
+        "status": "confirmed"
+      },
+      "sourcePages": {
+        "nuestroLibroProyectos": [
+          {
+            "materialId": "grade-2-proyectos-nuestro-libro-de-proyectos-tomo-1-segundo-grado",
+            "label": "Nuestro libro de proyectos Tomo I",
+            "startPage": 231,
+            "endPage": 235,
+            "pagesLabel": "pp. 231-235",
+            "topicTitle": "Proyecto academico 10",
+            "status": "confirmed-source"
+          }
+        ],
+        "conceptBook": [
+          {
+            "materialId": "grade-2-conceptos-etica-naturaleza-y-sociedades-segundo-grado",
+            "label": "Etica, Naturaleza y Sociedades",
+            "startPage": 65,
+            "endPage": 72,
+            "pagesLabel": "pp. 65-72",
+            "topicTitle": "Antecedentes de la Independencia de 1810",
+            "status": "confirmed-by-column-inference"
+          },
+          {
+            "materialId": "grade-2-conceptos-etica-naturaleza-y-sociedades-segundo-grado",
+            "label": "Etica, Naturaleza y Sociedades",
+            "startPage": 73,
+            "endPage": 78,
+            "pagesLabel": "pp. 73-78",
+            "topicTitle": "La lucha independentista en Nueva España",
+            "status": "confirmed-by-column-inference"
+          }
+        ],
+        "multiplesLenguajes": [
+          {
+            "materialId": "grade-2-apoyo-multiples-lenguajes-segundo-grado",
+            "label": "Multiples Lenguajes",
+            "startPage": 106,
+            "endPage": 109,
+            "pagesLabel": "pp. 106-109",
+            "topicTitle": "Los emulantes",
+            "status": "confirmed-by-column-inference"
+          }
+        ],
+        "otherMaterials": [
+          {
+            "label": "Video PPA 4: ¡Qué vivan la independencia y la interculturalidad!",
+            "reference": "bit.ly/3VfglUk",
+            "status": "pending-validation"
+          }
+        ]
+      },
+      "supportMaterials": [
+        {
+          "title": "Los emulantes",
+          "kind": "Multiples Lenguajes",
+          "pages": "pp. 106-109",
+          "status": "confirmed-by-column-inference"
+        }
+      ],
+      "horizonOrPurpose": {
+        "status": "pending",
+        "text": "",
+        "source": "Nuestro libro de proyectos Tomo I p. 231"
+      },
+      "projectExpectationHorizon": {
+        "officialText": "",
+        "studentVersion": "",
+        "sourcePages": [
+          "Nuestro libro de proyectos Tomo I p. 231"
+        ],
+        "evidence": "El proyecto ya cuenta con producto, conceptos y articulacion pedagogica, pero el horizonte textual exacto sigue pendiente de confirmacion literal.",
+        "status": "pending"
+      },
+      "detonatingStrategy": {
+        "status": "pending-url",
+        "text": "Video PPA 4: ¡Qué vivan la independencia y la interculturalidad!",
+        "reference": "bit.ly/3VfglUk",
+        "source": "Nuestro libro de proyectos Tomo I pp. 229-230 + Posibilidades de uso ENS pp. 11-12"
+      },
+      "academicProjectStrategy": {
+        "title": "Línea del tiempo",
+        "text": "Organizar línea del tiempo para profundizar en las luchas populares de Hidalgo y Morelos dentro del proceso independentista novohispano y compartir hallazgos de manera clara con el grupo.",
+        "type": "project-product",
+        "status": "confirmed-from-project-book",
+        "source": "Nuestro libro de proyectos Tomo I pp. 231-235"
+      },
+      "academicConcepts": [
+        {
+          "concept": "línea del tiempo",
+          "description": "Línea del tiempo como producto de cierre para organizar y comunicar aprendizajes del proyecto.",
+          "sourceBook": "Nuestro libro de proyectos Tomo I",
+          "sourcePages": [
+            231,
+            235
+          ],
+          "sourcePagesLabel": "pp. 231-235",
+          "topicTitle": "Proyecto academico 10",
+          "status": "confirmed",
+          "reason": "Posibilidades y el propio proyecto fijan Línea del tiempo como producto final del PA 10.",
+          "pedagogicalUse": "Da una forma concreta de socializar lo comprendido sobre las luchas populares de Hidalgo y Morelos dentro del proceso independentista novohispano.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "independencia",
+          "description": "Independencia es una idea clave para comprender las luchas populares de Hidalgo y Morelos dentro del proceso independentista novohispano.",
+          "sourceBook": "Etica, Naturaleza y Sociedades",
+          "sourcePages": [
+            73,
+            78
+          ],
+          "sourcePagesLabel": "pp. 73-78",
+          "topicTitle": "La lucha independentista en Nueva España",
+          "status": "confirmed",
+          "reason": "La fuente validada \"La lucha independentista en Nueva España\" aporta base suficiente para trabajar independencia dentro del proyecto 10.",
+          "pedagogicalUse": "Ayuda a fortalecer línea del tiempo y a explicar las luchas populares de Hidalgo y Morelos dentro del proceso independentista novohispano con mayor claridad mediante independencia.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Hidalgo",
+          "description": "Hidalgo es una idea clave para comprender las luchas populares de Hidalgo y Morelos dentro del proceso independentista novohispano.",
+          "sourceBook": "Etica, Naturaleza y Sociedades",
+          "sourcePages": [
+            73,
+            78
+          ],
+          "sourcePagesLabel": "pp. 73-78",
+          "topicTitle": "La lucha independentista en Nueva España",
+          "status": "confirmed",
+          "reason": "La fuente validada \"La lucha independentista en Nueva España\" aporta base suficiente para trabajar Hidalgo dentro del proyecto 10.",
+          "pedagogicalUse": "Ayuda a fortalecer línea del tiempo y a explicar las luchas populares de Hidalgo y Morelos dentro del proceso independentista novohispano con mayor claridad mediante Hidalgo.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Morelos",
+          "description": "Morelos es una idea clave para comprender las luchas populares de Hidalgo y Morelos dentro del proceso independentista novohispano.",
+          "sourceBook": "Etica, Naturaleza y Sociedades",
+          "sourcePages": [
+            73,
+            78
+          ],
+          "sourcePagesLabel": "pp. 73-78",
+          "topicTitle": "La lucha independentista en Nueva España",
+          "status": "confirmed",
+          "reason": "La fuente validada \"La lucha independentista en Nueva España\" aporta base suficiente para trabajar Morelos dentro del proyecto 10.",
+          "pedagogicalUse": "Ayuda a fortalecer línea del tiempo y a explicar las luchas populares de Hidalgo y Morelos dentro del proceso independentista novohispano con mayor claridad mediante Morelos.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "participacion popular",
+          "description": "Participacion popular es una idea clave para comprender las luchas populares de Hidalgo y Morelos dentro del proceso independentista novohispano.",
+          "sourceBook": "Etica, Naturaleza y Sociedades",
+          "sourcePages": [
+            73,
+            78
+          ],
+          "sourcePagesLabel": "pp. 73-78",
+          "topicTitle": "La lucha independentista en Nueva España",
+          "status": "confirmed",
+          "reason": "La fuente validada \"La lucha independentista en Nueva España\" aporta base suficiente para trabajar participacion popular dentro del proyecto 10.",
+          "pedagogicalUse": "Ayuda a fortalecer línea del tiempo y a explicar las luchas populares de Hidalgo y Morelos dentro del proceso independentista novohispano con mayor claridad mediante participacion popular.",
+          "activityReadiness": "usable-for-autoevaluation"
+        }
+      ],
+      "thinkingCriteria": [
+        "Relacionar las luchas populares de Hidalgo y Morelos dentro del proceso independentista novohispano con situaciones cercanas a la comunidad.",
+        "Usar línea del tiempo para explicar y no solo para recopilar informacion.",
+        "Distinguir entre mencionar conceptos y comprender como dialogan entre si dentro del proyecto."
+      ],
+      "validationStatus": {
+        "readinessLevel": "development-partial",
+        "readyForActivities": false,
+        "needsReviewReasons": [
+          "El bloque 4 ya es usable como lectura docente, pero el video del PPA 4 y el recurso informatico siguen pendientes de validacion de destino final.",
+          "La asignacion de apoyos de Posibilidades se sostiene por inferencia curricular documentada y no por OCR perfectamente separado por columnas.",
+          "No mover a actividades interactivas ni desbloquear juegos completos hasta ampliar validacion de videos y recursos complementarios."
+        ]
+      },
+      "readinessLevel": "development-partial",
+      "readyForActivities": false,
+      "needsReviewReasons": [
+        "No mover a actividades interactivas ni desbloquear juegos completos."
+      ],
+      "roleInPpa": "Abre el bloque con una lectura historica de las luchas populares que impulsaron la independencia.",
+      "pedagogicalUse": "Conviene trabajar Las luchas populares de Hidalgo y Morelos como una oportunidad para profundizar en las luchas populares de Hidalgo y Morelos dentro del proceso independentista novohispano sin separar contenido, comunidad y producto final.",
+      "teacherNotes": [
+        "Conviene partir de ejemplos cercanos y después pasar al lenguaje mas abstracto del campo.",
+        "El producto Línea del tiempo gana fuerza cuando se usa para explicar y no solo para exhibir informacion.",
+        "Es mejor seleccionar pocos conceptos bien comprendidos que saturar el trabajo con terminos aislados."
+      ],
+      "resonancePrompts": [
+        {
+          "type": "individual",
+          "prompt": "¿Qué comprendes mejor sobre las luchas populares de Hidalgo y Morelos dentro del proceso independentista novohispano después de elaborar línea del tiempo?"
+        },
+        {
+          "type": "community",
+          "prompt": "¿Qué diálogos comunitarios podrían fortalecerse si compartimos línea del tiempo y lo ponemos en conversación con otras personas?"
+        }
+      ],
+      "notReadyFor": [
+        "full-games",
+        "summative-exam"
+      ]
+    },
+    {
+      "id": "etica-naturaleza-y-sociedades-2-ppa-4-pa11",
+      "projectId": "etica-naturaleza-y-sociedades-2-ppa-4-pa11",
+      "academicProjectNumber": 11,
+      "title": "La consumación de la Independencia que mantuvo las mismas estructuras de poder",
+      "projectTitle": "La consumación de la Independencia que mantuvo las mismas estructuras de poder",
+      "grade": "2",
+      "field": "Etica, Naturaleza y Sociedades",
+      "ppaNumber": "4",
+      "partialClassroomProject": "PPA 4",
+      "partialClassroomProjectTitle": "¡Qué vivan la independencia y la interculturalidad!",
+      "bookVolume": "Tomo I",
+      "sourceValidation": {
+        "sourceStatus": "linked",
+        "possibilitiesPages": [
+          11,
+          12
+        ],
+        "possibilitiesMaterialId": "grade-2-posibilidades-pos-ens-2",
+        "possibilitiesColumnIndex": 2,
+        "columnEvidence": "Bloque PPA 4 ¡Qué vivan la independencia y la interculturalidad! localizado en pp. 11-12; la columna 2 se confirma por el orden de proyectos, productos y continuidad del mismo bloque."
+      },
+      "finalProduct": {
+        "title": "Historieta histórica",
+        "source": "Posibilidades de uso ENS pp. 11-12 + Nuestro libro de proyectos Tomo I pp. 236-239",
+        "status": "confirmed"
+      },
+      "sourcePages": {
+        "nuestroLibroProyectos": [
+          {
+            "materialId": "grade-2-proyectos-nuestro-libro-de-proyectos-tomo-1-segundo-grado",
+            "label": "Nuestro libro de proyectos Tomo I",
+            "startPage": 236,
+            "endPage": 239,
+            "pagesLabel": "pp. 236-239",
+            "topicTitle": "Proyecto academico 11",
+            "status": "confirmed-source"
+          }
+        ],
+        "conceptBook": [
+          {
+            "materialId": "grade-2-conceptos-etica-naturaleza-y-sociedades-segundo-grado",
+            "label": "Etica, Naturaleza y Sociedades",
+            "startPage": 73,
+            "endPage": 78,
+            "pagesLabel": "pp. 73-78",
+            "topicTitle": "La lucha independentista en Nueva España",
+            "status": "confirmed-by-column-inference"
+          },
+          {
+            "materialId": "grade-2-conceptos-etica-naturaleza-y-sociedades-segundo-grado",
+            "label": "Etica, Naturaleza y Sociedades",
+            "startPage": 79,
+            "endPage": 83,
+            "pagesLabel": "pp. 79-83",
+            "topicTitle": "El pais despues de la guerra",
+            "status": "confirmed-by-column-inference"
+          }
+        ],
+        "multiplesLenguajes": [
+          {
+            "materialId": "grade-2-apoyo-multiples-lenguajes-segundo-grado",
+            "label": "Multiples Lenguajes",
+            "startPage": 62,
+            "endPage": 63,
+            "pagesLabel": "pp. 62-63",
+            "topicTitle": "4 de octubre de 1821",
+            "status": "confirmed-by-column-inference"
+          }
+        ],
+        "otherMaterials": [
+          {
+            "label": "Video PPA 4: ¡Qué vivan la independencia y la interculturalidad!",
+            "reference": "bit.ly/3VfglUk",
+            "status": "pending-validation"
+          }
+        ]
+      },
+      "supportMaterials": [
+        {
+          "title": "4 de octubre de 1821",
+          "kind": "Multiples Lenguajes",
+          "pages": "pp. 62-63",
+          "status": "confirmed-by-column-inference"
+        }
+      ],
+      "horizonOrPurpose": {
+        "status": "confirmed-from-project-book",
+        "text": "Conocer los sucesos de 1820 en España y la alianza de los grupos principales de la Nueva España que definieron la consumación de la Independencia, con el fin de elaborar una historieta histórica que explique las etapas de la construcción de la nueva nación mexicana.",
+        "source": "Visión — Horizonte 2 (p. 237)"
+      },
+      "projectExpectationHorizon": {
+        "officialText": "Conocer los sucesos de 1820 en España y la alianza de los grupos principales de la Nueva España que definieron la consumación de la Independencia, con el fin de elaborar una historieta histórica que explique las etapas de la construcción de la nueva nación mexicana.",
+        "studentVersion": "Conocer los sucesos de 1820 en España y la alianza de los grupos principales de la Nueva España que definieron la consumación de la Independencia, con el fin de elaborar una historieta histórica que explique las etapas de la construcción de la nueva nación mexicana.",
+        "horizon1Raw": "Elaborar una historieta histórica sobre la consumación de la Independencia a partir de que España decide imponer el liberalismo económico y se establecen las alianzas entre los criollos, el ejército y la iglesia en la Nueva España.",
+        "horizon2Raw": "Conocer los sucesos de 1820 en España y la alianza de los grupos principales de la Nueva España que definieron la consumación de la Independencia, con el fin de elaborar una historieta histórica que explique las etapas de la construcción de la nueva nación mexicana.",
+        "sourcePages": [
+          "Visión — Horizonte 2 (p. 237)"
+        ],
+        "evidence": "Extraído por visión de imagen de la página 237 del libro de proyectos. Confianza: alta.",
+        "status": "confirmed-from-project-book",
+        "extractedAt": "2026-06-16T05:10:02.126Z"
+      },
+      "detonatingStrategy": {
+        "status": "pending-url",
+        "text": "Video PPA 4: ¡Qué vivan la independencia y la interculturalidad!",
+        "reference": "bit.ly/3VfglUk",
+        "source": "Nuestro libro de proyectos Tomo I pp. 234-235 + Posibilidades de uso ENS pp. 11-12"
+      },
+      "academicProjectStrategy": {
+        "title": "Historieta histórica",
+        "text": "Organizar historieta histórica para profundizar en la consumacion de la independencia y la permanencia de estructuras de poder en el Mexico independiente y compartir hallazgos de manera clara con el grupo.",
+        "type": "project-product",
+        "status": "confirmed-from-project-book",
+        "source": "Nuestro libro de proyectos Tomo I pp. 236-239"
+      },
+      "academicConcepts": [
+        {
+          "concept": "historieta histórica",
+          "description": "Historieta histórica como producto de cierre para organizar y comunicar aprendizajes del proyecto.",
+          "sourceBook": "Nuestro libro de proyectos Tomo I",
+          "sourcePages": [
+            236,
+            239
+          ],
+          "sourcePagesLabel": "pp. 236-239",
+          "topicTitle": "Proyecto academico 11",
+          "status": "confirmed",
+          "reason": "Posibilidades y el propio proyecto fijan Historieta histórica como producto final del PA 11.",
+          "pedagogicalUse": "Da una forma concreta de socializar lo comprendido sobre la consumacion de la independencia y la permanencia de estructuras de poder en el Mexico independiente.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "consumacion de la independencia",
+          "description": "Consumacion de la independencia es una idea clave para comprender la consumacion de la independencia y la permanencia de estructuras de poder en el Mexico independiente.",
+          "sourceBook": "Etica, Naturaleza y Sociedades",
+          "sourcePages": [
+            73,
+            78
+          ],
+          "sourcePagesLabel": "pp. 73-78",
+          "topicTitle": "La lucha independentista en Nueva España",
+          "status": "confirmed",
+          "reason": "La fuente validada \"La lucha independentista en Nueva España\" aporta base suficiente para trabajar consumacion de la independencia dentro del proyecto 11.",
+          "pedagogicalUse": "Ayuda a fortalecer historieta histórica y a explicar la consumacion de la independencia y la permanencia de estructuras de poder en el Mexico independiente con mayor claridad mediante consumacion de la independencia.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "oligarquias criollas",
+          "description": "Oligarquias criollas es una idea clave para comprender la consumacion de la independencia y la permanencia de estructuras de poder en el Mexico independiente.",
+          "sourceBook": "Etica, Naturaleza y Sociedades",
+          "sourcePages": [
+            79,
+            83
+          ],
+          "sourcePagesLabel": "pp. 79-83",
+          "topicTitle": "El pais despues de la guerra",
+          "status": "confirmed",
+          "reason": "La fuente validada \"El pais despues de la guerra\" aporta base suficiente para trabajar oligarquias criollas dentro del proyecto 11.",
+          "pedagogicalUse": "Ayuda a fortalecer historieta histórica y a explicar la consumacion de la independencia y la permanencia de estructuras de poder en el Mexico independiente con mayor claridad mediante oligarquias criollas.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Constitucion Federal de 1824",
+          "description": "Constitucion Federal de 1824 es una idea clave para comprender la consumacion de la independencia y la permanencia de estructuras de poder en el Mexico independiente.",
+          "sourceBook": "Etica, Naturaleza y Sociedades",
+          "sourcePages": [
+            79,
+            83
+          ],
+          "sourcePagesLabel": "pp. 79-83",
+          "topicTitle": "El pais despues de la guerra",
+          "status": "confirmed",
+          "reason": "La fuente validada \"El pais despues de la guerra\" aporta base suficiente para trabajar Constitucion Federal de 1824 dentro del proyecto 11.",
+          "pedagogicalUse": "Ayuda a fortalecer historieta histórica y a explicar la consumacion de la independencia y la permanencia de estructuras de poder en el Mexico independiente con mayor claridad mediante Constitucion Federal de 1824.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "estructuras de poder",
+          "description": "Estructuras de poder es una idea clave para comprender la consumacion de la independencia y la permanencia de estructuras de poder en el Mexico independiente.",
+          "sourceBook": "Etica, Naturaleza y Sociedades",
+          "sourcePages": [
+            79,
+            83
+          ],
+          "sourcePagesLabel": "pp. 79-83",
+          "topicTitle": "El pais despues de la guerra",
+          "status": "confirmed",
+          "reason": "La fuente validada \"El pais despues de la guerra\" aporta base suficiente para trabajar estructuras de poder dentro del proyecto 11.",
+          "pedagogicalUse": "Ayuda a fortalecer historieta histórica y a explicar la consumacion de la independencia y la permanencia de estructuras de poder en el Mexico independiente con mayor claridad mediante estructuras de poder.",
+          "activityReadiness": "usable-for-autoevaluation"
+        }
+      ],
+      "thinkingCriteria": [
+        "Relacionar la consumacion de la independencia y la permanencia de estructuras de poder en el Mexico independiente con situaciones cercanas a la comunidad.",
+        "Usar historieta histórica para explicar y no solo para recopilar informacion.",
+        "Distinguir entre mencionar conceptos y comprender como dialogan entre si dentro del proyecto."
+      ],
+      "validationStatus": {
+        "readinessLevel": "development-partial",
+        "readyForActivities": false,
+        "needsReviewReasons": [
+          "El bloque 4 ya es usable como lectura docente, pero el video del PPA 4 y el recurso informatico siguen pendientes de validacion de destino final.",
+          "La asignacion de apoyos de Posibilidades se sostiene por inferencia curricular documentada y no por OCR perfectamente separado por columnas.",
+          "No mover a actividades interactivas ni desbloquear juegos completos hasta ampliar validacion de videos y recursos complementarios."
+        ]
+      },
+      "readinessLevel": "development-partial",
+      "readyForActivities": false,
+      "needsReviewReasons": [
+        "No mover a actividades interactivas ni desbloquear juegos completos."
+      ],
+      "roleInPpa": "Profundiza el bloque al mostrar que la consumacion de la independencia no modifico todas las jerarquias heredadas.",
+      "pedagogicalUse": "Conviene trabajar La consumación de la Independencia que mantuvo las mismas estructuras de poder como una oportunidad para profundizar en la consumacion de la independencia y la permanencia de estructuras de poder en el Mexico independiente sin separar contenido, comunidad y producto final.",
+      "teacherNotes": [
+        "Conviene partir de ejemplos cercanos y después pasar al lenguaje mas abstracto del campo.",
+        "El producto Historieta histórica gana fuerza cuando se usa para explicar y no solo para exhibir informacion.",
+        "Es mejor seleccionar pocos conceptos bien comprendidos que saturar el trabajo con terminos aislados."
+      ],
+      "resonancePrompts": [
+        {
+          "type": "individual",
+          "prompt": "¿Qué comprendes mejor sobre la consumacion de la independencia y la permanencia de estructuras de poder en el Mexico independiente después de elaborar historieta histórica?"
+        },
+        {
+          "type": "community",
+          "prompt": "¿Qué diálogos comunitarios podrían fortalecerse si compartimos historieta histórica y lo ponemos en conversación con otras personas?"
+        }
+      ],
+      "notReadyFor": [
+        "full-games",
+        "summative-exam"
+      ]
+    },
+    {
+      "id": "etica-naturaleza-y-sociedades-2-ppa-4-pa12",
+      "projectId": "etica-naturaleza-y-sociedades-2-ppa-4-pa12",
+      "academicProjectNumber": 12,
+      "title": "La igualdad en el marco de la interculturalidad",
+      "projectTitle": "La igualdad en el marco de la interculturalidad",
+      "grade": "2",
+      "field": "Etica, Naturaleza y Sociedades",
+      "ppaNumber": "4",
+      "partialClassroomProject": "PPA 4",
+      "partialClassroomProjectTitle": "¡Qué vivan la independencia y la interculturalidad!",
+      "bookVolume": "Tomo I",
+      "sourceValidation": {
+        "sourceStatus": "linked",
+        "possibilitiesPages": [
+          11,
+          12
+        ],
+        "possibilitiesMaterialId": "grade-2-posibilidades-pos-ens-2",
+        "possibilitiesColumnIndex": 3,
+        "columnEvidence": "Bloque PPA 4 ¡Qué vivan la independencia y la interculturalidad! localizado en pp. 11-12; la columna 3 se confirma por el orden de proyectos, productos y continuidad del mismo bloque."
+      },
+      "finalProduct": {
+        "title": "Cartel informativo",
+        "source": "Posibilidades de uso ENS pp. 11-12 + Nuestro libro de proyectos Tomo I pp. 240-244",
+        "status": "confirmed"
+      },
+      "sourcePages": {
+        "nuestroLibroProyectos": [
+          {
+            "materialId": "grade-2-proyectos-nuestro-libro-de-proyectos-tomo-1-segundo-grado",
+            "label": "Nuestro libro de proyectos Tomo I",
+            "startPage": 240,
+            "endPage": 244,
+            "pagesLabel": "pp. 240-244",
+            "topicTitle": "Proyecto academico 12",
+            "status": "confirmed-source"
+          }
+        ],
+        "conceptBook": [
+          {
+            "materialId": "grade-2-conceptos-etica-naturaleza-y-sociedades-segundo-grado",
+            "label": "Etica, Naturaleza y Sociedades",
+            "startPage": 293,
+            "endPage": 300,
+            "pagesLabel": "pp. 293-300",
+            "topicTitle": "Juicios eticos sobre problemas de injusticia y discriminacion y propuestas congruentes con la inclusion, la interculturalidad y la perspectiva de genero",
+            "status": "confirmed-by-column-inference"
+          }
+        ],
+        "multiplesLenguajes": [
+          {
+            "materialId": "grade-2-apoyo-multiples-lenguajes-segundo-grado",
+            "label": "Multiples Lenguajes",
+            "startPage": 42,
+            "endPage": 43,
+            "pagesLabel": "pp. 42-43",
+            "topicTitle": "Nakasmati",
+            "status": "confirmed-by-column-inference"
+          }
+        ],
+        "otherMaterials": [
+          {
+            "label": "Video PPA 4: ¡Qué vivan la independencia y la interculturalidad!",
+            "reference": "bit.ly/3VfglUk",
+            "status": "pending-validation"
+          }
+        ]
+      },
+      "supportMaterials": [
+        {
+          "title": "Nakasmati",
+          "kind": "Multiples Lenguajes",
+          "pages": "pp. 42-43",
+          "status": "confirmed-by-column-inference"
+        }
+      ],
+      "horizonOrPurpose": {
+        "status": "confirmed-from-project-book",
+        "text": "Conocer cómo promover la igualdad en el marco de la interculturalidad, por medio de la elaboración de un cartel informativo que explique lo importante que es fortalecer la inclusión y la perspectiva de género en la localidad.",
+        "source": "Visión — Horizonte 2 (p. 241)"
+      },
+      "projectExpectationHorizon": {
+        "officialText": "Conocer cómo promover la igualdad en el marco de la interculturalidad, por medio de la elaboración de un cartel informativo que explique lo importante que es fortalecer la inclusión y la perspectiva de género en la localidad.",
+        "studentVersion": "Conocer cómo promover la igualdad en el marco de la interculturalidad, por medio de la elaboración de un cartel informativo que explique lo importante que es fortalecer la inclusión y la perspectiva de género en la localidad.",
+        "horizon1Raw": "Elaborar un cartel informativo con las características de la interculturalidad y la importancia de la participación popular en nuestra localidad.",
+        "horizon2Raw": "Conocer cómo promover la igualdad en el marco de la interculturalidad, por medio de la elaboración de un cartel informativo que explique lo importante que es fortalecer la inclusión y la perspectiva de género en la localidad.",
+        "sourcePages": [
+          "Visión — Horizonte 2 (p. 241)"
+        ],
+        "evidence": "Extraído por visión de imagen de la página 241 del libro de proyectos. Confianza: alta.",
+        "status": "confirmed-from-project-book",
+        "extractedAt": "2026-06-16T05:31:09.034Z"
+      },
+      "detonatingStrategy": {
+        "status": "pending-url",
+        "text": "Video PPA 4: ¡Qué vivan la independencia y la interculturalidad!",
+        "reference": "bit.ly/3VfglUk",
+        "source": "Nuestro libro de proyectos Tomo I pp. 238-239 + Posibilidades de uso ENS pp. 11-12"
+      },
+      "academicProjectStrategy": {
+        "title": "Cartel informativo",
+        "text": "Organizar cartel informativo para profundizar en la igualdad, la inclusion y la interculturalidad como respuestas frente a la discriminacion y compartir hallazgos de manera clara con el grupo.",
+        "type": "project-product",
+        "status": "confirmed-from-project-book",
+        "source": "Nuestro libro de proyectos Tomo I pp. 240-244"
+      },
+      "academicConcepts": [
+        {
+          "concept": "cartel informativo",
+          "description": "Cartel informativo como producto de cierre para organizar y comunicar aprendizajes del proyecto.",
+          "sourceBook": "Nuestro libro de proyectos Tomo I",
+          "sourcePages": [
+            240,
+            244
+          ],
+          "sourcePagesLabel": "pp. 240-244",
+          "topicTitle": "Proyecto academico 12",
+          "status": "confirmed",
+          "reason": "Posibilidades y el propio proyecto fijan Cartel informativo como producto final del PA 12.",
+          "pedagogicalUse": "Da una forma concreta de socializar lo comprendido sobre la igualdad, la inclusion y la interculturalidad como respuestas frente a la discriminacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "inclusion",
+          "description": "Inclusion es una idea clave para comprender la igualdad, la inclusion y la interculturalidad como respuestas frente a la discriminacion.",
+          "sourceBook": "Etica, Naturaleza y Sociedades",
+          "sourcePages": [
+            293,
+            300
+          ],
+          "sourcePagesLabel": "pp. 293-300",
+          "topicTitle": "Juicios eticos sobre problemas de injusticia y discriminacion y propuestas congruentes con la inclusion, la interculturalidad y la perspectiva de genero",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Juicios eticos sobre problemas de injusticia y discriminacion y propuestas congruentes con la inclusion, la interculturalidad y la perspectiva de genero\" aporta base suficiente para trabajar inclusion dentro del proyecto 12.",
+          "pedagogicalUse": "Ayuda a fortalecer cartel informativo y a explicar la igualdad, la inclusion y la interculturalidad como respuestas frente a la discriminacion con mayor claridad mediante inclusion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "interculturalidad",
+          "description": "Interculturalidad es una idea clave para comprender la igualdad, la inclusion y la interculturalidad como respuestas frente a la discriminacion.",
+          "sourceBook": "Etica, Naturaleza y Sociedades",
+          "sourcePages": [
+            293,
+            300
+          ],
+          "sourcePagesLabel": "pp. 293-300",
+          "topicTitle": "Juicios eticos sobre problemas de injusticia y discriminacion y propuestas congruentes con la inclusion, la interculturalidad y la perspectiva de genero",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Juicios eticos sobre problemas de injusticia y discriminacion y propuestas congruentes con la inclusion, la interculturalidad y la perspectiva de genero\" aporta base suficiente para trabajar interculturalidad dentro del proyecto 12.",
+          "pedagogicalUse": "Ayuda a fortalecer cartel informativo y a explicar la igualdad, la inclusion y la interculturalidad como respuestas frente a la discriminacion con mayor claridad mediante interculturalidad.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "perspectiva de genero",
+          "description": "Perspectiva de genero es una idea clave para comprender la igualdad, la inclusion y la interculturalidad como respuestas frente a la discriminacion.",
+          "sourceBook": "Etica, Naturaleza y Sociedades",
+          "sourcePages": [
+            293,
+            300
+          ],
+          "sourcePagesLabel": "pp. 293-300",
+          "topicTitle": "Juicios eticos sobre problemas de injusticia y discriminacion y propuestas congruentes con la inclusion, la interculturalidad y la perspectiva de genero",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Juicios eticos sobre problemas de injusticia y discriminacion y propuestas congruentes con la inclusion, la interculturalidad y la perspectiva de genero\" aporta base suficiente para trabajar perspectiva de genero dentro del proyecto 12.",
+          "pedagogicalUse": "Ayuda a fortalecer cartel informativo y a explicar la igualdad, la inclusion y la interculturalidad como respuestas frente a la discriminacion con mayor claridad mediante perspectiva de genero.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "juicio etico",
+          "description": "Juicio etico es una idea clave para comprender la igualdad, la inclusion y la interculturalidad como respuestas frente a la discriminacion.",
+          "sourceBook": "Etica, Naturaleza y Sociedades",
+          "sourcePages": [
+            293,
+            300
+          ],
+          "sourcePagesLabel": "pp. 293-300",
+          "topicTitle": "Juicios eticos sobre problemas de injusticia y discriminacion y propuestas congruentes con la inclusion, la interculturalidad y la perspectiva de genero",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Juicios eticos sobre problemas de injusticia y discriminacion y propuestas congruentes con la inclusion, la interculturalidad y la perspectiva de genero\" aporta base suficiente para trabajar juicio etico dentro del proyecto 12.",
+          "pedagogicalUse": "Ayuda a fortalecer cartel informativo y a explicar la igualdad, la inclusion y la interculturalidad como respuestas frente a la discriminacion con mayor claridad mediante juicio etico.",
+          "activityReadiness": "usable-for-autoevaluation"
+        }
+      ],
+      "thinkingCriteria": [
+        "Relacionar la igualdad, la inclusion y la interculturalidad como respuestas frente a la discriminacion con situaciones cercanas a la comunidad.",
+        "Usar cartel informativo para explicar y no solo para recopilar informacion.",
+        "Distinguir entre mencionar conceptos y comprender como dialogan entre si dentro del proyecto."
+      ],
+      "validationStatus": {
+        "readinessLevel": "development-partial",
+        "readyForActivities": false,
+        "needsReviewReasons": [
+          "El bloque 4 ya es usable como lectura docente, pero el video del PPA 4 y el recurso informatico siguen pendientes de validacion de destino final.",
+          "La asignacion de apoyos de Posibilidades se sostiene por inferencia curricular documentada y no por OCR perfectamente separado por columnas.",
+          "No mover a actividades interactivas ni desbloquear juegos completos hasta ampliar validacion de videos y recursos complementarios."
+        ]
+      },
+      "readinessLevel": "development-partial",
+      "readyForActivities": false,
+      "needsReviewReasons": [
+        "No mover a actividades interactivas ni desbloquear juegos completos."
+      ],
+      "roleInPpa": "Cierra el bloque llevando la discusión historica hacia un horizonte etico de igualdad sustantiva e interculturalidad.",
+      "pedagogicalUse": "Conviene trabajar La igualdad en el marco de la interculturalidad como una oportunidad para profundizar en la igualdad, la inclusion y la interculturalidad como respuestas frente a la discriminacion sin separar contenido, comunidad y producto final.",
+      "teacherNotes": [
+        "Conviene partir de ejemplos cercanos y después pasar al lenguaje mas abstracto del campo.",
+        "El producto Cartel informativo gana fuerza cuando se usa para explicar y no solo para exhibir informacion.",
+        "Es mejor seleccionar pocos conceptos bien comprendidos que saturar el trabajo con terminos aislados."
+      ],
+      "resonancePrompts": [
+        {
+          "type": "individual",
+          "prompt": "¿Qué comprendes mejor sobre la igualdad, la inclusion y la interculturalidad como respuestas frente a la discriminacion después de elaborar cartel informativo?"
+        },
+        {
+          "type": "community",
+          "prompt": "¿Qué diálogos comunitarios podrían fortalecerse si compartimos cartel informativo y lo ponemos en conversación con otras personas?"
+        }
+      ],
+      "notReadyFor": [
+        "full-games",
+        "summative-exam"
+      ]
+    }
+  ]
+}

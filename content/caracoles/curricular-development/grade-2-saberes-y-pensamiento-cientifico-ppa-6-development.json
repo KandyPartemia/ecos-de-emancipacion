@@ -1,0 +1,804 @@
+{
+  "grade": "2",
+  "gradeLabel": "Segundo grado",
+  "field": "Saberes y Pensamiento Científico",
+  "bookVolume": "Tomo II",
+  "partialClassroomProject": "PPA 6",
+  "partialClassroomProjectTitle": "El taller de Pascal y Arquímedes",
+  "generatedAt": "2026-06-02T18:31:04.730Z",
+  "notes": "Capa curricular generada por lote para 2o Saberes y Pensamiento Científico, PPA 6.",
+  "sourcesUsed": [
+    "public/caracoles/data/generated/grade-2/selectable-projects.json",
+    "content/caracoles/generated-private/grade-2/pages-index.full.json",
+    "Posibilidades de uso SyPC, segundo grado, pp. 17-18",
+    "Nuestro libro de proyectos Tomo II, segundo grado, pp. 87-101",
+    "Saberes y Pensamiento Científico, segundo grado, pp. 14-21, 47-79, 98-102, 115-120, 190-194 y 290-299; Múltiples Lenguajes p. 92."
+  ],
+  "partialClassroomProjectContext": {
+    "expectationHorizon": {
+      "officialText": "",
+      "sourcePages": [
+        "Nuestro libro de proyectos Tomo II pp. 87-88",
+        "Posibilidades de uso SyPC pp. 17-18"
+      ],
+      "evidence": "El PPA 6 enlaza hidrostática, geometría y modelación para que el grupo observe cómo actúan la presión, la densidad, la flotabilidad y las figuras compuestas en situaciones prácticas cercanas.",
+      "status": "pending"
+    },
+    "ppaDetonatingStrategy": {
+      "title": "El taller de Pascal y Arquímedes",
+      "type": "video",
+      "url": "",
+      "urlStatus": "pending-url",
+      "reference": "bit.ly/3VfglUk",
+      "source": "Nuestro libro de proyectos Tomo II pp. 87-88 + Posibilidades de uso SyPC pp. 17-18",
+      "scope": "partial-classroom-project",
+      "youtubeSearchQuery": "El taller de Pascal y Arquímedes Saberes y Pensamiento Científico 2do grado Telesecundaria"
+    },
+    "ppaDigitalResource": {
+      "title": "Recurso informatico del bloque PPA 6",
+      "reference": "bit.ly/3WQBMwg",
+      "status": "pending-validation",
+      "source": "Nuestro libro de proyectos Tomo II pp. 87-101"
+    },
+    "validationStatus": {
+      "needsHumanReview": true,
+      "needsReviewReasons": [
+        "Las pp. 17-18 de Posibilidades pertenecen al mismo PPA 6.",
+        "La asignacion de apoyos por columna se fija por inferencia curricular documentada de izquierda a derecha.",
+        "Los enlaces cortos del video del PPA y del recurso informatico se mantienen en cautela hasta localizar un destino oficial confirmado.",
+        "En Posibilidades el nombre del bloque aparece como Pascal y Arquímedes; se conserva esa forma por coherencia con el contenido de hidrostática.",
+        "El apoyo de Múltiples Lenguajes Jardines flotantes se asigna por inferencia de columna al proyecto de flotabilidad."
+      ]
+    },
+    "columnValidation": {
+      "possibilitiesPagesReviewed": [
+        17,
+        18
+      ],
+      "confirmedAsPpa": true,
+      "note": "Las pp. 17-18 corresponden al PPA 6 El taller de Pascal y Arquímedes. Las tres columnas se sostienen por el orden de proyectos, productos y apoyos del mismo bloque.",
+      "columns": [
+        {
+          "columnIndex": 1,
+          "projectId": "saberes-y-pensamiento-cientifico-2-ppa-6-pa16",
+          "projectTitle": "Principios de Pascal y Arquímedes en situaciones prácticas",
+          "finalProduct": "Experimentos científicos",
+          "supportMaterials": []
+        },
+        {
+          "columnIndex": 2,
+          "projectId": "saberes-y-pensamiento-cientifico-2-ppa-6-pa17",
+          "projectTitle": "Pascal, Arquímedes y figuras compuestas",
+          "finalProduct": "Revista científica",
+          "supportMaterials": []
+        },
+        {
+          "columnIndex": 3,
+          "projectId": "saberes-y-pensamiento-cientifico-2-ppa-6-pa18",
+          "projectTitle": "Flotabilidad de barcos de papel",
+          "finalProduct": "Ejercicios de flotabilidad con barcos de papel",
+          "supportMaterials": [
+            "Jardines flotantes, p. 92"
+          ]
+        }
+      ]
+    }
+  },
+  "academicProjects": [
+    {
+      "id": "saberes-y-pensamiento-cientifico-2-ppa-6-pa16",
+      "projectId": "saberes-y-pensamiento-cientifico-2-ppa-6-pa16",
+      "academicProjectNumber": 16,
+      "title": "Principios de Pascal y Arquímedes en situaciones prácticas",
+      "projectTitle": "Principios de Pascal y Arquímedes en situaciones prácticas",
+      "grade": "2",
+      "field": "Saberes y Pensamiento Científico",
+      "ppaNumber": "6",
+      "partialClassroomProject": "PPA 6",
+      "partialClassroomProjectTitle": "El taller de Pascal y Arquímedes",
+      "bookVolume": "Tomo II",
+      "sourceValidation": {
+        "sourceStatus": "linked",
+        "possibilitiesPages": [
+          17,
+          18
+        ],
+        "possibilitiesMaterialId": "grade-2-posibilidades-pos-sypc-2",
+        "possibilitiesColumnIndex": 1,
+        "columnEvidence": "Bloque PPA 6 El taller de Pascal y Arquímedes localizado en pp. 17-18; la columna 1 se confirma por el orden de proyectos, productos y continuidad del mismo bloque."
+      },
+      "finalProduct": {
+        "title": "Experimentos científicos",
+        "source": "Posibilidades de uso SyPC pp. 17-18 + Nuestro libro de proyectos Tomo II pp. 89-92",
+        "status": "confirmed"
+      },
+      "sourcePages": {
+        "nuestroLibroProyectos": [
+          {
+            "materialId": "grade-2-proyectos-nuestro-libro-de-proyectos-tomo-2-segundo-grado",
+            "label": "Nuestro libro de proyectos Tomo II",
+            "startPage": 89,
+            "endPage": 92,
+            "pagesLabel": "pp. 89-92",
+            "topicTitle": "Proyecto academico 16",
+            "status": "confirmed-source"
+          }
+        ],
+        "conceptBook": [
+          {
+            "materialId": "grade-2-conceptos-saberes-y-pensamiento-cientifico-segundo-grado",
+            "label": "Saberes y Pensamiento Científico",
+            "startPage": 17,
+            "endPage": 21,
+            "pagesLabel": "pp. 17-21",
+            "topicTitle": "Representación algebraica de áreas",
+            "status": "confirmed-by-column-inference"
+          },
+          {
+            "materialId": "grade-2-conceptos-saberes-y-pensamiento-cientifico-segundo-grado",
+            "label": "Saberes y Pensamiento Científico",
+            "startPage": 115,
+            "endPage": 120,
+            "pagesLabel": "pp. 115-120",
+            "topicTitle": "Aplicaciones de la hidrostática",
+            "status": "confirmed-by-column-inference"
+          },
+          {
+            "materialId": "grade-2-conceptos-saberes-y-pensamiento-cientifico-segundo-grado",
+            "label": "Saberes y Pensamiento Científico",
+            "startPage": 290,
+            "endPage": 299,
+            "pagesLabel": "pp. 290-299",
+            "topicTitle": "Hidrostática",
+            "status": "confirmed-by-column-inference"
+          }
+        ],
+        "multiplesLenguajes": [],
+        "otherMaterials": [
+          {
+            "label": "Video PPA 6: El taller de Pascal y Arquímedes",
+            "reference": "bit.ly/3VfglUk",
+            "status": "pending-validation"
+          }
+        ]
+      },
+      "supportMaterials": [],
+      "horizonOrPurpose": {
+        "status": "official",
+        "text": "Emplear los principios de Pascal y Arquímedes en experimentos científicos sobre las interacciones de fuerza y movimiento; usar expresiones cuadráticas para resolver problemas, y discutir sus soluciones y aplicaciones en actividades cotidianas.",
+        "source": "Nuestro libro de proyectos Tomo II p. 89"
+      },
+      "projectExpectationHorizon": {
+        "officialText": "Reconocer cómo funcionan en la vida cotidiana los principios de Pascal y Arquímedes y mostrarlos por medio de experimentos científicos.",
+        "studentVersion": "Diseñar experimentos sencillos para mostrar cómo actúan la presión, el empuje y el movimiento en situaciones cercanas.",
+        "sourcePages": [
+          "Nuestro libro de proyectos Tomo II p. 90"
+        ],
+        "evidence": "La etapa 1 fija experimentos científicos como forma de aplicar los principios de Pascal y Arquímedes y de relacionarlos con expresiones cuadráticas.",
+        "status": "official"
+      },
+      "detonatingStrategy": {
+        "status": "pending-url",
+        "text": "Video PPA 6: El taller de Pascal y Arquímedes",
+        "reference": "bit.ly/3VfglUk",
+        "source": "Nuestro libro de proyectos Tomo II pp. 87-88 + Posibilidades de uso SyPC pp. 17-18"
+      },
+      "academicProjectStrategy": {
+        "title": "Experimentos científicos",
+        "text": "Diseñar y presentar experimentos que expliquen la presión y el empuje en acciones cotidianas, apoyándose en expresiones cuadráticas cuando el problema lo requiera.",
+        "type": "project-product",
+        "status": "confirmed-from-project-book",
+        "source": "Nuestro libro de proyectos Tomo II pp. 89-92"
+      },
+      "academicConcepts": [
+        {
+          "concept": "experimentos científicos",
+          "description": "Experimentos científicos como producto de cierre para organizar y comunicar aprendizajes del proyecto.",
+          "sourceBook": "Nuestro libro de proyectos Tomo II",
+          "sourcePages": [
+            89,
+            92
+          ],
+          "sourcePagesLabel": "pp. 89-92",
+          "topicTitle": "Proyecto academico 16",
+          "status": "confirmed",
+          "reason": "Posibilidades y el propio proyecto fijan Experimentos científicos como producto final del PA 16.",
+          "pedagogicalUse": "Da una forma concreta de socializar lo comprendido sobre la aplicación de los principios de Pascal y Arquímedes en experimentos científicos y la modelación de fuerza y movimiento con expresiones cuadráticas.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "principio de Pascal",
+          "description": "Principio de Pascal es una idea clave para comprender la aplicación de los principios de Pascal y Arquímedes en experimentos científicos y la modelación de fuerza y movimiento con expresiones cuadráticas.",
+          "sourceBook": "Saberes y Pensamiento Científico",
+          "sourcePages": [
+            115,
+            120
+          ],
+          "sourcePagesLabel": "pp. 115-120",
+          "topicTitle": "Aplicaciones de la hidrostática",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Aplicaciones de la hidrostática\" aporta base suficiente para trabajar principio de Pascal dentro del proyecto 16.",
+          "pedagogicalUse": "Ayuda a fortalecer experimentos científicos y a explicar la aplicación de los principios de Pascal y Arquímedes en experimentos científicos y la modelación de fuerza y movimiento con expresiones cuadráticas con mayor claridad mediante principio de Pascal.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "principio de Arquímedes",
+          "description": "Principio de Arquímedes es una idea clave para comprender la aplicación de los principios de Pascal y Arquímedes en experimentos científicos y la modelación de fuerza y movimiento con expresiones cuadráticas.",
+          "sourceBook": "Saberes y Pensamiento Científico",
+          "sourcePages": [
+            115,
+            120
+          ],
+          "sourcePagesLabel": "pp. 115-120",
+          "topicTitle": "Aplicaciones de la hidrostática",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Aplicaciones de la hidrostática\" aporta base suficiente para trabajar principio de Arquímedes dentro del proyecto 16.",
+          "pedagogicalUse": "Ayuda a fortalecer experimentos científicos y a explicar la aplicación de los principios de Pascal y Arquímedes en experimentos científicos y la modelación de fuerza y movimiento con expresiones cuadráticas con mayor claridad mediante principio de Arquímedes.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "expresiones cuadráticas",
+          "description": "Expresiones cuadráticas es una idea clave para comprender la aplicación de los principios de Pascal y Arquímedes en experimentos científicos y la modelación de fuerza y movimiento con expresiones cuadráticas.",
+          "sourceBook": "Saberes y Pensamiento Científico",
+          "sourcePages": [
+            17,
+            21
+          ],
+          "sourcePagesLabel": "pp. 17-21",
+          "topicTitle": "Representación algebraica de áreas",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Representación algebraica de áreas\" aporta base suficiente para trabajar expresiones cuadráticas dentro del proyecto 16.",
+          "pedagogicalUse": "Ayuda a fortalecer experimentos científicos y a explicar la aplicación de los principios de Pascal y Arquímedes en experimentos científicos y la modelación de fuerza y movimiento con expresiones cuadráticas con mayor claridad mediante expresiones cuadráticas.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "fuerza y movimiento",
+          "description": "Fuerza y movimiento es una idea clave para comprender la aplicación de los principios de Pascal y Arquímedes en experimentos científicos y la modelación de fuerza y movimiento con expresiones cuadráticas.",
+          "sourceBook": "Nuestro libro de proyectos Tomo II",
+          "sourcePages": [
+            89,
+            90,
+            91
+          ],
+          "sourcePagesLabel": "pp. 89-91",
+          "topicTitle": "Proyecto académico 16",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Proyecto académico 16\" aporta base suficiente para trabajar fuerza y movimiento dentro del proyecto 16.",
+          "pedagogicalUse": "Ayuda a fortalecer experimentos científicos y a explicar la aplicación de los principios de Pascal y Arquímedes en experimentos científicos y la modelación de fuerza y movimiento con expresiones cuadráticas con mayor claridad mediante fuerza y movimiento.",
+          "activityReadiness": "usable-for-autoevaluation"
+        }
+      ],
+      "thinkingCriteria": [
+        "Relacionar el experimento con la situación práctica que intenta explicar.",
+        "Distinguir entre observar el fenómeno y comprender qué principio físico lo sostiene.",
+        "Usar las expresiones cuadráticas como apoyo de la explicación y no como obstáculo aislado."
+      ],
+      "validationStatus": {
+        "readinessLevel": "development-partial",
+        "readyForActivities": false,
+        "needsReviewReasons": [
+          "El bloque 6 ya es usable como lectura docente, pero el video del PPA 6 y el recurso informatico siguen pendientes de validacion de destino final.",
+          "La asignacion de apoyos de Posibilidades se sostiene por inferencia curricular documentada y no por OCR perfectamente separado por columnas.",
+          "No mover a actividades interactivas ni desbloquear juegos completos hasta ampliar validacion de videos y recursos complementarios."
+        ]
+      },
+      "readinessLevel": "development-partial",
+      "readyForActivities": false,
+      "needsReviewReasons": [
+        "No mover a actividades interactivas ni desbloquear juegos completos."
+      ],
+      "roleInPpa": "Abre el bloque al volver visibles los principios de la hidrostática mediante experimentos y discusión de situaciones cotidianas.",
+      "pedagogicalUse": "Conviene trabajar Principios de Pascal y Arquímedes en situaciones prácticas como una oportunidad para profundizar en la aplicación de los principios de Pascal y Arquímedes en experimentos científicos y la modelación de fuerza y movimiento con expresiones cuadráticas sin separar contenido, comunidad y producto final.",
+      "teacherNotes": [
+        "Conviene partir de ejemplos cercanos y después pasar al lenguaje mas abstracto del campo.",
+        "El producto Experimentos científicos gana fuerza cuando se usa para explicar y no solo para exhibir informacion.",
+        "Es mejor seleccionar pocos conceptos bien comprendidos que saturar el trabajo con terminos aislados."
+      ],
+      "resonancePrompts": [
+        {
+          "type": "individual",
+          "prompt": "¿Qué comprendes mejor sobre la aplicación de los principios de Pascal y Arquímedes en experimentos científicos y la modelación de fuerza y movimiento con expresiones cuadráticas después de elaborar experimentos científicos?"
+        },
+        {
+          "type": "community",
+          "prompt": "¿En qué objetos, oficios o prácticas de la comunidad se puede reconocer mejor la acción de la presión y el empuje?"
+        }
+      ],
+      "notReadyFor": [
+        "full-games",
+        "summative-exam"
+      ]
+    },
+    {
+      "id": "saberes-y-pensamiento-cientifico-2-ppa-6-pa17",
+      "projectId": "saberes-y-pensamiento-cientifico-2-ppa-6-pa17",
+      "academicProjectNumber": 17,
+      "title": "Pascal, Arquímedes y figuras compuestas",
+      "projectTitle": "Pascal, Arquímedes y figuras compuestas",
+      "grade": "2",
+      "field": "Saberes y Pensamiento Científico",
+      "ppaNumber": "6",
+      "partialClassroomProject": "PPA 6",
+      "partialClassroomProjectTitle": "El taller de Pascal y Arquímedes",
+      "bookVolume": "Tomo II",
+      "sourceValidation": {
+        "sourceStatus": "linked",
+        "possibilitiesPages": [
+          17,
+          18
+        ],
+        "possibilitiesMaterialId": "grade-2-posibilidades-pos-sypc-2",
+        "possibilitiesColumnIndex": 2,
+        "columnEvidence": "Bloque PPA 6 El taller de Pascal y Arquímedes localizado en pp. 17-18; la columna 2 se confirma por el orden de proyectos, productos y continuidad del mismo bloque."
+      },
+      "finalProduct": {
+        "title": "Revista científica",
+        "source": "Posibilidades de uso SyPC pp. 17-18 + Nuestro libro de proyectos Tomo II pp. 93-96",
+        "status": "confirmed"
+      },
+      "sourcePages": {
+        "nuestroLibroProyectos": [
+          {
+            "materialId": "grade-2-proyectos-nuestro-libro-de-proyectos-tomo-2-segundo-grado",
+            "label": "Nuestro libro de proyectos Tomo II",
+            "startPage": 93,
+            "endPage": 96,
+            "pagesLabel": "pp. 93-96",
+            "topicTitle": "Proyecto academico 17",
+            "status": "confirmed-source"
+          }
+        ],
+        "conceptBook": [
+          {
+            "materialId": "grade-2-conceptos-saberes-y-pensamiento-cientifico-segundo-grado",
+            "label": "Saberes y Pensamiento Científico",
+            "startPage": 47,
+            "endPage": 51,
+            "pagesLabel": "pp. 47-51",
+            "topicTitle": "Construcción a escala de triángulos, cuadriláteros y polígonos regulares o irregulares",
+            "status": "confirmed-by-column-inference"
+          },
+          {
+            "materialId": "grade-2-conceptos-saberes-y-pensamiento-cientifico-segundo-grado",
+            "label": "Saberes y Pensamiento Científico",
+            "startPage": 69,
+            "endPage": 79,
+            "pagesLabel": "pp. 69-79",
+            "topicTitle": "Perímetro y área de figuras compuestas",
+            "status": "confirmed-by-column-inference"
+          },
+          {
+            "materialId": "grade-2-conceptos-saberes-y-pensamiento-cientifico-segundo-grado",
+            "label": "Saberes y Pensamiento Científico",
+            "startPage": 115,
+            "endPage": 120,
+            "pagesLabel": "pp. 115-120",
+            "topicTitle": "Aplicaciones de la hidrostática",
+            "status": "confirmed-by-column-inference"
+          },
+          {
+            "materialId": "grade-2-conceptos-saberes-y-pensamiento-cientifico-segundo-grado",
+            "label": "Saberes y Pensamiento Científico",
+            "startPage": 290,
+            "endPage": 299,
+            "pagesLabel": "pp. 290-299",
+            "topicTitle": "Hidrostática",
+            "status": "confirmed-by-column-inference"
+          }
+        ],
+        "multiplesLenguajes": [],
+        "otherMaterials": [
+          {
+            "label": "Video PPA 6: El taller de Pascal y Arquímedes",
+            "reference": "bit.ly/3VfglUk",
+            "status": "pending-validation"
+          }
+        ]
+      },
+      "supportMaterials": [],
+      "horizonOrPurpose": {
+        "status": "official",
+        "text": "Diseñar una revista científica para presentar objetos cotidianos constituidos por figuras compuestas en las que se apliquen los principios de Pascal y Arquímedes, de modo que se pueda comprender la influencia de las fuerzas y el movimiento en sus propiedades y configuraciones.",
+        "source": "Nuestro libro de proyectos Tomo II p. 93"
+      },
+      "projectExpectationHorizon": {
+        "officialText": "Elaborar una revista científica para comprender cómo los principios de Pascal y Arquímedes influyen en las propiedades y configuraciones de figuras compuestas al calcular su perímetro y área.",
+        "studentVersion": "Construir una revista científica con ejemplos del entorno donde dialoguen figuras compuestas, perímetros, áreas y principios físicos.",
+        "sourcePages": [
+          "Nuestro libro de proyectos Tomo II p. 94"
+        ],
+        "evidence": "La etapa 1 establece una revista científica como producto para explicar la relación entre objetos cotidianos, figuras compuestas y principios de hidrostática.",
+        "status": "official"
+      },
+      "detonatingStrategy": {
+        "status": "pending-url",
+        "text": "Video PPA 6: El taller de Pascal y Arquímedes",
+        "reference": "bit.ly/3VfglUk",
+        "source": "Nuestro libro de proyectos Tomo II pp. 91-92 + Posibilidades de uso SyPC pp. 17-18"
+      },
+      "academicProjectStrategy": {
+        "title": "Revista científica",
+        "text": "Seleccionar objetos cotidianos, analizar sus figuras compuestas y usar una revista científica para mostrar cómo intervienen la presión, el empuje, el perímetro y el área.",
+        "type": "project-product",
+        "status": "confirmed-from-project-book",
+        "source": "Nuestro libro de proyectos Tomo II pp. 93-96"
+      },
+      "academicConcepts": [
+        {
+          "concept": "revista científica",
+          "description": "Revista científica como producto de cierre para organizar y comunicar aprendizajes del proyecto.",
+          "sourceBook": "Nuestro libro de proyectos Tomo II",
+          "sourcePages": [
+            93,
+            96
+          ],
+          "sourcePagesLabel": "pp. 93-96",
+          "topicTitle": "Proyecto academico 17",
+          "status": "confirmed",
+          "reason": "Posibilidades y el propio proyecto fijan Revista científica como producto final del PA 17.",
+          "pedagogicalUse": "Da una forma concreta de socializar lo comprendido sobre la relación entre figuras compuestas, perímetro y área, y la aplicación de los principios de Pascal y Arquímedes en objetos cotidianos.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "figuras compuestas",
+          "description": "Figuras compuestas es una idea clave para comprender la relación entre figuras compuestas, perímetro y área, y la aplicación de los principios de Pascal y Arquímedes en objetos cotidianos.",
+          "sourceBook": "Saberes y Pensamiento Científico",
+          "sourcePages": [
+            69,
+            79
+          ],
+          "sourcePagesLabel": "pp. 69-79",
+          "topicTitle": "Perímetro y área de figuras compuestas",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Perímetro y área de figuras compuestas\" aporta base suficiente para trabajar figuras compuestas dentro del proyecto 17.",
+          "pedagogicalUse": "Ayuda a fortalecer revista científica y a explicar la relación entre figuras compuestas, perímetro y área, y la aplicación de los principios de Pascal y Arquímedes en objetos cotidianos con mayor claridad mediante figuras compuestas.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "perímetro",
+          "description": "Perímetro es una idea clave para comprender la relación entre figuras compuestas, perímetro y área, y la aplicación de los principios de Pascal y Arquímedes en objetos cotidianos.",
+          "sourceBook": "Saberes y Pensamiento Científico",
+          "sourcePages": [
+            69,
+            79
+          ],
+          "sourcePagesLabel": "pp. 69-79",
+          "topicTitle": "Perímetro y área de figuras compuestas",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Perímetro y área de figuras compuestas\" aporta base suficiente para trabajar perímetro dentro del proyecto 17.",
+          "pedagogicalUse": "Ayuda a fortalecer revista científica y a explicar la relación entre figuras compuestas, perímetro y área, y la aplicación de los principios de Pascal y Arquímedes en objetos cotidianos con mayor claridad mediante perímetro.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "área",
+          "description": "Área es una idea clave para comprender la relación entre figuras compuestas, perímetro y área, y la aplicación de los principios de Pascal y Arquímedes en objetos cotidianos.",
+          "sourceBook": "Saberes y Pensamiento Científico",
+          "sourcePages": [
+            69,
+            79
+          ],
+          "sourcePagesLabel": "pp. 69-79",
+          "topicTitle": "Perímetro y área de figuras compuestas",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Perímetro y área de figuras compuestas\" aporta base suficiente para trabajar área dentro del proyecto 17.",
+          "pedagogicalUse": "Ayuda a fortalecer revista científica y a explicar la relación entre figuras compuestas, perímetro y área, y la aplicación de los principios de Pascal y Arquímedes en objetos cotidianos con mayor claridad mediante área.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "hidrostática",
+          "description": "Hidrostática es una idea clave para comprender la relación entre figuras compuestas, perímetro y área, y la aplicación de los principios de Pascal y Arquímedes en objetos cotidianos.",
+          "sourceBook": "Saberes y Pensamiento Científico",
+          "sourcePages": [
+            290,
+            299
+          ],
+          "sourcePagesLabel": "pp. 290-299",
+          "topicTitle": "Hidrostática",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Hidrostática\" aporta base suficiente para trabajar hidrostática dentro del proyecto 17.",
+          "pedagogicalUse": "Ayuda a fortalecer revista científica y a explicar la relación entre figuras compuestas, perímetro y área, y la aplicación de los principios de Pascal y Arquímedes en objetos cotidianos con mayor claridad mediante hidrostática.",
+          "activityReadiness": "usable-for-autoevaluation"
+        }
+      ],
+      "thinkingCriteria": [
+        "Explicar cómo la forma de un objeto modifica su funcionamiento físico.",
+        "No separar la geometría de la situación real que la vuelve significativa.",
+        "Usar la revista como herramienta de síntesis y no sólo como contenedor de datos."
+      ],
+      "validationStatus": {
+        "readinessLevel": "development-partial",
+        "readyForActivities": false,
+        "needsReviewReasons": [
+          "El bloque 6 ya es usable como lectura docente, pero el video del PPA 6 y el recurso informatico siguen pendientes de validacion de destino final.",
+          "La asignacion de apoyos de Posibilidades se sostiene por inferencia curricular documentada y no por OCR perfectamente separado por columnas.",
+          "No mover a actividades interactivas ni desbloquear juegos completos hasta ampliar validacion de videos y recursos complementarios."
+        ]
+      },
+      "readinessLevel": "development-partial",
+      "readyForActivities": false,
+      "needsReviewReasons": [
+        "No mover a actividades interactivas ni desbloquear juegos completos."
+      ],
+      "roleInPpa": "Profundiza el bloque al conectar geometría e hidrostática con una comunicación científica accesible para otras personas.",
+      "pedagogicalUse": "Conviene trabajar Pascal, Arquímedes y figuras compuestas como una oportunidad para profundizar en la relación entre figuras compuestas, perímetro y área, y la aplicación de los principios de Pascal y Arquímedes en objetos cotidianos sin separar contenido, comunidad y producto final.",
+      "teacherNotes": [
+        "Conviene partir de ejemplos cercanos y después pasar al lenguaje mas abstracto del campo.",
+        "El producto Revista científica gana fuerza cuando se usa para explicar y no solo para exhibir informacion.",
+        "Es mejor seleccionar pocos conceptos bien comprendidos que saturar el trabajo con terminos aislados."
+      ],
+      "resonancePrompts": [
+        {
+          "type": "individual",
+          "prompt": "¿Qué comprendes mejor sobre la relación entre figuras compuestas, perímetro y área, y la aplicación de los principios de Pascal y Arquímedes en objetos cotidianos después de elaborar revista científica?"
+        },
+        {
+          "type": "community",
+          "prompt": "¿Qué objetos cotidianos de la comunidad dejan ver mejor el diálogo entre forma geométrica y funcionamiento físico?"
+        }
+      ],
+      "notReadyFor": [
+        "full-games",
+        "summative-exam"
+      ]
+    },
+    {
+      "id": "saberes-y-pensamiento-cientifico-2-ppa-6-pa18",
+      "projectId": "saberes-y-pensamiento-cientifico-2-ppa-6-pa18",
+      "academicProjectNumber": 18,
+      "title": "Flotabilidad de barcos de papel",
+      "projectTitle": "Flotabilidad de barcos de papel",
+      "grade": "2",
+      "field": "Saberes y Pensamiento Científico",
+      "ppaNumber": "6",
+      "partialClassroomProject": "PPA 6",
+      "partialClassroomProjectTitle": "El taller de Pascal y Arquímedes",
+      "bookVolume": "Tomo II",
+      "sourceValidation": {
+        "sourceStatus": "linked",
+        "possibilitiesPages": [
+          17,
+          18
+        ],
+        "possibilitiesMaterialId": "grade-2-posibilidades-pos-sypc-2",
+        "possibilitiesColumnIndex": 3,
+        "columnEvidence": "Bloque PPA 6 El taller de Pascal y Arquímedes localizado en pp. 17-18; la columna 3 se confirma por el orden de proyectos, productos y continuidad del mismo bloque."
+      },
+      "finalProduct": {
+        "title": "Ejercicios de flotabilidad con barcos de papel",
+        "source": "Posibilidades de uso SyPC pp. 17-18 + Nuestro libro de proyectos Tomo II pp. 97-101",
+        "status": "confirmed"
+      },
+      "sourcePages": {
+        "nuestroLibroProyectos": [
+          {
+            "materialId": "grade-2-proyectos-nuestro-libro-de-proyectos-tomo-2-segundo-grado",
+            "label": "Nuestro libro de proyectos Tomo II",
+            "startPage": 97,
+            "endPage": 101,
+            "pagesLabel": "pp. 97-101",
+            "topicTitle": "Proyecto academico 18",
+            "status": "confirmed-source"
+          }
+        ],
+        "conceptBook": [
+          {
+            "materialId": "grade-2-conceptos-saberes-y-pensamiento-cientifico-segundo-grado",
+            "label": "Saberes y Pensamiento Científico",
+            "startPage": 57,
+            "endPage": 61,
+            "pagesLabel": "pp. 57-61",
+            "topicTitle": "Intersecciones entre círculos y figuras",
+            "status": "confirmed-by-column-inference"
+          },
+          {
+            "materialId": "grade-2-conceptos-saberes-y-pensamiento-cientifico-segundo-grado",
+            "label": "Saberes y Pensamiento Científico",
+            "startPage": 69,
+            "endPage": 79,
+            "pagesLabel": "pp. 69-79",
+            "topicTitle": "Perímetro y área de figuras compuestas",
+            "status": "confirmed-by-column-inference"
+          },
+          {
+            "materialId": "grade-2-conceptos-saberes-y-pensamiento-cientifico-segundo-grado",
+            "label": "Saberes y Pensamiento Científico",
+            "startPage": 115,
+            "endPage": 120,
+            "pagesLabel": "pp. 115-120",
+            "topicTitle": "Aplicaciones de la hidrostática",
+            "status": "confirmed-by-column-inference"
+          },
+          {
+            "materialId": "grade-2-conceptos-saberes-y-pensamiento-cientifico-segundo-grado",
+            "label": "Saberes y Pensamiento Científico",
+            "startPage": 190,
+            "endPage": 194,
+            "pagesLabel": "pp. 190-194",
+            "topicTitle": "Equilibrio",
+            "status": "confirmed-by-column-inference"
+          },
+          {
+            "materialId": "grade-2-conceptos-saberes-y-pensamiento-cientifico-segundo-grado",
+            "label": "Saberes y Pensamiento Científico",
+            "startPage": 290,
+            "endPage": 299,
+            "pagesLabel": "pp. 290-299",
+            "topicTitle": "Hidrostática",
+            "status": "confirmed-by-column-inference"
+          }
+        ],
+        "multiplesLenguajes": [
+          {
+            "materialId": "grade-2-apoyo-multiples-lenguajes-segundo-grado",
+            "label": "Multiples Lenguajes",
+            "startPage": 92,
+            "endPage": 92,
+            "pagesLabel": "p. 92",
+            "topicTitle": "Jardines flotantes",
+            "status": "confirmed-by-column-inference"
+          }
+        ],
+        "otherMaterials": [
+          {
+            "label": "Video PPA 6: El taller de Pascal y Arquímedes",
+            "reference": "bit.ly/3VfglUk",
+            "status": "pending-validation"
+          }
+        ]
+      },
+      "supportMaterials": [
+        {
+          "title": "Jardines flotantes",
+          "kind": "Multiples Lenguajes",
+          "pages": "p. 92",
+          "status": "confirmed-by-column-inference"
+        }
+      ],
+      "horizonOrPurpose": {
+        "status": "official",
+        "text": "Aplicar, mediante ejercicios de flotabilidad con barcos de papel construidos en el aula, en cuya construcción se emplea el cálculo de perímetros y áreas, los principios de Pascal y Arquímedes.",
+        "source": "Nuestro libro de proyectos Tomo II p. 97"
+      },
+      "projectExpectationHorizon": {
+        "officialText": "Diseñar y construir un bote de papel que pueda flotar en el agua durante al menos cinco minutos con la aplicación de los principios de Pascal y Arquímedes, las intersecciones entre figuras y los cálculos de perímetros y áreas para optimizar el diseño.",
+        "studentVersion": "Probar diseños de barcos de papel para comprender qué favorece la flotación y la estabilidad.",
+        "sourcePages": [
+          "Nuestro libro de proyectos Tomo II p. 97"
+        ],
+        "evidence": "La etapa 1 y los objetivos del proyecto ligan de forma explícita el diseño del barco con la flotabilidad, la estabilidad y los cálculos geométricos.",
+        "status": "official"
+      },
+      "detonatingStrategy": {
+        "status": "pending-url",
+        "text": "Video PPA 6: El taller de Pascal y Arquímedes",
+        "reference": "bit.ly/3VfglUk",
+        "source": "Nuestro libro de proyectos Tomo II pp. 95-96 + Posibilidades de uso SyPC pp. 17-18"
+      },
+      "academicProjectStrategy": {
+        "title": "Ejercicios de flotabilidad con barcos de papel",
+        "text": "Diseñar, probar y ajustar barcos de papel para explicar la flotabilidad y la estabilidad con apoyo de cálculos geométricos y principios de hidrostática.",
+        "type": "project-product",
+        "status": "confirmed-from-project-book",
+        "source": "Nuestro libro de proyectos Tomo II pp. 97-101"
+      },
+      "academicConcepts": [
+        {
+          "concept": "ejercicios de flotabilidad con barcos de papel",
+          "description": "Ejercicios de flotabilidad con barcos de papel como producto de cierre para organizar y comunicar aprendizajes del proyecto.",
+          "sourceBook": "Nuestro libro de proyectos Tomo II",
+          "sourcePages": [
+            97,
+            101
+          ],
+          "sourcePagesLabel": "pp. 97-101",
+          "topicTitle": "Proyecto academico 18",
+          "status": "confirmed",
+          "reason": "Posibilidades y el propio proyecto fijan Ejercicios de flotabilidad con barcos de papel como producto final del PA 18.",
+          "pedagogicalUse": "Da una forma concreta de socializar lo comprendido sobre la flotabilidad y la estabilidad de barcos de papel mediante los principios de Pascal y Arquímedes, las intersecciones entre figuras y los cálculos de perímetro y área.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "flotabilidad",
+          "description": "Flotabilidad es una idea clave para comprender la flotabilidad y la estabilidad de barcos de papel mediante los principios de Pascal y Arquímedes, las intersecciones entre figuras y los cálculos de perímetro y área.",
+          "sourceBook": "Saberes y Pensamiento Científico",
+          "sourcePages": [
+            290,
+            299
+          ],
+          "sourcePagesLabel": "pp. 290-299",
+          "topicTitle": "Hidrostática",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Hidrostática\" aporta base suficiente para trabajar flotabilidad dentro del proyecto 18.",
+          "pedagogicalUse": "Ayuda a fortalecer ejercicios de flotabilidad con barcos de papel y a explicar la flotabilidad y la estabilidad de barcos de papel mediante los principios de Pascal y Arquímedes, las intersecciones entre figuras y los cálculos de perímetro y área con mayor claridad mediante flotabilidad.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "estabilidad",
+          "description": "Estabilidad es una idea clave para comprender la flotabilidad y la estabilidad de barcos de papel mediante los principios de Pascal y Arquímedes, las intersecciones entre figuras y los cálculos de perímetro y área.",
+          "sourceBook": "Nuestro libro de proyectos Tomo II",
+          "sourcePages": [
+            97,
+            98,
+            99
+          ],
+          "sourcePagesLabel": "pp. 97-99",
+          "topicTitle": "Proyecto académico 18",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Proyecto académico 18\" aporta base suficiente para trabajar estabilidad dentro del proyecto 18.",
+          "pedagogicalUse": "Ayuda a fortalecer ejercicios de flotabilidad con barcos de papel y a explicar la flotabilidad y la estabilidad de barcos de papel mediante los principios de Pascal y Arquímedes, las intersecciones entre figuras y los cálculos de perímetro y área con mayor claridad mediante estabilidad.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "intersecciones entre figuras",
+          "description": "Intersecciones entre figuras es una idea clave para comprender la flotabilidad y la estabilidad de barcos de papel mediante los principios de Pascal y Arquímedes, las intersecciones entre figuras y los cálculos de perímetro y área.",
+          "sourceBook": "Saberes y Pensamiento Científico",
+          "sourcePages": [
+            57,
+            61
+          ],
+          "sourcePagesLabel": "pp. 57-61",
+          "topicTitle": "Intersecciones entre círculos y figuras",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Intersecciones entre círculos y figuras\" aporta base suficiente para trabajar intersecciones entre figuras dentro del proyecto 18.",
+          "pedagogicalUse": "Ayuda a fortalecer ejercicios de flotabilidad con barcos de papel y a explicar la flotabilidad y la estabilidad de barcos de papel mediante los principios de Pascal y Arquímedes, las intersecciones entre figuras y los cálculos de perímetro y área con mayor claridad mediante intersecciones entre figuras.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "principio de Arquímedes",
+          "description": "Principio de Arquímedes es una idea clave para comprender la flotabilidad y la estabilidad de barcos de papel mediante los principios de Pascal y Arquímedes, las intersecciones entre figuras y los cálculos de perímetro y área.",
+          "sourceBook": "Saberes y Pensamiento Científico",
+          "sourcePages": [
+            290,
+            299
+          ],
+          "sourcePagesLabel": "pp. 290-299",
+          "topicTitle": "Hidrostática",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Hidrostática\" aporta base suficiente para trabajar principio de Arquímedes dentro del proyecto 18.",
+          "pedagogicalUse": "Ayuda a fortalecer ejercicios de flotabilidad con barcos de papel y a explicar la flotabilidad y la estabilidad de barcos de papel mediante los principios de Pascal y Arquímedes, las intersecciones entre figuras y los cálculos de perímetro y área con mayor claridad mediante principio de Arquímedes.",
+          "activityReadiness": "usable-for-autoevaluation"
+        }
+      ],
+      "thinkingCriteria": [
+        "Vincular cada ajuste del diseño con una explicación física y geométrica.",
+        "Observar la estabilidad como resultado de varias relaciones y no de un solo factor.",
+        "Tratar el error experimental como parte de la comprensión del fenómeno."
+      ],
+      "validationStatus": {
+        "readinessLevel": "development-partial",
+        "readyForActivities": false,
+        "needsReviewReasons": [
+          "El bloque 6 ya es usable como lectura docente, pero el video del PPA 6 y el recurso informatico siguen pendientes de validacion de destino final.",
+          "La asignacion de apoyos de Posibilidades se sostiene por inferencia curricular documentada y no por OCR perfectamente separado por columnas.",
+          "No mover a actividades interactivas ni desbloquear juegos completos hasta ampliar validacion de videos y recursos complementarios."
+        ]
+      },
+      "readinessLevel": "development-partial",
+      "readyForActivities": false,
+      "needsReviewReasons": [
+        "No mover a actividades interactivas ni desbloquear juegos completos."
+      ],
+      "roleInPpa": "Cierra el bloque al transformar la hidrostática en un reto de diseño, prueba y mejora que se puede observar directamente.",
+      "pedagogicalUse": "Conviene trabajar Flotabilidad de barcos de papel como una oportunidad para profundizar en la flotabilidad y la estabilidad de barcos de papel mediante los principios de Pascal y Arquímedes, las intersecciones entre figuras y los cálculos de perímetro y área sin separar contenido, comunidad y producto final.",
+      "teacherNotes": [
+        "Conviene partir de ejemplos cercanos y después pasar al lenguaje mas abstracto del campo.",
+        "El producto Ejercicios de flotabilidad con barcos de papel gana fuerza cuando se usa para explicar y no solo para exhibir informacion.",
+        "Es mejor seleccionar pocos conceptos bien comprendidos que saturar el trabajo con terminos aislados."
+      ],
+      "resonancePrompts": [
+        {
+          "type": "individual",
+          "prompt": "¿Qué comprendes mejor sobre la flotabilidad y la estabilidad de barcos de papel mediante los principios de Pascal y Arquímedes, las intersecciones entre figuras y los cálculos de perímetro y área después de elaborar ejercicios de flotabilidad con barcos de papel?"
+        },
+        {
+          "type": "community",
+          "prompt": "¿Qué aprendizajes sobre diseño, equilibrio y prueba pueden trasladarse de los barcos de papel a problemas reales del entorno?"
+        }
+      ],
+      "notReadyFor": [
+        "full-games",
+        "summative-exam"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,704 @@
+{
+  "grade": "3",
+  "gradeLabel": "Tercer grado",
+  "field": "Saberes y Pensamiento Cientifico",
+  "bookVolume": "Tomo I",
+  "partialClassroomProject": "PPA 2",
+  "partialClassroomProjectTitle": "Características y medidas del entorno",
+  "generatedAt": "2026-06-07T03:06:27.906Z",
+  "notes": "Capa curricular generada por lote para 3o Saberes y Pensamiento Cientifico, PPA 2.",
+  "sourcesUsed": [
+    "content/caracoles/curricular-catalog/all-projects-canonical.json",
+    "public/caracoles/data/generated/grade-3/concepts-index.json",
+    "src/caracoles/lib/officialVideoLinks.ts",
+    "Posibilidades de uso SyPC, tercer grado, pp. 8-9",
+    "Nuestro libro de proyectos, tercer grado, pp. 127-138"
+  ],
+  "partialClassroomProjectContext": {
+    "expectationHorizon": {
+      "officialText": "",
+      "sourcePages": [
+        "Nuestro libro de proyectos Tomo I pp. 127-130",
+        "Posibilidades de uso SyPC pp. 8-9"
+      ],
+      "evidence": "El PPA 2 articula 4. mezclas cotidianas, maletín de instrumentos de medición, 6. descubre la magia de las formas, las texturas... para trabajar Características y medidas del entorno.",
+      "status": "pending"
+    },
+    "ppaDetonatingStrategy": {
+      "title": "Características y medidas del entorno",
+      "type": "video",
+      "url": "",
+      "urlStatus": "confirmed-by-official-video-map",
+      "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+      "scope": "partial-classroom-project"
+    },
+    "ppaDigitalResource": {
+      "title": "Recurso del Proyecto Parcial de Aula 2",
+      "reference": "",
+      "status": "confirmed-by-official-video-map",
+      "source": "YouTube, acervo Aprende_MX/Telesecundaria"
+    },
+    "validationStatus": {
+      "needsHumanReview": true,
+      "needsReviewReasons": [
+        "Los videos PA/PPA se validan por el mapa oficial de enlaces directos ya generado.",
+        "Los apoyos complementarios impresos no se asignan cuando no hay evidencia validada por columna.",
+        "El horizonte textual literal queda pendiente de revision fina si se necesita cita exacta."
+      ]
+    },
+    "columnValidation": {
+      "possibilitiesPagesReviewed": [
+        8,
+        9
+      ],
+      "confirmedAsPpa": true,
+      "note": "El PPA 2 se agrupa desde el catalogo canonico de tercer grado.",
+      "columns": [
+        {
+          "columnIndex": 1,
+          "projectId": "saberes-y-pensamiento-cientifico-3-ppa-2-pa4",
+          "projectTitle": "Propiedades de la materia",
+          "finalProduct": "4. Mezclas cotidianas",
+          "supportMaterials": []
+        },
+        {
+          "columnIndex": 2,
+          "projectId": "saberes-y-pensamiento-cientifico-3-ppa-2-pa5",
+          "projectTitle": "Nuestros instrumentos de medición",
+          "finalProduct": "Maletín de instrumentos de medición",
+          "supportMaterials": []
+        },
+        {
+          "columnIndex": 3,
+          "projectId": "saberes-y-pensamiento-cientifico-3-ppa-2-pa6",
+          "projectTitle": "Lo mensurable de nuestro entorno",
+          "finalProduct": "6. Descubre la magia de las formas, las texturas...",
+          "supportMaterials": []
+        }
+      ]
+    }
+  },
+  "academicProjects": [
+    {
+      "id": "saberes-y-pensamiento-cientifico-3-ppa-2-pa4",
+      "projectId": "saberes-y-pensamiento-cientifico-3-ppa-2-pa4",
+      "academicProjectNumber": 4,
+      "title": "Propiedades de la materia",
+      "projectTitle": "Propiedades de la materia",
+      "grade": "3",
+      "field": "Saberes y Pensamiento Científico",
+      "ppaNumber": "2",
+      "partialClassroomProject": "PPA 2",
+      "partialClassroomProjectTitle": "Características y medidas del entorno",
+      "bookVolume": "Tomo I",
+      "sourceValidation": {
+        "sourceStatus": "linked",
+        "possibilitiesPages": [
+          8,
+          9
+        ],
+        "possibilitiesMaterialId": "grade-3-posibilidades-pos-sypc-3",
+        "possibilitiesColumnIndex": 1,
+        "columnEvidence": "Proyecto PA 4 agrupado en el PPA 2 desde el catalogo canonico y las paginas de Posibilidades."
+      },
+      "finalProduct": {
+        "title": "4. Mezclas cotidianas",
+        "source": "Video detonador validado en YouTube + Nuestro libro de proyectos Tomo I pp. 127-130",
+        "status": "confirmed-from-video-and-project"
+      },
+      "sourcePages": {
+        "nuestroLibroProyectos": [
+          {
+            "materialId": "grade-3-proyectos-nuestros-proyectos-tomo-1-tercer-grado",
+            "label": "Nuestro libro de proyectos Tomo I",
+            "startPage": 127,
+            "endPage": 130,
+            "pagesLabel": "pp. 127-130",
+            "topicTitle": "Proyecto academico 4",
+            "status": "confirmed-source"
+          }
+        ],
+        "conceptBook": [
+          {
+            "materialId": "grade-3-conceptos-saberes-y-pensamiento-cientifico-tercer-grado",
+            "label": "Saberes y Pensamiento Cientifico",
+            "startPage": 127,
+            "endPage": 127,
+            "pagesLabel": "p. 127",
+            "topicTitle": "4. mezclas cotidianas",
+            "status": "confirmed"
+          }
+        ],
+        "multiplesLenguajes": [],
+        "otherMaterials": [
+          {
+            "label": "Video PA 4: Propiedades de la materia",
+            "reference": "",
+            "status": "confirmed"
+          }
+        ]
+      },
+      "supportMaterials": [],
+      "horizonOrPurpose": {
+        "status": "pending",
+        "text": "",
+        "source": "Nuestro libro de proyectos Tomo I pp. 127-130"
+      },
+      "projectExpectationHorizon": {
+        "officialText": "",
+        "studentVersion": "",
+        "sourcePages": [
+          "Nuestro libro de proyectos Tomo I pp. 127-130"
+        ],
+        "evidence": "El PA 4 cuenta con paginas de proyecto, producto de cierre, conceptos y videos directos validados; el horizonte textual literal queda pendiente de transcripcion fina.",
+        "status": "pending"
+      },
+      "detonatingStrategy": {
+        "status": "confirmed",
+        "title": "Características y medidas del entorno",
+        "text": "Video del Proyecto Parcial de Aula 2: Características y medidas del entorno",
+        "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+        "scope": "partial-classroom-project",
+        "type": "video"
+      },
+      "academicProjectStrategy": {
+        "title": "4. Mezclas cotidianas • Saberes y pensamiento científico• 3er grado",
+        "text": "Video detonador del Proyecto Academico 4: Propiedades de la materia",
+        "type": "video",
+        "status": "confirmed-from-video-and-project",
+        "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+        "scope": "academic-project"
+      },
+      "academicConcepts": [
+        {
+          "concept": "4. mezclas cotidianas",
+          "description": "4. mezclas cotidianas organiza el producto de cierre y permite comunicar lo aprendido en el proyecto.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            127
+          ],
+          "sourcePagesLabel": "p. 127",
+          "topicTitle": "Proyecto academico 4",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 4, al PPA 2 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Materia",
+          "description": "Materia ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            265
+          ],
+          "sourcePagesLabel": "p. 265",
+          "topicTitle": "Proyecto academico 4",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 4, al PPA 2 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Mezclas",
+          "description": "Mezclas ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            265
+          ],
+          "sourcePagesLabel": "p. 265",
+          "topicTitle": "Proyecto academico 4",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 4, al PPA 2 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Quimica",
+          "description": "Quimica ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            9
+          ],
+          "sourcePagesLabel": "p. 9",
+          "topicTitle": "Proyecto academico 4",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 4, al PPA 2 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Figuras",
+          "description": "Figuras ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            127
+          ],
+          "sourcePagesLabel": "p. 127",
+          "topicTitle": "Proyecto academico 4",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 4, al PPA 2 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Medicion",
+          "description": "Medicion ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            127
+          ],
+          "sourcePagesLabel": "p. 127",
+          "topicTitle": "Proyecto academico 4",
+          "status": "suggested",
+          "reason": "Concepto vinculado al PA 4, al PPA 2 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "teacher-review"
+        }
+      ],
+      "thinkingCriteria": [
+        "Relacionar Propiedades de la materia con una situacion concreta del entorno escolar o comunitario.",
+        "Usar 4. mezclas cotidianas para explicar ideas con claridad y evidencia."
+      ],
+      "resonancePrompts": [
+        {
+          "type": "individual",
+          "prompt": "¿Como te ayuda 4. mezclas cotidianas a comprender mejor Propiedades de la materia y a explicar sus conceptos clave en tu comunidad?",
+          "conceptsActivated": [
+            "4. mezclas cotidianas",
+            "Materia",
+            "Mezclas",
+            "Quimica"
+          ],
+          "suggestedUse": "Momento 1 de autoevaluacion"
+        }
+      ],
+      "validationStatus": {
+        "readinessLevel": "curricular-bundle-generated",
+        "readyForActivities": true,
+        "needsReviewReasons": [
+          "El horizonte textual literal queda pendiente de revision fina si se requiere cita exacta.",
+          "Los apoyos complementarios impresos no se asignan cuando no hay evidencia validada por columna."
+        ]
+      },
+      "readinessLevel": "curricular-bundle-generated",
+      "readyForActivities": true,
+      "needsReviewReasons": []
+    },
+    {
+      "id": "saberes-y-pensamiento-cientifico-3-ppa-2-pa5",
+      "projectId": "saberes-y-pensamiento-cientifico-3-ppa-2-pa5",
+      "academicProjectNumber": 5,
+      "title": "Nuestros instrumentos de medición",
+      "projectTitle": "Nuestros instrumentos de medición",
+      "grade": "3",
+      "field": "Saberes y Pensamiento Científico",
+      "ppaNumber": "2",
+      "partialClassroomProject": "PPA 2",
+      "partialClassroomProjectTitle": "Características y medidas del entorno",
+      "bookVolume": "Tomo I",
+      "sourceValidation": {
+        "sourceStatus": "linked",
+        "possibilitiesPages": [
+          8,
+          9
+        ],
+        "possibilitiesMaterialId": "grade-3-posibilidades-pos-sypc-3",
+        "possibilitiesColumnIndex": 2,
+        "columnEvidence": "Proyecto PA 5 agrupado en el PPA 2 desde el catalogo canonico y las paginas de Posibilidades."
+      },
+      "finalProduct": {
+        "title": "Maletín de instrumentos de medición",
+        "source": "Video detonador validado en YouTube + Nuestro libro de proyectos Tomo I pp. 131-134",
+        "status": "confirmed-from-video-and-project"
+      },
+      "sourcePages": {
+        "nuestroLibroProyectos": [
+          {
+            "materialId": "grade-3-proyectos-nuestros-proyectos-tomo-1-tercer-grado",
+            "label": "Nuestro libro de proyectos Tomo I",
+            "startPage": 131,
+            "endPage": 134,
+            "pagesLabel": "pp. 131-134",
+            "topicTitle": "Proyecto academico 5",
+            "status": "confirmed-source"
+          }
+        ],
+        "conceptBook": [
+          {
+            "materialId": "grade-3-conceptos-saberes-y-pensamiento-cientifico-tercer-grado",
+            "label": "Saberes y Pensamiento Cientifico",
+            "startPage": 131,
+            "endPage": 131,
+            "pagesLabel": "p. 131",
+            "topicTitle": "Maletín de instrumentos de medición",
+            "status": "confirmed"
+          }
+        ],
+        "multiplesLenguajes": [],
+        "otherMaterials": [
+          {
+            "label": "Video PA 5: Nuestros instrumentos de medición",
+            "reference": "",
+            "status": "confirmed"
+          }
+        ]
+      },
+      "supportMaterials": [],
+      "horizonOrPurpose": {
+        "status": "confirmed-from-project-book",
+        "text": "Reconocer las propiedades extensivas e intensivas, como las de longitud, masa, tiempo y temperatura, para entender cómo se manifestaban en situaciones cotidianas y elaborar sus instrumentos de medición e integrarlos en un maletín.",
+        "source": "Visión — Horizonte 1 (p. 132)"
+      },
+      "projectExpectationHorizon": {
+        "officialText": "Reconocer las propiedades extensivas e intensivas, como las de longitud, masa, tiempo y temperatura, para entender cómo se manifestaban en situaciones cotidianas y elaborar sus instrumentos de medición e integrarlos en un maletín.",
+        "studentVersion": "Reconocer las propiedades extensivas e intensivas, como las de longitud, masa, tiempo y temperatura, para entender cómo se manifestaban en situaciones cotidianas y elaborar sus instrumentos de medición e integrarlos en un maletín.",
+        "horizon1Raw": "Reconocer las propiedades extensivas e intensivas, como las de longitud, masa, tiempo y temperatura, para entender cómo se manifestaban en situaciones cotidianas y elaborar sus instrumentos de medición e integrarlos en un maletín.",
+        "horizon2Raw": "Comprender el uso de las medidas de tendencia central y de dispersión en la construcción de los instrumentos de medición.",
+        "sourcePages": [
+          "Visión — Horizonte 1 (p. 132)"
+        ],
+        "evidence": "Extraído por visión de imagen de la página 132 del libro de proyectos. Confianza: alta.",
+        "status": "confirmed-from-project-book",
+        "extractedAt": "2026-06-16T05:19:14.453Z"
+      },
+      "detonatingStrategy": {
+        "status": "confirmed",
+        "title": "Características y medidas del entorno",
+        "text": "Video del Proyecto Parcial de Aula 2: Características y medidas del entorno",
+        "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+        "scope": "partial-classroom-project",
+        "type": "video"
+      },
+      "academicProjectStrategy": {
+        "title": "Maletín de instrumentos de medición • Saberes y pensamiento científico • 3er grado",
+        "text": "Video detonador del Proyecto Academico 5: Nuestros instrumentos de medición",
+        "type": "video",
+        "status": "confirmed-from-video-and-project",
+        "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+        "scope": "academic-project"
+      },
+      "academicConcepts": [
+        {
+          "concept": "Maletín de instrumentos de medición",
+          "description": "Maletín de instrumentos de medición organiza el producto de cierre y permite comunicar lo aprendido en el proyecto.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            131
+          ],
+          "sourcePagesLabel": "p. 131",
+          "topicTitle": "Proyecto academico 5",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 5, al PPA 2 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Materia",
+          "description": "Materia ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            265
+          ],
+          "sourcePagesLabel": "p. 265",
+          "topicTitle": "Proyecto academico 5",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 5, al PPA 2 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Mezclas",
+          "description": "Mezclas ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            265
+          ],
+          "sourcePagesLabel": "p. 265",
+          "topicTitle": "Proyecto academico 5",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 5, al PPA 2 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Quimica",
+          "description": "Quimica ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            9
+          ],
+          "sourcePagesLabel": "p. 9",
+          "topicTitle": "Proyecto academico 5",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 5, al PPA 2 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Figuras",
+          "description": "Figuras ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            131
+          ],
+          "sourcePagesLabel": "p. 131",
+          "topicTitle": "Proyecto academico 5",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 5, al PPA 2 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Medicion",
+          "description": "Medicion ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            131
+          ],
+          "sourcePagesLabel": "p. 131",
+          "topicTitle": "Proyecto academico 5",
+          "status": "suggested",
+          "reason": "Concepto vinculado al PA 5, al PPA 2 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "teacher-review"
+        }
+      ],
+      "thinkingCriteria": [
+        "Relacionar Nuestros instrumentos de medición con una situacion concreta del entorno escolar o comunitario.",
+        "Usar maletín de instrumentos de medición para explicar ideas con claridad y evidencia."
+      ],
+      "resonancePrompts": [
+        {
+          "type": "individual",
+          "prompt": "¿Como te ayuda maletín de instrumentos de medición a comprender mejor Nuestros instrumentos de medición y a explicar sus conceptos clave en tu comunidad?",
+          "conceptsActivated": [
+            "Maletín de instrumentos de medición",
+            "Materia",
+            "Mezclas",
+            "Quimica"
+          ],
+          "suggestedUse": "Momento 1 de autoevaluacion"
+        }
+      ],
+      "validationStatus": {
+        "readinessLevel": "curricular-bundle-generated",
+        "readyForActivities": true,
+        "needsReviewReasons": [
+          "El horizonte textual literal queda pendiente de revision fina si se requiere cita exacta.",
+          "Los apoyos complementarios impresos no se asignan cuando no hay evidencia validada por columna."
+        ]
+      },
+      "readinessLevel": "curricular-bundle-generated",
+      "readyForActivities": true,
+      "needsReviewReasons": []
+    },
+    {
+      "id": "saberes-y-pensamiento-cientifico-3-ppa-2-pa6",
+      "projectId": "saberes-y-pensamiento-cientifico-3-ppa-2-pa6",
+      "academicProjectNumber": 6,
+      "title": "Lo mensurable de nuestro entorno",
+      "projectTitle": "Lo mensurable de nuestro entorno",
+      "grade": "3",
+      "field": "Saberes y Pensamiento Científico",
+      "ppaNumber": "2",
+      "partialClassroomProject": "PPA 2",
+      "partialClassroomProjectTitle": "Características y medidas del entorno",
+      "bookVolume": "Tomo I",
+      "sourceValidation": {
+        "sourceStatus": "linked",
+        "possibilitiesPages": [
+          8,
+          9
+        ],
+        "possibilitiesMaterialId": "grade-3-posibilidades-pos-sypc-3",
+        "possibilitiesColumnIndex": 3,
+        "columnEvidence": "Proyecto PA 6 agrupado en el PPA 2 desde el catalogo canonico y las paginas de Posibilidades."
+      },
+      "finalProduct": {
+        "title": "6. Descubre la magia de las formas, las texturas...",
+        "source": "Video detonador validado en YouTube + Nuestro libro de proyectos Tomo I pp. 135-138",
+        "status": "confirmed-from-video-and-project"
+      },
+      "sourcePages": {
+        "nuestroLibroProyectos": [
+          {
+            "materialId": "grade-3-proyectos-nuestros-proyectos-tomo-1-tercer-grado",
+            "label": "Nuestro libro de proyectos Tomo I",
+            "startPage": 135,
+            "endPage": 138,
+            "pagesLabel": "pp. 135-138",
+            "topicTitle": "Proyecto academico 6",
+            "status": "confirmed-source"
+          }
+        ],
+        "conceptBook": [
+          {
+            "materialId": "grade-3-conceptos-saberes-y-pensamiento-cientifico-tercer-grado",
+            "label": "Saberes y Pensamiento Cientifico",
+            "startPage": 135,
+            "endPage": 135,
+            "pagesLabel": "p. 135",
+            "topicTitle": "6. descubre la magia de las formas, las texturas...",
+            "status": "confirmed"
+          }
+        ],
+        "multiplesLenguajes": [],
+        "otherMaterials": [
+          {
+            "label": "Video PA 6: Lo mensurable de nuestro entorno",
+            "reference": "",
+            "status": "confirmed"
+          }
+        ]
+      },
+      "supportMaterials": [],
+      "horizonOrPurpose": {
+        "status": "confirmed-from-project-book",
+        "text": "Ampliar el conocimiento sobre otras propiedades que son posibles de medir y los instrumentos utilizados en ellas, para incluir dicha información en su demostración con la comunidad.",
+        "source": "Visión — Horizonte 1 (p. 136)"
+      },
+      "projectExpectationHorizon": {
+        "officialText": "Ampliar el conocimiento sobre otras propiedades que son posibles de medir y los instrumentos utilizados en ellas, para incluir dicha información en su demostración con la comunidad.",
+        "studentVersion": "Ampliar el conocimiento sobre otras propiedades que son posibles de medir y los instrumentos utilizados en ellas, para incluir dicha información en su demostración con la comunidad.",
+        "horizon1Raw": "Ampliar el conocimiento sobre otras propiedades que son posibles de medir y los instrumentos utilizados en ellas, para incluir dicha información en su demostración con la comunidad.",
+        "horizon2Raw": "Conocer algunas formas de medir propiedades de objetos o sustancias muy pequeñas (átomos y moléculas) o extremadamente grandes (planetas, estrellas o galaxias).",
+        "sourcePages": [
+          "Visión — Horizonte 1 (p. 136)"
+        ],
+        "evidence": "Extraído por visión de imagen de la página 136 del libro de proyectos. Confianza: alta.",
+        "status": "confirmed-from-project-book",
+        "extractedAt": "2026-06-16T05:19:18.515Z"
+      },
+      "detonatingStrategy": {
+        "status": "confirmed",
+        "title": "Características y medidas del entorno",
+        "text": "Video del Proyecto Parcial de Aula 2: Características y medidas del entorno",
+        "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+        "scope": "partial-classroom-project",
+        "type": "video"
+      },
+      "academicProjectStrategy": {
+        "title": "6. Descubre la magia de las formas, las texturas... • Saberes y pensamiento científico• 3er grado",
+        "text": "Video detonador del Proyecto Academico 6: Lo mensurable de nuestro entorno",
+        "type": "video",
+        "status": "confirmed-from-video-and-project",
+        "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+        "scope": "academic-project"
+      },
+      "academicConcepts": [
+        {
+          "concept": "6. descubre la magia de las formas, las texturas...",
+          "description": "6. descubre la magia de las formas, las texturas... organiza el producto de cierre y permite comunicar lo aprendido en el proyecto.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            135
+          ],
+          "sourcePagesLabel": "p. 135",
+          "topicTitle": "Proyecto academico 6",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 6, al PPA 2 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Materia",
+          "description": "Materia ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            265
+          ],
+          "sourcePagesLabel": "p. 265",
+          "topicTitle": "Proyecto academico 6",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 6, al PPA 2 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Mezclas",
+          "description": "Mezclas ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            265
+          ],
+          "sourcePagesLabel": "p. 265",
+          "topicTitle": "Proyecto academico 6",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 6, al PPA 2 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Quimica",
+          "description": "Quimica ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            9
+          ],
+          "sourcePagesLabel": "p. 9",
+          "topicTitle": "Proyecto academico 6",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 6, al PPA 2 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Figuras",
+          "description": "Figuras ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            135
+          ],
+          "sourcePagesLabel": "p. 135",
+          "topicTitle": "Proyecto academico 6",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 6, al PPA 2 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Medicion",
+          "description": "Medicion ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            135
+          ],
+          "sourcePagesLabel": "p. 135",
+          "topicTitle": "Proyecto academico 6",
+          "status": "suggested",
+          "reason": "Concepto vinculado al PA 6, al PPA 2 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "teacher-review"
+        }
+      ],
+      "thinkingCriteria": [
+        "Relacionar Lo mensurable de nuestro entorno con una situacion concreta del entorno escolar o comunitario.",
+        "Usar 6. descubre la magia de las formas, las texturas... para explicar ideas con claridad y evidencia."
+      ],
+      "resonancePrompts": [
+        {
+          "type": "individual",
+          "prompt": "¿Como te ayuda 6. descubre la magia de las formas, las texturas... a comprender mejor Lo mensurable de nuestro entorno y a explicar sus conceptos clave en tu comunidad?",
+          "conceptsActivated": [
+            "6. descubre la magia de las formas, las texturas...",
+            "Materia",
+            "Mezclas",
+            "Quimica"
+          ],
+          "suggestedUse": "Momento 1 de autoevaluacion"
+        }
+      ],
+      "validationStatus": {
+        "readinessLevel": "curricular-bundle-generated",
+        "readyForActivities": true,
+        "needsReviewReasons": [
+          "El horizonte textual literal queda pendiente de revision fina si se requiere cita exacta.",
+          "Los apoyos complementarios impresos no se asignan cuando no hay evidencia validada por columna."
+        ]
+      },
+      "readinessLevel": "curricular-bundle-generated",
+      "readyForActivities": true,
+      "needsReviewReasons": []
+    }
+  ]
+}

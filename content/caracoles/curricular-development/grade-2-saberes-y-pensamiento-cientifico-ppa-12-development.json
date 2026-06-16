@@ -1,0 +1,716 @@
+{
+  "grade": "2",
+  "gradeLabel": "Segundo grado",
+  "field": "Saberes y Pensamiento Científico",
+  "bookVolume": "Tomo III",
+  "partialClassroomProject": "PPA 12",
+  "partialClassroomProjectTitle": "Electricidad y magnetismo en nuestras vidas",
+  "generatedAt": "2026-06-02T18:43:23.542Z",
+  "notes": "Capa curricular generada por lote para 2o Saberes y Pensamiento Científico, PPA 12.",
+  "sourcesUsed": [
+    "public/caracoles/data/generated/grade-2/selectable-projects.json",
+    "content/caracoles/generated-private/grade-2/pages-index.full.json",
+    "Posibilidades de uso SyPC, segundo grado, p. 30",
+    "Nuestro libro de proyectos Tomo III, segundo grado, pp. 105-120",
+    "Saberes y Pensamiento Científico, segundo grado, pp. 233-238, 300-325 y 316-323."
+  ],
+  "partialClassroomProjectContext": {
+    "expectationHorizon": {
+      "officialText": "",
+      "sourcePages": [
+        "Nuestro libro de proyectos Tomo III pp. 105-106",
+        "Posibilidades de uso SyPC p. 30"
+      ],
+      "evidence": "El PPA 12 articula seguridad eléctrica, fenómenos del magnetismo y funcionamiento de aparatos de comunicación para volver observables relaciones clave de la física en la vida cotidiana.",
+      "status": "pending"
+    },
+    "ppaDetonatingStrategy": {
+      "title": "Electricidad y magnetismo en nuestras vidas",
+      "type": "video",
+      "url": "",
+      "urlStatus": "pending-url",
+      "reference": "bit.ly/3VfglUk",
+      "source": "Nuestro libro de proyectos Tomo III pp. 105-106 + Posibilidades de uso SyPC p. 30",
+      "scope": "partial-classroom-project",
+      "youtubeSearchQuery": "Electricidad y magnetismo en nuestras vidas Saberes y Pensamiento Científico 2do grado Telesecundaria"
+    },
+    "ppaDigitalResource": {
+      "title": "Recurso informatico del bloque PPA 12",
+      "reference": "bit.ly/3WQBMwg",
+      "status": "pending-validation",
+      "source": "Nuestro libro de proyectos Tomo III pp. 105-120"
+    },
+    "validationStatus": {
+      "needsHumanReview": true,
+      "needsReviewReasons": [
+        "Las p. 30 de Posibilidades pertenecen al mismo PPA 12.",
+        "La asignacion de apoyos por columna se fija por inferencia curricular documentada de izquierda a derecha.",
+        "Los enlaces cortos del video del PPA y del recurso informatico se mantienen en cautela hasta localizar un destino oficial confirmado."
+      ]
+    },
+    "columnValidation": {
+      "possibilitiesPagesReviewed": [
+        30
+      ],
+      "confirmedAsPpa": true,
+      "note": "Las p. 30 corresponden al PPA 12 Electricidad y magnetismo en nuestras vidas. Las tres columnas se sostienen por el orden de proyectos, productos y apoyos del mismo bloque.",
+      "columns": [
+        {
+          "columnIndex": 1,
+          "projectId": "saberes-y-pensamiento-cientifico-2-ppa-12-pa34",
+          "projectTitle": "¡Cuidado con la electricidad!",
+          "finalProduct": "Escenificación teatral de situaciones de riesgo y seguridad",
+          "supportMaterials": []
+        },
+        {
+          "columnIndex": 2,
+          "projectId": "saberes-y-pensamiento-cientifico-2-ppa-12-pa35",
+          "projectTitle": "¿Qué pasa con el magnetismo y los imanes?",
+          "finalProduct": "Pruebas científicas",
+          "supportMaterials": []
+        },
+        {
+          "columnIndex": 3,
+          "projectId": "saberes-y-pensamiento-cientifico-2-ppa-12-pa36",
+          "projectTitle": "Comunicación y ondas electromagnéticas",
+          "finalProduct": "Colección de esquemas",
+          "supportMaterials": []
+        }
+      ]
+    }
+  },
+  "academicProjects": [
+    {
+      "id": "saberes-y-pensamiento-cientifico-2-ppa-12-pa34",
+      "projectId": "saberes-y-pensamiento-cientifico-2-ppa-12-pa34",
+      "academicProjectNumber": 34,
+      "title": "¡Cuidado con la electricidad!",
+      "projectTitle": "¡Cuidado con la electricidad!",
+      "grade": "2",
+      "field": "Saberes y Pensamiento Científico",
+      "ppaNumber": "12",
+      "partialClassroomProject": "PPA 12",
+      "partialClassroomProjectTitle": "Electricidad y magnetismo en nuestras vidas",
+      "bookVolume": "Tomo III",
+      "sourceValidation": {
+        "sourceStatus": "linked",
+        "possibilitiesPages": [
+          30
+        ],
+        "possibilitiesMaterialId": "grade-2-posibilidades-pos-sypc-2",
+        "possibilitiesColumnIndex": 1,
+        "columnEvidence": "Bloque PPA 12 Electricidad y magnetismo en nuestras vidas localizado en p. 30; la columna 1 se confirma por el orden de proyectos, productos y continuidad del mismo bloque."
+      },
+      "finalProduct": {
+        "title": "Escenificación teatral de situaciones de riesgo y seguridad",
+        "source": "Posibilidades de uso SyPC p. 30 + Nuestro libro de proyectos Tomo III pp. 107-110",
+        "status": "confirmed"
+      },
+      "sourcePages": {
+        "nuestroLibroProyectos": [
+          {
+            "materialId": "grade-2-proyectos-nuestro-libro-de-proyectos-tomo-3-segundo-grado",
+            "label": "Nuestro libro de proyectos Tomo III",
+            "startPage": 107,
+            "endPage": 110,
+            "pagesLabel": "pp. 107-110",
+            "topicTitle": "Proyecto academico 34",
+            "status": "confirmed-source"
+          }
+        ],
+        "conceptBook": [
+          {
+            "materialId": "grade-2-conceptos-saberes-y-pensamiento-cientifico-segundo-grado",
+            "label": "Saberes y Pensamiento Científico",
+            "startPage": 300,
+            "endPage": 325,
+            "pagesLabel": "pp. 300-325",
+            "topicTitle": "Electricidad",
+            "status": "confirmed-by-column-inference"
+          }
+        ],
+        "multiplesLenguajes": [],
+        "otherMaterials": [
+          {
+            "label": "Video PPA 12: Electricidad y magnetismo en nuestras vidas",
+            "reference": "bit.ly/3VfglUk",
+            "status": "pending-validation"
+          }
+        ]
+      },
+      "supportMaterials": [],
+      "horizonOrPurpose": {
+        "status": "official",
+        "text": "Identificar las manifestaciones y aplicaciones de la electricidad en los entornos escolar, familiar y comunitario, reconociendo los peligros y cuidados que implica su uso mediante una escenificación teatral de situaciones de riesgo y seguridad, para la elaboración y reconocimiento de protocolos de seguridad.",
+        "source": "Nuestro libro de proyectos Tomo III p. 107"
+      },
+      "projectExpectationHorizon": {
+        "officialText": "Investigar lo relacionado con las obras teatrales y cómo montarlas, para generar una que aborde el contenido sobre los cuidados y riesgos que implica el uso de la energía eléctrica.",
+        "studentVersion": "Representar situaciones de riesgo y seguridad para explicar cómo usar la electricidad de manera responsable.",
+        "sourcePages": [
+          "Nuestro libro de proyectos Tomo III p. 108"
+        ],
+        "evidence": "La etapa 1 fija una escenificación teatral como vía para reconocer aplicaciones, riesgos y protocolos de seguridad del uso de la electricidad.",
+        "status": "official"
+      },
+      "detonatingStrategy": {
+        "status": "pending-url",
+        "text": "Video PPA 12: Electricidad y magnetismo en nuestras vidas",
+        "reference": "bit.ly/3VfglUk",
+        "source": "Nuestro libro de proyectos Tomo III pp. 105-106 + Posibilidades de uso SyPC p. 30"
+      },
+      "academicProjectStrategy": {
+        "title": "Escenificación teatral de situaciones de riesgo y seguridad",
+        "text": "Montar una escenificación teatral que ayude a identificar riesgos eléctricos y a comunicar protocolos de seguridad en contextos cercanos.",
+        "type": "project-product",
+        "status": "confirmed-from-project-book",
+        "source": "Nuestro libro de proyectos Tomo III pp. 107-110"
+      },
+      "academicConcepts": [
+        {
+          "concept": "escenificación teatral de situaciones de riesgo y seguridad",
+          "description": "Escenificación teatral de situaciones de riesgo y seguridad como producto de cierre para organizar y comunicar aprendizajes del proyecto.",
+          "sourceBook": "Nuestro libro de proyectos Tomo III",
+          "sourcePages": [
+            107,
+            110
+          ],
+          "sourcePagesLabel": "pp. 107-110",
+          "topicTitle": "Proyecto academico 34",
+          "status": "confirmed",
+          "reason": "Posibilidades y el propio proyecto fijan Escenificación teatral de situaciones de riesgo y seguridad como producto final del PA 34.",
+          "pedagogicalUse": "Da una forma concreta de socializar lo comprendido sobre las manifestaciones y aplicaciones de la electricidad, sus peligros y los protocolos de seguridad para su uso en la escuela, la familia y la comunidad.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "electricidad",
+          "description": "Electricidad es una idea clave para comprender las manifestaciones y aplicaciones de la electricidad, sus peligros y los protocolos de seguridad para su uso en la escuela, la familia y la comunidad.",
+          "sourceBook": "Saberes y Pensamiento Científico",
+          "sourcePages": [
+            300,
+            325
+          ],
+          "sourcePagesLabel": "pp. 300-325",
+          "topicTitle": "Electricidad",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Electricidad\" aporta base suficiente para trabajar electricidad dentro del proyecto 34.",
+          "pedagogicalUse": "Ayuda a fortalecer escenificación teatral de situaciones de riesgo y seguridad y a explicar las manifestaciones y aplicaciones de la electricidad, sus peligros y los protocolos de seguridad para su uso en la escuela, la familia y la comunidad con mayor claridad mediante electricidad.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "corriente eléctrica",
+          "description": "Corriente eléctrica es una idea clave para comprender las manifestaciones y aplicaciones de la electricidad, sus peligros y los protocolos de seguridad para su uso en la escuela, la familia y la comunidad.",
+          "sourceBook": "Saberes y Pensamiento Científico",
+          "sourcePages": [
+            300,
+            325
+          ],
+          "sourcePagesLabel": "pp. 300-325",
+          "topicTitle": "Electricidad",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Electricidad\" aporta base suficiente para trabajar corriente eléctrica dentro del proyecto 34.",
+          "pedagogicalUse": "Ayuda a fortalecer escenificación teatral de situaciones de riesgo y seguridad y a explicar las manifestaciones y aplicaciones de la electricidad, sus peligros y los protocolos de seguridad para su uso en la escuela, la familia y la comunidad con mayor claridad mediante corriente eléctrica.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "aplicaciones de la electricidad",
+          "description": "Aplicaciones de la electricidad es una idea clave para comprender las manifestaciones y aplicaciones de la electricidad, sus peligros y los protocolos de seguridad para su uso en la escuela, la familia y la comunidad.",
+          "sourceBook": "Saberes y Pensamiento Científico",
+          "sourcePages": [
+            300,
+            325
+          ],
+          "sourcePagesLabel": "pp. 300-325",
+          "topicTitle": "Electricidad",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Electricidad\" aporta base suficiente para trabajar aplicaciones de la electricidad dentro del proyecto 34.",
+          "pedagogicalUse": "Ayuda a fortalecer escenificación teatral de situaciones de riesgo y seguridad y a explicar las manifestaciones y aplicaciones de la electricidad, sus peligros y los protocolos de seguridad para su uso en la escuela, la familia y la comunidad con mayor claridad mediante aplicaciones de la electricidad.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "protocolos de seguridad",
+          "description": "Protocolos de seguridad es una idea clave para comprender las manifestaciones y aplicaciones de la electricidad, sus peligros y los protocolos de seguridad para su uso en la escuela, la familia y la comunidad.",
+          "sourceBook": "Saberes y Pensamiento Científico",
+          "sourcePages": [
+            300,
+            325
+          ],
+          "sourcePagesLabel": "pp. 300-325",
+          "topicTitle": "Electricidad",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Electricidad\" aporta base suficiente para trabajar protocolos de seguridad dentro del proyecto 34.",
+          "pedagogicalUse": "Ayuda a fortalecer escenificación teatral de situaciones de riesgo y seguridad y a explicar las manifestaciones y aplicaciones de la electricidad, sus peligros y los protocolos de seguridad para su uso en la escuela, la familia y la comunidad con mayor claridad mediante protocolos de seguridad.",
+          "activityReadiness": "usable-for-autoevaluation"
+        }
+      ],
+      "thinkingCriteria": [
+        "Relacionar las manifestaciones y aplicaciones de la electricidad, sus peligros y los protocolos de seguridad para su uso en la escuela, la familia y la comunidad con situaciones cercanas a la comunidad.",
+        "Usar escenificación teatral de situaciones de riesgo y seguridad para explicar y no solo para recopilar informacion.",
+        "Distinguir entre mencionar conceptos y comprender como dialogan entre si dentro del proyecto."
+      ],
+      "validationStatus": {
+        "readinessLevel": "development-partial",
+        "readyForActivities": false,
+        "needsReviewReasons": [
+          "El bloque 12 ya es usable como lectura docente, pero el video del PPA 12 y el recurso informatico siguen pendientes de validacion de destino final.",
+          "La asignacion de apoyos de Posibilidades se sostiene por inferencia curricular documentada y no por OCR perfectamente separado por columnas.",
+          "No mover a actividades interactivas ni desbloquear juegos completos hasta ampliar validacion de videos y recursos complementarios."
+        ]
+      },
+      "readinessLevel": "development-partial",
+      "readyForActivities": false,
+      "needsReviewReasons": [
+        "No mover a actividades interactivas ni desbloquear juegos completos."
+      ],
+      "roleInPpa": "Abre el bloque al situar la electricidad como fenómeno útil pero riesgoso que requiere prevención y cuidado.",
+      "pedagogicalUse": "Conviene trabajar ¡Cuidado con la electricidad! como una oportunidad para profundizar en las manifestaciones y aplicaciones de la electricidad, sus peligros y los protocolos de seguridad para su uso en la escuela, la familia y la comunidad sin separar contenido, comunidad y producto final.",
+      "teacherNotes": [
+        "Conviene partir de ejemplos cercanos y después pasar al lenguaje mas abstracto del campo.",
+        "El producto Escenificación teatral de situaciones de riesgo y seguridad gana fuerza cuando se usa para explicar y no solo para exhibir informacion.",
+        "Es mejor seleccionar pocos conceptos bien comprendidos que saturar el trabajo con terminos aislados."
+      ],
+      "resonancePrompts": [
+        {
+          "type": "individual",
+          "prompt": "¿Qué comprendes mejor sobre las manifestaciones y aplicaciones de la electricidad, sus peligros y los protocolos de seguridad para su uso en la escuela, la familia y la comunidad después de elaborar escenificación teatral de situaciones de riesgo y seguridad?"
+        },
+        {
+          "type": "community",
+          "prompt": "¿Qué prácticas cotidianas de la comunidad conviene revisar para prevenir riesgos en el uso de la electricidad?"
+        }
+      ],
+      "notReadyFor": [
+        "full-games",
+        "summative-exam"
+      ]
+    },
+    {
+      "id": "saberes-y-pensamiento-cientifico-2-ppa-12-pa35",
+      "projectId": "saberes-y-pensamiento-cientifico-2-ppa-12-pa35",
+      "academicProjectNumber": 35,
+      "title": "¿Qué pasa con el magnetismo y los imanes?",
+      "projectTitle": "¿Qué pasa con el magnetismo y los imanes?",
+      "grade": "2",
+      "field": "Saberes y Pensamiento Científico",
+      "ppaNumber": "12",
+      "partialClassroomProject": "PPA 12",
+      "partialClassroomProjectTitle": "Electricidad y magnetismo en nuestras vidas",
+      "bookVolume": "Tomo III",
+      "sourceValidation": {
+        "sourceStatus": "linked",
+        "possibilitiesPages": [
+          30
+        ],
+        "possibilitiesMaterialId": "grade-2-posibilidades-pos-sypc-2",
+        "possibilitiesColumnIndex": 2,
+        "columnEvidence": "Bloque PPA 12 Electricidad y magnetismo en nuestras vidas localizado en p. 30; la columna 2 se confirma por el orden de proyectos, productos y continuidad del mismo bloque."
+      },
+      "finalProduct": {
+        "title": "Pruebas científicas",
+        "source": "Posibilidades de uso SyPC p. 30 + Nuestro libro de proyectos Tomo III pp. 111-114",
+        "status": "confirmed"
+      },
+      "sourcePages": {
+        "nuestroLibroProyectos": [
+          {
+            "materialId": "grade-2-proyectos-nuestro-libro-de-proyectos-tomo-3-segundo-grado",
+            "label": "Nuestro libro de proyectos Tomo III",
+            "startPage": 111,
+            "endPage": 114,
+            "pagesLabel": "pp. 111-114",
+            "topicTitle": "Proyecto academico 35",
+            "status": "confirmed-source"
+          }
+        ],
+        "conceptBook": [
+          {
+            "materialId": "grade-2-conceptos-saberes-y-pensamiento-cientifico-segundo-grado",
+            "label": "Saberes y Pensamiento Científico",
+            "startPage": 233,
+            "endPage": 238,
+            "pagesLabel": "pp. 233-238",
+            "topicTitle": "Magnetismo",
+            "status": "confirmed-by-column-inference"
+          },
+          {
+            "materialId": "grade-2-conceptos-saberes-y-pensamiento-cientifico-segundo-grado",
+            "label": "Saberes y Pensamiento Científico",
+            "startPage": 316,
+            "endPage": 319,
+            "pagesLabel": "pp. 316-319",
+            "topicTitle": "Electromagnetismo",
+            "status": "confirmed-by-column-inference"
+          }
+        ],
+        "multiplesLenguajes": [],
+        "otherMaterials": [
+          {
+            "label": "Video PPA 12: Electricidad y magnetismo en nuestras vidas",
+            "reference": "bit.ly/3VfglUk",
+            "status": "pending-validation"
+          }
+        ]
+      },
+      "supportMaterials": [],
+      "horizonOrPurpose": {
+        "status": "official",
+        "text": "Reproducir ejemplos de fenómenos comunes del magnetismo a partir de pruebas científicas para comprender la interacción de los imanes.",
+        "source": "Nuestro libro de proyectos Tomo III p. 111"
+      },
+      "projectExpectationHorizon": {
+        "officialText": "Recabar información en fuentes documentales y orales acerca de las pruebas científicas sobre magnetismo e interacción con imanes.",
+        "studentVersion": "Realizar pruebas científicas para observar cómo interactúan los imanes y cómo se manifiesta el magnetismo.",
+        "sourcePages": [
+          "Nuestro libro de proyectos Tomo III p. 112"
+        ],
+        "evidence": "La etapa 1 fija las pruebas científicas como producto para comprender interacciones magnéticas comunes.",
+        "status": "official"
+      },
+      "detonatingStrategy": {
+        "status": "pending-url",
+        "text": "Video PPA 12: Electricidad y magnetismo en nuestras vidas",
+        "reference": "bit.ly/3VfglUk",
+        "source": "Nuestro libro de proyectos Tomo III pp. 109-110 + Posibilidades de uso SyPC p. 30"
+      },
+      "academicProjectStrategy": {
+        "title": "Pruebas científicas",
+        "text": "Diseñar pruebas científicas sencillas que permitan observar, describir y explicar la interacción entre imanes.",
+        "type": "project-product",
+        "status": "confirmed-from-project-book",
+        "source": "Nuestro libro de proyectos Tomo III pp. 111-114"
+      },
+      "academicConcepts": [
+        {
+          "concept": "pruebas científicas",
+          "description": "Pruebas científicas como producto de cierre para organizar y comunicar aprendizajes del proyecto.",
+          "sourceBook": "Nuestro libro de proyectos Tomo III",
+          "sourcePages": [
+            111,
+            114
+          ],
+          "sourcePagesLabel": "pp. 111-114",
+          "topicTitle": "Proyecto academico 35",
+          "status": "confirmed",
+          "reason": "Posibilidades y el propio proyecto fijan Pruebas científicas como producto final del PA 35.",
+          "pedagogicalUse": "Da una forma concreta de socializar lo comprendido sobre el magnetismo, la interacción entre imanes y la reproducción de fenómenos magnéticos comunes por medio de pruebas científicas.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "magnetismo",
+          "description": "Magnetismo es una idea clave para comprender el magnetismo, la interacción entre imanes y la reproducción de fenómenos magnéticos comunes por medio de pruebas científicas.",
+          "sourceBook": "Saberes y Pensamiento Científico",
+          "sourcePages": [
+            233,
+            238
+          ],
+          "sourcePagesLabel": "pp. 233-238",
+          "topicTitle": "Magnetismo",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Magnetismo\" aporta base suficiente para trabajar magnetismo dentro del proyecto 35.",
+          "pedagogicalUse": "Ayuda a fortalecer pruebas científicas y a explicar el magnetismo, la interacción entre imanes y la reproducción de fenómenos magnéticos comunes por medio de pruebas científicas con mayor claridad mediante magnetismo.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "imanes",
+          "description": "Imanes es una idea clave para comprender el magnetismo, la interacción entre imanes y la reproducción de fenómenos magnéticos comunes por medio de pruebas científicas.",
+          "sourceBook": "Nuestro libro de proyectos Tomo III",
+          "sourcePages": [
+            111,
+            112,
+            113
+          ],
+          "sourcePagesLabel": "pp. 111-113",
+          "topicTitle": "Proyecto académico 35",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Proyecto académico 35\" aporta base suficiente para trabajar imanes dentro del proyecto 35.",
+          "pedagogicalUse": "Ayuda a fortalecer pruebas científicas y a explicar el magnetismo, la interacción entre imanes y la reproducción de fenómenos magnéticos comunes por medio de pruebas científicas con mayor claridad mediante imanes.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "fenómenos magnéticos",
+          "description": "Fenómenos magnéticos es una idea clave para comprender el magnetismo, la interacción entre imanes y la reproducción de fenómenos magnéticos comunes por medio de pruebas científicas.",
+          "sourceBook": "Saberes y Pensamiento Científico",
+          "sourcePages": [
+            233,
+            238
+          ],
+          "sourcePagesLabel": "pp. 233-238",
+          "topicTitle": "Magnetismo",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Magnetismo\" aporta base suficiente para trabajar fenómenos magnéticos dentro del proyecto 35.",
+          "pedagogicalUse": "Ayuda a fortalecer pruebas científicas y a explicar el magnetismo, la interacción entre imanes y la reproducción de fenómenos magnéticos comunes por medio de pruebas científicas con mayor claridad mediante fenómenos magnéticos.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "campo magnético",
+          "description": "Campo magnético es una idea clave para comprender el magnetismo, la interacción entre imanes y la reproducción de fenómenos magnéticos comunes por medio de pruebas científicas.",
+          "sourceBook": "Saberes y Pensamiento Científico",
+          "sourcePages": [
+            233,
+            238
+          ],
+          "sourcePagesLabel": "pp. 233-238",
+          "topicTitle": "Magnetismo",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Magnetismo\" aporta base suficiente para trabajar campo magnético dentro del proyecto 35.",
+          "pedagogicalUse": "Ayuda a fortalecer pruebas científicas y a explicar el magnetismo, la interacción entre imanes y la reproducción de fenómenos magnéticos comunes por medio de pruebas científicas con mayor claridad mediante campo magnético.",
+          "activityReadiness": "usable-for-autoevaluation"
+        }
+      ],
+      "thinkingCriteria": [
+        "Relacionar el magnetismo, la interacción entre imanes y la reproducción de fenómenos magnéticos comunes por medio de pruebas científicas con situaciones cercanas a la comunidad.",
+        "Usar pruebas científicas para explicar y no solo para recopilar informacion.",
+        "Distinguir entre mencionar conceptos y comprender como dialogan entre si dentro del proyecto."
+      ],
+      "validationStatus": {
+        "readinessLevel": "development-partial",
+        "readyForActivities": false,
+        "needsReviewReasons": [
+          "El bloque 12 ya es usable como lectura docente, pero el video del PPA 12 y el recurso informatico siguen pendientes de validacion de destino final.",
+          "La asignacion de apoyos de Posibilidades se sostiene por inferencia curricular documentada y no por OCR perfectamente separado por columnas.",
+          "No mover a actividades interactivas ni desbloquear juegos completos hasta ampliar validacion de videos y recursos complementarios."
+        ]
+      },
+      "readinessLevel": "development-partial",
+      "readyForActivities": false,
+      "needsReviewReasons": [
+        "No mover a actividades interactivas ni desbloquear juegos completos."
+      ],
+      "roleInPpa": "Profundiza el bloque al pasar de la prevención al experimento y a la explicación de un fenómeno físico observable.",
+      "pedagogicalUse": "Conviene trabajar ¿Qué pasa con el magnetismo y los imanes? como una oportunidad para profundizar en el magnetismo, la interacción entre imanes y la reproducción de fenómenos magnéticos comunes por medio de pruebas científicas sin separar contenido, comunidad y producto final.",
+      "teacherNotes": [
+        "Conviene partir de ejemplos cercanos y después pasar al lenguaje mas abstracto del campo.",
+        "El producto Pruebas científicas gana fuerza cuando se usa para explicar y no solo para exhibir informacion.",
+        "Es mejor seleccionar pocos conceptos bien comprendidos que saturar el trabajo con terminos aislados."
+      ],
+      "resonancePrompts": [
+        {
+          "type": "individual",
+          "prompt": "¿Qué comprendes mejor sobre el magnetismo, la interacción entre imanes y la reproducción de fenómenos magnéticos comunes por medio de pruebas científicas después de elaborar pruebas científicas?"
+        },
+        {
+          "type": "community",
+          "prompt": "¿Qué objetos, herramientas o aparatos del entorno ayudan a reconocer mejor la presencia del magnetismo?"
+        }
+      ],
+      "notReadyFor": [
+        "full-games",
+        "summative-exam"
+      ]
+    },
+    {
+      "id": "saberes-y-pensamiento-cientifico-2-ppa-12-pa36",
+      "projectId": "saberes-y-pensamiento-cientifico-2-ppa-12-pa36",
+      "academicProjectNumber": 36,
+      "title": "Comunicación y ondas electromagnéticas",
+      "projectTitle": "Comunicación y ondas electromagnéticas",
+      "grade": "2",
+      "field": "Saberes y Pensamiento Científico",
+      "ppaNumber": "12",
+      "partialClassroomProject": "PPA 12",
+      "partialClassroomProjectTitle": "Electricidad y magnetismo en nuestras vidas",
+      "bookVolume": "Tomo III",
+      "sourceValidation": {
+        "sourceStatus": "linked",
+        "possibilitiesPages": [
+          30
+        ],
+        "possibilitiesMaterialId": "grade-2-posibilidades-pos-sypc-2",
+        "possibilitiesColumnIndex": 3,
+        "columnEvidence": "Bloque PPA 12 Electricidad y magnetismo en nuestras vidas localizado en p. 30; la columna 3 se confirma por el orden de proyectos, productos y continuidad del mismo bloque."
+      },
+      "finalProduct": {
+        "title": "Colección de esquemas",
+        "source": "Posibilidades de uso SyPC p. 30 + Nuestro libro de proyectos Tomo III pp. 115-120",
+        "status": "confirmed"
+      },
+      "sourcePages": {
+        "nuestroLibroProyectos": [
+          {
+            "materialId": "grade-2-proyectos-nuestro-libro-de-proyectos-tomo-3-segundo-grado",
+            "label": "Nuestro libro de proyectos Tomo III",
+            "startPage": 115,
+            "endPage": 120,
+            "pagesLabel": "pp. 115-120",
+            "topicTitle": "Proyecto academico 36",
+            "status": "confirmed-source"
+          }
+        ],
+        "conceptBook": [
+          {
+            "materialId": "grade-2-conceptos-saberes-y-pensamiento-cientifico-segundo-grado",
+            "label": "Saberes y Pensamiento Científico",
+            "startPage": 300,
+            "endPage": 311,
+            "pagesLabel": "pp. 300-311",
+            "topicTitle": "Electricidad",
+            "status": "confirmed-by-column-inference"
+          },
+          {
+            "materialId": "grade-2-conceptos-saberes-y-pensamiento-cientifico-segundo-grado",
+            "label": "Saberes y Pensamiento Científico",
+            "startPage": 316,
+            "endPage": 323,
+            "pagesLabel": "pp. 316-323",
+            "topicTitle": "Electromagnetismo",
+            "status": "confirmed-by-column-inference"
+          }
+        ],
+        "multiplesLenguajes": [],
+        "otherMaterials": [
+          {
+            "label": "Video PPA 12: Electricidad y magnetismo en nuestras vidas",
+            "reference": "bit.ly/3VfglUk",
+            "status": "pending-validation"
+          }
+        ]
+      },
+      "supportMaterials": [],
+      "horizonOrPurpose": {
+        "status": "official",
+        "text": "Representar el funcionamiento de los aparatos tecnológicos de comunicación por medio de una colección de esquemas para explicar las manifestaciones y aplicaciones de las ondas electromagnéticas en la vida cotidiana.",
+        "source": "Nuestro libro de proyectos Tomo III p. 115"
+      },
+      "projectExpectationHorizon": {
+        "officialText": "Representar el funcionamiento de los aparatos tecnológicos de comunicación y las ondas electromagnéticas en una colección de esquemas clara y comprensible.",
+        "studentVersion": "Explicar con esquemas cómo las ondas electromagnéticas hacen posible la comunicación cotidiana.",
+        "sourcePages": [
+          "Nuestro libro de proyectos Tomo III pp. 115-116"
+        ],
+        "evidence": "La etapa 1 fija la colección de esquemas como producto para explicar el vínculo entre ondas electromagnéticas y aparatos de comunicación.",
+        "status": "official"
+      },
+      "detonatingStrategy": {
+        "status": "pending-url",
+        "text": "Video PPA 12: Electricidad y magnetismo en nuestras vidas",
+        "reference": "bit.ly/3VfglUk",
+        "source": "Nuestro libro de proyectos Tomo III pp. 113-114 + Posibilidades de uso SyPC p. 30"
+      },
+      "academicProjectStrategy": {
+        "title": "Colección de esquemas",
+        "text": "Elaborar una colección de esquemas para mostrar de forma clara cómo funcionan los aparatos de comunicación a partir de ondas electromagnéticas.",
+        "type": "project-product",
+        "status": "confirmed-from-project-book",
+        "source": "Nuestro libro de proyectos Tomo III pp. 115-120"
+      },
+      "academicConcepts": [
+        {
+          "concept": "colección de esquemas",
+          "description": "Colección de esquemas como producto de cierre para organizar y comunicar aprendizajes del proyecto.",
+          "sourceBook": "Nuestro libro de proyectos Tomo III",
+          "sourcePages": [
+            115,
+            120
+          ],
+          "sourcePagesLabel": "pp. 115-120",
+          "topicTitle": "Proyecto academico 36",
+          "status": "confirmed",
+          "reason": "Posibilidades y el propio proyecto fijan Colección de esquemas como producto final del PA 36.",
+          "pedagogicalUse": "Da una forma concreta de socializar lo comprendido sobre las ondas electromagnéticas y el funcionamiento de aparatos tecnológicos de comunicación en la vida cotidiana.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "ondas electromagnéticas",
+          "description": "Ondas electromagnéticas es una idea clave para comprender las ondas electromagnéticas y el funcionamiento de aparatos tecnológicos de comunicación en la vida cotidiana.",
+          "sourceBook": "Saberes y Pensamiento Científico",
+          "sourcePages": [
+            316,
+            323
+          ],
+          "sourcePagesLabel": "pp. 316-323",
+          "topicTitle": "Electromagnetismo",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Electromagnetismo\" aporta base suficiente para trabajar ondas electromagnéticas dentro del proyecto 36.",
+          "pedagogicalUse": "Ayuda a fortalecer colección de esquemas y a explicar las ondas electromagnéticas y el funcionamiento de aparatos tecnológicos de comunicación en la vida cotidiana con mayor claridad mediante ondas electromagnéticas.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "aparatos de comunicación",
+          "description": "Aparatos de comunicación es una idea clave para comprender las ondas electromagnéticas y el funcionamiento de aparatos tecnológicos de comunicación en la vida cotidiana.",
+          "sourceBook": "Saberes y Pensamiento Científico",
+          "sourcePages": [
+            316,
+            323
+          ],
+          "sourcePagesLabel": "pp. 316-323",
+          "topicTitle": "Electromagnetismo",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Electromagnetismo\" aporta base suficiente para trabajar aparatos de comunicación dentro del proyecto 36.",
+          "pedagogicalUse": "Ayuda a fortalecer colección de esquemas y a explicar las ondas electromagnéticas y el funcionamiento de aparatos tecnológicos de comunicación en la vida cotidiana con mayor claridad mediante aparatos de comunicación.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "electromagnetismo",
+          "description": "Electromagnetismo es una idea clave para comprender las ondas electromagnéticas y el funcionamiento de aparatos tecnológicos de comunicación en la vida cotidiana.",
+          "sourceBook": "Saberes y Pensamiento Científico",
+          "sourcePages": [
+            316,
+            323
+          ],
+          "sourcePagesLabel": "pp. 316-323",
+          "topicTitle": "Electromagnetismo",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Electromagnetismo\" aporta base suficiente para trabajar electromagnetismo dentro del proyecto 36.",
+          "pedagogicalUse": "Ayuda a fortalecer colección de esquemas y a explicar las ondas electromagnéticas y el funcionamiento de aparatos tecnológicos de comunicación en la vida cotidiana con mayor claridad mediante electromagnetismo.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "esquemas",
+          "description": "Esquemas es una idea clave para comprender las ondas electromagnéticas y el funcionamiento de aparatos tecnológicos de comunicación en la vida cotidiana.",
+          "sourceBook": "Nuestro libro de proyectos Tomo III",
+          "sourcePages": [
+            115,
+            116,
+            117
+          ],
+          "sourcePagesLabel": "pp. 115-117",
+          "topicTitle": "Proyecto académico 36",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Proyecto académico 36\" aporta base suficiente para trabajar esquemas dentro del proyecto 36.",
+          "pedagogicalUse": "Ayuda a fortalecer colección de esquemas y a explicar las ondas electromagnéticas y el funcionamiento de aparatos tecnológicos de comunicación en la vida cotidiana con mayor claridad mediante esquemas.",
+          "activityReadiness": "usable-for-autoevaluation"
+        }
+      ],
+      "thinkingCriteria": [
+        "Relacionar las ondas electromagnéticas y el funcionamiento de aparatos tecnológicos de comunicación en la vida cotidiana con situaciones cercanas a la comunidad.",
+        "Usar colección de esquemas para explicar y no solo para recopilar informacion.",
+        "Distinguir entre mencionar conceptos y comprender como dialogan entre si dentro del proyecto."
+      ],
+      "validationStatus": {
+        "readinessLevel": "development-partial",
+        "readyForActivities": false,
+        "needsReviewReasons": [
+          "El bloque 12 ya es usable como lectura docente, pero el video del PPA 12 y el recurso informatico siguen pendientes de validacion de destino final.",
+          "La asignacion de apoyos de Posibilidades se sostiene por inferencia curricular documentada y no por OCR perfectamente separado por columnas.",
+          "No mover a actividades interactivas ni desbloquear juegos completos hasta ampliar validacion de videos y recursos complementarios."
+        ]
+      },
+      "readinessLevel": "development-partial",
+      "readyForActivities": false,
+      "needsReviewReasons": [
+        "No mover a actividades interactivas ni desbloquear juegos completos."
+      ],
+      "roleInPpa": "Cierra el bloque al ligar electricidad y magnetismo con tecnologías concretas de comunicación y su representación esquemática.",
+      "pedagogicalUse": "Conviene trabajar Comunicación y ondas electromagnéticas como una oportunidad para profundizar en las ondas electromagnéticas y el funcionamiento de aparatos tecnológicos de comunicación en la vida cotidiana sin separar contenido, comunidad y producto final.",
+      "teacherNotes": [
+        "Conviene partir de ejemplos cercanos y después pasar al lenguaje mas abstracto del campo.",
+        "El producto Colección de esquemas gana fuerza cuando se usa para explicar y no solo para exhibir informacion.",
+        "Es mejor seleccionar pocos conceptos bien comprendidos que saturar el trabajo con terminos aislados."
+      ],
+      "resonancePrompts": [
+        {
+          "type": "individual",
+          "prompt": "¿Qué comprendes mejor sobre las ondas electromagnéticas y el funcionamiento de aparatos tecnológicos de comunicación en la vida cotidiana después de elaborar colección de esquemas?"
+        },
+        {
+          "type": "community",
+          "prompt": "¿Qué cambia en la comprensión de los aparatos de comunicación cuando los representamos con esquemas y no solo los usamos?"
+        }
+      ],
+      "notReadyFor": [
+        "full-games",
+        "summative-exam"
+      ]
+    }
+  ]
+}

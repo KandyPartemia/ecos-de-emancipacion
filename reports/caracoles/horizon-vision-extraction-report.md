@@ -1,0 +1,203 @@
+# Reporte — Extracción de Horizontes por Visión
+Generado: 2026-06-16T05:49:08.820Z
+Modo: ESCRITURA
+Filtros: grado=todos, campo=todos, límite=Infinity
+
+## Resumen
+| Métrica | Valor |
+|---------|-------|
+| PA totales evaluados | 432 |
+| PA procesados (con API) | 187 |
+| Horizontes actualizados | 76 |
+| Ya confirmados (omitidos) | 245 |
+| Sin página fuente | 0 |
+| Errores | 111 |
+
+## Detalle por PA
+- **de-lo-humano-y-lo-comunitario-1-ppa-2-pa5** p.287 | sin-horizonte-detectado | H1:  | H2: 
+- **de-lo-humano-y-lo-comunitario-1-ppa-2-pa6** p.291 | alta | H1: Recabar información dentro de la comunidad sobre los impactos negativos y positi | H2: Valorar las innovaciones en el uso y construcción de nuevas herramientas que fav
+- **de-lo-humano-y-lo-comunitario-1-ppa-3-pa7** p.229 | sin-horizonte-detectado | H1:  | H2: 
+- **de-lo-humano-y-lo-comunitario-1-ppa-3-pa8** p.234 | sin-horizonte-detectado | H1:  | H2: 
+- **de-lo-humano-y-lo-comunitario-1-ppa-3-pa9** p.238 | sin-horizonte-detectado | H1:  | H2: 
+- **de-lo-humano-y-lo-comunitario-1-ppa-4-pa11** p.248 | alta | H1: Realizar un encuentro estudiantil para identificar las situaciones de riesgo a l | H2: Identificar, mediante un encuentro estudiantil, los factores socioambientales y 
+- **de-lo-humano-y-lo-comunitario-1-ppa-4-pa12** p.252 | alta | H1: Investigar, desde fuentes directas, algunos procesos productivos relevantes en l | H2: Elaborar, a partir de la investigación de procesos productivos artísticos, un mu
+- **de-lo-humano-y-lo-comunitario-1-ppa-5-pa13** p.224 | alta | H1: Investigar las características y los principios de los hábitos activos y saludab | H2: Diseñar y compartir, en comunidad, un plan personal de actividad física, con acc
+- **de-lo-humano-y-lo-comunitario-1-ppa-5-pa15** p.233 | alta | H1: Identificar situaciones del entorno cercano que vulneren y dañen la dignidad, la | H2: Determinar un estudio de caso para favorecer ambientes dignos caracterizados por
+- **de-lo-humano-y-lo-comunitario-1-ppa-6-pa16** p.240 | alta | H1: Elaborar una dinámica alternativa para identificar los significados de potencial | H2: Recopilar información sobre algunas dinámicas alternativas de la comunidad para 
+- **etica-naturaleza-y-sociedades-1-ppa-10-pa28** p.178 | alta | H1: Fomentar, mediante la exposición de mapas mentales, la comprensión de los cambio | H2: Identificar cómo se concibe el amor, la amistad y el concepto de familia en la c
+- **etica-naturaleza-y-sociedades-1-ppa-10-pa29** p.183 | sin-horizonte-detectado | H1:  | H2: 
+- **etica-naturaleza-y-sociedades-1-ppa-10-pa30** p.187 | sin-horizonte-detectado | H1:  | H2: 
+- **etica-naturaleza-y-sociedades-1-ppa-11-pa31** p.195 | sin-horizonte-detectado | H1:  | H2: 
+- **etica-naturaleza-y-sociedades-1-ppa-11-pa32** p.198 | alta | H1: Fomentlar el pensamiento crítico mediante la elaboración de discursos cortos, en | H2: Promover, a través de discursos cortos, la aplicación de normas y leyes que gara
+- **etica-naturaleza-y-sociedades-1-ppa-11-pa33** p.202 | alta | H1: Comprender la interculturalidad presente en la comunidad mediante la creación de | H2: Fortalecer la identidad a través de la reflexión y el conocimiento de la propia 
+- **etica-naturaleza-y-sociedades-1-ppa-12-pa36** p.216 | alta | H1: Crear una lista de compromisos como estudiantes, y algunas propuestas de accione | H2: Localizar la información sobre organismos, instituciones y políticas nacionales 
+- **etica-naturaleza-y-sociedades-1-ppa-2-pa5** p.214 | sin-horizonte-detectado | H1:  | H2: 
+- **etica-naturaleza-y-sociedades-1-ppa-2-pa6** p.219 | sin-horizonte-detectado | H1:  | H2: 
+- **etica-naturaleza-y-sociedades-1-ppa-3-pa9** p.237 | sin-horizonte-detectado | H1:  | H2: 
+- **etica-naturaleza-y-sociedades-1-ppa-4-pa10** p.245 | sin-horizonte-detectado | H1:  | H2: 
+- **etica-naturaleza-y-sociedades-1-ppa-4-pa11** p.251 | sin-horizonte-detectado | H1:  | H2: 
+- **etica-naturaleza-y-sociedades-1-ppa-4-pa12** p.255 | sin-horizonte-detectado | H1:  | H2: 
+- **etica-naturaleza-y-sociedades-1-ppa-5-pa14** p.168 | alta | H1: Identificar las actividades humanas de la localidad que favorecen el deterioro d | H2: Explicar cuáles son las causas del cambio climático en la localidad vinculadas a
+- **etica-naturaleza-y-sociedades-1-ppa-7-pa19** p.194 | alta | H1: Determinar, en comunidad áulica, las fuentes de información confiables sobre los | H2: Construir un conocimiento amplio sobre los sucesos pasados de la comunidad, a pa
+- **etica-naturaleza-y-sociedades-1-ppa-7-pa20** p.199 | sin-horizonte-detectado | H1:  | H2: 
+- **etica-naturaleza-y-sociedades-1-ppa-7-pa21** p.203 | alta | H1: Buscar información sobre cómo elaborar un mapa de las zonas habitadas por los pu | H2: Definir las fuentes de información confiables con apoyo de la maestra o maestro;
+- **etica-naturaleza-y-sociedades-1-ppa-8-pa22** p.211 | sin-horizonte-detectado | H1:  | H2: 
+- **etica-naturaleza-y-sociedades-1-ppa-9-pa25** p.162 | alta | H1: Realizar un cuadro revelador sobre la participación de las mujeres en la socieda | H2: Recopilar e integrar la información sobre la participación de las mujeres en la 
+- **etica-naturaleza-y-sociedades-1-ppa-9-pa26** p.166 | sin-horizonte-detectado | H1:  | H2: 
+- **etica-naturaleza-y-sociedades-1-ppa-9-pa27** p.171 | sin-horizonte-detectado | H1:  | H2: 
+- **lenguajes-1-ppa-11-pa31** p.14 | alta | H1: Indagar las características de un periódico semanal y, con base en ellas, elabor | H2: Elegir, observar e indagar eventos importantes que ocurren en el entorno para co
+- **lenguajes-1-ppa-11-pa33** p.23 | alta | H1: Recopilar objetos artesanales para formar un acervo artístico que represente la  | H2: Generar un acervo artístico con imágenes o fotografías de objetos artesanales re
+- **lenguajes-1-ppa-14-pa40** p.60 | sin-horizonte-detectado | H1:  | H2: 
+- **lenguajes-1-ppa-14-pa41** p.63 | alta | H1: Distribuir una revista de divulgación científica local que se realizará en comun | H2: Escribir un artículo de divulgación científica tras realizar una investigación e
+- **lenguajes-1-ppa-14-pa42** p.68 | sin-horizonte-detectado | H1:  | H2: 
+- **lenguajes-1-ppa-15-pa43** p.74 | sin-horizonte-detectado | H1:  | H2: 
+- **lenguajes-1-ppa-15-pa45** p.82 | sin-horizonte-detectado | H1:  | H2: 
+- **lenguajes-1-ppa9-pa25** p.61 | sin-horizonte-detectado | H1:  | H2: 
+- **lenguajes-1-ppa-9-pa26** p.64 | alta | H1: Investigar y recopilar diversos textos en inglés que sean de apoyo para el proye | H2: Investigar cómo se hace una colección de textos y solicitar apoyo de algún integ
+- **de-lo-humano-y-lo-comunitario-2-ppa-1-pa1** p.250 | alta | H1: No sabemos identificar cuáles son los riesgos personales que afectan el establec | H2: Desconocemos los gráficos que se pueden utilizar para representar los resultados
+- **de-lo-humano-y-lo-comunitario-2-ppa-1-pa2** p.254 | alta | H1: Investigar las problemáticas de la comunidad para determinar un plan de acción q | H2: Buscar que la aplicación del plan de acción favorezca el bienestar individual y 
+- **de-lo-humano-y-lo-comunitario-2-ppa-1-pa3** p.257 | alta | H1: Investigar cómo es una brújula personal y los aspectos que se deben considerar p | H2: Realizar una brújula personal para reconocer capacidades y habilidades de forma 
+- **de-lo-humano-y-lo-comunitario-2-ppa-2-pa5** p.268 | alta | H1: Establecer una propuesta de solución para representarla en una maqueta móvil. | H2: Comprender las diversas alternativas de prevención de riesgos personales, social
+- **de-lo-humano-y-lo-comunitario-2-ppa-2-pa6** p.272 | sin-horizonte-detectado | H1:  | H2: 
+- **de-lo-humano-y-lo-comunitario-2-ppa-3-pa7** p.220 | sin-horizonte-detectado | H1:  | H2: 
+- **de-lo-humano-y-lo-comunitario-2-ppa-4-pa10** p.235 | sin-horizonte-detectado | H1:  | H2: 
+- **de-lo-humano-y-lo-comunitario-2-ppa-4-pa12** p.242 | alta | H1: Identificar factores sociales, económicos, culturales y naturales presentes en l | H2: Elaborar y presentar un tríptico que refleje los factores que contribuyen al bie
+- **de-lo-humano-y-lo-comunitario-2-ppa-5-pa15** p.240 | sin-horizonte-detectado | H1:  | H2: 
+- **etica-naturaleza-y-sociedades-2-ppa-1-pa1** p.188 | sin-horizonte-detectado | H1:  | H2: 
+- **etica-naturaleza-y-sociedades-2-ppa-1-pa2** p.193 | sin-horizonte-detectado | H1:  | H2: 
+- **etica-naturaleza-y-sociedades-2-ppa-1-pa3** p.196 | alta | H1: Identificar y conocer distintas identidades para explicar a los demás la importa | H2: Argumentar la importancia de defender, como jóvenes, la pertenencia a una identi
+- **etica-naturaleza-y-sociedades-2-ppa-10-pa28** p.182 | sin-horizonte-detectado | H1:  | H2: 
+- **etica-naturaleza-y-sociedades-2-ppa-10-pa29** p.186 | alta | H1: Llevar a cabo un conversatorio para intercambiar ideas y posicionamientos respec | H2: Investigar los movimientos sociales en México durante los años 1940 a 1970 para 
+- **etica-naturaleza-y-sociedades-2-ppa-11-pa31** p.197 | sin-horizonte-detectado | H1:  | H2: 
+- **etica-naturaleza-y-sociedades-2-ppa-11-pa32** p.202 | sin-horizonte-detectado | H1:  | H2: 
+- **etica-naturaleza-y-sociedades-2-ppa-11-pa33** p.205 | alta | H1: Identificar y explicar, mediante un cartel multicolor, algunas movilizaciones so | H2: Identificar y explicar, mediante un cartel multicolor, alguna situación de viola
+- **etica-naturaleza-y-sociedades-2-ppa-12-pa34** p.212 | sin-horizonte-detectado | H1:  | H2: 
+- **etica-naturaleza-y-sociedades-2-ppa-12-pa35** p.217 | sin-horizonte-detectado | H1:  | H2: 
+- **etica-naturaleza-y-sociedades-2-ppa-12-pa36** p.220 | sin-horizonte-detectado | H1:  | H2: 
+- **etica-naturaleza-y-sociedades-2-ppa-2-pa4** p.202 | sin-horizonte-detectado | H1:  | H2: 
+- **etica-naturaleza-y-sociedades-2-ppa-2-pa5** p.206 | alta | H1: Conocer y dialogar, en asamblea, acciones realizadas por los colonizadores europ | H2: Estudiar el proceso histórico de la Conquista señalando qué acciones generaron v
+- **etica-naturaleza-y-sociedades-2-ppa-2-pa6** p.210 | alta | H1: Conocer diferentes formas de violencia y cómo se manifiestan en hechos concretos | H2: Indagar sobre las formas de violencia ejercidas en el pasado para desarrollar co
+- **etica-naturaleza-y-sociedades-2-ppa-3-pa7** p.217 | sin-horizonte-detectado | H1:  | H2: 
+- **etica-naturaleza-y-sociedades-2-ppa-3-pa8** p.222 | sin-horizonte-detectado | H1:  | H2: 
+- **etica-naturaleza-y-sociedades-2-ppa-3-pa9** p.225 | alta | H1: Concientizar a nuestra comunidad escolar mediante una actividad llamada tiro al  | H2: Organizar la información más relevante sobre los derechos humanos actuales y los
+- **etica-naturaleza-y-sociedades-2-ppa-4-pa10** p.232 | sin-horizonte-detectado | H1:  | H2: 
+- **etica-naturaleza-y-sociedades-2-ppa-4-pa12** p.240 | alta | H1: Elaborar un cartel informativo con las características de la interculturalidad y | H2: Conocer cómo promover la igualdad en el marco de la interculturalidad, por medio
+- **etica-naturaleza-y-sociedades-2-ppa-5-pa14** p.163 | sin-horizonte-detectado | H1:  | H2: 
+- **etica-naturaleza-y-sociedades-2-ppa-5-pa15** p.167 | media | H1: Elaborar un cartel informativo sobre una temática relacionada con la cultura de  | H2: 
+- **etica-naturaleza-y-sociedades-2-ppa-6-pa16** p.173 | sin-horizonte-detectado | H1:  | H2: 
+- **etica-naturaleza-y-sociedades-2-ppa-7-pa19** p.187 | media | H1: En comunidad, formulen un horizonte de expectativas que les ayude en la realizac | H2: 
+- **etica-naturaleza-y-sociedades-2-ppa-7-pa20** p.192 | alta | H1: Explicar los acontecimientos más importantes que sucedieron durante la República | H2: Identificar cambios y permanencias en la sociedad actual relacionados con el per
+- **etica-naturaleza-y-sociedades-2-ppa-8-pa23** p.208 | sin-horizonte-detectado | H1:  | H2: 
+- **etica-naturaleza-y-sociedades-2-ppa-9-pa25** p.166 | sin-horizonte-detectado | H1:  | H2: 
+- **etica-naturaleza-y-sociedades-2-ppa-9-pa27** p.175 | sin-horizonte-detectado | H1:  | H2: 
+- **lenguajes-2-ppa-1-pa1** p.40 | sin-horizonte-detectado | H1:  | H2: 
+- **lenguajes-2-ppa-1-pa3** p.48 | sin-horizonte-detectado | H1:  | H2: 
+- **saberes-y-pensamiento-cientifico-2-ppa-1-pa1** p.112 | sin-horizonte-detectado | H1:  | H2: 
+- **saberes-y-pensamiento-cientifico-2-ppa-1-pa3** p.120 | alta | H1: Hacer uso de las gráficas de barras, poligonales y de línea para presentar datos | H2: Dar a conocer información analizada, calculada y plasmada en una colección de da
+- **saberes-y-pensamiento-cientifico-2-ppa-10-pa28** p.144 | sin-horizonte-detectado | H1:  | H2: 
+- **saberes-y-pensamiento-cientifico-2-ppa-8-pa22** p.118 | sin-horizonte-detectado | H1:  | H2: 
+- **saberes-y-pensamiento-cientifico-2-ppa-8-pa23** p.122 | sin-horizonte-detectado | H1:  | H2: 
+- **saberes-y-pensamiento-cientifico-2-ppa-8-pa24** p.125 | alta | H1: Comprender la vinculación entre la electricidad y el magnetismo, y la manera com | H2: Elaborar un cómic sobre el comportamiento de la luz como resultado de la interac
+- **saberes-y-pensamiento-cientifico-2-ppa-9-pa26** p.135 | sin-horizonte-detectado | H1:  | H2: 
+- **saberes-y-pensamiento-cientifico-2-ppa-9-pa27** p.138 | alta | H1: Dar una explicación sobre cómo surgen las ondas electromagnéticas, con el fin de | H2: Integrar información acerca de las ondas electromagnéticas y su representación e
+- **de-lo-humano-y-lo-comunitario-3-ppa-1-pa1** p.256 | alta | H1: Compartir con la familia y la comunidad escolar, mediante un compendio de experi | H2: Diseñar un compendio de experiencias lúdicas para adquirir conocimientos, sabere
+- **de-lo-humano-y-lo-comunitario-3-ppa-1-pa3** p.264 | alta | H1: Revisar los efectos de no establecer relaciones equitativas e inclusivas para su | H2: Reconocer, a partir de una historieta de vida, la forma de crianza para valorar 
+- **de-lo-humano-y-lo-comunitario-3-ppa-2-pa5** p.274 | alta | H1: Investigar, en la comunidad, a través de un fichero de investigación, las técnic | H2: Diseñar y difundir una infografía sobre los emprendimientos artesanales y fabril
+- **de-lo-humano-y-lo-comunitario-3-ppa-2-pa6** p.278 | alta | H1: Investigar acerca del bienestar personal y social para organizar actuaciones bre | H2: Realizar quiénes de actuación breves, a través de la recopilación de información
+- **de-lo-humano-y-lo-comunitario-3-ppa-3-pa7** p.234 | sin-horizonte-detectado | H1:  | H2: 
+- **de-lo-humano-y-lo-comunitario-3-ppa-3-pa9** p.242 | alta | H1: Diseñar un catálogo vivo de la relación entre el desarrollo de la disposición co | H2: Conocer las reglas de seguridad en el uso de máquinas, herramientas e instrument
+- **de-lo-humano-y-lo-comunitario-3-ppa-4-pa10** p.250 | sin-horizonte-detectado | H1:  | H2: 
+- **de-lo-humano-y-lo-comunitario-3-ppa-4-pa11** p.255 | sin-horizonte-detectado | H1:  | H2: 
+- **de-lo-humano-y-lo-comunitario-3-ppa-4-pa12** p.258 | alta | H1: Reconocer los comportamientos negativos de los miembros de la comunidad y su inc | H2: Implementar un observatorio comunitario para informar a la comunidad sobre las t
+- **de-lo-humano-y-lo-comunitario-3-ppa-5-pa13** p.233 | sin-horizonte-detectado | H1:  | H2: 
+- **de-lo-humano-y-lo-comunitario-3-ppa-6-pa16** p.250 | sin-horizonte-detectado | H1:  | H2: 
+- **de-lo-humano-y-lo-comunitario-3-ppa-6-pa17** p.253 | alta | H1: Recopilar información en la comunidad, en bibliotecas e entre la comunidad escol | H2: Elaborar un plan de acción para promover la innovación, la mejora continua y los
+- **de-lo-humano-y-lo-comunitario-3-ppa-6-pa18** p.257 | sin-horizonte-detectado | H1:  | H2: 
+- **etica-naturaleza-y-sociedades-3-ppa-1-pa1** p.189 | sin-horizonte-detectado | H1:  | H2: 
+- **etica-naturaleza-y-sociedades-3-ppa-1-pa2** p.194 | sin-horizonte-detectado | H1:  | H2: 
+- **etica-naturaleza-y-sociedades-3-ppa-1-pa3** p.199 | sin-horizonte-detectado | H1:  | H2: 
+- **etica-naturaleza-y-sociedades-3-ppa-10-pa28** p.178 | sin-horizonte-detectado | H1:  | H2: 
+- **etica-naturaleza-y-sociedades-3-ppa-10-pa29** p.183 | sin-horizonte-detectado | H1:  | H2: 
+- **etica-naturaleza-y-sociedades-3-ppa-11-pa31** p.196 | sin-horizonte-detectado | H1:  | H2: 
+- **etica-naturaleza-y-sociedades-3-ppa-11-pa32** p.200 | sin-horizonte-detectado | H1:  | H2: 
+- **etica-naturaleza-y-sociedades-3-ppa-11-pa33** p.205 | sin-horizonte-detectado | H1:  | H2: 
+- **etica-naturaleza-y-sociedades-3-ppa-12-pa34** p.212 | sin-horizonte-detectado | H1:  | H2: 
+- **etica-naturaleza-y-sociedades-3-ppa-12-pa35** p.218 | sin-horizonte-detectado | H1:  | H2: 
+- **etica-naturaleza-y-sociedades-3-ppa-12-pa36** p.223 | sin-horizonte-detectado | H1:  | H2: 
+- **etica-naturaleza-y-sociedades-3-ppa-2-pa4** p.205 | alta | H1: Organizar un desfile de las culturas del Mediterráneo que caracterice la vida de | H2: Identificar la forma de organización social y cultural de los pueblos del Medite
+- **etica-naturaleza-y-sociedades-3-ppa-2-pa6** p.215 | sin-horizonte-detectado | H1:  | H2: 
+- **etica-naturaleza-y-sociedades-3-ppa-3-pa7** p.221 | alta | H1: Comprender las características y la estructura de la sociedad medieval: propieda | H2: Explicar mediante la elaboración de fascículos informativos cómo fue el desarrol
+- **etica-naturaleza-y-sociedades-3-ppa-4-pa10** p.237 | sin-horizonte-detectado | H1:  | H2: 
+- **etica-naturaleza-y-sociedades-3-ppa-4-pa11** p.243 | sin-horizonte-detectado | H1:  | H2: 
+- **etica-naturaleza-y-sociedades-3-ppa-4-pa12** p.248 | sin-horizonte-detectado | H1:  | H2: 
+- **etica-naturaleza-y-sociedades-3-ppa-5-pa13** p.170 | sin-horizonte-detectado | H1:  | H2: 
+- **etica-naturaleza-y-sociedades-3-ppa-5-pa14** p.175 | sin-horizonte-detectado | H1:  | H2: 
+- **etica-naturaleza-y-sociedades-3-ppa-5-pa15** p.178 | alta | H1: Redactar un anecdotario de casos de violencia y trata de personas que permita id | H2: Mediante la elaboración de un anecdotario de casos de violencia, identificar las
+- **etica-naturaleza-y-sociedades-3-ppa-6-pa16** p.184 | sin-horizonte-detectado | H1:  | H2: 
+- **etica-naturaleza-y-sociedades-3-ppa-6-pa17** p.188 | alta | H1: Comprender las luchas por la independencia en América Latina y familiarizarse co | H2: Elaborar un mapa ilustrado, y plasmar la importancia histórica de las luchas por
+- **etica-naturaleza-y-sociedades-3-ppa-6-pa18** p.193 | sin-horizonte-detectado | H1:  | H2: 
+- **etica-naturaleza-y-sociedades-3-ppa-7-pa20** p.205 | sin-horizonte-detectado | H1:  | H2: 
+- **etica-naturaleza-y-sociedades-3-ppa-7-pa21** p.210 | sin-horizonte-detectado | H1:  | H2: 
+- **etica-naturaleza-y-sociedades-3-ppa-8-pa22** p.216 | sin-horizonte-detectado | H1:  | H2: 
+- **etica-naturaleza-y-sociedades-3-ppa-8-pa23** p.223 | sin-horizonte-detectado | H1:  | H2: 
+- **etica-naturaleza-y-sociedades-3-ppa-8-pa24** p.225 | sin-horizonte-detectado | H1:  | H2: 
+- **etica-naturaleza-y-sociedades-3-ppa-9-pa25** p.159 | sin-horizonte-detectado | H1:  | H2: 
+- **etica-naturaleza-y-sociedades-3-ppa-9-pa26** p.166 | sin-horizonte-detectado | H1:  | H2: 
+- **etica-naturaleza-y-sociedades-3-ppa-9-pa27** p.171 | sin-horizonte-detectado | H1:  | H2: 
+- **lenguajes-3-ppa-1-pa1** p.40 | sin-horizonte-detectado | H1:  | H2: 
+- **lenguajes-3-ppa-1-pa2** p.44 | sin-horizonte-detectado | H1:  | H2: 
+- **lenguajes-3-ppa-1-pa3** p.48 | sin-horizonte-detectado | H1:  | H2: 
+- **lenguajes-3-ppa-10-pa29** p.79 | sin-horizonte-detectado | H1:  | H2: 
+- **lenguajes-3-ppa-10-pa30** p.84 | sin-horizonte-detectado | H1:  | H2: 
+- **lenguajes-3-ppa-11-pa32** p.17 | sin-horizonte-detectado | H1:  | H2: 
+- **lenguajes-3-ppa-11-pa33** p.22 | sin-horizonte-detectado | H1:  | H2: 
+- **lenguajes-3-ppa-14-pa40** p.56 | sin-horizonte-detectado | H1:  | H2: 
+- **lenguajes-3-ppa-15-pa43** p.70 | sin-horizonte-detectado | H1:  | H2: 
+- **lenguajes-3-ppa-15-pa45** p.78 | sin-horizonte-detectado | H1:  | H2: 
+- **lenguajes-3-ppa-2-pa4** p.55 | sin-horizonte-detectado | H1:  | H2: 
+- **lenguajes-3-ppa-2-pa6** p.63 | alta | H1: Identificar los puntos clave para desarrollar un debate corto de la paz sobre la | H2: Investigar y reconocer los rasgos que identifican a la sociedad intercultural, c
+- **lenguajes-3-ppa-3-pa7** p.69 | alta | H1: Realizar una reflexión acerca de la importancia que tienen las lenguas en la for | H2: Identificar las diferentes lenguas que se hablan en el país y de qué manera infl
+- **lenguajes-3-ppa-3-pa8** p.73 | alta | H1: Realizar una reflexión acerca de la diversidad cultural que existe en México y e | H2: Realizar una feria cultural en la que, organizados en comunidades, expongan los 
+- **lenguajes-3-ppa-3-pa9** p.77 | alta | H1: Realizar una investigación de las lenguas indígenas de su comunidad que clarifiq | H2: Investigar las características de los textos argumentativos y los reportes, así 
+- **lenguajes-3-ppa-4-pa10** p.84 | sin-horizonte-detectado | H1:  | H2: 
+- **lenguajes-3-ppa-4-pa11** p.87 | alta | H1: Hacer una investigación y documentación de las distintas manifestaciones cultura | H2: Montar una muestra fotográfica que exponga las reinterpretaciones propias de alg
+- **lenguajes-3-ppa-5-pa14** p.101 | alta | H1: Llevar a cabo una investigación de las prácticas sociales y las costumbres que r | H2: Escribir el guion y trazar una historieta costumbrista en distintas lenguas (a p
+- **lenguajes-3-ppa-6-pa16** p.14 | sin-horizonte-detectado | H1:  | H2: 
+- **lenguajes-3-ppa-6-pa17** p.18 | sin-horizonte-detectado | H1:  | H2: 
+- **lenguajes-3-ppa-6-pa18** p.22 | sin-horizonte-detectado | H1:  | H2: 
+- **lenguajes-3-ppa-7-pa19** p.29 | alta | H1: Identificar e indagar en aquellas situaciones de nuestra comunidad que merecen s | H2: Reconocer y utilizar los recursos propios de un poema, como la métrica, la rima,
+- **lenguajes-3-ppa-7-pa21** p.37 | alta | H1: Investigar las manifestaciones culturales de la comunidad y sus recursos estétic | H2: Escribir una canción colectiva que difunda y preserve una manifestación cultural
+- **lenguajes-3-ppa-8-pa23** p.48 | sin-horizonte-detectado | H1:  | H2: 
+- **lenguajes-3-ppa-8-pa24** p.53 | alta | H1: Investigar los procesos de elaboración de las colecciones de texto que faciliten | H2: Investigar, por medio de distintos medios de información, las festividades o prá
+- **lenguajes-3-ppa-9-pa25** p.60 | sin-horizonte-detectado | H1:  | H2: 
+- **lenguajes-3-ppa-9-pa26** p.64 | sin-horizonte-detectado | H1:  | H2: 
+- **lenguajes-3-ppa-9-pa27** p.68 | sin-horizonte-detectado | H1:  | H2: 
+- **saberes-y-pensamiento-cientifico-3-ppa-1-pa1** p.113 | alta | H1: Contar con una base de datos acerca de las aportaciones de los pueblos y las cul | H2: Elaborar un diseño innovador que cumpla con el formato de la línea del tiempo y 
+- **saberes-y-pensamiento-cientifico-3-ppa-1-pa2** p.117 | alta | H1: Concientizar a la comunidad acerca de las aportaciones de mujeres y hombres de l | H2: Elaborar un guion con información concreta para llevar a cabo un sociodrama con 
+- **saberes-y-pensamiento-cientifico-3-ppa-1-pa3** p.121 | alta | H1: Identificar las principales necesidades de nuestra comunidad, los recursos reque | H2: Seleccionar la información que tenga más relevancia para exponerla en un periódi
+- **saberes-y-pensamiento-cientifico-3-ppa-10-pa29** p.157 | alta | H1: Realizar pequeños ensayos de discusión sobre lo que se sabe y no de la informaci | H2: Repesar solamente lo relacionado con la cápsula informativa y presentar algunos 
+- **saberes-y-pensamiento-cientifico-3-ppa-10-pa30** p.161 | alta | H1: Elaborar un cuento corto ilustrado donde las reacciones químicas que ocurren en  | H2: Repasar los contenidos del proyecto, empleando la química de las diversas sustan
+- **saberes-y-pensamiento-cientifico-3-ppa-11-pa32** p.89 | alta | H1: Aprender la aplicación del modelo de Arrhenius mediante la regla de la suma para | H2: Conocer las características y el proceso de elaboración de un folleto de divulga
+- **saberes-y-pensamiento-cientifico-3-ppa-11-pa33** p.93 | alta | H1: Explicar mediante una revista científica las principales reacciones de neutraliz | H2: Aprender a mostrar de forma gráfica los beneficios de las reacciones de neutrali
+- **saberes-y-pensamiento-cientifico-3-ppa-12-pa35** p.103 | alta | H1: Reconocer las características de las reacciones redox, su proceso de transferenc | H2: Comprender las características de las reacciones óxido-reducción y condensar dat
+- **saberes-y-pensamiento-cientifico-3-ppa-13-pa37** p.114 | sin-horizonte-detectado | H1:  | H2: 
+- **saberes-y-pensamiento-cientifico-3-ppa-13-pa38** p.119 | sin-horizonte-detectado | H1:  | H2: 
+- **saberes-y-pensamiento-cientifico-3-ppa-13-pa39** p.122 | alta | H1: Recabar información sobre los cambios que ocurren y las características que perm | H2: Ejercitar la forma de realizar un diagrama de flujo para expresar con seguridad 
+- **saberes-y-pensamiento-cientifico-3-ppa-14-pa41** p.132 | alta | H1: Investigar las características principales de las figuras planas y figuras con v | H2: Analizar, mediante la construcción de sólidos de revolución, las características
+- **saberes-y-pensamiento-cientifico-3-ppa-14-pa42** p.136 | alta | H1: Presentar, mediante un rompecabezas en 3D, los diferentes tipos de figuras, y ex | H2: Tener conocimientos generales sobre las características principales de las figur
+- **saberes-y-pensamiento-cientifico-3-ppa-15-pa43** p.142 | alta | H1: Conocer un procedimiento para construir un edificio o estructura histórica a esc | H2: Conocer la relación en volumen para construir un edificio o estructura histórica
+- **saberes-y-pensamiento-cientifico-3-ppa-15-pa44** p.146 | alta | H1: Conocemos las características principales del teorema de Pitágoras para construi | H2: Conocer cómo elaborar un modelo de castillo pirotécnico para presentarlo a la co
+- **saberes-y-pensamiento-cientifico-3-ppa-2-pa4** p.128 | sin-horizonte-detectado | H1:  | H2: 
+- **saberes-y-pensamiento-cientifico-3-ppa-3-pa7** p.142 | sin-horizonte-detectado | H1:  | H2: 
+- **saberes-y-pensamiento-cientifico-3-ppa-4-pa10** p.157 | alta | H1: Elaborar carteles ilustrativos que faciliten la demostración de lo aprendido con | H2: Representar solamente lo relacionado con el empleo de porcentajes para calcular 
+- **saberes-y-pensamiento-cientifico-3-ppa-4-pa12** p.166 | sin-horizonte-detectado | H1:  | H2: 
+- **saberes-y-pensamiento-cientifico-3-ppa-5-pa14** p.176 | sin-horizonte-detectado | H1:  | H2: 
+- **saberes-y-pensamiento-cientifico-3-ppa-5-pa15** p.180 | sin-horizonte-detectado | H1:  | H2: 
+- **saberes-y-pensamiento-cientifico-3-ppa-6-pa16** p.94 | sin-horizonte-detectado | H1:  | H2: 
+- **saberes-y-pensamiento-cientifico-3-ppa-6-pa17** p.98 | alta | H1: Diseñar un tríptico informativo que facilite la comprensión acerca de las difere | H2: Conocer las diferencias entre los estados de agregación mediante el modelo corpu
+- **saberes-y-pensamiento-cientifico-3-ppa-6-pa18** p.102 | alta | H1: Elaborar un collage químico que ejemplifique las diferentes estructuras internas | H2: Conocer las estructuras internas a nivel molecular e identificar su vínculo con 
+- **saberes-y-pensamiento-cientifico-3-ppa-7-pa20** p.113 | sin-horizonte-detectado | H1:  | H2: 
+- **saberes-y-pensamiento-cientifico-3-ppa-7-pa21** p.117 | alta | H1: Planificar una asesoría con una persona que tenga conocimientos sobre el modelo  | H2: Buscar ejemplos sobre los modelos atómicos de Bohr y diagramas de Lewis de algun
+- **saberes-y-pensamiento-cientifico-3-ppa-8-pa23** p.127 | alta | H1: Desarrollar, de manera creativa, bocetos planos y tridimensionales (cilindros, p | H2: Explicar las propiedades de los compuestos iónicos y moleculares con el uso de g
+- **saberes-y-pensamiento-cientifico-3-ppa-8-pa24** p.131 | alta | H1: Explicar el apropiamiento de los compuestos iónicos y moleculares en el cuerpo h | H2: Demostrar, por medio de una conferencia informativa, apoyada en las medidas de t
+- **saberes-y-pensamiento-cientifico-3-ppa-9-pa27** p.147 | alta | H1: Elaborar una nota periodística que ofrezca datos puntuales sobre la importancia  | H2: Llevar a cabo una investigación en fuentes confiables para conformar una base de

@@ -1,0 +1,707 @@
+{
+  "grade": "3",
+  "gradeLabel": "Tercer grado",
+  "field": "Saberes y Pensamiento Cientifico",
+  "bookVolume": "Tomo II",
+  "partialClassroomProject": "PPA 10",
+  "partialClassroomProjectTitle": "Graficas de mezclas",
+  "generatedAt": "2026-06-07T03:06:28.426Z",
+  "notes": "Capa curricular generada por lote para 3o Saberes y Pensamiento Cientifico, PPA 10.",
+  "sourcesUsed": [
+    "content/caracoles/curricular-catalog/all-projects-canonical.json",
+    "public/caracoles/data/generated/grade-3/concepts-index.json",
+    "src/caracoles/lib/officialVideoLinks.ts",
+    "Posibilidades de uso SyPC, tercer grado, pp. 25-26",
+    "Nuestro libro de proyectos, tercer grado, pp. 153-164"
+  ],
+  "partialClassroomProjectContext": {
+    "expectationHorizon": {
+      "officialText": "",
+      "sourcePages": [
+        "Nuestro libro de proyectos Tomo II pp. 153-156",
+        "Posibilidades de uso SyPC pp. 25-26"
+      ],
+      "evidence": "El PPA 10 articula 13. una sociedad de reacciones químicas, discurso ecológico, 3. la química y las figuras también se mezclan para trabajar Graficas de mezclas.",
+      "status": "pending"
+    },
+    "ppaDetonatingStrategy": {
+      "title": "Graficas de mezclas",
+      "type": "video",
+      "url": "",
+      "urlStatus": "confirmed-by-official-video-map",
+      "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+      "scope": "partial-classroom-project"
+    },
+    "ppaDigitalResource": {
+      "title": "Recurso del Proyecto Parcial de Aula 10",
+      "reference": "",
+      "status": "confirmed-by-official-video-map",
+      "source": "YouTube, acervo Aprende_MX/Telesecundaria"
+    },
+    "validationStatus": {
+      "needsHumanReview": true,
+      "needsReviewReasons": [
+        "Los videos PA/PPA se validan por el mapa oficial de enlaces directos ya generado.",
+        "Los apoyos complementarios impresos no se asignan cuando no hay evidencia validada por columna.",
+        "El horizonte textual literal queda pendiente de revision fina si se necesita cita exacta."
+      ]
+    },
+    "columnValidation": {
+      "possibilitiesPagesReviewed": [
+        25,
+        26
+      ],
+      "confirmedAsPpa": true,
+      "note": "El PPA 10 se agrupa desde el catalogo canonico de tercer grado.",
+      "columns": [
+        {
+          "columnIndex": 1,
+          "projectId": "saberes-y-pensamiento-cientifico-3-ppa-10-pa28",
+          "projectTitle": "Reacciones químicas en el entorno",
+          "finalProduct": "13. Una sociedad de reacciones químicas",
+          "supportMaterials": []
+        },
+        {
+          "columnIndex": 2,
+          "projectId": "saberes-y-pensamiento-cientifico-3-ppa-10-pa29",
+          "projectTitle": "Reacciones por doquier",
+          "finalProduct": "Discurso ecológico",
+          "supportMaterials": []
+        },
+        {
+          "columnIndex": 3,
+          "projectId": "saberes-y-pensamiento-cientifico-3-ppa-10-pa30",
+          "projectTitle": "La probabilidad de la química",
+          "finalProduct": "3. La química y las figuras también se mezclan",
+          "supportMaterials": []
+        }
+      ]
+    }
+  },
+  "academicProjects": [
+    {
+      "id": "saberes-y-pensamiento-cientifico-3-ppa-10-pa28",
+      "projectId": "saberes-y-pensamiento-cientifico-3-ppa-10-pa28",
+      "academicProjectNumber": 28,
+      "title": "Reacciones químicas en el entorno",
+      "projectTitle": "Reacciones químicas en el entorno",
+      "grade": "3",
+      "field": "Saberes y Pensamiento Científico",
+      "ppaNumber": "10",
+      "partialClassroomProject": "PPA 10",
+      "partialClassroomProjectTitle": "Graficas de mezclas",
+      "bookVolume": "Tomo II",
+      "sourceValidation": {
+        "sourceStatus": "linked",
+        "possibilitiesPages": [
+          25,
+          26
+        ],
+        "possibilitiesMaterialId": "grade-3-posibilidades-pos-sypc-3",
+        "possibilitiesColumnIndex": 1,
+        "columnEvidence": "Proyecto PA 28 agrupado en el PPA 10 desde el catalogo canonico y las paginas de Posibilidades."
+      },
+      "finalProduct": {
+        "title": "13. Una sociedad de reacciones químicas",
+        "source": "Video detonador validado en YouTube + Nuestro libro de proyectos Tomo II pp. 153-156",
+        "status": "confirmed-from-video-and-project"
+      },
+      "sourcePages": {
+        "nuestroLibroProyectos": [
+          {
+            "materialId": "grade-3-proyectos-nuestros-proyectos-tomo-2-tercer-grado",
+            "label": "Nuestro libro de proyectos Tomo II",
+            "startPage": 153,
+            "endPage": 156,
+            "pagesLabel": "pp. 153-156",
+            "topicTitle": "Proyecto academico 28",
+            "status": "confirmed-source"
+          }
+        ],
+        "conceptBook": [
+          {
+            "materialId": "grade-3-conceptos-saberes-y-pensamiento-cientifico-tercer-grado",
+            "label": "Saberes y Pensamiento Cientifico",
+            "startPage": 153,
+            "endPage": 153,
+            "pagesLabel": "p. 153",
+            "topicTitle": "13. una sociedad de reacciones químicas",
+            "status": "confirmed"
+          }
+        ],
+        "multiplesLenguajes": [],
+        "otherMaterials": [
+          {
+            "label": "Video PA 28: Reacciones químicas en el entorno",
+            "reference": "",
+            "status": "confirmed"
+          }
+        ]
+      },
+      "supportMaterials": [],
+      "horizonOrPurpose": {
+        "status": "confirmed-from-project-book",
+        "text": "Elaborar la cápsula informativa, con distintas gráficas, para presentar los datos más relevantes de las mezclas de diferentes productos y las reacciones químicas que las producen.",
+        "source": "Visión — Horizonte 2 (p. 154)"
+      },
+      "projectExpectationHorizon": {
+        "officialText": "Elaborar la cápsula informativa, con distintas gráficas, para presentar los datos más relevantes de las mezclas de diferentes productos y las reacciones químicas que las producen.",
+        "studentVersion": "Elaborar la cápsula informativa, con distintas gráficas, para presentar los datos más relevantes de las mezclas de diferentes productos y las reacciones químicas que las producen.",
+        "horizon1Raw": "Proponer una explicación sobre las características de las reacciones químicas y de las mezclas, en la cual se usen gráficas acompañadas de párrafos breves y coherentes.",
+        "horizon2Raw": "Elaborar la cápsula informativa, con distintas gráficas, para presentar los datos más relevantes de las mezclas de diferentes productos y las reacciones químicas que las producen.",
+        "sourcePages": [
+          "Visión — Horizonte 2 (p. 154)"
+        ],
+        "evidence": "Extraído por visión de imagen de la página 154 del libro de proyectos. Confianza: alta.",
+        "status": "confirmed-from-project-book",
+        "extractedAt": "2026-06-16T05:17:54.312Z"
+      },
+      "detonatingStrategy": {
+        "status": "confirmed",
+        "title": "Graficas de mezclas",
+        "text": "Video del Proyecto Parcial de Aula 10: Graficas de mezclas",
+        "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+        "scope": "partial-classroom-project",
+        "type": "video"
+      },
+      "academicProjectStrategy": {
+        "title": "13. Una sociedad de reacciones químicas • Saberes y pensamiento científico• 3er grado",
+        "text": "Video detonador del Proyecto Academico 28: Reacciones químicas en el entorno",
+        "type": "video",
+        "status": "confirmed-from-video-and-project",
+        "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+        "scope": "academic-project"
+      },
+      "academicConcepts": [
+        {
+          "concept": "13. una sociedad de reacciones químicas",
+          "description": "13. una sociedad de reacciones químicas organiza el producto de cierre y permite comunicar lo aprendido en el proyecto.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            153
+          ],
+          "sourcePagesLabel": "p. 153",
+          "topicTitle": "Proyecto academico 28",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 28, al PPA 10 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Materia",
+          "description": "Materia ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            265
+          ],
+          "sourcePagesLabel": "p. 265",
+          "topicTitle": "Proyecto academico 28",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 28, al PPA 10 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Mezclas",
+          "description": "Mezclas ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            265
+          ],
+          "sourcePagesLabel": "p. 265",
+          "topicTitle": "Proyecto academico 28",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 28, al PPA 10 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Quimica",
+          "description": "Quimica ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            9
+          ],
+          "sourcePagesLabel": "p. 9",
+          "topicTitle": "Proyecto academico 28",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 28, al PPA 10 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Figuras",
+          "description": "Figuras ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            153
+          ],
+          "sourcePagesLabel": "p. 153",
+          "topicTitle": "Proyecto academico 28",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 28, al PPA 10 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Medicion",
+          "description": "Medicion ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            153
+          ],
+          "sourcePagesLabel": "p. 153",
+          "topicTitle": "Proyecto academico 28",
+          "status": "suggested",
+          "reason": "Concepto vinculado al PA 28, al PPA 10 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "teacher-review"
+        }
+      ],
+      "thinkingCriteria": [
+        "Relacionar Reacciones químicas en el entorno con una situacion concreta del entorno escolar o comunitario.",
+        "Usar 13. una sociedad de reacciones químicas para explicar ideas con claridad y evidencia."
+      ],
+      "resonancePrompts": [
+        {
+          "type": "individual",
+          "prompt": "¿Como te ayuda 13. una sociedad de reacciones químicas a comprender mejor Reacciones químicas en el entorno y a explicar sus conceptos clave en tu comunidad?",
+          "conceptsActivated": [
+            "13. una sociedad de reacciones químicas",
+            "Materia",
+            "Mezclas",
+            "Quimica"
+          ],
+          "suggestedUse": "Momento 1 de autoevaluacion"
+        }
+      ],
+      "validationStatus": {
+        "readinessLevel": "curricular-bundle-generated",
+        "readyForActivities": true,
+        "needsReviewReasons": [
+          "El horizonte textual literal queda pendiente de revision fina si se requiere cita exacta.",
+          "Los apoyos complementarios impresos no se asignan cuando no hay evidencia validada por columna."
+        ]
+      },
+      "readinessLevel": "curricular-bundle-generated",
+      "readyForActivities": true,
+      "needsReviewReasons": []
+    },
+    {
+      "id": "saberes-y-pensamiento-cientifico-3-ppa-10-pa29",
+      "projectId": "saberes-y-pensamiento-cientifico-3-ppa-10-pa29",
+      "academicProjectNumber": 29,
+      "title": "Reacciones por doquier",
+      "projectTitle": "Reacciones por doquier",
+      "grade": "3",
+      "field": "Saberes y Pensamiento Científico",
+      "ppaNumber": "10",
+      "partialClassroomProject": "PPA 10",
+      "partialClassroomProjectTitle": "Graficas de mezclas",
+      "bookVolume": "Tomo II",
+      "sourceValidation": {
+        "sourceStatus": "linked",
+        "possibilitiesPages": [
+          25,
+          26
+        ],
+        "possibilitiesMaterialId": "grade-3-posibilidades-pos-sypc-3",
+        "possibilitiesColumnIndex": 2,
+        "columnEvidence": "Proyecto PA 29 agrupado en el PPA 10 desde el catalogo canonico y las paginas de Posibilidades."
+      },
+      "finalProduct": {
+        "title": "Discurso ecológico",
+        "source": "Video detonador validado en YouTube + Nuestro libro de proyectos Tomo II pp. 157-160",
+        "status": "confirmed-from-video-and-project"
+      },
+      "sourcePages": {
+        "nuestroLibroProyectos": [
+          {
+            "materialId": "grade-3-proyectos-nuestros-proyectos-tomo-2-tercer-grado",
+            "label": "Nuestro libro de proyectos Tomo II",
+            "startPage": 157,
+            "endPage": 160,
+            "pagesLabel": "pp. 157-160",
+            "topicTitle": "Proyecto academico 29",
+            "status": "confirmed-source"
+          }
+        ],
+        "conceptBook": [
+          {
+            "materialId": "grade-3-conceptos-saberes-y-pensamiento-cientifico-tercer-grado",
+            "label": "Saberes y Pensamiento Cientifico",
+            "startPage": 157,
+            "endPage": 157,
+            "pagesLabel": "p. 157",
+            "topicTitle": "Discurso ecológico",
+            "status": "confirmed"
+          }
+        ],
+        "multiplesLenguajes": [],
+        "otherMaterials": [
+          {
+            "label": "Video PA 29: Reacciones por doquier",
+            "reference": "",
+            "status": "confirmed"
+          }
+        ]
+      },
+      "supportMaterials": [],
+      "horizonOrPurpose": {
+        "status": "confirmed-from-project-book",
+        "text": "Realizar pequeños ensayos de discusión sobre lo que se sabe y no de la información que presenta la cápsula informativa, y formular conclusiones con las medidas de tendencia central para dar a conocer información sobre las mezclas y sus componentes.",
+        "source": "Visión — Horizonte 1 (p. 158)"
+      },
+      "projectExpectationHorizon": {
+        "officialText": "Realizar pequeños ensayos de discusión sobre lo que se sabe y no de la información que presenta la cápsula informativa, y formular conclusiones con las medidas de tendencia central para dar a conocer información sobre las mezclas y sus componentes.",
+        "studentVersion": "Realizar pequeños ensayos de discusión sobre lo que se sabe y no de la información que presenta la cápsula informativa, y formular conclusiones con las medidas de tendencia central para dar a conocer información sobre las mezclas y sus componentes.",
+        "horizon1Raw": "Realizar pequeños ensayos de discusión sobre lo que se sabe y no de la información que presenta la cápsula informativa, y formular conclusiones con las medidas de tendencia central para dar a conocer información sobre las mezclas y sus componentes.",
+        "horizon2Raw": "Repesar solamente lo relacionado con la cápsula informativa y presentar algunos datos de las mezclas con medidas de tendencia central.",
+        "sourcePages": [
+          "Visión — Horizonte 1 (p. 158)"
+        ],
+        "evidence": "Extraído por visión de imagen de la página 158 del libro de proyectos. Confianza: alta.",
+        "status": "confirmed-from-project-book",
+        "extractedAt": "2026-06-16T05:45:29.556Z"
+      },
+      "detonatingStrategy": {
+        "status": "confirmed",
+        "title": "Graficas de mezclas",
+        "text": "Video del Proyecto Parcial de Aula 10: Graficas de mezclas",
+        "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+        "scope": "partial-classroom-project",
+        "type": "video"
+      },
+      "academicProjectStrategy": {
+        "title": "Discurso ecológico • Saberes y pensamiento científico • 3er grado",
+        "text": "Video detonador del Proyecto Academico 29: Reacciones por doquier",
+        "type": "video",
+        "status": "confirmed-from-video-and-project",
+        "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+        "scope": "academic-project"
+      },
+      "academicConcepts": [
+        {
+          "concept": "Discurso ecológico",
+          "description": "Discurso ecológico organiza el producto de cierre y permite comunicar lo aprendido en el proyecto.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            157
+          ],
+          "sourcePagesLabel": "p. 157",
+          "topicTitle": "Proyecto academico 29",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 29, al PPA 10 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Materia",
+          "description": "Materia ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            265
+          ],
+          "sourcePagesLabel": "p. 265",
+          "topicTitle": "Proyecto academico 29",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 29, al PPA 10 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Mezclas",
+          "description": "Mezclas ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            265
+          ],
+          "sourcePagesLabel": "p. 265",
+          "topicTitle": "Proyecto academico 29",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 29, al PPA 10 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Quimica",
+          "description": "Quimica ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            9
+          ],
+          "sourcePagesLabel": "p. 9",
+          "topicTitle": "Proyecto academico 29",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 29, al PPA 10 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Figuras",
+          "description": "Figuras ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            157
+          ],
+          "sourcePagesLabel": "p. 157",
+          "topicTitle": "Proyecto academico 29",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 29, al PPA 10 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Medicion",
+          "description": "Medicion ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            157
+          ],
+          "sourcePagesLabel": "p. 157",
+          "topicTitle": "Proyecto academico 29",
+          "status": "suggested",
+          "reason": "Concepto vinculado al PA 29, al PPA 10 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "teacher-review"
+        }
+      ],
+      "thinkingCriteria": [
+        "Relacionar Reacciones por doquier con una situacion concreta del entorno escolar o comunitario.",
+        "Usar discurso ecológico para explicar ideas con claridad y evidencia."
+      ],
+      "resonancePrompts": [
+        {
+          "type": "individual",
+          "prompt": "¿Como te ayuda discurso ecológico a comprender mejor Reacciones por doquier y a explicar sus conceptos clave en tu comunidad?",
+          "conceptsActivated": [
+            "Discurso ecológico",
+            "Materia",
+            "Mezclas",
+            "Quimica"
+          ],
+          "suggestedUse": "Momento 1 de autoevaluacion"
+        }
+      ],
+      "validationStatus": {
+        "readinessLevel": "curricular-bundle-generated",
+        "readyForActivities": true,
+        "needsReviewReasons": [
+          "El horizonte textual literal queda pendiente de revision fina si se requiere cita exacta.",
+          "Los apoyos complementarios impresos no se asignan cuando no hay evidencia validada por columna."
+        ]
+      },
+      "readinessLevel": "curricular-bundle-generated",
+      "readyForActivities": true,
+      "needsReviewReasons": []
+    },
+    {
+      "id": "saberes-y-pensamiento-cientifico-3-ppa-10-pa30",
+      "projectId": "saberes-y-pensamiento-cientifico-3-ppa-10-pa30",
+      "academicProjectNumber": 30,
+      "title": "La probabilidad de la química",
+      "projectTitle": "La probabilidad de la química",
+      "grade": "3",
+      "field": "Saberes y Pensamiento Científico",
+      "ppaNumber": "10",
+      "partialClassroomProject": "PPA 10",
+      "partialClassroomProjectTitle": "Graficas de mezclas",
+      "bookVolume": "Tomo II",
+      "sourceValidation": {
+        "sourceStatus": "linked",
+        "possibilitiesPages": [
+          25,
+          26
+        ],
+        "possibilitiesMaterialId": "grade-3-posibilidades-pos-sypc-3",
+        "possibilitiesColumnIndex": 3,
+        "columnEvidence": "Proyecto PA 30 agrupado en el PPA 10 desde el catalogo canonico y las paginas de Posibilidades."
+      },
+      "finalProduct": {
+        "title": "3. La química y las figuras también se mezclan",
+        "source": "Video detonador validado en YouTube + Nuestro libro de proyectos Tomo II pp. 161-164",
+        "status": "confirmed-from-video-and-project"
+      },
+      "sourcePages": {
+        "nuestroLibroProyectos": [
+          {
+            "materialId": "grade-3-proyectos-nuestros-proyectos-tomo-2-tercer-grado",
+            "label": "Nuestro libro de proyectos Tomo II",
+            "startPage": 161,
+            "endPage": 164,
+            "pagesLabel": "pp. 161-164",
+            "topicTitle": "Proyecto academico 30",
+            "status": "confirmed-source"
+          }
+        ],
+        "conceptBook": [
+          {
+            "materialId": "grade-3-conceptos-saberes-y-pensamiento-cientifico-tercer-grado",
+            "label": "Saberes y Pensamiento Cientifico",
+            "startPage": 161,
+            "endPage": 161,
+            "pagesLabel": "p. 161",
+            "topicTitle": "3. la química y las figuras también se mezclan",
+            "status": "confirmed"
+          }
+        ],
+        "multiplesLenguajes": [],
+        "otherMaterials": [
+          {
+            "label": "Video PA 30: La probabilidad de la química",
+            "reference": "",
+            "status": "confirmed"
+          }
+        ]
+      },
+      "supportMaterials": [],
+      "horizonOrPurpose": {
+        "status": "confirmed-from-project-book",
+        "text": "Elaborar un cuento corto ilustrado donde las reacciones químicas que ocurren en el cuerpo y las diversas sustancias que hay en el organismo sean personajes que interactúen, usando la probabilidad de ocurrencia y de juegos de azar con resultados equiprobables y no equiprobables.",
+        "source": "Visión — Horizonte 1 (p. 1)"
+      },
+      "projectExpectationHorizon": {
+        "officialText": "Elaborar un cuento corto ilustrado donde las reacciones químicas que ocurren en el cuerpo y las diversas sustancias que hay en el organismo sean personajes que interactúen, usando la probabilidad de ocurrencia y de juegos de azar con resultados equiprobables y no equiprobables.",
+        "studentVersion": "Elaborar un cuento corto ilustrado donde las reacciones químicas que ocurren en el cuerpo y las diversas sustancias que hay en el organismo sean personajes que interactúen, usando la probabilidad de ocurrencia y de juegos de azar con resultados equiprobables y no equiprobables.",
+        "horizon1Raw": "Elaborar un cuento corto ilustrado donde las reacciones químicas que ocurren en el cuerpo y las diversas sustancias que hay en el organismo sean personajes que interactúen, usando la probabilidad de ocurrencia y de juegos de azar con resultados equiprobables y no equiprobables.",
+        "horizon2Raw": "Repasar los contenidos del proyecto, empleando la química de las diversas sustancias que hay en el organismo con los juegos de azar de probabilidad.",
+        "sourcePages": [
+          "Visión — Horizonte 1 (p. 1)"
+        ],
+        "evidence": "Extraído por visión de imagen de la página 1 del libro de proyectos. Confianza: alta.",
+        "status": "confirmed-from-project-book",
+        "extractedAt": "2026-06-16T05:45:38.067Z"
+      },
+      "detonatingStrategy": {
+        "status": "confirmed",
+        "title": "Graficas de mezclas",
+        "text": "Video del Proyecto Parcial de Aula 10: Graficas de mezclas",
+        "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+        "scope": "partial-classroom-project",
+        "type": "video"
+      },
+      "academicProjectStrategy": {
+        "title": "3. La química y las figuras también se mezclan • Saberes y pensamiento científico• 3er grado",
+        "text": "Video detonador del Proyecto Academico 30: La probabilidad de la química",
+        "type": "video",
+        "status": "confirmed-from-video-and-project",
+        "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+        "scope": "academic-project"
+      },
+      "academicConcepts": [
+        {
+          "concept": "3. la química y las figuras también se mezclan",
+          "description": "3. la química y las figuras también se mezclan organiza el producto de cierre y permite comunicar lo aprendido en el proyecto.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            161
+          ],
+          "sourcePagesLabel": "p. 161",
+          "topicTitle": "Proyecto academico 30",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 30, al PPA 10 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Materia",
+          "description": "Materia ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            265
+          ],
+          "sourcePagesLabel": "p. 265",
+          "topicTitle": "Proyecto academico 30",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 30, al PPA 10 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Mezclas",
+          "description": "Mezclas ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            265
+          ],
+          "sourcePagesLabel": "p. 265",
+          "topicTitle": "Proyecto academico 30",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 30, al PPA 10 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Quimica",
+          "description": "Quimica ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            9
+          ],
+          "sourcePagesLabel": "p. 9",
+          "topicTitle": "Proyecto academico 30",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 30, al PPA 10 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Figuras",
+          "description": "Figuras ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            161
+          ],
+          "sourcePagesLabel": "p. 161",
+          "topicTitle": "Proyecto academico 30",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 30, al PPA 10 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Medicion",
+          "description": "Medicion ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            161
+          ],
+          "sourcePagesLabel": "p. 161",
+          "topicTitle": "Proyecto academico 30",
+          "status": "suggested",
+          "reason": "Concepto vinculado al PA 30, al PPA 10 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "teacher-review"
+        }
+      ],
+      "thinkingCriteria": [
+        "Relacionar La probabilidad de la química con una situacion concreta del entorno escolar o comunitario.",
+        "Usar 3. la química y las figuras también se mezclan para explicar ideas con claridad y evidencia."
+      ],
+      "resonancePrompts": [
+        {
+          "type": "individual",
+          "prompt": "¿Como te ayuda 3. la química y las figuras también se mezclan a comprender mejor La probabilidad de la química y a explicar sus conceptos clave en tu comunidad?",
+          "conceptsActivated": [
+            "3. la química y las figuras también se mezclan",
+            "Materia",
+            "Mezclas",
+            "Quimica"
+          ],
+          "suggestedUse": "Momento 1 de autoevaluacion"
+        }
+      ],
+      "validationStatus": {
+        "readinessLevel": "curricular-bundle-generated",
+        "readyForActivities": true,
+        "needsReviewReasons": [
+          "El horizonte textual literal queda pendiente de revision fina si se requiere cita exacta.",
+          "Los apoyos complementarios impresos no se asignan cuando no hay evidencia validada por columna."
+        ]
+      },
+      "readinessLevel": "curricular-bundle-generated",
+      "readyForActivities": true,
+      "needsReviewReasons": []
+    }
+  ]
+}

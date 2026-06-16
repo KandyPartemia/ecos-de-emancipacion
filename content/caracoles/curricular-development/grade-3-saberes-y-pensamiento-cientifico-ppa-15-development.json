@@ -1,0 +1,703 @@
+{
+  "grade": "3",
+  "gradeLabel": "Tercer grado",
+  "field": "Saberes y Pensamiento Cientifico",
+  "bookVolume": "Tomo III",
+  "partialClassroomProject": "PPA 15",
+  "partialClassroomProjectTitle": "¡Los números en diferentes contextos!",
+  "generatedAt": "2026-06-07T03:06:28.613Z",
+  "notes": "Capa curricular generada por lote para 3o Saberes y Pensamiento Cientifico, PPA 15.",
+  "sourcesUsed": [
+    "content/caracoles/curricular-catalog/all-projects-canonical.json",
+    "public/caracoles/data/generated/grade-3/concepts-index.json",
+    "src/caracoles/lib/officialVideoLinks.ts",
+    "Posibilidades de uso SyPC, tercer grado, p. 35",
+    "Nuestro libro de proyectos, tercer grado, pp. 142-153"
+  ],
+  "partialClassroomProjectContext": {
+    "expectationHorizon": {
+      "officialText": "",
+      "sourcePages": [
+        "Nuestro libro de proyectos Tomo III pp. 142-145",
+        "Posibilidades de uso SyPC p. 35"
+      ],
+      "evidence": "El PPA 15 articula 14. construir el cuerpo de las figuras, 2. características y medidas del entorno, bitácora trigonométrica para trabajar ¡Los números en diferentes contextos!.",
+      "status": "pending"
+    },
+    "ppaDetonatingStrategy": {
+      "title": "¡Los números en diferentes contextos!",
+      "type": "video",
+      "url": "",
+      "urlStatus": "confirmed-by-official-video-map",
+      "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+      "scope": "partial-classroom-project"
+    },
+    "ppaDigitalResource": {
+      "title": "Recurso del Proyecto Parcial de Aula 15",
+      "reference": "",
+      "status": "confirmed-by-official-video-map",
+      "source": "YouTube, acervo Aprende_MX/Telesecundaria"
+    },
+    "validationStatus": {
+      "needsHumanReview": true,
+      "needsReviewReasons": [
+        "Los videos PA/PPA se validan por el mapa oficial de enlaces directos ya generado.",
+        "Los apoyos complementarios impresos no se asignan cuando no hay evidencia validada por columna.",
+        "El horizonte textual literal queda pendiente de revision fina si se necesita cita exacta."
+      ]
+    },
+    "columnValidation": {
+      "possibilitiesPagesReviewed": [
+        35
+      ],
+      "confirmedAsPpa": true,
+      "note": "El PPA 15 se agrupa desde el catalogo canonico de tercer grado.",
+      "columns": [
+        {
+          "columnIndex": 1,
+          "projectId": "saberes-y-pensamiento-cientifico-3-ppa-15-pa43",
+          "projectTitle": "¿Qué cuerpo es más grande?",
+          "finalProduct": "14. Construir el cuerpo de las figuras",
+          "supportMaterials": []
+        },
+        {
+          "columnIndex": 2,
+          "projectId": "saberes-y-pensamiento-cientifico-3-ppa-15-pa44",
+          "projectTitle": "Aprendamos con Pitágoras",
+          "finalProduct": "2. Características y medidas del entorno",
+          "supportMaterials": []
+        },
+        {
+          "columnIndex": 3,
+          "projectId": "saberes-y-pensamiento-cientifico-3-ppa-15-pa45",
+          "projectTitle": "Observar las razones trigonométricas",
+          "finalProduct": "Bitácora trigonométrica",
+          "supportMaterials": []
+        }
+      ]
+    }
+  },
+  "academicProjects": [
+    {
+      "id": "saberes-y-pensamiento-cientifico-3-ppa-15-pa43",
+      "projectId": "saberes-y-pensamiento-cientifico-3-ppa-15-pa43",
+      "academicProjectNumber": 43,
+      "title": "¿Qué cuerpo es más grande?",
+      "projectTitle": "¿Qué cuerpo es más grande?",
+      "grade": "3",
+      "field": "Saberes y Pensamiento Científico",
+      "ppaNumber": "15",
+      "partialClassroomProject": "PPA 15",
+      "partialClassroomProjectTitle": "¡Los números en diferentes contextos!",
+      "bookVolume": "Tomo III",
+      "sourceValidation": {
+        "sourceStatus": "linked",
+        "possibilitiesPages": [
+          35
+        ],
+        "possibilitiesMaterialId": "grade-3-posibilidades-pos-sypc-3",
+        "possibilitiesColumnIndex": 1,
+        "columnEvidence": "Proyecto PA 43 agrupado en el PPA 15 desde el catalogo canonico y las paginas de Posibilidades."
+      },
+      "finalProduct": {
+        "title": "14. Construir el cuerpo de las figuras",
+        "source": "Video detonador validado en YouTube + Nuestro libro de proyectos Tomo III pp. 142-145",
+        "status": "confirmed-from-video-and-project"
+      },
+      "sourcePages": {
+        "nuestroLibroProyectos": [
+          {
+            "materialId": "grade-3-proyectos-nuestros-proyectos-tomo-3-tercer-grado",
+            "label": "Nuestro libro de proyectos Tomo III",
+            "startPage": 142,
+            "endPage": 145,
+            "pagesLabel": "pp. 142-145",
+            "topicTitle": "Proyecto academico 43",
+            "status": "confirmed-source"
+          }
+        ],
+        "conceptBook": [
+          {
+            "materialId": "grade-3-conceptos-saberes-y-pensamiento-cientifico-tercer-grado",
+            "label": "Saberes y Pensamiento Cientifico",
+            "startPage": 142,
+            "endPage": 142,
+            "pagesLabel": "p. 142",
+            "topicTitle": "14. construir el cuerpo de las figuras",
+            "status": "confirmed"
+          }
+        ],
+        "multiplesLenguajes": [],
+        "otherMaterials": [
+          {
+            "label": "Video PA 43: ¿Qué cuerpo es más grande?",
+            "reference": "",
+            "status": "confirmed"
+          }
+        ]
+      },
+      "supportMaterials": [],
+      "horizonOrPurpose": {
+        "status": "confirmed-from-project-book",
+        "text": "Conocer un procedimiento para construir un edificio o estructura histórica a escala con materiales de reúso y sólidos geométricos, con el fin de explicar la relación en volumen entre cada uno de ellos.",
+        "source": "Visión — Horizonte 1 (p. 143)"
+      },
+      "projectExpectationHorizon": {
+        "officialText": "Conocer un procedimiento para construir un edificio o estructura histórica a escala con materiales de reúso y sólidos geométricos, con el fin de explicar la relación en volumen entre cada uno de ellos.",
+        "studentVersion": "Conocer un procedimiento para construir un edificio o estructura histórica a escala con materiales de reúso y sólidos geométricos, con el fin de explicar la relación en volumen entre cada uno de ellos.",
+        "horizon1Raw": "Conocer un procedimiento para construir un edificio o estructura histórica a escala con materiales de reúso y sólidos geométricos, con el fin de explicar la relación en volumen entre cada uno de ellos.",
+        "horizon2Raw": "Conocer la relación en volumen para construir un edificio o estructura histórica a escala, peteneciente a la comunidad, con sólidos geométricos.",
+        "sourcePages": [
+          "Visión — Horizonte 1 (p. 143)"
+        ],
+        "evidence": "Extraído por visión de imagen de la página 143 del libro de proyectos. Confianza: alta.",
+        "status": "confirmed-from-project-book",
+        "extractedAt": "2026-06-16T05:46:56.387Z"
+      },
+      "detonatingStrategy": {
+        "status": "confirmed",
+        "title": "¡Los números en diferentes contextos!",
+        "text": "Video del Proyecto Parcial de Aula 15: ¡Los números en diferentes contextos!",
+        "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+        "scope": "partial-classroom-project",
+        "type": "video"
+      },
+      "academicProjectStrategy": {
+        "title": "14. Construir el cuerpo de las figuras • Saberes y pensamiento científico• 3er grado",
+        "text": "Video detonador del Proyecto Academico 43: ¿Qué cuerpo es más grande?",
+        "type": "video",
+        "status": "confirmed-from-video-and-project",
+        "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+        "scope": "academic-project"
+      },
+      "academicConcepts": [
+        {
+          "concept": "14. construir el cuerpo de las figuras",
+          "description": "14. construir el cuerpo de las figuras organiza el producto de cierre y permite comunicar lo aprendido en el proyecto.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            142
+          ],
+          "sourcePagesLabel": "p. 142",
+          "topicTitle": "Proyecto academico 43",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 43, al PPA 15 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Materia",
+          "description": "Materia ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            265
+          ],
+          "sourcePagesLabel": "p. 265",
+          "topicTitle": "Proyecto academico 43",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 43, al PPA 15 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Mezclas",
+          "description": "Mezclas ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            265
+          ],
+          "sourcePagesLabel": "p. 265",
+          "topicTitle": "Proyecto academico 43",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 43, al PPA 15 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Quimica",
+          "description": "Quimica ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            9
+          ],
+          "sourcePagesLabel": "p. 9",
+          "topicTitle": "Proyecto academico 43",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 43, al PPA 15 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Figuras",
+          "description": "Figuras ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            142
+          ],
+          "sourcePagesLabel": "p. 142",
+          "topicTitle": "Proyecto academico 43",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 43, al PPA 15 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Medicion",
+          "description": "Medicion ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            142
+          ],
+          "sourcePagesLabel": "p. 142",
+          "topicTitle": "Proyecto academico 43",
+          "status": "suggested",
+          "reason": "Concepto vinculado al PA 43, al PPA 15 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "teacher-review"
+        }
+      ],
+      "thinkingCriteria": [
+        "Relacionar ¿Qué cuerpo es más grande? con una situacion concreta del entorno escolar o comunitario.",
+        "Usar 14. construir el cuerpo de las figuras para explicar ideas con claridad y evidencia."
+      ],
+      "resonancePrompts": [
+        {
+          "type": "individual",
+          "prompt": "¿Como te ayuda 14. construir el cuerpo de las figuras a comprender mejor ¿Qué cuerpo es más grande? y a explicar sus conceptos clave en tu comunidad?",
+          "conceptsActivated": [
+            "14. construir el cuerpo de las figuras",
+            "Materia",
+            "Mezclas",
+            "Quimica"
+          ],
+          "suggestedUse": "Momento 1 de autoevaluacion"
+        }
+      ],
+      "validationStatus": {
+        "readinessLevel": "curricular-bundle-generated",
+        "readyForActivities": true,
+        "needsReviewReasons": [
+          "El horizonte textual literal queda pendiente de revision fina si se requiere cita exacta.",
+          "Los apoyos complementarios impresos no se asignan cuando no hay evidencia validada por columna."
+        ]
+      },
+      "readinessLevel": "curricular-bundle-generated",
+      "readyForActivities": true,
+      "needsReviewReasons": []
+    },
+    {
+      "id": "saberes-y-pensamiento-cientifico-3-ppa-15-pa44",
+      "projectId": "saberes-y-pensamiento-cientifico-3-ppa-15-pa44",
+      "academicProjectNumber": 44,
+      "title": "Aprendamos con Pitágoras",
+      "projectTitle": "Aprendamos con Pitágoras",
+      "grade": "3",
+      "field": "Saberes y Pensamiento Científico",
+      "ppaNumber": "15",
+      "partialClassroomProject": "PPA 15",
+      "partialClassroomProjectTitle": "¡Los números en diferentes contextos!",
+      "bookVolume": "Tomo III",
+      "sourceValidation": {
+        "sourceStatus": "linked",
+        "possibilitiesPages": [
+          35
+        ],
+        "possibilitiesMaterialId": "grade-3-posibilidades-pos-sypc-3",
+        "possibilitiesColumnIndex": 2,
+        "columnEvidence": "Proyecto PA 44 agrupado en el PPA 15 desde el catalogo canonico y las paginas de Posibilidades."
+      },
+      "finalProduct": {
+        "title": "2. Características y medidas del entorno",
+        "source": "Video detonador validado en YouTube + Nuestro libro de proyectos Tomo III pp. 146-149",
+        "status": "confirmed-from-video-and-project"
+      },
+      "sourcePages": {
+        "nuestroLibroProyectos": [
+          {
+            "materialId": "grade-3-proyectos-nuestros-proyectos-tomo-3-tercer-grado",
+            "label": "Nuestro libro de proyectos Tomo III",
+            "startPage": 146,
+            "endPage": 149,
+            "pagesLabel": "pp. 146-149",
+            "topicTitle": "Proyecto academico 44",
+            "status": "confirmed-source"
+          }
+        ],
+        "conceptBook": [
+          {
+            "materialId": "grade-3-conceptos-saberes-y-pensamiento-cientifico-tercer-grado",
+            "label": "Saberes y Pensamiento Cientifico",
+            "startPage": 146,
+            "endPage": 146,
+            "pagesLabel": "p. 146",
+            "topicTitle": "2. características y medidas del entorno",
+            "status": "confirmed"
+          }
+        ],
+        "multiplesLenguajes": [],
+        "otherMaterials": [
+          {
+            "label": "Video PA 44: Aprendamos con Pitágoras",
+            "reference": "",
+            "status": "confirmed"
+          }
+        ]
+      },
+      "supportMaterials": [],
+      "horizonOrPurpose": {
+        "status": "confirmed-from-project-book",
+        "text": "Conocemos las características principales del teorema de Pitágoras para construir un modelo de castillo pirotécnico como un recurso para explicar dicho teorema.",
+        "source": "Visión — Horizonte 1 (p. 147)"
+      },
+      "projectExpectationHorizon": {
+        "officialText": "Conocemos las características principales del teorema de Pitágoras para construir un modelo de castillo pirotécnico como un recurso para explicar dicho teorema.",
+        "studentVersion": "Conocemos las características principales del teorema de Pitágoras para construir un modelo de castillo pirotécnico como un recurso para explicar dicho teorema.",
+        "horizon1Raw": "Conocemos las características principales del teorema de Pitágoras para construir un modelo de castillo pirotécnico como un recurso para explicar dicho teorema.",
+        "horizon2Raw": "Conocer cómo elaborar un modelo de castillo pirotécnico para presentarlo a la comunidad como medio para explicar el contenido del teorema de Pitágoras.",
+        "sourcePages": [
+          "Visión — Horizonte 1 (p. 147)"
+        ],
+        "evidence": "Extraído por visión de imagen de la página 147 del libro de proyectos. Confianza: alta.",
+        "status": "confirmed-from-project-book",
+        "extractedAt": "2026-06-16T05:47:06.419Z"
+      },
+      "detonatingStrategy": {
+        "status": "confirmed",
+        "title": "¡Los números en diferentes contextos!",
+        "text": "Video del Proyecto Parcial de Aula 15: ¡Los números en diferentes contextos!",
+        "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+        "scope": "partial-classroom-project",
+        "type": "video"
+      },
+      "academicProjectStrategy": {
+        "title": "2. Características y medidas del entorno • Saberes y pensamiento científico • 3er grado",
+        "text": "Video detonador del Proyecto Academico 44: Aprendamos con Pitágoras",
+        "type": "video",
+        "status": "confirmed-from-video-and-project",
+        "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+        "scope": "academic-project"
+      },
+      "academicConcepts": [
+        {
+          "concept": "2. características y medidas del entorno",
+          "description": "2. características y medidas del entorno organiza el producto de cierre y permite comunicar lo aprendido en el proyecto.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            146
+          ],
+          "sourcePagesLabel": "p. 146",
+          "topicTitle": "Proyecto academico 44",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 44, al PPA 15 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Materia",
+          "description": "Materia ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            265
+          ],
+          "sourcePagesLabel": "p. 265",
+          "topicTitle": "Proyecto academico 44",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 44, al PPA 15 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Mezclas",
+          "description": "Mezclas ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            265
+          ],
+          "sourcePagesLabel": "p. 265",
+          "topicTitle": "Proyecto academico 44",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 44, al PPA 15 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Quimica",
+          "description": "Quimica ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            9
+          ],
+          "sourcePagesLabel": "p. 9",
+          "topicTitle": "Proyecto academico 44",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 44, al PPA 15 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Figuras",
+          "description": "Figuras ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            146
+          ],
+          "sourcePagesLabel": "p. 146",
+          "topicTitle": "Proyecto academico 44",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 44, al PPA 15 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Medicion",
+          "description": "Medicion ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            146
+          ],
+          "sourcePagesLabel": "p. 146",
+          "topicTitle": "Proyecto academico 44",
+          "status": "suggested",
+          "reason": "Concepto vinculado al PA 44, al PPA 15 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "teacher-review"
+        }
+      ],
+      "thinkingCriteria": [
+        "Relacionar Aprendamos con Pitágoras con una situacion concreta del entorno escolar o comunitario.",
+        "Usar 2. características y medidas del entorno para explicar ideas con claridad y evidencia."
+      ],
+      "resonancePrompts": [
+        {
+          "type": "individual",
+          "prompt": "¿Como te ayuda 2. características y medidas del entorno a comprender mejor Aprendamos con Pitágoras y a explicar sus conceptos clave en tu comunidad?",
+          "conceptsActivated": [
+            "2. características y medidas del entorno",
+            "Materia",
+            "Mezclas",
+            "Quimica"
+          ],
+          "suggestedUse": "Momento 1 de autoevaluacion"
+        }
+      ],
+      "validationStatus": {
+        "readinessLevel": "curricular-bundle-generated",
+        "readyForActivities": true,
+        "needsReviewReasons": [
+          "El horizonte textual literal queda pendiente de revision fina si se requiere cita exacta.",
+          "Los apoyos complementarios impresos no se asignan cuando no hay evidencia validada por columna."
+        ]
+      },
+      "readinessLevel": "curricular-bundle-generated",
+      "readyForActivities": true,
+      "needsReviewReasons": []
+    },
+    {
+      "id": "saberes-y-pensamiento-cientifico-3-ppa-15-pa45",
+      "projectId": "saberes-y-pensamiento-cientifico-3-ppa-15-pa45",
+      "academicProjectNumber": 45,
+      "title": "Observar las razones trigonométricas",
+      "projectTitle": "Observar las razones trigonométricas",
+      "grade": "3",
+      "field": "Saberes y Pensamiento Científico",
+      "ppaNumber": "15",
+      "partialClassroomProject": "PPA 15",
+      "partialClassroomProjectTitle": "¡Los números en diferentes contextos!",
+      "bookVolume": "Tomo III",
+      "sourceValidation": {
+        "sourceStatus": "linked",
+        "possibilitiesPages": [
+          35
+        ],
+        "possibilitiesMaterialId": "grade-3-posibilidades-pos-sypc-3",
+        "possibilitiesColumnIndex": 3,
+        "columnEvidence": "Proyecto PA 45 agrupado en el PPA 15 desde el catalogo canonico y las paginas de Posibilidades."
+      },
+      "finalProduct": {
+        "title": "Bitácora trigonométrica",
+        "source": "Video detonador validado en YouTube + Nuestro libro de proyectos Tomo III pp. 150-153",
+        "status": "confirmed-from-video-and-project"
+      },
+      "sourcePages": {
+        "nuestroLibroProyectos": [
+          {
+            "materialId": "grade-3-proyectos-nuestros-proyectos-tomo-3-tercer-grado",
+            "label": "Nuestro libro de proyectos Tomo III",
+            "startPage": 150,
+            "endPage": 153,
+            "pagesLabel": "pp. 150-153",
+            "topicTitle": "Proyecto academico 45",
+            "status": "confirmed-source"
+          }
+        ],
+        "conceptBook": [
+          {
+            "materialId": "grade-3-conceptos-saberes-y-pensamiento-cientifico-tercer-grado",
+            "label": "Saberes y Pensamiento Cientifico",
+            "startPage": 150,
+            "endPage": 150,
+            "pagesLabel": "p. 150",
+            "topicTitle": "Bitácora trigonométrica",
+            "status": "confirmed"
+          }
+        ],
+        "multiplesLenguajes": [],
+        "otherMaterials": [
+          {
+            "label": "Video PA 45: Observar las razones trigonométricas",
+            "reference": "",
+            "status": "confirmed"
+          }
+        ]
+      },
+      "supportMaterials": [],
+      "horizonOrPurpose": {
+        "status": "confirmed-from-project-book",
+        "text": "Conocer cómo utilizar las razones trigonométricas (seno, coseno y tangente), con el fin de calcular distancias, además de ángulos de los triángulos para resolver problemas y colocar esa información en una bitácora trigonométrica.",
+        "source": "Visión — Horizonte 1 (p. 150)"
+      },
+      "projectExpectationHorizon": {
+        "officialText": "Conocer cómo utilizar las razones trigonométricas (seno, coseno y tangente), con el fin de calcular distancias, además de ángulos de los triángulos para resolver problemas y colocar esa información en una bitácora trigonométrica.",
+        "studentVersion": "Conocer cómo utilizar las razones trigonométricas (seno, coseno y tangente), con el fin de calcular distancias, además de ángulos de los triángulos para resolver problemas y colocar esa información en una bitácora trigonométrica.",
+        "horizon1Raw": "Conocer cómo utilizar las razones trigonométricas (seno, coseno y tangente), con el fin de calcular distancias, además de ángulos de los triángulos para resolver problemas y colocar esa información en una bitácora trigonométrica.",
+        "horizon2Raw": "Conocer cómo integrar una bitácora trigonométrica con información sobre el uso de las razones trigonométricas (seno, coseno y tangente), con el fin de calcular distancias.",
+        "sourcePages": [
+          "Visión — Horizonte 1 (p. 150)"
+        ],
+        "evidence": "Extraído por visión de imagen de la página 150 del libro de proyectos. Confianza: alta.",
+        "status": "confirmed-from-project-book",
+        "extractedAt": "2026-06-16T05:19:07.519Z"
+      },
+      "detonatingStrategy": {
+        "status": "confirmed",
+        "title": "¡Los números en diferentes contextos!",
+        "text": "Video del Proyecto Parcial de Aula 15: ¡Los números en diferentes contextos!",
+        "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+        "scope": "partial-classroom-project",
+        "type": "video"
+      },
+      "academicProjectStrategy": {
+        "title": "Bitácora trigonométrica •Saberes y pensamiento científico• 3er grado",
+        "text": "Video detonador del Proyecto Academico 45: Observar las razones trigonométricas",
+        "type": "video",
+        "status": "confirmed-from-video-and-project",
+        "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+        "scope": "academic-project"
+      },
+      "academicConcepts": [
+        {
+          "concept": "Bitácora trigonométrica",
+          "description": "Bitácora trigonométrica organiza el producto de cierre y permite comunicar lo aprendido en el proyecto.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            150
+          ],
+          "sourcePagesLabel": "p. 150",
+          "topicTitle": "Proyecto academico 45",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 45, al PPA 15 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Materia",
+          "description": "Materia ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            265
+          ],
+          "sourcePagesLabel": "p. 265",
+          "topicTitle": "Proyecto academico 45",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 45, al PPA 15 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Mezclas",
+          "description": "Mezclas ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            265
+          ],
+          "sourcePagesLabel": "p. 265",
+          "topicTitle": "Proyecto academico 45",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 45, al PPA 15 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Quimica",
+          "description": "Quimica ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            9
+          ],
+          "sourcePagesLabel": "p. 9",
+          "topicTitle": "Proyecto academico 45",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 45, al PPA 15 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Figuras",
+          "description": "Figuras ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            150
+          ],
+          "sourcePagesLabel": "p. 150",
+          "topicTitle": "Proyecto academico 45",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 45, al PPA 15 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Medicion",
+          "description": "Medicion ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            150
+          ],
+          "sourcePagesLabel": "p. 150",
+          "topicTitle": "Proyecto academico 45",
+          "status": "suggested",
+          "reason": "Concepto vinculado al PA 45, al PPA 15 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "teacher-review"
+        }
+      ],
+      "thinkingCriteria": [
+        "Relacionar Observar las razones trigonométricas con una situacion concreta del entorno escolar o comunitario.",
+        "Usar bitácora trigonométrica para explicar ideas con claridad y evidencia."
+      ],
+      "resonancePrompts": [
+        {
+          "type": "individual",
+          "prompt": "¿Como te ayuda bitácora trigonométrica a comprender mejor Observar las razones trigonométricas y a explicar sus conceptos clave en tu comunidad?",
+          "conceptsActivated": [
+            "Bitácora trigonométrica",
+            "Materia",
+            "Mezclas",
+            "Quimica"
+          ],
+          "suggestedUse": "Momento 1 de autoevaluacion"
+        }
+      ],
+      "validationStatus": {
+        "readinessLevel": "curricular-bundle-generated",
+        "readyForActivities": true,
+        "needsReviewReasons": [
+          "El horizonte textual literal queda pendiente de revision fina si se requiere cita exacta.",
+          "Los apoyos complementarios impresos no se asignan cuando no hay evidencia validada por columna."
+        ]
+      },
+      "readinessLevel": "curricular-bundle-generated",
+      "readyForActivities": true,
+      "needsReviewReasons": []
+    }
+  ]
+}

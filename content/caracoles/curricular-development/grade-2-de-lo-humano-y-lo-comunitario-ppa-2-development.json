@@ -1,0 +1,794 @@
+{
+  "grade": "2",
+  "gradeLabel": "Segundo grado",
+  "field": "De lo Humano y lo Comunitario",
+  "bookVolume": "Tomo I",
+  "partialClassroomProject": "PPA 2",
+  "partialClassroomProjectTitle": "Procesos técnicos y su impacto",
+  "generatedAt": "2026-06-04T15:48:47.580Z",
+  "notes": "Capa curricular generada por lote para 2o De lo Humano y lo Comunitario, PPA 2.",
+  "sourcesUsed": [
+    "public/caracoles/data/generated/grade-2/selectable-projects.json",
+    "content/caracoles/generated-private/grade-2/pages-index.full.json",
+    "Posibilidades de uso DHyC, segundo grado, pp. 8-10",
+    "Nuestro libro de proyectos Tomo I, segundo grado, pp. 261-275",
+    "De lo Humano y lo Comunitario, segundo grado, pp. 15-30; Nuestro libro de proyectos Tomo I pp. 263-274."
+  ],
+  "partialClassroomProjectContext": {
+    "expectationHorizon": {
+      "officialText": "",
+      "sourcePages": [
+        "Nuestro libro de proyectos Tomo I pp. 261-262",
+        "Posibilidades de uso DHyC pp. 8-10"
+      ],
+      "evidence": "El PPA 2 conecta procesos tecnicos, materiales y reciclaje para proponer alternativas frente al impacto ambiental.",
+      "status": "pending"
+    },
+    "ppaDetonatingStrategy": {
+      "title": "Procesos técnicos y su impacto",
+      "type": "video",
+      "url": "",
+      "urlStatus": "pending-url",
+      "reference": "bit.ly/3VfglUk",
+      "source": "Nuestro libro de proyectos Tomo I pp. 261-262 + Posibilidades de uso DHyC pp. 8-10",
+      "scope": "partial-classroom-project",
+      "youtubeSearchQuery": "Procesos técnicos y su impacto De lo Humano y lo Comunitario 2do grado Telesecundaria"
+    },
+    "ppaDigitalResource": {
+      "title": "Recurso informatico del bloque PPA 2",
+      "reference": "bit.ly/3WQBMwg",
+      "status": "pending-validation",
+      "source": "Nuestro libro de proyectos Tomo I pp. 261-275"
+    },
+    "validationStatus": {
+      "needsHumanReview": true,
+      "needsReviewReasons": [
+        "Las pp. 8-10 de Posibilidades pertenecen al mismo PPA 2.",
+        "La asignacion de apoyos por columna se fija por inferencia curricular documentada de izquierda a derecha.",
+        "Los enlaces cortos del video del PPA y del recurso informatico se mantienen en cautela hasta localizar un destino oficial confirmado."
+      ]
+    },
+    "columnValidation": {
+      "possibilitiesPagesReviewed": [
+        8,
+        9,
+        10
+      ],
+      "confirmedAsPpa": true,
+      "note": "Las pp. 8-10 corresponden al PPA 2 Procesos técnicos y su impacto. Las tres columnas se sostienen por el orden de proyectos, productos y apoyos del mismo bloque.",
+      "columns": [
+        {
+          "columnIndex": 1,
+          "projectId": "de-lo-humano-y-lo-comunitario-2-ppa-2-pa4",
+          "projectTitle": "¡Propuestas que cambian!",
+          "finalProduct": "Producto de cierre del proyecto",
+          "supportMaterials": [
+            "Sistemas tecnicos y produccion, pp. 15-24"
+          ]
+        },
+        {
+          "columnIndex": 2,
+          "projectId": "de-lo-humano-y-lo-comunitario-2-ppa-2-pa5",
+          "projectTitle": "Alternativas para una solución",
+          "finalProduct": "Producto de cierre del proyecto",
+          "supportMaterials": [
+            "Acciones preventivas, pp. 26-27"
+          ]
+        },
+        {
+          "columnIndex": 3,
+          "projectId": "de-lo-humano-y-lo-comunitario-2-ppa-2-pa6",
+          "projectTitle": "¡Pienso, reciclo y convierto!",
+          "finalProduct": "Producto de cierre del proyecto",
+          "supportMaterials": [
+            "Reducir, reutilizar, reciclar y recuperar, pp. 29-30"
+          ]
+        }
+      ]
+    }
+  },
+  "academicProjects": [
+    {
+      "id": "de-lo-humano-y-lo-comunitario-2-ppa-2-pa4",
+      "projectId": "de-lo-humano-y-lo-comunitario-2-ppa-2-pa4",
+      "academicProjectNumber": 4,
+      "title": "¡Propuestas que cambian!",
+      "projectTitle": "¡Propuestas que cambian!",
+      "grade": "2",
+      "field": "De lo Humano y lo Comunitario",
+      "ppaNumber": "2",
+      "partialClassroomProject": "PPA 2",
+      "partialClassroomProjectTitle": "Procesos técnicos y su impacto",
+      "bookVolume": "Tomo I",
+      "sourceValidation": {
+        "sourceStatus": "linked",
+        "possibilitiesPages": [
+          8,
+          9,
+          10
+        ],
+        "possibilitiesMaterialId": "grade-2-posibilidades-pos-dhc-2",
+        "possibilitiesColumnIndex": 1,
+        "columnEvidence": "Bloque PPA 2 Procesos técnicos y su impacto localizado en pp. 8-10; la columna 1 se confirma por el orden de proyectos, productos y continuidad del mismo bloque."
+      },
+      "finalProduct": {
+        "title": "Producto de cierre del proyecto",
+        "source": "Posibilidades de uso DHyC pp. 8-10 + Nuestro libro de proyectos Tomo I pp. 263-266",
+        "status": "confirmed"
+      },
+      "sourcePages": {
+        "nuestroLibroProyectos": [
+          {
+            "materialId": "grade-2-proyectos-nuestro-libro-de-proyectos-tomo-1-segundo-grado",
+            "label": "Nuestro libro de proyectos Tomo I",
+            "startPage": 263,
+            "endPage": 266,
+            "pagesLabel": "pp. 263-266",
+            "topicTitle": "Proyecto academico 4",
+            "status": "confirmed-source"
+          }
+        ],
+        "conceptBook": [
+          {
+            "materialId": "grade-2-conceptos-de-lo-humano-y-lo-comunitario-segundo-grado",
+            "label": "De lo Humano y lo Comunitario",
+            "startPage": 15,
+            "endPage": 24,
+            "pagesLabel": "pp. 15-24",
+            "topicTitle": "Sistemas tecnicos y procesos de produccion",
+            "status": "confirmed-by-column-inference"
+          },
+          {
+            "materialId": "grade-2-conceptos-de-lo-humano-y-lo-comunitario-segundo-grado",
+            "label": "De lo Humano y lo Comunitario",
+            "startPage": 25,
+            "endPage": 27,
+            "pagesLabel": "pp. 25-27",
+            "topicTitle": "Daños por uso y transformacion de materiales",
+            "status": "confirmed-by-column-inference"
+          }
+        ],
+        "multiplesLenguajes": [
+          {
+            "materialId": "grade-2-apoyo-multiples-lenguajes-segundo-grado",
+            "label": "Multiples Lenguajes",
+            "startPage": 15,
+            "endPage": 24,
+            "pagesLabel": "pp. 15-24",
+            "topicTitle": "Sistemas tecnicos y produccion",
+            "status": "confirmed-by-field-source"
+          }
+        ],
+        "otherMaterials": [
+          {
+            "label": "Video PPA 2: Procesos técnicos y su impacto",
+            "reference": "bit.ly/3VfglUk",
+            "status": "pending-validation"
+          }
+        ]
+      },
+      "supportMaterials": [
+        {
+          "title": "Sistemas tecnicos y produccion",
+          "kind": "Multiples Lenguajes",
+          "pages": "pp. 15-24",
+          "status": "confirmed-by-field-source"
+        }
+      ],
+      "horizonOrPurpose": {
+        "status": "confirmed-from-project-book",
+        "text": "Elaborar un diagrama con posibles soluciones para los obstáculos que entorpecen la comunicación en los procesos técnicos locales, a fin de mejorar el bienestar personal y social de la comunidad.",
+        "source": "Visión — Horizonte 2 (p. 264)"
+      },
+      "projectExpectationHorizon": {
+        "officialText": "Elaborar un diagrama con posibles soluciones para los obstáculos que entorpecen la comunicación en los procesos técnicos locales, a fin de mejorar el bienestar personal y social de la comunidad.",
+        "studentVersion": "Elaborar un diagrama con posibles soluciones para los obstáculos que entorpecen la comunicación en los procesos técnicos locales, a fin de mejorar el bienestar personal y social de la comunidad.",
+        "horizon1Raw": "Analizar los procesos técnicos locales: artesanales, industriales y automatizados. Valorar su influencia en la organización de la entidad.",
+        "horizon2Raw": "Elaborar un diagrama con posibles soluciones para los obstáculos que entorpecen la comunicación en los procesos técnicos locales, a fin de mejorar el bienestar personal y social de la comunidad.",
+        "sourcePages": [
+          "Visión — Horizonte 2 (p. 264)"
+        ],
+        "evidence": "Extraído por visión de imagen de la página 264 del libro de proyectos. Confianza: alta.",
+        "status": "confirmed-from-project-book",
+        "extractedAt": "2026-06-16T05:08:02.478Z"
+      },
+      "detonatingStrategy": {
+        "status": "pending-url",
+        "text": "Video PPA 2: Procesos técnicos y su impacto",
+        "reference": "bit.ly/3VfglUk",
+        "source": "Nuestro libro de proyectos Tomo I pp. 261-262 + Posibilidades de uso DHyC pp. 8-10"
+      },
+      "academicProjectStrategy": {
+        "title": "Producto de cierre del proyecto",
+        "text": "Organizar producto de cierre del proyecto para profundizar en los cambios que pueden proponerse para disminuir impactos de los procesos tecnicos y compartir hallazgos de manera clara con el grupo.",
+        "type": "project-product",
+        "status": "confirmed-from-project-book",
+        "source": "Nuestro libro de proyectos Tomo I pp. 263-266"
+      },
+      "academicConcepts": [
+        {
+          "concept": "producto de cierre del proyecto",
+          "description": "Producto de cierre del proyecto como producto de cierre para organizar y comunicar aprendizajes del proyecto.",
+          "sourceBook": "Nuestro libro de proyectos Tomo I",
+          "sourcePages": [
+            263,
+            266
+          ],
+          "sourcePagesLabel": "pp. 263-266",
+          "topicTitle": "Proyecto academico 4",
+          "status": "confirmed",
+          "reason": "Posibilidades y el propio proyecto fijan Producto de cierre del proyecto como producto final del PA 4.",
+          "pedagogicalUse": "Da una forma concreta de socializar lo comprendido sobre los cambios que pueden proponerse para disminuir impactos de los procesos tecnicos.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "proceso tecnico",
+          "description": "Proceso tecnico es una idea clave para comprender los cambios que pueden proponerse para disminuir impactos de los procesos tecnicos.",
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "sourcePages": [
+            15,
+            24
+          ],
+          "sourcePagesLabel": "pp. 15-24",
+          "topicTitle": "Sistemas tecnicos y procesos de produccion",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Sistemas tecnicos y procesos de produccion\" aporta base suficiente para trabajar proceso tecnico dentro del proyecto 4.",
+          "pedagogicalUse": "Ayuda a fortalecer producto de cierre del proyecto y a explicar los cambios que pueden proponerse para disminuir impactos de los procesos tecnicos con mayor claridad mediante proceso tecnico.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "sistema tecnico",
+          "description": "Sistema tecnico es una idea clave para comprender los cambios que pueden proponerse para disminuir impactos de los procesos tecnicos.",
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "sourcePages": [
+            15,
+            24
+          ],
+          "sourcePagesLabel": "pp. 15-24",
+          "topicTitle": "Sistemas tecnicos y procesos de produccion",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Sistemas tecnicos y procesos de produccion\" aporta base suficiente para trabajar sistema tecnico dentro del proyecto 4.",
+          "pedagogicalUse": "Ayuda a fortalecer producto de cierre del proyecto y a explicar los cambios que pueden proponerse para disminuir impactos de los procesos tecnicos con mayor claridad mediante sistema tecnico.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "impacto ambiental",
+          "description": "Impacto ambiental es una idea clave para comprender los cambios que pueden proponerse para disminuir impactos de los procesos tecnicos.",
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "sourcePages": [
+            25,
+            27
+          ],
+          "sourcePagesLabel": "pp. 25-27",
+          "topicTitle": "Daños por uso y transformacion de materiales",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Daños por uso y transformacion de materiales\" aporta base suficiente para trabajar impacto ambiental dentro del proyecto 4.",
+          "pedagogicalUse": "Ayuda a fortalecer producto de cierre del proyecto y a explicar los cambios que pueden proponerse para disminuir impactos de los procesos tecnicos con mayor claridad mediante impacto ambiental.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "propuesta",
+          "description": "Propuesta es una idea clave para comprender los cambios que pueden proponerse para disminuir impactos de los procesos tecnicos.",
+          "sourceBook": "Nuestro libro de proyectos Tomo I",
+          "sourcePages": [
+            25,
+            27
+          ],
+          "sourcePagesLabel": "pp. 25-27",
+          "topicTitle": "Daños por uso y transformacion de materiales",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Daños por uso y transformacion de materiales\" aporta base suficiente para trabajar propuesta dentro del proyecto 4.",
+          "pedagogicalUse": "Ayuda a fortalecer producto de cierre del proyecto y a explicar los cambios que pueden proponerse para disminuir impactos de los procesos tecnicos con mayor claridad mediante propuesta.",
+          "activityReadiness": "usable-for-autoevaluation"
+        }
+      ],
+      "thinkingCriteria": [
+        "Relacionar los cambios que pueden proponerse para disminuir impactos de los procesos tecnicos con situaciones cercanas a la comunidad.",
+        "Usar producto de cierre del proyecto para explicar y no solo para recopilar informacion.",
+        "Distinguir entre mencionar conceptos y comprender como dialogan entre si dentro del proyecto."
+      ],
+      "validationStatus": {
+        "readinessLevel": "development-partial",
+        "readyForActivities": false,
+        "needsReviewReasons": [
+          "El bloque 2 ya es usable como lectura docente, pero el video del PPA 2 y el recurso informatico siguen pendientes de validacion de destino final.",
+          "La asignacion de apoyos de Posibilidades se sostiene por inferencia curricular documentada y no por OCR perfectamente separado por columnas.",
+          "No mover a actividades interactivas ni desbloquear juegos completos hasta ampliar validacion de videos y recursos complementarios."
+        ]
+      },
+      "readinessLevel": "development-partial",
+      "readyForActivities": false,
+      "needsReviewReasons": [
+        "No mover a actividades interactivas ni desbloquear juegos completos."
+      ],
+      "roleInPpa": "Abre el bloque con propuestas de mejora frente al impacto de los procesos tecnicos.",
+      "pedagogicalUse": "Conviene trabajar ¡Propuestas que cambian! como una oportunidad para profundizar en los cambios que pueden proponerse para disminuir impactos de los procesos tecnicos sin separar contenido, comunidad y producto final.",
+      "teacherNotes": [
+        "Conviene partir de ejemplos cercanos y después pasar al lenguaje mas abstracto del campo.",
+        "El producto Producto de cierre del proyecto gana fuerza cuando se usa para explicar y no solo para exhibir informacion.",
+        "Es mejor seleccionar pocos conceptos bien comprendidos que saturar el trabajo con terminos aislados."
+      ],
+      "resonancePrompts": [
+        {
+          "type": "individual",
+          "prompt": "¿Qué comprendes mejor sobre los cambios que pueden proponerse para disminuir impactos de los procesos tecnicos después de elaborar producto de cierre del proyecto?"
+        },
+        {
+          "type": "community",
+          "prompt": "¿Qué diálogos comunitarios podrían fortalecerse si compartimos producto de cierre del proyecto y lo ponemos en conversación con otras personas?"
+        }
+      ],
+      "notReadyFor": [
+        "full-games",
+        "summative-exam"
+      ]
+    },
+    {
+      "id": "de-lo-humano-y-lo-comunitario-2-ppa-2-pa5",
+      "projectId": "de-lo-humano-y-lo-comunitario-2-ppa-2-pa5",
+      "academicProjectNumber": 5,
+      "title": "Alternativas para una solución",
+      "projectTitle": "Alternativas para una solución",
+      "grade": "2",
+      "field": "De lo Humano y lo Comunitario",
+      "ppaNumber": "2",
+      "partialClassroomProject": "PPA 2",
+      "partialClassroomProjectTitle": "Procesos técnicos y su impacto",
+      "bookVolume": "Tomo I",
+      "sourceValidation": {
+        "sourceStatus": "linked",
+        "possibilitiesPages": [
+          8,
+          9,
+          10
+        ],
+        "possibilitiesMaterialId": "grade-2-posibilidades-pos-dhc-2",
+        "possibilitiesColumnIndex": 2,
+        "columnEvidence": "Bloque PPA 2 Procesos técnicos y su impacto localizado en pp. 8-10; la columna 2 se confirma por el orden de proyectos, productos y continuidad del mismo bloque."
+      },
+      "finalProduct": {
+        "title": "Producto de cierre del proyecto",
+        "source": "Posibilidades de uso DHyC pp. 8-10 + Nuestro libro de proyectos Tomo I pp. 267-270",
+        "status": "confirmed"
+      },
+      "sourcePages": {
+        "nuestroLibroProyectos": [
+          {
+            "materialId": "grade-2-proyectos-nuestro-libro-de-proyectos-tomo-1-segundo-grado",
+            "label": "Nuestro libro de proyectos Tomo I",
+            "startPage": 267,
+            "endPage": 270,
+            "pagesLabel": "pp. 267-270",
+            "topicTitle": "Proyecto academico 5",
+            "status": "confirmed-source"
+          }
+        ],
+        "conceptBook": [
+          {
+            "materialId": "grade-2-conceptos-de-lo-humano-y-lo-comunitario-segundo-grado",
+            "label": "De lo Humano y lo Comunitario",
+            "startPage": 26,
+            "endPage": 27,
+            "pagesLabel": "pp. 26-27",
+            "topicTitle": "Acciones preventivas ante daños ambientales",
+            "status": "confirmed-by-column-inference"
+          },
+          {
+            "materialId": "grade-2-conceptos-de-lo-humano-y-lo-comunitario-segundo-grado",
+            "label": "De lo Humano y lo Comunitario",
+            "startPage": 28,
+            "endPage": 30,
+            "pagesLabel": "pp. 28-30",
+            "topicTitle": "Tecnologia al servicio de la comunidad",
+            "status": "confirmed-by-column-inference"
+          }
+        ],
+        "multiplesLenguajes": [
+          {
+            "materialId": "grade-2-apoyo-multiples-lenguajes-segundo-grado",
+            "label": "Multiples Lenguajes",
+            "startPage": 26,
+            "endPage": 27,
+            "pagesLabel": "pp. 26-27",
+            "topicTitle": "Acciones preventivas",
+            "status": "confirmed-by-field-source"
+          }
+        ],
+        "otherMaterials": [
+          {
+            "label": "Video PPA 2: Procesos técnicos y su impacto",
+            "reference": "bit.ly/3VfglUk",
+            "status": "pending-validation"
+          }
+        ]
+      },
+      "supportMaterials": [
+        {
+          "title": "Acciones preventivas",
+          "kind": "Multiples Lenguajes",
+          "pages": "pp. 26-27",
+          "status": "confirmed-by-field-source"
+        }
+      ],
+      "horizonOrPurpose": {
+        "status": "confirmed-from-project-book",
+        "text": "Comprender las diversas alternativas de prevención de riesgos personales, sociales y naturales para mejorarlas y contribuir al bienestar personal y social.",
+        "source": "Visión — Horizonte 2 (p. 268)"
+      },
+      "projectExpectationHorizon": {
+        "officialText": "Comprender las diversas alternativas de prevención de riesgos personales, sociales y naturales para mejorarlas y contribuir al bienestar personal y social.",
+        "studentVersion": "Comprender las diversas alternativas de prevención de riesgos personales, sociales y naturales para mejorarlas y contribuir al bienestar personal y social.",
+        "horizon1Raw": "Establecer una propuesta de solución para representarla en una maqueta móvil.",
+        "horizon2Raw": "Comprender las diversas alternativas de prevención de riesgos personales, sociales y naturales para mejorarlas y contribuir al bienestar personal y social.",
+        "sourcePages": [
+          "Visión — Horizonte 2 (p. 268)"
+        ],
+        "evidence": "Extraído por visión de imagen de la página 268 del libro de proyectos. Confianza: alta.",
+        "status": "confirmed-from-project-book",
+        "extractedAt": "2026-06-16T05:28:03.598Z"
+      },
+      "detonatingStrategy": {
+        "status": "pending-url",
+        "text": "Video PPA 2: Procesos técnicos y su impacto",
+        "reference": "bit.ly/3VfglUk",
+        "source": "Nuestro libro de proyectos Tomo I pp. 265-266 + Posibilidades de uso DHyC pp. 8-10"
+      },
+      "academicProjectStrategy": {
+        "title": "Producto de cierre del proyecto",
+        "text": "Organizar producto de cierre del proyecto para profundizar en las alternativas tecnicas y comunitarias para resolver problemas derivados del uso de materiales y compartir hallazgos de manera clara con el grupo.",
+        "type": "project-product",
+        "status": "confirmed-from-project-book",
+        "source": "Nuestro libro de proyectos Tomo I pp. 267-270"
+      },
+      "academicConcepts": [
+        {
+          "concept": "producto de cierre del proyecto",
+          "description": "Producto de cierre del proyecto como producto de cierre para organizar y comunicar aprendizajes del proyecto.",
+          "sourceBook": "Nuestro libro de proyectos Tomo I",
+          "sourcePages": [
+            267,
+            270
+          ],
+          "sourcePagesLabel": "pp. 267-270",
+          "topicTitle": "Proyecto academico 5",
+          "status": "confirmed",
+          "reason": "Posibilidades y el propio proyecto fijan Producto de cierre del proyecto como producto final del PA 5.",
+          "pedagogicalUse": "Da una forma concreta de socializar lo comprendido sobre las alternativas tecnicas y comunitarias para resolver problemas derivados del uso de materiales.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "alternativa",
+          "description": "Alternativa es una idea clave para comprender las alternativas tecnicas y comunitarias para resolver problemas derivados del uso de materiales.",
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "sourcePages": [
+            26,
+            27
+          ],
+          "sourcePagesLabel": "pp. 26-27",
+          "topicTitle": "Acciones preventivas ante daños ambientales",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Acciones preventivas ante daños ambientales\" aporta base suficiente para trabajar alternativa dentro del proyecto 5.",
+          "pedagogicalUse": "Ayuda a fortalecer producto de cierre del proyecto y a explicar las alternativas tecnicas y comunitarias para resolver problemas derivados del uso de materiales con mayor claridad mediante alternativa.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "prevencion",
+          "description": "Prevencion es una idea clave para comprender las alternativas tecnicas y comunitarias para resolver problemas derivados del uso de materiales.",
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "sourcePages": [
+            26,
+            27
+          ],
+          "sourcePagesLabel": "pp. 26-27",
+          "topicTitle": "Acciones preventivas ante daños ambientales",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Acciones preventivas ante daños ambientales\" aporta base suficiente para trabajar prevencion dentro del proyecto 5.",
+          "pedagogicalUse": "Ayuda a fortalecer producto de cierre del proyecto y a explicar las alternativas tecnicas y comunitarias para resolver problemas derivados del uso de materiales con mayor claridad mediante prevencion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "solucion",
+          "description": "Solucion es una idea clave para comprender las alternativas tecnicas y comunitarias para resolver problemas derivados del uso de materiales.",
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "sourcePages": [
+            28,
+            30
+          ],
+          "sourcePagesLabel": "pp. 28-30",
+          "topicTitle": "Tecnologia al servicio de la comunidad",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Tecnologia al servicio de la comunidad\" aporta base suficiente para trabajar solucion dentro del proyecto 5.",
+          "pedagogicalUse": "Ayuda a fortalecer producto de cierre del proyecto y a explicar las alternativas tecnicas y comunitarias para resolver problemas derivados del uso de materiales con mayor claridad mediante solucion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "comunidad",
+          "description": "Comunidad es una idea clave para comprender las alternativas tecnicas y comunitarias para resolver problemas derivados del uso de materiales.",
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "sourcePages": [
+            28,
+            30
+          ],
+          "sourcePagesLabel": "pp. 28-30",
+          "topicTitle": "Tecnologia al servicio de la comunidad",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Tecnologia al servicio de la comunidad\" aporta base suficiente para trabajar comunidad dentro del proyecto 5.",
+          "pedagogicalUse": "Ayuda a fortalecer producto de cierre del proyecto y a explicar las alternativas tecnicas y comunitarias para resolver problemas derivados del uso de materiales con mayor claridad mediante comunidad.",
+          "activityReadiness": "usable-for-autoevaluation"
+        }
+      ],
+      "thinkingCriteria": [
+        "Relacionar las alternativas tecnicas y comunitarias para resolver problemas derivados del uso de materiales con situaciones cercanas a la comunidad.",
+        "Usar producto de cierre del proyecto para explicar y no solo para recopilar informacion.",
+        "Distinguir entre mencionar conceptos y comprender como dialogan entre si dentro del proyecto."
+      ],
+      "validationStatus": {
+        "readinessLevel": "development-partial",
+        "readyForActivities": false,
+        "needsReviewReasons": [
+          "El bloque 2 ya es usable como lectura docente, pero el video del PPA 2 y el recurso informatico siguen pendientes de validacion de destino final.",
+          "La asignacion de apoyos de Posibilidades se sostiene por inferencia curricular documentada y no por OCR perfectamente separado por columnas.",
+          "No mover a actividades interactivas ni desbloquear juegos completos hasta ampliar validacion de videos y recursos complementarios."
+        ]
+      },
+      "readinessLevel": "development-partial",
+      "readyForActivities": false,
+      "needsReviewReasons": [
+        "No mover a actividades interactivas ni desbloquear juegos completos."
+      ],
+      "roleInPpa": "Profundiza el bloque al comparar alternativas y seleccionar soluciones viables.",
+      "pedagogicalUse": "Conviene trabajar Alternativas para una solución como una oportunidad para profundizar en las alternativas tecnicas y comunitarias para resolver problemas derivados del uso de materiales sin separar contenido, comunidad y producto final.",
+      "teacherNotes": [
+        "Conviene partir de ejemplos cercanos y después pasar al lenguaje mas abstracto del campo.",
+        "El producto Producto de cierre del proyecto gana fuerza cuando se usa para explicar y no solo para exhibir informacion.",
+        "Es mejor seleccionar pocos conceptos bien comprendidos que saturar el trabajo con terminos aislados."
+      ],
+      "resonancePrompts": [
+        {
+          "type": "individual",
+          "prompt": "¿Qué comprendes mejor sobre las alternativas tecnicas y comunitarias para resolver problemas derivados del uso de materiales después de elaborar producto de cierre del proyecto?"
+        },
+        {
+          "type": "community",
+          "prompt": "¿Qué diálogos comunitarios podrían fortalecerse si compartimos producto de cierre del proyecto y lo ponemos en conversación con otras personas?"
+        }
+      ],
+      "notReadyFor": [
+        "full-games",
+        "summative-exam"
+      ]
+    },
+    {
+      "id": "de-lo-humano-y-lo-comunitario-2-ppa-2-pa6",
+      "projectId": "de-lo-humano-y-lo-comunitario-2-ppa-2-pa6",
+      "academicProjectNumber": 6,
+      "title": "¡Pienso, reciclo y convierto!",
+      "projectTitle": "¡Pienso, reciclo y convierto!",
+      "grade": "2",
+      "field": "De lo Humano y lo Comunitario",
+      "ppaNumber": "2",
+      "partialClassroomProject": "PPA 2",
+      "partialClassroomProjectTitle": "Procesos técnicos y su impacto",
+      "bookVolume": "Tomo I",
+      "sourceValidation": {
+        "sourceStatus": "linked",
+        "possibilitiesPages": [
+          8,
+          9,
+          10
+        ],
+        "possibilitiesMaterialId": "grade-2-posibilidades-pos-dhc-2",
+        "possibilitiesColumnIndex": 3,
+        "columnEvidence": "Bloque PPA 2 Procesos técnicos y su impacto localizado en pp. 8-10; la columna 3 se confirma por el orden de proyectos, productos y continuidad del mismo bloque."
+      },
+      "finalProduct": {
+        "title": "Producto de cierre del proyecto",
+        "source": "Posibilidades de uso DHyC pp. 8-10 + Nuestro libro de proyectos Tomo I pp. 271-275",
+        "status": "confirmed"
+      },
+      "sourcePages": {
+        "nuestroLibroProyectos": [
+          {
+            "materialId": "grade-2-proyectos-nuestro-libro-de-proyectos-tomo-1-segundo-grado",
+            "label": "Nuestro libro de proyectos Tomo I",
+            "startPage": 271,
+            "endPage": 275,
+            "pagesLabel": "pp. 271-275",
+            "topicTitle": "Proyecto academico 6",
+            "status": "confirmed-source"
+          }
+        ],
+        "conceptBook": [
+          {
+            "materialId": "grade-2-conceptos-de-lo-humano-y-lo-comunitario-segundo-grado",
+            "label": "De lo Humano y lo Comunitario",
+            "startPage": 28,
+            "endPage": 30,
+            "pagesLabel": "pp. 28-30",
+            "topicTitle": "Tecnologia, economia circular y manejo de residuos",
+            "status": "confirmed-by-column-inference"
+          },
+          {
+            "materialId": "grade-2-conceptos-de-lo-humano-y-lo-comunitario-segundo-grado",
+            "label": "De lo Humano y lo Comunitario",
+            "startPage": 25,
+            "endPage": 27,
+            "pagesLabel": "pp. 25-27",
+            "topicTitle": "Uso y transformacion de materiales",
+            "status": "confirmed-by-column-inference"
+          }
+        ],
+        "multiplesLenguajes": [
+          {
+            "materialId": "grade-2-apoyo-multiples-lenguajes-segundo-grado",
+            "label": "Multiples Lenguajes",
+            "startPage": 29,
+            "endPage": 30,
+            "pagesLabel": "pp. 29-30",
+            "topicTitle": "Reducir, reutilizar, reciclar y recuperar",
+            "status": "confirmed-by-field-source"
+          }
+        ],
+        "otherMaterials": [
+          {
+            "label": "Video PPA 2: Procesos técnicos y su impacto",
+            "reference": "bit.ly/3VfglUk",
+            "status": "pending-validation"
+          }
+        ]
+      },
+      "supportMaterials": [
+        {
+          "title": "Reducir, reutilizar, reciclar y recuperar",
+          "kind": "Multiples Lenguajes",
+          "pages": "pp. 29-30",
+          "status": "confirmed-by-field-source"
+        }
+      ],
+      "horizonOrPurpose": {
+        "status": "pending",
+        "text": "",
+        "source": "Nuestro libro de proyectos Tomo I p. 271"
+      },
+      "projectExpectationHorizon": {
+        "officialText": "",
+        "studentVersion": "",
+        "sourcePages": [
+          "Nuestro libro de proyectos Tomo I p. 271"
+        ],
+        "evidence": "El proyecto ya cuenta con producto, conceptos y articulacion pedagogica, pero el horizonte textual exacto sigue pendiente de confirmacion literal.",
+        "status": "pending"
+      },
+      "detonatingStrategy": {
+        "status": "pending-url",
+        "text": "Video PPA 2: Procesos técnicos y su impacto",
+        "reference": "bit.ly/3VfglUk",
+        "source": "Nuestro libro de proyectos Tomo I pp. 269-270 + Posibilidades de uso DHyC pp. 8-10"
+      },
+      "academicProjectStrategy": {
+        "title": "Producto de cierre del proyecto",
+        "text": "Organizar producto de cierre del proyecto para profundizar en el reciclaje y la reutilizacion como acciones para transformar residuos en recursos utiles y compartir hallazgos de manera clara con el grupo.",
+        "type": "project-product",
+        "status": "confirmed-from-project-book",
+        "source": "Nuestro libro de proyectos Tomo I pp. 271-275"
+      },
+      "academicConcepts": [
+        {
+          "concept": "producto de cierre del proyecto",
+          "description": "Producto de cierre del proyecto como producto de cierre para organizar y comunicar aprendizajes del proyecto.",
+          "sourceBook": "Nuestro libro de proyectos Tomo I",
+          "sourcePages": [
+            271,
+            275
+          ],
+          "sourcePagesLabel": "pp. 271-275",
+          "topicTitle": "Proyecto academico 6",
+          "status": "confirmed",
+          "reason": "Posibilidades y el propio proyecto fijan Producto de cierre del proyecto como producto final del PA 6.",
+          "pedagogicalUse": "Da una forma concreta de socializar lo comprendido sobre el reciclaje y la reutilizacion como acciones para transformar residuos en recursos utiles.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "reciclaje",
+          "description": "Reciclaje es una idea clave para comprender el reciclaje y la reutilizacion como acciones para transformar residuos en recursos utiles.",
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "sourcePages": [
+            28,
+            30
+          ],
+          "sourcePagesLabel": "pp. 28-30",
+          "topicTitle": "Tecnologia, economia circular y manejo de residuos",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Tecnologia, economia circular y manejo de residuos\" aporta base suficiente para trabajar reciclaje dentro del proyecto 6.",
+          "pedagogicalUse": "Ayuda a fortalecer producto de cierre del proyecto y a explicar el reciclaje y la reutilizacion como acciones para transformar residuos en recursos utiles con mayor claridad mediante reciclaje.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "residuos",
+          "description": "Residuos es una idea clave para comprender el reciclaje y la reutilizacion como acciones para transformar residuos en recursos utiles.",
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "sourcePages": [
+            28,
+            30
+          ],
+          "sourcePagesLabel": "pp. 28-30",
+          "topicTitle": "Tecnologia, economia circular y manejo de residuos",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Tecnologia, economia circular y manejo de residuos\" aporta base suficiente para trabajar residuos dentro del proyecto 6.",
+          "pedagogicalUse": "Ayuda a fortalecer producto de cierre del proyecto y a explicar el reciclaje y la reutilizacion como acciones para transformar residuos en recursos utiles con mayor claridad mediante residuos.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "materiales",
+          "description": "Materiales es una idea clave para comprender el reciclaje y la reutilizacion como acciones para transformar residuos en recursos utiles.",
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "sourcePages": [
+            25,
+            27
+          ],
+          "sourcePagesLabel": "pp. 25-27",
+          "topicTitle": "Uso y transformacion de materiales",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Uso y transformacion de materiales\" aporta base suficiente para trabajar materiales dentro del proyecto 6.",
+          "pedagogicalUse": "Ayuda a fortalecer producto de cierre del proyecto y a explicar el reciclaje y la reutilizacion como acciones para transformar residuos en recursos utiles con mayor claridad mediante materiales.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "reutilizacion",
+          "description": "Reutilizacion es una idea clave para comprender el reciclaje y la reutilizacion como acciones para transformar residuos en recursos utiles.",
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "sourcePages": [
+            28,
+            30
+          ],
+          "sourcePagesLabel": "pp. 28-30",
+          "topicTitle": "Tecnologia, economia circular y manejo de residuos",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Tecnologia, economia circular y manejo de residuos\" aporta base suficiente para trabajar reutilizacion dentro del proyecto 6.",
+          "pedagogicalUse": "Ayuda a fortalecer producto de cierre del proyecto y a explicar el reciclaje y la reutilizacion como acciones para transformar residuos en recursos utiles con mayor claridad mediante reutilizacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        }
+      ],
+      "thinkingCriteria": [
+        "Relacionar el reciclaje y la reutilizacion como acciones para transformar residuos en recursos utiles con situaciones cercanas a la comunidad.",
+        "Usar producto de cierre del proyecto para explicar y no solo para recopilar informacion.",
+        "Distinguir entre mencionar conceptos y comprender como dialogan entre si dentro del proyecto."
+      ],
+      "validationStatus": {
+        "readinessLevel": "development-partial",
+        "readyForActivities": false,
+        "needsReviewReasons": [
+          "El bloque 2 ya es usable como lectura docente, pero el video del PPA 2 y el recurso informatico siguen pendientes de validacion de destino final.",
+          "La asignacion de apoyos de Posibilidades se sostiene por inferencia curricular documentada y no por OCR perfectamente separado por columnas.",
+          "No mover a actividades interactivas ni desbloquear juegos completos hasta ampliar validacion de videos y recursos complementarios."
+        ]
+      },
+      "readinessLevel": "development-partial",
+      "readyForActivities": false,
+      "needsReviewReasons": [
+        "No mover a actividades interactivas ni desbloquear juegos completos."
+      ],
+      "roleInPpa": "Cierra el bloque con una aplicacion concreta de reciclaje y transformacion de materiales.",
+      "pedagogicalUse": "Conviene trabajar ¡Pienso, reciclo y convierto! como una oportunidad para profundizar en el reciclaje y la reutilizacion como acciones para transformar residuos en recursos utiles sin separar contenido, comunidad y producto final.",
+      "teacherNotes": [
+        "Conviene partir de ejemplos cercanos y después pasar al lenguaje mas abstracto del campo.",
+        "El producto Producto de cierre del proyecto gana fuerza cuando se usa para explicar y no solo para exhibir informacion.",
+        "Es mejor seleccionar pocos conceptos bien comprendidos que saturar el trabajo con terminos aislados."
+      ],
+      "resonancePrompts": [
+        {
+          "type": "individual",
+          "prompt": "¿Qué comprendes mejor sobre el reciclaje y la reutilizacion como acciones para transformar residuos en recursos utiles después de elaborar producto de cierre del proyecto?"
+        },
+        {
+          "type": "community",
+          "prompt": "¿Qué diálogos comunitarios podrían fortalecerse si compartimos producto de cierre del proyecto y lo ponemos en conversación con otras personas?"
+        }
+      ],
+      "notReadyFor": [
+        "full-games",
+        "summative-exam"
+      ]
+    }
+  ]
+}

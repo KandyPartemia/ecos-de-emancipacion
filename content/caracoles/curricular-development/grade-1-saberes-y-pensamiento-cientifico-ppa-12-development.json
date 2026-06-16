@@ -1,0 +1,698 @@
+{
+  "grade": "1",
+  "gradeLabel": "Primer grado",
+  "field": "Saberes y Pensamiento Cientifico",
+  "bookVolume": "Tomo III",
+  "partialClassroomProject": "PPA 12",
+  "partialClassroomProjectTitle": "La sempiterna geometria!",
+  "generatedAt": "2026-06-01T13:51:04.147Z",
+  "notes": "Capa curricular aislada para 1o Saberes y Pensamiento Cientifico PPA 12.",
+  "sourcesUsed": [
+    "reports/caracoles/grade1-lenguajes-reading-teacher-hito-2-standard.md",
+    "content/caracoles/curricular-links/grade-1-project-source-links.json",
+    "content/caracoles/generated-private/grade-1/pages-index.full.json",
+    "Posibilidades de uso SyPC, primer grado, p. 29",
+    "Nuestro libro de proyectos Tomo III, primer grado, pp. 102-115",
+    "Saberes y Pensamiento Cientifico, pp. 14-26, 42-46, 52-57, 70-73 y 84-89"
+  ],
+  "partialClassroomProjectContext": {
+    "expectationHorizon": {
+      "officialText": "",
+      "sourcePages": [
+        "Nuestro libro de proyectos Tomo III pp. 102-115",
+        "Posibilidades de uso SyPC pp. 29-29"
+      ],
+      "evidence": "El PPA 12 articula rectas, angulos, circulos, esferas y calculo de distancias para mostrar que la geometria ayuda a explicar y representar situaciones del entorno.",
+      "status": "pending"
+    },
+    "ppaDetonatingStrategy": {
+      "title": "La sempiterna geometria!",
+      "type": "video",
+      "url": "",
+      "urlStatus": "pending-url",
+      "reference": "bit.ly/3VfglUk",
+      "source": "Nuestro libro de proyectos Tomo III pp. 102-115 + Posibilidades de uso SyPC pp. 29-29",
+      "scope": "partial-classroom-project",
+      "youtubeSearchQuery": "La sempiterna geometria! Saberes y Pensamiento Cientifico 1er grado Telesecundaria"
+    },
+    "ppaDigitalResource": {
+      "title": "Recurso informatico del bloque PPA 12",
+      "reference": "bit.ly/3WQBMwg",
+      "status": "pending-validation",
+      "source": "Nuestro libro de proyectos Tomo III, cierre del PPA 12"
+    },
+    "validationStatus": {
+      "needsHumanReview": true,
+      "needsReviewReasons": [
+        "La p. 29 de Posibilidades corresponde al mismo bloque del PPA 12.",
+        "No se localizaron apoyos de Multiples Lenguajes confirmados para este bloque.",
+        "El video del PPA y el recurso informatico siguen en cautela mediante enlaces cortos."
+      ]
+    },
+    "columnValidation": {
+      "possibilitiesPagesReviewed": [
+        29
+      ],
+      "confirmedAsPpa": true,
+      "note": "La p. 29 de Posibilidades pertenece al mismo PPA 12. Confirma orden de proyectos y productos, pero no deja apoyos de Multiples Lenguajes plenamente confirmados para el bloque.",
+      "columns": [
+        {
+          "columnIndex": 1,
+          "projectId": "saberes-y-pensamiento-cientifico-1-ppa-12-pa34",
+          "projectTitle": "El punto, las lineas y los angulos",
+          "finalProduct": "Fichas tematicas",
+          "supportMaterials": []
+        },
+        {
+          "columnIndex": 2,
+          "projectId": "saberes-y-pensamiento-cientifico-1-ppa-12-pa35",
+          "projectTitle": "Circulo, circunferencia y esfera, belleza y sencillez!",
+          "finalProduct": "Exposicion demostrativa",
+          "supportMaterials": []
+        },
+        {
+          "columnIndex": 3,
+          "projectId": "saberes-y-pensamiento-cientifico-1-ppa-12-pa36",
+          "projectTitle": "Hablar sobre las distancias",
+          "finalProduct": "Carteles ilustrados",
+          "supportMaterials": []
+        }
+      ]
+    }
+  },
+  "academicProjects": [
+    {
+      "id": "saberes-y-pensamiento-cientifico-1-ppa-12-pa34",
+      "projectId": "saberes-y-pensamiento-cientifico-1-ppa-12-pa34",
+      "academicProjectNumber": 34,
+      "title": "El punto, las lineas y los angulos",
+      "projectTitle": "El punto, las lineas y los angulos",
+      "grade": "1",
+      "field": "Saberes y Pensamiento Cientifico",
+      "ppaNumber": "12",
+      "partialClassroomProject": "PPA 12",
+      "partialClassroomProjectTitle": "La sempiterna geometria!",
+      "bookVolume": "Tomo III",
+      "sourceValidation": {
+        "sourceStatus": "linked",
+        "possibilitiesPages": [
+          29
+        ],
+        "possibilitiesMaterialId": "grade-1-posibilidades-pos-sypc-1",
+        "possibilitiesColumnIndex": 1,
+        "columnEvidence": "Bloque PPA 12 La sempiterna geometria! localizado en pp. 29-29; la columna 1 se confirma por el orden de proyectos, productos y continuidad del mismo bloque."
+      },
+      "finalProduct": {
+        "title": "Fichas tematicas",
+        "source": "Posibilidades de uso SyPC pp. 29-29 + Nuestro libro de proyectos Tomo III pp. 104-107",
+        "status": "confirmed"
+      },
+      "sourcePages": {
+        "nuestroLibroProyectos": [
+          {
+            "materialId": "grade-1-proyectos-nuestro-libro-de-proyectos-tomo-iii-primer-grado",
+            "label": "Nuestro libro de proyectos Tomo III",
+            "startPage": 104,
+            "endPage": 107,
+            "pagesLabel": "pp. 104-107",
+            "topicTitle": "Proyecto academico 34",
+            "status": "confirmed-source"
+          }
+        ],
+        "conceptBook": [
+          {
+            "materialId": "grade-1-conceptos-saberes-y-pensamiento-cientifico-primer-grado",
+            "label": "Saberes y Pensamiento Cientifico",
+            "startPage": 14,
+            "endPage": 22,
+            "pagesLabel": "pp. 14-22",
+            "topicTitle": "Angulos",
+            "status": "confirmed-source"
+          },
+          {
+            "materialId": "grade-1-conceptos-saberes-y-pensamiento-cientifico-primer-grado",
+            "label": "Saberes y Pensamiento Cientifico",
+            "startPage": 52,
+            "endPage": 57,
+            "pagesLabel": "pp. 52-57",
+            "topicTitle": "Figuras basicas",
+            "status": "confirmed-source"
+          }
+        ],
+        "multiplesLenguajes": [],
+        "otherMaterials": [
+          {
+            "label": "Video PPA 12: La sempiterna geometria!",
+            "reference": "bit.ly/3VfglUk",
+            "status": "pending-validation",
+            "youtubeSearchQuery": "La sempiterna geometria! Saberes y Pensamiento Cientifico 1er grado Telesecundaria"
+          }
+        ]
+      },
+      "supportMaterials": [],
+      "horizonOrPurpose": {
+        "status": "official",
+        "text": "Revisar informacion sobre rectas, angulos y su notacion para explicarla mediante fichas tematicas que incluyan ejemplos y formas de representacion cercanas al estudiantado.",
+        "source": "Nuestro libro de proyectos Tomo III p. 104"
+      },
+      "projectExpectationHorizon": {
+        "officialText": "Explicar rectas, angulos y su notacion con apoyo de fichas tematicas y ejemplos claros para la comunidad escolar.",
+        "studentVersion": "Comprender mejor como se nombran y representan las rectas y los angulos para poder explicarlos con claridad.",
+        "sourcePages": [
+          "Nuestro libro de proyectos Tomo III p. 105"
+        ],
+        "evidence": "La etapa 1, la etapa 3 o los objetivos del proyecto permiten fijar un horizonte de expectativas util para la lectura docente del PA.",
+        "status": "confirmed-from-project-book"
+      },
+      "detonatingStrategy": {
+        "status": "pending-url",
+        "text": "Video PPA 12: La sempiterna geometria!",
+        "reference": "bit.ly/3VfglUk",
+        "source": "Nuestro libro de proyectos Tomo III pp. 104-107"
+      },
+      "academicProjectStrategy": {
+        "title": "Fichas tematicas",
+        "text": "Sintetizar informacion y ejemplos sobre rectas y angulos en un soporte breve que facilite su consulta y explicacion.",
+        "type": "thematic-cards",
+        "status": "confirmed-from-project-book",
+        "source": "Nuestro libro de proyectos Tomo III pp. 104-107"
+      },
+      "academicConcepts": [
+        {
+          "concept": "fichas tematicas",
+          "description": "Tarjetas breves que organizan un concepto, su ejemplo y sus rasgos principales.",
+          "sourceBook": "Nuestro libro de proyectos Tomo III",
+          "sourcePages": [
+            104,
+            105,
+            106,
+            107
+          ],
+          "sourcePagesLabel": "pp. 104-107",
+          "topicTitle": "Proyecto academico 34",
+          "status": "confirmed",
+          "reason": "Posibilidades y el proyecto fijan las fichas tematicas como producto final del PA 34.",
+          "pedagogicalUse": "Ayudan a explicar conceptos geometricos sin perder precision ni claridad.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "rectas",
+          "description": "Trazos que se extienden en una misma direccion y sirven para representar alineaciones y recorridos.",
+          "sourceBook": "Nuestro libro de proyectos Tomo III",
+          "sourcePages": [
+            104,
+            105
+          ],
+          "sourcePagesLabel": "pp. 104-105",
+          "topicTitle": "Proyecto academico 34",
+          "status": "confirmed",
+          "reason": "La etapa 1 del proyecto pide revisarlas y explicarlas junto con su notacion.",
+          "pedagogicalUse": "Sirven como base para leer formas y trayectorias en objetos del entorno.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "angulos",
+          "description": "Aberturas formadas por dos segmentos o rectas que comparten un mismo origen.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            14,
+            22
+          ],
+          "sourcePagesLabel": "pp. 14-22",
+          "topicTitle": "Angulos",
+          "status": "confirmed",
+          "reason": "Posibilidades y la etapa 1 del proyecto los ubican como contenido principal del PA 34.",
+          "pedagogicalUse": "Permiten reconocer posiciones, giros y relaciones espaciales con lenguaje matematico.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "notacion de rectas y angulos",
+          "description": "Formas convencionales de nombrar rectas, puntos y angulos para comunicar una figura con claridad.",
+          "sourceBook": "Nuestro libro de proyectos Tomo III",
+          "sourcePages": [
+            104,
+            105
+          ],
+          "sourcePagesLabel": "pp. 104-105",
+          "topicTitle": "Proyecto academico 34",
+          "status": "confirmed",
+          "reason": "El proyecto pide explicar no solo las figuras, sino tambien la manera de nombrarlas y representarlas.",
+          "pedagogicalUse": "Ayuda a que el estudiantado pase de mirar figuras a comunicar con precision lo que observa.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "tipos de angulos",
+          "description": "Clasificaciones que distinguen angulos por su abertura y ayudan a compararlos.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            21,
+            22
+          ],
+          "sourcePagesLabel": "pp. 21-22",
+          "topicTitle": "Angulos",
+          "status": "confirmed",
+          "reason": "El libro del campo desarrolla sus tipos dentro del tramo que Posibilidades asigna a este proyecto.",
+          "pedagogicalUse": "Permite afinar comparaciones y ejemplos dentro de las fichas tematicas.",
+          "activityReadiness": "usable-for-autoevaluation"
+        }
+      ],
+      "thinkingCriteria": [
+        "Explicar con ejemplos concretos y no solo con definiciones aisladas.",
+        "Usar la notacion para comunicar mejor la figura y no solo para decorar la ficha."
+      ],
+      "pedagogicalUse": "Las fichas funcionan mejor cuando cada una combina dibujo, nombre, notacion y un ejemplo cercano al territorio escolar.",
+      "communityQuestion": "En que objetos o espacios de la comunidad aparecen rectas y angulos que podamos explicar con nuestras fichas?",
+      "notesForTeacher": {
+        "status": "teacher-orientation",
+        "teacherUse": "Las fichas funcionan mejor cuando cada una combina dibujo, nombre, notacion y un ejemplo cercano al territorio escolar.",
+        "caution": [
+          "El video del PPA 12 y el recurso informatico siguen pendientes de validacion de destino final.",
+          "No se localizaron apoyos de Multiples Lenguajes plenamente confirmados para este proyecto."
+        ]
+      },
+      "readinessLevel": "development-partial",
+      "readyForActivities": false,
+      "needsReviewReasons": [
+        "No mover a actividades interactivas ni desbloquear juegos completos."
+      ]
+    },
+    {
+      "id": "saberes-y-pensamiento-cientifico-1-ppa-12-pa35",
+      "projectId": "saberes-y-pensamiento-cientifico-1-ppa-12-pa35",
+      "academicProjectNumber": 35,
+      "title": "Circulo, circunferencia y esfera, belleza y sencillez!",
+      "projectTitle": "Circulo, circunferencia y esfera, belleza y sencillez!",
+      "grade": "1",
+      "field": "Saberes y Pensamiento Cientifico",
+      "ppaNumber": "12",
+      "partialClassroomProject": "PPA 12",
+      "partialClassroomProjectTitle": "La sempiterna geometria!",
+      "bookVolume": "Tomo III",
+      "sourceValidation": {
+        "sourceStatus": "linked",
+        "possibilitiesPages": [
+          29
+        ],
+        "possibilitiesMaterialId": "grade-1-posibilidades-pos-sypc-1",
+        "possibilitiesColumnIndex": 2,
+        "columnEvidence": "Bloque PPA 12 La sempiterna geometria! localizado en pp. 29-29; la columna 2 se confirma por el orden de proyectos, productos y continuidad del mismo bloque."
+      },
+      "finalProduct": {
+        "title": "Exposicion demostrativa",
+        "source": "Posibilidades de uso SyPC pp. 29-29 + Nuestro libro de proyectos Tomo III pp. 108-111",
+        "status": "confirmed"
+      },
+      "sourcePages": {
+        "nuestroLibroProyectos": [
+          {
+            "materialId": "grade-1-proyectos-nuestro-libro-de-proyectos-tomo-iii-primer-grado",
+            "label": "Nuestro libro de proyectos Tomo III",
+            "startPage": 108,
+            "endPage": 111,
+            "pagesLabel": "pp. 108-111",
+            "topicTitle": "Proyecto academico 35",
+            "status": "confirmed-source"
+          }
+        ],
+        "conceptBook": [
+          {
+            "materialId": "grade-1-conceptos-saberes-y-pensamiento-cientifico-primer-grado",
+            "label": "Saberes y Pensamiento Cientifico",
+            "startPage": 23,
+            "endPage": 26,
+            "pagesLabel": "pp. 23-26",
+            "topicTitle": "Circunferencia",
+            "status": "confirmed-source"
+          },
+          {
+            "materialId": "grade-1-conceptos-saberes-y-pensamiento-cientifico-primer-grado",
+            "label": "Saberes y Pensamiento Cientifico",
+            "startPage": 42,
+            "endPage": 46,
+            "pagesLabel": "pp. 42-46",
+            "topicTitle": "El circulo",
+            "status": "confirmed-source"
+          }
+        ],
+        "multiplesLenguajes": [],
+        "otherMaterials": [
+          {
+            "label": "Video PPA 12: La sempiterna geometria!",
+            "reference": "bit.ly/3VfglUk",
+            "status": "pending-validation",
+            "youtubeSearchQuery": "La sempiterna geometria! Saberes y Pensamiento Cientifico 1er grado Telesecundaria"
+          }
+        ]
+      },
+      "supportMaterials": [],
+      "horizonOrPurpose": {
+        "status": "official",
+        "text": "Buscar informacion sobre la circunferencia, el circulo y la esfera para mostrar, en una exposicion demostrativa, el trazo de rectas notables y las relaciones que existen entre estas figuras.",
+        "source": "Nuestro libro de proyectos Tomo III p. 108"
+      },
+      "projectExpectationHorizon": {
+        "officialText": "Explicar con una exposicion demostrativa las relaciones entre circunferencia, circulo, esfera y rectas notables.",
+        "studentVersion": "Comprender que circulo, circunferencia y esfera se parecen, pero no significan lo mismo, y aprender a mostrarlos con ejemplos claros.",
+        "sourcePages": [
+          "Nuestro libro de proyectos Tomo III p. 109"
+        ],
+        "evidence": "La etapa 1, la etapa 3 o los objetivos del proyecto permiten fijar un horizonte de expectativas util para la lectura docente del PA.",
+        "status": "confirmed-from-project-book"
+      },
+      "detonatingStrategy": {
+        "status": "pending-url",
+        "text": "Video PPA 12: La sempiterna geometria!",
+        "reference": "bit.ly/3VfglUk",
+        "source": "Nuestro libro de proyectos Tomo III pp. 108-111"
+      },
+      "academicProjectStrategy": {
+        "title": "Exposicion demostrativa",
+        "text": "Usar trazos, ejemplos y comparaciones para explicar visualmente las relaciones entre circunferencia, circulo y esfera.",
+        "type": "demonstration",
+        "status": "confirmed-from-project-book",
+        "source": "Nuestro libro de proyectos Tomo III pp. 108-111"
+      },
+      "academicConcepts": [
+        {
+          "concept": "exposicion demostrativa",
+          "description": "Presentacion en la que se muestran procedimientos, trazos y ejemplos para explicar un tema.",
+          "sourceBook": "Nuestro libro de proyectos Tomo III",
+          "sourcePages": [
+            108,
+            109,
+            110,
+            111
+          ],
+          "sourcePagesLabel": "pp. 108-111",
+          "topicTitle": "Proyecto academico 35",
+          "status": "confirmed",
+          "reason": "Posibilidades y el proyecto la fijan como producto final del PA 35.",
+          "pedagogicalUse": "Permite que la explicacion geometrica ocurra a la vista del grupo y no solo en forma escrita.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "circunferencia",
+          "description": "Linea curva cerrada cuyos puntos estan a la misma distancia del centro.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            23,
+            26
+          ],
+          "sourcePagesLabel": "pp. 23-26",
+          "topicTitle": "Circunferencia",
+          "status": "confirmed",
+          "reason": "Posibilidades la fija de manera directa dentro del contenido de este proyecto.",
+          "pedagogicalUse": "Ayuda a distinguir el contorno de la figura y a evitar confusiones con el circulo.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "circulo",
+          "description": "Region plana comprendida dentro de una circunferencia.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            42,
+            46
+          ],
+          "sourcePagesLabel": "pp. 42-46",
+          "topicTitle": "El circulo",
+          "status": "confirmed",
+          "reason": "El titulo del proyecto lo coloca como concepto central y el libro del campo lo desarrolla.",
+          "pedagogicalUse": "Permite comparar superficie y contorno con mayor precision.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "esfera",
+          "description": "Cuerpo geometrico redondo cuya superficie esta a la misma distancia de un punto central.",
+          "sourceBook": "Nuestro libro de proyectos Tomo III",
+          "sourcePages": [
+            108,
+            109
+          ],
+          "sourcePagesLabel": "pp. 108-109",
+          "topicTitle": "Proyecto academico 35",
+          "status": "confirmed",
+          "reason": "La etapa 1 del proyecto la presenta junto con la circunferencia y el circulo como parte del trio a explicar.",
+          "pedagogicalUse": "Ayuda a pasar de figuras planas a cuerpos geometricos cotidianos.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "radio y diametro",
+          "description": "Segmentos notables que ayudan a describir y trazar una circunferencia con precision.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            24,
+            25
+          ],
+          "sourcePagesLabel": "pp. 24-25",
+          "topicTitle": "Circunferencia",
+          "status": "confirmed",
+          "reason": "El libro del campo los desarrolla dentro del bloque de circunferencia y son necesarios para la exposicion.",
+          "pedagogicalUse": "Permiten pasar de la observacion general al trazo razonado de la figura.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "cuerda, secante y tangente",
+          "description": "Rectas o segmentos que se relacionan de distintas maneras con una circunferencia.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            25,
+            26
+          ],
+          "sourcePagesLabel": "pp. 25-26",
+          "topicTitle": "Circunferencia",
+          "status": "confirmed",
+          "reason": "Las paginas confirmadas del libro del campo las incluyen como parte del trazo de rectas notables.",
+          "pedagogicalUse": "Enriquecen la demostracion y ayudan a comparar diferentes relaciones geometricas.",
+          "activityReadiness": "usable-for-autoevaluation"
+        }
+      ],
+      "thinkingCriteria": [
+        "Distinguir con claridad entre circunferencia, circulo y esfera.",
+        "Usar el trazo para argumentar relaciones geometricas y no solo para mostrar dibujos bonitos."
+      ],
+      "pedagogicalUse": "La exposicion gana claridad cuando el grupo traza en vivo y compara objetos cotidianos con las figuras estudiadas.",
+      "communityQuestion": "Que objetos de la vida diaria nos ayudan a entender mejor la diferencia entre circunferencia, circulo y esfera?",
+      "notesForTeacher": {
+        "status": "teacher-orientation",
+        "teacherUse": "La exposicion gana claridad cuando el grupo traza en vivo y compara objetos cotidianos con las figuras estudiadas.",
+        "caution": [
+          "El video del PPA 12 y el recurso informatico siguen pendientes de validacion de destino final.",
+          "No se localizaron apoyos de Multiples Lenguajes plenamente confirmados para este proyecto."
+        ]
+      },
+      "readinessLevel": "development-partial",
+      "readyForActivities": false,
+      "needsReviewReasons": [
+        "No mover a actividades interactivas ni desbloquear juegos completos."
+      ]
+    },
+    {
+      "id": "saberes-y-pensamiento-cientifico-1-ppa-12-pa36",
+      "projectId": "saberes-y-pensamiento-cientifico-1-ppa-12-pa36",
+      "academicProjectNumber": 36,
+      "title": "Hablar sobre las distancias",
+      "projectTitle": "Hablar sobre las distancias",
+      "grade": "1",
+      "field": "Saberes y Pensamiento Cientifico",
+      "ppaNumber": "12",
+      "partialClassroomProject": "PPA 12",
+      "partialClassroomProjectTitle": "La sempiterna geometria!",
+      "bookVolume": "Tomo III",
+      "sourceValidation": {
+        "sourceStatus": "linked",
+        "possibilitiesPages": [
+          29
+        ],
+        "possibilitiesMaterialId": "grade-1-posibilidades-pos-sypc-1",
+        "possibilitiesColumnIndex": 3,
+        "columnEvidence": "Bloque PPA 12 La sempiterna geometria! localizado en pp. 29-29; la columna 3 se confirma por el orden de proyectos, productos y continuidad del mismo bloque."
+      },
+      "finalProduct": {
+        "title": "Carteles ilustrados",
+        "source": "Posibilidades de uso SyPC pp. 29-29 + Nuestro libro de proyectos Tomo III pp. 112-115",
+        "status": "confirmed"
+      },
+      "sourcePages": {
+        "nuestroLibroProyectos": [
+          {
+            "materialId": "grade-1-proyectos-nuestro-libro-de-proyectos-tomo-iii-primer-grado",
+            "label": "Nuestro libro de proyectos Tomo III",
+            "startPage": 112,
+            "endPage": 115,
+            "pagesLabel": "pp. 112-115",
+            "topicTitle": "Proyecto academico 36",
+            "status": "confirmed-source"
+          }
+        ],
+        "conceptBook": [
+          {
+            "materialId": "grade-1-conceptos-saberes-y-pensamiento-cientifico-primer-grado",
+            "label": "Saberes y Pensamiento Cientifico",
+            "startPage": 70,
+            "endPage": 73,
+            "pagesLabel": "pp. 70-73",
+            "topicTitle": "Introduccion a la medicion y el calculo",
+            "status": "confirmed-source"
+          },
+          {
+            "materialId": "grade-1-conceptos-saberes-y-pensamiento-cientifico-primer-grado",
+            "label": "Saberes y Pensamiento Cientifico",
+            "startPage": 84,
+            "endPage": 89,
+            "pagesLabel": "pp. 84-89",
+            "topicTitle": "Medicion y calculo",
+            "status": "confirmed-source"
+          }
+        ],
+        "multiplesLenguajes": [],
+        "otherMaterials": [
+          {
+            "label": "Video PPA 12: La sempiterna geometria!",
+            "reference": "bit.ly/3VfglUk",
+            "status": "pending-validation",
+            "youtubeSearchQuery": "La sempiterna geometria! Saberes y Pensamiento Cientifico 1er grado Telesecundaria"
+          }
+        ]
+      },
+      "supportMaterials": [],
+      "horizonOrPurpose": {
+        "status": "official",
+        "text": "Localizar informacion para que, mediante carteles ilustrados, se muestre como calcular la distancia de un punto a una recta y la distancia entre dos rectas paralelas.",
+        "source": "Nuestro libro de proyectos Tomo III p. 112"
+      },
+      "projectExpectationHorizon": {
+        "officialText": "Explicar en carteles ilustrados como se calculan ciertas distancias geometricas y para que sirven esas mediciones.",
+        "studentVersion": "Comprender como se mide una distancia geometrica y poder explicarla con ejemplos claros.",
+        "sourcePages": [
+          "Nuestro libro de proyectos Tomo III p. 113"
+        ],
+        "evidence": "La etapa 1, la etapa 3 o los objetivos del proyecto permiten fijar un horizonte de expectativas util para la lectura docente del PA.",
+        "status": "confirmed-from-project-book"
+      },
+      "detonatingStrategy": {
+        "status": "pending-url",
+        "text": "Video PPA 12: La sempiterna geometria!",
+        "reference": "bit.ly/3VfglUk",
+        "source": "Nuestro libro de proyectos Tomo III pp. 112-115"
+      },
+      "academicProjectStrategy": {
+        "title": "Carteles ilustrados",
+        "text": "Organizar dibujos, pasos y ejemplos para mostrar como se calculan distancias geometricas relevantes.",
+        "type": "illustrated-posters",
+        "status": "confirmed-from-project-book",
+        "source": "Nuestro libro de proyectos Tomo III pp. 112-115"
+      },
+      "academicConcepts": [
+        {
+          "concept": "carteles ilustrados",
+          "description": "Soportes visuales que combinan explicaciones breves, dibujos y pasos para comunicar una idea.",
+          "sourceBook": "Nuestro libro de proyectos Tomo III",
+          "sourcePages": [
+            112,
+            113,
+            114,
+            115
+          ],
+          "sourcePagesLabel": "pp. 112-115",
+          "topicTitle": "Proyecto academico 36",
+          "status": "confirmed",
+          "reason": "Posibilidades y el proyecto fijan los carteles ilustrados como producto final del PA 36.",
+          "pedagogicalUse": "Facilitan que un procedimiento de medicion se vuelva visible y compartible.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "longitud y segmento",
+          "description": "Ideas basicas para medir trayectos rectos y representar distancias en una figura.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            71,
+            72
+          ],
+          "sourcePagesLabel": "pp. 71-72",
+          "topicTitle": "Introduccion a la medicion y el calculo",
+          "status": "confirmed",
+          "reason": "Las paginas del libro del campo preparan el sentido de la medicion requerido por el proyecto.",
+          "pedagogicalUse": "Ayudan a que la distancia no se vea como dato aislado, sino como magnitud representable.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "distancia entre dos puntos",
+          "description": "Medida del tramo recto que separa dos puntos en una representacion.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            73
+          ],
+          "sourcePagesLabel": "p. 73",
+          "topicTitle": "Introduccion a la medicion y el calculo",
+          "status": "confirmed",
+          "reason": "El libro del campo la desarrolla como base conceptual para el trabajo de distancias del proyecto.",
+          "pedagogicalUse": "Da un punto de partida claro antes de pasar a relaciones con rectas.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "distancia de un punto a una recta",
+          "description": "Medida mas corta entre un punto y una recta, usada para explicar separaciones geometricas.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            86,
+            87
+          ],
+          "sourcePagesLabel": "pp. 86-87",
+          "topicTitle": "Medicion y calculo",
+          "status": "confirmed",
+          "reason": "Es uno de los calculos explicitamente pedidos por la etapa 1 del proyecto.",
+          "pedagogicalUse": "Ayuda a convertir la medicion en una relacion espacial comprensible.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "rectas paralelas",
+          "description": "Rectas que mantienen la misma separacion y no se cruzan por mas que se prolonguen.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            85
+          ],
+          "sourcePagesLabel": "p. 85",
+          "topicTitle": "Medicion y calculo",
+          "status": "confirmed",
+          "reason": "El libro del campo la fija antes de desarrollar la distancia entre rectas paralelas.",
+          "pedagogicalUse": "Da el contexto geometrico necesario para interpretar la distancia pedida.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "distancia entre rectas paralelas",
+          "description": "Separacion constante entre dos rectas paralelas, expresada como una medida.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            88,
+            89
+          ],
+          "sourcePagesLabel": "pp. 88-89",
+          "topicTitle": "Medicion y calculo",
+          "status": "confirmed",
+          "reason": "La etapa 1 del proyecto la pide de forma explicita y el libro del campo la desarrolla con claridad.",
+          "pedagogicalUse": "Permite vincular calculo y representacion con problemas de espacio cotidiano.",
+          "activityReadiness": "usable-for-autoevaluation"
+        }
+      ],
+      "thinkingCriteria": [
+        "Explicar por que una distancia se mide de cierta manera y no solo presentar el resultado.",
+        "Relacionar la medicion geometrica con ejemplos del entorno cercano."
+      ],
+      "pedagogicalUse": "Los carteles funcionan mejor cuando cada procedimiento incluye dibujo, paso y ejemplo del espacio escolar o comunitario.",
+      "communityQuestion": "En que situaciones de la escuela o de la comunidad necesitamos hablar con precision sobre distancias y separaciones?",
+      "notesForTeacher": {
+        "status": "teacher-orientation",
+        "teacherUse": "Los carteles funcionan mejor cuando cada procedimiento incluye dibujo, paso y ejemplo del espacio escolar o comunitario.",
+        "caution": [
+          "El video del PPA 12 y el recurso informatico siguen pendientes de validacion de destino final.",
+          "No se localizaron apoyos de Multiples Lenguajes plenamente confirmados para este proyecto."
+        ]
+      },
+      "readinessLevel": "development-partial",
+      "readyForActivities": false,
+      "needsReviewReasons": [
+        "No mover a actividades interactivas ni desbloquear juegos completos."
+      ]
+    }
+  ]
+}

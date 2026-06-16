@@ -1,0 +1,736 @@
+{
+  "grade": "2",
+  "gradeLabel": "Segundo grado",
+  "field": "Etica, Naturaleza y Sociedades",
+  "bookVolume": "Tomo II",
+  "partialClassroomProject": "PPA 5",
+  "partialClassroomProjectTitle": "Al conocer el pasado entiendo mi presente",
+  "generatedAt": "2026-06-02T19:34:55.623Z",
+  "notes": "Capa curricular generada por lote para 2o Etica, Naturaleza y Sociedades, PPA 5.",
+  "sourcesUsed": [
+    "public/caracoles/data/generated/grade-2/selectable-projects.json",
+    "content/caracoles/generated-private/grade-2/pages-index.full.json",
+    "Posibilidades de uso ENS, segundo grado, pp. 14-15",
+    "Nuestro libro de proyectos Tomo II, segundo grado, pp. 157-171",
+    "Etica, Naturaleza y Sociedades, segundo grado, pp. 84-90, 259-282; Multiples Lenguajes pp. 54-61."
+  ],
+  "partialClassroomProjectContext": {
+    "expectationHorizon": {
+      "officialText": "",
+      "sourcePages": [
+        "Nuestro libro de proyectos Tomo II pp. 157-158",
+        "Posibilidades de uso ENS pp. 14-15"
+      ],
+      "evidence": "El PPA 5 pone en relacion proyectos de nacion, conflictos politicos e iniciativas por la paz para ayudar a leer el presente desde el pasado.",
+      "status": "pending"
+    },
+    "ppaDetonatingStrategy": {
+      "title": "Al conocer el pasado entiendo mi presente",
+      "type": "video",
+      "url": "",
+      "urlStatus": "pending-url",
+      "reference": "bit.ly/3VfglUk",
+      "source": "Nuestro libro de proyectos Tomo II pp. 157-158 + Posibilidades de uso ENS pp. 14-15",
+      "scope": "partial-classroom-project",
+      "youtubeSearchQuery": "Al conocer el pasado entiendo mi presente Etica, Naturaleza y Sociedades 2do grado Telesecundaria"
+    },
+    "ppaDigitalResource": {
+      "title": "Recurso informatico del bloque PPA 5",
+      "reference": "bit.ly/3WQBMwg",
+      "status": "pending-validation",
+      "source": "Nuestro libro de proyectos Tomo II pp. 157-171"
+    },
+    "validationStatus": {
+      "needsHumanReview": true,
+      "needsReviewReasons": [
+        "Las pp. 14-15 de Posibilidades pertenecen al mismo PPA 5.",
+        "La asignacion de apoyos por columna se fija por inferencia curricular documentada de izquierda a derecha.",
+        "Los enlaces cortos del video del PPA y del recurso informatico se mantienen en cautela hasta localizar un destino oficial confirmado."
+      ]
+    },
+    "columnValidation": {
+      "possibilitiesPagesReviewed": [
+        14,
+        15
+      ],
+      "confirmedAsPpa": true,
+      "note": "Las pp. 14-15 corresponden al PPA 5 Al conocer el pasado entiendo mi presente. Las tres columnas se sostienen por el orden de proyectos, productos y apoyos del mismo bloque.",
+      "columns": [
+        {
+          "columnIndex": 1,
+          "projectId": "etica-naturaleza-y-sociedades-2-ppa-5-pa13",
+          "projectTitle": "Dos proyectos de nación",
+          "finalProduct": "Debate crítico",
+          "supportMaterials": []
+        },
+        {
+          "columnIndex": 2,
+          "projectId": "etica-naturaleza-y-sociedades-2-ppa-5-pa14",
+          "projectTitle": "¡Lucha contra los invasores!",
+          "finalProduct": "Nota periodística",
+          "supportMaterials": []
+        },
+        {
+          "columnIndex": 3,
+          "projectId": "etica-naturaleza-y-sociedades-2-ppa-5-pa15",
+          "projectTitle": "Principales organizaciones por la paz",
+          "finalProduct": "Carteles informativos",
+          "supportMaterials": [
+            "Un poeta con alas de pintor, pp. 54-61"
+          ]
+        }
+      ]
+    }
+  },
+  "academicProjects": [
+    {
+      "id": "etica-naturaleza-y-sociedades-2-ppa-5-pa13",
+      "projectId": "etica-naturaleza-y-sociedades-2-ppa-5-pa13",
+      "academicProjectNumber": 13,
+      "title": "Dos proyectos de nación",
+      "projectTitle": "Dos proyectos de nación",
+      "grade": "2",
+      "field": "Etica, Naturaleza y Sociedades",
+      "ppaNumber": "5",
+      "partialClassroomProject": "PPA 5",
+      "partialClassroomProjectTitle": "Al conocer el pasado entiendo mi presente",
+      "bookVolume": "Tomo II",
+      "sourceValidation": {
+        "sourceStatus": "linked",
+        "possibilitiesPages": [
+          14,
+          15
+        ],
+        "possibilitiesMaterialId": "grade-2-posibilidades-pos-ens-2",
+        "possibilitiesColumnIndex": 1,
+        "columnEvidence": "Bloque PPA 5 Al conocer el pasado entiendo mi presente localizado en pp. 14-15; la columna 1 se confirma por el orden de proyectos, productos y continuidad del mismo bloque."
+      },
+      "finalProduct": {
+        "title": "Debate crítico",
+        "source": "Posibilidades de uso ENS pp. 14-15 + Nuestro libro de proyectos Tomo II pp. 159-162",
+        "status": "confirmed"
+      },
+      "sourcePages": {
+        "nuestroLibroProyectos": [
+          {
+            "materialId": "grade-2-proyectos-nuestro-libro-de-proyectos-tomo-2-segundo-grado",
+            "label": "Nuestro libro de proyectos Tomo II",
+            "startPage": 159,
+            "endPage": 162,
+            "pagesLabel": "pp. 159-162",
+            "topicTitle": "Proyecto academico 13",
+            "status": "confirmed-source"
+          }
+        ],
+        "conceptBook": [
+          {
+            "materialId": "grade-2-conceptos-etica-naturaleza-y-sociedades-segundo-grado",
+            "label": "Etica, Naturaleza y Sociedades",
+            "startPage": 84,
+            "endPage": 90,
+            "pagesLabel": "pp. 84-90",
+            "topicTitle": "Rumbo a la construccion de un Estado",
+            "status": "confirmed-by-column-inference"
+          }
+        ],
+        "multiplesLenguajes": [],
+        "otherMaterials": [
+          {
+            "label": "Video PPA 5: Al conocer el pasado entiendo mi presente",
+            "reference": "bit.ly/3VfglUk",
+            "status": "pending-validation"
+          }
+        ]
+      },
+      "supportMaterials": [],
+      "horizonOrPurpose": {
+        "status": "confirmed-from-project-book",
+        "text": "Investigar cómo se lleva a cabo un debate crítico; luego, mediante éste, conocer las diferencias entre federalistas y centralistas, y que también sirva para identificar lo que significó el establecimiento de una República federalista y una República centralista.",
+        "source": "Visión — Horizonte 2 (p. 160)"
+      },
+      "projectExpectationHorizon": {
+        "officialText": "Investigar cómo se lleva a cabo un debate crítico; luego, mediante éste, conocer las diferencias entre federalistas y centralistas, y que también sirva para identificar lo que significó el establecimiento de una República federalista y una República centralista.",
+        "studentVersion": "Investigar cómo se lleva a cabo un debate crítico; luego, mediante éste, conocer las diferencias entre federalistas y centralistas, y que también sirva para identificar lo que significó el establecimiento de una República federalista y una República centralista.",
+        "horizon1Raw": "Conocer las ideas que plantearon los federalistas y los centralistas durante la primera mitad del siglo XIX, con el fin de identificar los elementos del pensamiento liberal y del conservador. Además, investigar cómo se lleva a cabo un debate crítico.",
+        "horizon2Raw": "Investigar cómo se lleva a cabo un debate crítico; luego, mediante éste, conocer las diferencias entre federalistas y centralistas, y que también sirva para identificar lo que significó el establecimiento de una República federalista y una República centralista.",
+        "sourcePages": [
+          "Visión — Horizonte 2 (p. 160)"
+        ],
+        "evidence": "Extraído por visión de imagen de la página 160 del libro de proyectos. Confianza: alta.",
+        "status": "confirmed-from-project-book",
+        "extractedAt": "2026-06-16T05:10:09.145Z"
+      },
+      "detonatingStrategy": {
+        "status": "pending-url",
+        "text": "Video PPA 5: Al conocer el pasado entiendo mi presente",
+        "reference": "bit.ly/3VfglUk",
+        "source": "Nuestro libro de proyectos Tomo II pp. 157-158 + Posibilidades de uso ENS pp. 14-15"
+      },
+      "academicProjectStrategy": {
+        "title": "Debate crítico",
+        "text": "Organizar debate crítico para profundizar en los proyectos centralista y federalista en la construccion del Estado mexicano y compartir hallazgos de manera clara con el grupo.",
+        "type": "project-product",
+        "status": "confirmed-from-project-book",
+        "source": "Nuestro libro de proyectos Tomo II pp. 159-162"
+      },
+      "academicConcepts": [
+        {
+          "concept": "debate crítico",
+          "description": "Debate crítico como producto de cierre para organizar y comunicar aprendizajes del proyecto.",
+          "sourceBook": "Nuestro libro de proyectos Tomo II",
+          "sourcePages": [
+            159,
+            162
+          ],
+          "sourcePagesLabel": "pp. 159-162",
+          "topicTitle": "Proyecto academico 13",
+          "status": "confirmed",
+          "reason": "Posibilidades y el propio proyecto fijan Debate crítico como producto final del PA 13.",
+          "pedagogicalUse": "Da una forma concreta de socializar lo comprendido sobre los proyectos centralista y federalista en la construccion del Estado mexicano.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "centralismo",
+          "description": "Centralismo es una idea clave para comprender los proyectos centralista y federalista en la construccion del Estado mexicano.",
+          "sourceBook": "Etica, Naturaleza y Sociedades",
+          "sourcePages": [
+            84,
+            90
+          ],
+          "sourcePagesLabel": "pp. 84-90",
+          "topicTitle": "Rumbo a la construccion de un Estado",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Rumbo a la construccion de un Estado\" aporta base suficiente para trabajar centralismo dentro del proyecto 13.",
+          "pedagogicalUse": "Ayuda a fortalecer debate crítico y a explicar los proyectos centralista y federalista en la construccion del Estado mexicano con mayor claridad mediante centralismo.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "federalismo",
+          "description": "Federalismo es una idea clave para comprender los proyectos centralista y federalista en la construccion del Estado mexicano.",
+          "sourceBook": "Etica, Naturaleza y Sociedades",
+          "sourcePages": [
+            84,
+            90
+          ],
+          "sourcePagesLabel": "pp. 84-90",
+          "topicTitle": "Rumbo a la construccion de un Estado",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Rumbo a la construccion de un Estado\" aporta base suficiente para trabajar federalismo dentro del proyecto 13.",
+          "pedagogicalUse": "Ayuda a fortalecer debate crítico y a explicar los proyectos centralista y federalista en la construccion del Estado mexicano con mayor claridad mediante federalismo.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "primeros gobiernos",
+          "description": "Primeros gobiernos es una idea clave para comprender los proyectos centralista y federalista en la construccion del Estado mexicano.",
+          "sourceBook": "Etica, Naturaleza y Sociedades",
+          "sourcePages": [
+            84,
+            90
+          ],
+          "sourcePagesLabel": "pp. 84-90",
+          "topicTitle": "Rumbo a la construccion de un Estado",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Rumbo a la construccion de un Estado\" aporta base suficiente para trabajar primeros gobiernos dentro del proyecto 13.",
+          "pedagogicalUse": "Ayuda a fortalecer debate crítico y a explicar los proyectos centralista y federalista en la construccion del Estado mexicano con mayor claridad mediante primeros gobiernos.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Estado mexicano",
+          "description": "Estado mexicano es una idea clave para comprender los proyectos centralista y federalista en la construccion del Estado mexicano.",
+          "sourceBook": "Etica, Naturaleza y Sociedades",
+          "sourcePages": [
+            84,
+            90
+          ],
+          "sourcePagesLabel": "pp. 84-90",
+          "topicTitle": "Rumbo a la construccion de un Estado",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Rumbo a la construccion de un Estado\" aporta base suficiente para trabajar Estado mexicano dentro del proyecto 13.",
+          "pedagogicalUse": "Ayuda a fortalecer debate crítico y a explicar los proyectos centralista y federalista en la construccion del Estado mexicano con mayor claridad mediante Estado mexicano.",
+          "activityReadiness": "usable-for-autoevaluation"
+        }
+      ],
+      "thinkingCriteria": [
+        "Relacionar los proyectos centralista y federalista en la construccion del Estado mexicano con situaciones cercanas a la comunidad.",
+        "Usar debate crítico para explicar y no solo para recopilar informacion.",
+        "Distinguir entre mencionar conceptos y comprender como dialogan entre si dentro del proyecto."
+      ],
+      "validationStatus": {
+        "readinessLevel": "development-partial",
+        "readyForActivities": false,
+        "needsReviewReasons": [
+          "El bloque 5 ya es usable como lectura docente, pero el video del PPA 5 y el recurso informatico siguen pendientes de validacion de destino final.",
+          "La asignacion de apoyos de Posibilidades se sostiene por inferencia curricular documentada y no por OCR perfectamente separado por columnas.",
+          "No mover a actividades interactivas ni desbloquear juegos completos hasta ampliar validacion de videos y recursos complementarios."
+        ]
+      },
+      "readinessLevel": "development-partial",
+      "readyForActivities": false,
+      "needsReviewReasons": [
+        "No mover a actividades interactivas ni desbloquear juegos completos."
+      ],
+      "roleInPpa": "Abre el bloque al contraponer dos proyectos de nacion y sus implicaciones politicas.",
+      "pedagogicalUse": "Conviene trabajar Dos proyectos de nación como una oportunidad para profundizar en los proyectos centralista y federalista en la construccion del Estado mexicano sin separar contenido, comunidad y producto final.",
+      "teacherNotes": [
+        "Conviene partir de ejemplos cercanos y después pasar al lenguaje mas abstracto del campo.",
+        "El producto Debate crítico gana fuerza cuando se usa para explicar y no solo para exhibir informacion.",
+        "Es mejor seleccionar pocos conceptos bien comprendidos que saturar el trabajo con terminos aislados."
+      ],
+      "resonancePrompts": [
+        {
+          "type": "individual",
+          "prompt": "¿Qué comprendes mejor sobre los proyectos centralista y federalista en la construccion del Estado mexicano después de elaborar debate crítico?"
+        },
+        {
+          "type": "community",
+          "prompt": "¿Qué diálogos comunitarios podrían fortalecerse si compartimos debate crítico y lo ponemos en conversación con otras personas?"
+        }
+      ],
+      "notReadyFor": [
+        "full-games",
+        "summative-exam"
+      ]
+    },
+    {
+      "id": "etica-naturaleza-y-sociedades-2-ppa-5-pa14",
+      "projectId": "etica-naturaleza-y-sociedades-2-ppa-5-pa14",
+      "academicProjectNumber": 14,
+      "title": "¡Lucha contra los invasores!",
+      "projectTitle": "¡Lucha contra los invasores!",
+      "grade": "2",
+      "field": "Etica, Naturaleza y Sociedades",
+      "ppaNumber": "5",
+      "partialClassroomProject": "PPA 5",
+      "partialClassroomProjectTitle": "Al conocer el pasado entiendo mi presente",
+      "bookVolume": "Tomo II",
+      "sourceValidation": {
+        "sourceStatus": "linked",
+        "possibilitiesPages": [
+          14,
+          15
+        ],
+        "possibilitiesMaterialId": "grade-2-posibilidades-pos-ens-2",
+        "possibilitiesColumnIndex": 2,
+        "columnEvidence": "Bloque PPA 5 Al conocer el pasado entiendo mi presente localizado en pp. 14-15; la columna 2 se confirma por el orden de proyectos, productos y continuidad del mismo bloque."
+      },
+      "finalProduct": {
+        "title": "Nota periodística",
+        "source": "Posibilidades de uso ENS pp. 14-15 + Nuestro libro de proyectos Tomo II pp. 163-166",
+        "status": "confirmed"
+      },
+      "sourcePages": {
+        "nuestroLibroProyectos": [
+          {
+            "materialId": "grade-2-proyectos-nuestro-libro-de-proyectos-tomo-2-segundo-grado",
+            "label": "Nuestro libro de proyectos Tomo II",
+            "startPage": 163,
+            "endPage": 166,
+            "pagesLabel": "pp. 163-166",
+            "topicTitle": "Proyecto academico 14",
+            "status": "confirmed-source"
+          }
+        ],
+        "conceptBook": [
+          {
+            "materialId": "grade-2-conceptos-etica-naturaleza-y-sociedades-segundo-grado",
+            "label": "Etica, Naturaleza y Sociedades",
+            "startPage": 84,
+            "endPage": 90,
+            "pagesLabel": "pp. 84-90",
+            "topicTitle": "Rumbo a la construccion de un Estado",
+            "status": "confirmed-by-column-inference"
+          }
+        ],
+        "multiplesLenguajes": [],
+        "otherMaterials": [
+          {
+            "label": "Video PPA 5: Al conocer el pasado entiendo mi presente",
+            "reference": "bit.ly/3VfglUk",
+            "status": "pending-validation"
+          }
+        ]
+      },
+      "supportMaterials": [],
+      "horizonOrPurpose": {
+        "status": "pending",
+        "text": "",
+        "source": "Nuestro libro de proyectos Tomo II p. 163"
+      },
+      "projectExpectationHorizon": {
+        "officialText": "",
+        "studentVersion": "",
+        "sourcePages": [
+          "Nuestro libro de proyectos Tomo II p. 163"
+        ],
+        "evidence": "El proyecto ya cuenta con producto, conceptos y articulacion pedagogica, pero el horizonte textual exacto sigue pendiente de confirmacion literal.",
+        "status": "pending"
+      },
+      "detonatingStrategy": {
+        "status": "pending-url",
+        "text": "Video PPA 5: Al conocer el pasado entiendo mi presente",
+        "reference": "bit.ly/3VfglUk",
+        "source": "Nuestro libro de proyectos Tomo II pp. 161-162 + Posibilidades de uso ENS pp. 14-15"
+      },
+      "academicProjectStrategy": {
+        "title": "Nota periodística",
+        "text": "Organizar nota periodística para profundizar en los conflictos politicos del Mexico independiente y la defensa frente a invasiones y agresiones externas y compartir hallazgos de manera clara con el grupo.",
+        "type": "project-product",
+        "status": "confirmed-from-project-book",
+        "source": "Nuestro libro de proyectos Tomo II pp. 163-166"
+      },
+      "academicConcepts": [
+        {
+          "concept": "nota periodística",
+          "description": "Nota periodística como producto de cierre para organizar y comunicar aprendizajes del proyecto.",
+          "sourceBook": "Nuestro libro de proyectos Tomo II",
+          "sourcePages": [
+            163,
+            166
+          ],
+          "sourcePagesLabel": "pp. 163-166",
+          "topicTitle": "Proyecto academico 14",
+          "status": "confirmed",
+          "reason": "Posibilidades y el propio proyecto fijan Nota periodística como producto final del PA 14.",
+          "pedagogicalUse": "Da una forma concreta de socializar lo comprendido sobre los conflictos politicos del Mexico independiente y la defensa frente a invasiones y agresiones externas.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "inestabilidad politica",
+          "description": "Inestabilidad politica es una idea clave para comprender los conflictos politicos del Mexico independiente y la defensa frente a invasiones y agresiones externas.",
+          "sourceBook": "Etica, Naturaleza y Sociedades",
+          "sourcePages": [
+            84,
+            90
+          ],
+          "sourcePagesLabel": "pp. 84-90",
+          "topicTitle": "Rumbo a la construccion de un Estado",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Rumbo a la construccion de un Estado\" aporta base suficiente para trabajar inestabilidad politica dentro del proyecto 14.",
+          "pedagogicalUse": "Ayuda a fortalecer nota periodística y a explicar los conflictos politicos del Mexico independiente y la defensa frente a invasiones y agresiones externas con mayor claridad mediante inestabilidad politica.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "conflictos del siglo XIX",
+          "description": "Conflictos del siglo XIX es una idea clave para comprender los conflictos politicos del Mexico independiente y la defensa frente a invasiones y agresiones externas.",
+          "sourceBook": "Etica, Naturaleza y Sociedades",
+          "sourcePages": [
+            84,
+            90
+          ],
+          "sourcePagesLabel": "pp. 84-90",
+          "topicTitle": "Rumbo a la construccion de un Estado",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Rumbo a la construccion de un Estado\" aporta base suficiente para trabajar conflictos del siglo XIX dentro del proyecto 14.",
+          "pedagogicalUse": "Ayuda a fortalecer nota periodística y a explicar los conflictos politicos del Mexico independiente y la defensa frente a invasiones y agresiones externas con mayor claridad mediante conflictos del siglo XIX.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "defensa nacional",
+          "description": "Defensa nacional es una idea clave para comprender los conflictos politicos del Mexico independiente y la defensa frente a invasiones y agresiones externas.",
+          "sourceBook": "Etica, Naturaleza y Sociedades",
+          "sourcePages": [
+            84,
+            90
+          ],
+          "sourcePagesLabel": "pp. 84-90",
+          "topicTitle": "Rumbo a la construccion de un Estado",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Rumbo a la construccion de un Estado\" aporta base suficiente para trabajar defensa nacional dentro del proyecto 14.",
+          "pedagogicalUse": "Ayuda a fortalecer nota periodística y a explicar los conflictos politicos del Mexico independiente y la defensa frente a invasiones y agresiones externas con mayor claridad mediante defensa nacional.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "soberania",
+          "description": "Soberania es una idea clave para comprender los conflictos politicos del Mexico independiente y la defensa frente a invasiones y agresiones externas.",
+          "sourceBook": "Etica, Naturaleza y Sociedades",
+          "sourcePages": [
+            84,
+            90
+          ],
+          "sourcePagesLabel": "pp. 84-90",
+          "topicTitle": "Rumbo a la construccion de un Estado",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Rumbo a la construccion de un Estado\" aporta base suficiente para trabajar soberania dentro del proyecto 14.",
+          "pedagogicalUse": "Ayuda a fortalecer nota periodística y a explicar los conflictos politicos del Mexico independiente y la defensa frente a invasiones y agresiones externas con mayor claridad mediante soberania.",
+          "activityReadiness": "usable-for-autoevaluation"
+        }
+      ],
+      "thinkingCriteria": [
+        "Relacionar los conflictos politicos del Mexico independiente y la defensa frente a invasiones y agresiones externas con situaciones cercanas a la comunidad.",
+        "Usar nota periodística para explicar y no solo para recopilar informacion.",
+        "Distinguir entre mencionar conceptos y comprender como dialogan entre si dentro del proyecto."
+      ],
+      "validationStatus": {
+        "readinessLevel": "development-partial",
+        "readyForActivities": false,
+        "needsReviewReasons": [
+          "El bloque 5 ya es usable como lectura docente, pero el video del PPA 5 y el recurso informatico siguen pendientes de validacion de destino final.",
+          "La asignacion de apoyos de Posibilidades se sostiene por inferencia curricular documentada y no por OCR perfectamente separado por columnas.",
+          "No mover a actividades interactivas ni desbloquear juegos completos hasta ampliar validacion de videos y recursos complementarios."
+        ]
+      },
+      "readinessLevel": "development-partial",
+      "readyForActivities": false,
+      "needsReviewReasons": [
+        "No mover a actividades interactivas ni desbloquear juegos completos."
+      ],
+      "roleInPpa": "Profundiza el bloque en la defensa del pais y en las tensiones politicas que marcaron su consolidacion.",
+      "pedagogicalUse": "Conviene trabajar ¡Lucha contra los invasores! como una oportunidad para profundizar en los conflictos politicos del Mexico independiente y la defensa frente a invasiones y agresiones externas sin separar contenido, comunidad y producto final.",
+      "teacherNotes": [
+        "Conviene partir de ejemplos cercanos y después pasar al lenguaje mas abstracto del campo.",
+        "El producto Nota periodística gana fuerza cuando se usa para explicar y no solo para exhibir informacion.",
+        "Es mejor seleccionar pocos conceptos bien comprendidos que saturar el trabajo con terminos aislados."
+      ],
+      "resonancePrompts": [
+        {
+          "type": "individual",
+          "prompt": "¿Qué comprendes mejor sobre los conflictos politicos del Mexico independiente y la defensa frente a invasiones y agresiones externas después de elaborar nota periodística?"
+        },
+        {
+          "type": "community",
+          "prompt": "¿Qué diálogos comunitarios podrían fortalecerse si compartimos nota periodística y lo ponemos en conversación con otras personas?"
+        }
+      ],
+      "notReadyFor": [
+        "full-games",
+        "summative-exam"
+      ]
+    },
+    {
+      "id": "etica-naturaleza-y-sociedades-2-ppa-5-pa15",
+      "projectId": "etica-naturaleza-y-sociedades-2-ppa-5-pa15",
+      "academicProjectNumber": 15,
+      "title": "Principales organizaciones por la paz",
+      "projectTitle": "Principales organizaciones por la paz",
+      "grade": "2",
+      "field": "Etica, Naturaleza y Sociedades",
+      "ppaNumber": "5",
+      "partialClassroomProject": "PPA 5",
+      "partialClassroomProjectTitle": "Al conocer el pasado entiendo mi presente",
+      "bookVolume": "Tomo II",
+      "sourceValidation": {
+        "sourceStatus": "linked",
+        "possibilitiesPages": [
+          14,
+          15
+        ],
+        "possibilitiesMaterialId": "grade-2-posibilidades-pos-ens-2",
+        "possibilitiesColumnIndex": 3,
+        "columnEvidence": "Bloque PPA 5 Al conocer el pasado entiendo mi presente localizado en pp. 14-15; la columna 3 se confirma por el orden de proyectos, productos y continuidad del mismo bloque."
+      },
+      "finalProduct": {
+        "title": "Carteles informativos",
+        "source": "Posibilidades de uso ENS pp. 14-15 + Nuestro libro de proyectos Tomo II pp. 167-171",
+        "status": "confirmed"
+      },
+      "sourcePages": {
+        "nuestroLibroProyectos": [
+          {
+            "materialId": "grade-2-proyectos-nuestro-libro-de-proyectos-tomo-2-segundo-grado",
+            "label": "Nuestro libro de proyectos Tomo II",
+            "startPage": 167,
+            "endPage": 171,
+            "pagesLabel": "pp. 167-171",
+            "topicTitle": "Proyecto academico 15",
+            "status": "confirmed-source"
+          }
+        ],
+        "conceptBook": [
+          {
+            "materialId": "grade-2-conceptos-etica-naturaleza-y-sociedades-segundo-grado",
+            "label": "Etica, Naturaleza y Sociedades",
+            "startPage": 259,
+            "endPage": 264,
+            "pagesLabel": "pp. 259-264",
+            "topicTitle": "Distintas formas de resolver conflictos sociales y politicos ocurridos en Mexico y America Latina para generar estrategias de mediacion desde la cultura de paz",
+            "status": "confirmed-by-column-inference"
+          },
+          {
+            "materialId": "grade-2-conceptos-etica-naturaleza-y-sociedades-segundo-grado",
+            "label": "Etica, Naturaleza y Sociedades",
+            "startPage": 273,
+            "endPage": 282,
+            "pagesLabel": "pp. 273-282",
+            "topicTitle": "Acciones de personas, grupos y organizaciones realizadas en Mexico y America Latina para promover actitudes, valores y comportamientos basados en la cultura de la paz",
+            "status": "confirmed-by-column-inference"
+          }
+        ],
+        "multiplesLenguajes": [
+          {
+            "materialId": "grade-2-apoyo-multiples-lenguajes-segundo-grado",
+            "label": "Multiples Lenguajes",
+            "startPage": 54,
+            "endPage": 61,
+            "pagesLabel": "pp. 54-61",
+            "topicTitle": "Un poeta con alas de pintor",
+            "status": "confirmed-by-column-inference"
+          }
+        ],
+        "otherMaterials": [
+          {
+            "label": "Video PPA 5: Al conocer el pasado entiendo mi presente",
+            "reference": "bit.ly/3VfglUk",
+            "status": "pending-validation"
+          }
+        ]
+      },
+      "supportMaterials": [
+        {
+          "title": "Un poeta con alas de pintor",
+          "kind": "Multiples Lenguajes",
+          "pages": "pp. 54-61",
+          "status": "confirmed-by-column-inference"
+        }
+      ],
+      "horizonOrPurpose": {
+        "status": "needs-review-vision",
+        "text": "Elaborar un cartel informativo sobre una temática relacionada con la cultura de paz que sea de interés para la comunidad escolar.",
+        "source": "Visión — Horizonte 1 (p. 168)"
+      },
+      "projectExpectationHorizon": {
+        "officialText": "Elaborar un cartel informativo sobre una temática relacionada con la cultura de paz que sea de interés para la comunidad escolar.",
+        "studentVersion": "Elaborar un cartel informativo sobre una temática relacionada con la cultura de paz que sea de interés para la comunidad escolar.",
+        "horizon1Raw": "Elaborar un cartel informativo sobre una temática relacionada con la cultura de paz que sea de interés para la comunidad escolar.",
+        "horizon2Raw": null,
+        "sourcePages": [
+          "Visión — Horizonte 1 (p. 168)"
+        ],
+        "evidence": "Extraído por visión de imagen de la página 168 del libro de proyectos. Confianza: media.",
+        "status": "needs-review-vision",
+        "extractedAt": "2026-06-16T05:31:25.687Z"
+      },
+      "detonatingStrategy": {
+        "status": "pending-url",
+        "text": "Video PPA 5: Al conocer el pasado entiendo mi presente",
+        "reference": "bit.ly/3VfglUk",
+        "source": "Nuestro libro de proyectos Tomo II pp. 165-166 + Posibilidades de uso ENS pp. 14-15"
+      },
+      "academicProjectStrategy": {
+        "title": "Carteles informativos",
+        "text": "Organizar carteles informativos para profundizar en las organizaciones, mediaciones y acciones que promueven la cultura de paz en Mexico y America Latina y compartir hallazgos de manera clara con el grupo.",
+        "type": "project-product",
+        "status": "confirmed-from-project-book",
+        "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+        "url": "https://www.youtube.com/watch?v=z5Kryy1kRmE",
+        "urlStatus": "revalidated-specific"
+      },
+      "academicConcepts": [
+        {
+          "concept": "carteles informativos",
+          "description": "Carteles informativos como producto de cierre para organizar y comunicar aprendizajes del proyecto.",
+          "sourceBook": "Nuestro libro de proyectos Tomo II",
+          "sourcePages": [
+            167,
+            171
+          ],
+          "sourcePagesLabel": "pp. 167-171",
+          "topicTitle": "Proyecto academico 15",
+          "status": "confirmed",
+          "reason": "Posibilidades y el propio proyecto fijan Carteles informativos como producto final del PA 15.",
+          "pedagogicalUse": "Da una forma concreta de socializar lo comprendido sobre las organizaciones, mediaciones y acciones que promueven la cultura de paz en Mexico y America Latina.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "cultura de paz",
+          "description": "Cultura de paz es una idea clave para comprender las organizaciones, mediaciones y acciones que promueven la cultura de paz en Mexico y America Latina.",
+          "sourceBook": "Etica, Naturaleza y Sociedades",
+          "sourcePages": [
+            273,
+            282
+          ],
+          "sourcePagesLabel": "pp. 273-282",
+          "topicTitle": "Acciones de personas, grupos y organizaciones realizadas en Mexico y America Latina para promover actitudes, valores y comportamientos basados en la cultura de la paz",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Acciones de personas, grupos y organizaciones realizadas en Mexico y America Latina para promover actitudes, valores y comportamientos basados en la cultura de la paz\" aporta base suficiente para trabajar cultura de paz dentro del proyecto 15.",
+          "pedagogicalUse": "Ayuda a fortalecer carteles informativos y a explicar las organizaciones, mediaciones y acciones que promueven la cultura de paz en Mexico y America Latina con mayor claridad mediante cultura de paz.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "mediacion",
+          "description": "Mediacion es una idea clave para comprender las organizaciones, mediaciones y acciones que promueven la cultura de paz en Mexico y America Latina.",
+          "sourceBook": "Etica, Naturaleza y Sociedades",
+          "sourcePages": [
+            259,
+            264
+          ],
+          "sourcePagesLabel": "pp. 259-264",
+          "topicTitle": "Distintas formas de resolver conflictos sociales y politicos ocurridos en Mexico y America Latina para generar estrategias de mediacion desde la cultura de paz",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Distintas formas de resolver conflictos sociales y politicos ocurridos en Mexico y America Latina para generar estrategias de mediacion desde la cultura de paz\" aporta base suficiente para trabajar mediacion dentro del proyecto 15.",
+          "pedagogicalUse": "Ayuda a fortalecer carteles informativos y a explicar las organizaciones, mediaciones y acciones que promueven la cultura de paz en Mexico y America Latina con mayor claridad mediante mediacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "organizaciones por la paz",
+          "description": "Organizaciones por la paz es una idea clave para comprender las organizaciones, mediaciones y acciones que promueven la cultura de paz en Mexico y America Latina.",
+          "sourceBook": "Etica, Naturaleza y Sociedades",
+          "sourcePages": [
+            273,
+            282
+          ],
+          "sourcePagesLabel": "pp. 273-282",
+          "topicTitle": "Acciones de personas, grupos y organizaciones realizadas en Mexico y America Latina para promover actitudes, valores y comportamientos basados en la cultura de la paz",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Acciones de personas, grupos y organizaciones realizadas en Mexico y America Latina para promover actitudes, valores y comportamientos basados en la cultura de la paz\" aporta base suficiente para trabajar organizaciones por la paz dentro del proyecto 15.",
+          "pedagogicalUse": "Ayuda a fortalecer carteles informativos y a explicar las organizaciones, mediaciones y acciones que promueven la cultura de paz en Mexico y America Latina con mayor claridad mediante organizaciones por la paz.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "resolucion de conflictos",
+          "description": "Resolucion de conflictos es una idea clave para comprender las organizaciones, mediaciones y acciones que promueven la cultura de paz en Mexico y America Latina.",
+          "sourceBook": "Etica, Naturaleza y Sociedades",
+          "sourcePages": [
+            259,
+            264
+          ],
+          "sourcePagesLabel": "pp. 259-264",
+          "topicTitle": "Distintas formas de resolver conflictos sociales y politicos ocurridos en Mexico y America Latina para generar estrategias de mediacion desde la cultura de paz",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Distintas formas de resolver conflictos sociales y politicos ocurridos en Mexico y America Latina para generar estrategias de mediacion desde la cultura de paz\" aporta base suficiente para trabajar resolucion de conflictos dentro del proyecto 15.",
+          "pedagogicalUse": "Ayuda a fortalecer carteles informativos y a explicar las organizaciones, mediaciones y acciones que promueven la cultura de paz en Mexico y America Latina con mayor claridad mediante resolucion de conflictos.",
+          "activityReadiness": "usable-for-autoevaluation"
+        }
+      ],
+      "thinkingCriteria": [
+        "Relacionar las organizaciones, mediaciones y acciones que promueven la cultura de paz en Mexico y America Latina con situaciones cercanas a la comunidad.",
+        "Usar carteles informativos para explicar y no solo para recopilar informacion.",
+        "Distinguir entre mencionar conceptos y comprender como dialogan entre si dentro del proyecto."
+      ],
+      "validationStatus": {
+        "readinessLevel": "development-partial",
+        "readyForActivities": false,
+        "needsReviewReasons": [
+          "El bloque 5 ya es usable como lectura docente, pero el video del PPA 5 y el recurso informatico siguen pendientes de validacion de destino final.",
+          "La asignacion de apoyos de Posibilidades se sostiene por inferencia curricular documentada y no por OCR perfectamente separado por columnas.",
+          "No mover a actividades interactivas ni desbloquear juegos completos hasta ampliar validacion de videos y recursos complementarios."
+        ]
+      },
+      "readinessLevel": "development-partial",
+      "readyForActivities": false,
+      "needsReviewReasons": [
+        "No mover a actividades interactivas ni desbloquear juegos completos."
+      ],
+      "roleInPpa": "Cierra el bloque con una mirada a organizaciones y mediaciones que construyen paz en conflictos sociales.",
+      "pedagogicalUse": "Conviene trabajar Principales organizaciones por la paz como una oportunidad para profundizar en las organizaciones, mediaciones y acciones que promueven la cultura de paz en Mexico y America Latina sin separar contenido, comunidad y producto final.",
+      "teacherNotes": [
+        "Conviene partir de ejemplos cercanos y después pasar al lenguaje mas abstracto del campo.",
+        "El producto Carteles informativos gana fuerza cuando se usa para explicar y no solo para exhibir informacion.",
+        "Es mejor seleccionar pocos conceptos bien comprendidos que saturar el trabajo con terminos aislados."
+      ],
+      "resonancePrompts": [
+        {
+          "type": "individual",
+          "prompt": "¿Qué comprendes mejor sobre las organizaciones, mediaciones y acciones que promueven la cultura de paz en Mexico y America Latina después de elaborar carteles informativos?"
+        },
+        {
+          "type": "community",
+          "prompt": "¿Qué diálogos comunitarios podrían fortalecerse si compartimos carteles informativos y lo ponemos en conversación con otras personas?"
+        }
+      ],
+      "notReadyFor": [
+        "full-games",
+        "summative-exam"
+      ]
+    }
+  ]
+}

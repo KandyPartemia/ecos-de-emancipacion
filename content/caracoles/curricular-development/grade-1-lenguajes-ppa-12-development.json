@@ -1,0 +1,861 @@
+{
+  "grade": "1",
+  "gradeLabel": "Primer grado",
+  "field": "Lenguajes",
+  "bookVolume": "Tomo III",
+  "partialClassroomProject": "PPA 12",
+  "partialClassroomProjectTitle": "Puentes de comunicación en construcción",
+  "generatedAt": "2026-05-27T23:43:06.712Z",
+  "notes": "Capa curricular piloto aislada para 1° Lenguajes PPA 12. No alimenta la app pública automáticamente ni publica bundle en esta fase.",
+  "sourcesUsed": [
+    "reports/caracoles/grade1-lenguajes-reading-teacher-hito-2-standard.md",
+    "content/caracoles/templates/teacher-community-prompts-template.json",
+    "content/caracoles/templates/examples/grade-1-lenguajes-ppa-9-teacher-community-prompts-example.json",
+    "content/caracoles/curricular-catalog/all-projects-canonical.json",
+    "content/caracoles/generated-private/grade-1/pages-index.full.json",
+    "Nuestro libro de proyectos Tomo III, primer grado, pp. 28-43",
+    "Posibilidades de uso Lenguajes, primer grado, p. 28",
+    "Lenguajes primer grado, pp. 94-96, 199-204, 205-213, 214-220, 233-240",
+    "Múltiples Lenguajes primer grado, pp. 144-150"
+  ],
+  "templateReference": {
+    "standardApplied": "grade1-lenguajes-reading-teacher-hito-2-standard.md",
+    "exampleDerivedFrom": [
+      "grade-1-lenguajes-ppa-9-development.json",
+      "grade-1-lenguajes-ppa-9-concepts-validation.json",
+      "grade-1-lenguajes-ppa-9-pedagogical-articulation.json",
+      "grade-1-lenguajes-ppa-9-teacher-notes-and-resonances.json",
+      "grade-1-lenguajes-ppa-10-development.json",
+      "grade-1-lenguajes-ppa-10-concepts-validation.json",
+      "grade-1-lenguajes-ppa-10-pedagogical-articulation.json",
+      "grade-1-lenguajes-ppa-10-teacher-notes-and-resonances.json",
+      "grade-1-lenguajes-ppa-11-development.json",
+      "grade-1-lenguajes-ppa-11-concepts-validation.json",
+      "grade-1-lenguajes-ppa-11-pedagogical-articulation.json",
+      "grade-1-lenguajes-ppa-11-teacher-notes-and-resonances.json"
+    ]
+  },
+  "partialClassroomProjectContext": {
+    "expectationHorizon": {
+      "officialText": "",
+      "sourcePages": [
+        "Nuestro libro de proyectos Tomo III pp. 28-29",
+        "Nuestro libro de proyectos Tomo III p. 43",
+        "Posibilidades de uso Lenguajes p. 28"
+      ],
+      "evidence": "El bloque sí tiene propósito compartido en torno a la comunicación asertiva, la prevención de la violencia y la construcción colectiva de respuestas comunitarias, pero no se localizó un horizonte único del PPA 12 formulado como texto oficial independiente.",
+      "status": "pending"
+    },
+    "ppaDetonatingStrategy": {
+      "title": "Puentes de comunicación en construcción",
+      "type": "video",
+      "url": "bit.ly/3VfglUk",
+      "urlStatus": "pending-validation",
+      "source": "Nuestro libro de proyectos Tomo III p. 28",
+      "scope": "partial-classroom-project"
+    },
+    "ppaDigitalResource": {
+      "title": "Recurso informático del bloque",
+      "reference": "bit.ly/3WQBMwg",
+      "status": "pending-validation",
+      "source": "Nuestro libro de proyectos Tomo III p. 43"
+    },
+    "validationStatus": {
+      "needsHumanReview": true,
+      "needsReviewReasons": [
+        "La página 28 de Posibilidades corresponde al bloque completo del PPA 12.",
+        "Las páginas 28-29 y 43 de Nuestro libro de proyectos funcionan como contexto del PPA y no deben adjudicarse por sí solas a un solo PA.",
+        "No se localizó una URL desarrollada detrás de los enlaces bit.ly; se mantienen como recursos pendientes de validación."
+      ]
+    },
+    "columnValidation": {
+      "possibilitiesPagesReviewed": [
+        28
+      ],
+      "confirmedAsPpa12": true,
+      "note": "La p. 28 de Posibilidades corresponde a PPA 12. La validación previa del PPA 11 ya dejó fuera esta página y aquí se respeta esa frontera.",
+      "pageEvidence": "ajes | Primer grado | Nuestro libro de proyectos | Tomo III PPA12: Puentes de comunicación en construcción Mesa de discusión El uso de la lengua indígena para expresar problemáticas sociales, p. 199. • Textos literarios e informativos que a",
+      "projectBookContextEvidence": [
+        "ción y gestión de espacios y recursos a fin de realizar una mesa de discusión, un collage informativo y un decálogo de acciones, para favorecer la sensibilización y erradicar las acciones de violencia. Este proyecto se dirige a mejorar las",
+        "e violencia escolar, familiar o comunitaria y elaborarán un collage informativo integrado por imágenes y dibujos que muestren la interpretación de la noticia. W Desarrollarán un diálogo abierto en comunidad para integrar un decálogo de acci",
+        "cen las actividades que les propone el recurso informático “Puentes de comunicación en construcción”. Presentación Una vez que el proyecto parcial de aula ha sido desarrollado en los proyectos académicos, es importante que consideren tres m"
+      ],
+      "columns": [
+        {
+          "columnIndex": 1,
+          "projectId": "lenguajes-1-ppa-12-pa34",
+          "projectTitle": "Diálogos efectivos",
+          "finalProduct": "Mesa de discusión",
+          "supportMaterial": "Sin apoyo confirmado de Múltiples Lenguajes"
+        },
+        {
+          "columnIndex": 2,
+          "projectId": "lenguajes-1-ppa-12-pa35",
+          "projectTitle": "Rompiendo el ciclo",
+          "finalProduct": "Collage informativo",
+          "supportMaterial": "Sin apoyo confirmado de Múltiples Lenguajes"
+        },
+        {
+          "columnIndex": 3,
+          "projectId": "lenguajes-1-ppa-12-pa36",
+          "projectTitle": "Uniendo esfuerzos",
+          "finalProduct": "Decálogo de acciones",
+          "supportMaterial": "La grieta, pp. 144-150"
+        }
+      ]
+    }
+  },
+  "academicProjects": [
+    {
+      "id": "lenguajes-1-ppa-12-pa34",
+      "projectId": "lenguajes-1-ppa-12-pa34",
+      "academicProjectNumber": 34,
+      "projectTitle": "Diálogos efectivos",
+      "grade": "1",
+      "field": "Lenguajes",
+      "ppaNumber": "12",
+      "partialClassroomProject": "PPA 12",
+      "partialClassroomProjectTitle": "Puentes de comunicación en construcción",
+      "bookVolume": "Tomo III",
+      "sourceValidation": {
+        "sourceStatus": "linked",
+        "possibilitiesPages": [
+          28
+        ],
+        "possibilitiesMaterialId": "grade-1-posibilidades-pos-len-1",
+        "possibilitiesColumnIndex": 1,
+        "columnEvidence": "Validación visual y textual: la columna 1 del bloque PPA 12 en Posibilidades p. 28 corresponde a PA34 y se articula con la mesa de discusión descrita en Nuestro libro de proyectos pp. 30-34."
+      },
+      "finalProduct": {
+        "title": "Mesa de discusión",
+        "source": "Posibilidades de uso Lenguajes p. 28 + Nuestro libro de proyectos Tomo III pp. 30-34",
+        "status": "confirmed"
+      },
+      "sourcePages": {
+        "nuestroLibroProyectos": [
+          {
+            "materialId": "grade-1-proyectos-nuestro-libro-de-proyectos-tomo-iii-primer-grado",
+            "label": "Nuestro libro de proyectos Tomo III",
+            "startPage": 30,
+            "endPage": 34,
+            "pagesLabel": "pp. 30-34",
+            "topicTitle": "Proyecto académico 34",
+            "status": "confirmed-source"
+          }
+        ],
+        "conceptBook": [
+          {
+            "materialId": "grade-1-conceptos-lenguajes-primer-grado",
+            "label": "Lenguajes",
+            "startPage": 205,
+            "endPage": 213,
+            "pagesLabel": "pp. 205-213",
+            "topicTitle": "Diversidad y el punto de vista; exposición de un punto de vista",
+            "status": "confirmed-source"
+          },
+          {
+            "materialId": "grade-1-conceptos-lenguajes-primer-grado",
+            "label": "Lenguajes",
+            "startPage": 199,
+            "endPage": 204,
+            "pagesLabel": "pp. 199-204",
+            "topicTitle": "Uso de la lengua indígena para expresar problemáticas sociales",
+            "status": "review-linked"
+          }
+        ],
+        "multiplesLenguajes": [],
+        "otherMaterials": [
+          {
+            "label": "Video PPA 12: Puentes de comunicación en construcción",
+            "reference": "bit.ly/3VfglUk",
+            "status": "pending-validation"
+          },
+          {
+            "label": "Recurso de consulta del proyecto",
+            "reference": "Consulta: ¿Qué es una mesa de discusión y cuáles son sus características? bit.ly/3R0ForE",
+            "status": "pending-validation"
+          },
+          {
+            "label": "Recurso general del bloque",
+            "reference": "bit.ly/3RpbgXa",
+            "status": "pending-validation"
+          }
+        ]
+      },
+      "supportMaterials": [],
+      "horizonOrPurpose": {
+        "status": "confirmed-from-project-book",
+        "text": "Realizar una investigación acerca de la comunicación asertiva y la dialógica para llevar a cabo una mesa de discusión con la finalidad de expresar acciones para erradicar la violencia y el racismo en diversos ámbitos.",
+        "source": "Visión — Horizonte 1 (p. 31)"
+      },
+      "detonatingStrategy": {
+        "status": "pending-validation",
+        "text": "Video PPA: Puentes de comunicación en construcción (bit.ly/3VfglUk)",
+        "source": "Nuestro libro de proyectos Tomo III p. 28"
+      },
+      "academicProjectStrategy": {
+        "status": "needsReview",
+        "text": "Consulta: ¿Qué es una mesa de discusión y cuáles son sus características? bit.ly/3R0ForE",
+        "source": "Nuestro libro de proyectos Tomo III p. 32"
+      },
+      "academicConcepts": [
+        {
+          "concept": "mesa de discusión",
+          "status": "confirmed",
+          "sourceBook": "Nuestro libro de proyectos Tomo III",
+          "sourcePages": [
+            30,
+            31,
+            32,
+            33
+          ],
+          "sourcePagesLabel": "pp. 30-33",
+          "topicTitle": "mesa de discusión",
+          "evidenceSnippet": "asertiva y la dialógica como referentes para organizar una mesa de discusión en torno a acciones para erradicar la violencia en la familia y en la escuela, rechazar el racismo contra las lenguas indígenas o proponer alternativas de solució",
+          "reason": "El proyecto la nombra como acción central, producto y forma de presentación comunitaria.",
+          "pedagogicalUse": "Estructura la participación oral, la escucha y la construcción colectiva de argumentos.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "comunicación asertiva",
+          "status": "confirmed",
+          "sourceBook": "Nuestro libro de proyectos Tomo III",
+          "sourcePages": [
+            28,
+            30,
+            31,
+            32
+          ],
+          "sourcePagesLabel": "pp. 28-32",
+          "topicTitle": "comunicación asertiva",
+          "evidenceSnippet": "xto. Si es necesario, modifíquenla o generen una propia. La comunicación asertiva y la dialógica fomentan el intercambio de opiniones y la escucha activa, lo cual permite construir relaciones humanas más saludables y satisfactorias tanto en",
+          "reason": "La introducción del PPA y las etapas del proyecto la colocan como referente explícito del trabajo.",
+          "pedagogicalUse": "Permite orientar el tono del diálogo y evitar que la mesa se reduzca a confrontación sin escucha.",
+          "activityReadiness": "usable-for-resonance"
+        },
+        {
+          "concept": "comunicación dialógica",
+          "status": "confirmed",
+          "sourceBook": "Nuestro libro de proyectos Tomo III",
+          "sourcePages": [
+            28,
+            30,
+            31,
+            32
+          ],
+          "sourcePagesLabel": "pp. 28-32",
+          "topicTitle": "comunicación dialógica",
+          "evidenceSnippet": "30 Interculturalidad crítica: la innovación es un factor importante para el bienestar colectivo e individual. ❙ Proyecto académico 34 Diálogos efectivos Etapa 2. ¡Ése es el problema! Como integrantes de una comunidad, es importante practica",
+          "reason": "El texto del PPA y el proyecto la presentan como intercambio de puntos de vista que enriquece la discusión.",
+          "pedagogicalUse": "Ayuda a trabajar diálogo, escucha activa y construcción compartida de posturas.",
+          "activityReadiness": "usable-for-resonance"
+        },
+        {
+          "concept": "diversidad y el punto de vista",
+          "status": "confirmed",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            205,
+            206,
+            210,
+            213
+          ],
+          "sourcePagesLabel": "pp. 205-213",
+          "topicTitle": "diversidad y el punto de vista",
+          "evidenceSnippet": "o permite el intercambio de opiniones sin crear conflictos. Diversidad y el punto de vista Exposición de un punto de vista La expresión de la opinión personal es muy importante en un texto argumentativo. El objetivo de una argumentación es",
+          "reason": "Las páginas fuente desarrollan diálogo, diversidad y convivencia como base para expresar opiniones con respeto.",
+          "pedagogicalUse": "Da soporte conceptual a la discusión de perspectivas distintas sin cerrar el diálogo.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "exposición de un punto de vista",
+          "status": "confirmed",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            206,
+            207,
+            208,
+            209
+          ],
+          "sourcePagesLabel": "pp. 206-209",
+          "topicTitle": "exposición de un punto de vista",
+          "evidenceSnippet": "Exposición de un punto de vista La expresión de la opinión personal es muy importante en un texto argumentativo. El objetivo de una argumentación es convencer al in- terlocutor sobre un juicio o una idea mediante la palabra y el uso ade- cu",
+          "reason": "La fuente explica marcadores de opinión y recursos argumentativos directamente útiles para la mesa de discusión.",
+          "pedagogicalUse": "Permite construir intervenciones claras, justificadas y respetuosas.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "racismo contra las lenguas indígenas",
+          "status": "confirmed",
+          "sourceBook": "Nuestro libro de proyectos Tomo III",
+          "sourcePages": [
+            30,
+            31
+          ],
+          "sourcePagesLabel": "pp. 30-31",
+          "topicTitle": "racismo contra las lenguas indígenas",
+          "evidenceSnippet": "car la violencia en la familia y en la escuela, rechazar el racismo contra las lenguas indígenas o proponer alternativas de solución a la problemática elegida. Situación 1 Situación 2 No sabemos cómo poner en práctica la comunicación aserti",
+          "reason": "Las situaciones y objetivos del proyecto nombran de forma explícita el rechazo al racismo contra las lenguas indígenas.",
+          "pedagogicalUse": "Vincula la discusión con problemáticas reales de discriminación lingüística y convivencia comunitaria.",
+          "activityReadiness": "usable-for-resonance"
+        },
+        {
+          "concept": "uso de la lengua indígena para expresar problemáticas sociales",
+          "status": "suggested",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            199,
+            200
+          ],
+          "sourcePagesLabel": "pp. 199-200",
+          "topicTitle": "uso de la lengua indígena para expresar problemáticas sociales",
+          "evidenceSnippet": "se requiere el uso de medios informativos o literarios. El uso de la lengua indígena para expresar problemáticas sociales Textos literarios e informativos que aborden temas de la comunidad Los humanos poseen muchas formas de comunicación,",
+          "reason": "La página fuente coincide con el eje del proyecto, pero su centralidad en la mesa de discusión todavía debe confirmarse con validación docente.",
+          "pedagogicalUse": "Puede ampliar la conversación sobre racismo lingüístico y representación comunitaria sin tratarlo aún como cierre definitivo.",
+          "activityReadiness": "usable-for-resonance"
+        },
+        {
+          "concept": "textos literarios e informativos que aborden temas de la comunidad",
+          "status": "suggested",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            200,
+            201,
+            202,
+            203
+          ],
+          "sourcePagesLabel": "pp. 200-203",
+          "topicTitle": "textos literarios e informativos que aborden temas de la comunidad",
+          "evidenceSnippet": "Textos literarios e informativos que aborden temas de la comunidad Los humanos poseen muchas formas de comunicación, como las palabras, movimientos, gestos y expresiones faciales, con sonidos o sin ellos, con dibu- jos y señas. Así pues, la",
+          "reason": "La fuente los desarrolla con claridad, pero en este proyecto funcionan como apoyo secundario del diálogo, no como eje confirmado.",
+          "pedagogicalUse": "Sirve para abrir ejemplos de materiales que pueden alimentar la discusión.",
+          "activityReadiness": "usable-for-resonance"
+        },
+        {
+          "concept": "creaciones literarias en lenguas indígenas: difusión, métodos y objetivos",
+          "status": "needsReview",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            203,
+            204
+          ],
+          "sourcePagesLabel": "pp. 203-204",
+          "topicTitle": "creaciones literarias en lenguas indígenas: difusión, métodos y objetivos",
+          "evidenceSnippet": "problemáticas sociales y reconstruir críticas u opiniones. Creaciones literarias en lenguas indígenas: difusión, métodos y objetivos Un pueblo indígena resguarda sus propias creaciones literarias, sea a través de materiales escritos u oral",
+          "reason": "El tema aparece en las páginas vinculadas, pero todavía no hay evidencia suficiente para tratarlo como contenido central del PA34.",
+          "pedagogicalUse": "Conviene manejarlo solo como apoyo de contexto si el grupo decide profundizar en discriminación lingüística.",
+          "activityReadiness": "not-usable-yet"
+        }
+      ],
+      "thinkingCriteria": [
+        "Organizar una discusión con lenguaje claro, asertivo y respetuoso.",
+        "Sostener un punto de vista con razones y apertura al diálogo.",
+        "Relacionar violencia, racismo lingüístico y convivencia comunitaria sin simplificaciones."
+      ],
+      "readinessLevel": "development-partial",
+      "readyForActivities": false,
+      "needsReviewReasons": [
+        "Las páginas 199-204 funcionan como apoyo complementario del proyecto, pero su peso didáctico final todavía requiere validación docente.",
+        "Posibilidades no asigna apoyo de Múltiples Lenguajes a esta columna.",
+        "Las páginas sobre violencia en inglés se mantienen fuera del núcleo confirmado de este PA para no mezclar columnas."
+      ],
+      "projectExpectationHorizon": {
+        "officialText": "Realizar una investigación acerca de la comunicación asertiva y la dialógica para llevar a cabo una mesa de discusión con la finalidad de expresar acciones para erradicar la violencia y el racismo en diversos ámbitos.",
+        "studentVersion": "Realizar una investigación acerca de la comunicación asertiva y la dialógica para llevar a cabo una mesa de discusión con la finalidad de expresar acciones para erradicar la violencia y el racismo en diversos ámbitos.",
+        "horizon1Raw": "Realizar una investigación acerca de la comunicación asertiva y la dialógica para llevar a cabo una mesa de discusión con la finalidad de expresar acciones para erradicar la violencia y el racismo en diversos ámbitos.",
+        "horizon2Raw": "Investigar qué es una mesa de discusión y conformar una basada en la comunicación asertiva y la dialógica sobre acciones para erradicar la violencia en nuestro entorno.",
+        "sourcePages": [
+          "Visión — Horizonte 1 (p. 31)"
+        ],
+        "evidence": "Extraído por visión de imagen de la página 31 del libro de proyectos. Confianza: alta.",
+        "status": "confirmed-from-project-book",
+        "extractedAt": "2026-06-16T05:00:28.681Z"
+      }
+    },
+    {
+      "id": "lenguajes-1-ppa-12-pa35",
+      "projectId": "lenguajes-1-ppa-12-pa35",
+      "academicProjectNumber": 35,
+      "projectTitle": "Rompiendo el ciclo",
+      "grade": "1",
+      "field": "Lenguajes",
+      "ppaNumber": "12",
+      "partialClassroomProject": "PPA 12",
+      "partialClassroomProjectTitle": "Puentes de comunicación en construcción",
+      "bookVolume": "Tomo III",
+      "sourceValidation": {
+        "sourceStatus": "linked",
+        "possibilitiesPages": [
+          28
+        ],
+        "possibilitiesMaterialId": "grade-1-posibilidades-pos-len-1",
+        "possibilitiesColumnIndex": 2,
+        "columnEvidence": "Validación visual y textual: la columna 2 del bloque PPA 12 en Posibilidades p. 28 corresponde a PA35 y se articula con el collage informativo descrito en Nuestro libro de proyectos pp. 35-38."
+      },
+      "finalProduct": {
+        "title": "Collage informativo",
+        "source": "Posibilidades de uso Lenguajes p. 28 + Nuestro libro de proyectos Tomo III pp. 35-38",
+        "status": "confirmed"
+      },
+      "sourcePages": {
+        "nuestroLibroProyectos": [
+          {
+            "materialId": "grade-1-proyectos-nuestro-libro-de-proyectos-tomo-iii-primer-grado",
+            "label": "Nuestro libro de proyectos Tomo III",
+            "startPage": 35,
+            "endPage": 38,
+            "pagesLabel": "pp. 35-38",
+            "topicTitle": "Proyecto académico 35",
+            "status": "confirmed-source"
+          }
+        ],
+        "conceptBook": [
+          {
+            "materialId": "grade-1-conceptos-lenguajes-primer-grado",
+            "label": "Lenguajes",
+            "startPage": 214,
+            "endPage": 220,
+            "pagesLabel": "pp. 214-220",
+            "topicTitle": "Expresiones de violencia en inglés; rechazo a las violencias",
+            "status": "confirmed-source"
+          },
+          {
+            "materialId": "grade-1-conceptos-lenguajes-primer-grado",
+            "label": "Lenguajes",
+            "startPage": 94,
+            "endPage": 96,
+            "pagesLabel": "pp. 94-96",
+            "topicTitle": "Géneros periodísticos informativos",
+            "status": "confirmed-source"
+          }
+        ],
+        "multiplesLenguajes": [],
+        "otherMaterials": [
+          {
+            "label": "Video PPA 12: Puentes de comunicación en construcción",
+            "reference": "bit.ly/3VfglUk",
+            "status": "pending-validation"
+          },
+          {
+            "label": "Recurso de consulta del proyecto",
+            "reference": "Consulta: ¿Qué es un collage informativo y cuáles son sus características? bit.ly/3R0ForE",
+            "status": "pending-validation"
+          },
+          {
+            "label": "Recurso general del bloque",
+            "reference": "bit.ly/3RpbgXa",
+            "status": "pending-validation"
+          }
+        ]
+      },
+      "supportMaterials": [],
+      "horizonOrPurpose": {
+        "status": "confirmed-from-project-book",
+        "text": "Analizar notas periodísticas para identificar las causas y los factores de riesgo en situaciones de violencia. Éstas servirán para elaborar un collage y explicarlo, ante la comunidad, como método de prevención de la violencia.",
+        "source": "Visión — Horizonte 2 (p. 36)"
+      },
+      "detonatingStrategy": {
+        "status": "pending-validation",
+        "text": "Video PPA: Puentes de comunicación en construcción (bit.ly/3VfglUk)",
+        "source": "Nuestro libro de proyectos Tomo III p. 28"
+      },
+      "academicProjectStrategy": {
+        "status": "needsReview",
+        "text": "Consulta: ¿Qué es un collage informativo y cuáles son sus características? bit.ly/3R0ForE",
+        "source": "Nuestro libro de proyectos Tomo III p. 37"
+      },
+      "academicConcepts": [
+        {
+          "concept": "collage informativo",
+          "status": "confirmed",
+          "sourceBook": "Nuestro libro de proyectos Tomo III",
+          "sourcePages": [
+            35,
+            36,
+            37,
+            38
+          ],
+          "sourcePagesLabel": "pp. 35-38",
+          "topicTitle": "collage informativo",
+          "evidenceSnippet": "de violencia escolar, familiar o comunitaria, y elaborar un collage informativo integrado por imágenes y dibujos que muestren la interpretación de la noticia. Etapa 2. ¡Ése es el problema! La violencia puede ser directa o indirecta y ejerci",
+          "reason": "El proyecto nombra de forma explícita el collage informativo como producto central y como consulta de apoyo.",
+          "pedagogicalUse": "Organiza el producto visual y la selección de materiales con sentido interpretativo.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "expresiones de violencia en inglés",
+          "status": "confirmed",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            214,
+            215,
+            217,
+            220
+          ],
+          "sourcePagesLabel": "pp. 214-220",
+          "topicTitle": "expresiones de violencia en inglés",
+          "evidenceSnippet": "poder brindar ayuda y apoyo a las personas que las sufren. Expresiones de violencia en inglés Situaciones de violencia en los ambientes familiar y escolar La violencia doméstica muchas veces está ligada al deseo de control que una persona",
+          "reason": "Las páginas fuente trabajan de forma directa expresiones de violencia en inglés y coinciden con la noticia en inglés que pide el proyecto.",
+          "pedagogicalUse": "Permite discutir vocabulario, situaciones y rechazo a la violencia con base en una noticia concreta.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "situaciones de violencia en los ambientes familiar y escolar",
+          "status": "confirmed",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            215,
+            216,
+            217
+          ],
+          "sourcePagesLabel": "pp. 215-217",
+          "topicTitle": "situaciones de violencia en los ambientes familiar y escolar",
+          "evidenceSnippet": "Situaciones de violencia en los ambientes familiar y escolar La violencia doméstica muchas veces está ligada al deseo de control que una persona puede tener sobre uno o el resto de los miembros de una familia. Esta violencia produce mucho d",
+          "reason": "La fuente desarrolla el problema en los mismos ámbitos que el proyecto pide reconocer y comunicar.",
+          "pedagogicalUse": "Ayuda a contextualizar la noticia elegida y a evitar interpretaciones superficiales.",
+          "activityReadiness": "usable-for-resonance"
+        },
+        {
+          "concept": "expresiones de rechazo a las violencias familiar, social y escolar, y su difusión",
+          "status": "confirmed",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            217,
+            218,
+            219,
+            220
+          ],
+          "sourcePagesLabel": "pp. 217-220",
+          "topicTitle": "expresiones de rechazo a las violencias familiar, social y escolar, y su difusión",
+          "evidenceSnippet": "son víctimas del acoso físico o relacional fuera de línea. Expresiones de rechazo a las violencias familiar, social y escolar, y su difusión Es común que la violencia ejercida en casa se reproduzca en las escuelas o en otros ámbitos de la",
+          "reason": "El cierre del bloque propone acciones y difusión para rechazar la violencia, lo que se alinea con el mensaje del collage.",
+          "pedagogicalUse": "Sostiene el paso de la denuncia a la sensibilización pública mediante imágenes y textos breves.",
+          "activityReadiness": "usable-for-resonance"
+        },
+        {
+          "concept": "nota periodística",
+          "status": "confirmed",
+          "sourceBook": "Nuestro libro de proyectos Tomo III",
+          "sourcePages": [
+            35,
+            36,
+            37
+          ],
+          "sourcePagesLabel": "pp. 35-37",
+          "topicTitle": "nota periodística",
+          "evidenceSnippet": "35 Proyecto académico 35 Rompiendo el ciclo Las expresiones de violencia se refieren a todas aquellas conductas y actitudes que afectan negativamente a las personas y generan situaciones de conflicto, dolor y sufrimiento en diferentes ámbit",
+          "reason": "El proyecto pide elegir una noticia escrita en inglés y trabajarla como base del collage.",
+          "pedagogicalUse": "Ayuda a revisar fuente, hecho reportado y sentido de la interpretación visual.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "géneros periodísticos informativos",
+          "status": "confirmed",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            94,
+            95,
+            96
+          ],
+          "sourcePagesLabel": "pp. 94-96",
+          "topicTitle": "géneros periodísticos informativos",
+          "evidenceSnippet": "Los géneros periodísticos informativos La esencia de los géneros periodísticos está más presente en la vida cotidiana- de lo que podría pensarse. Cuando un o una estudiante llega por primera vez a un salón de clases o a un lugar nuevo, es c",
+          "reason": "Las páginas fuente desarrollan de forma clara la lógica informativa de noticia, entrevista y reportaje, útil para leer la nota elegida.",
+          "pedagogicalUse": "Permite distinguir entre informar e interpretar antes de trasladar la noticia al collage.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "formas de interpretar las notas periodísticas",
+          "status": "suggested",
+          "sourceBook": "Nuestro libro de proyectos Tomo III",
+          "sourcePages": [
+            36,
+            37,
+            38
+          ],
+          "sourcePagesLabel": "pp. 36-38",
+          "topicTitle": "formas de interpretar las notas periodísticas",
+          "evidenceSnippet": "violencia W Las notas periodísticas y sus características W Formas de interpretar las notas periodísticas Etapa 6. Unimos las piezas A lo largo del proyecto se han llevado a cabo diversas actividades que les han permitido adquirir nuevos co",
+          "reason": "La interpretación de la noticia es una exigencia explícita del proyecto, pero el concepto necesita seguir apoyado por práctica guiada.",
+          "pedagogicalUse": "Puede sostener preguntas de lectura crítica y de selección de imágenes.",
+          "activityReadiness": "usable-for-resonance"
+        },
+        {
+          "concept": "causas y factores de riesgo de la violencia",
+          "status": "needsReview",
+          "sourceBook": "Nuestro libro de proyectos Tomo III",
+          "sourcePages": [
+            36,
+            37
+          ],
+          "sourcePagesLabel": "pp. 36-37",
+          "topicTitle": "causas y factores de riesgo de la violencia",
+          "evidenceSnippet": "os de violencia W Las formas de expresión de la violencia W Causas y factores de riesgo de la violencia W Las notas periodísticas y sus características W Formas de interpretar las notas periodísticas Etapa 6. Unimos las piezas A lo largo de",
+          "reason": "El proyecto las menciona en las fuentes de consulta, pero todavía no hay soporte suficiente para fijarlas como núcleo conceptual ya validado.",
+          "pedagogicalUse": "Conviene tratarlas como apoyo contextual y no como cierre conceptual definitivo.",
+          "activityReadiness": "not-usable-yet"
+        }
+      ],
+      "thinkingCriteria": [
+        "Interpretar una noticia y distinguir información, imagen e intención comunicativa.",
+        "Reconocer tipos y consecuencias de la violencia sin volverla espectáculo.",
+        "Transformar una lectura periodística en una pieza visual con sentido crítico."
+      ],
+      "readinessLevel": "development-partial",
+      "readyForActivities": false,
+      "needsReviewReasons": [
+        "No hay apoyo confirmado de Múltiples Lenguajes para esta columna.",
+        "Las páginas 94-96 se sostienen como apoyo al trabajo con noticias, pero no convierten automáticamente todo el bloque 89-96 en núcleo del proyecto."
+      ],
+      "projectExpectationHorizon": {
+        "officialText": "Analizar notas periodísticas para identificar las causas y los factores de riesgo en situaciones de violencia. Éstas servirán para elaborar un collage y explicarlo, ante la comunidad, como método de prevención de la violencia.",
+        "studentVersion": "Analizar notas periodísticas para identificar las causas y los factores de riesgo en situaciones de violencia. Éstas servirán para elaborar un collage y explicarlo, ante la comunidad, como método de prevención de la violencia.",
+        "horizon1Raw": "Revisar notas periodísticas para identificar expresiones de violencia escolar, familiar o comunitaria, con la intención de analizarla e interpretarla mediante un collage.",
+        "horizon2Raw": "Analizar notas periodísticas para identificar las causas y los factores de riesgo en situaciones de violencia. Éstas servirán para elaborar un collage y explicarlo, ante la comunidad, como método de prevención de la violencia.",
+        "sourcePages": [
+          "Visión — Horizonte 2 (p. 36)"
+        ],
+        "evidence": "Extraído por visión de imagen de la página 36 del libro de proyectos. Confianza: alta.",
+        "status": "confirmed-from-project-book",
+        "extractedAt": "2026-06-16T05:07:22.028Z"
+      }
+    },
+    {
+      "id": "lenguajes-1-ppa-12-pa36",
+      "projectId": "lenguajes-1-ppa-12-pa36",
+      "academicProjectNumber": 36,
+      "projectTitle": "Uniendo esfuerzos",
+      "grade": "1",
+      "field": "Lenguajes",
+      "ppaNumber": "12",
+      "partialClassroomProject": "PPA 12",
+      "partialClassroomProjectTitle": "Puentes de comunicación en construcción",
+      "bookVolume": "Tomo III",
+      "sourceValidation": {
+        "sourceStatus": "linked",
+        "possibilitiesPages": [
+          28
+        ],
+        "possibilitiesMaterialId": "grade-1-posibilidades-pos-len-1",
+        "possibilitiesColumnIndex": 3,
+        "columnEvidence": "Validación visual y textual: la columna 3 del bloque PPA 12 en Posibilidades p. 28 corresponde a PA36 y se articula con el decálogo de acciones descrito en Nuestro libro de proyectos pp. 39-42; La grieta aparece como apoyo confirmado en esta columna."
+      },
+      "finalProduct": {
+        "title": "Decálogo de acciones",
+        "source": "Posibilidades de uso Lenguajes p. 28 + Nuestro libro de proyectos Tomo III pp. 39-42",
+        "status": "confirmed"
+      },
+      "sourcePages": {
+        "nuestroLibroProyectos": [
+          {
+            "materialId": "grade-1-proyectos-nuestro-libro-de-proyectos-tomo-iii-primer-grado",
+            "label": "Nuestro libro de proyectos Tomo III",
+            "startPage": 39,
+            "endPage": 42,
+            "pagesLabel": "pp. 39-42",
+            "topicTitle": "Proyecto académico 36",
+            "status": "confirmed-source"
+          }
+        ],
+        "conceptBook": [
+          {
+            "materialId": "grade-1-conceptos-lenguajes-primer-grado",
+            "label": "Lenguajes",
+            "startPage": 233,
+            "endPage": 240,
+            "pagesLabel": "pp. 233-240",
+            "topicTitle": "Identificación y solución de problemas comunitarios; redacción de un informe",
+            "status": "confirmed-source"
+          }
+        ],
+        "multiplesLenguajes": [
+          {
+            "materialId": "grade-1-apoyo-muiltiples-lenguajes-primer-grado",
+            "label": "Múltiples Lenguajes",
+            "startPage": 144,
+            "endPage": 150,
+            "pagesLabel": "pp. 144-150",
+            "topicTitle": "La grieta",
+            "status": "confirmed-source"
+          }
+        ],
+        "otherMaterials": [
+          {
+            "label": "Video PPA 12: Puentes de comunicación en construcción",
+            "reference": "bit.ly/3VfglUk",
+            "status": "pending-validation"
+          },
+          {
+            "label": "Recurso de consulta del proyecto",
+            "reference": "Recurso informático del bloque: Puentes de comunicación en construcción bit.ly/3WQBMwg",
+            "status": "pending-validation"
+          },
+          {
+            "label": "Recurso general del bloque",
+            "reference": "bit.ly/3RpbgXa",
+            "status": "pending-validation"
+          }
+        ]
+      },
+      "supportMaterials": [
+        {
+          "title": "La grieta",
+          "kind": "Múltiples Lenguajes",
+          "pages": "pp. 144-150",
+          "status": "confirmed-source"
+        }
+      ],
+      "horizonOrPurpose": {
+        "status": "confirmed-from-project-book",
+        "text": "Investigar diversas acciones que contribuyan a erradicar la violencia en diversos contextos para elaborar un decálogo de acciones.",
+        "source": "Visión — Horizonte 1 (p. 40)"
+      },
+      "detonatingStrategy": {
+        "status": "pending-validation",
+        "text": "Video PPA: Puentes de comunicación en construcción (bit.ly/3VfglUk)",
+        "source": "Nuestro libro de proyectos Tomo III p. 28"
+      },
+      "academicProjectStrategy": {
+        "status": "needsReview",
+        "text": "Recurso informático del bloque: Puentes de comunicación en construcción bit.ly/3WQBMwg",
+        "source": "Nuestro libro de proyectos Tomo III p. 43"
+      },
+      "academicConcepts": [
+        {
+          "concept": "decálogo de acciones",
+          "status": "confirmed",
+          "sourceBook": "Nuestro libro de proyectos Tomo III",
+          "sourcePages": [
+            39,
+            40,
+            41,
+            42
+          ],
+          "sourcePagesLabel": "pp. 39-42",
+          "topicTitle": "decálogo de acciones",
+          "evidenceSnippet": "esarrollar un diálogo abierto en comunidad para integrar un decálogo de acciones preventivas que puedan ser ejecutadas en colectivo, para contribuir a la erradicación de la violencia en cualquier contexto. Etapa 2. ¡Ése es el problema! La c",
+          "reason": "El proyecto lo nombra como producto central, objeto de consulta y forma de comunicación comunitaria.",
+          "pedagogicalUse": "Permite traducir acuerdos y propuestas en un formato claro, breve y socializable.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "acciones preventivas para erradicar la violencia",
+          "status": "confirmed",
+          "sourceBook": "Nuestro libro de proyectos Tomo III",
+          "sourcePages": [
+            39,
+            40,
+            41,
+            42
+          ],
+          "sourcePagesLabel": "pp. 39-42",
+          "topicTitle": "acciones preventivas para erradicar la violencia",
+          "evidenceSnippet": "39 Proyecto académico 36 Uniendo esfuerzos Inclusión: entre las habilidades de mayor utilidad en la vida académica y cotidiana, está la de escribir. Con ello se cumple la finalidad comunicativa. ❙ Las acciones colectivas a favor de la sensi",
+          "reason": "Las etapas del proyecto insisten en investigar, seleccionar y compartir acciones preventivas contra la violencia.",
+          "pedagogicalUse": "Ancla el decálogo en propuestas comunitarias concretas y no solo en frases generales.",
+          "activityReadiness": "usable-for-resonance"
+        },
+        {
+          "concept": "diálogo abierto en comunidad",
+          "status": "confirmed",
+          "sourceBook": "Nuestro libro de proyectos Tomo III",
+          "sourcePages": [
+            39,
+            40
+          ],
+          "sourcePagesLabel": "pp. 39-40",
+          "topicTitle": "diálogo abierto en comunidad",
+          "evidenceSnippet": "entre otros actores. Etapa 1. ¿Qué haremos? Desarrollar un diálogo abierto en comunidad para integrar un decálogo de acciones preventivas que puedan ser ejecutadas en colectivo, para contribuir a la erradicación de la violencia en cualquie",
+          "reason": "El proyecto lo señala como forma de trabajo para construir colectivamente el decálogo.",
+          "pedagogicalUse": "Ayuda a que las acciones surjan de acuerdos reales y no de una lista impuesta.",
+          "activityReadiness": "usable-for-resonance"
+        },
+        {
+          "concept": "identificación de problemas comunitarios",
+          "status": "confirmed",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            233,
+            234,
+            235
+          ],
+          "sourcePagesLabel": "pp. 233-235",
+          "topicTitle": "identificación de problemas comunitarios",
+          "evidenceSnippet": "icación y solución de problemas en textos de lengua inglesa Identificación de problemas comunitarios En las comunidades existen diversos problemas. Algunos pueden estar rela- cionados con cuestiones económicas, como el desempleo; otros son",
+          "reason": "La fuente desarrolla directamente cómo reconocer problemas comunitarios y priorizarlos.",
+          "pedagogicalUse": "Permite pasar de la denuncia general a la definición concreta del problema que el decálogo busca atender.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "soluciones a problemas comunitarios",
+          "status": "confirmed",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            236,
+            237,
+            238
+          ],
+          "sourcePagesLabel": "pp. 236-238",
+          "topicTitle": "soluciones a problemas comunitarios",
+          "evidenceSnippet": "zo para así atender y resolver los problemas más difíciles. Soluciones a problemas comunitarios La resolución de problemas es algo cotidiano para la humanidad, esto es, que en la vida diaria, el ser humano es capaz de afrontar distintas pro",
+          "reason": "Las páginas fuente explican cómo analizar obstáculos y proyectar soluciones colectivas viables.",
+          "pedagogicalUse": "Ayuda a valorar si las acciones del decálogo realmente responden al problema elegido.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "redacción de un informe",
+          "status": "suggested",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            238,
+            239,
+            240
+          ],
+          "sourcePagesLabel": "pp. 238-240",
+          "topicTitle": "redacción de un informe",
+          "evidenceSnippet": "el problema de la mejor manera dependerá de cada comunidad. Redacción de un informe La democratización de la vida pública no se relaciona sólo con participar en los sistemas de elección de gobernantes en periodos electorales; en diversas oc",
+          "reason": "Aparece en las páginas vinculadas, pero funciona mejor como apoyo metodológico que como núcleo confirmado del decálogo.",
+          "pedagogicalUse": "Puede servir para ordenar hallazgos o antecedentes antes de redactar las acciones del decálogo.",
+          "activityReadiness": "usable-for-resonance"
+        },
+        {
+          "concept": "instituciones que contribuyen a erradicar la violencia",
+          "status": "needsReview",
+          "sourceBook": "Nuestro libro de proyectos Tomo III",
+          "sourcePages": [
+            40
+          ],
+          "sourcePagesLabel": "p. 40",
+          "topicTitle": "instituciones que contribuyen a erradicar la violencia",
+          "evidenceSnippet": "39 Proyecto académico 36 Uniendo esfuerzos Inclusión: entre las habilidades de mayor utilidad en la vida académica y cotidiana, está la de escribir. Con ello se cumple la finalidad comunicativa. ❙ Las acciones colectivas a favor de la sensi",
+          "reason": "El proyecto las menciona como parte de la investigación, pero aún no hay una fuente conceptual específica suficientemente cerrada en las páginas asignadas.",
+          "pedagogicalUse": "Conviene manejarlo solo como línea de indagación complementaria.",
+          "activityReadiness": "not-usable-yet"
+        }
+      ],
+      "thinkingCriteria": [
+        "Identificar problemas comunitarios y priorizar acciones preventivas viables.",
+        "Traducir propuestas colectivas en acuerdos claros, breves y compartibles.",
+        "Distinguir entre diagnosticar un problema y proponer acciones comunitarias para atenderlo."
+      ],
+      "readinessLevel": "development-partial",
+      "readyForActivities": false,
+      "needsReviewReasons": [
+        "La redacción de un informe aparece en las páginas fuente, pero no debe desplazarse por encima del decálogo como producto central.",
+        "La página 43 del libro de proyectos funciona como cierre del PPA y recurso digital del bloque; no se toma como evidencia exclusiva de este PA."
+      ],
+      "projectExpectationHorizon": {
+        "officialText": "Investigar diversas acciones que contribuyan a erradicar la violencia en diversos contextos para elaborar un decálogo de acciones.",
+        "studentVersion": "Investigar diversas acciones que contribuyan a erradicar la violencia en diversos contextos para elaborar un decálogo de acciones.",
+        "horizon1Raw": "Investigar diversas acciones que contribuyan a erradicar la violencia en diversos contextos para elaborar un decálogo de acciones.",
+        "horizon2Raw": "Realizar un decálogo de acciones que contribuyan a erradicar la violencia para compartirlo con los integrantes de la comunidad.",
+        "sourcePages": [
+          "Visión — Horizonte 1 (p. 40)"
+        ],
+        "evidence": "Extraído por visión de imagen de la página 40 del libro de proyectos. Confianza: alta.",
+        "status": "confirmed-from-project-book",
+        "extractedAt": "2026-06-16T05:00:37.390Z"
+      }
+    }
+  ]
+}

@@ -1,0 +1,751 @@
+{
+  "grade": "2",
+  "gradeLabel": "Segundo grado",
+  "field": "Saberes y Pensamiento Científico",
+  "bookVolume": "Tomo III",
+  "partialClassroomProject": "PPA 14",
+  "partialClassroomProjectTitle": "Un futuro con energía",
+  "generatedAt": "2026-06-02T18:43:23.542Z",
+  "notes": "Capa curricular generada por lote para 2o Saberes y Pensamiento Científico, PPA 14.",
+  "sourcesUsed": [
+    "public/caracoles/data/generated/grade-2/selectable-projects.json",
+    "content/caracoles/generated-private/grade-2/pages-index.full.json",
+    "Posibilidades de uso SyPC, segundo grado, pp. 33-34",
+    "Nuestro libro de proyectos Tomo III, segundo grado, pp. 133-147",
+    "Saberes y Pensamiento Científico, segundo grado, pp. 17-21, 27-32, 41-46, 98-102, 106-111, 132-139, 177-181 y 208-217; Múltiples Lenguajes p. 92."
+  ],
+  "partialClassroomProjectContext": {
+    "expectationHorizon": {
+      "officialText": "",
+      "sourcePages": [
+        "Nuestro libro de proyectos Tomo III pp. 133-134",
+        "Posibilidades de uso SyPC pp. 33-34"
+      ],
+      "evidence": "El PPA 14 enlaza análisis comparativo, aprovechamiento solar y conservación de la energía mecánica para pensar un futuro energético más consciente.",
+      "status": "pending"
+    },
+    "ppaDetonatingStrategy": {
+      "title": "Un futuro con energía",
+      "type": "video",
+      "url": "",
+      "urlStatus": "pending-url",
+      "reference": "bit.ly/3VfglUk",
+      "source": "Nuestro libro de proyectos Tomo III pp. 133-134 + Posibilidades de uso SyPC pp. 33-34",
+      "scope": "partial-classroom-project",
+      "youtubeSearchQuery": "Un futuro con energía Saberes y Pensamiento Científico 2do grado Telesecundaria"
+    },
+    "ppaDigitalResource": {
+      "title": "Recurso informatico del bloque PPA 14",
+      "reference": "bit.ly/3WQBMwg",
+      "status": "pending-validation",
+      "source": "Nuestro libro de proyectos Tomo III pp. 133-147"
+    },
+    "validationStatus": {
+      "needsHumanReview": true,
+      "needsReviewReasons": [
+        "Las pp. 33-34 de Posibilidades pertenecen al mismo PPA 14.",
+        "La asignacion de apoyos por columna se fija por inferencia curricular documentada de izquierda a derecha.",
+        "Los enlaces cortos del video del PPA y del recurso informatico se mantienen en cautela hasta localizar un destino oficial confirmado.",
+        "El apoyo Jardines flotantes se mantiene como apoyo confirmado por inferencia de la tercera columna."
+      ]
+    },
+    "columnValidation": {
+      "possibilitiesPagesReviewed": [
+        33,
+        34
+      ],
+      "confirmedAsPpa": true,
+      "note": "Las pp. 33-34 corresponden al PPA 14 Un futuro con energía. Las tres columnas se sostienen por el orden de proyectos, productos y apoyos del mismo bloque.",
+      "columns": [
+        {
+          "columnIndex": 1,
+          "projectId": "saberes-y-pensamiento-cientifico-2-ppa-14-pa40",
+          "projectTitle": "Una mirada algebraica a las fuentes de energía",
+          "finalProduct": "Tabla comparativa mural e ilustrada",
+          "supportMaterials": []
+        },
+        {
+          "columnIndex": 2,
+          "projectId": "saberes-y-pensamiento-cientifico-2-ppa-14-pa41",
+          "projectTitle": "Energía solar: la luz que da vida y potencia nuestro futuro",
+          "finalProduct": "Campaña solar",
+          "supportMaterials": []
+        },
+        {
+          "columnIndex": 3,
+          "projectId": "saberes-y-pensamiento-cientifico-2-ppa-14-pa42",
+          "projectTitle": "Energía mecánica y sucesiones cuadráticas: un enfoque experimental",
+          "finalProduct": "Puesta en práctica mecánica",
+          "supportMaterials": [
+            "Jardines flotantes, p. 92"
+          ]
+        }
+      ]
+    }
+  },
+  "academicProjects": [
+    {
+      "id": "saberes-y-pensamiento-cientifico-2-ppa-14-pa40",
+      "projectId": "saberes-y-pensamiento-cientifico-2-ppa-14-pa40",
+      "academicProjectNumber": 40,
+      "title": "Una mirada algebraica a las fuentes de energía",
+      "projectTitle": "Una mirada algebraica a las fuentes de energía",
+      "grade": "2",
+      "field": "Saberes y Pensamiento Científico",
+      "ppaNumber": "14",
+      "partialClassroomProject": "PPA 14",
+      "partialClassroomProjectTitle": "Un futuro con energía",
+      "bookVolume": "Tomo III",
+      "sourceValidation": {
+        "sourceStatus": "linked",
+        "possibilitiesPages": [
+          33,
+          34
+        ],
+        "possibilitiesMaterialId": "grade-2-posibilidades-pos-sypc-2",
+        "possibilitiesColumnIndex": 1,
+        "columnEvidence": "Bloque PPA 14 Un futuro con energía localizado en pp. 33-34; la columna 1 se confirma por el orden de proyectos, productos y continuidad del mismo bloque."
+      },
+      "finalProduct": {
+        "title": "Tabla comparativa mural e ilustrada",
+        "source": "Posibilidades de uso SyPC pp. 33-34 + Nuestro libro de proyectos Tomo III pp. 135-138",
+        "status": "confirmed"
+      },
+      "sourcePages": {
+        "nuestroLibroProyectos": [
+          {
+            "materialId": "grade-2-proyectos-nuestro-libro-de-proyectos-tomo-3-segundo-grado",
+            "label": "Nuestro libro de proyectos Tomo III",
+            "startPage": 135,
+            "endPage": 138,
+            "pagesLabel": "pp. 135-138",
+            "topicTitle": "Proyecto academico 40",
+            "status": "confirmed-source"
+          }
+        ],
+        "conceptBook": [
+          {
+            "materialId": "grade-2-conceptos-saberes-y-pensamiento-cientifico-segundo-grado",
+            "label": "Saberes y Pensamiento Científico",
+            "startPage": 27,
+            "endPage": 32,
+            "pagesLabel": "pp. 27-32",
+            "topicTitle": "Desigualdades con expresiones algebraicas",
+            "status": "confirmed-by-column-inference"
+          },
+          {
+            "materialId": "grade-2-conceptos-saberes-y-pensamiento-cientifico-segundo-grado",
+            "label": "Saberes y Pensamiento Científico",
+            "startPage": 208,
+            "endPage": 217,
+            "pagesLabel": "pp. 208-217",
+            "topicTitle": "Fuentes de energía",
+            "status": "confirmed-by-column-inference"
+          }
+        ],
+        "multiplesLenguajes": [],
+        "otherMaterials": [
+          {
+            "label": "Video PPA 14: Un futuro con energía",
+            "reference": "bit.ly/3VfglUk",
+            "status": "pending-validation"
+          }
+        ]
+      },
+      "supportMaterials": [],
+      "horizonOrPurpose": {
+        "status": "official",
+        "text": "Comparar diversas fuentes de energía renovables y no renovables con el uso de expresiones de desigualdades mediante una tabla comparativa mural e ilustrada para analizar las ventajas y desventajas de cada fuente de energía, de manera que se puedan tomar decisiones informadas sobre su uso.",
+        "source": "Nuestro libro de proyectos Tomo III p. 135"
+      },
+      "projectExpectationHorizon": {
+        "officialText": "Consultar fuentes de información confiables como libros o internet para aprender sobre las fuentes de energía renovables y no renovables, su impacto en el medio ambiente y su sostenibilidad. También, incluir la información en una tabla comparativa mural e ilustrada.",
+        "studentVersion": "Comparar con una tabla ilustrada las ventajas y desventajas de distintas fuentes de energía para tomar decisiones informadas.",
+        "sourcePages": [
+          "Nuestro libro de proyectos Tomo III p. 136"
+        ],
+        "evidence": "La etapa 1 y el objetivo 1 fijan la tabla comparativa mural e ilustrada como producto para contrastar fuentes de energía.",
+        "status": "official"
+      },
+      "detonatingStrategy": {
+        "status": "pending-url",
+        "text": "Video PPA 14: Un futuro con energía",
+        "reference": "bit.ly/3VfglUk",
+        "source": "Nuestro libro de proyectos Tomo III pp. 133-134 + Posibilidades de uso SyPC pp. 33-34"
+      },
+      "academicProjectStrategy": {
+        "title": "Tabla comparativa mural e ilustrada",
+        "text": "Construir una tabla comparativa mural que relacione desigualdades, sostenibilidad y fuentes de energía renovables y no renovables.",
+        "type": "project-product",
+        "status": "confirmed-from-project-book",
+        "source": "Nuestro libro de proyectos Tomo III pp. 135-138"
+      },
+      "academicConcepts": [
+        {
+          "concept": "tabla comparativa mural e ilustrada",
+          "description": "Tabla comparativa mural e ilustrada como producto de cierre para organizar y comunicar aprendizajes del proyecto.",
+          "sourceBook": "Nuestro libro de proyectos Tomo III",
+          "sourcePages": [
+            135,
+            138
+          ],
+          "sourcePagesLabel": "pp. 135-138",
+          "topicTitle": "Proyecto academico 40",
+          "status": "confirmed",
+          "reason": "Posibilidades y el propio proyecto fijan Tabla comparativa mural e ilustrada como producto final del PA 40.",
+          "pedagogicalUse": "Da una forma concreta de socializar lo comprendido sobre la comparación entre fuentes de energía renovables y no renovables mediante desigualdades y criterios de sostenibilidad.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "energías renovables",
+          "description": "Energías renovables es una idea clave para comprender la comparación entre fuentes de energía renovables y no renovables mediante desigualdades y criterios de sostenibilidad.",
+          "sourceBook": "Saberes y Pensamiento Científico",
+          "sourcePages": [
+            208,
+            217
+          ],
+          "sourcePagesLabel": "pp. 208-217",
+          "topicTitle": "Fuentes de energía",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Fuentes de energía\" aporta base suficiente para trabajar energías renovables dentro del proyecto 40.",
+          "pedagogicalUse": "Ayuda a fortalecer tabla comparativa mural e ilustrada y a explicar la comparación entre fuentes de energía renovables y no renovables mediante desigualdades y criterios de sostenibilidad con mayor claridad mediante energías renovables.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "energías no renovables",
+          "description": "Energías no renovables es una idea clave para comprender la comparación entre fuentes de energía renovables y no renovables mediante desigualdades y criterios de sostenibilidad.",
+          "sourceBook": "Saberes y Pensamiento Científico",
+          "sourcePages": [
+            208,
+            217
+          ],
+          "sourcePagesLabel": "pp. 208-217",
+          "topicTitle": "Fuentes de energía",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Fuentes de energía\" aporta base suficiente para trabajar energías no renovables dentro del proyecto 40.",
+          "pedagogicalUse": "Ayuda a fortalecer tabla comparativa mural e ilustrada y a explicar la comparación entre fuentes de energía renovables y no renovables mediante desigualdades y criterios de sostenibilidad con mayor claridad mediante energías no renovables.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "desigualdades algebraicas",
+          "description": "Desigualdades algebraicas es una idea clave para comprender la comparación entre fuentes de energía renovables y no renovables mediante desigualdades y criterios de sostenibilidad.",
+          "sourceBook": "Saberes y Pensamiento Científico",
+          "sourcePages": [
+            27,
+            32
+          ],
+          "sourcePagesLabel": "pp. 27-32",
+          "topicTitle": "Desigualdades con expresiones algebraicas",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Desigualdades con expresiones algebraicas\" aporta base suficiente para trabajar desigualdades algebraicas dentro del proyecto 40.",
+          "pedagogicalUse": "Ayuda a fortalecer tabla comparativa mural e ilustrada y a explicar la comparación entre fuentes de energía renovables y no renovables mediante desigualdades y criterios de sostenibilidad con mayor claridad mediante desigualdades algebraicas.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "sostenibilidad",
+          "description": "Sostenibilidad es una idea clave para comprender la comparación entre fuentes de energía renovables y no renovables mediante desigualdades y criterios de sostenibilidad.",
+          "sourceBook": "Nuestro libro de proyectos Tomo III",
+          "sourcePages": [
+            135,
+            136,
+            137
+          ],
+          "sourcePagesLabel": "pp. 135-137",
+          "topicTitle": "Proyecto académico 40",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Proyecto académico 40\" aporta base suficiente para trabajar sostenibilidad dentro del proyecto 40.",
+          "pedagogicalUse": "Ayuda a fortalecer tabla comparativa mural e ilustrada y a explicar la comparación entre fuentes de energía renovables y no renovables mediante desigualdades y criterios de sostenibilidad con mayor claridad mediante sostenibilidad.",
+          "activityReadiness": "usable-for-autoevaluation"
+        }
+      ],
+      "thinkingCriteria": [
+        "Relacionar la comparación entre fuentes de energía renovables y no renovables mediante desigualdades y criterios de sostenibilidad con situaciones cercanas a la comunidad.",
+        "Usar tabla comparativa mural e ilustrada para explicar y no solo para recopilar informacion.",
+        "Distinguir entre mencionar conceptos y comprender como dialogan entre si dentro del proyecto."
+      ],
+      "validationStatus": {
+        "readinessLevel": "development-partial",
+        "readyForActivities": false,
+        "needsReviewReasons": [
+          "El bloque 14 ya es usable como lectura docente, pero el video del PPA 14 y el recurso informatico siguen pendientes de validacion de destino final.",
+          "La asignacion de apoyos de Posibilidades se sostiene por inferencia curricular documentada y no por OCR perfectamente separado por columnas.",
+          "No mover a actividades interactivas ni desbloquear juegos completos hasta ampliar validacion de videos y recursos complementarios."
+        ]
+      },
+      "readinessLevel": "development-partial",
+      "readyForActivities": false,
+      "needsReviewReasons": [
+        "No mover a actividades interactivas ni desbloquear juegos completos."
+      ],
+      "roleInPpa": "Abre el bloque al contrastar fuentes de energía y ofrecer criterios para decidir sobre su uso.",
+      "pedagogicalUse": "Conviene trabajar Una mirada algebraica a las fuentes de energía como una oportunidad para profundizar en la comparación entre fuentes de energía renovables y no renovables mediante desigualdades y criterios de sostenibilidad sin separar contenido, comunidad y producto final.",
+      "teacherNotes": [
+        "Conviene partir de ejemplos cercanos y después pasar al lenguaje mas abstracto del campo.",
+        "El producto Tabla comparativa mural e ilustrada gana fuerza cuando se usa para explicar y no solo para exhibir informacion.",
+        "Es mejor seleccionar pocos conceptos bien comprendidos que saturar el trabajo con terminos aislados."
+      ],
+      "resonancePrompts": [
+        {
+          "type": "individual",
+          "prompt": "¿Qué comprendes mejor sobre la comparación entre fuentes de energía renovables y no renovables mediante desigualdades y criterios de sostenibilidad después de elaborar tabla comparativa mural e ilustrada?"
+        },
+        {
+          "type": "community",
+          "prompt": "¿Qué criterios ayudarían a la comunidad a discutir mejor el uso responsable de distintas fuentes de energía?"
+        }
+      ],
+      "notReadyFor": [
+        "full-games",
+        "summative-exam"
+      ]
+    },
+    {
+      "id": "saberes-y-pensamiento-cientifico-2-ppa-14-pa41",
+      "projectId": "saberes-y-pensamiento-cientifico-2-ppa-14-pa41",
+      "academicProjectNumber": 41,
+      "title": "Energía solar: la luz que da vida y potencia nuestro futuro",
+      "projectTitle": "Energía solar: la luz que da vida y potencia nuestro futuro",
+      "grade": "2",
+      "field": "Saberes y Pensamiento Científico",
+      "ppaNumber": "14",
+      "partialClassroomProject": "PPA 14",
+      "partialClassroomProjectTitle": "Un futuro con energía",
+      "bookVolume": "Tomo III",
+      "sourceValidation": {
+        "sourceStatus": "linked",
+        "possibilitiesPages": [
+          33,
+          34
+        ],
+        "possibilitiesMaterialId": "grade-2-posibilidades-pos-sypc-2",
+        "possibilitiesColumnIndex": 2,
+        "columnEvidence": "Bloque PPA 14 Un futuro con energía localizado en pp. 33-34; la columna 2 se confirma por el orden de proyectos, productos y continuidad del mismo bloque."
+      },
+      "finalProduct": {
+        "title": "Campaña solar",
+        "source": "Posibilidades de uso SyPC pp. 33-34 + Nuestro libro de proyectos Tomo III pp. 139-142",
+        "status": "confirmed"
+      },
+      "sourcePages": {
+        "nuestroLibroProyectos": [
+          {
+            "materialId": "grade-2-proyectos-nuestro-libro-de-proyectos-tomo-3-segundo-grado",
+            "label": "Nuestro libro de proyectos Tomo III",
+            "startPage": 139,
+            "endPage": 142,
+            "pagesLabel": "pp. 139-142",
+            "topicTitle": "Proyecto academico 41",
+            "status": "confirmed-source"
+          }
+        ],
+        "conceptBook": [
+          {
+            "materialId": "grade-2-conceptos-saberes-y-pensamiento-cientifico-segundo-grado",
+            "label": "Saberes y Pensamiento Científico",
+            "startPage": 41,
+            "endPage": 46,
+            "pagesLabel": "pp. 41-46",
+            "topicTitle": "La proporcionalidad inversa de dos magnitudes o cantidades y su representación",
+            "status": "confirmed-by-column-inference"
+          },
+          {
+            "materialId": "grade-2-conceptos-saberes-y-pensamiento-cientifico-segundo-grado",
+            "label": "Saberes y Pensamiento Científico",
+            "startPage": 177,
+            "endPage": 181,
+            "pagesLabel": "pp. 177-181",
+            "topicTitle": "Energía solar",
+            "status": "confirmed-by-column-inference"
+          }
+        ],
+        "multiplesLenguajes": [],
+        "otherMaterials": [
+          {
+            "label": "Video PPA 14: Un futuro con energía",
+            "reference": "bit.ly/3VfglUk",
+            "status": "pending-validation"
+          }
+        ]
+      },
+      "supportMaterials": [],
+      "horizonOrPurpose": {
+        "status": "official",
+        "text": "Comprender cómo la energía solar puede ser utilizada de manera eficiente y sostenible en situaciones cotidianas, mediante la relación de proporcionalidad inversa entre la energía solar y la materia, a partir de tablas, gráficas y representaciones algebraicas en una campaña solar para concientizar sobre el aprovechamiento de este tipo de energía.",
+        "source": "Nuestro libro de proyectos Tomo III p. 139"
+      },
+      "projectExpectationHorizon": {
+        "officialText": "Realizar una investigación, ya sea en libros, en internet o con personas de la comunidad, respecto a las características de la energía solar y sus beneficios para identificar la información que se compartirá en la campaña y promover dicha energía.",
+        "studentVersion": "Diseñar una campaña solar que muestre beneficios, usos y formas de aprovechar mejor la energía del Sol.",
+        "sourcePages": [
+          "Nuestro libro de proyectos Tomo III p. 140"
+        ],
+        "evidence": "La etapa 1 y el objetivo 1 fijan la campaña solar como producto para comunicar el aprovechamiento sostenible de la energía solar.",
+        "status": "official"
+      },
+      "detonatingStrategy": {
+        "status": "pending-url",
+        "text": "Video PPA 14: Un futuro con energía",
+        "reference": "bit.ly/3VfglUk",
+        "source": "Nuestro libro de proyectos Tomo III pp. 137-138 + Posibilidades de uso SyPC pp. 33-34"
+      },
+      "academicProjectStrategy": {
+        "title": "Campaña solar",
+        "text": "Diseñar una campaña solar que relacione datos, proporcionalidad inversa y beneficios comunitarios del uso de la energía solar.",
+        "type": "project-product",
+        "status": "confirmed-from-project-book",
+        "source": "Nuestro libro de proyectos Tomo III pp. 139-142"
+      },
+      "academicConcepts": [
+        {
+          "concept": "campaña solar",
+          "description": "Campaña solar como producto de cierre para organizar y comunicar aprendizajes del proyecto.",
+          "sourceBook": "Nuestro libro de proyectos Tomo III",
+          "sourcePages": [
+            139,
+            142
+          ],
+          "sourcePagesLabel": "pp. 139-142",
+          "topicTitle": "Proyecto academico 41",
+          "status": "confirmed",
+          "reason": "Posibilidades y el propio proyecto fijan Campaña solar como producto final del PA 41.",
+          "pedagogicalUse": "Da una forma concreta de socializar lo comprendido sobre el aprovechamiento eficiente y sostenible de la energía solar con apoyo de proporcionalidad inversa, tablas, gráficas y representaciones algebraicas.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "energía solar",
+          "description": "Energía solar es una idea clave para comprender el aprovechamiento eficiente y sostenible de la energía solar con apoyo de proporcionalidad inversa, tablas, gráficas y representaciones algebraicas.",
+          "sourceBook": "Saberes y Pensamiento Científico",
+          "sourcePages": [
+            177,
+            181
+          ],
+          "sourcePagesLabel": "pp. 177-181",
+          "topicTitle": "Energía solar",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Energía solar\" aporta base suficiente para trabajar energía solar dentro del proyecto 41.",
+          "pedagogicalUse": "Ayuda a fortalecer campaña solar y a explicar el aprovechamiento eficiente y sostenible de la energía solar con apoyo de proporcionalidad inversa, tablas, gráficas y representaciones algebraicas con mayor claridad mediante energía solar.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "proporcionalidad inversa",
+          "description": "Proporcionalidad inversa es una idea clave para comprender el aprovechamiento eficiente y sostenible de la energía solar con apoyo de proporcionalidad inversa, tablas, gráficas y representaciones algebraicas.",
+          "sourceBook": "Saberes y Pensamiento Científico",
+          "sourcePages": [
+            41,
+            46
+          ],
+          "sourcePagesLabel": "pp. 41-46",
+          "topicTitle": "La proporcionalidad inversa de dos magnitudes o cantidades y su representación",
+          "status": "confirmed",
+          "reason": "La fuente validada \"La proporcionalidad inversa de dos magnitudes o cantidades y su representación\" aporta base suficiente para trabajar proporcionalidad inversa dentro del proyecto 41.",
+          "pedagogicalUse": "Ayuda a fortalecer campaña solar y a explicar el aprovechamiento eficiente y sostenible de la energía solar con apoyo de proporcionalidad inversa, tablas, gráficas y representaciones algebraicas con mayor claridad mediante proporcionalidad inversa.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "tablas",
+          "description": "Tablas es una idea clave para comprender el aprovechamiento eficiente y sostenible de la energía solar con apoyo de proporcionalidad inversa, tablas, gráficas y representaciones algebraicas.",
+          "sourceBook": "Nuestro libro de proyectos Tomo III",
+          "sourcePages": [
+            139,
+            140,
+            141
+          ],
+          "sourcePagesLabel": "pp. 139-141",
+          "topicTitle": "Proyecto académico 41",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Proyecto académico 41\" aporta base suficiente para trabajar tablas dentro del proyecto 41.",
+          "pedagogicalUse": "Ayuda a fortalecer campaña solar y a explicar el aprovechamiento eficiente y sostenible de la energía solar con apoyo de proporcionalidad inversa, tablas, gráficas y representaciones algebraicas con mayor claridad mediante tablas.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "representaciones algebraicas",
+          "description": "Representaciones algebraicas es una idea clave para comprender el aprovechamiento eficiente y sostenible de la energía solar con apoyo de proporcionalidad inversa, tablas, gráficas y representaciones algebraicas.",
+          "sourceBook": "Nuestro libro de proyectos Tomo III",
+          "sourcePages": [
+            139,
+            140,
+            141
+          ],
+          "sourcePagesLabel": "pp. 139-141",
+          "topicTitle": "Proyecto académico 41",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Proyecto académico 41\" aporta base suficiente para trabajar representaciones algebraicas dentro del proyecto 41.",
+          "pedagogicalUse": "Ayuda a fortalecer campaña solar y a explicar el aprovechamiento eficiente y sostenible de la energía solar con apoyo de proporcionalidad inversa, tablas, gráficas y representaciones algebraicas con mayor claridad mediante representaciones algebraicas.",
+          "activityReadiness": "usable-for-autoevaluation"
+        }
+      ],
+      "thinkingCriteria": [
+        "Relacionar el aprovechamiento eficiente y sostenible de la energía solar con apoyo de proporcionalidad inversa, tablas, gráficas y representaciones algebraicas con situaciones cercanas a la comunidad.",
+        "Usar campaña solar para explicar y no solo para recopilar informacion.",
+        "Distinguir entre mencionar conceptos y comprender como dialogan entre si dentro del proyecto."
+      ],
+      "validationStatus": {
+        "readinessLevel": "development-partial",
+        "readyForActivities": false,
+        "needsReviewReasons": [
+          "El bloque 14 ya es usable como lectura docente, pero el video del PPA 14 y el recurso informatico siguen pendientes de validacion de destino final.",
+          "La asignacion de apoyos de Posibilidades se sostiene por inferencia curricular documentada y no por OCR perfectamente separado por columnas.",
+          "No mover a actividades interactivas ni desbloquear juegos completos hasta ampliar validacion de videos y recursos complementarios."
+        ]
+      },
+      "readinessLevel": "development-partial",
+      "readyForActivities": false,
+      "needsReviewReasons": [
+        "No mover a actividades interactivas ni desbloquear juegos completos."
+      ],
+      "roleInPpa": "Profundiza el bloque al traducir el potencial de la energía solar en una campaña de concientización cercana al entorno.",
+      "pedagogicalUse": "Conviene trabajar Energía solar: la luz que da vida y potencia nuestro futuro como una oportunidad para profundizar en el aprovechamiento eficiente y sostenible de la energía solar con apoyo de proporcionalidad inversa, tablas, gráficas y representaciones algebraicas sin separar contenido, comunidad y producto final.",
+      "teacherNotes": [
+        "Conviene partir de ejemplos cercanos y después pasar al lenguaje mas abstracto del campo.",
+        "El producto Campaña solar gana fuerza cuando se usa para explicar y no solo para exhibir informacion.",
+        "Es mejor seleccionar pocos conceptos bien comprendidos que saturar el trabajo con terminos aislados."
+      ],
+      "resonancePrompts": [
+        {
+          "type": "individual",
+          "prompt": "¿Qué comprendes mejor sobre el aprovechamiento eficiente y sostenible de la energía solar con apoyo de proporcionalidad inversa, tablas, gráficas y representaciones algebraicas después de elaborar campaña solar?"
+        },
+        {
+          "type": "community",
+          "prompt": "¿Qué usos cotidianos de la energía solar podrían tener más sentido en la comunidad si se explican con datos y ejemplos claros?"
+        }
+      ],
+      "notReadyFor": [
+        "full-games",
+        "summative-exam"
+      ]
+    },
+    {
+      "id": "saberes-y-pensamiento-cientifico-2-ppa-14-pa42",
+      "projectId": "saberes-y-pensamiento-cientifico-2-ppa-14-pa42",
+      "academicProjectNumber": 42,
+      "title": "Energía mecánica y sucesiones cuadráticas: un enfoque experimental",
+      "projectTitle": "Energía mecánica y sucesiones cuadráticas: un enfoque experimental",
+      "grade": "2",
+      "field": "Saberes y Pensamiento Científico",
+      "ppaNumber": "14",
+      "partialClassroomProject": "PPA 14",
+      "partialClassroomProjectTitle": "Un futuro con energía",
+      "bookVolume": "Tomo III",
+      "sourceValidation": {
+        "sourceStatus": "linked",
+        "possibilitiesPages": [
+          33,
+          34
+        ],
+        "possibilitiesMaterialId": "grade-2-posibilidades-pos-sypc-2",
+        "possibilitiesColumnIndex": 3,
+        "columnEvidence": "Bloque PPA 14 Un futuro con energía localizado en pp. 33-34; la columna 3 se confirma por el orden de proyectos, productos y continuidad del mismo bloque."
+      },
+      "finalProduct": {
+        "title": "Puesta en práctica mecánica",
+        "source": "Posibilidades de uso SyPC pp. 33-34 + Nuestro libro de proyectos Tomo III pp. 143-147",
+        "status": "confirmed"
+      },
+      "sourcePages": {
+        "nuestroLibroProyectos": [
+          {
+            "materialId": "grade-2-proyectos-nuestro-libro-de-proyectos-tomo-3-segundo-grado",
+            "label": "Nuestro libro de proyectos Tomo III",
+            "startPage": 143,
+            "endPage": 147,
+            "pagesLabel": "pp. 143-147",
+            "topicTitle": "Proyecto academico 42",
+            "status": "confirmed-source"
+          }
+        ],
+        "conceptBook": [
+          {
+            "materialId": "grade-2-conceptos-saberes-y-pensamiento-cientifico-segundo-grado",
+            "label": "Saberes y Pensamiento Científico",
+            "startPage": 106,
+            "endPage": 111,
+            "pagesLabel": "pp. 106-111",
+            "topicTitle": "Sucesiones cuadráticas",
+            "status": "confirmed-by-column-inference"
+          },
+          {
+            "materialId": "grade-2-conceptos-saberes-y-pensamiento-cientifico-segundo-grado",
+            "label": "Saberes y Pensamiento Científico",
+            "startPage": 132,
+            "endPage": 139,
+            "pagesLabel": "pp. 132-139",
+            "topicTitle": "Conservación de la energía mecánica",
+            "status": "confirmed-by-column-inference"
+          }
+        ],
+        "multiplesLenguajes": [
+          {
+            "materialId": "grade-2-apoyo-multiples-lenguajes-segundo-grado",
+            "label": "Multiples Lenguajes",
+            "startPage": 92,
+            "endPage": 92,
+            "pagesLabel": "p. 92",
+            "topicTitle": "Jardines flotantes",
+            "status": "confirmed-by-column-inference"
+          }
+        ],
+        "otherMaterials": [
+          {
+            "label": "Video PPA 14: Un futuro con energía",
+            "reference": "bit.ly/3VfglUk",
+            "status": "pending-validation"
+          }
+        ]
+      },
+      "supportMaterials": [
+        {
+          "title": "Jardines flotantes",
+          "kind": "Multiples Lenguajes",
+          "pages": "p. 92",
+          "status": "confirmed-by-column-inference"
+        }
+      ],
+      "horizonOrPurpose": {
+        "status": "official",
+        "text": "Analizar la conservación de la energía mecánica mediante una puesta en práctica mecánica con el uso de sucesiones con progresión cuadrática de números, que permita analizar y predecir el comportamiento energético de los sistemas mecánicos para una comprensión más profunda sobre cómo se manifiesta y se mantiene la energía en el mundo físico.",
+        "source": "Nuestro libro de proyectos Tomo III p. 143"
+      },
+      "projectExpectationHorizon": {
+        "officialText": "Diseñar un experimento con materiales que sean fáciles de adquirir para entender la relación de la conservación de la energía y las sucesiones cuadráticas.",
+        "studentVersion": "Realizar una puesta en práctica mecánica para observar cómo se conserva la energía y cómo puede modelarse con sucesiones cuadráticas.",
+        "sourcePages": [
+          "Nuestro libro de proyectos Tomo III p. 144"
+        ],
+        "evidence": "La etapa 1 y el objetivo 2 fijan la puesta en práctica mecánica como producto para experimentar conservación de la energía mecánica y modelación cuadrática.",
+        "status": "official"
+      },
+      "detonatingStrategy": {
+        "status": "pending-url",
+        "text": "Video PPA 14: Un futuro con energía",
+        "reference": "bit.ly/3VfglUk",
+        "source": "Nuestro libro de proyectos Tomo III pp. 141-142 + Posibilidades de uso SyPC pp. 33-34"
+      },
+      "academicProjectStrategy": {
+        "title": "Puesta en práctica mecánica",
+        "text": "Diseñar una puesta en práctica mecánica que permita observar la conservación de la energía y describirla con sucesiones cuadráticas.",
+        "type": "project-product",
+        "status": "confirmed-from-project-book",
+        "source": "Nuestro libro de proyectos Tomo III pp. 143-147"
+      },
+      "academicConcepts": [
+        {
+          "concept": "puesta en práctica mecánica",
+          "description": "Puesta en práctica mecánica como producto de cierre para organizar y comunicar aprendizajes del proyecto.",
+          "sourceBook": "Nuestro libro de proyectos Tomo III",
+          "sourcePages": [
+            143,
+            147
+          ],
+          "sourcePagesLabel": "pp. 143-147",
+          "topicTitle": "Proyecto academico 42",
+          "status": "confirmed",
+          "reason": "Posibilidades y el propio proyecto fijan Puesta en práctica mecánica como producto final del PA 42.",
+          "pedagogicalUse": "Da una forma concreta de socializar lo comprendido sobre la conservación de la energía mecánica y su modelación con sucesiones cuadráticas en experiencias experimentales.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "energía mecánica",
+          "description": "Energía mecánica es una idea clave para comprender la conservación de la energía mecánica y su modelación con sucesiones cuadráticas en experiencias experimentales.",
+          "sourceBook": "Saberes y Pensamiento Científico",
+          "sourcePages": [
+            132,
+            139
+          ],
+          "sourcePagesLabel": "pp. 132-139",
+          "topicTitle": "Conservación de la energía mecánica",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Conservación de la energía mecánica\" aporta base suficiente para trabajar energía mecánica dentro del proyecto 42.",
+          "pedagogicalUse": "Ayuda a fortalecer puesta en práctica mecánica y a explicar la conservación de la energía mecánica y su modelación con sucesiones cuadráticas en experiencias experimentales con mayor claridad mediante energía mecánica.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "conservación de la energía",
+          "description": "Conservación de la energía es una idea clave para comprender la conservación de la energía mecánica y su modelación con sucesiones cuadráticas en experiencias experimentales.",
+          "sourceBook": "Saberes y Pensamiento Científico",
+          "sourcePages": [
+            132,
+            139
+          ],
+          "sourcePagesLabel": "pp. 132-139",
+          "topicTitle": "Conservación de la energía mecánica",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Conservación de la energía mecánica\" aporta base suficiente para trabajar conservación de la energía dentro del proyecto 42.",
+          "pedagogicalUse": "Ayuda a fortalecer puesta en práctica mecánica y a explicar la conservación de la energía mecánica y su modelación con sucesiones cuadráticas en experiencias experimentales con mayor claridad mediante conservación de la energía.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "sucesiones cuadráticas",
+          "description": "Sucesiones cuadráticas es una idea clave para comprender la conservación de la energía mecánica y su modelación con sucesiones cuadráticas en experiencias experimentales.",
+          "sourceBook": "Saberes y Pensamiento Científico",
+          "sourcePages": [
+            106,
+            111
+          ],
+          "sourcePagesLabel": "pp. 106-111",
+          "topicTitle": "Sucesiones cuadráticas",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Sucesiones cuadráticas\" aporta base suficiente para trabajar sucesiones cuadráticas dentro del proyecto 42.",
+          "pedagogicalUse": "Ayuda a fortalecer puesta en práctica mecánica y a explicar la conservación de la energía mecánica y su modelación con sucesiones cuadráticas en experiencias experimentales con mayor claridad mediante sucesiones cuadráticas.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "experimento mecánico",
+          "description": "Experimento mecánico es una idea clave para comprender la conservación de la energía mecánica y su modelación con sucesiones cuadráticas en experiencias experimentales.",
+          "sourceBook": "Nuestro libro de proyectos Tomo III",
+          "sourcePages": [
+            143,
+            144,
+            145
+          ],
+          "sourcePagesLabel": "pp. 143-145",
+          "topicTitle": "Proyecto académico 42",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Proyecto académico 42\" aporta base suficiente para trabajar experimento mecánico dentro del proyecto 42.",
+          "pedagogicalUse": "Ayuda a fortalecer puesta en práctica mecánica y a explicar la conservación de la energía mecánica y su modelación con sucesiones cuadráticas en experiencias experimentales con mayor claridad mediante experimento mecánico.",
+          "activityReadiness": "usable-for-autoevaluation"
+        }
+      ],
+      "thinkingCriteria": [
+        "Relacionar la conservación de la energía mecánica y su modelación con sucesiones cuadráticas en experiencias experimentales con situaciones cercanas a la comunidad.",
+        "Usar puesta en práctica mecánica para explicar y no solo para recopilar informacion.",
+        "Distinguir entre mencionar conceptos y comprender como dialogan entre si dentro del proyecto."
+      ],
+      "validationStatus": {
+        "readinessLevel": "development-partial",
+        "readyForActivities": false,
+        "needsReviewReasons": [
+          "El bloque 14 ya es usable como lectura docente, pero el video del PPA 14 y el recurso informatico siguen pendientes de validacion de destino final.",
+          "La asignacion de apoyos de Posibilidades se sostiene por inferencia curricular documentada y no por OCR perfectamente separado por columnas.",
+          "No mover a actividades interactivas ni desbloquear juegos completos hasta ampliar validacion de videos y recursos complementarios."
+        ]
+      },
+      "readinessLevel": "development-partial",
+      "readyForActivities": false,
+      "needsReviewReasons": [
+        "No mover a actividades interactivas ni desbloquear juegos completos."
+      ],
+      "roleInPpa": "Cierra el bloque al unir experimento, modelación matemática y explicación física de la conservación de la energía.",
+      "pedagogicalUse": "Conviene trabajar Energía mecánica y sucesiones cuadráticas: un enfoque experimental como una oportunidad para profundizar en la conservación de la energía mecánica y su modelación con sucesiones cuadráticas en experiencias experimentales sin separar contenido, comunidad y producto final.",
+      "teacherNotes": [
+        "Conviene partir de ejemplos cercanos y después pasar al lenguaje mas abstracto del campo.",
+        "El producto Puesta en práctica mecánica gana fuerza cuando se usa para explicar y no solo para exhibir informacion.",
+        "Es mejor seleccionar pocos conceptos bien comprendidos que saturar el trabajo con terminos aislados."
+      ],
+      "resonancePrompts": [
+        {
+          "type": "individual",
+          "prompt": "¿Qué comprendes mejor sobre la conservación de la energía mecánica y su modelación con sucesiones cuadráticas en experiencias experimentales después de elaborar puesta en práctica mecánica?"
+        },
+        {
+          "type": "community",
+          "prompt": "¿Qué fenómenos cotidianos del entorno ayudan a reconocer mejor cómo se conserva la energía mecánica?"
+        }
+      ],
+      "notReadyFor": [
+        "full-games",
+        "summative-exam"
+      ]
+    }
+  ]
+}

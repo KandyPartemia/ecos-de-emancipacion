@@ -1464,6 +1464,15 @@ function ProjectDashboard({
           <LinkIcon size={16} />
           Abrir sitio oficial de la NEMD
         </a>
+        <a
+          href="https://telesecundaria.sep.gob.mx/#/home"
+          target="_blank"
+          rel="noreferrer"
+          className="mt-3 inline-flex max-w-full flex-wrap items-center justify-center gap-2 rounded-full border border-[#315344]/30 bg-white px-5 py-3 text-center text-sm font-bold text-[#315344] transition hover:bg-[#315344]/10"
+        >
+          <LinkIcon size={16} />
+          Portal oficial de Telesecundaria SEP
+        </a>
       </div>
 
       <div className="min-w-0 max-w-full overflow-hidden rounded-[1.5rem] border border-[#d9b56d]/35 bg-[#fff8ee] p-5">

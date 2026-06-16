@@ -1,0 +1,700 @@
+{
+  "grade": "3",
+  "gradeLabel": "Tercer grado",
+  "field": "Lenguajes",
+  "bookVolume": "Tomo III",
+  "partialClassroomProject": "PPA 14",
+  "partialClassroomProjectTitle": "¡La ciencia es joven, es nuestra!",
+  "generatedAt": "2026-06-07T03:06:27.762Z",
+  "notes": "Capa curricular generada por lote para 3o Lenguajes, PPA 14.",
+  "sourcesUsed": [
+    "content/caracoles/curricular-catalog/all-projects-canonical.json",
+    "public/caracoles/data/generated/grade-3/concepts-index.json",
+    "src/caracoles/lib/officialVideoLinks.ts",
+    "Posibilidades de uso Lenguajes, tercer grado, p. 30",
+    "Nuestro libro de proyectos, tercer grado, pp. 55-66"
+  ],
+  "partialClassroomProjectContext": {
+    "expectationHorizon": {
+      "officialText": "",
+      "sourcePages": [
+        "Nuestro libro de proyectos Tomo III pp. 55-58",
+        "Posibilidades de uso Lenguajes p. 30"
+      ],
+      "evidence": "El PPA 14 articula 14. ¡la ciencia es joven, es nuestra!, 14. ¡la ciencia es joven, es nuestra!, feria escolar de experimentos en vivo para trabajar ¡La ciencia es joven, es nuestra!.",
+      "status": "pending"
+    },
+    "ppaDetonatingStrategy": {
+      "title": "¡La ciencia es joven, es nuestra!",
+      "type": "video",
+      "url": "",
+      "urlStatus": "confirmed-by-official-video-map",
+      "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+      "scope": "partial-classroom-project"
+    },
+    "ppaDigitalResource": {
+      "title": "Recurso del Proyecto Parcial de Aula 14",
+      "reference": "",
+      "status": "confirmed-by-official-video-map",
+      "source": "YouTube, acervo Aprende_MX/Telesecundaria"
+    },
+    "validationStatus": {
+      "needsHumanReview": true,
+      "needsReviewReasons": [
+        "Los videos PA/PPA se validan por el mapa oficial de enlaces directos ya generado.",
+        "Los apoyos complementarios impresos no se asignan cuando no hay evidencia validada por columna.",
+        "El horizonte textual literal queda pendiente de revision fina si se necesita cita exacta."
+      ]
+    },
+    "columnValidation": {
+      "possibilitiesPagesReviewed": [
+        30
+      ],
+      "confirmedAsPpa": true,
+      "note": "El PPA 14 se agrupa desde el catalogo canonico de tercer grado.",
+      "columns": [
+        {
+          "columnIndex": 1,
+          "projectId": "lenguajes-3-ppa-14-pa40",
+          "projectTitle": "La ciencia se escribe así",
+          "finalProduct": "14. ¡La ciencia es joven, es nuestra!",
+          "supportMaterials": []
+        },
+        {
+          "columnIndex": 2,
+          "projectId": "lenguajes-3-ppa-14-pa41",
+          "projectTitle": "Somos divulgadores de la ciencia",
+          "finalProduct": "14. ¡La ciencia es joven, es nuestra!",
+          "supportMaterials": []
+        },
+        {
+          "columnIndex": 3,
+          "projectId": "lenguajes-3-ppa-14-pa42",
+          "projectTitle": "¡Bienvenidos a la feria de la ciencia!",
+          "finalProduct": "Feria escolar de experimentos en vivo",
+          "supportMaterials": []
+        }
+      ]
+    }
+  },
+  "academicProjects": [
+    {
+      "id": "lenguajes-3-ppa-14-pa40",
+      "projectId": "lenguajes-3-ppa-14-pa40",
+      "academicProjectNumber": 40,
+      "title": "La ciencia se escribe así",
+      "projectTitle": "La ciencia se escribe así",
+      "grade": "3",
+      "field": "Lenguajes",
+      "ppaNumber": "14",
+      "partialClassroomProject": "PPA 14",
+      "partialClassroomProjectTitle": "¡La ciencia es joven, es nuestra!",
+      "bookVolume": "Tomo III",
+      "sourceValidation": {
+        "sourceStatus": "linked",
+        "possibilitiesPages": [
+          30
+        ],
+        "possibilitiesMaterialId": "grade-3-posibilidades-pos-len-3",
+        "possibilitiesColumnIndex": 1,
+        "columnEvidence": "Proyecto PA 40 agrupado en el PPA 14 desde el catalogo canonico y las paginas de Posibilidades."
+      },
+      "finalProduct": {
+        "title": "14. ¡La ciencia es joven, es nuestra!",
+        "source": "Video detonador validado en YouTube + Nuestro libro de proyectos Tomo III pp. 55-58",
+        "status": "confirmed-from-video-and-project"
+      },
+      "sourcePages": {
+        "nuestroLibroProyectos": [
+          {
+            "materialId": "grade-3-proyectos-nuestros-proyectos-tomo-3-tercer-grado",
+            "label": "Nuestro libro de proyectos Tomo III",
+            "startPage": 55,
+            "endPage": 58,
+            "pagesLabel": "pp. 55-58",
+            "topicTitle": "Proyecto academico 40",
+            "status": "confirmed-source"
+          }
+        ],
+        "conceptBook": [
+          {
+            "materialId": "grade-3-conceptos-lenguajes-tercer-grado",
+            "label": "Lenguajes",
+            "startPage": 55,
+            "endPage": 55,
+            "pagesLabel": "p. 55",
+            "topicTitle": "14. ¡la ciencia es joven, es nuestra!",
+            "status": "confirmed"
+          }
+        ],
+        "multiplesLenguajes": [],
+        "otherMaterials": [
+          {
+            "label": "Video PA 40: La ciencia se escribe así",
+            "reference": "",
+            "status": "confirmed"
+          }
+        ]
+      },
+      "supportMaterials": [],
+      "horizonOrPurpose": {
+        "status": "pending",
+        "text": "",
+        "source": "Nuestro libro de proyectos Tomo III pp. 55-58"
+      },
+      "projectExpectationHorizon": {
+        "officialText": "",
+        "studentVersion": "",
+        "sourcePages": [
+          "Nuestro libro de proyectos Tomo III pp. 55-58"
+        ],
+        "evidence": "El PA 40 cuenta con paginas de proyecto, producto de cierre, conceptos y videos directos validados; el horizonte textual literal queda pendiente de transcripcion fina.",
+        "status": "pending"
+      },
+      "detonatingStrategy": {
+        "status": "confirmed",
+        "title": "¡La ciencia es joven, es nuestra!",
+        "text": "Video del Proyecto Parcial de Aula 14: ¡La ciencia es joven, es nuestra!",
+        "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+        "scope": "partial-classroom-project",
+        "type": "video"
+      },
+      "academicProjectStrategy": {
+        "title": "14. ¡La ciencia es joven, es nuestra! • Lenguajes • 3er grado",
+        "text": "Video detonador del Proyecto Academico 40: La ciencia se escribe así",
+        "type": "video",
+        "status": "confirmed-from-video-and-project",
+        "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+        "scope": "academic-project"
+      },
+      "academicConcepts": [
+        {
+          "concept": "14. ¡la ciencia es joven, es nuestra!",
+          "description": "14. ¡la ciencia es joven, es nuestra! organiza el producto de cierre y permite comunicar lo aprendido en el proyecto.",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            55
+          ],
+          "sourcePagesLabel": "p. 55",
+          "topicTitle": "Proyecto academico 40",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 40, al PPA 14 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Lenguaje",
+          "description": "Lenguaje ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            55
+          ],
+          "sourcePagesLabel": "p. 55",
+          "topicTitle": "Proyecto academico 40",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 40, al PPA 14 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Cultura",
+          "description": "Cultura ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            154
+          ],
+          "sourcePagesLabel": "p. 154",
+          "topicTitle": "Proyecto academico 40",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 40, al PPA 14 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Comunicacion",
+          "description": "Comunicacion ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            55
+          ],
+          "sourcePagesLabel": "p. 55",
+          "topicTitle": "Proyecto academico 40",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 40, al PPA 14 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Lectura",
+          "description": "Lectura ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            55
+          ],
+          "sourcePagesLabel": "p. 55",
+          "topicTitle": "Proyecto academico 40",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 40, al PPA 14 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Escritura",
+          "description": "Escritura ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            55
+          ],
+          "sourcePagesLabel": "p. 55",
+          "topicTitle": "Proyecto academico 40",
+          "status": "suggested",
+          "reason": "Concepto vinculado al PA 40, al PPA 14 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "teacher-review"
+        }
+      ],
+      "thinkingCriteria": [
+        "Relacionar La ciencia se escribe así con una situacion concreta del entorno escolar o comunitario.",
+        "Usar 14. ¡la ciencia es joven, es nuestra! para explicar ideas con claridad y evidencia."
+      ],
+      "resonancePrompts": [
+        {
+          "type": "individual",
+          "prompt": "¿Como te ayuda 14. ¡la ciencia es joven, es nuestra! a comprender mejor La ciencia se escribe así y a explicar sus conceptos clave en tu comunidad?",
+          "conceptsActivated": [
+            "14. ¡la ciencia es joven, es nuestra!",
+            "Lenguaje",
+            "Cultura",
+            "Comunicacion"
+          ],
+          "suggestedUse": "Momento 1 de autoevaluacion"
+        }
+      ],
+      "validationStatus": {
+        "readinessLevel": "curricular-bundle-generated",
+        "readyForActivities": true,
+        "needsReviewReasons": [
+          "El horizonte textual literal queda pendiente de revision fina si se requiere cita exacta.",
+          "Los apoyos complementarios impresos no se asignan cuando no hay evidencia validada por columna."
+        ]
+      },
+      "readinessLevel": "curricular-bundle-generated",
+      "readyForActivities": true,
+      "needsReviewReasons": []
+    },
+    {
+      "id": "lenguajes-3-ppa-14-pa41",
+      "projectId": "lenguajes-3-ppa-14-pa41",
+      "academicProjectNumber": 41,
+      "title": "Somos divulgadores de la ciencia",
+      "projectTitle": "Somos divulgadores de la ciencia",
+      "grade": "3",
+      "field": "Lenguajes",
+      "ppaNumber": "14",
+      "partialClassroomProject": "PPA 14",
+      "partialClassroomProjectTitle": "¡La ciencia es joven, es nuestra!",
+      "bookVolume": "Tomo III",
+      "sourceValidation": {
+        "sourceStatus": "linked",
+        "possibilitiesPages": [
+          30
+        ],
+        "possibilitiesMaterialId": "grade-3-posibilidades-pos-len-3",
+        "possibilitiesColumnIndex": 2,
+        "columnEvidence": "Proyecto PA 41 agrupado en el PPA 14 desde el catalogo canonico y las paginas de Posibilidades."
+      },
+      "finalProduct": {
+        "title": "14. ¡La ciencia es joven, es nuestra!",
+        "source": "Video detonador validado en YouTube + Nuestro libro de proyectos Tomo III pp. 59-62",
+        "status": "confirmed-from-video-and-project"
+      },
+      "sourcePages": {
+        "nuestroLibroProyectos": [
+          {
+            "materialId": "grade-3-proyectos-nuestros-proyectos-tomo-3-tercer-grado",
+            "label": "Nuestro libro de proyectos Tomo III",
+            "startPage": 59,
+            "endPage": 62,
+            "pagesLabel": "pp. 59-62",
+            "topicTitle": "Proyecto academico 41",
+            "status": "confirmed-source"
+          }
+        ],
+        "conceptBook": [
+          {
+            "materialId": "grade-3-conceptos-lenguajes-tercer-grado",
+            "label": "Lenguajes",
+            "startPage": 59,
+            "endPage": 59,
+            "pagesLabel": "p. 59",
+            "topicTitle": "14. ¡la ciencia es joven, es nuestra!",
+            "status": "confirmed"
+          }
+        ],
+        "multiplesLenguajes": [],
+        "otherMaterials": [
+          {
+            "label": "Video PA 41: Somos divulgadores de la ciencia",
+            "reference": "",
+            "status": "confirmed"
+          }
+        ]
+      },
+      "supportMaterials": [],
+      "horizonOrPurpose": {
+        "status": "confirmed-from-project-book",
+        "text": "Presentar y difundir ante la comunidad un periódico escolar tridimensional que fomente el conocimiento de las ciencias y se establezca como una propuesta de divulgación científica que atraiga el interés de la comunidad escolar.",
+        "source": "Visión — Horizonte 2 (p. 60)"
+      },
+      "projectExpectationHorizon": {
+        "officialText": "Presentar y difundir ante la comunidad un periódico escolar tridimensional que fomente el conocimiento de las ciencias y se establezca como una propuesta de divulgación científica que atraiga el interés de la comunidad escolar.",
+        "studentVersion": "Presentar y difundir ante la comunidad un periódico escolar tridimensional que fomente el conocimiento de las ciencias y se establezca como una propuesta de divulgación científica que atraiga el interés de la comunidad escolar.",
+        "horizon1Raw": "Investigar el tipo de contenidos científicos que puedan atraer el interés de la comunidad escolar. También, diseñar y elaborar un periódico escolar tridimensional a partir de varios artículos de contenidos científicos.",
+        "horizon2Raw": "Presentar y difundir ante la comunidad un periódico escolar tridimensional que fomente el conocimiento de las ciencias y se establezca como una propuesta de divulgación científica que atraiga el interés de la comunidad escolar.",
+        "sourcePages": [
+          "Visión — Horizonte 2 (p. 60)"
+        ],
+        "evidence": "Extraído por visión de imagen de la página 60 del libro de proyectos. Confianza: alta.",
+        "status": "confirmed-from-project-book",
+        "extractedAt": "2026-06-16T05:16:03.858Z"
+      },
+      "detonatingStrategy": {
+        "status": "confirmed",
+        "title": "¡La ciencia es joven, es nuestra!",
+        "text": "Video del Proyecto Parcial de Aula 14: ¡La ciencia es joven, es nuestra!",
+        "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+        "scope": "partial-classroom-project",
+        "type": "video"
+      },
+      "academicProjectStrategy": {
+        "title": "14. ¡La ciencia es joven, es nuestra! • Lenguajes • 3er grado",
+        "text": "Video detonador del Proyecto Academico 41: Somos divulgadores de la ciencia",
+        "type": "video",
+        "status": "confirmed-from-video-and-project",
+        "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+        "scope": "academic-project"
+      },
+      "academicConcepts": [
+        {
+          "concept": "14. ¡la ciencia es joven, es nuestra!",
+          "description": "14. ¡la ciencia es joven, es nuestra! organiza el producto de cierre y permite comunicar lo aprendido en el proyecto.",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            59
+          ],
+          "sourcePagesLabel": "p. 59",
+          "topicTitle": "Proyecto academico 41",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 41, al PPA 14 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Lenguaje",
+          "description": "Lenguaje ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            59
+          ],
+          "sourcePagesLabel": "p. 59",
+          "topicTitle": "Proyecto academico 41",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 41, al PPA 14 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Cultura",
+          "description": "Cultura ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            154
+          ],
+          "sourcePagesLabel": "p. 154",
+          "topicTitle": "Proyecto academico 41",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 41, al PPA 14 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Comunicacion",
+          "description": "Comunicacion ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            59
+          ],
+          "sourcePagesLabel": "p. 59",
+          "topicTitle": "Proyecto academico 41",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 41, al PPA 14 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Lectura",
+          "description": "Lectura ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            59
+          ],
+          "sourcePagesLabel": "p. 59",
+          "topicTitle": "Proyecto academico 41",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 41, al PPA 14 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Escritura",
+          "description": "Escritura ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            59
+          ],
+          "sourcePagesLabel": "p. 59",
+          "topicTitle": "Proyecto academico 41",
+          "status": "suggested",
+          "reason": "Concepto vinculado al PA 41, al PPA 14 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "teacher-review"
+        }
+      ],
+      "thinkingCriteria": [
+        "Relacionar Somos divulgadores de la ciencia con una situacion concreta del entorno escolar o comunitario.",
+        "Usar 14. ¡la ciencia es joven, es nuestra! para explicar ideas con claridad y evidencia."
+      ],
+      "resonancePrompts": [
+        {
+          "type": "individual",
+          "prompt": "¿Como te ayuda 14. ¡la ciencia es joven, es nuestra! a comprender mejor Somos divulgadores de la ciencia y a explicar sus conceptos clave en tu comunidad?",
+          "conceptsActivated": [
+            "14. ¡la ciencia es joven, es nuestra!",
+            "Lenguaje",
+            "Cultura",
+            "Comunicacion"
+          ],
+          "suggestedUse": "Momento 1 de autoevaluacion"
+        }
+      ],
+      "validationStatus": {
+        "readinessLevel": "curricular-bundle-generated",
+        "readyForActivities": true,
+        "needsReviewReasons": [
+          "El horizonte textual literal queda pendiente de revision fina si se requiere cita exacta.",
+          "Los apoyos complementarios impresos no se asignan cuando no hay evidencia validada por columna."
+        ]
+      },
+      "readinessLevel": "curricular-bundle-generated",
+      "readyForActivities": true,
+      "needsReviewReasons": []
+    },
+    {
+      "id": "lenguajes-3-ppa-14-pa42",
+      "projectId": "lenguajes-3-ppa-14-pa42",
+      "academicProjectNumber": 42,
+      "title": "¡Bienvenidos a la feria de la ciencia!",
+      "projectTitle": "¡Bienvenidos a la feria de la ciencia!",
+      "grade": "3",
+      "field": "Lenguajes",
+      "ppaNumber": "14",
+      "partialClassroomProject": "PPA 14",
+      "partialClassroomProjectTitle": "¡La ciencia es joven, es nuestra!",
+      "bookVolume": "Tomo III",
+      "sourceValidation": {
+        "sourceStatus": "linked",
+        "possibilitiesPages": [
+          30
+        ],
+        "possibilitiesMaterialId": "grade-3-posibilidades-pos-len-3",
+        "possibilitiesColumnIndex": 3,
+        "columnEvidence": "Proyecto PA 42 agrupado en el PPA 14 desde el catalogo canonico y las paginas de Posibilidades."
+      },
+      "finalProduct": {
+        "title": "Feria escolar de experimentos en vivo",
+        "source": "Video detonador validado en YouTube + Nuestro libro de proyectos Tomo III pp. 63-66",
+        "status": "confirmed-from-video-and-project"
+      },
+      "sourcePages": {
+        "nuestroLibroProyectos": [
+          {
+            "materialId": "grade-3-proyectos-nuestros-proyectos-tomo-3-tercer-grado",
+            "label": "Nuestro libro de proyectos Tomo III",
+            "startPage": 63,
+            "endPage": 66,
+            "pagesLabel": "pp. 63-66",
+            "topicTitle": "Proyecto academico 42",
+            "status": "confirmed-source"
+          }
+        ],
+        "conceptBook": [
+          {
+            "materialId": "grade-3-conceptos-lenguajes-tercer-grado",
+            "label": "Lenguajes",
+            "startPage": 63,
+            "endPage": 63,
+            "pagesLabel": "p. 63",
+            "topicTitle": "Feria escolar de experimentos en vivo",
+            "status": "confirmed"
+          }
+        ],
+        "multiplesLenguajes": [],
+        "otherMaterials": [
+          {
+            "label": "Video PA 42: ¡Bienvenidos a la feria de la ciencia!",
+            "reference": "",
+            "status": "confirmed"
+          }
+        ]
+      },
+      "supportMaterials": [],
+      "horizonOrPurpose": {
+        "status": "confirmed-from-project-book",
+        "text": "Elegir, en asamblea, qué experimentos presentarán en la feria escolar con la intención de fomentar el conocimiento de las ciencias en la comunidad escolar y establecer cómo conseguir los insumos necesarios para cada uno.",
+        "source": "Visión — Horizonte 1 (p. 64)"
+      },
+      "projectExpectationHorizon": {
+        "officialText": "Elegir, en asamblea, qué experimentos presentarán en la feria escolar con la intención de fomentar el conocimiento de las ciencias en la comunidad escolar y establecer cómo conseguir los insumos necesarios para cada uno.",
+        "studentVersion": "Elegir, en asamblea, qué experimentos presentarán en la feria escolar con la intención de fomentar el conocimiento de las ciencias en la comunidad escolar y establecer cómo conseguir los insumos necesarios para cada uno.",
+        "horizon1Raw": "Elegir, en asamblea, qué experimentos presentarán en la feria escolar con la intención de fomentar el conocimiento de las ciencias en la comunidad escolar y establecer cómo conseguir los insumos necesarios para cada uno.",
+        "horizon2Raw": "Investigar, en fuentes de información o con expertos en el tema, cómo organizar la feria escolar de experimentos en vivo, en un espacio y tiempo apropiados, que motiven a la comunidad a acercarse a las ciencias.",
+        "sourcePages": [
+          "Visión — Horizonte 1 (p. 64)"
+        ],
+        "evidence": "Extraído por visión de imagen de la página 64 del libro de proyectos. Confianza: alta.",
+        "status": "confirmed-from-project-book",
+        "extractedAt": "2026-06-16T05:16:08.757Z"
+      },
+      "detonatingStrategy": {
+        "status": "confirmed",
+        "title": "¡La ciencia es joven, es nuestra!",
+        "text": "Video del Proyecto Parcial de Aula 14: ¡La ciencia es joven, es nuestra!",
+        "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+        "scope": "partial-classroom-project",
+        "type": "video"
+      },
+      "academicProjectStrategy": {
+        "title": "Feria escolar de experimentos en vivo • Lenguajes • 3er. grado",
+        "text": "Video detonador del Proyecto Academico 42: ¡Bienvenidos a la feria de la ciencia!",
+        "type": "video",
+        "status": "confirmed-from-video-and-project",
+        "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+        "scope": "academic-project"
+      },
+      "academicConcepts": [
+        {
+          "concept": "Feria escolar de experimentos en vivo",
+          "description": "Feria escolar de experimentos en vivo organiza el producto de cierre y permite comunicar lo aprendido en el proyecto.",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            63
+          ],
+          "sourcePagesLabel": "p. 63",
+          "topicTitle": "Proyecto academico 42",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 42, al PPA 14 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Lenguaje",
+          "description": "Lenguaje ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            63
+          ],
+          "sourcePagesLabel": "p. 63",
+          "topicTitle": "Proyecto academico 42",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 42, al PPA 14 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Cultura",
+          "description": "Cultura ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            154
+          ],
+          "sourcePagesLabel": "p. 154",
+          "topicTitle": "Proyecto academico 42",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 42, al PPA 14 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Comunicacion",
+          "description": "Comunicacion ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            63
+          ],
+          "sourcePagesLabel": "p. 63",
+          "topicTitle": "Proyecto academico 42",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 42, al PPA 14 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Lectura",
+          "description": "Lectura ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            63
+          ],
+          "sourcePagesLabel": "p. 63",
+          "topicTitle": "Proyecto academico 42",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 42, al PPA 14 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Escritura",
+          "description": "Escritura ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            63
+          ],
+          "sourcePagesLabel": "p. 63",
+          "topicTitle": "Proyecto academico 42",
+          "status": "suggested",
+          "reason": "Concepto vinculado al PA 42, al PPA 14 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "teacher-review"
+        }
+      ],
+      "thinkingCriteria": [
+        "Relacionar ¡Bienvenidos a la feria de la ciencia! con una situacion concreta del entorno escolar o comunitario.",
+        "Usar feria escolar de experimentos en vivo para explicar ideas con claridad y evidencia."
+      ],
+      "resonancePrompts": [
+        {
+          "type": "individual",
+          "prompt": "¿Como te ayuda feria escolar de experimentos en vivo a comprender mejor ¡Bienvenidos a la feria de la ciencia! y a explicar sus conceptos clave en tu comunidad?",
+          "conceptsActivated": [
+            "Feria escolar de experimentos en vivo",
+            "Lenguaje",
+            "Cultura",
+            "Comunicacion"
+          ],
+          "suggestedUse": "Momento 1 de autoevaluacion"
+        }
+      ],
+      "validationStatus": {
+        "readinessLevel": "curricular-bundle-generated",
+        "readyForActivities": true,
+        "needsReviewReasons": [
+          "El horizonte textual literal queda pendiente de revision fina si se requiere cita exacta.",
+          "Los apoyos complementarios impresos no se asignan cuando no hay evidencia validada por columna."
+        ]
+      },
+      "readinessLevel": "curricular-bundle-generated",
+      "readyForActivities": true,
+      "needsReviewReasons": []
+    }
+  ]
+}

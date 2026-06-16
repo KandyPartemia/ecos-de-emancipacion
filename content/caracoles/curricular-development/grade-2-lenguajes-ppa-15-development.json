@@ -1,0 +1,838 @@
+{
+  "grade": "2",
+  "gradeLabel": "Segundo grado",
+  "field": "Lenguajes",
+  "bookVolume": "Tomo III",
+  "partialClassroomProject": "PPA 15",
+  "partialClassroomProjectTitle": "¡Inclusive tu cultura y tu comunidad!",
+  "generatedAt": "2026-06-02T15:14:09.495Z",
+  "notes": "Capa curricular generada por lote para 2o Lenguajes, PPA 15.",
+  "sourcesUsed": [
+    "public/caracoles/data/generated/grade-2/selectable-projects.json",
+    "content/caracoles/generated-private/grade-2/pages-index.full.json",
+    "Posibilidades de uso Lenguajes, segundo grado, pp. 39-40",
+    "Nuestro libro de proyectos Tomo III, segundo grado, pp. 75-89",
+    "Lenguajes, segundo grado, pp. 168-178, 207-214, 237-245, 250-276 y 309-314; Múltiples Lenguajes pp. 68-69 y pp. 22-23."
+  ],
+  "partialClassroomProjectContext": {
+    "expectationHorizon": {
+      "officialText": "",
+      "sourcePages": [
+        "Nuestro libro de proyectos Tomo III pp. 75-76",
+        "Posibilidades de uso Lenguajes pp. 39-40"
+      ],
+      "evidence": "El PPA 15 articula mensajes en expresiones artísticas, taller sensorial y compendio de textos narrativos para trabajar inclusión, comunicación, identidades plurales y manifestaciones indígenas y afrodescendientes.",
+      "status": "pending"
+    },
+    "ppaDetonatingStrategy": {
+      "title": "¡Inclusive tu cultura y tu comunidad!",
+      "type": "video",
+      "url": "",
+      "urlStatus": "pending-url",
+      "reference": "bit.ly/3VfglUk",
+      "source": "Nuestro libro de proyectos Tomo III pp. 75-76 + Posibilidades de uso Lenguajes pp. 39-40",
+      "scope": "partial-classroom-project",
+      "youtubeSearchQuery": "¡Inclusive tu cultura y tu comunidad! Lenguajes 2do grado Telesecundaria"
+    },
+    "ppaDigitalResource": {
+      "title": "Recurso informatico del bloque PPA 15",
+      "reference": "bit.ly/3WQBMwg",
+      "status": "pending-validation",
+      "source": "Nuestro libro de proyectos Tomo III pp. 75-89"
+    },
+    "validationStatus": {
+      "needsHumanReview": true,
+      "needsReviewReasons": [
+        "Las pp. 39-40 de Posibilidades pertenecen al mismo PPA 15.",
+        "La asignacion de apoyos por columna se fija por inferencia curricular documentada de izquierda a derecha.",
+        "Los enlaces cortos del video del PPA y del recurso informatico se mantienen en cautela hasta localizar un destino oficial confirmado.",
+        "La primera columna no conserva apoyo independiente de Múltiples Lenguajes en Posibilidades; se sostiene por el libro del campo y la lógica del bloque."
+      ]
+    },
+    "columnValidation": {
+      "possibilitiesPagesReviewed": [
+        39,
+        40
+      ],
+      "confirmedAsPpa": true,
+      "note": "Las pp. 39-40 corresponden al PPA 15 ¡Inclusive tu cultura y tu comunidad!. Las tres columnas se sostienen por el orden de proyectos, productos y apoyos del mismo bloque.",
+      "columns": [
+        {
+          "columnIndex": 1,
+          "projectId": "lenguajes-2-ppa-15-pa43",
+          "projectTitle": "Una alternativa de comunicación",
+          "finalProduct": "Mensajes en expresiones artísticas",
+          "supportMaterials": []
+        },
+        {
+          "columnIndex": 2,
+          "projectId": "lenguajes-2-ppa-15-pa44",
+          "projectTitle": "El arte de la inclusión",
+          "finalProduct": "Taller sensorial",
+          "supportMaterials": [
+            "Diversas formas de habitar el cuerpo, pp. 68-69"
+          ]
+        },
+        {
+          "columnIndex": 3,
+          "projectId": "lenguajes-2-ppa-15-pa45",
+          "projectTitle": "La inclusión de la expresión",
+          "finalProduct": "Compendio de textos narrativos originales",
+          "supportMaterials": [
+            "Cimarrona de humo, pp. 22-23"
+          ]
+        }
+      ]
+    }
+  },
+  "academicProjects": [
+    {
+      "id": "lenguajes-2-ppa-15-pa43",
+      "projectId": "lenguajes-2-ppa-15-pa43",
+      "academicProjectNumber": 43,
+      "title": "Una alternativa de comunicación",
+      "projectTitle": "Una alternativa de comunicación",
+      "grade": "2",
+      "field": "Lenguajes",
+      "ppaNumber": "15",
+      "partialClassroomProject": "PPA 15",
+      "partialClassroomProjectTitle": "¡Inclusive tu cultura y tu comunidad!",
+      "bookVolume": "Tomo III",
+      "sourceValidation": {
+        "sourceStatus": "linked",
+        "possibilitiesPages": [
+          39,
+          40
+        ],
+        "possibilitiesMaterialId": "grade-2-posibilidades-pos-len-2",
+        "possibilitiesColumnIndex": 1,
+        "columnEvidence": "Bloque PPA 15 ¡Inclusive tu cultura y tu comunidad! localizado en pp. 39-40; la columna 1 se confirma por el orden de proyectos, productos y continuidad del mismo bloque."
+      },
+      "finalProduct": {
+        "title": "Mensajes en expresiones artísticas",
+        "source": "Posibilidades de uso Lenguajes pp. 39-40 + Nuestro libro de proyectos Tomo III pp. 77-80",
+        "status": "confirmed"
+      },
+      "sourcePages": {
+        "nuestroLibroProyectos": [
+          {
+            "materialId": "grade-2-proyectos-nuestro-libro-de-proyectos-tomo-3-segundo-grado",
+            "label": "Nuestro libro de proyectos Tomo III",
+            "startPage": 77,
+            "endPage": 80,
+            "pagesLabel": "pp. 77-80",
+            "topicTitle": "Proyecto academico 43",
+            "status": "confirmed-source"
+          }
+        ],
+        "conceptBook": [
+          {
+            "materialId": "grade-2-conceptos-lenguajes-segundo-grado",
+            "label": "Lenguajes",
+            "startPage": 207,
+            "endPage": 214,
+            "pagesLabel": "pp. 207-214",
+            "topicTitle": "Sistemas alternativos y aumentativos de comunicación en manifestaciones artísticas por y para personas con discapacidad",
+            "status": "confirmed-by-column-inference"
+          },
+          {
+            "materialId": "grade-2-conceptos-lenguajes-segundo-grado",
+            "label": "Lenguajes",
+            "startPage": 168,
+            "endPage": 178,
+            "pagesLabel": "pp. 168-178",
+            "topicTitle": "La expresión de ideas para la construcción de una sociedad incluyente",
+            "status": "confirmed-by-column-inference"
+          },
+          {
+            "materialId": "grade-2-conceptos-lenguajes-segundo-grado",
+            "label": "Lenguajes",
+            "startPage": 263,
+            "endPage": 270,
+            "pagesLabel": "pp. 263-270",
+            "topicTitle": "Colectivos y proyectos artísticos en contextos rurales y urbanos",
+            "status": "confirmed-by-column-inference"
+          }
+        ],
+        "multiplesLenguajes": [],
+        "otherMaterials": [
+          {
+            "label": "Video PPA 15: ¡Inclusive tu cultura y tu comunidad!",
+            "reference": "bit.ly/3VfglUk",
+            "status": "pending-validation"
+          }
+        ]
+      },
+      "supportMaterials": [],
+      "horizonOrPurpose": {
+        "status": "official",
+        "text": "Explorar formas alternativas de comunicación y expresión artística para promover inclusión y combatir discriminación en la comunidad.",
+        "source": "Nuestro libro de proyectos Tomo III p. 77"
+      },
+      "projectExpectationHorizon": {
+        "officialText": "Reconocer sistemas alternativos y aumentativos de comunicación y convertirlos en mensajes artísticos orientados a la inclusión.",
+        "studentVersion": "Crear mensajes artísticos que valoren otras formas de comunicación y la pluralidad de capacidades.",
+        "sourcePages": [
+          "Nuestro libro de proyectos Tomo III p. 77"
+        ],
+        "evidence": "El proyecto parte de la discapacidad, la pluralidad de capacidades y la comunicación accesible para construir mensajes incluyentes.",
+        "status": "official"
+      },
+      "detonatingStrategy": {
+        "status": "pending-url",
+        "text": "Video PPA 15: ¡Inclusive tu cultura y tu comunidad!",
+        "reference": "bit.ly/3VfglUk",
+        "source": "Nuestro libro de proyectos Tomo III pp. 75-76 + Posibilidades de uso Lenguajes pp. 39-40"
+      },
+      "academicProjectStrategy": {
+        "title": "Mensajes en expresiones artísticas",
+        "text": "Explorar recursos de comunicación accesible y traducirlos en mensajes artísticos que promuevan inclusión y respeto a la diversidad.",
+        "type": "project-product",
+        "status": "confirmed-from-project-book",
+        "source": "Nuestro libro de proyectos Tomo III pp. 77-80"
+      },
+      "academicConcepts": [
+        {
+          "concept": "mensajes en expresiones artísticas",
+          "description": "Mensajes en expresiones artísticas como producto de cierre para organizar y comunicar aprendizajes del proyecto.",
+          "sourceBook": "Nuestro libro de proyectos Tomo III",
+          "sourcePages": [
+            77,
+            80
+          ],
+          "sourcePagesLabel": "pp. 77-80",
+          "topicTitle": "Proyecto academico 43",
+          "status": "confirmed",
+          "reason": "Posibilidades y el propio proyecto fijan Mensajes en expresiones artísticas como producto final del PA 43.",
+          "pedagogicalUse": "Da una forma concreta de socializar lo comprendido sobre la exploración de sistemas alternativos y aumentativos de comunicación para combatir discriminación y ampliar la inclusión.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "sistemas alternativos de comunicación",
+          "description": "Recursos y formas de expresión que amplían la comunicación más allá del habla o la escritura convencional.",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            207,
+            214
+          ],
+          "sourcePagesLabel": "pp. 207-214",
+          "topicTitle": "Sistemas alternativos y aumentativos de comunicación en manifestaciones artísticas por y para personas con discapacidad",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Sistemas alternativos y aumentativos de comunicación en manifestaciones artísticas por y para personas con discapacidad\" aporta base suficiente para trabajar sistemas alternativos de comunicación dentro del proyecto 43.",
+          "pedagogicalUse": "Ayuda a fortalecer mensajes en expresiones artísticas y a explicar la exploración de sistemas alternativos y aumentativos de comunicación para combatir discriminación y ampliar la inclusión con mayor claridad mediante sistemas alternativos de comunicación.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "discapacidad",
+          "description": "Condición que interactúa con barreras sociales, físicas o culturales y exige respuestas incluyentes, no exclusión.",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            207,
+            214
+          ],
+          "sourcePagesLabel": "pp. 207-214",
+          "topicTitle": "Sistemas alternativos y aumentativos de comunicación en manifestaciones artísticas por y para personas con discapacidad",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Sistemas alternativos y aumentativos de comunicación en manifestaciones artísticas por y para personas con discapacidad\" aporta base suficiente para trabajar discapacidad dentro del proyecto 43.",
+          "pedagogicalUse": "Ayuda a fortalecer mensajes en expresiones artísticas y a explicar la exploración de sistemas alternativos y aumentativos de comunicación para combatir discriminación y ampliar la inclusión con mayor claridad mediante discapacidad.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "pluralidad de capacidades",
+          "description": "Reconocimiento de que las personas participan y se expresan de maneras diversas y valiosas.",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            207,
+            214
+          ],
+          "sourcePagesLabel": "pp. 207-214",
+          "topicTitle": "Sistemas alternativos y aumentativos de comunicación en manifestaciones artísticas por y para personas con discapacidad",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Sistemas alternativos y aumentativos de comunicación en manifestaciones artísticas por y para personas con discapacidad\" aporta base suficiente para trabajar pluralidad de capacidades dentro del proyecto 43.",
+          "pedagogicalUse": "Ayuda a fortalecer mensajes en expresiones artísticas y a explicar la exploración de sistemas alternativos y aumentativos de comunicación para combatir discriminación y ampliar la inclusión con mayor claridad mediante pluralidad de capacidades.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "discriminación",
+          "description": "Trato desigual o excluyente que limita derechos, participación o dignidad de personas o grupos.",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            207,
+            214
+          ],
+          "sourcePagesLabel": "pp. 207-214",
+          "topicTitle": "Sistemas alternativos y aumentativos de comunicación en manifestaciones artísticas por y para personas con discapacidad",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Sistemas alternativos y aumentativos de comunicación en manifestaciones artísticas por y para personas con discapacidad\" aporta base suficiente para trabajar discriminación dentro del proyecto 43.",
+          "pedagogicalUse": "Ayuda a fortalecer mensajes en expresiones artísticas y a explicar la exploración de sistemas alternativos y aumentativos de comunicación para combatir discriminación y ampliar la inclusión con mayor claridad mediante discriminación.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "accesibilidad comunicativa",
+          "description": "Condición que permite que distintas personas comprendan, expresen y compartan mensajes de manera significativa.",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            207,
+            214
+          ],
+          "sourcePagesLabel": "pp. 207-214",
+          "topicTitle": "Sistemas alternativos y aumentativos de comunicación en manifestaciones artísticas por y para personas con discapacidad",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Sistemas alternativos y aumentativos de comunicación en manifestaciones artísticas por y para personas con discapacidad\" aporta base suficiente para trabajar accesibilidad comunicativa dentro del proyecto 43.",
+          "pedagogicalUse": "Ayuda a fortalecer mensajes en expresiones artísticas y a explicar la exploración de sistemas alternativos y aumentativos de comunicación para combatir discriminación y ampliar la inclusión con mayor claridad mediante accesibilidad comunicativa.",
+          "activityReadiness": "usable-for-autoevaluation"
+        }
+      ],
+      "thinkingCriteria": [
+        "Relacionar la exploración de sistemas alternativos y aumentativos de comunicación para combatir discriminación y ampliar la inclusión con situaciones cercanas a la comunidad.",
+        "Usar mensajes en expresiones artísticas para explicar y no solo para recopilar informacion.",
+        "Distinguir entre mencionar conceptos y comprender como dialogan entre si dentro del proyecto."
+      ],
+      "validationStatus": {
+        "readinessLevel": "development-partial",
+        "readyForActivities": false,
+        "needsReviewReasons": [
+          "El bloque 15 ya es usable como lectura docente, pero el video del PPA 15 y el recurso informatico siguen pendientes de validacion de destino final.",
+          "La asignacion de apoyos de Posibilidades se sostiene por inferencia curricular documentada y no por OCR perfectamente separado por columnas.",
+          "No mover a actividades interactivas ni desbloquear juegos completos hasta ampliar validacion de videos y recursos complementarios."
+        ]
+      },
+      "readinessLevel": "development-partial",
+      "readyForActivities": false,
+      "needsReviewReasons": [
+        "No mover a actividades interactivas ni desbloquear juegos completos."
+      ],
+      "roleInPpa": "Abre el bloque colocando la comunicación accesible como una alternativa concreta para una comunidad más incluyente.",
+      "pedagogicalUse": "Conviene trabajar Una alternativa de comunicación como una oportunidad para profundizar en la exploración de sistemas alternativos y aumentativos de comunicación para combatir discriminación y ampliar la inclusión sin separar contenido, comunidad y producto final.",
+      "teacherNotes": [
+        "Conviene partir de ejemplos cercanos y después pasar al lenguaje mas abstracto del campo.",
+        "El producto Mensajes en expresiones artísticas gana fuerza cuando se usa para explicar y no solo para exhibir informacion.",
+        "Es mejor seleccionar pocos conceptos bien comprendidos que saturar el trabajo con terminos aislados."
+      ],
+      "resonancePrompts": [
+        {
+          "type": "individual",
+          "prompt": "¿Qué comprendes mejor sobre la exploración de sistemas alternativos y aumentativos de comunicación para combatir discriminación y ampliar la inclusión después de elaborar mensajes en expresiones artísticas?"
+        },
+        {
+          "type": "community",
+          "prompt": "¿Qué diálogos comunitarios podrían fortalecerse si compartimos mensajes en expresiones artísticas y lo ponemos en conversación con otras personas?"
+        }
+      ],
+      "notReadyFor": [
+        "full-games",
+        "summative-exam"
+      ]
+    },
+    {
+      "id": "lenguajes-2-ppa-15-pa44",
+      "projectId": "lenguajes-2-ppa-15-pa44",
+      "academicProjectNumber": 44,
+      "title": "El arte de la inclusión",
+      "projectTitle": "El arte de la inclusión",
+      "grade": "2",
+      "field": "Lenguajes",
+      "ppaNumber": "15",
+      "partialClassroomProject": "PPA 15",
+      "partialClassroomProjectTitle": "¡Inclusive tu cultura y tu comunidad!",
+      "bookVolume": "Tomo III",
+      "sourceValidation": {
+        "sourceStatus": "linked",
+        "possibilitiesPages": [
+          39,
+          40
+        ],
+        "possibilitiesMaterialId": "grade-2-posibilidades-pos-len-2",
+        "possibilitiesColumnIndex": 2,
+        "columnEvidence": "Bloque PPA 15 ¡Inclusive tu cultura y tu comunidad! localizado en pp. 39-40; la columna 2 se confirma por el orden de proyectos, productos y continuidad del mismo bloque."
+      },
+      "finalProduct": {
+        "title": "Taller sensorial",
+        "source": "Posibilidades de uso Lenguajes pp. 39-40 + Nuestro libro de proyectos Tomo III pp. 81-84",
+        "status": "confirmed"
+      },
+      "sourcePages": {
+        "nuestroLibroProyectos": [
+          {
+            "materialId": "grade-2-proyectos-nuestro-libro-de-proyectos-tomo-3-segundo-grado",
+            "label": "Nuestro libro de proyectos Tomo III",
+            "startPage": 81,
+            "endPage": 84,
+            "pagesLabel": "pp. 81-84",
+            "topicTitle": "Proyecto academico 44",
+            "status": "confirmed-source"
+          }
+        ],
+        "conceptBook": [
+          {
+            "materialId": "grade-2-conceptos-lenguajes-segundo-grado",
+            "label": "Lenguajes",
+            "startPage": 168,
+            "endPage": 178,
+            "pagesLabel": "pp. 168-178",
+            "topicTitle": "La expresión de ideas para la construcción de una sociedad incluyente",
+            "status": "confirmed-by-column-inference"
+          },
+          {
+            "materialId": "grade-2-conceptos-lenguajes-segundo-grado",
+            "label": "Lenguajes",
+            "startPage": 309,
+            "endPage": 314,
+            "pagesLabel": "pp. 309-314",
+            "topicTitle": "To'on, palabra maya para nombrar el “nosotros”",
+            "status": "confirmed-by-column-inference"
+          },
+          {
+            "materialId": "grade-2-conceptos-lenguajes-segundo-grado",
+            "label": "Lenguajes",
+            "startPage": 263,
+            "endPage": 270,
+            "pagesLabel": "pp. 263-270",
+            "topicTitle": "Colectivos y proyectos artísticos en contextos rurales y urbanos",
+            "status": "confirmed-by-column-inference"
+          }
+        ],
+        "multiplesLenguajes": [
+          {
+            "materialId": "grade-2-apoyo-multiples-lenguajes-segundo-grado",
+            "label": "Multiples Lenguajes",
+            "startPage": 68,
+            "endPage": 69,
+            "pagesLabel": "pp. 68-69",
+            "topicTitle": "Diversas formas de habitar el cuerpo",
+            "status": "confirmed-by-column-inference"
+          }
+        ],
+        "otherMaterials": [
+          {
+            "label": "Video PPA 15: ¡Inclusive tu cultura y tu comunidad!",
+            "reference": "bit.ly/3VfglUk",
+            "status": "pending-validation"
+          }
+        ]
+      },
+      "supportMaterials": [
+        {
+          "title": "Diversas formas de habitar el cuerpo",
+          "kind": "Multiples Lenguajes",
+          "pages": "pp. 68-69",
+          "status": "confirmed-by-column-inference"
+        }
+      ],
+      "horizonOrPurpose": {
+        "status": "official",
+        "text": "Promover la inclusión mediante un taller sensorial que recupere identidades plurales, entrevistas y experiencias artísticas de reconocimiento mutuo.",
+        "source": "Nuestro libro de proyectos Tomo III p. 81"
+      },
+      "projectExpectationHorizon": {
+        "officialText": "Recuperar opiniones, identidades y formas de convivencia incluyente para diseñar un taller sensorial con perspectiva comunitaria.",
+        "studentVersion": "Diseñar un taller sensorial que ayude a vivir y comprender la inclusión desde el arte y el nosotros.",
+        "sourcePages": [
+          "Nuestro libro de proyectos Tomo III p. 81"
+        ],
+        "evidence": "El proyecto enlaza entrevista, inclusión, identidad plural y educación artística para generar una experiencia sensible y colectiva.",
+        "status": "official"
+      },
+      "detonatingStrategy": {
+        "status": "pending-url",
+        "text": "Video PPA 15: ¡Inclusive tu cultura y tu comunidad!",
+        "reference": "bit.ly/3VfglUk",
+        "source": "Nuestro libro de proyectos Tomo III pp. 79-80 + Posibilidades de uso Lenguajes pp. 39-40"
+      },
+      "academicProjectStrategy": {
+        "title": "Taller sensorial",
+        "text": "Escuchar opiniones, identificar barreras y traducirlas en una experiencia sensorial que promueva empatía, inclusión y trabajo colectivo.",
+        "type": "project-product",
+        "status": "confirmed-from-project-book",
+        "source": "Nuestro libro de proyectos Tomo III pp. 81-84"
+      },
+      "academicConcepts": [
+        {
+          "concept": "taller sensorial",
+          "description": "Taller sensorial como producto de cierre para organizar y comunicar aprendizajes del proyecto.",
+          "sourceBook": "Nuestro libro de proyectos Tomo III",
+          "sourcePages": [
+            81,
+            84
+          ],
+          "sourcePagesLabel": "pp. 81-84",
+          "topicTitle": "Proyecto academico 44",
+          "status": "confirmed",
+          "reason": "Posibilidades y el propio proyecto fijan Taller sensorial como producto final del PA 44.",
+          "pedagogicalUse": "Da una forma concreta de socializar lo comprendido sobre la construcción de inclusión mediante entrevistas, identidades plurales y manifestaciones artísticas y culturales compartidas.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "identidades plurales",
+          "description": "Reconocimiento de que las personas construyen pertenencias, experiencias y formas de ser diversas y cambiantes.",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            168,
+            178
+          ],
+          "sourcePagesLabel": "pp. 168-178",
+          "topicTitle": "La expresión de ideas para la construcción de una sociedad incluyente",
+          "status": "confirmed",
+          "reason": "La fuente validada \"La expresión de ideas para la construcción de una sociedad incluyente\" aporta base suficiente para trabajar identidades plurales dentro del proyecto 44.",
+          "pedagogicalUse": "Ayuda a fortalecer taller sensorial y a explicar la construcción de inclusión mediante entrevistas, identidades plurales y manifestaciones artísticas y culturales compartidas con mayor claridad mediante identidades plurales.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "entrevista",
+          "description": "Intercambio planificado de preguntas y respuestas para recuperar opiniones, experiencias o información de otras personas.",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            168,
+            178
+          ],
+          "sourcePagesLabel": "pp. 168-178",
+          "topicTitle": "La expresión de ideas para la construcción de una sociedad incluyente",
+          "status": "confirmed",
+          "reason": "La fuente validada \"La expresión de ideas para la construcción de una sociedad incluyente\" aporta base suficiente para trabajar entrevista dentro del proyecto 44.",
+          "pedagogicalUse": "Ayuda a fortalecer taller sensorial y a explicar la construcción de inclusión mediante entrevistas, identidades plurales y manifestaciones artísticas y culturales compartidas con mayor claridad mediante entrevista.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "inclusión",
+          "description": "Participación digna y plena de todas las personas en la vida social, cultural y educativa.",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            168,
+            178
+          ],
+          "sourcePagesLabel": "pp. 168-178",
+          "topicTitle": "La expresión de ideas para la construcción de una sociedad incluyente",
+          "status": "confirmed",
+          "reason": "La fuente validada \"La expresión de ideas para la construcción de una sociedad incluyente\" aporta base suficiente para trabajar inclusión dentro del proyecto 44.",
+          "pedagogicalUse": "Ayuda a fortalecer taller sensorial y a explicar la construcción de inclusión mediante entrevistas, identidades plurales y manifestaciones artísticas y culturales compartidas con mayor claridad mediante inclusión.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "taller sensorial",
+          "description": "Experiencia organizada que involucra percepción, cuerpo y reflexión para aprender de forma situada.",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            168,
+            178
+          ],
+          "sourcePagesLabel": "pp. 168-178",
+          "topicTitle": "La expresión de ideas para la construcción de una sociedad incluyente",
+          "status": "confirmed",
+          "reason": "La fuente validada \"La expresión de ideas para la construcción de una sociedad incluyente\" aporta base suficiente para trabajar taller sensorial dentro del proyecto 44.",
+          "pedagogicalUse": "Ayuda a fortalecer taller sensorial y a explicar la construcción de inclusión mediante entrevistas, identidades plurales y manifestaciones artísticas y culturales compartidas con mayor claridad mediante taller sensorial.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "nosotros comunitario",
+          "description": "Sentido colectivo de pertenencia que reconoce vínculos, diferencias y cuidado mutuo dentro de una comunidad.",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            309,
+            314
+          ],
+          "sourcePagesLabel": "pp. 309-314",
+          "topicTitle": "To'on, palabra maya para nombrar el “nosotros”",
+          "status": "confirmed",
+          "reason": "La fuente validada \"To'on, palabra maya para nombrar el “nosotros”\" aporta base suficiente para trabajar nosotros comunitario dentro del proyecto 44.",
+          "pedagogicalUse": "Ayuda a fortalecer taller sensorial y a explicar la construcción de inclusión mediante entrevistas, identidades plurales y manifestaciones artísticas y culturales compartidas con mayor claridad mediante nosotros comunitario.",
+          "activityReadiness": "usable-for-autoevaluation"
+        }
+      ],
+      "thinkingCriteria": [
+        "Relacionar la construcción de inclusión mediante entrevistas, identidades plurales y manifestaciones artísticas y culturales compartidas con situaciones cercanas a la comunidad.",
+        "Usar taller sensorial para explicar y no solo para recopilar informacion.",
+        "Distinguir entre mencionar conceptos y comprender como dialogan entre si dentro del proyecto."
+      ],
+      "validationStatus": {
+        "readinessLevel": "development-partial",
+        "readyForActivities": false,
+        "needsReviewReasons": [
+          "El bloque 15 ya es usable como lectura docente, pero el video del PPA 15 y el recurso informatico siguen pendientes de validacion de destino final.",
+          "La asignacion de apoyos de Posibilidades se sostiene por inferencia curricular documentada y no por OCR perfectamente separado por columnas.",
+          "No mover a actividades interactivas ni desbloquear juegos completos hasta ampliar validacion de videos y recursos complementarios."
+        ]
+      },
+      "readinessLevel": "development-partial",
+      "readyForActivities": false,
+      "needsReviewReasons": [
+        "No mover a actividades interactivas ni desbloquear juegos completos."
+      ],
+      "roleInPpa": "Profundiza el bloque al convertir la inclusión en experiencia sensible, diálogo y encuentro a través de un taller sensorial.",
+      "pedagogicalUse": "Conviene trabajar El arte de la inclusión como una oportunidad para profundizar en la construcción de inclusión mediante entrevistas, identidades plurales y manifestaciones artísticas y culturales compartidas sin separar contenido, comunidad y producto final.",
+      "teacherNotes": [
+        "Conviene partir de ejemplos cercanos y después pasar al lenguaje mas abstracto del campo.",
+        "El producto Taller sensorial gana fuerza cuando se usa para explicar y no solo para exhibir informacion.",
+        "Es mejor seleccionar pocos conceptos bien comprendidos que saturar el trabajo con terminos aislados."
+      ],
+      "resonancePrompts": [
+        {
+          "type": "individual",
+          "prompt": "¿Qué comprendes mejor sobre la construcción de inclusión mediante entrevistas, identidades plurales y manifestaciones artísticas y culturales compartidas después de elaborar taller sensorial?"
+        },
+        {
+          "type": "community",
+          "prompt": "¿Qué diálogos comunitarios podrían fortalecerse si compartimos taller sensorial y lo ponemos en conversación con otras personas?"
+        }
+      ],
+      "notReadyFor": [
+        "full-games",
+        "summative-exam"
+      ]
+    },
+    {
+      "id": "lenguajes-2-ppa-15-pa45",
+      "projectId": "lenguajes-2-ppa-15-pa45",
+      "academicProjectNumber": 45,
+      "title": "La inclusión de la expresión",
+      "projectTitle": "La inclusión de la expresión",
+      "grade": "2",
+      "field": "Lenguajes",
+      "ppaNumber": "15",
+      "partialClassroomProject": "PPA 15",
+      "partialClassroomProjectTitle": "¡Inclusive tu cultura y tu comunidad!",
+      "bookVolume": "Tomo III",
+      "sourceValidation": {
+        "sourceStatus": "linked",
+        "possibilitiesPages": [
+          39,
+          40
+        ],
+        "possibilitiesMaterialId": "grade-2-posibilidades-pos-len-2",
+        "possibilitiesColumnIndex": 3,
+        "columnEvidence": "Bloque PPA 15 ¡Inclusive tu cultura y tu comunidad! localizado en pp. 39-40; la columna 3 se confirma por el orden de proyectos, productos y continuidad del mismo bloque."
+      },
+      "finalProduct": {
+        "title": "Compendio de textos narrativos originales",
+        "source": "Posibilidades de uso Lenguajes pp. 39-40 + Nuestro libro de proyectos Tomo III pp. 85-89",
+        "status": "confirmed"
+      },
+      "sourcePages": {
+        "nuestroLibroProyectos": [
+          {
+            "materialId": "grade-2-proyectos-nuestro-libro-de-proyectos-tomo-3-segundo-grado",
+            "label": "Nuestro libro de proyectos Tomo III",
+            "startPage": 85,
+            "endPage": 89,
+            "pagesLabel": "pp. 85-89",
+            "topicTitle": "Proyecto academico 45",
+            "status": "confirmed-source"
+          }
+        ],
+        "conceptBook": [
+          {
+            "materialId": "grade-2-conceptos-lenguajes-segundo-grado",
+            "label": "Lenguajes",
+            "startPage": 237,
+            "endPage": 245,
+            "pagesLabel": "pp. 237-245",
+            "topicTitle": "Pueblos indígenas y afrodescendientes de México y el mundo",
+            "status": "confirmed-by-column-inference"
+          },
+          {
+            "materialId": "grade-2-conceptos-lenguajes-segundo-grado",
+            "label": "Lenguajes",
+            "startPage": 250,
+            "endPage": 252,
+            "pagesLabel": "pp. 250-252",
+            "topicTitle": "Arte, identidad y territorio",
+            "status": "confirmed-by-column-inference"
+          },
+          {
+            "materialId": "grade-2-conceptos-lenguajes-segundo-grado",
+            "label": "Lenguajes",
+            "startPage": 271,
+            "endPage": 276,
+            "pagesLabel": "pp. 271-276",
+            "topicTitle": "Componentes de la ritualidad: cuerpo, pensamiento y organización política",
+            "status": "confirmed-by-column-inference"
+          }
+        ],
+        "multiplesLenguajes": [
+          {
+            "materialId": "grade-2-apoyo-multiples-lenguajes-segundo-grado",
+            "label": "Multiples Lenguajes",
+            "startPage": 22,
+            "endPage": 23,
+            "pagesLabel": "pp. 22-23",
+            "topicTitle": "Cimarrona de humo",
+            "status": "confirmed-by-column-inference"
+          }
+        ],
+        "otherMaterials": [
+          {
+            "label": "Video PPA 15: ¡Inclusive tu cultura y tu comunidad!",
+            "reference": "bit.ly/3VfglUk",
+            "status": "pending-validation"
+          }
+        ]
+      },
+      "supportMaterials": [
+        {
+          "title": "Cimarrona de humo",
+          "kind": "Multiples Lenguajes",
+          "pages": "pp. 22-23",
+          "status": "confirmed-by-column-inference"
+        }
+      ],
+      "horizonOrPurpose": {
+        "status": "official",
+        "text": "Reconocer la diversidad de pueblos, territorios e identidades para escribir un compendio de textos narrativos originales con perspectiva incluyente.",
+        "source": "Nuestro libro de proyectos Tomo III p. 85"
+      },
+      "projectExpectationHorizon": {
+        "officialText": "Valorar manifestaciones indígenas y afrodescendientes, reflexionar sobre identidad y diversidad, y crear textos narrativos originales para compartirlos en un compendio.",
+        "studentVersion": "Escribir textos narrativos originales que valoren la diversidad indígena y afrodescendiente y promuevan inclusión.",
+        "sourcePages": [
+          "Nuestro libro de proyectos Tomo III p. 85"
+        ],
+        "evidence": "El proyecto reúne pueblos indígenas y afrodescendientes, identidad, territorio y ritualidad para sostener una creación narrativa incluyente.",
+        "status": "official"
+      },
+      "detonatingStrategy": {
+        "status": "pending-url",
+        "text": "Video PPA 15: ¡Inclusive tu cultura y tu comunidad!",
+        "reference": "bit.ly/3VfglUk",
+        "source": "Nuestro libro de proyectos Tomo III pp. 83-84 + Posibilidades de uso Lenguajes pp. 39-40"
+      },
+      "academicProjectStrategy": {
+        "title": "Compendio de textos narrativos originales",
+        "text": "Leer manifestaciones culturales diversas, reflexionar sobre identidad y territorio, y escribir textos narrativos originales para un compendio común.",
+        "type": "project-product",
+        "status": "confirmed-from-project-book",
+        "source": "Nuestro libro de proyectos Tomo III pp. 85-89"
+      },
+      "academicConcepts": [
+        {
+          "concept": "compendio de textos narrativos originales",
+          "description": "Compendio de textos narrativos originales como producto de cierre para organizar y comunicar aprendizajes del proyecto.",
+          "sourceBook": "Nuestro libro de proyectos Tomo III",
+          "sourcePages": [
+            85,
+            89
+          ],
+          "sourcePagesLabel": "pp. 85-89",
+          "topicTitle": "Proyecto academico 45",
+          "status": "confirmed",
+          "reason": "Posibilidades y el propio proyecto fijan Compendio de textos narrativos originales como producto final del PA 45.",
+          "pedagogicalUse": "Da una forma concreta de socializar lo comprendido sobre la valoración de pueblos indígenas y afrodescendientes, la identidad en la otredad y la creación narrativa desde la diversidad cultural.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "pueblos afrodescendientes",
+          "description": "Comunidades históricas y actuales que reconocen herencias africanas y las expresan en formas culturales propias.",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            237,
+            245
+          ],
+          "sourcePagesLabel": "pp. 237-245",
+          "topicTitle": "Pueblos indígenas y afrodescendientes de México y el mundo",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Pueblos indígenas y afrodescendientes de México y el mundo\" aporta base suficiente para trabajar pueblos afrodescendientes dentro del proyecto 45.",
+          "pedagogicalUse": "Ayuda a fortalecer compendio de textos narrativos originales y a explicar la valoración de pueblos indígenas y afrodescendientes, la identidad en la otredad y la creación narrativa desde la diversidad cultural con mayor claridad mediante pueblos afrodescendientes.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "pueblos indígenas",
+          "description": "Pueblos originarios con lenguas, historias y formas de organización que sostienen identidades y territorios vivos.",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            237,
+            245
+          ],
+          "sourcePagesLabel": "pp. 237-245",
+          "topicTitle": "Pueblos indígenas y afrodescendientes de México y el mundo",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Pueblos indígenas y afrodescendientes de México y el mundo\" aporta base suficiente para trabajar pueblos indígenas dentro del proyecto 45.",
+          "pedagogicalUse": "Ayuda a fortalecer compendio de textos narrativos originales y a explicar la valoración de pueblos indígenas y afrodescendientes, la identidad en la otredad y la creación narrativa desde la diversidad cultural con mayor claridad mediante pueblos indígenas.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "otredad",
+          "description": "Reconocimiento de la diferencia como parte de la construcción de identidad y convivencia, no como amenaza.",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            250,
+            252
+          ],
+          "sourcePagesLabel": "pp. 250-252",
+          "topicTitle": "Arte, identidad y territorio",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Arte, identidad y territorio\" aporta base suficiente para trabajar otredad dentro del proyecto 45.",
+          "pedagogicalUse": "Ayuda a fortalecer compendio de textos narrativos originales y a explicar la valoración de pueblos indígenas y afrodescendientes, la identidad en la otredad y la creación narrativa desde la diversidad cultural con mayor claridad mediante otredad.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "territorio e identidad",
+          "description": "Relación entre los lugares que se habitan y las formas en que una persona o comunidad se reconoce a sí misma.",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            250,
+            252
+          ],
+          "sourcePagesLabel": "pp. 250-252",
+          "topicTitle": "Arte, identidad y territorio",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Arte, identidad y territorio\" aporta base suficiente para trabajar territorio e identidad dentro del proyecto 45.",
+          "pedagogicalUse": "Ayuda a fortalecer compendio de textos narrativos originales y a explicar la valoración de pueblos indígenas y afrodescendientes, la identidad en la otredad y la creación narrativa desde la diversidad cultural con mayor claridad mediante territorio e identidad.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "narrativa original",
+          "description": "Texto narrativo creado por el propio estudiante o grupo para expresar una mirada particular sobre un tema.",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            237,
+            245
+          ],
+          "sourcePagesLabel": "pp. 237-245",
+          "topicTitle": "Pueblos indígenas y afrodescendientes de México y el mundo",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Pueblos indígenas y afrodescendientes de México y el mundo\" aporta base suficiente para trabajar narrativa original dentro del proyecto 45.",
+          "pedagogicalUse": "Ayuda a fortalecer compendio de textos narrativos originales y a explicar la valoración de pueblos indígenas y afrodescendientes, la identidad en la otredad y la creación narrativa desde la diversidad cultural con mayor claridad mediante narrativa original.",
+          "activityReadiness": "usable-for-autoevaluation"
+        }
+      ],
+      "thinkingCriteria": [
+        "Relacionar la valoración de pueblos indígenas y afrodescendientes, la identidad en la otredad y la creación narrativa desde la diversidad cultural con situaciones cercanas a la comunidad.",
+        "Usar compendio de textos narrativos originales para explicar y no solo para recopilar informacion.",
+        "Distinguir entre mencionar conceptos y comprender como dialogan entre si dentro del proyecto."
+      ],
+      "validationStatus": {
+        "readinessLevel": "development-partial",
+        "readyForActivities": false,
+        "needsReviewReasons": [
+          "El bloque 15 ya es usable como lectura docente, pero el video del PPA 15 y el recurso informatico siguen pendientes de validacion de destino final.",
+          "La asignacion de apoyos de Posibilidades se sostiene por inferencia curricular documentada y no por OCR perfectamente separado por columnas.",
+          "No mover a actividades interactivas ni desbloquear juegos completos hasta ampliar validacion de videos y recursos complementarios."
+        ]
+      },
+      "readinessLevel": "development-partial",
+      "readyForActivities": false,
+      "needsReviewReasons": [
+        "No mover a actividades interactivas ni desbloquear juegos completos."
+      ],
+      "roleInPpa": "Cierra el bloque integrando diversidad cultural, identidad y expresión narrativa en un compendio que dé voz a múltiples pertenencias.",
+      "pedagogicalUse": "Conviene trabajar La inclusión de la expresión como una oportunidad para profundizar en la valoración de pueblos indígenas y afrodescendientes, la identidad en la otredad y la creación narrativa desde la diversidad cultural sin separar contenido, comunidad y producto final.",
+      "teacherNotes": [
+        "Conviene partir de ejemplos cercanos y después pasar al lenguaje mas abstracto del campo.",
+        "El producto Compendio de textos narrativos originales gana fuerza cuando se usa para explicar y no solo para exhibir informacion.",
+        "Es mejor seleccionar pocos conceptos bien comprendidos que saturar el trabajo con terminos aislados."
+      ],
+      "resonancePrompts": [
+        {
+          "type": "individual",
+          "prompt": "¿Qué comprendes mejor sobre la valoración de pueblos indígenas y afrodescendientes, la identidad en la otredad y la creación narrativa desde la diversidad cultural después de elaborar compendio de textos narrativos originales?"
+        },
+        {
+          "type": "community",
+          "prompt": "¿Qué diálogos comunitarios podrían fortalecerse si compartimos compendio de textos narrativos originales y lo ponemos en conversación con otras personas?"
+        }
+      ],
+      "notReadyFor": [
+        "full-games",
+        "summative-exam"
+      ]
+    }
+  ]
+}

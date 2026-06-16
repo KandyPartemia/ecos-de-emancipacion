@@ -1,0 +1,773 @@
+{
+  "grade": "1",
+  "gradeLabel": "Primer grado",
+  "field": "De lo Humano y lo Comunitario",
+  "bookVolume": "Tomo II",
+  "partialClassroomProject": "PPA 3",
+  "partialClassroomProjectTitle": "Me conozco y conozco mi entorno",
+  "generatedAt": "2026-06-02T02:38:17.478Z",
+  "notes": "Capa curricular generada por lote para 1o De lo Humano y lo Comunitario, PPA 3.",
+  "sourcesUsed": [
+    "public/caracoles/data/generated/grade-1/selectable-projects.json",
+    "content/caracoles/generated-private/grade-1/pages-index.full.json",
+    "Posibilidades de uso DHyC, primer grado, pp. 10-11",
+    "Nuestro libro de proyectos Tomo II, primer grado, pp. 226-241",
+    "De lo Humano y lo Comunitario, primer grado, pp. 154-162, 186-192, 193-210, 216-249; Multiples Lenguajes pp. 26-27."
+  ],
+  "partialClassroomProjectContext": {
+    "expectationHorizon": {
+      "officialText": "",
+      "sourcePages": [
+        "Nuestro libro de proyectos Tomo II pp. 226-227",
+        "Posibilidades de uso DHyC pp. 10-11"
+      ],
+      "evidence": "El PPA 3 liga autoconocimiento, riesgos y fortalezas para que el grupo se mire a si mismo y a su entorno con mayor conciencia y cuidado.",
+      "status": "pending"
+    },
+    "ppaDetonatingStrategy": {
+      "title": "Me conozco y conozco mi entorno",
+      "type": "video",
+      "url": "",
+      "urlStatus": "pending-url",
+      "reference": "bit.ly/3VfglUk",
+      "source": "Nuestro libro de proyectos Tomo II pp. 226-227 + Posibilidades de uso DHyC pp. 10-11",
+      "scope": "partial-classroom-project",
+      "youtubeSearchQuery": "Me conozco y conozco mi entorno De lo Humano y lo Comunitario 1er grado Telesecundaria"
+    },
+    "ppaDigitalResource": {
+      "title": "Recurso informatico del bloque PPA 3",
+      "reference": "bit.ly/3WQBMwg",
+      "status": "pending-validation",
+      "source": "Nuestro libro de proyectos Tomo II pp. 226-241"
+    },
+    "validationStatus": {
+      "needsHumanReview": true,
+      "needsReviewReasons": [
+        "Las pp. 10-11 de Posibilidades pertenecen al mismo PPA 3.",
+        "La asignacion de apoyos por columna se fija por inferencia curricular documentada de izquierda a derecha.",
+        "Los enlaces cortos del video del PPA y del recurso informatico se mantienen en cautela hasta localizar un destino oficial confirmado."
+      ]
+    },
+    "columnValidation": {
+      "possibilitiesPagesReviewed": [
+        10,
+        11
+      ],
+      "confirmedAsPpa": true,
+      "note": "Las pp. 10-11 corresponden al PPA 3 Me conozco y conozco mi entorno. Las tres columnas se sostienen por el orden de proyectos, productos y apoyos del mismo bloque.",
+      "columns": [
+        {
+          "columnIndex": 1,
+          "projectId": "de-lo-humano-y-lo-comunitario-1-ppa-3-pa7",
+          "projectTitle": "Taller estudiantil del autoconocimiento",
+          "finalProduct": "Talleres estudiantiles de autoconocimiento",
+          "supportMaterials": [
+            "Mascogos. Pueblo de afrodescendientes en el norte de Mexico, pp. 26-27"
+          ]
+        },
+        {
+          "columnIndex": 2,
+          "projectId": "de-lo-humano-y-lo-comunitario-1-ppa-3-pa8",
+          "projectTitle": "Mi guia personal de prevencion de riesgos",
+          "finalProduct": "Guia personal de prevencion de riesgos",
+          "supportMaterials": []
+        },
+        {
+          "columnIndex": 3,
+          "projectId": "de-lo-humano-y-lo-comunitario-1-ppa-3-pa9",
+          "projectTitle": "Descubro mis fortalezas, debilidades y potencialidades",
+          "finalProduct": "Cartel",
+          "supportMaterials": []
+        }
+      ]
+    }
+  },
+  "academicProjects": [
+    {
+      "id": "de-lo-humano-y-lo-comunitario-1-ppa-3-pa7",
+      "projectId": "de-lo-humano-y-lo-comunitario-1-ppa-3-pa7",
+      "academicProjectNumber": 7,
+      "title": "Taller estudiantil del autoconocimiento",
+      "projectTitle": "Taller estudiantil del autoconocimiento",
+      "grade": "1",
+      "field": "De lo Humano y lo Comunitario",
+      "ppaNumber": "3",
+      "partialClassroomProject": "PPA 3",
+      "partialClassroomProjectTitle": "Me conozco y conozco mi entorno",
+      "bookVolume": "Tomo II",
+      "sourceValidation": {
+        "sourceStatus": "linked",
+        "possibilitiesPages": [
+          10,
+          11
+        ],
+        "possibilitiesMaterialId": "grade-1-posibilidades-pos-dhc-1",
+        "possibilitiesColumnIndex": 1,
+        "columnEvidence": "Bloque PPA 3 Me conozco y conozco mi entorno localizado en pp. 10-11; la columna 1 se confirma por el orden de proyectos, productos y continuidad del mismo bloque."
+      },
+      "finalProduct": {
+        "title": "Talleres estudiantiles de autoconocimiento",
+        "source": "Posibilidades de uso DHyC pp. 10-11 + Nuestro libro de proyectos Tomo II pp. 228-232",
+        "status": "confirmed"
+      },
+      "sourcePages": {
+        "nuestroLibroProyectos": [
+          {
+            "materialId": "grade-1-proyectos-nuestro-libro-de-proyectos-tomo-ii-primer-grado",
+            "label": "Nuestro libro de proyectos Tomo II",
+            "startPage": 228,
+            "endPage": 232,
+            "pagesLabel": "pp. 228-232",
+            "topicTitle": "Proyecto academico 7",
+            "status": "confirmed-source"
+          }
+        ],
+        "conceptBook": [
+          {
+            "materialId": "grade-1-conceptos-de-lo-humano-y-lo-comunitario-primer-grado",
+            "label": "De lo Humano y lo Comunitario",
+            "startPage": 154,
+            "endPage": 162,
+            "pagesLabel": "pp. 154-162",
+            "topicTitle": "Autoconocimiento e identidad",
+            "status": "confirmed-by-column-inference"
+          },
+          {
+            "materialId": "grade-1-conceptos-de-lo-humano-y-lo-comunitario-primer-grado",
+            "label": "De lo Humano y lo Comunitario",
+            "startPage": 199,
+            "endPage": 203,
+            "pagesLabel": "pp. 199-203",
+            "topicTitle": "Las habilidades emocionales y su desarrollo",
+            "status": "confirmed-by-column-inference"
+          },
+          {
+            "materialId": "grade-1-conceptos-de-lo-humano-y-lo-comunitario-primer-grado",
+            "label": "De lo Humano y lo Comunitario",
+            "startPage": 225,
+            "endPage": 227,
+            "pagesLabel": "pp. 225-227",
+            "topicTitle": "Las distintas dimensiones del ser humano y la salud integral",
+            "status": "confirmed-by-column-inference"
+          }
+        ],
+        "multiplesLenguajes": [
+          {
+            "materialId": "grade-1-apoyo-muiltiples-lenguajes-primer-grado",
+            "label": "Multiples Lenguajes",
+            "startPage": 26,
+            "endPage": 27,
+            "pagesLabel": "pp. 26-27",
+            "topicTitle": "Mascogos. Pueblo de afrodescendientes en el norte de Mexico",
+            "status": "confirmed-by-column-inference"
+          }
+        ],
+        "otherMaterials": [
+          {
+            "label": "Video PPA 3: Me conozco y conozco mi entorno",
+            "reference": "bit.ly/3VfglUk",
+            "status": "pending-validation"
+          }
+        ]
+      },
+      "supportMaterials": [
+        {
+          "title": "Mascogos. Pueblo de afrodescendientes en el norte de Mexico",
+          "kind": "Multiples Lenguajes",
+          "pages": "pp. 26-27",
+          "status": "confirmed-by-column-inference"
+        }
+      ],
+      "horizonOrPurpose": {
+        "status": "pending",
+        "text": "",
+        "source": "Nuestro libro de proyectos Tomo II p. 228"
+      },
+      "projectExpectationHorizon": {
+        "officialText": "",
+        "studentVersion": "",
+        "sourcePages": [
+          "Nuestro libro de proyectos Tomo II p. 228"
+        ],
+        "evidence": "El proyecto ya cuenta con producto, conceptos y articulacion pedagógica, pero el horizonte textual exacto sigue pendiente de confirmacion literal.",
+        "status": "pending"
+      },
+      "detonatingStrategy": {
+        "status": "pending-url",
+        "text": "Video PPA 3: Me conozco y conozco mi entorno",
+        "reference": "bit.ly/3VfglUk",
+        "source": "Nuestro libro de proyectos Tomo II pp. 226-227 + Posibilidades de uso DHyC pp. 10-11"
+      },
+      "academicProjectStrategy": {
+        "title": "Talleres estudiantiles de autoconocimiento",
+        "text": "Organizar talleres estudiantiles de autoconocimiento para profundizar en el autoconocimiento y el desarrollo de habilidades emocionales y compartir hallazgos de manera clara con el grupo.",
+        "type": "project-product",
+        "status": "confirmed-from-project-book",
+        "source": "Nuestro libro de proyectos Tomo II pp. 228-232"
+      },
+      "academicConcepts": [
+        {
+          "concept": "talleres estudiantiles de autoconocimiento",
+          "description": "Talleres estudiantiles de autoconocimiento como producto de cierre para organizar y comunicar aprendizajes del proyecto.",
+          "sourceBook": "Nuestro libro de proyectos Tomo II",
+          "sourcePages": [
+            228,
+            232
+          ],
+          "sourcePagesLabel": "pp. 228-232",
+          "topicTitle": "Proyecto academico 7",
+          "status": "confirmed",
+          "reason": "Posibilidades y el propio proyecto fijan Talleres estudiantiles de autoconocimiento como producto final del PA 7.",
+          "pedagogicalUse": "Da una forma concreta de socializar lo comprendido sobre el autoconocimiento y el desarrollo de habilidades emocionales.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "autoconocimiento",
+          "description": "Autoconocimiento es una idea clave para comprender el autoconocimiento y el desarrollo de habilidades emocionales.",
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "sourcePages": [
+            154,
+            162
+          ],
+          "sourcePagesLabel": "pp. 154-162",
+          "topicTitle": "Autoconocimiento e identidad",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Autoconocimiento e identidad\" aporta base suficiente para trabajar autoconocimiento dentro del proyecto 7.",
+          "pedagogicalUse": "Ayuda a fortalecer talleres estudiantiles de autoconocimiento y a explicar el autoconocimiento y el desarrollo de habilidades emocionales con mayor claridad mediante autoconocimiento.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "identidad",
+          "description": "Identidad es una idea clave para comprender el autoconocimiento y el desarrollo de habilidades emocionales.",
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "sourcePages": [
+            154,
+            162
+          ],
+          "sourcePagesLabel": "pp. 154-162",
+          "topicTitle": "Autoconocimiento e identidad",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Autoconocimiento e identidad\" aporta base suficiente para trabajar identidad dentro del proyecto 7.",
+          "pedagogicalUse": "Ayuda a fortalecer talleres estudiantiles de autoconocimiento y a explicar el autoconocimiento y el desarrollo de habilidades emocionales con mayor claridad mediante identidad.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "habilidades emocionales",
+          "description": "Habilidades emocionales es una idea clave para comprender el autoconocimiento y el desarrollo de habilidades emocionales.",
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "sourcePages": [
+            199,
+            203
+          ],
+          "sourcePagesLabel": "pp. 199-203",
+          "topicTitle": "Las habilidades emocionales y su desarrollo",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Las habilidades emocionales y su desarrollo\" aporta base suficiente para trabajar habilidades emocionales dentro del proyecto 7.",
+          "pedagogicalUse": "Ayuda a fortalecer talleres estudiantiles de autoconocimiento y a explicar el autoconocimiento y el desarrollo de habilidades emocionales con mayor claridad mediante habilidades emocionales.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "salud integral",
+          "description": "Salud integral es una idea clave para comprender el autoconocimiento y el desarrollo de habilidades emocionales.",
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "sourcePages": [
+            225,
+            227
+          ],
+          "sourcePagesLabel": "pp. 225-227",
+          "topicTitle": "Las distintas dimensiones del ser humano y la salud integral",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Las distintas dimensiones del ser humano y la salud integral\" aporta base suficiente para trabajar salud integral dentro del proyecto 7.",
+          "pedagogicalUse": "Ayuda a fortalecer talleres estudiantiles de autoconocimiento y a explicar el autoconocimiento y el desarrollo de habilidades emocionales con mayor claridad mediante salud integral.",
+          "activityReadiness": "usable-for-autoevaluation"
+        }
+      ],
+      "thinkingCriteria": [
+        "Relacionar el autoconocimiento y el desarrollo de habilidades emocionales con situaciones cercanas a la comunidad.",
+        "Usar talleres estudiantiles de autoconocimiento para explicar y no solo para recopilar informacion.",
+        "Distinguir entre mencionar conceptos y comprender como dialogan entre si dentro del proyecto."
+      ],
+      "validationStatus": {
+        "readinessLevel": "development-partial",
+        "readyForActivities": false,
+        "needsReviewReasons": [
+          "El bloque 3 ya es usable como lectura docente, pero el video del PPA 3 y el recurso informatico siguen pendientes de validacion de destino final.",
+          "La asignacion de apoyos de Posibilidades se sostiene por inferencia curricular documentada y no por OCR perfectamente separado por columnas.",
+          "No mover a actividades interactivas ni desbloquear juegos completos hasta ampliar validacion de videos y recursos complementarios."
+        ]
+      },
+      "readinessLevel": "development-partial",
+      "readyForActivities": false,
+      "needsReviewReasons": [
+        "No mover a actividades interactivas ni desbloquear juegos completos."
+      ],
+      "roleInPpa": "Abre el bloque con espacios de autoconocimiento, identidad y habilidades emocionales para fortalecer el cuidado de si.",
+      "pedagogicalUse": "Conviene trabajar Taller estudiantil del autoconocimiento como una oportunidad para profundizar en el autoconocimiento y el desarrollo de habilidades emocionales sin separar contenido, comunidad y producto final.",
+      "teacherNotes": [
+        "Conviene partir de ejemplos cercanos y despues pasar al lenguaje mas abstracto del campo.",
+        "El producto Talleres estudiantiles de autoconocimiento gana fuerza cuando se usa para explicar y no solo para exhibir informacion.",
+        "Es mejor seleccionar pocos conceptos bien comprendidos que saturar el trabajo con terminos aislados."
+      ],
+      "resonancePrompts": [
+        {
+          "type": "individual",
+          "prompt": "¿Que comprendes mejor sobre el autoconocimiento y el desarrollo de habilidades emocionales despues de elaborar talleres estudiantiles de autoconocimiento?"
+        },
+        {
+          "type": "community",
+          "prompt": "¿Que dialogos comunitarios podrian fortalecerse si compartimos talleres estudiantiles de autoconocimiento y lo ponemos en conversacion con otras personas?"
+        }
+      ],
+      "notReadyFor": [
+        "full-games",
+        "summative-exam"
+      ]
+    },
+    {
+      "id": "de-lo-humano-y-lo-comunitario-1-ppa-3-pa8",
+      "projectId": "de-lo-humano-y-lo-comunitario-1-ppa-3-pa8",
+      "academicProjectNumber": 8,
+      "title": "Mi guia personal de prevencion de riesgos",
+      "projectTitle": "Mi guia personal de prevencion de riesgos",
+      "grade": "1",
+      "field": "De lo Humano y lo Comunitario",
+      "ppaNumber": "3",
+      "partialClassroomProject": "PPA 3",
+      "partialClassroomProjectTitle": "Me conozco y conozco mi entorno",
+      "bookVolume": "Tomo II",
+      "sourceValidation": {
+        "sourceStatus": "linked",
+        "possibilitiesPages": [
+          10,
+          11
+        ],
+        "possibilitiesMaterialId": "grade-1-posibilidades-pos-dhc-1",
+        "possibilitiesColumnIndex": 2,
+        "columnEvidence": "Bloque PPA 3 Me conozco y conozco mi entorno localizado en pp. 10-11; la columna 2 se confirma por el orden de proyectos, productos y continuidad del mismo bloque."
+      },
+      "finalProduct": {
+        "title": "Guia personal de prevencion de riesgos",
+        "source": "Posibilidades de uso DHyC pp. 10-11 + Nuestro libro de proyectos Tomo II pp. 233-236",
+        "status": "confirmed"
+      },
+      "sourcePages": {
+        "nuestroLibroProyectos": [
+          {
+            "materialId": "grade-1-proyectos-nuestro-libro-de-proyectos-tomo-ii-primer-grado",
+            "label": "Nuestro libro de proyectos Tomo II",
+            "startPage": 233,
+            "endPage": 236,
+            "pagesLabel": "pp. 233-236",
+            "topicTitle": "Proyecto academico 8",
+            "status": "confirmed-source"
+          }
+        ],
+        "conceptBook": [
+          {
+            "materialId": "grade-1-conceptos-de-lo-humano-y-lo-comunitario-primer-grado",
+            "label": "De lo Humano y lo Comunitario",
+            "startPage": 186,
+            "endPage": 192,
+            "pagesLabel": "pp. 186-192",
+            "topicTitle": "Factores de riesgo y proteccion de nuestro entorno",
+            "status": "confirmed-by-column-inference"
+          },
+          {
+            "materialId": "grade-1-conceptos-de-lo-humano-y-lo-comunitario-primer-grado",
+            "label": "De lo Humano y lo Comunitario",
+            "startPage": 246,
+            "endPage": 249,
+            "pagesLabel": "pp. 246-249",
+            "topicTitle": "Riesgos y recursos para enfrentarlos",
+            "status": "confirmed-by-column-inference"
+          },
+          {
+            "materialId": "grade-1-conceptos-de-lo-humano-y-lo-comunitario-primer-grado",
+            "label": "De lo Humano y lo Comunitario",
+            "startPage": 84,
+            "endPage": 89,
+            "pagesLabel": "pp. 84-89",
+            "topicTitle": "Riesgos en las Tecnologias",
+            "status": "confirmed-by-column-inference"
+          }
+        ],
+        "multiplesLenguajes": [],
+        "otherMaterials": [
+          {
+            "label": "Video PPA 3: Me conozco y conozco mi entorno",
+            "reference": "bit.ly/3VfglUk",
+            "status": "pending-validation"
+          }
+        ]
+      },
+      "supportMaterials": [],
+      "horizonOrPurpose": {
+        "status": "pending",
+        "text": "",
+        "source": "Nuestro libro de proyectos Tomo II p. 233"
+      },
+      "projectExpectationHorizon": {
+        "officialText": "",
+        "studentVersion": "",
+        "sourcePages": [
+          "Nuestro libro de proyectos Tomo II p. 233"
+        ],
+        "evidence": "El proyecto ya cuenta con producto, conceptos y articulacion pedagógica, pero el horizonte textual exacto sigue pendiente de confirmacion literal.",
+        "status": "pending"
+      },
+      "detonatingStrategy": {
+        "status": "pending-url",
+        "text": "Video PPA 3: Me conozco y conozco mi entorno",
+        "reference": "bit.ly/3VfglUk",
+        "source": "Nuestro libro de proyectos Tomo II pp. 231-232 + Posibilidades de uso DHyC pp. 10-11"
+      },
+      "academicProjectStrategy": {
+        "title": "Guia personal de prevencion de riesgos",
+        "text": "Organizar guia personal de prevencion de riesgos para profundizar en la identificacion de riesgos y recursos de proteccion en el entorno y compartir hallazgos de manera clara con el grupo.",
+        "type": "project-product",
+        "status": "confirmed-from-project-book",
+        "source": "Nuestro libro de proyectos Tomo II pp. 233-236"
+      },
+      "academicConcepts": [
+        {
+          "concept": "guia personal de prevencion de riesgos",
+          "description": "Guia personal de prevencion de riesgos como producto de cierre para organizar y comunicar aprendizajes del proyecto.",
+          "sourceBook": "Nuestro libro de proyectos Tomo II",
+          "sourcePages": [
+            233,
+            236
+          ],
+          "sourcePagesLabel": "pp. 233-236",
+          "topicTitle": "Proyecto academico 8",
+          "status": "confirmed",
+          "reason": "Posibilidades y el propio proyecto fijan Guia personal de prevencion de riesgos como producto final del PA 8.",
+          "pedagogicalUse": "Da una forma concreta de socializar lo comprendido sobre la identificacion de riesgos y recursos de proteccion en el entorno.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "riesgos",
+          "description": "Riesgos es una idea clave para comprender la identificacion de riesgos y recursos de proteccion en el entorno.",
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "sourcePages": [
+            186,
+            192
+          ],
+          "sourcePagesLabel": "pp. 186-192",
+          "topicTitle": "Factores de riesgo y proteccion de nuestro entorno",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Factores de riesgo y proteccion de nuestro entorno\" aporta base suficiente para trabajar riesgos dentro del proyecto 8.",
+          "pedagogicalUse": "Ayuda a fortalecer guia personal de prevencion de riesgos y a explicar la identificacion de riesgos y recursos de proteccion en el entorno con mayor claridad mediante riesgos.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "factores de proteccion",
+          "description": "Factores de proteccion es una idea clave para comprender la identificacion de riesgos y recursos de proteccion en el entorno.",
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "sourcePages": [
+            186,
+            192
+          ],
+          "sourcePagesLabel": "pp. 186-192",
+          "topicTitle": "Factores de riesgo y proteccion de nuestro entorno",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Factores de riesgo y proteccion de nuestro entorno\" aporta base suficiente para trabajar factores de proteccion dentro del proyecto 8.",
+          "pedagogicalUse": "Ayuda a fortalecer guia personal de prevencion de riesgos y a explicar la identificacion de riesgos y recursos de proteccion en el entorno con mayor claridad mediante factores de proteccion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "recursos para enfrentarlos",
+          "description": "Recursos para enfrentarlos es una idea clave para comprender la identificacion de riesgos y recursos de proteccion en el entorno.",
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "sourcePages": [
+            246,
+            249
+          ],
+          "sourcePagesLabel": "pp. 246-249",
+          "topicTitle": "Riesgos y recursos para enfrentarlos",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Riesgos y recursos para enfrentarlos\" aporta base suficiente para trabajar recursos para enfrentarlos dentro del proyecto 8.",
+          "pedagogicalUse": "Ayuda a fortalecer guia personal de prevencion de riesgos y a explicar la identificacion de riesgos y recursos de proteccion en el entorno con mayor claridad mediante recursos para enfrentarlos.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "prevencion",
+          "description": "Prevencion es una idea clave para comprender la identificacion de riesgos y recursos de proteccion en el entorno.",
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "sourcePages": [
+            246,
+            249
+          ],
+          "sourcePagesLabel": "pp. 246-249",
+          "topicTitle": "Riesgos y recursos para enfrentarlos",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Riesgos y recursos para enfrentarlos\" aporta base suficiente para trabajar prevencion dentro del proyecto 8.",
+          "pedagogicalUse": "Ayuda a fortalecer guia personal de prevencion de riesgos y a explicar la identificacion de riesgos y recursos de proteccion en el entorno con mayor claridad mediante prevencion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        }
+      ],
+      "thinkingCriteria": [
+        "Relacionar la identificacion de riesgos y recursos de proteccion en el entorno con situaciones cercanas a la comunidad.",
+        "Usar guia personal de prevencion de riesgos para explicar y no solo para recopilar informacion.",
+        "Distinguir entre mencionar conceptos y comprender como dialogan entre si dentro del proyecto."
+      ],
+      "validationStatus": {
+        "readinessLevel": "development-partial",
+        "readyForActivities": false,
+        "needsReviewReasons": [
+          "El bloque 3 ya es usable como lectura docente, pero el video del PPA 3 y el recurso informatico siguen pendientes de validacion de destino final.",
+          "La asignacion de apoyos de Posibilidades se sostiene por inferencia curricular documentada y no por OCR perfectamente separado por columnas.",
+          "No mover a actividades interactivas ni desbloquear juegos completos hasta ampliar validacion de videos y recursos complementarios."
+        ]
+      },
+      "readinessLevel": "development-partial",
+      "readyForActivities": false,
+      "needsReviewReasons": [
+        "No mover a actividades interactivas ni desbloquear juegos completos."
+      ],
+      "roleInPpa": "Profundiza el bloque al identificar riesgos del entorno y construir una guia personal de prevencion.",
+      "pedagogicalUse": "Conviene trabajar Mi guia personal de prevencion de riesgos como una oportunidad para profundizar en la identificacion de riesgos y recursos de proteccion en el entorno sin separar contenido, comunidad y producto final.",
+      "teacherNotes": [
+        "Conviene partir de ejemplos cercanos y despues pasar al lenguaje mas abstracto del campo.",
+        "El producto Guia personal de prevencion de riesgos gana fuerza cuando se usa para explicar y no solo para exhibir informacion.",
+        "Es mejor seleccionar pocos conceptos bien comprendidos que saturar el trabajo con terminos aislados."
+      ],
+      "resonancePrompts": [
+        {
+          "type": "individual",
+          "prompt": "¿Que comprendes mejor sobre la identificacion de riesgos y recursos de proteccion en el entorno despues de elaborar guia personal de prevencion de riesgos?"
+        },
+        {
+          "type": "community",
+          "prompt": "¿Que dialogos comunitarios podrian fortalecerse si compartimos guia personal de prevencion de riesgos y lo ponemos en conversacion con otras personas?"
+        }
+      ],
+      "notReadyFor": [
+        "full-games",
+        "summative-exam"
+      ]
+    },
+    {
+      "id": "de-lo-humano-y-lo-comunitario-1-ppa-3-pa9",
+      "projectId": "de-lo-humano-y-lo-comunitario-1-ppa-3-pa9",
+      "academicProjectNumber": 9,
+      "title": "Descubro mis fortalezas, debilidades y potencialidades",
+      "projectTitle": "Descubro mis fortalezas, debilidades y potencialidades",
+      "grade": "1",
+      "field": "De lo Humano y lo Comunitario",
+      "ppaNumber": "3",
+      "partialClassroomProject": "PPA 3",
+      "partialClassroomProjectTitle": "Me conozco y conozco mi entorno",
+      "bookVolume": "Tomo II",
+      "sourceValidation": {
+        "sourceStatus": "linked",
+        "possibilitiesPages": [
+          10,
+          11
+        ],
+        "possibilitiesMaterialId": "grade-1-posibilidades-pos-dhc-1",
+        "possibilitiesColumnIndex": 3,
+        "columnEvidence": "Bloque PPA 3 Me conozco y conozco mi entorno localizado en pp. 10-11; la columna 3 se confirma por el orden de proyectos, productos y continuidad del mismo bloque."
+      },
+      "finalProduct": {
+        "title": "Cartel",
+        "source": "Posibilidades de uso DHyC pp. 10-11 + Nuestro libro de proyectos Tomo II pp. 237-241",
+        "status": "confirmed"
+      },
+      "sourcePages": {
+        "nuestroLibroProyectos": [
+          {
+            "materialId": "grade-1-proyectos-nuestro-libro-de-proyectos-tomo-ii-primer-grado",
+            "label": "Nuestro libro de proyectos Tomo II",
+            "startPage": 237,
+            "endPage": 241,
+            "pagesLabel": "pp. 237-241",
+            "topicTitle": "Proyecto academico 9",
+            "status": "confirmed-source"
+          }
+        ],
+        "conceptBook": [
+          {
+            "materialId": "grade-1-conceptos-de-lo-humano-y-lo-comunitario-primer-grado",
+            "label": "De lo Humano y lo Comunitario",
+            "startPage": 163,
+            "endPage": 166,
+            "pagesLabel": "pp. 163-166",
+            "topicTitle": "Autocuidado y bienestar colectivo",
+            "status": "confirmed-by-column-inference"
+          },
+          {
+            "materialId": "grade-1-conceptos-de-lo-humano-y-lo-comunitario-primer-grado",
+            "label": "De lo Humano y lo Comunitario",
+            "startPage": 216,
+            "endPage": 224,
+            "pagesLabel": "pp. 216-224",
+            "topicTitle": "La salud en la adolescencia",
+            "status": "confirmed-by-column-inference"
+          },
+          {
+            "materialId": "grade-1-conceptos-de-lo-humano-y-lo-comunitario-primer-grado",
+            "label": "De lo Humano y lo Comunitario",
+            "startPage": 233,
+            "endPage": 234,
+            "pagesLabel": "pp. 233-234",
+            "topicTitle": "Metas individuales que favorecen el bienestar colectivo",
+            "status": "confirmed-by-column-inference"
+          }
+        ],
+        "multiplesLenguajes": [],
+        "otherMaterials": [
+          {
+            "label": "Video PPA 3: Me conozco y conozco mi entorno",
+            "reference": "bit.ly/3VfglUk",
+            "status": "pending-validation"
+          }
+        ]
+      },
+      "supportMaterials": [],
+      "horizonOrPurpose": {
+        "status": "pending",
+        "text": "",
+        "source": "Nuestro libro de proyectos Tomo II p. 237"
+      },
+      "projectExpectationHorizon": {
+        "officialText": "",
+        "studentVersion": "",
+        "sourcePages": [
+          "Nuestro libro de proyectos Tomo II p. 237"
+        ],
+        "evidence": "El proyecto ya cuenta con producto, conceptos y articulacion pedagógica, pero el horizonte textual exacto sigue pendiente de confirmacion literal.",
+        "status": "pending"
+      },
+      "detonatingStrategy": {
+        "status": "pending-url",
+        "text": "Video PPA 3: Me conozco y conozco mi entorno",
+        "reference": "bit.ly/3VfglUk",
+        "source": "Nuestro libro de proyectos Tomo II pp. 235-236 + Posibilidades de uso DHyC pp. 10-11"
+      },
+      "academicProjectStrategy": {
+        "title": "Cartel",
+        "text": "Organizar cartel para profundizar en las fortalezas, debilidades y potencialidades personales y compartir hallazgos de manera clara con el grupo.",
+        "type": "project-product",
+        "status": "confirmed-from-project-book",
+        "source": "Nuestro libro de proyectos Tomo II pp. 237-241"
+      },
+      "academicConcepts": [
+        {
+          "concept": "cartel",
+          "description": "Cartel como producto de cierre para organizar y comunicar aprendizajes del proyecto.",
+          "sourceBook": "Nuestro libro de proyectos Tomo II",
+          "sourcePages": [
+            237,
+            241
+          ],
+          "sourcePagesLabel": "pp. 237-241",
+          "topicTitle": "Proyecto academico 9",
+          "status": "confirmed",
+          "reason": "Posibilidades y el propio proyecto fijan Cartel como producto final del PA 9.",
+          "pedagogicalUse": "Da una forma concreta de socializar lo comprendido sobre las fortalezas, debilidades y potencialidades personales.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "fortalezas",
+          "description": "Fortalezas es una idea clave para comprender las fortalezas, debilidades y potencialidades personales.",
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "sourcePages": [
+            163,
+            166
+          ],
+          "sourcePagesLabel": "pp. 163-166",
+          "topicTitle": "Autocuidado y bienestar colectivo",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Autocuidado y bienestar colectivo\" aporta base suficiente para trabajar fortalezas dentro del proyecto 9.",
+          "pedagogicalUse": "Ayuda a fortalecer cartel y a explicar las fortalezas, debilidades y potencialidades personales con mayor claridad mediante fortalezas.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "debilidades",
+          "description": "Debilidades es una idea clave para comprender las fortalezas, debilidades y potencialidades personales.",
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "sourcePages": [
+            163,
+            166
+          ],
+          "sourcePagesLabel": "pp. 163-166",
+          "topicTitle": "Autocuidado y bienestar colectivo",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Autocuidado y bienestar colectivo\" aporta base suficiente para trabajar debilidades dentro del proyecto 9.",
+          "pedagogicalUse": "Ayuda a fortalecer cartel y a explicar las fortalezas, debilidades y potencialidades personales con mayor claridad mediante debilidades.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "potencialidades",
+          "description": "Potencialidades es una idea clave para comprender las fortalezas, debilidades y potencialidades personales.",
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "sourcePages": [
+            233,
+            234
+          ],
+          "sourcePagesLabel": "pp. 233-234",
+          "topicTitle": "Metas individuales que favorecen el bienestar colectivo",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Metas individuales que favorecen el bienestar colectivo\" aporta base suficiente para trabajar potencialidades dentro del proyecto 9.",
+          "pedagogicalUse": "Ayuda a fortalecer cartel y a explicar las fortalezas, debilidades y potencialidades personales con mayor claridad mediante potencialidades.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "autocuidado",
+          "description": "Autocuidado es una idea clave para comprender las fortalezas, debilidades y potencialidades personales.",
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "sourcePages": [
+            216,
+            224
+          ],
+          "sourcePagesLabel": "pp. 216-224",
+          "topicTitle": "La salud en la adolescencia",
+          "status": "confirmed",
+          "reason": "La fuente validada \"La salud en la adolescencia\" aporta base suficiente para trabajar autocuidado dentro del proyecto 9.",
+          "pedagogicalUse": "Ayuda a fortalecer cartel y a explicar las fortalezas, debilidades y potencialidades personales con mayor claridad mediante autocuidado.",
+          "activityReadiness": "usable-for-autoevaluation"
+        }
+      ],
+      "thinkingCriteria": [
+        "Relacionar las fortalezas, debilidades y potencialidades personales con situaciones cercanas a la comunidad.",
+        "Usar cartel para explicar y no solo para recopilar informacion.",
+        "Distinguir entre mencionar conceptos y comprender como dialogan entre si dentro del proyecto."
+      ],
+      "validationStatus": {
+        "readinessLevel": "development-partial",
+        "readyForActivities": false,
+        "needsReviewReasons": [
+          "El bloque 3 ya es usable como lectura docente, pero el video del PPA 3 y el recurso informatico siguen pendientes de validacion de destino final.",
+          "La asignacion de apoyos de Posibilidades se sostiene por inferencia curricular documentada y no por OCR perfectamente separado por columnas.",
+          "No mover a actividades interactivas ni desbloquear juegos completos hasta ampliar validacion de videos y recursos complementarios."
+        ]
+      },
+      "readinessLevel": "development-partial",
+      "readyForActivities": false,
+      "needsReviewReasons": [
+        "No mover a actividades interactivas ni desbloquear juegos completos."
+      ],
+      "roleInPpa": "Cierra el bloque con una lectura reflexiva sobre fortalezas, debilidades y potencialidades en relacion con la salud y el cuidado de si.",
+      "pedagogicalUse": "Conviene trabajar Descubro mis fortalezas, debilidades y potencialidades como una oportunidad para profundizar en las fortalezas, debilidades y potencialidades personales sin separar contenido, comunidad y producto final.",
+      "teacherNotes": [
+        "Conviene partir de ejemplos cercanos y despues pasar al lenguaje mas abstracto del campo.",
+        "El producto Cartel gana fuerza cuando se usa para explicar y no solo para exhibir informacion.",
+        "Es mejor seleccionar pocos conceptos bien comprendidos que saturar el trabajo con terminos aislados."
+      ],
+      "resonancePrompts": [
+        {
+          "type": "individual",
+          "prompt": "¿Que comprendes mejor sobre las fortalezas, debilidades y potencialidades personales despues de elaborar cartel?"
+        },
+        {
+          "type": "community",
+          "prompt": "¿Que dialogos comunitarios podrian fortalecerse si compartimos cartel y lo ponemos en conversacion con otras personas?"
+        }
+      ],
+      "notReadyFor": [
+        "full-games",
+        "summative-exam"
+      ]
+    }
+  ]
+}

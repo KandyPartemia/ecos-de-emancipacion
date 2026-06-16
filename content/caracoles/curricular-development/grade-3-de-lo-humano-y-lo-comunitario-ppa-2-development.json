@@ -1,0 +1,711 @@
+{
+  "grade": "3",
+  "gradeLabel": "Tercer grado",
+  "field": "De lo Humano y lo Comunitario",
+  "bookVolume": "Tomo I",
+  "partialClassroomProject": "PPA 2",
+  "partialClassroomProjectTitle": "¡Una galería de decisiones!",
+  "generatedAt": "2026-06-07T03:06:25.687Z",
+  "notes": "Capa curricular generada por lote para 3o De lo Humano y lo Comunitario, PPA 2.",
+  "sourcesUsed": [
+    "content/caracoles/curricular-catalog/all-projects-canonical.json",
+    "public/caracoles/data/generated/grade-3/concepts-index.json",
+    "src/caracoles/lib/officialVideoLinks.ts",
+    "Posibilidades de uso DHyC, tercer grado, pp. 8-10",
+    "Nuestro libro de proyectos, tercer grado, pp. 270-281"
+  ],
+  "partialClassroomProjectContext": {
+    "expectationHorizon": {
+      "officialText": "",
+      "sourcePages": [
+        "Nuestro libro de proyectos Tomo I pp. 270-273",
+        "Posibilidades de uso DHyC pp. 8-10"
+      ],
+      "evidence": "El PPA 2 articula 4. rally informativo, infografía de alternativas de bienestar, 6. ¡un congreso innovador de salud! para trabajar ¡Una galería de decisiones!.",
+      "status": "pending"
+    },
+    "ppaDetonatingStrategy": {
+      "title": "¡Una galería de decisiones!",
+      "type": "video",
+      "url": "",
+      "urlStatus": "confirmed-by-official-video-map",
+      "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+      "scope": "partial-classroom-project"
+    },
+    "ppaDigitalResource": {
+      "title": "Recurso del Proyecto Parcial de Aula 2",
+      "reference": "",
+      "status": "confirmed-by-official-video-map",
+      "source": "YouTube, acervo Aprende_MX/Telesecundaria"
+    },
+    "validationStatus": {
+      "needsHumanReview": true,
+      "needsReviewReasons": [
+        "Los videos PA/PPA se validan por el mapa oficial de enlaces directos ya generado.",
+        "Los apoyos complementarios impresos no se asignan cuando no hay evidencia validada por columna.",
+        "El horizonte textual literal queda pendiente de revision fina si se necesita cita exacta."
+      ]
+    },
+    "columnValidation": {
+      "possibilitiesPagesReviewed": [
+        8,
+        9,
+        10
+      ],
+      "confirmedAsPpa": true,
+      "note": "El PPA 2 se agrupa desde el catalogo canonico de tercer grado.",
+      "columns": [
+        {
+          "columnIndex": 1,
+          "projectId": "de-lo-humano-y-lo-comunitario-3-ppa-2-pa4",
+          "projectTitle": "Me activo y lo vivo",
+          "finalProduct": "4. Rally informativo",
+          "supportMaterials": []
+        },
+        {
+          "columnIndex": 2,
+          "projectId": "de-lo-humano-y-lo-comunitario-3-ppa-2-pa5",
+          "projectTitle": "¡Pasaporte para el emprendimiento!",
+          "finalProduct": "Infografía de alternativas de bienestar",
+          "supportMaterials": []
+        },
+        {
+          "columnIndex": 3,
+          "projectId": "de-lo-humano-y-lo-comunitario-3-ppa-2-pa6",
+          "projectTitle": "Me siento bien, actúo bien",
+          "finalProduct": "6. ¡Un congreso innovador de salud!",
+          "supportMaterials": []
+        }
+      ]
+    }
+  },
+  "academicProjects": [
+    {
+      "id": "de-lo-humano-y-lo-comunitario-3-ppa-2-pa4",
+      "projectId": "de-lo-humano-y-lo-comunitario-3-ppa-2-pa4",
+      "academicProjectNumber": 4,
+      "title": "Me activo y lo vivo",
+      "projectTitle": "Me activo y lo vivo",
+      "grade": "3",
+      "field": "De lo Humano y lo Comunitario",
+      "ppaNumber": "2",
+      "partialClassroomProject": "PPA 2",
+      "partialClassroomProjectTitle": "¡Una galería de decisiones!",
+      "bookVolume": "Tomo I",
+      "sourceValidation": {
+        "sourceStatus": "linked",
+        "possibilitiesPages": [
+          8,
+          9,
+          10
+        ],
+        "possibilitiesMaterialId": "grade-3-posibilidades-pos-dhc-3",
+        "possibilitiesColumnIndex": 1,
+        "columnEvidence": "Proyecto PA 4 agrupado en el PPA 2 desde el catalogo canonico y las paginas de Posibilidades."
+      },
+      "finalProduct": {
+        "title": "4. Rally informativo",
+        "source": "Video detonador validado en YouTube + Nuestro libro de proyectos Tomo I pp. 270-273",
+        "status": "confirmed-from-video-and-project"
+      },
+      "sourcePages": {
+        "nuestroLibroProyectos": [
+          {
+            "materialId": "grade-3-proyectos-nuestros-proyectos-tomo-1-tercer-grado",
+            "label": "Nuestro libro de proyectos Tomo I",
+            "startPage": 270,
+            "endPage": 273,
+            "pagesLabel": "pp. 270-273",
+            "topicTitle": "Proyecto academico 4",
+            "status": "confirmed-source"
+          }
+        ],
+        "conceptBook": [
+          {
+            "materialId": "grade-3-conceptos-de-lo-humano-y-lo-comunitario-tercer-grado",
+            "label": "De lo Humano y lo Comunitario",
+            "startPage": 270,
+            "endPage": 270,
+            "pagesLabel": "p. 270",
+            "topicTitle": "4. rally informativo",
+            "status": "confirmed"
+          }
+        ],
+        "multiplesLenguajes": [],
+        "otherMaterials": [
+          {
+            "label": "Video PA 4: Me activo y lo vivo",
+            "reference": "",
+            "status": "confirmed"
+          }
+        ]
+      },
+      "supportMaterials": [],
+      "horizonOrPurpose": {
+        "status": "confirmed-from-project-book",
+        "text": "Realizar estrategias de difusión donde expongan los beneficios de establecer estilos de vida saludables con base en los intereses, las habilidades y las necesidades individuales y colectivas.",
+        "source": "Visión — Horizonte 2 (p. 271)"
+      },
+      "projectExpectationHorizon": {
+        "officialText": "Realizar estrategias de difusión donde expongan los beneficios de establecer estilos de vida saludables con base en los intereses, las habilidades y las necesidades individuales y colectivas.",
+        "studentVersion": "Realizar estrategias de difusión donde expongan los beneficios de establecer estilos de vida saludables con base en los intereses, las habilidades y las necesidades individuales y colectivas.",
+        "horizon1Raw": "Investigar los hábitos saludables y no saludables más comunes de la comunidad. Plantear, en un diario de investigación, estrategias para diseñar un plan de vida activa y saludable.",
+        "horizon2Raw": "Realizar estrategias de difusión donde expongan los beneficios de establecer estilos de vida saludables con base en los intereses, las habilidades y las necesidades individuales y colectivas.",
+        "sourcePages": [
+          "Visión — Horizonte 2 (p. 271)"
+        ],
+        "evidence": "Extraído por visión de imagen de la página 271 del libro de proyectos. Confianza: alta.",
+        "status": "confirmed-from-project-book",
+        "extractedAt": "2026-06-16T05:12:11.453Z"
+      },
+      "detonatingStrategy": {
+        "status": "confirmed",
+        "title": "¡Una galería de decisiones!",
+        "text": "Video del Proyecto Parcial de Aula 2: ¡Una galería de decisiones!",
+        "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+        "scope": "partial-classroom-project",
+        "type": "video"
+      },
+      "academicProjectStrategy": {
+        "title": "4. Rally informativo • De lo humano y lo comunitario • 3er grado",
+        "text": "Video detonador del Proyecto Academico 4: Me activo y lo vivo",
+        "type": "video",
+        "status": "confirmed-from-video-and-project",
+        "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+        "scope": "academic-project"
+      },
+      "academicConcepts": [
+        {
+          "concept": "4. rally informativo",
+          "description": "4. rally informativo organiza el producto de cierre y permite comunicar lo aprendido en el proyecto.",
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "sourcePages": [
+            270
+          ],
+          "sourcePagesLabel": "p. 270",
+          "topicTitle": "Proyecto academico 4",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 4, al PPA 2 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Proyecto de vida",
+          "description": "Proyecto de vida ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "sourcePages": [
+            270
+          ],
+          "sourcePagesLabel": "p. 270",
+          "topicTitle": "Proyecto academico 4",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 4, al PPA 2 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Bienestar",
+          "description": "Bienestar ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "sourcePages": [
+            270
+          ],
+          "sourcePagesLabel": "p. 270",
+          "topicTitle": "Proyecto academico 4",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 4, al PPA 2 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Prevencion",
+          "description": "Prevencion ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "sourcePages": [
+            170
+          ],
+          "sourcePagesLabel": "p. 170",
+          "topicTitle": "Proyecto academico 4",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 4, al PPA 2 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Comunidad",
+          "description": "Comunidad ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "sourcePages": [
+            270
+          ],
+          "sourcePagesLabel": "p. 270",
+          "topicTitle": "Proyecto academico 4",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 4, al PPA 2 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Decisiones",
+          "description": "Decisiones ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "sourcePages": [
+            270
+          ],
+          "sourcePagesLabel": "p. 270",
+          "topicTitle": "Proyecto academico 4",
+          "status": "suggested",
+          "reason": "Concepto vinculado al PA 4, al PPA 2 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "teacher-review"
+        }
+      ],
+      "thinkingCriteria": [
+        "Relacionar Me activo y lo vivo con una situacion concreta del entorno escolar o comunitario.",
+        "Usar 4. rally informativo para explicar ideas con claridad y evidencia."
+      ],
+      "resonancePrompts": [
+        {
+          "type": "individual",
+          "prompt": "¿Como te ayuda 4. rally informativo a comprender mejor Me activo y lo vivo y a explicar sus conceptos clave en tu comunidad?",
+          "conceptsActivated": [
+            "4. rally informativo",
+            "Proyecto de vida",
+            "Bienestar",
+            "Prevencion"
+          ],
+          "suggestedUse": "Momento 1 de autoevaluacion"
+        }
+      ],
+      "validationStatus": {
+        "readinessLevel": "curricular-bundle-generated",
+        "readyForActivities": true,
+        "needsReviewReasons": [
+          "El horizonte textual literal queda pendiente de revision fina si se requiere cita exacta.",
+          "Los apoyos complementarios impresos no se asignan cuando no hay evidencia validada por columna."
+        ]
+      },
+      "readinessLevel": "curricular-bundle-generated",
+      "readyForActivities": true,
+      "needsReviewReasons": []
+    },
+    {
+      "id": "de-lo-humano-y-lo-comunitario-3-ppa-2-pa5",
+      "projectId": "de-lo-humano-y-lo-comunitario-3-ppa-2-pa5",
+      "academicProjectNumber": 5,
+      "title": "¡Pasaporte para el emprendimiento!",
+      "projectTitle": "¡Pasaporte para el emprendimiento!",
+      "grade": "3",
+      "field": "De lo Humano y lo Comunitario",
+      "ppaNumber": "2",
+      "partialClassroomProject": "PPA 2",
+      "partialClassroomProjectTitle": "¡Una galería de decisiones!",
+      "bookVolume": "Tomo I",
+      "sourceValidation": {
+        "sourceStatus": "linked",
+        "possibilitiesPages": [
+          8,
+          9,
+          10
+        ],
+        "possibilitiesMaterialId": "grade-3-posibilidades-pos-dhc-3",
+        "possibilitiesColumnIndex": 2,
+        "columnEvidence": "Proyecto PA 5 agrupado en el PPA 2 desde el catalogo canonico y las paginas de Posibilidades."
+      },
+      "finalProduct": {
+        "title": "Infografía de alternativas de bienestar",
+        "source": "Video detonador validado en YouTube + Nuestro libro de proyectos Tomo I pp. 274-277",
+        "status": "confirmed-from-video-and-project"
+      },
+      "sourcePages": {
+        "nuestroLibroProyectos": [
+          {
+            "materialId": "grade-3-proyectos-nuestros-proyectos-tomo-1-tercer-grado",
+            "label": "Nuestro libro de proyectos Tomo I",
+            "startPage": 274,
+            "endPage": 277,
+            "pagesLabel": "pp. 274-277",
+            "topicTitle": "Proyecto academico 5",
+            "status": "confirmed-source"
+          }
+        ],
+        "conceptBook": [
+          {
+            "materialId": "grade-3-conceptos-de-lo-humano-y-lo-comunitario-tercer-grado",
+            "label": "De lo Humano y lo Comunitario",
+            "startPage": 274,
+            "endPage": 274,
+            "pagesLabel": "p. 274",
+            "topicTitle": "Infografía de alternativas de bienestar",
+            "status": "confirmed"
+          }
+        ],
+        "multiplesLenguajes": [],
+        "otherMaterials": [
+          {
+            "label": "Video PA 5: ¡Pasaporte para el emprendimiento!",
+            "reference": "",
+            "status": "confirmed"
+          }
+        ]
+      },
+      "supportMaterials": [],
+      "horizonOrPurpose": {
+        "status": "confirmed-from-project-book",
+        "text": "Investigar, en la comunidad, a través de un fichero de investigación, las técnicas, los procesos y las formas de organización de los emprendimientos artesanales y fabriles locales para realizar una infografía de alternativas sustentables.",
+        "source": "Visión — Horizonte 1 (p. 275)"
+      },
+      "projectExpectationHorizon": {
+        "officialText": "Investigar, en la comunidad, a través de un fichero de investigación, las técnicas, los procesos y las formas de organización de los emprendimientos artesanales y fabriles locales para realizar una infografía de alternativas sustentables.",
+        "studentVersion": "Investigar, en la comunidad, a través de un fichero de investigación, las técnicas, los procesos y las formas de organización de los emprendimientos artesanales y fabriles locales para realizar una infografía de alternativas sustentables.",
+        "horizon1Raw": "Investigar, en la comunidad, a través de un fichero de investigación, las técnicas, los procesos y las formas de organización de los emprendimientos artesanales y fabriles locales para realizar una infografía de alternativas sustentables.",
+        "horizon2Raw": "Diseñar y difundir una infografía sobre los emprendimientos artesanales y fabriles para fomentar el bienestar personal y colectivo a través de alternativas sustentables.",
+        "sourcePages": [
+          "Visión — Horizonte 1 (p. 275)"
+        ],
+        "evidence": "Extraído por visión de imagen de la página 275 del libro de proyectos. Confianza: alta.",
+        "status": "confirmed-from-project-book",
+        "extractedAt": "2026-06-16T05:34:09.355Z"
+      },
+      "detonatingStrategy": {
+        "status": "confirmed",
+        "title": "¡Una galería de decisiones!",
+        "text": "Video del Proyecto Parcial de Aula 2: ¡Una galería de decisiones!",
+        "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+        "scope": "partial-classroom-project",
+        "type": "video"
+      },
+      "academicProjectStrategy": {
+        "title": "Infografía de alternativas de bienestar •De lo humano y lo comunitario • 3er grado",
+        "text": "Video detonador del Proyecto Academico 5: ¡Pasaporte para el emprendimiento!",
+        "type": "video",
+        "status": "confirmed-from-video-and-project",
+        "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+        "scope": "academic-project"
+      },
+      "academicConcepts": [
+        {
+          "concept": "Infografía de alternativas de bienestar",
+          "description": "Infografía de alternativas de bienestar organiza el producto de cierre y permite comunicar lo aprendido en el proyecto.",
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "sourcePages": [
+            274
+          ],
+          "sourcePagesLabel": "p. 274",
+          "topicTitle": "Proyecto academico 5",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 5, al PPA 2 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Proyecto de vida",
+          "description": "Proyecto de vida ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "sourcePages": [
+            274
+          ],
+          "sourcePagesLabel": "p. 274",
+          "topicTitle": "Proyecto academico 5",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 5, al PPA 2 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Bienestar",
+          "description": "Bienestar ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "sourcePages": [
+            274
+          ],
+          "sourcePagesLabel": "p. 274",
+          "topicTitle": "Proyecto academico 5",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 5, al PPA 2 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Prevencion",
+          "description": "Prevencion ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "sourcePages": [
+            170
+          ],
+          "sourcePagesLabel": "p. 170",
+          "topicTitle": "Proyecto academico 5",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 5, al PPA 2 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Comunidad",
+          "description": "Comunidad ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "sourcePages": [
+            274
+          ],
+          "sourcePagesLabel": "p. 274",
+          "topicTitle": "Proyecto academico 5",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 5, al PPA 2 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Decisiones",
+          "description": "Decisiones ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "sourcePages": [
+            274
+          ],
+          "sourcePagesLabel": "p. 274",
+          "topicTitle": "Proyecto academico 5",
+          "status": "suggested",
+          "reason": "Concepto vinculado al PA 5, al PPA 2 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "teacher-review"
+        }
+      ],
+      "thinkingCriteria": [
+        "Relacionar ¡Pasaporte para el emprendimiento! con una situacion concreta del entorno escolar o comunitario.",
+        "Usar infografía de alternativas de bienestar para explicar ideas con claridad y evidencia."
+      ],
+      "resonancePrompts": [
+        {
+          "type": "individual",
+          "prompt": "¿Como te ayuda infografía de alternativas de bienestar a comprender mejor ¡Pasaporte para el emprendimiento! y a explicar sus conceptos clave en tu comunidad?",
+          "conceptsActivated": [
+            "Infografía de alternativas de bienestar",
+            "Proyecto de vida",
+            "Bienestar",
+            "Prevencion"
+          ],
+          "suggestedUse": "Momento 1 de autoevaluacion"
+        }
+      ],
+      "validationStatus": {
+        "readinessLevel": "curricular-bundle-generated",
+        "readyForActivities": true,
+        "needsReviewReasons": [
+          "El horizonte textual literal queda pendiente de revision fina si se requiere cita exacta.",
+          "Los apoyos complementarios impresos no se asignan cuando no hay evidencia validada por columna."
+        ]
+      },
+      "readinessLevel": "curricular-bundle-generated",
+      "readyForActivities": true,
+      "needsReviewReasons": []
+    },
+    {
+      "id": "de-lo-humano-y-lo-comunitario-3-ppa-2-pa6",
+      "projectId": "de-lo-humano-y-lo-comunitario-3-ppa-2-pa6",
+      "academicProjectNumber": 6,
+      "title": "Me siento bien, actúo bien",
+      "projectTitle": "Me siento bien, actúo bien",
+      "grade": "3",
+      "field": "De lo Humano y lo Comunitario",
+      "ppaNumber": "2",
+      "partialClassroomProject": "PPA 2",
+      "partialClassroomProjectTitle": "¡Una galería de decisiones!",
+      "bookVolume": "Tomo I",
+      "sourceValidation": {
+        "sourceStatus": "linked",
+        "possibilitiesPages": [
+          8,
+          9,
+          10
+        ],
+        "possibilitiesMaterialId": "grade-3-posibilidades-pos-dhc-3",
+        "possibilitiesColumnIndex": 3,
+        "columnEvidence": "Proyecto PA 6 agrupado en el PPA 2 desde el catalogo canonico y las paginas de Posibilidades."
+      },
+      "finalProduct": {
+        "title": "6. ¡Un congreso innovador de salud!",
+        "source": "Video detonador validado en YouTube + Nuestro libro de proyectos Tomo I pp. 278-281",
+        "status": "confirmed-from-video-and-project"
+      },
+      "sourcePages": {
+        "nuestroLibroProyectos": [
+          {
+            "materialId": "grade-3-proyectos-nuestros-proyectos-tomo-1-tercer-grado",
+            "label": "Nuestro libro de proyectos Tomo I",
+            "startPage": 278,
+            "endPage": 281,
+            "pagesLabel": "pp. 278-281",
+            "topicTitle": "Proyecto academico 6",
+            "status": "confirmed-source"
+          }
+        ],
+        "conceptBook": [
+          {
+            "materialId": "grade-3-conceptos-de-lo-humano-y-lo-comunitario-tercer-grado",
+            "label": "De lo Humano y lo Comunitario",
+            "startPage": 278,
+            "endPage": 278,
+            "pagesLabel": "p. 278",
+            "topicTitle": "6. ¡un congreso innovador de salud!",
+            "status": "confirmed"
+          }
+        ],
+        "multiplesLenguajes": [],
+        "otherMaterials": [
+          {
+            "label": "Video PA 6: Me siento bien, actúo bien",
+            "reference": "",
+            "status": "confirmed"
+          }
+        ]
+      },
+      "supportMaterials": [],
+      "horizonOrPurpose": {
+        "status": "confirmed-from-project-book",
+        "text": "Realizar quiénes de actuación breves, a través de la recopilación de información sobre el bienestar personal y social, para promover acciones que generen el bienestar de los habitantes de la comunidad.",
+        "source": "Visión — Horizonte 2 (p. 279)"
+      },
+      "projectExpectationHorizon": {
+        "officialText": "Realizar quiénes de actuación breves, a través de la recopilación de información sobre el bienestar personal y social, para promover acciones que generen el bienestar de los habitantes de la comunidad.",
+        "studentVersion": "Realizar quiénes de actuación breves, a través de la recopilación de información sobre el bienestar personal y social, para promover acciones que generen el bienestar de los habitantes de la comunidad.",
+        "horizon1Raw": "Investigar acerca del bienestar personal y social para organizar actuaciones breves que promuevan acciones para el bienestar de los habitantes de la comunidad.",
+        "horizon2Raw": "Realizar quiénes de actuación breves, a través de la recopilación de información sobre el bienestar personal y social, para promover acciones que generen el bienestar de los habitantes de la comunidad.",
+        "sourcePages": [
+          "Visión — Horizonte 2 (p. 279)"
+        ],
+        "evidence": "Extraído por visión de imagen de la página 279 del libro de proyectos. Confianza: alta.",
+        "status": "confirmed-from-project-book",
+        "extractedAt": "2026-06-16T05:34:16.287Z"
+      },
+      "detonatingStrategy": {
+        "status": "confirmed",
+        "title": "¡Una galería de decisiones!",
+        "text": "Video del Proyecto Parcial de Aula 2: ¡Una galería de decisiones!",
+        "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+        "scope": "partial-classroom-project",
+        "type": "video"
+      },
+      "academicProjectStrategy": {
+        "title": "6. ¡Un congreso innovador de salud! • De lo humano y lo comunitario • 3er grado",
+        "text": "Video detonador del Proyecto Academico 6: Me siento bien, actúo bien",
+        "type": "video",
+        "status": "confirmed-from-video-and-project",
+        "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+        "scope": "academic-project"
+      },
+      "academicConcepts": [
+        {
+          "concept": "6. ¡un congreso innovador de salud!",
+          "description": "6. ¡un congreso innovador de salud! organiza el producto de cierre y permite comunicar lo aprendido en el proyecto.",
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "sourcePages": [
+            278
+          ],
+          "sourcePagesLabel": "p. 278",
+          "topicTitle": "Proyecto academico 6",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 6, al PPA 2 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Proyecto de vida",
+          "description": "Proyecto de vida ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "sourcePages": [
+            278
+          ],
+          "sourcePagesLabel": "p. 278",
+          "topicTitle": "Proyecto academico 6",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 6, al PPA 2 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Bienestar",
+          "description": "Bienestar ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "sourcePages": [
+            278
+          ],
+          "sourcePagesLabel": "p. 278",
+          "topicTitle": "Proyecto academico 6",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 6, al PPA 2 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Prevencion",
+          "description": "Prevencion ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "sourcePages": [
+            170
+          ],
+          "sourcePagesLabel": "p. 170",
+          "topicTitle": "Proyecto academico 6",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 6, al PPA 2 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Comunidad",
+          "description": "Comunidad ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "sourcePages": [
+            278
+          ],
+          "sourcePagesLabel": "p. 278",
+          "topicTitle": "Proyecto academico 6",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 6, al PPA 2 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Decisiones",
+          "description": "Decisiones ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "sourcePages": [
+            278
+          ],
+          "sourcePagesLabel": "p. 278",
+          "topicTitle": "Proyecto academico 6",
+          "status": "suggested",
+          "reason": "Concepto vinculado al PA 6, al PPA 2 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "teacher-review"
+        }
+      ],
+      "thinkingCriteria": [
+        "Relacionar Me siento bien, actúo bien con una situacion concreta del entorno escolar o comunitario.",
+        "Usar 6. ¡un congreso innovador de salud! para explicar ideas con claridad y evidencia."
+      ],
+      "resonancePrompts": [
+        {
+          "type": "individual",
+          "prompt": "¿Como te ayuda 6. ¡un congreso innovador de salud! a comprender mejor Me siento bien, actúo bien y a explicar sus conceptos clave en tu comunidad?",
+          "conceptsActivated": [
+            "6. ¡un congreso innovador de salud!",
+            "Proyecto de vida",
+            "Bienestar",
+            "Prevencion"
+          ],
+          "suggestedUse": "Momento 1 de autoevaluacion"
+        }
+      ],
+      "validationStatus": {
+        "readinessLevel": "curricular-bundle-generated",
+        "readyForActivities": true,
+        "needsReviewReasons": [
+          "El horizonte textual literal queda pendiente de revision fina si se requiere cita exacta.",
+          "Los apoyos complementarios impresos no se asignan cuando no hay evidencia validada por columna."
+        ]
+      },
+      "readinessLevel": "curricular-bundle-generated",
+      "readyForActivities": true,
+      "needsReviewReasons": []
+    }
+  ]
+}

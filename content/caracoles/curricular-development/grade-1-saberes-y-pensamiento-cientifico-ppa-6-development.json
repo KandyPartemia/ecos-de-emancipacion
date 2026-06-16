@@ -1,0 +1,693 @@
+{
+  "grade": "1",
+  "gradeLabel": "Primer grado",
+  "field": "Saberes y Pensamiento Cientifico",
+  "bookVolume": "Tomo II",
+  "partialClassroomProject": "PPA 6",
+  "partialClassroomProjectTitle": "El cambio de los seres vivos en el tiempo",
+  "generatedAt": "2026-06-01T11:59:13.096Z",
+  "notes": "Capa curricular aislada para 1o Saberes y Pensamiento Cientifico PPA 6.",
+  "sourcesUsed": [
+    "reports/caracoles/grade1-lenguajes-reading-teacher-hito-2-standard.md",
+    "content/caracoles/curricular-links/grade-1-project-source-links.json",
+    "content/caracoles/generated-private/grade-1/pages-index.full.json",
+    "Posibilidades de uso SyPC, primer grado, pp. 17-18",
+    "Nuestro libro de proyectos Tomo II, primer grado, pp. 93-105",
+    "Saberes y Pensamiento Cientifico, pp. 39-41, 108-119, 154-169, 192-198"
+  ],
+  "partialClassroomProjectContext": {
+    "expectationHorizon": {
+      "officialText": "",
+      "sourcePages": [
+        "Nuestro libro de proyectos Tomo II pp. 93-105",
+        "Posibilidades de uso SyPC pp. 17-18"
+      ],
+      "evidence": "El PPA 6 articula biodiversidad local, pensamiento cientifico y teoria del origen de la biodiversidad con apoyos de relaciones lineales, numeros negativos y medicion.",
+      "status": "pending"
+    },
+    "ppaDetonatingStrategy": {
+      "title": "El cambio de los seres vivos en el tiempo",
+      "type": "video",
+      "url": "",
+      "urlStatus": "pending-url",
+      "reference": "bit.ly/3VfglUk",
+      "source": "Nuestro libro de proyectos Tomo II pp. 93-105 + Posibilidades de uso SyPC pp. 17-18",
+      "scope": "partial-classroom-project",
+      "youtubeSearchQuery": "El cambio de los seres vivos en el tiempo Saberes y Pensamiento Cientifico 1er grado Telesecundaria"
+    },
+    "ppaDigitalResource": {
+      "title": "Recurso informatico del bloque PPA 6",
+      "reference": "bit.ly/3WQBMwg",
+      "status": "pending-validation",
+      "source": "Nuestro libro de proyectos Tomo II, cierre del PPA 6"
+    },
+    "validationStatus": {
+      "needsHumanReview": true,
+      "needsReviewReasons": [
+        "Las pp. 17-18 pertenecen al mismo bloque del PPA 6.",
+        "No se localizaron apoyos de Multiples Lenguajes confirmados para este bloque.",
+        "El video del PPA y el recurso informatico siguen en cautela mediante enlaces cortos."
+      ]
+    },
+    "columnValidation": {
+      "possibilitiesPagesReviewed": [
+        17,
+        18
+      ],
+      "confirmedAsPpa": true,
+      "note": "Las pp. 17-18 de Posibilidades forman un mismo bloque del PPA 6. La p. 18 no confirma apoyos de Multiples Lenguajes; solo agrega referencias matematicas complementarias.",
+      "columns": [
+        {
+          "columnIndex": 1,
+          "projectId": "saberes-y-pensamiento-cientifico-1-ppa-6-pa16",
+          "projectTitle": "Hay vida en cualquier lugar!",
+          "finalProduct": "Muestra ilustrativa",
+          "supportMaterials": []
+        },
+        {
+          "columnIndex": 2,
+          "projectId": "saberes-y-pensamiento-cientifico-1-ppa-6-pa17",
+          "projectTitle": "La grafica en la comprension del pensamiento cientifico",
+          "finalProduct": "Puesta de productos",
+          "supportMaterials": []
+        },
+        {
+          "columnIndex": 3,
+          "projectId": "saberes-y-pensamiento-cientifico-1-ppa-6-pa18",
+          "projectTitle": "Los cambios que ha sufrido la biodiversidad",
+          "finalProduct": "Periodico mural",
+          "supportMaterials": []
+        }
+      ]
+    }
+  },
+  "academicProjects": [
+    {
+      "id": "saberes-y-pensamiento-cientifico-1-ppa-6-pa16",
+      "projectId": "saberes-y-pensamiento-cientifico-1-ppa-6-pa16",
+      "academicProjectNumber": 16,
+      "title": "Hay vida en cualquier lugar!",
+      "projectTitle": "Hay vida en cualquier lugar!",
+      "grade": "1",
+      "field": "Saberes y Pensamiento Cientifico",
+      "ppaNumber": "6",
+      "partialClassroomProject": "PPA 6",
+      "partialClassroomProjectTitle": "El cambio de los seres vivos en el tiempo",
+      "bookVolume": "Tomo II",
+      "sourceValidation": {
+        "sourceStatus": "linked",
+        "possibilitiesPages": [
+          17,
+          18
+        ],
+        "possibilitiesMaterialId": "grade-1-posibilidades-pos-sypc-1",
+        "possibilitiesColumnIndex": 1,
+        "columnEvidence": "Bloque PPA 6 El cambio de los seres vivos en el tiempo localizado en pp. 17-18; la columna 1 se confirma por el orden de proyectos, productos y continuidad del mismo bloque."
+      },
+      "finalProduct": {
+        "title": "Muestra ilustrativa",
+        "source": "Posibilidades de uso SyPC pp. 17-18 + Nuestro libro de proyectos Tomo II pp. 93-97",
+        "status": "confirmed"
+      },
+      "sourcePages": {
+        "nuestroLibroProyectos": [
+          {
+            "materialId": "grade-1-proyectos-nuestro-libro-de-proyectos-tomo-ii-primer-grado",
+            "label": "Nuestro libro de proyectos Tomo II",
+            "startPage": 93,
+            "endPage": 97,
+            "pagesLabel": "pp. 93-97",
+            "topicTitle": "Proyecto academico 16",
+            "status": "confirmed-source"
+          }
+        ],
+        "conceptBook": [
+          {
+            "materialId": "grade-1-conceptos-saberes-y-pensamiento-cientifico-primer-grado",
+            "label": "Saberes y Pensamiento Cientifico",
+            "startPage": 192,
+            "endPage": 198,
+            "pagesLabel": "pp. 192-198",
+            "topicTitle": "Biodiversidad local",
+            "status": "confirmed-source"
+          },
+          {
+            "materialId": "grade-1-conceptos-saberes-y-pensamiento-cientifico-primer-grado",
+            "label": "Saberes y Pensamiento Cientifico",
+            "startPage": 39,
+            "endPage": 41,
+            "pagesLabel": "pp. 39-41",
+            "topicTitle": "El cero y numeros negativos",
+            "status": "confirmed-source"
+          }
+        ],
+        "multiplesLenguajes": [],
+        "otherMaterials": [
+          {
+            "label": "Video PPA 6: El cambio de los seres vivos en el tiempo",
+            "reference": "bit.ly/3VfglUk",
+            "status": "pending-validation",
+            "youtubeSearchQuery": "El cambio de los seres vivos en el tiempo Saberes y Pensamiento Cientifico 1er grado Telesecundaria"
+          }
+        ]
+      },
+      "supportMaterials": [],
+      "horizonOrPurpose": {
+        "status": "official",
+        "text": "Elaborar una muestra ilustrativa sobre la biodiversidad local mediante una investigacion que incluya informacion acerca de especies que han desaparecido, el uso de numeros negativos y el estado actual de la biodiversidad local.",
+        "source": "Nuestro libro de proyectos Tomo II p. 93"
+      },
+      "projectExpectationHorizon": {
+        "officialText": "Distinguir los aspectos necesarios para realizar una muestra ilustrativa y compartir con la comunidad escolar una explicacion clara y sencilla acerca de la biodiversidad, el uso de los numeros negativos para representar especies desaparecidas y una breve introduccion a los grupos filogeneticos.",
+        "studentVersion": "Explicar con una muestra ilustrativa como esta la biodiversidad local, que especies se han perdido y por que importa cuidarla.",
+        "sourcePages": [
+          "Nuestro libro de proyectos Tomo II p. 95"
+        ],
+        "evidence": "La etapa 3 y los objetivos del proyecto permiten fijar un horizonte de expectativas util para la lectura docente del PA.",
+        "status": "confirmed-from-project-book"
+      },
+      "detonatingStrategy": {
+        "status": "pending-url",
+        "text": "Video PPA 6: El cambio de los seres vivos en el tiempo",
+        "reference": "bit.ly/3VfglUk",
+        "source": "Nuestro libro de proyectos Tomo II pp. 93-105"
+      },
+      "academicProjectStrategy": {
+        "title": "Muestra ilustrativa",
+        "text": "Organizar ilustraciones y explicaciones sobre biodiversidad local, especies desaparecidas y cuidados necesarios.",
+        "type": "illustrated-display",
+        "status": "confirmed-from-project-book",
+        "source": "Nuestro libro de proyectos Tomo II pp. 93-97"
+      },
+      "academicConcepts": [
+        {
+          "concept": "muestra ilustrativa",
+          "description": "Exhibicion con imagenes y explicaciones breves para compartir hallazgos con otras personas.",
+          "sourceBook": "Nuestro libro de proyectos Tomo II",
+          "sourcePages": [
+            93,
+            94,
+            95,
+            96,
+            97
+          ],
+          "sourcePagesLabel": "pp. 93-97",
+          "topicTitle": "Proyecto academico 16",
+          "status": "confirmed",
+          "reason": "El producto se fija claramente en el libro de proyectos y en Posibilidades.",
+          "pedagogicalUse": "Permite que la biodiversidad local se vuelva visible y discutible.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "biodiversidad local",
+          "description": "Variedad de seres vivos presentes en una localidad y las relaciones que establecen en ella.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            192,
+            198
+          ],
+          "sourcePagesLabel": "pp. 192-198",
+          "topicTitle": "Biodiversidad local",
+          "status": "confirmed",
+          "reason": "El libro del campo lo desarrolla con claridad y el proyecto lo toma como nucleo.",
+          "pedagogicalUse": "Da base cientifica al reconocimiento del entorno cercano.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "estado de la biodiversidad local",
+          "description": "Situacion actual de las especies y condiciones de vida presentes en una localidad.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            195,
+            196
+          ],
+          "sourcePagesLabel": "pp. 195-196",
+          "topicTitle": "Biodiversidad local",
+          "status": "confirmed",
+          "reason": "Posibilidades y el libro del campo la ubican como foco de lectura del proyecto.",
+          "pedagogicalUse": "Ayuda a situar el problema en el territorio real del estudiantado.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "acciones para el cuidado de la biodiversidad local",
+          "description": "Medidas individuales y colectivas para proteger especies y ambientes cercanos.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            197,
+            198
+          ],
+          "sourcePagesLabel": "pp. 197-198",
+          "topicTitle": "Biodiversidad local",
+          "status": "confirmed",
+          "reason": "Cierra el recorrido del contenido biologico confirmado para el PA 16.",
+          "pedagogicalUse": "Permite pasar de la descripcion a la corresponsabilidad.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "numeros negativos",
+          "description": "Valores menores que cero usados para representar comparaciones, ausencias o perdidas.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            39,
+            41
+          ],
+          "sourcePagesLabel": "pp. 39-41",
+          "topicTitle": "El cero y numeros negativos",
+          "status": "confirmed",
+          "reason": "El proyecto los cita como apoyo matematico para representar especies desaparecidas.",
+          "pedagogicalUse": "Ayudan a expresar comparaciones y ausencias de manera clara.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "grupos filogeneticos",
+          "description": "Agrupaciones de seres vivos segun relaciones evolutivas.",
+          "sourceBook": "Nuestro libro de proyectos Tomo II",
+          "sourcePages": [
+            95
+          ],
+          "sourcePagesLabel": "p. 95",
+          "topicTitle": "Proyecto academico 16",
+          "status": "suggested",
+          "reason": "El objetivo del proyecto los menciona, pero en este corte no se fijo una pagina del libro del campo tan directa como biodiversidad local.",
+          "pedagogicalUse": "Se conserva como pista de profundizacion sin sobredimensionarla.",
+          "activityReadiness": "usable-for-autoevaluation"
+        }
+      ],
+      "thinkingCriteria": [
+        "No mirar la biodiversidad solo como lista de especies, sino como situacion cambiante del territorio.",
+        "Usar los numeros negativos como herramienta de representacion y no como fin en si mismo."
+      ],
+      "validationStatus": {
+        "readinessLevel": "development-partial",
+        "readyForActivities": false,
+        "needsReviewReasons": [
+          "El video del PPA 6 y el recurso informatico siguen pendientes de validacion de destino final.",
+          "No se localizaron apoyos de Multiples Lenguajes plenamente confirmados para este proyecto.",
+          "El concepto \"grupos filogeneticos\" se mantiene en suggested."
+        ]
+      },
+      "readinessLevel": "development-partial",
+      "readyForActivities": false,
+      "needsReviewReasons": [
+        "No mover a actividades interactivas ni desbloquear juegos completos."
+      ]
+    },
+    {
+      "id": "saberes-y-pensamiento-cientifico-1-ppa-6-pa17",
+      "projectId": "saberes-y-pensamiento-cientifico-1-ppa-6-pa17",
+      "academicProjectNumber": 17,
+      "title": "La grafica en la comprension del pensamiento cientifico",
+      "projectTitle": "La grafica en la comprension del pensamiento cientifico",
+      "grade": "1",
+      "field": "Saberes y Pensamiento Cientifico",
+      "ppaNumber": "6",
+      "partialClassroomProject": "PPA 6",
+      "partialClassroomProjectTitle": "El cambio de los seres vivos en el tiempo",
+      "bookVolume": "Tomo II",
+      "sourceValidation": {
+        "sourceStatus": "linked",
+        "possibilitiesPages": [
+          17,
+          18
+        ],
+        "possibilitiesMaterialId": "grade-1-posibilidades-pos-sypc-1",
+        "possibilitiesColumnIndex": 2,
+        "columnEvidence": "Bloque PPA 6 El cambio de los seres vivos en el tiempo localizado en pp. 17-18; la columna 2 se confirma por el orden de proyectos, productos y continuidad del mismo bloque."
+      },
+      "finalProduct": {
+        "title": "Puesta de productos",
+        "source": "Posibilidades de uso SyPC pp. 17-18 + Nuestro libro de proyectos Tomo II pp. 98-101",
+        "status": "confirmed"
+      },
+      "sourcePages": {
+        "nuestroLibroProyectos": [
+          {
+            "materialId": "grade-1-proyectos-nuestro-libro-de-proyectos-tomo-ii-primer-grado",
+            "label": "Nuestro libro de proyectos Tomo II",
+            "startPage": 98,
+            "endPage": 101,
+            "pagesLabel": "pp. 98-101",
+            "topicTitle": "Proyecto academico 17",
+            "status": "confirmed-source"
+          }
+        ],
+        "conceptBook": [
+          {
+            "materialId": "grade-1-conceptos-saberes-y-pensamiento-cientifico-primer-grado",
+            "label": "Saberes y Pensamiento Cientifico",
+            "startPage": 154,
+            "endPage": 169,
+            "pagesLabel": "pp. 154-169",
+            "topicTitle": "Relaciones lineales / Proporcionalidad y no proporcionalidad",
+            "status": "confirmed-source"
+          }
+        ],
+        "multiplesLenguajes": [],
+        "otherMaterials": [
+          {
+            "label": "Video PPA 6: El cambio de los seres vivos en el tiempo",
+            "reference": "bit.ly/3VfglUk",
+            "status": "pending-validation",
+            "youtubeSearchQuery": "El cambio de los seres vivos en el tiempo Saberes y Pensamiento Cientifico 1er grado Telesecundaria"
+          }
+        ]
+      },
+      "supportMaterials": [],
+      "horizonOrPurpose": {
+        "status": "official",
+        "text": "Instalar una puesta de productos con representaciones tabulares, graficas y diagramas acerca de las caracteristicas de la construccion permanente del pensamiento cientifico.",
+        "source": "Nuestro libro de proyectos Tomo II p. 98"
+      },
+      "projectExpectationHorizon": {
+        "officialText": "Elaborar una puesta de productos considerando los aspectos necesarios para disenhar representaciones tabulares, graficas y diagramas que hagan posible la construccion del pensamiento cientifico.",
+        "studentVersion": "Mostrar con una puesta de productos como la ciencia se construye y se comunica por medio de tablas, graficas y diagramas.",
+        "sourcePages": [
+          "Nuestro libro de proyectos Tomo II p. 99"
+        ],
+        "evidence": "La etapa 3 y los objetivos del proyecto permiten fijar un horizonte de expectativas util para la lectura docente del PA.",
+        "status": "confirmed-from-project-book"
+      },
+      "detonatingStrategy": {
+        "status": "pending-url",
+        "text": "Video PPA 6: El cambio de los seres vivos en el tiempo",
+        "reference": "bit.ly/3VfglUk",
+        "source": "Nuestro libro de proyectos Tomo II pp. 93-105"
+      },
+      "academicProjectStrategy": {
+        "title": "Puesta de productos",
+        "text": "Exhibir materiales diversos que relacionen pensamiento cientifico con formas claras de representacion de datos e ideas.",
+        "type": "display",
+        "status": "confirmed-from-project-book",
+        "source": "Nuestro libro de proyectos Tomo II pp. 98-101"
+      },
+      "academicConcepts": [
+        {
+          "concept": "puesta de productos",
+          "description": "Muestra organizada de materiales y explicaciones para compartir resultados con una audiencia.",
+          "sourceBook": "Nuestro libro de proyectos Tomo II",
+          "sourcePages": [
+            98,
+            99,
+            100,
+            101
+          ],
+          "sourcePagesLabel": "pp. 98-101",
+          "topicTitle": "Proyecto academico 17",
+          "status": "confirmed",
+          "reason": "El proyecto y Posibilidades la fijan como producto final.",
+          "pedagogicalUse": "Permite distribuir la explicacion entre varios materiales y participantes.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "pensamiento cientifico",
+          "description": "Forma de construir explicaciones basadas en observacion, preguntas, pruebas y revision constante.",
+          "sourceBook": "Nuestro libro de proyectos Tomo II",
+          "sourcePages": [
+            98,
+            100
+          ],
+          "sourcePagesLabel": "pp. 98-100",
+          "topicTitle": "Proyecto academico 17",
+          "status": "confirmed",
+          "reason": "El proyecto lo enuncia como contenido principal de la muestra.",
+          "pedagogicalUse": "Da sentido a la organizacion de tablas, graficas y diagramas.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "representaciones tabulares",
+          "description": "Tablas que organizan informacion para facilitar su lectura y comparacion.",
+          "sourceBook": "Nuestro libro de proyectos Tomo II",
+          "sourcePages": [
+            98,
+            100
+          ],
+          "sourcePagesLabel": "pp. 98-100",
+          "topicTitle": "Proyecto academico 17",
+          "status": "confirmed",
+          "reason": "El proyecto las nombra de forma explicita desde la etapa 1 y la etapa 5.",
+          "pedagogicalUse": "Ayudan a ordenar ideas y datos para la presentacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "graficas",
+          "description": "Representaciones visuales de datos que permiten observar tendencias y relaciones.",
+          "sourceBook": "Nuestro libro de proyectos Tomo II",
+          "sourcePages": [
+            98,
+            100
+          ],
+          "sourcePagesLabel": "pp. 98-100",
+          "topicTitle": "Proyecto academico 17",
+          "status": "confirmed",
+          "reason": "La puesta de productos se apoya de manera central en ellas.",
+          "pedagogicalUse": "Vuelven visible el razonamiento cientifico y las comparaciones.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "diagramas",
+          "description": "Esquemas visuales que ordenan componentes y relaciones de un proceso o explicacion.",
+          "sourceBook": "Nuestro libro de proyectos Tomo II",
+          "sourcePages": [
+            98,
+            100
+          ],
+          "sourcePagesLabel": "pp. 98-100",
+          "topicTitle": "Proyecto academico 17",
+          "status": "confirmed",
+          "reason": "El proyecto los integra de forma directa como recurso de explicacion.",
+          "pedagogicalUse": "Ayudan a representar procesos y relaciones complejas de manera sencilla.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "relacion proporcional y no proporcional",
+          "description": "Comparacion entre situaciones donde las cantidades mantienen o no una proporcion constante.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            160,
+            169
+          ],
+          "sourcePagesLabel": "pp. 160-169",
+          "topicTitle": "Proporcionalidad y no proporcionalidad",
+          "status": "confirmed",
+          "reason": "La p. 18 de Posibilidades confirma este bloque matematico como apoyo del PPA.",
+          "pedagogicalUse": "Amplia las formas de lectura grafica y comparativa dentro del proyecto.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "darwin y wallace",
+          "description": "Referentes cientificos ligados a explicaciones solidas sobre el origen de la biodiversidad.",
+          "sourceBook": "Nuestro libro de proyectos Tomo II",
+          "sourcePages": [
+            100
+          ],
+          "sourcePagesLabel": "p. 100",
+          "topicTitle": "Proyecto academico 17",
+          "status": "suggested",
+          "reason": "Aparecen en la etapa 5 del proyecto como parte de la investigacion, pero se profundizan con mayor fuerza en el PA 18.",
+          "pedagogicalUse": "Se conserva como puente hacia el siguiente proyecto del bloque.",
+          "activityReadiness": "usable-for-autoevaluation"
+        }
+      ],
+      "thinkingCriteria": [
+        "Mostrar que el pensamiento cientifico se construye y se revisa, no aparece terminado desde el inicio.",
+        "Elegir la forma de representacion mas util para explicar cada idea."
+      ],
+      "validationStatus": {
+        "readinessLevel": "development-partial",
+        "readyForActivities": false,
+        "needsReviewReasons": [
+          "El video del PPA 6 y el recurso informatico siguen pendientes de validacion de destino final.",
+          "No se localizaron apoyos de Multiples Lenguajes plenamente confirmados para este proyecto.",
+          "El concepto \"darwin y wallace\" se mantiene en suggested."
+        ]
+      },
+      "readinessLevel": "development-partial",
+      "readyForActivities": false,
+      "needsReviewReasons": [
+        "No mover a actividades interactivas ni desbloquear juegos completos."
+      ]
+    },
+    {
+      "id": "saberes-y-pensamiento-cientifico-1-ppa-6-pa18",
+      "projectId": "saberes-y-pensamiento-cientifico-1-ppa-6-pa18",
+      "academicProjectNumber": 18,
+      "title": "Los cambios que ha sufrido la biodiversidad",
+      "projectTitle": "Los cambios que ha sufrido la biodiversidad",
+      "grade": "1",
+      "field": "Saberes y Pensamiento Cientifico",
+      "ppaNumber": "6",
+      "partialClassroomProject": "PPA 6",
+      "partialClassroomProjectTitle": "El cambio de los seres vivos en el tiempo",
+      "bookVolume": "Tomo II",
+      "sourceValidation": {
+        "sourceStatus": "linked",
+        "possibilitiesPages": [
+          17,
+          18
+        ],
+        "possibilitiesMaterialId": "grade-1-posibilidades-pos-sypc-1",
+        "possibilitiesColumnIndex": 3,
+        "columnEvidence": "Bloque PPA 6 El cambio de los seres vivos en el tiempo localizado en pp. 17-18; la columna 3 se confirma por el orden de proyectos, productos y continuidad del mismo bloque."
+      },
+      "finalProduct": {
+        "title": "Periodico mural",
+        "source": "Posibilidades de uso SyPC pp. 17-18 + Nuestro libro de proyectos Tomo II pp. 102-104",
+        "status": "confirmed"
+      },
+      "sourcePages": {
+        "nuestroLibroProyectos": [
+          {
+            "materialId": "grade-1-proyectos-nuestro-libro-de-proyectos-tomo-ii-primer-grado",
+            "label": "Nuestro libro de proyectos Tomo II",
+            "startPage": 102,
+            "endPage": 104,
+            "pagesLabel": "pp. 102-104",
+            "topicTitle": "Proyecto academico 18",
+            "status": "confirmed-source"
+          }
+        ],
+        "conceptBook": [
+          {
+            "materialId": "grade-1-conceptos-saberes-y-pensamiento-cientifico-primer-grado",
+            "label": "Saberes y Pensamiento Cientifico",
+            "startPage": 70,
+            "endPage": 73,
+            "pagesLabel": "pp. 70-73",
+            "topicTitle": "Introduccion a la medicion y el calculo",
+            "status": "confirmed-source"
+          }
+        ],
+        "multiplesLenguajes": [],
+        "otherMaterials": [
+          {
+            "label": "Video PPA 6: El cambio de los seres vivos en el tiempo",
+            "reference": "bit.ly/3VfglUk",
+            "status": "pending-validation",
+            "youtubeSearchQuery": "El cambio de los seres vivos en el tiempo Saberes y Pensamiento Cientifico 1er grado Telesecundaria"
+          }
+        ]
+      },
+      "supportMaterials": [],
+      "horizonOrPurpose": {
+        "status": "official",
+        "text": "Elaborar un periodico mural en comunidad sobre las teorias del origen de la biodiversidad, utilizando el segmento como la distancia entre dos puntos en la interpretacion de datos.",
+        "source": "Nuestro libro de proyectos Tomo II p. 102"
+      },
+      "projectExpectationHorizon": {
+        "officialText": "Plasmar en un periodico mural la informacion recopilada sobre los cambios de la biodiversidad y su vinculacion con el uso de herramientas matematicas para la interpretacion de datos.",
+        "studentVersion": "Explicar con un periodico mural como se ha pensado el origen de la biodiversidad y que herramientas ayudan a interpretarla mejor.",
+        "sourcePages": [
+          "Nuestro libro de proyectos Tomo II p. 103"
+        ],
+        "evidence": "La etapa 3 y los objetivos del proyecto permiten fijar un horizonte de expectativas util para la lectura docente del PA.",
+        "status": "confirmed-from-project-book"
+      },
+      "detonatingStrategy": {
+        "status": "pending-url",
+        "text": "Video PPA 6: El cambio de los seres vivos en el tiempo",
+        "reference": "bit.ly/3VfglUk",
+        "source": "Nuestro libro de proyectos Tomo II pp. 93-105"
+      },
+      "academicProjectStrategy": {
+        "title": "Periodico mural",
+        "text": "Sintetizar teorias, datos e imagenes sobre cambios de la biodiversidad en una presentacion mural organizada.",
+        "type": "mural",
+        "status": "confirmed-from-project-book",
+        "source": "Nuestro libro de proyectos Tomo II pp. 102-104"
+      },
+      "academicConcepts": [
+        {
+          "concept": "periodico mural",
+          "description": "Presentacion mural con textos e imagenes para comunicar informacion de forma organizada.",
+          "sourceBook": "Nuestro libro de proyectos Tomo II",
+          "sourcePages": [
+            102,
+            103,
+            104
+          ],
+          "sourcePagesLabel": "pp. 102-104",
+          "topicTitle": "Proyecto academico 18",
+          "status": "confirmed",
+          "reason": "Producto final confirmado por el proyecto y Posibilidades.",
+          "pedagogicalUse": "Permite narrar teorias y cambios de forma visual y secuenciada.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "origen de la biodiversidad",
+          "description": "Explicaciones cientificas sobre como surgio y cambio la variedad de seres vivos.",
+          "sourceBook": "Nuestro libro de proyectos Tomo II",
+          "sourcePages": [
+            102,
+            103
+          ],
+          "sourcePagesLabel": "pp. 102-103",
+          "topicTitle": "Proyecto academico 18",
+          "status": "confirmed",
+          "reason": "El proyecto lo fija como tema central del periodico mural.",
+          "pedagogicalUse": "Da unidad conceptual al cierre del PPA.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "charles darwin y alfred russel wallace",
+          "description": "Autores de explicaciones ampliamente fundamentadas sobre el origen y cambio de la biodiversidad.",
+          "sourceBook": "Nuestro libro de proyectos Tomo II",
+          "sourcePages": [
+            103
+          ],
+          "sourcePagesLabel": "p. 103",
+          "topicTitle": "Proyecto academico 18",
+          "status": "confirmed",
+          "reason": "La etapa 5 del proyecto los nombra explicitamente como fuente de investigacion.",
+          "pedagogicalUse": "Permite historizar la construccion de explicaciones cientificas.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "distancia entre dos puntos",
+          "description": "Medida de la longitud del segmento que une dos puntos.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            71,
+            73
+          ],
+          "sourcePagesLabel": "pp. 71-73",
+          "topicTitle": "Introduccion a la medicion y el calculo",
+          "status": "confirmed",
+          "reason": "El proyecto la usa como herramienta matematica para interpretar datos.",
+          "pedagogicalUse": "Aporta un apoyo concreto para traducir datos a comparaciones espaciales.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "medicion y calculo en diferentes contextos",
+          "description": "Uso de herramientas matematicas para interpretar situaciones concretas y compararlas.",
+          "sourceBook": "Nuestro libro de proyectos Tomo II",
+          "sourcePages": [
+            103
+          ],
+          "sourcePagesLabel": "p. 103",
+          "topicTitle": "Proyecto academico 18",
+          "status": "confirmed",
+          "reason": "La etapa 5 del proyecto la incluye como contenido de investigacion.",
+          "pedagogicalUse": "Conecta la explicacion biologica con formas de interpretar datos.",
+          "activityReadiness": "usable-for-autoevaluation"
+        }
+      ],
+      "thinkingCriteria": [
+        "Relacionar teorias cientificas con evidencias y no tratarlas como verdades aisladas del proceso historico.",
+        "Usar herramientas de medicion como apoyo para interpretar, no como adorno."
+      ],
+      "validationStatus": {
+        "readinessLevel": "development-partial",
+        "readyForActivities": false,
+        "needsReviewReasons": [
+          "El video del PPA 6 y el recurso informatico siguen pendientes de validacion de destino final.",
+          "No se localizaron apoyos de Multiples Lenguajes plenamente confirmados para este proyecto."
+        ]
+      },
+      "readinessLevel": "development-partial",
+      "readyForActivities": false,
+      "needsReviewReasons": [
+        "No mover a actividades interactivas ni desbloquear juegos completos."
+      ]
+    }
+  ]
+}

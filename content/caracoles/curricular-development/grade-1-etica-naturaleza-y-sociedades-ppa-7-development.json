@@ -1,0 +1,771 @@
+{
+  "grade": "1",
+  "gradeLabel": "Primer grado",
+  "field": "Etica, Naturaleza y Sociedades",
+  "bookVolume": "Tomo II",
+  "partialClassroomProject": "PPA 7",
+  "partialClassroomProjectTitle": "Nuestras raices",
+  "generatedAt": "2026-06-02T02:38:10.502Z",
+  "notes": "Capa curricular generada por lote para 1o Etica, Naturaleza y Sociedades, PPA 7.",
+  "sourcesUsed": [
+    "public/caracoles/data/generated/grade-1/selectable-projects.json",
+    "content/caracoles/generated-private/grade-1/pages-index.full.json",
+    "Posibilidades de uso ENS, primer grado, pp. 19-20",
+    "Nuestro libro de proyectos Tomo II, primer grado, pp. 192-207",
+    "Etica, Naturaleza y Sociedades, primer grado, pp. 159-167, 176-215, 245-254; Multiples Lenguajes pp. 34-38 y 122-123."
+  ],
+  "partialClassroomProjectContext": {
+    "expectationHorizon": {
+      "officialText": "",
+      "sourcePages": [
+        "Nuestro libro de proyectos Tomo II pp. 192-193",
+        "Posibilidades de uso ENS pp. 19-20"
+      ],
+      "evidence": "El PPA 7 recupera historia, juego, memoria y territorio para reconocer las raices de los pueblos antiguos y su presencia en la vida actual.",
+      "status": "pending"
+    },
+    "ppaDetonatingStrategy": {
+      "title": "Nuestras raices",
+      "type": "video",
+      "url": "",
+      "urlStatus": "pending-url",
+      "reference": "bit.ly/3VfglUk",
+      "source": "Nuestro libro de proyectos Tomo II pp. 192-193 + Posibilidades de uso ENS pp. 19-20",
+      "scope": "partial-classroom-project",
+      "youtubeSearchQuery": "Nuestras raices Etica, Naturaleza y Sociedades 1er grado Telesecundaria"
+    },
+    "ppaDigitalResource": {
+      "title": "Recurso informatico del bloque PPA 7",
+      "reference": "bit.ly/3WQBMwg",
+      "status": "pending-validation",
+      "source": "Nuestro libro de proyectos Tomo II pp. 192-207"
+    },
+    "validationStatus": {
+      "needsHumanReview": true,
+      "needsReviewReasons": [
+        "Las pp. 19-20 de Posibilidades pertenecen al mismo PPA 7.",
+        "La asignacion de apoyos por columna se fija por inferencia curricular documentada de izquierda a derecha.",
+        "Los enlaces cortos del video del PPA y del recurso informatico se mantienen en cautela hasta localizar un destino oficial confirmado."
+      ]
+    },
+    "columnValidation": {
+      "possibilitiesPagesReviewed": [
+        19,
+        20
+      ],
+      "confirmedAsPpa": true,
+      "note": "Las pp. 19-20 corresponden al PPA 7 Nuestras raices. Las tres columnas se sostienen por el orden de proyectos, productos y apoyos del mismo bloque.",
+      "columns": [
+        {
+          "columnIndex": 1,
+          "projectId": "etica-naturaleza-y-sociedades-1-ppa-7-pa19",
+          "projectTitle": "Revisemos el pasado",
+          "finalProduct": "Linea del tiempo",
+          "supportMaterials": [
+            "El Museo Nacional de Antropologia, pp. 34-38"
+          ]
+        },
+        {
+          "columnIndex": 2,
+          "projectId": "etica-naturaleza-y-sociedades-1-ppa-7-pa20",
+          "projectTitle": "El juego de pelota en Mesoamerica",
+          "finalProduct": "Representacion minima",
+          "supportMaterials": []
+        },
+        {
+          "columnIndex": 3,
+          "projectId": "etica-naturaleza-y-sociedades-1-ppa-7-pa21",
+          "projectTitle": "La gente que vivio en el desierto",
+          "finalProduct": "Mapa de bolsillo",
+          "supportMaterials": [
+            "Diccionario pictografico, pp. 122-123"
+          ]
+        }
+      ]
+    }
+  },
+  "academicProjects": [
+    {
+      "id": "etica-naturaleza-y-sociedades-1-ppa-7-pa19",
+      "projectId": "etica-naturaleza-y-sociedades-1-ppa-7-pa19",
+      "academicProjectNumber": 19,
+      "title": "Revisemos el pasado",
+      "projectTitle": "Revisemos el pasado",
+      "grade": "1",
+      "field": "Etica, Naturaleza y Sociedades",
+      "ppaNumber": "7",
+      "partialClassroomProject": "PPA 7",
+      "partialClassroomProjectTitle": "Nuestras raices",
+      "bookVolume": "Tomo II",
+      "sourceValidation": {
+        "sourceStatus": "linked",
+        "possibilitiesPages": [
+          19,
+          20
+        ],
+        "possibilitiesMaterialId": "grade-1-posibilidades-pos-ens-1",
+        "possibilitiesColumnIndex": 1,
+        "columnEvidence": "Bloque PPA 7 Nuestras raices localizado en pp. 19-20; la columna 1 se confirma por el orden de proyectos, productos y continuidad del mismo bloque."
+      },
+      "finalProduct": {
+        "title": "Linea del tiempo",
+        "source": "Posibilidades de uso ENS pp. 19-20 + Nuestro libro de proyectos Tomo II pp. 194-197",
+        "status": "confirmed"
+      },
+      "sourcePages": {
+        "nuestroLibroProyectos": [
+          {
+            "materialId": "grade-1-proyectos-nuestro-libro-de-proyectos-tomo-ii-primer-grado",
+            "label": "Nuestro libro de proyectos Tomo II",
+            "startPage": 194,
+            "endPage": 197,
+            "pagesLabel": "pp. 194-197",
+            "topicTitle": "Proyecto academico 19",
+            "status": "confirmed-source"
+          }
+        ],
+        "conceptBook": [
+          {
+            "materialId": "grade-1-conceptos-etica-naturaleza-y-sociedades-primer-grado",
+            "label": "Etica, Naturaleza y Sociedades",
+            "startPage": 194,
+            "endPage": 196,
+            "pagesLabel": "pp. 194-196",
+            "topicTitle": "Historia y mitos de los pueblos de la antiguedad",
+            "status": "confirmed-by-column-inference"
+          },
+          {
+            "materialId": "grade-1-conceptos-etica-naturaleza-y-sociedades-primer-grado",
+            "label": "Etica, Naturaleza y Sociedades",
+            "startPage": 210,
+            "endPage": 215,
+            "pagesLabel": "pp. 210-215",
+            "topicTitle": "Metodos de la historia",
+            "status": "confirmed-by-column-inference"
+          }
+        ],
+        "multiplesLenguajes": [
+          {
+            "materialId": "grade-1-apoyo-muiltiples-lenguajes-primer-grado",
+            "label": "Multiples Lenguajes",
+            "startPage": 34,
+            "endPage": 38,
+            "pagesLabel": "pp. 34-38",
+            "topicTitle": "El Museo Nacional de Antropologia",
+            "status": "confirmed-by-column-inference"
+          }
+        ],
+        "otherMaterials": [
+          {
+            "label": "Video PPA 7: Nuestras raices",
+            "reference": "bit.ly/3VfglUk",
+            "status": "pending-validation"
+          }
+        ]
+      },
+      "supportMaterials": [
+        {
+          "title": "El Museo Nacional de Antropologia",
+          "kind": "Multiples Lenguajes",
+          "pages": "pp. 34-38",
+          "status": "confirmed-by-column-inference"
+        }
+      ],
+      "horizonOrPurpose": {
+        "status": "confirmed-from-project-book",
+        "text": "Construir un conocimiento amplio sobre los sucesos pasados de la comunidad, a partir del entendimiento de que existen diferentes perspectivas de un mismo acontecimiento, las cuales no se contraoponen, sino que ofrecen diferentes ideas que enriquecen el entendimiento de dichos sucesos.",
+        "source": "Visión — Horizonte 2 (p. 195)"
+      },
+      "projectExpectationHorizon": {
+        "officialText": "Construir un conocimiento amplio sobre los sucesos pasados de la comunidad, a partir del entendimiento de que existen diferentes perspectivas de un mismo acontecimiento, las cuales no se contraoponen, sino que ofrecen diferentes ideas que enriquecen el entendimiento de dichos sucesos.",
+        "studentVersion": "Construir un conocimiento amplio sobre los sucesos pasados de la comunidad, a partir del entendimiento de que existen diferentes perspectivas de un mismo acontecimiento, las cuales no se contraoponen, sino que ofrecen diferentes ideas que enriquecen el entendimiento de dichos sucesos.",
+        "horizon1Raw": "Determinar, en comunidad áulica, las fuentes de información confiables sobre los sucesos acontecidos en la comunidad.",
+        "horizon2Raw": "Construir un conocimiento amplio sobre los sucesos pasados de la comunidad, a partir del entendimiento de que existen diferentes perspectivas de un mismo acontecimiento, las cuales no se contraoponen, sino que ofrecen diferentes ideas que enriquecen el entendimiento de dichos sucesos.",
+        "sourcePages": [
+          "Visión — Horizonte 2 (p. 195)"
+        ],
+        "evidence": "Extraído por visión de imagen de la página 195 del libro de proyectos. Confianza: alta.",
+        "status": "confirmed-from-project-book",
+        "extractedAt": "2026-06-16T05:25:38.466Z"
+      },
+      "detonatingStrategy": {
+        "status": "pending-url",
+        "text": "Video PPA 7: Nuestras raices",
+        "reference": "bit.ly/3VfglUk",
+        "source": "Nuestro libro de proyectos Tomo II pp. 192-193 + Posibilidades de uso ENS pp. 19-20"
+      },
+      "academicProjectStrategy": {
+        "title": "Linea del tiempo",
+        "text": "Organizar linea del tiempo para profundizar en la historia y los metodos para mirar el pasado y compartir hallazgos de manera clara con el grupo.",
+        "type": "project-product",
+        "status": "confirmed-from-project-book",
+        "source": "Nuestro libro de proyectos Tomo II pp. 194-197"
+      },
+      "academicConcepts": [
+        {
+          "concept": "linea del tiempo",
+          "description": "Linea del tiempo como producto de cierre para organizar y comunicar aprendizajes del proyecto.",
+          "sourceBook": "Nuestro libro de proyectos Tomo II",
+          "sourcePages": [
+            194,
+            197
+          ],
+          "sourcePagesLabel": "pp. 194-197",
+          "topicTitle": "Proyecto academico 19",
+          "status": "confirmed",
+          "reason": "Posibilidades y el propio proyecto fijan Linea del tiempo como producto final del PA 19.",
+          "pedagogicalUse": "Da una forma concreta de socializar lo comprendido sobre la historia y los metodos para mirar el pasado.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "linea del tiempo",
+          "description": "Linea del tiempo es una idea clave para comprender la historia y los metodos para mirar el pasado.",
+          "sourceBook": "Etica, Naturaleza y Sociedades",
+          "sourcePages": [
+            194,
+            196
+          ],
+          "sourcePagesLabel": "pp. 194-196",
+          "topicTitle": "Historia y mitos de los pueblos de la antiguedad",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Historia y mitos de los pueblos de la antiguedad\" aporta base suficiente para trabajar linea del tiempo dentro del proyecto 19.",
+          "pedagogicalUse": "Ayuda a fortalecer linea del tiempo y a explicar la historia y los metodos para mirar el pasado con mayor claridad mediante linea del tiempo.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "pasado historico",
+          "description": "Pasado historico es una idea clave para comprender la historia y los metodos para mirar el pasado.",
+          "sourceBook": "Etica, Naturaleza y Sociedades",
+          "sourcePages": [
+            194,
+            196
+          ],
+          "sourcePagesLabel": "pp. 194-196",
+          "topicTitle": "Historia y mitos de los pueblos de la antiguedad",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Historia y mitos de los pueblos de la antiguedad\" aporta base suficiente para trabajar pasado historico dentro del proyecto 19.",
+          "pedagogicalUse": "Ayuda a fortalecer linea del tiempo y a explicar la historia y los metodos para mirar el pasado con mayor claridad mediante pasado historico.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "metodos de la historia",
+          "description": "Metodos de la historia es una idea clave para comprender la historia y los metodos para mirar el pasado.",
+          "sourceBook": "Etica, Naturaleza y Sociedades",
+          "sourcePages": [
+            210,
+            215
+          ],
+          "sourcePagesLabel": "pp. 210-215",
+          "topicTitle": "Metodos de la historia",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Metodos de la historia\" aporta base suficiente para trabajar metodos de la historia dentro del proyecto 19.",
+          "pedagogicalUse": "Ayuda a fortalecer linea del tiempo y a explicar la historia y los metodos para mirar el pasado con mayor claridad mediante metodos de la historia.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "memoria colectiva",
+          "description": "Memoria colectiva es una idea clave para comprender la historia y los metodos para mirar el pasado.",
+          "sourceBook": "Etica, Naturaleza y Sociedades",
+          "sourcePages": [
+            210,
+            215
+          ],
+          "sourcePagesLabel": "pp. 210-215",
+          "topicTitle": "Metodos de la historia",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Metodos de la historia\" aporta base suficiente para trabajar memoria colectiva dentro del proyecto 19.",
+          "pedagogicalUse": "Ayuda a fortalecer linea del tiempo y a explicar la historia y los metodos para mirar el pasado con mayor claridad mediante memoria colectiva.",
+          "activityReadiness": "usable-for-autoevaluation"
+        }
+      ],
+      "thinkingCriteria": [
+        "Relacionar la historia y los metodos para mirar el pasado con situaciones cercanas a la comunidad.",
+        "Usar linea del tiempo para explicar y no solo para recopilar informacion.",
+        "Distinguir entre mencionar conceptos y comprender como dialogan entre si dentro del proyecto."
+      ],
+      "validationStatus": {
+        "readinessLevel": "development-partial",
+        "readyForActivities": false,
+        "needsReviewReasons": [
+          "El bloque 7 ya es usable como lectura docente, pero el video del PPA 7 y el recurso informatico siguen pendientes de validacion de destino final.",
+          "La asignacion de apoyos de Posibilidades se sostiene por inferencia curricular documentada y no por OCR perfectamente separado por columnas.",
+          "No mover a actividades interactivas ni desbloquear juegos completos hasta ampliar validacion de videos y recursos complementarios."
+        ]
+      },
+      "readinessLevel": "development-partial",
+      "readyForActivities": false,
+      "needsReviewReasons": [
+        "No mover a actividades interactivas ni desbloquear juegos completos."
+      ],
+      "roleInPpa": "Abre el bloque con una lectura del tiempo historico y de las herramientas que ayudan a revisar el pasado.",
+      "pedagogicalUse": "Conviene trabajar Revisemos el pasado como una oportunidad para profundizar en la historia y los metodos para mirar el pasado sin separar contenido, comunidad y producto final.",
+      "teacherNotes": [
+        "Conviene partir de ejemplos cercanos y despues pasar al lenguaje mas abstracto del campo.",
+        "El producto Linea del tiempo gana fuerza cuando se usa para explicar y no solo para exhibir informacion.",
+        "Es mejor seleccionar pocos conceptos bien comprendidos que saturar el trabajo con terminos aislados."
+      ],
+      "resonancePrompts": [
+        {
+          "type": "individual",
+          "prompt": "¿Que comprendes mejor sobre la historia y los metodos para mirar el pasado despues de elaborar linea del tiempo?"
+        },
+        {
+          "type": "community",
+          "prompt": "¿Que dialogos comunitarios podrian fortalecerse si compartimos linea del tiempo y lo ponemos en conversacion con otras personas?"
+        }
+      ],
+      "notReadyFor": [
+        "full-games",
+        "summative-exam"
+      ]
+    },
+    {
+      "id": "etica-naturaleza-y-sociedades-1-ppa-7-pa20",
+      "projectId": "etica-naturaleza-y-sociedades-1-ppa-7-pa20",
+      "academicProjectNumber": 20,
+      "title": "El juego de pelota en Mesoamerica",
+      "projectTitle": "El juego de pelota en Mesoamerica",
+      "grade": "1",
+      "field": "Etica, Naturaleza y Sociedades",
+      "ppaNumber": "7",
+      "partialClassroomProject": "PPA 7",
+      "partialClassroomProjectTitle": "Nuestras raices",
+      "bookVolume": "Tomo II",
+      "sourceValidation": {
+        "sourceStatus": "linked",
+        "possibilitiesPages": [
+          19,
+          20
+        ],
+        "possibilitiesMaterialId": "grade-1-posibilidades-pos-ens-1",
+        "possibilitiesColumnIndex": 2,
+        "columnEvidence": "Bloque PPA 7 Nuestras raices localizado en pp. 19-20; la columna 2 se confirma por el orden de proyectos, productos y continuidad del mismo bloque."
+      },
+      "finalProduct": {
+        "title": "Representacion minima",
+        "source": "Posibilidades de uso ENS pp. 19-20 + Nuestro libro de proyectos Tomo II pp. 198-202",
+        "status": "confirmed"
+      },
+      "sourcePages": {
+        "nuestroLibroProyectos": [
+          {
+            "materialId": "grade-1-proyectos-nuestro-libro-de-proyectos-tomo-ii-primer-grado",
+            "label": "Nuestro libro de proyectos Tomo II",
+            "startPage": 198,
+            "endPage": 202,
+            "pagesLabel": "pp. 198-202",
+            "topicTitle": "Proyecto academico 20",
+            "status": "confirmed-source"
+          }
+        ],
+        "conceptBook": [
+          {
+            "materialId": "grade-1-conceptos-etica-naturaleza-y-sociedades-primer-grado",
+            "label": "Etica, Naturaleza y Sociedades",
+            "startPage": 176,
+            "endPage": 185,
+            "pagesLabel": "pp. 176-185",
+            "topicTitle": "Cultura, poder y sociedad en Mesoamerica",
+            "status": "confirmed-by-column-inference"
+          },
+          {
+            "materialId": "grade-1-conceptos-etica-naturaleza-y-sociedades-primer-grado",
+            "label": "Etica, Naturaleza y Sociedades",
+            "startPage": 206,
+            "endPage": 209,
+            "pagesLabel": "pp. 206-209",
+            "topicTitle": "Maiz, una planta maravillosa",
+            "status": "confirmed-by-column-inference"
+          }
+        ],
+        "multiplesLenguajes": [],
+        "otherMaterials": [
+          {
+            "label": "Video PPA 7: Nuestras raices",
+            "reference": "bit.ly/3VfglUk",
+            "status": "pending-validation"
+          }
+        ]
+      },
+      "supportMaterials": [],
+      "horizonOrPurpose": {
+        "status": "pending",
+        "text": "",
+        "source": "Nuestro libro de proyectos Tomo II p. 198"
+      },
+      "projectExpectationHorizon": {
+        "officialText": "",
+        "studentVersion": "",
+        "sourcePages": [
+          "Nuestro libro de proyectos Tomo II p. 198"
+        ],
+        "evidence": "El proyecto ya cuenta con producto, conceptos y articulacion pedagógica, pero el horizonte textual exacto sigue pendiente de confirmacion literal.",
+        "status": "pending"
+      },
+      "detonatingStrategy": {
+        "status": "pending-url",
+        "text": "Video PPA 7: Nuestras raices",
+        "reference": "bit.ly/3VfglUk",
+        "source": "Nuestro libro de proyectos Tomo II pp. 196-197 + Posibilidades de uso ENS pp. 19-20"
+      },
+      "academicProjectStrategy": {
+        "title": "Representacion minima",
+        "text": "Organizar representacion minima para profundizar en el juego de pelota como expresion cultural y social mesoamericana y compartir hallazgos de manera clara con el grupo.",
+        "type": "project-product",
+        "status": "confirmed-from-project-book",
+        "source": "Nuestro libro de proyectos Tomo II pp. 198-202"
+      },
+      "academicConcepts": [
+        {
+          "concept": "representacion minima",
+          "description": "Representacion minima como producto de cierre para organizar y comunicar aprendizajes del proyecto.",
+          "sourceBook": "Nuestro libro de proyectos Tomo II",
+          "sourcePages": [
+            198,
+            202
+          ],
+          "sourcePagesLabel": "pp. 198-202",
+          "topicTitle": "Proyecto academico 20",
+          "status": "confirmed",
+          "reason": "Posibilidades y el propio proyecto fijan Representacion minima como producto final del PA 20.",
+          "pedagogicalUse": "Da una forma concreta de socializar lo comprendido sobre el juego de pelota como expresion cultural y social mesoamericana.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Mesoamerica",
+          "description": "Mesoamerica es una idea clave para comprender el juego de pelota como expresion cultural y social mesoamericana.",
+          "sourceBook": "Etica, Naturaleza y Sociedades",
+          "sourcePages": [
+            176,
+            185
+          ],
+          "sourcePagesLabel": "pp. 176-185",
+          "topicTitle": "Cultura, poder y sociedad en Mesoamerica",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Cultura, poder y sociedad en Mesoamerica\" aporta base suficiente para trabajar Mesoamerica dentro del proyecto 20.",
+          "pedagogicalUse": "Ayuda a fortalecer representacion minima y a explicar el juego de pelota como expresion cultural y social mesoamericana con mayor claridad mediante Mesoamerica.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "juego de pelota",
+          "description": "Juego de pelota es una idea clave para comprender el juego de pelota como expresion cultural y social mesoamericana.",
+          "sourceBook": "Etica, Naturaleza y Sociedades",
+          "sourcePages": [
+            176,
+            185
+          ],
+          "sourcePagesLabel": "pp. 176-185",
+          "topicTitle": "Cultura, poder y sociedad en Mesoamerica",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Cultura, poder y sociedad en Mesoamerica\" aporta base suficiente para trabajar juego de pelota dentro del proyecto 20.",
+          "pedagogicalUse": "Ayuda a fortalecer representacion minima y a explicar el juego de pelota como expresion cultural y social mesoamericana con mayor claridad mediante juego de pelota.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "cultura y poder",
+          "description": "Cultura y poder es una idea clave para comprender el juego de pelota como expresion cultural y social mesoamericana.",
+          "sourceBook": "Etica, Naturaleza y Sociedades",
+          "sourcePages": [
+            176,
+            185
+          ],
+          "sourcePagesLabel": "pp. 176-185",
+          "topicTitle": "Cultura, poder y sociedad en Mesoamerica",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Cultura, poder y sociedad en Mesoamerica\" aporta base suficiente para trabajar cultura y poder dentro del proyecto 20.",
+          "pedagogicalUse": "Ayuda a fortalecer representacion minima y a explicar el juego de pelota como expresion cultural y social mesoamericana con mayor claridad mediante cultura y poder.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "simbolos comunitarios",
+          "description": "Simbolos comunitarios es una idea clave para comprender el juego de pelota como expresion cultural y social mesoamericana.",
+          "sourceBook": "Etica, Naturaleza y Sociedades",
+          "sourcePages": [
+            206,
+            209
+          ],
+          "sourcePagesLabel": "pp. 206-209",
+          "topicTitle": "Maiz, una planta maravillosa",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Maiz, una planta maravillosa\" aporta base suficiente para trabajar simbolos comunitarios dentro del proyecto 20.",
+          "pedagogicalUse": "Ayuda a fortalecer representacion minima y a explicar el juego de pelota como expresion cultural y social mesoamericana con mayor claridad mediante simbolos comunitarios.",
+          "activityReadiness": "usable-for-autoevaluation"
+        }
+      ],
+      "thinkingCriteria": [
+        "Relacionar el juego de pelota como expresion cultural y social mesoamericana con situaciones cercanas a la comunidad.",
+        "Usar representacion minima para explicar y no solo para recopilar informacion.",
+        "Distinguir entre mencionar conceptos y comprender como dialogan entre si dentro del proyecto."
+      ],
+      "validationStatus": {
+        "readinessLevel": "development-partial",
+        "readyForActivities": false,
+        "needsReviewReasons": [
+          "El bloque 7 ya es usable como lectura docente, pero el video del PPA 7 y el recurso informatico siguen pendientes de validacion de destino final.",
+          "La asignacion de apoyos de Posibilidades se sostiene por inferencia curricular documentada y no por OCR perfectamente separado por columnas.",
+          "No mover a actividades interactivas ni desbloquear juegos completos hasta ampliar validacion de videos y recursos complementarios."
+        ]
+      },
+      "readinessLevel": "development-partial",
+      "readyForActivities": false,
+      "needsReviewReasons": [
+        "No mover a actividades interactivas ni desbloquear juegos completos."
+      ],
+      "roleInPpa": "Profundiza el bloque mostrando el juego de pelota como practica cultural ligada a poder, sociedad y simbolos.",
+      "pedagogicalUse": "Conviene trabajar El juego de pelota en Mesoamerica como una oportunidad para profundizar en el juego de pelota como expresion cultural y social mesoamericana sin separar contenido, comunidad y producto final.",
+      "teacherNotes": [
+        "Conviene partir de ejemplos cercanos y despues pasar al lenguaje mas abstracto del campo.",
+        "El producto Representacion minima gana fuerza cuando se usa para explicar y no solo para exhibir informacion.",
+        "Es mejor seleccionar pocos conceptos bien comprendidos que saturar el trabajo con terminos aislados."
+      ],
+      "resonancePrompts": [
+        {
+          "type": "individual",
+          "prompt": "¿Que comprendes mejor sobre el juego de pelota como expresion cultural y social mesoamericana despues de elaborar representacion minima?"
+        },
+        {
+          "type": "community",
+          "prompt": "¿Que dialogos comunitarios podrian fortalecerse si compartimos representacion minima y lo ponemos en conversacion con otras personas?"
+        }
+      ],
+      "notReadyFor": [
+        "full-games",
+        "summative-exam"
+      ]
+    },
+    {
+      "id": "etica-naturaleza-y-sociedades-1-ppa-7-pa21",
+      "projectId": "etica-naturaleza-y-sociedades-1-ppa-7-pa21",
+      "academicProjectNumber": 21,
+      "title": "La gente que vivio en el desierto",
+      "projectTitle": "La gente que vivio en el desierto",
+      "grade": "1",
+      "field": "Etica, Naturaleza y Sociedades",
+      "ppaNumber": "7",
+      "partialClassroomProject": "PPA 7",
+      "partialClassroomProjectTitle": "Nuestras raices",
+      "bookVolume": "Tomo II",
+      "sourceValidation": {
+        "sourceStatus": "linked",
+        "possibilitiesPages": [
+          19,
+          20
+        ],
+        "possibilitiesMaterialId": "grade-1-posibilidades-pos-ens-1",
+        "possibilitiesColumnIndex": 3,
+        "columnEvidence": "Bloque PPA 7 Nuestras raices localizado en pp. 19-20; la columna 3 se confirma por el orden de proyectos, productos y continuidad del mismo bloque."
+      },
+      "finalProduct": {
+        "title": "Mapa de bolsillo",
+        "source": "Posibilidades de uso ENS pp. 19-20 + Nuestro libro de proyectos Tomo II pp. 203-207",
+        "status": "confirmed"
+      },
+      "sourcePages": {
+        "nuestroLibroProyectos": [
+          {
+            "materialId": "grade-1-proyectos-nuestro-libro-de-proyectos-tomo-ii-primer-grado",
+            "label": "Nuestro libro de proyectos Tomo II",
+            "startPage": 203,
+            "endPage": 207,
+            "pagesLabel": "pp. 203-207",
+            "topicTitle": "Proyecto academico 21",
+            "status": "confirmed-source"
+          }
+        ],
+        "conceptBook": [
+          {
+            "materialId": "grade-1-conceptos-etica-naturaleza-y-sociedades-primer-grado",
+            "label": "Etica, Naturaleza y Sociedades",
+            "startPage": 159,
+            "endPage": 167,
+            "pagesLabel": "pp. 159-167",
+            "topicTitle": "Comparacion de las antiguas sociedades americanas",
+            "status": "confirmed-by-column-inference"
+          },
+          {
+            "materialId": "grade-1-conceptos-etica-naturaleza-y-sociedades-primer-grado",
+            "label": "Etica, Naturaleza y Sociedades",
+            "startPage": 245,
+            "endPage": 254,
+            "pagesLabel": "pp. 245-254",
+            "topicTitle": "Pueblos antiguos de Aridoamerica y Oasisamerica",
+            "status": "confirmed-by-column-inference"
+          }
+        ],
+        "multiplesLenguajes": [
+          {
+            "materialId": "grade-1-apoyo-muiltiples-lenguajes-primer-grado",
+            "label": "Multiples Lenguajes",
+            "startPage": 122,
+            "endPage": 123,
+            "pagesLabel": "pp. 122-123",
+            "topicTitle": "Diccionario pictografico",
+            "status": "confirmed-by-column-inference"
+          }
+        ],
+        "otherMaterials": [
+          {
+            "label": "Video PPA 7: Nuestras raices",
+            "reference": "bit.ly/3VfglUk",
+            "status": "pending-validation"
+          }
+        ]
+      },
+      "supportMaterials": [
+        {
+          "title": "Diccionario pictografico",
+          "kind": "Multiples Lenguajes",
+          "pages": "pp. 122-123",
+          "status": "confirmed-by-column-inference"
+        }
+      ],
+      "horizonOrPurpose": {
+        "status": "confirmed-from-project-book",
+        "text": "Buscar información sobre cómo elaborar un mapa de las zonas habitadas por los pueblos aridoamericanos y oasisamericanos, con énfasis en las proporciones (escala) y la ubicación real de dichos pueblos.",
+        "source": "Visión — Horizonte 1 (p. 204)"
+      },
+      "projectExpectationHorizon": {
+        "officialText": "Buscar información sobre cómo elaborar un mapa de las zonas habitadas por los pueblos aridoamericanos y oasisamericanos, con énfasis en las proporciones (escala) y la ubicación real de dichos pueblos.",
+        "studentVersion": "Buscar información sobre cómo elaborar un mapa de las zonas habitadas por los pueblos aridoamericanos y oasisamericanos, con énfasis en las proporciones (escala) y la ubicación real de dichos pueblos.",
+        "horizon1Raw": "Buscar información sobre cómo elaborar un mapa de las zonas habitadas por los pueblos aridoamericanos y oasisamericanos, con énfasis en las proporciones (escala) y la ubicación real de dichos pueblos.",
+        "horizon2Raw": "Definir las fuentes de información confiables con apoyo de la maestra o maestro; de ser posible, acudir con especialistas en el contenido.",
+        "sourcePages": [
+          "Visión — Horizonte 1 (p. 204)"
+        ],
+        "evidence": "Extraído por visión de imagen de la página 204 del libro de proyectos. Confianza: alta.",
+        "status": "confirmed-from-project-book",
+        "extractedAt": "2026-06-16T05:25:54.527Z"
+      },
+      "detonatingStrategy": {
+        "status": "pending-url",
+        "text": "Video PPA 7: Nuestras raices",
+        "reference": "bit.ly/3VfglUk",
+        "source": "Nuestro libro de proyectos Tomo II pp. 201-202 + Posibilidades de uso ENS pp. 19-20"
+      },
+      "academicProjectStrategy": {
+        "title": "Mapa de bolsillo",
+        "text": "Organizar mapa de bolsillo para profundizar en las formas de vida de pueblos antiguos en regiones deserticas y compartir hallazgos de manera clara con el grupo.",
+        "type": "project-product",
+        "status": "confirmed-from-project-book",
+        "source": "Nuestro libro de proyectos Tomo II pp. 203-207"
+      },
+      "academicConcepts": [
+        {
+          "concept": "mapa de bolsillo",
+          "description": "Mapa de bolsillo como producto de cierre para organizar y comunicar aprendizajes del proyecto.",
+          "sourceBook": "Nuestro libro de proyectos Tomo II",
+          "sourcePages": [
+            203,
+            207
+          ],
+          "sourcePagesLabel": "pp. 203-207",
+          "topicTitle": "Proyecto academico 21",
+          "status": "confirmed",
+          "reason": "Posibilidades y el propio proyecto fijan Mapa de bolsillo como producto final del PA 21.",
+          "pedagogicalUse": "Da una forma concreta de socializar lo comprendido sobre las formas de vida de pueblos antiguos en regiones deserticas.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Aridoamerica",
+          "description": "Aridoamerica es una idea clave para comprender las formas de vida de pueblos antiguos en regiones deserticas.",
+          "sourceBook": "Etica, Naturaleza y Sociedades",
+          "sourcePages": [
+            245,
+            254
+          ],
+          "sourcePagesLabel": "pp. 245-254",
+          "topicTitle": "Pueblos antiguos de Aridoamerica y Oasisamerica",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Pueblos antiguos de Aridoamerica y Oasisamerica\" aporta base suficiente para trabajar Aridoamerica dentro del proyecto 21.",
+          "pedagogicalUse": "Ayuda a fortalecer mapa de bolsillo y a explicar las formas de vida de pueblos antiguos en regiones deserticas con mayor claridad mediante Aridoamerica.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Oasisamerica",
+          "description": "Oasisamerica es una idea clave para comprender las formas de vida de pueblos antiguos en regiones deserticas.",
+          "sourceBook": "Etica, Naturaleza y Sociedades",
+          "sourcePages": [
+            245,
+            254
+          ],
+          "sourcePagesLabel": "pp. 245-254",
+          "topicTitle": "Pueblos antiguos de Aridoamerica y Oasisamerica",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Pueblos antiguos de Aridoamerica y Oasisamerica\" aporta base suficiente para trabajar Oasisamerica dentro del proyecto 21.",
+          "pedagogicalUse": "Ayuda a fortalecer mapa de bolsillo y a explicar las formas de vida de pueblos antiguos en regiones deserticas con mayor claridad mediante Oasisamerica.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "sociedades antiguas",
+          "description": "Sociedades antiguas es una idea clave para comprender las formas de vida de pueblos antiguos en regiones deserticas.",
+          "sourceBook": "Etica, Naturaleza y Sociedades",
+          "sourcePages": [
+            159,
+            167
+          ],
+          "sourcePagesLabel": "pp. 159-167",
+          "topicTitle": "Comparacion de las antiguas sociedades americanas",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Comparacion de las antiguas sociedades americanas\" aporta base suficiente para trabajar sociedades antiguas dentro del proyecto 21.",
+          "pedagogicalUse": "Ayuda a fortalecer mapa de bolsillo y a explicar las formas de vida de pueblos antiguos en regiones deserticas con mayor claridad mediante sociedades antiguas.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "territorio desertico",
+          "description": "Territorio desertico es una idea clave para comprender las formas de vida de pueblos antiguos en regiones deserticas.",
+          "sourceBook": "Etica, Naturaleza y Sociedades",
+          "sourcePages": [
+            245,
+            254
+          ],
+          "sourcePagesLabel": "pp. 245-254",
+          "topicTitle": "Pueblos antiguos de Aridoamerica y Oasisamerica",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Pueblos antiguos de Aridoamerica y Oasisamerica\" aporta base suficiente para trabajar territorio desertico dentro del proyecto 21.",
+          "pedagogicalUse": "Ayuda a fortalecer mapa de bolsillo y a explicar las formas de vida de pueblos antiguos en regiones deserticas con mayor claridad mediante territorio desertico.",
+          "activityReadiness": "usable-for-autoevaluation"
+        }
+      ],
+      "thinkingCriteria": [
+        "Relacionar las formas de vida de pueblos antiguos en regiones deserticas con situaciones cercanas a la comunidad.",
+        "Usar mapa de bolsillo para explicar y no solo para recopilar informacion.",
+        "Distinguir entre mencionar conceptos y comprender como dialogan entre si dentro del proyecto."
+      ],
+      "validationStatus": {
+        "readinessLevel": "development-partial",
+        "readyForActivities": false,
+        "needsReviewReasons": [
+          "El bloque 7 ya es usable como lectura docente, pero el video del PPA 7 y el recurso informatico siguen pendientes de validacion de destino final.",
+          "La asignacion de apoyos de Posibilidades se sostiene por inferencia curricular documentada y no por OCR perfectamente separado por columnas.",
+          "No mover a actividades interactivas ni desbloquear juegos completos hasta ampliar validacion de videos y recursos complementarios."
+        ]
+      },
+      "readinessLevel": "development-partial",
+      "readyForActivities": false,
+      "needsReviewReasons": [
+        "No mover a actividades interactivas ni desbloquear juegos completos."
+      ],
+      "roleInPpa": "Cierra el bloque con una lectura territorial de sociedades antiguas que habitaron regiones aridas y deserticas.",
+      "pedagogicalUse": "Conviene trabajar La gente que vivio en el desierto como una oportunidad para profundizar en las formas de vida de pueblos antiguos en regiones deserticas sin separar contenido, comunidad y producto final.",
+      "teacherNotes": [
+        "Conviene partir de ejemplos cercanos y despues pasar al lenguaje mas abstracto del campo.",
+        "El producto Mapa de bolsillo gana fuerza cuando se usa para explicar y no solo para exhibir informacion.",
+        "Es mejor seleccionar pocos conceptos bien comprendidos que saturar el trabajo con terminos aislados."
+      ],
+      "resonancePrompts": [
+        {
+          "type": "individual",
+          "prompt": "¿Que comprendes mejor sobre las formas de vida de pueblos antiguos en regiones deserticas despues de elaborar mapa de bolsillo?"
+        },
+        {
+          "type": "community",
+          "prompt": "¿Que dialogos comunitarios podrian fortalecerse si compartimos mapa de bolsillo y lo ponemos en conversacion con otras personas?"
+        }
+      ],
+      "notReadyFor": [
+        "full-games",
+        "summative-exam"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,654 @@
+{
+  "grade": "1",
+  "gradeLabel": "Primer grado",
+  "field": "Saberes y Pensamiento Cientifico",
+  "bookVolume": "Tomo III",
+  "partialClassroomProject": "PPA 15",
+  "partialClassroomProjectTitle": "La expo bio!",
+  "generatedAt": "2026-06-01T13:51:04.147Z",
+  "notes": "Capa curricular aislada para 1o Saberes y Pensamiento Cientifico PPA 15.",
+  "sourcesUsed": [
+    "reports/caracoles/grade1-lenguajes-reading-teacher-hito-2-standard.md",
+    "content/caracoles/curricular-links/grade-1-project-source-links.json",
+    "content/caracoles/generated-private/grade-1/pages-index.full.json",
+    "Posibilidades de uso SyPC, primer grado, pp. 33-34",
+    "Nuestro libro de proyectos Tomo III, primer grado, pp. 144-157",
+    "Saberes y Pensamiento Cientifico, pp. 199-204, 205-211 y 212-216"
+  ],
+  "partialClassroomProjectContext": {
+    "expectationHorizon": {
+      "officialText": "",
+      "sourcePages": [
+        "Nuestro libro de proyectos Tomo III pp. 144-157",
+        "Posibilidades de uso SyPC pp. 33-34"
+      ],
+      "evidence": "El PPA 15 articula clasificacion de seres vivos, ciclos biogeoquimicos y calentamiento global para construir productos de divulgacion con una mirada ambiental situada.",
+      "status": "pending"
+    },
+    "ppaDetonatingStrategy": {
+      "title": "La expo bio!",
+      "type": "video",
+      "url": "",
+      "urlStatus": "pending-url",
+      "reference": "bit.ly/3VfglUk",
+      "source": "Nuestro libro de proyectos Tomo III pp. 144-157 + Posibilidades de uso SyPC pp. 33-34",
+      "scope": "partial-classroom-project",
+      "youtubeSearchQuery": "La expo bio! Saberes y Pensamiento Cientifico 1er grado Telesecundaria"
+    },
+    "ppaDigitalResource": {
+      "title": "Recurso informatico del bloque PPA 15",
+      "reference": "bit.ly/3WQBMwg",
+      "status": "pending-validation",
+      "source": "Nuestro libro de proyectos Tomo III, cierre del PPA 15"
+    },
+    "validationStatus": {
+      "needsHumanReview": true,
+      "needsReviewReasons": [
+        "Las pp. 33-34 de Posibilidades corresponden al mismo bloque del PPA 15.",
+        "No se localizaron apoyos de Multiples Lenguajes confirmados para este bloque.",
+        "El video del PPA y el recurso informatico siguen en cautela mediante enlaces cortos."
+      ]
+    },
+    "columnValidation": {
+      "possibilitiesPagesReviewed": [
+        33,
+        34
+      ],
+      "confirmedAsPpa": true,
+      "note": "Las pp. 33-34 de Posibilidades pertenecen al mismo PPA 15. Confirman orden y productos del bloque, pero no dejan apoyos de Multiples Lenguajes plenamente cerrados.",
+      "columns": [
+        {
+          "columnIndex": 1,
+          "projectId": "saberes-y-pensamiento-cientifico-1-ppa-15-pa43",
+          "projectTitle": "Una piedra y un colibri!",
+          "finalProduct": "Mapa de procesos",
+          "supportMaterials": []
+        },
+        {
+          "columnIndex": 2,
+          "projectId": "saberes-y-pensamiento-cientifico-1-ppa-15-pa44",
+          "projectTitle": "Bienestar y comodidad a costa de todo!",
+          "finalProduct": "Panel estudiantil",
+          "supportMaterials": []
+        },
+        {
+          "columnIndex": 3,
+          "projectId": "saberes-y-pensamiento-cientifico-1-ppa-15-pa45",
+          "projectTitle": "Un tema candente que nos interesa a todxs!",
+          "finalProduct": "Exposicion ludica",
+          "supportMaterials": []
+        }
+      ]
+    }
+  },
+  "academicProjects": [
+    {
+      "id": "saberes-y-pensamiento-cientifico-1-ppa-15-pa43",
+      "projectId": "saberes-y-pensamiento-cientifico-1-ppa-15-pa43",
+      "academicProjectNumber": 43,
+      "title": "Una piedra y un colibri!",
+      "projectTitle": "Una piedra y un colibri!",
+      "grade": "1",
+      "field": "Saberes y Pensamiento Cientifico",
+      "ppaNumber": "15",
+      "partialClassroomProject": "PPA 15",
+      "partialClassroomProjectTitle": "La expo bio!",
+      "bookVolume": "Tomo III",
+      "sourceValidation": {
+        "sourceStatus": "linked",
+        "possibilitiesPages": [
+          33,
+          34
+        ],
+        "possibilitiesMaterialId": "grade-1-posibilidades-pos-sypc-1",
+        "possibilitiesColumnIndex": 1,
+        "columnEvidence": "Bloque PPA 15 La expo bio! localizado en pp. 33-34; la columna 1 se confirma por el orden de proyectos, productos y continuidad del mismo bloque."
+      },
+      "finalProduct": {
+        "title": "Mapa de procesos",
+        "source": "Posibilidades de uso SyPC pp. 33-34 + Nuestro libro de proyectos Tomo III pp. 146-149",
+        "status": "confirmed"
+      },
+      "sourcePages": {
+        "nuestroLibroProyectos": [
+          {
+            "materialId": "grade-1-proyectos-nuestro-libro-de-proyectos-tomo-iii-primer-grado",
+            "label": "Nuestro libro de proyectos Tomo III",
+            "startPage": 146,
+            "endPage": 149,
+            "pagesLabel": "pp. 146-149",
+            "topicTitle": "Proyecto academico 43",
+            "status": "confirmed-source"
+          }
+        ],
+        "conceptBook": [
+          {
+            "materialId": "grade-1-conceptos-saberes-y-pensamiento-cientifico-primer-grado",
+            "label": "Saberes y Pensamiento Cientifico",
+            "startPage": 212,
+            "endPage": 216,
+            "pagesLabel": "pp. 212-216",
+            "topicTitle": "Clasificacion de los seres vivos",
+            "status": "confirmed-source"
+          }
+        ],
+        "multiplesLenguajes": [],
+        "otherMaterials": [
+          {
+            "label": "Video PPA 15: La expo bio!",
+            "reference": "bit.ly/3VfglUk",
+            "status": "pending-validation",
+            "youtubeSearchQuery": "La expo bio! Saberes y Pensamiento Cientifico 1er grado Telesecundaria"
+          }
+        ]
+      },
+      "supportMaterials": [],
+      "horizonOrPurpose": {
+        "status": "official",
+        "text": "Localizar informacion para integrar un mapa de procesos que muestre las caracteristicas comunes de los seres vivos y algunos criterios de clasificacion.",
+        "source": "Nuestro libro de proyectos Tomo III p. 146"
+      },
+      "projectExpectationHorizon": {
+        "officialText": "Explicar con un mapa de procesos las caracteristicas comunes de los seres vivos y algunos criterios basicos para clasificarlos.",
+        "studentVersion": "Comprender mejor que rasgos comparten los seres vivos y como podemos organizarlos para estudiarlos.",
+        "sourcePages": [
+          "Nuestro libro de proyectos Tomo III p. 147"
+        ],
+        "evidence": "La etapa 1, la etapa 3 o los objetivos del proyecto permiten fijar un horizonte de expectativas util para la lectura docente del PA.",
+        "status": "confirmed-from-project-book"
+      },
+      "detonatingStrategy": {
+        "status": "pending-url",
+        "text": "Video PPA 15: La expo bio!",
+        "reference": "bit.ly/3VfglUk",
+        "source": "Nuestro libro de proyectos Tomo III pp. 146-149"
+      },
+      "academicProjectStrategy": {
+        "title": "Mapa de procesos",
+        "text": "Organizar etapas, relaciones y criterios biologicos en un formato visual que ayude a explicar la clasificacion de los seres vivos.",
+        "type": "process-map",
+        "status": "confirmed-from-project-book",
+        "source": "Nuestro libro de proyectos Tomo III pp. 146-149"
+      },
+      "academicConcepts": [
+        {
+          "concept": "mapa de procesos",
+          "description": "Representacion que organiza pasos, relaciones o criterios para comprender un tema complejo.",
+          "sourceBook": "Nuestro libro de proyectos Tomo III",
+          "sourcePages": [
+            146,
+            147,
+            148,
+            149
+          ],
+          "sourcePagesLabel": "pp. 146-149",
+          "topicTitle": "Proyecto academico 43",
+          "status": "confirmed",
+          "reason": "Posibilidades y el proyecto fijan este producto final para el PA 43.",
+          "pedagogicalUse": "Ayuda a ordenar la explicacion biologica y a mostrar como se enlazan varios criterios.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "clasificacion de los seres vivos",
+          "description": "Organizacion de los seres vivos segun rasgos que permiten compararlos y comprender mejor su diversidad.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            212,
+            216
+          ],
+          "sourcePagesLabel": "pp. 212-216",
+          "topicTitle": "Clasificacion de los seres vivos",
+          "status": "confirmed",
+          "reason": "El libro del campo la desarrolla y el proyecto la usa como eje explicativo.",
+          "pedagogicalUse": "Permite pasar de ejemplos aislados a criterios mas amplios de organizacion biologica.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "caracteristicas comunes de los seres vivos",
+          "description": "Rasgos compartidos que ayudan a reconocer que algo pertenece al mundo vivo.",
+          "sourceBook": "Nuestro libro de proyectos Tomo III",
+          "sourcePages": [
+            146,
+            147
+          ],
+          "sourcePagesLabel": "pp. 146-147",
+          "topicTitle": "Proyecto academico 43",
+          "status": "confirmed",
+          "reason": "La etapa 1 del proyecto las coloca como contenido central del mapa de procesos.",
+          "pedagogicalUse": "Da una base comun antes de entrar a clasificaciones mas especificas.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "formas de alimentacion",
+          "description": "Maneras en que distintos organismos obtienen materia y energia para vivir.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            213,
+            214
+          ],
+          "sourcePagesLabel": "pp. 213-214",
+          "topicTitle": "Clasificacion de los seres vivos",
+          "status": "confirmed",
+          "reason": "El libro del campo la presenta como criterio de clasificacion util para este proyecto.",
+          "pedagogicalUse": "Permite comparar organismos y abrir preguntas sobre relaciones ecologicas.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "reproduccion de los seres vivos",
+          "description": "Proceso por el que los seres vivos dan origen a otros seres vivos de su misma especie.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            215,
+            216
+          ],
+          "sourcePagesLabel": "pp. 215-216",
+          "topicTitle": "Clasificacion de los seres vivos",
+          "status": "confirmed",
+          "reason": "Las paginas confirmadas del libro del campo la incluyen como criterio de clasificacion.",
+          "pedagogicalUse": "Ayuda a comparar estrategias de continuidad de la vida sin simplificarlas demasiado.",
+          "activityReadiness": "usable-for-autoevaluation"
+        }
+      ],
+      "thinkingCriteria": [
+        "Distinguir entre rasgos compartidos y criterios de clasificacion mas especificos.",
+        "Usar el mapa para mostrar relaciones y no solo para acumular etiquetas."
+      ],
+      "pedagogicalUse": "El mapa de procesos funciona mejor cuando conecta los criterios de clasificacion con ejemplos concretos de organismos cercanos.",
+      "communityQuestion": "Que seres vivos del entorno nos ayudan a comprender mejor las semejanzas y diferencias que propone este proyecto?",
+      "notesForTeacher": {
+        "status": "teacher-orientation",
+        "teacherUse": "El mapa de procesos funciona mejor cuando conecta los criterios de clasificacion con ejemplos concretos de organismos cercanos.",
+        "caution": [
+          "El video del PPA 15 y el recurso informatico siguen pendientes de validacion de destino final.",
+          "No se localizaron apoyos de Multiples Lenguajes plenamente confirmados para este proyecto."
+        ]
+      },
+      "readinessLevel": "development-partial",
+      "readyForActivities": false,
+      "needsReviewReasons": [
+        "No mover a actividades interactivas ni desbloquear juegos completos."
+      ]
+    },
+    {
+      "id": "saberes-y-pensamiento-cientifico-1-ppa-15-pa44",
+      "projectId": "saberes-y-pensamiento-cientifico-1-ppa-15-pa44",
+      "academicProjectNumber": 44,
+      "title": "Bienestar y comodidad a costa de todo!",
+      "projectTitle": "Bienestar y comodidad a costa de todo!",
+      "grade": "1",
+      "field": "Saberes y Pensamiento Cientifico",
+      "ppaNumber": "15",
+      "partialClassroomProject": "PPA 15",
+      "partialClassroomProjectTitle": "La expo bio!",
+      "bookVolume": "Tomo III",
+      "sourceValidation": {
+        "sourceStatus": "linked",
+        "possibilitiesPages": [
+          33,
+          34
+        ],
+        "possibilitiesMaterialId": "grade-1-posibilidades-pos-sypc-1",
+        "possibilitiesColumnIndex": 2,
+        "columnEvidence": "Bloque PPA 15 La expo bio! localizado en pp. 33-34; la columna 2 se confirma por el orden de proyectos, productos y continuidad del mismo bloque."
+      },
+      "finalProduct": {
+        "title": "Panel estudiantil",
+        "source": "Posibilidades de uso SyPC pp. 33-34 + Nuestro libro de proyectos Tomo III pp. 150-153",
+        "status": "confirmed"
+      },
+      "sourcePages": {
+        "nuestroLibroProyectos": [
+          {
+            "materialId": "grade-1-proyectos-nuestro-libro-de-proyectos-tomo-iii-primer-grado",
+            "label": "Nuestro libro de proyectos Tomo III",
+            "startPage": 150,
+            "endPage": 153,
+            "pagesLabel": "pp. 150-153",
+            "topicTitle": "Proyecto academico 44",
+            "status": "confirmed-source"
+          }
+        ],
+        "conceptBook": [
+          {
+            "materialId": "grade-1-conceptos-saberes-y-pensamiento-cientifico-primer-grado",
+            "label": "Saberes y Pensamiento Cientifico",
+            "startPage": 205,
+            "endPage": 211,
+            "pagesLabel": "pp. 205-211",
+            "topicTitle": "Ciclos biogeoquimicos",
+            "status": "confirmed-source"
+          }
+        ],
+        "multiplesLenguajes": [],
+        "otherMaterials": [
+          {
+            "label": "Video PPA 15: La expo bio!",
+            "reference": "bit.ly/3VfglUk",
+            "status": "pending-validation",
+            "youtubeSearchQuery": "La expo bio! Saberes y Pensamiento Cientifico 1er grado Telesecundaria"
+          }
+        ]
+      },
+      "supportMaterials": [],
+      "horizonOrPurpose": {
+        "status": "official",
+        "text": "Desarrollar un panel estudiantil donde se discutan temas ambientales para entender como las practicas de consumo alteran los ciclos biogeoquimicos y afectan el ambiente y la salud.",
+        "source": "Nuestro libro de proyectos Tomo III p. 150"
+      },
+      "projectExpectationHorizon": {
+        "officialText": "Explicar en un panel estudiantil como ciertas practicas de consumo alteran los ciclos biogeoquimicos y repercuten en el ambiente y la salud.",
+        "studentVersion": "Comprender mejor la relacion entre consumo cotidiano, ciclos naturales y consecuencias ambientales.",
+        "sourcePages": [
+          "Nuestro libro de proyectos Tomo III p. 151"
+        ],
+        "evidence": "La etapa 1, la etapa 3 o los objetivos del proyecto permiten fijar un horizonte de expectativas util para la lectura docente del PA.",
+        "status": "confirmed-from-project-book"
+      },
+      "detonatingStrategy": {
+        "status": "pending-url",
+        "text": "Video PPA 15: La expo bio!",
+        "reference": "bit.ly/3VfglUk",
+        "source": "Nuestro libro de proyectos Tomo III pp. 150-153"
+      },
+      "academicProjectStrategy": {
+        "title": "Panel estudiantil",
+        "text": "Organizar un dialogo sustentado en datos y ejemplos para discutir practicas de consumo y sus efectos ambientales.",
+        "type": "student-panel",
+        "status": "confirmed-from-project-book",
+        "source": "Nuestro libro de proyectos Tomo III pp. 150-153"
+      },
+      "academicConcepts": [
+        {
+          "concept": "panel estudiantil",
+          "description": "Espacio de presentacion y dialogo en el que varias voces exponen y contrastan ideas sobre un tema.",
+          "sourceBook": "Nuestro libro de proyectos Tomo III",
+          "sourcePages": [
+            150,
+            151,
+            152,
+            153
+          ],
+          "sourcePagesLabel": "pp. 150-153",
+          "topicTitle": "Proyecto academico 44",
+          "status": "confirmed",
+          "reason": "Posibilidades y el proyecto fijan este producto final para el PA 44.",
+          "pedagogicalUse": "Permite que el conocimiento circule como conversacion argumentada y no solo como texto escrito.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "ciclos biogeoquimicos",
+          "description": "Procesos naturales en los que la materia circula entre seres vivos, suelo, agua y atmosfera.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            205,
+            211
+          ],
+          "sourcePagesLabel": "pp. 205-211",
+          "topicTitle": "Ciclos biogeoquimicos",
+          "status": "confirmed",
+          "reason": "Es el contenido cientifico central que el proyecto vincula con el consumo humano.",
+          "pedagogicalUse": "Da sustento para comprender por que ciertos cambios ambientales no son casuales.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "carbono y nitrogeno",
+          "description": "Elementos cuyas circulaciones naturales ayudan a explicar procesos clave del equilibrio ambiental.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            207,
+            208
+          ],
+          "sourcePagesLabel": "pp. 207-208",
+          "topicTitle": "Ciclos biogeoquimicos",
+          "status": "confirmed",
+          "reason": "El libro del campo los desarrolla dentro del tramo confirmado para este bloque.",
+          "pedagogicalUse": "Permiten aterrizar la idea general de ciclo biogeoquimico en ejemplos mas concretos.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "practicas de consumo humano",
+          "description": "Acciones cotidianas de produccion, uso y desecho que pueden alterar el ambiente.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            211
+          ],
+          "sourcePagesLabel": "p. 211",
+          "topicTitle": "Ciclos biogeoquimicos",
+          "status": "confirmed",
+          "reason": "La etapa 1 del proyecto y el libro del campo las relacionan con las alteraciones del equilibrio natural.",
+          "pedagogicalUse": "Acerca el proyecto a decisiones concretas de la vida diaria y del territorio.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "impacto en ambiente y salud",
+          "description": "Consecuencias que ciertas practicas producen tanto en los ecosistemas como en el bienestar de las personas.",
+          "sourceBook": "Nuestro libro de proyectos Tomo III",
+          "sourcePages": [
+            150,
+            151
+          ],
+          "sourcePagesLabel": "pp. 150-151",
+          "topicTitle": "Proyecto academico 44",
+          "status": "confirmed",
+          "reason": "El proyecto formula esta relacion como motivo del panel estudiantil.",
+          "pedagogicalUse": "Ayuda a que la discusion no se quede solo en abstracciones ambientales.",
+          "activityReadiness": "usable-for-autoevaluation"
+        }
+      ],
+      "thinkingCriteria": [
+        "Relacionar ciclos naturales y practicas de consumo sin simplificar demasiado el problema.",
+        "Argumentar con ejemplos y no solo con opiniones generales sobre el ambiente."
+      ],
+      "pedagogicalUse": "El panel gana fuerza cuando las intervenciones se apoyan en ejemplos locales de consumo, residuos y cuidado del entorno.",
+      "communityQuestion": "Que practicas de consumo de nuestra comunidad conviene revisar cuando pensamos en ambiente, bienestar y comodidad?",
+      "notesForTeacher": {
+        "status": "teacher-orientation",
+        "teacherUse": "El panel gana fuerza cuando las intervenciones se apoyan en ejemplos locales de consumo, residuos y cuidado del entorno.",
+        "caution": [
+          "El video del PPA 15 y el recurso informatico siguen pendientes de validacion de destino final.",
+          "No se localizaron apoyos de Multiples Lenguajes plenamente confirmados para este proyecto."
+        ]
+      },
+      "readinessLevel": "development-partial",
+      "readyForActivities": false,
+      "needsReviewReasons": [
+        "No mover a actividades interactivas ni desbloquear juegos completos."
+      ]
+    },
+    {
+      "id": "saberes-y-pensamiento-cientifico-1-ppa-15-pa45",
+      "projectId": "saberes-y-pensamiento-cientifico-1-ppa-15-pa45",
+      "academicProjectNumber": 45,
+      "title": "Un tema candente que nos interesa a todxs!",
+      "projectTitle": "Un tema candente que nos interesa a todxs!",
+      "grade": "1",
+      "field": "Saberes y Pensamiento Cientifico",
+      "ppaNumber": "15",
+      "partialClassroomProject": "PPA 15",
+      "partialClassroomProjectTitle": "La expo bio!",
+      "bookVolume": "Tomo III",
+      "sourceValidation": {
+        "sourceStatus": "linked",
+        "possibilitiesPages": [
+          33,
+          34
+        ],
+        "possibilitiesMaterialId": "grade-1-posibilidades-pos-sypc-1",
+        "possibilitiesColumnIndex": 3,
+        "columnEvidence": "Bloque PPA 15 La expo bio! localizado en pp. 33-34; la columna 3 se confirma por el orden de proyectos, productos y continuidad del mismo bloque."
+      },
+      "finalProduct": {
+        "title": "Exposicion ludica",
+        "source": "Posibilidades de uso SyPC pp. 33-34 + Nuestro libro de proyectos Tomo III pp. 154-157",
+        "status": "confirmed"
+      },
+      "sourcePages": {
+        "nuestroLibroProyectos": [
+          {
+            "materialId": "grade-1-proyectos-nuestro-libro-de-proyectos-tomo-iii-primer-grado",
+            "label": "Nuestro libro de proyectos Tomo III",
+            "startPage": 154,
+            "endPage": 157,
+            "pagesLabel": "pp. 154-157",
+            "topicTitle": "Proyecto academico 45",
+            "status": "confirmed-source"
+          }
+        ],
+        "conceptBook": [
+          {
+            "materialId": "grade-1-conceptos-saberes-y-pensamiento-cientifico-primer-grado",
+            "label": "Saberes y Pensamiento Cientifico",
+            "startPage": 199,
+            "endPage": 204,
+            "pagesLabel": "pp. 199-204",
+            "topicTitle": "Calentamiento global",
+            "status": "confirmed-source"
+          },
+          {
+            "materialId": "grade-1-conceptos-saberes-y-pensamiento-cientifico-primer-grado",
+            "label": "Saberes y Pensamiento Cientifico",
+            "startPage": 205,
+            "endPage": 211,
+            "pagesLabel": "pp. 205-211",
+            "topicTitle": "Ciclos biogeoquimicos",
+            "status": "confirmed-source"
+          }
+        ],
+        "multiplesLenguajes": [],
+        "otherMaterials": [
+          {
+            "label": "Video PPA 15: La expo bio!",
+            "reference": "bit.ly/3VfglUk",
+            "status": "pending-validation",
+            "youtubeSearchQuery": "La expo bio! Saberes y Pensamiento Cientifico 1er grado Telesecundaria"
+          }
+        ]
+      },
+      "supportMaterials": [],
+      "horizonOrPurpose": {
+        "status": "official",
+        "text": "Organizar una exposicion ludica para explicar como ciertas practicas de consumo alteran los ciclos biogeoquimicos del carbono y del nitrogeno y como esto se relaciona con el calentamiento global.",
+        "source": "Nuestro libro de proyectos Tomo III p. 154"
+      },
+      "projectExpectationHorizon": {
+        "officialText": "Explicar en una exposicion ludica la relacion entre practicas de consumo, alteracion de ciclos biogeoquimicos y calentamiento global.",
+        "studentVersion": "Comprender mejor por que el calentamiento global se relaciona con decisiones humanas y procesos naturales alterados.",
+        "sourcePages": [
+          "Nuestro libro de proyectos Tomo III p. 155"
+        ],
+        "evidence": "La etapa 1, la etapa 3 o los objetivos del proyecto permiten fijar un horizonte de expectativas util para la lectura docente del PA.",
+        "status": "confirmed-from-project-book"
+      },
+      "detonatingStrategy": {
+        "status": "pending-url",
+        "text": "Video PPA 15: La expo bio!",
+        "reference": "bit.ly/3VfglUk",
+        "source": "Nuestro libro de proyectos Tomo III pp. 154-157"
+      },
+      "academicProjectStrategy": {
+        "title": "Exposicion ludica",
+        "text": "Combinar explicaciones, dinamicas y recursos visuales para comunicar un problema ambiental de forma comprensible.",
+        "type": "playful-exhibition",
+        "status": "confirmed-from-project-book",
+        "source": "Nuestro libro de proyectos Tomo III pp. 154-157"
+      },
+      "academicConcepts": [
+        {
+          "concept": "exposicion ludica",
+          "description": "Presentacion interactiva que busca explicar un tema con dinamicas y recursos comprensibles.",
+          "sourceBook": "Nuestro libro de proyectos Tomo III",
+          "sourcePages": [
+            154,
+            155,
+            156,
+            157
+          ],
+          "sourcePagesLabel": "pp. 154-157",
+          "topicTitle": "Proyecto academico 45",
+          "status": "confirmed",
+          "reason": "Posibilidades y el proyecto fijan este producto final para el PA 45.",
+          "pedagogicalUse": "Permite que un problema ambiental complejo se vuelva comunicable sin perder seriedad.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "calentamiento global",
+          "description": "Aumento de la temperatura media del planeta asociado con cambios en la atmosfera y actividades humanas.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            199,
+            204
+          ],
+          "sourcePagesLabel": "pp. 199-204",
+          "topicTitle": "Calentamiento global",
+          "status": "confirmed",
+          "reason": "Es el concepto central del proyecto y el libro del campo lo desarrolla con claridad.",
+          "pedagogicalUse": "Da una base cientifica para hablar de efectos ambientales y responsabilidades humanas.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "alteracion de ciclos biogeoquimicos",
+          "description": "Cambio en los procesos naturales por los que circula la materia en el ambiente.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            205,
+            211
+          ],
+          "sourcePagesLabel": "pp. 205-211",
+          "topicTitle": "Ciclos biogeoquimicos",
+          "status": "confirmed",
+          "reason": "La etapa 1 del proyecto la relaciona con el calentamiento global y con ciertas practicas de consumo.",
+          "pedagogicalUse": "Permite explicar que los problemas climaticos tienen una base material y no solo opinion publica.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "practicas de consumo",
+          "description": "Formas cotidianas de producir, comprar, usar y desechar que tienen efectos ambientales.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            211
+          ],
+          "sourcePagesLabel": "p. 211",
+          "topicTitle": "Ciclos biogeoquimicos",
+          "status": "confirmed",
+          "reason": "El proyecto las coloca como causa cercana a los cambios ambientales que se van a explicar.",
+          "pedagogicalUse": "Conecta el tema global con decisiones concretas de la vida diaria.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "impacto en el ambiente y la salud",
+          "description": "Consecuencias del calentamiento global y de la alteracion de los ciclos sobre ecosistemas y personas.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            203,
+            204
+          ],
+          "sourcePagesLabel": "pp. 203-204",
+          "topicTitle": "Calentamiento global",
+          "status": "confirmed",
+          "reason": "El libro del campo desarrolla estos impactos y el proyecto los recupera para la exposicion.",
+          "pedagogicalUse": "Ayuda a que la exposicion vincule ciencia, territorio y cuidado de la vida.",
+          "activityReadiness": "usable-for-autoevaluation"
+        }
+      ],
+      "thinkingCriteria": [
+        "Relacionar causas, procesos y consecuencias del calentamiento global sin reducirlo a eslogan.",
+        "Usar la exposicion ludica para explicar con claridad y no para trivializar el problema."
+      ],
+      "pedagogicalUse": "La exposicion funciona mejor cuando parte de ejemplos de consumo cercanos y los conecta con efectos globales sin perder el rigor.",
+      "communityQuestion": "Que decisiones cotidianas de nuestra comunidad conviene revisar cuando hablamos de calentamiento global y cuidado del ambiente?",
+      "notesForTeacher": {
+        "status": "teacher-orientation",
+        "teacherUse": "La exposicion funciona mejor cuando parte de ejemplos de consumo cercanos y los conecta con efectos globales sin perder el rigor.",
+        "caution": [
+          "El video del PPA 15 y el recurso informatico siguen pendientes de validacion de destino final.",
+          "No se localizaron apoyos de Multiples Lenguajes plenamente confirmados para este proyecto."
+        ]
+      },
+      "readinessLevel": "development-partial",
+      "readyForActivities": false,
+      "needsReviewReasons": [
+        "No mover a actividades interactivas ni desbloquear juegos completos."
+      ]
+    }
+  ]
+}

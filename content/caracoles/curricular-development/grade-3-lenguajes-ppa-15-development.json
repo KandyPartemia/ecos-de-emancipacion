@@ -1,0 +1,705 @@
+{
+  "grade": "3",
+  "gradeLabel": "Tercer grado",
+  "field": "Lenguajes",
+  "bookVolume": "Tomo III",
+  "partialClassroomProject": "PPA 15",
+  "partialClassroomProjectTitle": "Comunidad, empatía e inclusión: un trabajo de todxs",
+  "generatedAt": "2026-06-07T03:06:27.808Z",
+  "notes": "Capa curricular generada por lote para 3o Lenguajes, PPA 15.",
+  "sourcesUsed": [
+    "content/caracoles/curricular-catalog/all-projects-canonical.json",
+    "public/caracoles/data/generated/grade-3/concepts-index.json",
+    "src/caracoles/lib/officialVideoLinks.ts",
+    "Posibilidades de uso Lenguajes, tercer grado, pp. 31-33",
+    "Nuestro libro de proyectos, tercer grado, pp. 69-81"
+  ],
+  "partialClassroomProjectContext": {
+    "expectationHorizon": {
+      "officialText": "",
+      "sourcePages": [
+        "Nuestro libro de proyectos Tomo III pp. 69-73",
+        "Posibilidades de uso Lenguajes pp. 31-33"
+      ],
+      "evidence": "El PPA 15 articula argumentos dramatizados, 15. comunidad, empatía e inclusión: un trabajo de todxs, pequeña colección de textos en inglés para trabajar Comunidad, empatía e inclusión: un trabajo de todxs.",
+      "status": "pending"
+    },
+    "ppaDetonatingStrategy": {
+      "title": "Comunidad, empatía e inclusión: un trabajo de todxs",
+      "type": "video",
+      "url": "",
+      "urlStatus": "confirmed-by-official-video-map",
+      "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+      "scope": "partial-classroom-project"
+    },
+    "ppaDigitalResource": {
+      "title": "Recurso del Proyecto Parcial de Aula 15",
+      "reference": "",
+      "status": "confirmed-by-official-video-map",
+      "source": "YouTube, acervo Aprende_MX/Telesecundaria"
+    },
+    "validationStatus": {
+      "needsHumanReview": true,
+      "needsReviewReasons": [
+        "Los videos PA/PPA se validan por el mapa oficial de enlaces directos ya generado.",
+        "Los apoyos complementarios impresos no se asignan cuando no hay evidencia validada por columna.",
+        "El horizonte textual literal queda pendiente de revision fina si se necesita cita exacta."
+      ]
+    },
+    "columnValidation": {
+      "possibilitiesPagesReviewed": [
+        31,
+        32,
+        33
+      ],
+      "confirmedAsPpa": true,
+      "note": "El PPA 15 se agrupa desde el catalogo canonico de tercer grado.",
+      "columns": [
+        {
+          "columnIndex": 1,
+          "projectId": "lenguajes-3-ppa-15-pa43",
+          "projectTitle": "Sentimientos comunes, representaciones incluyentes",
+          "finalProduct": "Argumentos dramatizados",
+          "supportMaterials": []
+        },
+        {
+          "columnIndex": 2,
+          "projectId": "lenguajes-3-ppa-15-pa44",
+          "projectTitle": "Todxs nos emocionamos: gestualización empática",
+          "finalProduct": "15. Comunidad, empatía e inclusión: un trabajo de todxs",
+          "supportMaterials": []
+        },
+        {
+          "columnIndex": 3,
+          "projectId": "lenguajes-3-ppa-15-pa45",
+          "projectTitle": "Escritores incluyentes, diversidad de textos",
+          "finalProduct": "Pequeña colección de textos en inglés",
+          "supportMaterials": []
+        }
+      ]
+    }
+  },
+  "academicProjects": [
+    {
+      "id": "lenguajes-3-ppa-15-pa43",
+      "projectId": "lenguajes-3-ppa-15-pa43",
+      "academicProjectNumber": 43,
+      "title": "Sentimientos comunes, representaciones incluyentes",
+      "projectTitle": "Sentimientos comunes, representaciones incluyentes",
+      "grade": "3",
+      "field": "Lenguajes",
+      "ppaNumber": "15",
+      "partialClassroomProject": "PPA 15",
+      "partialClassroomProjectTitle": "Comunidad, empatía e inclusión: un trabajo de todxs",
+      "bookVolume": "Tomo III",
+      "sourceValidation": {
+        "sourceStatus": "linked",
+        "possibilitiesPages": [
+          31,
+          32,
+          33
+        ],
+        "possibilitiesMaterialId": "grade-3-posibilidades-pos-len-3",
+        "possibilitiesColumnIndex": 1,
+        "columnEvidence": "Proyecto PA 43 agrupado en el PPA 15 desde el catalogo canonico y las paginas de Posibilidades."
+      },
+      "finalProduct": {
+        "title": "Argumentos dramatizados",
+        "source": "Video detonador validado en YouTube + Nuestro libro de proyectos Tomo III pp. 69-73",
+        "status": "confirmed-from-video-and-project"
+      },
+      "sourcePages": {
+        "nuestroLibroProyectos": [
+          {
+            "materialId": "grade-3-proyectos-nuestros-proyectos-tomo-3-tercer-grado",
+            "label": "Nuestro libro de proyectos Tomo III",
+            "startPage": 69,
+            "endPage": 73,
+            "pagesLabel": "pp. 69-73",
+            "topicTitle": "Proyecto academico 43",
+            "status": "confirmed-source"
+          }
+        ],
+        "conceptBook": [
+          {
+            "materialId": "grade-3-conceptos-lenguajes-tercer-grado",
+            "label": "Lenguajes",
+            "startPage": 69,
+            "endPage": 69,
+            "pagesLabel": "p. 69",
+            "topicTitle": "Argumentos dramatizados",
+            "status": "confirmed"
+          }
+        ],
+        "multiplesLenguajes": [],
+        "otherMaterials": [
+          {
+            "label": "Video PA 43: Sentimientos comunes, representaciones incluyentes",
+            "reference": "",
+            "status": "confirmed"
+          }
+        ]
+      },
+      "supportMaterials": [],
+      "horizonOrPurpose": {
+        "status": "pending",
+        "text": "",
+        "source": "Nuestro libro de proyectos Tomo III pp. 69-73"
+      },
+      "projectExpectationHorizon": {
+        "officialText": "",
+        "studentVersion": "",
+        "sourcePages": [
+          "Nuestro libro de proyectos Tomo III pp. 69-73"
+        ],
+        "evidence": "El PA 43 cuenta con paginas de proyecto, producto de cierre, conceptos y videos directos validados; el horizonte textual literal queda pendiente de transcripcion fina.",
+        "status": "pending"
+      },
+      "detonatingStrategy": {
+        "status": "confirmed",
+        "title": "Comunidad, empatía e inclusión: un trabajo de todxs",
+        "text": "Video del Proyecto Parcial de Aula 15: Comunidad, empatía e inclusión: un trabajo de todxs",
+        "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+        "scope": "partial-classroom-project",
+        "type": "video"
+      },
+      "academicProjectStrategy": {
+        "title": "Argumentos dramatizados • Lenguajes • 3er. grado",
+        "text": "Video detonador del Proyecto Academico 43: Sentimientos comunes, representaciones incluyentes",
+        "type": "video",
+        "status": "confirmed-from-video-and-project",
+        "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+        "scope": "academic-project"
+      },
+      "academicConcepts": [
+        {
+          "concept": "Argumentos dramatizados",
+          "description": "Argumentos dramatizados organiza el producto de cierre y permite comunicar lo aprendido en el proyecto.",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            69
+          ],
+          "sourcePagesLabel": "p. 69",
+          "topicTitle": "Proyecto academico 43",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 43, al PPA 15 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Lenguaje",
+          "description": "Lenguaje ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            69
+          ],
+          "sourcePagesLabel": "p. 69",
+          "topicTitle": "Proyecto academico 43",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 43, al PPA 15 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Cultura",
+          "description": "Cultura ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            154
+          ],
+          "sourcePagesLabel": "p. 154",
+          "topicTitle": "Proyecto academico 43",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 43, al PPA 15 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Comunicacion",
+          "description": "Comunicacion ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            69
+          ],
+          "sourcePagesLabel": "p. 69",
+          "topicTitle": "Proyecto academico 43",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 43, al PPA 15 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Lectura",
+          "description": "Lectura ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            69
+          ],
+          "sourcePagesLabel": "p. 69",
+          "topicTitle": "Proyecto academico 43",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 43, al PPA 15 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Escritura",
+          "description": "Escritura ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            69
+          ],
+          "sourcePagesLabel": "p. 69",
+          "topicTitle": "Proyecto academico 43",
+          "status": "suggested",
+          "reason": "Concepto vinculado al PA 43, al PPA 15 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "teacher-review"
+        }
+      ],
+      "thinkingCriteria": [
+        "Relacionar Sentimientos comunes, representaciones incluyentes con una situacion concreta del entorno escolar o comunitario.",
+        "Usar argumentos dramatizados para explicar ideas con claridad y evidencia."
+      ],
+      "resonancePrompts": [
+        {
+          "type": "individual",
+          "prompt": "¿Como te ayuda argumentos dramatizados a comprender mejor Sentimientos comunes, representaciones incluyentes y a explicar sus conceptos clave en tu comunidad?",
+          "conceptsActivated": [
+            "Argumentos dramatizados",
+            "Lenguaje",
+            "Cultura",
+            "Comunicacion"
+          ],
+          "suggestedUse": "Momento 1 de autoevaluacion"
+        }
+      ],
+      "validationStatus": {
+        "readinessLevel": "curricular-bundle-generated",
+        "readyForActivities": true,
+        "needsReviewReasons": [
+          "El horizonte textual literal queda pendiente de revision fina si se requiere cita exacta.",
+          "Los apoyos complementarios impresos no se asignan cuando no hay evidencia validada por columna."
+        ]
+      },
+      "readinessLevel": "curricular-bundle-generated",
+      "readyForActivities": true,
+      "needsReviewReasons": []
+    },
+    {
+      "id": "lenguajes-3-ppa-15-pa44",
+      "projectId": "lenguajes-3-ppa-15-pa44",
+      "academicProjectNumber": 44,
+      "title": "Todxs nos emocionamos: gestualización empática",
+      "projectTitle": "Todxs nos emocionamos: gestualización empática",
+      "grade": "3",
+      "field": "Lenguajes",
+      "ppaNumber": "15",
+      "partialClassroomProject": "PPA 15",
+      "partialClassroomProjectTitle": "Comunidad, empatía e inclusión: un trabajo de todxs",
+      "bookVolume": "Tomo III",
+      "sourceValidation": {
+        "sourceStatus": "linked",
+        "possibilitiesPages": [
+          31,
+          32,
+          33
+        ],
+        "possibilitiesMaterialId": "grade-3-posibilidades-pos-len-3",
+        "possibilitiesColumnIndex": 2,
+        "columnEvidence": "Proyecto PA 44 agrupado en el PPA 15 desde el catalogo canonico y las paginas de Posibilidades."
+      },
+      "finalProduct": {
+        "title": "15. Comunidad, empatía e inclusión: un trabajo de todxs",
+        "source": "Video detonador validado en YouTube + Nuestro libro de proyectos Tomo III pp. 74-77",
+        "status": "confirmed-from-video-and-project"
+      },
+      "sourcePages": {
+        "nuestroLibroProyectos": [
+          {
+            "materialId": "grade-3-proyectos-nuestros-proyectos-tomo-3-tercer-grado",
+            "label": "Nuestro libro de proyectos Tomo III",
+            "startPage": 74,
+            "endPage": 77,
+            "pagesLabel": "pp. 74-77",
+            "topicTitle": "Proyecto academico 44",
+            "status": "confirmed-source"
+          }
+        ],
+        "conceptBook": [
+          {
+            "materialId": "grade-3-conceptos-lenguajes-tercer-grado",
+            "label": "Lenguajes",
+            "startPage": 74,
+            "endPage": 74,
+            "pagesLabel": "p. 74",
+            "topicTitle": "15. comunidad, empatía e inclusión: un trabajo de todxs",
+            "status": "confirmed"
+          }
+        ],
+        "multiplesLenguajes": [],
+        "otherMaterials": [
+          {
+            "label": "Video PA 44: Todxs nos emocionamos: gestualización empática",
+            "reference": "",
+            "status": "confirmed"
+          }
+        ]
+      },
+      "supportMaterials": [],
+      "horizonOrPurpose": {
+        "status": "confirmed-from-project-book",
+        "text": "Organizar un juego de \"caras y gestos\" con sus compañeras y compañeros, o con la totalidad de la comunidad, para realizar una comunicación alternativa y crear empatía entre todxs.",
+        "source": "Visión — Horizonte 2 (p. 75)"
+      },
+      "projectExpectationHorizon": {
+        "officialText": "Organizar un juego de \"caras y gestos\" con sus compañeras y compañeros, o con la totalidad de la comunidad, para realizar una comunicación alternativa y crear empatía entre todxs.",
+        "studentVersion": "Organizar un juego de \"caras y gestos\" con sus compañeras y compañeros, o con la totalidad de la comunidad, para realizar una comunicación alternativa y crear empatía entre todxs.",
+        "horizon1Raw": "Realizar un listado de las distintas emociones y sentimientos de los seres humanos, e investigar cómo se expresan por medio del cuerpo y la cara.",
+        "horizon2Raw": "Organizar un juego de \"caras y gestos\" con sus compañeras y compañeros, o con la totalidad de la comunidad, para realizar una comunicación alternativa y crear empatía entre todxs.",
+        "sourcePages": [
+          "Visión — Horizonte 2 (p. 75)"
+        ],
+        "evidence": "Extraído por visión de imagen de la página 75 del libro de proyectos. Confianza: alta.",
+        "status": "confirmed-from-project-book",
+        "extractedAt": "2026-06-16T05:16:15.991Z"
+      },
+      "detonatingStrategy": {
+        "status": "confirmed",
+        "title": "Comunidad, empatía e inclusión: un trabajo de todxs",
+        "text": "Video del Proyecto Parcial de Aula 15: Comunidad, empatía e inclusión: un trabajo de todxs",
+        "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+        "scope": "partial-classroom-project",
+        "type": "video"
+      },
+      "academicProjectStrategy": {
+        "title": "15. Comunidad, empatía e inclusión: un trabajo de todxs • Lenguajes • 3er grado",
+        "text": "Video detonador del Proyecto Academico 44: Todxs nos emocionamos: gestualización empática",
+        "type": "video",
+        "status": "confirmed-from-video-and-project",
+        "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+        "scope": "academic-project"
+      },
+      "academicConcepts": [
+        {
+          "concept": "15. comunidad, empatía e inclusión: un trabajo de todxs",
+          "description": "15. comunidad, empatía e inclusión: un trabajo de todxs organiza el producto de cierre y permite comunicar lo aprendido en el proyecto.",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            74
+          ],
+          "sourcePagesLabel": "p. 74",
+          "topicTitle": "Proyecto academico 44",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 44, al PPA 15 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Lenguaje",
+          "description": "Lenguaje ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            74
+          ],
+          "sourcePagesLabel": "p. 74",
+          "topicTitle": "Proyecto academico 44",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 44, al PPA 15 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Cultura",
+          "description": "Cultura ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            154
+          ],
+          "sourcePagesLabel": "p. 154",
+          "topicTitle": "Proyecto academico 44",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 44, al PPA 15 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Comunicacion",
+          "description": "Comunicacion ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            74
+          ],
+          "sourcePagesLabel": "p. 74",
+          "topicTitle": "Proyecto academico 44",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 44, al PPA 15 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Lectura",
+          "description": "Lectura ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            74
+          ],
+          "sourcePagesLabel": "p. 74",
+          "topicTitle": "Proyecto academico 44",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 44, al PPA 15 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Escritura",
+          "description": "Escritura ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            74
+          ],
+          "sourcePagesLabel": "p. 74",
+          "topicTitle": "Proyecto academico 44",
+          "status": "suggested",
+          "reason": "Concepto vinculado al PA 44, al PPA 15 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "teacher-review"
+        }
+      ],
+      "thinkingCriteria": [
+        "Relacionar Todxs nos emocionamos: gestualización empática con una situacion concreta del entorno escolar o comunitario.",
+        "Usar 15. comunidad, empatía e inclusión: un trabajo de todxs para explicar ideas con claridad y evidencia."
+      ],
+      "resonancePrompts": [
+        {
+          "type": "individual",
+          "prompt": "¿Como te ayuda 15. comunidad, empatía e inclusión: un trabajo de todxs a comprender mejor Todxs nos emocionamos: gestualización empática y a explicar sus conceptos clave en tu comunidad?",
+          "conceptsActivated": [
+            "15. comunidad, empatía e inclusión: un trabajo de todxs",
+            "Lenguaje",
+            "Cultura",
+            "Comunicacion"
+          ],
+          "suggestedUse": "Momento 1 de autoevaluacion"
+        }
+      ],
+      "validationStatus": {
+        "readinessLevel": "curricular-bundle-generated",
+        "readyForActivities": true,
+        "needsReviewReasons": [
+          "El horizonte textual literal queda pendiente de revision fina si se requiere cita exacta.",
+          "Los apoyos complementarios impresos no se asignan cuando no hay evidencia validada por columna."
+        ]
+      },
+      "readinessLevel": "curricular-bundle-generated",
+      "readyForActivities": true,
+      "needsReviewReasons": []
+    },
+    {
+      "id": "lenguajes-3-ppa-15-pa45",
+      "projectId": "lenguajes-3-ppa-15-pa45",
+      "academicProjectNumber": 45,
+      "title": "Escritores incluyentes, diversidad de textos",
+      "projectTitle": "Escritores incluyentes, diversidad de textos",
+      "grade": "3",
+      "field": "Lenguajes",
+      "ppaNumber": "15",
+      "partialClassroomProject": "PPA 15",
+      "partialClassroomProjectTitle": "Comunidad, empatía e inclusión: un trabajo de todxs",
+      "bookVolume": "Tomo III",
+      "sourceValidation": {
+        "sourceStatus": "linked",
+        "possibilitiesPages": [
+          31,
+          32,
+          33
+        ],
+        "possibilitiesMaterialId": "grade-3-posibilidades-pos-len-3",
+        "possibilitiesColumnIndex": 3,
+        "columnEvidence": "Proyecto PA 45 agrupado en el PPA 15 desde el catalogo canonico y las paginas de Posibilidades."
+      },
+      "finalProduct": {
+        "title": "Pequeña colección de textos en inglés",
+        "source": "Video detonador validado en YouTube + Nuestro libro de proyectos Tomo III pp. 78-81",
+        "status": "confirmed-from-video-and-project"
+      },
+      "sourcePages": {
+        "nuestroLibroProyectos": [
+          {
+            "materialId": "grade-3-proyectos-nuestros-proyectos-tomo-3-tercer-grado",
+            "label": "Nuestro libro de proyectos Tomo III",
+            "startPage": 78,
+            "endPage": 81,
+            "pagesLabel": "pp. 78-81",
+            "topicTitle": "Proyecto academico 45",
+            "status": "confirmed-source"
+          }
+        ],
+        "conceptBook": [
+          {
+            "materialId": "grade-3-conceptos-lenguajes-tercer-grado",
+            "label": "Lenguajes",
+            "startPage": 78,
+            "endPage": 78,
+            "pagesLabel": "p. 78",
+            "topicTitle": "Pequeña colección de textos en inglés",
+            "status": "confirmed"
+          }
+        ],
+        "multiplesLenguajes": [],
+        "otherMaterials": [
+          {
+            "label": "Video PA 45: Escritores incluyentes, diversidad de textos",
+            "reference": "",
+            "status": "confirmed"
+          }
+        ]
+      },
+      "supportMaterials": [],
+      "horizonOrPurpose": {
+        "status": "pending",
+        "text": "",
+        "source": "Nuestro libro de proyectos Tomo III pp. 78-81"
+      },
+      "projectExpectationHorizon": {
+        "officialText": "",
+        "studentVersion": "",
+        "sourcePages": [
+          "Nuestro libro de proyectos Tomo III pp. 78-81"
+        ],
+        "evidence": "El PA 45 cuenta con paginas de proyecto, producto de cierre, conceptos y videos directos validados; el horizonte textual literal queda pendiente de transcripcion fina.",
+        "status": "pending"
+      },
+      "detonatingStrategy": {
+        "status": "confirmed",
+        "title": "Comunidad, empatía e inclusión: un trabajo de todxs",
+        "text": "Video del Proyecto Parcial de Aula 15: Comunidad, empatía e inclusión: un trabajo de todxs",
+        "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+        "scope": "partial-classroom-project",
+        "type": "video"
+      },
+      "academicProjectStrategy": {
+        "title": "Pequeña colección de textos en inglés • Lenguajes • 3er. grado",
+        "text": "Video detonador del Proyecto Academico 45: Escritores incluyentes, diversidad de textos",
+        "type": "video",
+        "status": "confirmed-from-video-and-project",
+        "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+        "scope": "academic-project"
+      },
+      "academicConcepts": [
+        {
+          "concept": "Pequeña colección de textos en inglés",
+          "description": "Pequeña colección de textos en inglés organiza el producto de cierre y permite comunicar lo aprendido en el proyecto.",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            78
+          ],
+          "sourcePagesLabel": "p. 78",
+          "topicTitle": "Proyecto academico 45",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 45, al PPA 15 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Lenguaje",
+          "description": "Lenguaje ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            78
+          ],
+          "sourcePagesLabel": "p. 78",
+          "topicTitle": "Proyecto academico 45",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 45, al PPA 15 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Cultura",
+          "description": "Cultura ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            154
+          ],
+          "sourcePagesLabel": "p. 154",
+          "topicTitle": "Proyecto academico 45",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 45, al PPA 15 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Comunicacion",
+          "description": "Comunicacion ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            78
+          ],
+          "sourcePagesLabel": "p. 78",
+          "topicTitle": "Proyecto academico 45",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 45, al PPA 15 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Lectura",
+          "description": "Lectura ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            78
+          ],
+          "sourcePagesLabel": "p. 78",
+          "topicTitle": "Proyecto academico 45",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 45, al PPA 15 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Escritura",
+          "description": "Escritura ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            78
+          ],
+          "sourcePagesLabel": "p. 78",
+          "topicTitle": "Proyecto academico 45",
+          "status": "suggested",
+          "reason": "Concepto vinculado al PA 45, al PPA 15 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "teacher-review"
+        }
+      ],
+      "thinkingCriteria": [
+        "Relacionar Escritores incluyentes, diversidad de textos con una situacion concreta del entorno escolar o comunitario.",
+        "Usar pequeña colección de textos en inglés para explicar ideas con claridad y evidencia."
+      ],
+      "resonancePrompts": [
+        {
+          "type": "individual",
+          "prompt": "¿Como te ayuda pequeña colección de textos en inglés a comprender mejor Escritores incluyentes, diversidad de textos y a explicar sus conceptos clave en tu comunidad?",
+          "conceptsActivated": [
+            "Pequeña colección de textos en inglés",
+            "Lenguaje",
+            "Cultura",
+            "Comunicacion"
+          ],
+          "suggestedUse": "Momento 1 de autoevaluacion"
+        }
+      ],
+      "validationStatus": {
+        "readinessLevel": "curricular-bundle-generated",
+        "readyForActivities": true,
+        "needsReviewReasons": [
+          "El horizonte textual literal queda pendiente de revision fina si se requiere cita exacta.",
+          "Los apoyos complementarios impresos no se asignan cuando no hay evidencia validada por columna."
+        ]
+      },
+      "readinessLevel": "curricular-bundle-generated",
+      "readyForActivities": true,
+      "needsReviewReasons": []
+    }
+  ]
+}

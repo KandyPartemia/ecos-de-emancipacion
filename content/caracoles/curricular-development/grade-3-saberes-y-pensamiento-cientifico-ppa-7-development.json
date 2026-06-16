@@ -1,0 +1,704 @@
+{
+  "grade": "3",
+  "gradeLabel": "Tercer grado",
+  "field": "Saberes y Pensamiento Cientifico",
+  "bookVolume": "Tomo II",
+  "partialClassroomProject": "PPA 7",
+  "partialClassroomProjectTitle": "Mundo atómico",
+  "generatedAt": "2026-06-07T03:06:28.267Z",
+  "notes": "Capa curricular generada por lote para 3o Saberes y Pensamiento Cientifico, PPA 7.",
+  "sourcesUsed": [
+    "content/caracoles/curricular-catalog/all-projects-canonical.json",
+    "public/caracoles/data/generated/grade-3/concepts-index.json",
+    "src/caracoles/lib/officialVideoLinks.ts",
+    "Posibilidades de uso SyPC, tercer grado, pp. 19-20",
+    "Nuestro libro de proyectos, tercer grado, pp. 108-120"
+  ],
+  "partialClassroomProjectContext": {
+    "expectationHorizon": {
+      "officialText": "",
+      "sourcePages": [
+        "Nuestro libro de proyectos Tomo II pp. 108-111",
+        "Posibilidades de uso SyPC pp. 19-20"
+      ],
+      "evidence": "El PPA 7 articula tabla periódica didáctica, representación teatral, 1.necesidades satisfechas sin la tierra desecha para trabajar Mundo atómico.",
+      "status": "pending"
+    },
+    "ppaDetonatingStrategy": {
+      "title": "Mundo atómico",
+      "type": "video",
+      "url": "",
+      "urlStatus": "confirmed-by-official-video-map",
+      "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+      "scope": "partial-classroom-project"
+    },
+    "ppaDigitalResource": {
+      "title": "Recurso del Proyecto Parcial de Aula 7",
+      "reference": "",
+      "status": "confirmed-by-official-video-map",
+      "source": "YouTube, acervo Aprende_MX/Telesecundaria"
+    },
+    "validationStatus": {
+      "needsHumanReview": true,
+      "needsReviewReasons": [
+        "Los videos PA/PPA se validan por el mapa oficial de enlaces directos ya generado.",
+        "Los apoyos complementarios impresos no se asignan cuando no hay evidencia validada por columna.",
+        "El horizonte textual literal queda pendiente de revision fina si se necesita cita exacta."
+      ]
+    },
+    "columnValidation": {
+      "possibilitiesPagesReviewed": [
+        19,
+        20
+      ],
+      "confirmedAsPpa": true,
+      "note": "El PPA 7 se agrupa desde el catalogo canonico de tercer grado.",
+      "columns": [
+        {
+          "columnIndex": 1,
+          "projectId": "saberes-y-pensamiento-cientifico-3-ppa-7-pa19",
+          "projectTitle": "Las estampillas más elementales",
+          "finalProduct": "Tabla periódica didáctica",
+          "supportMaterials": []
+        },
+        {
+          "columnIndex": 2,
+          "projectId": "saberes-y-pensamiento-cientifico-3-ppa-7-pa20",
+          "projectTitle": "La conformación del Universo, la Tierra y los seres vivos",
+          "finalProduct": "Representación teatral",
+          "supportMaterials": []
+        },
+        {
+          "columnIndex": 3,
+          "projectId": "saberes-y-pensamiento-cientifico-3-ppa-7-pa21",
+          "projectTitle": "Son como un sistema solar, pero en miniatura",
+          "finalProduct": "1.Necesidades satisfechas sin la Tierra desecha",
+          "supportMaterials": []
+        }
+      ]
+    }
+  },
+  "academicProjects": [
+    {
+      "id": "saberes-y-pensamiento-cientifico-3-ppa-7-pa19",
+      "projectId": "saberes-y-pensamiento-cientifico-3-ppa-7-pa19",
+      "academicProjectNumber": 19,
+      "title": "Las estampillas más elementales",
+      "projectTitle": "Las estampillas más elementales",
+      "grade": "3",
+      "field": "Saberes y Pensamiento Científico",
+      "ppaNumber": "7",
+      "partialClassroomProject": "PPA 7",
+      "partialClassroomProjectTitle": "Mundo atómico",
+      "bookVolume": "Tomo II",
+      "sourceValidation": {
+        "sourceStatus": "linked",
+        "possibilitiesPages": [
+          19,
+          20
+        ],
+        "possibilitiesMaterialId": "grade-3-posibilidades-pos-sypc-3",
+        "possibilitiesColumnIndex": 1,
+        "columnEvidence": "Proyecto PA 19 agrupado en el PPA 7 desde el catalogo canonico y las paginas de Posibilidades."
+      },
+      "finalProduct": {
+        "title": "Tabla periódica didáctica",
+        "source": "Video detonador validado en YouTube + Nuestro libro de proyectos Tomo II pp. 108-111",
+        "status": "confirmed-from-video-and-project"
+      },
+      "sourcePages": {
+        "nuestroLibroProyectos": [
+          {
+            "materialId": "grade-3-proyectos-nuestros-proyectos-tomo-2-tercer-grado",
+            "label": "Nuestro libro de proyectos Tomo II",
+            "startPage": 108,
+            "endPage": 111,
+            "pagesLabel": "pp. 108-111",
+            "topicTitle": "Proyecto academico 19",
+            "status": "confirmed-source"
+          }
+        ],
+        "conceptBook": [
+          {
+            "materialId": "grade-3-conceptos-saberes-y-pensamiento-cientifico-tercer-grado",
+            "label": "Saberes y Pensamiento Cientifico",
+            "startPage": 108,
+            "endPage": 108,
+            "pagesLabel": "p. 108",
+            "topicTitle": "Tabla periódica didáctica",
+            "status": "confirmed"
+          }
+        ],
+        "multiplesLenguajes": [],
+        "otherMaterials": [
+          {
+            "label": "Video PA 19: Las estampillas más elementales",
+            "reference": "",
+            "status": "confirmed"
+          }
+        ]
+      },
+      "supportMaterials": [],
+      "horizonOrPurpose": {
+        "status": "confirmed-from-project-book",
+        "text": "Realizar una investigación bibliográfica sobre las propiedades de los 118 elementos químicos de la tabla periódica para representarlas físicamente en la maqueta didáctica.",
+        "source": "Visión — Horizonte 1 (p. 109)"
+      },
+      "projectExpectationHorizon": {
+        "officialText": "Realizar una investigación bibliográfica sobre las propiedades de los 118 elementos químicos de la tabla periódica para representarlas físicamente en la maqueta didáctica.",
+        "studentVersion": "Realizar una investigación bibliográfica sobre las propiedades de los 118 elementos químicos de la tabla periódica para representarlas físicamente en la maqueta didáctica.",
+        "horizon1Raw": "Realizar una investigación bibliográfica sobre las propiedades de los 118 elementos químicos de la tabla periódica para representarlas físicamente en la maqueta didáctica.",
+        "horizon2Raw": "Hacer una investigación sobre cómo la humanidad ha aprovechado los elementos químicos y representar estos datos de forma gráfica.",
+        "sourcePages": [
+          "Visión — Horizonte 1 (p. 109)"
+        ],
+        "evidence": "Extraído por visión de imagen de la página 109 del libro de proyectos. Confianza: alta.",
+        "status": "confirmed-from-project-book",
+        "extractedAt": "2026-06-16T05:20:01.572Z"
+      },
+      "detonatingStrategy": {
+        "status": "confirmed",
+        "title": "Mundo atómico",
+        "text": "Video del Proyecto Parcial de Aula 7: Mundo atómico",
+        "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+        "scope": "partial-classroom-project",
+        "type": "video"
+      },
+      "academicProjectStrategy": {
+        "title": "Tabla periódica didáctica • Saberes y pensamiento científico • 3er grado",
+        "text": "Video detonador del Proyecto Academico 19: Las estampillas más elementales",
+        "type": "video",
+        "status": "confirmed-from-video-and-project",
+        "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+        "scope": "academic-project"
+      },
+      "academicConcepts": [
+        {
+          "concept": "Tabla periódica didáctica",
+          "description": "Tabla periódica didáctica organiza el producto de cierre y permite comunicar lo aprendido en el proyecto.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            108
+          ],
+          "sourcePagesLabel": "p. 108",
+          "topicTitle": "Proyecto academico 19",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 19, al PPA 7 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Materia",
+          "description": "Materia ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            265
+          ],
+          "sourcePagesLabel": "p. 265",
+          "topicTitle": "Proyecto academico 19",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 19, al PPA 7 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Mezclas",
+          "description": "Mezclas ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            265
+          ],
+          "sourcePagesLabel": "p. 265",
+          "topicTitle": "Proyecto academico 19",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 19, al PPA 7 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Quimica",
+          "description": "Quimica ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            9
+          ],
+          "sourcePagesLabel": "p. 9",
+          "topicTitle": "Proyecto academico 19",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 19, al PPA 7 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Figuras",
+          "description": "Figuras ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            108
+          ],
+          "sourcePagesLabel": "p. 108",
+          "topicTitle": "Proyecto academico 19",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 19, al PPA 7 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Medicion",
+          "description": "Medicion ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            108
+          ],
+          "sourcePagesLabel": "p. 108",
+          "topicTitle": "Proyecto academico 19",
+          "status": "suggested",
+          "reason": "Concepto vinculado al PA 19, al PPA 7 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "teacher-review"
+        }
+      ],
+      "thinkingCriteria": [
+        "Relacionar Las estampillas más elementales con una situacion concreta del entorno escolar o comunitario.",
+        "Usar tabla periódica didáctica para explicar ideas con claridad y evidencia."
+      ],
+      "resonancePrompts": [
+        {
+          "type": "individual",
+          "prompt": "¿Como te ayuda tabla periódica didáctica a comprender mejor Las estampillas más elementales y a explicar sus conceptos clave en tu comunidad?",
+          "conceptsActivated": [
+            "Tabla periódica didáctica",
+            "Materia",
+            "Mezclas",
+            "Quimica"
+          ],
+          "suggestedUse": "Momento 1 de autoevaluacion"
+        }
+      ],
+      "validationStatus": {
+        "readinessLevel": "curricular-bundle-generated",
+        "readyForActivities": true,
+        "needsReviewReasons": [
+          "El horizonte textual literal queda pendiente de revision fina si se requiere cita exacta.",
+          "Los apoyos complementarios impresos no se asignan cuando no hay evidencia validada por columna."
+        ]
+      },
+      "readinessLevel": "curricular-bundle-generated",
+      "readyForActivities": true,
+      "needsReviewReasons": []
+    },
+    {
+      "id": "saberes-y-pensamiento-cientifico-3-ppa-7-pa20",
+      "projectId": "saberes-y-pensamiento-cientifico-3-ppa-7-pa20",
+      "academicProjectNumber": 20,
+      "title": "La conformación del Universo, la Tierra y los seres vivos",
+      "projectTitle": "La conformación del Universo, la Tierra y los seres vivos",
+      "grade": "3",
+      "field": "Saberes y Pensamiento Científico",
+      "ppaNumber": "7",
+      "partialClassroomProject": "PPA 7",
+      "partialClassroomProjectTitle": "Mundo atómico",
+      "bookVolume": "Tomo II",
+      "sourceValidation": {
+        "sourceStatus": "linked",
+        "possibilitiesPages": [
+          19,
+          20
+        ],
+        "possibilitiesMaterialId": "grade-3-posibilidades-pos-sypc-3",
+        "possibilitiesColumnIndex": 2,
+        "columnEvidence": "Proyecto PA 20 agrupado en el PPA 7 desde el catalogo canonico y las paginas de Posibilidades."
+      },
+      "finalProduct": {
+        "title": "Representación teatral",
+        "source": "Video detonador validado en YouTube + Nuestro libro de proyectos Tomo II pp. 112-116",
+        "status": "confirmed-from-video-and-project"
+      },
+      "sourcePages": {
+        "nuestroLibroProyectos": [
+          {
+            "materialId": "grade-3-proyectos-nuestros-proyectos-tomo-2-tercer-grado",
+            "label": "Nuestro libro de proyectos Tomo II",
+            "startPage": 112,
+            "endPage": 116,
+            "pagesLabel": "pp. 112-116",
+            "topicTitle": "Proyecto academico 20",
+            "status": "confirmed-source"
+          }
+        ],
+        "conceptBook": [
+          {
+            "materialId": "grade-3-conceptos-saberes-y-pensamiento-cientifico-tercer-grado",
+            "label": "Saberes y Pensamiento Cientifico",
+            "startPage": 112,
+            "endPage": 112,
+            "pagesLabel": "p. 112",
+            "topicTitle": "Representación teatral",
+            "status": "confirmed"
+          }
+        ],
+        "multiplesLenguajes": [],
+        "otherMaterials": [
+          {
+            "label": "Video PA 20: La conformación del Universo, la Tierra y los seres vivos",
+            "reference": "",
+            "status": "confirmed"
+          }
+        ]
+      },
+      "supportMaterials": [],
+      "horizonOrPurpose": {
+        "status": "pending",
+        "text": "",
+        "source": "Nuestro libro de proyectos Tomo II pp. 112-116"
+      },
+      "projectExpectationHorizon": {
+        "officialText": "",
+        "studentVersion": "",
+        "sourcePages": [
+          "Nuestro libro de proyectos Tomo II pp. 112-116"
+        ],
+        "evidence": "El PA 20 cuenta con paginas de proyecto, producto de cierre, conceptos y videos directos validados; el horizonte textual literal queda pendiente de transcripcion fina.",
+        "status": "pending"
+      },
+      "detonatingStrategy": {
+        "status": "confirmed",
+        "title": "Mundo atómico",
+        "text": "Video del Proyecto Parcial de Aula 7: Mundo atómico",
+        "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+        "scope": "partial-classroom-project",
+        "type": "video"
+      },
+      "academicProjectStrategy": {
+        "title": "Representación teatral • Saberes y pensamiento científico • 3er grado",
+        "text": "Video detonador del Proyecto Academico 20: La conformación del Universo, la Tierra y los seres vivos",
+        "type": "video",
+        "status": "confirmed-from-video-and-project",
+        "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+        "scope": "academic-project"
+      },
+      "academicConcepts": [
+        {
+          "concept": "Representación teatral",
+          "description": "Representación teatral organiza el producto de cierre y permite comunicar lo aprendido en el proyecto.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            112
+          ],
+          "sourcePagesLabel": "p. 112",
+          "topicTitle": "Proyecto academico 20",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 20, al PPA 7 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Materia",
+          "description": "Materia ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            265
+          ],
+          "sourcePagesLabel": "p. 265",
+          "topicTitle": "Proyecto academico 20",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 20, al PPA 7 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Mezclas",
+          "description": "Mezclas ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            265
+          ],
+          "sourcePagesLabel": "p. 265",
+          "topicTitle": "Proyecto academico 20",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 20, al PPA 7 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Quimica",
+          "description": "Quimica ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            9
+          ],
+          "sourcePagesLabel": "p. 9",
+          "topicTitle": "Proyecto academico 20",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 20, al PPA 7 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Figuras",
+          "description": "Figuras ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            112
+          ],
+          "sourcePagesLabel": "p. 112",
+          "topicTitle": "Proyecto academico 20",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 20, al PPA 7 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Medicion",
+          "description": "Medicion ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            112
+          ],
+          "sourcePagesLabel": "p. 112",
+          "topicTitle": "Proyecto academico 20",
+          "status": "suggested",
+          "reason": "Concepto vinculado al PA 20, al PPA 7 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "teacher-review"
+        }
+      ],
+      "thinkingCriteria": [
+        "Relacionar La conformación del Universo, la Tierra y los seres vivos con una situacion concreta del entorno escolar o comunitario.",
+        "Usar representación teatral para explicar ideas con claridad y evidencia."
+      ],
+      "resonancePrompts": [
+        {
+          "type": "individual",
+          "prompt": "¿Como te ayuda representación teatral a comprender mejor La conformación del Universo, la Tierra y los seres vivos y a explicar sus conceptos clave en tu comunidad?",
+          "conceptsActivated": [
+            "Representación teatral",
+            "Materia",
+            "Mezclas",
+            "Quimica"
+          ],
+          "suggestedUse": "Momento 1 de autoevaluacion"
+        }
+      ],
+      "validationStatus": {
+        "readinessLevel": "curricular-bundle-generated",
+        "readyForActivities": true,
+        "needsReviewReasons": [
+          "El horizonte textual literal queda pendiente de revision fina si se requiere cita exacta.",
+          "Los apoyos complementarios impresos no se asignan cuando no hay evidencia validada por columna."
+        ]
+      },
+      "readinessLevel": "curricular-bundle-generated",
+      "readyForActivities": true,
+      "needsReviewReasons": []
+    },
+    {
+      "id": "saberes-y-pensamiento-cientifico-3-ppa-7-pa21",
+      "projectId": "saberes-y-pensamiento-cientifico-3-ppa-7-pa21",
+      "academicProjectNumber": 21,
+      "title": "Son como un sistema solar, pero en miniatura",
+      "projectTitle": "Son como un sistema solar, pero en miniatura",
+      "grade": "3",
+      "field": "Saberes y Pensamiento Científico",
+      "ppaNumber": "7",
+      "partialClassroomProject": "PPA 7",
+      "partialClassroomProjectTitle": "Mundo atómico",
+      "bookVolume": "Tomo II",
+      "sourceValidation": {
+        "sourceStatus": "linked",
+        "possibilitiesPages": [
+          19,
+          20
+        ],
+        "possibilitiesMaterialId": "grade-3-posibilidades-pos-sypc-3",
+        "possibilitiesColumnIndex": 3,
+        "columnEvidence": "Proyecto PA 21 agrupado en el PPA 7 desde el catalogo canonico y las paginas de Posibilidades."
+      },
+      "finalProduct": {
+        "title": "1.Necesidades satisfechas sin la Tierra desecha",
+        "source": "Video detonador validado en YouTube + Nuestro libro de proyectos Tomo II pp. 117-120",
+        "status": "confirmed-from-video-and-project"
+      },
+      "sourcePages": {
+        "nuestroLibroProyectos": [
+          {
+            "materialId": "grade-3-proyectos-nuestros-proyectos-tomo-2-tercer-grado",
+            "label": "Nuestro libro de proyectos Tomo II",
+            "startPage": 117,
+            "endPage": 120,
+            "pagesLabel": "pp. 117-120",
+            "topicTitle": "Proyecto academico 21",
+            "status": "confirmed-source"
+          }
+        ],
+        "conceptBook": [
+          {
+            "materialId": "grade-3-conceptos-saberes-y-pensamiento-cientifico-tercer-grado",
+            "label": "Saberes y Pensamiento Cientifico",
+            "startPage": 117,
+            "endPage": 117,
+            "pagesLabel": "p. 117",
+            "topicTitle": "1.necesidades satisfechas sin la tierra desecha",
+            "status": "confirmed"
+          }
+        ],
+        "multiplesLenguajes": [],
+        "otherMaterials": [
+          {
+            "label": "Video PA 21: Son como un sistema solar, pero en miniatura",
+            "reference": "",
+            "status": "confirmed"
+          }
+        ]
+      },
+      "supportMaterials": [],
+      "horizonOrPurpose": {
+        "status": "confirmed-from-project-book",
+        "text": "Buscar ejemplos sobre los modelos atómicos de Bohr y diagramas de Lewis de algunos elementos químicos con baja masa molecular para darle sentido al contenido del volumen de pirámides, cilindros, conos y esferas, y relacionarlos de manera adecuada.",
+        "source": "Visión — Horizonte 2 (p. 118)"
+      },
+      "projectExpectationHorizon": {
+        "officialText": "Buscar ejemplos sobre los modelos atómicos de Bohr y diagramas de Lewis de algunos elementos químicos con baja masa molecular para darle sentido al contenido del volumen de pirámides, cilindros, conos y esferas, y relacionarlos de manera adecuada.",
+        "studentVersion": "Buscar ejemplos sobre los modelos atómicos de Bohr y diagramas de Lewis de algunos elementos químicos con baja masa molecular para darle sentido al contenido del volumen de pirámides, cilindros, conos y esferas, y relacionarlos de manera adecuada.",
+        "horizon1Raw": "Planificar una asesoría con una persona que tenga conocimientos sobre el modelo atómico de Bohr y el diagrama de Lewis para conocer las principales semejanzas y diferencias entre los trabajos y postulados que hicieron ambos científicos.",
+        "horizon2Raw": "Buscar ejemplos sobre los modelos atómicos de Bohr y diagramas de Lewis de algunos elementos químicos con baja masa molecular para darle sentido al contenido del volumen de pirámides, cilindros, conos y esferas, y relacionarlos de manera adecuada.",
+        "sourcePages": [
+          "Visión — Horizonte 2 (p. 118)"
+        ],
+        "evidence": "Extraído por visión de imagen de la página 118 del libro de proyectos. Confianza: alta.",
+        "status": "confirmed-from-project-book",
+        "extractedAt": "2026-06-16T05:48:41.286Z"
+      },
+      "detonatingStrategy": {
+        "status": "confirmed",
+        "title": "Mundo atómico",
+        "text": "Video del Proyecto Parcial de Aula 7: Mundo atómico",
+        "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+        "scope": "partial-classroom-project",
+        "type": "video"
+      },
+      "academicProjectStrategy": {
+        "title": "1.Necesidades satisfechas sin la Tierra desecha • Saberes y pensamiento científico• 3er grado",
+        "text": "Video detonador del Proyecto Academico 21: Son como un sistema solar, pero en miniatura",
+        "type": "video",
+        "status": "confirmed-from-video-and-project",
+        "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+        "scope": "academic-project"
+      },
+      "academicConcepts": [
+        {
+          "concept": "1.necesidades satisfechas sin la tierra desecha",
+          "description": "1.necesidades satisfechas sin la tierra desecha organiza el producto de cierre y permite comunicar lo aprendido en el proyecto.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            117
+          ],
+          "sourcePagesLabel": "p. 117",
+          "topicTitle": "Proyecto academico 21",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 21, al PPA 7 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Materia",
+          "description": "Materia ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            265
+          ],
+          "sourcePagesLabel": "p. 265",
+          "topicTitle": "Proyecto academico 21",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 21, al PPA 7 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Mezclas",
+          "description": "Mezclas ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            265
+          ],
+          "sourcePagesLabel": "p. 265",
+          "topicTitle": "Proyecto academico 21",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 21, al PPA 7 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Quimica",
+          "description": "Quimica ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            9
+          ],
+          "sourcePagesLabel": "p. 9",
+          "topicTitle": "Proyecto academico 21",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 21, al PPA 7 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Figuras",
+          "description": "Figuras ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            117
+          ],
+          "sourcePagesLabel": "p. 117",
+          "topicTitle": "Proyecto academico 21",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 21, al PPA 7 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Medicion",
+          "description": "Medicion ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            117
+          ],
+          "sourcePagesLabel": "p. 117",
+          "topicTitle": "Proyecto academico 21",
+          "status": "suggested",
+          "reason": "Concepto vinculado al PA 21, al PPA 7 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "teacher-review"
+        }
+      ],
+      "thinkingCriteria": [
+        "Relacionar Son como un sistema solar, pero en miniatura con una situacion concreta del entorno escolar o comunitario.",
+        "Usar 1.necesidades satisfechas sin la tierra desecha para explicar ideas con claridad y evidencia."
+      ],
+      "resonancePrompts": [
+        {
+          "type": "individual",
+          "prompt": "¿Como te ayuda 1.necesidades satisfechas sin la tierra desecha a comprender mejor Son como un sistema solar, pero en miniatura y a explicar sus conceptos clave en tu comunidad?",
+          "conceptsActivated": [
+            "1.necesidades satisfechas sin la tierra desecha",
+            "Materia",
+            "Mezclas",
+            "Quimica"
+          ],
+          "suggestedUse": "Momento 1 de autoevaluacion"
+        }
+      ],
+      "validationStatus": {
+        "readinessLevel": "curricular-bundle-generated",
+        "readyForActivities": true,
+        "needsReviewReasons": [
+          "El horizonte textual literal queda pendiente de revision fina si se requiere cita exacta.",
+          "Los apoyos complementarios impresos no se asignan cuando no hay evidencia validada por columna."
+        ]
+      },
+      "readinessLevel": "curricular-bundle-generated",
+      "readyForActivities": true,
+      "needsReviewReasons": []
+    }
+  ]
+}

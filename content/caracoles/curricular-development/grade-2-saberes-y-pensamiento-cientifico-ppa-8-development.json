@@ -1,0 +1,748 @@
+{
+  "grade": "2",
+  "gradeLabel": "Segundo grado",
+  "field": "Saberes y Pensamiento Científico",
+  "bookVolume": "Tomo II",
+  "partialClassroomProject": "PPA 8",
+  "partialClassroomProjectTitle": "Expresiones y representaciones de la electricidad y el magnetismo",
+  "generatedAt": "2026-06-02T18:31:04.730Z",
+  "notes": "Capa curricular generada por lote para 2o Saberes y Pensamiento Científico, PPA 8.",
+  "sourcesUsed": [
+    "public/caracoles/data/generated/grade-2/selectable-projects.json",
+    "content/caracoles/generated-private/grade-2/pages-index.full.json",
+    "Posibilidades de uso SyPC, segundo grado, pp. 21-22",
+    "Nuestro libro de proyectos Tomo II, segundo grado, pp. 115-129",
+    "Saberes y Pensamiento Científico, segundo grado, pp. 17-32, 106-114, 233-238 y 300-325."
+  ],
+  "partialClassroomProjectContext": {
+    "expectationHorizon": {
+      "officialText": "",
+      "sourcePages": [
+        "Nuestro libro de proyectos Tomo II pp. 115-116",
+        "Posibilidades de uso SyPC pp. 21-22"
+      ],
+      "evidence": "El PPA 8 vincula operaciones algebraicas, fenómenos eléctricos, magnetismo y luz para que el grupo explique riesgos, utilidades y representaciones de estos fenómenos en el entorno.",
+      "status": "pending"
+    },
+    "ppaDetonatingStrategy": {
+      "title": "Expresiones y representaciones de la electricidad y el magnetismo",
+      "type": "video",
+      "url": "",
+      "urlStatus": "pending-url",
+      "reference": "bit.ly/3VfglUk",
+      "source": "Nuestro libro de proyectos Tomo II pp. 115-116 + Posibilidades de uso SyPC pp. 21-22",
+      "scope": "partial-classroom-project",
+      "youtubeSearchQuery": "Expresiones y representaciones de la electricidad y el magnetismo Saberes y Pensamiento Científico 2do grado Telesecundaria"
+    },
+    "ppaDigitalResource": {
+      "title": "Recurso informatico del bloque PPA 8",
+      "reference": "bit.ly/3WQBMwg",
+      "status": "pending-validation",
+      "source": "Nuestro libro de proyectos Tomo II pp. 115-129"
+    },
+    "validationStatus": {
+      "needsHumanReview": true,
+      "needsReviewReasons": [
+        "Las pp. 21-22 de Posibilidades pertenecen al mismo PPA 8.",
+        "La asignacion de apoyos por columna se fija por inferencia curricular documentada de izquierda a derecha.",
+        "Los enlaces cortos del video del PPA y del recurso informatico se mantienen en cautela hasta localizar un destino oficial confirmado."
+      ]
+    },
+    "columnValidation": {
+      "possibilitiesPagesReviewed": [
+        21,
+        22
+      ],
+      "confirmedAsPpa": true,
+      "note": "Las pp. 21-22 corresponden al PPA 8 Expresiones y representaciones de la electricidad y el magnetismo. Las tres columnas se sostienen por el orden de proyectos, productos y apoyos del mismo bloque.",
+      "columns": [
+        {
+          "columnIndex": 1,
+          "projectId": "saberes-y-pensamiento-cientifico-2-ppa-8-pa22",
+          "projectTitle": "¡Electricidad por todas partes!",
+          "finalProduct": "Folleto de protocolos de seguridad",
+          "supportMaterials": []
+        },
+        {
+          "columnIndex": 2,
+          "projectId": "saberes-y-pensamiento-cientifico-2-ppa-8-pa23",
+          "projectTitle": "¡Aprovechemos el magnetismo!",
+          "finalProduct": "Cuento corto",
+          "supportMaterials": []
+        },
+        {
+          "columnIndex": 3,
+          "projectId": "saberes-y-pensamiento-cientifico-2-ppa-8-pa24",
+          "projectTitle": "¡Y se hizo la luz!",
+          "finalProduct": "Cómic científico",
+          "supportMaterials": []
+        }
+      ]
+    }
+  },
+  "academicProjects": [
+    {
+      "id": "saberes-y-pensamiento-cientifico-2-ppa-8-pa22",
+      "projectId": "saberes-y-pensamiento-cientifico-2-ppa-8-pa22",
+      "academicProjectNumber": 22,
+      "title": "¡Electricidad por todas partes!",
+      "projectTitle": "¡Electricidad por todas partes!",
+      "grade": "2",
+      "field": "Saberes y Pensamiento Científico",
+      "ppaNumber": "8",
+      "partialClassroomProject": "PPA 8",
+      "partialClassroomProjectTitle": "Expresiones y representaciones de la electricidad y el magnetismo",
+      "bookVolume": "Tomo II",
+      "sourceValidation": {
+        "sourceStatus": "linked",
+        "possibilitiesPages": [
+          21,
+          22
+        ],
+        "possibilitiesMaterialId": "grade-2-posibilidades-pos-sypc-2",
+        "possibilitiesColumnIndex": 1,
+        "columnEvidence": "Bloque PPA 8 Expresiones y representaciones de la electricidad y el magnetismo localizado en pp. 21-22; la columna 1 se confirma por el orden de proyectos, productos y continuidad del mismo bloque."
+      },
+      "finalProduct": {
+        "title": "Folleto de protocolos de seguridad",
+        "source": "Posibilidades de uso SyPC pp. 21-22 + Nuestro libro de proyectos Tomo II pp. 117-121",
+        "status": "confirmed"
+      },
+      "sourcePages": {
+        "nuestroLibroProyectos": [
+          {
+            "materialId": "grade-2-proyectos-nuestro-libro-de-proyectos-tomo-2-segundo-grado",
+            "label": "Nuestro libro de proyectos Tomo II",
+            "startPage": 117,
+            "endPage": 121,
+            "pagesLabel": "pp. 117-121",
+            "topicTitle": "Proyecto academico 22",
+            "status": "confirmed-source"
+          }
+        ],
+        "conceptBook": [
+          {
+            "materialId": "grade-2-conceptos-saberes-y-pensamiento-cientifico-segundo-grado",
+            "label": "Saberes y Pensamiento Científico",
+            "startPage": 112,
+            "endPage": 114,
+            "pagesLabel": "pp. 112-114",
+            "topicTitle": "Aplicaciones del electromagnetismo",
+            "status": "confirmed-by-column-inference"
+          },
+          {
+            "materialId": "grade-2-conceptos-saberes-y-pensamiento-cientifico-segundo-grado",
+            "label": "Saberes y Pensamiento Científico",
+            "startPage": 300,
+            "endPage": 315,
+            "pagesLabel": "pp. 300-315",
+            "topicTitle": "Electricidad",
+            "status": "confirmed-by-column-inference"
+          }
+        ],
+        "multiplesLenguajes": [],
+        "otherMaterials": [
+          {
+            "label": "Video PPA 8: Expresiones y representaciones de la electricidad y el magnetismo",
+            "reference": "bit.ly/3VfglUk",
+            "status": "pending-validation"
+          }
+        ]
+      },
+      "supportMaterials": [],
+      "horizonOrPurpose": {
+        "status": "pending",
+        "text": "",
+        "source": "Nuestro libro de proyectos Tomo II p. 117"
+      },
+      "projectExpectationHorizon": {
+        "officialText": "",
+        "studentVersion": "",
+        "sourcePages": [
+          "Nuestro libro de proyectos Tomo II p. 117"
+        ],
+        "evidence": "El proyecto ya cuenta con producto, conceptos y articulacion pedagogica, pero el horizonte textual exacto sigue pendiente de confirmacion literal.",
+        "status": "pending"
+      },
+      "detonatingStrategy": {
+        "status": "pending-url",
+        "text": "Video PPA 8: Expresiones y representaciones de la electricidad y el magnetismo",
+        "reference": "bit.ly/3VfglUk",
+        "source": "Nuestro libro de proyectos Tomo II pp. 115-116 + Posibilidades de uso SyPC pp. 21-22"
+      },
+      "academicProjectStrategy": {
+        "title": "Folleto de protocolos de seguridad",
+        "text": "Observar situaciones cotidianas de uso de la electricidad y organizar protocolos claros que ayuden a prevenir riesgos en distintos entornos.",
+        "type": "project-product",
+        "status": "confirmed-from-project-book",
+        "source": "Nuestro libro de proyectos Tomo II pp. 117-121"
+      },
+      "academicConcepts": [
+        {
+          "concept": "folleto de protocolos de seguridad",
+          "description": "Folleto de protocolos de seguridad como producto de cierre para organizar y comunicar aprendizajes del proyecto.",
+          "sourceBook": "Nuestro libro de proyectos Tomo II",
+          "sourcePages": [
+            117,
+            121
+          ],
+          "sourcePagesLabel": "pp. 117-121",
+          "topicTitle": "Proyecto academico 22",
+          "status": "confirmed",
+          "reason": "Posibilidades y el propio proyecto fijan Folleto de protocolos de seguridad como producto final del PA 22.",
+          "pedagogicalUse": "Da una forma concreta de socializar lo comprendido sobre las manifestaciones y aplicaciones de la energía eléctrica, así como los protocolos de seguridad para su uso en casa, escuela y comunidad.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "electricidad",
+          "description": "Electricidad es una idea clave para comprender las manifestaciones y aplicaciones de la energía eléctrica, así como los protocolos de seguridad para su uso en casa, escuela y comunidad.",
+          "sourceBook": "Saberes y Pensamiento Científico",
+          "sourcePages": [
+            300,
+            315
+          ],
+          "sourcePagesLabel": "pp. 300-315",
+          "topicTitle": "Electricidad",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Electricidad\" aporta base suficiente para trabajar electricidad dentro del proyecto 22.",
+          "pedagogicalUse": "Ayuda a fortalecer folleto de protocolos de seguridad y a explicar las manifestaciones y aplicaciones de la energía eléctrica, así como los protocolos de seguridad para su uso en casa, escuela y comunidad con mayor claridad mediante electricidad.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "corriente eléctrica",
+          "description": "Corriente eléctrica es una idea clave para comprender las manifestaciones y aplicaciones de la energía eléctrica, así como los protocolos de seguridad para su uso en casa, escuela y comunidad.",
+          "sourceBook": "Saberes y Pensamiento Científico",
+          "sourcePages": [
+            300,
+            315
+          ],
+          "sourcePagesLabel": "pp. 300-315",
+          "topicTitle": "Electricidad",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Electricidad\" aporta base suficiente para trabajar corriente eléctrica dentro del proyecto 22.",
+          "pedagogicalUse": "Ayuda a fortalecer folleto de protocolos de seguridad y a explicar las manifestaciones y aplicaciones de la energía eléctrica, así como los protocolos de seguridad para su uso en casa, escuela y comunidad con mayor claridad mediante corriente eléctrica.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "voltaje",
+          "description": "Voltaje es una idea clave para comprender las manifestaciones y aplicaciones de la energía eléctrica, así como los protocolos de seguridad para su uso en casa, escuela y comunidad.",
+          "sourceBook": "Saberes y Pensamiento Científico",
+          "sourcePages": [
+            300,
+            315
+          ],
+          "sourcePagesLabel": "pp. 300-315",
+          "topicTitle": "Electricidad",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Electricidad\" aporta base suficiente para trabajar voltaje dentro del proyecto 22.",
+          "pedagogicalUse": "Ayuda a fortalecer folleto de protocolos de seguridad y a explicar las manifestaciones y aplicaciones de la energía eléctrica, así como los protocolos de seguridad para su uso en casa, escuela y comunidad con mayor claridad mediante voltaje.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "protocolos de seguridad",
+          "description": "Protocolos de seguridad es una idea clave para comprender las manifestaciones y aplicaciones de la energía eléctrica, así como los protocolos de seguridad para su uso en casa, escuela y comunidad.",
+          "sourceBook": "Saberes y Pensamiento Científico",
+          "sourcePages": [
+            300,
+            315
+          ],
+          "sourcePagesLabel": "pp. 300-315",
+          "topicTitle": "Electricidad",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Electricidad\" aporta base suficiente para trabajar protocolos de seguridad dentro del proyecto 22.",
+          "pedagogicalUse": "Ayuda a fortalecer folleto de protocolos de seguridad y a explicar las manifestaciones y aplicaciones de la energía eléctrica, así como los protocolos de seguridad para su uso en casa, escuela y comunidad con mayor claridad mediante protocolos de seguridad.",
+          "activityReadiness": "usable-for-autoevaluation"
+        }
+      ],
+      "thinkingCriteria": [
+        "Conectar el protocolo con situaciones reales de riesgo.",
+        "Distinguir beneficio técnico y peligro potencial en el uso de la electricidad.",
+        "Traducir conceptos físicos a recomendaciones comprensibles para otras personas."
+      ],
+      "validationStatus": {
+        "readinessLevel": "development-partial",
+        "readyForActivities": false,
+        "needsReviewReasons": [
+          "El bloque 8 ya es usable como lectura docente, pero el video del PPA 8 y el recurso informatico siguen pendientes de validacion de destino final.",
+          "La asignacion de apoyos de Posibilidades se sostiene por inferencia curricular documentada y no por OCR perfectamente separado por columnas.",
+          "No mover a actividades interactivas ni desbloquear juegos completos hasta ampliar validacion de videos y recursos complementarios."
+        ]
+      },
+      "readinessLevel": "development-partial",
+      "readyForActivities": false,
+      "needsReviewReasons": [
+        "No mover a actividades interactivas ni desbloquear juegos completos."
+      ],
+      "roleInPpa": "Abre el bloque al partir de un fenómeno cotidiano y convertirlo en un trabajo preventivo útil para el entorno escolar y familiar.",
+      "pedagogicalUse": "Conviene trabajar ¡Electricidad por todas partes! como una oportunidad para profundizar en las manifestaciones y aplicaciones de la energía eléctrica, así como los protocolos de seguridad para su uso en casa, escuela y comunidad sin separar contenido, comunidad y producto final.",
+      "teacherNotes": [
+        "Conviene partir de ejemplos cercanos y después pasar al lenguaje mas abstracto del campo.",
+        "El producto Folleto de protocolos de seguridad gana fuerza cuando se usa para explicar y no solo para exhibir informacion.",
+        "Es mejor seleccionar pocos conceptos bien comprendidos que saturar el trabajo con terminos aislados."
+      ],
+      "resonancePrompts": [
+        {
+          "type": "individual",
+          "prompt": "¿Qué comprendes mejor sobre las manifestaciones y aplicaciones de la energía eléctrica, así como los protocolos de seguridad para su uso en casa, escuela y comunidad después de elaborar folleto de protocolos de seguridad?"
+        },
+        {
+          "type": "community",
+          "prompt": "¿Qué hábitos del hogar o de la escuela cambiarían si se comprendieran mejor los riesgos del uso eléctrico?"
+        }
+      ],
+      "notReadyFor": [
+        "full-games",
+        "summative-exam"
+      ]
+    },
+    {
+      "id": "saberes-y-pensamiento-cientifico-2-ppa-8-pa23",
+      "projectId": "saberes-y-pensamiento-cientifico-2-ppa-8-pa23",
+      "academicProjectNumber": 23,
+      "title": "¡Aprovechemos el magnetismo!",
+      "projectTitle": "¡Aprovechemos el magnetismo!",
+      "grade": "2",
+      "field": "Saberes y Pensamiento Científico",
+      "ppaNumber": "8",
+      "partialClassroomProject": "PPA 8",
+      "partialClassroomProjectTitle": "Expresiones y representaciones de la electricidad y el magnetismo",
+      "bookVolume": "Tomo II",
+      "sourceValidation": {
+        "sourceStatus": "linked",
+        "possibilitiesPages": [
+          21,
+          22
+        ],
+        "possibilitiesMaterialId": "grade-2-posibilidades-pos-sypc-2",
+        "possibilitiesColumnIndex": 2,
+        "columnEvidence": "Bloque PPA 8 Expresiones y representaciones de la electricidad y el magnetismo localizado en pp. 21-22; la columna 2 se confirma por el orden de proyectos, productos y continuidad del mismo bloque."
+      },
+      "finalProduct": {
+        "title": "Cuento corto",
+        "source": "Posibilidades de uso SyPC pp. 21-22 + Nuestro libro de proyectos Tomo II pp. 122-124",
+        "status": "confirmed"
+      },
+      "sourcePages": {
+        "nuestroLibroProyectos": [
+          {
+            "materialId": "grade-2-proyectos-nuestro-libro-de-proyectos-tomo-2-segundo-grado",
+            "label": "Nuestro libro de proyectos Tomo II",
+            "startPage": 122,
+            "endPage": 124,
+            "pagesLabel": "pp. 122-124",
+            "topicTitle": "Proyecto academico 23",
+            "status": "confirmed-source"
+          }
+        ],
+        "conceptBook": [
+          {
+            "materialId": "grade-2-conceptos-saberes-y-pensamiento-cientifico-segundo-grado",
+            "label": "Saberes y Pensamiento Científico",
+            "startPage": 233,
+            "endPage": 238,
+            "pagesLabel": "pp. 233-238",
+            "topicTitle": "Magnetismo",
+            "status": "confirmed-by-column-inference"
+          },
+          {
+            "materialId": "grade-2-conceptos-saberes-y-pensamiento-cientifico-segundo-grado",
+            "label": "Saberes y Pensamiento Científico",
+            "startPage": 316,
+            "endPage": 319,
+            "pagesLabel": "pp. 316-319",
+            "topicTitle": "Electromagnetismo",
+            "status": "confirmed-by-column-inference"
+          }
+        ],
+        "multiplesLenguajes": [],
+        "otherMaterials": [
+          {
+            "label": "Video PPA 8: Expresiones y representaciones de la electricidad y el magnetismo",
+            "reference": "bit.ly/3VfglUk",
+            "status": "pending-validation"
+          }
+        ]
+      },
+      "supportMaterials": [],
+      "horizonOrPurpose": {
+        "status": "pending",
+        "text": "",
+        "source": "Nuestro libro de proyectos Tomo II p. 122"
+      },
+      "projectExpectationHorizon": {
+        "officialText": "",
+        "studentVersion": "",
+        "sourcePages": [
+          "Nuestro libro de proyectos Tomo II p. 122"
+        ],
+        "evidence": "El proyecto ya cuenta con producto, conceptos y articulacion pedagogica, pero el horizonte textual exacto sigue pendiente de confirmacion literal.",
+        "status": "pending"
+      },
+      "detonatingStrategy": {
+        "status": "pending-url",
+        "text": "Video PPA 8: Expresiones y representaciones de la electricidad y el magnetismo",
+        "reference": "bit.ly/3VfglUk",
+        "source": "Nuestro libro de proyectos Tomo II pp. 120-121 + Posibilidades de uso SyPC pp. 21-22"
+      },
+      "academicProjectStrategy": {
+        "title": "Cuento corto",
+        "text": "Representar en un cuento corto cómo actúan los imanes y el campo magnético en situaciones que el grupo pueda imaginar y explicar.",
+        "type": "project-product",
+        "status": "confirmed-from-project-book",
+        "source": "Nuestro libro de proyectos Tomo II pp. 122-124"
+      },
+      "academicConcepts": [
+        {
+          "concept": "cuento corto",
+          "description": "Cuento corto como producto de cierre para organizar y comunicar aprendizajes del proyecto.",
+          "sourceBook": "Nuestro libro de proyectos Tomo II",
+          "sourcePages": [
+            122,
+            124
+          ],
+          "sourcePagesLabel": "pp. 122-124",
+          "topicTitle": "Proyecto academico 23",
+          "status": "confirmed",
+          "reason": "Posibilidades y el propio proyecto fijan Cuento corto como producto final del PA 23.",
+          "pedagogicalUse": "Da una forma concreta de socializar lo comprendido sobre los fenómenos magnéticos, el campo magnético y la interacción entre imanes como base para explicar usos del magnetismo.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "magnetismo",
+          "description": "Magnetismo es una idea clave para comprender los fenómenos magnéticos, el campo magnético y la interacción entre imanes como base para explicar usos del magnetismo.",
+          "sourceBook": "Saberes y Pensamiento Científico",
+          "sourcePages": [
+            233,
+            238
+          ],
+          "sourcePagesLabel": "pp. 233-238",
+          "topicTitle": "Magnetismo",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Magnetismo\" aporta base suficiente para trabajar magnetismo dentro del proyecto 23.",
+          "pedagogicalUse": "Ayuda a fortalecer cuento corto y a explicar los fenómenos magnéticos, el campo magnético y la interacción entre imanes como base para explicar usos del magnetismo con mayor claridad mediante magnetismo.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "campo magnético",
+          "description": "Campo magnético es una idea clave para comprender los fenómenos magnéticos, el campo magnético y la interacción entre imanes como base para explicar usos del magnetismo.",
+          "sourceBook": "Saberes y Pensamiento Científico",
+          "sourcePages": [
+            233,
+            238
+          ],
+          "sourcePagesLabel": "pp. 233-238",
+          "topicTitle": "Magnetismo",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Magnetismo\" aporta base suficiente para trabajar campo magnético dentro del proyecto 23.",
+          "pedagogicalUse": "Ayuda a fortalecer cuento corto y a explicar los fenómenos magnéticos, el campo magnético y la interacción entre imanes como base para explicar usos del magnetismo con mayor claridad mediante campo magnético.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "imanes",
+          "description": "Imanes es una idea clave para comprender los fenómenos magnéticos, el campo magnético y la interacción entre imanes como base para explicar usos del magnetismo.",
+          "sourceBook": "Saberes y Pensamiento Científico",
+          "sourcePages": [
+            233,
+            238
+          ],
+          "sourcePagesLabel": "pp. 233-238",
+          "topicTitle": "Magnetismo",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Magnetismo\" aporta base suficiente para trabajar imanes dentro del proyecto 23.",
+          "pedagogicalUse": "Ayuda a fortalecer cuento corto y a explicar los fenómenos magnéticos, el campo magnético y la interacción entre imanes como base para explicar usos del magnetismo con mayor claridad mediante imanes.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "electromagnetismo",
+          "description": "Electromagnetismo es una idea clave para comprender los fenómenos magnéticos, el campo magnético y la interacción entre imanes como base para explicar usos del magnetismo.",
+          "sourceBook": "Saberes y Pensamiento Científico",
+          "sourcePages": [
+            316,
+            319
+          ],
+          "sourcePagesLabel": "pp. 316-319",
+          "topicTitle": "Electromagnetismo",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Electromagnetismo\" aporta base suficiente para trabajar electromagnetismo dentro del proyecto 23.",
+          "pedagogicalUse": "Ayuda a fortalecer cuento corto y a explicar los fenómenos magnéticos, el campo magnético y la interacción entre imanes como base para explicar usos del magnetismo con mayor claridad mediante electromagnetismo.",
+          "activityReadiness": "usable-for-autoevaluation"
+        }
+      ],
+      "thinkingCriteria": [
+        "Hacer que la narración mantenga el sentido del fenómeno físico.",
+        "Relacionar atracción y repulsión con ejemplos concretos.",
+        "Evitar que el cuento desplace la explicación científica del fenómeno."
+      ],
+      "validationStatus": {
+        "readinessLevel": "development-partial",
+        "readyForActivities": false,
+        "needsReviewReasons": [
+          "El bloque 8 ya es usable como lectura docente, pero el video del PPA 8 y el recurso informatico siguen pendientes de validacion de destino final.",
+          "La asignacion de apoyos de Posibilidades se sostiene por inferencia curricular documentada y no por OCR perfectamente separado por columnas.",
+          "No mover a actividades interactivas ni desbloquear juegos completos hasta ampliar validacion de videos y recursos complementarios."
+        ]
+      },
+      "readinessLevel": "development-partial",
+      "readyForActivities": false,
+      "needsReviewReasons": [
+        "No mover a actividades interactivas ni desbloquear juegos completos."
+      ],
+      "roleInPpa": "Profundiza el bloque al pedir que el magnetismo se vuelva narrable y comprensible sin perder precisión científica.",
+      "pedagogicalUse": "Conviene trabajar ¡Aprovechemos el magnetismo! como una oportunidad para profundizar en los fenómenos magnéticos, el campo magnético y la interacción entre imanes como base para explicar usos del magnetismo sin separar contenido, comunidad y producto final.",
+      "teacherNotes": [
+        "Conviene partir de ejemplos cercanos y después pasar al lenguaje mas abstracto del campo.",
+        "El producto Cuento corto gana fuerza cuando se usa para explicar y no solo para exhibir informacion.",
+        "Es mejor seleccionar pocos conceptos bien comprendidos que saturar el trabajo con terminos aislados."
+      ],
+      "resonancePrompts": [
+        {
+          "type": "individual",
+          "prompt": "¿Qué comprendes mejor sobre los fenómenos magnéticos, el campo magnético y la interacción entre imanes como base para explicar usos del magnetismo después de elaborar cuento corto?"
+        },
+        {
+          "type": "community",
+          "prompt": "¿Dónde aparecen en la vida cotidiana de la comunidad usos del magnetismo que suelen pasar desapercibidos?"
+        }
+      ],
+      "notReadyFor": [
+        "full-games",
+        "summative-exam"
+      ]
+    },
+    {
+      "id": "saberes-y-pensamiento-cientifico-2-ppa-8-pa24",
+      "projectId": "saberes-y-pensamiento-cientifico-2-ppa-8-pa24",
+      "academicProjectNumber": 24,
+      "title": "¡Y se hizo la luz!",
+      "projectTitle": "¡Y se hizo la luz!",
+      "grade": "2",
+      "field": "Saberes y Pensamiento Científico",
+      "ppaNumber": "8",
+      "partialClassroomProject": "PPA 8",
+      "partialClassroomProjectTitle": "Expresiones y representaciones de la electricidad y el magnetismo",
+      "bookVolume": "Tomo II",
+      "sourceValidation": {
+        "sourceStatus": "linked",
+        "possibilitiesPages": [
+          21,
+          22
+        ],
+        "possibilitiesMaterialId": "grade-2-posibilidades-pos-sypc-2",
+        "possibilitiesColumnIndex": 3,
+        "columnEvidence": "Bloque PPA 8 Expresiones y representaciones de la electricidad y el magnetismo localizado en pp. 21-22; la columna 3 se confirma por el orden de proyectos, productos y continuidad del mismo bloque."
+      },
+      "finalProduct": {
+        "title": "Cómic científico",
+        "source": "Posibilidades de uso SyPC pp. 21-22 + Nuestro libro de proyectos Tomo II pp. 125-129",
+        "status": "confirmed"
+      },
+      "sourcePages": {
+        "nuestroLibroProyectos": [
+          {
+            "materialId": "grade-2-proyectos-nuestro-libro-de-proyectos-tomo-2-segundo-grado",
+            "label": "Nuestro libro de proyectos Tomo II",
+            "startPage": 125,
+            "endPage": 129,
+            "pagesLabel": "pp. 125-129",
+            "topicTitle": "Proyecto academico 24",
+            "status": "confirmed-source"
+          }
+        ],
+        "conceptBook": [
+          {
+            "materialId": "grade-2-conceptos-saberes-y-pensamiento-cientifico-segundo-grado",
+            "label": "Saberes y Pensamiento Científico",
+            "startPage": 17,
+            "endPage": 21,
+            "pagesLabel": "pp. 17-21",
+            "topicTitle": "Representación algebraica de áreas",
+            "status": "confirmed-by-column-inference"
+          },
+          {
+            "materialId": "grade-2-conceptos-saberes-y-pensamiento-cientifico-segundo-grado",
+            "label": "Saberes y Pensamiento Científico",
+            "startPage": 27,
+            "endPage": 32,
+            "pagesLabel": "pp. 27-32",
+            "topicTitle": "Desigualdades con expresiones algebraicas",
+            "status": "confirmed-by-column-inference"
+          },
+          {
+            "materialId": "grade-2-conceptos-saberes-y-pensamiento-cientifico-segundo-grado",
+            "label": "Saberes y Pensamiento Científico",
+            "startPage": 106,
+            "endPage": 111,
+            "pagesLabel": "pp. 106-111",
+            "topicTitle": "Sucesiones cuadráticas",
+            "status": "confirmed-by-column-inference"
+          },
+          {
+            "materialId": "grade-2-conceptos-saberes-y-pensamiento-cientifico-segundo-grado",
+            "label": "Saberes y Pensamiento Científico",
+            "startPage": 316,
+            "endPage": 325,
+            "pagesLabel": "pp. 316-325",
+            "topicTitle": "Electromagnetismo",
+            "status": "confirmed-by-column-inference"
+          }
+        ],
+        "multiplesLenguajes": [],
+        "otherMaterials": [
+          {
+            "label": "Video PPA 8: Expresiones y representaciones de la electricidad y el magnetismo",
+            "reference": "bit.ly/3VfglUk",
+            "status": "pending-validation"
+          }
+        ]
+      },
+      "supportMaterials": [],
+      "horizonOrPurpose": {
+        "status": "confirmed-from-project-book",
+        "text": "Elaborar un cómic sobre el comportamiento de la luz como resultado de la interacción entre electricidad y magnetismo, y su relación con el álgebra y las sucesiones con progresión cuadrática de figuras y números.",
+        "source": "Visión — Horizonte 2 (p. 126)"
+      },
+      "projectExpectationHorizon": {
+        "officialText": "Elaborar un cómic sobre el comportamiento de la luz como resultado de la interacción entre electricidad y magnetismo, y su relación con el álgebra y las sucesiones con progresión cuadrática de figuras y números.",
+        "studentVersion": "Elaborar un cómic sobre el comportamiento de la luz como resultado de la interacción entre electricidad y magnetismo, y su relación con el álgebra y las sucesiones con progresión cuadrática de figuras y números.",
+        "horizon1Raw": "Comprender la vinculación entre la electricidad y el magnetismo, y la manera como se comporta la luz con las representaciones de manera algebraica de sucesiones con progresión cuadrática de figuras y números.",
+        "horizon2Raw": "Elaborar un cómic sobre el comportamiento de la luz como resultado de la interacción entre electricidad y magnetismo, y su relación con el álgebra y las sucesiones con progresión cuadrática de figuras y números.",
+        "sourcePages": [
+          "Visión — Horizonte 2 (p. 126)"
+        ],
+        "evidence": "Extraído por visión de imagen de la página 126 del libro de proyectos. Confianza: alta.",
+        "status": "confirmed-from-project-book",
+        "extractedAt": "2026-06-16T05:33:17.367Z"
+      },
+      "detonatingStrategy": {
+        "status": "pending-url",
+        "text": "Video PPA 8: Expresiones y representaciones de la electricidad y el magnetismo",
+        "reference": "bit.ly/3VfglUk",
+        "source": "Nuestro libro de proyectos Tomo II pp. 123-124 + Posibilidades de uso SyPC pp. 21-22"
+      },
+      "academicProjectStrategy": {
+        "title": "Cómic científico",
+        "text": "Usar un cómic científico para mostrar cómo se relacionan la luz, las ondas electromagnéticas y ciertas representaciones matemáticas en la explicación del fenómeno.",
+        "type": "project-product",
+        "status": "confirmed-from-project-book",
+        "source": "Nuestro libro de proyectos Tomo II pp. 125-129"
+      },
+      "academicConcepts": [
+        {
+          "concept": "cómic científico",
+          "description": "Cómic científico como producto de cierre para organizar y comunicar aprendizajes del proyecto.",
+          "sourceBook": "Nuestro libro de proyectos Tomo II",
+          "sourcePages": [
+            125,
+            129
+          ],
+          "sourcePagesLabel": "pp. 125-129",
+          "topicTitle": "Proyecto academico 24",
+          "status": "confirmed",
+          "reason": "Posibilidades y el propio proyecto fijan Cómic científico como producto final del PA 24.",
+          "pedagogicalUse": "Da una forma concreta de socializar lo comprendido sobre la luz como onda electromagnética y la relación entre representaciones algebraicas, desigualdades y sucesiones para explicar fenómenos ligados a la electricidad y la luz.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "ondas electromagnéticas",
+          "description": "Ondas electromagnéticas es una idea clave para comprender la luz como onda electromagnética y la relación entre representaciones algebraicas, desigualdades y sucesiones para explicar fenómenos ligados a la electricidad y la luz.",
+          "sourceBook": "Saberes y Pensamiento Científico",
+          "sourcePages": [
+            316,
+            325
+          ],
+          "sourcePagesLabel": "pp. 316-325",
+          "topicTitle": "Electromagnetismo",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Electromagnetismo\" aporta base suficiente para trabajar ondas electromagnéticas dentro del proyecto 24.",
+          "pedagogicalUse": "Ayuda a fortalecer cómic científico y a explicar la luz como onda electromagnética y la relación entre representaciones algebraicas, desigualdades y sucesiones para explicar fenómenos ligados a la electricidad y la luz con mayor claridad mediante ondas electromagnéticas.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "luz",
+          "description": "Luz es una idea clave para comprender la luz como onda electromagnética y la relación entre representaciones algebraicas, desigualdades y sucesiones para explicar fenómenos ligados a la electricidad y la luz.",
+          "sourceBook": "Saberes y Pensamiento Científico",
+          "sourcePages": [
+            316,
+            325
+          ],
+          "sourcePagesLabel": "pp. 316-325",
+          "topicTitle": "Electromagnetismo",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Electromagnetismo\" aporta base suficiente para trabajar luz dentro del proyecto 24.",
+          "pedagogicalUse": "Ayuda a fortalecer cómic científico y a explicar la luz como onda electromagnética y la relación entre representaciones algebraicas, desigualdades y sucesiones para explicar fenómenos ligados a la electricidad y la luz con mayor claridad mediante luz.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "desigualdades algebraicas",
+          "description": "Desigualdades algebraicas es una idea clave para comprender la luz como onda electromagnética y la relación entre representaciones algebraicas, desigualdades y sucesiones para explicar fenómenos ligados a la electricidad y la luz.",
+          "sourceBook": "Saberes y Pensamiento Científico",
+          "sourcePages": [
+            27,
+            32
+          ],
+          "sourcePagesLabel": "pp. 27-32",
+          "topicTitle": "Desigualdades con expresiones algebraicas",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Desigualdades con expresiones algebraicas\" aporta base suficiente para trabajar desigualdades algebraicas dentro del proyecto 24.",
+          "pedagogicalUse": "Ayuda a fortalecer cómic científico y a explicar la luz como onda electromagnética y la relación entre representaciones algebraicas, desigualdades y sucesiones para explicar fenómenos ligados a la electricidad y la luz con mayor claridad mediante desigualdades algebraicas.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "sucesiones cuadráticas",
+          "description": "Sucesiones cuadráticas es una idea clave para comprender la luz como onda electromagnética y la relación entre representaciones algebraicas, desigualdades y sucesiones para explicar fenómenos ligados a la electricidad y la luz.",
+          "sourceBook": "Saberes y Pensamiento Científico",
+          "sourcePages": [
+            106,
+            111
+          ],
+          "sourcePagesLabel": "pp. 106-111",
+          "topicTitle": "Sucesiones cuadráticas",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Sucesiones cuadráticas\" aporta base suficiente para trabajar sucesiones cuadráticas dentro del proyecto 24.",
+          "pedagogicalUse": "Ayuda a fortalecer cómic científico y a explicar la luz como onda electromagnética y la relación entre representaciones algebraicas, desigualdades y sucesiones para explicar fenómenos ligados a la electricidad y la luz con mayor claridad mediante sucesiones cuadráticas.",
+          "activityReadiness": "usable-for-autoevaluation"
+        }
+      ],
+      "thinkingCriteria": [
+        "Relacionar la explicación visual con el fenómeno real que representa.",
+        "Dar un lugar claro a la matemática dentro de la historia del cómic.",
+        "No perder de vista que la luz se trabaja como fenómeno físico, no sólo como efecto visual."
+      ],
+      "validationStatus": {
+        "readinessLevel": "development-partial",
+        "readyForActivities": false,
+        "needsReviewReasons": [
+          "El bloque 8 ya es usable como lectura docente, pero el video del PPA 8 y el recurso informatico siguen pendientes de validacion de destino final.",
+          "La asignacion de apoyos de Posibilidades se sostiene por inferencia curricular documentada y no por OCR perfectamente separado por columnas.",
+          "No mover a actividades interactivas ni desbloquear juegos completos hasta ampliar validacion de videos y recursos complementarios."
+        ]
+      },
+      "readinessLevel": "development-partial",
+      "readyForActivities": false,
+      "needsReviewReasons": [
+        "No mover a actividades interactivas ni desbloquear juegos completos."
+      ],
+      "roleInPpa": "Cierra el bloque al reunir lenguaje matemático y explicación física en un producto visual de comunicación científica.",
+      "pedagogicalUse": "Conviene trabajar ¡Y se hizo la luz! como una oportunidad para profundizar en la luz como onda electromagnética y la relación entre representaciones algebraicas, desigualdades y sucesiones para explicar fenómenos ligados a la electricidad y la luz sin separar contenido, comunidad y producto final.",
+      "teacherNotes": [
+        "Conviene partir de ejemplos cercanos y después pasar al lenguaje mas abstracto del campo.",
+        "El producto Cómic científico gana fuerza cuando se usa para explicar y no solo para exhibir informacion.",
+        "Es mejor seleccionar pocos conceptos bien comprendidos que saturar el trabajo con terminos aislados."
+      ],
+      "resonancePrompts": [
+        {
+          "type": "individual",
+          "prompt": "¿Qué comprendes mejor sobre la luz como onda electromagnética y la relación entre representaciones algebraicas, desigualdades y sucesiones para explicar fenómenos ligados a la electricidad y la luz después de elaborar cómic científico?"
+        },
+        {
+          "type": "community",
+          "prompt": "¿Qué cambia en la comprensión de la luz cuando se explica como onda y no sólo como algo que ilumina?"
+        }
+      ],
+      "notReadyFor": [
+        "full-games",
+        "summative-exam"
+      ]
+    }
+  ]
+}

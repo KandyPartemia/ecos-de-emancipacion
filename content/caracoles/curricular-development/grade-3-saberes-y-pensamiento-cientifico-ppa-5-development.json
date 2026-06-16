@@ -1,0 +1,701 @@
+{
+  "grade": "3",
+  "gradeLabel": "Tercer grado",
+  "field": "Saberes y Pensamiento Cientifico",
+  "bookVolume": "Tomo I",
+  "partialClassroomProject": "PPA 5",
+  "partialClassroomProjectTitle": "Contaminación que amenaza",
+  "generatedAt": "2026-06-07T03:06:28.114Z",
+  "notes": "Capa curricular generada por lote para 3o Saberes y Pensamiento Cientifico, PPA 5.",
+  "sourcesUsed": [
+    "content/caracoles/curricular-catalog/all-projects-canonical.json",
+    "public/caracoles/data/generated/grade-3/concepts-index.json",
+    "src/caracoles/lib/officialVideoLinks.ts",
+    "Posibilidades de uso SyPC, tercer grado, pp. 14-15",
+    "Nuestro libro de proyectos, tercer grado, pp. 171-182"
+  ],
+  "partialClassroomProjectContext": {
+    "expectationHorizon": {
+      "officialText": "",
+      "sourcePages": [
+        "Nuestro libro de proyectos Tomo I pp. 171-174",
+        "Posibilidades de uso SyPC pp. 14-15"
+      ],
+      "evidence": "El PPA 5 articula 13. una sociedad de reacciones químicas, 14. construir el cuerpo de las figuras, 3. la química y las figuras también se mezclan para trabajar Contaminación que amenaza.",
+      "status": "pending"
+    },
+    "ppaDetonatingStrategy": {
+      "title": "Contaminación que amenaza",
+      "type": "video",
+      "url": "",
+      "urlStatus": "confirmed-by-official-video-map",
+      "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+      "scope": "partial-classroom-project"
+    },
+    "ppaDigitalResource": {
+      "title": "Recurso del Proyecto Parcial de Aula 5",
+      "reference": "",
+      "status": "confirmed-by-official-video-map",
+      "source": "YouTube, acervo Aprende_MX/Telesecundaria"
+    },
+    "validationStatus": {
+      "needsHumanReview": true,
+      "needsReviewReasons": [
+        "Los videos PA/PPA se validan por el mapa oficial de enlaces directos ya generado.",
+        "Los apoyos complementarios impresos no se asignan cuando no hay evidencia validada por columna.",
+        "El horizonte textual literal queda pendiente de revision fina si se necesita cita exacta."
+      ]
+    },
+    "columnValidation": {
+      "possibilitiesPagesReviewed": [
+        14,
+        15
+      ],
+      "confirmedAsPpa": true,
+      "note": "El PPA 5 se agrupa desde el catalogo canonico de tercer grado.",
+      "columns": [
+        {
+          "columnIndex": 1,
+          "projectId": "saberes-y-pensamiento-cientifico-3-ppa-5-pa13",
+          "projectTitle": "Desequilibrio ambiental y contaminación",
+          "finalProduct": "13. Una sociedad de reacciones químicas",
+          "supportMaterials": []
+        },
+        {
+          "columnIndex": 2,
+          "projectId": "saberes-y-pensamiento-cientifico-3-ppa-5-pa14",
+          "projectTitle": "Poner límites a la contaminación",
+          "finalProduct": "14. Construir el cuerpo de las figuras",
+          "supportMaterials": []
+        },
+        {
+          "columnIndex": 3,
+          "projectId": "saberes-y-pensamiento-cientifico-3-ppa-5-pa15",
+          "projectTitle": "Polución química",
+          "finalProduct": "3. La química y las figuras también se mezclan",
+          "supportMaterials": []
+        }
+      ]
+    }
+  },
+  "academicProjects": [
+    {
+      "id": "saberes-y-pensamiento-cientifico-3-ppa-5-pa13",
+      "projectId": "saberes-y-pensamiento-cientifico-3-ppa-5-pa13",
+      "academicProjectNumber": 13,
+      "title": "Desequilibrio ambiental y contaminación",
+      "projectTitle": "Desequilibrio ambiental y contaminación",
+      "grade": "3",
+      "field": "Saberes y Pensamiento Científico",
+      "ppaNumber": "5",
+      "partialClassroomProject": "PPA 5",
+      "partialClassroomProjectTitle": "Contaminación que amenaza",
+      "bookVolume": "Tomo I",
+      "sourceValidation": {
+        "sourceStatus": "linked",
+        "possibilitiesPages": [
+          14,
+          15
+        ],
+        "possibilitiesMaterialId": "grade-3-posibilidades-pos-sypc-3",
+        "possibilitiesColumnIndex": 1,
+        "columnEvidence": "Proyecto PA 13 agrupado en el PPA 5 desde el catalogo canonico y las paginas de Posibilidades."
+      },
+      "finalProduct": {
+        "title": "13. Una sociedad de reacciones químicas",
+        "source": "Video detonador validado en YouTube + Nuestro libro de proyectos Tomo I pp. 171-174",
+        "status": "confirmed-from-video-and-project"
+      },
+      "sourcePages": {
+        "nuestroLibroProyectos": [
+          {
+            "materialId": "grade-3-proyectos-nuestros-proyectos-tomo-1-tercer-grado",
+            "label": "Nuestro libro de proyectos Tomo I",
+            "startPage": 171,
+            "endPage": 174,
+            "pagesLabel": "pp. 171-174",
+            "topicTitle": "Proyecto academico 13",
+            "status": "confirmed-source"
+          }
+        ],
+        "conceptBook": [
+          {
+            "materialId": "grade-3-conceptos-saberes-y-pensamiento-cientifico-tercer-grado",
+            "label": "Saberes y Pensamiento Cientifico",
+            "startPage": 171,
+            "endPage": 171,
+            "pagesLabel": "p. 171",
+            "topicTitle": "13. una sociedad de reacciones químicas",
+            "status": "confirmed"
+          }
+        ],
+        "multiplesLenguajes": [],
+        "otherMaterials": [
+          {
+            "label": "Video PA 13: Desequilibrio ambiental y contaminación",
+            "reference": "",
+            "status": "confirmed"
+          }
+        ]
+      },
+      "supportMaterials": [],
+      "horizonOrPurpose": {
+        "status": "confirmed-from-project-book",
+        "text": "Atender la correcta elaboración de la infografía conciencializada desde los saberes integrados de la química y las matemáticas, e impactar en los hábitos de consumo mediante propuestas factibles y sustentables.",
+        "source": "Visión — Horizonte 1 (p. 172)"
+      },
+      "projectExpectationHorizon": {
+        "officialText": "Atender la correcta elaboración de la infografía conciencializada desde los saberes integrados de la química y las matemáticas, e impactar en los hábitos de consumo mediante propuestas factibles y sustentables.",
+        "studentVersion": "Atender la correcta elaboración de la infografía conciencializada desde los saberes integrados de la química y las matemáticas, e impactar en los hábitos de consumo mediante propuestas factibles y sustentables.",
+        "horizon1Raw": "Atender la correcta elaboración de la infografía conciencializada desde los saberes integrados de la química y las matemáticas, e impactar en los hábitos de consumo mediante propuestas factibles y sustentables.",
+        "horizon2Raw": "Contar con la información y los recursos necesarios para elaborar una infografía conciencializada sobre la degradación y contaminación ambientales, vinculadas al uso de productos y procesos químicos.",
+        "sourcePages": [
+          "Visión — Horizonte 1 (p. 172)"
+        ],
+        "evidence": "Extraído por visión de imagen de la página 172 del libro de proyectos. Confianza: alta.",
+        "status": "confirmed-from-project-book",
+        "extractedAt": "2026-06-16T05:19:42.320Z"
+      },
+      "detonatingStrategy": {
+        "status": "confirmed",
+        "title": "Contaminación que amenaza",
+        "text": "Video del Proyecto Parcial de Aula 5: Contaminación que amenaza",
+        "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+        "scope": "partial-classroom-project",
+        "type": "video"
+      },
+      "academicProjectStrategy": {
+        "title": "13. Una sociedad de reacciones químicas • Saberes y pensamiento científico• 3er grado",
+        "text": "Video detonador del Proyecto Academico 13: Desequilibrio ambiental y contaminación",
+        "type": "video",
+        "status": "confirmed-from-video-and-project",
+        "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+        "scope": "academic-project"
+      },
+      "academicConcepts": [
+        {
+          "concept": "13. una sociedad de reacciones químicas",
+          "description": "13. una sociedad de reacciones químicas organiza el producto de cierre y permite comunicar lo aprendido en el proyecto.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            171
+          ],
+          "sourcePagesLabel": "p. 171",
+          "topicTitle": "Proyecto academico 13",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 13, al PPA 5 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Materia",
+          "description": "Materia ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            265
+          ],
+          "sourcePagesLabel": "p. 265",
+          "topicTitle": "Proyecto academico 13",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 13, al PPA 5 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Mezclas",
+          "description": "Mezclas ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            265
+          ],
+          "sourcePagesLabel": "p. 265",
+          "topicTitle": "Proyecto academico 13",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 13, al PPA 5 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Quimica",
+          "description": "Quimica ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            9
+          ],
+          "sourcePagesLabel": "p. 9",
+          "topicTitle": "Proyecto academico 13",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 13, al PPA 5 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Figuras",
+          "description": "Figuras ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            171
+          ],
+          "sourcePagesLabel": "p. 171",
+          "topicTitle": "Proyecto academico 13",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 13, al PPA 5 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Medicion",
+          "description": "Medicion ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            171
+          ],
+          "sourcePagesLabel": "p. 171",
+          "topicTitle": "Proyecto academico 13",
+          "status": "suggested",
+          "reason": "Concepto vinculado al PA 13, al PPA 5 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "teacher-review"
+        }
+      ],
+      "thinkingCriteria": [
+        "Relacionar Desequilibrio ambiental y contaminación con una situacion concreta del entorno escolar o comunitario.",
+        "Usar 13. una sociedad de reacciones químicas para explicar ideas con claridad y evidencia."
+      ],
+      "resonancePrompts": [
+        {
+          "type": "individual",
+          "prompt": "¿Como te ayuda 13. una sociedad de reacciones químicas a comprender mejor Desequilibrio ambiental y contaminación y a explicar sus conceptos clave en tu comunidad?",
+          "conceptsActivated": [
+            "13. una sociedad de reacciones químicas",
+            "Materia",
+            "Mezclas",
+            "Quimica"
+          ],
+          "suggestedUse": "Momento 1 de autoevaluacion"
+        }
+      ],
+      "validationStatus": {
+        "readinessLevel": "curricular-bundle-generated",
+        "readyForActivities": true,
+        "needsReviewReasons": [
+          "El horizonte textual literal queda pendiente de revision fina si se requiere cita exacta.",
+          "Los apoyos complementarios impresos no se asignan cuando no hay evidencia validada por columna."
+        ]
+      },
+      "readinessLevel": "curricular-bundle-generated",
+      "readyForActivities": true,
+      "needsReviewReasons": []
+    },
+    {
+      "id": "saberes-y-pensamiento-cientifico-3-ppa-5-pa14",
+      "projectId": "saberes-y-pensamiento-cientifico-3-ppa-5-pa14",
+      "academicProjectNumber": 14,
+      "title": "Poner límites a la contaminación",
+      "projectTitle": "Poner límites a la contaminación",
+      "grade": "3",
+      "field": "Saberes y Pensamiento Científico",
+      "ppaNumber": "5",
+      "partialClassroomProject": "PPA 5",
+      "partialClassroomProjectTitle": "Contaminación que amenaza",
+      "bookVolume": "Tomo I",
+      "sourceValidation": {
+        "sourceStatus": "linked",
+        "possibilitiesPages": [
+          14,
+          15
+        ],
+        "possibilitiesMaterialId": "grade-3-posibilidades-pos-sypc-3",
+        "possibilitiesColumnIndex": 2,
+        "columnEvidence": "Proyecto PA 14 agrupado en el PPA 5 desde el catalogo canonico y las paginas de Posibilidades."
+      },
+      "finalProduct": {
+        "title": "14. Construir el cuerpo de las figuras",
+        "source": "Video detonador validado en YouTube + Nuestro libro de proyectos Tomo I pp. 175-178",
+        "status": "confirmed-from-video-and-project"
+      },
+      "sourcePages": {
+        "nuestroLibroProyectos": [
+          {
+            "materialId": "grade-3-proyectos-nuestros-proyectos-tomo-1-tercer-grado",
+            "label": "Nuestro libro de proyectos Tomo I",
+            "startPage": 175,
+            "endPage": 178,
+            "pagesLabel": "pp. 175-178",
+            "topicTitle": "Proyecto academico 14",
+            "status": "confirmed-source"
+          }
+        ],
+        "conceptBook": [
+          {
+            "materialId": "grade-3-conceptos-saberes-y-pensamiento-cientifico-tercer-grado",
+            "label": "Saberes y Pensamiento Cientifico",
+            "startPage": 175,
+            "endPage": 175,
+            "pagesLabel": "p. 175",
+            "topicTitle": "14. construir el cuerpo de las figuras",
+            "status": "confirmed"
+          }
+        ],
+        "multiplesLenguajes": [],
+        "otherMaterials": [
+          {
+            "label": "Video PA 14: Poner límites a la contaminación",
+            "reference": "",
+            "status": "confirmed"
+          }
+        ]
+      },
+      "supportMaterials": [],
+      "horizonOrPurpose": {
+        "status": "pending",
+        "text": "",
+        "source": "Nuestro libro de proyectos Tomo I pp. 175-178"
+      },
+      "projectExpectationHorizon": {
+        "officialText": "",
+        "studentVersion": "",
+        "sourcePages": [
+          "Nuestro libro de proyectos Tomo I pp. 175-178"
+        ],
+        "evidence": "El PA 14 cuenta con paginas de proyecto, producto de cierre, conceptos y videos directos validados; el horizonte textual literal queda pendiente de transcripcion fina.",
+        "status": "pending"
+      },
+      "detonatingStrategy": {
+        "status": "confirmed",
+        "title": "Contaminación que amenaza",
+        "text": "Video del Proyecto Parcial de Aula 5: Contaminación que amenaza",
+        "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+        "scope": "partial-classroom-project",
+        "type": "video"
+      },
+      "academicProjectStrategy": {
+        "title": "14. Construir el cuerpo de las figuras • Saberes y pensamiento científico• 3er grado",
+        "text": "Video detonador del Proyecto Academico 14: Poner límites a la contaminación",
+        "type": "video",
+        "status": "confirmed-from-video-and-project",
+        "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+        "scope": "academic-project"
+      },
+      "academicConcepts": [
+        {
+          "concept": "14. construir el cuerpo de las figuras",
+          "description": "14. construir el cuerpo de las figuras organiza el producto de cierre y permite comunicar lo aprendido en el proyecto.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            175
+          ],
+          "sourcePagesLabel": "p. 175",
+          "topicTitle": "Proyecto academico 14",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 14, al PPA 5 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Materia",
+          "description": "Materia ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            265
+          ],
+          "sourcePagesLabel": "p. 265",
+          "topicTitle": "Proyecto academico 14",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 14, al PPA 5 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Mezclas",
+          "description": "Mezclas ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            265
+          ],
+          "sourcePagesLabel": "p. 265",
+          "topicTitle": "Proyecto academico 14",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 14, al PPA 5 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Quimica",
+          "description": "Quimica ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            9
+          ],
+          "sourcePagesLabel": "p. 9",
+          "topicTitle": "Proyecto academico 14",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 14, al PPA 5 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Figuras",
+          "description": "Figuras ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            175
+          ],
+          "sourcePagesLabel": "p. 175",
+          "topicTitle": "Proyecto academico 14",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 14, al PPA 5 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Medicion",
+          "description": "Medicion ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            175
+          ],
+          "sourcePagesLabel": "p. 175",
+          "topicTitle": "Proyecto academico 14",
+          "status": "suggested",
+          "reason": "Concepto vinculado al PA 14, al PPA 5 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "teacher-review"
+        }
+      ],
+      "thinkingCriteria": [
+        "Relacionar Poner límites a la contaminación con una situacion concreta del entorno escolar o comunitario.",
+        "Usar 14. construir el cuerpo de las figuras para explicar ideas con claridad y evidencia."
+      ],
+      "resonancePrompts": [
+        {
+          "type": "individual",
+          "prompt": "¿Como te ayuda 14. construir el cuerpo de las figuras a comprender mejor Poner límites a la contaminación y a explicar sus conceptos clave en tu comunidad?",
+          "conceptsActivated": [
+            "14. construir el cuerpo de las figuras",
+            "Materia",
+            "Mezclas",
+            "Quimica"
+          ],
+          "suggestedUse": "Momento 1 de autoevaluacion"
+        }
+      ],
+      "validationStatus": {
+        "readinessLevel": "curricular-bundle-generated",
+        "readyForActivities": true,
+        "needsReviewReasons": [
+          "El horizonte textual literal queda pendiente de revision fina si se requiere cita exacta.",
+          "Los apoyos complementarios impresos no se asignan cuando no hay evidencia validada por columna."
+        ]
+      },
+      "readinessLevel": "curricular-bundle-generated",
+      "readyForActivities": true,
+      "needsReviewReasons": []
+    },
+    {
+      "id": "saberes-y-pensamiento-cientifico-3-ppa-5-pa15",
+      "projectId": "saberes-y-pensamiento-cientifico-3-ppa-5-pa15",
+      "academicProjectNumber": 15,
+      "title": "Polución química",
+      "projectTitle": "Polución química",
+      "grade": "3",
+      "field": "Saberes y Pensamiento Científico",
+      "ppaNumber": "5",
+      "partialClassroomProject": "PPA 5",
+      "partialClassroomProjectTitle": "Contaminación que amenaza",
+      "bookVolume": "Tomo I",
+      "sourceValidation": {
+        "sourceStatus": "linked",
+        "possibilitiesPages": [
+          14,
+          15
+        ],
+        "possibilitiesMaterialId": "grade-3-posibilidades-pos-sypc-3",
+        "possibilitiesColumnIndex": 3,
+        "columnEvidence": "Proyecto PA 15 agrupado en el PPA 5 desde el catalogo canonico y las paginas de Posibilidades."
+      },
+      "finalProduct": {
+        "title": "3. La química y las figuras también se mezclan",
+        "source": "Video detonador validado en YouTube + Nuestro libro de proyectos Tomo I pp. 179-182",
+        "status": "confirmed-from-video-and-project"
+      },
+      "sourcePages": {
+        "nuestroLibroProyectos": [
+          {
+            "materialId": "grade-3-proyectos-nuestros-proyectos-tomo-1-tercer-grado",
+            "label": "Nuestro libro de proyectos Tomo I",
+            "startPage": 179,
+            "endPage": 182,
+            "pagesLabel": "pp. 179-182",
+            "topicTitle": "Proyecto academico 15",
+            "status": "confirmed-source"
+          }
+        ],
+        "conceptBook": [
+          {
+            "materialId": "grade-3-conceptos-saberes-y-pensamiento-cientifico-tercer-grado",
+            "label": "Saberes y Pensamiento Cientifico",
+            "startPage": 179,
+            "endPage": 179,
+            "pagesLabel": "p. 179",
+            "topicTitle": "3. la química y las figuras también se mezclan",
+            "status": "confirmed"
+          }
+        ],
+        "multiplesLenguajes": [],
+        "otherMaterials": [
+          {
+            "label": "Video PA 15: Polución química",
+            "reference": "",
+            "status": "confirmed"
+          }
+        ]
+      },
+      "supportMaterials": [],
+      "horizonOrPurpose": {
+        "status": "pending",
+        "text": "",
+        "source": "Nuestro libro de proyectos Tomo I pp. 179-182"
+      },
+      "projectExpectationHorizon": {
+        "officialText": "",
+        "studentVersion": "",
+        "sourcePages": [
+          "Nuestro libro de proyectos Tomo I pp. 179-182"
+        ],
+        "evidence": "El PA 15 cuenta con paginas de proyecto, producto de cierre, conceptos y videos directos validados; el horizonte textual literal queda pendiente de transcripcion fina.",
+        "status": "pending"
+      },
+      "detonatingStrategy": {
+        "status": "confirmed",
+        "title": "Contaminación que amenaza",
+        "text": "Video del Proyecto Parcial de Aula 5: Contaminación que amenaza",
+        "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+        "scope": "partial-classroom-project",
+        "type": "video"
+      },
+      "academicProjectStrategy": {
+        "title": "3. La química y las figuras también se mezclan • Saberes y pensamiento científico• 3er grado",
+        "text": "Video detonador del Proyecto Academico 15: Polución química",
+        "type": "video",
+        "status": "confirmed-from-video-and-project",
+        "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+        "scope": "academic-project"
+      },
+      "academicConcepts": [
+        {
+          "concept": "3. la química y las figuras también se mezclan",
+          "description": "3. la química y las figuras también se mezclan organiza el producto de cierre y permite comunicar lo aprendido en el proyecto.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            179
+          ],
+          "sourcePagesLabel": "p. 179",
+          "topicTitle": "Proyecto academico 15",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 15, al PPA 5 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Materia",
+          "description": "Materia ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            265
+          ],
+          "sourcePagesLabel": "p. 265",
+          "topicTitle": "Proyecto academico 15",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 15, al PPA 5 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Mezclas",
+          "description": "Mezclas ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            265
+          ],
+          "sourcePagesLabel": "p. 265",
+          "topicTitle": "Proyecto academico 15",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 15, al PPA 5 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Quimica",
+          "description": "Quimica ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            9
+          ],
+          "sourcePagesLabel": "p. 9",
+          "topicTitle": "Proyecto academico 15",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 15, al PPA 5 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Figuras",
+          "description": "Figuras ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            179
+          ],
+          "sourcePagesLabel": "p. 179",
+          "topicTitle": "Proyecto academico 15",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 15, al PPA 5 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Medicion",
+          "description": "Medicion ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            179
+          ],
+          "sourcePagesLabel": "p. 179",
+          "topicTitle": "Proyecto academico 15",
+          "status": "suggested",
+          "reason": "Concepto vinculado al PA 15, al PPA 5 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "teacher-review"
+        }
+      ],
+      "thinkingCriteria": [
+        "Relacionar Polución química con una situacion concreta del entorno escolar o comunitario.",
+        "Usar 3. la química y las figuras también se mezclan para explicar ideas con claridad y evidencia."
+      ],
+      "resonancePrompts": [
+        {
+          "type": "individual",
+          "prompt": "¿Como te ayuda 3. la química y las figuras también se mezclan a comprender mejor Polución química y a explicar sus conceptos clave en tu comunidad?",
+          "conceptsActivated": [
+            "3. la química y las figuras también se mezclan",
+            "Materia",
+            "Mezclas",
+            "Quimica"
+          ],
+          "suggestedUse": "Momento 1 de autoevaluacion"
+        }
+      ],
+      "validationStatus": {
+        "readinessLevel": "curricular-bundle-generated",
+        "readyForActivities": true,
+        "needsReviewReasons": [
+          "El horizonte textual literal queda pendiente de revision fina si se requiere cita exacta.",
+          "Los apoyos complementarios impresos no se asignan cuando no hay evidencia validada por columna."
+        ]
+      },
+      "readinessLevel": "curricular-bundle-generated",
+      "readyForActivities": true,
+      "needsReviewReasons": []
+    }
+  ]
+}

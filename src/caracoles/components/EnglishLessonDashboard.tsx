@@ -450,6 +450,15 @@ function EnglishLessonDashboard({ lesson }: { lesson: EnglishLesson }) {
               Abrir sitio oficial de la NEMD
               <ExternalLink className="h-4 w-4" aria-hidden="true" />
             </a>
+            <a
+              href="https://telesecundaria.sep.gob.mx/#/home"
+              target="_blank"
+              rel="noreferrer"
+              className="mt-3 inline-flex items-center gap-2 rounded-full border border-[#315344]/30 bg-white px-4 py-2 text-sm font-black text-[#315344] transition hover:bg-[#315344]/10"
+            >
+              Portal oficial de Telesecundaria SEP
+              <ExternalLink className="h-4 w-4" aria-hidden="true" />
+            </a>
           </div>
           <div className="rounded-[1.5rem] border border-[#d9b56d]/35 bg-[#fff8ee] p-5 text-sm leading-7 text-[#675c51]">
             Esta aplicacion fue desarrollada para el entorno de Ecos de Emancipacion, propuesta pedagogica de la maestra

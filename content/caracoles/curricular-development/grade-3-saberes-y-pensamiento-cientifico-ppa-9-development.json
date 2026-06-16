@@ -1,0 +1,707 @@
+{
+  "grade": "3",
+  "gradeLabel": "Tercer grado",
+  "field": "Saberes y Pensamiento Cientifico",
+  "bookVolume": "Tomo II",
+  "partialClassroomProject": "PPA 9",
+  "partialClassroomProjectTitle": "¡Un delicioso tesoro a la hora de comer!",
+  "generatedAt": "2026-06-07T03:06:28.379Z",
+  "notes": "Capa curricular generada por lote para 3o Saberes y Pensamiento Cientifico, PPA 9.",
+  "sourcesUsed": [
+    "content/caracoles/curricular-catalog/all-projects-canonical.json",
+    "public/caracoles/data/generated/grade-3/concepts-index.json",
+    "src/caracoles/lib/officialVideoLinks.ts",
+    "Posibilidades de uso SyPC, tercer grado, pp. 23-24",
+    "Nuestro libro de proyectos, tercer grado, pp. 137-150"
+  ],
+  "partialClassroomProjectContext": {
+    "expectationHorizon": {
+      "officialText": "",
+      "sourcePages": [
+        "Nuestro libro de proyectos Tomo II pp. 137-141",
+        "Posibilidades de uso SyPC pp. 23-24"
+      ],
+      "evidence": "El PPA 9 articula plato del bien comer, plato del bien comer, 5. contaminación que amenaza para trabajar ¡Un delicioso tesoro a la hora de comer!.",
+      "status": "pending"
+    },
+    "ppaDetonatingStrategy": {
+      "title": "¡Un delicioso tesoro a la hora de comer!",
+      "type": "video",
+      "url": "",
+      "urlStatus": "confirmed-by-official-video-map",
+      "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+      "scope": "partial-classroom-project"
+    },
+    "ppaDigitalResource": {
+      "title": "Recurso del Proyecto Parcial de Aula 9",
+      "reference": "",
+      "status": "confirmed-by-official-video-map",
+      "source": "YouTube, acervo Aprende_MX/Telesecundaria"
+    },
+    "validationStatus": {
+      "needsHumanReview": true,
+      "needsReviewReasons": [
+        "Los videos PA/PPA se validan por el mapa oficial de enlaces directos ya generado.",
+        "Los apoyos complementarios impresos no se asignan cuando no hay evidencia validada por columna.",
+        "El horizonte textual literal queda pendiente de revision fina si se necesita cita exacta."
+      ]
+    },
+    "columnValidation": {
+      "possibilitiesPagesReviewed": [
+        23,
+        24
+      ],
+      "confirmedAsPpa": true,
+      "note": "El PPA 9 se agrupa desde el catalogo canonico de tercer grado.",
+      "columns": [
+        {
+          "columnIndex": 1,
+          "projectId": "saberes-y-pensamiento-cientifico-3-ppa-9-pa25",
+          "projectTitle": "Dieta correcta y los pueblos originarios",
+          "finalProduct": "Plato del Bien Comer",
+          "supportMaterials": []
+        },
+        {
+          "columnIndex": 2,
+          "projectId": "saberes-y-pensamiento-cientifico-3-ppa-9-pa26",
+          "projectTitle": "Las maravillas de una dieta correcta",
+          "finalProduct": "Plato del Bien Comer",
+          "supportMaterials": []
+        },
+        {
+          "columnIndex": 3,
+          "projectId": "saberes-y-pensamiento-cientifico-3-ppa-9-pa27",
+          "projectTitle": "Una perfecta alianza que beneficia tu salud",
+          "finalProduct": "5. Contaminación que amenaza",
+          "supportMaterials": []
+        }
+      ]
+    }
+  },
+  "academicProjects": [
+    {
+      "id": "saberes-y-pensamiento-cientifico-3-ppa-9-pa25",
+      "projectId": "saberes-y-pensamiento-cientifico-3-ppa-9-pa25",
+      "academicProjectNumber": 25,
+      "title": "Dieta correcta y los pueblos originarios",
+      "projectTitle": "Dieta correcta y los pueblos originarios",
+      "grade": "3",
+      "field": "Saberes y Pensamiento Científico",
+      "ppaNumber": "9",
+      "partialClassroomProject": "PPA 9",
+      "partialClassroomProjectTitle": "¡Un delicioso tesoro a la hora de comer!",
+      "bookVolume": "Tomo II",
+      "sourceValidation": {
+        "sourceStatus": "linked",
+        "possibilitiesPages": [
+          23,
+          24
+        ],
+        "possibilitiesMaterialId": "grade-3-posibilidades-pos-sypc-3",
+        "possibilitiesColumnIndex": 1,
+        "columnEvidence": "Proyecto PA 25 agrupado en el PPA 9 desde el catalogo canonico y las paginas de Posibilidades."
+      },
+      "finalProduct": {
+        "title": "Plato del Bien Comer",
+        "source": "Video detonador validado en YouTube + Nuestro libro de proyectos Tomo II pp. 137-141",
+        "status": "confirmed-from-video-and-project"
+      },
+      "sourcePages": {
+        "nuestroLibroProyectos": [
+          {
+            "materialId": "grade-3-proyectos-nuestros-proyectos-tomo-2-tercer-grado",
+            "label": "Nuestro libro de proyectos Tomo II",
+            "startPage": 137,
+            "endPage": 141,
+            "pagesLabel": "pp. 137-141",
+            "topicTitle": "Proyecto academico 25",
+            "status": "confirmed-source"
+          }
+        ],
+        "conceptBook": [
+          {
+            "materialId": "grade-3-conceptos-saberes-y-pensamiento-cientifico-tercer-grado",
+            "label": "Saberes y Pensamiento Cientifico",
+            "startPage": 137,
+            "endPage": 137,
+            "pagesLabel": "p. 137",
+            "topicTitle": "Plato del bien comer",
+            "status": "confirmed"
+          }
+        ],
+        "multiplesLenguajes": [],
+        "otherMaterials": [
+          {
+            "label": "Video PA 25: Dieta correcta y los pueblos originarios",
+            "reference": "",
+            "status": "confirmed"
+          }
+        ]
+      },
+      "supportMaterials": [],
+      "horizonOrPurpose": {
+        "status": "confirmed-from-project-book",
+        "text": "Hacer un Plato del Bien Comer propio a partir de los saberes y de los alimentos de fácil acceso en la comunidad, que sea económico e ilustrativo, con el fin de que sirva de base para la elaboración de dietas correctas.",
+        "source": "Visión — Horizonte 2 (p. 138)"
+      },
+      "projectExpectationHorizon": {
+        "officialText": "Hacer un Plato del Bien Comer propio a partir de los saberes y de los alimentos de fácil acceso en la comunidad, que sea económico e ilustrativo, con el fin de que sirva de base para la elaboración de dietas correctas.",
+        "studentVersion": "Hacer un Plato del Bien Comer propio a partir de los saberes y de los alimentos de fácil acceso en la comunidad, que sea económico e ilustrativo, con el fin de que sirva de base para la elaboración de dietas correctas.",
+        "horizon1Raw": "Hacer una base de datos de los saberes de la comunidad relacionados con la alimentación para proponer un Plato del Bien Comer propio.",
+        "horizon2Raw": "Hacer un Plato del Bien Comer propio a partir de los saberes y de los alimentos de fácil acceso en la comunidad, que sea económico e ilustrativo, con el fin de que sirva de base para la elaboración de dietas correctas.",
+        "sourcePages": [
+          "Visión — Horizonte 2 (p. 138)"
+        ],
+        "evidence": "Extraído por visión de imagen de la página 138 del libro de proyectos. Confianza: alta.",
+        "status": "confirmed-from-project-book",
+        "extractedAt": "2026-06-16T05:20:22.672Z"
+      },
+      "detonatingStrategy": {
+        "status": "confirmed",
+        "title": "¡Un delicioso tesoro a la hora de comer!",
+        "text": "Video del Proyecto Parcial de Aula 9: ¡Un delicioso tesoro a la hora de comer!",
+        "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+        "scope": "partial-classroom-project",
+        "type": "video"
+      },
+      "academicProjectStrategy": {
+        "title": "Plato del Bien Comer • Saberes y pensamiento científico • 3er grado",
+        "text": "Video detonador del Proyecto Academico 25: Dieta correcta y los pueblos originarios",
+        "type": "video",
+        "status": "confirmed-from-video-and-project",
+        "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+        "scope": "academic-project"
+      },
+      "academicConcepts": [
+        {
+          "concept": "Plato del bien comer",
+          "description": "Plato del bien comer organiza el producto de cierre y permite comunicar lo aprendido en el proyecto.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            137
+          ],
+          "sourcePagesLabel": "p. 137",
+          "topicTitle": "Proyecto academico 25",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 25, al PPA 9 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Materia",
+          "description": "Materia ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            265
+          ],
+          "sourcePagesLabel": "p. 265",
+          "topicTitle": "Proyecto academico 25",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 25, al PPA 9 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Mezclas",
+          "description": "Mezclas ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            265
+          ],
+          "sourcePagesLabel": "p. 265",
+          "topicTitle": "Proyecto academico 25",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 25, al PPA 9 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Quimica",
+          "description": "Quimica ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            9
+          ],
+          "sourcePagesLabel": "p. 9",
+          "topicTitle": "Proyecto academico 25",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 25, al PPA 9 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Figuras",
+          "description": "Figuras ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            137
+          ],
+          "sourcePagesLabel": "p. 137",
+          "topicTitle": "Proyecto academico 25",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 25, al PPA 9 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Medicion",
+          "description": "Medicion ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            137
+          ],
+          "sourcePagesLabel": "p. 137",
+          "topicTitle": "Proyecto academico 25",
+          "status": "suggested",
+          "reason": "Concepto vinculado al PA 25, al PPA 9 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "teacher-review"
+        }
+      ],
+      "thinkingCriteria": [
+        "Relacionar Dieta correcta y los pueblos originarios con una situacion concreta del entorno escolar o comunitario.",
+        "Usar plato del bien comer para explicar ideas con claridad y evidencia."
+      ],
+      "resonancePrompts": [
+        {
+          "type": "individual",
+          "prompt": "¿Como te ayuda plato del bien comer a comprender mejor Dieta correcta y los pueblos originarios y a explicar sus conceptos clave en tu comunidad?",
+          "conceptsActivated": [
+            "Plato del bien comer",
+            "Materia",
+            "Mezclas",
+            "Quimica"
+          ],
+          "suggestedUse": "Momento 1 de autoevaluacion"
+        }
+      ],
+      "validationStatus": {
+        "readinessLevel": "curricular-bundle-generated",
+        "readyForActivities": true,
+        "needsReviewReasons": [
+          "El horizonte textual literal queda pendiente de revision fina si se requiere cita exacta.",
+          "Los apoyos complementarios impresos no se asignan cuando no hay evidencia validada por columna."
+        ]
+      },
+      "readinessLevel": "curricular-bundle-generated",
+      "readyForActivities": true,
+      "needsReviewReasons": []
+    },
+    {
+      "id": "saberes-y-pensamiento-cientifico-3-ppa-9-pa26",
+      "projectId": "saberes-y-pensamiento-cientifico-3-ppa-9-pa26",
+      "academicProjectNumber": 26,
+      "title": "Las maravillas de una dieta correcta",
+      "projectTitle": "Las maravillas de una dieta correcta",
+      "grade": "3",
+      "field": "Saberes y Pensamiento Científico",
+      "ppaNumber": "9",
+      "partialClassroomProject": "PPA 9",
+      "partialClassroomProjectTitle": "¡Un delicioso tesoro a la hora de comer!",
+      "bookVolume": "Tomo II",
+      "sourceValidation": {
+        "sourceStatus": "linked",
+        "possibilitiesPages": [
+          23,
+          24
+        ],
+        "possibilitiesMaterialId": "grade-3-posibilidades-pos-sypc-3",
+        "possibilitiesColumnIndex": 2,
+        "columnEvidence": "Proyecto PA 26 agrupado en el PPA 9 desde el catalogo canonico y las paginas de Posibilidades."
+      },
+      "finalProduct": {
+        "title": "Plato del Bien Comer",
+        "source": "Video detonador validado en YouTube + Nuestro libro de proyectos Tomo II pp. 142-146",
+        "status": "confirmed-from-video-and-project"
+      },
+      "sourcePages": {
+        "nuestroLibroProyectos": [
+          {
+            "materialId": "grade-3-proyectos-nuestros-proyectos-tomo-2-tercer-grado",
+            "label": "Nuestro libro de proyectos Tomo II",
+            "startPage": 142,
+            "endPage": 146,
+            "pagesLabel": "pp. 142-146",
+            "topicTitle": "Proyecto academico 26",
+            "status": "confirmed-source"
+          }
+        ],
+        "conceptBook": [
+          {
+            "materialId": "grade-3-conceptos-saberes-y-pensamiento-cientifico-tercer-grado",
+            "label": "Saberes y Pensamiento Cientifico",
+            "startPage": 142,
+            "endPage": 142,
+            "pagesLabel": "p. 142",
+            "topicTitle": "Plato del bien comer",
+            "status": "confirmed"
+          }
+        ],
+        "multiplesLenguajes": [],
+        "otherMaterials": [
+          {
+            "label": "Video PA 26: Las maravillas de una dieta correcta",
+            "reference": "",
+            "status": "confirmed"
+          }
+        ]
+      },
+      "supportMaterials": [],
+      "horizonOrPurpose": {
+        "status": "confirmed-from-project-book",
+        "text": "Diseñar un póster descriptivo, que contenga información relevante acerca de los nutrientes obtenidos en una dieta correcta y diseñada de acuerdo con las características de la comunidad para generar una explicación basada en gráficas, medidas de tendencia central y de dispersión.",
+        "source": "Visión — Horizonte 1 (p. 143)"
+      },
+      "projectExpectationHorizon": {
+        "officialText": "Diseñar un póster descriptivo, que contenga información relevante acerca de los nutrientes obtenidos en una dieta correcta y diseñada de acuerdo con las características de la comunidad para generar una explicación basada en gráficas, medidas de tendencia central y de dispersión.",
+        "studentVersion": "Diseñar un póster descriptivo, que contenga información relevante acerca de los nutrientes obtenidos en una dieta correcta y diseñada de acuerdo con las características de la comunidad para generar una explicación basada en gráficas, medidas de tendencia central y de dispersión.",
+        "horizon1Raw": "Diseñar un póster descriptivo, que contenga información relevante acerca de los nutrientes obtenidos en una dieta correcta y diseñada de acuerdo con las características de la comunidad para generar una explicación basada en gráficas, medidas de tendencia central y de dispersión.",
+        "horizon2Raw": "Conocer los nutrientes que se obtienen de una dieta correcta, comprender sus beneficios a la salud, y saber cómo evidenciar su importancia por medio del uso de gráficas y las medidas de tendencia central y de dispersión.",
+        "sourcePages": [
+          "Visión — Horizonte 1 (p. 143)"
+        ],
+        "evidence": "Extraído por visión de imagen de la página 143 del libro de proyectos. Confianza: alta.",
+        "status": "confirmed-from-project-book",
+        "extractedAt": "2026-06-16T05:20:27.823Z"
+      },
+      "detonatingStrategy": {
+        "status": "confirmed",
+        "title": "¡Un delicioso tesoro a la hora de comer!",
+        "text": "Video del Proyecto Parcial de Aula 9: ¡Un delicioso tesoro a la hora de comer!",
+        "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+        "scope": "partial-classroom-project",
+        "type": "video"
+      },
+      "academicProjectStrategy": {
+        "title": "Plato del Bien Comer • Saberes y pensamiento científico • 3er grado",
+        "text": "Video detonador del Proyecto Academico 26: Las maravillas de una dieta correcta",
+        "type": "video",
+        "status": "confirmed-from-video-and-project",
+        "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+        "scope": "academic-project"
+      },
+      "academicConcepts": [
+        {
+          "concept": "Plato del bien comer",
+          "description": "Plato del bien comer organiza el producto de cierre y permite comunicar lo aprendido en el proyecto.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            142
+          ],
+          "sourcePagesLabel": "p. 142",
+          "topicTitle": "Proyecto academico 26",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 26, al PPA 9 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Materia",
+          "description": "Materia ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            265
+          ],
+          "sourcePagesLabel": "p. 265",
+          "topicTitle": "Proyecto academico 26",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 26, al PPA 9 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Mezclas",
+          "description": "Mezclas ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            265
+          ],
+          "sourcePagesLabel": "p. 265",
+          "topicTitle": "Proyecto academico 26",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 26, al PPA 9 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Quimica",
+          "description": "Quimica ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            9
+          ],
+          "sourcePagesLabel": "p. 9",
+          "topicTitle": "Proyecto academico 26",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 26, al PPA 9 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Figuras",
+          "description": "Figuras ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            142
+          ],
+          "sourcePagesLabel": "p. 142",
+          "topicTitle": "Proyecto academico 26",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 26, al PPA 9 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Medicion",
+          "description": "Medicion ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            142
+          ],
+          "sourcePagesLabel": "p. 142",
+          "topicTitle": "Proyecto academico 26",
+          "status": "suggested",
+          "reason": "Concepto vinculado al PA 26, al PPA 9 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "teacher-review"
+        }
+      ],
+      "thinkingCriteria": [
+        "Relacionar Las maravillas de una dieta correcta con una situacion concreta del entorno escolar o comunitario.",
+        "Usar plato del bien comer para explicar ideas con claridad y evidencia."
+      ],
+      "resonancePrompts": [
+        {
+          "type": "individual",
+          "prompt": "¿Como te ayuda plato del bien comer a comprender mejor Las maravillas de una dieta correcta y a explicar sus conceptos clave en tu comunidad?",
+          "conceptsActivated": [
+            "Plato del bien comer",
+            "Materia",
+            "Mezclas",
+            "Quimica"
+          ],
+          "suggestedUse": "Momento 1 de autoevaluacion"
+        }
+      ],
+      "validationStatus": {
+        "readinessLevel": "curricular-bundle-generated",
+        "readyForActivities": true,
+        "needsReviewReasons": [
+          "El horizonte textual literal queda pendiente de revision fina si se requiere cita exacta.",
+          "Los apoyos complementarios impresos no se asignan cuando no hay evidencia validada por columna."
+        ]
+      },
+      "readinessLevel": "curricular-bundle-generated",
+      "readyForActivities": true,
+      "needsReviewReasons": []
+    },
+    {
+      "id": "saberes-y-pensamiento-cientifico-3-ppa-9-pa27",
+      "projectId": "saberes-y-pensamiento-cientifico-3-ppa-9-pa27",
+      "academicProjectNumber": 27,
+      "title": "Una perfecta alianza que beneficia tu salud",
+      "projectTitle": "Una perfecta alianza que beneficia tu salud",
+      "grade": "3",
+      "field": "Saberes y Pensamiento Científico",
+      "ppaNumber": "9",
+      "partialClassroomProject": "PPA 9",
+      "partialClassroomProjectTitle": "¡Un delicioso tesoro a la hora de comer!",
+      "bookVolume": "Tomo II",
+      "sourceValidation": {
+        "sourceStatus": "linked",
+        "possibilitiesPages": [
+          23,
+          24
+        ],
+        "possibilitiesMaterialId": "grade-3-posibilidades-pos-sypc-3",
+        "possibilitiesColumnIndex": 3,
+        "columnEvidence": "Proyecto PA 27 agrupado en el PPA 9 desde el catalogo canonico y las paginas de Posibilidades."
+      },
+      "finalProduct": {
+        "title": "5. Contaminación que amenaza",
+        "source": "Video detonador validado en YouTube + Nuestro libro de proyectos Tomo II pp. 147-150",
+        "status": "confirmed-from-video-and-project"
+      },
+      "sourcePages": {
+        "nuestroLibroProyectos": [
+          {
+            "materialId": "grade-3-proyectos-nuestros-proyectos-tomo-2-tercer-grado",
+            "label": "Nuestro libro de proyectos Tomo II",
+            "startPage": 147,
+            "endPage": 150,
+            "pagesLabel": "pp. 147-150",
+            "topicTitle": "Proyecto academico 27",
+            "status": "confirmed-source"
+          }
+        ],
+        "conceptBook": [
+          {
+            "materialId": "grade-3-conceptos-saberes-y-pensamiento-cientifico-tercer-grado",
+            "label": "Saberes y Pensamiento Cientifico",
+            "startPage": 147,
+            "endPage": 147,
+            "pagesLabel": "p. 147",
+            "topicTitle": "5. contaminación que amenaza",
+            "status": "confirmed"
+          }
+        ],
+        "multiplesLenguajes": [],
+        "otherMaterials": [
+          {
+            "label": "Video PA 27: Una perfecta alianza que beneficia tu salud",
+            "reference": "",
+            "status": "confirmed"
+          }
+        ]
+      },
+      "supportMaterials": [],
+      "horizonOrPurpose": {
+        "status": "confirmed-from-project-book",
+        "text": "Elaborar una nota periodística que ofrezca datos puntuales sobre la importancia de las vitaminas, los minerales, el agua potable y la actividad física, mediante el uso de la probabilidad, para así explicar si estos elementos presentan beneficios a la salud.",
+        "source": "Visión — Horizonte 1 (p. 148)"
+      },
+      "projectExpectationHorizon": {
+        "officialText": "Elaborar una nota periodística que ofrezca datos puntuales sobre la importancia de las vitaminas, los minerales, el agua potable y la actividad física, mediante el uso de la probabilidad, para así explicar si estos elementos presentan beneficios a la salud.",
+        "studentVersion": "Elaborar una nota periodística que ofrezca datos puntuales sobre la importancia de las vitaminas, los minerales, el agua potable y la actividad física, mediante el uso de la probabilidad, para así explicar si estos elementos presentan beneficios a la salud.",
+        "horizon1Raw": "Elaborar una nota periodística que ofrezca datos puntuales sobre la importancia de las vitaminas, los minerales, el agua potable y la actividad física, mediante el uso de la probabilidad, para así explicar si estos elementos presentan beneficios a la salud.",
+        "horizon2Raw": "Llevar a cabo una investigación en fuentes confiables para conformar una base de datos que permita crear conciencia sobre la importancia y los beneficios a la salud que ofrecen las vitaminas, los minerales, el agua potable y la actividad física.",
+        "sourcePages": [
+          "Visión — Horizonte 1 (p. 148)"
+        ],
+        "evidence": "Extraído por visión de imagen de la página 148 del libro de proyectos. Confianza: alta.",
+        "status": "confirmed-from-project-book",
+        "extractedAt": "2026-06-16T05:49:08.009Z"
+      },
+      "detonatingStrategy": {
+        "status": "confirmed",
+        "title": "¡Un delicioso tesoro a la hora de comer!",
+        "text": "Video del Proyecto Parcial de Aula 9: ¡Un delicioso tesoro a la hora de comer!",
+        "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+        "scope": "partial-classroom-project",
+        "type": "video"
+      },
+      "academicProjectStrategy": {
+        "title": "5. Contaminación que amenaza • Saberes y pensamiento científico• 3er grado",
+        "text": "Video detonador del Proyecto Academico 27: Una perfecta alianza que beneficia tu salud",
+        "type": "video",
+        "status": "confirmed-from-video-and-project",
+        "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+        "scope": "academic-project"
+      },
+      "academicConcepts": [
+        {
+          "concept": "5. contaminación que amenaza",
+          "description": "5. contaminación que amenaza organiza el producto de cierre y permite comunicar lo aprendido en el proyecto.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            147
+          ],
+          "sourcePagesLabel": "p. 147",
+          "topicTitle": "Proyecto academico 27",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 27, al PPA 9 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Materia",
+          "description": "Materia ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            265
+          ],
+          "sourcePagesLabel": "p. 265",
+          "topicTitle": "Proyecto academico 27",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 27, al PPA 9 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Mezclas",
+          "description": "Mezclas ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            265
+          ],
+          "sourcePagesLabel": "p. 265",
+          "topicTitle": "Proyecto academico 27",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 27, al PPA 9 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Quimica",
+          "description": "Quimica ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            9
+          ],
+          "sourcePagesLabel": "p. 9",
+          "topicTitle": "Proyecto academico 27",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 27, al PPA 9 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Figuras",
+          "description": "Figuras ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            147
+          ],
+          "sourcePagesLabel": "p. 147",
+          "topicTitle": "Proyecto academico 27",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 27, al PPA 9 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Medicion",
+          "description": "Medicion ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            147
+          ],
+          "sourcePagesLabel": "p. 147",
+          "topicTitle": "Proyecto academico 27",
+          "status": "suggested",
+          "reason": "Concepto vinculado al PA 27, al PPA 9 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "teacher-review"
+        }
+      ],
+      "thinkingCriteria": [
+        "Relacionar Una perfecta alianza que beneficia tu salud con una situacion concreta del entorno escolar o comunitario.",
+        "Usar 5. contaminación que amenaza para explicar ideas con claridad y evidencia."
+      ],
+      "resonancePrompts": [
+        {
+          "type": "individual",
+          "prompt": "¿Como te ayuda 5. contaminación que amenaza a comprender mejor Una perfecta alianza que beneficia tu salud y a explicar sus conceptos clave en tu comunidad?",
+          "conceptsActivated": [
+            "5. contaminación que amenaza",
+            "Materia",
+            "Mezclas",
+            "Quimica"
+          ],
+          "suggestedUse": "Momento 1 de autoevaluacion"
+        }
+      ],
+      "validationStatus": {
+        "readinessLevel": "curricular-bundle-generated",
+        "readyForActivities": true,
+        "needsReviewReasons": [
+          "El horizonte textual literal queda pendiente de revision fina si se requiere cita exacta.",
+          "Los apoyos complementarios impresos no se asignan cuando no hay evidencia validada por columna."
+        ]
+      },
+      "readinessLevel": "curricular-bundle-generated",
+      "readyForActivities": true,
+      "needsReviewReasons": []
+    }
+  ]
+}

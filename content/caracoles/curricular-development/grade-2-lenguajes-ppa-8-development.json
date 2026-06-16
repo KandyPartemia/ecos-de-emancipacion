@@ -1,0 +1,863 @@
+{
+  "grade": "2",
+  "gradeLabel": "Segundo grado",
+  "field": "Lenguajes",
+  "bookVolume": "Tomo II",
+  "partialClassroomProject": "PPA 8",
+  "partialClassroomProjectTitle": "La literatura: voces entrecruzadas",
+  "generatedAt": "2026-06-02T14:59:02.880Z",
+  "notes": "Capa curricular generada por lote para 2o Lenguajes, PPA 8.",
+  "sourcesUsed": [
+    "public/caracoles/data/generated/grade-2/selectable-projects.json",
+    "content/caracoles/generated-private/grade-2/pages-index.full.json",
+    "Posibilidades de uso Lenguajes, segundo grado, pp. 23-25",
+    "Nuestro libro de proyectos Tomo II, segundo grado, pp. 39-54",
+    "Lenguajes, segundo grado, pp. 37-41, 68-75, 120-128, 149, 156-159, 179-197, 237-245, 277-288, 289-291 y 299-308; Múltiples Lenguajes pp. 26-29, 42-43 y 80-87."
+  ],
+  "partialClassroomProjectContext": {
+    "expectationHorizon": {
+      "officialText": "",
+      "sourcePages": [
+        "Nuestro libro de proyectos Tomo II pp. 39-40",
+        "Posibilidades de uso Lenguajes pp. 23-25"
+      ],
+      "evidence": "El PPA 8 reúne museo vivo, videoblog y catálogo de artesanías para leer otras culturas, revisar la propia identidad y construir juicios estéticos en diálogo con la comunidad.",
+      "status": "pending"
+    },
+    "ppaDetonatingStrategy": {
+      "title": "La literatura: voces entrecruzadas",
+      "type": "video",
+      "url": "",
+      "urlStatus": "pending-url",
+      "reference": "bit.ly/3VfglUk",
+      "source": "Nuestro libro de proyectos Tomo II pp. 39-40 + Posibilidades de uso Lenguajes pp. 23-25",
+      "scope": "partial-classroom-project",
+      "youtubeSearchQuery": "La literatura: voces entrecruzadas Lenguajes 2do grado Telesecundaria"
+    },
+    "ppaDigitalResource": {
+      "title": "Recurso informatico del bloque PPA 8",
+      "reference": "bit.ly/3WQBMwg",
+      "status": "pending-validation",
+      "source": "Nuestro libro de proyectos Tomo II pp. 39-54"
+    },
+    "validationStatus": {
+      "needsHumanReview": true,
+      "needsReviewReasons": [
+        "Las pp. 23-25 de Posibilidades pertenecen al mismo PPA 8.",
+        "La asignacion de apoyos por columna se fija por inferencia curricular documentada de izquierda a derecha.",
+        "Los enlaces cortos del video del PPA y del recurso informatico se mantienen en cautela hasta localizar un destino oficial confirmado."
+      ]
+    },
+    "columnValidation": {
+      "possibilitiesPagesReviewed": [
+        23,
+        24,
+        25
+      ],
+      "confirmedAsPpa": true,
+      "note": "Las pp. 23-25 corresponden al PPA 8 La literatura: voces entrecruzadas. Las tres columnas se sostienen por el orden de proyectos, productos y apoyos del mismo bloque.",
+      "columns": [
+        {
+          "columnIndex": 1,
+          "projectId": "lenguajes-2-ppa-8-pa22",
+          "projectTitle": "Historias, cantos y sueños de otros pueblos",
+          "finalProduct": "Museo vivo",
+          "supportMaterials": [
+            "Encuentro nocturno, pp. 80-87"
+          ]
+        },
+        {
+          "columnIndex": 2,
+          "projectId": "lenguajes-2-ppa-8-pa23",
+          "projectTitle": "Voces de nuestra identidad",
+          "finalProduct": "Videoblog",
+          "supportMaterials": [
+            "Nakasmati, pp. 42-43"
+          ]
+        },
+        {
+          "columnIndex": 3,
+          "projectId": "lenguajes-2-ppa-8-pa24",
+          "projectTitle": "Me gusta, no me gusta o sólo un poco",
+          "finalProduct": "Catálogo de artesanías",
+          "supportMaterials": [
+            "Un suceso de otro mundo, pp. 26-29"
+          ]
+        }
+      ]
+    }
+  },
+  "academicProjects": [
+    {
+      "id": "lenguajes-2-ppa-8-pa22",
+      "projectId": "lenguajes-2-ppa-8-pa22",
+      "academicProjectNumber": 22,
+      "title": "Historias, cantos y sueños de otros pueblos",
+      "projectTitle": "Historias, cantos y sueños de otros pueblos",
+      "grade": "2",
+      "field": "Lenguajes",
+      "ppaNumber": "8",
+      "partialClassroomProject": "PPA 8",
+      "partialClassroomProjectTitle": "La literatura: voces entrecruzadas",
+      "bookVolume": "Tomo II",
+      "sourceValidation": {
+        "sourceStatus": "linked",
+        "possibilitiesPages": [
+          23,
+          24,
+          25
+        ],
+        "possibilitiesMaterialId": "grade-2-posibilidades-pos-len-2",
+        "possibilitiesColumnIndex": 1,
+        "columnEvidence": "Bloque PPA 8 La literatura: voces entrecruzadas localizado en pp. 23-25; la columna 1 se confirma por el orden de proyectos, productos y continuidad del mismo bloque."
+      },
+      "finalProduct": {
+        "title": "Museo vivo",
+        "source": "Posibilidades de uso Lenguajes pp. 23-25 + Nuestro libro de proyectos Tomo II pp. 41-45",
+        "status": "confirmed"
+      },
+      "sourcePages": {
+        "nuestroLibroProyectos": [
+          {
+            "materialId": "grade-2-proyectos-nuestro-libro-de-proyectos-tomo-2-segundo-grado",
+            "label": "Nuestro libro de proyectos Tomo II",
+            "startPage": 41,
+            "endPage": 45,
+            "pagesLabel": "pp. 41-45",
+            "topicTitle": "Proyecto academico 22",
+            "status": "confirmed-source"
+          }
+        ],
+        "conceptBook": [
+          {
+            "materialId": "grade-2-conceptos-lenguajes-segundo-grado",
+            "label": "Lenguajes",
+            "startPage": 69,
+            "endPage": 75,
+            "pagesLabel": "pp. 69-75",
+            "topicTitle": "Características de las narraciones orales y las escritas",
+            "status": "confirmed-by-column-inference"
+          },
+          {
+            "materialId": "grade-2-conceptos-lenguajes-segundo-grado",
+            "label": "Lenguajes",
+            "startPage": 121,
+            "endPage": 128,
+            "pagesLabel": "pp. 121-128",
+            "topicTitle": "La memoria escrita de la tradición oral",
+            "status": "confirmed-by-column-inference"
+          },
+          {
+            "materialId": "grade-2-conceptos-lenguajes-segundo-grado",
+            "label": "Lenguajes",
+            "startPage": 38,
+            "endPage": 41,
+            "pagesLabel": "pp. 38-41",
+            "topicTitle": "Los recursos literarios como instrumentos para embellecer la lengua",
+            "status": "confirmed-by-column-inference"
+          }
+        ],
+        "multiplesLenguajes": [
+          {
+            "materialId": "grade-2-apoyo-multiples-lenguajes-segundo-grado",
+            "label": "Multiples Lenguajes",
+            "startPage": 80,
+            "endPage": 87,
+            "pagesLabel": "pp. 80-87",
+            "topicTitle": "Encuentro nocturno",
+            "status": "confirmed-by-column-inference"
+          }
+        ],
+        "otherMaterials": [
+          {
+            "label": "Video PPA 8: La literatura: voces entrecruzadas",
+            "reference": "bit.ly/3VfglUk",
+            "status": "pending-validation"
+          }
+        ]
+      },
+      "supportMaterials": [
+        {
+          "title": "Encuentro nocturno",
+          "kind": "Multiples Lenguajes",
+          "pages": "pp. 80-87",
+          "status": "confirmed-by-column-inference"
+        }
+      ],
+      "horizonOrPurpose": {
+        "status": "official",
+        "text": "Leer obras literarias de diferentes culturas, géneros y épocas, para conocer formas de vida de distintos pueblos y apreciar los valores sociales y culturales que se expresan en ellas. También, investigar acerca de las formas de vida que aparecen en estas obras literarias y exponerlas en un museo vivo para discutir posturas etnocéntricas y discriminatorias que se manifiestan en distintos medios sobre los pueblos.",
+        "source": "Nuestro libro de proyectos Tomo II p. 41"
+      },
+      "projectExpectationHorizon": {
+        "officialText": "Leer textos literarios de uno o varios pueblos, investigar sus entornos socioculturales y compartir esa información mediante un museo vivo que promueva la reflexión intercultural.",
+        "studentVersion": "Investigar obras y formas de vida de otros pueblos para organizarlas y compartirlas en un museo vivo.",
+        "sourcePages": [
+          "Nuestro libro de proyectos Tomo II p. 42"
+        ],
+        "evidence": "La propuesta de solución plantea con claridad lectura, investigación sociocultural y exposición en museo vivo como secuencia del proyecto.",
+        "status": "official"
+      },
+      "detonatingStrategy": {
+        "status": "pending-url",
+        "text": "Video PPA 8: La literatura: voces entrecruzadas",
+        "reference": "bit.ly/3VfglUk",
+        "source": "Nuestro libro de proyectos Tomo II pp. 39-40 + Posibilidades de uso Lenguajes pp. 23-25"
+      },
+      "academicProjectStrategy": {
+        "title": "Museo vivo",
+        "text": "Seleccionar obras literarias, investigar los pueblos que las produjeron y organizar un museo vivo que invite al diálogo intercultural.",
+        "type": "project-product",
+        "status": "confirmed-from-project-book",
+        "source": "Nuestro libro de proyectos Tomo II pp. 41-45"
+      },
+      "academicConcepts": [
+        {
+          "concept": "museo vivo",
+          "description": "Museo vivo como producto de cierre para organizar y comunicar aprendizajes del proyecto.",
+          "sourceBook": "Nuestro libro de proyectos Tomo II",
+          "sourcePages": [
+            41,
+            45
+          ],
+          "sourcePagesLabel": "pp. 41-45",
+          "topicTitle": "Proyecto academico 22",
+          "status": "confirmed",
+          "reason": "Posibilidades y el propio proyecto fijan Museo vivo como producto final del PA 22.",
+          "pedagogicalUse": "Da una forma concreta de socializar lo comprendido sobre la lectura de obras literarias de distintos pueblos para conocer sus formas de vida y promover un diálogo intercultural.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "diálogo intercultural",
+          "description": "Intercambio respetuoso entre distintas formas de vida, saberes y experiencias sin reducir unas a otras.",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            121,
+            128
+          ],
+          "sourcePagesLabel": "pp. 121-128",
+          "topicTitle": "La memoria escrita de la tradición oral",
+          "status": "confirmed",
+          "reason": "La fuente validada \"La memoria escrita de la tradición oral\" aporta base suficiente para trabajar diálogo intercultural dentro del proyecto 22.",
+          "pedagogicalUse": "Ayuda a fortalecer museo vivo y a explicar la lectura de obras literarias de distintos pueblos para conocer sus formas de vida y promover un diálogo intercultural con mayor claridad mediante diálogo intercultural.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "formas de vida de otros pueblos",
+          "description": "Prácticas, valores y modos de organización social que se expresan en los textos y contextos de diversos pueblos.",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            121,
+            128
+          ],
+          "sourcePagesLabel": "pp. 121-128",
+          "topicTitle": "La memoria escrita de la tradición oral",
+          "status": "confirmed",
+          "reason": "La fuente validada \"La memoria escrita de la tradición oral\" aporta base suficiente para trabajar formas de vida de otros pueblos dentro del proyecto 22.",
+          "pedagogicalUse": "Ayuda a fortalecer museo vivo y a explicar la lectura de obras literarias de distintos pueblos para conocer sus formas de vida y promover un diálogo intercultural con mayor claridad mediante formas de vida de otros pueblos.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "literaturas de los pueblos originarios",
+          "description": "Producciones literarias vinculadas con pueblos originarios que resguardan memoria, sensibilidad y formas de nombrar el mundo.",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            121,
+            128
+          ],
+          "sourcePagesLabel": "pp. 121-128",
+          "topicTitle": "La memoria escrita de la tradición oral",
+          "status": "confirmed",
+          "reason": "La fuente validada \"La memoria escrita de la tradición oral\" aporta base suficiente para trabajar literaturas de los pueblos originarios dentro del proyecto 22.",
+          "pedagogicalUse": "Ayuda a fortalecer museo vivo y a explicar la lectura de obras literarias de distintos pueblos para conocer sus formas de vida y promover un diálogo intercultural con mayor claridad mediante literaturas de los pueblos originarios.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "diversidad cultural",
+          "description": "Diversidad cultural es una idea clave para comprender la lectura de obras literarias de distintos pueblos para conocer sus formas de vida y promover un diálogo intercultural.",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            121,
+            128
+          ],
+          "sourcePagesLabel": "pp. 121-128",
+          "topicTitle": "La memoria escrita de la tradición oral",
+          "status": "confirmed",
+          "reason": "La fuente validada \"La memoria escrita de la tradición oral\" aporta base suficiente para trabajar diversidad cultural dentro del proyecto 22.",
+          "pedagogicalUse": "Ayuda a fortalecer museo vivo y a explicar la lectura de obras literarias de distintos pueblos para conocer sus formas de vida y promover un diálogo intercultural con mayor claridad mediante diversidad cultural.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "posturas etnocéntricas",
+          "description": "Miradas que colocan una cultura como medida de las demás y obstaculizan la comprensión intercultural.",
+          "sourceBook": "Nuestro libro de proyectos Tomo II",
+          "sourcePages": [
+            41,
+            42,
+            43
+          ],
+          "sourcePagesLabel": "pp. 41-43",
+          "topicTitle": "Proyecto académico 22",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Proyecto académico 22\" aporta base suficiente para trabajar posturas etnocéntricas dentro del proyecto 22.",
+          "pedagogicalUse": "Ayuda a fortalecer museo vivo y a explicar la lectura de obras literarias de distintos pueblos para conocer sus formas de vida y promover un diálogo intercultural con mayor claridad mediante posturas etnocéntricas.",
+          "activityReadiness": "usable-for-autoevaluation"
+        }
+      ],
+      "thinkingCriteria": [
+        "Relacionar la lectura de obras literarias de distintos pueblos para conocer sus formas de vida y promover un diálogo intercultural con situaciones cercanas a la comunidad.",
+        "Usar museo vivo para explicar y no solo para recopilar informacion.",
+        "Distinguir entre mencionar conceptos y comprender como dialogan entre si dentro del proyecto."
+      ],
+      "validationStatus": {
+        "readinessLevel": "development-partial",
+        "readyForActivities": false,
+        "needsReviewReasons": [
+          "El bloque 8 ya es usable como lectura docente, pero el video del PPA 8 y el recurso informatico siguen pendientes de validacion de destino final.",
+          "La asignacion de apoyos de Posibilidades se sostiene por inferencia curricular documentada y no por OCR perfectamente separado por columnas.",
+          "No mover a actividades interactivas ni desbloquear juegos completos hasta ampliar validacion de videos y recursos complementarios."
+        ]
+      },
+      "readinessLevel": "development-partial",
+      "readyForActivities": false,
+      "needsReviewReasons": [
+        "No mover a actividades interactivas ni desbloquear juegos completos."
+      ],
+      "roleInPpa": "Abre el bloque al poner la literatura de otros pueblos en el centro de una experiencia expositiva y conversacional.",
+      "pedagogicalUse": "Conviene trabajar Historias, cantos y sueños de otros pueblos como una oportunidad para profundizar en la lectura de obras literarias de distintos pueblos para conocer sus formas de vida y promover un diálogo intercultural sin separar contenido, comunidad y producto final.",
+      "teacherNotes": [
+        "Conviene partir de ejemplos cercanos y después pasar al lenguaje mas abstracto del campo.",
+        "El producto Museo vivo gana fuerza cuando se usa para explicar y no solo para exhibir informacion.",
+        "Es mejor seleccionar pocos conceptos bien comprendidos que saturar el trabajo con terminos aislados."
+      ],
+      "resonancePrompts": [
+        {
+          "type": "individual",
+          "prompt": "¿Qué comprendes mejor sobre la lectura de obras literarias de distintos pueblos para conocer sus formas de vida y promover un diálogo intercultural después de elaborar museo vivo?"
+        },
+        {
+          "type": "community",
+          "prompt": "¿Qué diálogos comunitarios podrían fortalecerse si compartimos museo vivo y lo ponemos en conversación con otras personas?"
+        }
+      ],
+      "notReadyFor": [
+        "full-games",
+        "summative-exam"
+      ]
+    },
+    {
+      "id": "lenguajes-2-ppa-8-pa23",
+      "projectId": "lenguajes-2-ppa-8-pa23",
+      "academicProjectNumber": 23,
+      "title": "Voces de nuestra identidad",
+      "projectTitle": "Voces de nuestra identidad",
+      "grade": "2",
+      "field": "Lenguajes",
+      "ppaNumber": "8",
+      "partialClassroomProject": "PPA 8",
+      "partialClassroomProjectTitle": "La literatura: voces entrecruzadas",
+      "bookVolume": "Tomo II",
+      "sourceValidation": {
+        "sourceStatus": "linked",
+        "possibilitiesPages": [
+          23,
+          24,
+          25
+        ],
+        "possibilitiesMaterialId": "grade-2-posibilidades-pos-len-2",
+        "possibilitiesColumnIndex": 2,
+        "columnEvidence": "Bloque PPA 8 La literatura: voces entrecruzadas localizado en pp. 23-25; la columna 2 se confirma por el orden de proyectos, productos y continuidad del mismo bloque."
+      },
+      "finalProduct": {
+        "title": "Videoblog",
+        "source": "Posibilidades de uso Lenguajes pp. 23-25 + Nuestro libro de proyectos Tomo II pp. 46-49",
+        "status": "confirmed"
+      },
+      "sourcePages": {
+        "nuestroLibroProyectos": [
+          {
+            "materialId": "grade-2-proyectos-nuestro-libro-de-proyectos-tomo-2-segundo-grado",
+            "label": "Nuestro libro de proyectos Tomo II",
+            "startPage": 46,
+            "endPage": 49,
+            "pagesLabel": "pp. 46-49",
+            "topicTitle": "Proyecto academico 23",
+            "status": "confirmed-source"
+          }
+        ],
+        "conceptBook": [
+          {
+            "materialId": "grade-2-conceptos-lenguajes-segundo-grado",
+            "label": "Lenguajes",
+            "startPage": 180,
+            "endPage": 184,
+            "pagesLabel": "pp. 180-184",
+            "topicTitle": "Las narraciones y las descripciones en lenguas indígenas: recursos para reconstruir aspectos de la realidad y la identidad",
+            "status": "confirmed-by-column-inference"
+          },
+          {
+            "materialId": "grade-2-conceptos-lenguajes-segundo-grado",
+            "label": "Lenguajes",
+            "startPage": 193,
+            "endPage": 197,
+            "pagesLabel": "pp. 193-197",
+            "topicTitle": "La interculturalidad en la convivencia social",
+            "status": "confirmed-by-column-inference"
+          },
+          {
+            "materialId": "grade-2-conceptos-lenguajes-segundo-grado",
+            "label": "Lenguajes",
+            "startPage": 238,
+            "endPage": 245,
+            "pagesLabel": "pp. 238-245",
+            "topicTitle": "Textos contemporáneos sobre literatura indígena y de afrodescendientes",
+            "status": "confirmed-by-column-inference"
+          }
+        ],
+        "multiplesLenguajes": [
+          {
+            "materialId": "grade-2-apoyo-multiples-lenguajes-segundo-grado",
+            "label": "Multiples Lenguajes",
+            "startPage": 42,
+            "endPage": 43,
+            "pagesLabel": "pp. 42-43",
+            "topicTitle": "Nakasmati",
+            "status": "confirmed-by-column-inference"
+          }
+        ],
+        "otherMaterials": [
+          {
+            "label": "Video PPA 8: La literatura: voces entrecruzadas",
+            "reference": "bit.ly/3VfglUk",
+            "status": "pending-validation"
+          }
+        ]
+      },
+      "supportMaterials": [
+        {
+          "title": "Nakasmati",
+          "kind": "Multiples Lenguajes",
+          "pages": "pp. 42-43",
+          "status": "confirmed-by-column-inference"
+        }
+      ],
+      "horizonOrPurpose": {
+        "status": "official",
+        "text": "Leer textos literarios de diversos autores, géneros, pueblos y épocas para apreciar las identidades individuales y colectivas que se expresan en ellos; también, interpretar los contenidos referentes a los hechos históricos, experiencias personales, prácticas culturales y lugares relevantes relacionados con los mismos; esto con el fin de reflexionar sobre las propias identidades y crear un videoblog que compartirán con la comunidad como una afirmación de autonomía y libertad creadora.",
+        "source": "Nuestro libro de proyectos Tomo II p. 46"
+      },
+      "projectExpectationHorizon": {
+        "officialText": "Leer textos literarios que generen preguntas sobre la identidad, investigar a sus autores y escribir textos propios que luego se adapten a un videoblog.",
+        "studentVersion": "Leer textos sobre identidad y crear otros propios para compartirlos en un videoblog con intención personal y comunitaria.",
+        "sourcePages": [
+          "Nuestro libro de proyectos Tomo II p. 47"
+        ],
+        "evidence": "Los objetivos del proyecto articulan lectura, indagación biográfica, escritura propia y adaptación al videoblog.",
+        "status": "official"
+      },
+      "detonatingStrategy": {
+        "status": "pending-url",
+        "text": "Video PPA 8: La literatura: voces entrecruzadas",
+        "reference": "bit.ly/3VfglUk",
+        "source": "Nuestro libro de proyectos Tomo II pp. 44-45 + Posibilidades de uso Lenguajes pp. 23-25"
+      },
+      "academicProjectStrategy": {
+        "title": "Videoblog",
+        "text": "Analizar identidades presentes en la literatura, escribir textos propios y adaptarlos en comunidad a un videoblog con voz propia.",
+        "type": "project-product",
+        "status": "confirmed-from-project-book",
+        "source": "Nuestro libro de proyectos Tomo II pp. 46-49"
+      },
+      "academicConcepts": [
+        {
+          "concept": "videoblog",
+          "description": "Videoblog como producto de cierre para organizar y comunicar aprendizajes del proyecto.",
+          "sourceBook": "Nuestro libro de proyectos Tomo II",
+          "sourcePages": [
+            46,
+            49
+          ],
+          "sourcePagesLabel": "pp. 46-49",
+          "topicTitle": "Proyecto academico 23",
+          "status": "confirmed",
+          "reason": "Posibilidades y el propio proyecto fijan Videoblog como producto final del PA 23.",
+          "pedagogicalUse": "Da una forma concreta de socializar lo comprendido sobre la lectura y creación literaria para expresar identidades individuales y colectivas en distintos lenguajes.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "identidad individual",
+          "description": "Rasgos y formas de verse a sí mismo que una persona expresa en sus palabras, elecciones y experiencias.",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            180,
+            184
+          ],
+          "sourcePagesLabel": "pp. 180-184",
+          "topicTitle": "Las narraciones y las descripciones en lenguas indígenas: recursos para reconstruir aspectos de la realidad y la identidad",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Las narraciones y las descripciones en lenguas indígenas: recursos para reconstruir aspectos de la realidad y la identidad\" aporta base suficiente para trabajar identidad individual dentro del proyecto 23.",
+          "pedagogicalUse": "Ayuda a fortalecer videoblog y a explicar la lectura y creación literaria para expresar identidades individuales y colectivas en distintos lenguajes con mayor claridad mediante identidad individual.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "identidad colectiva",
+          "description": "Sentido de pertenencia a comunidades, pueblos o grupos que comparten memoria, prácticas o valores.",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            180,
+            184
+          ],
+          "sourcePagesLabel": "pp. 180-184",
+          "topicTitle": "Las narraciones y las descripciones en lenguas indígenas: recursos para reconstruir aspectos de la realidad y la identidad",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Las narraciones y las descripciones en lenguas indígenas: recursos para reconstruir aspectos de la realidad y la identidad\" aporta base suficiente para trabajar identidad colectiva dentro del proyecto 23.",
+          "pedagogicalUse": "Ayuda a fortalecer videoblog y a explicar la lectura y creación literaria para expresar identidades individuales y colectivas en distintos lenguajes con mayor claridad mediante identidad colectiva.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "autonomía y libertad creadora",
+          "description": "Autonomía y libertad creadora es una idea clave para comprender la lectura y creación literaria para expresar identidades individuales y colectivas en distintos lenguajes.",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            238,
+            245
+          ],
+          "sourcePagesLabel": "pp. 238-245",
+          "topicTitle": "Textos contemporáneos sobre literatura indígena y de afrodescendientes",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Textos contemporáneos sobre literatura indígena y de afrodescendientes\" aporta base suficiente para trabajar autonomía y libertad creadora dentro del proyecto 23.",
+          "pedagogicalUse": "Ayuda a fortalecer videoblog y a explicar la lectura y creación literaria para expresar identidades individuales y colectivas en distintos lenguajes con mayor claridad mediante autonomía y libertad creadora.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "prácticas culturales",
+          "description": "Prácticas culturales es una idea clave para comprender la lectura y creación literaria para expresar identidades individuales y colectivas en distintos lenguajes.",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            193,
+            197
+          ],
+          "sourcePagesLabel": "pp. 193-197",
+          "topicTitle": "La interculturalidad en la convivencia social",
+          "status": "confirmed",
+          "reason": "La fuente validada \"La interculturalidad en la convivencia social\" aporta base suficiente para trabajar prácticas culturales dentro del proyecto 23.",
+          "pedagogicalUse": "Ayuda a fortalecer videoblog y a explicar la lectura y creación literaria para expresar identidades individuales y colectivas en distintos lenguajes con mayor claridad mediante prácticas culturales.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "literatura indígena y afrodescendiente",
+          "description": "Producciones literarias que expresan memoria, identidad y experiencia desde pueblos indígenas y afrodescendientes.",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            238,
+            245
+          ],
+          "sourcePagesLabel": "pp. 238-245",
+          "topicTitle": "Textos contemporáneos sobre literatura indígena y de afrodescendientes",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Textos contemporáneos sobre literatura indígena y de afrodescendientes\" aporta base suficiente para trabajar literatura indígena y afrodescendiente dentro del proyecto 23.",
+          "pedagogicalUse": "Ayuda a fortalecer videoblog y a explicar la lectura y creación literaria para expresar identidades individuales y colectivas en distintos lenguajes con mayor claridad mediante literatura indígena y afrodescendiente.",
+          "activityReadiness": "usable-for-autoevaluation"
+        }
+      ],
+      "thinkingCriteria": [
+        "Relacionar la lectura y creación literaria para expresar identidades individuales y colectivas en distintos lenguajes con situaciones cercanas a la comunidad.",
+        "Usar videoblog para explicar y no solo para recopilar informacion.",
+        "Distinguir entre mencionar conceptos y comprender como dialogan entre si dentro del proyecto."
+      ],
+      "validationStatus": {
+        "readinessLevel": "development-partial",
+        "readyForActivities": false,
+        "needsReviewReasons": [
+          "El bloque 8 ya es usable como lectura docente, pero el video del PPA 8 y el recurso informatico siguen pendientes de validacion de destino final.",
+          "La asignacion de apoyos de Posibilidades se sostiene por inferencia curricular documentada y no por OCR perfectamente separado por columnas.",
+          "No mover a actividades interactivas ni desbloquear juegos completos hasta ampliar validacion de videos y recursos complementarios."
+        ]
+      },
+      "readinessLevel": "development-partial",
+      "readyForActivities": false,
+      "needsReviewReasons": [
+        "No mover a actividades interactivas ni desbloquear juegos completos."
+      ],
+      "roleInPpa": "Profundiza el bloque al vincular la lectura de otras identidades con la afirmación de la propia en un formato contemporáneo.",
+      "pedagogicalUse": "Conviene trabajar Voces de nuestra identidad como una oportunidad para profundizar en la lectura y creación literaria para expresar identidades individuales y colectivas en distintos lenguajes sin separar contenido, comunidad y producto final.",
+      "teacherNotes": [
+        "Conviene partir de ejemplos cercanos y después pasar al lenguaje mas abstracto del campo.",
+        "El producto Videoblog gana fuerza cuando se usa para explicar y no solo para exhibir informacion.",
+        "Es mejor seleccionar pocos conceptos bien comprendidos que saturar el trabajo con terminos aislados."
+      ],
+      "resonancePrompts": [
+        {
+          "type": "individual",
+          "prompt": "¿Qué comprendes mejor sobre la lectura y creación literaria para expresar identidades individuales y colectivas en distintos lenguajes después de elaborar videoblog?"
+        },
+        {
+          "type": "community",
+          "prompt": "¿Qué diálogos comunitarios podrían fortalecerse si compartimos videoblog y lo ponemos en conversación con otras personas?"
+        }
+      ],
+      "notReadyFor": [
+        "full-games",
+        "summative-exam"
+      ]
+    },
+    {
+      "id": "lenguajes-2-ppa-8-pa24",
+      "projectId": "lenguajes-2-ppa-8-pa24",
+      "academicProjectNumber": 24,
+      "title": "Me gusta, no me gusta o sólo un poco",
+      "projectTitle": "Me gusta, no me gusta o sólo un poco",
+      "grade": "2",
+      "field": "Lenguajes",
+      "ppaNumber": "8",
+      "partialClassroomProject": "PPA 8",
+      "partialClassroomProjectTitle": "La literatura: voces entrecruzadas",
+      "bookVolume": "Tomo II",
+      "sourceValidation": {
+        "sourceStatus": "linked",
+        "possibilitiesPages": [
+          23,
+          24,
+          25
+        ],
+        "possibilitiesMaterialId": "grade-2-posibilidades-pos-len-2",
+        "possibilitiesColumnIndex": 3,
+        "columnEvidence": "Bloque PPA 8 La literatura: voces entrecruzadas localizado en pp. 23-25; la columna 3 se confirma por el orden de proyectos, productos y continuidad del mismo bloque."
+      },
+      "finalProduct": {
+        "title": "Catálogo de artesanías",
+        "source": "Posibilidades de uso Lenguajes pp. 23-25 + Nuestro libro de proyectos Tomo II pp. 50-54",
+        "status": "confirmed"
+      },
+      "sourcePages": {
+        "nuestroLibroProyectos": [
+          {
+            "materialId": "grade-2-proyectos-nuestro-libro-de-proyectos-tomo-2-segundo-grado",
+            "label": "Nuestro libro de proyectos Tomo II",
+            "startPage": 50,
+            "endPage": 54,
+            "pagesLabel": "pp. 50-54",
+            "topicTitle": "Proyecto academico 24",
+            "status": "confirmed-source"
+          }
+        ],
+        "conceptBook": [
+          {
+            "materialId": "grade-2-conceptos-lenguajes-segundo-grado",
+            "label": "Lenguajes",
+            "startPage": 278,
+            "endPage": 279,
+            "pagesLabel": "pp. 278-279",
+            "topicTitle": "Criterios de evaluación estética",
+            "status": "confirmed-by-column-inference"
+          },
+          {
+            "materialId": "grade-2-conceptos-lenguajes-segundo-grado",
+            "label": "Lenguajes",
+            "startPage": 279,
+            "endPage": 282,
+            "pagesLabel": "pp. 279-282",
+            "topicTitle": "Lo clandestino y la contracultura",
+            "status": "confirmed-by-column-inference"
+          },
+          {
+            "materialId": "grade-2-conceptos-lenguajes-segundo-grado",
+            "label": "Lenguajes",
+            "startPage": 284,
+            "endPage": 288,
+            "pagesLabel": "pp. 284-288",
+            "topicTitle": "Las artes en la escuela",
+            "status": "confirmed-by-column-inference"
+          }
+        ],
+        "multiplesLenguajes": [
+          {
+            "materialId": "grade-2-apoyo-multiples-lenguajes-segundo-grado",
+            "label": "Multiples Lenguajes",
+            "startPage": 26,
+            "endPage": 29,
+            "pagesLabel": "pp. 26-29",
+            "topicTitle": "Un suceso de otro mundo",
+            "status": "confirmed-by-column-inference"
+          }
+        ],
+        "otherMaterials": [
+          {
+            "label": "Video PPA 8: La literatura: voces entrecruzadas",
+            "reference": "bit.ly/3VfglUk",
+            "status": "pending-validation"
+          }
+        ]
+      },
+      "supportMaterials": [
+        {
+          "title": "Un suceso de otro mundo",
+          "kind": "Multiples Lenguajes",
+          "pages": "pp. 26-29",
+          "status": "confirmed-by-column-inference"
+        }
+      ],
+      "horizonOrPurpose": {
+        "status": "official",
+        "text": "Compartir, en la comunidad, juicios estéticos y comentarios críticos de un catálogo de artesanías de distintos pueblos, culturas, épocas y lugares, con el fin de apreciar los sentimientos, las emociones y las ideas que generan en los espectadores, además de debatir en torno a los efectos estéticos que producen las obras.",
+        "source": "Nuestro libro de proyectos Tomo II p. 50"
+      },
+      "projectExpectationHorizon": {
+        "officialText": "Seleccionar artesanías, investigar su origen y utilidad, y construir juicios estéticos y comentarios críticos para promover su apreciación en la comunidad.",
+        "studentVersion": "Elaborar un catálogo de artesanías con comentarios críticos y juicios estéticos que permitan apreciarlas y discutirlas.",
+        "sourcePages": [
+          "Nuestro libro de proyectos Tomo II p. 51"
+        ],
+        "evidence": "La formulación de objetivos vincula selección de obras, investigación, comentario crítico y difusión comunitaria del catálogo.",
+        "status": "official"
+      },
+      "detonatingStrategy": {
+        "status": "pending-url",
+        "text": "Video PPA 8: La literatura: voces entrecruzadas",
+        "reference": "bit.ly/3VfglUk",
+        "source": "Nuestro libro de proyectos Tomo II pp. 48-49 + Posibilidades de uso Lenguajes pp. 23-25"
+      },
+      "academicProjectStrategy": {
+        "title": "Catálogo de artesanías",
+        "text": "Observar artesanías, analizar sus efectos estéticos y reunir valoraciones críticas en un catálogo compartido con la comunidad.",
+        "type": "project-product",
+        "status": "confirmed-from-project-book",
+        "source": "Nuestro libro de proyectos Tomo II pp. 50-54"
+      },
+      "academicConcepts": [
+        {
+          "concept": "catálogo de artesanías",
+          "description": "Catálogo de artesanías como producto de cierre para organizar y comunicar aprendizajes del proyecto.",
+          "sourceBook": "Nuestro libro de proyectos Tomo II",
+          "sourcePages": [
+            50,
+            54
+          ],
+          "sourcePagesLabel": "pp. 50-54",
+          "topicTitle": "Proyecto academico 24",
+          "status": "confirmed",
+          "reason": "Posibilidades y el propio proyecto fijan Catálogo de artesanías como producto final del PA 24.",
+          "pedagogicalUse": "Da una forma concreta de socializar lo comprendido sobre la formulación de juicios estéticos y comentarios críticos sobre artesanías para dialogar con sus efectos y valores culturales.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "juicio estético",
+          "description": "Valoración razonada sobre una obra a partir de lo que hace sentir, pensar y apreciar.",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            278,
+            279
+          ],
+          "sourcePagesLabel": "pp. 278-279",
+          "topicTitle": "Criterios de evaluación estética",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Criterios de evaluación estética\" aporta base suficiente para trabajar juicio estético dentro del proyecto 24.",
+          "pedagogicalUse": "Ayuda a fortalecer catálogo de artesanías y a explicar la formulación de juicios estéticos y comentarios críticos sobre artesanías para dialogar con sus efectos y valores culturales con mayor claridad mediante juicio estético.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "comentario crítico",
+          "description": "Texto u opinión argumentada que explica y valora rasgos de una obra o manifestación cultural.",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            278,
+            279
+          ],
+          "sourcePagesLabel": "pp. 278-279",
+          "topicTitle": "Criterios de evaluación estética",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Criterios de evaluación estética\" aporta base suficiente para trabajar comentario crítico dentro del proyecto 24.",
+          "pedagogicalUse": "Ayuda a fortalecer catálogo de artesanías y a explicar la formulación de juicios estéticos y comentarios críticos sobre artesanías para dialogar con sus efectos y valores culturales con mayor claridad mediante comentario crítico.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "efectos estéticos",
+          "description": "Sensaciones, emociones e ideas que una obra despierta en quien la aprecia.",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            278,
+            279
+          ],
+          "sourcePagesLabel": "pp. 278-279",
+          "topicTitle": "Criterios de evaluación estética",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Criterios de evaluación estética\" aporta base suficiente para trabajar efectos estéticos dentro del proyecto 24.",
+          "pedagogicalUse": "Ayuda a fortalecer catálogo de artesanías y a explicar la formulación de juicios estéticos y comentarios críticos sobre artesanías para dialogar con sus efectos y valores culturales con mayor claridad mediante efectos estéticos.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "artesanías de la vida cotidiana",
+          "description": "Objetos elaborados con intención cultural, práctica o simbólica que forman parte de la experiencia diaria.",
+          "sourceBook": "Nuestro libro de proyectos Tomo II",
+          "sourcePages": [
+            50,
+            51,
+            52
+          ],
+          "sourcePagesLabel": "pp. 50-52",
+          "topicTitle": "Proyecto académico 24",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Proyecto académico 24\" aporta base suficiente para trabajar artesanías de la vida cotidiana dentro del proyecto 24.",
+          "pedagogicalUse": "Ayuda a fortalecer catálogo de artesanías y a explicar la formulación de juicios estéticos y comentarios críticos sobre artesanías para dialogar con sus efectos y valores culturales con mayor claridad mediante artesanías de la vida cotidiana.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "criterio propio",
+          "description": "Capacidad de construir una valoración personal dialogando con otras opiniones sin depender por completo de ellas.",
+          "sourceBook": "Nuestro libro de proyectos Tomo II",
+          "sourcePages": [
+            50,
+            52,
+            53
+          ],
+          "sourcePagesLabel": "pp. 50-53",
+          "topicTitle": "Proyecto académico 24",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Proyecto académico 24\" aporta base suficiente para trabajar criterio propio dentro del proyecto 24.",
+          "pedagogicalUse": "Ayuda a fortalecer catálogo de artesanías y a explicar la formulación de juicios estéticos y comentarios críticos sobre artesanías para dialogar con sus efectos y valores culturales con mayor claridad mediante criterio propio.",
+          "activityReadiness": "usable-for-autoevaluation"
+        }
+      ],
+      "thinkingCriteria": [
+        "Relacionar la formulación de juicios estéticos y comentarios críticos sobre artesanías para dialogar con sus efectos y valores culturales con situaciones cercanas a la comunidad.",
+        "Usar catálogo de artesanías para explicar y no solo para recopilar informacion.",
+        "Distinguir entre mencionar conceptos y comprender como dialogan entre si dentro del proyecto."
+      ],
+      "validationStatus": {
+        "readinessLevel": "development-partial",
+        "readyForActivities": false,
+        "needsReviewReasons": [
+          "El bloque 8 ya es usable como lectura docente, pero el video del PPA 8 y el recurso informatico siguen pendientes de validacion de destino final.",
+          "La asignacion de apoyos de Posibilidades se sostiene por inferencia curricular documentada y no por OCR perfectamente separado por columnas.",
+          "No mover a actividades interactivas ni desbloquear juegos completos hasta ampliar validacion de videos y recursos complementarios."
+        ]
+      },
+      "readinessLevel": "development-partial",
+      "readyForActivities": false,
+      "needsReviewReasons": [
+        "No mover a actividades interactivas ni desbloquear juegos completos."
+      ],
+      "roleInPpa": "Cierra el bloque al convertir la apreciación de obras de la vida cotidiana en un ejercicio de criterio propio y diálogo crítico.",
+      "pedagogicalUse": "Conviene trabajar Me gusta, no me gusta o sólo un poco como una oportunidad para profundizar en la formulación de juicios estéticos y comentarios críticos sobre artesanías para dialogar con sus efectos y valores culturales sin separar contenido, comunidad y producto final.",
+      "teacherNotes": [
+        "Conviene partir de ejemplos cercanos y después pasar al lenguaje mas abstracto del campo.",
+        "El producto Catálogo de artesanías gana fuerza cuando se usa para explicar y no solo para exhibir informacion.",
+        "Es mejor seleccionar pocos conceptos bien comprendidos que saturar el trabajo con terminos aislados."
+      ],
+      "resonancePrompts": [
+        {
+          "type": "individual",
+          "prompt": "¿Qué comprendes mejor sobre la formulación de juicios estéticos y comentarios críticos sobre artesanías para dialogar con sus efectos y valores culturales después de elaborar catálogo de artesanías?"
+        },
+        {
+          "type": "community",
+          "prompt": "¿Qué diálogos comunitarios podrían fortalecerse si compartimos catálogo de artesanías y lo ponemos en conversación con otras personas?"
+        }
+      ],
+      "notReadyFor": [
+        "full-games",
+        "summative-exam"
+      ]
+    }
+  ]
+}

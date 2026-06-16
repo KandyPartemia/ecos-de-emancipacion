@@ -1,0 +1,666 @@
+{
+  "grade": "1",
+  "gradeLabel": "Primer grado",
+  "field": "Saberes y Pensamiento Cientifico",
+  "bookVolume": "Tomo III",
+  "partialClassroomProject": "PPA 11",
+  "partialClassroomProjectTitle": "Buenos ejemplos!",
+  "generatedAt": "2026-06-01T12:35:09.558Z",
+  "notes": "Capa curricular aislada para 1o Saberes y Pensamiento Cientifico PPA 11.",
+  "sourcesUsed": [
+    "reports/caracoles/grade1-lenguajes-reading-teacher-hito-2-standard.md",
+    "content/caracoles/curricular-links/grade-1-project-source-links.json",
+    "content/caracoles/generated-private/grade-1/pages-index.full.json",
+    "Posibilidades de uso SyPC, primer grado, p. 28",
+    "Nuestro libro de proyectos Tomo III, primer grado, pp. 88-101",
+    "Saberes y Pensamiento Cientifico, pp. 33-38, 74-79 y 177-182"
+  ],
+  "partialClassroomProjectContext": {
+    "expectationHorizon": {
+      "officialText": "",
+      "sourcePages": [
+        "Nuestro libro de proyectos Tomo III pp. 88-101",
+        "Posibilidades de uso SyPC pp. 28-28"
+      ],
+      "evidence": "El PPA 11 articula jerarquia de operaciones, ecuaciones lineales y sucesiones como contenidos que pueden explicarse con ejemplos claros y productos visuales breves.",
+      "status": "pending"
+    },
+    "ppaDetonatingStrategy": {
+      "title": "Buenos ejemplos!",
+      "type": "video",
+      "url": "",
+      "urlStatus": "pending-url",
+      "reference": "bit.ly/3VfglUk",
+      "source": "Nuestro libro de proyectos Tomo III pp. 88-101 + Posibilidades de uso SyPC pp. 28-28",
+      "scope": "partial-classroom-project",
+      "youtubeSearchQuery": "Buenos ejemplos! Saberes y Pensamiento Cientifico 1er grado Telesecundaria"
+    },
+    "ppaDigitalResource": {
+      "title": "Recurso informatico del bloque PPA 11",
+      "reference": "bit.ly/3WQBMwg",
+      "status": "pending-validation",
+      "source": "Nuestro libro de proyectos Tomo III, cierre del PPA 11"
+    },
+    "validationStatus": {
+      "needsHumanReview": true,
+      "needsReviewReasons": [
+        "La p. 28 de Posibilidades corresponde al mismo bloque del PPA 11.",
+        "No se localizaron apoyos de Multiples Lenguajes confirmados para este bloque.",
+        "El video del PPA y el recurso informatico siguen en cautela mediante enlaces cortos."
+      ]
+    },
+    "columnValidation": {
+      "possibilitiesPagesReviewed": [
+        28
+      ],
+      "confirmedAsPpa": true,
+      "note": "La p. 28 de Posibilidades corresponde al PPA 11 completo. Confirma orden de proyectos y productos, pero no deja apoyos de Multiples Lenguajes plenamente legibles.",
+      "columns": [
+        {
+          "columnIndex": 1,
+          "projectId": "saberes-y-pensamiento-cientifico-1-ppa-11-pa31",
+          "projectTitle": "Trucos ingeniosos con incognitas",
+          "finalProduct": "Rotafolio sencillo",
+          "supportMaterials": []
+        },
+        {
+          "columnIndex": 2,
+          "projectId": "saberes-y-pensamiento-cientifico-1-ppa-11-pa32",
+          "projectTitle": "Los modelos representan la realidad",
+          "finalProduct": "Rotafolio con recortes",
+          "supportMaterials": []
+        },
+        {
+          "columnIndex": 3,
+          "projectId": "saberes-y-pensamiento-cientifico-1-ppa-11-pa33",
+          "projectTitle": "Sucesiones de progresion aritmetica",
+          "finalProduct": "Esquema con ilustraciones",
+          "supportMaterials": []
+        }
+      ]
+    }
+  },
+  "academicProjects": [
+    {
+      "id": "saberes-y-pensamiento-cientifico-1-ppa-11-pa31",
+      "projectId": "saberes-y-pensamiento-cientifico-1-ppa-11-pa31",
+      "academicProjectNumber": 31,
+      "title": "Trucos ingeniosos con incognitas",
+      "projectTitle": "Trucos ingeniosos con incognitas",
+      "grade": "1",
+      "field": "Saberes y Pensamiento Cientifico",
+      "ppaNumber": "11",
+      "partialClassroomProject": "PPA 11",
+      "partialClassroomProjectTitle": "Buenos ejemplos!",
+      "bookVolume": "Tomo III",
+      "sourceValidation": {
+        "sourceStatus": "linked",
+        "possibilitiesPages": [
+          28
+        ],
+        "possibilitiesMaterialId": "grade-1-posibilidades-pos-sypc-1",
+        "possibilitiesColumnIndex": 1,
+        "columnEvidence": "Bloque PPA 11 Buenos ejemplos! localizado en pp. 28-28; la columna 1 se confirma por el orden de proyectos, productos y continuidad del mismo bloque."
+      },
+      "finalProduct": {
+        "title": "Rotafolio sencillo",
+        "source": "Posibilidades de uso SyPC pp. 28-28 + Nuestro libro de proyectos Tomo III pp. 90-93",
+        "status": "confirmed"
+      },
+      "sourcePages": {
+        "nuestroLibroProyectos": [
+          {
+            "materialId": "grade-1-proyectos-nuestro-libro-de-proyectos-tomo-iii-primer-grado",
+            "label": "Nuestro libro de proyectos Tomo III",
+            "startPage": 90,
+            "endPage": 93,
+            "pagesLabel": "pp. 90-93",
+            "topicTitle": "Proyecto academico 31",
+            "status": "confirmed-source"
+          }
+        ],
+        "conceptBook": [
+          {
+            "materialId": "grade-1-conceptos-saberes-y-pensamiento-cientifico-primer-grado",
+            "label": "Saberes y Pensamiento Cientifico",
+            "startPage": 74,
+            "endPage": 79,
+            "pagesLabel": "pp. 74-79",
+            "topicTitle": "Jerarquia de operaciones",
+            "status": "confirmed-source"
+          },
+          {
+            "materialId": "grade-1-conceptos-saberes-y-pensamiento-cientifico-primer-grado",
+            "label": "Saberes y Pensamiento Cientifico",
+            "startPage": 33,
+            "endPage": 38,
+            "pagesLabel": "pp. 33-38",
+            "topicTitle": "Ecuacion lineal",
+            "status": "confirmed-source"
+          },
+          {
+            "materialId": "grade-1-conceptos-saberes-y-pensamiento-cientifico-primer-grado",
+            "label": "Saberes y Pensamiento Cientifico",
+            "startPage": 177,
+            "endPage": 182,
+            "pagesLabel": "pp. 177-182",
+            "topicTitle": "Sistemas de ecuaciones",
+            "status": "confirmed-source"
+          }
+        ],
+        "multiplesLenguajes": [],
+        "otherMaterials": [
+          {
+            "label": "Video PPA 11: Buenos ejemplos!",
+            "reference": "bit.ly/3VfglUk",
+            "status": "pending-validation",
+            "youtubeSearchQuery": "Buenos ejemplos! Saberes y Pensamiento Cientifico 1er grado Telesecundaria"
+          }
+        ]
+      },
+      "supportMaterials": [],
+      "horizonOrPurpose": {
+        "status": "official",
+        "text": "Elaborar un rotafolio sencillo, con un ejemplo detallado, para explicar, en asamblea, la identificacion de los simbolos de jerarquia de operaciones aplicados en ecuaciones de la forma Ax=B, Ax+B=C y Ax+B=Cx+D. Ademas, agregar el uso de las propiedades de la igualdad para concluir en que situaciones reales pueden aplicarse estos conocimientos.",
+        "source": "Nuestro libro de proyectos Tomo III p. 90"
+      },
+      "projectExpectationHorizon": {
+        "officialText": "Explicar con un ejemplo detallado como se resuelven ciertas ecuaciones lineales y como pueden aplicarse a situaciones reales.",
+        "studentVersion": "Aprender a resolver incognitas y compartir ese procedimiento con otras personas del grupo.",
+        "sourcePages": [
+          "Nuestro libro de proyectos Tomo III p. 90"
+        ],
+        "evidence": "La etapa 1, la etapa 3 o los objetivos del proyecto permiten fijar un horizonte de expectativas util para la lectura docente del PA.",
+        "status": "confirmed-from-project-book"
+      },
+      "detonatingStrategy": {
+        "status": "pending-url",
+        "text": "Video PPA 11: Buenos ejemplos!",
+        "reference": "bit.ly/3VfglUk",
+        "source": "Nuestro libro de proyectos Tomo III pp. 90-93"
+      },
+      "academicProjectStrategy": {
+        "title": "Rotafolio sencillo",
+        "text": "Presentar paso a paso un ejemplo de ecuaciones lineales y jerarquia de operaciones en un soporte visible para el grupo.",
+        "type": "flip-chart",
+        "status": "confirmed-from-project-book",
+        "source": "Nuestro libro de proyectos Tomo III pp. 90-93"
+      },
+      "academicConcepts": [
+        {
+          "concept": "rotafolio sencillo",
+          "description": "Soporte de hojas visibles que permite mostrar un procedimiento paso a paso ante el grupo.",
+          "sourceBook": "Nuestro libro de proyectos Tomo III",
+          "sourcePages": [
+            90,
+            91,
+            92,
+            93
+          ],
+          "sourcePagesLabel": "pp. 90-93",
+          "topicTitle": "Proyecto academico 31",
+          "status": "confirmed",
+          "reason": "Posibilidades y la etapa 1 del proyecto lo fijan como producto final del PA 31.",
+          "pedagogicalUse": "Permite explicar y revisar procedimientos sin depender solo del pizarron.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "jerarquia de operaciones",
+          "description": "Orden en que deben resolverse operaciones y agrupaciones dentro de una expresion.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            74,
+            79
+          ],
+          "sourcePagesLabel": "pp. 74-79",
+          "topicTitle": "Jerarquia de operaciones",
+          "status": "confirmed",
+          "reason": "Posibilidades y la etapa 1 la incluyen como contenido base del proyecto.",
+          "pedagogicalUse": "Ayuda a explicar por que un mismo ejercicio cambia si se altera el orden.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "ecuacion lineal",
+          "description": "Igualdad matematica con incognitas que puede resolverse para encontrar un valor.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            33,
+            38
+          ],
+          "sourcePagesLabel": "pp. 33-38",
+          "topicTitle": "Ecuacion lineal",
+          "status": "confirmed",
+          "reason": "La etapa 1 del proyecto y la p. 28 de Posibilidades la fijan como contenido principal.",
+          "pedagogicalUse": "Permite traducir problemas cotidianos a un lenguaje mas preciso y resoluble.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "incognita",
+          "description": "Cantidad cuyo valor se desconoce y que debe encontrarse mediante un procedimiento.",
+          "sourceBook": "Nuestro libro de proyectos Tomo III",
+          "sourcePages": [
+            90
+          ],
+          "sourcePagesLabel": "p. 90",
+          "topicTitle": "Proyecto academico 31",
+          "status": "confirmed",
+          "reason": "El propio titulo del proyecto la coloca como palabra clave de entrada.",
+          "pedagogicalUse": "Ayuda a que el lenguaje algebraico se vuelva menos ajeno para el grupo.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "propiedades de la igualdad",
+          "description": "Reglas que permiten transformar una ecuacion sin cambiar la equivalencia entre ambos lados.",
+          "sourceBook": "Nuestro libro de proyectos Tomo III",
+          "sourcePages": [
+            90
+          ],
+          "sourcePagesLabel": "p. 90",
+          "topicTitle": "Proyecto academico 31",
+          "status": "confirmed",
+          "reason": "La etapa 1 las nombra como recurso directo para resolver las ecuaciones del proyecto.",
+          "pedagogicalUse": "Sostiene la explicacion de por que un procedimiento es valido y no solo mecanico.",
+          "activityReadiness": "usable-for-autoevaluation"
+        }
+      ],
+      "thinkingCriteria": [
+        "Explicar un procedimiento no es repetir pasos: implica comprender por que cada uno funciona.",
+        "Relacionar las ecuaciones con situaciones reales evita que el proyecto se vuelva puramente tecnico."
+      ],
+      "pedagogicalUse": "El rotafolio funciona mejor si se limita a un ejemplo fuerte y bien explicado, en lugar de acumular ejercicios.",
+      "communityQuestion": "En que situaciones reales de la vida diaria necesitamos encontrar una cantidad desconocida y como podriamos explicarlo a otras personas?",
+      "notesForTeacher": {
+        "status": "teacher-orientation",
+        "teacherUse": "El rotafolio funciona mejor si se limita a un ejemplo fuerte y bien explicado, en lugar de acumular ejercicios.",
+        "caution": [
+          "El video del PPA 11 y el recurso informatico siguen pendientes de validacion de destino final.",
+          "No se localizaron apoyos de Multiples Lenguajes plenamente confirmados para este proyecto."
+        ]
+      },
+      "readinessLevel": "development-partial",
+      "readyForActivities": false,
+      "needsReviewReasons": [
+        "No mover a actividades interactivas ni desbloquear juegos completos."
+      ]
+    },
+    {
+      "id": "saberes-y-pensamiento-cientifico-1-ppa-11-pa32",
+      "projectId": "saberes-y-pensamiento-cientifico-1-ppa-11-pa32",
+      "academicProjectNumber": 32,
+      "title": "Los modelos representan la realidad",
+      "projectTitle": "Los modelos representan la realidad",
+      "grade": "1",
+      "field": "Saberes y Pensamiento Cientifico",
+      "ppaNumber": "11",
+      "partialClassroomProject": "PPA 11",
+      "partialClassroomProjectTitle": "Buenos ejemplos!",
+      "bookVolume": "Tomo III",
+      "sourceValidation": {
+        "sourceStatus": "linked",
+        "possibilitiesPages": [
+          28
+        ],
+        "possibilitiesMaterialId": "grade-1-posibilidades-pos-sypc-1",
+        "possibilitiesColumnIndex": 2,
+        "columnEvidence": "Bloque PPA 11 Buenos ejemplos! localizado en pp. 28-28; la columna 2 se confirma por el orden de proyectos, productos y continuidad del mismo bloque."
+      },
+      "finalProduct": {
+        "title": "Rotafolio con recortes",
+        "source": "Posibilidades de uso SyPC pp. 28-28 + Nuestro libro de proyectos Tomo III pp. 94-97",
+        "status": "confirmed"
+      },
+      "sourcePages": {
+        "nuestroLibroProyectos": [
+          {
+            "materialId": "grade-1-proyectos-nuestro-libro-de-proyectos-tomo-iii-primer-grado",
+            "label": "Nuestro libro de proyectos Tomo III",
+            "startPage": 94,
+            "endPage": 97,
+            "pagesLabel": "pp. 94-97",
+            "topicTitle": "Proyecto academico 32",
+            "status": "confirmed-source"
+          }
+        ],
+        "conceptBook": [
+          {
+            "materialId": "grade-1-conceptos-saberes-y-pensamiento-cientifico-primer-grado",
+            "label": "Saberes y Pensamiento Cientifico",
+            "startPage": 74,
+            "endPage": 79,
+            "pagesLabel": "pp. 74-79",
+            "topicTitle": "Jerarquia de operaciones",
+            "status": "confirmed-source"
+          },
+          {
+            "materialId": "grade-1-conceptos-saberes-y-pensamiento-cientifico-primer-grado",
+            "label": "Saberes y Pensamiento Cientifico",
+            "startPage": 33,
+            "endPage": 38,
+            "pagesLabel": "pp. 33-38",
+            "topicTitle": "Ecuacion lineal",
+            "status": "confirmed-source"
+          }
+        ],
+        "multiplesLenguajes": [],
+        "otherMaterials": [
+          {
+            "label": "Video PPA 11: Buenos ejemplos!",
+            "reference": "bit.ly/3VfglUk",
+            "status": "pending-validation",
+            "youtubeSearchQuery": "Buenos ejemplos! Saberes y Pensamiento Cientifico 1er grado Telesecundaria"
+          }
+        ]
+      },
+      "supportMaterials": [],
+      "horizonOrPurpose": {
+        "status": "official",
+        "text": "Investigar como resolver problemas planteados en una ecuacion lineal y la jerarquia de operaciones, para seleccionar un ejemplo modelo que permita ensenar tanto a companeras como a companeros el proceso que se sigue para obtener los resultados esperados. Presentar el modelo con un rotafolio con recortes.",
+        "source": "Nuestro libro de proyectos Tomo III p. 94"
+      },
+      "projectExpectationHorizon": {
+        "officialText": "Seleccionar un ejemplo modelo para mostrar a otras personas como se resuelven problemas con ecuaciones lineales y jerarquia de operaciones.",
+        "studentVersion": "Aprender a elegir y explicar un buen ejemplo matematico que ayude a otras personas a comprender.",
+        "sourcePages": [
+          "Nuestro libro de proyectos Tomo III p. 94"
+        ],
+        "evidence": "La etapa 1, la etapa 3 o los objetivos del proyecto permiten fijar un horizonte de expectativas util para la lectura docente del PA.",
+        "status": "confirmed-from-project-book"
+      },
+      "detonatingStrategy": {
+        "status": "pending-url",
+        "text": "Video PPA 11: Buenos ejemplos!",
+        "reference": "bit.ly/3VfglUk",
+        "source": "Nuestro libro de proyectos Tomo III pp. 94-97"
+      },
+      "academicProjectStrategy": {
+        "title": "Rotafolio con recortes",
+        "text": "Organizar un ejemplo modelo con recortes, pasos y explicaciones breves para volver mas visible el proceso de resolucion.",
+        "type": "flip-chart-cutouts",
+        "status": "confirmed-from-project-book",
+        "source": "Nuestro libro de proyectos Tomo III pp. 94-97"
+      },
+      "academicConcepts": [
+        {
+          "concept": "rotafolio con recortes",
+          "description": "Rotafolio apoyado en piezas o recortes que permiten mover, comparar y reorganizar informacion.",
+          "sourceBook": "Nuestro libro de proyectos Tomo III",
+          "sourcePages": [
+            94,
+            95,
+            96,
+            97
+          ],
+          "sourcePagesLabel": "pp. 94-97",
+          "topicTitle": "Proyecto academico 32",
+          "status": "confirmed",
+          "reason": "Posibilidades y la etapa 1 del proyecto lo fijan como producto final del PA 32.",
+          "pedagogicalUse": "Ayuda a hacer visible el modelo y sus partes para una explicacion mas concreta.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "ejemplo modelo",
+          "description": "Caso elegido para mostrar con claridad como se resuelve un problema y por que funciona el procedimiento.",
+          "sourceBook": "Nuestro libro de proyectos Tomo III",
+          "sourcePages": [
+            94
+          ],
+          "sourcePagesLabel": "p. 94",
+          "topicTitle": "Proyecto academico 32",
+          "status": "confirmed",
+          "reason": "La etapa 1 lo nombra como nucleo de la ensenanza a companeras y companeros.",
+          "pedagogicalUse": "Invita a pensar que un ejemplo bien escogido ensena mejor que muchos mal explicados.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "ecuacion lineal",
+          "description": "Igualdad matematica con incognitas que representa relaciones y permite resolver problemas.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            33,
+            38
+          ],
+          "sourcePagesLabel": "pp. 33-38",
+          "topicTitle": "Ecuacion lineal",
+          "status": "confirmed",
+          "reason": "El proyecto la mantiene como contenido central para el ejemplo modelo.",
+          "pedagogicalUse": "Da estructura al procedimiento que se quiere ensenar a la comunidad escolar.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "jerarquia de operaciones",
+          "description": "Orden necesario para resolver operaciones y agrupaciones dentro de una expresion.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            74,
+            79
+          ],
+          "sourcePagesLabel": "pp. 74-79",
+          "topicTitle": "Jerarquia de operaciones",
+          "status": "confirmed",
+          "reason": "La etapa 1 la enlaza con el ejemplo modelo que se va a ensenar.",
+          "pedagogicalUse": "Evita errores de procedimiento y ayuda a justificar cada paso.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "resolucion de problemas",
+          "description": "Proceso de analizar una situacion, elegir un procedimiento y comprobar si la solucion tiene sentido.",
+          "sourceBook": "Nuestro libro de proyectos Tomo III",
+          "sourcePages": [
+            94
+          ],
+          "sourcePagesLabel": "p. 94",
+          "topicTitle": "Proyecto academico 32",
+          "status": "confirmed",
+          "reason": "El proyecto la menciona como finalidad del ejemplo que se presentara al grupo.",
+          "pedagogicalUse": "Mueve el foco del calculo aislado a la explicacion razonada.",
+          "activityReadiness": "usable-for-autoevaluation"
+        }
+      ],
+      "thinkingCriteria": [
+        "Elegir un buen ejemplo implica pensar en lo que ayuda a comprender y no solo en lo que ya se sabe resolver.",
+        "Resolver y explicar no son lo mismo: el proyecto pide ambas cosas."
+      ],
+      "pedagogicalUse": "Este proyecto mejora mucho cuando se revisan distintos ejemplos y luego se elige uno verdaderamente didactico.",
+      "communityQuestion": "Que vuelve claro a un ejemplo matematico y que lo vuelve confuso cuando tratamos de ensenarlo a otras personas?",
+      "notesForTeacher": {
+        "status": "teacher-orientation",
+        "teacherUse": "Este proyecto mejora mucho cuando se revisan distintos ejemplos y luego se elige uno verdaderamente didactico.",
+        "caution": [
+          "El video del PPA 11 y el recurso informatico siguen pendientes de validacion de destino final.",
+          "No se localizaron apoyos de Multiples Lenguajes plenamente confirmados para este proyecto."
+        ]
+      },
+      "readinessLevel": "development-partial",
+      "readyForActivities": false,
+      "needsReviewReasons": [
+        "No mover a actividades interactivas ni desbloquear juegos completos."
+      ]
+    },
+    {
+      "id": "saberes-y-pensamiento-cientifico-1-ppa-11-pa33",
+      "projectId": "saberes-y-pensamiento-cientifico-1-ppa-11-pa33",
+      "academicProjectNumber": 33,
+      "title": "Sucesiones de progresion aritmetica",
+      "projectTitle": "Sucesiones de progresion aritmetica",
+      "grade": "1",
+      "field": "Saberes y Pensamiento Cientifico",
+      "ppaNumber": "11",
+      "partialClassroomProject": "PPA 11",
+      "partialClassroomProjectTitle": "Buenos ejemplos!",
+      "bookVolume": "Tomo III",
+      "sourceValidation": {
+        "sourceStatus": "linked",
+        "possibilitiesPages": [
+          28
+        ],
+        "possibilitiesMaterialId": "grade-1-posibilidades-pos-sypc-1",
+        "possibilitiesColumnIndex": 3,
+        "columnEvidence": "Bloque PPA 11 Buenos ejemplos! localizado en pp. 28-28; la columna 3 se confirma por el orden de proyectos, productos y continuidad del mismo bloque."
+      },
+      "finalProduct": {
+        "title": "Esquema con ilustraciones",
+        "source": "Posibilidades de uso SyPC pp. 28-28 + Nuestro libro de proyectos Tomo III pp. 98-101",
+        "status": "confirmed"
+      },
+      "sourcePages": {
+        "nuestroLibroProyectos": [
+          {
+            "materialId": "grade-1-proyectos-nuestro-libro-de-proyectos-tomo-iii-primer-grado",
+            "label": "Nuestro libro de proyectos Tomo III",
+            "startPage": 98,
+            "endPage": 101,
+            "pagesLabel": "pp. 98-101",
+            "topicTitle": "Proyecto academico 33",
+            "status": "confirmed-source"
+          }
+        ],
+        "conceptBook": [
+          {
+            "materialId": "grade-1-conceptos-saberes-y-pensamiento-cientifico-primer-grado",
+            "label": "Saberes y Pensamiento Cientifico",
+            "startPage": 74,
+            "endPage": 79,
+            "pagesLabel": "pp. 74-79",
+            "topicTitle": "Jerarquia de operaciones",
+            "status": "confirmed-source"
+          }
+        ],
+        "multiplesLenguajes": [],
+        "otherMaterials": [
+          {
+            "label": "Video PPA 11: Buenos ejemplos!",
+            "reference": "bit.ly/3VfglUk",
+            "status": "pending-validation",
+            "youtubeSearchQuery": "Buenos ejemplos! Saberes y Pensamiento Cientifico 1er grado Telesecundaria"
+          }
+        ]
+      },
+      "supportMaterials": [],
+      "horizonOrPurpose": {
+        "status": "official",
+        "text": "Localizar informacion sobre como representar algebraicamente una sucesion con progresion aritmetica de figuras y numeros para mostrar, en un esquema con ilustraciones, el proceso de representacion, a partir de la jerarquia de operaciones y simbolos de agrupacion.",
+        "source": "Nuestro libro de proyectos Tomo III p. 98"
+      },
+      "projectExpectationHorizon": {
+        "officialText": "Elaborar esquemas para representar algebraicamente una sucesion con progresion aritmetica de figuras y numeros, con el apoyo de la jerarquia de operaciones y los simbolos de agrupacion.",
+        "studentVersion": "Comprender como se forma una sucesion y como puede representarse y explicarse con claridad al grupo.",
+        "sourcePages": [
+          "Nuestro libro de proyectos Tomo III p. 99"
+        ],
+        "evidence": "La etapa 1, la etapa 3 o los objetivos del proyecto permiten fijar un horizonte de expectativas util para la lectura docente del PA.",
+        "status": "confirmed-from-project-book"
+      },
+      "detonatingStrategy": {
+        "status": "pending-url",
+        "text": "Video PPA 11: Buenos ejemplos!",
+        "reference": "bit.ly/3VfglUk",
+        "source": "Nuestro libro de proyectos Tomo III pp. 98-101"
+      },
+      "academicProjectStrategy": {
+        "title": "Esquema con ilustraciones",
+        "text": "Mostrar visualmente la regla de una sucesion y el proceso de su representacion algebraica.",
+        "type": "illustrated-scheme",
+        "status": "confirmed-from-project-book",
+        "source": "Nuestro libro de proyectos Tomo III pp. 98-101"
+      },
+      "academicConcepts": [
+        {
+          "concept": "esquema con ilustraciones",
+          "description": "Organizador visual que usa imagenes y breves notas para explicar un proceso o una relacion.",
+          "sourceBook": "Nuestro libro de proyectos Tomo III",
+          "sourcePages": [
+            98,
+            99,
+            100,
+            101
+          ],
+          "sourcePagesLabel": "pp. 98-101",
+          "topicTitle": "Proyecto academico 33",
+          "status": "confirmed",
+          "reason": "Posibilidades y la etapa 1 del proyecto lo fijan como producto final del PA 33.",
+          "pedagogicalUse": "Permite hacer visible la regla de una sucesion sin saturar de texto la explicacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "sucesion con progresion aritmetica",
+          "description": "Serie de figuras o numeros que cambia siguiendo una diferencia regular entre terminos.",
+          "sourceBook": "Nuestro libro de proyectos Tomo III",
+          "sourcePages": [
+            98,
+            99
+          ],
+          "sourcePagesLabel": "pp. 98-99",
+          "topicTitle": "Proyecto academico 33",
+          "status": "confirmed",
+          "reason": "El titulo del proyecto y la etapa 1 la nombran de forma explicita como contenido central.",
+          "pedagogicalUse": "Ayuda a pasar de mirar patrones a explicarlos con una regla.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "representacion algebraica",
+          "description": "Expresion simbolica que resume una relacion o un patron usando numeros, letras y signos.",
+          "sourceBook": "Nuestro libro de proyectos Tomo III",
+          "sourcePages": [
+            98,
+            99
+          ],
+          "sourcePagesLabel": "pp. 98-99",
+          "topicTitle": "Proyecto academico 33",
+          "status": "confirmed",
+          "reason": "La etapa 1 y los objetivos del proyecto piden representarla con claridad.",
+          "pedagogicalUse": "Permite traducir un patron visible a una regla comunicable y comprobable.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "jerarquia de operaciones",
+          "description": "Orden en que deben resolverse operaciones y simbolos de agrupacion dentro de una expresion.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            74,
+            79
+          ],
+          "sourcePagesLabel": "pp. 74-79",
+          "topicTitle": "Jerarquia de operaciones",
+          "status": "confirmed",
+          "reason": "Posibilidades la incluye para este bloque y la etapa 1 la nombra como apoyo del proceso de representacion.",
+          "pedagogicalUse": "Ayuda a evitar errores al pasar del patron a la expresion algebraica.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "simbolos de agrupacion",
+          "description": "Signos que ordenan operaciones y ayudan a expresar con precision una regla algebraica.",
+          "sourceBook": "Nuestro libro de proyectos Tomo III",
+          "sourcePages": [
+            98,
+            99
+          ],
+          "sourcePagesLabel": "pp. 98-99",
+          "topicTitle": "Proyecto academico 33",
+          "status": "confirmed",
+          "reason": "La etapa 1 y los objetivos del proyecto los integran de forma explicita en la representacion.",
+          "pedagogicalUse": "Permite explicar como se estructura una expresion sin perder orden ni sentido.",
+          "activityReadiness": "usable-for-autoevaluation"
+        }
+      ],
+      "thinkingCriteria": [
+        "No basta con reconocer un patron: hay que poder explicarlo y representarlo.",
+        "El esquema debe mostrar el proceso, no solo el resultado final."
+      ],
+      "pedagogicalUse": "Conviene trabajar este proyecto con pocos ejemplos bien escogidos y con progresiones claramente visibles.",
+      "communityQuestion": "Que patrones o secuencias observamos en objetos cotidianos y como podriamos representarlos de una manera mas clara?",
+      "notesForTeacher": {
+        "status": "teacher-orientation",
+        "teacherUse": "Conviene trabajar este proyecto con pocos ejemplos bien escogidos y con progresiones claramente visibles.",
+        "caution": [
+          "El video del PPA 11 y el recurso informatico siguen pendientes de validacion de destino final.",
+          "No se localizaron apoyos de Multiples Lenguajes plenamente confirmados para este proyecto."
+        ]
+      },
+      "readinessLevel": "development-partial",
+      "readyForActivities": false,
+      "needsReviewReasons": [
+        "No mover a actividades interactivas ni desbloquear juegos completos."
+      ]
+    }
+  ]
+}

@@ -6,18 +6,40 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build && node scripts/inject-meta.mjs",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "caracoles:extract": "node scripts/caracoles/extract-corpus.mjs",
+    "caracoles:index": "node scripts/caracoles/build-curricular-index.mjs",
+    "caracoles:detect-projects": "node scripts/caracoles/detect-projects.mjs",
+    "caracoles:apply-overrides": "node scripts/caracoles/apply-manual-overrides.mjs",
+    "caracoles:publish-selectable-projects": "node scripts/caracoles/publish-selectable-projects.mjs",
+    "caracoles:validate-projects": "node scripts/caracoles/validate-all-projects.mjs",
+    "caracoles:structure": "node scripts/caracoles/build-curricular-structure.mjs",
+    "caracoles:catalog-from-tomes": "node scripts/caracoles/build-project-catalog-from-tomes.mjs",
+    "caracoles:link-possibilities": "node scripts/caracoles/link-possibilities-to-projects.mjs",
+    "caracoles:link-possibilities-inventory": "node scripts/caracoles/link-possibilities-to-inventory.mjs",
+    "caracoles:link-english-books-inventory": "node scripts/caracoles/link-english-books-to-inventory.mjs",
+    "caracoles:canonical-catalog": "node scripts/caracoles/build-canonical-catalog.mjs",
+    "caracoles:build-public-selectable-canonical": "node scripts/caracoles/build-public-selectable-from-canonical.mjs",
+    "caracoles:concepts-registry": "node scripts/caracoles/build-concepts-registry.mjs",
+    "caracoles:heuristic-matrix": "node scripts/caracoles/build-heuristic-matrix.mjs",
+    "caracoles:self-assessment": "node scripts/caracoles/build-self-assessment.mjs",
+    "caracoles:selectable-projects": "node scripts/caracoles/publish-selectable-projects.mjs",
+    "caracoles:curricular-pipeline": "npm run caracoles:structure && npm run caracoles:catalog-from-tomes && npm run caracoles:link-possibilities && npm run caracoles:concepts-registry && npm run caracoles:heuristic-matrix && npm run caracoles:self-assessment && npm run caracoles:selectable-projects",
+    "caracoles:validate": "node scripts/caracoles/validate-corpus.mjs",
+    "caracoles:build-corpus": "npm run caracoles:extract && npm run caracoles:index && npm run caracoles:validate"
   },
   "dependencies": {
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
     "framer-motion": "^12.0.0",
-    "lucide-react": "^0.468.0"
+    "lucide-react": "^0.468.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
   },
   "devDependencies": {
+    "@anthropic-ai/sdk": "^0.104.2",
     "@tailwindcss/vite": "^4.0.0",
     "@vitejs/plugin-react": "^5.0.0",
     "autoprefixer": "^10.4.20",
+    "pdfjs-dist": "^5.7.284",
     "postcss": "^8.4.49",
     "tailwindcss": "^4.0.0",
     "vite": "^7.0.0"

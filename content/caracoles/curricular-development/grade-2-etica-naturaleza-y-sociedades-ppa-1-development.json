@@ -1,0 +1,787 @@
+{
+  "grade": "2",
+  "gradeLabel": "Segundo grado",
+  "field": "Etica, Naturaleza y Sociedades",
+  "bookVolume": "Tomo I",
+  "partialClassroomProject": "PPA 1",
+  "partialClassroomProjectTitle": "Tenemos derecho a ser diferentes",
+  "generatedAt": "2026-06-02T19:34:55.623Z",
+  "notes": "Capa curricular generada por lote para 2o Etica, Naturaleza y Sociedades, PPA 1.",
+  "sourcesUsed": [
+    "public/caracoles/data/generated/grade-2/selectable-projects.json",
+    "content/caracoles/generated-private/grade-2/pages-index.full.json",
+    "Posibilidades de uso ENS, segundo grado, pp. 6-7",
+    "Nuestro libro de proyectos Tomo I, segundo grado, pp. 185-200",
+    "Etica, Naturaleza y Sociedades, segundo grado, pp. 14-36, 222-234 y 301-306; Multiples Lenguajes pp. 50-53, 88-89 y 133-140."
+  ],
+  "partialClassroomProjectContext": {
+    "expectationHorizon": {
+      "officialText": "",
+      "sourcePages": [
+        "Nuestro libro de proyectos Tomo I pp. 185-186",
+        "Posibilidades de uso ENS pp. 6-7"
+      ],
+      "evidence": "El PPA 1 relaciona colonizacion, pensamiento originario e identidad juvenil para defender el derecho a ser diferentes sin violencia ni exclusion.",
+      "status": "pending"
+    },
+    "ppaDetonatingStrategy": {
+      "title": "Tenemos derecho a ser diferentes",
+      "type": "video",
+      "url": "",
+      "urlStatus": "pending-url",
+      "reference": "bit.ly/3VfglUk",
+      "source": "Nuestro libro de proyectos Tomo I pp. 185-186 + Posibilidades de uso ENS pp. 6-7",
+      "scope": "partial-classroom-project",
+      "youtubeSearchQuery": "Tenemos derecho a ser diferentes Etica, Naturaleza y Sociedades 2do grado Telesecundaria"
+    },
+    "ppaDigitalResource": {
+      "title": "Recurso informatico del bloque PPA 1",
+      "reference": "bit.ly/3WQBMwg",
+      "status": "pending-validation",
+      "source": "Nuestro libro de proyectos Tomo I pp. 185-200"
+    },
+    "validationStatus": {
+      "needsHumanReview": true,
+      "needsReviewReasons": [
+        "Las pp. 6-7 de Posibilidades pertenecen al mismo PPA 1.",
+        "La asignacion de apoyos por columna se fija por inferencia curricular documentada de izquierda a derecha.",
+        "Los enlaces cortos del video del PPA y del recurso informatico se mantienen en cautela hasta localizar un destino oficial confirmado."
+      ]
+    },
+    "columnValidation": {
+      "possibilitiesPagesReviewed": [
+        6,
+        7
+      ],
+      "confirmedAsPpa": true,
+      "note": "Las pp. 6-7 corresponden al PPA 1 Tenemos derecho a ser diferentes. Las tres columnas se sostienen por el orden de proyectos, productos y apoyos del mismo bloque.",
+      "columns": [
+        {
+          "columnIndex": 1,
+          "projectId": "etica-naturaleza-y-sociedades-2-ppa-1-pa1",
+          "projectTitle": "Noticias del otro lado del Atlántico",
+          "finalProduct": "Periódico ilustrado",
+          "supportMaterials": [
+            "Conquista y Renacimiento, pp. 133-140"
+          ]
+        },
+        {
+          "columnIndex": 2,
+          "projectId": "etica-naturaleza-y-sociedades-2-ppa-1-pa2",
+          "projectTitle": "El pensamiento de los pueblos originarios de América en 1492",
+          "finalProduct": "Carta imaginaria",
+          "supportMaterials": [
+            "La madre de todos los dioses. La Coatlicue, pp. 88-89"
+          ]
+        },
+        {
+          "columnIndex": 3,
+          "projectId": "etica-naturaleza-y-sociedades-2-ppa-1-pa3",
+          "projectTitle": "Todos tenemos derecho a ser diferentes",
+          "finalProduct": "Collage de imágenes",
+          "supportMaterials": [
+            "David Lara, pp. 50-53"
+          ]
+        }
+      ]
+    }
+  },
+  "academicProjects": [
+    {
+      "id": "etica-naturaleza-y-sociedades-2-ppa-1-pa1",
+      "projectId": "etica-naturaleza-y-sociedades-2-ppa-1-pa1",
+      "academicProjectNumber": 1,
+      "title": "Noticias del otro lado del Atlántico",
+      "projectTitle": "Noticias del otro lado del Atlántico",
+      "grade": "2",
+      "field": "Etica, Naturaleza y Sociedades",
+      "ppaNumber": "1",
+      "partialClassroomProject": "PPA 1",
+      "partialClassroomProjectTitle": "Tenemos derecho a ser diferentes",
+      "bookVolume": "Tomo I",
+      "sourceValidation": {
+        "sourceStatus": "linked",
+        "possibilitiesPages": [
+          6,
+          7
+        ],
+        "possibilitiesMaterialId": "grade-2-posibilidades-pos-ens-2",
+        "possibilitiesColumnIndex": 1,
+        "columnEvidence": "Bloque PPA 1 Tenemos derecho a ser diferentes localizado en pp. 6-7; la columna 1 se confirma por el orden de proyectos, productos y continuidad del mismo bloque."
+      },
+      "finalProduct": {
+        "title": "Periódico ilustrado",
+        "source": "Posibilidades de uso ENS pp. 6-7 + Nuestro libro de proyectos Tomo I pp. 187-191",
+        "status": "confirmed"
+      },
+      "sourcePages": {
+        "nuestroLibroProyectos": [
+          {
+            "materialId": "grade-2-proyectos-nuestro-libro-de-proyectos-tomo-1-segundo-grado",
+            "label": "Nuestro libro de proyectos Tomo I",
+            "startPage": 187,
+            "endPage": 191,
+            "pagesLabel": "pp. 187-191",
+            "topicTitle": "Proyecto academico 1",
+            "status": "confirmed-source"
+          }
+        ],
+        "conceptBook": [
+          {
+            "materialId": "grade-2-conceptos-etica-naturaleza-y-sociedades-segundo-grado",
+            "label": "Etica, Naturaleza y Sociedades",
+            "startPage": 14,
+            "endPage": 20,
+            "pagesLabel": "pp. 14-20",
+            "topicTitle": "El Mediterraneo y su salida atlantica en el contexto de los viajes de Colon",
+            "status": "confirmed-by-column-inference"
+          },
+          {
+            "materialId": "grade-2-conceptos-etica-naturaleza-y-sociedades-segundo-grado",
+            "label": "Etica, Naturaleza y Sociedades",
+            "startPage": 21,
+            "endPage": 27,
+            "pagesLabel": "pp. 21-27",
+            "topicTitle": "Inicio de la colonizacion europea",
+            "status": "confirmed-by-column-inference"
+          }
+        ],
+        "multiplesLenguajes": [
+          {
+            "materialId": "grade-2-apoyo-multiples-lenguajes-segundo-grado",
+            "label": "Multiples Lenguajes",
+            "startPage": 133,
+            "endPage": 140,
+            "pagesLabel": "pp. 133-140",
+            "topicTitle": "Conquista y Renacimiento",
+            "status": "confirmed-by-column-inference"
+          }
+        ],
+        "otherMaterials": [
+          {
+            "label": "Video PPA 1: Tenemos derecho a ser diferentes",
+            "reference": "bit.ly/3VfglUk",
+            "status": "pending-validation"
+          }
+        ]
+      },
+      "supportMaterials": [
+        {
+          "title": "Conquista y Renacimiento",
+          "kind": "Multiples Lenguajes",
+          "pages": "pp. 133-140",
+          "status": "confirmed-by-column-inference"
+        }
+      ],
+      "horizonOrPurpose": {
+        "status": "pending",
+        "text": "",
+        "source": "Nuestro libro de proyectos Tomo I p. 187"
+      },
+      "projectExpectationHorizon": {
+        "officialText": "",
+        "studentVersion": "",
+        "sourcePages": [
+          "Nuestro libro de proyectos Tomo I p. 187"
+        ],
+        "evidence": "El proyecto ya cuenta con producto, conceptos y articulacion pedagogica, pero el horizonte textual exacto sigue pendiente de confirmacion literal.",
+        "status": "pending"
+      },
+      "detonatingStrategy": {
+        "status": "pending-url",
+        "text": "Video PPA 1: Tenemos derecho a ser diferentes",
+        "reference": "bit.ly/3VfglUk",
+        "source": "Nuestro libro de proyectos Tomo I pp. 185-186 + Posibilidades de uso ENS pp. 6-7"
+      },
+      "academicProjectStrategy": {
+        "title": "Periódico ilustrado",
+        "text": "Organizar periódico ilustrado para profundizar en el inicio de la colonizacion europea y las decisiones politicas y comerciales que abrieron el proceso colonizador y compartir hallazgos de manera clara con el grupo.",
+        "type": "project-product",
+        "status": "confirmed-from-project-book",
+        "source": "Nuestro libro de proyectos Tomo I pp. 187-191"
+      },
+      "academicConcepts": [
+        {
+          "concept": "periódico ilustrado",
+          "description": "Periódico ilustrado como producto de cierre para organizar y comunicar aprendizajes del proyecto.",
+          "sourceBook": "Nuestro libro de proyectos Tomo I",
+          "sourcePages": [
+            187,
+            191
+          ],
+          "sourcePagesLabel": "pp. 187-191",
+          "topicTitle": "Proyecto academico 1",
+          "status": "confirmed",
+          "reason": "Posibilidades y el propio proyecto fijan Periódico ilustrado como producto final del PA 1.",
+          "pedagogicalUse": "Da una forma concreta de socializar lo comprendido sobre el inicio de la colonizacion europea y las decisiones politicas y comerciales que abrieron el proceso colonizador.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "colonizacion europea",
+          "description": "Colonizacion europea es una idea clave para comprender el inicio de la colonizacion europea y las decisiones politicas y comerciales que abrieron el proceso colonizador.",
+          "sourceBook": "Etica, Naturaleza y Sociedades",
+          "sourcePages": [
+            21,
+            27
+          ],
+          "sourcePagesLabel": "pp. 21-27",
+          "topicTitle": "Inicio de la colonizacion europea",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Inicio de la colonizacion europea\" aporta base suficiente para trabajar colonizacion europea dentro del proyecto 1.",
+          "pedagogicalUse": "Ayuda a fortalecer periódico ilustrado y a explicar el inicio de la colonizacion europea y las decisiones politicas y comerciales que abrieron el proceso colonizador con mayor claridad mediante colonizacion europea.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Tratado de Tordesillas",
+          "description": "Tratado de Tordesillas es una idea clave para comprender el inicio de la colonizacion europea y las decisiones politicas y comerciales que abrieron el proceso colonizador.",
+          "sourceBook": "Etica, Naturaleza y Sociedades",
+          "sourcePages": [
+            21,
+            27
+          ],
+          "sourcePagesLabel": "pp. 21-27",
+          "topicTitle": "Inicio de la colonizacion europea",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Inicio de la colonizacion europea\" aporta base suficiente para trabajar Tratado de Tordesillas dentro del proyecto 1.",
+          "pedagogicalUse": "Ayuda a fortalecer periódico ilustrado y a explicar el inicio de la colonizacion europea y las decisiones politicas y comerciales que abrieron el proceso colonizador con mayor claridad mediante Tratado de Tordesillas.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "viajes de Colon",
+          "description": "Viajes de Colon es una idea clave para comprender el inicio de la colonizacion europea y las decisiones politicas y comerciales que abrieron el proceso colonizador.",
+          "sourceBook": "Etica, Naturaleza y Sociedades",
+          "sourcePages": [
+            14,
+            20
+          ],
+          "sourcePagesLabel": "pp. 14-20",
+          "topicTitle": "El Mediterraneo y su salida atlantica en el contexto de los viajes de Colon",
+          "status": "confirmed",
+          "reason": "La fuente validada \"El Mediterraneo y su salida atlantica en el contexto de los viajes de Colon\" aporta base suficiente para trabajar viajes de Colon dentro del proyecto 1.",
+          "pedagogicalUse": "Ayuda a fortalecer periódico ilustrado y a explicar el inicio de la colonizacion europea y las decisiones politicas y comerciales que abrieron el proceso colonizador con mayor claridad mediante viajes de Colon.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "expansion comercial",
+          "description": "Expansion comercial es una idea clave para comprender el inicio de la colonizacion europea y las decisiones politicas y comerciales que abrieron el proceso colonizador.",
+          "sourceBook": "Etica, Naturaleza y Sociedades",
+          "sourcePages": [
+            14,
+            20
+          ],
+          "sourcePagesLabel": "pp. 14-20",
+          "topicTitle": "El Mediterraneo y su salida atlantica en el contexto de los viajes de Colon",
+          "status": "confirmed",
+          "reason": "La fuente validada \"El Mediterraneo y su salida atlantica en el contexto de los viajes de Colon\" aporta base suficiente para trabajar expansion comercial dentro del proyecto 1.",
+          "pedagogicalUse": "Ayuda a fortalecer periódico ilustrado y a explicar el inicio de la colonizacion europea y las decisiones politicas y comerciales que abrieron el proceso colonizador con mayor claridad mediante expansion comercial.",
+          "activityReadiness": "usable-for-autoevaluation"
+        }
+      ],
+      "thinkingCriteria": [
+        "Relacionar el inicio de la colonizacion europea y las decisiones politicas y comerciales que abrieron el proceso colonizador con situaciones cercanas a la comunidad.",
+        "Usar periódico ilustrado para explicar y no solo para recopilar informacion.",
+        "Distinguir entre mencionar conceptos y comprender como dialogan entre si dentro del proyecto."
+      ],
+      "validationStatus": {
+        "readinessLevel": "development-partial",
+        "readyForActivities": false,
+        "needsReviewReasons": [
+          "El bloque 1 ya es usable como lectura docente, pero el video del PPA 1 y el recurso informatico siguen pendientes de validacion de destino final.",
+          "La asignacion de apoyos de Posibilidades se sostiene por inferencia curricular documentada y no por OCR perfectamente separado por columnas.",
+          "No mover a actividades interactivas ni desbloquear juegos completos hasta ampliar validacion de videos y recursos complementarios."
+        ]
+      },
+      "readinessLevel": "development-partial",
+      "readyForActivities": false,
+      "needsReviewReasons": [
+        "No mover a actividades interactivas ni desbloquear juegos completos."
+      ],
+      "roleInPpa": "Abre el bloque con una lectura historica del contexto europeo y de sus consecuencias iniciales en America.",
+      "pedagogicalUse": "Conviene trabajar Noticias del otro lado del Atlántico como una oportunidad para profundizar en el inicio de la colonizacion europea y las decisiones politicas y comerciales que abrieron el proceso colonizador sin separar contenido, comunidad y producto final.",
+      "teacherNotes": [
+        "Conviene partir de ejemplos cercanos y después pasar al lenguaje mas abstracto del campo.",
+        "El producto Periódico ilustrado gana fuerza cuando se usa para explicar y no solo para exhibir informacion.",
+        "Es mejor seleccionar pocos conceptos bien comprendidos que saturar el trabajo con terminos aislados."
+      ],
+      "resonancePrompts": [
+        {
+          "type": "individual",
+          "prompt": "¿Qué comprendes mejor sobre el inicio de la colonizacion europea y las decisiones politicas y comerciales que abrieron el proceso colonizador después de elaborar periódico ilustrado?"
+        },
+        {
+          "type": "community",
+          "prompt": "¿Qué diálogos comunitarios podrían fortalecerse si compartimos periódico ilustrado y lo ponemos en conversación con otras personas?"
+        }
+      ],
+      "notReadyFor": [
+        "full-games",
+        "summative-exam"
+      ]
+    },
+    {
+      "id": "etica-naturaleza-y-sociedades-2-ppa-1-pa2",
+      "projectId": "etica-naturaleza-y-sociedades-2-ppa-1-pa2",
+      "academicProjectNumber": 2,
+      "title": "El pensamiento de los pueblos originarios de América en 1492",
+      "projectTitle": "El pensamiento de los pueblos originarios de América en 1492",
+      "grade": "2",
+      "field": "Etica, Naturaleza y Sociedades",
+      "ppaNumber": "1",
+      "partialClassroomProject": "PPA 1",
+      "partialClassroomProjectTitle": "Tenemos derecho a ser diferentes",
+      "bookVolume": "Tomo I",
+      "sourceValidation": {
+        "sourceStatus": "linked",
+        "possibilitiesPages": [
+          6,
+          7
+        ],
+        "possibilitiesMaterialId": "grade-2-posibilidades-pos-ens-2",
+        "possibilitiesColumnIndex": 2,
+        "columnEvidence": "Bloque PPA 1 Tenemos derecho a ser diferentes localizado en pp. 6-7; la columna 2 se confirma por el orden de proyectos, productos y continuidad del mismo bloque."
+      },
+      "finalProduct": {
+        "title": "Carta imaginaria",
+        "source": "Posibilidades de uso ENS pp. 6-7 + Nuestro libro de proyectos Tomo I pp. 192-195",
+        "status": "confirmed"
+      },
+      "sourcePages": {
+        "nuestroLibroProyectos": [
+          {
+            "materialId": "grade-2-proyectos-nuestro-libro-de-proyectos-tomo-1-segundo-grado",
+            "label": "Nuestro libro de proyectos Tomo I",
+            "startPage": 192,
+            "endPage": 195,
+            "pagesLabel": "pp. 192-195",
+            "topicTitle": "Proyecto academico 2",
+            "status": "confirmed-source"
+          }
+        ],
+        "conceptBook": [
+          {
+            "materialId": "grade-2-conceptos-etica-naturaleza-y-sociedades-segundo-grado",
+            "label": "Etica, Naturaleza y Sociedades",
+            "startPage": 21,
+            "endPage": 27,
+            "pagesLabel": "pp. 21-27",
+            "topicTitle": "Inicio de la colonizacion europea",
+            "status": "confirmed-by-column-inference"
+          },
+          {
+            "materialId": "grade-2-conceptos-etica-naturaleza-y-sociedades-segundo-grado",
+            "label": "Etica, Naturaleza y Sociedades",
+            "startPage": 28,
+            "endPage": 36,
+            "pagesLabel": "pp. 28-36",
+            "topicTitle": "La caida de Mexico-Tenochtitlan",
+            "status": "confirmed-by-column-inference"
+          }
+        ],
+        "multiplesLenguajes": [
+          {
+            "materialId": "grade-2-apoyo-multiples-lenguajes-segundo-grado",
+            "label": "Multiples Lenguajes",
+            "startPage": 88,
+            "endPage": 89,
+            "pagesLabel": "pp. 88-89",
+            "topicTitle": "La madre de todos los dioses. La Coatlicue",
+            "status": "confirmed-by-column-inference"
+          }
+        ],
+        "otherMaterials": [
+          {
+            "label": "Video PPA 1: Tenemos derecho a ser diferentes",
+            "reference": "bit.ly/3VfglUk",
+            "status": "pending-validation"
+          }
+        ]
+      },
+      "supportMaterials": [
+        {
+          "title": "La madre de todos los dioses. La Coatlicue",
+          "kind": "Multiples Lenguajes",
+          "pages": "pp. 88-89",
+          "status": "confirmed-by-column-inference"
+        }
+      ],
+      "horizonOrPurpose": {
+        "status": "pending",
+        "text": "",
+        "source": "Nuestro libro de proyectos Tomo I p. 192"
+      },
+      "projectExpectationHorizon": {
+        "officialText": "",
+        "studentVersion": "",
+        "sourcePages": [
+          "Nuestro libro de proyectos Tomo I p. 192"
+        ],
+        "evidence": "El proyecto ya cuenta con producto, conceptos y articulacion pedagogica, pero el horizonte textual exacto sigue pendiente de confirmacion literal.",
+        "status": "pending"
+      },
+      "detonatingStrategy": {
+        "status": "pending-url",
+        "text": "Video PPA 1: Tenemos derecho a ser diferentes",
+        "reference": "bit.ly/3VfglUk",
+        "source": "Nuestro libro de proyectos Tomo I pp. 190-191 + Posibilidades de uso ENS pp. 6-7"
+      },
+      "academicProjectStrategy": {
+        "title": "Carta imaginaria",
+        "text": "Organizar carta imaginaria para profundizar en la mirada de los pueblos originarios ante la invasion, la colonizacion y la caida de Mexico-Tenochtitlan y compartir hallazgos de manera clara con el grupo.",
+        "type": "project-product",
+        "status": "confirmed-from-project-book",
+        "source": "Nuestro libro de proyectos Tomo I pp. 192-195"
+      },
+      "academicConcepts": [
+        {
+          "concept": "carta imaginaria",
+          "description": "Carta imaginaria como producto de cierre para organizar y comunicar aprendizajes del proyecto.",
+          "sourceBook": "Nuestro libro de proyectos Tomo I",
+          "sourcePages": [
+            192,
+            195
+          ],
+          "sourcePagesLabel": "pp. 192-195",
+          "topicTitle": "Proyecto academico 2",
+          "status": "confirmed",
+          "reason": "Posibilidades y el propio proyecto fijan Carta imaginaria como producto final del PA 2.",
+          "pedagogicalUse": "Da una forma concreta de socializar lo comprendido sobre la mirada de los pueblos originarios ante la invasion, la colonizacion y la caida de Mexico-Tenochtitlan.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "pueblos originarios",
+          "description": "Pueblos originarios es una idea clave para comprender la mirada de los pueblos originarios ante la invasion, la colonizacion y la caida de Mexico-Tenochtitlan.",
+          "sourceBook": "Etica, Naturaleza y Sociedades",
+          "sourcePages": [
+            28,
+            36
+          ],
+          "sourcePagesLabel": "pp. 28-36",
+          "topicTitle": "La caida de Mexico-Tenochtitlan",
+          "status": "confirmed",
+          "reason": "La fuente validada \"La caida de Mexico-Tenochtitlan\" aporta base suficiente para trabajar pueblos originarios dentro del proyecto 2.",
+          "pedagogicalUse": "Ayuda a fortalecer carta imaginaria y a explicar la mirada de los pueblos originarios ante la invasion, la colonizacion y la caida de Mexico-Tenochtitlan con mayor claridad mediante pueblos originarios.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "invasion",
+          "description": "Invasion es una idea clave para comprender la mirada de los pueblos originarios ante la invasion, la colonizacion y la caida de Mexico-Tenochtitlan.",
+          "sourceBook": "Etica, Naturaleza y Sociedades",
+          "sourcePages": [
+            28,
+            36
+          ],
+          "sourcePagesLabel": "pp. 28-36",
+          "topicTitle": "La caida de Mexico-Tenochtitlan",
+          "status": "confirmed",
+          "reason": "La fuente validada \"La caida de Mexico-Tenochtitlan\" aporta base suficiente para trabajar invasion dentro del proyecto 2.",
+          "pedagogicalUse": "Ayuda a fortalecer carta imaginaria y a explicar la mirada de los pueblos originarios ante la invasion, la colonizacion y la caida de Mexico-Tenochtitlan con mayor claridad mediante invasion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Mexico-Tenochtitlan",
+          "description": "Mexico-Tenochtitlan es una idea clave para comprender la mirada de los pueblos originarios ante la invasion, la colonizacion y la caida de Mexico-Tenochtitlan.",
+          "sourceBook": "Etica, Naturaleza y Sociedades",
+          "sourcePages": [
+            28,
+            36
+          ],
+          "sourcePagesLabel": "pp. 28-36",
+          "topicTitle": "La caida de Mexico-Tenochtitlan",
+          "status": "confirmed",
+          "reason": "La fuente validada \"La caida de Mexico-Tenochtitlan\" aporta base suficiente para trabajar Mexico-Tenochtitlan dentro del proyecto 2.",
+          "pedagogicalUse": "Ayuda a fortalecer carta imaginaria y a explicar la mirada de los pueblos originarios ante la invasion, la colonizacion y la caida de Mexico-Tenochtitlan con mayor claridad mediante Mexico-Tenochtitlan.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "resistencia cultural",
+          "description": "Resistencia cultural es una idea clave para comprender la mirada de los pueblos originarios ante la invasion, la colonizacion y la caida de Mexico-Tenochtitlan.",
+          "sourceBook": "Etica, Naturaleza y Sociedades",
+          "sourcePages": [
+            28,
+            36
+          ],
+          "sourcePagesLabel": "pp. 28-36",
+          "topicTitle": "La caida de Mexico-Tenochtitlan",
+          "status": "confirmed",
+          "reason": "La fuente validada \"La caida de Mexico-Tenochtitlan\" aporta base suficiente para trabajar resistencia cultural dentro del proyecto 2.",
+          "pedagogicalUse": "Ayuda a fortalecer carta imaginaria y a explicar la mirada de los pueblos originarios ante la invasion, la colonizacion y la caida de Mexico-Tenochtitlan con mayor claridad mediante resistencia cultural.",
+          "activityReadiness": "usable-for-autoevaluation"
+        }
+      ],
+      "thinkingCriteria": [
+        "Relacionar la mirada de los pueblos originarios ante la invasion, la colonizacion y la caida de Mexico-Tenochtitlan con situaciones cercanas a la comunidad.",
+        "Usar carta imaginaria para explicar y no solo para recopilar informacion.",
+        "Distinguir entre mencionar conceptos y comprender como dialogan entre si dentro del proyecto."
+      ],
+      "validationStatus": {
+        "readinessLevel": "development-partial",
+        "readyForActivities": false,
+        "needsReviewReasons": [
+          "El bloque 1 ya es usable como lectura docente, pero el video del PPA 1 y el recurso informatico siguen pendientes de validacion de destino final.",
+          "La asignacion de apoyos de Posibilidades se sostiene por inferencia curricular documentada y no por OCR perfectamente separado por columnas.",
+          "No mover a actividades interactivas ni desbloquear juegos completos hasta ampliar validacion de videos y recursos complementarios."
+        ]
+      },
+      "readinessLevel": "development-partial",
+      "readyForActivities": false,
+      "needsReviewReasons": [
+        "No mover a actividades interactivas ni desbloquear juegos completos."
+      ],
+      "roleInPpa": "Profundiza el bloque al desplazar la narracion hacia la experiencia y el pensamiento de los pueblos originarios.",
+      "pedagogicalUse": "Conviene trabajar El pensamiento de los pueblos originarios de América en 1492 como una oportunidad para profundizar en la mirada de los pueblos originarios ante la invasion, la colonizacion y la caida de Mexico-Tenochtitlan sin separar contenido, comunidad y producto final.",
+      "teacherNotes": [
+        "Conviene partir de ejemplos cercanos y después pasar al lenguaje mas abstracto del campo.",
+        "El producto Carta imaginaria gana fuerza cuando se usa para explicar y no solo para exhibir informacion.",
+        "Es mejor seleccionar pocos conceptos bien comprendidos que saturar el trabajo con terminos aislados."
+      ],
+      "resonancePrompts": [
+        {
+          "type": "individual",
+          "prompt": "¿Qué comprendes mejor sobre la mirada de los pueblos originarios ante la invasion, la colonizacion y la caida de Mexico-Tenochtitlan después de elaborar carta imaginaria?"
+        },
+        {
+          "type": "community",
+          "prompt": "¿Qué diálogos comunitarios podrían fortalecerse si compartimos carta imaginaria y lo ponemos en conversación con otras personas?"
+        }
+      ],
+      "notReadyFor": [
+        "full-games",
+        "summative-exam"
+      ]
+    },
+    {
+      "id": "etica-naturaleza-y-sociedades-2-ppa-1-pa3",
+      "projectId": "etica-naturaleza-y-sociedades-2-ppa-1-pa3",
+      "academicProjectNumber": 3,
+      "title": "Todos tenemos derecho a ser diferentes",
+      "projectTitle": "Todos tenemos derecho a ser diferentes",
+      "grade": "2",
+      "field": "Etica, Naturaleza y Sociedades",
+      "ppaNumber": "1",
+      "partialClassroomProject": "PPA 1",
+      "partialClassroomProjectTitle": "Tenemos derecho a ser diferentes",
+      "bookVolume": "Tomo I",
+      "sourceValidation": {
+        "sourceStatus": "linked",
+        "possibilitiesPages": [
+          6,
+          7
+        ],
+        "possibilitiesMaterialId": "grade-2-posibilidades-pos-ens-2",
+        "possibilitiesColumnIndex": 3,
+        "columnEvidence": "Bloque PPA 1 Tenemos derecho a ser diferentes localizado en pp. 6-7; la columna 3 se confirma por el orden de proyectos, productos y continuidad del mismo bloque."
+      },
+      "finalProduct": {
+        "title": "Collage de imágenes",
+        "source": "Posibilidades de uso ENS pp. 6-7 + Nuestro libro de proyectos Tomo I pp. 196-200",
+        "status": "confirmed"
+      },
+      "sourcePages": {
+        "nuestroLibroProyectos": [
+          {
+            "materialId": "grade-2-proyectos-nuestro-libro-de-proyectos-tomo-1-segundo-grado",
+            "label": "Nuestro libro de proyectos Tomo I",
+            "startPage": 196,
+            "endPage": 200,
+            "pagesLabel": "pp. 196-200",
+            "topicTitle": "Proyecto academico 3",
+            "status": "confirmed-source"
+          }
+        ],
+        "conceptBook": [
+          {
+            "materialId": "grade-2-conceptos-etica-naturaleza-y-sociedades-segundo-grado",
+            "label": "Etica, Naturaleza y Sociedades",
+            "startPage": 222,
+            "endPage": 229,
+            "pagesLabel": "pp. 222-229",
+            "topicTitle": "El derecho de los jovenes a pertenecer a una comunidad y a que su identidad sea respetada",
+            "status": "confirmed-by-column-inference"
+          },
+          {
+            "materialId": "grade-2-conceptos-etica-naturaleza-y-sociedades-segundo-grado",
+            "label": "Etica, Naturaleza y Sociedades",
+            "startPage": 230,
+            "endPage": 234,
+            "pagesLabel": "pp. 230-234",
+            "topicTitle": "Acciones orientadas a fortalecer la igualdad, el bienestar colectivo y el respeto a los derechos humanos",
+            "status": "confirmed-by-column-inference"
+          }
+        ],
+        "multiplesLenguajes": [
+          {
+            "materialId": "grade-2-apoyo-multiples-lenguajes-segundo-grado",
+            "label": "Multiples Lenguajes",
+            "startPage": 50,
+            "endPage": 53,
+            "pagesLabel": "pp. 50-53",
+            "topicTitle": "David Lara",
+            "status": "confirmed-by-column-inference"
+          }
+        ],
+        "otherMaterials": [
+          {
+            "label": "Video PPA 1: Tenemos derecho a ser diferentes",
+            "reference": "bit.ly/3VfglUk",
+            "status": "pending-validation"
+          }
+        ]
+      },
+      "supportMaterials": [
+        {
+          "title": "David Lara",
+          "kind": "Multiples Lenguajes",
+          "pages": "pp. 50-53",
+          "status": "confirmed-by-column-inference"
+        }
+      ],
+      "horizonOrPurpose": {
+        "status": "confirmed-from-project-book",
+        "text": "Identificar y conocer distintas identidades para explicar a los demás la importancia del derecho a pertenece a cualquier identidad.",
+        "source": "Visión — Horizonte 1 (p. 197)"
+      },
+      "projectExpectationHorizon": {
+        "officialText": "Identificar y conocer distintas identidades para explicar a los demás la importancia del derecho a pertenece a cualquier identidad.",
+        "studentVersion": "Identificar y conocer distintas identidades para explicar a los demás la importancia del derecho a pertenece a cualquier identidad.",
+        "horizon1Raw": "Identificar y conocer distintas identidades para explicar a los demás la importancia del derecho a pertenece a cualquier identidad.",
+        "horizon2Raw": "Argumentar la importancia de defender, como jóvenes, la pertenencia a una identidad, y de no ser juzgados o presionados por ello.",
+        "sourcePages": [
+          "Visión — Horizonte 1 (p. 197)"
+        ],
+        "evidence": "Extraído por visión de imagen de la página 197 del libro de proyectos. Confianza: alta.",
+        "status": "confirmed-from-project-book",
+        "extractedAt": "2026-06-16T05:29:02.095Z"
+      },
+      "detonatingStrategy": {
+        "status": "pending-url",
+        "text": "Video PPA 1: Tenemos derecho a ser diferentes",
+        "reference": "bit.ly/3VfglUk",
+        "source": "Nuestro libro de proyectos Tomo I pp. 194-195 + Posibilidades de uso ENS pp. 6-7"
+      },
+      "academicProjectStrategy": {
+        "title": "Collage de imágenes",
+        "text": "Organizar collage de imágenes para profundizar en el derecho de las y los jovenes a la identidad, la pertenencia y el respeto en relaciones incluyentes y compartir hallazgos de manera clara con el grupo.",
+        "type": "project-product",
+        "status": "confirmed-from-project-book",
+        "source": "Nuestro libro de proyectos Tomo I pp. 196-200"
+      },
+      "academicConcepts": [
+        {
+          "concept": "collage de imágenes",
+          "description": "Collage de imágenes como producto de cierre para organizar y comunicar aprendizajes del proyecto.",
+          "sourceBook": "Nuestro libro de proyectos Tomo I",
+          "sourcePages": [
+            196,
+            200
+          ],
+          "sourcePagesLabel": "pp. 196-200",
+          "topicTitle": "Proyecto academico 3",
+          "status": "confirmed",
+          "reason": "Posibilidades y el propio proyecto fijan Collage de imágenes como producto final del PA 3.",
+          "pedagogicalUse": "Da una forma concreta de socializar lo comprendido sobre el derecho de las y los jovenes a la identidad, la pertenencia y el respeto en relaciones incluyentes.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "identidad",
+          "description": "Identidad es una idea clave para comprender el derecho de las y los jovenes a la identidad, la pertenencia y el respeto en relaciones incluyentes.",
+          "sourceBook": "Etica, Naturaleza y Sociedades",
+          "sourcePages": [
+            222,
+            229
+          ],
+          "sourcePagesLabel": "pp. 222-229",
+          "topicTitle": "El derecho de los jovenes a pertenecer a una comunidad y a que su identidad sea respetada",
+          "status": "confirmed",
+          "reason": "La fuente validada \"El derecho de los jovenes a pertenecer a una comunidad y a que su identidad sea respetada\" aporta base suficiente para trabajar identidad dentro del proyecto 3.",
+          "pedagogicalUse": "Ayuda a fortalecer collage de imágenes y a explicar el derecho de las y los jovenes a la identidad, la pertenencia y el respeto en relaciones incluyentes con mayor claridad mediante identidad.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "sentido de pertenencia",
+          "description": "Sentido de pertenencia es una idea clave para comprender el derecho de las y los jovenes a la identidad, la pertenencia y el respeto en relaciones incluyentes.",
+          "sourceBook": "Etica, Naturaleza y Sociedades",
+          "sourcePages": [
+            222,
+            229
+          ],
+          "sourcePagesLabel": "pp. 222-229",
+          "topicTitle": "El derecho de los jovenes a pertenecer a una comunidad y a que su identidad sea respetada",
+          "status": "confirmed",
+          "reason": "La fuente validada \"El derecho de los jovenes a pertenecer a una comunidad y a que su identidad sea respetada\" aporta base suficiente para trabajar sentido de pertenencia dentro del proyecto 3.",
+          "pedagogicalUse": "Ayuda a fortalecer collage de imágenes y a explicar el derecho de las y los jovenes a la identidad, la pertenencia y el respeto en relaciones incluyentes con mayor claridad mediante sentido de pertenencia.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "relaciones incluyentes",
+          "description": "Relaciones incluyentes es una idea clave para comprender el derecho de las y los jovenes a la identidad, la pertenencia y el respeto en relaciones incluyentes.",
+          "sourceBook": "Etica, Naturaleza y Sociedades",
+          "sourcePages": [
+            222,
+            229
+          ],
+          "sourcePagesLabel": "pp. 222-229",
+          "topicTitle": "El derecho de los jovenes a pertenecer a una comunidad y a que su identidad sea respetada",
+          "status": "confirmed",
+          "reason": "La fuente validada \"El derecho de los jovenes a pertenecer a una comunidad y a que su identidad sea respetada\" aporta base suficiente para trabajar relaciones incluyentes dentro del proyecto 3.",
+          "pedagogicalUse": "Ayuda a fortalecer collage de imágenes y a explicar el derecho de las y los jovenes a la identidad, la pertenencia y el respeto en relaciones incluyentes con mayor claridad mediante relaciones incluyentes.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "derechos humanos",
+          "description": "Derechos humanos es una idea clave para comprender el derecho de las y los jovenes a la identidad, la pertenencia y el respeto en relaciones incluyentes.",
+          "sourceBook": "Etica, Naturaleza y Sociedades",
+          "sourcePages": [
+            230,
+            234
+          ],
+          "sourcePagesLabel": "pp. 230-234",
+          "topicTitle": "Acciones orientadas a fortalecer la igualdad, el bienestar colectivo y el respeto a los derechos humanos",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Acciones orientadas a fortalecer la igualdad, el bienestar colectivo y el respeto a los derechos humanos\" aporta base suficiente para trabajar derechos humanos dentro del proyecto 3.",
+          "pedagogicalUse": "Ayuda a fortalecer collage de imágenes y a explicar el derecho de las y los jovenes a la identidad, la pertenencia y el respeto en relaciones incluyentes con mayor claridad mediante derechos humanos.",
+          "activityReadiness": "usable-for-autoevaluation"
+        }
+      ],
+      "thinkingCriteria": [
+        "Relacionar el derecho de las y los jovenes a la identidad, la pertenencia y el respeto en relaciones incluyentes con situaciones cercanas a la comunidad.",
+        "Usar collage de imágenes para explicar y no solo para recopilar informacion.",
+        "Distinguir entre mencionar conceptos y comprender como dialogan entre si dentro del proyecto."
+      ],
+      "validationStatus": {
+        "readinessLevel": "development-partial",
+        "readyForActivities": false,
+        "needsReviewReasons": [
+          "El bloque 1 ya es usable como lectura docente, pero el video del PPA 1 y el recurso informatico siguen pendientes de validacion de destino final.",
+          "La asignacion de apoyos de Posibilidades se sostiene por inferencia curricular documentada y no por OCR perfectamente separado por columnas.",
+          "No mover a actividades interactivas ni desbloquear juegos completos hasta ampliar validacion de videos y recursos complementarios."
+        ]
+      },
+      "readinessLevel": "development-partial",
+      "readyForActivities": false,
+      "needsReviewReasons": [
+        "No mover a actividades interactivas ni desbloquear juegos completos."
+      ],
+      "roleInPpa": "Cierra el bloque con una lectura etica y actual del derecho a la diferencia y al sentido de pertenencia.",
+      "pedagogicalUse": "Conviene trabajar Todos tenemos derecho a ser diferentes como una oportunidad para profundizar en el derecho de las y los jovenes a la identidad, la pertenencia y el respeto en relaciones incluyentes sin separar contenido, comunidad y producto final.",
+      "teacherNotes": [
+        "Conviene partir de ejemplos cercanos y después pasar al lenguaje mas abstracto del campo.",
+        "El producto Collage de imágenes gana fuerza cuando se usa para explicar y no solo para exhibir informacion.",
+        "Es mejor seleccionar pocos conceptos bien comprendidos que saturar el trabajo con terminos aislados."
+      ],
+      "resonancePrompts": [
+        {
+          "type": "individual",
+          "prompt": "¿Qué comprendes mejor sobre el derecho de las y los jovenes a la identidad, la pertenencia y el respeto en relaciones incluyentes después de elaborar collage de imágenes?"
+        },
+        {
+          "type": "community",
+          "prompt": "¿Qué diálogos comunitarios podrían fortalecerse si compartimos collage de imágenes y lo ponemos en conversación con otras personas?"
+        }
+      ],
+      "notReadyFor": [
+        "full-games",
+        "summative-exam"
+      ]
+    }
+  ]
+}

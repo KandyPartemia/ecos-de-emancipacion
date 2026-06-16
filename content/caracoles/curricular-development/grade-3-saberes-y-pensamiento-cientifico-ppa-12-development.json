@@ -1,0 +1,707 @@
+{
+  "grade": "3",
+  "gradeLabel": "Tercer grado",
+  "field": "Saberes y Pensamiento Cientifico",
+  "bookVolume": "Tomo III",
+  "partialClassroomProject": "PPA 12",
+  "partialClassroomProjectTitle": "Un limón que reduce la oxidación",
+  "generatedAt": "2026-06-07T03:06:28.533Z",
+  "notes": "Capa curricular generada por lote para 3o Saberes y Pensamiento Cientifico, PPA 12.",
+  "sourcesUsed": [
+    "content/caracoles/curricular-catalog/all-projects-canonical.json",
+    "public/caracoles/data/generated/grade-3/concepts-index.json",
+    "src/caracoles/lib/officialVideoLinks.ts",
+    "Posibilidades de uso SyPC, tercer grado, pp. 30-31",
+    "Nuestro libro de proyectos, tercer grado, pp. 99-110"
+  ],
+  "partialClassroomProjectContext": {
+    "expectationHorizon": {
+      "officialText": "",
+      "sourcePages": [
+        "Nuestro libro de proyectos Tomo III pp. 99-102",
+        "Posibilidades de uso SyPC pp. 30-31"
+      ],
+      "evidence": "El PPA 12 articula galería multiformato, breve artículo científico ilustrado, 13. una sociedad de reacciones químicas para trabajar Un limón que reduce la oxidación.",
+      "status": "pending"
+    },
+    "ppaDetonatingStrategy": {
+      "title": "Un limón que reduce la oxidación",
+      "type": "video",
+      "url": "",
+      "urlStatus": "confirmed-by-official-video-map",
+      "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+      "scope": "partial-classroom-project"
+    },
+    "ppaDigitalResource": {
+      "title": "Recurso del Proyecto Parcial de Aula 12",
+      "reference": "",
+      "status": "confirmed-by-official-video-map",
+      "source": "YouTube, acervo Aprende_MX/Telesecundaria"
+    },
+    "validationStatus": {
+      "needsHumanReview": true,
+      "needsReviewReasons": [
+        "Los videos PA/PPA se validan por el mapa oficial de enlaces directos ya generado.",
+        "Los apoyos complementarios impresos no se asignan cuando no hay evidencia validada por columna.",
+        "El horizonte textual literal queda pendiente de revision fina si se necesita cita exacta."
+      ]
+    },
+    "columnValidation": {
+      "possibilitiesPagesReviewed": [
+        30,
+        31
+      ],
+      "confirmedAsPpa": true,
+      "note": "El PPA 12 se agrupa desde el catalogo canonico de tercer grado.",
+      "columns": [
+        {
+          "columnIndex": 1,
+          "projectId": "saberes-y-pensamiento-cientifico-3-ppa-12-pa34",
+          "projectTitle": "Redox en el ambiente",
+          "finalProduct": "Galería multiformato",
+          "supportMaterials": []
+        },
+        {
+          "columnIndex": 2,
+          "projectId": "saberes-y-pensamiento-cientifico-3-ppa-12-pa35",
+          "projectTitle": "Experimentos óxido-reducción",
+          "finalProduct": "Breve artículo científico ilustrado",
+          "supportMaterials": []
+        },
+        {
+          "columnIndex": 3,
+          "projectId": "saberes-y-pensamiento-cientifico-3-ppa-12-pa36",
+          "projectTitle": "Tipos de reacciones redox",
+          "finalProduct": "13. Una sociedad de reacciones químicas",
+          "supportMaterials": []
+        }
+      ]
+    }
+  },
+  "academicProjects": [
+    {
+      "id": "saberes-y-pensamiento-cientifico-3-ppa-12-pa34",
+      "projectId": "saberes-y-pensamiento-cientifico-3-ppa-12-pa34",
+      "academicProjectNumber": 34,
+      "title": "Redox en el ambiente",
+      "projectTitle": "Redox en el ambiente",
+      "grade": "3",
+      "field": "Saberes y Pensamiento Científico",
+      "ppaNumber": "12",
+      "partialClassroomProject": "PPA 12",
+      "partialClassroomProjectTitle": "Un limón que reduce la oxidación",
+      "bookVolume": "Tomo III",
+      "sourceValidation": {
+        "sourceStatus": "linked",
+        "possibilitiesPages": [
+          30,
+          31
+        ],
+        "possibilitiesMaterialId": "grade-3-posibilidades-pos-sypc-3",
+        "possibilitiesColumnIndex": 1,
+        "columnEvidence": "Proyecto PA 34 agrupado en el PPA 12 desde el catalogo canonico y las paginas de Posibilidades."
+      },
+      "finalProduct": {
+        "title": "Galería multiformato",
+        "source": "Video detonador validado en YouTube + Nuestro libro de proyectos Tomo III pp. 99-102",
+        "status": "confirmed-from-video-and-project"
+      },
+      "sourcePages": {
+        "nuestroLibroProyectos": [
+          {
+            "materialId": "grade-3-proyectos-nuestros-proyectos-tomo-3-tercer-grado",
+            "label": "Nuestro libro de proyectos Tomo III",
+            "startPage": 99,
+            "endPage": 102,
+            "pagesLabel": "pp. 99-102",
+            "topicTitle": "Proyecto academico 34",
+            "status": "confirmed-source"
+          }
+        ],
+        "conceptBook": [
+          {
+            "materialId": "grade-3-conceptos-saberes-y-pensamiento-cientifico-tercer-grado",
+            "label": "Saberes y Pensamiento Cientifico",
+            "startPage": 99,
+            "endPage": 99,
+            "pagesLabel": "p. 99",
+            "topicTitle": "Galería multiformato",
+            "status": "confirmed"
+          }
+        ],
+        "multiplesLenguajes": [],
+        "otherMaterials": [
+          {
+            "label": "Video PA 34: Redox en el ambiente",
+            "reference": "",
+            "status": "confirmed"
+          }
+        ]
+      },
+      "supportMaterials": [],
+      "horizonOrPurpose": {
+        "status": "confirmed-from-project-book",
+        "text": "Conocer qué son las reacciones redox y saber cómo interpretarlas con el uso de las medidas de tendencia central y de dispersión.",
+        "source": "Visión — Horizonte 1 (p. 100)"
+      },
+      "projectExpectationHorizon": {
+        "officialText": "Conocer qué son las reacciones redox y saber cómo interpretarlas con el uso de las medidas de tendencia central y de dispersión.",
+        "studentVersion": "Conocer qué son las reacciones redox y saber cómo interpretarlas con el uso de las medidas de tendencia central y de dispersión.",
+        "horizon1Raw": "Conocer qué son las reacciones redox y saber cómo interpretarlas con el uso de las medidas de tendencia central y de dispersión.",
+        "horizon2Raw": "Investigar como elaborar una memoria con imágenes para reconocer la importancia de las reacciones redox en la naturaleza.",
+        "sourcePages": [
+          "Visión — Horizonte 1 (p. 100)"
+        ],
+        "evidence": "Extraído por visión de imagen de la página 100 del libro de proyectos. Confianza: alta.",
+        "status": "confirmed-from-project-book",
+        "extractedAt": "2026-06-16T05:18:17.437Z"
+      },
+      "detonatingStrategy": {
+        "status": "confirmed",
+        "title": "Un limón que reduce la oxidación",
+        "text": "Video del Proyecto Parcial de Aula 12: Un limón que reduce la oxidación",
+        "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+        "scope": "partial-classroom-project",
+        "type": "video"
+      },
+      "academicProjectStrategy": {
+        "title": "Galería multiformato • Saberes y pensamiento científico • 3er grado",
+        "text": "Video detonador del Proyecto Academico 34: Redox en el ambiente",
+        "type": "video",
+        "status": "confirmed-from-video-and-project",
+        "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+        "scope": "academic-project"
+      },
+      "academicConcepts": [
+        {
+          "concept": "Galería multiformato",
+          "description": "Galería multiformato organiza el producto de cierre y permite comunicar lo aprendido en el proyecto.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            99
+          ],
+          "sourcePagesLabel": "p. 99",
+          "topicTitle": "Proyecto academico 34",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 34, al PPA 12 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Materia",
+          "description": "Materia ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            265
+          ],
+          "sourcePagesLabel": "p. 265",
+          "topicTitle": "Proyecto academico 34",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 34, al PPA 12 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Mezclas",
+          "description": "Mezclas ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            265
+          ],
+          "sourcePagesLabel": "p. 265",
+          "topicTitle": "Proyecto academico 34",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 34, al PPA 12 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Quimica",
+          "description": "Quimica ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            9
+          ],
+          "sourcePagesLabel": "p. 9",
+          "topicTitle": "Proyecto academico 34",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 34, al PPA 12 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Figuras",
+          "description": "Figuras ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            99
+          ],
+          "sourcePagesLabel": "p. 99",
+          "topicTitle": "Proyecto academico 34",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 34, al PPA 12 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Medicion",
+          "description": "Medicion ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            99
+          ],
+          "sourcePagesLabel": "p. 99",
+          "topicTitle": "Proyecto academico 34",
+          "status": "suggested",
+          "reason": "Concepto vinculado al PA 34, al PPA 12 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "teacher-review"
+        }
+      ],
+      "thinkingCriteria": [
+        "Relacionar Redox en el ambiente con una situacion concreta del entorno escolar o comunitario.",
+        "Usar galería multiformato para explicar ideas con claridad y evidencia."
+      ],
+      "resonancePrompts": [
+        {
+          "type": "individual",
+          "prompt": "¿Como te ayuda galería multiformato a comprender mejor Redox en el ambiente y a explicar sus conceptos clave en tu comunidad?",
+          "conceptsActivated": [
+            "Galería multiformato",
+            "Materia",
+            "Mezclas",
+            "Quimica"
+          ],
+          "suggestedUse": "Momento 1 de autoevaluacion"
+        }
+      ],
+      "validationStatus": {
+        "readinessLevel": "curricular-bundle-generated",
+        "readyForActivities": true,
+        "needsReviewReasons": [
+          "El horizonte textual literal queda pendiente de revision fina si se requiere cita exacta.",
+          "Los apoyos complementarios impresos no se asignan cuando no hay evidencia validada por columna."
+        ]
+      },
+      "readinessLevel": "curricular-bundle-generated",
+      "readyForActivities": true,
+      "needsReviewReasons": []
+    },
+    {
+      "id": "saberes-y-pensamiento-cientifico-3-ppa-12-pa35",
+      "projectId": "saberes-y-pensamiento-cientifico-3-ppa-12-pa35",
+      "academicProjectNumber": 35,
+      "title": "Experimentos óxido-reducción",
+      "projectTitle": "Experimentos óxido-reducción",
+      "grade": "3",
+      "field": "Saberes y Pensamiento Científico",
+      "ppaNumber": "12",
+      "partialClassroomProject": "PPA 12",
+      "partialClassroomProjectTitle": "Un limón que reduce la oxidación",
+      "bookVolume": "Tomo III",
+      "sourceValidation": {
+        "sourceStatus": "linked",
+        "possibilitiesPages": [
+          30,
+          31
+        ],
+        "possibilitiesMaterialId": "grade-3-posibilidades-pos-sypc-3",
+        "possibilitiesColumnIndex": 2,
+        "columnEvidence": "Proyecto PA 35 agrupado en el PPA 12 desde el catalogo canonico y las paginas de Posibilidades."
+      },
+      "finalProduct": {
+        "title": "Breve artículo científico ilustrado",
+        "source": "Video detonador validado en YouTube + Nuestro libro de proyectos Tomo III pp. 103-106",
+        "status": "confirmed-from-video-and-project"
+      },
+      "sourcePages": {
+        "nuestroLibroProyectos": [
+          {
+            "materialId": "grade-3-proyectos-nuestros-proyectos-tomo-3-tercer-grado",
+            "label": "Nuestro libro de proyectos Tomo III",
+            "startPage": 103,
+            "endPage": 106,
+            "pagesLabel": "pp. 103-106",
+            "topicTitle": "Proyecto academico 35",
+            "status": "confirmed-source"
+          }
+        ],
+        "conceptBook": [
+          {
+            "materialId": "grade-3-conceptos-saberes-y-pensamiento-cientifico-tercer-grado",
+            "label": "Saberes y Pensamiento Cientifico",
+            "startPage": 103,
+            "endPage": 103,
+            "pagesLabel": "p. 103",
+            "topicTitle": "Breve artículo científico ilustrado",
+            "status": "confirmed"
+          }
+        ],
+        "multiplesLenguajes": [],
+        "otherMaterials": [
+          {
+            "label": "Video PA 35: Experimentos óxido-reducción",
+            "reference": "",
+            "status": "confirmed"
+          }
+        ]
+      },
+      "supportMaterials": [],
+      "horizonOrPurpose": {
+        "status": "confirmed-from-project-book",
+        "text": "Reconocer las características de las reacciones redox, su proceso de transferencia de electrones, la importancia del número de oxidación y la relación con la regla de suma para entender la importancia del número de oxidación y su relación con la regla de la suma.",
+        "source": "Visión — Horizonte 1 (p. 104)"
+      },
+      "projectExpectationHorizon": {
+        "officialText": "Reconocer las características de las reacciones redox, su proceso de transferencia de electrones, la importancia del número de oxidación y la relación con la regla de suma para entender la importancia del número de oxidación y su relación con la regla de la suma.",
+        "studentVersion": "Reconocer las características de las reacciones redox, su proceso de transferencia de electrones, la importancia del número de oxidación y la relación con la regla de suma para entender la importancia del número de oxidación y su relación con la regla de la suma.",
+        "horizon1Raw": "Reconocer las características de las reacciones redox, su proceso de transferencia de electrones, la importancia del número de oxidación y la relación con la regla de suma para entender la importancia del número de oxidación y su relación con la regla de la suma.",
+        "horizon2Raw": "Comprender las características de las reacciones óxido-reducción y condensar datos en un breve artículo científico ilustrado que ayude a identificar la relación entre las reacciones redox y algunos fenómenos naturales cotidianos.",
+        "sourcePages": [
+          "Visión — Horizonte 1 (p. 104)"
+        ],
+        "evidence": "Extraído por visión de imagen de la página 104 del libro de proyectos. Confianza: alta.",
+        "status": "confirmed-from-project-book",
+        "extractedAt": "2026-06-16T05:46:03.949Z"
+      },
+      "detonatingStrategy": {
+        "status": "confirmed",
+        "title": "Un limón que reduce la oxidación",
+        "text": "Video del Proyecto Parcial de Aula 12: Un limón que reduce la oxidación",
+        "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+        "scope": "partial-classroom-project",
+        "type": "video"
+      },
+      "academicProjectStrategy": {
+        "title": "Breve artículo científico ilustrado • Saberes y pensamiento científico • 3er grado",
+        "text": "Video detonador del Proyecto Academico 35: Experimentos óxido-reducción",
+        "type": "video",
+        "status": "confirmed-from-video-and-project",
+        "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+        "scope": "academic-project"
+      },
+      "academicConcepts": [
+        {
+          "concept": "Breve artículo científico ilustrado",
+          "description": "Breve artículo científico ilustrado organiza el producto de cierre y permite comunicar lo aprendido en el proyecto.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            103
+          ],
+          "sourcePagesLabel": "p. 103",
+          "topicTitle": "Proyecto academico 35",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 35, al PPA 12 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Materia",
+          "description": "Materia ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            265
+          ],
+          "sourcePagesLabel": "p. 265",
+          "topicTitle": "Proyecto academico 35",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 35, al PPA 12 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Mezclas",
+          "description": "Mezclas ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            265
+          ],
+          "sourcePagesLabel": "p. 265",
+          "topicTitle": "Proyecto academico 35",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 35, al PPA 12 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Quimica",
+          "description": "Quimica ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            9
+          ],
+          "sourcePagesLabel": "p. 9",
+          "topicTitle": "Proyecto academico 35",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 35, al PPA 12 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Figuras",
+          "description": "Figuras ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            103
+          ],
+          "sourcePagesLabel": "p. 103",
+          "topicTitle": "Proyecto academico 35",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 35, al PPA 12 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Medicion",
+          "description": "Medicion ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            103
+          ],
+          "sourcePagesLabel": "p. 103",
+          "topicTitle": "Proyecto academico 35",
+          "status": "suggested",
+          "reason": "Concepto vinculado al PA 35, al PPA 12 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "teacher-review"
+        }
+      ],
+      "thinkingCriteria": [
+        "Relacionar Experimentos óxido-reducción con una situacion concreta del entorno escolar o comunitario.",
+        "Usar breve artículo científico ilustrado para explicar ideas con claridad y evidencia."
+      ],
+      "resonancePrompts": [
+        {
+          "type": "individual",
+          "prompt": "¿Como te ayuda breve artículo científico ilustrado a comprender mejor Experimentos óxido-reducción y a explicar sus conceptos clave en tu comunidad?",
+          "conceptsActivated": [
+            "Breve artículo científico ilustrado",
+            "Materia",
+            "Mezclas",
+            "Quimica"
+          ],
+          "suggestedUse": "Momento 1 de autoevaluacion"
+        }
+      ],
+      "validationStatus": {
+        "readinessLevel": "curricular-bundle-generated",
+        "readyForActivities": true,
+        "needsReviewReasons": [
+          "El horizonte textual literal queda pendiente de revision fina si se requiere cita exacta.",
+          "Los apoyos complementarios impresos no se asignan cuando no hay evidencia validada por columna."
+        ]
+      },
+      "readinessLevel": "curricular-bundle-generated",
+      "readyForActivities": true,
+      "needsReviewReasons": []
+    },
+    {
+      "id": "saberes-y-pensamiento-cientifico-3-ppa-12-pa36",
+      "projectId": "saberes-y-pensamiento-cientifico-3-ppa-12-pa36",
+      "academicProjectNumber": 36,
+      "title": "Tipos de reacciones redox",
+      "projectTitle": "Tipos de reacciones redox",
+      "grade": "3",
+      "field": "Saberes y Pensamiento Científico",
+      "ppaNumber": "12",
+      "partialClassroomProject": "PPA 12",
+      "partialClassroomProjectTitle": "Un limón que reduce la oxidación",
+      "bookVolume": "Tomo III",
+      "sourceValidation": {
+        "sourceStatus": "linked",
+        "possibilitiesPages": [
+          30,
+          31
+        ],
+        "possibilitiesMaterialId": "grade-3-posibilidades-pos-sypc-3",
+        "possibilitiesColumnIndex": 3,
+        "columnEvidence": "Proyecto PA 36 agrupado en el PPA 12 desde el catalogo canonico y las paginas de Posibilidades."
+      },
+      "finalProduct": {
+        "title": "13. Una sociedad de reacciones químicas",
+        "source": "Video detonador validado en YouTube + Nuestro libro de proyectos Tomo III pp. 107-110",
+        "status": "confirmed-from-video-and-project"
+      },
+      "sourcePages": {
+        "nuestroLibroProyectos": [
+          {
+            "materialId": "grade-3-proyectos-nuestros-proyectos-tomo-3-tercer-grado",
+            "label": "Nuestro libro de proyectos Tomo III",
+            "startPage": 107,
+            "endPage": 110,
+            "pagesLabel": "pp. 107-110",
+            "topicTitle": "Proyecto academico 36",
+            "status": "confirmed-source"
+          }
+        ],
+        "conceptBook": [
+          {
+            "materialId": "grade-3-conceptos-saberes-y-pensamiento-cientifico-tercer-grado",
+            "label": "Saberes y Pensamiento Cientifico",
+            "startPage": 107,
+            "endPage": 107,
+            "pagesLabel": "p. 107",
+            "topicTitle": "13. una sociedad de reacciones químicas",
+            "status": "confirmed"
+          }
+        ],
+        "multiplesLenguajes": [],
+        "otherMaterials": [
+          {
+            "label": "Video PA 36: Tipos de reacciones redox",
+            "reference": "",
+            "status": "confirmed"
+          }
+        ]
+      },
+      "supportMaterials": [],
+      "horizonOrPurpose": {
+        "status": "confirmed-from-project-book",
+        "text": "Comprender las características de un panel de discusión, para abordar los beneficios y el costo ambiental derivados de las reacciones redox para hacer uso de las medidas de tendencia central y de dispersión al presentar la información.",
+        "source": "Visión — Horizonte 2 (p. 108)"
+      },
+      "projectExpectationHorizon": {
+        "officialText": "Comprender las características de un panel de discusión, para abordar los beneficios y el costo ambiental derivados de las reacciones redox para hacer uso de las medidas de tendencia central y de dispersión al presentar la información.",
+        "studentVersion": "Comprender las características de un panel de discusión, para abordar los beneficios y el costo ambiental derivados de las reacciones redox para hacer uso de las medidas de tendencia central y de dispersión al presentar la información.",
+        "horizon1Raw": "Organizar un panel de discusión acerca de los beneficios y el costo ambiental causados por productos derivados de las reacciones redox y con base en la información recolectada.",
+        "horizon2Raw": "Comprender las características de un panel de discusión, para abordar los beneficios y el costo ambiental derivados de las reacciones redox para hacer uso de las medidas de tendencia central y de dispersión al presentar la información.",
+        "sourcePages": [
+          "Visión — Horizonte 2 (p. 108)"
+        ],
+        "evidence": "Extraído por visión de imagen de la página 108 del libro de proyectos. Confianza: alta.",
+        "status": "confirmed-from-project-book",
+        "extractedAt": "2026-06-16T05:18:34.221Z"
+      },
+      "detonatingStrategy": {
+        "status": "confirmed",
+        "title": "Un limón que reduce la oxidación",
+        "text": "Video del Proyecto Parcial de Aula 12: Un limón que reduce la oxidación",
+        "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+        "scope": "partial-classroom-project",
+        "type": "video"
+      },
+      "academicProjectStrategy": {
+        "title": "13. Una sociedad de reacciones químicas • Saberes y pensamiento científico• 3er grado",
+        "text": "Video detonador del Proyecto Academico 36: Tipos de reacciones redox",
+        "type": "video",
+        "status": "confirmed-from-video-and-project",
+        "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+        "scope": "academic-project"
+      },
+      "academicConcepts": [
+        {
+          "concept": "13. una sociedad de reacciones químicas",
+          "description": "13. una sociedad de reacciones químicas organiza el producto de cierre y permite comunicar lo aprendido en el proyecto.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            107
+          ],
+          "sourcePagesLabel": "p. 107",
+          "topicTitle": "Proyecto academico 36",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 36, al PPA 12 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Materia",
+          "description": "Materia ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            265
+          ],
+          "sourcePagesLabel": "p. 265",
+          "topicTitle": "Proyecto academico 36",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 36, al PPA 12 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Mezclas",
+          "description": "Mezclas ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            265
+          ],
+          "sourcePagesLabel": "p. 265",
+          "topicTitle": "Proyecto academico 36",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 36, al PPA 12 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Quimica",
+          "description": "Quimica ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            9
+          ],
+          "sourcePagesLabel": "p. 9",
+          "topicTitle": "Proyecto academico 36",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 36, al PPA 12 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Figuras",
+          "description": "Figuras ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            107
+          ],
+          "sourcePagesLabel": "p. 107",
+          "topicTitle": "Proyecto academico 36",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 36, al PPA 12 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Medicion",
+          "description": "Medicion ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            107
+          ],
+          "sourcePagesLabel": "p. 107",
+          "topicTitle": "Proyecto academico 36",
+          "status": "suggested",
+          "reason": "Concepto vinculado al PA 36, al PPA 12 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "teacher-review"
+        }
+      ],
+      "thinkingCriteria": [
+        "Relacionar Tipos de reacciones redox con una situacion concreta del entorno escolar o comunitario.",
+        "Usar 13. una sociedad de reacciones químicas para explicar ideas con claridad y evidencia."
+      ],
+      "resonancePrompts": [
+        {
+          "type": "individual",
+          "prompt": "¿Como te ayuda 13. una sociedad de reacciones químicas a comprender mejor Tipos de reacciones redox y a explicar sus conceptos clave en tu comunidad?",
+          "conceptsActivated": [
+            "13. una sociedad de reacciones químicas",
+            "Materia",
+            "Mezclas",
+            "Quimica"
+          ],
+          "suggestedUse": "Momento 1 de autoevaluacion"
+        }
+      ],
+      "validationStatus": {
+        "readinessLevel": "curricular-bundle-generated",
+        "readyForActivities": true,
+        "needsReviewReasons": [
+          "El horizonte textual literal queda pendiente de revision fina si se requiere cita exacta.",
+          "Los apoyos complementarios impresos no se asignan cuando no hay evidencia validada por columna."
+        ]
+      },
+      "readinessLevel": "curricular-bundle-generated",
+      "readyForActivities": true,
+      "needsReviewReasons": []
+    }
+  ]
+}

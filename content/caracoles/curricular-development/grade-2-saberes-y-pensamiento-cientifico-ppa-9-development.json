@@ -1,0 +1,762 @@
+{
+  "grade": "2",
+  "gradeLabel": "Segundo grado",
+  "field": "Saberes y Pensamiento Científico",
+  "bookVolume": "Tomo II",
+  "partialClassroomProject": "PPA 9",
+  "partialClassroomProjectTitle": "¿Cómo está compuesto el Universo?",
+  "generatedAt": "2026-06-02T18:31:04.730Z",
+  "notes": "Capa curricular generada por lote para 2o Saberes y Pensamiento Científico, PPA 9.",
+  "sourcesUsed": [
+    "public/caracoles/data/generated/grade-2/selectable-projects.json",
+    "content/caracoles/generated-private/grade-2/pages-index.full.json",
+    "Posibilidades de uso SyPC, segundo grado, pp. 23-24",
+    "Nuestro libro de proyectos Tomo II, segundo grado, pp. 129-142",
+    "Saberes y Pensamiento Científico, segundo grado, pp. 47-51, 162-167, 226-232, 261-264 y 316-323; Múltiples Lenguajes p. 24."
+  ],
+  "partialClassroomProjectContext": {
+    "expectationHorizon": {
+      "officialText": "",
+      "sourcePages": [
+        "Nuestro libro de proyectos Tomo II pp. 129-130",
+        "Posibilidades de uso SyPC pp. 23-24"
+      ],
+      "evidence": "El PPA 9 articula origen del Universo, observación astronómica y ondas electromagnéticas para que el grupo piense cómo se conoce lo lejano, lo inmenso y lo no visible directamente.",
+      "status": "pending"
+    },
+    "ppaDetonatingStrategy": {
+      "title": "¿Cómo está compuesto el Universo?",
+      "type": "video",
+      "url": "",
+      "urlStatus": "pending-url",
+      "reference": "bit.ly/3VfglUk",
+      "source": "Nuestro libro de proyectos Tomo II pp. 129-130 + Posibilidades de uso SyPC pp. 23-24",
+      "scope": "partial-classroom-project",
+      "youtubeSearchQuery": "¿Cómo está compuesto el Universo? Saberes y Pensamiento Científico 2do grado Telesecundaria"
+    },
+    "ppaDigitalResource": {
+      "title": "Recurso informatico del bloque PPA 9",
+      "reference": "bit.ly/3WQBMwg",
+      "status": "pending-validation",
+      "source": "Nuestro libro de proyectos Tomo II pp. 129-142"
+    },
+    "validationStatus": {
+      "needsHumanReview": true,
+      "needsReviewReasons": [
+        "Las pp. 23-24 de Posibilidades pertenecen al mismo PPA 9.",
+        "La asignacion de apoyos por columna se fija por inferencia curricular documentada de izquierda a derecha.",
+        "Los enlaces cortos del video del PPA y del recurso informatico se mantienen en cautela hasta localizar un destino oficial confirmado.",
+        "El apoyo El color negro más negro del mundo se asigna por inferencia curricular a la tercera columna, ligada a ondas electromagnéticas."
+      ]
+    },
+    "columnValidation": {
+      "possibilitiesPagesReviewed": [
+        23,
+        24
+      ],
+      "confirmedAsPpa": true,
+      "note": "Las pp. 23-24 corresponden al PPA 9 ¿Cómo está compuesto el Universo?. Las tres columnas se sostienen por el orden de proyectos, productos y apoyos del mismo bloque.",
+      "columns": [
+        {
+          "columnIndex": 1,
+          "projectId": "saberes-y-pensamiento-cientifico-2-ppa-9-pa25",
+          "projectTitle": "Historia del Universo",
+          "finalProduct": "Línea del tiempo mural",
+          "supportMaterials": []
+        },
+        {
+          "columnIndex": 2,
+          "projectId": "saberes-y-pensamiento-cientifico-2-ppa-9-pa26",
+          "projectTitle": "¡Así se ven el Universo y el Sistema Solar!",
+          "finalProduct": "Modelos tridimensionales de los astros",
+          "supportMaterials": []
+        },
+        {
+          "columnIndex": 3,
+          "projectId": "saberes-y-pensamiento-cientifico-2-ppa-9-pa27",
+          "projectTitle": "¿Qué onda con las ondas electromagnéticas?",
+          "finalProduct": "Monólogos dramatizados",
+          "supportMaterials": [
+            "El color negro más negro del mundo, p. 24"
+          ]
+        }
+      ]
+    }
+  },
+  "academicProjects": [
+    {
+      "id": "saberes-y-pensamiento-cientifico-2-ppa-9-pa25",
+      "projectId": "saberes-y-pensamiento-cientifico-2-ppa-9-pa25",
+      "academicProjectNumber": 25,
+      "title": "Historia del Universo",
+      "projectTitle": "Historia del Universo",
+      "grade": "2",
+      "field": "Saberes y Pensamiento Científico",
+      "ppaNumber": "9",
+      "partialClassroomProject": "PPA 9",
+      "partialClassroomProjectTitle": "¿Cómo está compuesto el Universo?",
+      "bookVolume": "Tomo II",
+      "sourceValidation": {
+        "sourceStatus": "linked",
+        "possibilitiesPages": [
+          23,
+          24
+        ],
+        "possibilitiesMaterialId": "grade-2-posibilidades-pos-sypc-2",
+        "possibilitiesColumnIndex": 1,
+        "columnEvidence": "Bloque PPA 9 ¿Cómo está compuesto el Universo? localizado en pp. 23-24; la columna 1 se confirma por el orden de proyectos, productos y continuidad del mismo bloque."
+      },
+      "finalProduct": {
+        "title": "Línea del tiempo mural",
+        "source": "Posibilidades de uso SyPC pp. 23-24 + Nuestro libro de proyectos Tomo II pp. 131-134",
+        "status": "confirmed"
+      },
+      "sourcePages": {
+        "nuestroLibroProyectos": [
+          {
+            "materialId": "grade-2-proyectos-nuestro-libro-de-proyectos-tomo-2-segundo-grado",
+            "label": "Nuestro libro de proyectos Tomo II",
+            "startPage": 131,
+            "endPage": 134,
+            "pagesLabel": "pp. 131-134",
+            "topicTitle": "Proyecto academico 25",
+            "status": "confirmed-source"
+          }
+        ],
+        "conceptBook": [
+          {
+            "materialId": "grade-2-conceptos-saberes-y-pensamiento-cientifico-segundo-grado",
+            "label": "Saberes y Pensamiento Científico",
+            "startPage": 226,
+            "endPage": 230,
+            "pagesLabel": "pp. 226-230",
+            "topicTitle": "Herramientas de exploración del Universo",
+            "status": "confirmed-by-column-inference"
+          },
+          {
+            "materialId": "grade-2-conceptos-saberes-y-pensamiento-cientifico-segundo-grado",
+            "label": "Saberes y Pensamiento Científico",
+            "startPage": 261,
+            "endPage": 264,
+            "pagesLabel": "pp. 261-264",
+            "topicTitle": "Origen y evolución del Universo",
+            "status": "confirmed-by-column-inference"
+          }
+        ],
+        "multiplesLenguajes": [],
+        "otherMaterials": [
+          {
+            "label": "Video PPA 9: ¿Cómo está compuesto el Universo?",
+            "reference": "bit.ly/3VfglUk",
+            "status": "pending-validation"
+          }
+        ]
+      },
+      "supportMaterials": [],
+      "horizonOrPurpose": {
+        "status": "confirmed-from-project-book",
+        "text": "Conocer las características principales de la evolución que ha tenido el Universo y plasmar claramente dicha información en una línea del tiempo mural.",
+        "source": "Visión — Horizonte 1 (p. 132)"
+      },
+      "projectExpectationHorizon": {
+        "officialText": "Conocer las características principales de la evolución que ha tenido el Universo y plasmar claramente dicha información en una línea del tiempo mural.",
+        "studentVersion": "Conocer las características principales de la evolución que ha tenido el Universo y plasmar claramente dicha información en una línea del tiempo mural.",
+        "horizon1Raw": "Conocer las características principales de la evolución que ha tenido el Universo y plasmar claramente dicha información en una línea del tiempo mural.",
+        "horizon2Raw": "Actualizar los conocimientos sobre la historia del Universo y plasmaros en una línea del tiempo mural con argumentos teóricos y fidedignos.",
+        "sourcePages": [
+          "Visión — Horizonte 1 (p. 132)"
+        ],
+        "evidence": "Extraído por visión de imagen de la página 132 del libro de proyectos. Confianza: alta.",
+        "status": "confirmed-from-project-book",
+        "extractedAt": "2026-06-16T05:11:49.693Z"
+      },
+      "detonatingStrategy": {
+        "status": "pending-url",
+        "text": "Video PPA 9: ¿Cómo está compuesto el Universo?",
+        "reference": "bit.ly/3VfglUk",
+        "source": "Nuestro libro de proyectos Tomo II pp. 129-130 + Posibilidades de uso SyPC pp. 23-24"
+      },
+      "academicProjectStrategy": {
+        "title": "Línea del tiempo mural",
+        "text": "Organizar en una línea del tiempo mural los principales momentos que permiten explicar cómo se piensa el origen y la evolución del Universo.",
+        "type": "project-product",
+        "status": "confirmed-from-project-book",
+        "source": "Nuestro libro de proyectos Tomo II pp. 131-134"
+      },
+      "academicConcepts": [
+        {
+          "concept": "línea del tiempo mural",
+          "description": "Línea del tiempo mural como producto de cierre para organizar y comunicar aprendizajes del proyecto.",
+          "sourceBook": "Nuestro libro de proyectos Tomo II",
+          "sourcePages": [
+            131,
+            134
+          ],
+          "sourcePagesLabel": "pp. 131-134",
+          "topicTitle": "Proyecto academico 25",
+          "status": "confirmed",
+          "reason": "Posibilidades y el propio proyecto fijan Línea del tiempo mural como producto final del PA 25.",
+          "pedagogicalUse": "Da una forma concreta de socializar lo comprendido sobre el origen y la evolución del Universo, incluida la Gran Explosión, como proceso histórico-científico representable en una secuencia.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "origen del Universo",
+          "description": "Origen del Universo es una idea clave para comprender el origen y la evolución del Universo, incluida la Gran Explosión, como proceso histórico-científico representable en una secuencia.",
+          "sourceBook": "Saberes y Pensamiento Científico",
+          "sourcePages": [
+            261,
+            264
+          ],
+          "sourcePagesLabel": "pp. 261-264",
+          "topicTitle": "Origen y evolución del Universo",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Origen y evolución del Universo\" aporta base suficiente para trabajar origen del Universo dentro del proyecto 25.",
+          "pedagogicalUse": "Ayuda a fortalecer línea del tiempo mural y a explicar el origen y la evolución del Universo, incluida la Gran Explosión, como proceso histórico-científico representable en una secuencia con mayor claridad mediante origen del Universo.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Gran Explosión",
+          "description": "Gran Explosión es una idea clave para comprender el origen y la evolución del Universo, incluida la Gran Explosión, como proceso histórico-científico representable en una secuencia.",
+          "sourceBook": "Saberes y Pensamiento Científico",
+          "sourcePages": [
+            261,
+            264
+          ],
+          "sourcePagesLabel": "pp. 261-264",
+          "topicTitle": "Origen y evolución del Universo",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Origen y evolución del Universo\" aporta base suficiente para trabajar Gran Explosión dentro del proyecto 25.",
+          "pedagogicalUse": "Ayuda a fortalecer línea del tiempo mural y a explicar el origen y la evolución del Universo, incluida la Gran Explosión, como proceso histórico-científico representable en una secuencia con mayor claridad mediante Gran Explosión.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "evolución del Universo",
+          "description": "Evolución del Universo es una idea clave para comprender el origen y la evolución del Universo, incluida la Gran Explosión, como proceso histórico-científico representable en una secuencia.",
+          "sourceBook": "Saberes y Pensamiento Científico",
+          "sourcePages": [
+            261,
+            264
+          ],
+          "sourcePagesLabel": "pp. 261-264",
+          "topicTitle": "Origen y evolución del Universo",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Origen y evolución del Universo\" aporta base suficiente para trabajar evolución del Universo dentro del proyecto 25.",
+          "pedagogicalUse": "Ayuda a fortalecer línea del tiempo mural y a explicar el origen y la evolución del Universo, incluida la Gran Explosión, como proceso histórico-científico representable en una secuencia con mayor claridad mediante evolución del Universo.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "radiotelescopios",
+          "description": "Radiotelescopios es una idea clave para comprender el origen y la evolución del Universo, incluida la Gran Explosión, como proceso histórico-científico representable en una secuencia.",
+          "sourceBook": "Saberes y Pensamiento Científico",
+          "sourcePages": [
+            226,
+            230
+          ],
+          "sourcePagesLabel": "pp. 226-230",
+          "topicTitle": "Herramientas de exploración del Universo",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Herramientas de exploración del Universo\" aporta base suficiente para trabajar radiotelescopios dentro del proyecto 25.",
+          "pedagogicalUse": "Ayuda a fortalecer línea del tiempo mural y a explicar el origen y la evolución del Universo, incluida la Gran Explosión, como proceso histórico-científico representable en una secuencia con mayor claridad mediante radiotelescopios.",
+          "activityReadiness": "usable-for-autoevaluation"
+        }
+      ],
+      "thinkingCriteria": [
+        "Ubicar eventos y explicaciones sin convertir la línea del tiempo en una lista plana.",
+        "Relacionar herramientas de observación con preguntas sobre el origen del Universo.",
+        "Distinguir entre narración científica y simple cronología."
+      ],
+      "validationStatus": {
+        "readinessLevel": "development-partial",
+        "readyForActivities": false,
+        "needsReviewReasons": [
+          "El bloque 9 ya es usable como lectura docente, pero el video del PPA 9 y el recurso informatico siguen pendientes de validacion de destino final.",
+          "La asignacion de apoyos de Posibilidades se sostiene por inferencia curricular documentada y no por OCR perfectamente separado por columnas.",
+          "No mover a actividades interactivas ni desbloquear juegos completos hasta ampliar validacion de videos y recursos complementarios."
+        ]
+      },
+      "readinessLevel": "development-partial",
+      "readyForActivities": false,
+      "needsReviewReasons": [
+        "No mover a actividades interactivas ni desbloquear juegos completos."
+      ],
+      "roleInPpa": "Abre el bloque al ofrecer una narración temporal que ordena las ideas fundamentales sobre el origen del Universo.",
+      "pedagogicalUse": "Conviene trabajar Historia del Universo como una oportunidad para profundizar en el origen y la evolución del Universo, incluida la Gran Explosión, como proceso histórico-científico representable en una secuencia sin separar contenido, comunidad y producto final.",
+      "teacherNotes": [
+        "Conviene partir de ejemplos cercanos y después pasar al lenguaje mas abstracto del campo.",
+        "El producto Línea del tiempo mural gana fuerza cuando se usa para explicar y no solo para exhibir informacion.",
+        "Es mejor seleccionar pocos conceptos bien comprendidos que saturar el trabajo con terminos aislados."
+      ],
+      "resonancePrompts": [
+        {
+          "type": "individual",
+          "prompt": "¿Qué comprendes mejor sobre el origen y la evolución del Universo, incluida la Gran Explosión, como proceso histórico-científico representable en una secuencia después de elaborar línea del tiempo mural?"
+        },
+        {
+          "type": "community",
+          "prompt": "¿Qué preguntas sobre el origen del Universo siguen despertando curiosidad cuando se revisa su historia científica?"
+        }
+      ],
+      "notReadyFor": [
+        "full-games",
+        "summative-exam"
+      ]
+    },
+    {
+      "id": "saberes-y-pensamiento-cientifico-2-ppa-9-pa26",
+      "projectId": "saberes-y-pensamiento-cientifico-2-ppa-9-pa26",
+      "academicProjectNumber": 26,
+      "title": "¡Así se ven el Universo y el Sistema Solar!",
+      "projectTitle": "¡Así se ven el Universo y el Sistema Solar!",
+      "grade": "2",
+      "field": "Saberes y Pensamiento Científico",
+      "ppaNumber": "9",
+      "partialClassroomProject": "PPA 9",
+      "partialClassroomProjectTitle": "¿Cómo está compuesto el Universo?",
+      "bookVolume": "Tomo II",
+      "sourceValidation": {
+        "sourceStatus": "linked",
+        "possibilitiesPages": [
+          23,
+          24
+        ],
+        "possibilitiesMaterialId": "grade-2-posibilidades-pos-sypc-2",
+        "possibilitiesColumnIndex": 2,
+        "columnEvidence": "Bloque PPA 9 ¿Cómo está compuesto el Universo? localizado en pp. 23-24; la columna 2 se confirma por el orden de proyectos, productos y continuidad del mismo bloque."
+      },
+      "finalProduct": {
+        "title": "Modelos tridimensionales de los astros",
+        "source": "Posibilidades de uso SyPC pp. 23-24 + Nuestro libro de proyectos Tomo II pp. 135-137",
+        "status": "confirmed"
+      },
+      "sourcePages": {
+        "nuestroLibroProyectos": [
+          {
+            "materialId": "grade-2-proyectos-nuestro-libro-de-proyectos-tomo-2-segundo-grado",
+            "label": "Nuestro libro de proyectos Tomo II",
+            "startPage": 135,
+            "endPage": 137,
+            "pagesLabel": "pp. 135-137",
+            "topicTitle": "Proyecto academico 26",
+            "status": "confirmed-source"
+          }
+        ],
+        "conceptBook": [
+          {
+            "materialId": "grade-2-conceptos-saberes-y-pensamiento-cientifico-segundo-grado",
+            "label": "Saberes y Pensamiento Científico",
+            "startPage": 47,
+            "endPage": 51,
+            "pagesLabel": "pp. 47-51",
+            "topicTitle": "Construcción a escala de triángulos, cuadriláteros y polígonos regulares o irregulares",
+            "status": "confirmed-by-column-inference"
+          },
+          {
+            "materialId": "grade-2-conceptos-saberes-y-pensamiento-cientifico-segundo-grado",
+            "label": "Saberes y Pensamiento Científico",
+            "startPage": 162,
+            "endPage": 167,
+            "pagesLabel": "pp. 162-167",
+            "topicTitle": "Dinámica del Sistema Solar",
+            "status": "confirmed-by-column-inference"
+          },
+          {
+            "materialId": "grade-2-conceptos-saberes-y-pensamiento-cientifico-segundo-grado",
+            "label": "Saberes y Pensamiento Científico",
+            "startPage": 226,
+            "endPage": 232,
+            "pagesLabel": "pp. 226-232",
+            "topicTitle": "Herramientas de exploración del Universo",
+            "status": "confirmed-by-column-inference"
+          }
+        ],
+        "multiplesLenguajes": [],
+        "otherMaterials": [
+          {
+            "label": "Video PPA 9: ¿Cómo está compuesto el Universo?",
+            "reference": "bit.ly/3VfglUk",
+            "status": "pending-validation"
+          }
+        ]
+      },
+      "supportMaterials": [],
+      "horizonOrPurpose": {
+        "status": "pending",
+        "text": "",
+        "source": "Nuestro libro de proyectos Tomo II p. 135"
+      },
+      "projectExpectationHorizon": {
+        "officialText": "",
+        "studentVersion": "",
+        "sourcePages": [
+          "Nuestro libro de proyectos Tomo II p. 135"
+        ],
+        "evidence": "El proyecto ya cuenta con producto, conceptos y articulacion pedagogica, pero el horizonte textual exacto sigue pendiente de confirmacion literal.",
+        "status": "pending"
+      },
+      "detonatingStrategy": {
+        "status": "pending-url",
+        "text": "Video PPA 9: ¿Cómo está compuesto el Universo?",
+        "reference": "bit.ly/3VfglUk",
+        "source": "Nuestro libro de proyectos Tomo II pp. 133-134 + Posibilidades de uso SyPC pp. 23-24"
+      },
+      "academicProjectStrategy": {
+        "title": "Modelos tridimensionales de los astros",
+        "text": "Representar a escala algunos cuerpos y trayectorias del Sistema Solar para volver más visible la información astronómica trabajada por el grupo.",
+        "type": "project-product",
+        "status": "confirmed-from-project-book",
+        "source": "Nuestro libro de proyectos Tomo II pp. 135-137"
+      },
+      "academicConcepts": [
+        {
+          "concept": "modelos tridimensionales de los astros",
+          "description": "Modelos tridimensionales de los astros como producto de cierre para organizar y comunicar aprendizajes del proyecto.",
+          "sourceBook": "Nuestro libro de proyectos Tomo II",
+          "sourcePages": [
+            135,
+            137
+          ],
+          "sourcePagesLabel": "pp. 135-137",
+          "topicTitle": "Proyecto academico 26",
+          "status": "confirmed",
+          "reason": "Posibilidades y el propio proyecto fijan Modelos tridimensionales de los astros como producto final del PA 26.",
+          "pedagogicalUse": "Da una forma concreta de socializar lo comprendido sobre la representación del Universo y del Sistema Solar mediante escalas, herramientas de exploración y modelos tridimensionales de los astros.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Sistema Solar",
+          "description": "Sistema Solar es una idea clave para comprender la representación del Universo y del Sistema Solar mediante escalas, herramientas de exploración y modelos tridimensionales de los astros.",
+          "sourceBook": "Saberes y Pensamiento Científico",
+          "sourcePages": [
+            162,
+            167
+          ],
+          "sourcePagesLabel": "pp. 162-167",
+          "topicTitle": "Dinámica del Sistema Solar",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Dinámica del Sistema Solar\" aporta base suficiente para trabajar Sistema Solar dentro del proyecto 26.",
+          "pedagogicalUse": "Ayuda a fortalecer modelos tridimensionales de los astros y a explicar la representación del Universo y del Sistema Solar mediante escalas, herramientas de exploración y modelos tridimensionales de los astros con mayor claridad mediante Sistema Solar.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "leyes de Kepler",
+          "description": "Leyes de Kepler es una idea clave para comprender la representación del Universo y del Sistema Solar mediante escalas, herramientas de exploración y modelos tridimensionales de los astros.",
+          "sourceBook": "Saberes y Pensamiento Científico",
+          "sourcePages": [
+            162,
+            167
+          ],
+          "sourcePagesLabel": "pp. 162-167",
+          "topicTitle": "Dinámica del Sistema Solar",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Dinámica del Sistema Solar\" aporta base suficiente para trabajar leyes de Kepler dentro del proyecto 26.",
+          "pedagogicalUse": "Ayuda a fortalecer modelos tridimensionales de los astros y a explicar la representación del Universo y del Sistema Solar mediante escalas, herramientas de exploración y modelos tridimensionales de los astros con mayor claridad mediante leyes de Kepler.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "gravitación universal",
+          "description": "Gravitación universal es una idea clave para comprender la representación del Universo y del Sistema Solar mediante escalas, herramientas de exploración y modelos tridimensionales de los astros.",
+          "sourceBook": "Saberes y Pensamiento Científico",
+          "sourcePages": [
+            162,
+            167
+          ],
+          "sourcePagesLabel": "pp. 162-167",
+          "topicTitle": "Dinámica del Sistema Solar",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Dinámica del Sistema Solar\" aporta base suficiente para trabajar gravitación universal dentro del proyecto 26.",
+          "pedagogicalUse": "Ayuda a fortalecer modelos tridimensionales de los astros y a explicar la representación del Universo y del Sistema Solar mediante escalas, herramientas de exploración y modelos tridimensionales de los astros con mayor claridad mediante gravitación universal.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "construcción a escala",
+          "description": "Construcción a escala es una idea clave para comprender la representación del Universo y del Sistema Solar mediante escalas, herramientas de exploración y modelos tridimensionales de los astros.",
+          "sourceBook": "Saberes y Pensamiento Científico",
+          "sourcePages": [
+            47,
+            51
+          ],
+          "sourcePagesLabel": "pp. 47-51",
+          "topicTitle": "Construcción a escala de triángulos, cuadriláteros y polígonos regulares o irregulares",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Construcción a escala de triángulos, cuadriláteros y polígonos regulares o irregulares\" aporta base suficiente para trabajar construcción a escala dentro del proyecto 26.",
+          "pedagogicalUse": "Ayuda a fortalecer modelos tridimensionales de los astros y a explicar la representación del Universo y del Sistema Solar mediante escalas, herramientas de exploración y modelos tridimensionales de los astros con mayor claridad mediante construcción a escala.",
+          "activityReadiness": "usable-for-autoevaluation"
+        }
+      ],
+      "thinkingCriteria": [
+        "Usar la escala para comparar, no sólo para adornar el modelo.",
+        "Relacionar la observación con las herramientas que permiten obtener información del espacio.",
+        "Explicar qué gana y qué limita un modelo tridimensional."
+      ],
+      "validationStatus": {
+        "readinessLevel": "development-partial",
+        "readyForActivities": false,
+        "needsReviewReasons": [
+          "El bloque 9 ya es usable como lectura docente, pero el video del PPA 9 y el recurso informatico siguen pendientes de validacion de destino final.",
+          "La asignacion de apoyos de Posibilidades se sostiene por inferencia curricular documentada y no por OCR perfectamente separado por columnas.",
+          "No mover a actividades interactivas ni desbloquear juegos completos hasta ampliar validacion de videos y recursos complementarios."
+        ]
+      },
+      "readinessLevel": "development-partial",
+      "readyForActivities": false,
+      "needsReviewReasons": [
+        "No mover a actividades interactivas ni desbloquear juegos completos."
+      ],
+      "roleInPpa": "Profundiza el bloque al traducir información astronómica a modelos visibles y comparables.",
+      "pedagogicalUse": "Conviene trabajar ¡Así se ven el Universo y el Sistema Solar! como una oportunidad para profundizar en la representación del Universo y del Sistema Solar mediante escalas, herramientas de exploración y modelos tridimensionales de los astros sin separar contenido, comunidad y producto final.",
+      "teacherNotes": [
+        "Conviene partir de ejemplos cercanos y después pasar al lenguaje mas abstracto del campo.",
+        "El producto Modelos tridimensionales de los astros gana fuerza cuando se usa para explicar y no solo para exhibir informacion.",
+        "Es mejor seleccionar pocos conceptos bien comprendidos que saturar el trabajo con terminos aislados."
+      ],
+      "resonancePrompts": [
+        {
+          "type": "individual",
+          "prompt": "¿Qué comprendes mejor sobre la representación del Universo y del Sistema Solar mediante escalas, herramientas de exploración y modelos tridimensionales de los astros después de elaborar modelos tridimensionales de los astros?"
+        },
+        {
+          "type": "community",
+          "prompt": "¿Cómo cambia la comprensión del Sistema Solar cuando se representa con escalas y modelos tangibles?"
+        }
+      ],
+      "notReadyFor": [
+        "full-games",
+        "summative-exam"
+      ]
+    },
+    {
+      "id": "saberes-y-pensamiento-cientifico-2-ppa-9-pa27",
+      "projectId": "saberes-y-pensamiento-cientifico-2-ppa-9-pa27",
+      "academicProjectNumber": 27,
+      "title": "¿Qué onda con las ondas electromagnéticas?",
+      "projectTitle": "¿Qué onda con las ondas electromagnéticas?",
+      "grade": "2",
+      "field": "Saberes y Pensamiento Científico",
+      "ppaNumber": "9",
+      "partialClassroomProject": "PPA 9",
+      "partialClassroomProjectTitle": "¿Cómo está compuesto el Universo?",
+      "bookVolume": "Tomo II",
+      "sourceValidation": {
+        "sourceStatus": "linked",
+        "possibilitiesPages": [
+          23,
+          24
+        ],
+        "possibilitiesMaterialId": "grade-2-posibilidades-pos-sypc-2",
+        "possibilitiesColumnIndex": 3,
+        "columnEvidence": "Bloque PPA 9 ¿Cómo está compuesto el Universo? localizado en pp. 23-24; la columna 3 se confirma por el orden de proyectos, productos y continuidad del mismo bloque."
+      },
+      "finalProduct": {
+        "title": "Monólogos dramatizados",
+        "source": "Posibilidades de uso SyPC pp. 23-24 + Nuestro libro de proyectos Tomo II pp. 138-142",
+        "status": "confirmed"
+      },
+      "sourcePages": {
+        "nuestroLibroProyectos": [
+          {
+            "materialId": "grade-2-proyectos-nuestro-libro-de-proyectos-tomo-2-segundo-grado",
+            "label": "Nuestro libro de proyectos Tomo II",
+            "startPage": 138,
+            "endPage": 142,
+            "pagesLabel": "pp. 138-142",
+            "topicTitle": "Proyecto academico 27",
+            "status": "confirmed-source"
+          }
+        ],
+        "conceptBook": [
+          {
+            "materialId": "grade-2-conceptos-saberes-y-pensamiento-cientifico-segundo-grado",
+            "label": "Saberes y Pensamiento Científico",
+            "startPage": 226,
+            "endPage": 231,
+            "pagesLabel": "pp. 226-231",
+            "topicTitle": "Herramientas de exploración del Universo",
+            "status": "confirmed-by-column-inference"
+          },
+          {
+            "materialId": "grade-2-conceptos-saberes-y-pensamiento-cientifico-segundo-grado",
+            "label": "Saberes y Pensamiento Científico",
+            "startPage": 316,
+            "endPage": 323,
+            "pagesLabel": "pp. 316-323",
+            "topicTitle": "Ondas electromagnéticas",
+            "status": "confirmed-by-column-inference"
+          }
+        ],
+        "multiplesLenguajes": [
+          {
+            "materialId": "grade-2-apoyo-multiples-lenguajes-segundo-grado",
+            "label": "Multiples Lenguajes",
+            "startPage": 24,
+            "endPage": 24,
+            "pagesLabel": "p. 24",
+            "topicTitle": "El color negro más negro del mundo",
+            "status": "confirmed-by-column-inference"
+          }
+        ],
+        "otherMaterials": [
+          {
+            "label": "Video PPA 9: ¿Cómo está compuesto el Universo?",
+            "reference": "bit.ly/3VfglUk",
+            "status": "pending-validation"
+          }
+        ]
+      },
+      "supportMaterials": [
+        {
+          "title": "El color negro más negro del mundo",
+          "kind": "Multiples Lenguajes",
+          "pages": "p. 24",
+          "status": "confirmed-by-column-inference"
+        }
+      ],
+      "horizonOrPurpose": {
+        "status": "confirmed-from-project-book",
+        "text": "Integrar información acerca de las ondas electromagnéticas y su representación en productos electrónicos, y especificar la información a presentar para entregar un análisis completo.",
+        "source": "Visión — Horizonte 2 (p. 139)"
+      },
+      "projectExpectationHorizon": {
+        "officialText": "Integrar información acerca de las ondas electromagnéticas y su representación en productos electrónicos, y especificar la información a presentar para entregar un análisis completo.",
+        "studentVersion": "Integrar información acerca de las ondas electromagnéticas y su representación en productos electrónicos, y especificar la información a presentar para entregar un análisis completo.",
+        "horizon1Raw": "Dar una explicación sobre cómo surgen las ondas electromagnéticas, con el fin de integrar información para profundizar el conocimiento de la comunidad.",
+        "horizon2Raw": "Integrar información acerca de las ondas electromagnéticas y su representación en productos electrónicos, y especificar la información a presentar para entregar un análisis completo.",
+        "sourcePages": [
+          "Visión — Horizonte 2 (p. 139)"
+        ],
+        "evidence": "Extraído por visión de imagen de la página 139 del libro de proyectos. Confianza: alta.",
+        "status": "confirmed-from-project-book",
+        "extractedAt": "2026-06-16T05:33:42.055Z"
+      },
+      "detonatingStrategy": {
+        "status": "pending-url",
+        "text": "Video PPA 9: ¿Cómo está compuesto el Universo?",
+        "reference": "bit.ly/3VfglUk",
+        "source": "Nuestro libro de proyectos Tomo II pp. 136-137 + Posibilidades de uso SyPC pp. 23-24"
+      },
+      "academicProjectStrategy": {
+        "title": "Monólogos dramatizados",
+        "text": "Dramatizar las ondas electromagnéticas para explicar cómo ayudan a conocer el Universo y por qué no todas se perciben de la misma manera.",
+        "type": "project-product",
+        "status": "confirmed-from-project-book",
+        "source": "Nuestro libro de proyectos Tomo II pp. 138-142"
+      },
+      "academicConcepts": [
+        {
+          "concept": "monólogos dramatizados",
+          "description": "Monólogos dramatizados como producto de cierre para organizar y comunicar aprendizajes del proyecto.",
+          "sourceBook": "Nuestro libro de proyectos Tomo II",
+          "sourcePages": [
+            138,
+            142
+          ],
+          "sourcePagesLabel": "pp. 138-142",
+          "topicTitle": "Proyecto academico 27",
+          "status": "confirmed",
+          "reason": "Posibilidades y el propio proyecto fijan Monólogos dramatizados como producto final del PA 27.",
+          "pedagogicalUse": "Da una forma concreta de socializar lo comprendido sobre las ondas electromagnéticas como medio de exploración del Universo y como fenómeno que permite interpretar información no visible directamente.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "ondas electromagnéticas",
+          "description": "Ondas electromagnéticas es una idea clave para comprender las ondas electromagnéticas como medio de exploración del Universo y como fenómeno que permite interpretar información no visible directamente.",
+          "sourceBook": "Saberes y Pensamiento Científico",
+          "sourcePages": [
+            316,
+            323
+          ],
+          "sourcePagesLabel": "pp. 316-323",
+          "topicTitle": "Ondas electromagnéticas",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Ondas electromagnéticas\" aporta base suficiente para trabajar ondas electromagnéticas dentro del proyecto 27.",
+          "pedagogicalUse": "Ayuda a fortalecer monólogos dramatizados y a explicar las ondas electromagnéticas como medio de exploración del Universo y como fenómeno que permite interpretar información no visible directamente con mayor claridad mediante ondas electromagnéticas.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "telescopios en otras longitudes de onda",
+          "description": "Telescopios en otras longitudes de onda es una idea clave para comprender las ondas electromagnéticas como medio de exploración del Universo y como fenómeno que permite interpretar información no visible directamente.",
+          "sourceBook": "Saberes y Pensamiento Científico",
+          "sourcePages": [
+            226,
+            231
+          ],
+          "sourcePagesLabel": "pp. 226-231",
+          "topicTitle": "Herramientas de exploración del Universo",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Herramientas de exploración del Universo\" aporta base suficiente para trabajar telescopios en otras longitudes de onda dentro del proyecto 27.",
+          "pedagogicalUse": "Ayuda a fortalecer monólogos dramatizados y a explicar las ondas electromagnéticas como medio de exploración del Universo y como fenómeno que permite interpretar información no visible directamente con mayor claridad mediante telescopios en otras longitudes de onda.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "radiotelescopios",
+          "description": "Radiotelescopios es una idea clave para comprender las ondas electromagnéticas como medio de exploración del Universo y como fenómeno que permite interpretar información no visible directamente.",
+          "sourceBook": "Saberes y Pensamiento Científico",
+          "sourcePages": [
+            226,
+            231
+          ],
+          "sourcePagesLabel": "pp. 226-231",
+          "topicTitle": "Herramientas de exploración del Universo",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Herramientas de exploración del Universo\" aporta base suficiente para trabajar radiotelescopios dentro del proyecto 27.",
+          "pedagogicalUse": "Ayuda a fortalecer monólogos dramatizados y a explicar las ondas electromagnéticas como medio de exploración del Universo y como fenómeno que permite interpretar información no visible directamente con mayor claridad mediante radiotelescopios.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "longitud de onda",
+          "description": "Longitud de onda es una idea clave para comprender las ondas electromagnéticas como medio de exploración del Universo y como fenómeno que permite interpretar información no visible directamente.",
+          "sourceBook": "Saberes y Pensamiento Científico",
+          "sourcePages": [
+            320,
+            323
+          ],
+          "sourcePagesLabel": "pp. 320-323",
+          "topicTitle": "Ondas electromagnéticas",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Ondas electromagnéticas\" aporta base suficiente para trabajar longitud de onda dentro del proyecto 27.",
+          "pedagogicalUse": "Ayuda a fortalecer monólogos dramatizados y a explicar las ondas electromagnéticas como medio de exploración del Universo y como fenómeno que permite interpretar información no visible directamente con mayor claridad mediante longitud de onda.",
+          "activityReadiness": "usable-for-autoevaluation"
+        }
+      ],
+      "thinkingCriteria": [
+        "Hacer inteligible un concepto abstracto sin vaciarlo de contenido científico.",
+        "Relacionar cada herramienta de observación con el tipo de información que permite obtener.",
+        "Evitar que el monólogo se vuelva sólo actuación sin explicación."
+      ],
+      "validationStatus": {
+        "readinessLevel": "development-partial",
+        "readyForActivities": false,
+        "needsReviewReasons": [
+          "El bloque 9 ya es usable como lectura docente, pero el video del PPA 9 y el recurso informatico siguen pendientes de validacion de destino final.",
+          "La asignacion de apoyos de Posibilidades se sostiene por inferencia curricular documentada y no por OCR perfectamente separado por columnas.",
+          "No mover a actividades interactivas ni desbloquear juegos completos hasta ampliar validacion de videos y recursos complementarios."
+        ]
+      },
+      "readinessLevel": "development-partial",
+      "readyForActivities": false,
+      "needsReviewReasons": [
+        "No mover a actividades interactivas ni desbloquear juegos completos."
+      ],
+      "roleInPpa": "Cierra el bloque al dar voz a un concepto abstracto y conectarlo con la observación del Universo.",
+      "pedagogicalUse": "Conviene trabajar ¿Qué onda con las ondas electromagnéticas? como una oportunidad para profundizar en las ondas electromagnéticas como medio de exploración del Universo y como fenómeno que permite interpretar información no visible directamente sin separar contenido, comunidad y producto final.",
+      "teacherNotes": [
+        "Conviene partir de ejemplos cercanos y después pasar al lenguaje mas abstracto del campo.",
+        "El producto Monólogos dramatizados gana fuerza cuando se usa para explicar y no solo para exhibir informacion.",
+        "Es mejor seleccionar pocos conceptos bien comprendidos que saturar el trabajo con terminos aislados."
+      ],
+      "resonancePrompts": [
+        {
+          "type": "individual",
+          "prompt": "¿Qué comprendes mejor sobre las ondas electromagnéticas como medio de exploración del Universo y como fenómeno que permite interpretar información no visible directamente después de elaborar monólogos dramatizados?"
+        },
+        {
+          "type": "community",
+          "prompt": "¿Qué parte del Universo seguiría siendo invisible para nosotros si no existieran distintas formas de captar ondas electromagnéticas?"
+        }
+      ],
+      "notReadyFor": [
+        "full-games",
+        "summative-exam"
+      ]
+    }
+  ]
+}

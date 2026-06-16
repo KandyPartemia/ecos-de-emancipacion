@@ -1,0 +1,738 @@
+{
+  "grade": "2",
+  "gradeLabel": "Segundo grado",
+  "field": "Saberes y Pensamiento Científico",
+  "bookVolume": "Tomo II",
+  "partialClassroomProject": "PPA 7",
+  "partialClassroomProjectTitle": "La energía y sus transformaciones",
+  "generatedAt": "2026-06-02T18:31:04.730Z",
+  "notes": "Capa curricular generada por lote para 2o Saberes y Pensamiento Científico, PPA 7.",
+  "sourcesUsed": [
+    "public/caracoles/data/generated/grade-2/selectable-projects.json",
+    "content/caracoles/generated-private/grade-2/pages-index.full.json",
+    "Posibilidades de uso SyPC, segundo grado, pp. 19-20",
+    "Nuestro libro de proyectos Tomo II, segundo grado, pp. 101-115",
+    "Saberes y Pensamiento Científico, segundo grado, pp. 121-125, 132-139, 169-189 y 208-221; Múltiples Lenguajes p. 92."
+  ],
+  "partialClassroomProjectContext": {
+    "expectationHorizon": {
+      "officialText": "",
+      "sourcePages": [
+        "Nuestro libro de proyectos Tomo II pp. 101-102",
+        "Posibilidades de uso SyPC pp. 19-20"
+      ],
+      "evidence": "El PPA 7 pone en conversación energía mecánica, calor, motores y aprovechamiento solar para que el grupo compare transformaciones de energía y sus efectos en la vida cotidiana y el ambiente.",
+      "status": "pending"
+    },
+    "ppaDetonatingStrategy": {
+      "title": "La energía y sus transformaciones",
+      "type": "video",
+      "url": "",
+      "urlStatus": "pending-url",
+      "reference": "bit.ly/3VfglUk",
+      "source": "Nuestro libro de proyectos Tomo II pp. 101-102 + Posibilidades de uso SyPC pp. 19-20",
+      "scope": "partial-classroom-project",
+      "youtubeSearchQuery": "La energía y sus transformaciones Saberes y Pensamiento Científico 2do grado Telesecundaria"
+    },
+    "ppaDigitalResource": {
+      "title": "Recurso informatico del bloque PPA 7",
+      "reference": "bit.ly/3WQBMwg",
+      "status": "pending-validation",
+      "source": "Nuestro libro de proyectos Tomo II pp. 101-115"
+    },
+    "validationStatus": {
+      "needsHumanReview": true,
+      "needsReviewReasons": [
+        "Las pp. 19-20 de Posibilidades pertenecen al mismo PPA 7.",
+        "La asignacion de apoyos por columna se fija por inferencia curricular documentada de izquierda a derecha.",
+        "Los enlaces cortos del video del PPA y del recurso informatico se mantienen en cautela hasta localizar un destino oficial confirmado.",
+        "El apoyo Jardines flotantes se conserva por inferencia curricular de la tercera columna del bloque."
+      ]
+    },
+    "columnValidation": {
+      "possibilitiesPagesReviewed": [
+        19,
+        20
+      ],
+      "confirmedAsPpa": true,
+      "note": "Las pp. 19-20 corresponden al PPA 7 La energía y sus transformaciones. Las tres columnas se sostienen por el orden de proyectos, productos y apoyos del mismo bloque.",
+      "columns": [
+        {
+          "columnIndex": 1,
+          "projectId": "saberes-y-pensamiento-cientifico-2-ppa-7-pa19",
+          "projectTitle": "Energía por moverse o estar quieto",
+          "finalProduct": "Mapa mental comparativo",
+          "supportMaterials": []
+        },
+        {
+          "columnIndex": 2,
+          "projectId": "saberes-y-pensamiento-cientifico-2-ppa-7-pa20",
+          "projectTitle": "Calor, motores y emisiones",
+          "finalProduct": "Serie de carteles ilustrados",
+          "supportMaterials": []
+        },
+        {
+          "columnIndex": 3,
+          "projectId": "saberes-y-pensamiento-cientifico-2-ppa-7-pa21",
+          "projectTitle": "El Sol: más que una estrella",
+          "finalProduct": "Comercial concientizador teatralizado",
+          "supportMaterials": [
+            "Jardines flotantes, p. 92"
+          ]
+        }
+      ]
+    }
+  },
+  "academicProjects": [
+    {
+      "id": "saberes-y-pensamiento-cientifico-2-ppa-7-pa19",
+      "projectId": "saberes-y-pensamiento-cientifico-2-ppa-7-pa19",
+      "academicProjectNumber": 19,
+      "title": "Energía por moverse o estar quieto",
+      "projectTitle": "Energía por moverse o estar quieto",
+      "grade": "2",
+      "field": "Saberes y Pensamiento Científico",
+      "ppaNumber": "7",
+      "partialClassroomProject": "PPA 7",
+      "partialClassroomProjectTitle": "La energía y sus transformaciones",
+      "bookVolume": "Tomo II",
+      "sourceValidation": {
+        "sourceStatus": "linked",
+        "possibilitiesPages": [
+          19,
+          20
+        ],
+        "possibilitiesMaterialId": "grade-2-posibilidades-pos-sypc-2",
+        "possibilitiesColumnIndex": 1,
+        "columnEvidence": "Bloque PPA 7 La energía y sus transformaciones localizado en pp. 19-20; la columna 1 se confirma por el orden de proyectos, productos y continuidad del mismo bloque."
+      },
+      "finalProduct": {
+        "title": "Mapa mental comparativo",
+        "source": "Posibilidades de uso SyPC pp. 19-20 + Nuestro libro de proyectos Tomo II pp. 103-106",
+        "status": "confirmed"
+      },
+      "sourcePages": {
+        "nuestroLibroProyectos": [
+          {
+            "materialId": "grade-2-proyectos-nuestro-libro-de-proyectos-tomo-2-segundo-grado",
+            "label": "Nuestro libro de proyectos Tomo II",
+            "startPage": 103,
+            "endPage": 106,
+            "pagesLabel": "pp. 103-106",
+            "topicTitle": "Proyecto academico 19",
+            "status": "confirmed-source"
+          }
+        ],
+        "conceptBook": [
+          {
+            "materialId": "grade-2-conceptos-saberes-y-pensamiento-cientifico-segundo-grado",
+            "label": "Saberes y Pensamiento Científico",
+            "startPage": 132,
+            "endPage": 139,
+            "pagesLabel": "pp. 132-139",
+            "topicTitle": "Conservación de la energía mecánica",
+            "status": "confirmed-by-column-inference"
+          }
+        ],
+        "multiplesLenguajes": [],
+        "otherMaterials": [
+          {
+            "label": "Video PPA 7: La energía y sus transformaciones",
+            "reference": "bit.ly/3VfglUk",
+            "status": "pending-validation"
+          }
+        ]
+      },
+      "supportMaterials": [],
+      "horizonOrPurpose": {
+        "status": "official",
+        "text": "Elaborar un mapa mental comparativo donde se exponga la diferencia entre la energía cinética y la potencial, expresando sus características y algunos ejemplos de su conservación para presentar frente a sus compañeras y compañeros.",
+        "source": "Nuestro libro de proyectos Tomo II p. 103"
+      },
+      "projectExpectationHorizon": {
+        "officialText": "Identificar los tipos de energía cinética y potencial, sus características y con qué otros tipos de energía se relacionan.",
+        "studentVersion": "Comparar la energía cinética y la potencial con ejemplos que ayuden a reconocerlas en el entorno.",
+        "sourcePages": [
+          "Nuestro libro de proyectos Tomo II p. 104"
+        ],
+        "evidence": "La etapa 1 fija el mapa mental comparativo como producto para diferenciar energía cinética y potencial.",
+        "status": "official"
+      },
+      "detonatingStrategy": {
+        "status": "pending-url",
+        "text": "Video PPA 7: La energía y sus transformaciones",
+        "reference": "bit.ly/3VfglUk",
+        "source": "Nuestro libro de proyectos Tomo II pp. 101-102 + Posibilidades de uso SyPC pp. 19-20"
+      },
+      "academicProjectStrategy": {
+        "title": "Mapa mental comparativo",
+        "text": "Comparar movimiento, reposo y conservación de energía mediante un mapa mental que vuelva claras las diferencias entre energía cinética y potencial.",
+        "type": "project-product",
+        "status": "confirmed-from-project-book",
+        "source": "Nuestro libro de proyectos Tomo II pp. 103-106"
+      },
+      "academicConcepts": [
+        {
+          "concept": "mapa mental comparativo",
+          "description": "Mapa mental comparativo como producto de cierre para organizar y comunicar aprendizajes del proyecto.",
+          "sourceBook": "Nuestro libro de proyectos Tomo II",
+          "sourcePages": [
+            103,
+            106
+          ],
+          "sourcePagesLabel": "pp. 103-106",
+          "topicTitle": "Proyecto academico 19",
+          "status": "confirmed",
+          "reason": "Posibilidades y el propio proyecto fijan Mapa mental comparativo como producto final del PA 19.",
+          "pedagogicalUse": "Da una forma concreta de socializar lo comprendido sobre la diferencia entre energía cinética y energía potencial, sus características y algunos ejemplos de conservación de la energía mecánica.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "energía cinética",
+          "description": "Energía cinética es una idea clave para comprender la diferencia entre energía cinética y energía potencial, sus características y algunos ejemplos de conservación de la energía mecánica.",
+          "sourceBook": "Saberes y Pensamiento Científico",
+          "sourcePages": [
+            132,
+            139
+          ],
+          "sourcePagesLabel": "pp. 132-139",
+          "topicTitle": "Conservación de la energía mecánica",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Conservación de la energía mecánica\" aporta base suficiente para trabajar energía cinética dentro del proyecto 19.",
+          "pedagogicalUse": "Ayuda a fortalecer mapa mental comparativo y a explicar la diferencia entre energía cinética y energía potencial, sus características y algunos ejemplos de conservación de la energía mecánica con mayor claridad mediante energía cinética.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "energía potencial",
+          "description": "Energía potencial es una idea clave para comprender la diferencia entre energía cinética y energía potencial, sus características y algunos ejemplos de conservación de la energía mecánica.",
+          "sourceBook": "Saberes y Pensamiento Científico",
+          "sourcePages": [
+            132,
+            139
+          ],
+          "sourcePagesLabel": "pp. 132-139",
+          "topicTitle": "Conservación de la energía mecánica",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Conservación de la energía mecánica\" aporta base suficiente para trabajar energía potencial dentro del proyecto 19.",
+          "pedagogicalUse": "Ayuda a fortalecer mapa mental comparativo y a explicar la diferencia entre energía cinética y energía potencial, sus características y algunos ejemplos de conservación de la energía mecánica con mayor claridad mediante energía potencial.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "energía mecánica",
+          "description": "Energía mecánica es una idea clave para comprender la diferencia entre energía cinética y energía potencial, sus características y algunos ejemplos de conservación de la energía mecánica.",
+          "sourceBook": "Saberes y Pensamiento Científico",
+          "sourcePages": [
+            132,
+            139
+          ],
+          "sourcePagesLabel": "pp. 132-139",
+          "topicTitle": "Conservación de la energía mecánica",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Conservación de la energía mecánica\" aporta base suficiente para trabajar energía mecánica dentro del proyecto 19.",
+          "pedagogicalUse": "Ayuda a fortalecer mapa mental comparativo y a explicar la diferencia entre energía cinética y energía potencial, sus características y algunos ejemplos de conservación de la energía mecánica con mayor claridad mediante energía mecánica.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "conservación de la energía",
+          "description": "Conservación de la energía es una idea clave para comprender la diferencia entre energía cinética y energía potencial, sus características y algunos ejemplos de conservación de la energía mecánica.",
+          "sourceBook": "Saberes y Pensamiento Científico",
+          "sourcePages": [
+            132,
+            139
+          ],
+          "sourcePagesLabel": "pp. 132-139",
+          "topicTitle": "Conservación de la energía mecánica",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Conservación de la energía mecánica\" aporta base suficiente para trabajar conservación de la energía dentro del proyecto 19.",
+          "pedagogicalUse": "Ayuda a fortalecer mapa mental comparativo y a explicar la diferencia entre energía cinética y energía potencial, sus características y algunos ejemplos de conservación de la energía mecánica con mayor claridad mediante conservación de la energía.",
+          "activityReadiness": "usable-for-autoevaluation"
+        }
+      ],
+      "thinkingCriteria": [
+        "Relacionar cada tipo de energía con una situación observable.",
+        "Evitar que la comparación se quede en definiciones sueltas.",
+        "Explicar qué se conserva y qué cambia cuando un cuerpo se mueve o se detiene."
+      ],
+      "validationStatus": {
+        "readinessLevel": "development-partial",
+        "readyForActivities": false,
+        "needsReviewReasons": [
+          "El bloque 7 ya es usable como lectura docente, pero el video del PPA 7 y el recurso informatico siguen pendientes de validacion de destino final.",
+          "La asignacion de apoyos de Posibilidades se sostiene por inferencia curricular documentada y no por OCR perfectamente separado por columnas.",
+          "No mover a actividades interactivas ni desbloquear juegos completos hasta ampliar validacion de videos y recursos complementarios."
+        ]
+      },
+      "readinessLevel": "development-partial",
+      "readyForActivities": false,
+      "needsReviewReasons": [
+        "No mover a actividades interactivas ni desbloquear juegos completos."
+      ],
+      "roleInPpa": "Abre el bloque al distinguir las formas básicas de la energía mecánica y volverlas comparables con ejemplos cercanos.",
+      "pedagogicalUse": "Conviene trabajar Energía por moverse o estar quieto como una oportunidad para profundizar en la diferencia entre energía cinética y energía potencial, sus características y algunos ejemplos de conservación de la energía mecánica sin separar contenido, comunidad y producto final.",
+      "teacherNotes": [
+        "Conviene partir de ejemplos cercanos y después pasar al lenguaje mas abstracto del campo.",
+        "El producto Mapa mental comparativo gana fuerza cuando se usa para explicar y no solo para exhibir informacion.",
+        "Es mejor seleccionar pocos conceptos bien comprendidos que saturar el trabajo con terminos aislados."
+      ],
+      "resonancePrompts": [
+        {
+          "type": "individual",
+          "prompt": "¿Qué comprendes mejor sobre la diferencia entre energía cinética y energía potencial, sus características y algunos ejemplos de conservación de la energía mecánica después de elaborar mapa mental comparativo?"
+        },
+        {
+          "type": "community",
+          "prompt": "¿Dónde se puede reconocer en la comunidad la diferencia entre energía por moverse y energía por estar en cierta posición?"
+        }
+      ],
+      "notReadyFor": [
+        "full-games",
+        "summative-exam"
+      ]
+    },
+    {
+      "id": "saberes-y-pensamiento-cientifico-2-ppa-7-pa20",
+      "projectId": "saberes-y-pensamiento-cientifico-2-ppa-7-pa20",
+      "academicProjectNumber": 20,
+      "title": "Calor, motores y emisiones",
+      "projectTitle": "Calor, motores y emisiones",
+      "grade": "2",
+      "field": "Saberes y Pensamiento Científico",
+      "ppaNumber": "7",
+      "partialClassroomProject": "PPA 7",
+      "partialClassroomProjectTitle": "La energía y sus transformaciones",
+      "bookVolume": "Tomo II",
+      "sourceValidation": {
+        "sourceStatus": "linked",
+        "possibilitiesPages": [
+          19,
+          20
+        ],
+        "possibilitiesMaterialId": "grade-2-posibilidades-pos-sypc-2",
+        "possibilitiesColumnIndex": 2,
+        "columnEvidence": "Bloque PPA 7 La energía y sus transformaciones localizado en pp. 19-20; la columna 2 se confirma por el orden de proyectos, productos y continuidad del mismo bloque."
+      },
+      "finalProduct": {
+        "title": "Serie de carteles ilustrados",
+        "source": "Posibilidades de uso SyPC pp. 19-20 + Nuestro libro de proyectos Tomo II pp. 107-110",
+        "status": "confirmed"
+      },
+      "sourcePages": {
+        "nuestroLibroProyectos": [
+          {
+            "materialId": "grade-2-proyectos-nuestro-libro-de-proyectos-tomo-2-segundo-grado",
+            "label": "Nuestro libro de proyectos Tomo II",
+            "startPage": 107,
+            "endPage": 110,
+            "pagesLabel": "pp. 107-110",
+            "topicTitle": "Proyecto academico 20",
+            "status": "confirmed-source"
+          }
+        ],
+        "conceptBook": [
+          {
+            "materialId": "grade-2-conceptos-saberes-y-pensamiento-cientifico-segundo-grado",
+            "label": "Saberes y Pensamiento Científico",
+            "startPage": 169,
+            "endPage": 176,
+            "pagesLabel": "pp. 169-176",
+            "topicTitle": "Efecto invernadero",
+            "status": "confirmed-by-column-inference"
+          },
+          {
+            "materialId": "grade-2-conceptos-saberes-y-pensamiento-cientifico-segundo-grado",
+            "label": "Saberes y Pensamiento Científico",
+            "startPage": 182,
+            "endPage": 189,
+            "pagesLabel": "pp. 182-189",
+            "topicTitle": "Energía térmica",
+            "status": "confirmed-by-column-inference"
+          }
+        ],
+        "multiplesLenguajes": [],
+        "otherMaterials": [
+          {
+            "label": "Video PPA 7: La energía y sus transformaciones",
+            "reference": "bit.ly/3VfglUk",
+            "status": "pending-validation"
+          }
+        ]
+      },
+      "supportMaterials": [],
+      "horizonOrPurpose": {
+        "status": "official",
+        "text": "Identificar los motores que funcionan con energía calorífica, cómo es su funcionamiento y qué efectos ocasionan el calor disipado y los gases expelidos sobre la atmósfera durante este proceso a partir de una serie de carteles ilustrados.",
+        "source": "Nuestro libro de proyectos Tomo II p. 107"
+      },
+      "projectExpectationHorizon": {
+        "officialText": "Identificar motores que funcionan con energía calorífica y evaluar los efectos del calor y gases que se liberan cuando son utilizados, para representar dicha información en una serie de carteles ilustrados.",
+        "studentVersion": "Analizar motores de uso cotidiano y comunicar con carteles sus efectos sobre el ambiente.",
+        "sourcePages": [
+          "Nuestro libro de proyectos Tomo II p. 108"
+        ],
+        "evidence": "La etapa 1 y los objetivos del proyecto conectan motores, calor, gases y carteles ilustrados como producto central.",
+        "status": "official"
+      },
+      "detonatingStrategy": {
+        "status": "pending-url",
+        "text": "Video PPA 7: La energía y sus transformaciones",
+        "reference": "bit.ly/3VfglUk",
+        "source": "Nuestro libro de proyectos Tomo II pp. 105-106 + Posibilidades de uso SyPC pp. 19-20"
+      },
+      "academicProjectStrategy": {
+        "title": "Serie de carteles ilustrados",
+        "text": "Observar motores cotidianos, explicar cómo transforman energía y usar carteles ilustrados para mostrar sus efectos ambientales.",
+        "type": "project-product",
+        "status": "confirmed-from-project-book",
+        "source": "Nuestro libro de proyectos Tomo II pp. 107-110"
+      },
+      "academicConcepts": [
+        {
+          "concept": "serie de carteles ilustrados",
+          "description": "Serie de carteles ilustrados como producto de cierre para organizar y comunicar aprendizajes del proyecto.",
+          "sourceBook": "Nuestro libro de proyectos Tomo II",
+          "sourcePages": [
+            107,
+            110
+          ],
+          "sourcePagesLabel": "pp. 107-110",
+          "topicTitle": "Proyecto academico 20",
+          "status": "confirmed",
+          "reason": "Posibilidades y el propio proyecto fijan Serie de carteles ilustrados como producto final del PA 20.",
+          "pedagogicalUse": "Da una forma concreta de socializar lo comprendido sobre los motores que funcionan con energía calorífica, el calor disipado y los gases expelidos, así como su impacto en la atmósfera.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "energía térmica",
+          "description": "Energía térmica es una idea clave para comprender los motores que funcionan con energía calorífica, el calor disipado y los gases expelidos, así como su impacto en la atmósfera.",
+          "sourceBook": "Saberes y Pensamiento Científico",
+          "sourcePages": [
+            182,
+            189
+          ],
+          "sourcePagesLabel": "pp. 182-189",
+          "topicTitle": "Energía térmica",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Energía térmica\" aporta base suficiente para trabajar energía térmica dentro del proyecto 20.",
+          "pedagogicalUse": "Ayuda a fortalecer serie de carteles ilustrados y a explicar los motores que funcionan con energía calorífica, el calor disipado y los gases expelidos, así como su impacto en la atmósfera con mayor claridad mediante energía térmica.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "motores de combustión interna",
+          "description": "Motores de combustión interna es una idea clave para comprender los motores que funcionan con energía calorífica, el calor disipado y los gases expelidos, así como su impacto en la atmósfera.",
+          "sourceBook": "Saberes y Pensamiento Científico",
+          "sourcePages": [
+            182,
+            189
+          ],
+          "sourcePagesLabel": "pp. 182-189",
+          "topicTitle": "Energía térmica",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Energía térmica\" aporta base suficiente para trabajar motores de combustión interna dentro del proyecto 20.",
+          "pedagogicalUse": "Ayuda a fortalecer serie de carteles ilustrados y a explicar los motores que funcionan con energía calorífica, el calor disipado y los gases expelidos, así como su impacto en la atmósfera con mayor claridad mediante motores de combustión interna.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "efecto invernadero",
+          "description": "Efecto invernadero es una idea clave para comprender los motores que funcionan con energía calorífica, el calor disipado y los gases expelidos, así como su impacto en la atmósfera.",
+          "sourceBook": "Saberes y Pensamiento Científico",
+          "sourcePages": [
+            169,
+            176
+          ],
+          "sourcePagesLabel": "pp. 169-176",
+          "topicTitle": "Efecto invernadero",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Efecto invernadero\" aporta base suficiente para trabajar efecto invernadero dentro del proyecto 20.",
+          "pedagogicalUse": "Ayuda a fortalecer serie de carteles ilustrados y a explicar los motores que funcionan con energía calorífica, el calor disipado y los gases expelidos, así como su impacto en la atmósfera con mayor claridad mediante efecto invernadero.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "emisiones",
+          "description": "Emisiones es una idea clave para comprender los motores que funcionan con energía calorífica, el calor disipado y los gases expelidos, así como su impacto en la atmósfera.",
+          "sourceBook": "Nuestro libro de proyectos Tomo II",
+          "sourcePages": [
+            107,
+            108
+          ],
+          "sourcePagesLabel": "pp. 107-108",
+          "topicTitle": "Proyecto académico 20",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Proyecto académico 20\" aporta base suficiente para trabajar emisiones dentro del proyecto 20.",
+          "pedagogicalUse": "Ayuda a fortalecer serie de carteles ilustrados y a explicar los motores que funcionan con energía calorífica, el calor disipado y los gases expelidos, así como su impacto en la atmósfera con mayor claridad mediante emisiones.",
+          "activityReadiness": "usable-for-autoevaluation"
+        }
+      ],
+      "thinkingCriteria": [
+        "Relacionar el funcionamiento del motor con la energía que transforma.",
+        "Explicar por qué el problema ambiental no siempre es visible de inmediato.",
+        "Usar el cartel como argumento visual y no sólo como decoración."
+      ],
+      "validationStatus": {
+        "readinessLevel": "development-partial",
+        "readyForActivities": false,
+        "needsReviewReasons": [
+          "El bloque 7 ya es usable como lectura docente, pero el video del PPA 7 y el recurso informatico siguen pendientes de validacion de destino final.",
+          "La asignacion de apoyos de Posibilidades se sostiene por inferencia curricular documentada y no por OCR perfectamente separado por columnas.",
+          "No mover a actividades interactivas ni desbloquear juegos completos hasta ampliar validacion de videos y recursos complementarios."
+        ]
+      },
+      "readinessLevel": "development-partial",
+      "readyForActivities": false,
+      "needsReviewReasons": [
+        "No mover a actividades interactivas ni desbloquear juegos completos."
+      ],
+      "roleInPpa": "Profundiza el bloque al pasar de la energía mecánica a los efectos ambientales de los motores y del calor.",
+      "pedagogicalUse": "Conviene trabajar Calor, motores y emisiones como una oportunidad para profundizar en los motores que funcionan con energía calorífica, el calor disipado y los gases expelidos, así como su impacto en la atmósfera sin separar contenido, comunidad y producto final.",
+      "teacherNotes": [
+        "Conviene partir de ejemplos cercanos y después pasar al lenguaje mas abstracto del campo.",
+        "El producto Serie de carteles ilustrados gana fuerza cuando se usa para explicar y no solo para exhibir informacion.",
+        "Es mejor seleccionar pocos conceptos bien comprendidos que saturar el trabajo con terminos aislados."
+      ],
+      "resonancePrompts": [
+        {
+          "type": "individual",
+          "prompt": "¿Qué comprendes mejor sobre los motores que funcionan con energía calorífica, el calor disipado y los gases expelidos, así como su impacto en la atmósfera después de elaborar serie de carteles ilustrados?"
+        },
+        {
+          "type": "community",
+          "prompt": "¿Qué motores presentes en la comunidad nos ayudan, pero también nos obligan a pensar en sus efectos ambientales?"
+        }
+      ],
+      "notReadyFor": [
+        "full-games",
+        "summative-exam"
+      ]
+    },
+    {
+      "id": "saberes-y-pensamiento-cientifico-2-ppa-7-pa21",
+      "projectId": "saberes-y-pensamiento-cientifico-2-ppa-7-pa21",
+      "academicProjectNumber": 21,
+      "title": "El Sol: más que una estrella",
+      "projectTitle": "El Sol: más que una estrella",
+      "grade": "2",
+      "field": "Saberes y Pensamiento Científico",
+      "ppaNumber": "7",
+      "partialClassroomProject": "PPA 7",
+      "partialClassroomProjectTitle": "La energía y sus transformaciones",
+      "bookVolume": "Tomo II",
+      "sourceValidation": {
+        "sourceStatus": "linked",
+        "possibilitiesPages": [
+          19,
+          20
+        ],
+        "possibilitiesMaterialId": "grade-2-posibilidades-pos-sypc-2",
+        "possibilitiesColumnIndex": 3,
+        "columnEvidence": "Bloque PPA 7 La energía y sus transformaciones localizado en pp. 19-20; la columna 3 se confirma por el orden de proyectos, productos y continuidad del mismo bloque."
+      },
+      "finalProduct": {
+        "title": "Comercial concientizador teatralizado",
+        "source": "Posibilidades de uso SyPC pp. 19-20 + Nuestro libro de proyectos Tomo II pp. 111-115",
+        "status": "confirmed"
+      },
+      "sourcePages": {
+        "nuestroLibroProyectos": [
+          {
+            "materialId": "grade-2-proyectos-nuestro-libro-de-proyectos-tomo-2-segundo-grado",
+            "label": "Nuestro libro de proyectos Tomo II",
+            "startPage": 111,
+            "endPage": 115,
+            "pagesLabel": "pp. 111-115",
+            "topicTitle": "Proyecto academico 21",
+            "status": "confirmed-source"
+          }
+        ],
+        "conceptBook": [
+          {
+            "materialId": "grade-2-conceptos-saberes-y-pensamiento-cientifico-segundo-grado",
+            "label": "Saberes y Pensamiento Científico",
+            "startPage": 177,
+            "endPage": 181,
+            "pagesLabel": "pp. 177-181",
+            "topicTitle": "Energía solar",
+            "status": "confirmed-by-column-inference"
+          },
+          {
+            "materialId": "grade-2-conceptos-saberes-y-pensamiento-cientifico-segundo-grado",
+            "label": "Saberes y Pensamiento Científico",
+            "startPage": 208,
+            "endPage": 221,
+            "pagesLabel": "pp. 208-221",
+            "topicTitle": "Fuentes de energía",
+            "status": "confirmed-by-column-inference"
+          }
+        ],
+        "multiplesLenguajes": [
+          {
+            "materialId": "grade-2-apoyo-multiples-lenguajes-segundo-grado",
+            "label": "Multiples Lenguajes",
+            "startPage": 92,
+            "endPage": 92,
+            "pagesLabel": "p. 92",
+            "topicTitle": "Jardines flotantes",
+            "status": "confirmed-by-column-inference"
+          }
+        ],
+        "otherMaterials": [
+          {
+            "label": "Video PPA 7: La energía y sus transformaciones",
+            "reference": "bit.ly/3VfglUk",
+            "status": "pending-validation"
+          }
+        ]
+      },
+      "supportMaterials": [
+        {
+          "title": "Jardines flotantes",
+          "kind": "Multiples Lenguajes",
+          "pages": "p. 92",
+          "status": "confirmed-by-column-inference"
+        }
+      ],
+      "horizonOrPurpose": {
+        "status": "official",
+        "text": "Exponer, a partir de un comercial concientizador teatralizado, las diversas formas como se aprovecha la energía solar debido a las propiedades de la luz y la materia en el hogar y en la comunidad.",
+        "source": "Nuestro libro de proyectos Tomo II p. 111"
+      },
+      "projectExpectationHorizon": {
+        "officialText": "Conocer las diferentes formas como se puede aprovechar la energía solar para que se tengan otras alternativas más económicas y limpias en comparación con los tipos de energía tradicionales.",
+        "studentVersion": "Mostrar en un comercial teatralizado por qué la energía solar puede convertirse en una alternativa útil y limpia.",
+        "sourcePages": [
+          "Nuestro libro de proyectos Tomo II p. 111"
+        ],
+        "evidence": "La etapa 1 define el comercial concientizador teatralizado como forma de comunicar beneficios y usos de la energía solar.",
+        "status": "official"
+      },
+      "detonatingStrategy": {
+        "status": "pending-url",
+        "text": "Video PPA 7: La energía y sus transformaciones",
+        "reference": "bit.ly/3VfglUk",
+        "source": "Nuestro libro de proyectos Tomo II pp. 109-110 + Posibilidades de uso SyPC pp. 19-20"
+      },
+      "academicProjectStrategy": {
+        "title": "Comercial concientizador teatralizado",
+        "text": "Investigar usos de la energía solar y convertirlos en un comercial teatralizado que dialogue con decisiones energéticas de la comunidad.",
+        "type": "project-product",
+        "status": "confirmed-from-project-book",
+        "source": "Nuestro libro de proyectos Tomo II pp. 111-115"
+      },
+      "academicConcepts": [
+        {
+          "concept": "comercial concientizador teatralizado",
+          "description": "Comercial concientizador teatralizado como producto de cierre para organizar y comunicar aprendizajes del proyecto.",
+          "sourceBook": "Nuestro libro de proyectos Tomo II",
+          "sourcePages": [
+            111,
+            115
+          ],
+          "sourcePagesLabel": "pp. 111-115",
+          "topicTitle": "Proyecto academico 21",
+          "status": "confirmed",
+          "reason": "Posibilidades y el propio proyecto fijan Comercial concientizador teatralizado como producto final del PA 21.",
+          "pedagogicalUse": "Da una forma concreta de socializar lo comprendido sobre las diversas formas de aprovechar la energía solar en el hogar y la comunidad a partir de las propiedades de la luz y la materia.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "energía solar",
+          "description": "Energía solar es una idea clave para comprender las diversas formas de aprovechar la energía solar en el hogar y la comunidad a partir de las propiedades de la luz y la materia.",
+          "sourceBook": "Saberes y Pensamiento Científico",
+          "sourcePages": [
+            177,
+            181
+          ],
+          "sourcePagesLabel": "pp. 177-181",
+          "topicTitle": "Energía solar",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Energía solar\" aporta base suficiente para trabajar energía solar dentro del proyecto 21.",
+          "pedagogicalUse": "Ayuda a fortalecer comercial concientizador teatralizado y a explicar las diversas formas de aprovechar la energía solar en el hogar y la comunidad a partir de las propiedades de la luz y la materia con mayor claridad mediante energía solar.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "fuentes de energía no fósiles",
+          "description": "Fuentes de energía no fósiles es una idea clave para comprender las diversas formas de aprovechar la energía solar en el hogar y la comunidad a partir de las propiedades de la luz y la materia.",
+          "sourceBook": "Saberes y Pensamiento Científico",
+          "sourcePages": [
+            208,
+            221
+          ],
+          "sourcePagesLabel": "pp. 208-221",
+          "topicTitle": "Fuentes de energía",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Fuentes de energía\" aporta base suficiente para trabajar fuentes de energía no fósiles dentro del proyecto 21.",
+          "pedagogicalUse": "Ayuda a fortalecer comercial concientizador teatralizado y a explicar las diversas formas de aprovechar la energía solar en el hogar y la comunidad a partir de las propiedades de la luz y la materia con mayor claridad mediante fuentes de energía no fósiles.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "transformación de la energía",
+          "description": "Transformación de la energía es una idea clave para comprender las diversas formas de aprovechar la energía solar en el hogar y la comunidad a partir de las propiedades de la luz y la materia.",
+          "sourceBook": "Nuestro libro de proyectos Tomo II",
+          "sourcePages": [
+            111,
+            112
+          ],
+          "sourcePagesLabel": "pp. 111-112",
+          "topicTitle": "Proyecto académico 21",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Proyecto académico 21\" aporta base suficiente para trabajar transformación de la energía dentro del proyecto 21.",
+          "pedagogicalUse": "Ayuda a fortalecer comercial concientizador teatralizado y a explicar las diversas formas de aprovechar la energía solar en el hogar y la comunidad a partir de las propiedades de la luz y la materia con mayor claridad mediante transformación de la energía.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "aprovechamiento cotidiano de la energía",
+          "description": "Aprovechamiento cotidiano de la energía es una idea clave para comprender las diversas formas de aprovechar la energía solar en el hogar y la comunidad a partir de las propiedades de la luz y la materia.",
+          "sourceBook": "Saberes y Pensamiento Científico",
+          "sourcePages": [
+            208,
+            221
+          ],
+          "sourcePagesLabel": "pp. 208-221",
+          "topicTitle": "Fuentes de energía",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Fuentes de energía\" aporta base suficiente para trabajar aprovechamiento cotidiano de la energía dentro del proyecto 21.",
+          "pedagogicalUse": "Ayuda a fortalecer comercial concientizador teatralizado y a explicar las diversas formas de aprovechar la energía solar en el hogar y la comunidad a partir de las propiedades de la luz y la materia con mayor claridad mediante aprovechamiento cotidiano de la energía.",
+          "activityReadiness": "usable-for-autoevaluation"
+        }
+      ],
+      "thinkingCriteria": [
+        "Relacionar el discurso del comercial con usos reales de la energía solar.",
+        "Comparar alternativas energéticas sin quedarse en consignas vacías.",
+        "Pensar la conciencia ambiental como acción informada y no como frase decorativa."
+      ],
+      "validationStatus": {
+        "readinessLevel": "development-partial",
+        "readyForActivities": false,
+        "needsReviewReasons": [
+          "El bloque 7 ya es usable como lectura docente, pero el video del PPA 7 y el recurso informatico siguen pendientes de validacion de destino final.",
+          "La asignacion de apoyos de Posibilidades se sostiene por inferencia curricular documentada y no por OCR perfectamente separado por columnas.",
+          "No mover a actividades interactivas ni desbloquear juegos completos hasta ampliar validacion de videos y recursos complementarios."
+        ]
+      },
+      "readinessLevel": "development-partial",
+      "readyForActivities": false,
+      "needsReviewReasons": [
+        "No mover a actividades interactivas ni desbloquear juegos completos."
+      ],
+      "roleInPpa": "Cierra el bloque al proyectar hacia la comunidad alternativas de uso de la energía solar más económicas y limpias.",
+      "pedagogicalUse": "Conviene trabajar El Sol: más que una estrella como una oportunidad para profundizar en las diversas formas de aprovechar la energía solar en el hogar y la comunidad a partir de las propiedades de la luz y la materia sin separar contenido, comunidad y producto final.",
+      "teacherNotes": [
+        "Conviene partir de ejemplos cercanos y después pasar al lenguaje mas abstracto del campo.",
+        "El producto Comercial concientizador teatralizado gana fuerza cuando se usa para explicar y no solo para exhibir informacion.",
+        "Es mejor seleccionar pocos conceptos bien comprendidos que saturar el trabajo con terminos aislados."
+      ],
+      "resonancePrompts": [
+        {
+          "type": "individual",
+          "prompt": "¿Qué comprendes mejor sobre las diversas formas de aprovechar la energía solar en el hogar y la comunidad a partir de las propiedades de la luz y la materia después de elaborar comercial concientizador teatralizado?"
+        },
+        {
+          "type": "community",
+          "prompt": "¿Qué usos de la energía solar podrían tener un impacto real en la vida cotidiana de la comunidad?"
+        }
+      ],
+      "notReadyFor": [
+        "full-games",
+        "summative-exam"
+      ]
+    }
+  ]
+}

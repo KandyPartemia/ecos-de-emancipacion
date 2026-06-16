@@ -1,0 +1,705 @@
+{
+  "grade": "3",
+  "gradeLabel": "Tercer grado",
+  "field": "Lenguajes",
+  "bookVolume": "Tomo II",
+  "partialClassroomProject": "PPA 10",
+  "partialClassroomProjectTitle": "¡Reescribamos el mundo mediante los lenguajes!",
+  "generatedAt": "2026-06-07T03:06:27.598Z",
+  "notes": "Capa curricular generada por lote para 3o Lenguajes, PPA 10.",
+  "sourcesUsed": [
+    "content/caracoles/curricular-catalog/all-projects-canonical.json",
+    "public/caracoles/data/generated/grade-3/concepts-index.json",
+    "src/caracoles/lib/officialVideoLinks.ts",
+    "Posibilidades de uso Lenguajes, tercer grado, pp. 23-25",
+    "Nuestro libro de proyectos, tercer grado, pp. 74-87"
+  ],
+  "partialClassroomProjectContext": {
+    "expectationHorizon": {
+      "officialText": "",
+      "sourcePages": [
+        "Nuestro libro de proyectos Tomo II pp. 74-78",
+        "Posibilidades de uso Lenguajes pp. 23-25"
+      ],
+      "evidence": "El PPA 10 articula video artístico, 10. ¡reescribamos el mundo mediante los lenguajes!, 10. ¡reescribamos el mundo mediante los lenguajes! para trabajar ¡Reescribamos el mundo mediante los lenguajes!.",
+      "status": "pending"
+    },
+    "ppaDetonatingStrategy": {
+      "title": "¡Reescribamos el mundo mediante los lenguajes!",
+      "type": "video",
+      "url": "",
+      "urlStatus": "confirmed-by-official-video-map",
+      "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+      "scope": "partial-classroom-project"
+    },
+    "ppaDigitalResource": {
+      "title": "Recurso del Proyecto Parcial de Aula 10",
+      "reference": "",
+      "status": "confirmed-by-official-video-map",
+      "source": "YouTube, acervo Aprende_MX/Telesecundaria"
+    },
+    "validationStatus": {
+      "needsHumanReview": true,
+      "needsReviewReasons": [
+        "Los videos PA/PPA se validan por el mapa oficial de enlaces directos ya generado.",
+        "Los apoyos complementarios impresos no se asignan cuando no hay evidencia validada por columna.",
+        "El horizonte textual literal queda pendiente de revision fina si se necesita cita exacta."
+      ]
+    },
+    "columnValidation": {
+      "possibilitiesPagesReviewed": [
+        23,
+        24,
+        25
+      ],
+      "confirmedAsPpa": true,
+      "note": "El PPA 10 se agrupa desde el catalogo canonico de tercer grado.",
+      "columns": [
+        {
+          "columnIndex": 1,
+          "projectId": "lenguajes-3-ppa-10-pa28",
+          "projectTitle": "Maneras de imaginar y ser escritor",
+          "finalProduct": "Video artístico",
+          "supportMaterials": []
+        },
+        {
+          "columnIndex": 2,
+          "projectId": "lenguajes-3-ppa-10-pa29",
+          "projectTitle": "Un día grabando al mundo",
+          "finalProduct": "10. ¡Reescribamos el mundo mediante los lenguajes!",
+          "supportMaterials": []
+        },
+        {
+          "columnIndex": 3,
+          "projectId": "lenguajes-3-ppa-10-pa30",
+          "projectTitle": "El mundo es una musa y nosotros los artistas",
+          "finalProduct": "10. ¡Reescribamos el mundo mediante los lenguajes!",
+          "supportMaterials": []
+        }
+      ]
+    }
+  },
+  "academicProjects": [
+    {
+      "id": "lenguajes-3-ppa-10-pa28",
+      "projectId": "lenguajes-3-ppa-10-pa28",
+      "academicProjectNumber": 28,
+      "title": "Maneras de imaginar y ser escritor",
+      "projectTitle": "Maneras de imaginar y ser escritor",
+      "grade": "3",
+      "field": "Lenguajes",
+      "ppaNumber": "10",
+      "partialClassroomProject": "PPA 10",
+      "partialClassroomProjectTitle": "¡Reescribamos el mundo mediante los lenguajes!",
+      "bookVolume": "Tomo II",
+      "sourceValidation": {
+        "sourceStatus": "linked",
+        "possibilitiesPages": [
+          23,
+          24,
+          25
+        ],
+        "possibilitiesMaterialId": "grade-3-posibilidades-pos-len-3",
+        "possibilitiesColumnIndex": 1,
+        "columnEvidence": "Proyecto PA 28 agrupado en el PPA 10 desde el catalogo canonico y las paginas de Posibilidades."
+      },
+      "finalProduct": {
+        "title": "Video artístico",
+        "source": "Video detonador validado en YouTube + Nuestro libro de proyectos Tomo II pp. 74-78",
+        "status": "confirmed-from-video-and-project"
+      },
+      "sourcePages": {
+        "nuestroLibroProyectos": [
+          {
+            "materialId": "grade-3-proyectos-nuestros-proyectos-tomo-2-tercer-grado",
+            "label": "Nuestro libro de proyectos Tomo II",
+            "startPage": 74,
+            "endPage": 78,
+            "pagesLabel": "pp. 74-78",
+            "topicTitle": "Proyecto academico 28",
+            "status": "confirmed-source"
+          }
+        ],
+        "conceptBook": [
+          {
+            "materialId": "grade-3-conceptos-lenguajes-tercer-grado",
+            "label": "Lenguajes",
+            "startPage": 74,
+            "endPage": 74,
+            "pagesLabel": "p. 74",
+            "topicTitle": "Video artístico",
+            "status": "confirmed"
+          }
+        ],
+        "multiplesLenguajes": [],
+        "otherMaterials": [
+          {
+            "label": "Video PA 28: Maneras de imaginar y ser escritor",
+            "reference": "",
+            "status": "confirmed"
+          }
+        ]
+      },
+      "supportMaterials": [],
+      "horizonOrPurpose": {
+        "status": "confirmed-from-project-book",
+        "text": "Mis compañeras, compañeros y yo tenemos problemas para crear un texto libre que refleje nuestros sentimientos e ideas sobre la comunidad, por lo que no podemos integrar los textos a una gaceta comunitaria.",
+        "source": "Visión — Horizonte 2 (p. 75)"
+      },
+      "projectExpectationHorizon": {
+        "officialText": "Mis compañeras, compañeros y yo tenemos problemas para crear un texto libre que refleje nuestros sentimientos e ideas sobre la comunidad, por lo que no podemos integrar los textos a una gaceta comunitaria.",
+        "studentVersion": "Mis compañeras, compañeros y yo tenemos problemas para crear un texto libre que refleje nuestros sentimientos e ideas sobre la comunidad, por lo que no podemos integrar los textos a una gaceta comunitaria.",
+        "horizon1Raw": "Mis compañeras, compañeros y yo tenemos dificultades para identificar los recursos literarios y, por tanto, cómo los utilizaremos.",
+        "horizon2Raw": "Mis compañeras, compañeros y yo tenemos problemas para crear un texto libre que refleje nuestros sentimientos e ideas sobre la comunidad, por lo que no podemos integrar los textos a una gaceta comunitaria.",
+        "sourcePages": [
+          "Visión — Horizonte 2 (p. 75)"
+        ],
+        "evidence": "Extraído por visión de imagen de la página 75 del libro de proyectos. Confianza: alta.",
+        "status": "confirmed-from-project-book",
+        "extractedAt": "2026-06-16T05:15:11.057Z"
+      },
+      "detonatingStrategy": {
+        "status": "confirmed",
+        "title": "¡Reescribamos el mundo mediante los lenguajes!",
+        "text": "Video del Proyecto Parcial de Aula 10: ¡Reescribamos el mundo mediante los lenguajes!",
+        "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+        "scope": "partial-classroom-project",
+        "type": "video"
+      },
+      "academicProjectStrategy": {
+        "title": "Video artístico • Lenguajes • 3er. grado",
+        "text": "Video detonador del Proyecto Academico 28: Maneras de imaginar y ser escritor",
+        "type": "video",
+        "status": "confirmed-from-video-and-project",
+        "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+        "scope": "academic-project"
+      },
+      "academicConcepts": [
+        {
+          "concept": "Video artístico",
+          "description": "Video artístico organiza el producto de cierre y permite comunicar lo aprendido en el proyecto.",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            74
+          ],
+          "sourcePagesLabel": "p. 74",
+          "topicTitle": "Proyecto academico 28",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 28, al PPA 10 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Lenguaje",
+          "description": "Lenguaje ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            74
+          ],
+          "sourcePagesLabel": "p. 74",
+          "topicTitle": "Proyecto academico 28",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 28, al PPA 10 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Cultura",
+          "description": "Cultura ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            154
+          ],
+          "sourcePagesLabel": "p. 154",
+          "topicTitle": "Proyecto academico 28",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 28, al PPA 10 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Comunicacion",
+          "description": "Comunicacion ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            74
+          ],
+          "sourcePagesLabel": "p. 74",
+          "topicTitle": "Proyecto academico 28",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 28, al PPA 10 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Lectura",
+          "description": "Lectura ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            74
+          ],
+          "sourcePagesLabel": "p. 74",
+          "topicTitle": "Proyecto academico 28",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 28, al PPA 10 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Escritura",
+          "description": "Escritura ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            74
+          ],
+          "sourcePagesLabel": "p. 74",
+          "topicTitle": "Proyecto academico 28",
+          "status": "suggested",
+          "reason": "Concepto vinculado al PA 28, al PPA 10 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "teacher-review"
+        }
+      ],
+      "thinkingCriteria": [
+        "Relacionar Maneras de imaginar y ser escritor con una situacion concreta del entorno escolar o comunitario.",
+        "Usar video artístico para explicar ideas con claridad y evidencia."
+      ],
+      "resonancePrompts": [
+        {
+          "type": "individual",
+          "prompt": "¿Como te ayuda video artístico a comprender mejor Maneras de imaginar y ser escritor y a explicar sus conceptos clave en tu comunidad?",
+          "conceptsActivated": [
+            "Video artístico",
+            "Lenguaje",
+            "Cultura",
+            "Comunicacion"
+          ],
+          "suggestedUse": "Momento 1 de autoevaluacion"
+        }
+      ],
+      "validationStatus": {
+        "readinessLevel": "curricular-bundle-generated",
+        "readyForActivities": true,
+        "needsReviewReasons": [
+          "El horizonte textual literal queda pendiente de revision fina si se requiere cita exacta.",
+          "Los apoyos complementarios impresos no se asignan cuando no hay evidencia validada por columna."
+        ]
+      },
+      "readinessLevel": "curricular-bundle-generated",
+      "readyForActivities": true,
+      "needsReviewReasons": []
+    },
+    {
+      "id": "lenguajes-3-ppa-10-pa29",
+      "projectId": "lenguajes-3-ppa-10-pa29",
+      "academicProjectNumber": 29,
+      "title": "Un día grabando al mundo",
+      "projectTitle": "Un día grabando al mundo",
+      "grade": "3",
+      "field": "Lenguajes",
+      "ppaNumber": "10",
+      "partialClassroomProject": "PPA 10",
+      "partialClassroomProjectTitle": "¡Reescribamos el mundo mediante los lenguajes!",
+      "bookVolume": "Tomo II",
+      "sourceValidation": {
+        "sourceStatus": "linked",
+        "possibilitiesPages": [
+          23,
+          24,
+          25
+        ],
+        "possibilitiesMaterialId": "grade-3-posibilidades-pos-len-3",
+        "possibilitiesColumnIndex": 2,
+        "columnEvidence": "Proyecto PA 29 agrupado en el PPA 10 desde el catalogo canonico y las paginas de Posibilidades."
+      },
+      "finalProduct": {
+        "title": "10. ¡Reescribamos el mundo mediante los lenguajes!",
+        "source": "Video detonador validado en YouTube + Nuestro libro de proyectos Tomo II pp. 79-83",
+        "status": "confirmed-from-video-and-project"
+      },
+      "sourcePages": {
+        "nuestroLibroProyectos": [
+          {
+            "materialId": "grade-3-proyectos-nuestros-proyectos-tomo-2-tercer-grado",
+            "label": "Nuestro libro de proyectos Tomo II",
+            "startPage": 79,
+            "endPage": 83,
+            "pagesLabel": "pp. 79-83",
+            "topicTitle": "Proyecto academico 29",
+            "status": "confirmed-source"
+          }
+        ],
+        "conceptBook": [
+          {
+            "materialId": "grade-3-conceptos-lenguajes-tercer-grado",
+            "label": "Lenguajes",
+            "startPage": 79,
+            "endPage": 79,
+            "pagesLabel": "p. 79",
+            "topicTitle": "10. ¡reescribamos el mundo mediante los lenguajes!",
+            "status": "confirmed"
+          }
+        ],
+        "multiplesLenguajes": [],
+        "otherMaterials": [
+          {
+            "label": "Video PA 29: Un día grabando al mundo",
+            "reference": "",
+            "status": "confirmed"
+          }
+        ]
+      },
+      "supportMaterials": [],
+      "horizonOrPurpose": {
+        "status": "pending",
+        "text": "",
+        "source": "Nuestro libro de proyectos Tomo II pp. 79-83"
+      },
+      "projectExpectationHorizon": {
+        "officialText": "",
+        "studentVersion": "",
+        "sourcePages": [
+          "Nuestro libro de proyectos Tomo II pp. 79-83"
+        ],
+        "evidence": "El PA 29 cuenta con paginas de proyecto, producto de cierre, conceptos y videos directos validados; el horizonte textual literal queda pendiente de transcripcion fina.",
+        "status": "pending"
+      },
+      "detonatingStrategy": {
+        "status": "confirmed",
+        "title": "¡Reescribamos el mundo mediante los lenguajes!",
+        "text": "Video del Proyecto Parcial de Aula 10: ¡Reescribamos el mundo mediante los lenguajes!",
+        "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+        "scope": "partial-classroom-project",
+        "type": "video"
+      },
+      "academicProjectStrategy": {
+        "title": "10. ¡Reescribamos el mundo mediante los lenguajes! • Lenguajes • 3er grado",
+        "text": "Video detonador del Proyecto Academico 29: Un día grabando al mundo",
+        "type": "video",
+        "status": "confirmed-from-video-and-project",
+        "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+        "scope": "academic-project"
+      },
+      "academicConcepts": [
+        {
+          "concept": "10. ¡reescribamos el mundo mediante los lenguajes!",
+          "description": "10. ¡reescribamos el mundo mediante los lenguajes! organiza el producto de cierre y permite comunicar lo aprendido en el proyecto.",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            79
+          ],
+          "sourcePagesLabel": "p. 79",
+          "topicTitle": "Proyecto academico 29",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 29, al PPA 10 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Lenguaje",
+          "description": "Lenguaje ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            79
+          ],
+          "sourcePagesLabel": "p. 79",
+          "topicTitle": "Proyecto academico 29",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 29, al PPA 10 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Cultura",
+          "description": "Cultura ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            154
+          ],
+          "sourcePagesLabel": "p. 154",
+          "topicTitle": "Proyecto academico 29",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 29, al PPA 10 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Comunicacion",
+          "description": "Comunicacion ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            79
+          ],
+          "sourcePagesLabel": "p. 79",
+          "topicTitle": "Proyecto academico 29",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 29, al PPA 10 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Lectura",
+          "description": "Lectura ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            79
+          ],
+          "sourcePagesLabel": "p. 79",
+          "topicTitle": "Proyecto academico 29",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 29, al PPA 10 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Escritura",
+          "description": "Escritura ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            79
+          ],
+          "sourcePagesLabel": "p. 79",
+          "topicTitle": "Proyecto academico 29",
+          "status": "suggested",
+          "reason": "Concepto vinculado al PA 29, al PPA 10 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "teacher-review"
+        }
+      ],
+      "thinkingCriteria": [
+        "Relacionar Un día grabando al mundo con una situacion concreta del entorno escolar o comunitario.",
+        "Usar 10. ¡reescribamos el mundo mediante los lenguajes! para explicar ideas con claridad y evidencia."
+      ],
+      "resonancePrompts": [
+        {
+          "type": "individual",
+          "prompt": "¿Como te ayuda 10. ¡reescribamos el mundo mediante los lenguajes! a comprender mejor Un día grabando al mundo y a explicar sus conceptos clave en tu comunidad?",
+          "conceptsActivated": [
+            "10. ¡reescribamos el mundo mediante los lenguajes!",
+            "Lenguaje",
+            "Cultura",
+            "Comunicacion"
+          ],
+          "suggestedUse": "Momento 1 de autoevaluacion"
+        }
+      ],
+      "validationStatus": {
+        "readinessLevel": "curricular-bundle-generated",
+        "readyForActivities": true,
+        "needsReviewReasons": [
+          "El horizonte textual literal queda pendiente de revision fina si se requiere cita exacta.",
+          "Los apoyos complementarios impresos no se asignan cuando no hay evidencia validada por columna."
+        ]
+      },
+      "readinessLevel": "curricular-bundle-generated",
+      "readyForActivities": true,
+      "needsReviewReasons": []
+    },
+    {
+      "id": "lenguajes-3-ppa-10-pa30",
+      "projectId": "lenguajes-3-ppa-10-pa30",
+      "academicProjectNumber": 30,
+      "title": "El mundo es una musa y nosotros los artistas",
+      "projectTitle": "El mundo es una musa y nosotros los artistas",
+      "grade": "3",
+      "field": "Lenguajes",
+      "ppaNumber": "10",
+      "partialClassroomProject": "PPA 10",
+      "partialClassroomProjectTitle": "¡Reescribamos el mundo mediante los lenguajes!",
+      "bookVolume": "Tomo II",
+      "sourceValidation": {
+        "sourceStatus": "linked",
+        "possibilitiesPages": [
+          23,
+          24,
+          25
+        ],
+        "possibilitiesMaterialId": "grade-3-posibilidades-pos-len-3",
+        "possibilitiesColumnIndex": 3,
+        "columnEvidence": "Proyecto PA 30 agrupado en el PPA 10 desde el catalogo canonico y las paginas de Posibilidades."
+      },
+      "finalProduct": {
+        "title": "10. ¡Reescribamos el mundo mediante los lenguajes!",
+        "source": "Video detonador validado en YouTube + Nuestro libro de proyectos Tomo II pp. 84-87",
+        "status": "confirmed-from-video-and-project"
+      },
+      "sourcePages": {
+        "nuestroLibroProyectos": [
+          {
+            "materialId": "grade-3-proyectos-nuestros-proyectos-tomo-2-tercer-grado",
+            "label": "Nuestro libro de proyectos Tomo II",
+            "startPage": 84,
+            "endPage": 87,
+            "pagesLabel": "pp. 84-87",
+            "topicTitle": "Proyecto academico 30",
+            "status": "confirmed-source"
+          }
+        ],
+        "conceptBook": [
+          {
+            "materialId": "grade-3-conceptos-lenguajes-tercer-grado",
+            "label": "Lenguajes",
+            "startPage": 84,
+            "endPage": 84,
+            "pagesLabel": "p. 84",
+            "topicTitle": "10. ¡reescribamos el mundo mediante los lenguajes!",
+            "status": "confirmed"
+          }
+        ],
+        "multiplesLenguajes": [],
+        "otherMaterials": [
+          {
+            "label": "Video PA 30: El mundo es una musa y nosotros los artistas",
+            "reference": "",
+            "status": "confirmed"
+          }
+        ]
+      },
+      "supportMaterials": [],
+      "horizonOrPurpose": {
+        "status": "pending",
+        "text": "",
+        "source": "Nuestro libro de proyectos Tomo II pp. 84-87"
+      },
+      "projectExpectationHorizon": {
+        "officialText": "",
+        "studentVersion": "",
+        "sourcePages": [
+          "Nuestro libro de proyectos Tomo II pp. 84-87"
+        ],
+        "evidence": "El PA 30 cuenta con paginas de proyecto, producto de cierre, conceptos y videos directos validados; el horizonte textual literal queda pendiente de transcripcion fina.",
+        "status": "pending"
+      },
+      "detonatingStrategy": {
+        "status": "confirmed",
+        "title": "¡Reescribamos el mundo mediante los lenguajes!",
+        "text": "Video del Proyecto Parcial de Aula 10: ¡Reescribamos el mundo mediante los lenguajes!",
+        "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+        "scope": "partial-classroom-project",
+        "type": "video"
+      },
+      "academicProjectStrategy": {
+        "title": "10. ¡Reescribamos el mundo mediante los lenguajes! • Lenguajes • 3er grado",
+        "text": "Video detonador del Proyecto Academico 30: El mundo es una musa y nosotros los artistas",
+        "type": "video",
+        "status": "confirmed-from-video-and-project",
+        "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+        "scope": "academic-project"
+      },
+      "academicConcepts": [
+        {
+          "concept": "10. ¡reescribamos el mundo mediante los lenguajes!",
+          "description": "10. ¡reescribamos el mundo mediante los lenguajes! organiza el producto de cierre y permite comunicar lo aprendido en el proyecto.",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            84
+          ],
+          "sourcePagesLabel": "p. 84",
+          "topicTitle": "Proyecto academico 30",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 30, al PPA 10 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Lenguaje",
+          "description": "Lenguaje ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            84
+          ],
+          "sourcePagesLabel": "p. 84",
+          "topicTitle": "Proyecto academico 30",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 30, al PPA 10 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Cultura",
+          "description": "Cultura ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            154
+          ],
+          "sourcePagesLabel": "p. 154",
+          "topicTitle": "Proyecto academico 30",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 30, al PPA 10 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Comunicacion",
+          "description": "Comunicacion ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            84
+          ],
+          "sourcePagesLabel": "p. 84",
+          "topicTitle": "Proyecto academico 30",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 30, al PPA 10 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Lectura",
+          "description": "Lectura ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            84
+          ],
+          "sourcePagesLabel": "p. 84",
+          "topicTitle": "Proyecto academico 30",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 30, al PPA 10 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Escritura",
+          "description": "Escritura ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            84
+          ],
+          "sourcePagesLabel": "p. 84",
+          "topicTitle": "Proyecto academico 30",
+          "status": "suggested",
+          "reason": "Concepto vinculado al PA 30, al PPA 10 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "teacher-review"
+        }
+      ],
+      "thinkingCriteria": [
+        "Relacionar El mundo es una musa y nosotros los artistas con una situacion concreta del entorno escolar o comunitario.",
+        "Usar 10. ¡reescribamos el mundo mediante los lenguajes! para explicar ideas con claridad y evidencia."
+      ],
+      "resonancePrompts": [
+        {
+          "type": "individual",
+          "prompt": "¿Como te ayuda 10. ¡reescribamos el mundo mediante los lenguajes! a comprender mejor El mundo es una musa y nosotros los artistas y a explicar sus conceptos clave en tu comunidad?",
+          "conceptsActivated": [
+            "10. ¡reescribamos el mundo mediante los lenguajes!",
+            "Lenguaje",
+            "Cultura",
+            "Comunicacion"
+          ],
+          "suggestedUse": "Momento 1 de autoevaluacion"
+        }
+      ],
+      "validationStatus": {
+        "readinessLevel": "curricular-bundle-generated",
+        "readyForActivities": true,
+        "needsReviewReasons": [
+          "El horizonte textual literal queda pendiente de revision fina si se requiere cita exacta.",
+          "Los apoyos complementarios impresos no se asignan cuando no hay evidencia validada por columna."
+        ]
+      },
+      "readinessLevel": "curricular-bundle-generated",
+      "readyForActivities": true,
+      "needsReviewReasons": []
+    }
+  ]
+}

@@ -1,0 +1,794 @@
+{
+  "grade": "2",
+  "gradeLabel": "Segundo grado",
+  "field": "De lo Humano y lo Comunitario",
+  "bookVolume": "Tomo II",
+  "partialClassroomProject": "PPA 4",
+  "partialClassroomProjectTitle": "El bienestar que da la tecnología",
+  "generatedAt": "2026-06-04T15:48:47.580Z",
+  "notes": "Capa curricular generada por lote para 2o De lo Humano y lo Comunitario, PPA 4.",
+  "sourcesUsed": [
+    "public/caracoles/data/generated/grade-2/selectable-projects.json",
+    "content/caracoles/generated-private/grade-2/pages-index.full.json",
+    "Posibilidades de uso DHyC, segundo grado, pp. 13-15",
+    "Nuestro libro de proyectos Tomo II, segundo grado, pp. 232-246",
+    "De lo Humano y lo Comunitario, segundo grado, pp. 31-44, 101-116; Nuestro libro de proyectos Tomo II pp. 234-246."
+  ],
+  "partialClassroomProjectContext": {
+    "expectationHorizon": {
+      "officialText": "",
+      "sourcePages": [
+        "Nuestro libro de proyectos Tomo II pp. 232-233",
+        "Posibilidades de uso DHyC pp. 13-15"
+      ],
+      "evidence": "El PPA 4 relaciona tecnologia, mapas y comunicacion para impulsar acciones de bienestar comunitario.",
+      "status": "pending"
+    },
+    "ppaDetonatingStrategy": {
+      "title": "El bienestar que da la tecnología",
+      "type": "video",
+      "url": "",
+      "urlStatus": "pending-url",
+      "reference": "bit.ly/3VfglUk",
+      "source": "Nuestro libro de proyectos Tomo II pp. 232-233 + Posibilidades de uso DHyC pp. 13-15",
+      "scope": "partial-classroom-project",
+      "youtubeSearchQuery": "El bienestar que da la tecnología De lo Humano y lo Comunitario 2do grado Telesecundaria"
+    },
+    "ppaDigitalResource": {
+      "title": "Recurso informatico del bloque PPA 4",
+      "reference": "bit.ly/3WQBMwg",
+      "status": "pending-validation",
+      "source": "Nuestro libro de proyectos Tomo II pp. 232-246"
+    },
+    "validationStatus": {
+      "needsHumanReview": true,
+      "needsReviewReasons": [
+        "Las pp. 13-15 de Posibilidades pertenecen al mismo PPA 4.",
+        "La asignacion de apoyos por columna se fija por inferencia curricular documentada de izquierda a derecha.",
+        "Los enlaces cortos del video del PPA y del recurso informatico se mantienen en cautela hasta localizar un destino oficial confirmado."
+      ]
+    },
+    "columnValidation": {
+      "possibilitiesPagesReviewed": [
+        13,
+        14,
+        15
+      ],
+      "confirmedAsPpa": true,
+      "note": "Las pp. 13-15 corresponden al PPA 4 El bienestar que da la tecnología. Las tres columnas se sostienen por el orden de proyectos, productos y apoyos del mismo bloque.",
+      "columns": [
+        {
+          "columnIndex": 1,
+          "projectId": "de-lo-humano-y-lo-comunitario-2-ppa-4-pa10",
+          "projectTitle": "¡Sé un factor de cambio!",
+          "finalProduct": "Producto de cierre del proyecto",
+          "supportMaterials": [
+            "Tecnologia y bienestar comunitario, pp. 31-36"
+          ]
+        },
+        {
+          "columnIndex": 2,
+          "projectId": "de-lo-humano-y-lo-comunitario-2-ppa-4-pa11",
+          "projectTitle": "El mapa, ¿a dónde lleva?",
+          "finalProduct": "Producto de cierre del proyecto",
+          "supportMaterials": [
+            "Representacion del entorno, pp. 107-112"
+          ]
+        },
+        {
+          "columnIndex": 3,
+          "projectId": "de-lo-humano-y-lo-comunitario-2-ppa-4-pa12",
+          "projectTitle": "Hacer, contribuir y comunicar",
+          "finalProduct": "Producto de cierre del proyecto",
+          "supportMaterials": [
+            "Comunicacion y contribucion comunitaria, pp. 113-116"
+          ]
+        }
+      ]
+    }
+  },
+  "academicProjects": [
+    {
+      "id": "de-lo-humano-y-lo-comunitario-2-ppa-4-pa10",
+      "projectId": "de-lo-humano-y-lo-comunitario-2-ppa-4-pa10",
+      "academicProjectNumber": 10,
+      "title": "¡Sé un factor de cambio!",
+      "projectTitle": "¡Sé un factor de cambio!",
+      "grade": "2",
+      "field": "De lo Humano y lo Comunitario",
+      "ppaNumber": "4",
+      "partialClassroomProject": "PPA 4",
+      "partialClassroomProjectTitle": "El bienestar que da la tecnología",
+      "bookVolume": "Tomo II",
+      "sourceValidation": {
+        "sourceStatus": "linked",
+        "possibilitiesPages": [
+          13,
+          14,
+          15
+        ],
+        "possibilitiesMaterialId": "grade-2-posibilidades-pos-dhc-2",
+        "possibilitiesColumnIndex": 1,
+        "columnEvidence": "Bloque PPA 4 El bienestar que da la tecnología localizado en pp. 13-15; la columna 1 se confirma por el orden de proyectos, productos y continuidad del mismo bloque."
+      },
+      "finalProduct": {
+        "title": "Producto de cierre del proyecto",
+        "source": "Posibilidades de uso DHyC pp. 13-15 + Nuestro libro de proyectos Tomo II pp. 234-237",
+        "status": "confirmed"
+      },
+      "sourcePages": {
+        "nuestroLibroProyectos": [
+          {
+            "materialId": "grade-2-proyectos-nuestro-libro-de-proyectos-tomo-2-segundo-grado",
+            "label": "Nuestro libro de proyectos Tomo II",
+            "startPage": 234,
+            "endPage": 237,
+            "pagesLabel": "pp. 234-237",
+            "topicTitle": "Proyecto academico 10",
+            "status": "confirmed-source"
+          }
+        ],
+        "conceptBook": [
+          {
+            "materialId": "grade-2-conceptos-de-lo-humano-y-lo-comunitario-segundo-grado",
+            "label": "De lo Humano y lo Comunitario",
+            "startPage": 31,
+            "endPage": 36,
+            "pagesLabel": "pp. 31-36",
+            "topicTitle": "Tecnologia para el bienestar comunitario",
+            "status": "confirmed-by-column-inference"
+          },
+          {
+            "materialId": "grade-2-conceptos-de-lo-humano-y-lo-comunitario-segundo-grado",
+            "label": "De lo Humano y lo Comunitario",
+            "startPage": 101,
+            "endPage": 106,
+            "pagesLabel": "pp. 101-106",
+            "topicTitle": "Participacion y organizacion comunitaria",
+            "status": "confirmed-by-column-inference"
+          }
+        ],
+        "multiplesLenguajes": [
+          {
+            "materialId": "grade-2-apoyo-multiples-lenguajes-segundo-grado",
+            "label": "Multiples Lenguajes",
+            "startPage": 31,
+            "endPage": 36,
+            "pagesLabel": "pp. 31-36",
+            "topicTitle": "Tecnologia y bienestar comunitario",
+            "status": "confirmed-by-field-source"
+          }
+        ],
+        "otherMaterials": [
+          {
+            "label": "Video PPA 4: El bienestar que da la tecnología",
+            "reference": "bit.ly/3VfglUk",
+            "status": "pending-validation"
+          }
+        ]
+      },
+      "supportMaterials": [
+        {
+          "title": "Tecnologia y bienestar comunitario",
+          "kind": "Multiples Lenguajes",
+          "pages": "pp. 31-36",
+          "status": "confirmed-by-field-source"
+        }
+      ],
+      "horizonOrPurpose": {
+        "status": "pending",
+        "text": "",
+        "source": "Nuestro libro de proyectos Tomo II p. 234"
+      },
+      "projectExpectationHorizon": {
+        "officialText": "",
+        "studentVersion": "",
+        "sourcePages": [
+          "Nuestro libro de proyectos Tomo II p. 234"
+        ],
+        "evidence": "El proyecto ya cuenta con producto, conceptos y articulacion pedagogica, pero el horizonte textual exacto sigue pendiente de confirmacion literal.",
+        "status": "pending"
+      },
+      "detonatingStrategy": {
+        "status": "pending-url",
+        "text": "Video PPA 4: El bienestar que da la tecnología",
+        "reference": "bit.ly/3VfglUk",
+        "source": "Nuestro libro de proyectos Tomo II pp. 232-233 + Posibilidades de uso DHyC pp. 13-15"
+      },
+      "academicProjectStrategy": {
+        "title": "Producto de cierre del proyecto",
+        "text": "Organizar producto de cierre del proyecto para profundizar en la participacion activa para impulsar cambios que mejoren el bienestar comunitario y compartir hallazgos de manera clara con el grupo.",
+        "type": "project-product",
+        "status": "confirmed-from-project-book",
+        "source": "Nuestro libro de proyectos Tomo II pp. 234-237"
+      },
+      "academicConcepts": [
+        {
+          "concept": "producto de cierre del proyecto",
+          "description": "Producto de cierre del proyecto como producto de cierre para organizar y comunicar aprendizajes del proyecto.",
+          "sourceBook": "Nuestro libro de proyectos Tomo II",
+          "sourcePages": [
+            234,
+            237
+          ],
+          "sourcePagesLabel": "pp. 234-237",
+          "topicTitle": "Proyecto academico 10",
+          "status": "confirmed",
+          "reason": "Posibilidades y el propio proyecto fijan Producto de cierre del proyecto como producto final del PA 10.",
+          "pedagogicalUse": "Da una forma concreta de socializar lo comprendido sobre la participacion activa para impulsar cambios que mejoren el bienestar comunitario.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "cambio",
+          "description": "Cambio es una idea clave para comprender la participacion activa para impulsar cambios que mejoren el bienestar comunitario.",
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "sourcePages": [
+            31,
+            36
+          ],
+          "sourcePagesLabel": "pp. 31-36",
+          "topicTitle": "Tecnologia para el bienestar comunitario",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Tecnologia para el bienestar comunitario\" aporta base suficiente para trabajar cambio dentro del proyecto 10.",
+          "pedagogicalUse": "Ayuda a fortalecer producto de cierre del proyecto y a explicar la participacion activa para impulsar cambios que mejoren el bienestar comunitario con mayor claridad mediante cambio.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "bienestar",
+          "description": "Bienestar es una idea clave para comprender la participacion activa para impulsar cambios que mejoren el bienestar comunitario.",
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "sourcePages": [
+            31,
+            36
+          ],
+          "sourcePagesLabel": "pp. 31-36",
+          "topicTitle": "Tecnologia para el bienestar comunitario",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Tecnologia para el bienestar comunitario\" aporta base suficiente para trabajar bienestar dentro del proyecto 10.",
+          "pedagogicalUse": "Ayuda a fortalecer producto de cierre del proyecto y a explicar la participacion activa para impulsar cambios que mejoren el bienestar comunitario con mayor claridad mediante bienestar.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "participacion",
+          "description": "Participacion es una idea clave para comprender la participacion activa para impulsar cambios que mejoren el bienestar comunitario.",
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "sourcePages": [
+            101,
+            106
+          ],
+          "sourcePagesLabel": "pp. 101-106",
+          "topicTitle": "Participacion y organizacion comunitaria",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Participacion y organizacion comunitaria\" aporta base suficiente para trabajar participacion dentro del proyecto 10.",
+          "pedagogicalUse": "Ayuda a fortalecer producto de cierre del proyecto y a explicar la participacion activa para impulsar cambios que mejoren el bienestar comunitario con mayor claridad mediante participacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "tecnologia",
+          "description": "Tecnologia es una idea clave para comprender la participacion activa para impulsar cambios que mejoren el bienestar comunitario.",
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "sourcePages": [
+            31,
+            36
+          ],
+          "sourcePagesLabel": "pp. 31-36",
+          "topicTitle": "Tecnologia para el bienestar comunitario",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Tecnologia para el bienestar comunitario\" aporta base suficiente para trabajar tecnologia dentro del proyecto 10.",
+          "pedagogicalUse": "Ayuda a fortalecer producto de cierre del proyecto y a explicar la participacion activa para impulsar cambios que mejoren el bienestar comunitario con mayor claridad mediante tecnologia.",
+          "activityReadiness": "usable-for-autoevaluation"
+        }
+      ],
+      "thinkingCriteria": [
+        "Relacionar la participacion activa para impulsar cambios que mejoren el bienestar comunitario con situaciones cercanas a la comunidad.",
+        "Usar producto de cierre del proyecto para explicar y no solo para recopilar informacion.",
+        "Distinguir entre mencionar conceptos y comprender como dialogan entre si dentro del proyecto."
+      ],
+      "validationStatus": {
+        "readinessLevel": "development-partial",
+        "readyForActivities": false,
+        "needsReviewReasons": [
+          "El bloque 4 ya es usable como lectura docente, pero el video del PPA 4 y el recurso informatico siguen pendientes de validacion de destino final.",
+          "La asignacion de apoyos de Posibilidades se sostiene por inferencia curricular documentada y no por OCR perfectamente separado por columnas.",
+          "No mover a actividades interactivas ni desbloquear juegos completos hasta ampliar validacion de videos y recursos complementarios."
+        ]
+      },
+      "readinessLevel": "development-partial",
+      "readyForActivities": false,
+      "needsReviewReasons": [
+        "No mover a actividades interactivas ni desbloquear juegos completos."
+      ],
+      "roleInPpa": "Abre el bloque con la idea de que cada estudiante puede participar en transformaciones concretas.",
+      "pedagogicalUse": "Conviene trabajar ¡Sé un factor de cambio! como una oportunidad para profundizar en la participacion activa para impulsar cambios que mejoren el bienestar comunitario sin separar contenido, comunidad y producto final.",
+      "teacherNotes": [
+        "Conviene partir de ejemplos cercanos y después pasar al lenguaje mas abstracto del campo.",
+        "El producto Producto de cierre del proyecto gana fuerza cuando se usa para explicar y no solo para exhibir informacion.",
+        "Es mejor seleccionar pocos conceptos bien comprendidos que saturar el trabajo con terminos aislados."
+      ],
+      "resonancePrompts": [
+        {
+          "type": "individual",
+          "prompt": "¿Qué comprendes mejor sobre la participacion activa para impulsar cambios que mejoren el bienestar comunitario después de elaborar producto de cierre del proyecto?"
+        },
+        {
+          "type": "community",
+          "prompt": "¿Qué diálogos comunitarios podrían fortalecerse si compartimos producto de cierre del proyecto y lo ponemos en conversación con otras personas?"
+        }
+      ],
+      "notReadyFor": [
+        "full-games",
+        "summative-exam"
+      ]
+    },
+    {
+      "id": "de-lo-humano-y-lo-comunitario-2-ppa-4-pa11",
+      "projectId": "de-lo-humano-y-lo-comunitario-2-ppa-4-pa11",
+      "academicProjectNumber": 11,
+      "title": "El mapa, ¿a dónde lleva?",
+      "projectTitle": "El mapa, ¿a dónde lleva?",
+      "grade": "2",
+      "field": "De lo Humano y lo Comunitario",
+      "ppaNumber": "4",
+      "partialClassroomProject": "PPA 4",
+      "partialClassroomProjectTitle": "El bienestar que da la tecnología",
+      "bookVolume": "Tomo II",
+      "sourceValidation": {
+        "sourceStatus": "linked",
+        "possibilitiesPages": [
+          13,
+          14,
+          15
+        ],
+        "possibilitiesMaterialId": "grade-2-posibilidades-pos-dhc-2",
+        "possibilitiesColumnIndex": 2,
+        "columnEvidence": "Bloque PPA 4 El bienestar que da la tecnología localizado en pp. 13-15; la columna 2 se confirma por el orden de proyectos, productos y continuidad del mismo bloque."
+      },
+      "finalProduct": {
+        "title": "Producto de cierre del proyecto",
+        "source": "Posibilidades de uso DHyC pp. 13-15 + Nuestro libro de proyectos Tomo II pp. 238-241",
+        "status": "confirmed"
+      },
+      "sourcePages": {
+        "nuestroLibroProyectos": [
+          {
+            "materialId": "grade-2-proyectos-nuestro-libro-de-proyectos-tomo-2-segundo-grado",
+            "label": "Nuestro libro de proyectos Tomo II",
+            "startPage": 238,
+            "endPage": 241,
+            "pagesLabel": "pp. 238-241",
+            "topicTitle": "Proyecto academico 11",
+            "status": "confirmed-source"
+          }
+        ],
+        "conceptBook": [
+          {
+            "materialId": "grade-2-conceptos-de-lo-humano-y-lo-comunitario-segundo-grado",
+            "label": "De lo Humano y lo Comunitario",
+            "startPage": 107,
+            "endPage": 112,
+            "pagesLabel": "pp. 107-112",
+            "topicTitle": "Mapas, orientacion y representacion comunitaria",
+            "status": "confirmed-by-column-inference"
+          },
+          {
+            "materialId": "grade-2-conceptos-de-lo-humano-y-lo-comunitario-segundo-grado",
+            "label": "De lo Humano y lo Comunitario",
+            "startPage": 101,
+            "endPage": 106,
+            "pagesLabel": "pp. 101-106",
+            "topicTitle": "Analisis de necesidades del entorno",
+            "status": "confirmed-by-column-inference"
+          }
+        ],
+        "multiplesLenguajes": [
+          {
+            "materialId": "grade-2-apoyo-multiples-lenguajes-segundo-grado",
+            "label": "Multiples Lenguajes",
+            "startPage": 107,
+            "endPage": 112,
+            "pagesLabel": "pp. 107-112",
+            "topicTitle": "Representacion del entorno",
+            "status": "confirmed-by-field-source"
+          }
+        ],
+        "otherMaterials": [
+          {
+            "label": "Video PPA 4: El bienestar que da la tecnología",
+            "reference": "bit.ly/3VfglUk",
+            "status": "pending-validation"
+          }
+        ]
+      },
+      "supportMaterials": [
+        {
+          "title": "Representacion del entorno",
+          "kind": "Multiples Lenguajes",
+          "pages": "pp. 107-112",
+          "status": "confirmed-by-field-source"
+        }
+      ],
+      "horizonOrPurpose": {
+        "status": "confirmed-from-project-book",
+        "text": "Investigar los elementos necesarios para diseñar el mapa de riesgos que incluya los potenciales peligros de la comunidad como accidentes, adicciones y violencia.",
+        "source": "Visión — Horizonte 1 (p. 239)"
+      },
+      "projectExpectationHorizon": {
+        "officialText": "Investigar los elementos necesarios para diseñar el mapa de riesgos que incluya los potenciales peligros de la comunidad como accidentes, adicciones y violencia.",
+        "studentVersion": "Investigar los elementos necesarios para diseñar el mapa de riesgos que incluya los potenciales peligros de la comunidad como accidentes, adicciones y violencia.",
+        "horizon1Raw": "Investigar los elementos necesarios para diseñar el mapa de riesgos que incluya los potenciales peligros de la comunidad como accidentes, adicciones y violencia.",
+        "horizon2Raw": "Observar el entorno para analizar los diferentes factores de riesgo que existen y que impiden la práctica sistemática de actividad física.",
+        "sourcePages": [
+          "Visión — Horizonte 1 (p. 239)"
+        ],
+        "evidence": "Extraído por visión de imagen de la página 239 del libro de proyectos. Confianza: alta.",
+        "status": "confirmed-from-project-book",
+        "extractedAt": "2026-06-16T05:08:26.706Z"
+      },
+      "detonatingStrategy": {
+        "status": "pending-url",
+        "text": "Video PPA 4: El bienestar que da la tecnología",
+        "reference": "bit.ly/3VfglUk",
+        "source": "Nuestro libro de proyectos Tomo II pp. 236-237 + Posibilidades de uso DHyC pp. 13-15"
+      },
+      "academicProjectStrategy": {
+        "title": "Producto de cierre del proyecto",
+        "text": "Organizar producto de cierre del proyecto para profundizar en el uso de mapas y representaciones para analizar necesidades y orientar acciones y compartir hallazgos de manera clara con el grupo.",
+        "type": "project-product",
+        "status": "confirmed-from-project-book",
+        "source": "Nuestro libro de proyectos Tomo II pp. 238-241"
+      },
+      "academicConcepts": [
+        {
+          "concept": "producto de cierre del proyecto",
+          "description": "Producto de cierre del proyecto como producto de cierre para organizar y comunicar aprendizajes del proyecto.",
+          "sourceBook": "Nuestro libro de proyectos Tomo II",
+          "sourcePages": [
+            238,
+            241
+          ],
+          "sourcePagesLabel": "pp. 238-241",
+          "topicTitle": "Proyecto academico 11",
+          "status": "confirmed",
+          "reason": "Posibilidades y el propio proyecto fijan Producto de cierre del proyecto como producto final del PA 11.",
+          "pedagogicalUse": "Da una forma concreta de socializar lo comprendido sobre el uso de mapas y representaciones para analizar necesidades y orientar acciones.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "mapa",
+          "description": "Mapa es una idea clave para comprender el uso de mapas y representaciones para analizar necesidades y orientar acciones.",
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "sourcePages": [
+            107,
+            112
+          ],
+          "sourcePagesLabel": "pp. 107-112",
+          "topicTitle": "Mapas, orientacion y representacion comunitaria",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Mapas, orientacion y representacion comunitaria\" aporta base suficiente para trabajar mapa dentro del proyecto 11.",
+          "pedagogicalUse": "Ayuda a fortalecer producto de cierre del proyecto y a explicar el uso de mapas y representaciones para analizar necesidades y orientar acciones con mayor claridad mediante mapa.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "orientacion",
+          "description": "Orientacion es una idea clave para comprender el uso de mapas y representaciones para analizar necesidades y orientar acciones.",
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "sourcePages": [
+            107,
+            112
+          ],
+          "sourcePagesLabel": "pp. 107-112",
+          "topicTitle": "Mapas, orientacion y representacion comunitaria",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Mapas, orientacion y representacion comunitaria\" aporta base suficiente para trabajar orientacion dentro del proyecto 11.",
+          "pedagogicalUse": "Ayuda a fortalecer producto de cierre del proyecto y a explicar el uso de mapas y representaciones para analizar necesidades y orientar acciones con mayor claridad mediante orientacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "entorno",
+          "description": "Entorno es una idea clave para comprender el uso de mapas y representaciones para analizar necesidades y orientar acciones.",
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "sourcePages": [
+            101,
+            106
+          ],
+          "sourcePagesLabel": "pp. 101-106",
+          "topicTitle": "Analisis de necesidades del entorno",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Analisis de necesidades del entorno\" aporta base suficiente para trabajar entorno dentro del proyecto 11.",
+          "pedagogicalUse": "Ayuda a fortalecer producto de cierre del proyecto y a explicar el uso de mapas y representaciones para analizar necesidades y orientar acciones con mayor claridad mediante entorno.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "necesidad",
+          "description": "Necesidad es una idea clave para comprender el uso de mapas y representaciones para analizar necesidades y orientar acciones.",
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "sourcePages": [
+            101,
+            106
+          ],
+          "sourcePagesLabel": "pp. 101-106",
+          "topicTitle": "Analisis de necesidades del entorno",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Analisis de necesidades del entorno\" aporta base suficiente para trabajar necesidad dentro del proyecto 11.",
+          "pedagogicalUse": "Ayuda a fortalecer producto de cierre del proyecto y a explicar el uso de mapas y representaciones para analizar necesidades y orientar acciones con mayor claridad mediante necesidad.",
+          "activityReadiness": "usable-for-autoevaluation"
+        }
+      ],
+      "thinkingCriteria": [
+        "Relacionar el uso de mapas y representaciones para analizar necesidades y orientar acciones con situaciones cercanas a la comunidad.",
+        "Usar producto de cierre del proyecto para explicar y no solo para recopilar informacion.",
+        "Distinguir entre mencionar conceptos y comprender como dialogan entre si dentro del proyecto."
+      ],
+      "validationStatus": {
+        "readinessLevel": "development-partial",
+        "readyForActivities": false,
+        "needsReviewReasons": [
+          "El bloque 4 ya es usable como lectura docente, pero el video del PPA 4 y el recurso informatico siguen pendientes de validacion de destino final.",
+          "La asignacion de apoyos de Posibilidades se sostiene por inferencia curricular documentada y no por OCR perfectamente separado por columnas.",
+          "No mover a actividades interactivas ni desbloquear juegos completos hasta ampliar validacion de videos y recursos complementarios."
+        ]
+      },
+      "readinessLevel": "development-partial",
+      "readyForActivities": false,
+      "needsReviewReasons": [
+        "No mover a actividades interactivas ni desbloquear juegos completos."
+      ],
+      "roleInPpa": "Profundiza el bloque al organizar informacion del entorno mediante representaciones utiles.",
+      "pedagogicalUse": "Conviene trabajar El mapa, ¿a dónde lleva? como una oportunidad para profundizar en el uso de mapas y representaciones para analizar necesidades y orientar acciones sin separar contenido, comunidad y producto final.",
+      "teacherNotes": [
+        "Conviene partir de ejemplos cercanos y después pasar al lenguaje mas abstracto del campo.",
+        "El producto Producto de cierre del proyecto gana fuerza cuando se usa para explicar y no solo para exhibir informacion.",
+        "Es mejor seleccionar pocos conceptos bien comprendidos que saturar el trabajo con terminos aislados."
+      ],
+      "resonancePrompts": [
+        {
+          "type": "individual",
+          "prompt": "¿Qué comprendes mejor sobre el uso de mapas y representaciones para analizar necesidades y orientar acciones después de elaborar producto de cierre del proyecto?"
+        },
+        {
+          "type": "community",
+          "prompt": "¿Qué diálogos comunitarios podrían fortalecerse si compartimos producto de cierre del proyecto y lo ponemos en conversación con otras personas?"
+        }
+      ],
+      "notReadyFor": [
+        "full-games",
+        "summative-exam"
+      ]
+    },
+    {
+      "id": "de-lo-humano-y-lo-comunitario-2-ppa-4-pa12",
+      "projectId": "de-lo-humano-y-lo-comunitario-2-ppa-4-pa12",
+      "academicProjectNumber": 12,
+      "title": "Hacer, contribuir y comunicar",
+      "projectTitle": "Hacer, contribuir y comunicar",
+      "grade": "2",
+      "field": "De lo Humano y lo Comunitario",
+      "ppaNumber": "4",
+      "partialClassroomProject": "PPA 4",
+      "partialClassroomProjectTitle": "El bienestar que da la tecnología",
+      "bookVolume": "Tomo II",
+      "sourceValidation": {
+        "sourceStatus": "linked",
+        "possibilitiesPages": [
+          13,
+          14,
+          15
+        ],
+        "possibilitiesMaterialId": "grade-2-posibilidades-pos-dhc-2",
+        "possibilitiesColumnIndex": 3,
+        "columnEvidence": "Bloque PPA 4 El bienestar que da la tecnología localizado en pp. 13-15; la columna 3 se confirma por el orden de proyectos, productos y continuidad del mismo bloque."
+      },
+      "finalProduct": {
+        "title": "Producto de cierre del proyecto",
+        "source": "Posibilidades de uso DHyC pp. 13-15 + Nuestro libro de proyectos Tomo II pp. 242-246",
+        "status": "confirmed"
+      },
+      "sourcePages": {
+        "nuestroLibroProyectos": [
+          {
+            "materialId": "grade-2-proyectos-nuestro-libro-de-proyectos-tomo-2-segundo-grado",
+            "label": "Nuestro libro de proyectos Tomo II",
+            "startPage": 242,
+            "endPage": 246,
+            "pagesLabel": "pp. 242-246",
+            "topicTitle": "Proyecto academico 12",
+            "status": "confirmed-source"
+          }
+        ],
+        "conceptBook": [
+          {
+            "materialId": "grade-2-conceptos-de-lo-humano-y-lo-comunitario-segundo-grado",
+            "label": "De lo Humano y lo Comunitario",
+            "startPage": 113,
+            "endPage": 116,
+            "pagesLabel": "pp. 113-116",
+            "topicTitle": "Comunicacion de propuestas y acciones",
+            "status": "confirmed-by-column-inference"
+          },
+          {
+            "materialId": "grade-2-conceptos-de-lo-humano-y-lo-comunitario-segundo-grado",
+            "label": "De lo Humano y lo Comunitario",
+            "startPage": 31,
+            "endPage": 36,
+            "pagesLabel": "pp. 31-36",
+            "topicTitle": "Tecnologia y bienestar",
+            "status": "confirmed-by-column-inference"
+          }
+        ],
+        "multiplesLenguajes": [
+          {
+            "materialId": "grade-2-apoyo-multiples-lenguajes-segundo-grado",
+            "label": "Multiples Lenguajes",
+            "startPage": 113,
+            "endPage": 116,
+            "pagesLabel": "pp. 113-116",
+            "topicTitle": "Comunicacion y contribucion comunitaria",
+            "status": "confirmed-by-field-source"
+          }
+        ],
+        "otherMaterials": [
+          {
+            "label": "Video PPA 4: El bienestar que da la tecnología",
+            "reference": "bit.ly/3VfglUk",
+            "status": "pending-validation"
+          }
+        ]
+      },
+      "supportMaterials": [
+        {
+          "title": "Comunicacion y contribucion comunitaria",
+          "kind": "Multiples Lenguajes",
+          "pages": "pp. 113-116",
+          "status": "confirmed-by-field-source"
+        }
+      ],
+      "horizonOrPurpose": {
+        "status": "confirmed-from-project-book",
+        "text": "Identificar factores sociales, económicos, culturales y naturales presentes en la comunidad que ayudan al bienestar individual y colectivo.",
+        "source": "Visión — Horizonte 1 (p. 243)"
+      },
+      "projectExpectationHorizon": {
+        "officialText": "Identificar factores sociales, económicos, culturales y naturales presentes en la comunidad que ayudan al bienestar individual y colectivo.",
+        "studentVersion": "Identificar factores sociales, económicos, culturales y naturales presentes en la comunidad que ayudan al bienestar individual y colectivo.",
+        "horizon1Raw": "Identificar factores sociales, económicos, culturales y naturales presentes en la comunidad que ayudan al bienestar individual y colectivo.",
+        "horizon2Raw": "Elaborar y presentar un tríptico que refleje los factores que contribuyen al bienestar individual y colectivo.",
+        "sourcePages": [
+          "Visión — Horizonte 1 (p. 243)"
+        ],
+        "evidence": "Extraído por visión de imagen de la página 243 del libro de proyectos. Confianza: alta.",
+        "status": "confirmed-from-project-book",
+        "extractedAt": "2026-06-16T05:28:31.685Z"
+      },
+      "detonatingStrategy": {
+        "status": "pending-url",
+        "text": "Video PPA 4: El bienestar que da la tecnología",
+        "reference": "bit.ly/3VfglUk",
+        "source": "Nuestro libro de proyectos Tomo II pp. 240-241 + Posibilidades de uso DHyC pp. 13-15"
+      },
+      "academicProjectStrategy": {
+        "title": "Producto de cierre del proyecto",
+        "text": "Organizar producto de cierre del proyecto para profundizar en la comunicacion de acciones y contribuciones para compartir soluciones comunitarias y compartir hallazgos de manera clara con el grupo.",
+        "type": "project-product",
+        "status": "confirmed-from-project-book",
+        "source": "Nuestro libro de proyectos Tomo II pp. 242-246"
+      },
+      "academicConcepts": [
+        {
+          "concept": "producto de cierre del proyecto",
+          "description": "Producto de cierre del proyecto como producto de cierre para organizar y comunicar aprendizajes del proyecto.",
+          "sourceBook": "Nuestro libro de proyectos Tomo II",
+          "sourcePages": [
+            242,
+            246
+          ],
+          "sourcePagesLabel": "pp. 242-246",
+          "topicTitle": "Proyecto academico 12",
+          "status": "confirmed",
+          "reason": "Posibilidades y el propio proyecto fijan Producto de cierre del proyecto como producto final del PA 12.",
+          "pedagogicalUse": "Da una forma concreta de socializar lo comprendido sobre la comunicacion de acciones y contribuciones para compartir soluciones comunitarias.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "comunicacion",
+          "description": "Comunicacion es una idea clave para comprender la comunicacion de acciones y contribuciones para compartir soluciones comunitarias.",
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "sourcePages": [
+            113,
+            116
+          ],
+          "sourcePagesLabel": "pp. 113-116",
+          "topicTitle": "Comunicacion de propuestas y acciones",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Comunicacion de propuestas y acciones\" aporta base suficiente para trabajar comunicacion dentro del proyecto 12.",
+          "pedagogicalUse": "Ayuda a fortalecer producto de cierre del proyecto y a explicar la comunicacion de acciones y contribuciones para compartir soluciones comunitarias con mayor claridad mediante comunicacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "contribucion",
+          "description": "Contribucion es una idea clave para comprender la comunicacion de acciones y contribuciones para compartir soluciones comunitarias.",
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "sourcePages": [
+            113,
+            116
+          ],
+          "sourcePagesLabel": "pp. 113-116",
+          "topicTitle": "Comunicacion de propuestas y acciones",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Comunicacion de propuestas y acciones\" aporta base suficiente para trabajar contribucion dentro del proyecto 12.",
+          "pedagogicalUse": "Ayuda a fortalecer producto de cierre del proyecto y a explicar la comunicacion de acciones y contribuciones para compartir soluciones comunitarias con mayor claridad mediante contribucion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "accion",
+          "description": "Accion es una idea clave para comprender la comunicacion de acciones y contribuciones para compartir soluciones comunitarias.",
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "sourcePages": [
+            113,
+            116
+          ],
+          "sourcePagesLabel": "pp. 113-116",
+          "topicTitle": "Comunicacion de propuestas y acciones",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Comunicacion de propuestas y acciones\" aporta base suficiente para trabajar accion dentro del proyecto 12.",
+          "pedagogicalUse": "Ayuda a fortalecer producto de cierre del proyecto y a explicar la comunicacion de acciones y contribuciones para compartir soluciones comunitarias con mayor claridad mediante accion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "solucion comunitaria",
+          "description": "Solucion comunitaria es una idea clave para comprender la comunicacion de acciones y contribuciones para compartir soluciones comunitarias.",
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "sourcePages": [
+            31,
+            36
+          ],
+          "sourcePagesLabel": "pp. 31-36",
+          "topicTitle": "Tecnologia y bienestar",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Tecnologia y bienestar\" aporta base suficiente para trabajar solucion comunitaria dentro del proyecto 12.",
+          "pedagogicalUse": "Ayuda a fortalecer producto de cierre del proyecto y a explicar la comunicacion de acciones y contribuciones para compartir soluciones comunitarias con mayor claridad mediante solucion comunitaria.",
+          "activityReadiness": "usable-for-autoevaluation"
+        }
+      ],
+      "thinkingCriteria": [
+        "Relacionar la comunicacion de acciones y contribuciones para compartir soluciones comunitarias con situaciones cercanas a la comunidad.",
+        "Usar producto de cierre del proyecto para explicar y no solo para recopilar informacion.",
+        "Distinguir entre mencionar conceptos y comprender como dialogan entre si dentro del proyecto."
+      ],
+      "validationStatus": {
+        "readinessLevel": "development-partial",
+        "readyForActivities": false,
+        "needsReviewReasons": [
+          "El bloque 4 ya es usable como lectura docente, pero el video del PPA 4 y el recurso informatico siguen pendientes de validacion de destino final.",
+          "La asignacion de apoyos de Posibilidades se sostiene por inferencia curricular documentada y no por OCR perfectamente separado por columnas.",
+          "No mover a actividades interactivas ni desbloquear juegos completos hasta ampliar validacion de videos y recursos complementarios."
+        ]
+      },
+      "readinessLevel": "development-partial",
+      "readyForActivities": false,
+      "needsReviewReasons": [
+        "No mover a actividades interactivas ni desbloquear juegos completos."
+      ],
+      "roleInPpa": "Cierra el bloque al convertir la accion en comunicacion clara para la comunidad.",
+      "pedagogicalUse": "Conviene trabajar Hacer, contribuir y comunicar como una oportunidad para profundizar en la comunicacion de acciones y contribuciones para compartir soluciones comunitarias sin separar contenido, comunidad y producto final.",
+      "teacherNotes": [
+        "Conviene partir de ejemplos cercanos y después pasar al lenguaje mas abstracto del campo.",
+        "El producto Producto de cierre del proyecto gana fuerza cuando se usa para explicar y no solo para exhibir informacion.",
+        "Es mejor seleccionar pocos conceptos bien comprendidos que saturar el trabajo con terminos aislados."
+      ],
+      "resonancePrompts": [
+        {
+          "type": "individual",
+          "prompt": "¿Qué comprendes mejor sobre la comunicacion de acciones y contribuciones para compartir soluciones comunitarias después de elaborar producto de cierre del proyecto?"
+        },
+        {
+          "type": "community",
+          "prompt": "¿Qué diálogos comunitarios podrían fortalecerse si compartimos producto de cierre del proyecto y lo ponemos en conversación con otras personas?"
+        }
+      ],
+      "notReadyFor": [
+        "full-games",
+        "summative-exam"
+      ]
+    }
+  ]
+}

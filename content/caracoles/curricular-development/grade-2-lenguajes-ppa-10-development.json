@@ -1,0 +1,855 @@
+{
+  "grade": "2",
+  "gradeLabel": "Segundo grado",
+  "field": "Lenguajes",
+  "bookVolume": "Tomo II",
+  "partialClassroomProject": "PPA 10",
+  "partialClassroomProjectTitle": "¡Nuestros relatos cuentan, nos emocionan y representan!",
+  "generatedAt": "2026-06-02T14:59:02.880Z",
+  "notes": "Capa curricular generada por lote para 2o Lenguajes, PPA 10.",
+  "sourcesUsed": [
+    "public/caracoles/data/generated/grade-2/selectable-projects.json",
+    "content/caracoles/generated-private/grade-2/pages-index.full.json",
+    "Posibilidades de uso Lenguajes, segundo grado, pp. 28-29",
+    "Nuestro libro de proyectos Tomo II, segundo grado, pp. 70-85",
+    "Lenguajes, segundo grado, pp. 12-16, 52-58, 68-75, 129-138, 200-202 y 221-226; Múltiples Lenguajes pp. 30-33, 44-45 y 50-53."
+  ],
+  "partialClassroomProjectContext": {
+    "expectationHorizon": {
+      "officialText": "",
+      "sourcePages": [
+        "Nuestro libro de proyectos Tomo II pp. 70-71",
+        "Posibilidades de uso Lenguajes pp. 28-29"
+      ],
+      "evidence": "El PPA 10 articula reportaje detectivesco, diario-escultura móvil y fanzine comunitario para investigar problemas, expresar emociones e ideas y fortalecer la transmisión de relatos del entorno.",
+      "status": "pending"
+    },
+    "ppaDetonatingStrategy": {
+      "title": "¡Nuestros relatos cuentan, nos emocionan y representan!",
+      "type": "video",
+      "url": "",
+      "urlStatus": "pending-url",
+      "reference": "bit.ly/3VfglUk",
+      "source": "Nuestro libro de proyectos Tomo II pp. 70-71 + Posibilidades de uso Lenguajes pp. 28-29",
+      "scope": "partial-classroom-project",
+      "youtubeSearchQuery": "¡Nuestros relatos cuentan, nos emocionan y representan! Lenguajes 2do grado Telesecundaria"
+    },
+    "ppaDigitalResource": {
+      "title": "Recurso informatico del bloque PPA 10",
+      "reference": "bit.ly/3WQBMwg",
+      "status": "pending-validation",
+      "source": "Nuestro libro de proyectos Tomo II pp. 70-85"
+    },
+    "validationStatus": {
+      "needsHumanReview": true,
+      "needsReviewReasons": [
+        "Las pp. 28-29 de Posibilidades pertenecen al mismo PPA 10.",
+        "La asignacion de apoyos por columna se fija por inferencia curricular documentada de izquierda a derecha.",
+        "Los enlaces cortos del video del PPA y del recurso informatico se mantienen en cautela hasta localizar un destino oficial confirmado."
+      ]
+    },
+    "columnValidation": {
+      "possibilitiesPagesReviewed": [
+        28,
+        29
+      ],
+      "confirmedAsPpa": true,
+      "note": "Las pp. 28-29 corresponden al PPA 10 ¡Nuestros relatos cuentan, nos emocionan y representan!. Las tres columnas se sostienen por el orden de proyectos, productos y apoyos del mismo bloque.",
+      "columns": [
+        {
+          "columnIndex": 1,
+          "projectId": "lenguajes-2-ppa-10-pa28",
+          "projectTitle": "Detectives en la comunidad",
+          "finalProduct": "Reportaje detectivesco",
+          "supportMaterials": [
+            "La mente detrás de los alebrijes, pp. 44-45"
+          ]
+        },
+        {
+          "columnIndex": 2,
+          "projectId": "lenguajes-2-ppa-10-pa29",
+          "projectTitle": "Escribe tu propia historia",
+          "finalProduct": "Diario-escultura móvil",
+          "supportMaterials": [
+            "David Lara, pp. 50-53"
+          ]
+        },
+        {
+          "columnIndex": 3,
+          "projectId": "lenguajes-2-ppa-10-pa30",
+          "projectTitle": "Las raíces de tu entorno",
+          "finalProduct": "Fanzine comunitario",
+          "supportMaterials": [
+            "Escuela en el tiempo, pp. 30-33"
+          ]
+        }
+      ]
+    }
+  },
+  "academicProjects": [
+    {
+      "id": "lenguajes-2-ppa-10-pa28",
+      "projectId": "lenguajes-2-ppa-10-pa28",
+      "academicProjectNumber": 28,
+      "title": "Detectives en la comunidad",
+      "projectTitle": "Detectives en la comunidad",
+      "grade": "2",
+      "field": "Lenguajes",
+      "ppaNumber": "10",
+      "partialClassroomProject": "PPA 10",
+      "partialClassroomProjectTitle": "¡Nuestros relatos cuentan, nos emocionan y representan!",
+      "bookVolume": "Tomo II",
+      "sourceValidation": {
+        "sourceStatus": "linked",
+        "possibilitiesPages": [
+          28,
+          29
+        ],
+        "possibilitiesMaterialId": "grade-2-posibilidades-pos-len-2",
+        "possibilitiesColumnIndex": 1,
+        "columnEvidence": "Bloque PPA 10 ¡Nuestros relatos cuentan, nos emocionan y representan! localizado en pp. 28-29; la columna 1 se confirma por el orden de proyectos, productos y continuidad del mismo bloque."
+      },
+      "finalProduct": {
+        "title": "Reportaje detectivesco",
+        "source": "Posibilidades de uso Lenguajes pp. 28-29 + Nuestro libro de proyectos Tomo II pp. 72-76",
+        "status": "confirmed"
+      },
+      "sourcePages": {
+        "nuestroLibroProyectos": [
+          {
+            "materialId": "grade-2-proyectos-nuestro-libro-de-proyectos-tomo-2-segundo-grado",
+            "label": "Nuestro libro de proyectos Tomo II",
+            "startPage": 72,
+            "endPage": 76,
+            "pagesLabel": "pp. 72-76",
+            "topicTitle": "Proyecto academico 28",
+            "status": "confirmed-source"
+          }
+        ],
+        "conceptBook": [
+          {
+            "materialId": "grade-2-conceptos-lenguajes-segundo-grado",
+            "label": "Lenguajes",
+            "startPage": 13,
+            "endPage": 16,
+            "pagesLabel": "pp. 13-16",
+            "topicTitle": "La recopilación de los elementos, las características y la función del texto literario",
+            "status": "confirmed-by-column-inference"
+          },
+          {
+            "materialId": "grade-2-conceptos-lenguajes-segundo-grado",
+            "label": "Lenguajes",
+            "startPage": 53,
+            "endPage": 58,
+            "pagesLabel": "pp. 53-58",
+            "topicTitle": "La crónica desde una perspectiva familiar y comunitaria",
+            "status": "confirmed-by-column-inference"
+          },
+          {
+            "materialId": "grade-2-conceptos-lenguajes-segundo-grado",
+            "label": "Lenguajes",
+            "startPage": 201,
+            "endPage": 202,
+            "pagesLabel": "pp. 201-202",
+            "topicTitle": "Problemas comunitarios",
+            "status": "confirmed-by-column-inference"
+          }
+        ],
+        "multiplesLenguajes": [
+          {
+            "materialId": "grade-2-apoyo-multiples-lenguajes-segundo-grado",
+            "label": "Multiples Lenguajes",
+            "startPage": 44,
+            "endPage": 45,
+            "pagesLabel": "pp. 44-45",
+            "topicTitle": "La mente detrás de los alebrijes",
+            "status": "confirmed-by-column-inference"
+          }
+        ],
+        "otherMaterials": [
+          {
+            "label": "Video PPA 10: ¡Nuestros relatos cuentan, nos emocionan y representan!",
+            "reference": "bit.ly/3VfglUk",
+            "status": "pending-validation"
+          }
+        ]
+      },
+      "supportMaterials": [
+        {
+          "title": "La mente detrás de los alebrijes",
+          "kind": "Multiples Lenguajes",
+          "pages": "pp. 44-45",
+          "status": "confirmed-by-column-inference"
+        }
+      ],
+      "horizonOrPurpose": {
+        "status": "official",
+        "text": "Expresar sensaciones, emociones e ideas acerca de problemáticas en la escuela y la comunidad, con el uso de los recursos y las técnicas literarias empleadas en la elaboración de un reportaje detectivesco.",
+        "source": "Nuestro libro de proyectos Tomo II p. 72"
+      },
+      "projectExpectationHorizon": {
+        "officialText": "Identificar problemáticas de la comunidad mediante la investigación colectiva para llegar, por medio de la escritura de un reportaje, a una posible solución.",
+        "studentVersion": "Investigar problemas de la comunidad y escribir un reportaje detectivesco con recursos literarios y trabajo colaborativo.",
+        "sourcePages": [
+          "Nuestro libro de proyectos Tomo II p. 73"
+        ],
+        "evidence": "La propuesta de solución une investigación de problemas, trabajo detectivesco y escritura colectiva del reportaje.",
+        "status": "official"
+      },
+      "detonatingStrategy": {
+        "status": "pending-url",
+        "text": "Video PPA 10: ¡Nuestros relatos cuentan, nos emocionan y representan!",
+        "reference": "bit.ly/3VfglUk",
+        "source": "Nuestro libro de proyectos Tomo II pp. 70-71 + Posibilidades de uso Lenguajes pp. 28-29"
+      },
+      "academicProjectStrategy": {
+        "title": "Reportaje detectivesco",
+        "text": "Investigar una problemática de la comunidad, organizar hallazgos y escribir un reportaje detectivesco que combine información, emoción e interpretación.",
+        "type": "project-product",
+        "status": "confirmed-from-project-book",
+        "source": "Nuestro libro de proyectos Tomo II pp. 72-76"
+      },
+      "academicConcepts": [
+        {
+          "concept": "reportaje detectivesco",
+          "description": "Reportaje detectivesco como producto de cierre para organizar y comunicar aprendizajes del proyecto.",
+          "sourceBook": "Nuestro libro de proyectos Tomo II",
+          "sourcePages": [
+            72,
+            76
+          ],
+          "sourcePagesLabel": "pp. 72-76",
+          "topicTitle": "Proyecto academico 28",
+          "status": "confirmed",
+          "reason": "Posibilidades y el propio proyecto fijan Reportaje detectivesco como producto final del PA 28.",
+          "pedagogicalUse": "Da una forma concreta de socializar lo comprendido sobre la investigación de problemáticas en la escuela y la comunidad para expresarlas mediante escritura colectiva y recursos literarios.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "problemáticas sociales",
+          "description": "Situaciones del entorno que afectan a personas o grupos y requieren análisis y respuesta comunitaria.",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            201,
+            202
+          ],
+          "sourcePagesLabel": "pp. 201-202",
+          "topicTitle": "Problemas comunitarios",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Problemas comunitarios\" aporta base suficiente para trabajar problemáticas sociales dentro del proyecto 28.",
+          "pedagogicalUse": "Ayuda a fortalecer reportaje detectivesco y a explicar la investigación de problemáticas en la escuela y la comunidad para expresarlas mediante escritura colectiva y recursos literarios con mayor claridad mediante problemáticas sociales.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "escritura colectiva",
+          "description": "Producción de un texto en la que varias personas acuerdan información, forma y sentido del producto final.",
+          "sourceBook": "Nuestro libro de proyectos Tomo II",
+          "sourcePages": [
+            73,
+            74,
+            75
+          ],
+          "sourcePagesLabel": "pp. 73-75",
+          "topicTitle": "Proyecto académico 28",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Proyecto académico 28\" aporta base suficiente para trabajar escritura colectiva dentro del proyecto 28.",
+          "pedagogicalUse": "Ayuda a fortalecer reportaje detectivesco y a explicar la investigación de problemáticas en la escuela y la comunidad para expresarlas mediante escritura colectiva y recursos literarios con mayor claridad mediante escritura colectiva.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "técnicas literarias",
+          "description": "Recursos de construcción textual que permiten expresar mejor ideas, emociones y hallazgos.",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            13,
+            16
+          ],
+          "sourcePagesLabel": "pp. 13-16",
+          "topicTitle": "La recopilación de los elementos, las características y la función del texto literario",
+          "status": "confirmed",
+          "reason": "La fuente validada \"La recopilación de los elementos, las características y la función del texto literario\" aporta base suficiente para trabajar técnicas literarias dentro del proyecto 28.",
+          "pedagogicalUse": "Ayuda a fortalecer reportaje detectivesco y a explicar la investigación de problemáticas en la escuela y la comunidad para expresarlas mediante escritura colectiva y recursos literarios con mayor claridad mediante técnicas literarias.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "investigación local",
+          "description": "Búsqueda de información situada en la escuela o la comunidad para comprender un problema cercano.",
+          "sourceBook": "Nuestro libro de proyectos Tomo II",
+          "sourcePages": [
+            72,
+            73,
+            74
+          ],
+          "sourcePagesLabel": "pp. 72-74",
+          "topicTitle": "Proyecto académico 28",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Proyecto académico 28\" aporta base suficiente para trabajar investigación local dentro del proyecto 28.",
+          "pedagogicalUse": "Ayuda a fortalecer reportaje detectivesco y a explicar la investigación de problemáticas en la escuela y la comunidad para expresarlas mediante escritura colectiva y recursos literarios con mayor claridad mediante investigación local.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "emociones comunitarias",
+          "description": "Sentimientos compartidos o reconocibles que aparecen cuando se analizan problemas e ideas del entorno.",
+          "sourceBook": "Nuestro libro de proyectos Tomo II",
+          "sourcePages": [
+            72,
+            74,
+            75
+          ],
+          "sourcePagesLabel": "pp. 72-75",
+          "topicTitle": "Proyecto académico 28",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Proyecto académico 28\" aporta base suficiente para trabajar emociones comunitarias dentro del proyecto 28.",
+          "pedagogicalUse": "Ayuda a fortalecer reportaje detectivesco y a explicar la investigación de problemáticas en la escuela y la comunidad para expresarlas mediante escritura colectiva y recursos literarios con mayor claridad mediante emociones comunitarias.",
+          "activityReadiness": "usable-for-autoevaluation"
+        }
+      ],
+      "thinkingCriteria": [
+        "Relacionar la investigación de problemáticas en la escuela y la comunidad para expresarlas mediante escritura colectiva y recursos literarios con situaciones cercanas a la comunidad.",
+        "Usar reportaje detectivesco para explicar y no solo para recopilar informacion.",
+        "Distinguir entre mencionar conceptos y comprender como dialogan entre si dentro del proyecto."
+      ],
+      "validationStatus": {
+        "readinessLevel": "development-partial",
+        "readyForActivities": false,
+        "needsReviewReasons": [
+          "El bloque 10 ya es usable como lectura docente, pero el video del PPA 10 y el recurso informatico siguen pendientes de validacion de destino final.",
+          "La asignacion de apoyos de Posibilidades se sostiene por inferencia curricular documentada y no por OCR perfectamente separado por columnas.",
+          "No mover a actividades interactivas ni desbloquear juegos completos hasta ampliar validacion de videos y recursos complementarios."
+        ]
+      },
+      "readinessLevel": "development-partial",
+      "readyForActivities": false,
+      "needsReviewReasons": [
+        "No mover a actividades interactivas ni desbloquear juegos completos."
+      ],
+      "roleInPpa": "Abre el bloque al investigar problemas reales del entorno y convertirlos en una narración colectiva con intención transformadora.",
+      "pedagogicalUse": "Conviene trabajar Detectives en la comunidad como una oportunidad para profundizar en la investigación de problemáticas en la escuela y la comunidad para expresarlas mediante escritura colectiva y recursos literarios sin separar contenido, comunidad y producto final.",
+      "teacherNotes": [
+        "Conviene partir de ejemplos cercanos y después pasar al lenguaje mas abstracto del campo.",
+        "El producto Reportaje detectivesco gana fuerza cuando se usa para explicar y no solo para exhibir informacion.",
+        "Es mejor seleccionar pocos conceptos bien comprendidos que saturar el trabajo con terminos aislados."
+      ],
+      "resonancePrompts": [
+        {
+          "type": "individual",
+          "prompt": "¿Qué comprendes mejor sobre la investigación de problemáticas en la escuela y la comunidad para expresarlas mediante escritura colectiva y recursos literarios después de elaborar reportaje detectivesco?"
+        },
+        {
+          "type": "community",
+          "prompt": "¿Qué diálogos comunitarios podrían fortalecerse si compartimos reportaje detectivesco y lo ponemos en conversación con otras personas?"
+        }
+      ],
+      "notReadyFor": [
+        "full-games",
+        "summative-exam"
+      ]
+    },
+    {
+      "id": "lenguajes-2-ppa-10-pa29",
+      "projectId": "lenguajes-2-ppa-10-pa29",
+      "academicProjectNumber": 29,
+      "title": "Escribe tu propia historia",
+      "projectTitle": "Escribe tu propia historia",
+      "grade": "2",
+      "field": "Lenguajes",
+      "ppaNumber": "10",
+      "partialClassroomProject": "PPA 10",
+      "partialClassroomProjectTitle": "¡Nuestros relatos cuentan, nos emocionan y representan!",
+      "bookVolume": "Tomo II",
+      "sourceValidation": {
+        "sourceStatus": "linked",
+        "possibilitiesPages": [
+          28,
+          29
+        ],
+        "possibilitiesMaterialId": "grade-2-posibilidades-pos-len-2",
+        "possibilitiesColumnIndex": 2,
+        "columnEvidence": "Bloque PPA 10 ¡Nuestros relatos cuentan, nos emocionan y representan! localizado en pp. 28-29; la columna 2 se confirma por el orden de proyectos, productos y continuidad del mismo bloque."
+      },
+      "finalProduct": {
+        "title": "Diario-escultura móvil",
+        "source": "Posibilidades de uso Lenguajes pp. 28-29 + Nuestro libro de proyectos Tomo II pp. 77-80",
+        "status": "confirmed"
+      },
+      "sourcePages": {
+        "nuestroLibroProyectos": [
+          {
+            "materialId": "grade-2-proyectos-nuestro-libro-de-proyectos-tomo-2-segundo-grado",
+            "label": "Nuestro libro de proyectos Tomo II",
+            "startPage": 77,
+            "endPage": 80,
+            "pagesLabel": "pp. 77-80",
+            "topicTitle": "Proyecto academico 29",
+            "status": "confirmed-source"
+          }
+        ],
+        "conceptBook": [
+          {
+            "materialId": "grade-2-conceptos-lenguajes-segundo-grado",
+            "label": "Lenguajes",
+            "startPage": 53,
+            "endPage": 56,
+            "pagesLabel": "pp. 53-56",
+            "topicTitle": "El texto autobiográfico",
+            "status": "confirmed-by-column-inference"
+          },
+          {
+            "materialId": "grade-2-conceptos-lenguajes-segundo-grado",
+            "label": "Lenguajes",
+            "startPage": 56,
+            "endPage": 58,
+            "pagesLabel": "pp. 56-58",
+            "topicTitle": "La crónica desde una perspectiva familiar y comunitaria",
+            "status": "confirmed-by-column-inference"
+          }
+        ],
+        "multiplesLenguajes": [
+          {
+            "materialId": "grade-2-apoyo-multiples-lenguajes-segundo-grado",
+            "label": "Multiples Lenguajes",
+            "startPage": 50,
+            "endPage": 53,
+            "pagesLabel": "pp. 50-53",
+            "topicTitle": "David Lara",
+            "status": "confirmed-by-column-inference"
+          }
+        ],
+        "otherMaterials": [
+          {
+            "label": "Video PPA 10: ¡Nuestros relatos cuentan, nos emocionan y representan!",
+            "reference": "bit.ly/3VfglUk",
+            "status": "pending-validation"
+          }
+        ]
+      },
+      "supportMaterials": [
+        {
+          "title": "David Lara",
+          "kind": "Multiples Lenguajes",
+          "pages": "pp. 50-53",
+          "status": "confirmed-by-column-inference"
+        }
+      ],
+      "horizonOrPurpose": {
+        "status": "official",
+        "text": "Elaborar un diario-escultura móvil para expresar sensaciones, emociones e ideas relacionadas consigo mismos o con la comunidad. Para conseguirlo, se deberá emplear el pensamiento crítico y analítico por medio de la lectura de textos informativos y personales vinculados u originados en la comunidad.",
+        "source": "Nuestro libro de proyectos Tomo II p. 77"
+      },
+      "projectExpectationHorizon": {
+        "officialText": "Elaborar un diario-escultura móvil que reúna expresiones de la comunidad y ayude a entender sus preocupaciones, diferencias y similitudes.",
+        "studentVersion": "Escribir textos personales e informativos para integrarlos en un diario-escultura móvil sobre uno mismo y la comunidad.",
+        "sourcePages": [
+          "Nuestro libro de proyectos Tomo II p. 78"
+        ],
+        "evidence": "Los objetivos del proyecto convierten el diario-escultura en una vía para registrar perspectivas, emociones y relaciones con el entorno.",
+        "status": "official"
+      },
+      "detonatingStrategy": {
+        "status": "pending-url",
+        "text": "Video PPA 10: ¡Nuestros relatos cuentan, nos emocionan y representan!",
+        "reference": "bit.ly/3VfglUk",
+        "source": "Nuestro libro de proyectos Tomo II pp. 75-76 + Posibilidades de uso Lenguajes pp. 28-29"
+      },
+      "academicProjectStrategy": {
+        "title": "Diario-escultura móvil",
+        "text": "Recopilar textos y perspectivas personales, organizarlas visualmente y construir un diario-escultura móvil que dialogue con la comunidad.",
+        "type": "project-product",
+        "status": "confirmed-from-project-book",
+        "source": "Nuestro libro de proyectos Tomo II pp. 77-80"
+      },
+      "academicConcepts": [
+        {
+          "concept": "diario-escultura móvil",
+          "description": "Diario-escultura móvil como producto de cierre para organizar y comunicar aprendizajes del proyecto.",
+          "sourceBook": "Nuestro libro de proyectos Tomo II",
+          "sourcePages": [
+            77,
+            80
+          ],
+          "sourcePagesLabel": "pp. 77-80",
+          "topicTitle": "Proyecto academico 29",
+          "status": "confirmed",
+          "reason": "Posibilidades y el propio proyecto fijan Diario-escultura móvil como producto final del PA 29.",
+          "pedagogicalUse": "Da una forma concreta de socializar lo comprendido sobre la expresión de sensaciones, emociones e ideas sobre sí mismos y la comunidad mediante textos personales e informativos.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "textos informativos",
+          "description": "Textos que organizan y comunican datos o ideas con claridad para ayudar a comprender un tema.",
+          "sourceBook": "Nuestro libro de proyectos Tomo II",
+          "sourcePages": [
+            77,
+            78,
+            79
+          ],
+          "sourcePagesLabel": "pp. 77-79",
+          "topicTitle": "Proyecto académico 29",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Proyecto académico 29\" aporta base suficiente para trabajar textos informativos dentro del proyecto 29.",
+          "pedagogicalUse": "Ayuda a fortalecer diario-escultura móvil y a explicar la expresión de sensaciones, emociones e ideas sobre sí mismos y la comunidad mediante textos personales e informativos con mayor claridad mediante textos informativos.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "textos personales",
+          "description": "Escrituras en las que una persona comunica experiencias, emociones, recuerdos o puntos de vista propios.",
+          "sourceBook": "Nuestro libro de proyectos Tomo II",
+          "sourcePages": [
+            77,
+            78,
+            79
+          ],
+          "sourcePagesLabel": "pp. 77-79",
+          "topicTitle": "Proyecto académico 29",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Proyecto académico 29\" aporta base suficiente para trabajar textos personales dentro del proyecto 29.",
+          "pedagogicalUse": "Ayuda a fortalecer diario-escultura móvil y a explicar la expresión de sensaciones, emociones e ideas sobre sí mismos y la comunidad mediante textos personales e informativos con mayor claridad mediante textos personales.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "autobiografía",
+          "description": "Autobiografía es una idea clave para comprender la expresión de sensaciones, emociones e ideas sobre sí mismos y la comunidad mediante textos personales e informativos.",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            56,
+            58
+          ],
+          "sourcePagesLabel": "pp. 56-58",
+          "topicTitle": "La crónica desde una perspectiva familiar y comunitaria",
+          "status": "confirmed",
+          "reason": "La fuente validada \"La crónica desde una perspectiva familiar y comunitaria\" aporta base suficiente para trabajar autobiografía dentro del proyecto 29.",
+          "pedagogicalUse": "Ayuda a fortalecer diario-escultura móvil y a explicar la expresión de sensaciones, emociones e ideas sobre sí mismos y la comunidad mediante textos personales e informativos con mayor claridad mediante autobiografía.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "pensamiento crítico",
+          "description": "Capacidad de analizar, cuestionar y revisar ideas, experiencias y prejuicios para comprender mejor una situación.",
+          "sourceBook": "Nuestro libro de proyectos Tomo II",
+          "sourcePages": [
+            77,
+            78
+          ],
+          "sourcePagesLabel": "pp. 77-78",
+          "topicTitle": "Proyecto académico 29",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Proyecto académico 29\" aporta base suficiente para trabajar pensamiento crítico dentro del proyecto 29.",
+          "pedagogicalUse": "Ayuda a fortalecer diario-escultura móvil y a explicar la expresión de sensaciones, emociones e ideas sobre sí mismos y la comunidad mediante textos personales e informativos con mayor claridad mediante pensamiento crítico.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "expresión de emociones",
+          "description": "Puesta en palabras, imágenes o estructuras textuales de sensaciones y sentimientos vinculados con la vida propia y comunitaria.",
+          "sourceBook": "Nuestro libro de proyectos Tomo II",
+          "sourcePages": [
+            77,
+            79,
+            80
+          ],
+          "sourcePagesLabel": "pp. 77-80",
+          "topicTitle": "Proyecto académico 29",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Proyecto académico 29\" aporta base suficiente para trabajar expresión de emociones dentro del proyecto 29.",
+          "pedagogicalUse": "Ayuda a fortalecer diario-escultura móvil y a explicar la expresión de sensaciones, emociones e ideas sobre sí mismos y la comunidad mediante textos personales e informativos con mayor claridad mediante expresión de emociones.",
+          "activityReadiness": "usable-for-autoevaluation"
+        }
+      ],
+      "thinkingCriteria": [
+        "Relacionar la expresión de sensaciones, emociones e ideas sobre sí mismos y la comunidad mediante textos personales e informativos con situaciones cercanas a la comunidad.",
+        "Usar diario-escultura móvil para explicar y no solo para recopilar informacion.",
+        "Distinguir entre mencionar conceptos y comprender como dialogan entre si dentro del proyecto."
+      ],
+      "validationStatus": {
+        "readinessLevel": "development-partial",
+        "readyForActivities": false,
+        "needsReviewReasons": [
+          "El bloque 10 ya es usable como lectura docente, pero el video del PPA 10 y el recurso informatico siguen pendientes de validacion de destino final.",
+          "La asignacion de apoyos de Posibilidades se sostiene por inferencia curricular documentada y no por OCR perfectamente separado por columnas.",
+          "No mover a actividades interactivas ni desbloquear juegos completos hasta ampliar validacion de videos y recursos complementarios."
+        ]
+      },
+      "readinessLevel": "development-partial",
+      "readyForActivities": false,
+      "needsReviewReasons": [
+        "No mover a actividades interactivas ni desbloquear juegos completos."
+      ],
+      "roleInPpa": "Profundiza el bloque al llevar la mirada detectivesca hacia la introspección, la voz personal y la relación con el entorno.",
+      "pedagogicalUse": "Conviene trabajar Escribe tu propia historia como una oportunidad para profundizar en la expresión de sensaciones, emociones e ideas sobre sí mismos y la comunidad mediante textos personales e informativos sin separar contenido, comunidad y producto final.",
+      "teacherNotes": [
+        "Conviene partir de ejemplos cercanos y después pasar al lenguaje mas abstracto del campo.",
+        "El producto Diario-escultura móvil gana fuerza cuando se usa para explicar y no solo para exhibir informacion.",
+        "Es mejor seleccionar pocos conceptos bien comprendidos que saturar el trabajo con terminos aislados."
+      ],
+      "resonancePrompts": [
+        {
+          "type": "individual",
+          "prompt": "¿Qué comprendes mejor sobre la expresión de sensaciones, emociones e ideas sobre sí mismos y la comunidad mediante textos personales e informativos después de elaborar diario-escultura móvil?"
+        },
+        {
+          "type": "community",
+          "prompt": "¿Qué diálogos comunitarios podrían fortalecerse si compartimos diario-escultura móvil y lo ponemos en conversación con otras personas?"
+        }
+      ],
+      "notReadyFor": [
+        "full-games",
+        "summative-exam"
+      ]
+    },
+    {
+      "id": "lenguajes-2-ppa-10-pa30",
+      "projectId": "lenguajes-2-ppa-10-pa30",
+      "academicProjectNumber": 30,
+      "title": "Las raíces de tu entorno",
+      "projectTitle": "Las raíces de tu entorno",
+      "grade": "2",
+      "field": "Lenguajes",
+      "ppaNumber": "10",
+      "partialClassroomProject": "PPA 10",
+      "partialClassroomProjectTitle": "¡Nuestros relatos cuentan, nos emocionan y representan!",
+      "bookVolume": "Tomo II",
+      "sourceValidation": {
+        "sourceStatus": "linked",
+        "possibilitiesPages": [
+          28,
+          29
+        ],
+        "possibilitiesMaterialId": "grade-2-posibilidades-pos-len-2",
+        "possibilitiesColumnIndex": 3,
+        "columnEvidence": "Bloque PPA 10 ¡Nuestros relatos cuentan, nos emocionan y representan! localizado en pp. 28-29; la columna 3 se confirma por el orden de proyectos, productos y continuidad del mismo bloque."
+      },
+      "finalProduct": {
+        "title": "Fanzine comunitario",
+        "source": "Posibilidades de uso Lenguajes pp. 28-29 + Nuestro libro de proyectos Tomo II pp. 81-85",
+        "status": "confirmed"
+      },
+      "sourcePages": {
+        "nuestroLibroProyectos": [
+          {
+            "materialId": "grade-2-proyectos-nuestro-libro-de-proyectos-tomo-2-segundo-grado",
+            "label": "Nuestro libro de proyectos Tomo II",
+            "startPage": 81,
+            "endPage": 85,
+            "pagesLabel": "pp. 81-85",
+            "topicTitle": "Proyecto academico 30",
+            "status": "confirmed-source"
+          }
+        ],
+        "conceptBook": [
+          {
+            "materialId": "grade-2-conceptos-lenguajes-segundo-grado",
+            "label": "Lenguajes",
+            "startPage": 69,
+            "endPage": 75,
+            "pagesLabel": "pp. 69-75",
+            "topicTitle": "Características de las narraciones orales y las escritas",
+            "status": "confirmed-by-column-inference"
+          },
+          {
+            "materialId": "grade-2-conceptos-lenguajes-segundo-grado",
+            "label": "Lenguajes",
+            "startPage": 132,
+            "endPage": 138,
+            "pagesLabel": "pp. 132-138",
+            "topicTitle": "Prácticas y discursos relacionados con la organización política",
+            "status": "confirmed-by-column-inference"
+          },
+          {
+            "materialId": "grade-2-conceptos-lenguajes-segundo-grado",
+            "label": "Lenguajes",
+            "startPage": 201,
+            "endPage": 202,
+            "pagesLabel": "pp. 201-202",
+            "topicTitle": "Problemas comunitarios",
+            "status": "confirmed-by-column-inference"
+          }
+        ],
+        "multiplesLenguajes": [
+          {
+            "materialId": "grade-2-apoyo-multiples-lenguajes-segundo-grado",
+            "label": "Multiples Lenguajes",
+            "startPage": 30,
+            "endPage": 33,
+            "pagesLabel": "pp. 30-33",
+            "topicTitle": "Escuela en el tiempo",
+            "status": "confirmed-by-column-inference"
+          }
+        ],
+        "otherMaterials": [
+          {
+            "label": "Video PPA 10: ¡Nuestros relatos cuentan, nos emocionan y representan!",
+            "reference": "bit.ly/3VfglUk",
+            "status": "pending-validation"
+          }
+        ]
+      },
+      "supportMaterials": [
+        {
+          "title": "Escuela en el tiempo",
+          "kind": "Multiples Lenguajes",
+          "pages": "pp. 30-33",
+          "status": "confirmed-by-column-inference"
+        }
+      ],
+      "horizonOrPurpose": {
+        "status": "official",
+        "text": "Recuperar diversos relatos orales de la comunidad para escribir una versión integradora en un fanzine comunitario que permita observar las diferencias y similitudes entre los textos orales y escritos, su vínculo con la identidad de la comunidad y su efecto transformador de las prácticas sociales.",
+        "source": "Nuestro libro de proyectos Tomo II p. 81"
+      },
+      "projectExpectationHorizon": {
+        "officialText": "Investigar y seleccionar relatos orales de la comunidad para reescribirlos en un fanzine comunitario que impacte en la construcción de la identidad y ayude a pensar soluciones del contexto.",
+        "studentVersion": "Recuperar relatos orales de la comunidad y convertirlos en un fanzine comunitario que fortalezca la identidad local.",
+        "sourcePages": [
+          "Nuestro libro de proyectos Tomo II p. 82"
+        ],
+        "evidence": "Los objetivos del proyecto enlazan tradición oral, reescritura, identidad comunitaria y publicación del fanzine.",
+        "status": "official"
+      },
+      "detonatingStrategy": {
+        "status": "pending-url",
+        "text": "Video PPA 10: ¡Nuestros relatos cuentan, nos emocionan y representan!",
+        "reference": "bit.ly/3VfglUk",
+        "source": "Nuestro libro de proyectos Tomo II pp. 79-80 + Posibilidades de uso Lenguajes pp. 28-29"
+      },
+      "academicProjectStrategy": {
+        "title": "Fanzine comunitario",
+        "text": "Recopilar relatos orales, reescribirlos de forma colaborativa y reunirlos en un fanzine comunitario que dialogue con los problemas y la memoria del entorno.",
+        "type": "project-product",
+        "status": "confirmed-from-project-book",
+        "source": "Nuestro libro de proyectos Tomo II pp. 81-85"
+      },
+      "academicConcepts": [
+        {
+          "concept": "fanzine comunitario",
+          "description": "Fanzine comunitario como producto de cierre para organizar y comunicar aprendizajes del proyecto.",
+          "sourceBook": "Nuestro libro de proyectos Tomo II",
+          "sourcePages": [
+            81,
+            85
+          ],
+          "sourcePagesLabel": "pp. 81-85",
+          "topicTitle": "Proyecto academico 30",
+          "status": "confirmed",
+          "reason": "Posibilidades y el propio proyecto fijan Fanzine comunitario como producto final del PA 30.",
+          "pedagogicalUse": "Da una forma concreta de socializar lo comprendido sobre la recuperación de relatos orales de la comunidad para reescribirlos y fortalecer la identidad y la transmisión intergeneracional.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "relato oral",
+          "description": "Narración que circula mediante la voz y la memoria entre personas y generaciones de una comunidad.",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            69,
+            75
+          ],
+          "sourcePagesLabel": "pp. 69-75",
+          "topicTitle": "Características de las narraciones orales y las escritas",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Características de las narraciones orales y las escritas\" aporta base suficiente para trabajar relato oral dentro del proyecto 30.",
+          "pedagogicalUse": "Ayuda a fortalecer fanzine comunitario y a explicar la recuperación de relatos orales de la comunidad para reescribirlos y fortalecer la identidad y la transmisión intergeneracional con mayor claridad mediante relato oral.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "relato escrito",
+          "description": "Versión textual de una narración que organiza con mayor estabilidad personajes, acciones y sentidos.",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            69,
+            75
+          ],
+          "sourcePagesLabel": "pp. 69-75",
+          "topicTitle": "Características de las narraciones orales y las escritas",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Características de las narraciones orales y las escritas\" aporta base suficiente para trabajar relato escrito dentro del proyecto 30.",
+          "pedagogicalUse": "Ayuda a fortalecer fanzine comunitario y a explicar la recuperación de relatos orales de la comunidad para reescribirlos y fortalecer la identidad y la transmisión intergeneracional con mayor claridad mediante relato escrito.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "identidad cultural",
+          "description": "Identidad cultural es una idea clave para comprender la recuperación de relatos orales de la comunidad para reescribirlos y fortalecer la identidad y la transmisión intergeneracional.",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            132,
+            138
+          ],
+          "sourcePagesLabel": "pp. 132-138",
+          "topicTitle": "Prácticas y discursos relacionados con la organización política",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Prácticas y discursos relacionados con la organización política\" aporta base suficiente para trabajar identidad cultural dentro del proyecto 30.",
+          "pedagogicalUse": "Ayuda a fortalecer fanzine comunitario y a explicar la recuperación de relatos orales de la comunidad para reescribirlos y fortalecer la identidad y la transmisión intergeneracional con mayor claridad mediante identidad cultural.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "transmisión intergeneracional",
+          "description": "Paso de saberes, historias y valores entre personas de distintas edades dentro de una comunidad.",
+          "sourceBook": "Nuestro libro de proyectos Tomo II",
+          "sourcePages": [
+            81,
+            82,
+            83
+          ],
+          "sourcePagesLabel": "pp. 81-83",
+          "topicTitle": "Proyecto académico 30",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Proyecto académico 30\" aporta base suficiente para trabajar transmisión intergeneracional dentro del proyecto 30.",
+          "pedagogicalUse": "Ayuda a fortalecer fanzine comunitario y a explicar la recuperación de relatos orales de la comunidad para reescribirlos y fortalecer la identidad y la transmisión intergeneracional con mayor claridad mediante transmisión intergeneracional.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "prácticas sociales comunitarias",
+          "description": "Acciones y formas de convivencia que sostienen la vida colectiva y se reflejan en los relatos del entorno.",
+          "sourceBook": "Nuestro libro de proyectos Tomo II",
+          "sourcePages": [
+            81,
+            82,
+            83
+          ],
+          "sourcePagesLabel": "pp. 81-83",
+          "topicTitle": "Proyecto académico 30",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Proyecto académico 30\" aporta base suficiente para trabajar prácticas sociales comunitarias dentro del proyecto 30.",
+          "pedagogicalUse": "Ayuda a fortalecer fanzine comunitario y a explicar la recuperación de relatos orales de la comunidad para reescribirlos y fortalecer la identidad y la transmisión intergeneracional con mayor claridad mediante prácticas sociales comunitarias.",
+          "activityReadiness": "usable-for-autoevaluation"
+        }
+      ],
+      "thinkingCriteria": [
+        "Relacionar la recuperación de relatos orales de la comunidad para reescribirlos y fortalecer la identidad y la transmisión intergeneracional con situaciones cercanas a la comunidad.",
+        "Usar fanzine comunitario para explicar y no solo para recopilar informacion.",
+        "Distinguir entre mencionar conceptos y comprender como dialogan entre si dentro del proyecto."
+      ],
+      "validationStatus": {
+        "readinessLevel": "development-partial",
+        "readyForActivities": false,
+        "needsReviewReasons": [
+          "El bloque 10 ya es usable como lectura docente, pero el video del PPA 10 y el recurso informatico siguen pendientes de validacion de destino final.",
+          "La asignacion de apoyos de Posibilidades se sostiene por inferencia curricular documentada y no por OCR perfectamente separado por columnas.",
+          "No mover a actividades interactivas ni desbloquear juegos completos hasta ampliar validacion de videos y recursos complementarios."
+        ]
+      },
+      "readinessLevel": "development-partial",
+      "readyForActivities": false,
+      "needsReviewReasons": [
+        "No mover a actividades interactivas ni desbloquear juegos completos."
+      ],
+      "roleInPpa": "Cierra el bloque al convertir relatos orales del entorno en una publicación comunitaria con intención transformadora.",
+      "pedagogicalUse": "Conviene trabajar Las raíces de tu entorno como una oportunidad para profundizar en la recuperación de relatos orales de la comunidad para reescribirlos y fortalecer la identidad y la transmisión intergeneracional sin separar contenido, comunidad y producto final.",
+      "teacherNotes": [
+        "Conviene partir de ejemplos cercanos y después pasar al lenguaje mas abstracto del campo.",
+        "El producto Fanzine comunitario gana fuerza cuando se usa para explicar y no solo para exhibir informacion.",
+        "Es mejor seleccionar pocos conceptos bien comprendidos que saturar el trabajo con terminos aislados."
+      ],
+      "resonancePrompts": [
+        {
+          "type": "individual",
+          "prompt": "¿Qué comprendes mejor sobre la recuperación de relatos orales de la comunidad para reescribirlos y fortalecer la identidad y la transmisión intergeneracional después de elaborar fanzine comunitario?"
+        },
+        {
+          "type": "community",
+          "prompt": "¿Qué diálogos comunitarios podrían fortalecerse si compartimos fanzine comunitario y lo ponemos en conversación con otras personas?"
+        }
+      ],
+      "notReadyFor": [
+        "full-games",
+        "summative-exam"
+      ]
+    }
+  ]
+}

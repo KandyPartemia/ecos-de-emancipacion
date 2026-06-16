@@ -1,0 +1,789 @@
+{
+  "grade": "1",
+  "gradeLabel": "Primer grado",
+  "field": "Etica, Naturaleza y Sociedades",
+  "bookVolume": "Tomo I",
+  "partialClassroomProject": "PPA 4",
+  "partialClassroomProjectTitle": "Un futuro sostenible",
+  "generatedAt": "2026-06-02T02:38:10.502Z",
+  "notes": "Capa curricular generada por lote para 1o Etica, Naturaleza y Sociedades, PPA 4.",
+  "sourcesUsed": [
+    "public/caracoles/data/generated/grade-1/selectable-projects.json",
+    "content/caracoles/generated-private/grade-1/pages-index.full.json",
+    "Posibilidades de uso ENS, primer grado, pp. 12-13",
+    "Nuestro libro de proyectos Tomo I, primer grado, pp. 242-258",
+    "Etica, Naturaleza y Sociedades, primer grado, pp. 43-45, 65-70, 100-110, 120-127, 132-135 y 170-175; Multiples Lenguajes pp. 30-33 y 74-77."
+  ],
+  "partialClassroomProjectContext": {
+    "expectationHorizon": {
+      "officialText": "",
+      "sourcePages": [
+        "Nuestro libro de proyectos Tomo I pp. 242-243",
+        "Posibilidades de uso ENS pp. 12-13"
+      ],
+      "evidence": "El PPA 4 enlaza espacios economicos, desigualdades y sostenibilidad para que el grupo imagine formas mas justas de organizar el trabajo, el territorio y los recursos.",
+      "status": "pending"
+    },
+    "ppaDetonatingStrategy": {
+      "title": "Un futuro sostenible",
+      "type": "video",
+      "url": "",
+      "urlStatus": "pending-url",
+      "reference": "bit.ly/3VfglUk",
+      "source": "Nuestro libro de proyectos Tomo I pp. 242-243 + Posibilidades de uso ENS pp. 12-13",
+      "scope": "partial-classroom-project",
+      "youtubeSearchQuery": "Un futuro sostenible Etica, Naturaleza y Sociedades 1er grado Telesecundaria"
+    },
+    "ppaDigitalResource": {
+      "title": "Recurso informatico del bloque PPA 4",
+      "reference": "bit.ly/3WQBMwg",
+      "status": "pending-validation",
+      "source": "Nuestro libro de proyectos Tomo I pp. 242-258"
+    },
+    "validationStatus": {
+      "needsHumanReview": true,
+      "needsReviewReasons": [
+        "Las pp. 12-13 de Posibilidades pertenecen al mismo PPA 4.",
+        "La asignacion de apoyos por columna se fija por inferencia curricular documentada de izquierda a derecha.",
+        "Los enlaces cortos del video del PPA y del recurso informatico se mantienen en cautela hasta localizar un destino oficial confirmado."
+      ]
+    },
+    "columnValidation": {
+      "possibilitiesPagesReviewed": [
+        12,
+        13
+      ],
+      "confirmedAsPpa": true,
+      "note": "Las pp. 12-13 corresponden al PPA 4 Un futuro sostenible. Las tres columnas se sostienen por el orden de proyectos, productos y apoyos del mismo bloque.",
+      "columns": [
+        {
+          "columnIndex": 1,
+          "projectId": "etica-naturaleza-y-sociedades-1-ppa-4-pa10",
+          "projectTitle": "Los espacios economicos",
+          "finalProduct": "Cuadro comparativo novedoso",
+          "supportMaterials": [
+            "Somos fuerza, pp. 30-33"
+          ]
+        },
+        {
+          "columnIndex": 2,
+          "projectId": "etica-naturaleza-y-sociedades-1-ppa-4-pa11",
+          "projectTitle": "Construir un futuro mas justo",
+          "finalProduct": "Exposiciones alusivas",
+          "supportMaterials": [
+            "Gente haciendo su chamba, pp. 74-77"
+          ]
+        },
+        {
+          "columnIndex": 3,
+          "projectId": "etica-naturaleza-y-sociedades-1-ppa-4-pa12",
+          "projectTitle": "Hacia un futuro sostenible",
+          "finalProduct": "Expresiones libres",
+          "supportMaterials": []
+        }
+      ]
+    }
+  },
+  "academicProjects": [
+    {
+      "id": "etica-naturaleza-y-sociedades-1-ppa-4-pa10",
+      "projectId": "etica-naturaleza-y-sociedades-1-ppa-4-pa10",
+      "academicProjectNumber": 10,
+      "title": "Los espacios economicos",
+      "projectTitle": "Los espacios economicos",
+      "grade": "1",
+      "field": "Etica, Naturaleza y Sociedades",
+      "ppaNumber": "4",
+      "partialClassroomProject": "PPA 4",
+      "partialClassroomProjectTitle": "Un futuro sostenible",
+      "bookVolume": "Tomo I",
+      "sourceValidation": {
+        "sourceStatus": "linked",
+        "possibilitiesPages": [
+          12,
+          13
+        ],
+        "possibilitiesMaterialId": "grade-1-posibilidades-pos-ens-1",
+        "possibilitiesColumnIndex": 1,
+        "columnEvidence": "Bloque PPA 4 Un futuro sostenible localizado en pp. 12-13; la columna 1 se confirma por el orden de proyectos, productos y continuidad del mismo bloque."
+      },
+      "finalProduct": {
+        "title": "Cuadro comparativo novedoso",
+        "source": "Posibilidades de uso ENS pp. 12-13 + Nuestro libro de proyectos Tomo I pp. 244-248",
+        "status": "confirmed"
+      },
+      "sourcePages": {
+        "nuestroLibroProyectos": [
+          {
+            "materialId": "grade-1-proyectos-nuestro-libro-de-proyectos-tomo-i-primer-grado",
+            "label": "Nuestro libro de proyectos Tomo I",
+            "startPage": 244,
+            "endPage": 248,
+            "pagesLabel": "pp. 244-248",
+            "topicTitle": "Proyecto academico 10",
+            "status": "confirmed-source"
+          }
+        ],
+        "conceptBook": [
+          {
+            "materialId": "grade-1-conceptos-etica-naturaleza-y-sociedades-primer-grado",
+            "label": "Etica, Naturaleza y Sociedades",
+            "startPage": 86,
+            "endPage": 93,
+            "pagesLabel": "pp. 86-93",
+            "topicTitle": "Importancia de las cuencas hidrograficas para el desarrollo economico de Mexico",
+            "status": "confirmed-by-column-inference"
+          },
+          {
+            "materialId": "grade-1-conceptos-etica-naturaleza-y-sociedades-primer-grado",
+            "label": "Etica, Naturaleza y Sociedades",
+            "startPage": 120,
+            "endPage": 127,
+            "pagesLabel": "pp. 120-127",
+            "topicTitle": "Procesos productivos en los espacios economicos",
+            "status": "confirmed-by-column-inference"
+          }
+        ],
+        "multiplesLenguajes": [
+          {
+            "materialId": "grade-1-apoyo-muiltiples-lenguajes-primer-grado",
+            "label": "Multiples Lenguajes",
+            "startPage": 30,
+            "endPage": 33,
+            "pagesLabel": "pp. 30-33",
+            "topicTitle": "Somos fuerza",
+            "status": "confirmed-by-column-inference"
+          }
+        ],
+        "otherMaterials": [
+          {
+            "label": "Video PPA 4: Un futuro sostenible",
+            "reference": "bit.ly/3VfglUk",
+            "status": "pending-validation"
+          }
+        ]
+      },
+      "supportMaterials": [
+        {
+          "title": "Somos fuerza",
+          "kind": "Multiples Lenguajes",
+          "pages": "pp. 30-33",
+          "status": "confirmed-by-column-inference"
+        }
+      ],
+      "horizonOrPurpose": {
+        "status": "pending",
+        "text": "",
+        "source": "Nuestro libro de proyectos Tomo I p. 244"
+      },
+      "projectExpectationHorizon": {
+        "officialText": "",
+        "studentVersion": "",
+        "sourcePages": [
+          "Nuestro libro de proyectos Tomo I p. 244"
+        ],
+        "evidence": "El proyecto ya cuenta con producto, conceptos y articulacion pedagógica, pero el horizonte textual exacto sigue pendiente de confirmacion literal.",
+        "status": "pending"
+      },
+      "detonatingStrategy": {
+        "status": "pending-url",
+        "text": "Video PPA 4: Un futuro sostenible",
+        "reference": "bit.ly/3VfglUk",
+        "source": "Nuestro libro de proyectos Tomo I pp. 242-243 + Posibilidades de uso ENS pp. 12-13"
+      },
+      "academicProjectStrategy": {
+        "title": "Cuadro comparativo novedoso",
+        "text": "Organizar cuadro comparativo novedoso para profundizar en la organizacion de los espacios economicos y su relacion con el territorio y compartir hallazgos de manera clara con el grupo.",
+        "type": "project-product",
+        "status": "confirmed-from-project-book",
+        "source": "Nuestro libro de proyectos Tomo I pp. 244-248"
+      },
+      "academicConcepts": [
+        {
+          "concept": "cuadro comparativo novedoso",
+          "description": "Cuadro comparativo novedoso como producto de cierre para organizar y comunicar aprendizajes del proyecto.",
+          "sourceBook": "Nuestro libro de proyectos Tomo I",
+          "sourcePages": [
+            244,
+            248
+          ],
+          "sourcePagesLabel": "pp. 244-248",
+          "topicTitle": "Proyecto academico 10",
+          "status": "confirmed",
+          "reason": "Posibilidades y el propio proyecto fijan Cuadro comparativo novedoso como producto final del PA 10.",
+          "pedagogicalUse": "Da una forma concreta de socializar lo comprendido sobre la organizacion de los espacios economicos y su relacion con el territorio.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "espacios economicos",
+          "description": "Espacios economicos es una idea clave para comprender la organizacion de los espacios economicos y su relacion con el territorio.",
+          "sourceBook": "Etica, Naturaleza y Sociedades",
+          "sourcePages": [
+            120,
+            127
+          ],
+          "sourcePagesLabel": "pp. 120-127",
+          "topicTitle": "Procesos productivos en los espacios economicos",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Procesos productivos en los espacios economicos\" aporta base suficiente para trabajar espacios economicos dentro del proyecto 10.",
+          "pedagogicalUse": "Ayuda a fortalecer cuadro comparativo novedoso y a explicar la organizacion de los espacios economicos y su relacion con el territorio con mayor claridad mediante espacios economicos.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "procesos productivos",
+          "description": "Procesos productivos es una idea clave para comprender la organizacion de los espacios economicos y su relacion con el territorio.",
+          "sourceBook": "Etica, Naturaleza y Sociedades",
+          "sourcePages": [
+            120,
+            127
+          ],
+          "sourcePagesLabel": "pp. 120-127",
+          "topicTitle": "Procesos productivos en los espacios economicos",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Procesos productivos en los espacios economicos\" aporta base suficiente para trabajar procesos productivos dentro del proyecto 10.",
+          "pedagogicalUse": "Ayuda a fortalecer cuadro comparativo novedoso y a explicar la organizacion de los espacios economicos y su relacion con el territorio con mayor claridad mediante procesos productivos.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "desarrollo economico",
+          "description": "Desarrollo economico es una idea clave para comprender la organizacion de los espacios economicos y su relacion con el territorio.",
+          "sourceBook": "Etica, Naturaleza y Sociedades",
+          "sourcePages": [
+            86,
+            93
+          ],
+          "sourcePagesLabel": "pp. 86-93",
+          "topicTitle": "Importancia de las cuencas hidrograficas para el desarrollo economico de Mexico",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Importancia de las cuencas hidrograficas para el desarrollo economico de Mexico\" aporta base suficiente para trabajar desarrollo economico dentro del proyecto 10.",
+          "pedagogicalUse": "Ayuda a fortalecer cuadro comparativo novedoso y a explicar la organizacion de los espacios economicos y su relacion con el territorio con mayor claridad mediante desarrollo economico.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "territorio productivo",
+          "description": "Territorio productivo es una idea clave para comprender la organizacion de los espacios economicos y su relacion con el territorio.",
+          "sourceBook": "Etica, Naturaleza y Sociedades",
+          "sourcePages": [
+            120,
+            127
+          ],
+          "sourcePagesLabel": "pp. 120-127",
+          "topicTitle": "Procesos productivos en los espacios economicos",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Procesos productivos en los espacios economicos\" aporta base suficiente para trabajar territorio productivo dentro del proyecto 10.",
+          "pedagogicalUse": "Ayuda a fortalecer cuadro comparativo novedoso y a explicar la organizacion de los espacios economicos y su relacion con el territorio con mayor claridad mediante territorio productivo.",
+          "activityReadiness": "usable-for-autoevaluation"
+        }
+      ],
+      "thinkingCriteria": [
+        "Relacionar la organizacion de los espacios economicos y su relacion con el territorio con situaciones cercanas a la comunidad.",
+        "Usar cuadro comparativo novedoso para explicar y no solo para recopilar informacion.",
+        "Distinguir entre mencionar conceptos y comprender como dialogan entre si dentro del proyecto."
+      ],
+      "validationStatus": {
+        "readinessLevel": "development-partial",
+        "readyForActivities": false,
+        "needsReviewReasons": [
+          "El bloque 4 ya es usable como lectura docente, pero el video del PPA 4 y el recurso informatico siguen pendientes de validacion de destino final.",
+          "La asignacion de apoyos de Posibilidades se sostiene por inferencia curricular documentada y no por OCR perfectamente separado por columnas.",
+          "No mover a actividades interactivas ni desbloquear juegos completos hasta ampliar validacion de videos y recursos complementarios."
+        ]
+      },
+      "readinessLevel": "development-partial",
+      "readyForActivities": false,
+      "needsReviewReasons": [
+        "No mover a actividades interactivas ni desbloquear juegos completos."
+      ],
+      "roleInPpa": "Abre el bloque con una comparacion de espacios economicos y de la forma en que transforman el territorio.",
+      "pedagogicalUse": "Conviene trabajar Los espacios economicos como una oportunidad para profundizar en la organizacion de los espacios economicos y su relacion con el territorio sin separar contenido, comunidad y producto final.",
+      "teacherNotes": [
+        "Conviene partir de ejemplos cercanos y despues pasar al lenguaje mas abstracto del campo.",
+        "El producto Cuadro comparativo novedoso gana fuerza cuando se usa para explicar y no solo para exhibir informacion.",
+        "Es mejor seleccionar pocos conceptos bien comprendidos que saturar el trabajo con terminos aislados."
+      ],
+      "resonancePrompts": [
+        {
+          "type": "individual",
+          "prompt": "¿Que comprendes mejor sobre la organizacion de los espacios economicos y su relacion con el territorio despues de elaborar cuadro comparativo novedoso?"
+        },
+        {
+          "type": "community",
+          "prompt": "¿Que dialogos comunitarios podrian fortalecerse si compartimos cuadro comparativo novedoso y lo ponemos en conversacion con otras personas?"
+        }
+      ],
+      "notReadyFor": [
+        "full-games",
+        "summative-exam"
+      ]
+    },
+    {
+      "id": "etica-naturaleza-y-sociedades-1-ppa-4-pa11",
+      "projectId": "etica-naturaleza-y-sociedades-1-ppa-4-pa11",
+      "academicProjectNumber": 11,
+      "title": "Construir un futuro mas justo",
+      "projectTitle": "Construir un futuro mas justo",
+      "grade": "1",
+      "field": "Etica, Naturaleza y Sociedades",
+      "ppaNumber": "4",
+      "partialClassroomProject": "PPA 4",
+      "partialClassroomProjectTitle": "Un futuro sostenible",
+      "bookVolume": "Tomo I",
+      "sourceValidation": {
+        "sourceStatus": "linked",
+        "possibilitiesPages": [
+          12,
+          13
+        ],
+        "possibilitiesMaterialId": "grade-1-posibilidades-pos-ens-1",
+        "possibilitiesColumnIndex": 2,
+        "columnEvidence": "Bloque PPA 4 Un futuro sostenible localizado en pp. 12-13; la columna 2 se confirma por el orden de proyectos, productos y continuidad del mismo bloque."
+      },
+      "finalProduct": {
+        "title": "Exposiciones alusivas",
+        "source": "Posibilidades de uso ENS pp. 12-13 + Nuestro libro de proyectos Tomo I pp. 250-253",
+        "status": "confirmed"
+      },
+      "sourcePages": {
+        "nuestroLibroProyectos": [
+          {
+            "materialId": "grade-1-proyectos-nuestro-libro-de-proyectos-tomo-i-primer-grado",
+            "label": "Nuestro libro de proyectos Tomo I",
+            "startPage": 250,
+            "endPage": 253,
+            "pagesLabel": "pp. 250-253",
+            "topicTitle": "Proyecto academico 11",
+            "status": "confirmed-source"
+          }
+        ],
+        "conceptBook": [
+          {
+            "materialId": "grade-1-conceptos-etica-naturaleza-y-sociedades-primer-grado",
+            "label": "Etica, Naturaleza y Sociedades",
+            "startPage": 43,
+            "endPage": 45,
+            "pagesLabel": "pp. 43-45",
+            "topicTitle": "Desigualdades economicas",
+            "status": "confirmed-by-column-inference"
+          },
+          {
+            "materialId": "grade-1-conceptos-etica-naturaleza-y-sociedades-primer-grado",
+            "label": "Etica, Naturaleza y Sociedades",
+            "startPage": 132,
+            "endPage": 135,
+            "pagesLabel": "pp. 132-135",
+            "topicTitle": "Responsabilidad ante problemas y realidades socioambientales de la comunidad",
+            "status": "confirmed-by-column-inference"
+          }
+        ],
+        "multiplesLenguajes": [
+          {
+            "materialId": "grade-1-apoyo-muiltiples-lenguajes-primer-grado",
+            "label": "Multiples Lenguajes",
+            "startPage": 74,
+            "endPage": 77,
+            "pagesLabel": "pp. 74-77",
+            "topicTitle": "Gente haciendo su chamba",
+            "status": "confirmed-by-column-inference"
+          }
+        ],
+        "otherMaterials": [
+          {
+            "label": "Video PPA 4: Un futuro sostenible",
+            "reference": "bit.ly/3VfglUk",
+            "status": "pending-validation"
+          }
+        ]
+      },
+      "supportMaterials": [
+        {
+          "title": "Gente haciendo su chamba",
+          "kind": "Multiples Lenguajes",
+          "pages": "pp. 74-77",
+          "status": "confirmed-by-column-inference"
+        }
+      ],
+      "horizonOrPurpose": {
+        "status": "pending",
+        "text": "",
+        "source": "Nuestro libro de proyectos Tomo I p. 250"
+      },
+      "projectExpectationHorizon": {
+        "officialText": "",
+        "studentVersion": "",
+        "sourcePages": [
+          "Nuestro libro de proyectos Tomo I p. 250"
+        ],
+        "evidence": "El proyecto ya cuenta con producto, conceptos y articulacion pedagógica, pero el horizonte textual exacto sigue pendiente de confirmacion literal.",
+        "status": "pending"
+      },
+      "detonatingStrategy": {
+        "status": "pending-url",
+        "text": "Video PPA 4: Un futuro sostenible",
+        "reference": "bit.ly/3VfglUk",
+        "source": "Nuestro libro de proyectos Tomo I pp. 248-249 + Posibilidades de uso ENS pp. 12-13"
+      },
+      "academicProjectStrategy": {
+        "title": "Exposiciones alusivas",
+        "text": "Organizar exposiciones alusivas para profundizar en la justicia social y ambiental en la construccion de futuros sostenibles y compartir hallazgos de manera clara con el grupo.",
+        "type": "project-product",
+        "status": "confirmed-from-project-book",
+        "source": "Nuestro libro de proyectos Tomo I pp. 250-253"
+      },
+      "academicConcepts": [
+        {
+          "concept": "exposiciones alusivas",
+          "description": "Exposiciones alusivas como producto de cierre para organizar y comunicar aprendizajes del proyecto.",
+          "sourceBook": "Nuestro libro de proyectos Tomo I",
+          "sourcePages": [
+            250,
+            253
+          ],
+          "sourcePagesLabel": "pp. 250-253",
+          "topicTitle": "Proyecto academico 11",
+          "status": "confirmed",
+          "reason": "Posibilidades y el propio proyecto fijan Exposiciones alusivas como producto final del PA 11.",
+          "pedagogicalUse": "Da una forma concreta de socializar lo comprendido sobre la justicia social y ambiental en la construccion de futuros sostenibles.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "desigualdades economicas",
+          "description": "Desigualdades economicas es una idea clave para comprender la justicia social y ambiental en la construccion de futuros sostenibles.",
+          "sourceBook": "Etica, Naturaleza y Sociedades",
+          "sourcePages": [
+            43,
+            45
+          ],
+          "sourcePagesLabel": "pp. 43-45",
+          "topicTitle": "Desigualdades economicas",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Desigualdades economicas\" aporta base suficiente para trabajar desigualdades economicas dentro del proyecto 11.",
+          "pedagogicalUse": "Ayuda a fortalecer exposiciones alusivas y a explicar la justicia social y ambiental en la construccion de futuros sostenibles con mayor claridad mediante desigualdades economicas.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "justicia social",
+          "description": "Justicia social es una idea clave para comprender la justicia social y ambiental en la construccion de futuros sostenibles.",
+          "sourceBook": "Etica, Naturaleza y Sociedades",
+          "sourcePages": [
+            43,
+            45
+          ],
+          "sourcePagesLabel": "pp. 43-45",
+          "topicTitle": "Desigualdades economicas",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Desigualdades economicas\" aporta base suficiente para trabajar justicia social dentro del proyecto 11.",
+          "pedagogicalUse": "Ayuda a fortalecer exposiciones alusivas y a explicar la justicia social y ambiental en la construccion de futuros sostenibles con mayor claridad mediante justicia social.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "responsabilidad socioambiental",
+          "description": "Responsabilidad socioambiental es una idea clave para comprender la justicia social y ambiental en la construccion de futuros sostenibles.",
+          "sourceBook": "Etica, Naturaleza y Sociedades",
+          "sourcePages": [
+            132,
+            135
+          ],
+          "sourcePagesLabel": "pp. 132-135",
+          "topicTitle": "Responsabilidad ante problemas y realidades socioambientales de la comunidad",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Responsabilidad ante problemas y realidades socioambientales de la comunidad\" aporta base suficiente para trabajar responsabilidad socioambiental dentro del proyecto 11.",
+          "pedagogicalUse": "Ayuda a fortalecer exposiciones alusivas y a explicar la justicia social y ambiental en la construccion de futuros sostenibles con mayor claridad mediante responsabilidad socioambiental.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "futuro sostenible",
+          "description": "Futuro sostenible es una idea clave para comprender la justicia social y ambiental en la construccion de futuros sostenibles.",
+          "sourceBook": "Etica, Naturaleza y Sociedades",
+          "sourcePages": [
+            132,
+            135
+          ],
+          "sourcePagesLabel": "pp. 132-135",
+          "topicTitle": "Responsabilidad ante problemas y realidades socioambientales de la comunidad",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Responsabilidad ante problemas y realidades socioambientales de la comunidad\" aporta base suficiente para trabajar futuro sostenible dentro del proyecto 11.",
+          "pedagogicalUse": "Ayuda a fortalecer exposiciones alusivas y a explicar la justicia social y ambiental en la construccion de futuros sostenibles con mayor claridad mediante futuro sostenible.",
+          "activityReadiness": "usable-for-autoevaluation"
+        }
+      ],
+      "thinkingCriteria": [
+        "Relacionar la justicia social y ambiental en la construccion de futuros sostenibles con situaciones cercanas a la comunidad.",
+        "Usar exposiciones alusivas para explicar y no solo para recopilar informacion.",
+        "Distinguir entre mencionar conceptos y comprender como dialogan entre si dentro del proyecto."
+      ],
+      "validationStatus": {
+        "readinessLevel": "development-partial",
+        "readyForActivities": false,
+        "needsReviewReasons": [
+          "El bloque 4 ya es usable como lectura docente, pero el video del PPA 4 y el recurso informatico siguen pendientes de validacion de destino final.",
+          "La asignacion de apoyos de Posibilidades se sostiene por inferencia curricular documentada y no por OCR perfectamente separado por columnas.",
+          "No mover a actividades interactivas ni desbloquear juegos completos hasta ampliar validacion de videos y recursos complementarios."
+        ]
+      },
+      "readinessLevel": "development-partial",
+      "readyForActivities": false,
+      "needsReviewReasons": [
+        "No mover a actividades interactivas ni desbloquear juegos completos."
+      ],
+      "roleInPpa": "Profundiza el bloque con preguntas sobre desigualdad y responsabilidad para imaginar futuros mas justos.",
+      "pedagogicalUse": "Conviene trabajar Construir un futuro mas justo como una oportunidad para profundizar en la justicia social y ambiental en la construccion de futuros sostenibles sin separar contenido, comunidad y producto final.",
+      "teacherNotes": [
+        "Conviene partir de ejemplos cercanos y despues pasar al lenguaje mas abstracto del campo.",
+        "El producto Exposiciones alusivas gana fuerza cuando se usa para explicar y no solo para exhibir informacion.",
+        "Es mejor seleccionar pocos conceptos bien comprendidos que saturar el trabajo con terminos aislados."
+      ],
+      "resonancePrompts": [
+        {
+          "type": "individual",
+          "prompt": "¿Que comprendes mejor sobre la justicia social y ambiental en la construccion de futuros sostenibles despues de elaborar exposiciones alusivas?"
+        },
+        {
+          "type": "community",
+          "prompt": "¿Que dialogos comunitarios podrian fortalecerse si compartimos exposiciones alusivas y lo ponemos en conversacion con otras personas?"
+        }
+      ],
+      "notReadyFor": [
+        "full-games",
+        "summative-exam"
+      ]
+    },
+    {
+      "id": "etica-naturaleza-y-sociedades-1-ppa-4-pa12",
+      "projectId": "etica-naturaleza-y-sociedades-1-ppa-4-pa12",
+      "academicProjectNumber": 12,
+      "title": "Hacia un futuro sostenible",
+      "projectTitle": "Hacia un futuro sostenible",
+      "grade": "1",
+      "field": "Etica, Naturaleza y Sociedades",
+      "ppaNumber": "4",
+      "partialClassroomProject": "PPA 4",
+      "partialClassroomProjectTitle": "Un futuro sostenible",
+      "bookVolume": "Tomo I",
+      "sourceValidation": {
+        "sourceStatus": "linked",
+        "possibilitiesPages": [
+          12,
+          13
+        ],
+        "possibilitiesMaterialId": "grade-1-posibilidades-pos-ens-1",
+        "possibilitiesColumnIndex": 3,
+        "columnEvidence": "Bloque PPA 4 Un futuro sostenible localizado en pp. 12-13; la columna 3 se confirma por el orden de proyectos, productos y continuidad del mismo bloque."
+      },
+      "finalProduct": {
+        "title": "Expresiones libres",
+        "source": "Posibilidades de uso ENS pp. 12-13 + Nuestro libro de proyectos Tomo I pp. 254-258",
+        "status": "confirmed"
+      },
+      "sourcePages": {
+        "nuestroLibroProyectos": [
+          {
+            "materialId": "grade-1-proyectos-nuestro-libro-de-proyectos-tomo-i-primer-grado",
+            "label": "Nuestro libro de proyectos Tomo I",
+            "startPage": 254,
+            "endPage": 258,
+            "pagesLabel": "pp. 254-258",
+            "topicTitle": "Proyecto academico 12",
+            "status": "confirmed-source"
+          }
+        ],
+        "conceptBook": [
+          {
+            "materialId": "grade-1-conceptos-etica-naturaleza-y-sociedades-primer-grado",
+            "label": "Etica, Naturaleza y Sociedades",
+            "startPage": 65,
+            "endPage": 70,
+            "pagesLabel": "pp. 65-70",
+            "topicTitle": "Espacio rural y espacio urbano",
+            "status": "confirmed-by-column-inference"
+          },
+          {
+            "materialId": "grade-1-conceptos-etica-naturaleza-y-sociedades-primer-grado",
+            "label": "Etica, Naturaleza y Sociedades",
+            "startPage": 100,
+            "endPage": 110,
+            "pagesLabel": "pp. 100-110",
+            "topicTitle": "Influencia del clima en la conformacion de las regiones naturales y la biodiversidad",
+            "status": "confirmed-by-column-inference"
+          },
+          {
+            "materialId": "grade-1-conceptos-etica-naturaleza-y-sociedades-primer-grado",
+            "label": "Etica, Naturaleza y Sociedades",
+            "startPage": 170,
+            "endPage": 175,
+            "pagesLabel": "pp. 170-175",
+            "topicTitle": "Concepcion de los pueblos indigenas y afromexicanos sobre la relacion ser humano-naturaleza",
+            "status": "confirmed-by-column-inference"
+          }
+        ],
+        "multiplesLenguajes": [],
+        "otherMaterials": [
+          {
+            "label": "Video PPA 4: Un futuro sostenible",
+            "reference": "bit.ly/3VfglUk",
+            "status": "pending-validation"
+          }
+        ]
+      },
+      "supportMaterials": [],
+      "horizonOrPurpose": {
+        "status": "pending",
+        "text": "",
+        "source": "Nuestro libro de proyectos Tomo I p. 254"
+      },
+      "projectExpectationHorizon": {
+        "officialText": "",
+        "studentVersion": "",
+        "sourcePages": [
+          "Nuestro libro de proyectos Tomo I p. 254"
+        ],
+        "evidence": "El proyecto ya cuenta con producto, conceptos y articulacion pedagógica, pero el horizonte textual exacto sigue pendiente de confirmacion literal.",
+        "status": "pending"
+      },
+      "detonatingStrategy": {
+        "status": "pending-url",
+        "text": "Video PPA 4: Un futuro sostenible",
+        "reference": "bit.ly/3VfglUk",
+        "source": "Nuestro libro de proyectos Tomo I pp. 252-253 + Posibilidades de uso ENS pp. 12-13"
+      },
+      "academicProjectStrategy": {
+        "title": "Expresiones libres",
+        "text": "Organizar expresiones libres para profundizar en la sostenibilidad como relacion entre regiones naturales, biodiversidad y cuidado del territorio y compartir hallazgos de manera clara con el grupo.",
+        "type": "project-product",
+        "status": "confirmed-from-project-book",
+        "source": "Nuestro libro de proyectos Tomo I pp. 254-258"
+      },
+      "academicConcepts": [
+        {
+          "concept": "expresiones libres",
+          "description": "Expresiones libres como producto de cierre para organizar y comunicar aprendizajes del proyecto.",
+          "sourceBook": "Nuestro libro de proyectos Tomo I",
+          "sourcePages": [
+            254,
+            258
+          ],
+          "sourcePagesLabel": "pp. 254-258",
+          "topicTitle": "Proyecto academico 12",
+          "status": "confirmed",
+          "reason": "Posibilidades y el propio proyecto fijan Expresiones libres como producto final del PA 12.",
+          "pedagogicalUse": "Da una forma concreta de socializar lo comprendido sobre la sostenibilidad como relacion entre regiones naturales, biodiversidad y cuidado del territorio.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "espacio rural",
+          "description": "Espacio rural es una idea clave para comprender la sostenibilidad como relacion entre regiones naturales, biodiversidad y cuidado del territorio.",
+          "sourceBook": "Etica, Naturaleza y Sociedades",
+          "sourcePages": [
+            65,
+            70
+          ],
+          "sourcePagesLabel": "pp. 65-70",
+          "topicTitle": "Espacio rural y espacio urbano",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Espacio rural y espacio urbano\" aporta base suficiente para trabajar espacio rural dentro del proyecto 12.",
+          "pedagogicalUse": "Ayuda a fortalecer expresiones libres y a explicar la sostenibilidad como relacion entre regiones naturales, biodiversidad y cuidado del territorio con mayor claridad mediante espacio rural.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "espacio urbano",
+          "description": "Espacio urbano es una idea clave para comprender la sostenibilidad como relacion entre regiones naturales, biodiversidad y cuidado del territorio.",
+          "sourceBook": "Etica, Naturaleza y Sociedades",
+          "sourcePages": [
+            65,
+            70
+          ],
+          "sourcePagesLabel": "pp. 65-70",
+          "topicTitle": "Espacio rural y espacio urbano",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Espacio rural y espacio urbano\" aporta base suficiente para trabajar espacio urbano dentro del proyecto 12.",
+          "pedagogicalUse": "Ayuda a fortalecer expresiones libres y a explicar la sostenibilidad como relacion entre regiones naturales, biodiversidad y cuidado del territorio con mayor claridad mediante espacio urbano.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "regiones naturales",
+          "description": "Regiones naturales es una idea clave para comprender la sostenibilidad como relacion entre regiones naturales, biodiversidad y cuidado del territorio.",
+          "sourceBook": "Etica, Naturaleza y Sociedades",
+          "sourcePages": [
+            100,
+            110
+          ],
+          "sourcePagesLabel": "pp. 100-110",
+          "topicTitle": "Influencia del clima en la conformacion de las regiones naturales y la biodiversidad",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Influencia del clima en la conformacion de las regiones naturales y la biodiversidad\" aporta base suficiente para trabajar regiones naturales dentro del proyecto 12.",
+          "pedagogicalUse": "Ayuda a fortalecer expresiones libres y a explicar la sostenibilidad como relacion entre regiones naturales, biodiversidad y cuidado del territorio con mayor claridad mediante regiones naturales.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "biodiversidad",
+          "description": "Biodiversidad es una idea clave para comprender la sostenibilidad como relacion entre regiones naturales, biodiversidad y cuidado del territorio.",
+          "sourceBook": "Etica, Naturaleza y Sociedades",
+          "sourcePages": [
+            100,
+            110
+          ],
+          "sourcePagesLabel": "pp. 100-110",
+          "topicTitle": "Influencia del clima en la conformacion de las regiones naturales y la biodiversidad",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Influencia del clima en la conformacion de las regiones naturales y la biodiversidad\" aporta base suficiente para trabajar biodiversidad dentro del proyecto 12.",
+          "pedagogicalUse": "Ayuda a fortalecer expresiones libres y a explicar la sostenibilidad como relacion entre regiones naturales, biodiversidad y cuidado del territorio con mayor claridad mediante biodiversidad.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "cuidado del territorio",
+          "description": "Cuidado del territorio es una idea clave para comprender la sostenibilidad como relacion entre regiones naturales, biodiversidad y cuidado del territorio.",
+          "sourceBook": "Etica, Naturaleza y Sociedades",
+          "sourcePages": [
+            170,
+            175
+          ],
+          "sourcePagesLabel": "pp. 170-175",
+          "topicTitle": "Concepcion de los pueblos indigenas y afromexicanos sobre la relacion ser humano-naturaleza",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Concepcion de los pueblos indigenas y afromexicanos sobre la relacion ser humano-naturaleza\" aporta base suficiente para trabajar cuidado del territorio dentro del proyecto 12.",
+          "pedagogicalUse": "Ayuda a fortalecer expresiones libres y a explicar la sostenibilidad como relacion entre regiones naturales, biodiversidad y cuidado del territorio con mayor claridad mediante cuidado del territorio.",
+          "activityReadiness": "usable-for-autoevaluation"
+        }
+      ],
+      "thinkingCriteria": [
+        "Relacionar la sostenibilidad como relacion entre regiones naturales, biodiversidad y cuidado del territorio con situaciones cercanas a la comunidad.",
+        "Usar expresiones libres para explicar y no solo para recopilar informacion.",
+        "Distinguir entre mencionar conceptos y comprender como dialogan entre si dentro del proyecto."
+      ],
+      "validationStatus": {
+        "readinessLevel": "development-partial",
+        "readyForActivities": false,
+        "needsReviewReasons": [
+          "El bloque 4 ya es usable como lectura docente, pero el video del PPA 4 y el recurso informatico siguen pendientes de validacion de destino final.",
+          "La asignacion de apoyos de Posibilidades se sostiene por inferencia curricular documentada y no por OCR perfectamente separado por columnas.",
+          "No mover a actividades interactivas ni desbloquear juegos completos hasta ampliar validacion de videos y recursos complementarios."
+        ]
+      },
+      "readinessLevel": "development-partial",
+      "readyForActivities": false,
+      "needsReviewReasons": [
+        "No mover a actividades interactivas ni desbloquear juegos completos."
+      ],
+      "roleInPpa": "Cierra el bloque poniendo en relacion regiones naturales, biodiversidad y decisiones comunitarias de cuidado.",
+      "pedagogicalUse": "Conviene trabajar Hacia un futuro sostenible como una oportunidad para profundizar en la sostenibilidad como relacion entre regiones naturales, biodiversidad y cuidado del territorio sin separar contenido, comunidad y producto final.",
+      "teacherNotes": [
+        "Conviene partir de ejemplos cercanos y despues pasar al lenguaje mas abstracto del campo.",
+        "El producto Expresiones libres gana fuerza cuando se usa para explicar y no solo para exhibir informacion.",
+        "Es mejor seleccionar pocos conceptos bien comprendidos que saturar el trabajo con terminos aislados."
+      ],
+      "resonancePrompts": [
+        {
+          "type": "individual",
+          "prompt": "¿Que comprendes mejor sobre la sostenibilidad como relacion entre regiones naturales, biodiversidad y cuidado del territorio despues de elaborar expresiones libres?"
+        },
+        {
+          "type": "community",
+          "prompt": "¿Que dialogos comunitarios podrian fortalecerse si compartimos expresiones libres y lo ponemos en conversacion con otras personas?"
+        }
+      ],
+      "notReadyFor": [
+        "full-games",
+        "summative-exam"
+      ]
+    }
+  ]
+}

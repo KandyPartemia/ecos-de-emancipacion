@@ -1,0 +1,718 @@
+{
+  "grade": "2",
+  "gradeLabel": "Segundo grado",
+  "field": "Saberes y Pensamiento Científico",
+  "bookVolume": "Tomo III",
+  "partialClassroomProject": "PPA 15",
+  "partialClassroomProjectTitle": "Materiales en acción: exploración en la comunidad",
+  "generatedAt": "2026-06-02T18:43:23.542Z",
+  "notes": "Capa curricular generada por lote para 2o Saberes y Pensamiento Científico, PPA 15.",
+  "sourcesUsed": [
+    "public/caracoles/data/generated/grade-2/selectable-projects.json",
+    "content/caracoles/generated-private/grade-2/pages-index.full.json",
+    "Posibilidades de uso SyPC, segundo grado, p. 35",
+    "Nuestro libro de proyectos Tomo III, segundo grado, pp. 147-160",
+    "Saberes y Pensamiento Científico, segundo grado, pp. 198-203, 239-244 y 269-277."
+  ],
+  "partialClassroomProjectContext": {
+    "expectationHorizon": {
+      "officialText": "",
+      "sourcePages": [
+        "Nuestro libro de proyectos Tomo III pp. 147-148",
+        "Posibilidades de uso SyPC p. 35"
+      ],
+      "evidence": "El PPA 15 articula exploración comunitaria, estructura de la materia e historia de la ciencia para comprender cómo se explican los materiales y sus propiedades.",
+      "status": "pending"
+    },
+    "ppaDetonatingStrategy": {
+      "title": "Materiales en acción: exploración en la comunidad",
+      "type": "video",
+      "url": "",
+      "urlStatus": "pending-url",
+      "reference": "bit.ly/3VfglUk",
+      "source": "Nuestro libro de proyectos Tomo III pp. 147-148 + Posibilidades de uso SyPC p. 35",
+      "scope": "partial-classroom-project",
+      "youtubeSearchQuery": "Materiales en acción: exploración en la comunidad Saberes y Pensamiento Científico 2do grado Telesecundaria"
+    },
+    "ppaDigitalResource": {
+      "title": "Recurso informatico del bloque PPA 15",
+      "reference": "bit.ly/3WQBMwg",
+      "status": "pending-validation",
+      "source": "Nuestro libro de proyectos Tomo III pp. 147-160"
+    },
+    "validationStatus": {
+      "needsHumanReview": true,
+      "needsReviewReasons": [
+        "Las p. 35 de Posibilidades pertenecen al mismo PPA 15.",
+        "La asignacion de apoyos por columna se fija por inferencia curricular documentada de izquierda a derecha.",
+        "Los enlaces cortos del video del PPA y del recurso informatico se mantienen en cautela hasta localizar un destino oficial confirmado."
+      ]
+    },
+    "columnValidation": {
+      "possibilitiesPagesReviewed": [
+        35
+      ],
+      "confirmedAsPpa": true,
+      "note": "Las p. 35 corresponden al PPA 15 Materiales en acción: exploración en la comunidad. Las tres columnas se sostienen por el orden de proyectos, productos y apoyos del mismo bloque.",
+      "columns": [
+        {
+          "columnIndex": 1,
+          "projectId": "saberes-y-pensamiento-cientifico-2-ppa-15-pa43",
+          "projectTitle": "Exploración de los materiales de nuestra comunidad",
+          "finalProduct": "Miniperiódico",
+          "supportMaterials": []
+        },
+        {
+          "columnIndex": 2,
+          "projectId": "saberes-y-pensamiento-cientifico-2-ppa-15-pa44",
+          "projectTitle": "Del experimento a la teoría: análisis de los modelos atómicos",
+          "finalProduct": "Cuentacuentos de la ciencia",
+          "supportMaterials": []
+        },
+        {
+          "columnIndex": 3,
+          "projectId": "saberes-y-pensamiento-cientifico-2-ppa-15-pa45",
+          "projectTitle": "Tras los pasos de la ciencia",
+          "finalProduct": "Noticiero teatralizado",
+          "supportMaterials": []
+        }
+      ]
+    }
+  },
+  "academicProjects": [
+    {
+      "id": "saberes-y-pensamiento-cientifico-2-ppa-15-pa43",
+      "projectId": "saberes-y-pensamiento-cientifico-2-ppa-15-pa43",
+      "academicProjectNumber": 43,
+      "title": "Exploración de los materiales de nuestra comunidad",
+      "projectTitle": "Exploración de los materiales de nuestra comunidad",
+      "grade": "2",
+      "field": "Saberes y Pensamiento Científico",
+      "ppaNumber": "15",
+      "partialClassroomProject": "PPA 15",
+      "partialClassroomProjectTitle": "Materiales en acción: exploración en la comunidad",
+      "bookVolume": "Tomo III",
+      "sourceValidation": {
+        "sourceStatus": "linked",
+        "possibilitiesPages": [
+          35
+        ],
+        "possibilitiesMaterialId": "grade-2-posibilidades-pos-sypc-2",
+        "possibilitiesColumnIndex": 1,
+        "columnEvidence": "Bloque PPA 15 Materiales en acción: exploración en la comunidad localizado en p. 35; la columna 1 se confirma por el orden de proyectos, productos y continuidad del mismo bloque."
+      },
+      "finalProduct": {
+        "title": "Miniperiódico",
+        "source": "Posibilidades de uso SyPC p. 35 + Nuestro libro de proyectos Tomo III pp. 149-152",
+        "status": "confirmed"
+      },
+      "sourcePages": {
+        "nuestroLibroProyectos": [
+          {
+            "materialId": "grade-2-proyectos-nuestro-libro-de-proyectos-tomo-3-segundo-grado",
+            "label": "Nuestro libro de proyectos Tomo III",
+            "startPage": 149,
+            "endPage": 152,
+            "pagesLabel": "pp. 149-152",
+            "topicTitle": "Proyecto academico 43",
+            "status": "confirmed-source"
+          }
+        ],
+        "conceptBook": [
+          {
+            "materialId": "grade-2-conceptos-saberes-y-pensamiento-cientifico-segundo-grado",
+            "label": "Saberes y Pensamiento Científico",
+            "startPage": 239,
+            "endPage": 244,
+            "pagesLabel": "pp. 239-244",
+            "topicTitle": "Materiales para mejorar la calidad de vida",
+            "status": "confirmed-by-column-inference"
+          }
+        ],
+        "multiplesLenguajes": [],
+        "otherMaterials": [
+          {
+            "label": "Video PPA 15: Materiales en acción: exploración en la comunidad",
+            "reference": "bit.ly/3VfglUk",
+            "status": "pending-validation"
+          }
+        ]
+      },
+      "supportMaterials": [],
+      "horizonOrPurpose": {
+        "status": "official",
+        "text": "Compartir los saberes y prácticas de uso de distintos materiales en su comunidad mediante un miniperiódico, con previa indagación, para determinar las características de cada uno de ellos según su empleo: construcción, vestimenta o artefactos de uso común.",
+        "source": "Nuestro libro de proyectos Tomo III p. 149"
+      },
+      "projectExpectationHorizon": {
+        "officialText": "Indagar sobre los materiales que se utilizan en actividades cotidianas en forma de herramientas u otro tipo de objetos, para registrar esa información en formato de miniperiódico.",
+        "studentVersion": "Explorar materiales del entorno y compartir sus usos y propiedades en un miniperiódico.",
+        "sourcePages": [
+          "Nuestro libro de proyectos Tomo III p. 150"
+        ],
+        "evidence": "La etapa 1 y el objetivo 1 fijan el miniperiódico como producto para comunicar usos y propiedades de materiales de la comunidad.",
+        "status": "official"
+      },
+      "detonatingStrategy": {
+        "status": "pending-url",
+        "text": "Video PPA 15: Materiales en acción: exploración en la comunidad",
+        "reference": "bit.ly/3VfglUk",
+        "source": "Nuestro libro de proyectos Tomo III pp. 147-148 + Posibilidades de uso SyPC p. 35"
+      },
+      "academicProjectStrategy": {
+        "title": "Miniperiódico",
+        "text": "Elaborar un miniperiódico que reúna saberes comunitarios sobre materiales, propiedades y usos cotidianos.",
+        "type": "project-product",
+        "status": "confirmed-from-project-book",
+        "source": "Nuestro libro de proyectos Tomo III pp. 149-152"
+      },
+      "academicConcepts": [
+        {
+          "concept": "miniperiódico",
+          "description": "Miniperiódico como producto de cierre para organizar y comunicar aprendizajes del proyecto.",
+          "sourceBook": "Nuestro libro de proyectos Tomo III",
+          "sourcePages": [
+            149,
+            152
+          ],
+          "sourcePagesLabel": "pp. 149-152",
+          "topicTitle": "Proyecto academico 43",
+          "status": "confirmed",
+          "reason": "Posibilidades y el propio proyecto fijan Miniperiódico como producto final del PA 43.",
+          "pedagogicalUse": "Da una forma concreta de socializar lo comprendido sobre los saberes y prácticas de uso de materiales en la comunidad y sus propiedades según construcción, vestimenta o artefactos de uso común.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "materiales",
+          "description": "Materiales es una idea clave para comprender los saberes y prácticas de uso de materiales en la comunidad y sus propiedades según construcción, vestimenta o artefactos de uso común.",
+          "sourceBook": "Saberes y Pensamiento Científico",
+          "sourcePages": [
+            239,
+            244
+          ],
+          "sourcePagesLabel": "pp. 239-244",
+          "topicTitle": "Materiales para mejorar la calidad de vida",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Materiales para mejorar la calidad de vida\" aporta base suficiente para trabajar materiales dentro del proyecto 43.",
+          "pedagogicalUse": "Ayuda a fortalecer miniperiódico y a explicar los saberes y prácticas de uso de materiales en la comunidad y sus propiedades según construcción, vestimenta o artefactos de uso común con mayor claridad mediante materiales.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "propiedades físicas",
+          "description": "Propiedades físicas es una idea clave para comprender los saberes y prácticas de uso de materiales en la comunidad y sus propiedades según construcción, vestimenta o artefactos de uso común.",
+          "sourceBook": "Saberes y Pensamiento Científico",
+          "sourcePages": [
+            239,
+            244
+          ],
+          "sourcePagesLabel": "pp. 239-244",
+          "topicTitle": "Materiales para mejorar la calidad de vida",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Materiales para mejorar la calidad de vida\" aporta base suficiente para trabajar propiedades físicas dentro del proyecto 43.",
+          "pedagogicalUse": "Ayuda a fortalecer miniperiódico y a explicar los saberes y prácticas de uso de materiales en la comunidad y sus propiedades según construcción, vestimenta o artefactos de uso común con mayor claridad mediante propiedades físicas.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "usos comunes",
+          "description": "Usos comunes es una idea clave para comprender los saberes y prácticas de uso de materiales en la comunidad y sus propiedades según construcción, vestimenta o artefactos de uso común.",
+          "sourceBook": "Saberes y Pensamiento Científico",
+          "sourcePages": [
+            239,
+            244
+          ],
+          "sourcePagesLabel": "pp. 239-244",
+          "topicTitle": "Materiales para mejorar la calidad de vida",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Materiales para mejorar la calidad de vida\" aporta base suficiente para trabajar usos comunes dentro del proyecto 43.",
+          "pedagogicalUse": "Ayuda a fortalecer miniperiódico y a explicar los saberes y prácticas de uso de materiales en la comunidad y sus propiedades según construcción, vestimenta o artefactos de uso común con mayor claridad mediante usos comunes.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "comunidad",
+          "description": "Comunidad es una idea clave para comprender los saberes y prácticas de uso de materiales en la comunidad y sus propiedades según construcción, vestimenta o artefactos de uso común.",
+          "sourceBook": "Nuestro libro de proyectos Tomo III",
+          "sourcePages": [
+            149,
+            150,
+            151
+          ],
+          "sourcePagesLabel": "pp. 149-151",
+          "topicTitle": "Proyecto académico 43",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Proyecto académico 43\" aporta base suficiente para trabajar comunidad dentro del proyecto 43.",
+          "pedagogicalUse": "Ayuda a fortalecer miniperiódico y a explicar los saberes y prácticas de uso de materiales en la comunidad y sus propiedades según construcción, vestimenta o artefactos de uso común con mayor claridad mediante comunidad.",
+          "activityReadiness": "usable-for-autoevaluation"
+        }
+      ],
+      "thinkingCriteria": [
+        "Relacionar los saberes y prácticas de uso de materiales en la comunidad y sus propiedades según construcción, vestimenta o artefactos de uso común con situaciones cercanas a la comunidad.",
+        "Usar miniperiódico para explicar y no solo para recopilar informacion.",
+        "Distinguir entre mencionar conceptos y comprender como dialogan entre si dentro del proyecto."
+      ],
+      "validationStatus": {
+        "readinessLevel": "development-partial",
+        "readyForActivities": false,
+        "needsReviewReasons": [
+          "El bloque 15 ya es usable como lectura docente, pero el video del PPA 15 y el recurso informatico siguen pendientes de validacion de destino final.",
+          "La asignacion de apoyos de Posibilidades se sostiene por inferencia curricular documentada y no por OCR perfectamente separado por columnas.",
+          "No mover a actividades interactivas ni desbloquear juegos completos hasta ampliar validacion de videos y recursos complementarios."
+        ]
+      },
+      "readinessLevel": "development-partial",
+      "readyForActivities": false,
+      "needsReviewReasons": [
+        "No mover a actividades interactivas ni desbloquear juegos completos."
+      ],
+      "roleInPpa": "Abre el bloque al partir de materiales concretos del entorno para reconocer propiedades y usos con mirada comunitaria.",
+      "pedagogicalUse": "Conviene trabajar Exploración de los materiales de nuestra comunidad como una oportunidad para profundizar en los saberes y prácticas de uso de materiales en la comunidad y sus propiedades según construcción, vestimenta o artefactos de uso común sin separar contenido, comunidad y producto final.",
+      "teacherNotes": [
+        "Conviene partir de ejemplos cercanos y después pasar al lenguaje mas abstracto del campo.",
+        "El producto Miniperiódico gana fuerza cuando se usa para explicar y no solo para exhibir informacion.",
+        "Es mejor seleccionar pocos conceptos bien comprendidos que saturar el trabajo con terminos aislados."
+      ],
+      "resonancePrompts": [
+        {
+          "type": "individual",
+          "prompt": "¿Qué comprendes mejor sobre los saberes y prácticas de uso de materiales en la comunidad y sus propiedades según construcción, vestimenta o artefactos de uso común después de elaborar miniperiódico?"
+        },
+        {
+          "type": "community",
+          "prompt": "¿Qué saberes locales sobre materiales conviene recuperar antes de que se pierdan o se vuelvan invisibles?"
+        }
+      ],
+      "notReadyFor": [
+        "full-games",
+        "summative-exam"
+      ]
+    },
+    {
+      "id": "saberes-y-pensamiento-cientifico-2-ppa-15-pa44",
+      "projectId": "saberes-y-pensamiento-cientifico-2-ppa-15-pa44",
+      "academicProjectNumber": 44,
+      "title": "Del experimento a la teoría: análisis de los modelos atómicos",
+      "projectTitle": "Del experimento a la teoría: análisis de los modelos atómicos",
+      "grade": "2",
+      "field": "Saberes y Pensamiento Científico",
+      "ppaNumber": "15",
+      "partialClassroomProject": "PPA 15",
+      "partialClassroomProjectTitle": "Materiales en acción: exploración en la comunidad",
+      "bookVolume": "Tomo III",
+      "sourceValidation": {
+        "sourceStatus": "linked",
+        "possibilitiesPages": [
+          35
+        ],
+        "possibilitiesMaterialId": "grade-2-posibilidades-pos-sypc-2",
+        "possibilitiesColumnIndex": 2,
+        "columnEvidence": "Bloque PPA 15 Materiales en acción: exploración en la comunidad localizado en p. 35; la columna 2 se confirma por el orden de proyectos, productos y continuidad del mismo bloque."
+      },
+      "finalProduct": {
+        "title": "Cuentacuentos de la ciencia",
+        "source": "Posibilidades de uso SyPC p. 35 + Nuestro libro de proyectos Tomo III pp. 153-156",
+        "status": "confirmed"
+      },
+      "sourcePages": {
+        "nuestroLibroProyectos": [
+          {
+            "materialId": "grade-2-proyectos-nuestro-libro-de-proyectos-tomo-3-segundo-grado",
+            "label": "Nuestro libro de proyectos Tomo III",
+            "startPage": 153,
+            "endPage": 156,
+            "pagesLabel": "pp. 153-156",
+            "topicTitle": "Proyecto academico 44",
+            "status": "confirmed-source"
+          }
+        ],
+        "conceptBook": [
+          {
+            "materialId": "grade-2-conceptos-saberes-y-pensamiento-cientifico-segundo-grado",
+            "label": "Saberes y Pensamiento Científico",
+            "startPage": 198,
+            "endPage": 203,
+            "pagesLabel": "pp. 198-203",
+            "topicTitle": "Estructura de la materia",
+            "status": "confirmed-by-column-inference"
+          },
+          {
+            "materialId": "grade-2-conceptos-saberes-y-pensamiento-cientifico-segundo-grado",
+            "label": "Saberes y Pensamiento Científico",
+            "startPage": 269,
+            "endPage": 275,
+            "pagesLabel": "pp. 269-275",
+            "topicTitle": "La conformación de la materia",
+            "status": "confirmed-by-column-inference"
+          }
+        ],
+        "multiplesLenguajes": [],
+        "otherMaterials": [
+          {
+            "label": "Video PPA 15: Materiales en acción: exploración en la comunidad",
+            "reference": "bit.ly/3VfglUk",
+            "status": "pending-validation"
+          }
+        ]
+      },
+      "supportMaterials": [],
+      "horizonOrPurpose": {
+        "status": "official",
+        "text": "Comprender los modelos atómicos mediante la indagación de los fenómenos o experimentos que les dieron origen, por medio de un cuentacuentos de la ciencia para explicar diferentes características de la materia.",
+        "source": "Nuestro libro de proyectos Tomo III p. 153"
+      },
+      "projectExpectationHorizon": {
+        "officialText": "Investigar en fuentes confiables teorías sobre la estructura de la materia y diseñar un guion de cuentacuentos con dicha información.",
+        "studentVersion": "Construir un cuentacuentos de la ciencia que relate cómo surgieron los modelos atómicos y qué explican sobre la materia.",
+        "sourcePages": [
+          "Nuestro libro de proyectos Tomo III p. 154"
+        ],
+        "evidence": "La etapa 1 y el objetivo 1 fijan el cuentacuentos de la ciencia como producto para explicar modelos atómicos y estructura de la materia.",
+        "status": "official"
+      },
+      "detonatingStrategy": {
+        "status": "pending-url",
+        "text": "Video PPA 15: Materiales en acción: exploración en la comunidad",
+        "reference": "bit.ly/3VfglUk",
+        "source": "Nuestro libro de proyectos Tomo III pp. 151-152 + Posibilidades de uso SyPC p. 35"
+      },
+      "academicProjectStrategy": {
+        "title": "Cuentacuentos de la ciencia",
+        "text": "Diseñar un cuentacuentos de la ciencia que recupere experimentos, teorías y modelos atómicos para explicar la materia.",
+        "type": "project-product",
+        "status": "confirmed-from-project-book",
+        "source": "Nuestro libro de proyectos Tomo III pp. 153-156"
+      },
+      "academicConcepts": [
+        {
+          "concept": "cuentacuentos de la ciencia",
+          "description": "Cuentacuentos de la ciencia como producto de cierre para organizar y comunicar aprendizajes del proyecto.",
+          "sourceBook": "Nuestro libro de proyectos Tomo III",
+          "sourcePages": [
+            153,
+            156
+          ],
+          "sourcePagesLabel": "pp. 153-156",
+          "topicTitle": "Proyecto academico 44",
+          "status": "confirmed",
+          "reason": "Posibilidades y el propio proyecto fijan Cuentacuentos de la ciencia como producto final del PA 44.",
+          "pedagogicalUse": "Da una forma concreta de socializar lo comprendido sobre los modelos atómicos, los fenómenos y experimentos que les dieron origen, y su relación con las características de la materia.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "modelos atómicos",
+          "description": "Modelos atómicos es una idea clave para comprender los modelos atómicos, los fenómenos y experimentos que les dieron origen, y su relación con las características de la materia.",
+          "sourceBook": "Saberes y Pensamiento Científico",
+          "sourcePages": [
+            269,
+            275
+          ],
+          "sourcePagesLabel": "pp. 269-275",
+          "topicTitle": "La conformación de la materia",
+          "status": "confirmed",
+          "reason": "La fuente validada \"La conformación de la materia\" aporta base suficiente para trabajar modelos atómicos dentro del proyecto 44.",
+          "pedagogicalUse": "Ayuda a fortalecer cuentacuentos de la ciencia y a explicar los modelos atómicos, los fenómenos y experimentos que les dieron origen, y su relación con las características de la materia con mayor claridad mediante modelos atómicos.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "estructura de la materia",
+          "description": "Estructura de la materia es una idea clave para comprender los modelos atómicos, los fenómenos y experimentos que les dieron origen, y su relación con las características de la materia.",
+          "sourceBook": "Saberes y Pensamiento Científico",
+          "sourcePages": [
+            198,
+            203
+          ],
+          "sourcePagesLabel": "pp. 198-203",
+          "topicTitle": "Estructura de la materia",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Estructura de la materia\" aporta base suficiente para trabajar estructura de la materia dentro del proyecto 44.",
+          "pedagogicalUse": "Ayuda a fortalecer cuentacuentos de la ciencia y a explicar los modelos atómicos, los fenómenos y experimentos que les dieron origen, y su relación con las características de la materia con mayor claridad mediante estructura de la materia.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "experimentos científicos",
+          "description": "Experimentos científicos es una idea clave para comprender los modelos atómicos, los fenómenos y experimentos que les dieron origen, y su relación con las características de la materia.",
+          "sourceBook": "Nuestro libro de proyectos Tomo III",
+          "sourcePages": [
+            153,
+            154,
+            155
+          ],
+          "sourcePagesLabel": "pp. 153-155",
+          "topicTitle": "Proyecto académico 44",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Proyecto académico 44\" aporta base suficiente para trabajar experimentos científicos dentro del proyecto 44.",
+          "pedagogicalUse": "Ayuda a fortalecer cuentacuentos de la ciencia y a explicar los modelos atómicos, los fenómenos y experimentos que les dieron origen, y su relación con las características de la materia con mayor claridad mediante experimentos científicos.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "materia",
+          "description": "Materia es una idea clave para comprender los modelos atómicos, los fenómenos y experimentos que les dieron origen, y su relación con las características de la materia.",
+          "sourceBook": "Saberes y Pensamiento Científico",
+          "sourcePages": [
+            269,
+            275
+          ],
+          "sourcePagesLabel": "pp. 269-275",
+          "topicTitle": "La conformación de la materia",
+          "status": "confirmed",
+          "reason": "La fuente validada \"La conformación de la materia\" aporta base suficiente para trabajar materia dentro del proyecto 44.",
+          "pedagogicalUse": "Ayuda a fortalecer cuentacuentos de la ciencia y a explicar los modelos atómicos, los fenómenos y experimentos que les dieron origen, y su relación con las características de la materia con mayor claridad mediante materia.",
+          "activityReadiness": "usable-for-autoevaluation"
+        }
+      ],
+      "thinkingCriteria": [
+        "Relacionar los modelos atómicos, los fenómenos y experimentos que les dieron origen, y su relación con las características de la materia con situaciones cercanas a la comunidad.",
+        "Usar cuentacuentos de la ciencia para explicar y no solo para recopilar informacion.",
+        "Distinguir entre mencionar conceptos y comprender como dialogan entre si dentro del proyecto."
+      ],
+      "validationStatus": {
+        "readinessLevel": "development-partial",
+        "readyForActivities": false,
+        "needsReviewReasons": [
+          "El bloque 15 ya es usable como lectura docente, pero el video del PPA 15 y el recurso informatico siguen pendientes de validacion de destino final.",
+          "La asignacion de apoyos de Posibilidades se sostiene por inferencia curricular documentada y no por OCR perfectamente separado por columnas.",
+          "No mover a actividades interactivas ni desbloquear juegos completos hasta ampliar validacion de videos y recursos complementarios."
+        ]
+      },
+      "readinessLevel": "development-partial",
+      "readyForActivities": false,
+      "needsReviewReasons": [
+        "No mover a actividades interactivas ni desbloquear juegos completos."
+      ],
+      "roleInPpa": "Profundiza el bloque al explicar la materia desde la historia de sus modelos y experimentos fundacionales.",
+      "pedagogicalUse": "Conviene trabajar Del experimento a la teoría: análisis de los modelos atómicos como una oportunidad para profundizar en los modelos atómicos, los fenómenos y experimentos que les dieron origen, y su relación con las características de la materia sin separar contenido, comunidad y producto final.",
+      "teacherNotes": [
+        "Conviene partir de ejemplos cercanos y después pasar al lenguaje mas abstracto del campo.",
+        "El producto Cuentacuentos de la ciencia gana fuerza cuando se usa para explicar y no solo para exhibir informacion.",
+        "Es mejor seleccionar pocos conceptos bien comprendidos que saturar el trabajo con terminos aislados."
+      ],
+      "resonancePrompts": [
+        {
+          "type": "individual",
+          "prompt": "¿Qué comprendes mejor sobre los modelos atómicos, los fenómenos y experimentos que les dieron origen, y su relación con las características de la materia después de elaborar cuentacuentos de la ciencia?"
+        },
+        {
+          "type": "community",
+          "prompt": "¿Cómo cambia la comprensión de la materia cuando contamos la historia de los experimentos que dieron origen a los modelos atómicos?"
+        }
+      ],
+      "notReadyFor": [
+        "full-games",
+        "summative-exam"
+      ]
+    },
+    {
+      "id": "saberes-y-pensamiento-cientifico-2-ppa-15-pa45",
+      "projectId": "saberes-y-pensamiento-cientifico-2-ppa-15-pa45",
+      "academicProjectNumber": 45,
+      "title": "Tras los pasos de la ciencia",
+      "projectTitle": "Tras los pasos de la ciencia",
+      "grade": "2",
+      "field": "Saberes y Pensamiento Científico",
+      "ppaNumber": "15",
+      "partialClassroomProject": "PPA 15",
+      "partialClassroomProjectTitle": "Materiales en acción: exploración en la comunidad",
+      "bookVolume": "Tomo III",
+      "sourceValidation": {
+        "sourceStatus": "linked",
+        "possibilitiesPages": [
+          35
+        ],
+        "possibilitiesMaterialId": "grade-2-posibilidades-pos-sypc-2",
+        "possibilitiesColumnIndex": 3,
+        "columnEvidence": "Bloque PPA 15 Materiales en acción: exploración en la comunidad localizado en p. 35; la columna 3 se confirma por el orden de proyectos, productos y continuidad del mismo bloque."
+      },
+      "finalProduct": {
+        "title": "Noticiero teatralizado",
+        "source": "Posibilidades de uso SyPC p. 35 + Nuestro libro de proyectos Tomo III pp. 157-160",
+        "status": "confirmed"
+      },
+      "sourcePages": {
+        "nuestroLibroProyectos": [
+          {
+            "materialId": "grade-2-proyectos-nuestro-libro-de-proyectos-tomo-3-segundo-grado",
+            "label": "Nuestro libro de proyectos Tomo III",
+            "startPage": 157,
+            "endPage": 160,
+            "pagesLabel": "pp. 157-160",
+            "topicTitle": "Proyecto academico 45",
+            "status": "confirmed-source"
+          }
+        ],
+        "conceptBook": [
+          {
+            "materialId": "grade-2-conceptos-saberes-y-pensamiento-cientifico-segundo-grado",
+            "label": "Saberes y Pensamiento Científico",
+            "startPage": 198,
+            "endPage": 203,
+            "pagesLabel": "pp. 198-203",
+            "topicTitle": "Estructura de la materia",
+            "status": "confirmed-by-column-inference"
+          },
+          {
+            "materialId": "grade-2-conceptos-saberes-y-pensamiento-cientifico-segundo-grado",
+            "label": "Saberes y Pensamiento Científico",
+            "startPage": 269,
+            "endPage": 277,
+            "pagesLabel": "pp. 269-277",
+            "topicTitle": "La conformación de la materia",
+            "status": "confirmed-by-column-inference"
+          }
+        ],
+        "multiplesLenguajes": [],
+        "otherMaterials": [
+          {
+            "label": "Video PPA 15: Materiales en acción: exploración en la comunidad",
+            "reference": "bit.ly/3VfglUk",
+            "status": "pending-validation"
+          }
+        ]
+      },
+      "supportMaterials": [],
+      "horizonOrPurpose": {
+        "status": "official",
+        "text": "Reconocer el proceso histórico de la construcción de las teorías atómicas hasta llegar a los avances más recientes en la comprensión de la construcción de la materia, por medio de un noticiero teatralizado.",
+        "source": "Nuestro libro de proyectos Tomo III p. 157"
+      },
+      "projectExpectationHorizon": {
+        "officialText": "Indagar sobre las características y los requerimientos de una presentación teatral para después plasmar la información relacionada con el proceso histórico de la construcción de las teorías atómicas en un noticiero teatralizado.",
+        "studentVersion": "Representar en un noticiero teatralizado cómo se fueron construyendo las teorías atómicas y qué aportó cada una.",
+        "sourcePages": [
+          "Nuestro libro de proyectos Tomo III p. 158"
+        ],
+        "evidence": "La etapa 1 y el objetivo 2 fijan el noticiero teatralizado como producto para comunicar el proceso histórico de las teorías atómicas.",
+        "status": "official"
+      },
+      "detonatingStrategy": {
+        "status": "pending-url",
+        "text": "Video PPA 15: Materiales en acción: exploración en la comunidad",
+        "reference": "bit.ly/3VfglUk",
+        "source": "Nuestro libro de proyectos Tomo III pp. 155-156 + Posibilidades de uso SyPC p. 35"
+      },
+      "academicProjectStrategy": {
+        "title": "Noticiero teatralizado",
+        "text": "Preparar un noticiero teatralizado que relate hitos, experimentos y avances de la historia de las teorías atómicas.",
+        "type": "project-product",
+        "status": "confirmed-from-project-book",
+        "source": "Nuestro libro de proyectos Tomo III pp. 157-160"
+      },
+      "academicConcepts": [
+        {
+          "concept": "noticiero teatralizado",
+          "description": "Noticiero teatralizado como producto de cierre para organizar y comunicar aprendizajes del proyecto.",
+          "sourceBook": "Nuestro libro de proyectos Tomo III",
+          "sourcePages": [
+            157,
+            160
+          ],
+          "sourcePagesLabel": "pp. 157-160",
+          "topicTitle": "Proyecto academico 45",
+          "status": "confirmed",
+          "reason": "Posibilidades y el propio proyecto fijan Noticiero teatralizado como producto final del PA 45.",
+          "pedagogicalUse": "Da una forma concreta de socializar lo comprendido sobre el proceso histórico de construcción de las teorías atómicas y los avances recientes en la comprensión de la constitución de la materia.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "teorías atómicas",
+          "description": "Teorías atómicas es una idea clave para comprender el proceso histórico de construcción de las teorías atómicas y los avances recientes en la comprensión de la constitución de la materia.",
+          "sourceBook": "Nuestro libro de proyectos Tomo III",
+          "sourcePages": [
+            157,
+            158,
+            159
+          ],
+          "sourcePagesLabel": "pp. 157-159",
+          "topicTitle": "Proyecto académico 45",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Proyecto académico 45\" aporta base suficiente para trabajar teorías atómicas dentro del proyecto 45.",
+          "pedagogicalUse": "Ayuda a fortalecer noticiero teatralizado y a explicar el proceso histórico de construcción de las teorías atómicas y los avances recientes en la comprensión de la constitución de la materia con mayor claridad mediante teorías atómicas.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "historia de la ciencia",
+          "description": "Historia de la ciencia es una idea clave para comprender el proceso histórico de construcción de las teorías atómicas y los avances recientes en la comprensión de la constitución de la materia.",
+          "sourceBook": "Nuestro libro de proyectos Tomo III",
+          "sourcePages": [
+            157,
+            158,
+            159
+          ],
+          "sourcePagesLabel": "pp. 157-159",
+          "topicTitle": "Proyecto académico 45",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Proyecto académico 45\" aporta base suficiente para trabajar historia de la ciencia dentro del proyecto 45.",
+          "pedagogicalUse": "Ayuda a fortalecer noticiero teatralizado y a explicar el proceso histórico de construcción de las teorías atómicas y los avances recientes en la comprensión de la constitución de la materia con mayor claridad mediante historia de la ciencia.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "materia",
+          "description": "Materia es una idea clave para comprender el proceso histórico de construcción de las teorías atómicas y los avances recientes en la comprensión de la constitución de la materia.",
+          "sourceBook": "Saberes y Pensamiento Científico",
+          "sourcePages": [
+            269,
+            277
+          ],
+          "sourcePagesLabel": "pp. 269-277",
+          "topicTitle": "La conformación de la materia",
+          "status": "confirmed",
+          "reason": "La fuente validada \"La conformación de la materia\" aporta base suficiente para trabajar materia dentro del proyecto 45.",
+          "pedagogicalUse": "Ayuda a fortalecer noticiero teatralizado y a explicar el proceso histórico de construcción de las teorías atómicas y los avances recientes en la comprensión de la constitución de la materia con mayor claridad mediante materia.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "modelos atómicos",
+          "description": "Modelos atómicos es una idea clave para comprender el proceso histórico de construcción de las teorías atómicas y los avances recientes en la comprensión de la constitución de la materia.",
+          "sourceBook": "Saberes y Pensamiento Científico",
+          "sourcePages": [
+            269,
+            277
+          ],
+          "sourcePagesLabel": "pp. 269-277",
+          "topicTitle": "La conformación de la materia",
+          "status": "confirmed",
+          "reason": "La fuente validada \"La conformación de la materia\" aporta base suficiente para trabajar modelos atómicos dentro del proyecto 45.",
+          "pedagogicalUse": "Ayuda a fortalecer noticiero teatralizado y a explicar el proceso histórico de construcción de las teorías atómicas y los avances recientes en la comprensión de la constitución de la materia con mayor claridad mediante modelos atómicos.",
+          "activityReadiness": "usable-for-autoevaluation"
+        }
+      ],
+      "thinkingCriteria": [
+        "Relacionar el proceso histórico de construcción de las teorías atómicas y los avances recientes en la comprensión de la constitución de la materia con situaciones cercanas a la comunidad.",
+        "Usar noticiero teatralizado para explicar y no solo para recopilar informacion.",
+        "Distinguir entre mencionar conceptos y comprender como dialogan entre si dentro del proyecto."
+      ],
+      "validationStatus": {
+        "readinessLevel": "development-partial",
+        "readyForActivities": false,
+        "needsReviewReasons": [
+          "El bloque 15 ya es usable como lectura docente, pero el video del PPA 15 y el recurso informatico siguen pendientes de validacion de destino final.",
+          "La asignacion de apoyos de Posibilidades se sostiene por inferencia curricular documentada y no por OCR perfectamente separado por columnas.",
+          "No mover a actividades interactivas ni desbloquear juegos completos hasta ampliar validacion de videos y recursos complementarios."
+        ]
+      },
+      "readinessLevel": "development-partial",
+      "readyForActivities": false,
+      "needsReviewReasons": [
+        "No mover a actividades interactivas ni desbloquear juegos completos."
+      ],
+      "roleInPpa": "Cierra el bloque al convertir la historia de la ciencia en una narración pública que valora la construcción colectiva del conocimiento.",
+      "pedagogicalUse": "Conviene trabajar Tras los pasos de la ciencia como una oportunidad para profundizar en el proceso histórico de construcción de las teorías atómicas y los avances recientes en la comprensión de la constitución de la materia sin separar contenido, comunidad y producto final.",
+      "teacherNotes": [
+        "Conviene partir de ejemplos cercanos y después pasar al lenguaje mas abstracto del campo.",
+        "El producto Noticiero teatralizado gana fuerza cuando se usa para explicar y no solo para exhibir informacion.",
+        "Es mejor seleccionar pocos conceptos bien comprendidos que saturar el trabajo con terminos aislados."
+      ],
+      "resonancePrompts": [
+        {
+          "type": "individual",
+          "prompt": "¿Qué comprendes mejor sobre el proceso histórico de construcción de las teorías atómicas y los avances recientes en la comprensión de la constitución de la materia después de elaborar noticiero teatralizado?"
+        },
+        {
+          "type": "community",
+          "prompt": "¿Qué aporta mirar la historia de la ciencia como proceso colectivo y cambiante en lugar de verla como una lista de datos fijos?"
+        }
+      ],
+      "notReadyFor": [
+        "full-games",
+        "summative-exam"
+      ]
+    }
+  ]
+}

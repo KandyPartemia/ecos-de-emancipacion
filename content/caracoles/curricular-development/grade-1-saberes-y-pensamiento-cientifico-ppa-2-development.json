@@ -1,0 +1,822 @@
+{
+  "grade": "1",
+  "gradeLabel": "Primer grado",
+  "field": "Saberes y Pensamiento Cientifico",
+  "bookVolume": "Tomo I",
+  "partialClassroomProject": "PPA 2",
+  "partialClassroomProjectTitle": "Avanzamos con paso firme!",
+  "generatedAt": "2026-06-01T11:59:13.096Z",
+  "notes": "Capa curricular aislada para 1o Saberes y Pensamiento Cientifico PPA 2.",
+  "sourcesUsed": [
+    "reports/caracoles/grade1-lenguajes-reading-teacher-hito-2-standard.md",
+    "content/caracoles/curricular-links/grade-1-project-source-links.json",
+    "content/caracoles/generated-private/grade-1/pages-index.full.json",
+    "Posibilidades de uso SyPC, primer grado, pp. 8-9",
+    "Nuestro libro de proyectos Tomo I, primer grado, pp. 132-143",
+    "Saberes y Pensamiento Cientifico, pp. 90-112, 128-135, 217-223 y 248-299"
+  ],
+  "partialClassroomProjectContext": {
+    "expectationHorizon": {
+      "officialText": "",
+      "sourcePages": [
+        "Nuestro libro de proyectos Tomo I pp. 132-143",
+        "Posibilidades de uso SyPC pp. 8-9"
+      ],
+      "evidence": "El PPA 2 articula salud sexual, igualdad de genero y toma de decisiones responsables con apoyo de porcentajes, tablas y medidas de tendencia central.",
+      "status": "pending"
+    },
+    "ppaDetonatingStrategy": {
+      "title": "Avanzamos con paso firme!",
+      "type": "video",
+      "url": "",
+      "urlStatus": "pending-url",
+      "reference": "bit.ly/3VfglUk",
+      "source": "Nuestro libro de proyectos Tomo I pp. 132-143 + Posibilidades de uso SyPC pp. 8-9",
+      "scope": "partial-classroom-project",
+      "youtubeSearchQuery": "Avanzamos con paso firme! Saberes y Pensamiento Cientifico 1er grado Telesecundaria"
+    },
+    "ppaDigitalResource": {
+      "title": "Recurso informatico del bloque PPA 2",
+      "reference": "bit.ly/3WQBMwg",
+      "status": "pending-validation",
+      "source": "Nuestro libro de proyectos Tomo I, cierre del PPA 2"
+    },
+    "validationStatus": {
+      "needsHumanReview": true,
+      "needsReviewReasons": [
+        "Las pp. 8-9 de Posibilidades corresponden al mismo bloque del PPA 2.",
+        "No se localizaron apoyos de Multiples Lenguajes confirmados para este bloque.",
+        "El video del PPA y el recurso informatico siguen en cautela mediante enlaces cortos."
+      ]
+    },
+    "columnValidation": {
+      "possibilitiesPagesReviewed": [
+        8,
+        9
+      ],
+      "confirmedAsPpa": true,
+      "note": "Las pp. 8-9 de Posibilidades pertenecen al mismo PPA 2. La p. 8 fija el orden de proyectos y productos, mientras que la p. 9 no agrega apoyos confirmados de Multiples Lenguajes.",
+      "columns": [
+        {
+          "columnIndex": 1,
+          "projectId": "saberes-y-pensamiento-cientifico-1-ppa-2-pa4",
+          "projectTitle": "Seamos responsables con nuestra vida y la vida de los demas!",
+          "finalProduct": "Infografia equitativa",
+          "supportMaterials": []
+        },
+        {
+          "columnIndex": 2,
+          "projectId": "saberes-y-pensamiento-cientifico-1-ppa-2-pa5",
+          "projectTitle": "Igualdad de derechos y responsabilidades!",
+          "finalProduct": "Folleto de divulgacion",
+          "supportMaterials": []
+        },
+        {
+          "columnIndex": 3,
+          "projectId": "saberes-y-pensamiento-cientifico-1-ppa-2-pa6",
+          "projectTitle": "Elijamos con sabiduria!",
+          "finalProduct": "Cartel desordenado",
+          "supportMaterials": []
+        }
+      ]
+    }
+  },
+  "academicProjects": [
+    {
+      "id": "saberes-y-pensamiento-cientifico-1-ppa-2-pa4",
+      "projectId": "saberes-y-pensamiento-cientifico-1-ppa-2-pa4",
+      "academicProjectNumber": 4,
+      "title": "Seamos responsables con nuestra vida y la vida de los demas!",
+      "projectTitle": "Seamos responsables con nuestra vida y la vida de los demas!",
+      "grade": "1",
+      "field": "Saberes y Pensamiento Cientifico",
+      "ppaNumber": "2",
+      "partialClassroomProject": "PPA 2",
+      "partialClassroomProjectTitle": "Avanzamos con paso firme!",
+      "bookVolume": "Tomo I",
+      "sourceValidation": {
+        "sourceStatus": "linked",
+        "possibilitiesPages": [
+          8,
+          9
+        ],
+        "possibilitiesMaterialId": "grade-1-posibilidades-pos-sypc-1",
+        "possibilitiesColumnIndex": 1,
+        "columnEvidence": "Bloque PPA 2 Avanzamos con paso firme! localizado en pp. 8-9; la columna 1 se confirma por el orden de proyectos, productos y continuidad del mismo bloque."
+      },
+      "finalProduct": {
+        "title": "Infografia equitativa",
+        "source": "Posibilidades de uso SyPC pp. 8-9 + Nuestro libro de proyectos Tomo I pp. 132-135",
+        "status": "confirmed"
+      },
+      "sourcePages": {
+        "nuestroLibroProyectos": [
+          {
+            "materialId": "grade-1-proyectos-nuestro-libro-de-proyectos-tomo-i-primer-grado",
+            "label": "Nuestro libro de proyectos Tomo I",
+            "startPage": 132,
+            "endPage": 135,
+            "pagesLabel": "pp. 132-135",
+            "topicTitle": "Proyecto academico 4",
+            "status": "confirmed-source"
+          }
+        ],
+        "conceptBook": [
+          {
+            "materialId": "grade-1-conceptos-saberes-y-pensamiento-cientifico-primer-grado",
+            "label": "Saberes y Pensamiento Cientifico",
+            "startPage": 291,
+            "endPage": 299,
+            "pagesLabel": "pp. 291-299",
+            "topicTitle": "Genero y sexualidad",
+            "status": "confirmed-source"
+          },
+          {
+            "materialId": "grade-1-conceptos-saberes-y-pensamiento-cientifico-primer-grado",
+            "label": "Saberes y Pensamiento Cientifico",
+            "startPage": 108,
+            "endPage": 112,
+            "pagesLabel": "pp. 108-112",
+            "topicTitle": "Obtencion y representacion de informacion",
+            "status": "confirmed-source"
+          },
+          {
+            "materialId": "grade-1-conceptos-saberes-y-pensamiento-cientifico-primer-grado",
+            "label": "Saberes y Pensamiento Cientifico",
+            "startPage": 128,
+            "endPage": 135,
+            "pagesLabel": "pp. 128-135",
+            "topicTitle": "Porcentajes",
+            "status": "confirmed-source"
+          }
+        ],
+        "multiplesLenguajes": [],
+        "otherMaterials": [
+          {
+            "label": "Video PPA 2: Avanzamos con paso firme!",
+            "reference": "bit.ly/3VfglUk",
+            "status": "pending-validation",
+            "youtubeSearchQuery": "Avanzamos con paso firme! Saberes y Pensamiento Cientifico 1er grado Telesecundaria"
+          }
+        ]
+      },
+      "supportMaterials": [],
+      "horizonOrPurpose": {
+        "status": "official",
+        "text": "Representar en una infografia equitativa la importancia de la igualdad de genero y la responsabilidad compartida de hombres y mujeres en la prevencion del embarazo adolescente y en la crianza, mediante el uso de porcentajes.",
+        "source": "Nuestro libro de proyectos Tomo I p. 132"
+      },
+      "projectExpectationHorizon": {
+        "officialText": "Elaborar una infografia equitativa que permita representar, con porcentajes e imagenes, la importancia de la igualdad de genero y la responsabilidad compartida en la prevencion del embarazo adolescente y la crianza.",
+        "studentVersion": "Explicar con datos e imagenes por que la igualdad de genero y la responsabilidad compartida importan en la prevencion del embarazo adolescente y en la crianza.",
+        "sourcePages": [
+          "Nuestro libro de proyectos Tomo I p. 133"
+        ],
+        "evidence": "La etapa 3 y los objetivos del proyecto permiten fijar un horizonte de expectativas util para la lectura docente del PA.",
+        "status": "confirmed-from-project-book"
+      },
+      "detonatingStrategy": {
+        "status": "pending-url",
+        "text": "Video PPA 2: Avanzamos con paso firme!",
+        "reference": "bit.ly/3VfglUk",
+        "source": "Nuestro libro de proyectos Tomo I pp. 132-143"
+      },
+      "academicProjectStrategy": {
+        "title": "Infografia equitativa",
+        "text": "Organizar informacion confiable sobre igualdad de genero, prevencion del embarazo adolescente y crianza mediante imagenes, porcentajes y mensajes claros.",
+        "type": "infographic",
+        "status": "confirmed-from-project-book",
+        "source": "Nuestro libro de proyectos Tomo I pp. 132-135"
+      },
+      "academicConcepts": [
+        {
+          "concept": "infografia equitativa",
+          "description": "Producto visual que explica un tema con datos, imagenes y mensajes claros para favorecer la comprension y el dialogo.",
+          "sourceBook": "Nuestro libro de proyectos Tomo I",
+          "sourcePages": [
+            132,
+            133,
+            134,
+            135
+          ],
+          "sourcePagesLabel": "pp. 132-135",
+          "topicTitle": "Proyecto academico 4",
+          "status": "confirmed",
+          "reason": "El proyecto y Posibilidades fijan la infografia equitativa como producto final del PA 4.",
+          "pedagogicalUse": "Permite comunicar informacion sensible de salud con claridad, cuidado y enfoque igualitario.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "igualdad de genero",
+          "description": "Reconocimiento de que mujeres y hombres tienen la misma dignidad, derechos y responsabilidades.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            291,
+            297,
+            299
+          ],
+          "sourcePagesLabel": "pp. 291-299",
+          "topicTitle": "Genero y sexualidad",
+          "status": "confirmed",
+          "reason": "Las referencias del bloque y el proyecto la ubican como contenido central del trabajo de investigacion.",
+          "pedagogicalUse": "Ayuda a analizar decisiones de salud desde un enfoque de justicia y corresponsabilidad.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "responsabilidad compartida",
+          "description": "Compromiso de mujeres y hombres para actuar en conjunto en la prevencion del embarazo y en la crianza.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            297,
+            299
+          ],
+          "sourcePagesLabel": "pp. 297-299",
+          "topicTitle": "Genero y sexualidad",
+          "status": "confirmed",
+          "reason": "La p. 297 del libro del campo y la etapa 5 del proyecto la nombran de manera explicita.",
+          "pedagogicalUse": "Desplaza ideas individualistas y permite leer la salud sexual como un asunto colectivo.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "prevencion del embarazo adolescente",
+          "description": "Conjunto de decisiones informadas y acciones de cuidado que ayudan a evitar embarazos no planeados durante la adolescencia.",
+          "sourceBook": "Nuestro libro de proyectos Tomo I",
+          "sourcePages": [
+            132,
+            133
+          ],
+          "sourcePagesLabel": "pp. 132-133",
+          "topicTitle": "Proyecto academico 4",
+          "status": "confirmed",
+          "reason": "El proyecto la coloca como problema central y la articula con igualdad de genero y crianza.",
+          "pedagogicalUse": "Da sentido social al uso de datos y a la construccion de la infografia.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "genero y sexualidad",
+          "description": "Marco para comprender mitos, estereotipos, costumbres y relaciones de genero vinculadas con la sexualidad.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            291,
+            296
+          ],
+          "sourcePagesLabel": "pp. 291-296",
+          "topicTitle": "Genero y sexualidad",
+          "status": "confirmed",
+          "reason": "Posibilidades la asigna de forma directa al bloque y el libro desarrolla sus nociones base.",
+          "pedagogicalUse": "Sostiene el analisis critico de estereotipos y desigualdades.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "porcentajes",
+          "description": "Recurso matematico para comparar cantidades y expresar informacion de manera mas clara.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            128,
+            135
+          ],
+          "sourcePagesLabel": "pp. 128-135",
+          "topicTitle": "Porcentajes",
+          "status": "confirmed",
+          "reason": "La p. 8 de Posibilidades y el proyecto piden usarlos para representar informacion sobre el tema.",
+          "pedagogicalUse": "Vuelve visible la dimension cuantitativa del problema sin perder el sentido humano.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "uso de tablas para analizar informacion",
+          "description": "Organizacion de datos en cuadros que facilitan leer, comparar e interpretar informacion.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            110,
+            112
+          ],
+          "sourcePagesLabel": "pp. 110-112",
+          "topicTitle": "Obtencion y representacion de informacion",
+          "status": "confirmed",
+          "reason": "Posibilidades la menciona como apoyo matematico confirmado para el proyecto.",
+          "pedagogicalUse": "Ayuda a ordenar datos antes de convertirlos en porcentajes e imagenes.",
+          "activityReadiness": "usable-for-autoevaluation"
+        }
+      ],
+      "thinkingCriteria": [
+        "Distinguir entre repetir consignas sobre igualdad y comprender sus implicaciones concretas en la vida diaria.",
+        "Usar porcentajes y tablas para aclarar un problema humano, no para vaciarlo de sentido."
+      ],
+      "validationStatus": {
+        "readinessLevel": "development-partial",
+        "readyForActivities": false,
+        "needsReviewReasons": [
+          "El video del PPA 2 y el recurso informatico siguen pendientes de validacion de destino final.",
+          "No se localizaron apoyos de Multiples Lenguajes plenamente confirmados para este proyecto."
+        ]
+      },
+      "readinessLevel": "development-partial",
+      "readyForActivities": false,
+      "needsReviewReasons": [
+        "No mover a actividades interactivas ni desbloquear juegos completos."
+      ]
+    },
+    {
+      "id": "saberes-y-pensamiento-cientifico-1-ppa-2-pa5",
+      "projectId": "saberes-y-pensamiento-cientifico-1-ppa-2-pa5",
+      "academicProjectNumber": 5,
+      "title": "Igualdad de derechos y responsabilidades!",
+      "projectTitle": "Igualdad de derechos y responsabilidades!",
+      "grade": "1",
+      "field": "Saberes y Pensamiento Cientifico",
+      "ppaNumber": "2",
+      "partialClassroomProject": "PPA 2",
+      "partialClassroomProjectTitle": "Avanzamos con paso firme!",
+      "bookVolume": "Tomo I",
+      "sourceValidation": {
+        "sourceStatus": "linked",
+        "possibilitiesPages": [
+          8,
+          9
+        ],
+        "possibilitiesMaterialId": "grade-1-posibilidades-pos-sypc-1",
+        "possibilitiesColumnIndex": 2,
+        "columnEvidence": "Bloque PPA 2 Avanzamos con paso firme! localizado en pp. 8-9; la columna 2 se confirma por el orden de proyectos, productos y continuidad del mismo bloque."
+      },
+      "finalProduct": {
+        "title": "Folleto de divulgacion",
+        "source": "Posibilidades de uso SyPC pp. 8-9 + Nuestro libro de proyectos Tomo I pp. 136-139",
+        "status": "confirmed"
+      },
+      "sourcePages": {
+        "nuestroLibroProyectos": [
+          {
+            "materialId": "grade-1-proyectos-nuestro-libro-de-proyectos-tomo-i-primer-grado",
+            "label": "Nuestro libro de proyectos Tomo I",
+            "startPage": 136,
+            "endPage": 139,
+            "pagesLabel": "pp. 136-139",
+            "topicTitle": "Proyecto academico 5",
+            "status": "confirmed-source"
+          }
+        ],
+        "conceptBook": [
+          {
+            "materialId": "grade-1-conceptos-saberes-y-pensamiento-cientifico-primer-grado",
+            "label": "Saberes y Pensamiento Cientifico",
+            "startPage": 291,
+            "endPage": 299,
+            "pagesLabel": "pp. 291-299",
+            "topicTitle": "Genero y sexualidad",
+            "status": "confirmed-source"
+          },
+          {
+            "materialId": "grade-1-conceptos-saberes-y-pensamiento-cientifico-primer-grado",
+            "label": "Saberes y Pensamiento Cientifico",
+            "startPage": 90,
+            "endPage": 99,
+            "pagesLabel": "pp. 90-99",
+            "topicTitle": "Analisis de dispersion de datos",
+            "status": "confirmed-source"
+          },
+          {
+            "materialId": "grade-1-conceptos-saberes-y-pensamiento-cientifico-primer-grado",
+            "label": "Saberes y Pensamiento Cientifico",
+            "startPage": 100,
+            "endPage": 105,
+            "pagesLabel": "pp. 100-105",
+            "topicTitle": "Medidas de tendencia central",
+            "status": "confirmed-source"
+          }
+        ],
+        "multiplesLenguajes": [],
+        "otherMaterials": [
+          {
+            "label": "Video PPA 2: Avanzamos con paso firme!",
+            "reference": "bit.ly/3VfglUk",
+            "status": "pending-validation",
+            "youtubeSearchQuery": "Avanzamos con paso firme! Saberes y Pensamiento Cientifico 1er grado Telesecundaria"
+          }
+        ]
+      },
+      "supportMaterials": [],
+      "horizonOrPurpose": {
+        "status": "official",
+        "text": "Reforzar los temas mediante el empleo de la frecuencia absoluta, frecuencia relativa, media, mediana y moda; ademas de asistir a un centro de salud de la comunidad para solicitar informacion y elaborar folletos de divulgacion.",
+        "source": "Nuestro libro de proyectos Tomo I p. 136"
+      },
+      "projectExpectationHorizon": {
+        "officialText": "Analizar la informacion recopilada en un centro de salud de la comunidad, en torno a la igualdad de genero y la responsabilidad compartida en la prevencion del embarazo adolescente y en la crianza, empleando los contenidos matematicos ya mencionados.",
+        "studentVersion": "Comprender mejor el tema con datos confiables del centro de salud y explicarlo en un folleto de divulgacion claro.",
+        "sourcePages": [
+          "Nuestro libro de proyectos Tomo I p. 137"
+        ],
+        "evidence": "La etapa 3 y los objetivos del proyecto permiten fijar un horizonte de expectativas util para la lectura docente del PA.",
+        "status": "confirmed-from-project-book"
+      },
+      "detonatingStrategy": {
+        "status": "pending-url",
+        "text": "Video PPA 2: Avanzamos con paso firme!",
+        "reference": "bit.ly/3VfglUk",
+        "source": "Nuestro libro de proyectos Tomo I pp. 132-143"
+      },
+      "academicProjectStrategy": {
+        "title": "Folleto de divulgacion",
+        "text": "Sintetizar informacion comunitaria y datos estadisticos en un material breve y util para dialogar sobre igualdad y prevencion.",
+        "type": "leaflet",
+        "status": "confirmed-from-project-book",
+        "source": "Nuestro libro de proyectos Tomo I pp. 136-139"
+      },
+      "academicConcepts": [
+        {
+          "concept": "folleto de divulgacion",
+          "description": "Material breve que informa con claridad y busca orientar a otras personas sobre un tema importante.",
+          "sourceBook": "Nuestro libro de proyectos Tomo I",
+          "sourcePages": [
+            136,
+            137,
+            138,
+            139
+          ],
+          "sourcePagesLabel": "pp. 136-139",
+          "topicTitle": "Proyecto academico 5",
+          "status": "confirmed",
+          "reason": "El producto final aparece de manera consistente en el proyecto y en Posibilidades.",
+          "pedagogicalUse": "Facilita que la informacion salga del aula y circule en un formato practico.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "igualdad de genero",
+          "description": "Principio que reconoce los mismos derechos y responsabilidades para mujeres y hombres.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            291,
+            299
+          ],
+          "sourcePagesLabel": "pp. 291-299",
+          "topicTitle": "Genero y sexualidad",
+          "status": "confirmed",
+          "reason": "Se mantiene como eje tematico del PPA 2 y vuelve a aparecer en la formulacion del proyecto.",
+          "pedagogicalUse": "Conecta la informacion estadistica con relaciones sociales concretas.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "responsabilidad compartida",
+          "description": "Participacion conjunta en decisiones de salud sexual, prevencion del embarazo y crianza.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            297,
+            299
+          ],
+          "sourcePagesLabel": "pp. 297-299",
+          "topicTitle": "Genero y sexualidad",
+          "status": "confirmed",
+          "reason": "Posibilidades y el proyecto la sostienen como contenido central del bloque.",
+          "pedagogicalUse": "Da sentido social a la interpretacion de frecuencias y promedios.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "frecuencia absoluta",
+          "description": "Cantidad exacta de veces que aparece un dato en un conjunto de informacion.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            95,
+            99
+          ],
+          "sourcePagesLabel": "pp. 95-99",
+          "topicTitle": "Analisis de dispersion de datos",
+          "status": "confirmed",
+          "reason": "La p. 8 de Posibilidades la asigna como apoyo matematico del PA 5.",
+          "pedagogicalUse": "Permite ordenar informacion comunitaria y reconocer patrones.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "frecuencia relativa",
+          "description": "Proporcion de veces que aparece un dato respecto del total observado.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            95,
+            99
+          ],
+          "sourcePagesLabel": "pp. 95-99",
+          "topicTitle": "Analisis de dispersion de datos",
+          "status": "confirmed",
+          "reason": "Va ligada a la frecuencia absoluta en el mismo bloque matematico confirmado.",
+          "pedagogicalUse": "Ayuda a comparar casos y comunicar resultados con mayor precision.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "media aritmetica",
+          "description": "Promedio de un conjunto de datos que ayuda a resumir su comportamiento general.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            91,
+            104
+          ],
+          "sourcePagesLabel": "pp. 91-104",
+          "topicTitle": "Medidas de tendencia central",
+          "status": "confirmed",
+          "reason": "El proyecto la nombra como recurso central para el analisis de la informacion.",
+          "pedagogicalUse": "Permite discutir tendencias sin perder la lectura comunitaria del problema.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "mediana",
+          "description": "Valor que queda al centro de un conjunto de datos ordenados.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            91,
+            104
+          ],
+          "sourcePagesLabel": "pp. 91-104",
+          "topicTitle": "Medidas de tendencia central",
+          "status": "confirmed",
+          "reason": "Aparece junto con media y moda en la estructura matematica del proyecto.",
+          "pedagogicalUse": "Da otra manera de leer la informacion sin depender solo del promedio.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "moda",
+          "description": "Dato que mas se repite dentro de un conjunto de informacion.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            91,
+            105
+          ],
+          "sourcePagesLabel": "pp. 91-105",
+          "topicTitle": "Medidas de tendencia central",
+          "status": "confirmed",
+          "reason": "La moda se recupera en Posibilidades y en el proyecto como herramienta de analisis.",
+          "pedagogicalUse": "Ayuda a identificar patrones frecuentes en la informacion obtenida.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "analisis de dispersion de datos",
+          "description": "Lectura matematica que ayuda a comprender como se distribuye la informacion en un conjunto de datos.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            90,
+            99
+          ],
+          "sourcePagesLabel": "pp. 90-99",
+          "topicTitle": "Analisis de dispersion de datos",
+          "status": "confirmed",
+          "reason": "El libro del campo lo desarrolla y Posibilidades lo coloca en este bloque.",
+          "pedagogicalUse": "Fortalece la lectura critica de los datos recabados en el centro de salud.",
+          "activityReadiness": "usable-for-autoevaluation"
+        }
+      ],
+      "thinkingCriteria": [
+        "Leer los datos del centro de salud con criterio y no como simple relleno estadistico.",
+        "Pasar de la medicion al compromiso comunitario a traves del folleto."
+      ],
+      "validationStatus": {
+        "readinessLevel": "development-partial",
+        "readyForActivities": false,
+        "needsReviewReasons": [
+          "El video del PPA 2 y el recurso informatico siguen pendientes de validacion de destino final.",
+          "No se localizaron apoyos de Multiples Lenguajes plenamente confirmados para este proyecto."
+        ]
+      },
+      "readinessLevel": "development-partial",
+      "readyForActivities": false,
+      "needsReviewReasons": [
+        "No mover a actividades interactivas ni desbloquear juegos completos."
+      ]
+    },
+    {
+      "id": "saberes-y-pensamiento-cientifico-1-ppa-2-pa6",
+      "projectId": "saberes-y-pensamiento-cientifico-1-ppa-2-pa6",
+      "academicProjectNumber": 6,
+      "title": "Elijamos con sabiduria!",
+      "projectTitle": "Elijamos con sabiduria!",
+      "grade": "1",
+      "field": "Saberes y Pensamiento Cientifico",
+      "ppaNumber": "2",
+      "partialClassroomProject": "PPA 2",
+      "partialClassroomProjectTitle": "Avanzamos con paso firme!",
+      "bookVolume": "Tomo I",
+      "sourceValidation": {
+        "sourceStatus": "linked",
+        "possibilitiesPages": [
+          8,
+          9
+        ],
+        "possibilitiesMaterialId": "grade-1-posibilidades-pos-sypc-1",
+        "possibilitiesColumnIndex": 3,
+        "columnEvidence": "Bloque PPA 2 Avanzamos con paso firme! localizado en pp. 8-9; la columna 3 se confirma por el orden de proyectos, productos y continuidad del mismo bloque."
+      },
+      "finalProduct": {
+        "title": "Cartel desordenado",
+        "source": "Posibilidades de uso SyPC pp. 8-9 + Nuestro libro de proyectos Tomo I pp. 140-142",
+        "status": "confirmed"
+      },
+      "sourcePages": {
+        "nuestroLibroProyectos": [
+          {
+            "materialId": "grade-1-proyectos-nuestro-libro-de-proyectos-tomo-i-primer-grado",
+            "label": "Nuestro libro de proyectos Tomo I",
+            "startPage": 140,
+            "endPage": 142,
+            "pagesLabel": "pp. 140-142",
+            "topicTitle": "Proyecto academico 6",
+            "status": "confirmed-source"
+          }
+        ],
+        "conceptBook": [
+          {
+            "materialId": "grade-1-conceptos-saberes-y-pensamiento-cientifico-primer-grado",
+            "label": "Saberes y Pensamiento Cientifico",
+            "startPage": 248,
+            "endPage": 261,
+            "pagesLabel": "pp. 248-261",
+            "topicTitle": "Salud sexual",
+            "status": "confirmed-source"
+          },
+          {
+            "materialId": "grade-1-conceptos-saberes-y-pensamiento-cientifico-primer-grado",
+            "label": "Saberes y Pensamiento Cientifico",
+            "startPage": 128,
+            "endPage": 135,
+            "pagesLabel": "pp. 128-135",
+            "topicTitle": "Porcentajes",
+            "status": "confirmed-source"
+          }
+        ],
+        "multiplesLenguajes": [],
+        "otherMaterials": [
+          {
+            "label": "Video PPA 2: Avanzamos con paso firme!",
+            "reference": "bit.ly/3VfglUk",
+            "status": "pending-validation",
+            "youtubeSearchQuery": "Avanzamos con paso firme! Saberes y Pensamiento Cientifico 1er grado Telesecundaria"
+          }
+        ]
+      },
+      "supportMaterials": [],
+      "horizonOrPurpose": {
+        "status": "official",
+        "text": "Conocer los diferentes metodos anticonceptivos y la eficacia de estos, con elaboracion de tablas y uso de relaciones del tipo \"es mas probable que...\" y \"es menos probable que...\", ademas de invitar a un especialista en salud para resolver dudas.",
+        "source": "Nuestro libro de proyectos Tomo I p. 140"
+      },
+      "projectExpectationHorizon": {
+        "officialText": "Enlistar los metodos anticonceptivos y vincularlos con los temas matematicos de probabilidad mediante un cartel desordenado e invitar a algun especialista en salud para exponer sobre el tema.",
+        "studentVersion": "Distinguir metodos anticonceptivos, valorar su eficacia y comunicarlo en un cartel desordenado apoyado por una charla experta.",
+        "sourcePages": [
+          "Nuestro libro de proyectos Tomo I p. 141"
+        ],
+        "evidence": "La etapa 3 y los objetivos del proyecto permiten fijar un horizonte de expectativas util para la lectura docente del PA.",
+        "status": "confirmed-from-project-book"
+      },
+      "detonatingStrategy": {
+        "status": "pending-url",
+        "text": "Video PPA 2: Avanzamos con paso firme!",
+        "reference": "bit.ly/3VfglUk",
+        "source": "Nuestro libro de proyectos Tomo I pp. 132-143"
+      },
+      "academicProjectStrategy": {
+        "title": "Cartel desordenado",
+        "text": "Exponer informacion relevante sobre metodos anticonceptivos en un soporte visual flexible que permita comparar eficacia y resolver dudas con apoyo experto.",
+        "type": "poster",
+        "status": "confirmed-from-project-book",
+        "source": "Nuestro libro de proyectos Tomo I pp. 140-142"
+      },
+      "academicConcepts": [
+        {
+          "concept": "cartel desordenado",
+          "description": "Producto visual flexible que organiza informacion para compararla y discutirla con otras personas.",
+          "sourceBook": "Nuestro libro de proyectos Tomo I",
+          "sourcePages": [
+            140,
+            141,
+            142
+          ],
+          "sourcePagesLabel": "pp. 140-142",
+          "topicTitle": "Proyecto academico 6",
+          "status": "confirmed",
+          "reason": "El proyecto fija con claridad este producto como cierre de la investigacion.",
+          "pedagogicalUse": "Permite ordenar informacion delicada sin volverla rigida o inaccesible.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "salud sexual",
+          "description": "Conjunto de cuidados, conocimientos y decisiones que favorecen el bienestar sexual y reproductivo.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            248,
+            261
+          ],
+          "sourcePagesLabel": "pp. 248-261",
+          "topicTitle": "Salud sexual",
+          "status": "confirmed",
+          "reason": "Posibilidades cita directamente este bloque como fuente para el proyecto.",
+          "pedagogicalUse": "Da contexto para hablar de anticoncepcion desde el cuidado y la informacion confiable.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "infecciones de transmision sexual",
+          "description": "Infecciones que pueden transmitirse por contacto sexual y cuya prevencion requiere informacion y cuidado.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            249,
+            253
+          ],
+          "sourcePagesLabel": "pp. 249-253",
+          "topicTitle": "Salud sexual",
+          "status": "confirmed",
+          "reason": "Las pp. 249-253 forman parte del recorrido confirmado del bloque de salud sexual.",
+          "pedagogicalUse": "Vincula la prevencion con decisiones concretas y responsables.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "uso del condon",
+          "description": "Practica preventiva que ayuda a reducir el riesgo de infecciones de transmision sexual y embarazos no planeados.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            254,
+            256
+          ],
+          "sourcePagesLabel": "pp. 254-256",
+          "topicTitle": "Salud sexual",
+          "status": "confirmed",
+          "reason": "Posibilidades lo incluye como contenido especifico del PA 6.",
+          "pedagogicalUse": "Permite aterrizar el cuidado en acciones concretas.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "metodos anticonceptivos",
+          "description": "Recursos y practicas para prevenir embarazos no planeados con distintos niveles de eficacia.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            257,
+            259
+          ],
+          "sourcePagesLabel": "pp. 257-259",
+          "topicTitle": "Salud sexual",
+          "status": "confirmed",
+          "reason": "El proyecto los coloca en el centro de la investigacion y la toma de decisiones.",
+          "pedagogicalUse": "Hace posible comparar opciones con informacion confiable.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "efectividad de los metodos anticonceptivos",
+          "description": "Comparacion de que tan bien funciona cada metodo para prevenir embarazos.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            257,
+            259
+          ],
+          "sourcePagesLabel": "pp. 257-259",
+          "topicTitle": "Salud sexual",
+          "status": "confirmed",
+          "reason": "La referencia del libro del campo aparece de forma explicita en Posibilidades.",
+          "pedagogicalUse": "Ayuda a leer con criterio la nocion de eficacia y cuidado.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "prevencion o planificacion del embarazo",
+          "description": "Proceso de decidir de manera informada y responsable sobre la reproduccion y sus cuidados.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            260,
+            261
+          ],
+          "sourcePagesLabel": "pp. 260-261",
+          "topicTitle": "Salud sexual",
+          "status": "confirmed",
+          "reason": "Cierra el bloque tematico confirmado del proyecto.",
+          "pedagogicalUse": "Conecta informacion, salud y decisiones de vida.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "relaciones de probabilidad",
+          "description": "Expresiones como \"es mas probable\" o \"es menos probable\" para comparar posibilidades y riesgos.",
+          "sourceBook": "Nuestro libro de proyectos Tomo I",
+          "sourcePages": [
+            140,
+            141
+          ],
+          "sourcePagesLabel": "pp. 140-141",
+          "topicTitle": "Proyecto academico 6",
+          "status": "suggested",
+          "reason": "El proyecto las nombra de forma explicita, pero en este corte no se fijo una pagina del libro del campo con la misma nitidez que el bloque de salud sexual.",
+          "pedagogicalUse": "Conviene dejarla visible como integracion matematica pendiente de cierre fino.",
+          "activityReadiness": "usable-for-autoevaluation"
+        }
+      ],
+      "thinkingCriteria": [
+        "Distinguir entre repetir informacion sobre anticonceptivos y comprender como usarla para decidir con responsabilidad.",
+        "Evitar que el tema se reduzca a tecnicismos o juicios morales."
+      ],
+      "validationStatus": {
+        "readinessLevel": "development-partial",
+        "readyForActivities": false,
+        "needsReviewReasons": [
+          "El video del PPA 2 y el recurso informatico siguen pendientes de validacion de destino final.",
+          "No se localizaron apoyos de Multiples Lenguajes plenamente confirmados para este proyecto.",
+          "El concepto \"relaciones de probabilidad\" se mantiene en suggested."
+        ]
+      },
+      "readinessLevel": "development-partial",
+      "readyForActivities": false,
+      "needsReviewReasons": [
+        "No mover a actividades interactivas ni desbloquear juegos completos."
+      ]
+    }
+  ]
+}

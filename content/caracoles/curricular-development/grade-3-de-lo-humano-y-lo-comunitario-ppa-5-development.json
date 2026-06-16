@@ -1,0 +1,704 @@
+{
+  "grade": "3",
+  "gradeLabel": "Tercer grado",
+  "field": "De lo Humano y lo Comunitario",
+  "bookVolume": "Tomo III",
+  "partialClassroomProject": "PPA 5",
+  "partialClassroomProjectTitle": "El deporte educativo es parte del bienestar",
+  "generatedAt": "2026-06-07T03:06:26.015Z",
+  "notes": "Capa curricular generada por lote para 3o De lo Humano y lo Comunitario, PPA 5.",
+  "sourcesUsed": [
+    "content/caracoles/curricular-catalog/all-projects-canonical.json",
+    "public/caracoles/data/generated/grade-3/concepts-index.json",
+    "src/caracoles/lib/officialVideoLinks.ts",
+    "Posibilidades de uso DHyC, tercer grado, pp. 16-17",
+    "Nuestro libro de proyectos, tercer grado, pp. 232-245"
+  ],
+  "partialClassroomProjectContext": {
+    "expectationHorizon": {
+      "officialText": "",
+      "sourcePages": [
+        "Nuestro libro de proyectos Tomo III pp. 232-236",
+        "Posibilidades de uso DHyC pp. 16-17"
+      ],
+      "evidence": "El PPA 5 articula programa personal de ejercitación, plan de acción sustentable, laboratorio de experiencias motrices para trabajar El deporte educativo es parte del bienestar.",
+      "status": "pending"
+    },
+    "ppaDetonatingStrategy": {
+      "title": "El deporte educativo es parte del bienestar",
+      "type": "video",
+      "url": "",
+      "urlStatus": "confirmed-by-official-video-map",
+      "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+      "scope": "partial-classroom-project"
+    },
+    "ppaDigitalResource": {
+      "title": "Recurso del Proyecto Parcial de Aula 5",
+      "reference": "",
+      "status": "confirmed-by-official-video-map",
+      "source": "YouTube, acervo Aprende_MX/Telesecundaria"
+    },
+    "validationStatus": {
+      "needsHumanReview": true,
+      "needsReviewReasons": [
+        "Los videos PA/PPA se validan por el mapa oficial de enlaces directos ya generado.",
+        "Los apoyos complementarios impresos no se asignan cuando no hay evidencia validada por columna.",
+        "El horizonte textual literal queda pendiente de revision fina si se necesita cita exacta."
+      ]
+    },
+    "columnValidation": {
+      "possibilitiesPagesReviewed": [
+        16,
+        17
+      ],
+      "confirmedAsPpa": true,
+      "note": "El PPA 5 se agrupa desde el catalogo canonico de tercer grado.",
+      "columns": [
+        {
+          "columnIndex": 1,
+          "projectId": "de-lo-humano-y-lo-comunitario-3-ppa-5-pa13",
+          "projectTitle": "Programa personal de ejercitación",
+          "finalProduct": "Programa personal de ejercitación",
+          "supportMaterials": []
+        },
+        {
+          "columnIndex": 2,
+          "projectId": "de-lo-humano-y-lo-comunitario-3-ppa-5-pa14",
+          "projectTitle": "Planear, emprender, valorar y, sobre todo, jugar.......................................",
+          "finalProduct": "Plan de acción sustentable",
+          "supportMaterials": []
+        },
+        {
+          "columnIndex": 3,
+          "projectId": "de-lo-humano-y-lo-comunitario-3-ppa-5-pa15",
+          "projectTitle": "Laboratorio de juegos deportivos escolares",
+          "finalProduct": "Laboratorio de experiencias motrices",
+          "supportMaterials": []
+        }
+      ]
+    }
+  },
+  "academicProjects": [
+    {
+      "id": "de-lo-humano-y-lo-comunitario-3-ppa-5-pa13",
+      "projectId": "de-lo-humano-y-lo-comunitario-3-ppa-5-pa13",
+      "academicProjectNumber": 13,
+      "title": "Programa personal de ejercitación",
+      "projectTitle": "Programa personal de ejercitación",
+      "grade": "3",
+      "field": "De lo Humano y lo Comunitario",
+      "ppaNumber": "5",
+      "partialClassroomProject": "PPA 5",
+      "partialClassroomProjectTitle": "El deporte educativo es parte del bienestar",
+      "bookVolume": "Tomo III",
+      "sourceValidation": {
+        "sourceStatus": "linked",
+        "possibilitiesPages": [
+          16,
+          17
+        ],
+        "possibilitiesMaterialId": "grade-3-posibilidades-pos-dhc-3",
+        "possibilitiesColumnIndex": 1,
+        "columnEvidence": "Proyecto PA 13 agrupado en el PPA 5 desde el catalogo canonico y las paginas de Posibilidades."
+      },
+      "finalProduct": {
+        "title": "Programa personal de ejercitación",
+        "source": "Video detonador validado en YouTube + Nuestro libro de proyectos Tomo III pp. 232-236",
+        "status": "confirmed-from-video-and-project"
+      },
+      "sourcePages": {
+        "nuestroLibroProyectos": [
+          {
+            "materialId": "grade-3-proyectos-nuestros-proyectos-tomo-3-tercer-grado",
+            "label": "Nuestro libro de proyectos Tomo III",
+            "startPage": 232,
+            "endPage": 236,
+            "pagesLabel": "pp. 232-236",
+            "topicTitle": "Proyecto academico 13",
+            "status": "confirmed-source"
+          }
+        ],
+        "conceptBook": [
+          {
+            "materialId": "grade-3-conceptos-de-lo-humano-y-lo-comunitario-tercer-grado",
+            "label": "De lo Humano y lo Comunitario",
+            "startPage": 232,
+            "endPage": 232,
+            "pagesLabel": "p. 232",
+            "topicTitle": "Programa personal de ejercitación",
+            "status": "confirmed"
+          }
+        ],
+        "multiplesLenguajes": [],
+        "otherMaterials": [
+          {
+            "label": "Video PA 13: Programa personal de ejercitación",
+            "reference": "",
+            "status": "confirmed"
+          }
+        ]
+      },
+      "supportMaterials": [],
+      "horizonOrPurpose": {
+        "status": "pending",
+        "text": "",
+        "source": "Nuestro libro de proyectos Tomo III pp. 232-236"
+      },
+      "projectExpectationHorizon": {
+        "officialText": "",
+        "studentVersion": "",
+        "sourcePages": [
+          "Nuestro libro de proyectos Tomo III pp. 232-236"
+        ],
+        "evidence": "El PA 13 cuenta con paginas de proyecto, producto de cierre, conceptos y videos directos validados; el horizonte textual literal queda pendiente de transcripcion fina.",
+        "status": "pending"
+      },
+      "detonatingStrategy": {
+        "status": "confirmed",
+        "title": "El deporte educativo es parte del bienestar",
+        "text": "Video del Proyecto Parcial de Aula 5: El deporte educativo es parte del bienestar",
+        "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+        "scope": "partial-classroom-project",
+        "type": "video"
+      },
+      "academicProjectStrategy": {
+        "title": "Programa personal de ejercitación • De lo humano y lo comunitario • 3er grado",
+        "text": "Video detonador del Proyecto Academico 13: Programa personal de ejercitación",
+        "type": "video",
+        "status": "confirmed-from-video-and-project",
+        "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+        "scope": "academic-project"
+      },
+      "academicConcepts": [
+        {
+          "concept": "Programa personal de ejercitación",
+          "description": "Programa personal de ejercitación organiza el producto de cierre y permite comunicar lo aprendido en el proyecto.",
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "sourcePages": [
+            232
+          ],
+          "sourcePagesLabel": "p. 232",
+          "topicTitle": "Proyecto academico 13",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 13, al PPA 5 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Proyecto de vida",
+          "description": "Proyecto de vida ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "sourcePages": [
+            232
+          ],
+          "sourcePagesLabel": "p. 232",
+          "topicTitle": "Proyecto academico 13",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 13, al PPA 5 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Bienestar",
+          "description": "Bienestar ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "sourcePages": [
+            232
+          ],
+          "sourcePagesLabel": "p. 232",
+          "topicTitle": "Proyecto academico 13",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 13, al PPA 5 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Prevencion",
+          "description": "Prevencion ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "sourcePages": [
+            170
+          ],
+          "sourcePagesLabel": "p. 170",
+          "topicTitle": "Proyecto academico 13",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 13, al PPA 5 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Comunidad",
+          "description": "Comunidad ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "sourcePages": [
+            232
+          ],
+          "sourcePagesLabel": "p. 232",
+          "topicTitle": "Proyecto academico 13",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 13, al PPA 5 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Decisiones",
+          "description": "Decisiones ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "sourcePages": [
+            232
+          ],
+          "sourcePagesLabel": "p. 232",
+          "topicTitle": "Proyecto academico 13",
+          "status": "suggested",
+          "reason": "Concepto vinculado al PA 13, al PPA 5 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "teacher-review"
+        }
+      ],
+      "thinkingCriteria": [
+        "Relacionar Programa personal de ejercitación con una situacion concreta del entorno escolar o comunitario.",
+        "Usar programa personal de ejercitación para explicar ideas con claridad y evidencia."
+      ],
+      "resonancePrompts": [
+        {
+          "type": "individual",
+          "prompt": "¿Como te ayuda programa personal de ejercitación a comprender mejor Programa personal de ejercitación y a explicar sus conceptos clave en tu comunidad?",
+          "conceptsActivated": [
+            "Programa personal de ejercitación",
+            "Proyecto de vida",
+            "Bienestar",
+            "Prevencion"
+          ],
+          "suggestedUse": "Momento 1 de autoevaluacion"
+        }
+      ],
+      "validationStatus": {
+        "readinessLevel": "curricular-bundle-generated",
+        "readyForActivities": true,
+        "needsReviewReasons": [
+          "El horizonte textual literal queda pendiente de revision fina si se requiere cita exacta.",
+          "Los apoyos complementarios impresos no se asignan cuando no hay evidencia validada por columna."
+        ]
+      },
+      "readinessLevel": "curricular-bundle-generated",
+      "readyForActivities": true,
+      "needsReviewReasons": []
+    },
+    {
+      "id": "de-lo-humano-y-lo-comunitario-3-ppa-5-pa14",
+      "projectId": "de-lo-humano-y-lo-comunitario-3-ppa-5-pa14",
+      "academicProjectNumber": 14,
+      "title": "Planear, emprender, valorar y, sobre todo, jugar.......................................",
+      "projectTitle": "Planear, emprender, valorar y, sobre todo, jugar.......................................",
+      "grade": "3",
+      "field": "De lo Humano y lo Comunitario",
+      "ppaNumber": "5",
+      "partialClassroomProject": "PPA 5",
+      "partialClassroomProjectTitle": "El deporte educativo es parte del bienestar",
+      "bookVolume": "Tomo III",
+      "sourceValidation": {
+        "sourceStatus": "linked",
+        "possibilitiesPages": [
+          16,
+          17
+        ],
+        "possibilitiesMaterialId": "grade-3-posibilidades-pos-dhc-3",
+        "possibilitiesColumnIndex": 2,
+        "columnEvidence": "Proyecto PA 14 agrupado en el PPA 5 desde el catalogo canonico y las paginas de Posibilidades."
+      },
+      "finalProduct": {
+        "title": "Plan de acción sustentable",
+        "source": "Video detonador validado en YouTube + Nuestro libro de proyectos Tomo III pp. 237-241",
+        "status": "confirmed-from-video-and-project"
+      },
+      "sourcePages": {
+        "nuestroLibroProyectos": [
+          {
+            "materialId": "grade-3-proyectos-nuestros-proyectos-tomo-3-tercer-grado",
+            "label": "Nuestro libro de proyectos Tomo III",
+            "startPage": 237,
+            "endPage": 241,
+            "pagesLabel": "pp. 237-241",
+            "topicTitle": "Proyecto academico 14",
+            "status": "confirmed-source"
+          }
+        ],
+        "conceptBook": [
+          {
+            "materialId": "grade-3-conceptos-de-lo-humano-y-lo-comunitario-tercer-grado",
+            "label": "De lo Humano y lo Comunitario",
+            "startPage": 237,
+            "endPage": 237,
+            "pagesLabel": "p. 237",
+            "topicTitle": "Plan de acción sustentable",
+            "status": "confirmed"
+          }
+        ],
+        "multiplesLenguajes": [],
+        "otherMaterials": [
+          {
+            "label": "Video PA 14: Planear, emprender, valorar y, sobre todo, jugar.......................................",
+            "reference": "",
+            "status": "confirmed"
+          }
+        ]
+      },
+      "supportMaterials": [],
+      "horizonOrPurpose": {
+        "status": "confirmed-from-project-book",
+        "text": "Participar en la elaboración de un plan de acción sustentable donde se integre el diseño de procesos, la fabricación de recursos y la participación de la comunidad en una liga y torneos deportivos de distintas disciplinas deportivas.",
+        "source": "Visión — Horizonte 1 (p. 238)"
+      },
+      "projectExpectationHorizon": {
+        "officialText": "Participar en la elaboración de un plan de acción sustentable donde se integre el diseño de procesos, la fabricación de recursos y la participación de la comunidad en una liga y torneos deportivos de distintas disciplinas deportivas.",
+        "studentVersion": "Participar en la elaboración de un plan de acción sustentable donde se integre el diseño de procesos, la fabricación de recursos y la participación de la comunidad en una liga y torneos deportivos de distintas disciplinas deportivas.",
+        "horizon1Raw": "Participar en la elaboración de un plan de acción sustentable donde se integre el diseño de procesos, la fabricación de recursos y la participación de la comunidad en una liga y torneos deportivos de distintas disciplinas deportivas.",
+        "horizon2Raw": "Identificar las diferentes acciones que incorporan los procesos y producciones sustentables para la práctica de actividades deportivas en el contexto comunitario.",
+        "sourcePages": [
+          "Visión — Horizonte 1 (p. 238)"
+        ],
+        "evidence": "Extraído por visión de imagen de la página 238 del libro de proyectos. Confianza: alta.",
+        "status": "confirmed-from-project-book",
+        "extractedAt": "2026-06-16T05:12:46.631Z"
+      },
+      "detonatingStrategy": {
+        "status": "confirmed",
+        "title": "El deporte educativo es parte del bienestar",
+        "text": "Video del Proyecto Parcial de Aula 5: El deporte educativo es parte del bienestar",
+        "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+        "scope": "partial-classroom-project",
+        "type": "video"
+      },
+      "academicProjectStrategy": {
+        "title": "Plan de acción sustentable • De lo humano y lo comunitario • 3er grado",
+        "text": "Video detonador del Proyecto Academico 14: Planear, emprender, valorar y, sobre todo, jugar.......................................",
+        "type": "video",
+        "status": "confirmed-from-video-and-project",
+        "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+        "scope": "academic-project"
+      },
+      "academicConcepts": [
+        {
+          "concept": "Plan de acción sustentable",
+          "description": "Plan de acción sustentable organiza el producto de cierre y permite comunicar lo aprendido en el proyecto.",
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "sourcePages": [
+            237
+          ],
+          "sourcePagesLabel": "p. 237",
+          "topicTitle": "Proyecto academico 14",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 14, al PPA 5 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Proyecto de vida",
+          "description": "Proyecto de vida ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "sourcePages": [
+            237
+          ],
+          "sourcePagesLabel": "p. 237",
+          "topicTitle": "Proyecto academico 14",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 14, al PPA 5 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Bienestar",
+          "description": "Bienestar ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "sourcePages": [
+            237
+          ],
+          "sourcePagesLabel": "p. 237",
+          "topicTitle": "Proyecto academico 14",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 14, al PPA 5 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Prevencion",
+          "description": "Prevencion ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "sourcePages": [
+            170
+          ],
+          "sourcePagesLabel": "p. 170",
+          "topicTitle": "Proyecto academico 14",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 14, al PPA 5 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Comunidad",
+          "description": "Comunidad ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "sourcePages": [
+            237
+          ],
+          "sourcePagesLabel": "p. 237",
+          "topicTitle": "Proyecto academico 14",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 14, al PPA 5 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Decisiones",
+          "description": "Decisiones ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "sourcePages": [
+            237
+          ],
+          "sourcePagesLabel": "p. 237",
+          "topicTitle": "Proyecto academico 14",
+          "status": "suggested",
+          "reason": "Concepto vinculado al PA 14, al PPA 5 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "teacher-review"
+        }
+      ],
+      "thinkingCriteria": [
+        "Relacionar Planear, emprender, valorar y, sobre todo, jugar....................................... con una situacion concreta del entorno escolar o comunitario.",
+        "Usar plan de acción sustentable para explicar ideas con claridad y evidencia."
+      ],
+      "resonancePrompts": [
+        {
+          "type": "individual",
+          "prompt": "¿Como te ayuda plan de acción sustentable a comprender mejor Planear, emprender, valorar y, sobre todo, jugar....................................... y a explicar sus conceptos clave en tu comunidad?",
+          "conceptsActivated": [
+            "Plan de acción sustentable",
+            "Proyecto de vida",
+            "Bienestar",
+            "Prevencion"
+          ],
+          "suggestedUse": "Momento 1 de autoevaluacion"
+        }
+      ],
+      "validationStatus": {
+        "readinessLevel": "curricular-bundle-generated",
+        "readyForActivities": true,
+        "needsReviewReasons": [
+          "El horizonte textual literal queda pendiente de revision fina si se requiere cita exacta.",
+          "Los apoyos complementarios impresos no se asignan cuando no hay evidencia validada por columna."
+        ]
+      },
+      "readinessLevel": "curricular-bundle-generated",
+      "readyForActivities": true,
+      "needsReviewReasons": []
+    },
+    {
+      "id": "de-lo-humano-y-lo-comunitario-3-ppa-5-pa15",
+      "projectId": "de-lo-humano-y-lo-comunitario-3-ppa-5-pa15",
+      "academicProjectNumber": 15,
+      "title": "Laboratorio de juegos deportivos escolares",
+      "projectTitle": "Laboratorio de juegos deportivos escolares",
+      "grade": "3",
+      "field": "De lo Humano y lo Comunitario",
+      "ppaNumber": "5",
+      "partialClassroomProject": "PPA 5",
+      "partialClassroomProjectTitle": "El deporte educativo es parte del bienestar",
+      "bookVolume": "Tomo III",
+      "sourceValidation": {
+        "sourceStatus": "linked",
+        "possibilitiesPages": [
+          16,
+          17
+        ],
+        "possibilitiesMaterialId": "grade-3-posibilidades-pos-dhc-3",
+        "possibilitiesColumnIndex": 3,
+        "columnEvidence": "Proyecto PA 15 agrupado en el PPA 5 desde el catalogo canonico y las paginas de Posibilidades."
+      },
+      "finalProduct": {
+        "title": "Laboratorio de experiencias motrices",
+        "source": "Video detonador validado en YouTube + Nuestro libro de proyectos Tomo III pp. 242-245",
+        "status": "confirmed-from-video-and-project"
+      },
+      "sourcePages": {
+        "nuestroLibroProyectos": [
+          {
+            "materialId": "grade-3-proyectos-nuestros-proyectos-tomo-3-tercer-grado",
+            "label": "Nuestro libro de proyectos Tomo III",
+            "startPage": 242,
+            "endPage": 245,
+            "pagesLabel": "pp. 242-245",
+            "topicTitle": "Proyecto academico 15",
+            "status": "confirmed-source"
+          }
+        ],
+        "conceptBook": [
+          {
+            "materialId": "grade-3-conceptos-de-lo-humano-y-lo-comunitario-tercer-grado",
+            "label": "De lo Humano y lo Comunitario",
+            "startPage": 242,
+            "endPage": 242,
+            "pagesLabel": "p. 242",
+            "topicTitle": "Laboratorio de experiencias motrices",
+            "status": "confirmed"
+          }
+        ],
+        "multiplesLenguajes": [],
+        "otherMaterials": [
+          {
+            "label": "Video PA 15: Laboratorio de juegos deportivos escolares",
+            "reference": "",
+            "status": "confirmed"
+          }
+        ]
+      },
+      "supportMaterials": [],
+      "horizonOrPurpose": {
+        "status": "confirmed-from-project-book",
+        "text": "Participar en el diseño de un laboratorio de experiencias motrices de iniciación y deporte educativo con el fin de compartir medidas para mantener una vida saludable, y donde se incluyan actividades físico-deportivas.",
+        "source": "Visión — Horizonte 2 (p. 243)"
+      },
+      "projectExpectationHorizon": {
+        "officialText": "Participar en el diseño de un laboratorio de experiencias motrices de iniciación y deporte educativo con el fin de compartir medidas para mantener una vida saludable, y donde se incluyan actividades físico-deportivas.",
+        "studentVersion": "Participar en el diseño de un laboratorio de experiencias motrices de iniciación y deporte educativo con el fin de compartir medidas para mantener una vida saludable, y donde se incluyan actividades físico-deportivas.",
+        "horizon1Raw": "Proponer el diseño y la práctica de múltiples juegos relacionados con distintas disciplinas deportivas para contrarrestar los efectos del sedentarismo.",
+        "horizon2Raw": "Participar en el diseño de un laboratorio de experiencias motrices de iniciación y deporte educativo con el fin de compartir medidas para mantener una vida saludable, y donde se incluyan actividades físico-deportivas.",
+        "sourcePages": [
+          "Visión — Horizonte 2 (p. 243)"
+        ],
+        "evidence": "Extraído por visión de imagen de la página 243 del libro de proyectos. Confianza: alta.",
+        "status": "confirmed-from-project-book",
+        "extractedAt": "2026-06-16T05:12:50.146Z"
+      },
+      "detonatingStrategy": {
+        "status": "confirmed",
+        "title": "El deporte educativo es parte del bienestar",
+        "text": "Video del Proyecto Parcial de Aula 5: El deporte educativo es parte del bienestar",
+        "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+        "scope": "partial-classroom-project",
+        "type": "video"
+      },
+      "academicProjectStrategy": {
+        "title": "Laboratorio de experiencias motrices • De lo humano y lo comunitario • 3er grado",
+        "text": "Video detonador del Proyecto Academico 15: Laboratorio de juegos deportivos escolares",
+        "type": "video",
+        "status": "confirmed-from-video-and-project",
+        "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+        "scope": "academic-project"
+      },
+      "academicConcepts": [
+        {
+          "concept": "Laboratorio de experiencias motrices",
+          "description": "Laboratorio de experiencias motrices organiza el producto de cierre y permite comunicar lo aprendido en el proyecto.",
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "sourcePages": [
+            242
+          ],
+          "sourcePagesLabel": "p. 242",
+          "topicTitle": "Proyecto academico 15",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 15, al PPA 5 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Proyecto de vida",
+          "description": "Proyecto de vida ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "sourcePages": [
+            242
+          ],
+          "sourcePagesLabel": "p. 242",
+          "topicTitle": "Proyecto academico 15",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 15, al PPA 5 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Bienestar",
+          "description": "Bienestar ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "sourcePages": [
+            242
+          ],
+          "sourcePagesLabel": "p. 242",
+          "topicTitle": "Proyecto academico 15",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 15, al PPA 5 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Prevencion",
+          "description": "Prevencion ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "sourcePages": [
+            170
+          ],
+          "sourcePagesLabel": "p. 170",
+          "topicTitle": "Proyecto academico 15",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 15, al PPA 5 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Comunidad",
+          "description": "Comunidad ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "sourcePages": [
+            242
+          ],
+          "sourcePagesLabel": "p. 242",
+          "topicTitle": "Proyecto academico 15",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 15, al PPA 5 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Decisiones",
+          "description": "Decisiones ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "sourcePages": [
+            242
+          ],
+          "sourcePagesLabel": "p. 242",
+          "topicTitle": "Proyecto academico 15",
+          "status": "suggested",
+          "reason": "Concepto vinculado al PA 15, al PPA 5 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "teacher-review"
+        }
+      ],
+      "thinkingCriteria": [
+        "Relacionar Laboratorio de juegos deportivos escolares con una situacion concreta del entorno escolar o comunitario.",
+        "Usar laboratorio de experiencias motrices para explicar ideas con claridad y evidencia."
+      ],
+      "resonancePrompts": [
+        {
+          "type": "individual",
+          "prompt": "¿Como te ayuda laboratorio de experiencias motrices a comprender mejor Laboratorio de juegos deportivos escolares y a explicar sus conceptos clave en tu comunidad?",
+          "conceptsActivated": [
+            "Laboratorio de experiencias motrices",
+            "Proyecto de vida",
+            "Bienestar",
+            "Prevencion"
+          ],
+          "suggestedUse": "Momento 1 de autoevaluacion"
+        }
+      ],
+      "validationStatus": {
+        "readinessLevel": "curricular-bundle-generated",
+        "readyForActivities": true,
+        "needsReviewReasons": [
+          "El horizonte textual literal queda pendiente de revision fina si se requiere cita exacta.",
+          "Los apoyos complementarios impresos no se asignan cuando no hay evidencia validada por columna."
+        ]
+      },
+      "readinessLevel": "curricular-bundle-generated",
+      "readyForActivities": true,
+      "needsReviewReasons": []
+    }
+  ]
+}

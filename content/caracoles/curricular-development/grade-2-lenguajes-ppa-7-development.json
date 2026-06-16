@@ -1,0 +1,835 @@
+{
+  "grade": "2",
+  "gradeLabel": "Segundo grado",
+  "field": "Lenguajes",
+  "bookVolume": "Tomo II",
+  "partialClassroomProject": "PPA 7",
+  "partialClassroomProjectTitle": "Manos a la obra... de arte",
+  "generatedAt": "2026-06-02T14:59:02.880Z",
+  "notes": "Capa curricular generada por lote para 2o Lenguajes, PPA 7.",
+  "sourcesUsed": [
+    "public/caracoles/data/generated/grade-2/selectable-projects.json",
+    "content/caracoles/generated-private/grade-2/pages-index.full.json",
+    "Posibilidades de uso Lenguajes, segundo grado, pp. 21-22",
+    "Nuestro libro de proyectos Tomo II, segundo grado, pp. 25-39",
+    "Lenguajes, segundo grado, pp. 12-20, 37-44, 68-75, 88-94, 159-161, 255-262, 263-270 y 277-282; Múltiples Lenguajes pp. 36-41 y 54-61."
+  ],
+  "partialClassroomProjectContext": {
+    "expectationHorizon": {
+      "officialText": "",
+      "sourcePages": [
+        "Nuestro libro de proyectos Tomo II pp. 25-26",
+        "Posibilidades de uso Lenguajes pp. 21-22"
+      ],
+      "evidence": "El PPA 7 reúne recital poético, encuentro de lectores y exhibición de arte para que el grupo dialogue sobre recursos estéticos, lectura crítica y diversidad de manifestaciones artísticas.",
+      "status": "pending"
+    },
+    "ppaDetonatingStrategy": {
+      "title": "Manos a la obra... de arte",
+      "type": "video",
+      "url": "",
+      "urlStatus": "pending-url",
+      "reference": "bit.ly/3VfglUk",
+      "source": "Nuestro libro de proyectos Tomo II pp. 25-26 + Posibilidades de uso Lenguajes pp. 21-22",
+      "scope": "partial-classroom-project",
+      "youtubeSearchQuery": "Manos a la obra... de arte Lenguajes 2do grado Telesecundaria"
+    },
+    "ppaDigitalResource": {
+      "title": "Recurso informatico del bloque PPA 7",
+      "reference": "bit.ly/3WQBMwg",
+      "status": "pending-validation",
+      "source": "Nuestro libro de proyectos Tomo II pp. 25-39"
+    },
+    "validationStatus": {
+      "needsHumanReview": true,
+      "needsReviewReasons": [
+        "Las pp. 21-22 de Posibilidades pertenecen al mismo PPA 7.",
+        "La asignacion de apoyos por columna se fija por inferencia curricular documentada de izquierda a derecha.",
+        "Los enlaces cortos del video del PPA y del recurso informatico se mantienen en cautela hasta localizar un destino oficial confirmado.",
+        "La segunda columna no conserva un apoyo de Múltiples Lenguajes tan claro como la primera y la tercera; se prioriza la evidencia del libro del campo."
+      ]
+    },
+    "columnValidation": {
+      "possibilitiesPagesReviewed": [
+        21,
+        22
+      ],
+      "confirmedAsPpa": true,
+      "note": "Las pp. 21-22 corresponden al PPA 7 Manos a la obra... de arte. Las tres columnas se sostienen por el orden de proyectos, productos y apoyos del mismo bloque.",
+      "columns": [
+        {
+          "columnIndex": 1,
+          "projectId": "lenguajes-2-ppa-7-pa19",
+          "projectTitle": "Vayamos a la poesía",
+          "finalProduct": "Recital poético",
+          "supportMaterials": [
+            "Un poeta con alas de pintor, pp. 54-61"
+          ]
+        },
+        {
+          "columnIndex": 2,
+          "projectId": "lenguajes-2-ppa-7-pa20",
+          "projectTitle": "Encuentro de lectores",
+          "finalProduct": "Encuentro de lectores",
+          "supportMaterials": []
+        },
+        {
+          "columnIndex": 3,
+          "projectId": "lenguajes-2-ppa-7-pa21",
+          "projectTitle": "Compartamos el arte",
+          "finalProduct": "Exhibición de arte",
+          "supportMaterials": [
+            "Surrealismo, el arte de los sueños, pp. 36-41"
+          ]
+        }
+      ]
+    }
+  },
+  "academicProjects": [
+    {
+      "id": "lenguajes-2-ppa-7-pa19",
+      "projectId": "lenguajes-2-ppa-7-pa19",
+      "academicProjectNumber": 19,
+      "title": "Vayamos a la poesía",
+      "projectTitle": "Vayamos a la poesía",
+      "grade": "2",
+      "field": "Lenguajes",
+      "ppaNumber": "7",
+      "partialClassroomProject": "PPA 7",
+      "partialClassroomProjectTitle": "Manos a la obra... de arte",
+      "bookVolume": "Tomo II",
+      "sourceValidation": {
+        "sourceStatus": "linked",
+        "possibilitiesPages": [
+          21,
+          22
+        ],
+        "possibilitiesMaterialId": "grade-2-posibilidades-pos-len-2",
+        "possibilitiesColumnIndex": 1,
+        "columnEvidence": "Bloque PPA 7 Manos a la obra... de arte localizado en pp. 21-22; la columna 1 se confirma por el orden de proyectos, productos y continuidad del mismo bloque."
+      },
+      "finalProduct": {
+        "title": "Recital poético",
+        "source": "Posibilidades de uso Lenguajes pp. 21-22 + Nuestro libro de proyectos Tomo II pp. 27-30",
+        "status": "confirmed"
+      },
+      "sourcePages": {
+        "nuestroLibroProyectos": [
+          {
+            "materialId": "grade-2-proyectos-nuestro-libro-de-proyectos-tomo-2-segundo-grado",
+            "label": "Nuestro libro de proyectos Tomo II",
+            "startPage": 27,
+            "endPage": 30,
+            "pagesLabel": "pp. 27-30",
+            "topicTitle": "Proyecto academico 19",
+            "status": "confirmed-source"
+          }
+        ],
+        "conceptBook": [
+          {
+            "materialId": "grade-2-conceptos-lenguajes-segundo-grado",
+            "label": "Lenguajes",
+            "startPage": 38,
+            "endPage": 41,
+            "pagesLabel": "pp. 38-41",
+            "topicTitle": "Los recursos literarios como instrumentos para embellecer la lengua",
+            "status": "confirmed-by-column-inference"
+          },
+          {
+            "materialId": "grade-2-conceptos-lenguajes-segundo-grado",
+            "label": "Lenguajes",
+            "startPage": 160,
+            "endPage": 161,
+            "pagesLabel": "pp. 160-161",
+            "topicTitle": "La poesía en la tradición oral indígena",
+            "status": "confirmed-by-column-inference"
+          }
+        ],
+        "multiplesLenguajes": [
+          {
+            "materialId": "grade-2-apoyo-multiples-lenguajes-segundo-grado",
+            "label": "Multiples Lenguajes",
+            "startPage": 54,
+            "endPage": 61,
+            "pagesLabel": "pp. 54-61",
+            "topicTitle": "Un poeta con alas de pintor",
+            "status": "confirmed-by-column-inference"
+          }
+        ],
+        "otherMaterials": [
+          {
+            "label": "Video PPA 7: Manos a la obra... de arte",
+            "reference": "bit.ly/3VfglUk",
+            "status": "pending-validation"
+          }
+        ]
+      },
+      "supportMaterials": [
+        {
+          "title": "Un poeta con alas de pintor",
+          "kind": "Multiples Lenguajes",
+          "pages": "pp. 54-61",
+          "status": "confirmed-by-column-inference"
+        }
+      ],
+      "horizonOrPurpose": {
+        "status": "official",
+        "text": "Reconocer las características y los recursos que embellecen un texto, por medio de un recital poético de autores locales u otros de su interés, con la finalidad de valorar las manifestaciones lingüísticas.",
+        "source": "Nuestro libro de proyectos Tomo II p. 27"
+      },
+      "projectExpectationHorizon": {
+        "officialText": "Investigar la obra de poetas locales u otros de interés, analizar sus recursos estéticos y presentarla en un recital que promueva la expresión de opiniones.",
+        "studentVersion": "Preparar y compartir un recital poético que ayude a valorar la poesía y sus recursos expresivos.",
+        "sourcePages": [
+          "Nuestro libro de proyectos Tomo II p. 28"
+        ],
+        "evidence": "Los objetivos del proyecto vinculan la investigación de poetas, el análisis estético y la presentación pública en un recital.",
+        "status": "official"
+      },
+      "detonatingStrategy": {
+        "status": "pending-url",
+        "text": "Video PPA 7: Manos a la obra... de arte",
+        "reference": "bit.ly/3VfglUk",
+        "source": "Nuestro libro de proyectos Tomo II pp. 25-26 + Posibilidades de uso Lenguajes pp. 21-22"
+      },
+      "academicProjectStrategy": {
+        "title": "Recital poético",
+        "text": "Seleccionar poemas, analizarlos y preparar su recitación para compartirlos como experiencia estética ante la comunidad.",
+        "type": "project-product",
+        "status": "confirmed-from-project-book",
+        "source": "Nuestro libro de proyectos Tomo II pp. 27-30"
+      },
+      "academicConcepts": [
+        {
+          "concept": "recital poético",
+          "description": "Recital poético como producto de cierre para organizar y comunicar aprendizajes del proyecto.",
+          "sourceBook": "Nuestro libro de proyectos Tomo II",
+          "sourcePages": [
+            27,
+            30
+          ],
+          "sourcePagesLabel": "pp. 27-30",
+          "topicTitle": "Proyecto academico 19",
+          "status": "confirmed",
+          "reason": "Posibilidades y el propio proyecto fijan Recital poético como producto final del PA 19.",
+          "pedagogicalUse": "Da una forma concreta de socializar lo comprendido sobre la apreciación de la poesía, sus recursos estéticos y la socialización oral de poemas de interés comunitario.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "poesía",
+          "description": "Poesía es una idea clave para comprender la apreciación de la poesía, sus recursos estéticos y la socialización oral de poemas de interés comunitario.",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            160,
+            161
+          ],
+          "sourcePagesLabel": "pp. 160-161",
+          "topicTitle": "La poesía en la tradición oral indígena",
+          "status": "confirmed",
+          "reason": "La fuente validada \"La poesía en la tradición oral indígena\" aporta base suficiente para trabajar poesía dentro del proyecto 19.",
+          "pedagogicalUse": "Ayuda a fortalecer recital poético y a explicar la apreciación de la poesía, sus recursos estéticos y la socialización oral de poemas de interés comunitario con mayor claridad mediante poesía.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "recursos estéticos",
+          "description": "Recursos estéticos es una idea clave para comprender la apreciación de la poesía, sus recursos estéticos y la socialización oral de poemas de interés comunitario.",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            38,
+            41
+          ],
+          "sourcePagesLabel": "pp. 38-41",
+          "topicTitle": "Los recursos literarios como instrumentos para embellecer la lengua",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Los recursos literarios como instrumentos para embellecer la lengua\" aporta base suficiente para trabajar recursos estéticos dentro del proyecto 19.",
+          "pedagogicalUse": "Ayuda a fortalecer recital poético y a explicar la apreciación de la poesía, sus recursos estéticos y la socialización oral de poemas de interés comunitario con mayor claridad mediante recursos estéticos.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "autores locales",
+          "description": "Poetas cercanos al entorno o a la comunidad cuya obra permite dialogar con experiencias y sensibilidades próximas.",
+          "sourceBook": "Nuestro libro de proyectos Tomo II",
+          "sourcePages": [
+            27,
+            28,
+            29
+          ],
+          "sourcePagesLabel": "pp. 27-29",
+          "topicTitle": "Proyecto académico 19",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Proyecto académico 19\" aporta base suficiente para trabajar autores locales dentro del proyecto 19.",
+          "pedagogicalUse": "Ayuda a fortalecer recital poético y a explicar la apreciación de la poesía, sus recursos estéticos y la socialización oral de poemas de interés comunitario con mayor claridad mediante autores locales.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "declamación poética",
+          "description": "Presentación oral de poemas cuidando voz, ritmo, intención y relación con el público.",
+          "sourceBook": "Nuestro libro de proyectos Tomo II",
+          "sourcePages": [
+            28,
+            29,
+            30
+          ],
+          "sourcePagesLabel": "pp. 28-30",
+          "topicTitle": "Proyecto académico 19",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Proyecto académico 19\" aporta base suficiente para trabajar declamación poética dentro del proyecto 19.",
+          "pedagogicalUse": "Ayuda a fortalecer recital poético y a explicar la apreciación de la poesía, sus recursos estéticos y la socialización oral de poemas de interés comunitario con mayor claridad mediante declamación poética.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "apreciación literaria",
+          "description": "Capacidad de reconocer efectos, recursos y sentidos de una obra para dialogar con ella de forma crítica y sensible.",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            38,
+            41
+          ],
+          "sourcePagesLabel": "pp. 38-41",
+          "topicTitle": "Los recursos literarios como instrumentos para embellecer la lengua",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Los recursos literarios como instrumentos para embellecer la lengua\" aporta base suficiente para trabajar apreciación literaria dentro del proyecto 19.",
+          "pedagogicalUse": "Ayuda a fortalecer recital poético y a explicar la apreciación de la poesía, sus recursos estéticos y la socialización oral de poemas de interés comunitario con mayor claridad mediante apreciación literaria.",
+          "activityReadiness": "usable-for-autoevaluation"
+        }
+      ],
+      "thinkingCriteria": [
+        "Relacionar la apreciación de la poesía, sus recursos estéticos y la socialización oral de poemas de interés comunitario con situaciones cercanas a la comunidad.",
+        "Usar recital poético para explicar y no solo para recopilar informacion.",
+        "Distinguir entre mencionar conceptos y comprender como dialogan entre si dentro del proyecto."
+      ],
+      "validationStatus": {
+        "readinessLevel": "development-partial",
+        "readyForActivities": false,
+        "needsReviewReasons": [
+          "El bloque 7 ya es usable como lectura docente, pero el video del PPA 7 y el recurso informatico siguen pendientes de validacion de destino final.",
+          "La asignacion de apoyos de Posibilidades se sostiene por inferencia curricular documentada y no por OCR perfectamente separado por columnas.",
+          "No mover a actividades interactivas ni desbloquear juegos completos hasta ampliar validacion de videos y recursos complementarios."
+        ]
+      },
+      "readinessLevel": "development-partial",
+      "readyForActivities": false,
+      "needsReviewReasons": [
+        "No mover a actividades interactivas ni desbloquear juegos completos."
+      ],
+      "roleInPpa": "Abre el bloque al hacer visible la poesía como experiencia compartida y como oportunidad para escuchar otras voces.",
+      "pedagogicalUse": "Conviene trabajar Vayamos a la poesía como una oportunidad para profundizar en la apreciación de la poesía, sus recursos estéticos y la socialización oral de poemas de interés comunitario sin separar contenido, comunidad y producto final.",
+      "teacherNotes": [
+        "Conviene partir de ejemplos cercanos y después pasar al lenguaje mas abstracto del campo.",
+        "El producto Recital poético gana fuerza cuando se usa para explicar y no solo para exhibir informacion.",
+        "Es mejor seleccionar pocos conceptos bien comprendidos que saturar el trabajo con terminos aislados."
+      ],
+      "resonancePrompts": [
+        {
+          "type": "individual",
+          "prompt": "¿Qué comprendes mejor sobre la apreciación de la poesía, sus recursos estéticos y la socialización oral de poemas de interés comunitario después de elaborar recital poético?"
+        },
+        {
+          "type": "community",
+          "prompt": "¿Qué diálogos comunitarios podrían fortalecerse si compartimos recital poético y lo ponemos en conversación con otras personas?"
+        }
+      ],
+      "notReadyFor": [
+        "full-games",
+        "summative-exam"
+      ]
+    },
+    {
+      "id": "lenguajes-2-ppa-7-pa20",
+      "projectId": "lenguajes-2-ppa-7-pa20",
+      "academicProjectNumber": 20,
+      "title": "Encuentro de lectores",
+      "projectTitle": "Encuentro de lectores",
+      "grade": "2",
+      "field": "Lenguajes",
+      "ppaNumber": "7",
+      "partialClassroomProject": "PPA 7",
+      "partialClassroomProjectTitle": "Manos a la obra... de arte",
+      "bookVolume": "Tomo II",
+      "sourceValidation": {
+        "sourceStatus": "linked",
+        "possibilitiesPages": [
+          21,
+          22
+        ],
+        "possibilitiesMaterialId": "grade-2-posibilidades-pos-len-2",
+        "possibilitiesColumnIndex": 2,
+        "columnEvidence": "Bloque PPA 7 Manos a la obra... de arte localizado en pp. 21-22; la columna 2 se confirma por el orden de proyectos, productos y continuidad del mismo bloque."
+      },
+      "finalProduct": {
+        "title": "Encuentro de lectores",
+        "source": "Posibilidades de uso Lenguajes pp. 21-22 + Nuestro libro de proyectos Tomo II pp. 31-34",
+        "status": "confirmed"
+      },
+      "sourcePages": {
+        "nuestroLibroProyectos": [
+          {
+            "materialId": "grade-2-proyectos-nuestro-libro-de-proyectos-tomo-2-segundo-grado",
+            "label": "Nuestro libro de proyectos Tomo II",
+            "startPage": 31,
+            "endPage": 34,
+            "pagesLabel": "pp. 31-34",
+            "topicTitle": "Proyecto academico 20",
+            "status": "confirmed-source"
+          }
+        ],
+        "conceptBook": [
+          {
+            "materialId": "grade-2-conceptos-lenguajes-segundo-grado",
+            "label": "Lenguajes",
+            "startPage": 13,
+            "endPage": 16,
+            "pagesLabel": "pp. 13-16",
+            "topicTitle": "La recopilación de los elementos, las características y la función del texto literario",
+            "status": "confirmed-by-column-inference"
+          },
+          {
+            "materialId": "grade-2-conceptos-lenguajes-segundo-grado",
+            "label": "Lenguajes",
+            "startPage": 17,
+            "endPage": 20,
+            "pagesLabel": "pp. 17-20",
+            "topicTitle": "La estructura del comentario literario crítico",
+            "status": "confirmed-by-column-inference"
+          },
+          {
+            "materialId": "grade-2-conceptos-lenguajes-segundo-grado",
+            "label": "Lenguajes",
+            "startPage": 41,
+            "endPage": 44,
+            "pagesLabel": "pp. 41-44",
+            "topicTitle": "El comentario crítico literario",
+            "status": "confirmed-by-column-inference"
+          }
+        ],
+        "multiplesLenguajes": [],
+        "otherMaterials": [
+          {
+            "label": "Video PPA 7: Manos a la obra... de arte",
+            "reference": "bit.ly/3VfglUk",
+            "status": "pending-validation"
+          }
+        ]
+      },
+      "supportMaterials": [],
+      "horizonOrPurpose": {
+        "status": "official",
+        "text": "Llevar a cabo, después de haber hecho algunas lecturas, un encuentro de lectores con la intención de reconocer el cuento como un tipo de manifestación literaria que propicia el gusto por la lectura y el intercambio de opiniones en un panel de discusión.",
+        "source": "Nuestro libro de proyectos Tomo II p. 31"
+      },
+      "projectExpectationHorizon": {
+        "officialText": "Organizar un encuentro de lectores a partir de cuentos previamente leídos, con el fin de promover el gusto por la lectura y el intercambio de opiniones.",
+        "studentVersion": "Leer cuentos, comentarlos y participar en un encuentro de lectores que propicie el diálogo y la recomendación lectora.",
+        "sourcePages": [
+          "Nuestro libro de proyectos Tomo II p. 32"
+        ],
+        "evidence": "La formulación de los objetivos une lectura previa, comentario, recomendación y panel de discusión como núcleo del proyecto.",
+        "status": "official"
+      },
+      "detonatingStrategy": {
+        "status": "pending-url",
+        "text": "Video PPA 7: Manos a la obra... de arte",
+        "reference": "bit.ly/3VfglUk",
+        "source": "Nuestro libro de proyectos Tomo II pp. 29-30 + Posibilidades de uso Lenguajes pp. 21-22"
+      },
+      "academicProjectStrategy": {
+        "title": "Encuentro de lectores",
+        "text": "Leer cuentos, preparar comentarios y organizar un panel de discusión para compartir opiniones y recomendaciones.",
+        "type": "project-product",
+        "status": "confirmed-from-project-book",
+        "source": "Nuestro libro de proyectos Tomo II pp. 31-34"
+      },
+      "academicConcepts": [
+        {
+          "concept": "encuentro de lectores",
+          "description": "Encuentro de lectores como producto de cierre para organizar y comunicar aprendizajes del proyecto.",
+          "sourceBook": "Nuestro libro de proyectos Tomo II",
+          "sourcePages": [
+            31,
+            34
+          ],
+          "sourcePagesLabel": "pp. 31-34",
+          "topicTitle": "Proyecto academico 20",
+          "status": "confirmed",
+          "reason": "Posibilidades y el propio proyecto fijan Encuentro de lectores como producto final del PA 20.",
+          "pedagogicalUse": "Da una forma concreta de socializar lo comprendido sobre el reconocimiento del cuento como manifestación literaria y el intercambio de opiniones mediante un panel de discusión.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "cuento",
+          "description": "Narración breve que organiza acciones, personajes y un conflicto con una intención literaria reconocible.",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            13,
+            16
+          ],
+          "sourcePagesLabel": "pp. 13-16",
+          "topicTitle": "La recopilación de los elementos, las características y la función del texto literario",
+          "status": "confirmed",
+          "reason": "La fuente validada \"La recopilación de los elementos, las características y la función del texto literario\" aporta base suficiente para trabajar cuento dentro del proyecto 20.",
+          "pedagogicalUse": "Ayuda a fortalecer encuentro de lectores y a explicar el reconocimiento del cuento como manifestación literaria y el intercambio de opiniones mediante un panel de discusión con mayor claridad mediante cuento.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "panel de discusión",
+          "description": "Espacio oral organizado en el que varias personas comparten y contrastan puntos de vista sobre un tema o una obra.",
+          "sourceBook": "Nuestro libro de proyectos Tomo II",
+          "sourcePages": [
+            31,
+            32,
+            33
+          ],
+          "sourcePagesLabel": "pp. 31-33",
+          "topicTitle": "Proyecto académico 20",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Proyecto académico 20\" aporta base suficiente para trabajar panel de discusión dentro del proyecto 20.",
+          "pedagogicalUse": "Ayuda a fortalecer encuentro de lectores y a explicar el reconocimiento del cuento como manifestación literaria y el intercambio de opiniones mediante un panel de discusión con mayor claridad mediante panel de discusión.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "recomendación lectora",
+          "description": "Texto u opinión oral que explica por qué una obra vale la pena para otras personas.",
+          "sourceBook": "Nuestro libro de proyectos Tomo II",
+          "sourcePages": [
+            32,
+            33,
+            34
+          ],
+          "sourcePagesLabel": "pp. 32-34",
+          "topicTitle": "Proyecto académico 20",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Proyecto académico 20\" aporta base suficiente para trabajar recomendación lectora dentro del proyecto 20.",
+          "pedagogicalUse": "Ayuda a fortalecer encuentro de lectores y a explicar el reconocimiento del cuento como manifestación literaria y el intercambio de opiniones mediante un panel de discusión con mayor claridad mediante recomendación lectora.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "comentario crítico literario",
+          "description": "Comentario crítico literario es una idea clave para comprender el reconocimiento del cuento como manifestación literaria y el intercambio de opiniones mediante un panel de discusión.",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            41,
+            44
+          ],
+          "sourcePagesLabel": "pp. 41-44",
+          "topicTitle": "El comentario crítico literario",
+          "status": "confirmed",
+          "reason": "La fuente validada \"El comentario crítico literario\" aporta base suficiente para trabajar comentario crítico literario dentro del proyecto 20.",
+          "pedagogicalUse": "Ayuda a fortalecer encuentro de lectores y a explicar el reconocimiento del cuento como manifestación literaria y el intercambio de opiniones mediante un panel de discusión con mayor claridad mediante comentario crítico literario.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "gusto por la lectura",
+          "description": "Disposición favorable hacia la lectura que se fortalece cuando se comparte, se conversa y se encuentra sentido en las obras.",
+          "sourceBook": "Nuestro libro de proyectos Tomo II",
+          "sourcePages": [
+            31,
+            32,
+            34
+          ],
+          "sourcePagesLabel": "pp. 31-34",
+          "topicTitle": "Proyecto académico 20",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Proyecto académico 20\" aporta base suficiente para trabajar gusto por la lectura dentro del proyecto 20.",
+          "pedagogicalUse": "Ayuda a fortalecer encuentro de lectores y a explicar el reconocimiento del cuento como manifestación literaria y el intercambio de opiniones mediante un panel de discusión con mayor claridad mediante gusto por la lectura.",
+          "activityReadiness": "usable-for-autoevaluation"
+        }
+      ],
+      "thinkingCriteria": [
+        "Relacionar el reconocimiento del cuento como manifestación literaria y el intercambio de opiniones mediante un panel de discusión con situaciones cercanas a la comunidad.",
+        "Usar encuentro de lectores para explicar y no solo para recopilar informacion.",
+        "Distinguir entre mencionar conceptos y comprender como dialogan entre si dentro del proyecto."
+      ],
+      "validationStatus": {
+        "readinessLevel": "development-partial",
+        "readyForActivities": false,
+        "needsReviewReasons": [
+          "El bloque 7 ya es usable como lectura docente, pero el video del PPA 7 y el recurso informatico siguen pendientes de validacion de destino final.",
+          "La asignacion de apoyos de Posibilidades se sostiene por inferencia curricular documentada y no por OCR perfectamente separado por columnas.",
+          "No mover a actividades interactivas ni desbloquear juegos completos hasta ampliar validacion de videos y recursos complementarios."
+        ]
+      },
+      "readinessLevel": "development-partial",
+      "readyForActivities": false,
+      "needsReviewReasons": [
+        "No mover a actividades interactivas ni desbloquear juegos completos."
+      ],
+      "roleInPpa": "Profundiza el bloque al llevar la lectura al terreno del diálogo y la recomendación entre pares.",
+      "pedagogicalUse": "Conviene trabajar Encuentro de lectores como una oportunidad para profundizar en el reconocimiento del cuento como manifestación literaria y el intercambio de opiniones mediante un panel de discusión sin separar contenido, comunidad y producto final.",
+      "teacherNotes": [
+        "Conviene partir de ejemplos cercanos y después pasar al lenguaje mas abstracto del campo.",
+        "El producto Encuentro de lectores gana fuerza cuando se usa para explicar y no solo para exhibir informacion.",
+        "Es mejor seleccionar pocos conceptos bien comprendidos que saturar el trabajo con terminos aislados."
+      ],
+      "resonancePrompts": [
+        {
+          "type": "individual",
+          "prompt": "¿Qué comprendes mejor sobre el reconocimiento del cuento como manifestación literaria y el intercambio de opiniones mediante un panel de discusión después de elaborar encuentro de lectores?"
+        },
+        {
+          "type": "community",
+          "prompt": "¿Qué diálogos comunitarios podrían fortalecerse si compartimos encuentro de lectores y lo ponemos en conversación con otras personas?"
+        }
+      ],
+      "notReadyFor": [
+        "full-games",
+        "summative-exam"
+      ]
+    },
+    {
+      "id": "lenguajes-2-ppa-7-pa21",
+      "projectId": "lenguajes-2-ppa-7-pa21",
+      "academicProjectNumber": 21,
+      "title": "Compartamos el arte",
+      "projectTitle": "Compartamos el arte",
+      "grade": "2",
+      "field": "Lenguajes",
+      "ppaNumber": "7",
+      "partialClassroomProject": "PPA 7",
+      "partialClassroomProjectTitle": "Manos a la obra... de arte",
+      "bookVolume": "Tomo II",
+      "sourceValidation": {
+        "sourceStatus": "linked",
+        "possibilitiesPages": [
+          21,
+          22
+        ],
+        "possibilitiesMaterialId": "grade-2-posibilidades-pos-len-2",
+        "possibilitiesColumnIndex": 3,
+        "columnEvidence": "Bloque PPA 7 Manos a la obra... de arte localizado en pp. 21-22; la columna 3 se confirma por el orden de proyectos, productos y continuidad del mismo bloque."
+      },
+      "finalProduct": {
+        "title": "Exhibición de arte",
+        "source": "Posibilidades de uso Lenguajes pp. 21-22 + Nuestro libro de proyectos Tomo II pp. 35-39",
+        "status": "confirmed"
+      },
+      "sourcePages": {
+        "nuestroLibroProyectos": [
+          {
+            "materialId": "grade-2-proyectos-nuestro-libro-de-proyectos-tomo-2-segundo-grado",
+            "label": "Nuestro libro de proyectos Tomo II",
+            "startPage": 35,
+            "endPage": 39,
+            "pagesLabel": "pp. 35-39",
+            "topicTitle": "Proyecto academico 21",
+            "status": "confirmed-source"
+          }
+        ],
+        "conceptBook": [
+          {
+            "materialId": "grade-2-conceptos-lenguajes-segundo-grado",
+            "label": "Lenguajes",
+            "startPage": 89,
+            "endPage": 94,
+            "pagesLabel": "pp. 89-94",
+            "topicTitle": "La pérdida de manifestaciones artísticas no reconocidas",
+            "status": "confirmed-by-column-inference"
+          },
+          {
+            "materialId": "grade-2-conceptos-lenguajes-segundo-grado",
+            "label": "Lenguajes",
+            "startPage": 256,
+            "endPage": 262,
+            "pagesLabel": "pp. 256-262",
+            "topicTitle": "El artivismo",
+            "status": "confirmed-by-column-inference"
+          },
+          {
+            "materialId": "grade-2-conceptos-lenguajes-segundo-grado",
+            "label": "Lenguajes",
+            "startPage": 277,
+            "endPage": 282,
+            "pagesLabel": "pp. 277-282",
+            "topicTitle": "Criterios de evaluación estética",
+            "status": "confirmed-by-column-inference"
+          }
+        ],
+        "multiplesLenguajes": [
+          {
+            "materialId": "grade-2-apoyo-multiples-lenguajes-segundo-grado",
+            "label": "Multiples Lenguajes",
+            "startPage": 36,
+            "endPage": 41,
+            "pagesLabel": "pp. 36-41",
+            "topicTitle": "Surrealismo, el arte de los sueños",
+            "status": "confirmed-by-column-inference"
+          }
+        ],
+        "otherMaterials": [
+          {
+            "label": "Video PPA 7: Manos a la obra... de arte",
+            "reference": "bit.ly/3VfglUk",
+            "status": "pending-validation"
+          }
+        ]
+      },
+      "supportMaterials": [
+        {
+          "title": "Surrealismo, el arte de los sueños",
+          "kind": "Multiples Lenguajes",
+          "pages": "pp. 36-41",
+          "status": "confirmed-by-column-inference"
+        }
+      ],
+      "horizonOrPurpose": {
+        "status": "official",
+        "text": "Realizar una exhibición de arte para reconocer diferentes tipos de manifestaciones artísticas, con el fin de ampliar su bagaje cultural, lingüístico y artístico, y exponerla ante sus compañeras, compañeros y familia.",
+        "source": "Nuestro libro de proyectos Tomo II p. 35"
+      },
+      "projectExpectationHorizon": {
+        "officialText": "Revisar distintos tipos de expresiones artísticas, elegir una temática y organizar una exhibición con obras representativas para ser admiradas y comentadas por la comunidad.",
+        "studentVersion": "Montar una exhibición de arte con una temática clara para ampliar el bagaje cultural y compartirlo con la comunidad.",
+        "sourcePages": [
+          "Nuestro libro de proyectos Tomo II p. 36"
+        ],
+        "evidence": "Los objetivos del proyecto explicitan tanto la selección de obras como su organización y comentario dentro de una exhibición.",
+        "status": "official"
+      },
+      "detonatingStrategy": {
+        "status": "pending-url",
+        "text": "Video PPA 7: Manos a la obra... de arte",
+        "reference": "bit.ly/3VfglUk",
+        "source": "Nuestro libro de proyectos Tomo II pp. 33-34 + Posibilidades de uso Lenguajes pp. 21-22"
+      },
+      "academicProjectStrategy": {
+        "title": "Exhibición de arte",
+        "text": "Seleccionar obras o reproducciones, construir fichas técnicas y organizar una ruta de exhibición que permita apreciarlas y comentarlas.",
+        "type": "project-product",
+        "status": "confirmed-from-project-book",
+        "source": "Nuestro libro de proyectos Tomo II pp. 35-39"
+      },
+      "academicConcepts": [
+        {
+          "concept": "exhibición de arte",
+          "description": "Exhibición de arte como producto de cierre para organizar y comunicar aprendizajes del proyecto.",
+          "sourceBook": "Nuestro libro de proyectos Tomo II",
+          "sourcePages": [
+            35,
+            39
+          ],
+          "sourcePagesLabel": "pp. 35-39",
+          "topicTitle": "Proyecto academico 21",
+          "status": "confirmed",
+          "reason": "Posibilidades y el propio proyecto fijan Exhibición de arte como producto final del PA 21.",
+          "pedagogicalUse": "Da una forma concreta de socializar lo comprendido sobre la apreciación y organización de manifestaciones artísticas diversas para ampliar el bagaje cultural y estético del grupo.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "manifestaciones artísticas",
+          "description": "Diversas formas en que el arte se expresa mediante técnicas, materiales, cuerpos, sonidos o imágenes.",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            89,
+            94
+          ],
+          "sourcePagesLabel": "pp. 89-94",
+          "topicTitle": "La pérdida de manifestaciones artísticas no reconocidas",
+          "status": "confirmed",
+          "reason": "La fuente validada \"La pérdida de manifestaciones artísticas no reconocidas\" aporta base suficiente para trabajar manifestaciones artísticas dentro del proyecto 21.",
+          "pedagogicalUse": "Ayuda a fortalecer exhibición de arte y a explicar la apreciación y organización de manifestaciones artísticas diversas para ampliar el bagaje cultural y estético del grupo con mayor claridad mediante manifestaciones artísticas.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "ficha técnica",
+          "description": "Registro breve que identifica datos básicos de una obra para ayudar a su comprensión y apreciación.",
+          "sourceBook": "Nuestro libro de proyectos Tomo II",
+          "sourcePages": [
+            36,
+            37
+          ],
+          "sourcePagesLabel": "pp. 36-37",
+          "topicTitle": "Proyecto académico 21",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Proyecto académico 21\" aporta base suficiente para trabajar ficha técnica dentro del proyecto 21.",
+          "pedagogicalUse": "Ayuda a fortalecer exhibición de arte y a explicar la apreciación y organización de manifestaciones artísticas diversas para ampliar el bagaje cultural y estético del grupo con mayor claridad mediante ficha técnica.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "curaduría escolar",
+          "description": "Selección y organización intencionada de piezas para comunicar una temática en una exhibición.",
+          "sourceBook": "Nuestro libro de proyectos Tomo II",
+          "sourcePages": [
+            35,
+            36,
+            37
+          ],
+          "sourcePagesLabel": "pp. 35-37",
+          "topicTitle": "Proyecto académico 21",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Proyecto académico 21\" aporta base suficiente para trabajar curaduría escolar dentro del proyecto 21.",
+          "pedagogicalUse": "Ayuda a fortalecer exhibición de arte y a explicar la apreciación y organización de manifestaciones artísticas diversas para ampliar el bagaje cultural y estético del grupo con mayor claridad mediante curaduría escolar.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "bagaje cultural",
+          "description": "Conjunto de referencias, experiencias y saberes que amplían la manera de comprender obras y manifestaciones artísticas.",
+          "sourceBook": "Nuestro libro de proyectos Tomo II",
+          "sourcePages": [
+            35,
+            36
+          ],
+          "sourcePagesLabel": "pp. 35-36",
+          "topicTitle": "Proyecto académico 21",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Proyecto académico 21\" aporta base suficiente para trabajar bagaje cultural dentro del proyecto 21.",
+          "pedagogicalUse": "Ayuda a fortalecer exhibición de arte y a explicar la apreciación y organización de manifestaciones artísticas diversas para ampliar el bagaje cultural y estético del grupo con mayor claridad mediante bagaje cultural.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "artivismo",
+          "description": "Artivismo es una idea clave para comprender la apreciación y organización de manifestaciones artísticas diversas para ampliar el bagaje cultural y estético del grupo.",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            256,
+            262
+          ],
+          "sourcePagesLabel": "pp. 256-262",
+          "topicTitle": "El artivismo",
+          "status": "confirmed",
+          "reason": "La fuente validada \"El artivismo\" aporta base suficiente para trabajar artivismo dentro del proyecto 21.",
+          "pedagogicalUse": "Ayuda a fortalecer exhibición de arte y a explicar la apreciación y organización de manifestaciones artísticas diversas para ampliar el bagaje cultural y estético del grupo con mayor claridad mediante artivismo.",
+          "activityReadiness": "usable-for-autoevaluation"
+        }
+      ],
+      "thinkingCriteria": [
+        "Relacionar la apreciación y organización de manifestaciones artísticas diversas para ampliar el bagaje cultural y estético del grupo con situaciones cercanas a la comunidad.",
+        "Usar exhibición de arte para explicar y no solo para recopilar informacion.",
+        "Distinguir entre mencionar conceptos y comprender como dialogan entre si dentro del proyecto."
+      ],
+      "validationStatus": {
+        "readinessLevel": "development-partial",
+        "readyForActivities": false,
+        "needsReviewReasons": [
+          "El bloque 7 ya es usable como lectura docente, pero el video del PPA 7 y el recurso informatico siguen pendientes de validacion de destino final.",
+          "La asignacion de apoyos de Posibilidades se sostiene por inferencia curricular documentada y no por OCR perfectamente separado por columnas.",
+          "No mover a actividades interactivas ni desbloquear juegos completos hasta ampliar validacion de videos y recursos complementarios."
+        ]
+      },
+      "readinessLevel": "development-partial",
+      "readyForActivities": false,
+      "needsReviewReasons": [
+        "No mover a actividades interactivas ni desbloquear juegos completos."
+      ],
+      "roleInPpa": "Cierra el bloque al trasladar la conversación estética a una exhibición organizada y compartida con la comunidad.",
+      "pedagogicalUse": "Conviene trabajar Compartamos el arte como una oportunidad para profundizar en la apreciación y organización de manifestaciones artísticas diversas para ampliar el bagaje cultural y estético del grupo sin separar contenido, comunidad y producto final.",
+      "teacherNotes": [
+        "Conviene partir de ejemplos cercanos y después pasar al lenguaje mas abstracto del campo.",
+        "El producto Exhibición de arte gana fuerza cuando se usa para explicar y no solo para exhibir informacion.",
+        "Es mejor seleccionar pocos conceptos bien comprendidos que saturar el trabajo con terminos aislados."
+      ],
+      "resonancePrompts": [
+        {
+          "type": "individual",
+          "prompt": "¿Qué comprendes mejor sobre la apreciación y organización de manifestaciones artísticas diversas para ampliar el bagaje cultural y estético del grupo después de elaborar exhibición de arte?"
+        },
+        {
+          "type": "community",
+          "prompt": "¿Qué diálogos comunitarios podrían fortalecerse si compartimos exhibición de arte y lo ponemos en conversación con otras personas?"
+        }
+      ],
+      "notReadyFor": [
+        "full-games",
+        "summative-exam"
+      ]
+    }
+  ]
+}

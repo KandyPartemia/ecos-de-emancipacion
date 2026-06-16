@@ -1,0 +1,680 @@
+{
+  "grade": "1",
+  "gradeLabel": "Primer grado",
+  "field": "Saberes y Pensamiento Cientifico",
+  "bookVolume": "Tomo III",
+  "partialClassroomProject": "PPA 13",
+  "partialClassroomProjectTitle": "Avanzar a paso firme!",
+  "generatedAt": "2026-06-01T13:51:04.147Z",
+  "notes": "Capa curricular aislada para 1o Saberes y Pensamiento Cientifico PPA 13.",
+  "sourcesUsed": [
+    "reports/caracoles/grade1-lenguajes-reading-teacher-hito-2-standard.md",
+    "content/caracoles/curricular-links/grade-1-project-source-links.json",
+    "content/caracoles/generated-private/grade-1/pages-index.full.json",
+    "Posibilidades de uso SyPC, primer grado, pp. 30-31",
+    "Nuestro libro de proyectos Tomo III, primer grado, pp. 116-129",
+    "Saberes y Pensamiento Cientifico, pp. 14-22, 58-64, 84-89 y 170-176"
+  ],
+  "partialClassroomProjectContext": {
+    "expectationHorizon": {
+      "officialText": "",
+      "sourcePages": [
+        "Nuestro libro de proyectos Tomo III pp. 116-129",
+        "Posibilidades de uso SyPC pp. 30-31"
+      ],
+      "evidence": "El PPA 13 articula herramientas, trazos y clasificaciones geometricas para pasar de la observacion de figuras a la construccion y explicacion de sus propiedades.",
+      "status": "pending"
+    },
+    "ppaDetonatingStrategy": {
+      "title": "Avanzar a paso firme!",
+      "type": "video",
+      "url": "",
+      "urlStatus": "pending-url",
+      "reference": "bit.ly/3VfglUk",
+      "source": "Nuestro libro de proyectos Tomo III pp. 116-129 + Posibilidades de uso SyPC pp. 30-31",
+      "scope": "partial-classroom-project",
+      "youtubeSearchQuery": "Avanzar a paso firme! Saberes y Pensamiento Cientifico 1er grado Telesecundaria"
+    },
+    "ppaDigitalResource": {
+      "title": "Recurso informatico del bloque PPA 13",
+      "reference": "bit.ly/3WQBMwg",
+      "status": "pending-validation",
+      "source": "Nuestro libro de proyectos Tomo III, cierre del PPA 13"
+    },
+    "validationStatus": {
+      "needsHumanReview": true,
+      "needsReviewReasons": [
+        "Las pp. 30-31 de Posibilidades corresponden al mismo bloque del PPA 13.",
+        "No se localizaron apoyos de Multiples Lenguajes confirmados para este bloque.",
+        "El video del PPA y el recurso informatico siguen en cautela mediante enlaces cortos."
+      ]
+    },
+    "columnValidation": {
+      "possibilitiesPagesReviewed": [
+        30,
+        31
+      ],
+      "confirmedAsPpa": true,
+      "note": "Las pp. 30-31 de Posibilidades pertenecen al mismo PPA 13. El OCR del bloque confirma proyectos y productos, pero no deja apoyos de Multiples Lenguajes plenamente cerrados.",
+      "columns": [
+        {
+          "columnIndex": 1,
+          "projectId": "saberes-y-pensamiento-cientifico-1-ppa-13-pa37",
+          "projectTitle": "Donde hay materia, hay geometria!",
+          "finalProduct": "Evidencias practicas",
+          "supportMaterials": []
+        },
+        {
+          "columnIndex": 2,
+          "projectId": "saberes-y-pensamiento-cientifico-1-ppa-13-pa38",
+          "projectTitle": "El triangulo y los cuadrilateros",
+          "finalProduct": "Juego geometrico casero",
+          "supportMaterials": []
+        },
+        {
+          "columnIndex": 3,
+          "projectId": "saberes-y-pensamiento-cientifico-1-ppa-13-pa39",
+          "projectTitle": "El estudio de los triangulos",
+          "finalProduct": "Geoplano de figuras recortables",
+          "supportMaterials": []
+        }
+      ]
+    }
+  },
+  "academicProjects": [
+    {
+      "id": "saberes-y-pensamiento-cientifico-1-ppa-13-pa37",
+      "projectId": "saberes-y-pensamiento-cientifico-1-ppa-13-pa37",
+      "academicProjectNumber": 37,
+      "title": "Donde hay materia, hay geometria!",
+      "projectTitle": "Donde hay materia, hay geometria!",
+      "grade": "1",
+      "field": "Saberes y Pensamiento Cientifico",
+      "ppaNumber": "13",
+      "partialClassroomProject": "PPA 13",
+      "partialClassroomProjectTitle": "Avanzar a paso firme!",
+      "bookVolume": "Tomo III",
+      "sourceValidation": {
+        "sourceStatus": "linked",
+        "possibilitiesPages": [
+          30,
+          31
+        ],
+        "possibilitiesMaterialId": "grade-1-posibilidades-pos-sypc-1",
+        "possibilitiesColumnIndex": 1,
+        "columnEvidence": "Bloque PPA 13 Avanzar a paso firme! localizado en pp. 30-31; la columna 1 se confirma por el orden de proyectos, productos y continuidad del mismo bloque."
+      },
+      "finalProduct": {
+        "title": "Evidencias practicas",
+        "source": "Posibilidades de uso SyPC pp. 30-31 + Nuestro libro de proyectos Tomo III pp. 118-121",
+        "status": "confirmed"
+      },
+      "sourcePages": {
+        "nuestroLibroProyectos": [
+          {
+            "materialId": "grade-1-proyectos-nuestro-libro-de-proyectos-tomo-iii-primer-grado",
+            "label": "Nuestro libro de proyectos Tomo III",
+            "startPage": 118,
+            "endPage": 121,
+            "pagesLabel": "pp. 118-121",
+            "topicTitle": "Proyecto academico 37",
+            "status": "confirmed-source"
+          }
+        ],
+        "conceptBook": [
+          {
+            "materialId": "grade-1-conceptos-saberes-y-pensamiento-cientifico-primer-grado",
+            "label": "Saberes y Pensamiento Cientifico",
+            "startPage": 14,
+            "endPage": 22,
+            "pagesLabel": "pp. 14-22",
+            "topicTitle": "Angulos",
+            "status": "confirmed-source"
+          },
+          {
+            "materialId": "grade-1-conceptos-saberes-y-pensamiento-cientifico-primer-grado",
+            "label": "Saberes y Pensamiento Cientifico",
+            "startPage": 170,
+            "endPage": 176,
+            "pagesLabel": "pp. 170-176",
+            "topicTitle": "Rectas notables",
+            "status": "confirmed-source"
+          }
+        ],
+        "multiplesLenguajes": [],
+        "otherMaterials": [
+          {
+            "label": "Video PPA 13: Avanzar a paso firme!",
+            "reference": "bit.ly/3VfglUk",
+            "status": "pending-validation",
+            "youtubeSearchQuery": "Avanzar a paso firme! Saberes y Pensamiento Cientifico 1er grado Telesecundaria"
+          }
+        ]
+      },
+      "supportMaterials": [],
+      "horizonOrPurpose": {
+        "status": "official",
+        "text": "Exhibir evidencias practicas para mostrar el uso de la regla, el compas y las escuadras al trazar punto medio, mediatriz, bisectriz, rectas perpendiculares y rectas paralelas.",
+        "source": "Nuestro libro de proyectos Tomo III p. 118"
+      },
+      "projectExpectationHorizon": {
+        "officialText": "Explicar y poner en practica distintos trazos geometricos mediante evidencias claras y comentadas.",
+        "studentVersion": "Aprender a usar herramientas geometricas para construir trazos con sentido y poder explicarlos.",
+        "sourcePages": [
+          "Nuestro libro de proyectos Tomo III p. 119"
+        ],
+        "evidence": "La etapa 1, la etapa 3 o los objetivos del proyecto permiten fijar un horizonte de expectativas util para la lectura docente del PA.",
+        "status": "confirmed-from-project-book"
+      },
+      "detonatingStrategy": {
+        "status": "pending-url",
+        "text": "Video PPA 13: Avanzar a paso firme!",
+        "reference": "bit.ly/3VfglUk",
+        "source": "Nuestro libro de proyectos Tomo III pp. 118-121"
+      },
+      "academicProjectStrategy": {
+        "title": "Evidencias practicas",
+        "text": "Mostrar procedimientos geometricos resueltos y comentados para hacer visible como se construye cada trazo.",
+        "type": "practical-evidence",
+        "status": "confirmed-from-project-book",
+        "source": "Nuestro libro de proyectos Tomo III pp. 118-121"
+      },
+      "academicConcepts": [
+        {
+          "concept": "evidencias practicas",
+          "description": "Muestras de trazos o procedimientos que permiten explicar como se resolvio una construccion.",
+          "sourceBook": "Nuestro libro de proyectos Tomo III",
+          "sourcePages": [
+            118,
+            119,
+            120,
+            121
+          ],
+          "sourcePagesLabel": "pp. 118-121",
+          "topicTitle": "Proyecto academico 37",
+          "status": "confirmed",
+          "reason": "Posibilidades y el proyecto fijan este producto como cierre del PA 37.",
+          "pedagogicalUse": "Permiten comentar el procedimiento y no solo mirar el resultado final.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "punto medio",
+          "description": "Punto que divide un segmento en dos partes de la misma longitud.",
+          "sourceBook": "Nuestro libro de proyectos Tomo III",
+          "sourcePages": [
+            118,
+            119
+          ],
+          "sourcePagesLabel": "pp. 118-119",
+          "topicTitle": "Proyecto academico 37",
+          "status": "confirmed",
+          "reason": "La etapa 1 lo incluye de manera explicita dentro de los trazos a construir.",
+          "pedagogicalUse": "Sirve para introducir la idea de precision en las construcciones geometricas.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "mediatriz",
+          "description": "Recta perpendicular que pasa por el punto medio de un segmento.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            170,
+            173
+          ],
+          "sourcePagesLabel": "pp. 170-173",
+          "topicTitle": "Rectas notables",
+          "status": "confirmed",
+          "reason": "El libro del campo la desarrolla y el proyecto la recupera como trazo principal.",
+          "pedagogicalUse": "Ayuda a relacionar segmentos, perpendicularidad y punto medio en una sola construccion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "bisectriz",
+          "description": "Semirrecta o recta que divide un angulo en dos angulos iguales.",
+          "sourceBook": "Nuestro libro de proyectos Tomo III",
+          "sourcePages": [
+            118,
+            119
+          ],
+          "sourcePagesLabel": "pp. 118-119",
+          "topicTitle": "Proyecto academico 37",
+          "status": "confirmed",
+          "reason": "El proyecto la pide como una de las construcciones que deben mostrarse en las evidencias.",
+          "pedagogicalUse": "Permite conectar medicion, comparacion y trazo de angulos.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "rectas perpendiculares",
+          "description": "Rectas que se cruzan formando angulos rectos.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            19,
+            22
+          ],
+          "sourcePagesLabel": "pp. 19-22",
+          "topicTitle": "Angulos",
+          "status": "confirmed",
+          "reason": "La etapa 1 las incluye entre los trazos a construir y el libro del campo da base para reconocerlas.",
+          "pedagogicalUse": "Ayudan a vincular la construccion geometrica con referencias del espacio cotidiano.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "rectas paralelas",
+          "description": "Rectas que mantienen la misma direccion y no se cruzan.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            84,
+            85
+          ],
+          "sourcePagesLabel": "pp. 84-85",
+          "topicTitle": "Medicion y calculo",
+          "status": "confirmed",
+          "reason": "El proyecto las recupera como una de las construcciones practicas del bloque.",
+          "pedagogicalUse": "Permiten reconocer orden y separacion en figuras y objetos del entorno.",
+          "activityReadiness": "usable-for-autoevaluation"
+        }
+      ],
+      "thinkingCriteria": [
+        "Explicar cada construccion con lenguaje claro y no solo mostrar el trazo terminado.",
+        "Relacionar las herramientas geometricas con la precision que exigen las figuras."
+      ],
+      "pedagogicalUse": "Conviene que las evidencias practicas incluyan marcas y anotaciones del procedimiento para hacer visible el razonamiento.",
+      "communityQuestion": "En que oficios, objetos o espacios de la comunidad vemos trazos geometricos que requieren precision semejante?",
+      "notesForTeacher": {
+        "status": "teacher-orientation",
+        "teacherUse": "Conviene que las evidencias practicas incluyan marcas y anotaciones del procedimiento para hacer visible el razonamiento.",
+        "caution": [
+          "El video del PPA 13 y el recurso informatico siguen pendientes de validacion de destino final.",
+          "No se localizaron apoyos de Multiples Lenguajes plenamente confirmados para este proyecto."
+        ]
+      },
+      "readinessLevel": "development-partial",
+      "readyForActivities": false,
+      "needsReviewReasons": [
+        "No mover a actividades interactivas ni desbloquear juegos completos."
+      ]
+    },
+    {
+      "id": "saberes-y-pensamiento-cientifico-1-ppa-13-pa38",
+      "projectId": "saberes-y-pensamiento-cientifico-1-ppa-13-pa38",
+      "academicProjectNumber": 38,
+      "title": "El triangulo y los cuadrilateros",
+      "projectTitle": "El triangulo y los cuadrilateros",
+      "grade": "1",
+      "field": "Saberes y Pensamiento Cientifico",
+      "ppaNumber": "13",
+      "partialClassroomProject": "PPA 13",
+      "partialClassroomProjectTitle": "Avanzar a paso firme!",
+      "bookVolume": "Tomo III",
+      "sourceValidation": {
+        "sourceStatus": "linked",
+        "possibilitiesPages": [
+          30,
+          31
+        ],
+        "possibilitiesMaterialId": "grade-1-posibilidades-pos-sypc-1",
+        "possibilitiesColumnIndex": 2,
+        "columnEvidence": "Bloque PPA 13 Avanzar a paso firme! localizado en pp. 30-31; la columna 2 se confirma por el orden de proyectos, productos y continuidad del mismo bloque."
+      },
+      "finalProduct": {
+        "title": "Juego geometrico casero",
+        "source": "Posibilidades de uso SyPC pp. 30-31 + Nuestro libro de proyectos Tomo III pp. 122-125",
+        "status": "confirmed"
+      },
+      "sourcePages": {
+        "nuestroLibroProyectos": [
+          {
+            "materialId": "grade-1-proyectos-nuestro-libro-de-proyectos-tomo-iii-primer-grado",
+            "label": "Nuestro libro de proyectos Tomo III",
+            "startPage": 122,
+            "endPage": 125,
+            "pagesLabel": "pp. 122-125",
+            "topicTitle": "Proyecto academico 38",
+            "status": "confirmed-source"
+          }
+        ],
+        "conceptBook": [
+          {
+            "materialId": "grade-1-conceptos-saberes-y-pensamiento-cientifico-primer-grado",
+            "label": "Saberes y Pensamiento Cientifico",
+            "startPage": 58,
+            "endPage": 64,
+            "pagesLabel": "pp. 58-64",
+            "topicTitle": "Figuras planas",
+            "status": "confirmed-source"
+          },
+          {
+            "materialId": "grade-1-conceptos-saberes-y-pensamiento-cientifico-primer-grado",
+            "label": "Saberes y Pensamiento Cientifico",
+            "startPage": 170,
+            "endPage": 176,
+            "pagesLabel": "pp. 170-176",
+            "topicTitle": "Rectas notables",
+            "status": "confirmed-source"
+          }
+        ],
+        "multiplesLenguajes": [],
+        "otherMaterials": [
+          {
+            "label": "Video PPA 13: Avanzar a paso firme!",
+            "reference": "bit.ly/3VfglUk",
+            "status": "pending-validation",
+            "youtubeSearchQuery": "Avanzar a paso firme! Saberes y Pensamiento Cientifico 1er grado Telesecundaria"
+          }
+        ]
+      },
+      "supportMaterials": [],
+      "horizonOrPurpose": {
+        "status": "official",
+        "text": "Realizar ejercicios de triangulos y cuadrilateros con apoyo de un juego geometrico casero para reconocer, comparar y explicar sus rasgos.",
+        "source": "Nuestro libro de proyectos Tomo III p. 122"
+      },
+      "projectExpectationHorizon": {
+        "officialText": "Usar un juego geometrico casero para construir, comparar y explicar triangulos y cuadrilateros.",
+        "studentVersion": "Aprender a reconocer y construir triangulos y cuadrilateros usando materiales sencillos y reglas claras.",
+        "sourcePages": [
+          "Nuestro libro de proyectos Tomo III p. 123"
+        ],
+        "evidence": "La etapa 1, la etapa 3 o los objetivos del proyecto permiten fijar un horizonte de expectativas util para la lectura docente del PA.",
+        "status": "confirmed-from-project-book"
+      },
+      "detonatingStrategy": {
+        "status": "pending-url",
+        "text": "Video PPA 13: Avanzar a paso firme!",
+        "reference": "bit.ly/3VfglUk",
+        "source": "Nuestro libro de proyectos Tomo III pp. 122-125"
+      },
+      "academicProjectStrategy": {
+        "title": "Juego geometrico casero",
+        "text": "Convertir la clasificacion y construccion de figuras en una experiencia manipulable y comparativa.",
+        "type": "didactic-game",
+        "status": "confirmed-from-project-book",
+        "source": "Nuestro libro de proyectos Tomo III pp. 122-125"
+      },
+      "academicConcepts": [
+        {
+          "concept": "juego geometrico casero",
+          "description": "Material manipulable creado con recursos sencillos para explorar y comparar figuras.",
+          "sourceBook": "Nuestro libro de proyectos Tomo III",
+          "sourcePages": [
+            122,
+            123,
+            124,
+            125
+          ],
+          "sourcePagesLabel": "pp. 122-125",
+          "topicTitle": "Proyecto academico 38",
+          "status": "confirmed",
+          "reason": "Posibilidades y el proyecto lo fijan como producto final del PA 38.",
+          "pedagogicalUse": "Vuelve la geometria mas manipulable y facilita la comparacion entre figuras.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "triangulos",
+          "description": "Figuras planas de tres lados que pueden construirse y compararse por distintas caracteristicas.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            59,
+            61
+          ],
+          "sourcePagesLabel": "pp. 59-61",
+          "topicTitle": "Figuras planas",
+          "status": "confirmed",
+          "reason": "La etapa 1 del proyecto los coloca como una de las dos familias geometricas centrales del trabajo.",
+          "pedagogicalUse": "Permiten construir criterios de clasificacion y no solo reconocimiento visual.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "cuadrilateros",
+          "description": "Figuras planas de cuatro lados con formas y propiedades diversas.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            62,
+            64
+          ],
+          "sourcePagesLabel": "pp. 62-64",
+          "topicTitle": "Figuras planas",
+          "status": "confirmed",
+          "reason": "El proyecto los trabaja junto con los triangulos para comparar familias geometricas.",
+          "pedagogicalUse": "Ayudan a leer semejanzas y diferencias entre figuras de uso comun.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "rectas notables en triangulos",
+          "description": "Trazos relevantes dentro del triangulo que ayudan a estudiar sus propiedades.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            171,
+            173
+          ],
+          "sourcePagesLabel": "pp. 171-173",
+          "topicTitle": "Rectas notables",
+          "status": "confirmed",
+          "reason": "Posibilidades vincula estas paginas del libro del campo con el proyecto del juego geometrico.",
+          "pedagogicalUse": "Permiten enriquecer la construccion de triangulos con relaciones internas mas finas.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "alturas y diagonales en cuadrilateros",
+          "description": "Segmentos que ayudan a analizar y comparar distintas clases de cuadrilateros.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            174,
+            176
+          ],
+          "sourcePagesLabel": "pp. 174-176",
+          "topicTitle": "Rectas notables",
+          "status": "confirmed",
+          "reason": "El tramo confirmado del libro del campo los desarrolla y fortalece la lectura del proyecto.",
+          "pedagogicalUse": "Ayudan a mirar los cuadrilateros mas alla de su contorno externo.",
+          "activityReadiness": "usable-for-autoevaluation"
+        }
+      ],
+      "thinkingCriteria": [
+        "Comparar figuras por sus rasgos y no solo por su apariencia general.",
+        "Usar el juego geometrico para argumentar y no solo para jugar sin explicacion."
+      ],
+      "pedagogicalUse": "El juego funciona mejor cuando cada movimiento obliga a justificar por que una figura pertenece a cierta clase.",
+      "communityQuestion": "Que objetos de la comunidad podrian clasificarse o reconstruirse a partir de triangulos y cuadrilateros?",
+      "notesForTeacher": {
+        "status": "teacher-orientation",
+        "teacherUse": "El juego funciona mejor cuando cada movimiento obliga a justificar por que una figura pertenece a cierta clase.",
+        "caution": [
+          "El video del PPA 13 y el recurso informatico siguen pendientes de validacion de destino final.",
+          "No se localizaron apoyos de Multiples Lenguajes plenamente confirmados para este proyecto."
+        ]
+      },
+      "readinessLevel": "development-partial",
+      "readyForActivities": false,
+      "needsReviewReasons": [
+        "No mover a actividades interactivas ni desbloquear juegos completos."
+      ]
+    },
+    {
+      "id": "saberes-y-pensamiento-cientifico-1-ppa-13-pa39",
+      "projectId": "saberes-y-pensamiento-cientifico-1-ppa-13-pa39",
+      "academicProjectNumber": 39,
+      "title": "El estudio de los triangulos",
+      "projectTitle": "El estudio de los triangulos",
+      "grade": "1",
+      "field": "Saberes y Pensamiento Cientifico",
+      "ppaNumber": "13",
+      "partialClassroomProject": "PPA 13",
+      "partialClassroomProjectTitle": "Avanzar a paso firme!",
+      "bookVolume": "Tomo III",
+      "sourceValidation": {
+        "sourceStatus": "linked",
+        "possibilitiesPages": [
+          30,
+          31
+        ],
+        "possibilitiesMaterialId": "grade-1-posibilidades-pos-sypc-1",
+        "possibilitiesColumnIndex": 3,
+        "columnEvidence": "Bloque PPA 13 Avanzar a paso firme! localizado en pp. 30-31; la columna 3 se confirma por el orden de proyectos, productos y continuidad del mismo bloque."
+      },
+      "finalProduct": {
+        "title": "Geoplano de figuras recortables",
+        "source": "Posibilidades de uso SyPC pp. 30-31 + Nuestro libro de proyectos Tomo III pp. 126-129",
+        "status": "confirmed"
+      },
+      "sourcePages": {
+        "nuestroLibroProyectos": [
+          {
+            "materialId": "grade-1-proyectos-nuestro-libro-de-proyectos-tomo-iii-primer-grado",
+            "label": "Nuestro libro de proyectos Tomo III",
+            "startPage": 126,
+            "endPage": 129,
+            "pagesLabel": "pp. 126-129",
+            "topicTitle": "Proyecto academico 39",
+            "status": "confirmed-source"
+          }
+        ],
+        "conceptBook": [
+          {
+            "materialId": "grade-1-conceptos-saberes-y-pensamiento-cientifico-primer-grado",
+            "label": "Saberes y Pensamiento Cientifico",
+            "startPage": 58,
+            "endPage": 64,
+            "pagesLabel": "pp. 58-64",
+            "topicTitle": "Figuras planas",
+            "status": "confirmed-source"
+          }
+        ],
+        "multiplesLenguajes": [],
+        "otherMaterials": [
+          {
+            "label": "Video PPA 13: Avanzar a paso firme!",
+            "reference": "bit.ly/3VfglUk",
+            "status": "pending-validation",
+            "youtubeSearchQuery": "Avanzar a paso firme! Saberes y Pensamiento Cientifico 1er grado Telesecundaria"
+          }
+        ]
+      },
+      "supportMaterials": [],
+      "horizonOrPurpose": {
+        "status": "official",
+        "text": "Interpretar informacion mediante un geoplano de figuras recortables para construir y clasificar triangulos y cuadrilateros.",
+        "source": "Nuestro libro de proyectos Tomo III p. 126"
+      },
+      "projectExpectationHorizon": {
+        "officialText": "Construir y clasificar triangulos y cuadrilateros con apoyo de un geoplano de figuras recortables.",
+        "studentVersion": "Comprender mejor como se construyen y clasifican distintas figuras planas al manipularlas directamente.",
+        "sourcePages": [
+          "Nuestro libro de proyectos Tomo III p. 127"
+        ],
+        "evidence": "La etapa 1, la etapa 3 o los objetivos del proyecto permiten fijar un horizonte de expectativas util para la lectura docente del PA.",
+        "status": "confirmed-from-project-book"
+      },
+      "detonatingStrategy": {
+        "status": "pending-url",
+        "text": "Video PPA 13: Avanzar a paso firme!",
+        "reference": "bit.ly/3VfglUk",
+        "source": "Nuestro libro de proyectos Tomo III pp. 126-129"
+      },
+      "academicProjectStrategy": {
+        "title": "Geoplano de figuras recortables",
+        "text": "Usar un recurso manipulable para construir figuras, compararlas y comentar sus rasgos.",
+        "type": "geoboard",
+        "status": "confirmed-from-project-book",
+        "source": "Nuestro libro de proyectos Tomo III pp. 126-129"
+      },
+      "academicConcepts": [
+        {
+          "concept": "geoplano de figuras recortables",
+          "description": "Recurso manipulable que permite construir y comparar figuras con apoyo de puntos, ligas o piezas recortadas.",
+          "sourceBook": "Nuestro libro de proyectos Tomo III",
+          "sourcePages": [
+            126,
+            127,
+            128,
+            129
+          ],
+          "sourcePagesLabel": "pp. 126-129",
+          "topicTitle": "Proyecto academico 39",
+          "status": "confirmed",
+          "reason": "Posibilidades y el proyecto fijan este producto final para el PA 39.",
+          "pedagogicalUse": "Hace visible la construccion de figuras y permite modificarla para comparar resultados.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "construccion de triangulos",
+          "description": "Proceso de trazar o formar triangulos a partir de condiciones dadas.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            59,
+            61
+          ],
+          "sourcePagesLabel": "pp. 59-61",
+          "topicTitle": "Figuras planas",
+          "status": "confirmed",
+          "reason": "El libro del campo la desarrolla y el proyecto la recupera como tarea practica central.",
+          "pedagogicalUse": "Permite que el estudiantado pase de reconocer figuras a producirlas con criterio.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "clasificacion de triangulos",
+          "description": "Organizacion de triangulos segun caracteristicas de sus lados o sus angulos.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            59,
+            61
+          ],
+          "sourcePagesLabel": "pp. 59-61",
+          "topicTitle": "Figuras planas",
+          "status": "confirmed",
+          "reason": "La etapa 1 del proyecto requiere esta clasificacion como parte de la interpretacion del geoplano.",
+          "pedagogicalUse": "Da lenguaje preciso para comparar y justificar semejanzas o diferencias.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "construccion de cuadrilateros",
+          "description": "Proceso de formar cuadrilateros atendiendo a sus lados, angulos y diagonales.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            62,
+            64
+          ],
+          "sourcePagesLabel": "pp. 62-64",
+          "topicTitle": "Figuras planas",
+          "status": "confirmed",
+          "reason": "Las paginas confirmadas del libro del campo la desarrollan y el proyecto la necesita.",
+          "pedagogicalUse": "Amplia el trabajo del geoplano hacia otras familias geometricas cercanas.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "clasificacion de cuadrilateros",
+          "description": "Agrupacion de cuadrilateros por rasgos como lados paralelos, iguales o angulos caracteristicos.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            62,
+            64
+          ],
+          "sourcePagesLabel": "pp. 62-64",
+          "topicTitle": "Figuras planas",
+          "status": "confirmed",
+          "reason": "El proyecto cierra el bloque pidiendo construir y clasificar tambien estas figuras.",
+          "pedagogicalUse": "Permite comparar familias geometricas y organizar el conocimiento con criterios claros.",
+          "activityReadiness": "usable-for-autoevaluation"
+        }
+      ],
+      "thinkingCriteria": [
+        "Usar el geoplano para experimentar, comprobar y justificar clasificaciones.",
+        "Explicar las diferencias entre figuras con criterios geometricos y no solo visuales."
+      ],
+      "pedagogicalUse": "El geoplano rinde mas cuando se usa para ensayar, comparar y corregir construcciones frente al grupo.",
+      "communityQuestion": "Que aprendemos cuando una misma figura se puede construir de varias maneras pero conserva ciertos rasgos esenciales?",
+      "notesForTeacher": {
+        "status": "teacher-orientation",
+        "teacherUse": "El geoplano rinde mas cuando se usa para ensayar, comparar y corregir construcciones frente al grupo.",
+        "caution": [
+          "El video del PPA 13 y el recurso informatico siguen pendientes de validacion de destino final.",
+          "No se localizaron apoyos de Multiples Lenguajes plenamente confirmados para este proyecto."
+        ]
+      },
+      "readinessLevel": "development-partial",
+      "readyForActivities": false,
+      "needsReviewReasons": [
+        "No mover a actividades interactivas ni desbloquear juegos completos."
+      ]
+    }
+  ]
+}

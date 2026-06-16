@@ -1,0 +1,765 @@
+{
+  "grade": "2",
+  "gradeLabel": "Segundo grado",
+  "field": "Saberes y Pensamiento Científico",
+  "bookVolume": "Tomo III",
+  "partialClassroomProject": "PPA 11",
+  "partialClassroomProjectTitle": "Notación científica y figuras geométricas",
+  "generatedAt": "2026-06-02T18:43:23.542Z",
+  "notes": "Capa curricular generada por lote para 2o Saberes y Pensamiento Científico, PPA 11.",
+  "sourcesUsed": [
+    "public/caracoles/data/generated/grade-2/selectable-projects.json",
+    "content/caracoles/generated-private/grade-2/pages-index.full.json",
+    "Posibilidades de uso SyPC, segundo grado, pp. 28-29",
+    "Nuestro libro de proyectos Tomo III, segundo grado, pp. 91-105",
+    "Saberes y Pensamiento Científico, segundo grado, pp. 14-16, 22-26, 41-46, 47-51, 62-68, 144-151 y 249-256; Múltiples Lenguajes pp. 76-80."
+  ],
+  "partialClassroomProjectContext": {
+    "expectationHorizon": {
+      "officialText": "",
+      "sourcePages": [
+        "Nuestro libro de proyectos Tomo III pp. 91-92",
+        "Posibilidades de uso SyPC pp. 28-29"
+      ],
+      "evidence": "El PPA 11 enlaza medición, construcción geométrica y proporcionalidad inversa para que el grupo comunique cantidades, formas y relaciones matemáticas con productos de exposición pública.",
+      "status": "pending"
+    },
+    "ppaDetonatingStrategy": {
+      "title": "Notación científica y figuras geométricas",
+      "type": "video",
+      "url": "",
+      "urlStatus": "pending-url",
+      "reference": "bit.ly/3VfglUk",
+      "source": "Nuestro libro de proyectos Tomo III pp. 91-92 + Posibilidades de uso SyPC pp. 28-29",
+      "scope": "partial-classroom-project",
+      "youtubeSearchQuery": "Notación científica y figuras geométricas Saberes y Pensamiento Científico 2do grado Telesecundaria"
+    },
+    "ppaDigitalResource": {
+      "title": "Recurso informatico del bloque PPA 11",
+      "reference": "bit.ly/3WQBMwg",
+      "status": "pending-validation",
+      "source": "Nuestro libro de proyectos Tomo III pp. 91-105"
+    },
+    "validationStatus": {
+      "needsHumanReview": true,
+      "needsReviewReasons": [
+        "Las pp. 28-29 de Posibilidades pertenecen al mismo PPA 11.",
+        "La asignacion de apoyos por columna se fija por inferencia curricular documentada de izquierda a derecha.",
+        "Los enlaces cortos del video del PPA y del recurso informatico se mantienen en cautela hasta localizar un destino oficial confirmado.",
+        "El apoyo de Múltiples Lenguajes Cubismo, el arte de la geometría se asigna a la segunda columna por afinidad temática y ubicación de la tabla."
+      ]
+    },
+    "columnValidation": {
+      "possibilitiesPagesReviewed": [
+        28,
+        29
+      ],
+      "confirmedAsPpa": true,
+      "note": "Las pp. 28-29 corresponden al PPA 11 Notación científica y figuras geométricas. Las tres columnas se sostienen por el orden de proyectos, productos y apoyos del mismo bloque.",
+      "columns": [
+        {
+          "columnIndex": 1,
+          "projectId": "saberes-y-pensamiento-cientifico-2-ppa-11-pa31",
+          "projectTitle": "¡Con lo que contamos!",
+          "finalProduct": "Exposición de conversiones",
+          "supportMaterials": []
+        },
+        {
+          "columnIndex": 2,
+          "projectId": "saberes-y-pensamiento-cientifico-2-ppa-11-pa32",
+          "projectTitle": "Las figuras geométricas y cómo construirlas",
+          "finalProduct": "Feria geométrica",
+          "supportMaterials": [
+            "Cubismo, el arte de la geometría, pp. 76-80"
+          ]
+        },
+        {
+          "columnIndex": 3,
+          "projectId": "saberes-y-pensamiento-cientifico-2-ppa-11-pa33",
+          "projectTitle": "¡Si cada vez son más, a cada uno le toca menos!",
+          "finalProduct": "Museo de gráficas y modelos matemáticos murales",
+          "supportMaterials": []
+        }
+      ]
+    }
+  },
+  "academicProjects": [
+    {
+      "id": "saberes-y-pensamiento-cientifico-2-ppa-11-pa31",
+      "projectId": "saberes-y-pensamiento-cientifico-2-ppa-11-pa31",
+      "academicProjectNumber": 31,
+      "title": "¡Con lo que contamos!",
+      "projectTitle": "¡Con lo que contamos!",
+      "grade": "2",
+      "field": "Saberes y Pensamiento Científico",
+      "ppaNumber": "11",
+      "partialClassroomProject": "PPA 11",
+      "partialClassroomProjectTitle": "Notación científica y figuras geométricas",
+      "bookVolume": "Tomo III",
+      "sourceValidation": {
+        "sourceStatus": "linked",
+        "possibilitiesPages": [
+          28,
+          29
+        ],
+        "possibilitiesMaterialId": "grade-2-posibilidades-pos-sypc-2",
+        "possibilitiesColumnIndex": 1,
+        "columnEvidence": "Bloque PPA 11 Notación científica y figuras geométricas localizado en pp. 28-29; la columna 1 se confirma por el orden de proyectos, productos y continuidad del mismo bloque."
+      },
+      "finalProduct": {
+        "title": "Exposición de conversiones",
+        "source": "Posibilidades de uso SyPC pp. 28-29 + Nuestro libro de proyectos Tomo III pp. 93-97",
+        "status": "confirmed"
+      },
+      "sourcePages": {
+        "nuestroLibroProyectos": [
+          {
+            "materialId": "grade-2-proyectos-nuestro-libro-de-proyectos-tomo-3-segundo-grado",
+            "label": "Nuestro libro de proyectos Tomo III",
+            "startPage": 93,
+            "endPage": 97,
+            "pagesLabel": "pp. 93-97",
+            "topicTitle": "Proyecto academico 31",
+            "status": "confirmed-source"
+          }
+        ],
+        "conceptBook": [
+          {
+            "materialId": "grade-2-conceptos-saberes-y-pensamiento-cientifico-segundo-grado",
+            "label": "Saberes y Pensamiento Científico",
+            "startPage": 22,
+            "endPage": 26,
+            "pagesLabel": "pp. 22-26",
+            "topicTitle": "Propiedades de los exponentes para la resolución de operaciones algebraicas",
+            "status": "confirmed-by-column-inference"
+          },
+          {
+            "materialId": "grade-2-conceptos-saberes-y-pensamiento-cientifico-segundo-grado",
+            "label": "Saberes y Pensamiento Científico",
+            "startPage": 62,
+            "endPage": 68,
+            "pagesLabel": "pp. 62-68",
+            "topicTitle": "Múltiplos y submúltiplos de sistemas de medidas",
+            "status": "confirmed-by-column-inference"
+          },
+          {
+            "materialId": "grade-2-conceptos-saberes-y-pensamiento-cientifico-segundo-grado",
+            "label": "Saberes y Pensamiento Científico",
+            "startPage": 249,
+            "endPage": 256,
+            "pagesLabel": "pp. 249-256",
+            "topicTitle": "Metrología",
+            "status": "confirmed-by-column-inference"
+          }
+        ],
+        "multiplesLenguajes": [],
+        "otherMaterials": [
+          {
+            "label": "Video PPA 11: Notación científica y figuras geométricas",
+            "reference": "bit.ly/3VfglUk",
+            "status": "pending-validation"
+          }
+        ]
+      },
+      "supportMaterials": [],
+      "horizonOrPurpose": {
+        "status": "official",
+        "text": "Aplicar la notación científica, las potencias con exponente entero y la raíz cuadrada en cálculos hechos con instrumentos de medición, de magnitudes muy grandes o demasiado pequeñas; asimismo, analizar el uso de múltiplos y submúltiplos al referirse a dichas magnitudes para concluir sobre la conveniencia de su uso en una exposición de conversiones.",
+        "source": "Nuestro libro de proyectos Tomo III p. 93"
+      },
+      "projectExpectationHorizon": {
+        "officialText": "Revisar la información correspondiente a la notación científica, a las potencias con exponente entero y la raíz cuadrada en cálculos, hechos con instrumentos de medición, de magnitudes muy grandes o demasiado pequeñas, y analizar el uso de múltiplos y submúltiplos al referirse a dichas magnitudes para concluir sobre la conveniencia de su uso en una exposición de conversiones.",
+        "studentVersion": "Explicar con ejemplos cercanos cómo se expresan y convierten cantidades muy grandes o muy pequeñas.",
+        "sourcePages": [
+          "Nuestro libro de proyectos Tomo III p. 94"
+        ],
+        "evidence": "La etapa 1 y el objetivo 1 fijan la exposición de conversiones como producto para comunicar la conveniencia de la notación científica y de las conversiones de unidades.",
+        "status": "official"
+      },
+      "detonatingStrategy": {
+        "status": "pending-url",
+        "text": "Video PPA 11: Notación científica y figuras geométricas",
+        "reference": "bit.ly/3VfglUk",
+        "source": "Nuestro libro de proyectos Tomo III pp. 91-92 + Posibilidades de uso SyPC pp. 28-29"
+      },
+      "academicProjectStrategy": {
+        "title": "Exposición de conversiones",
+        "text": "Organizar una exposición de conversiones que vuelva visibles los usos cotidianos de la notación científica y de los múltiplos y submúltiplos.",
+        "type": "project-product",
+        "status": "confirmed-from-project-book",
+        "source": "Nuestro libro de proyectos Tomo III pp. 93-97"
+      },
+      "academicConcepts": [
+        {
+          "concept": "exposición de conversiones",
+          "description": "Exposición de conversiones como producto de cierre para organizar y comunicar aprendizajes del proyecto.",
+          "sourceBook": "Nuestro libro de proyectos Tomo III",
+          "sourcePages": [
+            93,
+            97
+          ],
+          "sourcePagesLabel": "pp. 93-97",
+          "topicTitle": "Proyecto academico 31",
+          "status": "confirmed",
+          "reason": "Posibilidades y el propio proyecto fijan Exposición de conversiones como producto final del PA 31.",
+          "pedagogicalUse": "Da una forma concreta de socializar lo comprendido sobre la notación científica, las potencias con exponente entero, la raíz cuadrada y el uso de múltiplos y submúltiplos para comunicar magnitudes muy grandes o muy pequeñas.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "notación científica",
+          "description": "Notación científica es una idea clave para comprender la notación científica, las potencias con exponente entero, la raíz cuadrada y el uso de múltiplos y submúltiplos para comunicar magnitudes muy grandes o muy pequeñas.",
+          "sourceBook": "Saberes y Pensamiento Científico",
+          "sourcePages": [
+            249,
+            256
+          ],
+          "sourcePagesLabel": "pp. 249-256",
+          "topicTitle": "Metrología",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Metrología\" aporta base suficiente para trabajar notación científica dentro del proyecto 31.",
+          "pedagogicalUse": "Ayuda a fortalecer exposición de conversiones y a explicar la notación científica, las potencias con exponente entero, la raíz cuadrada y el uso de múltiplos y submúltiplos para comunicar magnitudes muy grandes o muy pequeñas con mayor claridad mediante notación científica.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "potencias con exponente entero",
+          "description": "Potencias con exponente entero es una idea clave para comprender la notación científica, las potencias con exponente entero, la raíz cuadrada y el uso de múltiplos y submúltiplos para comunicar magnitudes muy grandes o muy pequeñas.",
+          "sourceBook": "Saberes y Pensamiento Científico",
+          "sourcePages": [
+            22,
+            26
+          ],
+          "sourcePagesLabel": "pp. 22-26",
+          "topicTitle": "Propiedades de los exponentes para la resolución de operaciones algebraicas",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Propiedades de los exponentes para la resolución de operaciones algebraicas\" aporta base suficiente para trabajar potencias con exponente entero dentro del proyecto 31.",
+          "pedagogicalUse": "Ayuda a fortalecer exposición de conversiones y a explicar la notación científica, las potencias con exponente entero, la raíz cuadrada y el uso de múltiplos y submúltiplos para comunicar magnitudes muy grandes o muy pequeñas con mayor claridad mediante potencias con exponente entero.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "raíz cuadrada",
+          "description": "Raíz cuadrada es una idea clave para comprender la notación científica, las potencias con exponente entero, la raíz cuadrada y el uso de múltiplos y submúltiplos para comunicar magnitudes muy grandes o muy pequeñas.",
+          "sourceBook": "Nuestro libro de proyectos Tomo III",
+          "sourcePages": [
+            93,
+            95
+          ],
+          "sourcePagesLabel": "pp. 93-95",
+          "topicTitle": "Proyecto académico 31",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Proyecto académico 31\" aporta base suficiente para trabajar raíz cuadrada dentro del proyecto 31.",
+          "pedagogicalUse": "Ayuda a fortalecer exposición de conversiones y a explicar la notación científica, las potencias con exponente entero, la raíz cuadrada y el uso de múltiplos y submúltiplos para comunicar magnitudes muy grandes o muy pequeñas con mayor claridad mediante raíz cuadrada.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "múltiplos y submúltiplos",
+          "description": "Múltiplos y submúltiplos es una idea clave para comprender la notación científica, las potencias con exponente entero, la raíz cuadrada y el uso de múltiplos y submúltiplos para comunicar magnitudes muy grandes o muy pequeñas.",
+          "sourceBook": "Saberes y Pensamiento Científico",
+          "sourcePages": [
+            62,
+            68
+          ],
+          "sourcePagesLabel": "pp. 62-68",
+          "topicTitle": "Múltiplos y submúltiplos de sistemas de medidas",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Múltiplos y submúltiplos de sistemas de medidas\" aporta base suficiente para trabajar múltiplos y submúltiplos dentro del proyecto 31.",
+          "pedagogicalUse": "Ayuda a fortalecer exposición de conversiones y a explicar la notación científica, las potencias con exponente entero, la raíz cuadrada y el uso de múltiplos y submúltiplos para comunicar magnitudes muy grandes o muy pequeñas con mayor claridad mediante múltiplos y submúltiplos.",
+          "activityReadiness": "usable-for-autoevaluation"
+        }
+      ],
+      "thinkingCriteria": [
+        "Relacionar la notación científica, las potencias con exponente entero, la raíz cuadrada y el uso de múltiplos y submúltiplos para comunicar magnitudes muy grandes o muy pequeñas con situaciones cercanas a la comunidad.",
+        "Usar exposición de conversiones para explicar y no solo para recopilar informacion.",
+        "Distinguir entre mencionar conceptos y comprender como dialogan entre si dentro del proyecto."
+      ],
+      "validationStatus": {
+        "readinessLevel": "development-partial",
+        "readyForActivities": false,
+        "needsReviewReasons": [
+          "El bloque 11 ya es usable como lectura docente, pero el video del PPA 11 y el recurso informatico siguen pendientes de validacion de destino final.",
+          "La asignacion de apoyos de Posibilidades se sostiene por inferencia curricular documentada y no por OCR perfectamente separado por columnas.",
+          "No mover a actividades interactivas ni desbloquear juegos completos hasta ampliar validacion de videos y recursos complementarios."
+        ]
+      },
+      "readinessLevel": "development-partial",
+      "readyForActivities": false,
+      "needsReviewReasons": [
+        "No mover a actividades interactivas ni desbloquear juegos completos."
+      ],
+      "roleInPpa": "Abre el bloque al dar herramientas para nombrar, medir y comparar cantidades extremas con claridad.",
+      "pedagogicalUse": "Conviene trabajar ¡Con lo que contamos! como una oportunidad para profundizar en la notación científica, las potencias con exponente entero, la raíz cuadrada y el uso de múltiplos y submúltiplos para comunicar magnitudes muy grandes o muy pequeñas sin separar contenido, comunidad y producto final.",
+      "teacherNotes": [
+        "Conviene partir de ejemplos cercanos y después pasar al lenguaje mas abstracto del campo.",
+        "El producto Exposición de conversiones gana fuerza cuando se usa para explicar y no solo para exhibir informacion.",
+        "Es mejor seleccionar pocos conceptos bien comprendidos que saturar el trabajo con terminos aislados."
+      ],
+      "resonancePrompts": [
+        {
+          "type": "individual",
+          "prompt": "¿Qué comprendes mejor sobre la notación científica, las potencias con exponente entero, la raíz cuadrada y el uso de múltiplos y submúltiplos para comunicar magnitudes muy grandes o muy pequeñas después de elaborar exposición de conversiones?"
+        },
+        {
+          "type": "community",
+          "prompt": "¿Qué situaciones de la vida cotidiana de la comunidad se comprenden mejor cuando expresamos medidas con notación científica y conversiones adecuadas?"
+        }
+      ],
+      "notReadyFor": [
+        "full-games",
+        "summative-exam"
+      ]
+    },
+    {
+      "id": "saberes-y-pensamiento-cientifico-2-ppa-11-pa32",
+      "projectId": "saberes-y-pensamiento-cientifico-2-ppa-11-pa32",
+      "academicProjectNumber": 32,
+      "title": "Las figuras geométricas y cómo construirlas",
+      "projectTitle": "Las figuras geométricas y cómo construirlas",
+      "grade": "2",
+      "field": "Saberes y Pensamiento Científico",
+      "ppaNumber": "11",
+      "partialClassroomProject": "PPA 11",
+      "partialClassroomProjectTitle": "Notación científica y figuras geométricas",
+      "bookVolume": "Tomo III",
+      "sourceValidation": {
+        "sourceStatus": "linked",
+        "possibilitiesPages": [
+          28,
+          29
+        ],
+        "possibilitiesMaterialId": "grade-2-posibilidades-pos-sypc-2",
+        "possibilitiesColumnIndex": 2,
+        "columnEvidence": "Bloque PPA 11 Notación científica y figuras geométricas localizado en pp. 28-29; la columna 2 se confirma por el orden de proyectos, productos y continuidad del mismo bloque."
+      },
+      "finalProduct": {
+        "title": "Feria geométrica",
+        "source": "Posibilidades de uso SyPC pp. 28-29 + Nuestro libro de proyectos Tomo III pp. 98-101",
+        "status": "confirmed"
+      },
+      "sourcePages": {
+        "nuestroLibroProyectos": [
+          {
+            "materialId": "grade-2-proyectos-nuestro-libro-de-proyectos-tomo-3-segundo-grado",
+            "label": "Nuestro libro de proyectos Tomo III",
+            "startPage": 98,
+            "endPage": 101,
+            "pagesLabel": "pp. 98-101",
+            "topicTitle": "Proyecto academico 32",
+            "status": "confirmed-source"
+          }
+        ],
+        "conceptBook": [
+          {
+            "materialId": "grade-2-conceptos-saberes-y-pensamiento-cientifico-segundo-grado",
+            "label": "Saberes y Pensamiento Científico",
+            "startPage": 14,
+            "endPage": 16,
+            "pagesLabel": "pp. 14-16",
+            "topicTitle": "Construcción de polígonos regulares",
+            "status": "confirmed-by-column-inference"
+          },
+          {
+            "materialId": "grade-2-conceptos-saberes-y-pensamiento-cientifico-segundo-grado",
+            "label": "Saberes y Pensamiento Científico",
+            "startPage": 47,
+            "endPage": 51,
+            "pagesLabel": "pp. 47-51",
+            "topicTitle": "Construcción a escala de triángulos, cuadriláteros y polígonos regulares o irregulares",
+            "status": "confirmed-by-column-inference"
+          }
+        ],
+        "multiplesLenguajes": [
+          {
+            "materialId": "grade-2-apoyo-multiples-lenguajes-segundo-grado",
+            "label": "Multiples Lenguajes",
+            "startPage": 76,
+            "endPage": 80,
+            "pagesLabel": "pp. 76-80",
+            "topicTitle": "Cubismo, el arte de la geometría",
+            "status": "confirmed-by-column-inference"
+          }
+        ],
+        "otherMaterials": [
+          {
+            "label": "Video PPA 11: Notación científica y figuras geométricas",
+            "reference": "bit.ly/3VfglUk",
+            "status": "pending-validation"
+          }
+        ]
+      },
+      "supportMaterials": [
+        {
+          "title": "Cubismo, el arte de la geometría",
+          "kind": "Multiples Lenguajes",
+          "pages": "pp. 76-80",
+          "status": "confirmed-by-column-inference"
+        }
+      ],
+      "horizonOrPurpose": {
+        "status": "official",
+        "text": "Usar instrumentos de medición para construir triángulos, cuadriláteros y polígonos regulares e irregulares a escala en una feria geométrica tras tomar en cuenta las relaciones entre ángulos inscritos y centrales, lados y diagonales.",
+        "source": "Nuestro libro de proyectos Tomo III p. 98"
+      },
+      "projectExpectationHorizon": {
+        "officialText": "Dibujar distintas figuras geométricas en diferentes escalas donde se utilicen las relaciones entre ángulos inscritos, centrales, lados y diagonales, y presentarlas en un formato atractivo en la feria geométrica.",
+        "studentVersion": "Construir figuras a escala y mostrarlas en una feria geométrica que haga visible cómo se trazan y comparan.",
+        "sourcePages": [
+          "Nuestro libro de proyectos Tomo III p. 99"
+        ],
+        "evidence": "La etapa 1 y el objetivo 1 fijan la feria geométrica como producto para comunicar la construcción de figuras y las relaciones entre sus elementos.",
+        "status": "official"
+      },
+      "detonatingStrategy": {
+        "status": "pending-url",
+        "text": "Video PPA 11: Notación científica y figuras geométricas",
+        "reference": "bit.ly/3VfglUk",
+        "source": "Nuestro libro de proyectos Tomo III pp. 96-97 + Posibilidades de uso SyPC pp. 28-29"
+      },
+      "academicProjectStrategy": {
+        "title": "Feria geométrica",
+        "text": "Construir figuras geométricas a escala y presentarlas en una feria donde el grupo explique los trazos y relaciones que usó.",
+        "type": "project-product",
+        "status": "confirmed-from-project-book",
+        "source": "Nuestro libro de proyectos Tomo III pp. 98-101"
+      },
+      "academicConcepts": [
+        {
+          "concept": "feria geométrica",
+          "description": "Feria geométrica como producto de cierre para organizar y comunicar aprendizajes del proyecto.",
+          "sourceBook": "Nuestro libro de proyectos Tomo III",
+          "sourcePages": [
+            98,
+            101
+          ],
+          "sourcePagesLabel": "pp. 98-101",
+          "topicTitle": "Proyecto academico 32",
+          "status": "confirmed",
+          "reason": "Posibilidades y el propio proyecto fijan Feria geométrica como producto final del PA 32.",
+          "pedagogicalUse": "Da una forma concreta de socializar lo comprendido sobre la construcción a escala de triángulos, cuadriláteros y polígonos regulares e irregulares mediante relaciones entre ángulos, lados y diagonales.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "triángulos",
+          "description": "Triángulos es una idea clave para comprender la construcción a escala de triángulos, cuadriláteros y polígonos regulares e irregulares mediante relaciones entre ángulos, lados y diagonales.",
+          "sourceBook": "Saberes y Pensamiento Científico",
+          "sourcePages": [
+            47,
+            51
+          ],
+          "sourcePagesLabel": "pp. 47-51",
+          "topicTitle": "Construcción a escala de triángulos, cuadriláteros y polígonos regulares o irregulares",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Construcción a escala de triángulos, cuadriláteros y polígonos regulares o irregulares\" aporta base suficiente para trabajar triángulos dentro del proyecto 32.",
+          "pedagogicalUse": "Ayuda a fortalecer feria geométrica y a explicar la construcción a escala de triángulos, cuadriláteros y polígonos regulares e irregulares mediante relaciones entre ángulos, lados y diagonales con mayor claridad mediante triángulos.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "cuadriláteros",
+          "description": "Cuadriláteros es una idea clave para comprender la construcción a escala de triángulos, cuadriláteros y polígonos regulares e irregulares mediante relaciones entre ángulos, lados y diagonales.",
+          "sourceBook": "Saberes y Pensamiento Científico",
+          "sourcePages": [
+            47,
+            51
+          ],
+          "sourcePagesLabel": "pp. 47-51",
+          "topicTitle": "Construcción a escala de triángulos, cuadriláteros y polígonos regulares o irregulares",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Construcción a escala de triángulos, cuadriláteros y polígonos regulares o irregulares\" aporta base suficiente para trabajar cuadriláteros dentro del proyecto 32.",
+          "pedagogicalUse": "Ayuda a fortalecer feria geométrica y a explicar la construcción a escala de triángulos, cuadriláteros y polígonos regulares e irregulares mediante relaciones entre ángulos, lados y diagonales con mayor claridad mediante cuadriláteros.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "polígonos regulares",
+          "description": "Polígonos regulares es una idea clave para comprender la construcción a escala de triángulos, cuadriláteros y polígonos regulares e irregulares mediante relaciones entre ángulos, lados y diagonales.",
+          "sourceBook": "Saberes y Pensamiento Científico",
+          "sourcePages": [
+            14,
+            16
+          ],
+          "sourcePagesLabel": "pp. 14-16",
+          "topicTitle": "Construcción de polígonos regulares",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Construcción de polígonos regulares\" aporta base suficiente para trabajar polígonos regulares dentro del proyecto 32.",
+          "pedagogicalUse": "Ayuda a fortalecer feria geométrica y a explicar la construcción a escala de triángulos, cuadriláteros y polígonos regulares e irregulares mediante relaciones entre ángulos, lados y diagonales con mayor claridad mediante polígonos regulares.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "ángulos centrales",
+          "description": "Ángulos centrales es una idea clave para comprender la construcción a escala de triángulos, cuadriláteros y polígonos regulares e irregulares mediante relaciones entre ángulos, lados y diagonales.",
+          "sourceBook": "Saberes y Pensamiento Científico",
+          "sourcePages": [
+            47,
+            51
+          ],
+          "sourcePagesLabel": "pp. 47-51",
+          "topicTitle": "Construcción a escala de triángulos, cuadriláteros y polígonos regulares o irregulares",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Construcción a escala de triángulos, cuadriláteros y polígonos regulares o irregulares\" aporta base suficiente para trabajar ángulos centrales dentro del proyecto 32.",
+          "pedagogicalUse": "Ayuda a fortalecer feria geométrica y a explicar la construcción a escala de triángulos, cuadriláteros y polígonos regulares e irregulares mediante relaciones entre ángulos, lados y diagonales con mayor claridad mediante ángulos centrales.",
+          "activityReadiness": "usable-for-autoevaluation"
+        }
+      ],
+      "thinkingCriteria": [
+        "Relacionar la construcción a escala de triángulos, cuadriláteros y polígonos regulares e irregulares mediante relaciones entre ángulos, lados y diagonales con situaciones cercanas a la comunidad.",
+        "Usar feria geométrica para explicar y no solo para recopilar informacion.",
+        "Distinguir entre mencionar conceptos y comprender como dialogan entre si dentro del proyecto."
+      ],
+      "validationStatus": {
+        "readinessLevel": "development-partial",
+        "readyForActivities": false,
+        "needsReviewReasons": [
+          "El bloque 11 ya es usable como lectura docente, pero el video del PPA 11 y el recurso informatico siguen pendientes de validacion de destino final.",
+          "La asignacion de apoyos de Posibilidades se sostiene por inferencia curricular documentada y no por OCR perfectamente separado por columnas.",
+          "No mover a actividades interactivas ni desbloquear juegos completos hasta ampliar validacion de videos y recursos complementarios."
+        ]
+      },
+      "readinessLevel": "development-partial",
+      "readyForActivities": false,
+      "needsReviewReasons": [
+        "No mover a actividades interactivas ni desbloquear juegos completos."
+      ],
+      "roleInPpa": "Profundiza el bloque al convertir la geometría en una experiencia de diseño, medición y exposición compartida.",
+      "pedagogicalUse": "Conviene trabajar Las figuras geométricas y cómo construirlas como una oportunidad para profundizar en la construcción a escala de triángulos, cuadriláteros y polígonos regulares e irregulares mediante relaciones entre ángulos, lados y diagonales sin separar contenido, comunidad y producto final.",
+      "teacherNotes": [
+        "Conviene partir de ejemplos cercanos y después pasar al lenguaje mas abstracto del campo.",
+        "El producto Feria geométrica gana fuerza cuando se usa para explicar y no solo para exhibir informacion.",
+        "Es mejor seleccionar pocos conceptos bien comprendidos que saturar el trabajo con terminos aislados."
+      ],
+      "resonancePrompts": [
+        {
+          "type": "individual",
+          "prompt": "¿Qué comprendes mejor sobre la construcción a escala de triángulos, cuadriláteros y polígonos regulares e irregulares mediante relaciones entre ángulos, lados y diagonales después de elaborar feria geométrica?"
+        },
+        {
+          "type": "community",
+          "prompt": "¿Dónde aparecen en la comunidad figuras y diseños que ayudan a conversar sobre escalas, ángulos y trazos geométricos?"
+        }
+      ],
+      "notReadyFor": [
+        "full-games",
+        "summative-exam"
+      ]
+    },
+    {
+      "id": "saberes-y-pensamiento-cientifico-2-ppa-11-pa33",
+      "projectId": "saberes-y-pensamiento-cientifico-2-ppa-11-pa33",
+      "academicProjectNumber": 33,
+      "title": "¡Si cada vez son más, a cada uno le toca menos!",
+      "projectTitle": "¡Si cada vez son más, a cada uno le toca menos!",
+      "grade": "2",
+      "field": "Saberes y Pensamiento Científico",
+      "ppaNumber": "11",
+      "partialClassroomProject": "PPA 11",
+      "partialClassroomProjectTitle": "Notación científica y figuras geométricas",
+      "bookVolume": "Tomo III",
+      "sourceValidation": {
+        "sourceStatus": "linked",
+        "possibilitiesPages": [
+          28,
+          29
+        ],
+        "possibilitiesMaterialId": "grade-2-posibilidades-pos-sypc-2",
+        "possibilitiesColumnIndex": 3,
+        "columnEvidence": "Bloque PPA 11 Notación científica y figuras geométricas localizado en pp. 28-29; la columna 3 se confirma por el orden de proyectos, productos y continuidad del mismo bloque."
+      },
+      "finalProduct": {
+        "title": "Museo de gráficas y modelos matemáticos murales",
+        "source": "Posibilidades de uso SyPC pp. 28-29 + Nuestro libro de proyectos Tomo III pp. 102-105",
+        "status": "confirmed"
+      },
+      "sourcePages": {
+        "nuestroLibroProyectos": [
+          {
+            "materialId": "grade-2-proyectos-nuestro-libro-de-proyectos-tomo-3-segundo-grado",
+            "label": "Nuestro libro de proyectos Tomo III",
+            "startPage": 102,
+            "endPage": 105,
+            "pagesLabel": "pp. 102-105",
+            "topicTitle": "Proyecto academico 33",
+            "status": "confirmed-source"
+          }
+        ],
+        "conceptBook": [
+          {
+            "materialId": "grade-2-conceptos-saberes-y-pensamiento-cientifico-segundo-grado",
+            "label": "Saberes y Pensamiento Científico",
+            "startPage": 41,
+            "endPage": 46,
+            "pagesLabel": "pp. 41-46",
+            "topicTitle": "La proporcionalidad inversa de dos magnitudes o cantidades y su representación",
+            "status": "confirmed-by-column-inference"
+          },
+          {
+            "materialId": "grade-2-conceptos-saberes-y-pensamiento-cientifico-segundo-grado",
+            "label": "Saberes y Pensamiento Científico",
+            "startPage": 62,
+            "endPage": 68,
+            "pagesLabel": "pp. 62-68",
+            "topicTitle": "Múltiplos y submúltiplos de sistemas de medidas",
+            "status": "confirmed-by-column-inference"
+          },
+          {
+            "materialId": "grade-2-conceptos-saberes-y-pensamiento-cientifico-segundo-grado",
+            "label": "Saberes y Pensamiento Científico",
+            "startPage": 144,
+            "endPage": 151,
+            "pagesLabel": "pp. 144-151",
+            "topicTitle": "Cuantificación de la realidad",
+            "status": "confirmed-by-column-inference"
+          }
+        ],
+        "multiplesLenguajes": [],
+        "otherMaterials": [
+          {
+            "label": "Video PPA 11: Notación científica y figuras geométricas",
+            "reference": "bit.ly/3VfglUk",
+            "status": "pending-validation"
+          }
+        ]
+      },
+      "supportMaterials": [],
+      "horizonOrPurpose": {
+        "status": "official",
+        "text": "Comprender el concepto de proporcionalidad inversa al contrastar diferentes grupos de datos recabados de las experiencias cotidianas y expresados en unidades básicas y derivadas del Sistema Internacional de Unidades (SI), concentrados en tablas para la construcción de un museo de gráficas y modelos matemáticos murales.",
+        "source": "Nuestro libro de proyectos Tomo III p. 102"
+      },
+      "projectExpectationHorizon": {
+        "officialText": "Elaborar murales de gráficas y modelos matemáticos con relaciones inversamente proporcionales de datos recabados de experiencias cotidianas, con el propósito de presentarlos en formato de museo.",
+        "studentVersion": "Representar con gráficas y modelos situaciones del entorno donde al aumentar una cantidad la otra disminuye.",
+        "sourcePages": [
+          "Nuestro libro de proyectos Tomo III p. 103"
+        ],
+        "evidence": "La etapa 1 y el objetivo 1 fijan el museo de gráficas y modelos matemáticos murales como producto para explicar proporcionalidad inversa.",
+        "status": "official"
+      },
+      "detonatingStrategy": {
+        "status": "pending-url",
+        "text": "Video PPA 11: Notación científica y figuras geométricas",
+        "reference": "bit.ly/3VfglUk",
+        "source": "Nuestro libro de proyectos Tomo III pp. 100-101 + Posibilidades de uso SyPC pp. 28-29"
+      },
+      "academicProjectStrategy": {
+        "title": "Museo de gráficas y modelos matemáticos murales",
+        "text": "Construir un museo de gráficas y modelos murales para mostrar cómo funciona la proporcionalidad inversa en situaciones cercanas.",
+        "type": "project-product",
+        "status": "confirmed-from-project-book",
+        "source": "Nuestro libro de proyectos Tomo III pp. 102-105"
+      },
+      "academicConcepts": [
+        {
+          "concept": "museo de gráficas y modelos matemáticos murales",
+          "description": "Museo de gráficas y modelos matemáticos murales como producto de cierre para organizar y comunicar aprendizajes del proyecto.",
+          "sourceBook": "Nuestro libro de proyectos Tomo III",
+          "sourcePages": [
+            102,
+            105
+          ],
+          "sourcePagesLabel": "pp. 102-105",
+          "topicTitle": "Proyecto academico 33",
+          "status": "confirmed",
+          "reason": "Posibilidades y el propio proyecto fijan Museo de gráficas y modelos matemáticos murales como producto final del PA 33.",
+          "pedagogicalUse": "Da una forma concreta de socializar lo comprendido sobre la proporcionalidad inversa y su representación en tablas, gráficas y modelos matemáticos a partir de experiencias cotidianas expresadas con unidades del Sistema Internacional.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "proporcionalidad inversa",
+          "description": "Proporcionalidad inversa es una idea clave para comprender la proporcionalidad inversa y su representación en tablas, gráficas y modelos matemáticos a partir de experiencias cotidianas expresadas con unidades del Sistema Internacional.",
+          "sourceBook": "Saberes y Pensamiento Científico",
+          "sourcePages": [
+            41,
+            46
+          ],
+          "sourcePagesLabel": "pp. 41-46",
+          "topicTitle": "La proporcionalidad inversa de dos magnitudes o cantidades y su representación",
+          "status": "confirmed",
+          "reason": "La fuente validada \"La proporcionalidad inversa de dos magnitudes o cantidades y su representación\" aporta base suficiente para trabajar proporcionalidad inversa dentro del proyecto 33.",
+          "pedagogicalUse": "Ayuda a fortalecer museo de gráficas y modelos matemáticos murales y a explicar la proporcionalidad inversa y su representación en tablas, gráficas y modelos matemáticos a partir de experiencias cotidianas expresadas con unidades del Sistema Internacional con mayor claridad mediante proporcionalidad inversa.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "tablas",
+          "description": "Tablas es una idea clave para comprender la proporcionalidad inversa y su representación en tablas, gráficas y modelos matemáticos a partir de experiencias cotidianas expresadas con unidades del Sistema Internacional.",
+          "sourceBook": "Saberes y Pensamiento Científico",
+          "sourcePages": [
+            41,
+            46
+          ],
+          "sourcePagesLabel": "pp. 41-46",
+          "topicTitle": "La proporcionalidad inversa de dos magnitudes o cantidades y su representación",
+          "status": "confirmed",
+          "reason": "La fuente validada \"La proporcionalidad inversa de dos magnitudes o cantidades y su representación\" aporta base suficiente para trabajar tablas dentro del proyecto 33.",
+          "pedagogicalUse": "Ayuda a fortalecer museo de gráficas y modelos matemáticos murales y a explicar la proporcionalidad inversa y su representación en tablas, gráficas y modelos matemáticos a partir de experiencias cotidianas expresadas con unidades del Sistema Internacional con mayor claridad mediante tablas.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "gráficas",
+          "description": "Gráficas es una idea clave para comprender la proporcionalidad inversa y su representación en tablas, gráficas y modelos matemáticos a partir de experiencias cotidianas expresadas con unidades del Sistema Internacional.",
+          "sourceBook": "Saberes y Pensamiento Científico",
+          "sourcePages": [
+            144,
+            151
+          ],
+          "sourcePagesLabel": "pp. 144-151",
+          "topicTitle": "Cuantificación de la realidad",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Cuantificación de la realidad\" aporta base suficiente para trabajar gráficas dentro del proyecto 33.",
+          "pedagogicalUse": "Ayuda a fortalecer museo de gráficas y modelos matemáticos murales y a explicar la proporcionalidad inversa y su representación en tablas, gráficas y modelos matemáticos a partir de experiencias cotidianas expresadas con unidades del Sistema Internacional con mayor claridad mediante gráficas.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Sistema Internacional de Unidades",
+          "description": "Sistema Internacional de Unidades es una idea clave para comprender la proporcionalidad inversa y su representación en tablas, gráficas y modelos matemáticos a partir de experiencias cotidianas expresadas con unidades del Sistema Internacional.",
+          "sourceBook": "Saberes y Pensamiento Científico",
+          "sourcePages": [
+            62,
+            68
+          ],
+          "sourcePagesLabel": "pp. 62-68",
+          "topicTitle": "Múltiplos y submúltiplos de sistemas de medidas",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Múltiplos y submúltiplos de sistemas de medidas\" aporta base suficiente para trabajar Sistema Internacional de Unidades dentro del proyecto 33.",
+          "pedagogicalUse": "Ayuda a fortalecer museo de gráficas y modelos matemáticos murales y a explicar la proporcionalidad inversa y su representación en tablas, gráficas y modelos matemáticos a partir de experiencias cotidianas expresadas con unidades del Sistema Internacional con mayor claridad mediante Sistema Internacional de Unidades.",
+          "activityReadiness": "usable-for-autoevaluation"
+        }
+      ],
+      "thinkingCriteria": [
+        "Relacionar la proporcionalidad inversa y su representación en tablas, gráficas y modelos matemáticos a partir de experiencias cotidianas expresadas con unidades del Sistema Internacional con situaciones cercanas a la comunidad.",
+        "Usar museo de gráficas y modelos matemáticos murales para explicar y no solo para recopilar informacion.",
+        "Distinguir entre mencionar conceptos y comprender como dialogan entre si dentro del proyecto."
+      ],
+      "validationStatus": {
+        "readinessLevel": "development-partial",
+        "readyForActivities": false,
+        "needsReviewReasons": [
+          "El bloque 11 ya es usable como lectura docente, pero el video del PPA 11 y el recurso informatico siguen pendientes de validacion de destino final.",
+          "La asignacion de apoyos de Posibilidades se sostiene por inferencia curricular documentada y no por OCR perfectamente separado por columnas.",
+          "No mover a actividades interactivas ni desbloquear juegos completos hasta ampliar validacion de videos y recursos complementarios."
+        ]
+      },
+      "readinessLevel": "development-partial",
+      "readyForActivities": false,
+      "needsReviewReasons": [
+        "No mover a actividades interactivas ni desbloquear juegos completos."
+      ],
+      "roleInPpa": "Cierra el bloque al mostrar cómo una relación matemática permite interpretar y representar situaciones del entorno.",
+      "pedagogicalUse": "Conviene trabajar ¡Si cada vez son más, a cada uno le toca menos! como una oportunidad para profundizar en la proporcionalidad inversa y su representación en tablas, gráficas y modelos matemáticos a partir de experiencias cotidianas expresadas con unidades del Sistema Internacional sin separar contenido, comunidad y producto final.",
+      "teacherNotes": [
+        "Conviene partir de ejemplos cercanos y después pasar al lenguaje mas abstracto del campo.",
+        "El producto Museo de gráficas y modelos matemáticos murales gana fuerza cuando se usa para explicar y no solo para exhibir informacion.",
+        "Es mejor seleccionar pocos conceptos bien comprendidos que saturar el trabajo con terminos aislados."
+      ],
+      "resonancePrompts": [
+        {
+          "type": "individual",
+          "prompt": "¿Qué comprendes mejor sobre la proporcionalidad inversa y su representación en tablas, gráficas y modelos matemáticos a partir de experiencias cotidianas expresadas con unidades del Sistema Internacional después de elaborar museo de gráficas y modelos matemáticos murales?"
+        },
+        {
+          "type": "community",
+          "prompt": "¿Qué relaciones de reparto, tiempo o trabajo de la comunidad pueden explicarse mejor con la proporcionalidad inversa?"
+        }
+      ],
+      "notReadyFor": [
+        "full-games",
+        "summative-exam"
+      ]
+    }
+  ]
+}

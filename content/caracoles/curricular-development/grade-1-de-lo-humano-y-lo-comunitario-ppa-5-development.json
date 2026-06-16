@@ -1,0 +1,802 @@
+{
+  "grade": "1",
+  "gradeLabel": "Primer grado",
+  "field": "De lo Humano y lo Comunitario",
+  "bookVolume": "Tomo III",
+  "partialClassroomProject": "PPA 5",
+  "partialClassroomProjectTitle": "Estilos de vida activos y saludables",
+  "generatedAt": "2026-06-02T02:38:17.478Z",
+  "notes": "Capa curricular generada por lote para 1o De lo Humano y lo Comunitario, PPA 5.",
+  "sourcesUsed": [
+    "public/caracoles/data/generated/grade-1/selectable-projects.json",
+    "content/caracoles/generated-private/grade-1/pages-index.full.json",
+    "Posibilidades de uso DHyC, primer grado, pp. 14-15",
+    "Nuestro libro de proyectos Tomo III, primer grado, pp. 222-237",
+    "De lo Humano y lo Comunitario, primer grado, pp. 124-146, 163-166, 168-174, 216-228; Multiples Lenguajes pp. 10-11, 120-121 y 144-149."
+  ],
+  "partialClassroomProjectContext": {
+    "expectationHorizon": {
+      "officialText": "",
+      "sourcePages": [
+        "Nuestro libro de proyectos Tomo III pp. 222-223",
+        "Posibilidades de uso DHyC pp. 14-15"
+      ],
+      "evidence": "El PPA 5 articula actividad fisica, salud y relaciones personales para que el grupo piense formas de vida activa y saludable en lo individual, familiar y comunitario.",
+      "status": "pending"
+    },
+    "ppaDetonatingStrategy": {
+      "title": "Estilos de vida activos y saludables",
+      "type": "video",
+      "url": "",
+      "urlStatus": "pending-url",
+      "reference": "bit.ly/3VfglUk",
+      "source": "Nuestro libro de proyectos Tomo III pp. 222-223 + Posibilidades de uso DHyC pp. 14-15",
+      "scope": "partial-classroom-project",
+      "youtubeSearchQuery": "Estilos de vida activos y saludables De lo Humano y lo Comunitario 1er grado Telesecundaria"
+    },
+    "ppaDigitalResource": {
+      "title": "Recurso informatico del bloque PPA 5",
+      "reference": "bit.ly/3WQBMwg",
+      "status": "pending-validation",
+      "source": "Nuestro libro de proyectos Tomo III pp. 222-237"
+    },
+    "validationStatus": {
+      "needsHumanReview": true,
+      "needsReviewReasons": [
+        "Las pp. 14-15 de Posibilidades pertenecen al mismo PPA 5.",
+        "La asignacion de apoyos por columna se fija por inferencia curricular documentada de izquierda a derecha.",
+        "Los enlaces cortos del video del PPA y del recurso informatico se mantienen en cautela hasta localizar un destino oficial confirmado."
+      ]
+    },
+    "columnValidation": {
+      "possibilitiesPagesReviewed": [
+        14,
+        15
+      ],
+      "confirmedAsPpa": true,
+      "note": "Las pp. 14-15 corresponden al PPA 5 Estilos de vida activos y saludables. Las tres columnas se sostienen por el orden de proyectos, productos y apoyos del mismo bloque.",
+      "columns": [
+        {
+          "columnIndex": 1,
+          "projectId": "de-lo-humano-y-lo-comunitario-1-ppa-5-pa13",
+          "projectTitle": "Un plan personal de vida activa y saludable",
+          "finalProduct": "Plan personal de actividad fisica",
+          "supportMaterials": [
+            "El asombroso mundo de los arrecifes de coral, pp. 10-11"
+          ]
+        },
+        {
+          "columnIndex": 2,
+          "projectId": "de-lo-humano-y-lo-comunitario-1-ppa-5-pa14",
+          "projectTitle": "Mi plan estrategico familiar de vida activa y saludable",
+          "finalProduct": "Plan estrategico",
+          "supportMaterials": [
+            "Wulfrano, pp. 120-121"
+          ]
+        },
+        {
+          "columnIndex": 3,
+          "projectId": "de-lo-humano-y-lo-comunitario-1-ppa-5-pa15",
+          "projectTitle": "Un caso para reflexionar",
+          "finalProduct": "Estudio de caso",
+          "supportMaterials": [
+            "La grieta, pp. 144-149"
+          ]
+        }
+      ]
+    }
+  },
+  "academicProjects": [
+    {
+      "id": "de-lo-humano-y-lo-comunitario-1-ppa-5-pa13",
+      "projectId": "de-lo-humano-y-lo-comunitario-1-ppa-5-pa13",
+      "academicProjectNumber": 13,
+      "title": "Un plan personal de vida activa y saludable",
+      "projectTitle": "Un plan personal de vida activa y saludable",
+      "grade": "1",
+      "field": "De lo Humano y lo Comunitario",
+      "ppaNumber": "5",
+      "partialClassroomProject": "PPA 5",
+      "partialClassroomProjectTitle": "Estilos de vida activos y saludables",
+      "bookVolume": "Tomo III",
+      "sourceValidation": {
+        "sourceStatus": "linked",
+        "possibilitiesPages": [
+          14,
+          15
+        ],
+        "possibilitiesMaterialId": "grade-1-posibilidades-pos-dhc-1",
+        "possibilitiesColumnIndex": 1,
+        "columnEvidence": "Bloque PPA 5 Estilos de vida activos y saludables localizado en pp. 14-15; la columna 1 se confirma por el orden de proyectos, productos y continuidad del mismo bloque."
+      },
+      "finalProduct": {
+        "title": "Plan personal de actividad fisica",
+        "source": "Posibilidades de uso DHyC pp. 14-15 + Nuestro libro de proyectos Tomo III pp. 224-228",
+        "status": "confirmed"
+      },
+      "sourcePages": {
+        "nuestroLibroProyectos": [
+          {
+            "materialId": "grade-1-proyectos-nuestro-libro-de-proyectos-tomo-iii-primer-grado",
+            "label": "Nuestro libro de proyectos Tomo III",
+            "startPage": 224,
+            "endPage": 228,
+            "pagesLabel": "pp. 224-228",
+            "topicTitle": "Proyecto academico 13",
+            "status": "confirmed-source"
+          }
+        ],
+        "conceptBook": [
+          {
+            "materialId": "grade-1-conceptos-de-lo-humano-y-lo-comunitario-primer-grado",
+            "label": "De lo Humano y lo Comunitario",
+            "startPage": 137,
+            "endPage": 140,
+            "pagesLabel": "pp. 137-140",
+            "topicTitle": "Estilos de vida saludables",
+            "status": "confirmed-by-column-inference"
+          },
+          {
+            "materialId": "grade-1-conceptos-de-lo-humano-y-lo-comunitario-primer-grado",
+            "label": "De lo Humano y lo Comunitario",
+            "startPage": 141,
+            "endPage": 146,
+            "pagesLabel": "pp. 141-146",
+            "topicTitle": "La actividad fisica",
+            "status": "confirmed-by-column-inference"
+          },
+          {
+            "materialId": "grade-1-conceptos-de-lo-humano-y-lo-comunitario-primer-grado",
+            "label": "De lo Humano y lo Comunitario",
+            "startPage": 216,
+            "endPage": 228,
+            "pagesLabel": "pp. 216-228",
+            "topicTitle": "La salud en la adolescencia",
+            "status": "confirmed-by-column-inference"
+          }
+        ],
+        "multiplesLenguajes": [
+          {
+            "materialId": "grade-1-apoyo-muiltiples-lenguajes-primer-grado",
+            "label": "Multiples Lenguajes",
+            "startPage": 10,
+            "endPage": 11,
+            "pagesLabel": "pp. 10-11",
+            "topicTitle": "El asombroso mundo de los arrecifes de coral",
+            "status": "confirmed-by-column-inference"
+          }
+        ],
+        "otherMaterials": [
+          {
+            "label": "Video PPA 5: Estilos de vida activos y saludables",
+            "reference": "bit.ly/3VfglUk",
+            "status": "pending-validation"
+          }
+        ]
+      },
+      "supportMaterials": [
+        {
+          "title": "El asombroso mundo de los arrecifes de coral",
+          "kind": "Multiples Lenguajes",
+          "pages": "pp. 10-11",
+          "status": "confirmed-by-column-inference"
+        }
+      ],
+      "horizonOrPurpose": {
+        "status": "confirmed-from-project-book",
+        "text": "Investigar las características y los principios de los hábitos activos y saludables que se incluyen en el desarrollo de un plan personal, para llevarlos a la práctica, y así lograr una mejora en el bienestar colectivo.",
+        "source": "Visión — Horizonte 1 (p. 225)"
+      },
+      "projectExpectationHorizon": {
+        "officialText": "Investigar las características y los principios de los hábitos activos y saludables que se incluyen en el desarrollo de un plan personal, para llevarlos a la práctica, y así lograr una mejora en el bienestar colectivo.",
+        "studentVersion": "Investigar las características y los principios de los hábitos activos y saludables que se incluyen en el desarrollo de un plan personal, para llevarlos a la práctica, y así lograr una mejora en el bienestar colectivo.",
+        "horizon1Raw": "Investigar las características y los principios de los hábitos activos y saludables que se incluyen en el desarrollo de un plan personal, para llevarlos a la práctica, y así lograr una mejora en el bienestar colectivo.",
+        "horizon2Raw": "Diseñar y compartir, en comunidad, un plan personal de actividad física, con acciones novedosas, motivantes y dinámicas para incentivar la realización de actividad física en diversos lugares y momentos del día.",
+        "sourcePages": [
+          "Visión — Horizonte 1 (p. 225)"
+        ],
+        "evidence": "Extraído por visión de imagen de la página 225 del libro de proyectos. Confianza: alta.",
+        "status": "confirmed-from-project-book",
+        "extractedAt": "2026-06-16T05:23:32.722Z"
+      },
+      "detonatingStrategy": {
+        "status": "pending-url",
+        "text": "Video PPA 5: Estilos de vida activos y saludables",
+        "reference": "bit.ly/3VfglUk",
+        "source": "Nuestro libro de proyectos Tomo III pp. 222-223 + Posibilidades de uso DHyC pp. 14-15"
+      },
+      "academicProjectStrategy": {
+        "title": "Plan personal de actividad fisica",
+        "text": "Organizar plan personal de actividad fisica para profundizar en la vida activa y la salud personal y compartir hallazgos de manera clara con el grupo.",
+        "type": "project-product",
+        "status": "confirmed-from-project-book",
+        "source": "Nuestro libro de proyectos Tomo III pp. 224-228"
+      },
+      "academicConcepts": [
+        {
+          "concept": "plan personal de actividad fisica",
+          "description": "Plan personal de actividad fisica como producto de cierre para organizar y comunicar aprendizajes del proyecto.",
+          "sourceBook": "Nuestro libro de proyectos Tomo III",
+          "sourcePages": [
+            224,
+            228
+          ],
+          "sourcePagesLabel": "pp. 224-228",
+          "topicTitle": "Proyecto academico 13",
+          "status": "confirmed",
+          "reason": "Posibilidades y el propio proyecto fijan Plan personal de actividad fisica como producto final del PA 13.",
+          "pedagogicalUse": "Da una forma concreta de socializar lo comprendido sobre la vida activa y la salud personal.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "vida activa",
+          "description": "Vida activa es una idea clave para comprender la vida activa y la salud personal.",
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "sourcePages": [
+            141,
+            146
+          ],
+          "sourcePagesLabel": "pp. 141-146",
+          "topicTitle": "La actividad fisica",
+          "status": "confirmed",
+          "reason": "La fuente validada \"La actividad fisica\" aporta base suficiente para trabajar vida activa dentro del proyecto 13.",
+          "pedagogicalUse": "Ayuda a fortalecer plan personal de actividad fisica y a explicar la vida activa y la salud personal con mayor claridad mediante vida activa.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "estilos de vida saludables",
+          "description": "Estilos de vida saludables es una idea clave para comprender la vida activa y la salud personal.",
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "sourcePages": [
+            137,
+            140
+          ],
+          "sourcePagesLabel": "pp. 137-140",
+          "topicTitle": "Estilos de vida saludables",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Estilos de vida saludables\" aporta base suficiente para trabajar estilos de vida saludables dentro del proyecto 13.",
+          "pedagogicalUse": "Ayuda a fortalecer plan personal de actividad fisica y a explicar la vida activa y la salud personal con mayor claridad mediante estilos de vida saludables.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "actividad fisica",
+          "description": "Actividad fisica es una idea clave para comprender la vida activa y la salud personal.",
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "sourcePages": [
+            141,
+            146
+          ],
+          "sourcePagesLabel": "pp. 141-146",
+          "topicTitle": "La actividad fisica",
+          "status": "confirmed",
+          "reason": "La fuente validada \"La actividad fisica\" aporta base suficiente para trabajar actividad fisica dentro del proyecto 13.",
+          "pedagogicalUse": "Ayuda a fortalecer plan personal de actividad fisica y a explicar la vida activa y la salud personal con mayor claridad mediante actividad fisica.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "salud en la adolescencia",
+          "description": "Salud en la adolescencia es una idea clave para comprender la vida activa y la salud personal.",
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "sourcePages": [
+            216,
+            228
+          ],
+          "sourcePagesLabel": "pp. 216-228",
+          "topicTitle": "La salud en la adolescencia",
+          "status": "confirmed",
+          "reason": "La fuente validada \"La salud en la adolescencia\" aporta base suficiente para trabajar salud en la adolescencia dentro del proyecto 13.",
+          "pedagogicalUse": "Ayuda a fortalecer plan personal de actividad fisica y a explicar la vida activa y la salud personal con mayor claridad mediante salud en la adolescencia.",
+          "activityReadiness": "usable-for-autoevaluation"
+        }
+      ],
+      "thinkingCriteria": [
+        "Relacionar la vida activa y la salud personal con situaciones cercanas a la comunidad.",
+        "Usar plan personal de actividad fisica para explicar y no solo para recopilar informacion.",
+        "Distinguir entre mencionar conceptos y comprender como dialogan entre si dentro del proyecto."
+      ],
+      "validationStatus": {
+        "readinessLevel": "development-partial",
+        "readyForActivities": false,
+        "needsReviewReasons": [
+          "El bloque 5 ya es usable como lectura docente, pero el video del PPA 5 y el recurso informatico siguen pendientes de validacion de destino final.",
+          "La asignacion de apoyos de Posibilidades se sostiene por inferencia curricular documentada y no por OCR perfectamente separado por columnas.",
+          "No mover a actividades interactivas ni desbloquear juegos completos hasta ampliar validacion de videos y recursos complementarios."
+        ]
+      },
+      "readinessLevel": "development-partial",
+      "readyForActivities": false,
+      "needsReviewReasons": [
+        "No mover a actividades interactivas ni desbloquear juegos completos."
+      ],
+      "roleInPpa": "Abre el bloque con un plan personal que relaciona actividad fisica, salud y cuidado diario.",
+      "pedagogicalUse": "Conviene trabajar Un plan personal de vida activa y saludable como una oportunidad para profundizar en la vida activa y la salud personal sin separar contenido, comunidad y producto final.",
+      "teacherNotes": [
+        "Conviene partir de ejemplos cercanos y despues pasar al lenguaje mas abstracto del campo.",
+        "El producto Plan personal de actividad fisica gana fuerza cuando se usa para explicar y no solo para exhibir informacion.",
+        "Es mejor seleccionar pocos conceptos bien comprendidos que saturar el trabajo con terminos aislados."
+      ],
+      "resonancePrompts": [
+        {
+          "type": "individual",
+          "prompt": "¿Que comprendes mejor sobre la vida activa y la salud personal despues de elaborar plan personal de actividad fisica?"
+        },
+        {
+          "type": "community",
+          "prompt": "¿Que dialogos comunitarios podrian fortalecerse si compartimos plan personal de actividad fisica y lo ponemos en conversacion con otras personas?"
+        }
+      ],
+      "notReadyFor": [
+        "full-games",
+        "summative-exam"
+      ]
+    },
+    {
+      "id": "de-lo-humano-y-lo-comunitario-1-ppa-5-pa14",
+      "projectId": "de-lo-humano-y-lo-comunitario-1-ppa-5-pa14",
+      "academicProjectNumber": 14,
+      "title": "Mi plan estrategico familiar de vida activa y saludable",
+      "projectTitle": "Mi plan estrategico familiar de vida activa y saludable",
+      "grade": "1",
+      "field": "De lo Humano y lo Comunitario",
+      "ppaNumber": "5",
+      "partialClassroomProject": "PPA 5",
+      "partialClassroomProjectTitle": "Estilos de vida activos y saludables",
+      "bookVolume": "Tomo III",
+      "sourceValidation": {
+        "sourceStatus": "linked",
+        "possibilitiesPages": [
+          14,
+          15
+        ],
+        "possibilitiesMaterialId": "grade-1-posibilidades-pos-dhc-1",
+        "possibilitiesColumnIndex": 2,
+        "columnEvidence": "Bloque PPA 5 Estilos de vida activos y saludables localizado en pp. 14-15; la columna 2 se confirma por el orden de proyectos, productos y continuidad del mismo bloque."
+      },
+      "finalProduct": {
+        "title": "Plan estrategico",
+        "source": "Posibilidades de uso DHyC pp. 14-15 + Nuestro libro de proyectos Tomo III pp. 229-232",
+        "status": "confirmed"
+      },
+      "sourcePages": {
+        "nuestroLibroProyectos": [
+          {
+            "materialId": "grade-1-proyectos-nuestro-libro-de-proyectos-tomo-iii-primer-grado",
+            "label": "Nuestro libro de proyectos Tomo III",
+            "startPage": 229,
+            "endPage": 232,
+            "pagesLabel": "pp. 229-232",
+            "topicTitle": "Proyecto academico 14",
+            "status": "confirmed-source"
+          }
+        ],
+        "conceptBook": [
+          {
+            "materialId": "grade-1-conceptos-de-lo-humano-y-lo-comunitario-primer-grado",
+            "label": "De lo Humano y lo Comunitario",
+            "startPage": 133,
+            "endPage": 136,
+            "pagesLabel": "pp. 133-136",
+            "topicTitle": "Elementos de la condicion fisica",
+            "status": "confirmed-by-column-inference"
+          },
+          {
+            "materialId": "grade-1-conceptos-de-lo-humano-y-lo-comunitario-primer-grado",
+            "label": "De lo Humano y lo Comunitario",
+            "startPage": 163,
+            "endPage": 166,
+            "pagesLabel": "pp. 163-166",
+            "topicTitle": "Autocuidado y bienestar colectivo",
+            "status": "confirmed-by-column-inference"
+          }
+        ],
+        "multiplesLenguajes": [
+          {
+            "materialId": "grade-1-apoyo-muiltiples-lenguajes-primer-grado",
+            "label": "Multiples Lenguajes",
+            "startPage": 120,
+            "endPage": 121,
+            "pagesLabel": "pp. 120-121",
+            "topicTitle": "Wulfrano",
+            "status": "confirmed-by-column-inference"
+          }
+        ],
+        "otherMaterials": [
+          {
+            "label": "Video PPA 5: Estilos de vida activos y saludables",
+            "reference": "bit.ly/3VfglUk",
+            "status": "pending-validation"
+          }
+        ]
+      },
+      "supportMaterials": [
+        {
+          "title": "Wulfrano",
+          "kind": "Multiples Lenguajes",
+          "pages": "pp. 120-121",
+          "status": "confirmed-by-column-inference"
+        }
+      ],
+      "horizonOrPurpose": {
+        "status": "confirmed-from-project-book",
+        "text": "Diseñar un plan familiar estratégico de vida activa y saludable, donde se generalicen las acciones que realizarán todos los integrantes de la familia, a partir de encontrar intereses, necesidades, posibilidades y potencialidades que les sean comunes.",
+        "source": "Visión — Horizonte 2 (p. 230)"
+      },
+      "projectExpectationHorizon": {
+        "officialText": "Diseñar un plan familiar estratégico de vida activa y saludable, donde se generalicen las acciones que realizarán todos los integrantes de la familia, a partir de encontrar intereses, necesidades, posibilidades y potencialidades que les sean comunes.",
+        "studentVersion": "Diseñar un plan familiar estratégico de vida activa y saludable, donde se generalicen las acciones que realizarán todos los integrantes de la familia, a partir de encontrar intereses, necesidades, posibilidades y potencialidades que les sean comunes.",
+        "horizon1Raw": "Diseñar un plan familiar estratégico de vida activa y saludable, donde se personalicen las acciones que realizará cada uno de los integrantes de la familia, de acuerdo con sus intereses, necesidades, posibilidades y potencialidades.",
+        "horizon2Raw": "Diseñar un plan familiar estratégico de vida activa y saludable, donde se generalicen las acciones que realizarán todos los integrantes de la familia, a partir de encontrar intereses, necesidades, posibilidades y potencialidades que les sean comunes.",
+        "sourcePages": [
+          "Visión — Horizonte 2 (p. 230)"
+        ],
+        "evidence": "Extraído por visión de imagen de la página 230 del libro de proyectos. Confianza: alta.",
+        "status": "confirmed-from-project-book",
+        "extractedAt": "2026-06-16T04:57:51.831Z"
+      },
+      "detonatingStrategy": {
+        "status": "pending-url",
+        "text": "Video PPA 5: Estilos de vida activos y saludables",
+        "reference": "bit.ly/3VfglUk",
+        "source": "Nuestro libro de proyectos Tomo III pp. 227-228 + Posibilidades de uso DHyC pp. 14-15"
+      },
+      "academicProjectStrategy": {
+        "title": "Plan estrategico",
+        "text": "Organizar plan estrategico para profundizar en la actividad fisica y el bienestar saludable en la familia y compartir hallazgos de manera clara con el grupo.",
+        "type": "project-product",
+        "status": "confirmed-from-project-book",
+        "source": "Nuestro libro de proyectos Tomo III pp. 229-232"
+      },
+      "academicConcepts": [
+        {
+          "concept": "plan estrategico",
+          "description": "Plan estrategico como producto de cierre para organizar y comunicar aprendizajes del proyecto.",
+          "sourceBook": "Nuestro libro de proyectos Tomo III",
+          "sourcePages": [
+            229,
+            232
+          ],
+          "sourcePagesLabel": "pp. 229-232",
+          "topicTitle": "Proyecto academico 14",
+          "status": "confirmed",
+          "reason": "Posibilidades y el propio proyecto fijan Plan estrategico como producto final del PA 14.",
+          "pedagogicalUse": "Da una forma concreta de socializar lo comprendido sobre la actividad fisica y el bienestar saludable en la familia.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "condicion fisica",
+          "description": "Condicion fisica es una idea clave para comprender la actividad fisica y el bienestar saludable en la familia.",
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "sourcePages": [
+            133,
+            136
+          ],
+          "sourcePagesLabel": "pp. 133-136",
+          "topicTitle": "Elementos de la condicion fisica",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Elementos de la condicion fisica\" aporta base suficiente para trabajar condicion fisica dentro del proyecto 14.",
+          "pedagogicalUse": "Ayuda a fortalecer plan estrategico y a explicar la actividad fisica y el bienestar saludable en la familia con mayor claridad mediante condicion fisica.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "autocuidado",
+          "description": "Autocuidado es una idea clave para comprender la actividad fisica y el bienestar saludable en la familia.",
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "sourcePages": [
+            163,
+            166
+          ],
+          "sourcePagesLabel": "pp. 163-166",
+          "topicTitle": "Autocuidado y bienestar colectivo",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Autocuidado y bienestar colectivo\" aporta base suficiente para trabajar autocuidado dentro del proyecto 14.",
+          "pedagogicalUse": "Ayuda a fortalecer plan estrategico y a explicar la actividad fisica y el bienestar saludable en la familia con mayor claridad mediante autocuidado.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "bienestar colectivo",
+          "description": "Bienestar colectivo es una idea clave para comprender la actividad fisica y el bienestar saludable en la familia.",
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "sourcePages": [
+            163,
+            166
+          ],
+          "sourcePagesLabel": "pp. 163-166",
+          "topicTitle": "Autocuidado y bienestar colectivo",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Autocuidado y bienestar colectivo\" aporta base suficiente para trabajar bienestar colectivo dentro del proyecto 14.",
+          "pedagogicalUse": "Ayuda a fortalecer plan estrategico y a explicar la actividad fisica y el bienestar saludable en la familia con mayor claridad mediante bienestar colectivo.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "plan familiar",
+          "description": "Plan familiar es una idea clave para comprender la actividad fisica y el bienestar saludable en la familia.",
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "sourcePages": [
+            163,
+            166
+          ],
+          "sourcePagesLabel": "pp. 163-166",
+          "topicTitle": "Autocuidado y bienestar colectivo",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Autocuidado y bienestar colectivo\" aporta base suficiente para trabajar plan familiar dentro del proyecto 14.",
+          "pedagogicalUse": "Ayuda a fortalecer plan estrategico y a explicar la actividad fisica y el bienestar saludable en la familia con mayor claridad mediante plan familiar.",
+          "activityReadiness": "usable-for-autoevaluation"
+        }
+      ],
+      "thinkingCriteria": [
+        "Relacionar la actividad fisica y el bienestar saludable en la familia con situaciones cercanas a la comunidad.",
+        "Usar plan estrategico para explicar y no solo para recopilar informacion.",
+        "Distinguir entre mencionar conceptos y comprender como dialogan entre si dentro del proyecto."
+      ],
+      "validationStatus": {
+        "readinessLevel": "development-partial",
+        "readyForActivities": false,
+        "needsReviewReasons": [
+          "El bloque 5 ya es usable como lectura docente, pero el video del PPA 5 y el recurso informatico siguen pendientes de validacion de destino final.",
+          "La asignacion de apoyos de Posibilidades se sostiene por inferencia curricular documentada y no por OCR perfectamente separado por columnas.",
+          "No mover a actividades interactivas ni desbloquear juegos completos hasta ampliar validacion de videos y recursos complementarios."
+        ]
+      },
+      "readinessLevel": "development-partial",
+      "readyForActivities": false,
+      "needsReviewReasons": [
+        "No mover a actividades interactivas ni desbloquear juegos completos."
+      ],
+      "roleInPpa": "Profundiza el bloque al llevar el cuidado activo y saludable al plano familiar.",
+      "pedagogicalUse": "Conviene trabajar Mi plan estrategico familiar de vida activa y saludable como una oportunidad para profundizar en la actividad fisica y el bienestar saludable en la familia sin separar contenido, comunidad y producto final.",
+      "teacherNotes": [
+        "Conviene partir de ejemplos cercanos y despues pasar al lenguaje mas abstracto del campo.",
+        "El producto Plan estrategico gana fuerza cuando se usa para explicar y no solo para exhibir informacion.",
+        "Es mejor seleccionar pocos conceptos bien comprendidos que saturar el trabajo con terminos aislados."
+      ],
+      "resonancePrompts": [
+        {
+          "type": "individual",
+          "prompt": "¿Que comprendes mejor sobre la actividad fisica y el bienestar saludable en la familia despues de elaborar plan estrategico?"
+        },
+        {
+          "type": "community",
+          "prompt": "¿Que dialogos comunitarios podrian fortalecerse si compartimos plan estrategico y lo ponemos en conversacion con otras personas?"
+        }
+      ],
+      "notReadyFor": [
+        "full-games",
+        "summative-exam"
+      ]
+    },
+    {
+      "id": "de-lo-humano-y-lo-comunitario-1-ppa-5-pa15",
+      "projectId": "de-lo-humano-y-lo-comunitario-1-ppa-5-pa15",
+      "academicProjectNumber": 15,
+      "title": "Un caso para reflexionar",
+      "projectTitle": "Un caso para reflexionar",
+      "grade": "1",
+      "field": "De lo Humano y lo Comunitario",
+      "ppaNumber": "5",
+      "partialClassroomProject": "PPA 5",
+      "partialClassroomProjectTitle": "Estilos de vida activos y saludables",
+      "bookVolume": "Tomo III",
+      "sourceValidation": {
+        "sourceStatus": "linked",
+        "possibilitiesPages": [
+          14,
+          15
+        ],
+        "possibilitiesMaterialId": "grade-1-posibilidades-pos-dhc-1",
+        "possibilitiesColumnIndex": 3,
+        "columnEvidence": "Bloque PPA 5 Estilos de vida activos y saludables localizado en pp. 14-15; la columna 3 se confirma por el orden de proyectos, productos y continuidad del mismo bloque."
+      },
+      "finalProduct": {
+        "title": "Estudio de caso",
+        "source": "Posibilidades de uso DHyC pp. 14-15 + Nuestro libro de proyectos Tomo III pp. 233-237",
+        "status": "confirmed"
+      },
+      "sourcePages": {
+        "nuestroLibroProyectos": [
+          {
+            "materialId": "grade-1-proyectos-nuestro-libro-de-proyectos-tomo-iii-primer-grado",
+            "label": "Nuestro libro de proyectos Tomo III",
+            "startPage": 233,
+            "endPage": 237,
+            "pagesLabel": "pp. 233-237",
+            "topicTitle": "Proyecto academico 15",
+            "status": "confirmed-source"
+          }
+        ],
+        "conceptBook": [
+          {
+            "materialId": "grade-1-conceptos-de-lo-humano-y-lo-comunitario-primer-grado",
+            "label": "De lo Humano y lo Comunitario",
+            "startPage": 124,
+            "endPage": 128,
+            "pagesLabel": "pp. 124-128",
+            "topicTitle": "Diversidad",
+            "status": "confirmed-by-column-inference"
+          },
+          {
+            "materialId": "grade-1-conceptos-de-lo-humano-y-lo-comunitario-primer-grado",
+            "label": "De lo Humano y lo Comunitario",
+            "startPage": 168,
+            "endPage": 174,
+            "pagesLabel": "pp. 168-174",
+            "topicTitle": "Construccion de relaciones afectivas, inclusivas y equitativas",
+            "status": "confirmed-by-column-inference"
+          }
+        ],
+        "multiplesLenguajes": [
+          {
+            "materialId": "grade-1-apoyo-muiltiples-lenguajes-primer-grado",
+            "label": "Multiples Lenguajes",
+            "startPage": 144,
+            "endPage": 149,
+            "pagesLabel": "pp. 144-149",
+            "topicTitle": "La grieta",
+            "status": "confirmed-by-column-inference"
+          }
+        ],
+        "otherMaterials": [
+          {
+            "label": "Video PPA 5: Estilos de vida activos y saludables",
+            "reference": "bit.ly/3VfglUk",
+            "status": "pending-validation"
+          }
+        ]
+      },
+      "supportMaterials": [
+        {
+          "title": "La grieta",
+          "kind": "Multiples Lenguajes",
+          "pages": "pp. 144-149",
+          "status": "confirmed-by-column-inference"
+        }
+      ],
+      "horizonOrPurpose": {
+        "status": "confirmed-from-project-book",
+        "text": "Determinar un estudio de caso para favorecer ambientes dignos caracterizados por la dignidad, la libertad y la diversidad.",
+        "source": "Visión — Horizonte 2 (p. 234)"
+      },
+      "projectExpectationHorizon": {
+        "officialText": "Determinar un estudio de caso para favorecer ambientes dignos caracterizados por la dignidad, la libertad y la diversidad.",
+        "studentVersion": "Determinar un estudio de caso para favorecer ambientes dignos caracterizados por la dignidad, la libertad y la diversidad.",
+        "horizon1Raw": "Identificar situaciones del entorno cercano que vulneren y dañen la dignidad, la libertad y el respeto a la diversidad.",
+        "horizon2Raw": "Determinar un estudio de caso para favorecer ambientes dignos caracterizados por la dignidad, la libertad y la diversidad.",
+        "sourcePages": [
+          "Visión — Horizonte 2 (p. 234)"
+        ],
+        "evidence": "Extraído por visión de imagen de la página 234 del libro de proyectos. Confianza: alta.",
+        "status": "confirmed-from-project-book",
+        "extractedAt": "2026-06-16T05:23:40.011Z"
+      },
+      "detonatingStrategy": {
+        "status": "pending-url",
+        "text": "Video PPA 5: Estilos de vida activos y saludables",
+        "reference": "bit.ly/3VfglUk",
+        "source": "Nuestro libro de proyectos Tomo III pp. 231-232 + Posibilidades de uso DHyC pp. 14-15"
+      },
+      "academicProjectStrategy": {
+        "title": "Estudio de caso",
+        "text": "Organizar estudio de caso para profundizar en las relaciones afectivas y la salud desde casos de la vida real y compartir hallazgos de manera clara con el grupo.",
+        "type": "project-product",
+        "status": "confirmed-from-project-book",
+        "source": "Nuestro libro de proyectos Tomo III pp. 233-237"
+      },
+      "academicConcepts": [
+        {
+          "concept": "estudio de caso",
+          "description": "Estudio de caso como producto de cierre para organizar y comunicar aprendizajes del proyecto.",
+          "sourceBook": "Nuestro libro de proyectos Tomo III",
+          "sourcePages": [
+            233,
+            237
+          ],
+          "sourcePagesLabel": "pp. 233-237",
+          "topicTitle": "Proyecto academico 15",
+          "status": "confirmed",
+          "reason": "Posibilidades y el propio proyecto fijan Estudio de caso como producto final del PA 15.",
+          "pedagogicalUse": "Da una forma concreta de socializar lo comprendido sobre las relaciones afectivas y la salud desde casos de la vida real.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "diversidad",
+          "description": "Diversidad es una idea clave para comprender las relaciones afectivas y la salud desde casos de la vida real.",
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "sourcePages": [
+            124,
+            128
+          ],
+          "sourcePagesLabel": "pp. 124-128",
+          "topicTitle": "Diversidad",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Diversidad\" aporta base suficiente para trabajar diversidad dentro del proyecto 15.",
+          "pedagogicalUse": "Ayuda a fortalecer estudio de caso y a explicar las relaciones afectivas y la salud desde casos de la vida real con mayor claridad mediante diversidad.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "relaciones afectivas",
+          "description": "Relaciones afectivas es una idea clave para comprender las relaciones afectivas y la salud desde casos de la vida real.",
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "sourcePages": [
+            168,
+            174
+          ],
+          "sourcePagesLabel": "pp. 168-174",
+          "topicTitle": "Construccion de relaciones afectivas, inclusivas y equitativas",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Construccion de relaciones afectivas, inclusivas y equitativas\" aporta base suficiente para trabajar relaciones afectivas dentro del proyecto 15.",
+          "pedagogicalUse": "Ayuda a fortalecer estudio de caso y a explicar las relaciones afectivas y la salud desde casos de la vida real con mayor claridad mediante relaciones afectivas.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "equidad",
+          "description": "Equidad es una idea clave para comprender las relaciones afectivas y la salud desde casos de la vida real.",
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "sourcePages": [
+            168,
+            174
+          ],
+          "sourcePagesLabel": "pp. 168-174",
+          "topicTitle": "Construccion de relaciones afectivas, inclusivas y equitativas",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Construccion de relaciones afectivas, inclusivas y equitativas\" aporta base suficiente para trabajar equidad dentro del proyecto 15.",
+          "pedagogicalUse": "Ayuda a fortalecer estudio de caso y a explicar las relaciones afectivas y la salud desde casos de la vida real con mayor claridad mediante equidad.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "cuidado mutuo",
+          "description": "Cuidado mutuo es una idea clave para comprender las relaciones afectivas y la salud desde casos de la vida real.",
+          "sourceBook": "De lo Humano y lo Comunitario",
+          "sourcePages": [
+            168,
+            174
+          ],
+          "sourcePagesLabel": "pp. 168-174",
+          "topicTitle": "Construccion de relaciones afectivas, inclusivas y equitativas",
+          "status": "confirmed",
+          "reason": "La fuente validada \"Construccion de relaciones afectivas, inclusivas y equitativas\" aporta base suficiente para trabajar cuidado mutuo dentro del proyecto 15.",
+          "pedagogicalUse": "Ayuda a fortalecer estudio de caso y a explicar las relaciones afectivas y la salud desde casos de la vida real con mayor claridad mediante cuidado mutuo.",
+          "activityReadiness": "usable-for-autoevaluation"
+        }
+      ],
+      "thinkingCriteria": [
+        "Relacionar las relaciones afectivas y la salud desde casos de la vida real con situaciones cercanas a la comunidad.",
+        "Usar estudio de caso para explicar y no solo para recopilar informacion.",
+        "Distinguir entre mencionar conceptos y comprender como dialogan entre si dentro del proyecto."
+      ],
+      "validationStatus": {
+        "readinessLevel": "development-partial",
+        "readyForActivities": false,
+        "needsReviewReasons": [
+          "El bloque 5 ya es usable como lectura docente, pero el video del PPA 5 y el recurso informatico siguen pendientes de validacion de destino final.",
+          "La asignacion de apoyos de Posibilidades se sostiene por inferencia curricular documentada y no por OCR perfectamente separado por columnas.",
+          "No mover a actividades interactivas ni desbloquear juegos completos hasta ampliar validacion de videos y recursos complementarios."
+        ]
+      },
+      "readinessLevel": "development-partial",
+      "readyForActivities": false,
+      "needsReviewReasons": [
+        "No mover a actividades interactivas ni desbloquear juegos completos."
+      ],
+      "roleInPpa": "Cierra el bloque con un estudio de caso que vincula salud, afectos y decisiones de cuidado.",
+      "pedagogicalUse": "Conviene trabajar Un caso para reflexionar como una oportunidad para profundizar en las relaciones afectivas y la salud desde casos de la vida real sin separar contenido, comunidad y producto final.",
+      "teacherNotes": [
+        "Conviene partir de ejemplos cercanos y despues pasar al lenguaje mas abstracto del campo.",
+        "El producto Estudio de caso gana fuerza cuando se usa para explicar y no solo para exhibir informacion.",
+        "Es mejor seleccionar pocos conceptos bien comprendidos que saturar el trabajo con terminos aislados."
+      ],
+      "resonancePrompts": [
+        {
+          "type": "individual",
+          "prompt": "¿Que comprendes mejor sobre las relaciones afectivas y la salud desde casos de la vida real despues de elaborar estudio de caso?"
+        },
+        {
+          "type": "community",
+          "prompt": "¿Que dialogos comunitarios podrian fortalecerse si compartimos estudio de caso y lo ponemos en conversacion con otras personas?"
+        }
+      ],
+      "notReadyFor": [
+        "full-games",
+        "summative-exam"
+      ]
+    }
+  ]
+}

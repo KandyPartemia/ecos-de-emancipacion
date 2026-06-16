@@ -1,0 +1,703 @@
+{
+  "grade": "3",
+  "gradeLabel": "Tercer grado",
+  "field": "Saberes y Pensamiento Cientifico",
+  "bookVolume": "Tomo III",
+  "partialClassroomProject": "PPA 14",
+  "partialClassroomProjectTitle": "Construir el cuerpo de las figuras",
+  "generatedAt": "2026-06-07T03:06:28.601Z",
+  "notes": "Capa curricular generada por lote para 3o Saberes y Pensamiento Cientifico, PPA 14.",
+  "sourcesUsed": [
+    "content/caracoles/curricular-catalog/all-projects-canonical.json",
+    "public/caracoles/data/generated/grade-3/concepts-index.json",
+    "src/caracoles/lib/officialVideoLinks.ts",
+    "Posibilidades de uso SyPC, tercer grado, p. 34",
+    "Nuestro libro de proyectos, tercer grado, pp. 128-139"
+  ],
+  "partialClassroomProjectContext": {
+    "expectationHorizon": {
+      "officialText": "",
+      "sourcePages": [
+        "Nuestro libro de proyectos Tomo III pp. 128-131",
+        "Posibilidades de uso SyPC p. 34"
+      ],
+      "evidence": "El PPA 14 articula 14. construir el cuerpo de las figuras, sólidos de revolución, 14. construir el cuerpo de las figuras para trabajar Construir el cuerpo de las figuras.",
+      "status": "pending"
+    },
+    "ppaDetonatingStrategy": {
+      "title": "Construir el cuerpo de las figuras",
+      "type": "video",
+      "url": "",
+      "urlStatus": "confirmed-by-official-video-map",
+      "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+      "scope": "partial-classroom-project"
+    },
+    "ppaDigitalResource": {
+      "title": "Recurso del Proyecto Parcial de Aula 14",
+      "reference": "",
+      "status": "confirmed-by-official-video-map",
+      "source": "YouTube, acervo Aprende_MX/Telesecundaria"
+    },
+    "validationStatus": {
+      "needsHumanReview": true,
+      "needsReviewReasons": [
+        "Los videos PA/PPA se validan por el mapa oficial de enlaces directos ya generado.",
+        "Los apoyos complementarios impresos no se asignan cuando no hay evidencia validada por columna.",
+        "El horizonte textual literal queda pendiente de revision fina si se necesita cita exacta."
+      ]
+    },
+    "columnValidation": {
+      "possibilitiesPagesReviewed": [
+        34
+      ],
+      "confirmedAsPpa": true,
+      "note": "El PPA 14 se agrupa desde el catalogo canonico de tercer grado.",
+      "columns": [
+        {
+          "columnIndex": 1,
+          "projectId": "saberes-y-pensamiento-cientifico-3-ppa-14-pa40",
+          "projectTitle": "Las propiedades de los triángulos",
+          "finalProduct": "14. Construir el cuerpo de las figuras",
+          "supportMaterials": []
+        },
+        {
+          "columnIndex": 2,
+          "projectId": "saberes-y-pensamiento-cientifico-3-ppa-14-pa41",
+          "projectTitle": "Construir sólidos de revolución",
+          "finalProduct": "Sólidos de revolución",
+          "supportMaterials": []
+        },
+        {
+          "columnIndex": 3,
+          "projectId": "saberes-y-pensamiento-cientifico-3-ppa-14-pa42",
+          "projectTitle": "La construcción de las figuras",
+          "finalProduct": "14. Construir el cuerpo de las figuras",
+          "supportMaterials": []
+        }
+      ]
+    }
+  },
+  "academicProjects": [
+    {
+      "id": "saberes-y-pensamiento-cientifico-3-ppa-14-pa40",
+      "projectId": "saberes-y-pensamiento-cientifico-3-ppa-14-pa40",
+      "academicProjectNumber": 40,
+      "title": "Las propiedades de los triángulos",
+      "projectTitle": "Las propiedades de los triángulos",
+      "grade": "3",
+      "field": "Saberes y Pensamiento Científico",
+      "ppaNumber": "14",
+      "partialClassroomProject": "PPA 14",
+      "partialClassroomProjectTitle": "Construir el cuerpo de las figuras",
+      "bookVolume": "Tomo III",
+      "sourceValidation": {
+        "sourceStatus": "linked",
+        "possibilitiesPages": [
+          34
+        ],
+        "possibilitiesMaterialId": "grade-3-posibilidades-pos-sypc-3",
+        "possibilitiesColumnIndex": 1,
+        "columnEvidence": "Proyecto PA 40 agrupado en el PPA 14 desde el catalogo canonico y las paginas de Posibilidades."
+      },
+      "finalProduct": {
+        "title": "14. Construir el cuerpo de las figuras",
+        "source": "Video detonador validado en YouTube + Nuestro libro de proyectos Tomo III pp. 128-131",
+        "status": "confirmed-from-video-and-project"
+      },
+      "sourcePages": {
+        "nuestroLibroProyectos": [
+          {
+            "materialId": "grade-3-proyectos-nuestros-proyectos-tomo-3-tercer-grado",
+            "label": "Nuestro libro de proyectos Tomo III",
+            "startPage": 128,
+            "endPage": 131,
+            "pagesLabel": "pp. 128-131",
+            "topicTitle": "Proyecto academico 40",
+            "status": "confirmed-source"
+          }
+        ],
+        "conceptBook": [
+          {
+            "materialId": "grade-3-conceptos-saberes-y-pensamiento-cientifico-tercer-grado",
+            "label": "Saberes y Pensamiento Cientifico",
+            "startPage": 128,
+            "endPage": 128,
+            "pagesLabel": "p. 128",
+            "topicTitle": "14. construir el cuerpo de las figuras",
+            "status": "confirmed"
+          }
+        ],
+        "multiplesLenguajes": [],
+        "otherMaterials": [
+          {
+            "label": "Video PA 40: Las propiedades de los triángulos",
+            "reference": "",
+            "status": "confirmed"
+          }
+        ]
+      },
+      "supportMaterials": [],
+      "horizonOrPurpose": {
+        "status": "confirmed-from-project-book",
+        "text": "Aunque sólo tenemos ideas dispersas sobre las características principales de los triángulos, deseamos aprender más en comunidad y obtener un mejor conocimiento para su construcción, a fin de elaborar carteles para una exposición.",
+        "source": "Visión — Horizonte 2 (p. 129)"
+      },
+      "projectExpectationHorizon": {
+        "officialText": "Aunque sólo tenemos ideas dispersas sobre las características principales de los triángulos, deseamos aprender más en comunidad y obtener un mejor conocimiento para su construcción, a fin de elaborar carteles para una exposición.",
+        "studentVersion": "Aunque sólo tenemos ideas dispersas sobre las características principales de los triángulos, deseamos aprender más en comunidad y obtener un mejor conocimiento para su construcción, a fin de elaborar carteles para una exposición.",
+        "horizon1Raw": "No sabemos sobre la congruencia y semejanza de los triángulos, ni sobre las características principales de su construcción, pero sabemos cómo hacer los carteles para la exposición.",
+        "horizon2Raw": "Aunque sólo tenemos ideas dispersas sobre las características principales de los triángulos, deseamos aprender más en comunidad y obtener un mejor conocimiento para su construcción, a fin de elaborar carteles para una exposición.",
+        "sourcePages": [
+          "Visión — Horizonte 2 (p. 129)"
+        ],
+        "evidence": "Extraído por visión de imagen de la página 129 del libro de proyectos. Confianza: alta.",
+        "status": "confirmed-from-project-book",
+        "extractedAt": "2026-06-16T05:18:47.307Z"
+      },
+      "detonatingStrategy": {
+        "status": "confirmed",
+        "title": "Construir el cuerpo de las figuras",
+        "text": "Video del Proyecto Parcial de Aula 14: Construir el cuerpo de las figuras",
+        "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+        "scope": "partial-classroom-project",
+        "type": "video"
+      },
+      "academicProjectStrategy": {
+        "title": "14. Construir el cuerpo de las figuras • Saberes y pensamiento científico• 3er grado",
+        "text": "Video detonador del Proyecto Academico 40: Las propiedades de los triángulos",
+        "type": "video",
+        "status": "confirmed-from-video-and-project",
+        "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+        "scope": "academic-project"
+      },
+      "academicConcepts": [
+        {
+          "concept": "14. construir el cuerpo de las figuras",
+          "description": "14. construir el cuerpo de las figuras organiza el producto de cierre y permite comunicar lo aprendido en el proyecto.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            128
+          ],
+          "sourcePagesLabel": "p. 128",
+          "topicTitle": "Proyecto academico 40",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 40, al PPA 14 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Materia",
+          "description": "Materia ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            265
+          ],
+          "sourcePagesLabel": "p. 265",
+          "topicTitle": "Proyecto academico 40",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 40, al PPA 14 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Mezclas",
+          "description": "Mezclas ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            265
+          ],
+          "sourcePagesLabel": "p. 265",
+          "topicTitle": "Proyecto academico 40",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 40, al PPA 14 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Quimica",
+          "description": "Quimica ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            9
+          ],
+          "sourcePagesLabel": "p. 9",
+          "topicTitle": "Proyecto academico 40",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 40, al PPA 14 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Figuras",
+          "description": "Figuras ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            128
+          ],
+          "sourcePagesLabel": "p. 128",
+          "topicTitle": "Proyecto academico 40",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 40, al PPA 14 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Medicion",
+          "description": "Medicion ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            128
+          ],
+          "sourcePagesLabel": "p. 128",
+          "topicTitle": "Proyecto academico 40",
+          "status": "suggested",
+          "reason": "Concepto vinculado al PA 40, al PPA 14 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "teacher-review"
+        }
+      ],
+      "thinkingCriteria": [
+        "Relacionar Las propiedades de los triángulos con una situacion concreta del entorno escolar o comunitario.",
+        "Usar 14. construir el cuerpo de las figuras para explicar ideas con claridad y evidencia."
+      ],
+      "resonancePrompts": [
+        {
+          "type": "individual",
+          "prompt": "¿Como te ayuda 14. construir el cuerpo de las figuras a comprender mejor Las propiedades de los triángulos y a explicar sus conceptos clave en tu comunidad?",
+          "conceptsActivated": [
+            "14. construir el cuerpo de las figuras",
+            "Materia",
+            "Mezclas",
+            "Quimica"
+          ],
+          "suggestedUse": "Momento 1 de autoevaluacion"
+        }
+      ],
+      "validationStatus": {
+        "readinessLevel": "curricular-bundle-generated",
+        "readyForActivities": true,
+        "needsReviewReasons": [
+          "El horizonte textual literal queda pendiente de revision fina si se requiere cita exacta.",
+          "Los apoyos complementarios impresos no se asignan cuando no hay evidencia validada por columna."
+        ]
+      },
+      "readinessLevel": "curricular-bundle-generated",
+      "readyForActivities": true,
+      "needsReviewReasons": []
+    },
+    {
+      "id": "saberes-y-pensamiento-cientifico-3-ppa-14-pa41",
+      "projectId": "saberes-y-pensamiento-cientifico-3-ppa-14-pa41",
+      "academicProjectNumber": 41,
+      "title": "Construir sólidos de revolución",
+      "projectTitle": "Construir sólidos de revolución",
+      "grade": "3",
+      "field": "Saberes y Pensamiento Científico",
+      "ppaNumber": "14",
+      "partialClassroomProject": "PPA 14",
+      "partialClassroomProjectTitle": "Construir el cuerpo de las figuras",
+      "bookVolume": "Tomo III",
+      "sourceValidation": {
+        "sourceStatus": "linked",
+        "possibilitiesPages": [
+          34
+        ],
+        "possibilitiesMaterialId": "grade-3-posibilidades-pos-sypc-3",
+        "possibilitiesColumnIndex": 2,
+        "columnEvidence": "Proyecto PA 41 agrupado en el PPA 14 desde el catalogo canonico y las paginas de Posibilidades."
+      },
+      "finalProduct": {
+        "title": "Sólidos de revolución",
+        "source": "Video detonador validado en YouTube + Nuestro libro de proyectos Tomo III pp. 132-135",
+        "status": "confirmed-from-video-and-project"
+      },
+      "sourcePages": {
+        "nuestroLibroProyectos": [
+          {
+            "materialId": "grade-3-proyectos-nuestros-proyectos-tomo-3-tercer-grado",
+            "label": "Nuestro libro de proyectos Tomo III",
+            "startPage": 132,
+            "endPage": 135,
+            "pagesLabel": "pp. 132-135",
+            "topicTitle": "Proyecto academico 41",
+            "status": "confirmed-source"
+          }
+        ],
+        "conceptBook": [
+          {
+            "materialId": "grade-3-conceptos-saberes-y-pensamiento-cientifico-tercer-grado",
+            "label": "Saberes y Pensamiento Cientifico",
+            "startPage": 132,
+            "endPage": 132,
+            "pagesLabel": "p. 132",
+            "topicTitle": "Sólidos de revolución",
+            "status": "confirmed"
+          }
+        ],
+        "multiplesLenguajes": [],
+        "otherMaterials": [
+          {
+            "label": "Video PA 41: Construir sólidos de revolución",
+            "reference": "",
+            "status": "confirmed"
+          }
+        ]
+      },
+      "supportMaterials": [],
+      "horizonOrPurpose": {
+        "status": "confirmed-from-project-book",
+        "text": "Investigar las características principales de las figuras planas y figuras con volumen para apreciarlas de distintas maneras.",
+        "source": "Visión — Horizonte 1 (p. 133)"
+      },
+      "projectExpectationHorizon": {
+        "officialText": "Investigar las características principales de las figuras planas y figuras con volumen para apreciarlas de distintas maneras.",
+        "studentVersion": "Investigar las características principales de las figuras planas y figuras con volumen para apreciarlas de distintas maneras.",
+        "horizon1Raw": "Investigar las características principales de las figuras planas y figuras con volumen para apreciarlas de distintas maneras.",
+        "horizon2Raw": "Analizar, mediante la construcción de sólidos de revolución, las características de las figuras planas y con volumen.",
+        "sourcePages": [
+          "Visión — Horizonte 1 (p. 133)"
+        ],
+        "evidence": "Extraído por visión de imagen de la página 133 del libro de proyectos. Confianza: alta.",
+        "status": "confirmed-from-project-book",
+        "extractedAt": "2026-06-16T05:46:37.674Z"
+      },
+      "detonatingStrategy": {
+        "status": "confirmed",
+        "title": "Construir el cuerpo de las figuras",
+        "text": "Video del Proyecto Parcial de Aula 14: Construir el cuerpo de las figuras",
+        "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+        "scope": "partial-classroom-project",
+        "type": "video"
+      },
+      "academicProjectStrategy": {
+        "title": "Sólidos de revolución • Saberes y pensamiento científico • 3er grado",
+        "text": "Video detonador del Proyecto Academico 41: Construir sólidos de revolución",
+        "type": "video",
+        "status": "confirmed-from-video-and-project",
+        "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+        "scope": "academic-project"
+      },
+      "academicConcepts": [
+        {
+          "concept": "Sólidos de revolución",
+          "description": "Sólidos de revolución organiza el producto de cierre y permite comunicar lo aprendido en el proyecto.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            132
+          ],
+          "sourcePagesLabel": "p. 132",
+          "topicTitle": "Proyecto academico 41",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 41, al PPA 14 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Materia",
+          "description": "Materia ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            265
+          ],
+          "sourcePagesLabel": "p. 265",
+          "topicTitle": "Proyecto academico 41",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 41, al PPA 14 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Mezclas",
+          "description": "Mezclas ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            265
+          ],
+          "sourcePagesLabel": "p. 265",
+          "topicTitle": "Proyecto academico 41",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 41, al PPA 14 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Quimica",
+          "description": "Quimica ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            9
+          ],
+          "sourcePagesLabel": "p. 9",
+          "topicTitle": "Proyecto academico 41",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 41, al PPA 14 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Figuras",
+          "description": "Figuras ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            132
+          ],
+          "sourcePagesLabel": "p. 132",
+          "topicTitle": "Proyecto academico 41",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 41, al PPA 14 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Medicion",
+          "description": "Medicion ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            132
+          ],
+          "sourcePagesLabel": "p. 132",
+          "topicTitle": "Proyecto academico 41",
+          "status": "suggested",
+          "reason": "Concepto vinculado al PA 41, al PPA 14 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "teacher-review"
+        }
+      ],
+      "thinkingCriteria": [
+        "Relacionar Construir sólidos de revolución con una situacion concreta del entorno escolar o comunitario.",
+        "Usar sólidos de revolución para explicar ideas con claridad y evidencia."
+      ],
+      "resonancePrompts": [
+        {
+          "type": "individual",
+          "prompt": "¿Como te ayuda sólidos de revolución a comprender mejor Construir sólidos de revolución y a explicar sus conceptos clave en tu comunidad?",
+          "conceptsActivated": [
+            "Sólidos de revolución",
+            "Materia",
+            "Mezclas",
+            "Quimica"
+          ],
+          "suggestedUse": "Momento 1 de autoevaluacion"
+        }
+      ],
+      "validationStatus": {
+        "readinessLevel": "curricular-bundle-generated",
+        "readyForActivities": true,
+        "needsReviewReasons": [
+          "El horizonte textual literal queda pendiente de revision fina si se requiere cita exacta.",
+          "Los apoyos complementarios impresos no se asignan cuando no hay evidencia validada por columna."
+        ]
+      },
+      "readinessLevel": "curricular-bundle-generated",
+      "readyForActivities": true,
+      "needsReviewReasons": []
+    },
+    {
+      "id": "saberes-y-pensamiento-cientifico-3-ppa-14-pa42",
+      "projectId": "saberes-y-pensamiento-cientifico-3-ppa-14-pa42",
+      "academicProjectNumber": 42,
+      "title": "La construcción de las figuras",
+      "projectTitle": "La construcción de las figuras",
+      "grade": "3",
+      "field": "Saberes y Pensamiento Científico",
+      "ppaNumber": "14",
+      "partialClassroomProject": "PPA 14",
+      "partialClassroomProjectTitle": "Construir el cuerpo de las figuras",
+      "bookVolume": "Tomo III",
+      "sourceValidation": {
+        "sourceStatus": "linked",
+        "possibilitiesPages": [
+          34
+        ],
+        "possibilitiesMaterialId": "grade-3-posibilidades-pos-sypc-3",
+        "possibilitiesColumnIndex": 3,
+        "columnEvidence": "Proyecto PA 42 agrupado en el PPA 14 desde el catalogo canonico y las paginas de Posibilidades."
+      },
+      "finalProduct": {
+        "title": "14. Construir el cuerpo de las figuras",
+        "source": "Video detonador validado en YouTube + Nuestro libro de proyectos Tomo III pp. 136-139",
+        "status": "confirmed-from-video-and-project"
+      },
+      "sourcePages": {
+        "nuestroLibroProyectos": [
+          {
+            "materialId": "grade-3-proyectos-nuestros-proyectos-tomo-3-tercer-grado",
+            "label": "Nuestro libro de proyectos Tomo III",
+            "startPage": 136,
+            "endPage": 139,
+            "pagesLabel": "pp. 136-139",
+            "topicTitle": "Proyecto academico 42",
+            "status": "confirmed-source"
+          }
+        ],
+        "conceptBook": [
+          {
+            "materialId": "grade-3-conceptos-saberes-y-pensamiento-cientifico-tercer-grado",
+            "label": "Saberes y Pensamiento Cientifico",
+            "startPage": 136,
+            "endPage": 136,
+            "pagesLabel": "p. 136",
+            "topicTitle": "14. construir el cuerpo de las figuras",
+            "status": "confirmed"
+          }
+        ],
+        "multiplesLenguajes": [],
+        "otherMaterials": [
+          {
+            "label": "Video PA 42: La construcción de las figuras",
+            "reference": "",
+            "status": "confirmed"
+          }
+        ]
+      },
+      "supportMaterials": [],
+      "horizonOrPurpose": {
+        "status": "confirmed-from-project-book",
+        "text": "Tener conocimientos generales sobre las características principales de las figuras planas y los cuerpos geométricos, demostrar las propiedades de los sólidos de revolución y presentar el rompecabezas de diferentes tipos de figuras en 3D.",
+        "source": "Visión — Horizonte 2 (p. 137)"
+      },
+      "projectExpectationHorizon": {
+        "officialText": "Tener conocimientos generales sobre las características principales de las figuras planas y los cuerpos geométricos, demostrar las propiedades de los sólidos de revolución y presentar el rompecabezas de diferentes tipos de figuras en 3D.",
+        "studentVersion": "Tener conocimientos generales sobre las características principales de las figuras planas y los cuerpos geométricos, demostrar las propiedades de los sólidos de revolución y presentar el rompecabezas de diferentes tipos de figuras en 3D.",
+        "horizon1Raw": "Presentar, mediante un rompecabezas en 3D, los diferentes tipos de figuras, y explicar a la comunidad sus características principales.",
+        "horizon2Raw": "Tener conocimientos generales sobre las características principales de las figuras planas y los cuerpos geométricos, demostrar las propiedades de los sólidos de revolución y presentar el rompecabezas de diferentes tipos de figuras en 3D.",
+        "sourcePages": [
+          "Visión — Horizonte 2 (p. 137)"
+        ],
+        "evidence": "Extraído por visión de imagen de la página 137 del libro de proyectos. Confianza: alta.",
+        "status": "confirmed-from-project-book",
+        "extractedAt": "2026-06-16T05:46:45.424Z"
+      },
+      "detonatingStrategy": {
+        "status": "confirmed",
+        "title": "Construir el cuerpo de las figuras",
+        "text": "Video del Proyecto Parcial de Aula 14: Construir el cuerpo de las figuras",
+        "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+        "scope": "partial-classroom-project",
+        "type": "video"
+      },
+      "academicProjectStrategy": {
+        "title": "14. Construir el cuerpo de las figuras • Saberes y pensamiento científico• 3er grado",
+        "text": "Video detonador del Proyecto Academico 42: La construcción de las figuras",
+        "type": "video",
+        "status": "confirmed-from-video-and-project",
+        "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+        "scope": "academic-project"
+      },
+      "academicConcepts": [
+        {
+          "concept": "14. construir el cuerpo de las figuras",
+          "description": "14. construir el cuerpo de las figuras organiza el producto de cierre y permite comunicar lo aprendido en el proyecto.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            136
+          ],
+          "sourcePagesLabel": "p. 136",
+          "topicTitle": "Proyecto academico 42",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 42, al PPA 14 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Materia",
+          "description": "Materia ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            265
+          ],
+          "sourcePagesLabel": "p. 265",
+          "topicTitle": "Proyecto academico 42",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 42, al PPA 14 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Mezclas",
+          "description": "Mezclas ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            265
+          ],
+          "sourcePagesLabel": "p. 265",
+          "topicTitle": "Proyecto academico 42",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 42, al PPA 14 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Quimica",
+          "description": "Quimica ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            9
+          ],
+          "sourcePagesLabel": "p. 9",
+          "topicTitle": "Proyecto academico 42",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 42, al PPA 14 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Figuras",
+          "description": "Figuras ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            136
+          ],
+          "sourcePagesLabel": "p. 136",
+          "topicTitle": "Proyecto academico 42",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 42, al PPA 14 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Medicion",
+          "description": "Medicion ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Saberes y Pensamiento Cientifico",
+          "sourcePages": [
+            136
+          ],
+          "sourcePagesLabel": "p. 136",
+          "topicTitle": "Proyecto academico 42",
+          "status": "suggested",
+          "reason": "Concepto vinculado al PA 42, al PPA 14 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "teacher-review"
+        }
+      ],
+      "thinkingCriteria": [
+        "Relacionar La construcción de las figuras con una situacion concreta del entorno escolar o comunitario.",
+        "Usar 14. construir el cuerpo de las figuras para explicar ideas con claridad y evidencia."
+      ],
+      "resonancePrompts": [
+        {
+          "type": "individual",
+          "prompt": "¿Como te ayuda 14. construir el cuerpo de las figuras a comprender mejor La construcción de las figuras y a explicar sus conceptos clave en tu comunidad?",
+          "conceptsActivated": [
+            "14. construir el cuerpo de las figuras",
+            "Materia",
+            "Mezclas",
+            "Quimica"
+          ],
+          "suggestedUse": "Momento 1 de autoevaluacion"
+        }
+      ],
+      "validationStatus": {
+        "readinessLevel": "curricular-bundle-generated",
+        "readyForActivities": true,
+        "needsReviewReasons": [
+          "El horizonte textual literal queda pendiente de revision fina si se requiere cita exacta.",
+          "Los apoyos complementarios impresos no se asignan cuando no hay evidencia validada por columna."
+        ]
+      },
+      "readinessLevel": "curricular-bundle-generated",
+      "readyForActivities": true,
+      "needsReviewReasons": []
+    }
+  ]
+}

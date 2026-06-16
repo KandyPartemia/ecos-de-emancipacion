@@ -1,0 +1,707 @@
+{
+  "grade": "3",
+  "gradeLabel": "Tercer grado",
+  "field": "Lenguajes",
+  "bookVolume": "Tomo III",
+  "partialClassroomProject": "PPA 12",
+  "partialClassroomProjectTitle": "¡Levantemos la voz mediante el lenguaje!",
+  "generatedAt": "2026-06-07T03:06:27.698Z",
+  "notes": "Capa curricular generada por lote para 3o Lenguajes, PPA 12.",
+  "sourcesUsed": [
+    "content/caracoles/curricular-catalog/all-projects-canonical.json",
+    "public/caracoles/data/generated/grade-3/concepts-index.json",
+    "src/caracoles/lib/officialVideoLinks.ts",
+    "Posibilidades de uso Lenguajes, tercer grado, pp. 27-28",
+    "Nuestro libro de proyectos, tercer grado, pp. 27-38"
+  ],
+  "partialClassroomProjectContext": {
+    "expectationHorizon": {
+      "officialText": "",
+      "sourcePages": [
+        "Nuestro libro de proyectos Tomo III pp. 27-30",
+        "Posibilidades de uso Lenguajes pp. 27-28"
+      ],
+      "evidence": "El PPA 12 articula imágenes delatadoras, cartel gráfico, 12. ¡levantemos la voz mediante el lenguaje! para trabajar ¡Levantemos la voz mediante el lenguaje!.",
+      "status": "pending"
+    },
+    "ppaDetonatingStrategy": {
+      "title": "¡Levantemos la voz mediante el lenguaje!",
+      "type": "video",
+      "url": "",
+      "urlStatus": "confirmed-by-official-video-map",
+      "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+      "scope": "partial-classroom-project"
+    },
+    "ppaDigitalResource": {
+      "title": "Recurso del Proyecto Parcial de Aula 12",
+      "reference": "",
+      "status": "confirmed-by-official-video-map",
+      "source": "YouTube, acervo Aprende_MX/Telesecundaria"
+    },
+    "validationStatus": {
+      "needsHumanReview": true,
+      "needsReviewReasons": [
+        "Los videos PA/PPA se validan por el mapa oficial de enlaces directos ya generado.",
+        "Los apoyos complementarios impresos no se asignan cuando no hay evidencia validada por columna.",
+        "El horizonte textual literal queda pendiente de revision fina si se necesita cita exacta."
+      ]
+    },
+    "columnValidation": {
+      "possibilitiesPagesReviewed": [
+        27,
+        28
+      ],
+      "confirmedAsPpa": true,
+      "note": "El PPA 12 se agrupa desde el catalogo canonico de tercer grado.",
+      "columns": [
+        {
+          "columnIndex": 1,
+          "projectId": "lenguajes-3-ppa-12-pa34",
+          "projectTitle": "Narrativas delatadoras",
+          "finalProduct": "Imágenes delatadoras",
+          "supportMaterials": []
+        },
+        {
+          "columnIndex": 2,
+          "projectId": "lenguajes-3-ppa-12-pa35",
+          "projectTitle": "Diseñemos un cartel con impacto social",
+          "finalProduct": "Cartel gráfico",
+          "supportMaterials": []
+        },
+        {
+          "columnIndex": 3,
+          "projectId": "lenguajes-3-ppa-12-pa36",
+          "projectTitle": "¡Que se escuche tu voz!",
+          "finalProduct": "12. ¡Levantemos la voz mediante el lenguaje!",
+          "supportMaterials": []
+        }
+      ]
+    }
+  },
+  "academicProjects": [
+    {
+      "id": "lenguajes-3-ppa-12-pa34",
+      "projectId": "lenguajes-3-ppa-12-pa34",
+      "academicProjectNumber": 34,
+      "title": "Narrativas delatadoras",
+      "projectTitle": "Narrativas delatadoras",
+      "grade": "3",
+      "field": "Lenguajes",
+      "ppaNumber": "12",
+      "partialClassroomProject": "PPA 12",
+      "partialClassroomProjectTitle": "¡Levantemos la voz mediante el lenguaje!",
+      "bookVolume": "Tomo III",
+      "sourceValidation": {
+        "sourceStatus": "linked",
+        "possibilitiesPages": [
+          27,
+          28
+        ],
+        "possibilitiesMaterialId": "grade-3-posibilidades-pos-len-3",
+        "possibilitiesColumnIndex": 1,
+        "columnEvidence": "Proyecto PA 34 agrupado en el PPA 12 desde el catalogo canonico y las paginas de Posibilidades."
+      },
+      "finalProduct": {
+        "title": "Imágenes delatadoras",
+        "source": "Video detonador validado en YouTube + Nuestro libro de proyectos Tomo III pp. 27-30",
+        "status": "confirmed-from-video-and-project"
+      },
+      "sourcePages": {
+        "nuestroLibroProyectos": [
+          {
+            "materialId": "grade-3-proyectos-nuestros-proyectos-tomo-3-tercer-grado",
+            "label": "Nuestro libro de proyectos Tomo III",
+            "startPage": 27,
+            "endPage": 30,
+            "pagesLabel": "pp. 27-30",
+            "topicTitle": "Proyecto academico 34",
+            "status": "confirmed-source"
+          }
+        ],
+        "conceptBook": [
+          {
+            "materialId": "grade-3-conceptos-lenguajes-tercer-grado",
+            "label": "Lenguajes",
+            "startPage": 27,
+            "endPage": 27,
+            "pagesLabel": "p. 27",
+            "topicTitle": "Imágenes delatadoras",
+            "status": "confirmed"
+          }
+        ],
+        "multiplesLenguajes": [],
+        "otherMaterials": [
+          {
+            "label": "Video PA 34: Narrativas delatadoras",
+            "reference": "",
+            "status": "confirmed"
+          }
+        ]
+      },
+      "supportMaterials": [],
+      "horizonOrPurpose": {
+        "status": "confirmed-from-project-book",
+        "text": "Elaborar narrativas sobre la erradicación de la violencia, a fin de presentar imágenes delatadoras a la comunidad.",
+        "source": "Visión — Horizonte 1 (p. 28)"
+      },
+      "projectExpectationHorizon": {
+        "officialText": "Elaborar narrativas sobre la erradicación de la violencia, a fin de presentar imágenes delatadoras a la comunidad.",
+        "studentVersion": "Elaborar narrativas sobre la erradicación de la violencia, a fin de presentar imágenes delatadoras a la comunidad.",
+        "horizon1Raw": "Elaborar narrativas sobre la erradicación de la violencia, a fin de presentar imágenes delatadoras a la comunidad.",
+        "horizon2Raw": "Presentar imágenes delatadoras a la comunidad sobre la erradicación de la violencia.",
+        "sourcePages": [
+          "Visión — Horizonte 1 (p. 28)"
+        ],
+        "evidence": "Extraído por visión de imagen de la página 28 del libro de proyectos. Confianza: alta.",
+        "status": "confirmed-from-project-book",
+        "extractedAt": "2026-06-16T05:15:30.191Z"
+      },
+      "detonatingStrategy": {
+        "status": "confirmed",
+        "title": "¡Levantemos la voz mediante el lenguaje!",
+        "text": "Video del Proyecto Parcial de Aula 12: ¡Levantemos la voz mediante el lenguaje!",
+        "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+        "scope": "partial-classroom-project",
+        "type": "video"
+      },
+      "academicProjectStrategy": {
+        "title": "Imágenes delatadoras • Lenguajes • 3er. grado",
+        "text": "Video detonador del Proyecto Academico 34: Narrativas delatadoras",
+        "type": "video",
+        "status": "confirmed-from-video-and-project",
+        "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+        "scope": "academic-project"
+      },
+      "academicConcepts": [
+        {
+          "concept": "Imágenes delatadoras",
+          "description": "Imágenes delatadoras organiza el producto de cierre y permite comunicar lo aprendido en el proyecto.",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            27
+          ],
+          "sourcePagesLabel": "p. 27",
+          "topicTitle": "Proyecto academico 34",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 34, al PPA 12 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Lenguaje",
+          "description": "Lenguaje ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            27
+          ],
+          "sourcePagesLabel": "p. 27",
+          "topicTitle": "Proyecto academico 34",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 34, al PPA 12 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Cultura",
+          "description": "Cultura ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            154
+          ],
+          "sourcePagesLabel": "p. 154",
+          "topicTitle": "Proyecto academico 34",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 34, al PPA 12 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Comunicacion",
+          "description": "Comunicacion ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            27
+          ],
+          "sourcePagesLabel": "p. 27",
+          "topicTitle": "Proyecto academico 34",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 34, al PPA 12 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Lectura",
+          "description": "Lectura ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            27
+          ],
+          "sourcePagesLabel": "p. 27",
+          "topicTitle": "Proyecto academico 34",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 34, al PPA 12 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Escritura",
+          "description": "Escritura ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            27
+          ],
+          "sourcePagesLabel": "p. 27",
+          "topicTitle": "Proyecto academico 34",
+          "status": "suggested",
+          "reason": "Concepto vinculado al PA 34, al PPA 12 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "teacher-review"
+        }
+      ],
+      "thinkingCriteria": [
+        "Relacionar Narrativas delatadoras con una situacion concreta del entorno escolar o comunitario.",
+        "Usar imágenes delatadoras para explicar ideas con claridad y evidencia."
+      ],
+      "resonancePrompts": [
+        {
+          "type": "individual",
+          "prompt": "¿Como te ayuda imágenes delatadoras a comprender mejor Narrativas delatadoras y a explicar sus conceptos clave en tu comunidad?",
+          "conceptsActivated": [
+            "Imágenes delatadoras",
+            "Lenguaje",
+            "Cultura",
+            "Comunicacion"
+          ],
+          "suggestedUse": "Momento 1 de autoevaluacion"
+        }
+      ],
+      "validationStatus": {
+        "readinessLevel": "curricular-bundle-generated",
+        "readyForActivities": true,
+        "needsReviewReasons": [
+          "El horizonte textual literal queda pendiente de revision fina si se requiere cita exacta.",
+          "Los apoyos complementarios impresos no se asignan cuando no hay evidencia validada por columna."
+        ]
+      },
+      "readinessLevel": "curricular-bundle-generated",
+      "readyForActivities": true,
+      "needsReviewReasons": []
+    },
+    {
+      "id": "lenguajes-3-ppa-12-pa35",
+      "projectId": "lenguajes-3-ppa-12-pa35",
+      "academicProjectNumber": 35,
+      "title": "Diseñemos un cartel con impacto social",
+      "projectTitle": "Diseñemos un cartel con impacto social",
+      "grade": "3",
+      "field": "Lenguajes",
+      "ppaNumber": "12",
+      "partialClassroomProject": "PPA 12",
+      "partialClassroomProjectTitle": "¡Levantemos la voz mediante el lenguaje!",
+      "bookVolume": "Tomo III",
+      "sourceValidation": {
+        "sourceStatus": "linked",
+        "possibilitiesPages": [
+          27,
+          28
+        ],
+        "possibilitiesMaterialId": "grade-3-posibilidades-pos-len-3",
+        "possibilitiesColumnIndex": 2,
+        "columnEvidence": "Proyecto PA 35 agrupado en el PPA 12 desde el catalogo canonico y las paginas de Posibilidades."
+      },
+      "finalProduct": {
+        "title": "Cartel gráfico",
+        "source": "Video detonador validado en YouTube + Nuestro libro de proyectos Tomo III pp. 31-34",
+        "status": "confirmed-from-video-and-project"
+      },
+      "sourcePages": {
+        "nuestroLibroProyectos": [
+          {
+            "materialId": "grade-3-proyectos-nuestros-proyectos-tomo-3-tercer-grado",
+            "label": "Nuestro libro de proyectos Tomo III",
+            "startPage": 31,
+            "endPage": 34,
+            "pagesLabel": "pp. 31-34",
+            "topicTitle": "Proyecto academico 35",
+            "status": "confirmed-source"
+          }
+        ],
+        "conceptBook": [
+          {
+            "materialId": "grade-3-conceptos-lenguajes-tercer-grado",
+            "label": "Lenguajes",
+            "startPage": 31,
+            "endPage": 31,
+            "pagesLabel": "p. 31",
+            "topicTitle": "Cartel gráfico",
+            "status": "confirmed"
+          }
+        ],
+        "multiplesLenguajes": [],
+        "otherMaterials": [
+          {
+            "label": "Video PA 35: Diseñemos un cartel con impacto social",
+            "reference": "",
+            "status": "confirmed"
+          }
+        ]
+      },
+      "supportMaterials": [],
+      "horizonOrPurpose": {
+        "status": "confirmed-from-project-book",
+        "text": "Identificar las distintas situaciones de violencia en la comunidad y, a partir de ello, elaborar un cartel gráfico en varias lenguas sobre diversas estrategias para erradicar la violencia en la misma.",
+        "source": "Visión — Horizonte 2 (p. 32)"
+      },
+      "projectExpectationHorizon": {
+        "officialText": "Identificar las distintas situaciones de violencia en la comunidad y, a partir de ello, elaborar un cartel gráfico en varias lenguas sobre diversas estrategias para erradicar la violencia en la misma.",
+        "studentVersion": "Identificar las distintas situaciones de violencia en la comunidad y, a partir de ello, elaborar un cartel gráfico en varias lenguas sobre diversas estrategias para erradicar la violencia en la misma.",
+        "horizon1Raw": "Elaborar un cartel gráfico en distintas lenguas que exprese su sentir ante las situaciones de violencia, de manera que sea de ayuda para erradicarla en la comunidad.",
+        "horizon2Raw": "Identificar las distintas situaciones de violencia en la comunidad y, a partir de ello, elaborar un cartel gráfico en varias lenguas sobre diversas estrategias para erradicar la violencia en la misma.",
+        "sourcePages": [
+          "Visión — Horizonte 2 (p. 32)"
+        ],
+        "evidence": "Extraído por visión de imagen de la página 32 del libro de proyectos. Confianza: alta.",
+        "status": "confirmed-from-project-book",
+        "extractedAt": "2026-06-16T05:15:39.375Z"
+      },
+      "detonatingStrategy": {
+        "status": "confirmed",
+        "title": "¡Levantemos la voz mediante el lenguaje!",
+        "text": "Video del Proyecto Parcial de Aula 12: ¡Levantemos la voz mediante el lenguaje!",
+        "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+        "scope": "partial-classroom-project",
+        "type": "video"
+      },
+      "academicProjectStrategy": {
+        "title": "Cartel gráfico • Lenguajes • 3er. grado",
+        "text": "Video detonador del Proyecto Academico 35: Diseñemos un cartel con impacto social",
+        "type": "video",
+        "status": "confirmed-from-video-and-project",
+        "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+        "scope": "academic-project"
+      },
+      "academicConcepts": [
+        {
+          "concept": "Cartel gráfico",
+          "description": "Cartel gráfico organiza el producto de cierre y permite comunicar lo aprendido en el proyecto.",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            31
+          ],
+          "sourcePagesLabel": "p. 31",
+          "topicTitle": "Proyecto academico 35",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 35, al PPA 12 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Lenguaje",
+          "description": "Lenguaje ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            31
+          ],
+          "sourcePagesLabel": "p. 31",
+          "topicTitle": "Proyecto academico 35",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 35, al PPA 12 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Cultura",
+          "description": "Cultura ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            154
+          ],
+          "sourcePagesLabel": "p. 154",
+          "topicTitle": "Proyecto academico 35",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 35, al PPA 12 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Comunicacion",
+          "description": "Comunicacion ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            31
+          ],
+          "sourcePagesLabel": "p. 31",
+          "topicTitle": "Proyecto academico 35",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 35, al PPA 12 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Lectura",
+          "description": "Lectura ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            31
+          ],
+          "sourcePagesLabel": "p. 31",
+          "topicTitle": "Proyecto academico 35",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 35, al PPA 12 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Escritura",
+          "description": "Escritura ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            31
+          ],
+          "sourcePagesLabel": "p. 31",
+          "topicTitle": "Proyecto academico 35",
+          "status": "suggested",
+          "reason": "Concepto vinculado al PA 35, al PPA 12 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "teacher-review"
+        }
+      ],
+      "thinkingCriteria": [
+        "Relacionar Diseñemos un cartel con impacto social con una situacion concreta del entorno escolar o comunitario.",
+        "Usar cartel gráfico para explicar ideas con claridad y evidencia."
+      ],
+      "resonancePrompts": [
+        {
+          "type": "individual",
+          "prompt": "¿Como te ayuda cartel gráfico a comprender mejor Diseñemos un cartel con impacto social y a explicar sus conceptos clave en tu comunidad?",
+          "conceptsActivated": [
+            "Cartel gráfico",
+            "Lenguaje",
+            "Cultura",
+            "Comunicacion"
+          ],
+          "suggestedUse": "Momento 1 de autoevaluacion"
+        }
+      ],
+      "validationStatus": {
+        "readinessLevel": "curricular-bundle-generated",
+        "readyForActivities": true,
+        "needsReviewReasons": [
+          "El horizonte textual literal queda pendiente de revision fina si se requiere cita exacta.",
+          "Los apoyos complementarios impresos no se asignan cuando no hay evidencia validada por columna."
+        ]
+      },
+      "readinessLevel": "curricular-bundle-generated",
+      "readyForActivities": true,
+      "needsReviewReasons": []
+    },
+    {
+      "id": "lenguajes-3-ppa-12-pa36",
+      "projectId": "lenguajes-3-ppa-12-pa36",
+      "academicProjectNumber": 36,
+      "title": "¡Que se escuche tu voz!",
+      "projectTitle": "¡Que se escuche tu voz!",
+      "grade": "3",
+      "field": "Lenguajes",
+      "ppaNumber": "12",
+      "partialClassroomProject": "PPA 12",
+      "partialClassroomProjectTitle": "¡Levantemos la voz mediante el lenguaje!",
+      "bookVolume": "Tomo III",
+      "sourceValidation": {
+        "sourceStatus": "linked",
+        "possibilitiesPages": [
+          27,
+          28
+        ],
+        "possibilitiesMaterialId": "grade-3-posibilidades-pos-len-3",
+        "possibilitiesColumnIndex": 3,
+        "columnEvidence": "Proyecto PA 36 agrupado en el PPA 12 desde el catalogo canonico y las paginas de Posibilidades."
+      },
+      "finalProduct": {
+        "title": "12. ¡Levantemos la voz mediante el lenguaje!",
+        "source": "Video detonador validado en YouTube + Nuestro libro de proyectos Tomo III pp. 35-38",
+        "status": "confirmed-from-video-and-project"
+      },
+      "sourcePages": {
+        "nuestroLibroProyectos": [
+          {
+            "materialId": "grade-3-proyectos-nuestros-proyectos-tomo-3-tercer-grado",
+            "label": "Nuestro libro de proyectos Tomo III",
+            "startPage": 35,
+            "endPage": 38,
+            "pagesLabel": "pp. 35-38",
+            "topicTitle": "Proyecto academico 36",
+            "status": "confirmed-source"
+          }
+        ],
+        "conceptBook": [
+          {
+            "materialId": "grade-3-conceptos-lenguajes-tercer-grado",
+            "label": "Lenguajes",
+            "startPage": 35,
+            "endPage": 35,
+            "pagesLabel": "p. 35",
+            "topicTitle": "12. ¡levantemos la voz mediante el lenguaje!",
+            "status": "confirmed"
+          }
+        ],
+        "multiplesLenguajes": [],
+        "otherMaterials": [
+          {
+            "label": "Video PA 36: ¡Que se escuche tu voz!",
+            "reference": "",
+            "status": "confirmed"
+          }
+        ]
+      },
+      "supportMaterials": [],
+      "horizonOrPurpose": {
+        "status": "confirmed-from-project-book",
+        "text": "Investigar los pasos a seguir para realizar una pequeña campaña contra la violencia que beneficie a la comunidad, con el fin de concienciar no sólo a sus compañeras, compañeros y comunidad escolar, sino también a sus vecinos y amigos.",
+        "source": "Visión — Horizonte 1 (p. 36)"
+      },
+      "projectExpectationHorizon": {
+        "officialText": "Investigar los pasos a seguir para realizar una pequeña campaña contra la violencia que beneficie a la comunidad, con el fin de concienciar no sólo a sus compañeras, compañeros y comunidad escolar, sino también a sus vecinos y amigos.",
+        "studentVersion": "Investigar los pasos a seguir para realizar una pequeña campaña contra la violencia que beneficie a la comunidad, con el fin de concienciar no sólo a sus compañeras, compañeros y comunidad escolar, sino también a sus vecinos y amigos.",
+        "horizon1Raw": "Investigar los pasos a seguir para realizar una pequeña campaña contra la violencia que beneficie a la comunidad, con el fin de concienciar no sólo a sus compañeras, compañeros y comunidad escolar, sino también a sus vecinos y amigos.",
+        "horizon2Raw": "Identificar los tipos de violencia que existen en la comunidad por medio de entrevistas e investigación de campo, para difundir dicha información y proponer soluciones mediante una pequeña campaña de conciencización.",
+        "sourcePages": [
+          "Visión — Horizonte 1 (p. 36)"
+        ],
+        "evidence": "Extraído por visión de imagen de la página 36 del libro de proyectos. Confianza: alta.",
+        "status": "confirmed-from-project-book",
+        "extractedAt": "2026-06-16T05:15:43.875Z"
+      },
+      "detonatingStrategy": {
+        "status": "confirmed",
+        "title": "¡Levantemos la voz mediante el lenguaje!",
+        "text": "Video del Proyecto Parcial de Aula 12: ¡Levantemos la voz mediante el lenguaje!",
+        "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+        "scope": "partial-classroom-project",
+        "type": "video"
+      },
+      "academicProjectStrategy": {
+        "title": "12. ¡Levantemos la voz mediante el lenguaje! • Lenguajes • 3er grado",
+        "text": "Video detonador del Proyecto Academico 36: ¡Que se escuche tu voz!",
+        "type": "video",
+        "status": "confirmed-from-video-and-project",
+        "source": "YouTube, acervo Aprende_MX/Telesecundaria",
+        "scope": "academic-project"
+      },
+      "academicConcepts": [
+        {
+          "concept": "12. ¡levantemos la voz mediante el lenguaje!",
+          "description": "12. ¡levantemos la voz mediante el lenguaje! organiza el producto de cierre y permite comunicar lo aprendido en el proyecto.",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            35
+          ],
+          "sourcePagesLabel": "p. 35",
+          "topicTitle": "Proyecto academico 36",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 36, al PPA 12 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Lenguaje",
+          "description": "Lenguaje ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            35
+          ],
+          "sourcePagesLabel": "p. 35",
+          "topicTitle": "Proyecto academico 36",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 36, al PPA 12 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Cultura",
+          "description": "Cultura ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            154
+          ],
+          "sourcePagesLabel": "p. 154",
+          "topicTitle": "Proyecto academico 36",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 36, al PPA 12 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Comunicacion",
+          "description": "Comunicacion ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            35
+          ],
+          "sourcePagesLabel": "p. 35",
+          "topicTitle": "Proyecto academico 36",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 36, al PPA 12 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Lectura",
+          "description": "Lectura ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            35
+          ],
+          "sourcePagesLabel": "p. 35",
+          "topicTitle": "Proyecto academico 36",
+          "status": "confirmed",
+          "reason": "Concepto vinculado al PA 36, al PPA 12 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "Escritura",
+          "description": "Escritura ayuda a explicar el proyecto desde el campo formativo y a relacionarlo con situaciones de la comunidad.",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            35
+          ],
+          "sourcePagesLabel": "p. 35",
+          "topicTitle": "Proyecto academico 36",
+          "status": "suggested",
+          "reason": "Concepto vinculado al PA 36, al PPA 12 y a las fuentes curriculares de tercer grado.",
+          "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
+          "activityReadiness": "teacher-review"
+        }
+      ],
+      "thinkingCriteria": [
+        "Relacionar ¡Que se escuche tu voz! con una situacion concreta del entorno escolar o comunitario.",
+        "Usar 12. ¡levantemos la voz mediante el lenguaje! para explicar ideas con claridad y evidencia."
+      ],
+      "resonancePrompts": [
+        {
+          "type": "individual",
+          "prompt": "¿Como te ayuda 12. ¡levantemos la voz mediante el lenguaje! a comprender mejor ¡Que se escuche tu voz! y a explicar sus conceptos clave en tu comunidad?",
+          "conceptsActivated": [
+            "12. ¡levantemos la voz mediante el lenguaje!",
+            "Lenguaje",
+            "Cultura",
+            "Comunicacion"
+          ],
+          "suggestedUse": "Momento 1 de autoevaluacion"
+        }
+      ],
+      "validationStatus": {
+        "readinessLevel": "curricular-bundle-generated",
+        "readyForActivities": true,
+        "needsReviewReasons": [
+          "El horizonte textual literal queda pendiente de revision fina si se requiere cita exacta.",
+          "Los apoyos complementarios impresos no se asignan cuando no hay evidencia validada por columna."
+        ]
+      },
+      "readinessLevel": "curricular-bundle-generated",
+      "readyForActivities": true,
+      "needsReviewReasons": []
+    }
+  ]
+}

@@ -1,0 +1,1073 @@
+{
+  "grade": "1",
+  "gradeLabel": "Primer grado",
+  "field": "Lenguajes",
+  "bookVolume": "Tomo I",
+  "partialClassroomProject": "PPA 5",
+  "partialClassroomProjectTitle": "Juntos a resolver problemas",
+  "generatedAt": "2026-06-01T07:37:47.352Z",
+  "notes": "Capa curricular aislada para 1o Lenguajes PPA 5.",
+  "sourcesUsed": [
+    "reports/caracoles/grade1-lenguajes-reading-teacher-hito-2-standard.md",
+    "content/caracoles/curricular-links/grade-1-project-source-links.json",
+    "content/caracoles/generated-private/grade-1/pages-index.full.json",
+    "Posibilidades de uso Lenguajes, primer grado, pp. 13-15",
+    "Nuestro libro de proyectos Tomo I, primer grado, pp. 99-112"
+  ],
+  "partialClassroomProjectContext": {
+    "expectationHorizon": {
+      "officialText": "",
+      "sourcePages": [
+        "Nuestro libro de proyectos Tomo I pp. 99-100",
+        "Posibilidades de uso Lenguajes pp. 13-15"
+      ],
+      "evidence": "El PPA 5 plantea usar la lengua y los lenguajes artisticos para comprender problemas comunitarios y proponer soluciones, pero no se localizo una formula oficial unica redactada como horizonte comun del bloque.",
+      "status": "pending"
+    },
+    "ppaDetonatingStrategy": {
+      "title": "Juntos a resolver problemas",
+      "type": "video",
+      "url": "",
+      "urlStatus": "pending-url",
+      "reference": "bit.ly/3VfglUk",
+      "source": "Nuestro libro de proyectos Tomo I p. 99 + Posibilidades de uso Lenguajes pp. 13-15",
+      "scope": "partial-classroom-project",
+      "youtubeSearchQuery": "Juntos a resolver problemas Lenguajes 1er grado Telesecundaria"
+    },
+    "validationStatus": {
+      "needsHumanReview": true,
+      "needsReviewReasons": [
+        "Las pp. 13-15 de Posibilidades pertenecen al mismo PPA 5; la p. 14 continua apoyos y conceptos, y la p. 15 agrega videos academicos del trimestre sin asignacion limpia por PA.",
+        "La asignacion de apoyos de Multiples Lenguajes por PA se fija por inferencia curricular de izquierda a derecha, siguiendo el orden de productos del bloque.",
+        "El video del PPA 5 y el enlace corto bit.ly/3VfglUk se mantienen en cautela hasta localizar un destino oficial confirmado.",
+        "Las referencias a paginas de Ingles en las pp. 13-14 de Posibilidades no se usan para validar conceptos del campo Lenguajes en este bloque."
+      ]
+    },
+    "columnValidation": {
+      "possibilitiesPagesReviewed": [
+        13,
+        14,
+        15
+      ],
+      "confirmedAsPpa": true,
+      "note": "Las pp. 13-15 corresponden al bloque completo del PPA 5. La columna 1 se valida con Historia con solucion, la 2 con Asamblea reveladora y la 3 con Encuentro breve; la p. 14 conserva ese mismo orden para apoyos y nuevos conceptos.",
+      "columns": [
+        {
+          "columnIndex": 1,
+          "projectId": "lenguajes-1-ppa-5-pa13",
+          "projectTitle": "Narrando soluciones colectivas a problematicas comunitarias",
+          "finalProduct": "Historia con solucion",
+          "supportMaterials": [
+            "El momento imperfecto, pp. 100-107"
+          ]
+        },
+        {
+          "columnIndex": 2,
+          "projectId": "lenguajes-1-ppa-5-pa14",
+          "projectTitle": "Exponemos los problemas comunitarios",
+          "finalProduct": "Asamblea reveladora",
+          "supportMaterials": []
+        },
+        {
+          "columnIndex": 3,
+          "projectId": "lenguajes-1-ppa-5-pa15",
+          "projectTitle": "Aprendiendo juntos es mejor",
+          "finalProduct": "Encuentro breve",
+          "supportMaterials": [
+            "Vida comunitaria. Yutsa To'on, pp. 88-89"
+          ]
+        }
+      ]
+    }
+  },
+  "academicProjects": [
+    {
+      "id": "lenguajes-1-ppa-5-pa13",
+      "projectId": "lenguajes-1-ppa-5-pa13",
+      "academicProjectNumber": 13,
+      "title": "Narrando soluciones colectivas a problematicas comunitarias",
+      "projectTitle": "Narrando soluciones colectivas a problematicas comunitarias",
+      "grade": "1",
+      "field": "Lenguajes",
+      "ppaNumber": "5",
+      "partialClassroomProject": "PPA 5",
+      "partialClassroomProjectTitle": "Juntos a resolver problemas",
+      "bookVolume": "Tomo I",
+      "sourceValidation": {
+        "sourceStatus": "linked",
+        "possibilitiesPages": [
+          13,
+          14,
+          15
+        ],
+        "possibilitiesMaterialId": "grade-1-posibilidades-pos-len-1",
+        "possibilitiesColumnIndex": 1,
+        "columnEvidence": "Bloque PPA 5 Juntos a resolver problemas localizado en pp. 13-15; la columna 1 se confirma por el orden de productos, apoyos y continuidad del mismo bloque."
+      },
+      "finalProduct": {
+        "title": "Historia con solucion",
+        "source": "Posibilidades de uso Lenguajes pp. 13-15 + Nuestro libro de proyectos Tomo I pp. 101-104",
+        "status": "confirmed"
+      },
+      "sourcePages": {
+        "nuestroLibroProyectos": [
+          {
+            "materialId": "grade-1-proyectos-nuestro-libro-de-proyectos-tomo-i-primer-grado",
+            "label": "Nuestro libro de proyectos Tomo I",
+            "startPage": 101,
+            "endPage": 104,
+            "pagesLabel": "pp. 101-104",
+            "topicTitle": "Proyecto academico 13",
+            "status": "confirmed-source"
+          }
+        ],
+        "conceptBook": [
+          {
+            "materialId": "grade-1-conceptos-lenguajes-primer-grado",
+            "label": "Lenguajes",
+            "startPage": 199,
+            "endPage": 204,
+            "pagesLabel": "pp. 199-204",
+            "topicTitle": "El uso de la lengua indigena para expresar problematicas sociales",
+            "status": "confirmed-source"
+          },
+          {
+            "materialId": "grade-1-conceptos-artes-primer-grado",
+            "label": "De lo humano y lo comunitario",
+            "startPage": 281,
+            "endPage": 285,
+            "pagesLabel": "pp. 281-285",
+            "topicTitle": "Elementos de las artes como herramienta para la inclusion",
+            "status": "context-support"
+          }
+        ],
+        "multiplesLenguajes": [
+          {
+            "materialId": "grade-1-apoyo-muiltiples-lenguajes-primer-grado",
+            "label": "Multiples Lenguajes",
+            "startPage": 100,
+            "endPage": 107,
+            "pagesLabel": "pp. 100-107",
+            "topicTitle": "El momento imperfecto",
+            "status": "confirmed-by-column-inference"
+          }
+        ],
+        "otherMaterials": [
+          {
+            "label": "Video PPA 5: Juntos a resolver problemas",
+            "reference": "bit.ly/3VfglUk",
+            "status": "pending-validation",
+            "youtubeSearchQuery": "Juntos a resolver problemas Lenguajes 1er grado Telesecundaria"
+          }
+        ]
+      },
+      "supportMaterials": [
+        {
+          "title": "El momento imperfecto",
+          "kind": "Multiples Lenguajes",
+          "pages": "pp. 100-107",
+          "status": "confirmed-by-column-inference"
+        }
+      ],
+      "horizonOrPurpose": {
+        "status": "official",
+        "text": "Presentar narraciones sobre alternativas de solucion a problematicas comunitarias para realizar una historia con solucion e identificar los elementos del pensamiento critico que la fundamentan.",
+        "source": "Nuestro libro de proyectos Tomo I p. 101"
+      },
+      "projectExpectationHorizon": {
+        "officialText": "Conocer problematicas comunitarias y su relacion con la escuela y con las personas, para elaborar narraciones que incluyan alternativas de solucion con base en elementos del pensamiento critico.",
+        "studentVersion": "Reconocer problemas de la comunidad, comprender como afectan a distintas personas y proponer soluciones mediante una historia argumentada y creativa.",
+        "sourcePages": [
+          "Nuestro libro de proyectos Tomo I p. 102"
+        ],
+        "evidence": "La etapa 3 y los objetivos del proyecto permiten fijar un horizonte de expectativas util para la lectura docente del PA.",
+        "status": "confirmed-from-project-book"
+      },
+      "detonatingStrategy": {
+        "status": "pending-url",
+        "text": "Video PPA 5: Juntos a resolver problemas",
+        "reference": "bit.ly/3VfglUk",
+        "source": "Nuestro libro de proyectos Tomo I p. 99 + Posibilidades de uso Lenguajes pp. 13-15"
+      },
+      "academicProjectStrategy": {
+        "title": "Historia con solucion",
+        "text": "Construccion de una narracion situada que presenta una problematica comunitaria, sus actores, posibles soluciones y los argumentos que las sostienen.",
+        "type": "story",
+        "status": "confirmed-from-project-book",
+        "source": "Nuestro libro de proyectos Tomo I pp. 101-104"
+      },
+      "academicConcepts": [
+        {
+          "concept": "historia con solucion",
+          "description": "Narracion breve que presenta un problema de la comunidad, las personas implicadas y una alternativa posible para atenderlo.",
+          "sourceBook": "Nuestro libro de proyectos Tomo I",
+          "sourcePages": [
+            101,
+            102,
+            103,
+            104
+          ],
+          "sourcePagesLabel": "pp. 101-104",
+          "topicTitle": "Proyecto academico 13",
+          "status": "confirmed",
+          "reason": "Posibilidades y el proyecto lo fijan como producto central del PA 13 y describen su funcion dentro del bloque.",
+          "pedagogicalUse": "Permite articular lectura, comprension de problemas comunitarios y argumentacion situada en un producto narrativo.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "uso de la lengua indigena para expresar problematicas sociales",
+          "description": "Empleo de palabras, narraciones y formas de expresion en lengua indigena para nombrar y comprender problemas que afectan a una comunidad.",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            199
+          ],
+          "sourcePagesLabel": "p. 199",
+          "topicTitle": "El uso de la lengua indigena para expresar problematicas sociales",
+          "status": "confirmed",
+          "reason": "La p. 199 abre el bloque de conceptos listado para la columna del PA 13 y coincide con el enfoque del proyecto.",
+          "pedagogicalUse": "Da base para que la historia con solucion parta de formas locales de nombrar problemas y alternativas.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "textos literarios e informativos que aborden temas de la comunidad",
+          "description": "Textos que narran, explican o documentan hechos, conflictos y experiencias relacionados con la vida comunitaria.",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            200,
+            201,
+            202,
+            203
+          ],
+          "sourcePagesLabel": "pp. 200-203",
+          "topicTitle": "Textos literarios e informativos que aborden temas de la comunidad",
+          "status": "confirmed",
+          "reason": "Las pp. 200-203 desarrollan el tipo de textos que Posibilidades vincula directamente con este proyecto.",
+          "pedagogicalUse": "Sirve para comparar maneras de contar y explicar una misma problematica antes de escribir la historia con solucion.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "creaciones literarias en lenguas indigenas: difusion, metodos y objetivos",
+          "description": "Producciones literarias en lenguas indigenas y las formas de compartirlas para fortalecer su presencia y su sentido comunitario.",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            203,
+            204
+          ],
+          "sourcePagesLabel": "pp. 203-204",
+          "topicTitle": "Creaciones literarias en lenguas indigenas: difusion, metodos y objetivos",
+          "status": "confirmed",
+          "reason": "Las pp. 203-204 cierran el bloque curricular listado para esta columna y sostienen la circulacion de relatos en lengua propia.",
+          "pedagogicalUse": "Ayuda a pensar como narrar soluciones sin desprender la lengua del territorio ni de sus fines comunitarios.",
+          "activityReadiness": "usable-for-resonance"
+        },
+        {
+          "concept": "problematicas comunitarias",
+          "description": "Situaciones que afectan a personas, espacios o relaciones de la comunidad y que requieren analisis colectivo para ser atendidas.",
+          "sourceBook": "Nuestro libro de proyectos Tomo I",
+          "sourcePages": [
+            101,
+            102,
+            103
+          ],
+          "sourcePagesLabel": "pp. 101-103",
+          "topicTitle": "Distintas fuentes de consulta",
+          "status": "suggested",
+          "reason": "Aparece como fuente del proyecto y organiza el sentido del PA 13, pero no se localizo un encabezado identico en el libro del campo dentro de las paginas confirmadas del bloque.",
+          "pedagogicalUse": "Funciona como eje de comprension del proyecto, aunque conviene seguir tratandolo como formulacion de trabajo y no como concepto cerrado del libro del campo.",
+          "activityReadiness": "usable-for-resonance"
+        },
+        {
+          "concept": "elementos del pensamiento critico",
+          "description": "Recursos para analizar informacion, valorar razones y sostener una postura frente a un problema o una decision.",
+          "sourceBook": "Nuestro libro de proyectos Tomo I",
+          "sourcePages": [
+            102,
+            103
+          ],
+          "sourcePagesLabel": "pp. 102-103",
+          "topicTitle": "Distintas fuentes de consulta",
+          "status": "suggested",
+          "reason": "Se nombra de forma explicita dentro del proyecto, pero no se localizo en este bloque una pagina del libro del campo con el mismo encabezado para confirmarlo sin reservas.",
+          "pedagogicalUse": "Resulta muy util para orientar la escritura de la historia con solucion, sin presentarlo todavia como concepto plenamente confirmado del libro del campo.",
+          "activityReadiness": "usable-for-resonance"
+        }
+      ],
+      "thinkingCriteria": [
+        "Reconocer una problematica comunitaria sin reducirla a opinion aislada o conflicto individual.",
+        "Relacionar narracion, argumentacion y solucion posible dentro de una misma historia.",
+        "Usar la lengua como medio para nombrar problemas y construir alternativas colectivas."
+      ],
+      "validationStatus": {
+        "readinessLevel": "development-partial",
+        "readyForActivities": false,
+        "needsReviewReasons": [
+          "El bloque ya es usable como lectura docente, pero el video del PPA 5 sigue pendiente de validacion de destino final.",
+          "La asignacion de apoyos de Multiples Lenguajes por PA se sostiene por inferencia curricular de columnas y no por OCR limpio de la tabla.",
+          "Las referencias de Ingles que aparecen en las pp. 13-14 de Posibilidades no se usan para confirmar conceptos del campo Lenguajes."
+        ]
+      },
+      "readinessLevel": "development-partial",
+      "readyForActivities": false,
+      "needsReviewReasons": [
+        "No mover a actividades interactivas ni desbloquear juegos completos."
+      ]
+    },
+    {
+      "id": "lenguajes-1-ppa-5-pa14",
+      "projectId": "lenguajes-1-ppa-5-pa14",
+      "academicProjectNumber": 14,
+      "title": "Exponemos los problemas comunitarios",
+      "projectTitle": "Exponemos los problemas comunitarios",
+      "grade": "1",
+      "field": "Lenguajes",
+      "ppaNumber": "5",
+      "partialClassroomProject": "PPA 5",
+      "partialClassroomProjectTitle": "Juntos a resolver problemas",
+      "bookVolume": "Tomo I",
+      "sourceValidation": {
+        "sourceStatus": "linked",
+        "possibilitiesPages": [
+          13,
+          14,
+          15
+        ],
+        "possibilitiesMaterialId": "grade-1-posibilidades-pos-len-1",
+        "possibilitiesColumnIndex": 2,
+        "columnEvidence": "Bloque PPA 5 Juntos a resolver problemas localizado en pp. 13-15; la columna 2 se confirma por el orden de productos, apoyos y continuidad del mismo bloque."
+      },
+      "finalProduct": {
+        "title": "Asamblea reveladora",
+        "source": "Posibilidades de uso Lenguajes pp. 13-15 + Nuestro libro de proyectos Tomo I pp. 105-108",
+        "status": "confirmed"
+      },
+      "sourcePages": {
+        "nuestroLibroProyectos": [
+          {
+            "materialId": "grade-1-proyectos-nuestro-libro-de-proyectos-tomo-i-primer-grado",
+            "label": "Nuestro libro de proyectos Tomo I",
+            "startPage": 105,
+            "endPage": 108,
+            "pagesLabel": "pp. 105-108",
+            "topicTitle": "Proyecto academico 14",
+            "status": "confirmed-source"
+          }
+        ],
+        "conceptBook": [
+          {
+            "materialId": "grade-1-conceptos-lenguajes-primer-grado",
+            "label": "Lenguajes",
+            "startPage": 12,
+            "endPage": 24,
+            "pagesLabel": "pp. 12-24",
+            "topicTitle": "Comprension lectora",
+            "status": "confirmed-source"
+          },
+          {
+            "materialId": "grade-1-conceptos-lenguajes-primer-grado",
+            "label": "Lenguajes",
+            "startPage": 44,
+            "endPage": 52,
+            "pagesLabel": "pp. 44-52",
+            "topicTitle": "El comentario y la exposicion como recursos comunicativos",
+            "status": "confirmed-source"
+          },
+          {
+            "materialId": "grade-1-conceptos-artes-primer-grado",
+            "label": "De lo humano y lo comunitario",
+            "startPage": 286,
+            "endPage": 291,
+            "pagesLabel": "pp. 286-291",
+            "topicTitle": "Elementos de las artes: codigos y lenguajes",
+            "status": "context-support"
+          }
+        ],
+        "multiplesLenguajes": [],
+        "otherMaterials": [
+          {
+            "label": "Video PPA 5: Juntos a resolver problemas",
+            "reference": "bit.ly/3VfglUk",
+            "status": "pending-validation",
+            "youtubeSearchQuery": "Juntos a resolver problemas Lenguajes 1er grado Telesecundaria"
+          }
+        ]
+      },
+      "supportMaterials": [],
+      "horizonOrPurpose": {
+        "status": "official",
+        "text": "Redactar varios textos expositivos para organizar una asamblea reveladora y compartir acontecimientos o problematicas importantes de la comunidad.",
+        "source": "Nuestro libro de proyectos Tomo I p. 105"
+      },
+      "projectExpectationHorizon": {
+        "officialText": "Emplear textos expositivos para presentar y difundir acontecimientos y problematicas de la comunidad en una asamblea, recuperando tambien saberes locales sobre como se organizan reuniones comunes.",
+        "studentVersion": "Aprender a explicar con claridad un problema comunitario, organizar informacion relevante y comunicarla oralmente en una asamblea.",
+        "sourcePages": [
+          "Nuestro libro de proyectos Tomo I p. 106"
+        ],
+        "evidence": "La etapa 3 y los objetivos del proyecto permiten fijar un horizonte de expectativas util para la lectura docente del PA.",
+        "status": "confirmed-from-project-book"
+      },
+      "detonatingStrategy": {
+        "status": "pending-url",
+        "text": "Video PPA 5: Juntos a resolver problemas",
+        "reference": "bit.ly/3VfglUk",
+        "source": "Nuestro libro de proyectos Tomo I p. 99 + Posibilidades de uso Lenguajes pp. 13-15"
+      },
+      "academicProjectStrategy": {
+        "title": "Asamblea reveladora",
+        "text": "Preparacion de exposiciones y textos breves para dialogar en asamblea sobre acontecimientos y problemas de la comunidad.",
+        "type": "assembly",
+        "status": "confirmed-from-project-book",
+        "source": "Nuestro libro de proyectos Tomo I pp. 105-108"
+      },
+      "academicConcepts": [
+        {
+          "concept": "asamblea reveladora",
+          "description": "Espacio organizado para presentar informacion, escuchar distintas voces y comprender de manera compartida un hecho o problema de la comunidad.",
+          "sourceBook": "Nuestro libro de proyectos Tomo I",
+          "sourcePages": [
+            105,
+            106,
+            107,
+            108
+          ],
+          "sourcePagesLabel": "pp. 105-108",
+          "topicTitle": "Proyecto academico 14",
+          "status": "confirmed",
+          "reason": "Posibilidades y el proyecto lo fijan como producto central del PA 14 y explican sus pasos de preparacion.",
+          "pedagogicalUse": "Integra lectura, exposicion y comunicacion oral en una situacion comunal concreta.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "comprension lectora",
+          "description": "Proceso de entender, interpretar y valorar lo que un texto comunica segun su tema, intencion y contexto.",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            12
+          ],
+          "sourcePagesLabel": "p. 12",
+          "topicTitle": "Comprension lectora",
+          "status": "confirmed",
+          "reason": "La p. 12 abre el bloque conceptual listado para la columna del PA 14 y sostiene la lectura de textos expositivos.",
+          "pedagogicalUse": "Da base para seleccionar informacion relevante antes de llevarla a una asamblea.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "tipos de texto",
+          "description": "Distintas formas de organizar un escrito segun su funcion, por ejemplo informar, narrar, explicar o argumentar.",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            13,
+            14,
+            15,
+            16,
+            17
+          ],
+          "sourcePagesLabel": "pp. 13-17",
+          "topicTitle": "Tipos de texto",
+          "status": "confirmed",
+          "reason": "Las pp. 13-17 desarrollan la distincion de tipos de texto indicada por Posibilidades para esta columna.",
+          "pedagogicalUse": "Ayuda a distinguir por que el proyecto requiere textos expositivos y no cualquier forma de escritura.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "factores que influyen en la comprension lectora",
+          "description": "Condiciones del lector, del texto y del contexto que ayudan o dificultan entender lo que se lee.",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            18,
+            19,
+            20
+          ],
+          "sourcePagesLabel": "pp. 18-20",
+          "topicTitle": "Factores que influyen en la comprension lectora",
+          "status": "confirmed",
+          "reason": "Las pp. 18-20 sostienen la lectura critica de materiales para la asamblea reveladora.",
+          "pedagogicalUse": "Permite revisar por que a veces una explicacion no se entiende y como mejorarla para el auditorio.",
+          "activityReadiness": "usable-for-resonance"
+        },
+        {
+          "concept": "estrategias para la comprension de textos",
+          "description": "Acciones como anticipar, subrayar, resumir y preguntar que ayudan a comprender mejor lo que un texto comunica.",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            20,
+            21,
+            22,
+            23
+          ],
+          "sourcePagesLabel": "pp. 20-23",
+          "topicTitle": "Estrategias para la comprension de textos",
+          "status": "confirmed",
+          "reason": "Las pp. 20-23 desarrollan tecnicas lectoras utiles para preparar la exposicion oral y escrita.",
+          "pedagogicalUse": "Fortalece el trabajo previo de seleccion y organizacion de informacion para la asamblea.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "la comprension de textos en una sociedad intercultural",
+          "description": "Lectura que toma en cuenta distintos modos de hablar, saberes y puntos de vista presentes en una comunidad diversa.",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            23,
+            24
+          ],
+          "sourcePagesLabel": "pp. 23-24",
+          "topicTitle": "La comprension de textos en una sociedad intercultural",
+          "status": "confirmed",
+          "reason": "Las pp. 23-24 cierran el bloque lector y ayudan a ubicar la asamblea como dialogo entre perspectivas diversas.",
+          "pedagogicalUse": "Conviene usarlo para que la asamblea no reduzca la comunidad a una sola voz o una sola experiencia.",
+          "activityReadiness": "usable-for-resonance"
+        },
+        {
+          "concept": "el comentario y la exposicion como recursos comunicativos",
+          "description": "Formas de comunicar ideas para explicar, valorar y compartir informacion frente a otras personas.",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            44
+          ],
+          "sourcePagesLabel": "p. 44",
+          "topicTitle": "El comentario y la exposicion como recursos comunicativos",
+          "status": "confirmed",
+          "reason": "La p. 44 abre el segundo bloque conceptual asociado directamente a la columna del PA 14.",
+          "pedagogicalUse": "Da marco para diferenciar entre opinar, comentar y exponer durante la preparacion de la asamblea.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "el comentario de texto",
+          "description": "Explicacion breve en la que se resume, interpreta o valora el contenido de un texto.",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            45,
+            46,
+            47
+          ],
+          "sourcePagesLabel": "pp. 45-47",
+          "topicTitle": "El comentario de texto",
+          "status": "confirmed",
+          "reason": "Las pp. 45-47 desarrollan una practica muy cercana a la preparacion de textos para la asamblea.",
+          "pedagogicalUse": "Sirve para que el alumnado no copie informacion, sino que la comprenda y la explique con sus palabras.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "caracteristicas de la exposicion oral y escrita",
+          "description": "Rasgos que hacen clara una exposicion, como orden, proposito, ejemplos, apoyos y lenguaje adecuado.",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            47,
+            48,
+            49,
+            50
+          ],
+          "sourcePagesLabel": "pp. 47-50",
+          "topicTitle": "Caracteristicas de la exposicion oral y escrita",
+          "status": "confirmed",
+          "reason": "Las pp. 47-50 son fundamentales para el producto del PA 14 y aparecen de forma directa en Posibilidades.",
+          "pedagogicalUse": "Ayuda a organizar intervenciones claras y con sentido para la asamblea reveladora.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "tecnicas para la comunicacion oral y escrita",
+          "description": "Recursos para hablar y escribir con claridad, como ordenar ideas, usar conectores y cuidar el volumen o el ritmo.",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            50,
+            51,
+            52
+          ],
+          "sourcePagesLabel": "pp. 50-52",
+          "topicTitle": "Tecnicas para la comunicacion oral y escrita",
+          "status": "confirmed",
+          "reason": "Las pp. 50-52 completan la base comunicativa que Posibilidades asigna a este proyecto.",
+          "pedagogicalUse": "Conviene usarlo para ensayar la asamblea y mejorar la comprension de las exposiciones.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "acontecimientos importantes de la comunidad",
+          "description": "Hechos, situaciones o eventos que tienen significado colectivo y merecen ser documentados, explicados o discutidos.",
+          "sourceBook": "Nuestro libro de proyectos Tomo I",
+          "sourcePages": [
+            107
+          ],
+          "sourcePagesLabel": "p. 107",
+          "topicTitle": "Distintas fuentes de consulta",
+          "status": "suggested",
+          "reason": "Aparece como una de las fuentes de consulta del proyecto, pero no se localizo en el libro del campo un encabezado identico dentro de las paginas confirmadas del bloque.",
+          "pedagogicalUse": "Orienta la seleccion de temas para la asamblea, aunque conviene sostenerlo como formulacion de trabajo y no como concepto confirmado del libro del campo.",
+          "activityReadiness": "usable-for-resonance"
+        },
+        {
+          "concept": "elementos de las artes: codigos y lenguajes",
+          "description": "Recursos visuales, sonoros y corporales que ayudan a reforzar la comprension de una exposicion o de una experiencia comunal.",
+          "sourceBook": "De lo humano y lo comunitario",
+          "sourcePages": [
+            286
+          ],
+          "sourcePagesLabel": "p. 286",
+          "topicTitle": "Elementos de las artes: codigos y lenguajes",
+          "status": "suggested",
+          "reason": "La p. 286 aparece en la misma columna de Posibilidades como apoyo transversal para enriquecer la comunicacion, pero no como nucleo principal del PA 14.",
+          "pedagogicalUse": "Puede ayudar a pensar apoyos de presentacion en la asamblea sin desplazar la dimension expositiva del proyecto.",
+          "activityReadiness": "usable-for-resonance"
+        }
+      ],
+      "thinkingCriteria": [
+        "Distinguir entre informar, comentar y exponer para comunicar con claridad un problema comunitario.",
+        "Seleccionar informacion relevante sin saturar la asamblea con datos desconectados.",
+        "Reconocer que una asamblea requiere comprension lectora, escucha y organizacion de ideas, no solo hablar frente a otros."
+      ],
+      "validationStatus": {
+        "readinessLevel": "development-partial",
+        "readyForActivities": false,
+        "needsReviewReasons": [
+          "El bloque ya es usable como lectura docente, pero el video del PPA 5 sigue pendiente de validacion de destino final.",
+          "La asignacion de apoyos de Multiples Lenguajes por PA se sostiene por inferencia curricular de columnas y no por OCR limpio de la tabla.",
+          "Las referencias de Ingles que aparecen en las pp. 13-14 de Posibilidades no se usan para confirmar conceptos del campo Lenguajes."
+        ]
+      },
+      "readinessLevel": "development-partial",
+      "readyForActivities": false,
+      "needsReviewReasons": [
+        "No mover a actividades interactivas ni desbloquear juegos completos."
+      ]
+    },
+    {
+      "id": "lenguajes-1-ppa-5-pa15",
+      "projectId": "lenguajes-1-ppa-5-pa15",
+      "academicProjectNumber": 15,
+      "title": "Aprendiendo juntos es mejor",
+      "projectTitle": "Aprendiendo juntos es mejor",
+      "grade": "1",
+      "field": "Lenguajes",
+      "ppaNumber": "5",
+      "partialClassroomProject": "PPA 5",
+      "partialClassroomProjectTitle": "Juntos a resolver problemas",
+      "bookVolume": "Tomo I",
+      "sourceValidation": {
+        "sourceStatus": "linked",
+        "possibilitiesPages": [
+          13,
+          14,
+          15
+        ],
+        "possibilitiesMaterialId": "grade-1-posibilidades-pos-len-1",
+        "possibilitiesColumnIndex": 3,
+        "columnEvidence": "Bloque PPA 5 Juntos a resolver problemas localizado en pp. 13-15; la columna 3 se confirma por el orden de productos, apoyos y continuidad del mismo bloque."
+      },
+      "finalProduct": {
+        "title": "Encuentro breve",
+        "source": "Posibilidades de uso Lenguajes pp. 13-15 + Nuestro libro de proyectos Tomo I pp. 109-112",
+        "status": "confirmed"
+      },
+      "sourcePages": {
+        "nuestroLibroProyectos": [
+          {
+            "materialId": "grade-1-proyectos-nuestro-libro-de-proyectos-tomo-i-primer-grado",
+            "label": "Nuestro libro de proyectos Tomo I",
+            "startPage": 109,
+            "endPage": 112,
+            "pagesLabel": "pp. 109-112",
+            "topicTitle": "Proyecto academico 15",
+            "status": "confirmed-source"
+          }
+        ],
+        "conceptBook": [
+          {
+            "materialId": "grade-1-conceptos-lenguajes-primer-grado",
+            "label": "Lenguajes",
+            "startPage": 12,
+            "endPage": 24,
+            "pagesLabel": "pp. 12-24",
+            "topicTitle": "Comprension lectora",
+            "status": "confirmed-source"
+          },
+          {
+            "materialId": "grade-1-conceptos-lenguajes-primer-grado",
+            "label": "Lenguajes",
+            "startPage": 25,
+            "endPage": 35,
+            "pagesLabel": "pp. 25-35",
+            "topicTitle": "Creaciones literarias de la comunidad",
+            "status": "confirmed-source"
+          },
+          {
+            "materialId": "grade-1-conceptos-lenguajes-primer-grado",
+            "label": "Lenguajes",
+            "startPage": 72,
+            "endPage": 83,
+            "pagesLabel": "pp. 72-83",
+            "topicTitle": "Generos literarios",
+            "status": "confirmed-source"
+          },
+          {
+            "materialId": "grade-1-conceptos-lenguajes-primer-grado",
+            "label": "Lenguajes",
+            "startPage": 103,
+            "endPage": 109,
+            "pagesLabel": "pp. 103-109",
+            "topicTitle": "Creaciones literarias en lenguas indigenas",
+            "status": "confirmed-source"
+          },
+          {
+            "materialId": "grade-1-conceptos-lenguajes-primer-grado",
+            "label": "Lenguajes",
+            "startPage": 253,
+            "endPage": 269,
+            "pagesLabel": "pp. 253-269",
+            "topicTitle": "La tradicion y comunidad en textos literarios",
+            "status": "confirmed-source"
+          }
+        ],
+        "multiplesLenguajes": [
+          {
+            "materialId": "grade-1-apoyo-muiltiples-lenguajes-primer-grado",
+            "label": "Multiples Lenguajes",
+            "startPage": 88,
+            "endPage": 89,
+            "pagesLabel": "pp. 88-89",
+            "topicTitle": "Vida comunitaria. Yutsa To'on",
+            "status": "confirmed-by-column-inference"
+          }
+        ],
+        "otherMaterials": [
+          {
+            "label": "Video PPA 5: Juntos a resolver problemas",
+            "reference": "bit.ly/3VfglUk",
+            "status": "pending-validation",
+            "youtubeSearchQuery": "Juntos a resolver problemas Lenguajes 1er grado Telesecundaria"
+          }
+        ]
+      },
+      "supportMaterials": [
+        {
+          "title": "Vida comunitaria. Yutsa To'on",
+          "kind": "Multiples Lenguajes",
+          "pages": "pp. 88-89",
+          "status": "confirmed-by-column-inference"
+        }
+      ],
+      "horizonOrPurpose": {
+        "status": "official",
+        "text": "Seleccionar un texto literario o informativo en el que se explique como se resolvio una situacion en una comunidad para realizar un encuentro breve.",
+        "source": "Nuestro libro de proyectos Tomo I p. 109"
+      },
+      "projectExpectationHorizon": {
+        "officialText": "Seleccionar un texto literario e informativo acerca de una situacion resuelta en comunidad, exponerlo en un encuentro breve y visualizar con ello nuevas posibilidades de atencion o cuidado comun.",
+        "studentVersion": "Leer textos que muestran formas comunitarias de resolver problemas y compartir lo aprendido en un encuentro breve con otras personas.",
+        "sourcePages": [
+          "Nuestro libro de proyectos Tomo I p. 110"
+        ],
+        "evidence": "La etapa 3 y los objetivos del proyecto permiten fijar un horizonte de expectativas util para la lectura docente del PA.",
+        "status": "confirmed-from-project-book"
+      },
+      "detonatingStrategy": {
+        "status": "pending-url",
+        "text": "Video PPA 5: Juntos a resolver problemas",
+        "reference": "bit.ly/3VfglUk",
+        "source": "Nuestro libro de proyectos Tomo I p. 99 + Posibilidades de uso Lenguajes pp. 13-15"
+      },
+      "academicProjectStrategy": {
+        "title": "Encuentro breve",
+        "text": "Intercambio breve de lecturas y comentarios sobre textos que muestran soluciones o aprendizajes construidos en comunidad.",
+        "type": "reading-encounter",
+        "status": "confirmed-from-project-book",
+        "source": "Nuestro libro de proyectos Tomo I pp. 109-112"
+      },
+      "academicConcepts": [
+        {
+          "concept": "encuentro breve",
+          "description": "Espacio corto de lectura y comentario donde se comparte un texto y se conversa sobre su sentido para la vida comunitaria.",
+          "sourceBook": "Nuestro libro de proyectos Tomo I",
+          "sourcePages": [
+            109,
+            110,
+            111,
+            112
+          ],
+          "sourcePagesLabel": "pp. 109-112",
+          "topicTitle": "Proyecto academico 15",
+          "status": "confirmed",
+          "reason": "Posibilidades y el proyecto lo fijan como producto central del PA 15 y explican su sentido dentro del bloque.",
+          "pedagogicalUse": "Permite conectar lectura, oralidad y reflexion comunitaria a partir de textos significativos.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "comprension lectora",
+          "description": "Proceso de entender, interpretar y valorar lo que un texto comunica segun su tema, intencion y contexto.",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            12
+          ],
+          "sourcePagesLabel": "p. 12",
+          "topicTitle": "Comprension lectora",
+          "status": "confirmed",
+          "reason": "La p. 12 abre el bloque de lectura que Posibilidades asigna a esta columna y sostiene la seleccion de textos para el encuentro.",
+          "pedagogicalUse": "Da base para leer con sentido textos literarios e informativos antes de comentarlos.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "tipos de texto",
+          "description": "Distintas formas de organizar un escrito segun su proposito, como informar, narrar, explicar o expresar emociones.",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            13,
+            14,
+            15,
+            16,
+            17
+          ],
+          "sourcePagesLabel": "pp. 13-17",
+          "topicTitle": "Tipos de texto",
+          "status": "confirmed",
+          "reason": "Las pp. 13-17 ayudan a distinguir los textos que pueden integrarse al encuentro breve.",
+          "pedagogicalUse": "Permite comparar por que un texto informa, otro narra y otro convoca a imaginar o sentir.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "estrategias para la comprension de textos",
+          "description": "Acciones como anticipar, resumir, preguntar y relacionar ideas para comprender mejor lo que se lee.",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            20,
+            21,
+            22,
+            23
+          ],
+          "sourcePagesLabel": "pp. 20-23",
+          "topicTitle": "Estrategias para la comprension de textos",
+          "status": "confirmed",
+          "reason": "Las pp. 20-23 fortalecen la lectura compartida y la preparacion del encuentro breve.",
+          "pedagogicalUse": "Ayuda a que el encuentro no se limite a leer en voz alta, sino a comprender y comentar con fundamento.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "creaciones literarias de la comunidad",
+          "description": "Textos surgidos de la vida de una comunidad que expresan sus saberes, conflictos, recuerdos y modos de sentir.",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            25
+          ],
+          "sourcePagesLabel": "p. 25",
+          "topicTitle": "Creaciones literarias de la comunidad",
+          "status": "confirmed",
+          "reason": "La p. 25 abre el bloque conceptual listado de forma directa para la columna del PA 15.",
+          "pedagogicalUse": "Da base para elegir textos cercanos a la vida comun y no solo lecturas descontextualizadas.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "manifestaciones literarias comunitarias",
+          "description": "Formas en que una comunidad expresa relatos, poemas, dialogos y otras producciones vinculadas con su memoria y su vida compartida.",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            26,
+            27,
+            28,
+            29
+          ],
+          "sourcePagesLabel": "pp. 26-29",
+          "topicTitle": "Manifestaciones literarias comunitarias",
+          "status": "confirmed",
+          "reason": "Las pp. 26-29 desarrollan el tipo de expresiones que el PA 15 puede recuperar para su encuentro breve.",
+          "pedagogicalUse": "Permite leer la literatura como parte de la vida comunal y no solo como producto escolar.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "la antologia literaria",
+          "description": "Reunion organizada de textos con un criterio comun para leerlos, compartirlos o compararlos.",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            30,
+            31
+          ],
+          "sourcePagesLabel": "pp. 30-31",
+          "topicTitle": "La antologia literaria",
+          "status": "suggested",
+          "reason": "Aparece en la misma cadena de lectura del bloque y puede ayudar a seleccionar textos, pero no es el nucleo del producto final del PA 15.",
+          "pedagogicalUse": "Funciona como apoyo para organizar la lectura del encuentro sin desplazar el producto principal.",
+          "activityReadiness": "usable-for-resonance"
+        },
+        {
+          "concept": "estrategias y recursos creativos para el fomento de la lectura en comunidad",
+          "description": "Acciones y recursos para invitar a otras personas a leer, escuchar y conversar sobre textos dentro de la comunidad.",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            32,
+            33,
+            34,
+            35
+          ],
+          "sourcePagesLabel": "pp. 32-35",
+          "topicTitle": "Estrategias y recursos creativos para el fomento de la lectura en comunidad",
+          "status": "confirmed",
+          "reason": "Las pp. 32-35 sostienen de forma directa el diseno del encuentro breve como actividad compartida.",
+          "pedagogicalUse": "Ayuda a planear un encuentro realmente participativo y no solo una lectura aislada.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "generos literarios",
+          "description": "Grandes formas de organizacion de la literatura, como narrativa, lirica y dramatica.",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            72
+          ],
+          "sourcePagesLabel": "p. 72",
+          "topicTitle": "Generos literarios",
+          "status": "confirmed",
+          "reason": "La p. 72 abre el bloque conceptual listado para esta columna y ayuda a distinguir clases de textos.",
+          "pedagogicalUse": "Permite elegir con mas criterio los textos que se llevaran al encuentro breve.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "genero narrativo y sus recursos",
+          "description": "Forma literaria que cuenta hechos o situaciones mediante personajes, acciones, tiempos y espacios.",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            73,
+            74,
+            75,
+            76
+          ],
+          "sourcePagesLabel": "pp. 73-76",
+          "topicTitle": "Genero narrativo y sus recursos",
+          "status": "confirmed",
+          "reason": "Las pp. 73-76 ofrecen una base clara para seleccionar relatos donde se muestre la resolucion de una situacion comunitaria.",
+          "pedagogicalUse": "Conviene usarlo para leer historias donde un conflicto se transforma o se atiende colectivamente.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "creaciones literarias en lenguas indigenas",
+          "description": "Producciones literarias elaboradas en lenguas indigenas que expresan experiencias, saberes y visiones propias.",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            103
+          ],
+          "sourcePagesLabel": "p. 103",
+          "topicTitle": "Creaciones literarias en lenguas indigenas",
+          "status": "confirmed",
+          "reason": "La p. 103 abre otro bloque de lectura asignado a la misma columna del PA 15.",
+          "pedagogicalUse": "Ayuda a abrir el encuentro breve a textos en lengua propia o vinculados con otras lenguas del territorio.",
+          "activityReadiness": "usable-for-resonance"
+        },
+        {
+          "concept": "manifestaciones literarias en lenguas indigenas",
+          "description": "Relatos, poemas, cantos u otras formas literarias que circulan en lenguas indigenas.",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            104,
+            105,
+            106,
+            107,
+            108
+          ],
+          "sourcePagesLabel": "pp. 104-108",
+          "topicTitle": "Manifestaciones literarias en lenguas indigenas",
+          "status": "confirmed",
+          "reason": "Las pp. 104-108 desarrollan expresiones que pueden enriquecer la lectura y el comentario en el encuentro.",
+          "pedagogicalUse": "Permite ampliar el repertorio de lecturas y valorar otras formas de expresion literaria.",
+          "activityReadiness": "usable-for-resonance"
+        },
+        {
+          "concept": "fomento a la lectura, uso y escritura en lenguas indigenas",
+          "description": "Acciones para leer, escribir y poner en circulacion textos en lenguas indigenas dentro de la comunidad.",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            108,
+            109
+          ],
+          "sourcePagesLabel": "pp. 108-109",
+          "topicTitle": "Fomento a la lectura, uso y escritura en lenguas indigenas",
+          "status": "confirmed",
+          "reason": "Las pp. 108-109 se relacionan de manera directa con la organizacion del encuentro como practica de lectura compartida.",
+          "pedagogicalUse": "Sirve para vincular el encuentro breve con acciones reales de lectura y circulacion de textos.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "la tradicion y comunidad en textos literarios",
+          "description": "Presencia de costumbres, memorias y experiencias comunales dentro de obras literarias.",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            253
+          ],
+          "sourcePagesLabel": "p. 253",
+          "topicTitle": "La tradicion y comunidad en textos literarios",
+          "status": "confirmed",
+          "reason": "La p. 253 abre el ultimo bloque listado para esta columna y coincide con el sentido del proyecto.",
+          "pedagogicalUse": "Ayuda a elegir textos que hablen de soluciones, conflictos y aprendizajes en comunidad.",
+          "activityReadiness": "usable-for-resonance"
+        },
+        {
+          "concept": "tradiciones literarias: mitos, fabulas y leyendas",
+          "description": "Formas narrativas que transmiten saberes, advertencias, explicaciones o memorias compartidas por una comunidad.",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            254,
+            255,
+            256
+          ],
+          "sourcePagesLabel": "pp. 254-256",
+          "topicTitle": "Tradiciones literarias: mitos, fabulas y leyendas",
+          "status": "confirmed",
+          "reason": "Las pp. 254-256 ofrecen textos y marcos de lectura pertinentes para el encuentro breve.",
+          "pedagogicalUse": "Conviene usarlos para pensar como los relatos comunitarios explican problemas o proponen modos de actuar.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "medios para la promocion y difusion de la literatura",
+          "description": "Formas de compartir textos con otras personas, como lecturas publicas, carteles, audios, encuentros o antologias.",
+          "sourceBook": "Lenguajes",
+          "sourcePages": [
+            258,
+            259,
+            260,
+            261,
+            262,
+            263,
+            264,
+            265,
+            266,
+            267,
+            268,
+            269
+          ],
+          "sourcePagesLabel": "pp. 258-269",
+          "topicTitle": "Medios para la promocion y difusion de la literatura",
+          "status": "confirmed",
+          "reason": "Las pp. 258-269 ayudan a proyectar el encuentro breve como accion real de promocion y difusion de lecturas.",
+          "pedagogicalUse": "Fortalece el diseno del producto para que la lectura circule y convoque a otras personas.",
+          "activityReadiness": "usable-for-autoevaluation"
+        },
+        {
+          "concept": "metodos de solucion de conflicto",
+          "description": "Formas de atender tensiones o problemas entre personas o grupos mediante dialogo, acuerdos o decisiones compartidas.",
+          "sourceBook": "Nuestro libro de proyectos Tomo I",
+          "sourcePages": [
+            111
+          ],
+          "sourcePagesLabel": "p. 111",
+          "topicTitle": "Distintas fuentes de consulta",
+          "status": "suggested",
+          "reason": "Aparece como fuente de consulta del proyecto, pero no se localizo dentro de este bloque un encabezado equivalente en el libro del campo para confirmarlo sin reservas.",
+          "pedagogicalUse": "Sirve para orientar la lectura de textos donde una comunidad enfrenta y resuelve situaciones, sin tratarlo aun como concepto confirmado del libro del campo.",
+          "activityReadiness": "usable-for-resonance"
+        }
+      ],
+      "thinkingCriteria": [
+        "Distinguir entre leer un texto y compartirlo de manera que otras personas tambien puedan comprenderlo y dialogarlo.",
+        "Relacionar formas literarias e informativas con experiencias comunitarias de resolucion o cuidado.",
+        "Usar la lectura como practica comunal y no solo como actividad individual."
+      ],
+      "validationStatus": {
+        "readinessLevel": "development-partial",
+        "readyForActivities": false,
+        "needsReviewReasons": [
+          "El bloque ya es usable como lectura docente, pero el video del PPA 5 sigue pendiente de validacion de destino final.",
+          "La asignacion de apoyos de Multiples Lenguajes por PA se sostiene por inferencia curricular de columnas y no por OCR limpio de la tabla.",
+          "Las referencias de Ingles que aparecen en las pp. 13-14 de Posibilidades no se usan para confirmar conceptos del campo Lenguajes."
+        ]
+      },
+      "readinessLevel": "development-partial",
+      "readyForActivities": false,
+      "needsReviewReasons": [
+        "No mover a actividades interactivas ni desbloquear juegos completos."
+      ]
+    }
+  ]
+}
