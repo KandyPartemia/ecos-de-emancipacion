@@ -179,7 +179,7 @@ function buildPlanningPdfHtml(record: AcademicProjectRecord, horizon: DisplayHor
     .map((concept) =>
       [concept.concept, concept.description ? `: ${concept.description}` : ''].join(''),
     );
-  const apoyos = record.complementaryResources?.map((resource) =>
+  const apoyos = record.complementaryResources?.slice(0, 6).map((resource) =>
     [resource.label, resource.reference, resource.url].filter(Boolean).join(' - '),
   ) || [];
   const strategies = [
@@ -200,108 +200,115 @@ function buildPlanningPdfHtml(record: AcademicProjectRecord, horizon: DisplayHor
   <meta charset="utf-8" />
   <title>${escapeHtml(projectLabel)} - ${escapeHtml(record.academicProjectTitle)}</title>
   <style>
-    @page { size: letter; margin: 14mm; }
+    @page { size: letter landscape; margin: 9mm; }
     * { box-sizing: border-box; }
     body {
       margin: 0;
-      background: #f8f1e6;
+      background: #fffdf8;
       color: #241a12;
       font-family: "Segoe UI", Arial, sans-serif;
-      line-height: 1.45;
+      font-size: 11px;
+      line-height: 1.28;
     }
     .sheet {
-      max-width: 960px;
+      max-width: 100%;
       margin: 0 auto;
       background: #fffdf8;
       border: 1px solid #dccfb9;
-      border-radius: 22px;
-      padding: 28px;
+      border-radius: 16px;
+      padding: 12px;
     }
     .top {
-      border-radius: 18px;
+      display: grid;
+      grid-template-columns: minmax(0, 1.35fr) minmax(0, 1fr);
+      gap: 12px;
+      align-items: end;
+      border-radius: 14px;
       background: #315344;
       color: #f8f1e6;
-      padding: 24px;
+      padding: 14px 16px;
     }
     .eyebrow {
-      margin: 0 0 8px;
+      margin: 0 0 5px;
       color: #d9b56d;
-      font-size: 11px;
+      font-size: 8.5px;
       font-weight: 800;
-      letter-spacing: 0.16em;
+      letter-spacing: 0.15em;
       text-transform: uppercase;
     }
     h1 {
       margin: 0;
       font-family: Georgia, "Times New Roman", serif;
-      font-size: 34px;
-      line-height: 1.08;
+      font-size: 24px;
+      line-height: 1.02;
     }
     h2 {
-      margin: 0 0 10px;
+      margin: 0 0 6px;
       color: #315344;
       font-family: Georgia, "Times New Roman", serif;
-      font-size: 23px;
+      font-size: 15px;
     }
     h3 {
-      margin: 0 0 8px;
+      margin: 0 0 4px;
       color: #8f4d32;
-      font-size: 12px;
+      font-size: 8.5px;
       font-weight: 900;
-      letter-spacing: 0.13em;
+      letter-spacing: 0.11em;
       text-transform: uppercase;
     }
+    p { margin: 0; }
     .meta {
       display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 10px;
-      margin-top: 16px;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 6px;
+      margin: 0;
     }
     .chip {
       border: 1px solid rgba(248, 241, 230, 0.28);
-      border-radius: 14px;
-      padding: 10px 12px;
+      border-radius: 10px;
+      padding: 6px 7px;
       color: #fff8ee;
-      font-size: 13px;
+      font-size: 9.3px;
     }
     .grid {
       display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 14px;
-      margin-top: 16px;
+      grid-template-columns: 0.95fr 1.05fr 1fr;
+      gap: 8px;
+      margin-top: 8px;
     }
     .card {
       border: 1px solid #e6d8bf;
-      border-radius: 18px;
+      border-radius: 12px;
       background: #fff8ee;
-      padding: 16px;
+      padding: 9px;
       break-inside: avoid;
     }
+    .card.wide { grid-column: span 2; }
     .card.full { grid-column: 1 / -1; }
     table {
       width: 100%;
       border-collapse: collapse;
-      font-size: 13px;
+      font-size: 9.6px;
     }
     th, td {
       border-bottom: 1px solid #e6d8bf;
-      padding: 9px 8px;
+      padding: 4px 5px;
       text-align: left;
       vertical-align: top;
     }
     th { color: #315344; }
     ul {
-      margin: 8px 0 0 18px;
+      margin: 4px 0 0 13px;
       padding: 0;
     }
-    li { margin: 5px 0; }
+    li { margin: 2px 0; }
     .muted { color: #675c51; margin: 0; }
     .footer {
-      margin-top: 16px;
+      margin-top: 7px;
       border-top: 1px solid #e6d8bf;
-      padding-top: 12px;
+      padding-top: 6px;
       color: #675c51;
-      font-size: 12px;
+      font-size: 8.8px;
     }
     @media print {
       body { background: white; }
@@ -312,8 +319,10 @@ function buildPlanningPdfHtml(record: AcademicProjectRecord, horizon: DisplayHor
 <body>
   <main class="sheet">
     <header class="top">
-      <p class="eyebrow">Ecos de Emancipación · Caracoles Resonando</p>
-      <h1>${escapeHtml(projectLabel)} - ${escapeHtml(record.academicProjectTitle)}</h1>
+      <div>
+        <p class="eyebrow">Ecos de Emancipación · Caracoles Resonando</p>
+        <h1>${escapeHtml(projectLabel)} - ${escapeHtml(record.academicProjectTitle)}</h1>
+      </div>
       <div class="meta">
         <div class="chip"><strong>Grado:</strong> ${escapeHtml(record.grade)}°</div>
         <div class="chip"><strong>Campo:</strong> ${escapeHtml(record.field)}</div>
@@ -326,7 +335,7 @@ function buildPlanningPdfHtml(record: AcademicProjectRecord, horizon: DisplayHor
         <h3>Producto final</h3>
         <p>${escapeHtml(record.finalProduct || 'Pendiente de validación')}</p>
       </article>
-      <article class="card">
+      <article class="card wide">
         <h3>Horizonte de expectativas</h3>
         <p>${escapeHtml(horizon.text || horizonPendingCopy())}</p>
         ${horizon.source ? `<p class="muted"><strong>Fuente:</strong> ${escapeHtml(horizon.source)}</p>` : ''}
