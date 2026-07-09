@@ -179,9 +179,6 @@ function buildPlanningPdfHtml(record: AcademicProjectRecord, horizon: DisplayHor
     .map((concept) =>
       [concept.concept, concept.description ? `: ${concept.description}` : ''].join(''),
     );
-  const apoyos = record.complementaryResources?.slice(0, 6).map((resource) =>
-    [resource.label, resource.reference, resource.url].filter(Boolean).join(' - '),
-  ) || [];
   const strategies = [
     record.detonatingStrategy.displayTitle || record.detonatingStrategy.title || record.detonatingStrategy.text,
     ...(record.relatedStrategies || []).map(
@@ -360,22 +357,15 @@ function buildPlanningPdfHtml(record: AcademicProjectRecord, horizon: DisplayHor
         <h3>Estrategia detonadora y recursos</h3>
         ${formatPdfList(strategies)}
       </article>
-      <article class="card">
-        <h3>Apoyos</h3>
-        ${formatPdfList(apoyos)}
-      </article>
 
-      <article class="card">
+      <article class="card wide">
         <h3>Conceptos académicos</h3>
         ${formatPdfList(conceptos)}
       </article>
-      <article class="card">
+
+      <article class="card full">
         <h3>Autoevaluación formativa</h3>
-        ${formatPdfList([
-          record.resonanceQuestion ? `Pregunta para resonar: ${record.resonanceQuestion}` : undefined,
-          record.matchingActivity?.pairs?.length ? `Relación de columnas: ${record.matchingActivity.pairs.length} conceptos` : undefined,
-          record.game?.status === 'ready' ? `Juego interactivo: ${record.game.type === 'crossword' ? 'crucigrama' : 'sopa de letras'}` : undefined,
-        ])}
+        <p><strong>Pregunta de resonancia:</strong> ${escapeHtml(record.resonanceQuestion || 'Pendiente de validación.')}</p>
       </article>
     </section>
 
