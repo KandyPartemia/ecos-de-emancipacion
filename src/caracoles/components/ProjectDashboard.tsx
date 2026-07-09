@@ -124,12 +124,30 @@ function humanizePendingNote(text: string) {
 }
 
 function strategySummary(record: AcademicProjectRecord) {
+  if (record.finalProduct) {
+    return record.finalProduct;
+  }
+
   const strategy = record.detonatingStrategy;
   const primaryLabel = strategy.displayTitle || strategy.title || strategy.text || '';
   if (!primaryLabel) {
     return 'Pendiente de validación';
   }
   return primaryLabel;
+}
+
+function videoResourceSummary(record: AcademicProjectRecord) {
+  const strategy = record.detonatingStrategy;
+  const primaryLabel = strategy.displayTitle || strategy.title || strategy.text || '';
+  if (primaryLabel && primaryLabel !== record.finalProduct) {
+    return primaryLabel;
+  }
+
+  const relatedLabel = record.relatedStrategies
+    ?.map((entry) => entry.displayTitle || entry.title || entry.text || '')
+    .find((entry) => entry && entry !== record.finalProduct);
+
+  return relatedLabel || 'Recurso pendiente de validación';
 }
 
 function extractOpenableUrl(reference?: string) {
@@ -329,7 +347,7 @@ function buildPlanningPdfHtml(record: AcademicProjectRecord, horizon: DisplayHor
 
     <section class="grid">
       <article class="card">
-        <h3>Producto final</h3>
+        <h3>Estrategia detonadora / producto final</h3>
         <p>${escapeHtml(record.finalProduct || 'Pendiente de validación')}</p>
       </article>
       <article class="card wide">
@@ -354,7 +372,7 @@ function buildPlanningPdfHtml(record: AcademicProjectRecord, horizon: DisplayHor
       </article>
 
       <article class="card">
-        <h3>Estrategia detonadora y recursos</h3>
+        <h3>Video o recurso asociado</h3>
         ${formatPdfList(strategies)}
       </article>
 
@@ -1147,7 +1165,7 @@ function conceptBullets(concepts: AcademicProjectRecord['academicConcepts']) {
 }
 
 function presentationBullets(record: AcademicProjectRecord) {
-  const product = record.finalProduct || 'producto final';
+  const product = record.finalProduct || 'estrategia detonadora';
   return {
     before: ['Revisar información y fuentes.', 'Organizar materiales para ' + product.toLowerCase() + '.'],
     during: ['Presentar con claridad y respeto.', 'Compartir hallazgos y acuerdos.'],
@@ -1248,7 +1266,7 @@ function ConceptMindMap({
   if (confirmedConcepts.length < 3) return null;
 
   const source = sourceLine(record);
-  const product = record.finalProduct || 'Producto final pendiente';
+  const product = record.finalProduct || 'Estrategia detonadora pendiente';
   const horizonItems =
     record.horizon.text && record.horizon.status !== 'pending'
       ? splitMindMapText(record.horizon.text).slice(0, 2)
@@ -1256,26 +1274,26 @@ function ConceptMindMap({
   const purposeItems = splitMindMapText(record.teacherOrientation, [
     'Comprender el sentido del proyecto "' + record.academicProjectTitle + '".',
     'Retomar conceptos académicos y fuentes del campo formativo.',
-    'Construir evidencias para elaborar: ' + product + '.',
+    'Construir evidencias para desarrollar: ' + product + '.',
   ]).slice(0, 4);
   const situationItems = splitMindMapText(record.resonanceQuestion, [
     'Identificar una situación del entorno relacionada con el proyecto.',
     'Reconocer dudas, necesidades o problemas que orientan la indagación.',
-    'Conectar el desafío inicial con el producto final.',
+    'Conectar el desafío inicial con la estrategia detonadora.',
   ]).slice(0, 4);
   const stepItems = [
     'Seleccionar información clave.',
     'Investigar en fuentes confiables.',
     'Registrar hallazgos y conceptos.',
     'Comparar ideas y evidencias.',
-    'Organizar el producto final.',
+    'Organizar la estrategia detonadora.',
     'Revisar y mejorar la propuesta.',
     'Socializar resultados.',
   ];
   const ideaForce =
     record.horizon.text && record.horizon.status !== 'pending'
       ? normalizeMindMapText(record.horizon.text)
-      : 'El proyecto ' + record.academicProjectNumber + ' permite usar conceptos, fuentes y trabajo comunitario para construir ' + product.toLowerCase() + '.';
+      : 'El proyecto ' + record.academicProjectNumber + ' permite usar conceptos, fuentes y trabajo comunitario para desarrollar ' + product.toLowerCase() + '.';
   const presentation = presentationBullets(record);
 
   return (
@@ -1293,7 +1311,7 @@ function ConceptMindMap({
         <div className="pointer-events-none absolute inset-4 hidden rounded-[2rem] border-2 border-dashed border-[#d7b779]/55 xl:block" />
         <div className="relative grid gap-4 xl:hidden">
           <MapBlock number="1" title="Propósito" color="#1f63b5" icon={<Lightbulb size={30} />} items={purposeItems} />
-          <MapBlock number="2" title="Producto final" color="#1c8a2f" icon={<ClipboardList size={30} />} items={[product, 'Organización clara de evidencias.', 'Comunicación del aprendizaje logrado.', 'Socialización con la comunidad escolar.']} />
+          <MapBlock number="2" title="Estrategia detonadora / producto final" color="#1c8a2f" icon={<ClipboardList size={30} />} items={[product, 'Organización clara de evidencias.', 'Comunicación del aprendizaje logrado.', 'Socialización con la comunidad escolar.']} />
           <MapBlock number="3" title="Situación problemática" color="#d7266b" icon={<HelpCircle size={30} />} items={situationItems} />
           <MapBlock number="4" title="Horizonte de expectativas" color="#f26b21" icon={<Compass size={30} />} items={horizonItems} />
           <MapBlock number="5" title="Conceptos académicos" color="#6d35a8" icon={<Wrench size={30} />} items={confirmedConcepts} />
@@ -1350,7 +1368,7 @@ function ConceptMindMap({
           </div>
 
           <div className="grid gap-4">
-            <MapBlock number="2" title="Producto final" color="#1c8a2f" icon={<ClipboardList size={30} />} items={[product, 'Organización clara de evidencias.', 'Comunicación del aprendizaje logrado.', 'Socialización con la comunidad escolar.']} />
+            <MapBlock number="2" title="Estrategia detonadora / producto final" color="#1c8a2f" icon={<ClipboardList size={30} />} items={[product, 'Organización clara de evidencias.', 'Comunicación del aprendizaje logrado.', 'Socialización con la comunidad escolar.']} />
             <MapBlock number="3" title="Situación problemática" color="#d7266b" icon={<HelpCircle size={30} />} items={situationItems} />
             <MapBlock number="4" title="Horizonte de expectativas" color="#f26b21" icon={<Compass size={30} />} items={horizonItems} />
           </div>
@@ -1401,7 +1419,7 @@ function Autoevaluation({ record }: { record: AcademicProjectRecord }) {
           <ul className="mt-2 grid gap-2">
             <li>Retoma al menos dos conceptos académicos del proyecto.</li>
             <li>Explica que te aporta la estrategia detonadora: {strategyName}.</li>
-            <li>Relaciona tu respuesta con el producto final y con una situación de tu comunidad o vida cotidiana.</li>
+            <li>Relaciona tu respuesta con la estrategia detonadora y con una situación de tu comunidad o vida cotidiana.</li>
             {confirmedConcepts.length ? (
               <li>Te pueden ayudar especialmente estos conceptos: {confirmedConcepts.join(' · ')}.</li>
             ) : null}
@@ -1540,14 +1558,14 @@ function ProjectDashboard({
             label="Proyecto Parcial de Aula"
             value={[record.ppaNumber, record.ppaTitle].filter(Boolean).join(' — ') || 'Pendiente de validación'}
           />
-          <DataRow label="Producto final" value={record.finalProduct || 'Pendiente de validación'} />
+          <DataRow label="Estrategia detonadora / producto final" value={strategySummary(record)} />
           <DataRow
             label="Horizonte u orientación"
             value={displayHorizon.text || horizonPendingCopy()}
           />
           <DataRow
-            label="Estrategia detonadora"
-            value={strategySummary(record)}
+            label="Video o recurso asociado"
+            value={videoResourceSummary(record)}
             extra={
               strategyVideo?.videoUrl ? (
                 <a
@@ -1644,7 +1662,16 @@ function ProjectDashboard({
         ) : null}
       </Section>
 
-      <Section index={4} title="Estrategia detonadora">
+      <Section index={4} title="Video y recursos de la estrategia detonadora">
+        <div className="mb-4 rounded-[1.5rem] border border-[#d9b56d]/35 bg-[#fff8ee] p-5">
+          <p className="text-xs font-bold uppercase tracking-[0.14em] text-[#8f4d32]">Estrategia detonadora / producto final</p>
+          <p className="mt-2 break-words font-serif text-2xl leading-8 text-[#315344] [overflow-wrap:anywhere]">
+            {strategySummary(record)}
+          </p>
+          <p className="mt-2 text-sm leading-7 text-[#675c51]">
+            Este producto es la referencia principal para identificar el video específico del Proyecto Académico.
+          </p>
+        </div>
         {record.detonatingStrategy.title || record.detonatingStrategy.text ? (
           <div className="grid gap-4">
             <StrategyCard strategy={record.detonatingStrategy} />
@@ -1746,7 +1773,7 @@ function ProjectDashboard({
         <p className="text-xs font-bold uppercase tracking-[0.14em] text-[#8f4d32]">Planeación descargable</p>
         <p className="mt-3 max-w-4xl leading-8 text-[#241a12]">
           Genera una versión imprimible de este Proyecto Académico con formato de planeación: ficha curricular,
-          horizonte, producto final, fuentes, apoyos, conceptos y autoevaluación.
+          horizonte, estrategia detonadora, fuentes, conceptos y autoevaluación.
         </p>
         <button
           type="button"
