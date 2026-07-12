@@ -85,13 +85,6 @@ const CARACOLES_NAV_ITEMS = [
   { label: 'Autoevaluación', href: '#caracoles-autoevaluacion' },
 ];
 
-const CURRICULAR_HEALTH_SUMMARY = {
-  totalProjects: 432,
-  confirmedHorizons: 432,
-  videosInReview: 1,
-  note: 'Horizontes validados en todos los PA. Un video permanece en verificación porque el recurso fue dado de baja.',
-};
-
 function displayProjectTitle(project: { id?: string; title?: string }) {
   return PROJECT_TITLE_DISPLAY_OVERRIDES[project.id || ''] || project.title || 'Título pendiente';
 }
@@ -103,9 +96,6 @@ function CaracolesApp() {
   const [selectedProjectId, setSelectedProjectId] = useState('');
   const [requestedProjectNumber, setRequestedProjectNumber] = useState(initialSelection.pa);
   const [corpusState, setCorpusState] = useState<DataLoadState>({ status: 'loading', data: null, error: null });
-  const [projectSearchQuery, setProjectSearchQuery] = useState('');
-  const [selectedVolumeFilter, setSelectedVolumeFilter] = useState('');
-  const [selectedPpaFilter, setSelectedPpaFilter] = useState('');
 
   const sampleConcepts = conceptsGrade1Data as AcademicConcept[];
   const englishFieldSelected = isEnglishField(selectedField);
@@ -168,54 +158,6 @@ function CaracolesApp() {
       gradeProjects.filter((project) => normalizeKey(canonicalFieldName(project.field)) === normalizeKey(selectedField)),
     [gradeProjects, selectedField],
   );
-  const volumeOptions = useMemo(() => {
-    const volumes = Array.from(new Set(fieldProjects.map((project) => project.bookVolume).filter(Boolean))).sort((left, right) =>
-      String(left).localeCompare(String(right), 'es', { numeric: true }),
-    );
-    return [{ value: '', label: 'Todos los tomos' }, ...volumes.map((volume) => ({ value: String(volume), label: `Tomo ${volume}` }))];
-  }, [fieldProjects]);
-  const ppaOptions = useMemo(() => {
-    const ppaMap = new Map<string, string>();
-    fieldProjects.forEach((project) => {
-      if (!project.partialClassroomProject) return;
-      const label = project.partialClassroomProjectTitle
-        ? `${project.partialClassroomProject} - ${project.partialClassroomProjectTitle}`
-        : project.partialClassroomProject;
-      ppaMap.set(project.partialClassroomProject, label);
-    });
-    return [
-      { value: '', label: 'Todos los PPA' },
-      ...Array.from(ppaMap.entries())
-        .sort(([left], [right]) => left.localeCompare(right, 'es', { numeric: true }))
-        .map(([value, label]) => ({ value, label })),
-    ];
-  }, [fieldProjects]);
-  const filteredFieldProjects = useMemo(() => {
-    const query = normalizeKey(projectSearchQuery);
-    return fieldProjects.filter((project) => {
-      if (selectedVolumeFilter && project.bookVolume !== selectedVolumeFilter) return false;
-      if (selectedPpaFilter && project.partialClassroomProject !== selectedPpaFilter) return false;
-      if (!query) return true;
-
-      const linkedTerms = concepts
-        .filter((concept) => (project.academicConceptIds ?? []).includes(concept.id))
-        .map((concept) => concept.term)
-        .join(' ');
-      const searchableText = [
-        `pa${project.academicProjectNumber || ''}`,
-        project.title,
-        project.finalProduct,
-        project.horizon,
-        project.studentHorizon,
-        project.partialClassroomProject,
-        project.partialClassroomProjectTitle,
-        project.bookVolume ? `tomo ${project.bookVolume}` : '',
-        linkedTerms,
-      ].join(' ');
-
-      return normalizeKey(searchableText).includes(query);
-    });
-  }, [concepts, fieldProjects, projectSearchQuery, selectedPpaFilter, selectedVolumeFilter]);
 
   useEffect(() => {
     if (englishFieldSelected) {
@@ -239,7 +181,7 @@ function CaracolesApp() {
       return;
     }
 
-    if (!filteredFieldProjects.length) {
+    if (!fieldProjects.length) {
       setSelectedProjectId('');
       return;
     }
@@ -255,10 +197,10 @@ function CaracolesApp() {
       }
     }
 
-    if (!filteredFieldProjects.some((project) => project.id === selectedProjectId)) {
-      setSelectedProjectId(filteredFieldProjects[0].id);
+    if (!fieldProjects.some((project) => project.id === selectedProjectId)) {
+      setSelectedProjectId(fieldProjects[0].id);
     }
-  }, [englishFieldSelected, englishLessons, fieldProjects, filteredFieldProjects, requestedProjectNumber, selectedProjectId]);
+  }, [englishFieldSelected, englishLessons, fieldProjects, requestedProjectNumber, selectedProjectId]);
 
   const activeProject = useMemo(() => {
     if (englishFieldSelected) return null;
@@ -307,7 +249,7 @@ function CaracolesApp() {
 
     return [
       { value: '', label: fieldProjects.length ? 'Selecciona un proyecto académico' : 'Sin proyectos disponibles' },
-      ...filteredFieldProjects.map((project) => ({
+      ...fieldProjects.map((project) => ({
         value: project.id,
         label: `PA${project.academicProjectNumber ? project.academicProjectNumber : ' pendiente'} — ${displayProjectTitle(
           project,
@@ -315,7 +257,7 @@ function CaracolesApp() {
         readinessLevel: project.readinessLevel,
       })),
     ];
-  }, [englishFieldSelected, englishLessons, filteredFieldProjects]);
+  }, [englishFieldSelected, englishLessons, fieldProjects]);
 
   const effectiveSelectorFooterMessage = englishFieldSelected
     ? `Hay ${englishLessons.length} lecciones de Inglés para este grado. Cada una se presenta con situación detonadora, vocabulario, algoritmo gramatical y evaluación bilingüe.`
@@ -325,8 +267,6 @@ function CaracolesApp() {
       ? 'Lección seleccionada para trabajar lectura, vocabulario, gramática y producción.'
       : 'Elige una lección de Inglés para abrir su ficha bilingüe.'
     : undefined;
-
-  const hasActiveProjectFilters = Boolean(projectSearchQuery.trim() || selectedVolumeFilter || selectedPpaFilter);
 
   return (
     <main id="caracoles-top" className="min-h-screen bg-[#f8f1e6] px-4 pb-8 pt-44 text-[#241a12] sm:pt-40 md:px-6 lg:px-8 lg:pt-28">
@@ -411,38 +351,14 @@ function CaracolesApp() {
             selectedGrade={selectedGrade}
             selectedField={selectedField}
             selectedProjectId={selectedProjectId}
-            availableCount={englishFieldSelected ? englishLessons.length : filteredFieldProjects.length}
-            projectDisabled={!englishFieldSelected && !filteredFieldProjects.length}
+            availableCount={englishFieldSelected ? englishLessons.length : fieldProjects.length}
+            projectDisabled={false}
             projectNote={effectiveProjectSelectorNote}
             footerMessage={effectiveSelectorFooterMessage}
-            healthSummary={CURRICULAR_HEALTH_SUMMARY}
-            searchQuery={englishFieldSelected ? '' : projectSearchQuery}
-            volumeOptions={englishFieldSelected ? undefined : volumeOptions}
-            selectedVolume={selectedVolumeFilter}
-            ppaOptions={englishFieldSelected ? undefined : ppaOptions}
-            selectedPpa={selectedPpaFilter}
-            totalProjectCount={englishFieldSelected ? englishLessons.length : fieldProjects.length}
-            hasActiveFilters={hasActiveProjectFilters}
-            onSearchChange={englishFieldSelected ? undefined : setProjectSearchQuery}
-            onVolumeChange={englishFieldSelected ? undefined : setSelectedVolumeFilter}
-            onPpaChange={englishFieldSelected ? undefined : setSelectedPpaFilter}
-            onClearFilters={() => {
-              setProjectSearchQuery('');
-              setSelectedVolumeFilter('');
-              setSelectedPpaFilter('');
-            }}
-            onGradeChange={(grade) => {
-              setSelectedGrade(grade);
-              setProjectSearchQuery('');
-              setSelectedVolumeFilter('');
-              setSelectedPpaFilter('');
-            }}
+            onGradeChange={setSelectedGrade}
             onFieldChange={(field) => {
               setSelectedField(field as FieldName);
               setSelectedProjectId('');
-              setProjectSearchQuery('');
-              setSelectedVolumeFilter('');
-              setSelectedPpaFilter('');
             }}
             onProjectChange={setSelectedProjectId}
           />
