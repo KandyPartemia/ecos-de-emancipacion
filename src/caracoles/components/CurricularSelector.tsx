@@ -1,4 +1,4 @@
-import { ChevronDown } from 'lucide-react';
+import { ChevronDown, Link, RotateCcw } from 'lucide-react';
 import { useEffect, useId, useRef, useState } from 'react';
 import type { KeyboardEvent } from 'react';
 import type { GradeId } from '../types';
@@ -7,6 +7,13 @@ type SelectorOption = {
   value: string;
   label: string;
   readinessLevel?: string;
+};
+
+type CurricularHealthSummary = {
+  totalProjects: number;
+  confirmedHorizons: number;
+  videosInReview: number;
+  note: string;
 };
 
 function readinessDotClass(readinessLevel?: string) {
@@ -44,6 +51,33 @@ function SelectField({
           </option>
         ))}
       </select>
+    </label>
+  );
+}
+
+function TextFilterField({
+  label,
+  value,
+  placeholder,
+  onChange,
+  disabled,
+}: {
+  label: string;
+  value: string;
+  placeholder: string;
+  onChange: (value: string) => void;
+  disabled?: boolean;
+}) {
+  return (
+    <label className="grid min-w-0 gap-2">
+      <span className="text-sm font-bold uppercase tracking-[0.14em] text-[#8f4d32]">{label}</span>
+      <input
+        value={value}
+        disabled={disabled}
+        placeholder={placeholder}
+        onChange={(event) => onChange(event.target.value)}
+        className="min-h-14 w-full min-w-0 rounded-2xl border border-[#315344]/18 bg-white px-4 py-3 text-sm leading-6 text-[#241a12] outline-none transition placeholder:text-[#675c51]/60 focus:border-[#315344] md:text-base disabled:cursor-not-allowed disabled:bg-[#f5efe4]"
+      />
     </label>
   );
 }
@@ -227,6 +261,28 @@ function ReadinessLegend() {
   );
 }
 
+function CurricularHealthStrip({ summary }: { summary: CurricularHealthSummary }) {
+  const items = [
+    { label: 'Proyectos PA', value: summary.totalProjects },
+    { label: 'Horizontes confirmados', value: summary.confirmedHorizons },
+    { label: 'Videos en verificación', value: summary.videosInReview },
+  ];
+
+  return (
+    <div className="mt-5 border-t border-[#315344]/12 pt-4">
+      <div className="grid gap-3 sm:grid-cols-3">
+        {items.map((item) => (
+          <div key={item.label} className="min-w-0">
+            <p className="text-[0.68rem] font-bold uppercase tracking-[0.14em] text-[#8f4d32]">{item.label}</p>
+            <p className="mt-1 font-serif text-2xl leading-none text-[#315344]">{item.value}</p>
+          </div>
+        ))}
+      </div>
+      <p className="mt-3 text-xs leading-6 text-[#675c51]">{summary.note}</p>
+    </div>
+  );
+}
+
 function CurricularSelector({
   gradeOptions,
   fieldOptions,
@@ -238,6 +294,18 @@ function CurricularSelector({
   projectDisabled,
   projectNote,
   footerMessage,
+  healthSummary,
+  searchQuery,
+  volumeOptions,
+  selectedVolume,
+  ppaOptions,
+  selectedPpa,
+  totalProjectCount,
+  hasActiveFilters,
+  onSearchChange,
+  onVolumeChange,
+  onPpaChange,
+  onClearFilters,
   onGradeChange,
   onFieldChange,
   onProjectChange,
@@ -252,6 +320,18 @@ function CurricularSelector({
   projectDisabled?: boolean;
   projectNote?: string;
   footerMessage?: string;
+  healthSummary?: CurricularHealthSummary;
+  searchQuery?: string;
+  volumeOptions?: SelectorOption[];
+  selectedVolume?: string;
+  ppaOptions?: SelectorOption[];
+  selectedPpa?: string;
+  totalProjectCount?: number;
+  hasActiveFilters?: boolean;
+  onSearchChange?: (value: string) => void;
+  onVolumeChange?: (value: string) => void;
+  onPpaChange?: (value: string) => void;
+  onClearFilters?: () => void;
   onGradeChange: (value: GradeId) => void;
   onFieldChange: (value: string) => void;
   onProjectChange: (value: string) => void;
@@ -259,6 +339,26 @@ function CurricularSelector({
   const selectedProjectLabel =
     projectOptions.find((option) => option.value === selectedProjectId)?.label ||
     (projectOptions.length ? projectOptions[0].label : '');
+  const [copyStatus, setCopyStatus] = useState<'idle' | 'copied' | 'error'>('idle');
+  const showProjectFilters = Boolean(onSearchChange || onVolumeChange || onPpaChange);
+  const filteredCountLabel =
+    typeof totalProjectCount === 'number' && selectedField
+      ? `Mostrando ${availableCount} de ${totalProjectCount} proyectos del campo seleccionado.`
+      : '';
+
+  useEffect(() => {
+    setCopyStatus('idle');
+  }, [selectedProjectId]);
+
+  async function copyCurrentProjectLink() {
+    if (typeof window === 'undefined' || !selectedProjectId) return;
+    try {
+      await navigator.clipboard.writeText(window.location.href);
+      setCopyStatus('copied');
+    } catch {
+      setCopyStatus('error');
+    }
+  }
 
   return (
     <section className="grid gap-5">
@@ -273,6 +373,57 @@ function CurricularSelector({
             ubicación en libros, conceptos y autoevaluación formativa.
           </p>
         </div>
+
+        {showProjectFilters ? (
+          <div className="mt-6 grid gap-3">
+            <div className="grid gap-4 md:grid-cols-3">
+            <TextFilterField
+              label="Buscar"
+              value={searchQuery || ''}
+              placeholder="Título, PA, producto o concepto"
+              onChange={(value) => onSearchChange?.(value)}
+              disabled={!selectedField}
+            />
+            <SelectField
+              label="Tomo"
+              value={selectedVolume || ''}
+              options={volumeOptions || [{ value: '', label: 'Todos los tomos' }]}
+              onChange={(value) => onVolumeChange?.(value)}
+              disabled={!selectedField}
+            />
+            <SelectField
+              label="PPA"
+              value={selectedPpa || ''}
+              options={ppaOptions || [{ value: '', label: 'Todos los PPA' }]}
+              onChange={(value) => onPpaChange?.(value)}
+              disabled={!selectedField}
+            />
+            </div>
+            <div className="flex flex-wrap items-center gap-3 text-sm text-[#675c51]">
+              {filteredCountLabel ? <span className="font-bold text-[#315344]">{filteredCountLabel}</span> : null}
+              <button
+                type="button"
+                disabled={!hasActiveFilters}
+                onClick={onClearFilters}
+                className="inline-flex items-center gap-2 rounded-full border border-[#315344]/20 bg-white px-4 py-2 font-bold text-[#315344] transition hover:bg-[#315344] hover:text-[#f8f1e6] focus:outline-none focus:ring-4 focus:ring-[#d9b56d]/35 disabled:cursor-not-allowed disabled:opacity-45"
+              >
+                <RotateCcw size={15} />
+                Limpiar filtros
+              </button>
+              <button
+                type="button"
+                disabled={!selectedProjectId}
+                onClick={copyCurrentProjectLink}
+                className="inline-flex items-center gap-2 rounded-full bg-[#d9b56d] px-4 py-2 font-bold text-[#241a12] transition hover:bg-[#315344] hover:text-[#f8f1e6] focus:outline-none focus:ring-4 focus:ring-[#d9b56d]/35 disabled:cursor-not-allowed disabled:opacity-45"
+              >
+                <Link size={15} />
+                Copiar enlace del PA
+              </button>
+              {copyStatus === 'copied' ? <span className="font-bold text-[#315344]">Enlace copiado.</span> : null}
+              {copyStatus === 'error' ? <span className="font-bold text-[#8f4d32]">No se pudo copiar.</span> : null}
+            </div>
+          </div>
+        ) : null}
 
         <div className="mt-6 grid gap-4 md:grid-cols-2 xl:grid-cols-[minmax(0,1fr)_minmax(0,1.4fr)_minmax(0,2.2fr)]">
           <SelectField
@@ -318,6 +469,7 @@ function CurricularSelector({
             </p>
           )}
           {selectedField && projectOptions.length ? <ReadinessLegend /> : null}
+          {healthSummary ? <CurricularHealthStrip summary={healthSummary} /> : null}
         </div>
       </div>
     </section>
