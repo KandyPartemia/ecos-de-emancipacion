@@ -1,7 +1,10 @@
 node_modules/
 dist/
 .vercel/
+.vscode/
+.codex-remote-attachments/
 *.local
+*.log
 content/caracoles/source-pdfs/**/*.pdf
 content/caracoles/generated-private/**/*.json
 .caracoles-cache/**/*.json

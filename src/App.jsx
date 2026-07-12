@@ -1,5 +1,4 @@
-import { useEffect, useState } from 'react';
-import CaracolesApp from './caracoles/CaracolesApp';
+import { lazy, Suspense, useEffect, useState } from 'react';
 import BuyMeACoffeeLink from './components/BuyMeACoffeeLink';
 import {
   ArrowDown,
@@ -498,6 +497,8 @@ const ROUTE_METADATA = {
   },
 };
 
+const CaracolesApp = lazy(() => import('./caracoles/CaracolesApp'));
+
 function updateMetaTag(selector, attribute, value) {
   let element = document.querySelector(selector);
 
@@ -511,6 +512,20 @@ function updateMetaTag(selector, attribute, value) {
   }
 
   element.setAttribute(attribute, value);
+}
+
+function CaracolesLoading() {
+  return (
+    <main className="min-h-screen bg-cream px-5 py-16 text-forest">
+      <div className="mx-auto max-w-3xl rounded-[2rem] border border-earth/15 bg-white/85 p-8 shadow-soft">
+        <p className="section-kicker">Caracoles Resonando</p>
+        <h1 className="mt-3 font-serif text-4xl leading-tight">Cargando herramienta pedagógica.</h1>
+        <p className="mt-4 leading-7 text-earth">
+          Estamos preparando la ficha curricular, fuentes, mapa mental y autoevaluación del Proyecto Académico.
+        </p>
+      </div>
+    </main>
+  );
 }
 
 function App() {
@@ -529,7 +544,11 @@ function App() {
   }, [currentPath]);
 
   if (currentPath === '/recursos/caracoles-resonando') {
-    return <CaracolesApp />;
+    return (
+      <Suspense fallback={<CaracolesLoading />}>
+        <CaracolesApp />
+      </Suspense>
+    );
   }
 
   return (

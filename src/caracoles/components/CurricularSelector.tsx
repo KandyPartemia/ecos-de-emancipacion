@@ -1,5 +1,6 @@
 import { ChevronDown } from 'lucide-react';
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useId, useRef, useState } from 'react';
+import type { KeyboardEvent } from 'react';
 import type { GradeId } from '../types';
 
 type SelectorOption = {
@@ -61,9 +62,17 @@ function ProjectSelectField({
   note?: string;
 }) {
   const [open, setOpen] = useState(false);
+  const [highlightedIndex, setHighlightedIndex] = useState(0);
+  const listboxId = useId();
   const containerRef = useRef<HTMLDivElement>(null);
+  const optionRefs = useRef<Array<HTMLButtonElement | null>>([]);
   const selectedOption = options.find((option) => option.value === value) || options[0];
+  const selectedIndex = Math.max(
+    0,
+    options.findIndex((option) => option.value === value),
+  );
   const selectedDotClass = readinessDotClass(selectedOption?.readinessLevel);
+  const activeOptionId = open ? `${listboxId}-option-${highlightedIndex}` : undefined;
 
   useEffect(() => {
     function closeOnOutsideClick(event: PointerEvent) {
@@ -74,6 +83,71 @@ function ProjectSelectField({
     return () => document.removeEventListener('pointerdown', closeOnOutsideClick);
   }, []);
 
+  useEffect(() => {
+    if (open) setHighlightedIndex(selectedIndex);
+  }, [open, selectedIndex]);
+
+  useEffect(() => {
+    if (open) optionRefs.current[highlightedIndex]?.scrollIntoView({ block: 'nearest' });
+  }, [open, highlightedIndex]);
+
+  function selectOption(index: number) {
+    const option = options[index];
+    if (!option) return;
+    onChange(option.value);
+    setOpen(false);
+  }
+
+  function moveHighlight(delta: number) {
+    setOpen(true);
+    setHighlightedIndex((current) => {
+      const baseIndex = open ? current : selectedIndex;
+      return Math.max(0, Math.min(options.length - 1, baseIndex + delta));
+    });
+  }
+
+  function handleKeyDown(event: KeyboardEvent<HTMLButtonElement>) {
+    if (disabled || !options.length) return;
+
+    if (event.key === 'ArrowDown') {
+      event.preventDefault();
+      moveHighlight(1);
+      return;
+    }
+
+    if (event.key === 'ArrowUp') {
+      event.preventDefault();
+      moveHighlight(-1);
+      return;
+    }
+
+    if (event.key === 'Home') {
+      event.preventDefault();
+      setOpen(true);
+      setHighlightedIndex(0);
+      return;
+    }
+
+    if (event.key === 'End') {
+      event.preventDefault();
+      setOpen(true);
+      setHighlightedIndex(options.length - 1);
+      return;
+    }
+
+    if (event.key === 'Enter' || event.key === ' ') {
+      event.preventDefault();
+      if (open) selectOption(highlightedIndex);
+      else setOpen(true);
+      return;
+    }
+
+    if (event.key === 'Escape') {
+      event.preventDefault();
+      setOpen(false);
+    }
+  }
+
   return (
     <div ref={containerRef} className="relative grid min-w-0 gap-2">
       <span className="text-sm font-bold uppercase tracking-[0.14em] text-[#8f4d32]">3. Proyecto académico</span>
@@ -83,7 +157,10 @@ function ProjectSelectField({
         aria-label="Seleccionar Proyecto Académico"
         aria-haspopup="listbox"
         aria-expanded={open}
+        aria-controls={open ? listboxId : undefined}
+        aria-activedescendant={activeOptionId}
         onClick={() => setOpen((current) => !current)}
+        onKeyDown={handleKeyDown}
         className="flex min-h-14 w-full min-w-0 items-center gap-3 rounded-2xl border border-[#315344]/18 bg-white px-4 py-3 text-left text-sm leading-6 text-[#241a12] outline-none transition focus-visible:border-[#315344] focus-visible:ring-2 focus-visible:ring-[#315344]/20 md:text-base disabled:cursor-not-allowed disabled:bg-[#f5efe4]"
       >
         {selectedDotClass ? <span className={`h-2.5 w-2.5 shrink-0 rounded-full ${selectedDotClass}`} /> : null}
@@ -93,23 +170,30 @@ function ProjectSelectField({
 
       {open && !disabled ? (
         <div
+          id={listboxId}
           role="listbox"
           aria-label="Proyectos Académicos"
           className="absolute inset-x-0 top-[5.5rem] z-30 max-h-80 overflow-y-auto rounded-2xl border border-[#315344]/18 bg-white p-2 shadow-[0_18px_50px_rgba(36,26,18,0.18)]"
         >
-          {options.map((option) => {
+          {options.map((option, index) => {
             const dotClass = readinessDotClass(option.readinessLevel);
+            const isHighlighted = index === highlightedIndex;
             return (
               <button
                 key={option.value || 'empty'}
+                id={`${listboxId}-option-${index}`}
+                ref={(node) => {
+                  optionRefs.current[index] = node;
+                }}
                 type="button"
                 role="option"
                 aria-selected={option.value === value}
-                onClick={() => {
-                  onChange(option.value);
-                  setOpen(false);
-                }}
-                className="flex w-full items-start gap-3 rounded-xl px-3 py-3 text-left text-sm leading-6 text-[#241a12] transition hover:bg-[#f5efe4] focus-visible:bg-[#f5efe4] focus-visible:outline-none"
+                onClick={() => selectOption(index)}
+                onFocus={() => setHighlightedIndex(index)}
+                onMouseEnter={() => setHighlightedIndex(index)}
+                className={`flex w-full items-start gap-3 rounded-xl px-3 py-3 text-left text-sm leading-6 text-[#241a12] transition focus-visible:outline-none ${
+                  isHighlighted ? 'bg-[#f5efe4]' : 'hover:bg-[#f5efe4] focus-visible:bg-[#f5efe4]'
+                }`}
               >
                 {dotClass ? <span className={`mt-1.5 h-2.5 w-2.5 shrink-0 rounded-full ${dotClass}`} /> : null}
                 <span className="break-words">{option.label}</span>
@@ -120,6 +204,25 @@ function ProjectSelectField({
       ) : null}
 
       {note ? <span className="text-sm leading-6 text-[#675c51]">{note}</span> : null}
+    </div>
+  );
+}
+
+function ReadinessLegend() {
+  const items = [
+    { label: 'Listo', className: readinessDotClass('ready') },
+    { label: 'Parcial', className: readinessDotClass('partial') },
+    { label: 'En revisión', className: readinessDotClass('needs-review') },
+  ];
+
+  return (
+    <div className="mt-4 flex flex-wrap gap-x-5 gap-y-2 text-xs font-bold uppercase tracking-[0.12em] text-[#675c51]">
+      {items.map((item) => (
+        <span key={item.label} className="inline-flex items-center gap-2">
+          <span className={`h-2.5 w-2.5 rounded-full ${item.className}`} />
+          {item.label}
+        </span>
+      ))}
     </div>
   );
 }
@@ -214,6 +317,7 @@ function CurricularSelector({
               proyectos disponibles.
             </p>
           )}
+          {selectedField && projectOptions.length ? <ReadinessLegend /> : null}
         </div>
       </div>
     </section>
