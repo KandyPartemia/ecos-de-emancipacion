@@ -58,12 +58,129 @@ function printMindMapOnly() {
         <title>Mapa mental integrado del PA</title>
         ${styles}
         <style>
-          body { margin: 0; padding: 24px; background: #f8f1e6; }
-          #caracoles-mapa-mental { box-shadow: none !important; }
-          @page { size: landscape; margin: 12mm; }
+          :root {
+            color: #241a12;
+            background: #fffaf0;
+          }
+
+          * {
+            box-sizing: border-box;
+            print-color-adjust: exact;
+            -webkit-print-color-adjust: exact;
+          }
+
+          body {
+            margin: 0;
+            background: #fffaf0;
+            padding: 18px;
+          }
+
+          .print-map-shell {
+            min-height: calc(100vh - 36px);
+            border: 1px solid rgba(49, 83, 68, 0.18);
+            border-radius: 22px;
+            background: #fffdf7;
+            padding: 16px;
+          }
+
+          .print-map-header {
+            display: flex;
+            align-items: flex-end;
+            justify-content: space-between;
+            gap: 16px;
+            margin-bottom: 12px;
+            border-bottom: 2px solid rgba(217, 181, 109, 0.55);
+            padding: 0 4px 10px;
+          }
+
+          .print-map-kicker {
+            margin: 0 0 4px;
+            color: #8f4d32;
+            font-size: 10px;
+            font-weight: 900;
+            letter-spacing: 0.18em;
+            text-transform: uppercase;
+          }
+
+          .print-map-title {
+            margin: 0;
+            color: #315344;
+            font-family: Georgia, "Times New Roman", serif;
+            font-size: 24px;
+            line-height: 1.1;
+          }
+
+          .print-map-note {
+            margin: 0;
+            max-width: 360px;
+            color: #675c51;
+            font-size: 11px;
+            font-weight: 700;
+            line-height: 1.4;
+            text-align: right;
+          }
+
+          #caracoles-mapa-mental {
+            max-width: 100% !important;
+            overflow: visible !important;
+            border-color: rgba(224, 196, 146, 0.85) !important;
+            border-radius: 18px !important;
+            box-shadow: none !important;
+          }
+
+          #caracoles-mapa-mental * {
+            break-inside: avoid;
+          }
+
+          @page {
+            size: A4 landscape;
+            margin: 8mm;
+          }
+
+          @media print {
+            body {
+              padding: 0;
+              background: #fff;
+            }
+
+            .print-map-shell {
+              min-height: auto;
+              border: 0;
+              border-radius: 0;
+              padding: 0;
+            }
+
+            .print-map-header {
+              margin-bottom: 8px;
+              padding-bottom: 7px;
+            }
+
+            .print-map-title {
+              font-size: 20px;
+            }
+
+            .print-map-note {
+              font-size: 9px;
+            }
+
+            #caracoles-mapa-mental {
+              page-break-inside: avoid;
+            }
+          }
         </style>
       </head>
-      <body>${mindMap.outerHTML}</body>
+      <body>
+        <main class="print-map-shell">
+          <header class="print-map-header">
+            <div>
+              <p class="print-map-kicker">Caracoles Resonando</p>
+              <h1 class="print-map-title">Mapa mental integrado del PA</h1>
+            </div>
+            <p class="print-map-note">Material visual para imprimir, proyectar o comentar durante el desarrollo del Proyecto Académico.</p>
+          </header>
+          ${mindMap.outerHTML}
+        </main>
+      </body>
     </html>
   `);
   printWindow.document.close();
