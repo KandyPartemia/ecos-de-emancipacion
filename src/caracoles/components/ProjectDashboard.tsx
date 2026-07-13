@@ -36,19 +36,113 @@ function horizonPendingCopy() {
   return 'Horizonte pendiente de validación en fuente.';
 }
 
-function printMindMapOnly() {
+function escapePrintHtml(value?: string) {
+  return String(value || '')
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#039;');
+}
+
+function printMindMapList(items: string[], limit = 3) {
+  const visibleItems = items
+    .map((item) => normalizeMindMapText(item))
+    .filter(Boolean)
+    .slice(0, limit);
+
+  if (!visibleItems.length) {
+    return '<li>Información en revisión.</li>';
+  }
+
+  return visibleItems.map((item) => `<li>${escapePrintHtml(item)}</li>`).join('');
+}
+
+function printMindMapOnly(record: AcademicProjectRecord) {
   if (typeof window === 'undefined' || typeof document === 'undefined') return;
 
-  const mindMap = document.getElementById('caracoles-mapa-mental');
   const printWindow = window.open('', '_blank', 'width=1600,height=1000');
-  if (!mindMap || !printWindow) {
+  if (!printWindow) {
     window.print();
     return;
   }
 
-  const styles = Array.from(document.querySelectorAll('link[rel="stylesheet"], style'))
-    .map((node) => node.outerHTML)
-    .join('\n');
+  const product = strategySummary(record);
+  const source = sourceLine(record);
+  const confirmedConcepts = conceptBullets(record.academicConcepts);
+  const horizonItems =
+    record.horizon.text && record.horizon.status !== 'pending'
+      ? splitMindMapText(record.horizon.text).slice(0, 2)
+      : ['Horizonte en revisión desde ' + source + '.'];
+  const purposeItems = splitMindMapText(record.teacherOrientation, [
+    'Comprender el sentido del proyecto "' + record.academicProjectTitle + '".',
+    'Retomar conceptos académicos y fuentes del campo formativo.',
+    'Construir evidencias para desarrollar: ' + product + '.',
+  ]).slice(0, 3);
+  const situationItems = splitMindMapText(record.resonanceQuestion, [
+    'Identificar una situación del entorno relacionada con el proyecto.',
+    'Reconocer dudas, necesidades o problemas que orientan la indagación.',
+    'Conectar el desafío inicial con la estrategia detonadora.',
+  ]).slice(0, 3);
+  const stepItems = [
+    'Seleccionar información clave.',
+    'Investigar en fuentes confiables.',
+    'Registrar hallazgos.',
+    'Organizar la estrategia detonadora.',
+    'Socializar resultados.',
+  ];
+  const presentation = presentationBullets(record);
+  const ideaForce =
+    record.horizon.text && record.horizon.status !== 'pending'
+      ? normalizeMindMapText(record.horizon.text)
+      : 'El proyecto ' + record.academicProjectNumber + ' permite usar conceptos, fuentes y trabajo comunitario para desarrollar ' + product.toLowerCase() + '.';
+
+  const branches = [
+    { number: '1', title: 'Propósito', color: '#1f63b5', items: purposeItems, className: 'branch-1' },
+    {
+      number: '2',
+      title: 'Estrategia detonadora',
+      color: '#1c8a2f',
+      items: [product, 'Organización clara de evidencias.', 'Comunicación del aprendizaje logrado.'],
+      className: 'branch-2',
+    },
+    { number: '3', title: 'Situación problemática', color: '#d7266b', items: situationItems, className: 'branch-3' },
+    { number: '4', title: 'Horizonte de expectativas', color: '#f26b21', items: horizonItems, className: 'branch-4' },
+    { number: '5', title: 'Conceptos académicos', color: '#6d35a8', items: confirmedConcepts, className: 'branch-5', limit: 5 },
+    {
+      number: '6',
+      title: 'Criterios de pensamiento',
+      color: '#168b90',
+      items: fieldThinkingCriteria(record.field),
+      className: 'branch-6',
+    },
+    { number: '7', title: 'Paso a paso', color: '#e6a21a', items: stepItems, className: 'branch-7', limit: 5 },
+    {
+      number: '8',
+      title: 'Presentación y evaluación',
+      color: '#2563a8',
+      items: [
+        ...presentation.before.slice(0, 1).map((item) => 'Antes: ' + item),
+        ...presentation.during.slice(0, 1).map((item) => 'Durante: ' + item),
+        ...presentation.after.slice(0, 1).map((item) => 'Después: ' + item),
+      ],
+      className: 'branch-8',
+    },
+  ];
+
+  const branchHtml = branches
+    .map(
+      (branch) => `
+        <section class="branch-card ${branch.className}" style="--branch-color: ${branch.color}">
+          <div class="branch-heading">
+            <span class="branch-number">${branch.number}</span>
+            <h2>${escapePrintHtml(branch.title)}</h2>
+          </div>
+          <ul>${printMindMapList(branch.items, branch.limit || 3)}</ul>
+        </section>
+      `,
+    )
+    .join('');
 
   printWindow.document.write(`
     <!doctype html>
@@ -56,7 +150,6 @@ function printMindMapOnly() {
       <head>
         <meta charset="utf-8" />
         <title>Mapa mental integrado del PA</title>
-        ${styles}
         <style>
           * {
             box-sizing: border-box;
@@ -64,85 +157,276 @@ function printMindMapOnly() {
             -webkit-print-color-adjust: exact;
           }
 
-          body {
-            margin: 0;
-            background: #fffdf7;
-            padding: 10px;
-            overflow: hidden;
-          }
-
-          .print-map-shell {
-            width: 1540px;
-            transform: scale(0.72);
-            transform-origin: top left;
-          }
-
-          #caracoles-mapa-mental {
-            width: 1540px !important;
-            max-width: none !important;
-            overflow: visible !important;
-            box-shadow: none !important;
-            margin: 0 !important;
-            padding: 14px !important;
-          }
-
-          #caracoles-mapa-mental * {
-            break-inside: avoid;
-          }
-
-          #caracoles-mapa-mental [class*="xl\\:hidden"] {
-            display: none !important;
-          }
-
-          #caracoles-mapa-mental [class*="xl\\:grid"] {
-            display: grid !important;
-          }
-
-          #caracoles-mapa-mental [class*="xl\\:block"] {
-            display: block !important;
-          }
-
-          #caracoles-mapa-mental [class*="xl\\:col-span-2"] {
-            grid-column: span 2 / span 2 !important;
-          }
-
-          #caracoles-mapa-mental [class*="xl\\:grid-cols-\\[1fr_1\\.08fr_1fr\\]"] {
-            grid-template-columns: 1fr 1.08fr 1fr !important;
-          }
-
-          #caracoles-mapa-mental h3,
-          #caracoles-mapa-mental h4,
-          #caracoles-mapa-mental p,
-          #caracoles-mapa-mental li {
-            overflow-wrap: anywhere;
-          }
-
           @page {
             size: A4 landscape;
             margin: 6mm;
           }
 
+          body {
+            margin: 0;
+            background: #fffaf0;
+            color: #241a12;
+            font-family: "Trebuchet MS", Arial, sans-serif;
+            overflow: hidden;
+          }
+
+          .print-sheet {
+            width: 1088px;
+            height: 728px;
+            margin: 0 auto;
+            position: relative;
+            overflow: hidden;
+            background:
+              radial-gradient(circle at 50% 48%, rgba(217, 181, 109, 0.22), transparent 28%),
+              linear-gradient(135deg, #fffdf7, #f7efe0);
+            border: 2px solid #e0c492;
+            border-radius: 18px;
+            padding: 16px;
+          }
+
+          .connector-layer {
+            position: absolute;
+            inset: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+          }
+
+          .connector-layer path {
+            fill: none;
+            stroke-linecap: round;
+            stroke-width: 6;
+            opacity: 0.78;
+          }
+
+          .center-node {
+            position: absolute;
+            left: 356px;
+            top: 258px;
+            width: 376px;
+            min-height: 174px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            border: 4px solid #1f63b5;
+            border-radius: 38px;
+            background: #fff;
+            box-shadow: 0 10px 0 rgba(31, 99, 181, 0.10);
+            padding: 16px 18px;
+            z-index: 3;
+          }
+
+          .center-node .pa {
+            margin: 0;
+            color: #12346b;
+            font-family: Georgia, "Times New Roman", serif;
+            font-size: 28px;
+            line-height: 1.05;
+            font-weight: 800;
+          }
+
+          .center-node .field {
+            margin: 6px 0 0;
+            color: #5b2e91;
+            font-size: 16px;
+            line-height: 1.2;
+            font-weight: 800;
+          }
+
+          .center-node .title {
+            margin: 10px 0 0;
+            color: #d22f72;
+            font-family: Georgia, "Times New Roman", serif;
+            font-size: 24px;
+            line-height: 1.06;
+            font-weight: 800;
+          }
+
+          .center-node .source {
+            margin: 10px 0 0;
+            max-width: 310px;
+            border-radius: 12px;
+            background: #f7efe0;
+            padding: 6px 10px;
+            color: #315344;
+            font-size: 10px;
+            line-height: 1.25;
+            font-weight: 800;
+          }
+
+          .branch-card {
+            position: absolute;
+            z-index: 2;
+            width: 272px;
+            max-height: 154px;
+            overflow: hidden;
+            border: 3px solid var(--branch-color);
+            border-radius: 18px;
+            background: rgba(255, 255, 255, 0.95);
+            box-shadow: 0 7px 0 rgba(36, 26, 18, 0.05);
+            padding: 10px 12px;
+          }
+
+          .branch-heading {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin-bottom: 6px;
+          }
+
+          .branch-number {
+            display: inline-grid;
+            width: 28px;
+            height: 28px;
+            place-items: center;
+            flex: 0 0 auto;
+            border-radius: 999px;
+            background: var(--branch-color);
+            color: #fff;
+            font-size: 15px;
+            font-weight: 900;
+          }
+
+          .branch-card h2 {
+            margin: 0;
+            color: var(--branch-color);
+            font-family: Georgia, "Times New Roman", serif;
+            font-size: 16px;
+            line-height: 1.05;
+            font-weight: 800;
+          }
+
+          .branch-card ul {
+            margin: 0;
+            padding-left: 15px;
+          }
+
+          .branch-card li {
+            margin: 0 0 3px;
+            font-size: 10.6px;
+            line-height: 1.28;
+            overflow-wrap: anywhere;
+          }
+
+          .branch-1 {
+            left: 26px;
+            top: 34px;
+          }
+
+          .branch-2 {
+            left: 408px;
+            top: 18px;
+            width: 272px;
+          }
+
+          .branch-3 {
+            right: 26px;
+            top: 34px;
+          }
+
+          .branch-4 {
+            right: 24px;
+            top: 264px;
+          }
+
+          .branch-5 {
+            right: 36px;
+            bottom: 92px;
+            width: 304px;
+            max-height: 174px;
+          }
+
+          .branch-6 {
+            left: 392px;
+            bottom: 72px;
+            width: 304px;
+            max-height: 168px;
+          }
+
+          .branch-7 {
+            left: 36px;
+            bottom: 92px;
+            width: 304px;
+            max-height: 174px;
+          }
+
+          .branch-8 {
+            left: 24px;
+            top: 264px;
+          }
+
+          .idea-force {
+            position: absolute;
+            left: 34px;
+            right: 34px;
+            bottom: 14px;
+            z-index: 4;
+            display: flex;
+            align-items: center;
+            gap: 14px;
+            min-height: 48px;
+            border: 2px dashed #6d35a8;
+            border-radius: 18px;
+            background: rgba(255, 255, 255, 0.94);
+            padding: 8px 14px;
+          }
+
+          .idea-label {
+            flex: 0 0 auto;
+            border-radius: 14px;
+            background: #6d35a8;
+            color: #fff;
+            padding: 8px 12px;
+            font-size: 16px;
+            font-weight: 900;
+            letter-spacing: 0.04em;
+          }
+
+          .idea-force p {
+            margin: 0;
+            color: #241a12;
+            font-size: 13px;
+            line-height: 1.35;
+            font-weight: 800;
+          }
+
           @media print {
             body {
-              padding: 0;
               background: #fff;
             }
 
-            .print-map-shell {
-              width: 1540px;
-              transform: scale(0.70);
-            }
-
-            #caracoles-mapa-mental {
+            .print-sheet {
               page-break-inside: avoid;
-              border-radius: 12px !important;
+              break-inside: avoid;
             }
           }
         </style>
       </head>
       <body>
-        <main class="print-map-shell">
-          ${mindMap.outerHTML}
+        <main class="print-sheet" aria-label="Mapa mental integrado del Proyecto Académico">
+          <svg class="connector-layer" viewBox="0 0 1088 728" aria-hidden="true">
+            <path d="M544 350 C420 235 300 155 170 105" stroke="#1f63b5" />
+            <path d="M544 350 C520 215 515 120 544 84" stroke="#1c8a2f" />
+            <path d="M544 350 C670 235 790 155 918 105" stroke="#d7266b" />
+            <path d="M544 350 C700 335 830 337 928 340" stroke="#f26b21" />
+            <path d="M544 350 C690 470 808 565 914 574" stroke="#6d35a8" />
+            <path d="M544 350 C540 475 540 560 544 612" stroke="#168b90" />
+            <path d="M544 350 C400 470 280 565 174 574" stroke="#e6a21a" />
+            <path d="M544 350 C390 335 260 337 160 340" stroke="#2563a8" />
+          </svg>
+          ${branchHtml}
+          <section class="center-node">
+            <p class="pa">Proyecto Académico ${escapePrintHtml(String(record.academicProjectNumber || ''))}</p>
+            <p class="field">${escapePrintHtml(record.field)} ${escapePrintHtml(String(record.grade))}°</p>
+            <h1 class="title">${escapePrintHtml(record.academicProjectTitle)}</h1>
+            <p class="source">${escapePrintHtml(source)}</p>
+          </section>
+          <section class="idea-force">
+            <span class="idea-label">IDEA FUERZA</span>
+            <p>${escapePrintHtml(ideaForce)}</p>
+          </section>
         </main>
       </body>
     </html>
@@ -1409,7 +1693,7 @@ function ProjectDashboard({
         {isStudentView ? (
           <button
             type="button"
-            onClick={printMindMapOnly}
+            onClick={() => printMindMapOnly(record)}
             className="mt-5 inline-flex max-w-full flex-wrap items-center justify-center gap-2 rounded-full bg-[#d9b56d] px-5 py-3 text-center text-sm font-black text-[#241a12] transition hover:bg-[#caa55e] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#315344]"
           >
             <Printer size={17} />
@@ -1717,7 +2001,7 @@ function ProjectDashboard({
         {isStudentView ? (
           <button
             type="button"
-            onClick={printMindMapOnly}
+            onClick={() => printMindMapOnly(record)}
             className="mt-4 inline-flex max-w-full flex-wrap items-center justify-center gap-2 rounded-full bg-[#d9b56d] px-5 py-3 text-center text-sm font-black text-[#241a12] transition hover:bg-[#caa55e] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#315344]"
           >
             <Printer size={17} />
