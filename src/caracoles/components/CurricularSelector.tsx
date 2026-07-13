@@ -208,25 +208,6 @@ function ProjectSelectField({
   );
 }
 
-function ReadinessLegend() {
-  const items = [
-    { label: 'Listo', className: readinessDotClass('ready') },
-    { label: 'Parcial', className: readinessDotClass('partial') },
-    { label: 'En revisión', className: readinessDotClass('needs-review') },
-  ];
-
-  return (
-    <div className="mt-4 flex flex-wrap gap-x-5 gap-y-2 text-xs font-bold uppercase tracking-[0.12em] text-[#675c51]">
-      {items.map((item) => (
-        <span key={item.label} className="inline-flex items-center gap-2">
-          <span className={`h-2.5 w-2.5 rounded-full ${item.className}`} />
-          {item.label}
-        </span>
-      ))}
-    </div>
-  );
-}
-
 function CurricularSelector({
   gradeOptions,
   fieldOptions,
@@ -317,7 +298,12 @@ function CurricularSelector({
               proyectos disponibles.
             </p>
           )}
-          {selectedField && projectOptions.length ? <ReadinessLegend /> : null}
+          {selectedField && projectOptions.length ? (
+            <p className="mt-3 text-sm leading-7 text-[#675c51]">
+              Base curricular en mejora continua. Los datos confirmados se muestran con fuente y estado de validación
+              dentro de cada ficha.
+            </p>
+          ) : null}
         </div>
       </div>
     </section>

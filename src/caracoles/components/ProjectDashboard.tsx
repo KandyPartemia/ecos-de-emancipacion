@@ -1287,6 +1287,14 @@ function ProjectDashboard({
         <h2 className="mt-2 break-words font-serif text-3xl leading-tight text-[#315344] [overflow-wrap:anywhere] sm:text-4xl md:text-5xl">
           PA {record.academicProjectNumber || 'pendiente'} — {record.academicProjectTitle}
         </h2>
+        <button
+          type="button"
+          onClick={() => openPlanningPdf(record, displayHorizon)}
+          className="mt-5 inline-flex max-w-full flex-wrap items-center justify-center gap-2 rounded-full bg-[#d9b56d] px-5 py-3 text-center text-sm font-black text-[#241a12] transition hover:bg-[#caa55e] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#315344]"
+        >
+          <Download size={17} />
+          Descargar planeación en PDF
+        </button>
 
         {loading ? (
           <p className="mt-3 max-w-4xl leading-8 text-[#675c51]">
