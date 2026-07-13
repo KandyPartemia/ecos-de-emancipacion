@@ -58,6 +58,27 @@ function printMindMapList(items: string[], limit = 3) {
   return visibleItems.map((item) => `<li>${escapePrintHtml(item)}</li>`).join('');
 }
 
+function printMindMapIcon(number: string, color: string) {
+  const icons: Record<string, string> = {
+    '1': '<path d="M12 3a5 5 0 0 0-3 9v2h6v-2a5 5 0 0 0-3-9Z" /><path d="M9 17h6" /><path d="M10 20h4" />',
+    '2': '<path d="M8 4h8l1 3h2v13H5V7h2l1-3Z" /><path d="M8 10h8" /><path d="M8 14h6" />',
+    '3': '<path d="M12 18h.01" /><path d="M9.5 8a2.8 2.8 0 1 1 4.4 2.3c-1.2.8-1.9 1.5-1.9 3" /><circle cx="12" cy="12" r="9" />',
+    '4': '<path d="M12 3v3" /><path d="M12 18v3" /><path d="M3 12h3" /><path d="M18 12h3" /><circle cx="12" cy="12" r="5" /><path d="m10 14 5-7-3 7-5 3 3-3Z" />',
+    '5': '<path d="M6 14a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z" /><path d="M18 14a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z" /><path d="M9 11h6" /><path d="M12 14v5" />',
+    '6': '<path d="M8 7a4 4 0 0 1 8 0" /><path d="M7 7h10v10a5 5 0 0 1-10 0V7Z" /><path d="M9 12h6" /><path d="M12 7v12" />',
+    '7': '<path d="M4 20h16" /><path d="M7 16 17 6l2 2L9 18H7v-2Z" /><path d="M14 9l2 2" />',
+    '8': '<path d="M5 6h14v9H5z" /><path d="M8 19h8" /><path d="M12 15v4" /><path d="M8 10h8" />',
+  };
+
+  return `
+    <svg class="branch-icon" viewBox="0 0 24 24" aria-hidden="true">
+      <g fill="none" stroke="${color}" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round">
+        ${icons[number] || icons['1']}
+      </g>
+    </svg>
+  `;
+}
+
 function printMindMapOnly(record: AcademicProjectRecord) {
   if (typeof window === 'undefined' || typeof document === 'undefined') return;
 
@@ -136,6 +157,7 @@ function printMindMapOnly(record: AcademicProjectRecord) {
         <section class="branch-card ${branch.className}" style="--branch-color: ${branch.color}">
           <div class="branch-heading">
             <span class="branch-number">${branch.number}</span>
+            ${printMindMapIcon(branch.number, branch.color)}
             <h2>${escapePrintHtml(branch.title)}</h2>
           </div>
           <ul>${printMindMapList(branch.items, branch.limit || 3)}</ul>
@@ -195,8 +217,8 @@ function printMindMapOnly(record: AcademicProjectRecord) {
           .connector-layer path {
             fill: none;
             stroke-linecap: round;
-            stroke-width: 6;
-            opacity: 0.78;
+            stroke-width: 4.5;
+            opacity: 0.44;
           }
 
           .center-node {
@@ -259,14 +281,14 @@ function printMindMapOnly(record: AcademicProjectRecord) {
           .branch-card {
             position: absolute;
             z-index: 2;
-            width: 272px;
-            max-height: 154px;
-            overflow: hidden;
+            width: 300px;
+            min-height: 128px;
+            overflow: visible;
             border: 3px solid var(--branch-color);
             border-radius: 18px;
             background: rgba(255, 255, 255, 0.95);
             box-shadow: 0 7px 0 rgba(36, 26, 18, 0.05);
-            padding: 10px 12px;
+            padding: 9px 11px 10px;
           }
 
           .branch-heading {
@@ -274,6 +296,7 @@ function printMindMapOnly(record: AcademicProjectRecord) {
             align-items: center;
             gap: 8px;
             margin-bottom: 6px;
+            min-width: 0;
           }
 
           .branch-number {
@@ -289,13 +312,21 @@ function printMindMapOnly(record: AcademicProjectRecord) {
             font-weight: 900;
           }
 
+          .branch-icon {
+            width: 20px;
+            height: 20px;
+            flex: 0 0 auto;
+          }
+
           .branch-card h2 {
             margin: 0;
             color: var(--branch-color);
             font-family: Georgia, "Times New Roman", serif;
-            font-size: 16px;
+            font-size: 14.2px;
             line-height: 1.05;
             font-weight: 800;
+            min-width: 0;
+            overflow-wrap: anywhere;
           }
 
           .branch-card ul {
@@ -304,57 +335,54 @@ function printMindMapOnly(record: AcademicProjectRecord) {
           }
 
           .branch-card li {
-            margin: 0 0 3px;
-            font-size: 10.6px;
-            line-height: 1.28;
+            margin: 0 0 2px;
+            font-size: 9.4px;
+            line-height: 1.2;
             overflow-wrap: anywhere;
           }
 
           .branch-1 {
-            left: 26px;
-            top: 34px;
+            left: 20px;
+            top: 30px;
           }
 
           .branch-2 {
-            left: 408px;
-            top: 18px;
-            width: 272px;
+            left: 394px;
+            top: 16px;
+            width: 300px;
           }
 
           .branch-3 {
-            right: 26px;
-            top: 34px;
+            right: 20px;
+            top: 30px;
           }
 
           .branch-4 {
-            right: 24px;
-            top: 264px;
+            right: 20px;
+            top: 252px;
           }
 
           .branch-5 {
-            right: 36px;
+            right: 20px;
             bottom: 92px;
-            width: 304px;
-            max-height: 174px;
+            width: 330px;
           }
 
           .branch-6 {
-            left: 392px;
+            left: 376px;
             bottom: 72px;
-            width: 304px;
-            max-height: 168px;
+            width: 336px;
           }
 
           .branch-7 {
-            left: 36px;
+            left: 20px;
             bottom: 92px;
-            width: 304px;
-            max-height: 174px;
+            width: 330px;
           }
 
           .branch-8 {
-            left: 24px;
-            top: 264px;
+            left: 20px;
+            top: 252px;
           }
 
           .idea-force {
