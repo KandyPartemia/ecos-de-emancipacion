@@ -1221,6 +1221,7 @@ function ProjectDashboard({
 }) {
   const [curricularView, setCurricularView] = useState<CurricularDevelopmentProjectView | null>(null);
   const [loading, setLoading] = useState(false);
+  const [viewMode, setViewMode] = useState<'teacher' | 'student'>('teacher');
 
   useEffect(() => {
     let cancelled = false;
@@ -1279,6 +1280,7 @@ function ProjectDashboard({
     'Tomo pendiente';
   const reportMessage = `Hola Kandy, encontré un dato incorrecto en el PA: ${record.academicProjectTitle}, Grado ${record.grade}, ${reportVolume}: `;
   const reportUrl = `${WHATSAPP_REPORT_URL}&text=${encodeURIComponent(reportMessage)}`;
+  const isStudentView = viewMode === 'student';
 
   return (
     <section className="grid min-w-0 max-w-full gap-5 overflow-x-hidden" id="caracoles-project-dashboard">
@@ -1295,6 +1297,40 @@ function ProjectDashboard({
           <Download size={17} />
           Descargar planeación en PDF
         </button>
+        <div className="mt-5 max-w-3xl rounded-[1.5rem] bg-[#f5efe4] p-3">
+          <p className="text-xs font-bold uppercase tracking-[0.14em] text-[#8f4d32]">Modo de lectura</p>
+          <div className="mt-3 flex flex-wrap gap-2" role="group" aria-label="Elegir modo de lectura de la ficha">
+            <button
+              type="button"
+              onClick={() => setViewMode('teacher')}
+              className={`inline-flex items-center gap-2 rounded-full px-4 py-2 text-sm font-black transition focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#315344] ${
+                viewMode === 'teacher'
+                  ? 'bg-[#315344] text-[#f8f1e6]'
+                  : 'border border-[#315344]/20 bg-white text-[#315344] hover:bg-[#315344]/10'
+              }`}
+            >
+              <ClipboardList size={16} />
+              Vista docente
+            </button>
+            <button
+              type="button"
+              onClick={() => setViewMode('student')}
+              className={`inline-flex items-center gap-2 rounded-full px-4 py-2 text-sm font-black transition focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#315344] ${
+                viewMode === 'student'
+                  ? 'bg-[#d9b56d] text-[#241a12]'
+                  : 'border border-[#315344]/20 bg-white text-[#315344] hover:bg-[#315344]/10'
+              }`}
+            >
+              <Users size={16} />
+              Vista estudiante
+            </button>
+          </div>
+          <p className="mt-3 text-sm leading-7 text-[#675c51]">
+            {isStudentView
+              ? 'Muestra solo horizonte, estrategia detonadora, conceptos, mapa mental, autoevaluación y planeación.'
+              : 'Muestra ficha completa con fuentes, apoyos, estados de validación y recursos docentes.'}
+          </p>
+        </div>
 
         {loading ? (
           <p className="mt-3 max-w-4xl leading-8 text-[#675c51]">
@@ -1307,6 +1343,7 @@ function ProjectDashboard({
         )}
       </div>
 
+      {!isStudentView ? (
       <Section index={1} title="Datos generales">
         <div className="grid gap-3 md:grid-cols-2 xl:grid-cols-3">
           <DataRow label="Grado" value={`${record.grade}°`} />
@@ -1346,13 +1383,15 @@ function ProjectDashboard({
           />
         </div>
       </Section>
+      ) : null}
 
-      <Section index={2} title="Horizonte de expectativas">
+      <Section index={isStudentView ? 1 : 2} title="Horizonte de expectativas">
         <div className="grid gap-3">
           <HorizonCard horizon={displayHorizon} />
         </div>
       </Section>
 
+      {!isStudentView ? (
       <Section index={3} title="Ubicación en libros">
         <div className="grid gap-4 md:grid-cols-2">
           <BookGroup
@@ -1423,8 +1462,9 @@ function ProjectDashboard({
           </div>
         ) : null}
       </Section>
+      ) : null}
 
-      <Section index={4} title="Video y recursos de la estrategia detonadora">
+      <Section index={isStudentView ? 2 : 4} title="Video y recursos de la estrategia detonadora">
         <div className="mb-4 rounded-[1.5rem] border border-[#d9b56d]/35 bg-[#fff8ee] p-5">
           <p className="text-xs font-bold uppercase tracking-[0.14em] text-[#8f4d32]">Estrategia detonadora / producto final</p>
           <p className="mt-2 break-words font-serif text-2xl leading-8 text-[#315344] [overflow-wrap:anywhere]">
@@ -1453,7 +1493,7 @@ function ProjectDashboard({
         )}
       </Section>
 
-      <Section index={5} title="Conceptos académicos">
+      <Section index={isStudentView ? 3 : 5} title="Conceptos académicos">
         {visibleConcepts.length ? (
           <div className="grid gap-4">
             {visibleConcepts.map((concept) => (
@@ -1481,11 +1521,12 @@ function ProjectDashboard({
       </Section>
 
       <div id="caracoles-autoevaluacion" className="scroll-mt-32">
-        <Section index={6} title="Autoevaluación formativa">
+        <Section index={isStudentView ? 4 : 6} title="Autoevaluación formativa">
           <Autoevaluation record={record} />
         </Section>
       </div>
 
+      {!isStudentView ? (
       <div className="min-w-0 max-w-full overflow-hidden rounded-[1.75rem] border border-[#315344]/12 bg-white/88 p-5 shadow-[0_18px_60px_rgba(36,26,18,0.06)]">
         <p className="text-xs font-bold uppercase tracking-[0.14em] text-[#8f4d32]">Materiales oficiales de apoyo</p>
         <p className="mt-3 max-w-4xl leading-8 text-[#241a12]">
@@ -1511,7 +1552,9 @@ function ProjectDashboard({
           Portal oficial de Telesecundaria SEP
         </a>
       </div>
+      ) : null}
 
+      {!isStudentView ? (
       <div className="min-w-0 max-w-full overflow-hidden rounded-[1.5rem] border border-[#d9b56d]/35 bg-[#fff8ee] p-5">
         <p className="text-xs font-bold uppercase tracking-[0.14em] text-[#8f4d32]">Aviso</p>
         <p className="mt-3 max-w-4xl leading-8 text-[#241a12]">
@@ -1530,6 +1573,7 @@ function ProjectDashboard({
           Volver al sitio principal
         </a>
       </div>
+      ) : null}
 
       <div className="min-w-0 max-w-full overflow-hidden rounded-[1.5rem] border border-[#d9b56d]/35 bg-[#fff8ee] p-5">
         <p className="text-xs font-bold uppercase tracking-[0.14em] text-[#8f4d32]">Planeación descargable</p>
@@ -1550,6 +1594,7 @@ function ProjectDashboard({
         </p>
       </div>
 
+      {!isStudentView ? (
       <div className="min-w-0 max-w-full overflow-hidden rounded-[1.5rem] border border-[#315344]/15 bg-white/88 p-5">
         <p className="font-serif text-2xl text-[#315344]">¿Encontraste un dato incorrecto?</p>
         <p className="mt-2 max-w-3xl text-sm leading-7 text-[#675c51]">
@@ -1565,6 +1610,7 @@ function ProjectDashboard({
           Reportar dato por WhatsApp
         </a>
       </div>
+      ) : null}
     </section>
   );
 }
