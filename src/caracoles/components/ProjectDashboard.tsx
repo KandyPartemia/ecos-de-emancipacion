@@ -13,6 +13,7 @@
   Megaphone,
   MessageCircle,
   PenLine,
+  Printer,
   Users,
   Wrench,
 } from 'lucide-react';
@@ -33,6 +34,41 @@ function sectionPendingCopy() {
 
 function horizonPendingCopy() {
   return 'Horizonte pendiente de validación en fuente.';
+}
+
+function printMindMapOnly() {
+  if (typeof window === 'undefined' || typeof document === 'undefined') return;
+
+  const mindMap = document.getElementById('caracoles-mapa-mental');
+  const printWindow = window.open('', '_blank', 'width=1200,height=800');
+  if (!mindMap || !printWindow) {
+    window.print();
+    return;
+  }
+
+  const styles = Array.from(document.querySelectorAll('link[rel="stylesheet"], style'))
+    .map((node) => node.outerHTML)
+    .join('\n');
+
+  printWindow.document.write(`
+    <!doctype html>
+    <html lang="es">
+      <head>
+        <meta charset="utf-8" />
+        <title>Mapa mental integrado del PA</title>
+        ${styles}
+        <style>
+          body { margin: 0; padding: 24px; background: #f8f1e6; }
+          #caracoles-mapa-mental { box-shadow: none !important; }
+          @page { size: landscape; margin: 12mm; }
+        </style>
+      </head>
+      <body>${mindMap.outerHTML}</body>
+    </html>
+  `);
+  printWindow.document.close();
+  printWindow.focus();
+  window.setTimeout(() => printWindow.print(), 350);
 }
 
 const WHATSAPP_REPORT_URL = 'https://wa.me/message/XRGTMKCKFGWZP1?src=qr';
@@ -1289,14 +1325,25 @@ function ProjectDashboard({
         <h2 className="mt-2 break-words font-serif text-3xl leading-tight text-[#315344] [overflow-wrap:anywhere] sm:text-4xl md:text-5xl">
           PA {record.academicProjectNumber || 'pendiente'} — {record.academicProjectTitle}
         </h2>
-        <button
-          type="button"
-          onClick={() => openPlanningPdf(record, displayHorizon)}
-          className="mt-5 inline-flex max-w-full flex-wrap items-center justify-center gap-2 rounded-full bg-[#d9b56d] px-5 py-3 text-center text-sm font-black text-[#241a12] transition hover:bg-[#caa55e] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#315344]"
-        >
-          <Download size={17} />
-          Descargar planeación en PDF
-        </button>
+        {isStudentView ? (
+          <button
+            type="button"
+            onClick={printMindMapOnly}
+            className="mt-5 inline-flex max-w-full flex-wrap items-center justify-center gap-2 rounded-full bg-[#d9b56d] px-5 py-3 text-center text-sm font-black text-[#241a12] transition hover:bg-[#caa55e] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#315344]"
+          >
+            <Printer size={17} />
+            Imprimir mapa mental
+          </button>
+        ) : (
+          <button
+            type="button"
+            onClick={() => openPlanningPdf(record, displayHorizon)}
+            className="mt-5 inline-flex max-w-full flex-wrap items-center justify-center gap-2 rounded-full bg-[#d9b56d] px-5 py-3 text-center text-sm font-black text-[#241a12] transition hover:bg-[#caa55e] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#315344]"
+          >
+            <Download size={17} />
+            Descargar planeación en PDF
+          </button>
+        )}
         <div className="mt-5 max-w-3xl rounded-[1.5rem] bg-[#f5efe4] p-3">
           <p className="text-xs font-bold uppercase tracking-[0.14em] text-[#8f4d32]">Modo de lectura</p>
           <div className="mt-3 flex flex-wrap gap-2" role="group" aria-label="Elegir modo de lectura de la ficha">
@@ -1327,7 +1374,7 @@ function ProjectDashboard({
           </div>
           <p className="mt-3 text-sm leading-7 text-[#675c51]">
             {isStudentView
-              ? 'Muestra solo horizonte, estrategia detonadora, conceptos, mapa mental, autoevaluación y planeación.'
+              ? 'Muestra horizonte, estrategia detonadora, conceptos, mapa mental, autoevaluación y opción para imprimir el mapa.'
               : 'Muestra ficha completa con fuentes, apoyos, estados de validación y recursos docentes.'}
           </p>
         </div>
@@ -1578,21 +1625,37 @@ function ProjectDashboard({
       ) : null}
 
       <div className="min-w-0 max-w-full overflow-hidden rounded-[1.5rem] border border-[#d9b56d]/35 bg-[#fff8ee] p-5">
-        <p className="text-xs font-bold uppercase tracking-[0.14em] text-[#8f4d32]">Planeación descargable</p>
-        <p className="mt-3 max-w-4xl leading-8 text-[#241a12]">
-          Genera una versión imprimible de este Proyecto Académico con formato de planeación: ficha curricular,
-          horizonte, estrategia detonadora, fuentes, conceptos y autoevaluación.
+        <p className="text-xs font-bold uppercase tracking-[0.14em] text-[#8f4d32]">
+          {isStudentView ? 'Mapa mental imprimible' : 'Planeación descargable'}
         </p>
-        <button
-          type="button"
-          onClick={() => openPlanningPdf(record, displayHorizon)}
-          className="mt-4 inline-flex max-w-full flex-wrap items-center justify-center gap-2 rounded-full bg-[#d9b56d] px-5 py-3 text-center text-sm font-black text-[#241a12] transition hover:bg-[#caa55e] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#315344]"
-        >
-          <Download size={17} />
-          Descargar planeación en PDF
-        </button>
+        <p className="mt-3 max-w-4xl leading-8 text-[#241a12]">
+          {isStudentView
+            ? 'Imprime solo el mapa mental integrado para usarlo como apoyo visual durante el desarrollo del proyecto.'
+            : 'Genera una versión imprimible de este Proyecto Académico con formato de planeación: ficha curricular, horizonte, estrategia detonadora, fuentes, conceptos y autoevaluación.'}
+        </p>
+        {isStudentView ? (
+          <button
+            type="button"
+            onClick={printMindMapOnly}
+            className="mt-4 inline-flex max-w-full flex-wrap items-center justify-center gap-2 rounded-full bg-[#d9b56d] px-5 py-3 text-center text-sm font-black text-[#241a12] transition hover:bg-[#caa55e] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#315344]"
+          >
+            <Printer size={17} />
+            Imprimir mapa mental
+          </button>
+        ) : (
+          <button
+            type="button"
+            onClick={() => openPlanningPdf(record, displayHorizon)}
+            className="mt-4 inline-flex max-w-full flex-wrap items-center justify-center gap-2 rounded-full bg-[#d9b56d] px-5 py-3 text-center text-sm font-black text-[#241a12] transition hover:bg-[#caa55e] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#315344]"
+          >
+            <Download size={17} />
+            Descargar planeación en PDF
+          </button>
+        )}
         <p className="mt-3 max-w-3xl text-sm leading-7 text-[#675c51]">
-          Se abrirá una vista lista para imprimir; en el cuadro del navegador elige Guardar como PDF.
+          {isStudentView
+            ? 'Se abrirá una vista con el mapa mental para imprimirlo o guardarlo como PDF.'
+            : 'Se abrirá una vista lista para imprimir; en el cuadro del navegador elige Guardar como PDF.'}
         </p>
       </div>
 
