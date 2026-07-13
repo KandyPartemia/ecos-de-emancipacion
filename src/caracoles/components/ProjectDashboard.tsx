@@ -1520,11 +1520,13 @@ function ProjectDashboard({
         )}
       </Section>
 
+      {isStudentView ? (
       <div id="caracoles-autoevaluacion" className="scroll-mt-32">
-        <Section index={isStudentView ? 4 : 6} title="Autoevaluación formativa">
+        <Section index={4} title="Autoevaluación formativa">
           <Autoevaluation record={record} />
         </Section>
       </div>
+      ) : null}
 
       {!isStudentView ? (
       <div className="min-w-0 max-w-full overflow-hidden rounded-[1.75rem] border border-[#315344]/12 bg-white/88 p-5 shadow-[0_18px_60px_rgba(36,26,18,0.06)]">
