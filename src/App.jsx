@@ -1568,6 +1568,193 @@ function StartHere() {
             </div>
           </div>
         </article>
+
+        <article className="mt-6 overflow-hidden rounded-[1.6rem] border border-earth/15 bg-white/85 shadow-soft">
+          <div className="grid gap-0 lg:grid-cols-[1fr_1fr]">
+            <figure className="min-h-[20rem] overflow-hidden bg-clay">
+              <img
+                src={IMAGES.families}
+                alt="Familias acompañando procesos de aprendizaje con cuidado y diálogo"
+                className="h-full w-full object-cover object-center"
+              />
+            </figure>
+            <div className="grid gap-5 p-5 sm:p-7 lg:p-8">
+              <div>
+                <p className="section-kicker text-terracotta">Ruta familias</p>
+                <h3 className="mt-3 font-serif text-3xl leading-tight text-forest sm:text-5xl">
+                  Acompañar sin miedo.
+                </h3>
+                <p className="mt-4 leading-8 text-earth">
+                  Para madres, padres y tutores que quieren estar presentes sin convertir el acompañamiento escolar en
+                  presión, regaño o culpa.
+                </p>
+              </div>
+
+              <div className="rounded-[1.3rem] border border-gold/35 bg-[#fff8ee] p-5">
+                <p className="section-kicker text-terracotta">Pregunta guía</p>
+                <p className="mt-3 font-serif text-2xl leading-tight text-forest">
+                  ¿Cómo puedo ayudar a aprender sin controlar todo el proceso?
+                </p>
+              </div>
+
+              <div className="grid gap-3 md:grid-cols-3">
+                {[
+                  ['Escucha primero', 'Pregunta qué entendió, qué le costó y qué necesita antes de corregir.'],
+                  ['Ordena el momento', 'Acuerda un tiempo breve, un lugar posible y una meta pequeña.'],
+                  ['Reconoce avances', 'Nombra el esfuerzo, la duda resuelta y el paso siguiente.'],
+                ].map(([title, text]) => (
+                  <div key={title} className="rounded-2xl border border-earth/15 bg-cream p-4">
+                    <h4 className="font-serif text-2xl leading-tight text-forest">{title}</h4>
+                    <p className="mt-2 text-sm leading-7 text-earth">{text}</p>
+                  </div>
+                ))}
+              </div>
+
+              <div className="rounded-[1.3rem] border border-earth/15 bg-clay/45 p-5">
+                <p className="section-kicker text-terracotta">Preguntas para conversar en casa</p>
+                <ul className="mt-4 grid gap-2 text-sm leading-7 text-earth">
+                  {[
+                    '¿Qué fue lo más importante que descubriste hoy?',
+                    '¿Qué parte te gustaría explicar con tus propias palabras?',
+                    '¿Qué necesitas para terminar con más calma?',
+                    '¿Cómo se conecta esto con nuestra vida diaria o comunidad?',
+                  ].map((item) => (
+                    <li key={item} className="flex gap-3">
+                      <CircleDot className="mt-1 shrink-0 text-terracotta" size={16} aria-hidden="true" />
+                      <span>{item}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+
+              <div className="rounded-[1.3rem] bg-forest p-5 text-cream">
+                <p className="section-kicker text-gold">Cuidado pedagógico</p>
+                <p className="mt-3 text-sm leading-7 text-cream/82">
+                  Acompañar no es hacer la tarea por alguien ni vigilar cada paso: es ayudar a que la persona joven
+                  encuentre orden, confianza y palabra propia.
+                </p>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article className="mt-6 overflow-hidden rounded-[1.6rem] border border-earth/15 bg-clay/55 shadow-soft">
+          <div className="grid gap-0 lg:grid-cols-[1.05fr_0.95fr]">
+            <div className="grid gap-5 p-5 sm:p-7 lg:p-8">
+              <div>
+                <p className="section-kicker text-terracotta">Ruta jóvenes</p>
+                <h3 className="mt-3 font-serif text-3xl leading-tight text-forest sm:text-5xl">
+                  Pensar mi lugar en el mundo.
+                </h3>
+                <p className="mt-4 leading-8 text-earth">
+                  Para estudiantes y jóvenes que necesitan preguntas sencillas para mirar su vida escolar, su identidad,
+                  sus decisiones y su relación con la comunidad.
+                </p>
+              </div>
+
+              <div className="rounded-[1.3rem] border border-gold/35 bg-white/80 p-5">
+                <p className="section-kicker text-terracotta">Pregunta guía</p>
+                <p className="mt-3 font-serif text-2xl leading-tight text-forest">
+                  ¿Qué quiero comprender de mí, de mi escuela y de mi comunidad?
+                </p>
+              </div>
+
+              <div className="grid gap-3 md:grid-cols-3">
+                {[
+                  ['Nombrar', 'Escribe qué piensas, sientes o dudas antes de empezar.'],
+                  ['Relacionar', 'Conecta el tema con algo que pase en tu casa, escuela o comunidad.'],
+                  ['Crear', 'Elabora una evidencia que diga algo de ti y de lo que comprendiste.'],
+                ].map(([title, text]) => (
+                  <div key={title} className="rounded-2xl border border-earth/15 bg-white/80 p-4">
+                    <h4 className="font-serif text-2xl leading-tight text-forest">{title}</h4>
+                    <p className="mt-2 text-sm leading-7 text-earth">{text}</p>
+                  </div>
+                ))}
+              </div>
+
+              <div className="rounded-[1.3rem] border border-earth/15 bg-cream p-5">
+                <p className="section-kicker text-terracotta">Mini bitácora joven</p>
+                <div className="mt-4 grid gap-3 md:grid-cols-3">
+                  {[
+                    ['Hoy entiendo...', 'Una idea que ya puedo explicar.'],
+                    ['Todavía me pregunto...', 'Una duda honesta para seguir buscando.'],
+                    ['Puedo aportar...', 'Una acción pequeña para mi grupo o comunidad.'],
+                  ].map(([title, text]) => (
+                    <div key={title}>
+                      <p className="font-bold text-forest">{title}</p>
+                      <p className="mt-2 text-sm leading-7 text-earth">{text}</p>
+                    </div>
+                  ))}
+                </div>
+              </div>
+
+              <a className="btn-secondary justify-self-start" href="#jovenes">
+                Ir a la ruta joven
+                <ArrowUpRight size={17} aria-hidden="true" />
+              </a>
+            </div>
+
+            <figure className="min-h-[20rem] overflow-hidden bg-forest">
+              <img
+                src={IMAGES.youth}
+                alt="Jóvenes pensando su escuela, identidad y comunidad"
+                className="h-full w-full object-cover object-center"
+              />
+            </figure>
+          </div>
+        </article>
+
+        <article className="mt-6 rounded-[1.6rem] border border-earth/15 bg-forest p-5 text-cream shadow-soft sm:p-7 lg:p-8">
+          <div className="grid gap-6 lg:grid-cols-[0.85fr_1.15fr] lg:items-start">
+            <div>
+              <div className="flex h-14 w-14 items-center justify-center rounded-full bg-gold/18 text-gold">
+                <Compass size={27} aria-hidden="true" />
+              </div>
+              <p className="section-kicker mt-6 text-gold">Conocer la propuesta</p>
+              <h3 className="mt-3 font-serif text-3xl leading-tight text-cream sm:text-5xl">
+                Entrar al universo Ecos.
+              </h3>
+              <p className="mt-4 leading-8 text-cream/78">
+                Para quien llega por primera vez y quiere entender el sentido de Ecos de Emancipación antes de elegir una
+                herramienta, una lectura o una forma de participar.
+              </p>
+            </div>
+
+            <div className="grid gap-4">
+              <div className="grid gap-3 md:grid-cols-3">
+                {[
+                  ['Lee el manifiesto', 'Comprende la raíz ética y pedagógica del proyecto.'],
+                  ['Explora el mapa', 'Reconoce las áreas vivas: recursos, escuela, música, tienda y resonancias.'],
+                  ['Elige una acción', 'Usa Caracoles, lee una ruta, escribe por WhatsApp o comparte el sitio.'],
+                ].map(([title, text]) => (
+                  <div key={title} className="rounded-2xl border border-cream/15 bg-cream/[0.07] p-4">
+                    <h4 className="font-serif text-2xl leading-tight text-cream">{title}</h4>
+                    <p className="mt-2 text-sm leading-7 text-cream/76">{text}</p>
+                  </div>
+                ))}
+              </div>
+
+              <div className="rounded-[1.3rem] border border-gold/25 bg-ink/20 p-5">
+                <p className="section-kicker text-gold">Primera decisión</p>
+                <p className="mt-3 font-serif text-2xl leading-tight text-cream">
+                  Si una idea te mueve, no necesitas entenderlo todo: elige una puerta, entra con calma y vuelve cuando lo
+                  necesites.
+                </p>
+              </div>
+
+              <div className="flex flex-col gap-3 sm:flex-row sm:flex-wrap">
+                <a className="btn-gold" href="#manifiesto">
+                  Leer manifiesto
+                  <ArrowUpRight size={17} aria-hidden="true" />
+                </a>
+                <a className="btn-light" href="#mapa-universo">
+                  Ver mapa del universo Ecos
+                  <ArrowUpRight size={17} aria-hidden="true" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </article>
       </div>
     </section>
   );
