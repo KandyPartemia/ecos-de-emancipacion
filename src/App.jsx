@@ -1417,6 +1417,17 @@ function StartHere() {
                   ¿Qué necesita mi grupo para aprender con claridad, participación y sentido comunitario?
                 </p>
               </div>
+              <figure className="mt-6 overflow-hidden rounded-[1.25rem] border border-gold/25 bg-cream/[0.06]">
+                <img
+                  src={IMAGES.about}
+                  alt="Acompañamiento visual de la Maestra Kandy para orientar la ruta docente"
+                  className="h-56 w-full object-cover object-[50%_18%]"
+                />
+                <figcaption className="p-4 text-sm leading-7 text-cream/78">
+                  Kandytoon puede convertirse en una acompañante virtual de las rutas: una presencia breve que oriente,
+                  pregunte y anime sin saturar la experiencia.
+                </figcaption>
+              </figure>
             </div>
 
             <div className="grid gap-5 bg-cream p-5 text-ink sm:p-7 lg:p-8">
@@ -1463,9 +1474,90 @@ function StartHere() {
                 </div>
               </div>
 
+              <div className="grid gap-4 lg:grid-cols-2">
+                <div className="rounded-[1.3rem] border border-earth/15 bg-white/80 p-5">
+                  <p className="section-kicker text-terracotta">Checklist docente</p>
+                  <ul className="mt-4 grid gap-2 text-sm leading-7 text-earth">
+                    {[
+                      'Horizonte o propósito del Proyecto Académico.',
+                      'Estrategia detonadora o producto final.',
+                      'Conceptos académicos que deben quedar claros.',
+                      'Fuentes y páginas que sostienen el trabajo.',
+                      'Evidencia para valorar el aprendizaje del grupo.',
+                    ].map((item) => (
+                      <li key={item} className="flex gap-3">
+                        <CheckCircle2 className="mt-1 shrink-0 text-forest" size={17} aria-hidden="true" />
+                        <span>{item}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+
+                <div className="rounded-[1.3rem] border border-earth/15 bg-white/80 p-5">
+                  <p className="section-kicker text-terracotta">Preguntas para mirar al grupo</p>
+                  <ul className="mt-4 grid gap-2 text-sm leading-7 text-earth">
+                    {[
+                      '¿Qué sabe ya mi grupo sobre este tema?',
+                      '¿Qué experiencia de la comunidad puede conectar con el proyecto?',
+                      '¿Qué dificultad podría aparecer durante el proceso?',
+                      '¿Qué evidencia mostrará aprendizaje real y no solo cumplimiento?',
+                    ].map((item) => (
+                      <li key={item} className="flex gap-3">
+                        <CircleDot className="mt-1 shrink-0 text-terracotta" size={16} aria-hidden="true" />
+                        <span>{item}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              </div>
+
+              <div className="rounded-[1.3rem] border border-earth/15 bg-white/80 p-5">
+                <p className="section-kicker text-terracotta">Microsecuencia didáctica</p>
+                <div className="mt-4 grid gap-3 sm:grid-cols-2 xl:grid-cols-6">
+                  {[
+                    'Abrir con una pregunta.',
+                    'Explorar saberes previos.',
+                    'Consultar fuentes.',
+                    'Organizar el producto.',
+                    'Socializar hallazgos.',
+                    'Valorar aprendizajes.',
+                  ].map((step, index) => (
+                    <div key={step} className="rounded-2xl bg-clay/45 p-4">
+                      <span className="inline-flex h-8 w-8 items-center justify-center rounded-full bg-forest text-sm font-black text-cream">
+                        {index + 1}
+                      </span>
+                      <p className="mt-3 text-sm font-bold leading-6 text-forest">{step}</p>
+                    </div>
+                  ))}
+                </div>
+              </div>
+
+              <div className="grid gap-4 lg:grid-cols-[1.1fr_0.9fr]">
+                <div className="rounded-[1.3rem] border border-gold/35 bg-[#fff8ee] p-5">
+                  <div className="flex items-start gap-3">
+                    <Brain className="mt-1 shrink-0 text-terracotta" size={24} aria-hidden="true" />
+                    <div>
+                      <p className="section-kicker text-terracotta">Criterios de pensamiento</p>
+                      <p className="mt-3 text-sm leading-7 text-earth">
+                        La ruta docente ayuda a mirar qué pensamiento se moviliza en el proyecto: pensamiento crítico,
+                        creativo, comunitario, científico, histórico, lingüístico o estratégico, según el campo formativo.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="rounded-[1.3rem] border border-forest/20 bg-forest p-5 text-cream">
+                  <p className="section-kicker text-gold">Honestidad pedagógica</p>
+                  <p className="mt-3 text-sm leading-7 text-cream/82">
+                    Esta ruta no sustituye tu criterio docente: lo ordena, lo acompaña y lo vuelve visible para tomar
+                    mejores decisiones con tu grupo.
+                  </p>
+                </div>
+              </div>
+
               <div className="flex flex-col gap-3 sm:flex-row sm:flex-wrap">
                 <a className="btn-primary" href="/recursos/caracoles-resonando">
-                  Abrir Caracoles Resonando
+                  Elegir PA y comenzar planeación
                   <ArrowUpRight size={17} aria-hidden="true" />
                 </a>
                 <ExternalLink className="btn-secondary" href={LINKS.whatsapp} label="Escribir por WhatsApp sobre la ruta docente">
