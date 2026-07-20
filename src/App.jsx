@@ -437,15 +437,17 @@ const paths = [
   {
     audience: 'Soy docente',
     title: 'Mirar el aula como territorio',
-    text: 'Encuentra rutas, preguntas y recursos para mirar el aula como territorio de posibilidad.',
-    action: 'Explorar recursos',
-    href: '#tienda',
+    question: '¿Qué recurso puedo usar hoy para acompañar mejor a mi grupo?',
+    text: 'Entra a herramientas, preguntas y recursos para planear, dialogar y mirar el aula como territorio de posibilidad.',
+    action: 'Abrir Caracoles Resonando',
+    href: '/recursos/caracoles-resonando',
     icon: BookOpen,
   },
   {
     audience: 'Soy madre, padre o tutor',
     title: 'Acompañar sin miedo',
-    text: 'Acompaña sin miedo, sin culpa y con herramientas sencillas para fortalecer el aprendizaje.',
+    question: '¿Cómo puedo acompañar sin presionar, sin culpa y con más claridad?',
+    text: 'Encuentra una entrada sencilla para mirar el aprendizaje desde el cuidado, la conversación y la confianza.',
     action: 'Ver ruta familias',
     href: '#familias',
     icon: Home,
@@ -453,10 +455,20 @@ const paths = [
   {
     audience: 'Soy estudiante o joven curioso',
     title: 'Pensar mi lugar en el mundo',
-    text: 'Encuentra ideas para pensar tu vida, tu escuela y tu lugar en el mundo.',
+    question: '¿Qué puedo pensar, crear o revisar para comprender mejor mi vida escolar?',
+    text: 'Explora preguntas e ideas para mirar tu escuela, tu identidad, tus decisiones y tu relación con la comunidad.',
     action: 'Empezar ruta',
     href: '#jovenes',
     icon: Sparkles,
+  },
+  {
+    audience: 'Quiero conocer la propuesta',
+    title: 'Entrar al universo Ecos',
+    question: '¿Qué es Ecos de Emancipación y por dónde conviene comenzar?',
+    text: 'Recorre el manifiesto, el mapa del universo Ecos y las secciones principales para entender el sentido de la propuesta.',
+    action: 'Leer manifiesto',
+    href: '#manifiesto',
+    icon: Compass,
   },
 ];
 
@@ -1347,13 +1359,19 @@ function StartHere() {
   return (
     <section id="empieza" className="section-pad">
       <div id="empieza-aqui" className="mx-auto max-w-7xl scroll-mt-24">
-        <div className="max-w-3xl">
-          <p className="section-kicker">Empieza aquí</p>
-          <h2 className="section-title">Tres rutas para actuar hoy.</h2>
+        <div className="grid gap-5 lg:grid-cols-[0.78fr_1.22fr] lg:items-end">
+          <div className="max-w-3xl">
+            <p className="section-kicker">Empieza aquí</p>
+            <h2 className="section-title">Elige una puerta de entrada.</h2>
+          </div>
+          <p className="max-w-3xl leading-8 text-earth">
+            Esta sección orienta a cada visitante hacia el primer beneficio concreto del sitio: una herramienta, una ruta
+            de reflexión, una lectura o una forma clara de participar en Ecos de Emancipación.
+          </p>
         </div>
-        <div className="mt-8 grid gap-3 lg:mt-10 lg:grid-cols-3 lg:gap-4">
-          {paths.map(({ audience, title, text, action, href, icon: Icon }) => (
-            <article key={audience} className="compact-card">
+        <div className="mt-8 grid gap-3 md:grid-cols-2 lg:mt-10 xl:grid-cols-4 xl:gap-4">
+          {paths.map(({ audience, title, question, text, action, href, icon: Icon }) => (
+            <article key={audience} className="compact-card flex min-h-full flex-col">
               <div className="flex items-center gap-4">
                 <div className="flex h-12 w-12 items-center justify-center rounded-full bg-gold/20 text-terracotta">
                   <Icon size={23} aria-hidden="true" />
@@ -1361,8 +1379,11 @@ function StartHere() {
                 <span className="rounded-full bg-gold/20 px-4 py-2 text-sm font-semibold text-forest">{audience}</span>
               </div>
               <h3 className="mt-5 font-serif text-2xl leading-tight text-forest sm:mt-6 sm:text-3xl">{title}</h3>
+              <p className="mt-4 border-l-4 border-gold pl-4 font-serif text-xl leading-tight text-terracotta">
+                {question}
+              </p>
               <p className="mt-3 leading-7 text-earth sm:mt-4 sm:leading-8">{text}</p>
-              <a className="mt-5 inline-flex items-center gap-2 text-sm font-semibold text-forest sm:mt-6" href={href}>
+              <a className="mt-auto inline-flex items-center gap-2 pt-5 text-sm font-semibold text-forest sm:pt-6" href={href}>
                 {action}
                 <ArrowUpRight size={16} aria-hidden="true" />
               </a>
