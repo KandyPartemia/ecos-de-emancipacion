@@ -1396,6 +1396,86 @@ function StartHere() {
             </article>
           ))}
         </div>
+
+        <article className="mt-8 overflow-hidden rounded-[1.6rem] border border-earth/15 bg-forest text-cream shadow-soft lg:mt-10">
+          <div className="grid gap-0 lg:grid-cols-[0.82fr_1.18fr]">
+            <div className="bg-cream/[0.06] p-5 sm:p-7 lg:p-8">
+              <div className="flex h-14 w-14 items-center justify-center rounded-full bg-gold/18 text-gold">
+                <GraduationCap size={27} aria-hidden="true" />
+              </div>
+              <p className="section-kicker mt-6 text-gold">Ruta docente</p>
+              <h3 className="mt-3 font-serif text-3xl leading-tight text-cream sm:text-5xl">
+                Mirar el aula como territorio.
+              </h3>
+              <p className="mt-4 leading-8 text-cream/78">
+                Para maestras y maestros que necesitan una entrada práctica: planear sin perder sentido, sostener el
+                vínculo con el grupo y convertir el proyecto académico en una experiencia viva.
+              </p>
+              <div className="mt-6 rounded-2xl border border-gold/25 bg-ink/20 p-4">
+                <p className="text-sm font-black uppercase tracking-[0.14em] text-gold">Pregunta guía</p>
+                <p className="mt-3 font-serif text-2xl leading-tight text-cream">
+                  ¿Qué necesita mi grupo para aprender con claridad, participación y sentido comunitario?
+                </p>
+              </div>
+            </div>
+
+            <div className="grid gap-5 bg-cream p-5 text-ink sm:p-7 lg:p-8">
+              <div>
+                <p className="section-kicker text-terracotta">Acciones para hoy</p>
+                <div className="mt-4 grid gap-3 md:grid-cols-3">
+                  {[
+                    {
+                      title: 'Ubica el PA',
+                      text: 'Elige grado, campo formativo y Proyecto Académico para reconocer horizonte, fuentes y estrategia detonadora.',
+                    },
+                    {
+                      title: 'Lee con intención',
+                      text: 'Revisa conceptos, producto final y pregunta de resonancia antes de decidir actividades.',
+                    },
+                    {
+                      title: 'Cierra con evidencia',
+                      text: 'Usa el mapa mental y la autoevaluación para que el grupo nombre lo aprendido.',
+                    },
+                  ].map(({ title, text }) => (
+                    <div key={title} className="rounded-2xl border border-earth/15 bg-white/75 p-4">
+                      <h4 className="font-serif text-2xl leading-tight text-forest">{title}</h4>
+                      <p className="mt-2 text-sm leading-7 text-earth">{text}</p>
+                    </div>
+                  ))}
+                </div>
+              </div>
+
+              <div className="rounded-[1.3rem] border border-gold/35 bg-clay/45 p-5">
+                <p className="section-kicker text-terracotta">Mini guía de uso</p>
+                <div className="mt-4 grid gap-3 md:grid-cols-3">
+                  <div>
+                    <p className="font-bold text-forest">Antes de planear</p>
+                    <p className="mt-2 text-sm leading-7 text-earth">Identifica propósito, páginas y estrategia detonadora del proyecto.</p>
+                  </div>
+                  <div>
+                    <p className="font-bold text-forest">Durante el proyecto</p>
+                    <p className="mt-2 text-sm leading-7 text-earth">Regresa a conceptos, horizonte y fuentes para orientar decisiones del grupo.</p>
+                  </div>
+                  <div>
+                    <p className="font-bold text-forest">Después del proyecto</p>
+                    <p className="mt-2 text-sm leading-7 text-earth">Imprime el mapa mental o usa la autoevaluación para recuperar aprendizajes.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="flex flex-col gap-3 sm:flex-row sm:flex-wrap">
+                <a className="btn-primary" href="/recursos/caracoles-resonando">
+                  Abrir Caracoles Resonando
+                  <ArrowUpRight size={17} aria-hidden="true" />
+                </a>
+                <ExternalLink className="btn-secondary" href={LINKS.whatsapp} label="Escribir por WhatsApp sobre la ruta docente">
+                  Consultar por WhatsApp
+                  <MessageCircle size={17} aria-hidden="true" />
+                </ExternalLink>
+              </div>
+            </div>
+          </div>
+        </article>
       </div>
     </section>
   );
