@@ -1059,7 +1059,7 @@ function Resonances({ isPage = false }) {
 
         {isPage && (
           <div className="mt-7 grid gap-4 lg:grid-cols-[0.95fr_1.05fr]">
-            <article className="compact-card bg-forest text-cream">
+            <article className="rounded-[1.5rem] border border-cream/15 bg-forest p-5 text-cream shadow-soft sm:p-7">
               <p className="section-kicker text-gold">Modo de lectura</p>
               <h2 className="mt-3 font-serif text-3xl leading-tight sm:text-5xl">Leer para reconocer lo que la vida ya está diciendo.</h2>
               <p className="mt-5 leading-8 text-cream/80">
@@ -1173,7 +1173,7 @@ function CognitologyPage() {
         </div>
 
         <div className="mt-8 grid gap-4 lg:grid-cols-[1.05fr_0.95fr]">
-          <article className="compact-card bg-forest text-cream">
+          <article className="rounded-[1.5rem] border border-cream/15 bg-forest p-5 text-cream shadow-soft sm:p-7">
             <p className="section-kicker text-gold">Pregunta fundante</p>
             <h2 className="mt-3 font-serif text-3xl leading-tight sm:text-5xl">
               ¿Qué cambia en el aprendizaje cuando la conciencia empieza a mirar cómo piensa?
