@@ -64,6 +64,7 @@ const navItems = [
   { label: 'Manifiesto', href: '/#manifiesto' },
   { label: 'Resonancias', href: '/resonancias' },
   { label: 'Pilares', href: '/#pilares' },
+  { label: 'Cognitología', href: '/cognitologia' },
   { label: 'Escuela', href: '/#escuela' },
   { label: 'Recursos', href: '/recursos' },
   { label: 'Universo musical', href: '/universo-musical' },
@@ -78,6 +79,7 @@ const quickLinks = [
   { title: 'Manifiesto', href: '/#manifiesto', icon: Leaf },
   { title: 'Resonancias', href: '/resonancias', icon: BookOpenText },
   { title: 'Pilares', href: '/#pilares', icon: CircleDot },
+  { title: 'Cognitología', href: '/cognitologia', icon: Brain },
   { title: 'Escuela', href: '/#escuela', icon: School },
   { title: 'Recursos', href: '/recursos', icon: NotebookTabs },
   { title: 'Universo musical', href: '/universo-musical', icon: Music },
@@ -537,6 +539,11 @@ const ROUTE_METADATA = {
     description:
       'Textos, preguntas y rutas de lectura para mirar vida cotidiana, espiritualidad situada, educación y conciencia.',
   },
+  '/cognitologia': {
+    title: 'Cognitología | Ecos de Emancipación',
+    description:
+      'Entrada conceptual a la Cognitología para la vida cotidiana: criterios de pensamiento, artilugios pedagógicos, resonancia y aula habitable.',
+  },
 };
 
 const CaracolesApp = lazy(() => import('./caracoles/CaracolesApp'));
@@ -641,6 +648,20 @@ function App() {
         <Header />
         <main className="min-h-screen overflow-hidden bg-cream pt-[4.75rem] text-ink sm:pt-[5rem]">
           <Resonances isPage />
+          <Invitation />
+          <Footer />
+          <BackToTop />
+        </main>
+      </>
+    );
+  }
+
+  if (currentPath === '/cognitologia') {
+    return (
+      <>
+        <Header />
+        <main className="min-h-screen overflow-hidden bg-cream pt-[4.75rem] text-ink sm:pt-[5rem]">
+          <CognitologyPage />
           <Invitation />
           <Footer />
           <BackToTop />
@@ -1097,6 +1118,136 @@ function Pillars() {
             className="h-full w-full object-cover object-center"
           />
         </figure>
+      </div>
+    </section>
+  );
+}
+
+function CognitologyPage() {
+  const coreIdeas = [
+    {
+      title: 'Conciencia que mira cómo piensa',
+      text: 'La Cognitología abre una pregunta sobre el modo en que aprendemos, decidimos, sentimos, nombramos y actuamos en la vida cotidiana.',
+      icon: Eye,
+    },
+    {
+      title: 'Criterios para no caminar a ciegas',
+      text: 'No busca imponer respuestas, sino formar criterios de pensamiento para leer la realidad con más claridad, cuidado y responsabilidad.',
+      icon: Brain,
+    },
+    {
+      title: 'Artilugios pedagógicos',
+      text: 'Propone pequeñas estructuras de aula y comunidad para desplazar la escuela del cumplimiento hacia la pregunta, la decisión y la experiencia.',
+      icon: Compass,
+    },
+  ];
+
+  const practiceRoutes = [
+    ['Asamblea', 'Aprender a decidir con otras personas, escuchar argumentos y construir acuerdos con sentido comunitario.'],
+    ['Semillero de Conciencia', 'Convertir el conflicto, la duda o la inquietud en pregunta formativa, no en castigo ni en silencio.'],
+    ['Contrato pedagógico', 'Nombrar quién soy, cómo aprendo y para qué aprendo con mi comunidad.'],
+    ['Mapa para pensar', 'Organizar ideas para comprender relaciones, no para decorar información.'],
+    ['Resonancia', 'Pasar de “me gustó” a reconocer qué me pasó, qué nos pasó y qué puede cambiar.'],
+    ['Aula habitable', 'Cuidar el espacio escolar como lugar donde se puede pensar, equivocarse, crear y pertenecer.'],
+  ];
+
+  const protectedNotes = [
+    'Los libros, cuadernos y fascículos completos forman parte del corpus original de la autora.',
+    'Esta página ofrece una entrada pública breve, no sustituye los materiales completos ni libera sus contenidos.',
+    'La propuesta seguirá creciendo con recursos, rutas formativas y materiales preparados para docentes, familias y estudiantes.',
+  ];
+
+  return (
+    <section id="cognitologia" className="section-pad bg-clay/45">
+      <div className="mx-auto max-w-7xl">
+        <div className="grid gap-7 lg:grid-cols-[0.85fr_1.15fr] lg:items-end">
+          <div>
+            <p className="section-kicker">Cognitología</p>
+            <h1 className="section-title">Una pedagogía para mirar cómo pensamos la vida.</h1>
+          </div>
+          <p className="max-w-3xl leading-8 text-earth">
+            La Cognitología para la vida cotidiana es una puerta teórica y práctica del universo Ecos: ayuda a formar
+            criterios de pensamiento, cuidar la experiencia escolar y convertir la vida diaria en territorio de
+            conciencia.
+          </p>
+        </div>
+
+        <div className="mt-8 grid gap-4 lg:grid-cols-[1.05fr_0.95fr]">
+          <article className="compact-card bg-forest text-cream">
+            <p className="section-kicker text-gold">Pregunta fundante</p>
+            <h2 className="mt-3 font-serif text-3xl leading-tight sm:text-5xl">
+              ¿Qué cambia en el aprendizaje cuando la conciencia empieza a mirar cómo piensa?
+            </h2>
+            <p className="mt-5 leading-8 text-cream/80">
+              Desde esta pregunta, enseñar deja de ser solo organizar actividades: se vuelve un acto de acompañamiento
+              para que cada sujeto pueda nombrarse, decidir, comprender su realidad y participar con dignidad.
+            </p>
+            <a className="btn-gold mt-7" href="/resonancias">
+              Leer resonancias
+              <ArrowUpRight size={18} aria-hidden="true" />
+            </a>
+          </article>
+
+          <article className="compact-card bg-cream/90">
+            <p className="section-kicker text-terracotta">Qué ofrece esta entrada</p>
+            <ul className="mt-5 grid gap-3 text-earth">
+              {[
+                'Un lenguaje inicial para comprender el corazón teórico de Ecos.',
+                'Una brújula para distinguir recurso, criterio, artilugio y resonancia.',
+                'Una orientación pública sin exponer materiales completos en edición preliminar.',
+              ].map((item) => (
+                <li key={item} className="flex gap-3 leading-7">
+                  <CheckCircle2 className="mt-1 shrink-0 text-forest" size={18} aria-hidden="true" />
+                  <span>{item}</span>
+                </li>
+              ))}
+            </ul>
+          </article>
+        </div>
+
+        <div className="mt-5 grid gap-4 md:grid-cols-3">
+          {coreIdeas.map(({ title, text, icon: Icon }) => (
+            <article key={title} className="compact-card flex min-h-full flex-col">
+              <div className="rounded-[1.25rem] bg-forest p-5 text-cream">
+                <Icon className="text-gold" size={28} aria-hidden="true" />
+                <p className="section-kicker mt-5 text-gold">Idea central</p>
+              </div>
+              <h2 className="mt-5 font-serif text-2xl leading-tight text-forest">{title}</h2>
+              <p className="mt-3 leading-7 text-earth">{text}</p>
+            </article>
+          ))}
+        </div>
+
+        <div className="mt-5 grid gap-4 lg:grid-cols-[0.85fr_1.15fr]">
+          <article className="compact-card bg-white/85">
+            <p className="section-kicker text-terracotta">Del concepto a la práctica</p>
+            <h2 className="mt-3 font-serif text-3xl leading-tight text-forest">Artilugios para hacer habitable la escuela.</h2>
+            <p className="mt-4 leading-8 text-earth">
+              En Ecos, un artilugio no es un adorno metodológico: es una forma pequeña y concreta de mover la práctica
+              educativa para que el aula piense, dialogue, decida y resuene.
+            </p>
+          </article>
+
+          <div className="grid gap-3 sm:grid-cols-2">
+            {practiceRoutes.map(([title, text]) => (
+              <article key={title} className="rounded-[1.25rem] border border-earth/15 bg-cream p-5 shadow-soft">
+                <h3 className="font-serif text-2xl leading-tight text-forest">{title}</h3>
+                <p className="mt-3 text-sm leading-7 text-earth">{text}</p>
+              </article>
+            ))}
+          </div>
+        </div>
+
+        <div className="mt-5 rounded-[1.5rem] border border-gold/35 bg-[#fff8ee] p-5 shadow-soft sm:p-7">
+          <p className="section-kicker text-terracotta">Resguardo del corpus</p>
+          <div className="mt-4 grid gap-3 md:grid-cols-3">
+            {protectedNotes.map((note) => (
+              <p key={note} className="rounded-2xl bg-cream px-4 py-3 text-sm font-semibold leading-7 text-earth">
+                {note}
+              </p>
+            ))}
+          </div>
+        </div>
       </div>
     </section>
   );
