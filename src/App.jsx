@@ -7,6 +7,7 @@ import {
   BookOpen,
   BookOpenText,
   Brain,
+  CheckCircle2,
   CircleDot,
   Compass,
   DoorOpen,
