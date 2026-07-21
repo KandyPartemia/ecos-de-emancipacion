@@ -59,29 +59,29 @@ const IMAGES = {
 };
 
 const navItems = [
-  { label: 'Inicio', href: '#inicio' },
-  { label: 'Manifiesto', href: '#manifiesto' },
-  { label: 'Resonancias', href: '#resonancias' },
-  { label: 'Pilares', href: '#pilares' },
-  { label: 'Escuela', href: '#escuela' },
-  { label: 'Recursos', href: '#recursos' },
-  { label: 'Universo musical', href: '#universo-musical' },
-  { label: 'Tienda', href: '#tienda' },
-  { label: 'Empieza Aquí', href: '#empieza', cta: true },
+  { label: 'Inicio', href: '/#inicio' },
+  { label: 'Manifiesto', href: '/#manifiesto' },
+  { label: 'Resonancias', href: '/#resonancias' },
+  { label: 'Pilares', href: '/#pilares' },
+  { label: 'Escuela', href: '/#escuela' },
+  { label: 'Recursos', href: '/#recursos' },
+  { label: 'Universo musical', href: '/#universo-musical' },
+  { label: 'Tienda', href: '/#tienda' },
+  { label: 'Empieza Aquí', href: '/empieza-aqui', cta: true },
 ];
 
 const mobileNavItems = navItems;
 
 const quickLinks = [
-  { title: 'Inicio', href: '#inicio', icon: Home },
-  { title: 'Manifiesto', href: '#manifiesto', icon: Leaf },
-  { title: 'Resonancias', href: '#resonancias', icon: BookOpenText },
-  { title: 'Pilares', href: '#pilares', icon: CircleDot },
-  { title: 'Escuela', href: '#escuela', icon: School },
-  { title: 'Recursos', href: '#recursos', icon: NotebookTabs },
-  { title: 'Universo musical', href: '#universo-musical', icon: Music },
-  { title: 'Tienda', href: '#tienda', icon: ShoppingBag },
-  { title: 'Empieza Aquí', href: '#empieza', icon: DoorOpen },
+  { title: 'Inicio', href: '/#inicio', icon: Home },
+  { title: 'Manifiesto', href: '/#manifiesto', icon: Leaf },
+  { title: 'Resonancias', href: '/#resonancias', icon: BookOpenText },
+  { title: 'Pilares', href: '/#pilares', icon: CircleDot },
+  { title: 'Escuela', href: '/#escuela', icon: School },
+  { title: 'Recursos', href: '/#recursos', icon: NotebookTabs },
+  { title: 'Universo musical', href: '/#universo-musical', icon: Music },
+  { title: 'Tienda', href: '/#tienda', icon: ShoppingBag },
+  { title: 'Empieza Aquí', href: '/empieza-aqui', icon: DoorOpen },
 ];
 
 const universeNodes = [
@@ -153,7 +153,7 @@ const universeNodes = [
     id: 'empieza',
     title: 'Empieza Aquí',
     text: 'Ruta inicial para quienes llegan por primera vez y quieren comprender el corazón del proyecto.',
-    href: '#empieza-aqui',
+    href: '/empieza-aqui',
     icon: DoorOpen,
     position: 'left-[25%] top-[16%] -translate-x-1/2',
   },
@@ -507,6 +507,11 @@ const ROUTE_METADATA = {
     description:
       'Ficha curricular, fuentes, mapa mental y autoevaluación para los 432 Proyectos Académicos de Telesecundaria NEM.',
   },
+  '/empieza-aqui': {
+    title: 'Empieza aquí | Ecos de Emancipación',
+    description:
+      'Ruta inicial para docentes, familias, estudiantes y personas que desean conocer la propuesta pedagógica de Ecos de Emancipación.',
+  },
 };
 
 const CaracolesApp = lazy(() => import('./caracoles/CaracolesApp'));
@@ -560,6 +565,20 @@ function App() {
       <Suspense fallback={<CaracolesLoading />}>
         <CaracolesApp />
       </Suspense>
+    );
+  }
+
+  if (currentPath === '/empieza-aqui') {
+    return (
+      <>
+        <Header />
+        <main className="min-h-screen overflow-hidden bg-cream pt-[4.75rem] text-ink sm:pt-[5rem]">
+          <StartHere />
+          <Invitation />
+          <Footer />
+          <BackToTop />
+        </main>
+      </>
     );
   }
 
