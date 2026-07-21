@@ -66,7 +66,7 @@ const navItems = [
   { label: 'Pilares', href: '/#pilares' },
   { label: 'Escuela', href: '/#escuela' },
   { label: 'Recursos', href: '/recursos' },
-  { label: 'Universo musical', href: '/#universo-musical' },
+  { label: 'Universo musical', href: '/universo-musical' },
   { label: 'Tienda', href: '/#tienda' },
   { label: 'Empieza Aquí', href: '/empieza-aqui', cta: true },
 ];
@@ -80,7 +80,7 @@ const quickLinks = [
   { title: 'Pilares', href: '/#pilares', icon: CircleDot },
   { title: 'Escuela', href: '/#escuela', icon: School },
   { title: 'Recursos', href: '/recursos', icon: NotebookTabs },
-  { title: 'Universo musical', href: '/#universo-musical', icon: Music },
+  { title: 'Universo musical', href: '/universo-musical', icon: Music },
   { title: 'Tienda', href: '/#tienda', icon: ShoppingBag },
   { title: 'Empieza Aquí', href: '/empieza-aqui', icon: DoorOpen },
 ];
@@ -138,7 +138,7 @@ const universeNodes = [
     id: 'universo-musical',
     title: 'Universo musical',
     text: 'Canciones, álbumes y proyectos sonoros vinculados a la conciencia, la esperanza, la plenitud y la transformación interior.',
-    href: '#universo-musical',
+    href: '/universo-musical',
     icon: Music,
     position: 'left-[18%] top-[69%] -translate-x-1/2',
   },
@@ -527,6 +527,11 @@ const ROUTE_METADATA = {
     description:
       'Herramientas pedagógicas, rutas de lectura, Caracoles Resonando y materiales de apoyo para docentes, familias y estudiantes.',
   },
+  '/universo-musical': {
+    title: 'Universo musical | Ecos de Emancipación',
+    description:
+      'Canales sonoros, canciones y proyectos musicales de Ecos de Emancipación para acompañar conciencia, plenitud y esperanza.',
+  },
 };
 
 const CaracolesApp = lazy(() => import('./caracoles/CaracolesApp'));
@@ -603,6 +608,20 @@ function App() {
         <Header />
         <main className="min-h-screen overflow-hidden bg-cream pt-[4.75rem] text-ink sm:pt-[5rem]">
           <ResourcesPage />
+          <Invitation />
+          <Footer />
+          <BackToTop />
+        </main>
+      </>
+    );
+  }
+
+  if (currentPath === '/universo-musical') {
+    return (
+      <>
+        <Header />
+        <main className="min-h-screen overflow-hidden bg-cream pt-[4.75rem] text-ink sm:pt-[5rem]">
+          <MusicUniverse />
           <Invitation />
           <Footer />
           <BackToTop />
@@ -1176,7 +1195,7 @@ function ResourcesPage() {
       text: 'Explora resonancias, canales sonoros y materiales que ayudan a sostener una experiencia educativa más sensible y consciente.',
       label: 'Acompañamiento sensible',
       result: 'Canales, textos y apoyos para sostener el proceso.',
-      href: '/#universo-musical',
+      href: '/universo-musical',
       action: 'Explorar universo musical',
       icon: Music,
     },
