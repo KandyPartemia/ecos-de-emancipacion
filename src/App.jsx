@@ -1203,26 +1203,10 @@ function ResourcesPage() {
           </p>
         </div>
 
-        <div className="mt-8 grid gap-4 lg:grid-cols-[1.1fr_0.9fr] lg:items-stretch">
-          <article className="compact-card bg-forest text-cream">
-            <div className="flex h-14 w-14 items-center justify-center rounded-full bg-gold/20 text-gold">
-              <Shell size={27} aria-hidden="true" />
-            </div>
-            <p className="section-kicker mt-6 text-gold">Herramienta principal</p>
-            <h2 className="mt-3 font-serif text-3xl leading-tight sm:text-5xl">Caracoles Resonando</h2>
-            <p className="mt-5 max-w-3xl leading-8 text-cream/80">
-              Planea tu Proyecto Académico de Telesecundaria con ficha curricular, ubicación en libros, conceptos,
-              mapa mental integrado, autoevaluación y formato imprimible.
-            </p>
-            <a className="btn-gold mt-7" href="/recursos/caracoles-resonando">
-              Abrir herramienta
-              <ArrowUpRight size={18} aria-hidden="true" />
-            </a>
-          </article>
-
+        <div className="mt-8">
           <article className="compact-card bg-cream/90">
             <p className="section-kicker text-terracotta">Cómo usar esta ruta</p>
-            <ol className="mt-5 grid gap-3 text-earth">
+            <ol className="mt-5 grid gap-3 text-earth md:grid-cols-2">
               {[
                 'Elige primero el tipo de acompañamiento que necesitas.',
                 'Abre la herramienta o sección relacionada.',
