@@ -65,7 +65,7 @@ const navItems = [
   { label: 'Resonancias', href: '/#resonancias' },
   { label: 'Pilares', href: '/#pilares' },
   { label: 'Escuela', href: '/#escuela' },
-  { label: 'Recursos', href: '/#recursos' },
+  { label: 'Recursos', href: '/recursos' },
   { label: 'Universo musical', href: '/#universo-musical' },
   { label: 'Tienda', href: '/#tienda' },
   { label: 'Empieza Aquí', href: '/empieza-aqui', cta: true },
@@ -79,7 +79,7 @@ const quickLinks = [
   { title: 'Resonancias', href: '/#resonancias', icon: BookOpenText },
   { title: 'Pilares', href: '/#pilares', icon: CircleDot },
   { title: 'Escuela', href: '/#escuela', icon: School },
-  { title: 'Recursos', href: '/#recursos', icon: NotebookTabs },
+  { title: 'Recursos', href: '/recursos', icon: NotebookTabs },
   { title: 'Universo musical', href: '/#universo-musical', icon: Music },
   { title: 'Tienda', href: '/#tienda', icon: ShoppingBag },
   { title: 'Empieza Aquí', href: '/empieza-aqui', icon: DoorOpen },
@@ -130,7 +130,7 @@ const universeNodes = [
     id: 'recursos',
     title: 'Recursos',
     text: 'Guías, cuadernos, audios, lecturas, materiales descargables y herramientas para acompañar procesos de transformación.',
-    href: '#recursos',
+    href: '/recursos',
     icon: NotebookTabs,
     position: 'left-[38%] top-[88%] -translate-x-1/2',
   },
@@ -513,6 +513,11 @@ const ROUTE_METADATA = {
     description:
       'Ruta inicial para docentes, familias, estudiantes y personas que desean conocer la propuesta pedagógica de Ecos de Emancipación.',
   },
+  '/recursos': {
+    title: 'Recursos | Ecos de Emancipación',
+    description:
+      'Herramientas pedagógicas, rutas de lectura, Caracoles Resonando y materiales de apoyo para docentes, familias y estudiantes.',
+  },
 };
 
 const CaracolesApp = lazy(() => import('./caracoles/CaracolesApp'));
@@ -575,6 +580,20 @@ function App() {
         <Header />
         <main className="min-h-screen overflow-hidden bg-cream pt-[4.75rem] text-ink sm:pt-[5rem]">
           <StartHere />
+          <Invitation />
+          <Footer />
+          <BackToTop />
+        </main>
+      </>
+    );
+  }
+
+  if (currentPath === '/recursos') {
+    return (
+      <>
+        <Header />
+        <main className="min-h-screen overflow-hidden bg-cream pt-[4.75rem] text-ink sm:pt-[5rem]">
+          <ResourcesPage />
           <Invitation />
           <Footer />
           <BackToTop />
@@ -1097,6 +1116,144 @@ function Resources() {
             <ArrowUpRight size={16} aria-hidden="true" />
           </a>
         </article>
+      </div>
+    </section>
+  );
+}
+
+function ResourcesPage() {
+  const resourceSteps = [
+    {
+      title: 'Planea un Proyecto Académico',
+      text: 'Abre Caracoles Resonando, elige grado, campo formativo y PA para revisar ficha curricular, fuentes, mapa mental y autoevaluación.',
+      href: '/recursos/caracoles-resonando',
+      action: 'Abrir Caracoles Resonando',
+      icon: Shell,
+    },
+    {
+      title: 'Recupera preguntas para pensar',
+      text: 'Usa las rutas de Empieza aquí para preparar una conversación docente, familiar o estudiantil antes de elegir un recurso.',
+      href: '/empieza-aqui',
+      action: 'Ir a Empieza aquí',
+      icon: DoorOpen,
+    },
+    {
+      title: 'Acompaña con palabra y música',
+      text: 'Explora resonancias, canales sonoros y materiales que ayudan a sostener una experiencia educativa más sensible y consciente.',
+      href: '/#universo-musical',
+      action: 'Explorar universo musical',
+      icon: Music,
+    },
+  ];
+
+  const resourceUses = [
+    ['Para docentes', 'Planeación, preguntas guía, mapas mentales, criterios de pensamiento y recursos para sostener el trabajo por proyectos.'],
+    ['Para familias', 'Orientaciones sencillas para conversar, acompañar tareas y cuidar el vínculo sin convertir el aprendizaje en presión.'],
+    ['Para estudiantes', 'Herramientas para repasar, nombrar lo aprendido, crear evidencias y mirar el proyecto desde la vida cotidiana.'],
+    ['Para comunidad', 'Materiales que ayudan a vincular escuela, territorio, memoria, cultura, cuidado y participación.'],
+  ];
+
+  return (
+    <section id="recursos" className="section-pad bg-clay/55">
+      <div className="mx-auto max-w-7xl">
+        <div className="grid gap-7 lg:grid-cols-[0.85fr_1.15fr] lg:items-end">
+          <div>
+            <p className="section-kicker">Recursos</p>
+            <h1 className="section-title">Herramientas para acompañar procesos.</h1>
+          </div>
+          <p className="max-w-3xl leading-8 text-earth">
+            Esta ruta reúne los materiales más útiles del sitio para planear, conversar, crear evidencias, cuidar el
+            aprendizaje y sostener una práctica educativa con conciencia.
+          </p>
+        </div>
+
+        <div className="mt-8 grid gap-4 lg:grid-cols-[1.1fr_0.9fr] lg:items-stretch">
+          <article className="compact-card bg-forest text-cream">
+            <div className="flex h-14 w-14 items-center justify-center rounded-full bg-gold/20 text-gold">
+              <Shell size={27} aria-hidden="true" />
+            </div>
+            <p className="section-kicker mt-6 text-gold">Herramienta principal</p>
+            <h2 className="mt-3 font-serif text-3xl leading-tight sm:text-5xl">Caracoles Resonando</h2>
+            <p className="mt-5 max-w-3xl leading-8 text-cream/80">
+              Planea tu Proyecto Académico de Telesecundaria con ficha curricular, ubicación en libros, conceptos,
+              mapa mental integrado, autoevaluación y formato imprimible.
+            </p>
+            <a className="btn-gold mt-7" href="/recursos/caracoles-resonando">
+              Abrir herramienta
+              <ArrowUpRight size={18} aria-hidden="true" />
+            </a>
+          </article>
+
+          <article className="compact-card bg-cream/90">
+            <p className="section-kicker text-terracotta">Cómo usar esta ruta</p>
+            <ol className="mt-5 grid gap-3 text-earth">
+              {[
+                'Elige primero el tipo de acompañamiento que necesitas.',
+                'Abre la herramienta o sección relacionada.',
+                'Recupera una pregunta, una fuente o una evidencia concreta.',
+                'Vuelve a la página principal cuando quieras recorrer el proyecto completo.',
+              ].map((item, index) => (
+                <li key={item} className="flex gap-3 leading-7">
+                  <span className="mt-1 inline-flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-gold text-sm font-black text-ink">
+                    {index + 1}
+                  </span>
+                  <span>{item}</span>
+                </li>
+              ))}
+            </ol>
+          </article>
+        </div>
+
+        <div className="mt-5 grid gap-4 md:grid-cols-3">
+          {resourceSteps.map(({ title, text, href, action, icon: Icon }) => (
+            <article key={title} className="compact-card">
+              <div className="flex h-12 w-12 items-center justify-center rounded-full bg-gold/20 text-terracotta">
+                <Icon size={23} aria-hidden="true" />
+              </div>
+              <h2 className="mt-5 font-serif text-2xl leading-tight text-forest">{title}</h2>
+              <p className="mt-3 leading-7 text-earth">{text}</p>
+              <a className="mt-5 inline-flex items-center gap-2 text-sm font-semibold text-forest" href={href}>
+                {action}
+                <ArrowUpRight size={16} aria-hidden="true" />
+              </a>
+            </article>
+          ))}
+        </div>
+
+        <div className="mt-5 grid gap-4 lg:grid-cols-[0.9fr_1.1fr]">
+          <article className="compact-card bg-white/85">
+            <p className="section-kicker text-terracotta">Beneficio educativo</p>
+            <h2 className="mt-3 font-serif text-3xl leading-tight text-forest">Del recurso suelto al proceso con sentido.</h2>
+            <p className="mt-4 leading-8 text-earth">
+              La intención no es acumular materiales, sino elegir aquello que ayude a comprender, dialogar, crear y
+              valorar aprendizajes situados. Cada recurso debe abrir una pregunta, ordenar una acción o fortalecer una
+              evidencia.
+            </p>
+          </article>
+
+          <div className="grid gap-3 sm:grid-cols-2">
+            {resourceUses.map(([title, text]) => (
+              <article key={title} className="rounded-[1.25rem] border border-earth/15 bg-cream p-5 shadow-soft">
+                <h3 className="font-serif text-2xl leading-tight text-forest">{title}</h3>
+                <p className="mt-3 text-sm leading-7 text-earth">{text}</p>
+              </article>
+            ))}
+          </div>
+        </div>
+
+        <div className="mt-5 rounded-[1.5rem] border border-gold/35 bg-[#fff8ee] p-5 shadow-soft sm:p-7">
+          <p className="section-kicker text-terracotta">Siguiente paso sugerido</p>
+          <div className="mt-4 grid gap-4 lg:grid-cols-[1fr_auto] lg:items-center">
+            <p className="max-w-4xl leading-8 text-earth">
+              Si vienes por una necesidad docente concreta, empieza en Caracoles Resonando. Si vienes a conocer la
+              propuesta completa, regresa a Empieza aquí y elige la ruta que mejor dialogue contigo.
+            </p>
+            <a className="btn-primary justify-self-start" href="/empieza-aqui">
+              Elegir ruta de entrada
+              <ArrowUpRight size={18} aria-hidden="true" />
+            </a>
+          </div>
+        </div>
       </div>
     </section>
   );
