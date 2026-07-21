@@ -1444,8 +1444,8 @@ function StartHere() {
                   className="h-56 w-full object-cover object-[50%_18%]"
                 />
                 <figcaption className="p-4 text-sm leading-7 text-cream/78">
-                  Kandytoon puede convertirse en una acompañante virtual de las rutas: una presencia breve que oriente,
-                  pregunte y anime sin saturar la experiencia.
+                  Imagen de acompañamiento para orientar la ruta docente con presencia cálida, preguntas breves y
+                  sentido pedagógico.
                 </figcaption>
               </figure>
             </div>
