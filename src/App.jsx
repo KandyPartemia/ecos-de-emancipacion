@@ -1444,8 +1444,8 @@ function StartHere() {
                   className="h-56 w-full object-cover object-[50%_18%]"
                 />
                 <figcaption className="p-4 text-sm leading-7 text-cream/78">
-                  Imagen de acompañamiento para orientar la ruta docente con presencia cálida, preguntas breves y
-                  sentido pedagógico.
+                  Una duda abre la Cognitología: ¿qué cambia en el aprendizaje cuando la conciencia empieza a mirar cómo
+                  piensa?
                 </figcaption>
               </figure>
             </div>
