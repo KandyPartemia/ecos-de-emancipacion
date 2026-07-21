@@ -323,16 +323,25 @@ const resourceCards = [
   {
     title: 'Guías y formatos',
     text: 'Materiales editables y herramientas en preparación para acompañar procesos educativos.',
+    benefit: 'Planeación, bitácoras y formatos de apoyo.',
+    action: 'Ver recursos',
+    href: '/recursos',
     icon: FileText,
   },
   {
     title: 'Lecturas y autores',
     text: 'Rutas de lectura para profundizar en pedagogía, conciencia crítica y vida cotidiana.',
+    benefit: 'Referentes para ampliar mirada pedagógica.',
+    action: 'Explorar ruta',
+    href: '/recursos',
     icon: BookOpen,
   },
   {
     title: 'Audios y herramientas',
     text: 'Recursos sonoros, preguntas y ejercicios para pensar, cuidar y seguir caminando.',
+    benefit: 'Acompañamiento sensible para clase y casa.',
+    action: 'Abrir apoyos',
+    href: '/#universo-musical',
     icon: NotebookTabs,
   },
 ];
@@ -1092,29 +1101,50 @@ function Resources() {
             Materiales, guías, lecturas, audios y herramientas para acompañar procesos de conciencia, aprendizaje y transformación interior.
           </p>
         </div>
-        <div className="mt-8 grid gap-3 md:grid-cols-3">
-          {resourceCards.map(({ title, text, icon: Icon }) => (
-            <article key={title} className="compact-card">
-              <div className="flex h-12 w-12 items-center justify-center rounded-full bg-gold/20 text-terracotta">
-                <Icon size={23} aria-hidden="true" />
+        <div className="mt-8 grid gap-4 md:grid-cols-3">
+          {resourceCards.map(({ title, text, benefit, action, href, icon: Icon }) => (
+            <article key={title} className="compact-card flex min-h-full flex-col">
+              <div className="rounded-[1.2rem] border border-gold/25 bg-[#fff8ee] p-4">
+                <div className="flex h-14 w-14 items-center justify-center rounded-full bg-gold/25 text-terracotta">
+                  <Icon size={27} aria-hidden="true" />
+                </div>
+                <p className="mt-4 text-xs font-black uppercase tracking-[0.14em] text-terracotta">Entrada disponible</p>
               </div>
               <h3 className="mt-5 font-serif text-2xl leading-tight text-forest">{title}</h3>
               <p className="mt-3 leading-7 text-earth">{text}</p>
+              <p className="mt-4 rounded-2xl bg-clay/55 px-4 py-3 text-sm font-semibold leading-6 text-forest">
+                {benefit}
+              </p>
+              <a className="mt-auto inline-flex items-center gap-2 pt-5 text-sm font-semibold text-forest" href={href}>
+                {action}
+                <ArrowUpRight size={16} aria-hidden="true" />
+              </a>
             </article>
           ))}
         </div>
-        <article className="compact-card mt-3 border-forest/20 bg-cream/80">
-          <div className="flex h-12 w-12 items-center justify-center rounded-full bg-gold/20 text-terracotta">
-            <Shell size={23} aria-hidden="true" />
+        <article className="compact-card mt-4 overflow-hidden border-forest/20 bg-cream/80">
+          <div className="grid gap-5 lg:grid-cols-[0.75fr_1.25fr] lg:items-center">
+            <div className="rounded-[1.35rem] bg-forest p-5 text-cream">
+              <div className="flex h-14 w-14 items-center justify-center rounded-full bg-gold/20 text-gold">
+                <Shell size={27} aria-hidden="true" />
+              </div>
+              <p className="section-kicker mt-5 text-gold">Herramienta lista</p>
+              <p className="mt-3 font-serif text-3xl leading-tight">432 Proyectos Académicos</p>
+              <p className="mt-3 text-sm leading-7 text-cream/78">
+                Selector, ficha curricular, mapa mental, autoevaluación y formato imprimible.
+              </p>
+            </div>
+            <div>
+              <h3 className="font-serif text-3xl leading-tight text-forest">Caracoles Resonando</h3>
+              <p className="mt-3 leading-7 text-earth">
+                Guía para comprender proyectos académicos, criterios de pensamiento, resonancias y juegos de repaso.
+              </p>
+              <a className="btn-primary mt-5" href="/recursos/caracoles-resonando">
+                Abrir herramienta
+                <ArrowUpRight size={16} aria-hidden="true" />
+              </a>
+            </div>
           </div>
-          <h3 className="mt-5 font-serif text-2xl leading-tight text-forest">Caracoles Resonando</h3>
-          <p className="mt-3 leading-7 text-earth">
-            Guía para comprender proyectos académicos, criterios de pensamiento, resonancias y juegos de repaso.
-          </p>
-          <a className="mt-5 inline-flex items-center gap-2 text-sm font-semibold text-forest" href="/recursos/caracoles-resonando">
-            Abrir herramienta
-            <ArrowUpRight size={16} aria-hidden="true" />
-          </a>
         </article>
       </div>
     </section>
@@ -1126,6 +1156,8 @@ function ResourcesPage() {
     {
       title: 'Planea un Proyecto Académico',
       text: 'Abre Caracoles Resonando, elige grado, campo formativo y PA para revisar ficha curricular, fuentes, mapa mental y autoevaluación.',
+      label: 'Herramienta interactiva',
+      result: 'Ficha, mapa mental, evaluación y PDF imprimible.',
       href: '/recursos/caracoles-resonando',
       action: 'Abrir Caracoles Resonando',
       icon: Shell,
@@ -1133,6 +1165,8 @@ function ResourcesPage() {
     {
       title: 'Recupera preguntas para pensar',
       text: 'Usa las rutas de Empieza aquí para preparar una conversación docente, familiar o estudiantil antes de elegir un recurso.',
+      label: 'Ruta de entrada',
+      result: 'Preguntas guía para docentes, familias y jóvenes.',
       href: '/empieza-aqui',
       action: 'Ir a Empieza aquí',
       icon: DoorOpen,
@@ -1140,6 +1174,8 @@ function ResourcesPage() {
     {
       title: 'Acompaña con palabra y música',
       text: 'Explora resonancias, canales sonoros y materiales que ayudan a sostener una experiencia educativa más sensible y consciente.',
+      label: 'Acompañamiento sensible',
+      result: 'Canales, textos y apoyos para sostener el proceso.',
       href: '/#universo-musical',
       action: 'Explorar universo musical',
       icon: Music,
@@ -1205,14 +1241,18 @@ function ResourcesPage() {
         </div>
 
         <div className="mt-5 grid gap-4 md:grid-cols-3">
-          {resourceSteps.map(({ title, text, href, action, icon: Icon }) => (
-            <article key={title} className="compact-card">
-              <div className="flex h-12 w-12 items-center justify-center rounded-full bg-gold/20 text-terracotta">
-                <Icon size={23} aria-hidden="true" />
+          {resourceSteps.map(({ title, text, label, result, href, action, icon: Icon }) => (
+            <article key={title} className="compact-card flex min-h-full flex-col overflow-hidden">
+              <div className="rounded-[1.25rem] bg-forest p-5 text-cream">
+                <div className="flex h-14 w-14 items-center justify-center rounded-full bg-gold/20 text-gold">
+                  <Icon size={27} aria-hidden="true" />
+                </div>
+                <p className="section-kicker mt-5 text-gold">{label}</p>
+                <p className="mt-3 text-sm font-semibold leading-7 text-cream/82">{result}</p>
               </div>
               <h2 className="mt-5 font-serif text-2xl leading-tight text-forest">{title}</h2>
               <p className="mt-3 leading-7 text-earth">{text}</p>
-              <a className="mt-5 inline-flex items-center gap-2 text-sm font-semibold text-forest" href={href}>
+              <a className="btn-secondary mt-auto self-start" href={href}>
                 {action}
                 <ArrowUpRight size={16} aria-hidden="true" />
               </a>
