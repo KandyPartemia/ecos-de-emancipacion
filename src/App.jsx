@@ -62,7 +62,7 @@ const IMAGES = {
 const navItems = [
   { label: 'Inicio', href: '/#inicio' },
   { label: 'Manifiesto', href: '/#manifiesto' },
-  { label: 'Resonancias', href: '/#resonancias' },
+  { label: 'Resonancias', href: '/resonancias' },
   { label: 'Pilares', href: '/#pilares' },
   { label: 'Escuela', href: '/#escuela' },
   { label: 'Recursos', href: '/recursos' },
@@ -76,7 +76,7 @@ const mobileNavItems = navItems;
 const quickLinks = [
   { title: 'Inicio', href: '/#inicio', icon: Home },
   { title: 'Manifiesto', href: '/#manifiesto', icon: Leaf },
-  { title: 'Resonancias', href: '/#resonancias', icon: BookOpenText },
+  { title: 'Resonancias', href: '/resonancias', icon: BookOpenText },
   { title: 'Pilares', href: '/#pilares', icon: CircleDot },
   { title: 'Escuela', href: '/#escuela', icon: School },
   { title: 'Recursos', href: '/recursos', icon: NotebookTabs },
@@ -106,7 +106,7 @@ const universeNodes = [
     id: 'resonancias',
     title: 'Resonancias',
     text: 'Reflexiones, relatos, artículos poéticos, textos pedagógicos y meditaciones escritas para despertar conciencia.',
-    href: '#resonancias',
+    href: '/resonancias',
     icon: BookOpenText,
     position: 'left-[88%] top-[42%] -translate-x-1/2',
   },
@@ -296,7 +296,7 @@ const projects = [
     text: 'Reflexiones, relatos, artículos poéticos y meditaciones escritas para despertar conciencia.',
     status: 'En construcción',
     action: 'Leer resonancias',
-    href: '#resonancias',
+    href: '/resonancias',
     icon: FileText,
   },
 ];
@@ -532,6 +532,11 @@ const ROUTE_METADATA = {
     description:
       'Canales sonoros, canciones y proyectos musicales de Ecos de Emancipación para acompañar conciencia, plenitud y esperanza.',
   },
+  '/resonancias': {
+    title: 'Resonancias | Ecos de Emancipación',
+    description:
+      'Textos, preguntas y rutas de lectura para mirar vida cotidiana, espiritualidad situada, educación y conciencia.',
+  },
 };
 
 const CaracolesApp = lazy(() => import('./caracoles/CaracolesApp'));
@@ -622,6 +627,20 @@ function App() {
         <Header />
         <main className="min-h-screen overflow-hidden bg-cream pt-[4.75rem] text-ink sm:pt-[5rem]">
           <MusicUniverse />
+          <Invitation />
+          <Footer />
+          <BackToTop />
+        </main>
+      </>
+    );
+  }
+
+  if (currentPath === '/resonancias') {
+    return (
+      <>
+        <Header />
+        <main className="min-h-screen overflow-hidden bg-cream pt-[4.75rem] text-ink sm:pt-[5rem]">
+          <Resonances isPage />
           <Invitation />
           <Footer />
           <BackToTop />
@@ -977,27 +996,78 @@ function Manifesto() {
   );
 }
 
-function Resonances() {
+function Resonances({ isPage = false }) {
+  const resonanceReadingPath = [
+    ['Antes de leer', 'Elige una pregunta que dialogue con tu día, tu aula o tu comunidad.'],
+    ['Durante la lectura', 'Subraya una frase que te ayude a nombrar algo que ya sentías o intuías.'],
+    ['Después de leer', 'Convierte la resonancia en una acción pequeña: conversar, escribir, agradecer o decidir.'],
+  ];
+
   return (
     <section id="resonancias" className="section-pad bg-clay/45">
-      <div className="mx-auto grid max-w-7xl gap-8 lg:grid-cols-[0.75fr_1.25fr] lg:items-start">
-        <div>
-          <p className="section-kicker">Resonancias</p>
-          <h2 className="section-title">Palabra escrita para volver a mirar.</h2>
-          <p className="mt-5 max-w-2xl leading-8 text-earth">
-            Reflexiones escritas para mirar la vida cotidiana, la espiritualidad, la educación y la conciencia desde una palabra amorosa, crítica y emancipadora.
-          </p>
+      <div className="mx-auto max-w-7xl">
+        <div className="grid gap-8 lg:grid-cols-[0.75fr_1.25fr] lg:items-start">
+          <div>
+            <p className="section-kicker">Resonancias</p>
+            {isPage ? (
+              <h1 className="section-title">Palabra escrita para volver a mirar.</h1>
+            ) : (
+              <h2 className="section-title">Palabra escrita para volver a mirar.</h2>
+            )}
+            <p className="mt-5 max-w-2xl leading-8 text-earth">
+              Reflexiones escritas para mirar la vida cotidiana, la espiritualidad, la educación y la conciencia desde una palabra amorosa, crítica y emancipadora.
+            </p>
+          </div>
+          <div className="grid gap-3 sm:grid-cols-3">
+            {resonanceCards.map(({ title, text, icon: Icon }) => (
+              <article key={title} className="compact-card flex min-h-full flex-col">
+                <div className="rounded-[1.2rem] bg-forest p-5 text-cream">
+                  <Icon className="text-gold" size={27} aria-hidden="true" />
+                  <p className="section-kicker mt-5 text-gold">Ruta de lectura</p>
+                </div>
+                <h3 className="mt-5 font-serif text-2xl leading-tight text-forest">{title}</h3>
+                <p className="mt-3 leading-7 text-earth">{text}</p>
+                <a className="mt-auto inline-flex items-center gap-2 pt-5 text-sm font-semibold text-forest" href="/resonancias">
+                  Leer esta ruta
+                  <ArrowUpRight size={16} aria-hidden="true" />
+                </a>
+              </article>
+            ))}
+          </div>
         </div>
-        <div className="grid gap-3 sm:grid-cols-3">
-          {resonanceCards.map(({ title, text, icon: Icon }) => (
-            <article key={title} className="compact-card">
-              <Icon className="text-terracotta" size={25} aria-hidden="true" />
-              <h3 className="mt-5 font-serif text-2xl leading-tight text-forest">{title}</h3>
-              <p className="mt-3 leading-7 text-earth">{text}</p>
-              <span className="mt-5 inline-flex text-sm font-semibold text-terracotta">En preparación</span>
+
+        {isPage && (
+          <div className="mt-7 grid gap-4 lg:grid-cols-[0.95fr_1.05fr]">
+            <article className="compact-card bg-forest text-cream">
+              <p className="section-kicker text-gold">Modo de lectura</p>
+              <h2 className="mt-3 font-serif text-3xl leading-tight sm:text-5xl">Leer para reconocer lo que la vida ya está diciendo.</h2>
+              <p className="mt-5 leading-8 text-cream/80">
+                Las resonancias no son textos para consumir rápido: son pequeñas puertas para detenerse, nombrar una
+                experiencia, conversar con alguien o volver a mirar una decisión cotidiana.
+              </p>
+              <a className="btn-gold mt-7" href="/empieza-aqui">
+                Elegir ruta de entrada
+                <ArrowUpRight size={18} aria-hidden="true" />
+              </a>
             </article>
-          ))}
-        </div>
+
+            <div className="grid gap-3">
+              {resonanceReadingPath.map(([title, text], index) => (
+                <article key={title} className="rounded-[1.25rem] border border-earth/15 bg-cream p-5 shadow-soft">
+                  <div className="flex gap-4">
+                    <span className="inline-flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-gold text-sm font-black text-ink">
+                      {index + 1}
+                    </span>
+                    <div>
+                      <h3 className="font-serif text-2xl leading-tight text-forest">{title}</h3>
+                      <p className="mt-2 leading-7 text-earth">{text}</p>
+                    </div>
+                  </div>
+                </article>
+              ))}
+            </div>
+          </div>
+        )}
       </div>
     </section>
   );
