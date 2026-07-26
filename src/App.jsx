@@ -110,7 +110,15 @@ const universeNodes = [
     text: 'Reflexiones, relatos, artículos poéticos, textos pedagógicos y meditaciones escritas para despertar conciencia.',
     href: '/resonancias',
     icon: BookOpenText,
-    position: 'left-[88%] top-[42%] -translate-x-1/2',
+    position: 'left-[90%] top-[34%] -translate-x-1/2',
+  },
+  {
+    id: 'cognitologia',
+    title: 'Cognitología',
+    text: 'Entrada teórica y práctica para mirar cómo pensamos, sentimos, aprendemos y decidimos en la vida cotidiana.',
+    href: '/cognitologia',
+    icon: Brain,
+    position: 'left-[90%] top-[58%] -translate-x-1/2',
   },
   {
     id: 'pilares',
@@ -118,7 +126,7 @@ const universeNodes = [
     text: 'Fundamentos del proyecto: conciencia, emancipación, espiritualidad, pedagogía, amor, justicia y pensamiento crítico.',
     href: '/pilares',
     icon: CircleDot,
-    position: 'left-[82%] top-[69%] -translate-x-1/2',
+    position: 'left-[78%] top-[78%] -translate-x-1/2',
   },
   {
     id: 'escuela',
@@ -142,7 +150,7 @@ const universeNodes = [
     text: 'Canciones, álbumes y proyectos sonoros vinculados a la conciencia, la esperanza, la plenitud y la transformación interior.',
     href: '/universo-musical',
     icon: Music,
-    position: 'left-[18%] top-[69%] -translate-x-1/2',
+    position: 'left-[22%] top-[78%] -translate-x-1/2',
   },
   {
     id: 'tienda',
@@ -150,7 +158,7 @@ const universeNodes = [
     text: 'Libros, cuadernos, recursos digitales, materiales formativos y productos del ecosistema.',
     href: '/tienda',
     icon: ShoppingBag,
-    position: 'left-[12%] top-[42%] -translate-x-1/2',
+    position: 'left-[10%] top-[58%] -translate-x-1/2',
   },
   {
     id: 'empieza',
@@ -183,6 +191,11 @@ const SECTION_VISUALS = {
     label: 'Ondas de palabra',
     tone: 'resonancias',
     alt: 'Imagen simbólica de la sección Resonancias de Ecos de Emancipación',
+  },
+  cognitologia: {
+    label: 'Pensamiento y conciencia',
+    tone: 'cognitologia',
+    alt: 'Imagen simbólica de la sección Cognitología de Ecos de Emancipación',
   },
   pilares: {
     image: '/images/ecos-pilares-visual.webp',
@@ -967,7 +980,7 @@ function UniverseMap() {
   const activeVisual = SECTION_VISUALS[activeNode.id] ?? SECTION_VISUALS.inicio;
   const mobileUniverseNodes = showFullMobileMap
     ? universeNodes
-    : universeNodes.filter(({ id }) => ['inicio', 'manifiesto', 'resonancias', 'escuela'].includes(id));
+    : universeNodes.filter(({ id }) => ['inicio', 'manifiesto', 'cognitologia', 'resonancias', 'escuela'].includes(id));
 
   return (
     <section id="mapa-universo" className="section-pad bg-clay/55">
@@ -1055,9 +1068,9 @@ function UniverseMap() {
                   aria-controls={`mobile-universe-${id}`}
                   onClick={() => setActiveNodeId(isActive ? '' : id)}
                 >
-                  <span className="flex items-center gap-3 font-serif text-xl font-semibold leading-none">
+                  <span className="flex min-w-0 items-center gap-3 font-serif text-xl font-semibold leading-tight">
                     <Icon className="text-terracotta" size={21} aria-hidden="true" />
-                    {title}
+                    <span className="min-w-0 break-words">{title}</span>
                   </span>
                   <ArrowDown className={`shrink-0 transition ${isActive ? 'rotate-180' : ''}`} size={18} aria-hidden="true" />
                 </button>
