@@ -61,14 +61,14 @@ const IMAGES = {
 
 const navItems = [
   { label: 'Inicio', href: '/#inicio' },
-  { label: 'Manifiesto', href: '/#manifiesto' },
+  { label: 'Manifiesto', href: '/manifiesto' },
   { label: 'Resonancias', href: '/resonancias' },
-  { label: 'Pilares', href: '/#pilares' },
+  { label: 'Pilares', href: '/pilares' },
   { label: 'Cognitología', href: '/cognitologia' },
-  { label: 'Escuela', href: '/#escuela' },
+  { label: 'Escuela', href: '/escuela' },
   { label: 'Recursos', href: '/recursos' },
   { label: 'Universo musical', href: '/universo-musical' },
-  { label: 'Tienda', href: '/#tienda' },
+  { label: 'Tienda', href: '/tienda' },
   { label: 'Empieza Aquí', href: '/empieza-aqui', cta: true },
 ];
 
@@ -76,14 +76,14 @@ const mobileNavItems = navItems;
 
 const quickLinks = [
   { title: 'Inicio', href: '/#inicio', icon: Home },
-  { title: 'Manifiesto', href: '/#manifiesto', icon: Leaf },
+  { title: 'Manifiesto', href: '/manifiesto', icon: Leaf },
   { title: 'Resonancias', href: '/resonancias', icon: BookOpenText },
-  { title: 'Pilares', href: '/#pilares', icon: CircleDot },
+  { title: 'Pilares', href: '/pilares', icon: CircleDot },
   { title: 'Cognitología', href: '/cognitologia', icon: Brain },
-  { title: 'Escuela', href: '/#escuela', icon: School },
+  { title: 'Escuela', href: '/escuela', icon: School },
   { title: 'Recursos', href: '/recursos', icon: NotebookTabs },
   { title: 'Universo musical', href: '/universo-musical', icon: Music },
-  { title: 'Tienda', href: '/#tienda', icon: ShoppingBag },
+  { title: 'Tienda', href: '/tienda', icon: ShoppingBag },
   { title: 'Empieza Aquí', href: '/empieza-aqui', icon: DoorOpen },
 ];
 
@@ -92,7 +92,7 @@ const universeNodes = [
     id: 'inicio',
     title: 'Inicio',
     text: 'Entrada general al universo Ecos de Emancipación.',
-    href: '#inicio',
+    href: '/#inicio',
     icon: Home,
     position: 'left-[50%] top-[8%] -translate-x-1/2',
   },
@@ -100,7 +100,7 @@ const universeNodes = [
     id: 'manifiesto',
     title: 'Manifiesto',
     text: 'Declaración ética, espiritual y pedagógica del proyecto.',
-    href: '#manifiesto',
+    href: '/manifiesto',
     icon: Leaf,
     position: 'left-[75%] top-[16%] -translate-x-1/2',
   },
@@ -116,7 +116,7 @@ const universeNodes = [
     id: 'pilares',
     title: 'Pilares',
     text: 'Fundamentos del proyecto: conciencia, emancipación, espiritualidad, pedagogía, amor, justicia y pensamiento crítico.',
-    href: '#pilares',
+    href: '/pilares',
     icon: CircleDot,
     position: 'left-[82%] top-[69%] -translate-x-1/2',
   },
@@ -124,7 +124,7 @@ const universeNodes = [
     id: 'escuela',
     title: 'Escuela',
     text: 'Talleres, cursos, rutas formativas, comunidad de aprendizaje y propuestas pedagógicas.',
-    href: '#escuela',
+    href: '/escuela',
     icon: School,
     position: 'left-[62%] top-[88%] -translate-x-1/2',
   },
@@ -148,7 +148,7 @@ const universeNodes = [
     id: 'tienda',
     title: 'Tienda',
     text: 'Libros, cuadernos, recursos digitales, materiales formativos y productos del ecosistema.',
-    href: '#tienda',
+    href: '/tienda',
     icon: ShoppingBag,
     position: 'left-[12%] top-[42%] -translate-x-1/2',
   },
@@ -264,39 +264,39 @@ const projects = [
   {
     title: 'Recursos para docentes',
     text: 'Cuadernos, preguntas y materiales para el aula como territorio vivo.',
-    status: 'En construcción',
+    status: 'Activo',
     action: 'Explorar recursos',
-    href: '#tienda',
+    href: '/recursos',
     icon: NotebookTabs,
   },
   {
     title: 'Familias que acompañan',
     text: 'Rutas sencillas para orientar sin miedo, culpa ni recetas vacías.',
-    status: 'En construcción',
+    status: 'Activo',
     action: 'Leer propuesta',
-    href: '#familias',
+    href: '/familias',
     icon: Home,
   },
   {
     title: 'Jóvenes con criterio',
     text: 'Preguntas e ideas para pensar la vida, la escuela y el lugar propio.',
-    status: 'En construcción',
+    status: 'Activo',
     action: 'Ver ruta',
-    href: '#jovenes',
+    href: '/jovenes',
     icon: Sparkles,
   },
   {
     title: 'Producción poética y musical',
     text: 'Palabra sensible para nombrar memoria, territorio y transformación.',
-    status: 'Próximamente',
-    action: 'Próximamente',
-    href: '#proyectos',
+    status: 'Activo',
+    action: 'Explorar música',
+    href: '/universo-musical',
     icon: Feather,
   },
   {
     title: 'Resonancias',
     text: 'Reflexiones, relatos, artículos poéticos y meditaciones escritas para despertar conciencia.',
-    status: 'En construcción',
+    status: 'Activo',
     action: 'Leer resonancias',
     href: '/resonancias',
     icon: FileText,
@@ -461,7 +461,7 @@ const paths = [
     question: '¿Cómo puedo acompañar sin presionar, sin culpa y con más claridad?',
     text: 'Encuentra una entrada sencilla para mirar el aprendizaje desde el cuidado, la conversación y la confianza.',
     action: 'Ver ruta familias',
-    href: '#familias',
+    href: '/familias',
     icon: Home,
   },
   {
@@ -470,7 +470,7 @@ const paths = [
     question: '¿Qué puedo pensar, crear o revisar para comprender mejor mi vida escolar?',
     text: 'Explora preguntas e ideas para mirar tu escuela, tu identidad, tus decisiones y tu relación con la comunidad.',
     action: 'Empezar ruta',
-    href: '#jovenes',
+    href: '/jovenes',
     icon: Sparkles,
   },
   {
@@ -479,7 +479,7 @@ const paths = [
     question: '¿Qué es Ecos de Emancipación y por dónde conviene comenzar?',
     text: 'Recorre el manifiesto, el mapa del universo Ecos y las secciones principales para entender el sentido de la propuesta.',
     action: 'Leer manifiesto',
-    href: '#manifiesto',
+    href: '/manifiesto',
     icon: Compass,
   },
 ];
@@ -544,6 +544,41 @@ const ROUTE_METADATA = {
     description:
       'Entrada conceptual a la Cognitología para la vida cotidiana: criterios de pensamiento, artilugios pedagógicos, resonancia y aula habitable.',
   },
+  '/manifiesto': {
+    title: 'Manifiesto | Ecos de Emancipación',
+    description:
+      'Declaración ética y pedagógica de Ecos de Emancipación: educación crítica, conciencia, comunidad y esperanza.',
+  },
+  '/pilares': {
+    title: 'Pilares | Ecos de Emancipación',
+    description:
+      'Fundamentos de Ecos de Emancipación para pensar conciencia, pedagogía, espiritualidad situada, justicia y comunidad.',
+  },
+  '/escuela': {
+    title: 'Escuela | Ecos de Emancipación',
+    description:
+      'Rutas formativas, acompañamiento docente y propuestas pedagógicas para habitar la escuela con conciencia.',
+  },
+  '/tienda': {
+    title: 'Tienda | Ecos de Emancipación',
+    description:
+      'Entrada a recursos, cuadernos, materiales digitales y herramientas pedagógicas del universo Ecos de Emancipación.',
+  },
+  '/familias': {
+    title: 'Familias | Ecos de Emancipación',
+    description:
+      'Ruta para acompañar aprendizajes desde el cuidado, la conversación y la confianza entre escuela, estudiantes y familias.',
+  },
+  '/jovenes': {
+    title: 'Jóvenes | Ecos de Emancipación',
+    description:
+      'Preguntas y rutas para que estudiantes y jóvenes piensen su escuela, su identidad y su lugar en la comunidad.',
+  },
+  '/proyectos': {
+    title: 'Proyectos | Ecos de Emancipación',
+    description:
+      'Mapa de proyectos, canales, recursos y rutas activas de Ecos de Emancipación para docentes, familias y estudiantes.',
+  },
 };
 
 const CaracolesApp = lazy(() => import('./caracoles/CaracolesApp'));
@@ -574,6 +609,20 @@ function CaracolesLoading() {
         </p>
       </div>
     </main>
+  );
+}
+
+function SiteRoute({ children }) {
+  return (
+    <>
+      <Header />
+      <main className="min-h-screen overflow-hidden bg-cream pt-[4.75rem] text-ink sm:pt-[5rem]">
+        {children}
+        <Invitation />
+        <Footer />
+        <BackToTop />
+      </main>
+    </>
   );
 }
 
@@ -670,6 +719,63 @@ function App() {
     );
   }
 
+  if (currentPath === '/manifiesto') {
+    return (
+      <SiteRoute>
+        <Manifesto />
+      </SiteRoute>
+    );
+  }
+
+  if (currentPath === '/pilares') {
+    return (
+      <SiteRoute>
+        <Pillars />
+      </SiteRoute>
+    );
+  }
+
+  if (currentPath === '/escuela') {
+    return (
+      <SiteRoute>
+        <SchoolSection />
+      </SiteRoute>
+    );
+  }
+
+  if (currentPath === '/tienda') {
+    return (
+      <SiteRoute>
+        <Store />
+      </SiteRoute>
+    );
+  }
+
+  if (currentPath === '/familias') {
+    return (
+      <SiteRoute>
+        <Families />
+      </SiteRoute>
+    );
+  }
+
+  if (currentPath === '/jovenes') {
+    return (
+      <SiteRoute>
+        <Youth />
+      </SiteRoute>
+    );
+  }
+
+  if (currentPath === '/proyectos') {
+    return (
+      <SiteRoute>
+        <Projects />
+        <CaracolesSpotlight />
+      </SiteRoute>
+    );
+  }
+
   return (
     <>
       <Header />
@@ -707,7 +813,7 @@ function Header() {
     <header className="fixed inset-x-0 top-0 z-50 border-b border-earth/15 bg-cream/92 px-4 py-3 shadow-[0_18px_55px_rgba(21,18,14,0.08)] backdrop-blur-xl sm:px-8 lg:px-10">
       <nav className="mx-auto max-w-7xl text-sm" aria-label="Menú principal">
         <div className="flex min-w-0 items-center justify-between gap-3">
-          <a className="min-w-0 truncate font-serif text-xl leading-none text-forest sm:text-2xl" href="#inicio" aria-label="Ecos de Emancipación">
+          <a className="min-w-0 truncate font-serif text-xl leading-none text-forest sm:text-2xl" href="/#inicio" aria-label="Ecos de Emancipación">
             Ecos de Emancipación
           </a>
           <ul className="hidden shrink-0 items-center gap-1 text-earth xl:flex">
@@ -721,7 +827,7 @@ function Header() {
           </ul>
           <BuyMeACoffeeLink variant="header" className="hidden shrink-0 xl:inline-flex" />
           <div className="relative z-[60] ml-auto flex shrink-0 items-center gap-2 xl:hidden">
-            <a className="nav-cta hidden sm:inline-flex" href="#empieza">
+            <a className="nav-cta hidden sm:inline-flex" href="/empieza-aqui">
               Empieza Aquí
             </a>
             <button
