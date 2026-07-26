@@ -757,6 +757,7 @@ function SiteRoute({ children }) {
         {children}
         <Invitation />
         <Footer />
+        <BackToMap />
         <BackToTop />
       </main>
     </>
@@ -780,9 +781,13 @@ function App() {
 
   if (currentPath === '/recursos/caracoles-resonando') {
     return (
-      <Suspense fallback={<CaracolesLoading />}>
-        <CaracolesApp />
-      </Suspense>
+      <>
+        <Suspense fallback={<CaracolesLoading />}>
+          <CaracolesApp />
+        </Suspense>
+        <BackToMap />
+        <BackToTop />
+      </>
     );
   }
 
@@ -794,6 +799,7 @@ function App() {
           <StartHere />
           <Invitation />
           <Footer />
+          <BackToMap />
           <BackToTop />
         </main>
       </>
@@ -808,6 +814,7 @@ function App() {
           <ResourcesPage />
           <Invitation />
           <Footer />
+          <BackToMap />
           <BackToTop />
         </main>
       </>
@@ -822,6 +829,7 @@ function App() {
           <MusicUniverse />
           <Invitation />
           <Footer />
+          <BackToMap />
           <BackToTop />
         </main>
       </>
@@ -836,6 +844,7 @@ function App() {
           <Resonances isPage />
           <Invitation />
           <Footer />
+          <BackToMap />
           <BackToTop />
         </main>
       </>
@@ -850,6 +859,7 @@ function App() {
           <CognitologyPage />
           <Invitation />
           <Footer />
+          <BackToMap />
           <BackToTop />
         </main>
       </>
@@ -2617,7 +2627,7 @@ function Footer() {
 function BackToMap() {
   return (
     <a
-      href="#mapa-interactivo"
+      href="/#mapa-interactivo"
       aria-label="Volver al mapa del universo Ecos"
       title="Volver al mapa del universo Ecos"
       className="map-floating-button"
@@ -2628,28 +2638,21 @@ function BackToMap() {
 }
 
 function BackToTop() {
-  const [isVisible, setIsVisible] = useState(false);
-
-  useEffect(() => {
-    const handleScroll = () => {
-      setIsVisible(window.scrollY > 420);
-    };
-
-    handleScroll();
-    window.addEventListener('scroll', handleScroll, { passive: true });
-    return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
+  const handleClick = () => {
+    const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    window.scrollTo({ top: 0, behavior: prefersReducedMotion ? 'auto' : 'smooth' });
+  };
 
   return (
-    <a
-      href="#inicio"
+    <button
+      type="button"
       aria-label="Volver arriba"
-      className={`fixed bottom-5 right-5 z-50 inline-flex h-12 w-12 items-center justify-center rounded-full bg-forest text-cream shadow-soft transition duration-200 hover:bg-ink focus:outline-none focus:ring-4 focus:ring-gold/35 ${
-        isVisible ? 'translate-y-0 opacity-100' : 'pointer-events-none translate-y-4 opacity-0'
-      }`}
+      title="Volver arriba"
+      className="top-floating-button"
+      onClick={handleClick}
     >
       <ArrowUp size={20} aria-hidden="true" />
-    </a>
+    </button>
   );
 }
 

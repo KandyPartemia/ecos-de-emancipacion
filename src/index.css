@@ -720,9 +720,9 @@ footer {
   overflow-wrap: anywhere;
 }
 
-.map-floating-button {
+.map-floating-button,
+.top-floating-button {
   position: fixed;
-  left: 1.25rem;
   bottom: 1.25rem;
   z-index: 50;
   display: inline-flex;
@@ -740,12 +740,24 @@ footer {
 }
 
 .map-floating-button:hover,
-.map-floating-button:focus-visible {
+.map-floating-button:focus-visible,
+.top-floating-button:hover,
+.top-floating-button:focus-visible {
   background: #15120e;
   color: #f4efe7;
   outline: none;
   text-decoration: none;
   transform: translateY(-0.12rem);
+}
+
+.map-floating-button {
+  left: 1.25rem;
+}
+
+.top-floating-button {
+  right: 1.25rem;
+  border: 1px solid rgba(196, 154, 74, 0.45);
+  cursor: pointer;
 }
 
 .bg-field-pattern {
@@ -884,11 +896,17 @@ footer {
     width: 100%;
   }
 
-  .map-floating-button {
+  .map-floating-button,
+  .top-floating-button {
     left: 0.85rem;
     bottom: 0.85rem;
     width: 2.75rem;
     height: 2.75rem;
+  }
+
+  .top-floating-button {
+    right: 0.85rem;
+    left: auto;
   }
 }
 
