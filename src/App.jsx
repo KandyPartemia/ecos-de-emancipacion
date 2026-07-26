@@ -56,7 +56,7 @@ const IMAGES = {
   school: '/images/escuela-ecos.webp',
   families: '/images/familias-acompanan.webp',
   youth: '/images/jovenes-criterio.webp',
-  map: '/images/06_mapa-universo-ecos_v2_2x.webp',
+  map: '/images/ecos-universo-mapa-cognitologia.png',
 };
 
 const navItems = [
@@ -193,6 +193,8 @@ const SECTION_VISUALS = {
     alt: 'Imagen simbólica de la sección Resonancias de Ecos de Emancipación',
   },
   cognitologia: {
+    image: '/images/ecos-cognitologia-visual.png',
+    assetName: 'ecos-cognitologia-visual.png',
     label: 'Pensamiento y conciencia',
     tone: 'cognitologia',
     alt: 'Imagen simbólica de la sección Cognitología de Ecos de Emancipación',
@@ -1049,7 +1051,7 @@ function UniverseMap() {
             <figure className="universe-static-map mt-8 overflow-hidden rounded-2xl border border-earth/15 bg-cream/70 p-2">
               <img
                 src={IMAGES.map}
-                alt="Mapa del universo Ecos de Emancipación con las secciones Inicio, Manifiesto, Resonancias, Pilares, Escuela, Recursos, Universo musical, Tienda y Empieza Aquí"
+                alt="Mapa del universo Ecos de Emancipación con las secciones Inicio, Manifiesto, Resonancias, Cognitología, Pilares, Escuela, Recursos, Universo musical, Tienda y Empieza Aquí"
                 className="h-auto w-full rounded-xl opacity-90"
               />
             </figure>
@@ -1097,7 +1099,7 @@ function UniverseMap() {
           <figure className="mt-4 overflow-hidden rounded-2xl border border-earth/15 bg-cream p-2 shadow-soft">
             <img
               src={IMAGES.map}
-              alt="Mapa del universo Ecos de Emancipación con las secciones Inicio, Manifiesto, Resonancias, Pilares, Escuela, Recursos, Universo musical, Tienda y Empieza Aquí"
+              alt="Mapa del universo Ecos de Emancipación con las secciones Inicio, Manifiesto, Resonancias, Cognitología, Pilares, Escuela, Recursos, Universo musical, Tienda y Empieza Aquí"
               className="h-auto w-full rounded-xl"
             />
           </figure>
