@@ -616,6 +616,63 @@ const resourceLibrary = [
   },
 ];
 
+const publicDownloads = [
+  {
+    title: 'Guía docente: Semillero de Conciencia',
+    text: 'Secuencia breve para convertir una situación del aula en pregunta, diálogo, criterio y acuerdo revisable.',
+    audience: 'Docentes',
+    href: '/descargables/guia-docente-semillero-conciencia.md',
+    icon: GraduationCap,
+  },
+  {
+    title: 'Guía para familias: acompañar sin vigilar',
+    text: 'Preguntas cuidadas para estar presentes sin hacer la tarea por la persona joven ni convertir el aprendizaje en presión.',
+    audience: 'Familias y acompañantes',
+    href: '/descargables/guia-familias-acompanar-sin-vigilar.md',
+    icon: Home,
+  },
+  {
+    title: 'Bitácora joven: mi resonancia',
+    text: 'Formato breve para reconocer qué se comprendió, qué criterio apareció y qué acción pequeña puede seguir.',
+    audience: 'Estudiantes y jóvenes',
+    href: '/descargables/bitacora-jovenes-resonancia.md',
+    icon: Sparkles,
+  },
+];
+
+const resonanceSeeds = [
+  ['Para el aula', '¿Qué actividad estamos cumpliendo y qué pregunta viva podría abrirse desde ella?'],
+  ['Para la vida cotidiana', '¿Qué palabra, gesto o decisión de hoy merece ser pensada con más cuidado?'],
+  ['Para la comunidad', '¿Qué problema se repite como si fuera individual, pero tiene historia, condiciones y relaciones?'],
+];
+
+const familyGuideSteps = [
+  ['Escuchar primero', 'Abrir conversación sin interrogatorio: qué intenta comprender, qué necesita y qué ya logró.'],
+  ['Ordenar el proceso', 'Distinguir tarea, fuente, tiempo, materiales y apoyo real sin resolver por la persona joven.'],
+  ['Cuidar el vínculo', 'Poner límites con dignidad, evitar comparaciones y reconocer el esfuerzo situado.'],
+  ['Cerrar con resonancia', 'Preguntar qué aprendió, qué puede explicar y qué apoyo necesita después.'],
+];
+
+const youthGuideSteps = [
+  ['Nombrar', 'Explicar con tus palabras qué está pasando en una tarea, conflicto, decisión o proyecto.'],
+  ['Relacionar', 'Buscar causas, consecuencias, voces, datos o palabras que ayuden a comprender mejor.'],
+  ['Decidir', 'Elegir una acción pequeña y responsable que puedas revisar con otras personas.'],
+  ['Resonar', 'Registrar qué cambió en tu forma de pensar y qué pregunta sigue abierta.'],
+];
+
+const routeDevelopmentProgress = [
+  ['Inicio', 80],
+  ['Empieza aquí', 72],
+  ['Cognitología', 68],
+  ['Caracoles Resonando', 88],
+  ['Recursos', 66],
+  ['Resonancias', 58],
+  ['Familias', 52],
+  ['Jóvenes', 52],
+  ['Escuela', 44],
+  ['Tienda / apoyo solidario', 40],
+];
+
 function ExternalLink({ href, children, className, label }) {
   return (
     <a href={href} target="_blank" rel="noopener noreferrer" className={className} aria-label={label}>
@@ -1343,6 +1400,31 @@ function Resonances({ isPage = false }) {
                 </article>
               ))}
             </div>
+
+            <div className="lg:col-span-2 rounded-[1.5rem] border border-earth/15 bg-cream p-5 shadow-soft sm:p-7">
+              <p className="section-kicker text-terracotta">Semillas de resonancia</p>
+              <h2 className="mt-3 font-serif text-3xl leading-tight text-forest">
+                Preguntas breves para no salir igual de una lectura.
+              </h2>
+              <div className="mt-5 grid gap-3 md:grid-cols-3">
+                {resonanceSeeds.map(([title, text]) => (
+                  <article key={title} className="rounded-[1.2rem] border border-earth/15 bg-white/75 p-5">
+                    <h3 className="font-serif text-2xl leading-tight text-forest">{title}</h3>
+                    <p className="mt-3 text-sm leading-7 text-earth">{text}</p>
+                  </article>
+                ))}
+              </div>
+              <div className="mt-5 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
+                <a className="btn-primary" href="/cognitologia">
+                  Comprender la Cognitología
+                  <ArrowUpRight size={17} aria-hidden="true" />
+                </a>
+                <a className="btn-secondary" href="/recursos">
+                  Buscar un recurso para actuar
+                  <ArrowUpRight size={17} aria-hidden="true" />
+                </a>
+              </div>
+            </div>
           </div>
         )}
       </div>
@@ -1824,6 +1906,35 @@ function ResourcesPage() {
           </div>
         </div>
 
+        <div className="mt-5 rounded-[1.5rem] border border-gold/35 bg-[#fff8ee] p-5 shadow-soft sm:p-7">
+          <div className="grid gap-4 lg:grid-cols-[0.8fr_1.2fr] lg:items-end">
+            <div>
+              <p className="section-kicker text-terracotta">Descargables públicos</p>
+              <h2 className="mt-3 font-serif text-3xl leading-tight text-forest">
+                Recursos breves para imprimir, compartir o trabajar fuera del sitio.
+              </h2>
+            </div>
+            <p className="leading-8 text-earth">
+              Son materiales de orientación, no fragmentos de libros preliminares. Se publican porque tienen una función
+              práctica: acompañar una conversación, una clase o una resonancia personal.
+            </p>
+          </div>
+          <div className="mt-5 grid gap-3 md:grid-cols-3">
+            {publicDownloads.map(({ title, text, audience, href, icon: Icon }) => (
+              <article key={title} className="rounded-[1.25rem] border border-earth/15 bg-cream p-5">
+                <Icon className="text-terracotta" size={24} aria-hidden="true" />
+                <p className="mt-4 text-xs font-black uppercase tracking-[0.14em] text-terracotta">{audience}</p>
+                <h3 className="mt-3 font-serif text-2xl leading-tight text-forest">{title}</h3>
+                <p className="mt-3 text-sm leading-7 text-earth">{text}</p>
+                <a className="mt-4 inline-flex items-center gap-2 text-sm font-semibold text-forest" href={href}>
+                  Abrir descargable
+                  <ArrowUpRight size={16} aria-hidden="true" />
+                </a>
+              </article>
+            ))}
+          </div>
+        </div>
+
         <div className="mt-5 grid gap-4 lg:grid-cols-[0.9fr_1.1fr]">
           <article className="compact-card bg-white/85">
             <p className="section-kicker text-terracotta">Beneficio educativo</p>
@@ -1858,6 +1969,30 @@ function ResourcesPage() {
             </a>
           </div>
         </div>
+
+        <div className="mt-5 rounded-[1.5rem] border border-earth/15 bg-white/75 p-5 shadow-soft sm:p-7">
+          <p className="section-kicker text-terracotta">Avance vivo del sitio</p>
+          <h2 className="mt-3 font-serif text-3xl leading-tight text-forest">
+            Desarrollo por rutas principales.
+          </h2>
+          <p className="mt-3 max-w-4xl leading-8 text-earth">
+            Estos porcentajes son una brújula de trabajo editorial: indican qué tan funcional está cada ruta, no una
+            calificación pedagógica ni un cierre definitivo.
+          </p>
+          <div className="mt-5 grid gap-3 md:grid-cols-2">
+            {routeDevelopmentProgress.map(([route, percent]) => (
+              <div key={route} className="rounded-2xl border border-earth/15 bg-cream p-4">
+                <div className="flex items-center justify-between gap-3 text-sm font-bold text-forest">
+                  <span>{route}</span>
+                  <span>{percent}%</span>
+                </div>
+                <div className="mt-3 h-2.5 overflow-hidden rounded-full bg-earth/12">
+                  <div className="h-full rounded-full bg-forest" style={{ width: `${percent}%` }} />
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
       </div>
     </section>
   );
@@ -1881,7 +2016,12 @@ function Store() {
           <p className="section-kicker text-forest">Tienda docente</p>
           <h2 className="section-title">Recursos para la práctica educativa.</h2>
           <p className="mt-5 leading-8 text-earth">
-            Un espacio para reunir materiales, cuadernos, guías, tarjetas, recursos imprimibles y herramientas que acompañen la práctica docente desde la conciencia, la ternura y el pensamiento crítico.
+            Un espacio futuro para reunir materiales, cuadernos, guías, tarjetas, recursos imprimibles y herramientas
+            que acompañen la práctica docente desde la conciencia, el cuidado y el pensamiento crítico.
+          </p>
+          <p className="mt-4 rounded-2xl border border-gold/35 bg-[#fff8ee] px-5 py-4 text-sm font-semibold leading-7 text-earth">
+            La sostenibilidad vendrá después de la claridad y la utilidad: ningún recurso se ofrecerá como producto si
+            antes no tiene función pedagógica, cuidado editorial y sentido para quien lo use.
           </p>
           <div className="mt-6 grid gap-3 md:mt-8 md:grid-cols-3 md:gap-4">
             {storeItems.map(({ title, text, icon: Icon }) => (
@@ -1902,6 +2042,10 @@ function Store() {
             Solicitar información
             <MessageCircle size={18} aria-hidden="true" />
           </ExternalLink>
+          <a className="btn-secondary mt-3 sm:ml-3 sm:mt-6" href="/recursos">
+            Ver recursos gratuitos
+            <ArrowUpRight size={18} aria-hidden="true" />
+          </a>
         </div>
       </div>
     </section>
@@ -1925,7 +2069,8 @@ function SchoolSection() {
             <div className="flex items-start gap-4">
               <KeyRound className="mt-1 shrink-0 text-gold" size={22} aria-hidden="true" />
               <p className="leading-7 text-cream/82">
-                Área exclusiva en construcción. Más adelante contará con acceso privado a videos, PDFs y materiales.
+                Área formativa en construcción. Antes de abrir talleres o cursos, esta ruta ordena qué se estudiará,
+                cómo se cuidará la experiencia y qué materiales estarán disponibles sin saturación.
               </p>
             </div>
           </div>
@@ -2011,6 +2156,19 @@ function SchoolSection() {
             </a>
           </div>
         </div>
+
+        <div className="mt-5 grid gap-3 md:grid-cols-3">
+          {[
+            ['Fundamento', 'Cognitología, criterios de pensamiento y artilugios pedagógicos como base común.'],
+            ['Aplicación', 'Caracoles, guías breves, resonancias y recursos para el aula, casa y comunidad.'],
+            ['Cuidado', 'Sin datos de menores, sin promesas vacías y con materiales publicados solo cuando estén listos.'],
+          ].map(([title, text]) => (
+            <article key={title} className="rounded-2xl border border-cream/15 bg-cream/[0.06] p-5">
+              <h4 className="font-serif text-2xl leading-tight text-cream">{title}</h4>
+              <p className="mt-3 text-sm leading-7 text-cream/76">{text}</p>
+            </article>
+          ))}
+        </div>
       </div>
     </section>
   );
@@ -2095,15 +2253,41 @@ function Families() {
         </figure>
         <div>
           <p className="section-kicker">Familias que acompañan</p>
-          <h2 className="section-title">Acompañar sin miedo también se aprende.</h2>
+          <h2 className="section-title">Acompañar sin vigilar también se aprende.</h2>
           <p className="mt-5 leading-8 text-earth">
-            Recursos y reflexiones para acompañar el aprendizaje en casa sin miedo, sin culpa y con herramientas sencillas.
+            Esta ruta ayuda a madres, padres, tutoras, tutores y personas acompañantes a sostener el aprendizaje con
+            escucha, límites dignos y preguntas que no sustituyen el pensamiento de la persona joven.
           </p>
-          <a className="mt-7 inline-flex items-center gap-2 text-sm font-semibold text-forest" href="#empieza">
-            Ver caminos de entrada
-            <ArrowUpRight size={16} aria-hidden="true" />
-          </a>
+          <div className="mt-6 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
+            <a className="btn-primary" href="/descargables/guia-familias-acompanar-sin-vigilar.md">
+              Abrir guía breve
+              <ArrowUpRight size={17} aria-hidden="true" />
+            </a>
+            <a className="btn-secondary" href="/empieza-aqui">
+              Elegir ruta inicial
+              <ArrowUpRight size={17} aria-hidden="true" />
+            </a>
+          </div>
         </div>
+      </div>
+
+      <div className="mx-auto mt-8 max-w-7xl rounded-[1.5rem] border border-earth/15 bg-white/75 p-5 shadow-soft sm:p-7">
+        <p className="section-kicker text-terracotta">Ruta de conversación cuidada</p>
+        <div className="mt-5 grid gap-3 md:grid-cols-4">
+          {familyGuideSteps.map(([title, text], index) => (
+            <article key={title} className="rounded-[1.2rem] border border-earth/15 bg-cream p-5">
+              <span className="inline-flex h-9 w-9 items-center justify-center rounded-full bg-forest text-sm font-black text-cream">
+                {index + 1}
+              </span>
+              <h3 className="mt-4 font-serif text-2xl leading-tight text-forest">{title}</h3>
+              <p className="mt-3 text-sm leading-7 text-earth">{text}</p>
+            </article>
+          ))}
+        </div>
+        <p className="mt-5 rounded-2xl bg-[#fff8ee] px-5 py-4 text-sm font-semibold leading-7 text-earth">
+          Cuidado central: esta ruta no pide datos personales, relatos íntimos ni evidencias de menores. Propone
+          conversación y acompañamiento local, dentro de la familia y la comunidad escolar.
+        </p>
       </div>
     </section>
   );
@@ -2117,12 +2301,19 @@ function Youth() {
           <p className="section-kicker">Jóvenes con criterio</p>
           <h2 className="section-title">Pensar la vida, la escuela y el propio lugar.</h2>
           <p className="mt-5 leading-8 text-earth">
-            Ideas, preguntas y caminos para que las y los jóvenes piensen su vida, su escuela y su lugar en el mundo.
+            Una ruta para que las y los jóvenes puedan nombrar lo que aprenden, relacionarlo con su realidad y registrar
+            una resonancia sin quedar obligados a exponer su intimidad.
           </p>
-          <a className="mt-7 inline-flex items-center gap-2 text-sm font-semibold text-forest" href="#empieza">
-            Empezar ruta joven
-            <ArrowUpRight size={16} aria-hidden="true" />
-          </a>
+          <div className="mt-6 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
+            <a className="btn-primary" href="/descargables/bitacora-jovenes-resonancia.md">
+              Abrir bitácora breve
+              <ArrowUpRight size={17} aria-hidden="true" />
+            </a>
+            <a className="btn-secondary" href="/recursos/caracoles-resonando">
+              Trabajar un proyecto
+              <Shell size={17} aria-hidden="true" />
+            </a>
+          </div>
         </div>
         <figure className="editorial-image min-h-[20rem] lg:min-h-[34rem]">
           <img
@@ -2131,6 +2322,31 @@ function Youth() {
             className="h-full w-full object-cover object-center"
           />
         </figure>
+      </div>
+
+      <div className="mx-auto mt-8 max-w-7xl rounded-[1.5rem] border border-earth/15 bg-cream p-5 shadow-soft sm:p-7">
+        <p className="section-kicker text-terracotta">Ruta joven</p>
+        <div className="mt-5 grid gap-3 md:grid-cols-4">
+          {youthGuideSteps.map(([title, text], index) => (
+            <article key={title} className="rounded-[1.2rem] border border-earth/15 bg-white/75 p-5">
+              <span className="inline-flex h-9 w-9 items-center justify-center rounded-full bg-gold text-sm font-black text-ink">
+                {index + 1}
+              </span>
+              <h3 className="mt-4 font-serif text-2xl leading-tight text-forest">{title}</h3>
+              <p className="mt-3 text-sm leading-7 text-earth">{text}</p>
+            </article>
+          ))}
+        </div>
+        <div className="mt-5 grid gap-3 lg:grid-cols-[1fr_auto] lg:items-center">
+          <p className="leading-8 text-earth">
+            Si un tema toca violencia, malestar fuerte o una situación de riesgo, la ruta no sustituye el apoyo de una
+            persona adulta confiable, la escuela o una instancia especializada.
+          </p>
+          <a className="btn-secondary justify-self-start" href="/cognitologia">
+            Ver criterios de pensamiento
+            <ArrowUpRight size={17} aria-hidden="true" />
+          </a>
+        </div>
       </div>
     </section>
   );
