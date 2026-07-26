@@ -646,6 +646,59 @@ const resonanceSeeds = [
   ['Para la comunidad', '¿Qué problema se repite como si fuera individual, pero tiene historia, condiciones y relaciones?'],
 ];
 
+const resonanceThemes = [
+  {
+    title: 'Cuando enseñar también cansa',
+    audience: 'Docentes',
+    question: '¿Qué parte del cansancio viene de la tarea y qué parte de sostener en silencio lo que la escuela no alcanza a nombrar?',
+    action: 'Distinguir lo urgente de lo importante y elegir una carga que pueda compartirse.',
+    icon: GraduationCap,
+  },
+  {
+    title: 'La voz joven no es ruido',
+    audience: 'Estudiantes y jóvenes',
+    question: '¿Qué cambia cuando una persona joven puede explicar lo que piensa sin tener que defender primero su derecho a hablar?',
+    action: 'Abrir un turno de palabra sin interrupciones y devolver una pregunta, no un juicio.',
+    icon: Mic2,
+  },
+  {
+    title: 'Acompañar sin ocupar el lugar del otro',
+    audience: 'Familias',
+    question: '¿Cómo estar cerca sin convertir el cuidado en vigilancia ni resolver lo que la otra persona necesita aprender?',
+    action: 'Preguntar qué apoyo se necesita antes de ofrecer una solución.',
+    icon: HandHeart,
+  },
+  {
+    title: 'El territorio también enseña',
+    audience: 'Comunidad educativa',
+    question: '¿Qué saberes de la comunidad quedan fuera cuando el aula solo reconoce lo que viene escrito?',
+    action: 'Recuperar una voz, práctica o memoria local y relacionarla con una pregunta escolar.',
+    icon: Map,
+  },
+  {
+    title: 'Atención en tiempos de prisa',
+    audience: 'Vida cotidiana',
+    question: '¿Estamos eligiendo a qué atender o solo respondiendo a todo lo que reclama nuestra mirada?',
+    action: 'Hacer una pausa breve sin pantalla y registrar qué pensamiento vuelve cuando baja el ruido.',
+    icon: Eye,
+  },
+  {
+    title: 'Evaluar sin reducir a una persona',
+    audience: 'Aula y acompañamiento',
+    question: '¿Qué aprende alguien sobre sí mismo cuando solo recibe una calificación y no una lectura de su proceso?',
+    action: 'Nombrar un avance, una dificultad concreta y un siguiente paso posible.',
+    icon: CheckCircle2,
+  },
+];
+
+const resonancePractice = [
+  ['Detenerse', 'Respira y elige una situación que siga haciendo eco. No intentes resolverla todavía.'],
+  ['Nombrar', 'Escribe qué ocurrió, qué sentiste y qué idea apareció, sin convertir la experiencia en sentencia.'],
+  ['Relacionar', 'Pregunta qué historia, condición, vínculo o desigualdad participa en lo que sucede.'],
+  ['Discernir', 'Reconoce qué criterio necesitas para decidir con más conciencia y cuidado.'],
+  ['Actuar', 'Elige una acción pequeña, compartible y revisable. La resonancia continúa en lo que hacemos.'],
+];
+
 const familyGuideSteps = [
   ['Escuchar primero', 'Abrir conversación sin interrogatorio: qué intenta comprender, qué necesita y qué ya logró.'],
   ['Ordenar el proceso', 'Distinguir tarea, fuente, tiempo, materiales y apoyo real sin resolver por la persona joven.'],
@@ -666,7 +719,7 @@ const routeDevelopmentProgress = [
   ['Cognitología', 68],
   ['Caracoles Resonando', 88],
   ['Recursos', 66],
-  ['Resonancias', 58],
+  ['Resonancias', 76],
   ['Familias', 52],
   ['Jóvenes', 52],
   ['Escuela', 44],
@@ -1425,6 +1478,80 @@ function Resonances({ isPage = false }) {
                 </a>
               </div>
             </div>
+
+            <div className="lg:col-span-2">
+              <div className="max-w-3xl">
+                <p className="section-kicker text-terracotta">Ecos para pensar la vida</p>
+                <h2 className="mt-3 font-serif text-3xl leading-tight text-forest sm:text-5xl">
+                  Temas que no piden respuestas rápidas, sino una mirada más despierta.
+                </h2>
+                <p className="mt-4 leading-8 text-earth">
+                  Cada entrada parte de una experiencia cotidiana y abre una pregunta para reconocer relaciones,
+                  criterios y posibilidades de acción. Puedes elegir una, conversar sobre ella o llevarla a tu bitácora.
+                </p>
+              </div>
+              <div className="mt-6 grid gap-4 md:grid-cols-2 xl:grid-cols-3">
+                {resonanceThemes.map(({ title, audience, question, action, icon: Icon }) => (
+                  <article key={title} className="flex min-h-full flex-col rounded-[1.35rem] border border-earth/15 bg-white/70 p-5 shadow-soft sm:p-6">
+                    <div className="flex items-start justify-between gap-4">
+                      <span className="inline-flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-forest text-gold">
+                        <Icon size={22} aria-hidden="true" />
+                      </span>
+                      <span className="rounded-full border border-gold/35 px-3 py-1 text-xs font-bold uppercase text-earth">
+                        {audience}
+                      </span>
+                    </div>
+                    <h3 className="mt-5 font-serif text-2xl leading-tight text-forest">{title}</h3>
+                    <p className="mt-4 font-serif text-xl leading-8 text-terracotta">{question}</p>
+                    <div className="mt-auto border-t border-earth/10 pt-4">
+                      <p className="text-xs font-black uppercase tracking-widest text-forest">Una acción posible</p>
+                      <p className="mt-2 text-sm leading-7 text-earth">{action}</p>
+                    </div>
+                  </article>
+                ))}
+              </div>
+            </div>
+
+            <article className="lg:col-span-2 overflow-hidden rounded-[1.5rem] border border-cream/15 bg-forest text-cream shadow-soft">
+              <div className="grid lg:grid-cols-[0.72fr_1.28fr]">
+                <div className="border-b border-cream/15 p-6 sm:p-8 lg:border-b-0 lg:border-r">
+                  <p className="section-kicker text-gold">Práctica de resonancia</p>
+                  <h2 className="mt-3 font-serif text-4xl leading-tight sm:text-5xl">Doce minutos para volver a mirar.</h2>
+                  <p className="mt-5 leading-8 text-cream/80">
+                    No es una receta para sentirse bien. Es una pausa para pasar de la reacción a una comprensión
+                    situada y de la comprensión a una acción responsable.
+                  </p>
+                  <a className="btn-gold mt-7" href="/descargables/cuaderno-breve-de-resonancias.md" download>
+                    Descargar cuaderno breve
+                    <ArrowDown size={18} aria-hidden="true" />
+                  </a>
+                </div>
+                <ol className="grid gap-px bg-cream/15 sm:grid-cols-2">
+                  {resonancePractice.map(([title, text], index) => (
+                    <li key={title} className="bg-forest p-5 sm:p-6">
+                      <div className="flex gap-4">
+                        <span className="inline-flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-gold font-black text-ink">
+                          {index + 1}
+                        </span>
+                        <div>
+                          <h3 className="font-serif text-2xl text-cream">{title}</h3>
+                          <p className="mt-2 text-sm leading-7 text-cream/78">{text}</p>
+                        </div>
+                      </div>
+                    </li>
+                  ))}
+                </ol>
+              </div>
+            </article>
+
+            <aside className="lg:col-span-2 rounded-[1.35rem] border border-gold/35 bg-gold/10 p-5 sm:p-7">
+              <p className="section-kicker text-terracotta">Cuidado de la palabra</p>
+              <p className="mt-3 max-w-5xl font-serif text-2xl leading-relaxed text-forest">
+                Resonancia no significa exponer la intimidad. En el aula, la familia o la comunidad, cada persona puede
+                pensar, escribir o compartir solo aquello que decida. La conciencia necesita palabra, pero también límites,
+                escucha y dignidad.
+              </p>
+            </aside>
           </div>
         )}
       </div>
