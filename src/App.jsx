@@ -338,28 +338,46 @@ const resonanceCards = [
 
 const resourceCards = [
   {
-    title: 'Guías y formatos',
-    text: 'Materiales editables y herramientas en preparación para acompañar procesos educativos.',
-    benefit: 'Planeación, bitácoras y formatos de apoyo.',
-    action: 'Ver recursos',
-    href: '/recursos',
-    icon: FileText,
+    title: 'Caracoles Resonando',
+    text: 'Herramienta interactiva para consultar y trabajar Proyectos Académicos de Telesecundaria.',
+    benefit: 'Ficha curricular, fuentes, mapa mental, autoevaluación y PDF imprimible.',
+    action: 'Abrir herramienta',
+    href: '/recursos/caracoles-resonando',
+    icon: Shell,
   },
   {
-    title: 'Lecturas y autores',
-    text: 'Rutas de lectura para profundizar en pedagogía, conciencia crítica y vida cotidiana.',
-    benefit: 'Referentes para ampliar mirada pedagógica.',
-    action: 'Explorar ruta',
-    href: '/recursos',
-    icon: BookOpen,
+    title: 'Empieza aquí',
+    text: 'Recorridos iniciales para docentes, estudiantes y acompañantes que llegan por primera vez.',
+    benefit: 'Una primera acción clara según la necesidad de cada persona.',
+    action: 'Elegir ruta',
+    href: '/empieza-aqui',
+    icon: DoorOpen,
   },
   {
-    title: 'Audios y herramientas',
-    text: 'Recursos sonoros, preguntas y ejercicios para pensar, cuidar y seguir caminando.',
-    benefit: 'Acompañamiento sensible para clase y casa.',
-    action: 'Abrir apoyos',
-    href: '/#universo-musical',
-    icon: NotebookTabs,
+    title: 'Resonancias',
+    text: 'Textos y preguntas para mirar la vida cotidiana, la escuela y la conciencia con otra calma.',
+    benefit: 'Lecturas breves para conversar, escribir o volver a mirar una experiencia.',
+    action: 'Leer resonancias',
+    href: '/resonancias',
+    icon: BookOpenText,
+  },
+];
+
+const caracolesHighlights = [
+  {
+    title: 'Docentes',
+    text: 'Consulta proyectos de 1.º, 2.º y 3.º, revisa campo formativo, ficha curricular, planeación, fuentes, mapa mental y formato imprimible.',
+    icon: GraduationCap,
+  },
+  {
+    title: 'Estudiantes',
+    text: 'Trabaja el proyecto con mapa mental, autoevaluación formativa y experiencias interactivas cuando estén disponibles para el PA.',
+    icon: Sparkles,
+  },
+  {
+    title: 'Cognitología aplicada',
+    text: 'Caracoles muestra cómo la propuesta se vuelve práctica: criterios de pensamiento, resonancias, evidencias y decisiones pedagógicas.',
+    icon: Brain,
   },
 ];
 
@@ -463,39 +481,138 @@ const schoolStartModules = [
 const paths = [
   {
     audience: 'Soy docente',
-    title: 'Mirar el aula como territorio',
-    question: '¿Qué recurso puedo usar hoy para acompañar mejor a mi grupo?',
-    text: 'Entra a herramientas, preguntas y recursos para planear, dialogar y mirar el aula como territorio de posibilidad.',
+    title: 'Planear con sentido',
+    question: '¿Cómo convierto un Proyecto Académico en una experiencia clara para mi grupo?',
+    text: 'Encontrarás Caracoles Resonando, rutas de lectura, criterios de pensamiento y apoyos para planear sin perder el sentido pedagógico.',
     action: 'Abrir Caracoles Resonando',
     href: '/recursos/caracoles-resonando',
     icon: BookOpen,
   },
   {
-    audience: 'Soy madre, padre o tutor',
-    title: 'Acompañar sin miedo',
-    question: '¿Cómo puedo acompañar sin presionar, sin culpa y con más claridad?',
-    text: 'Encuentra una entrada sencilla para mirar el aprendizaje desde el cuidado, la conversación y la confianza.',
+    audience: 'Soy estudiante',
+    title: 'Comprender mi proyecto',
+    question: '¿Qué estoy aprendiendo y cómo puedo explicarlo con mis propias palabras?',
+    text: 'Podrás entrar a Caracoles Resonando, revisar el proyecto, imprimir mapas mentales y usar autoevaluaciones para reconocer lo aprendido.',
+    action: 'Ir a vista estudiante',
+    href: '/recursos/caracoles-resonando',
+    icon: Sparkles,
+  },
+  {
+    audience: 'Acompaño a una o un joven',
+    title: 'Acompañar sin sustituir',
+    question: '¿Cómo puedo apoyar sin hacer la tarea por otra persona?',
+    text: 'Encontrarás preguntas para conversar, recursos para cuidar el proceso y rutas para comprender mejor lo que ocurre en la escuela.',
     action: 'Ver ruta familias',
     href: '/familias',
     icon: Home,
   },
+];
+
+const startHereSteps = [
+  ['Primero', 'Elige si vienes como docente, estudiante o acompañante.'],
+  ['Después', 'Abre el recurso inicial sugerido y úsalo con una acción concreta.'],
+  ['Luego', 'Regresa a Cognitología, Resonancias o Recursos para profundizar sin saturarte.'],
+];
+
+const cognitologyCriteria = [
   {
-    audience: 'Soy estudiante o joven curioso',
-    title: 'Pensar mi lugar en el mundo',
-    question: '¿Qué puedo pensar, crear o revisar para comprender mejor mi vida escolar?',
-    text: 'Explora preguntas e ideas para mirar tu escuela, tu identidad, tus decisiones y tu relación con la comunidad.',
-    action: 'Empezar ruta',
-    href: '/jovenes',
-    icon: Sparkles,
+    title: 'Conciencia de clase social, histórica, ética y moral',
+    text: 'Permite mirar la realidad como construcción histórica y social, con responsabilidad ante la dignidad propia y colectiva.',
   },
   {
-    audience: 'Quiero conocer la propuesta',
-    title: 'Entrar al universo Ecos',
-    question: '¿Qué es Ecos de Emancipación y por dónde conviene comenzar?',
-    text: 'Recorre el manifiesto, el mapa del universo Ecos y las secciones principales para entender el sentido de la propuesta.',
-    action: 'Leer manifiesto',
-    href: '/manifiesto',
-    icon: Compass,
+    title: 'Criterio lógico',
+    text: 'Ayuda a ordenar relaciones, causas, consecuencias y contradicciones para no aceptar cualquier explicación sin pensarla.',
+  },
+  {
+    title: 'Criterio lógico-matemático',
+    text: 'Permite leer cantidades, patrones, proporciones y evidencias numéricas en problemas de la vida cotidiana.',
+  },
+  {
+    title: 'Criterio lógico-lingüístico',
+    text: 'Cuida la palabra, la interpretación, el argumento y el sentido de lo que se nombra, se escucha y se comunica.',
+  },
+  {
+    title: 'Criterio científico-metodológico',
+    text: 'Invita a observar, preguntar, contrastar, registrar y sostener conclusiones con evidencias pertinentes.',
+  },
+];
+
+const pedagogicalArtifacts = [
+  ['Semillero de Conciencia', 'Convertir preguntas, conflictos o inquietudes en posibilidades de pensamiento y acción.'],
+  ['Asamblea comunitaria', 'Abrir palabra, escucha y acuerdos para decidir con otras personas.'],
+  ['Contrato pedagógico', 'Nombrar compromisos, modos de aprender y responsabilidades compartidas.'],
+  ['Diario de Resonancias', 'Registrar lo que una experiencia mueve, pregunta o transforma.'],
+  ['Mapas mentales dialógicos-dialécticos', 'Organizar relaciones entre ideas, tensiones, voces y posibilidades de acción.'],
+  ['Resonancias académicas', 'Vincular saber escolar con experiencia, comunidad y conciencia.'],
+  ['Perfiles en formación', 'Mirar procesos de desarrollo sin encasillar ni reducir a las personas.'],
+];
+
+const resourceLibrary = [
+  {
+    title: 'Caracoles Resonando',
+    audience: 'Docentes y estudiantes',
+    theme: 'Proyectos Académicos de Telesecundaria',
+    type: 'Herramienta web',
+    format: 'Interactivo',
+    access: 'Gratuito',
+    href: '/recursos/caracoles-resonando',
+    action: 'Abrir herramienta',
+    icon: Shell,
+  },
+  {
+    title: 'Empieza aquí',
+    audience: 'Docentes, estudiantes y acompañantes',
+    theme: 'Ruta inicial',
+    type: 'Guía web',
+    format: 'Página',
+    access: 'Gratuito',
+    href: '/empieza-aqui',
+    action: 'Elegir entrada',
+    icon: DoorOpen,
+  },
+  {
+    title: 'Cognitología para la vida cotidiana',
+    audience: 'Personas que quieren comprender la propuesta',
+    theme: 'Fundamento pedagógico',
+    type: 'Texto de orientación',
+    format: 'Página',
+    access: 'Gratuito',
+    href: '/cognitologia',
+    action: 'Leer fundamento',
+    icon: Brain,
+  },
+  {
+    title: 'Resonancias',
+    audience: 'Docentes, familias y jóvenes',
+    theme: 'Conciencia y vida cotidiana',
+    type: 'Lectura breve',
+    format: 'Página',
+    access: 'Gratuito',
+    href: '/resonancias',
+    action: 'Leer resonancias',
+    icon: BookOpenText,
+  },
+  {
+    title: 'Universo musical',
+    audience: 'Comunidad Ecos',
+    theme: 'Acompañamiento sensible',
+    type: 'Canales sonoros',
+    format: 'Video y música',
+    access: 'Gratuito',
+    href: '/universo-musical',
+    action: 'Escuchar',
+    icon: Music,
+  },
+  {
+    title: 'Materiales ampliados en preparación',
+    audience: 'Docentes y personas interesadas',
+    theme: 'Cuadernos, guías y recursos futuros',
+    type: 'Catálogo ético',
+    format: 'En preparación',
+    access: 'Aportación solidaria o pago futuro',
+    href: '/tienda',
+    action: 'Ver estado',
+    icon: ShoppingBag,
   },
 ];
 
@@ -527,7 +644,7 @@ const ROUTE_METADATA = {
   '/': {
     title: 'Ecos de Emancipación | Educación crítica, conciencia y recursos pedagógicos',
     description:
-      'Ecos de Emancipación es un proyecto pedagógico y espiritual que comparte recursos educativos, conciencia crítica, Caracoles Resonando, herramientas para docentes, familias y estudiantes.',
+      'Ecos de Emancipación es una propuesta pedagógica y cultural de la Maestra Kandy Partemia basada en la Cognitología para la vida cotidiana, Caracoles Resonando y recursos para docentes, estudiantes y familias.',
   },
   '/recursos/caracoles-resonando': {
     title: 'Caracoles Resonando — Planea tu PA de Telesecundaria',
@@ -537,7 +654,7 @@ const ROUTE_METADATA = {
   '/empieza-aqui': {
     title: 'Empieza aquí | Ecos de Emancipación',
     description:
-      'Ruta inicial para docentes, familias, estudiantes y personas que desean conocer la propuesta pedagógica de Ecos de Emancipación.',
+      'Ruta inicial de Ecos de Emancipación para docentes, estudiantes y acompañantes que buscan una primera acción clara.',
   },
   '/recursos': {
     title: 'Recursos | Ecos de Emancipación',
@@ -555,9 +672,14 @@ const ROUTE_METADATA = {
       'Textos, preguntas y rutas de lectura para mirar vida cotidiana, espiritualidad situada, educación y conciencia.',
   },
   '/cognitologia': {
-    title: 'Cognitología | Ecos de Emancipación',
+    title: '¿Qué es la Cognitología para la vida cotidiana? | Ecos de Emancipación',
     description:
-      'Entrada conceptual a la Cognitología para la vida cotidiana: criterios de pensamiento, artilugios pedagógicos, resonancia y aula habitable.',
+      'Entrada pública a la Cognitología para la vida cotidiana: problema, propósito, criterios de pensamiento, artilugios pedagógicos y relación con Caracoles Resonando.',
+  },
+  '/que-es-la-cognitologia': {
+    title: '¿Qué es la Cognitología para la vida cotidiana? | Ecos de Emancipación',
+    description:
+      'Entrada pública a la Cognitología para la vida cotidiana: problema, propósito, criterios de pensamiento, artilugios pedagógicos y relación con Caracoles Resonando.',
   },
   '/manifiesto': {
     title: 'Manifiesto | Ecos de Emancipación',
@@ -720,7 +842,7 @@ function App() {
     );
   }
 
-  if (currentPath === '/cognitologia') {
+  if (currentPath === '/cognitologia' || currentPath === '/que-es-la-cognitologia') {
     return (
       <>
         <Header />
@@ -886,27 +1008,30 @@ function Hero() {
       <div className="mx-auto grid max-w-7xl items-center gap-5 pb-6 pt-5 sm:gap-7 sm:pb-12 sm:pt-14 lg:min-h-[76vh] lg:grid-cols-[0.9fr_1.1fr] lg:gap-12">
         <div className="relative z-10">
           <p className="mb-3 max-w-xl text-xs font-semibold uppercase tracking-[0.22em] text-terracotta sm:mb-4 sm:text-sm">
-            Educación y conciencia crítica
+            Propuesta pedagógica de la Maestra Kandy Partemia
           </p>
           <h1 className="max-w-4xl font-serif text-4xl leading-[0.95] text-forest sm:text-6xl lg:text-8xl">
             Ecos de Emancipación
           </h1>
           <p className="mt-4 max-w-2xl text-base leading-7 text-earth sm:mt-5 sm:text-xl sm:leading-8">
-            Educación, conciencia crítica y esperanza para docentes, familias y jóvenes.
+            Un ecosistema pedagógico, cultural y comunicativo para formar criterios de pensamiento y acompañar una educación más humana, solidaria, justa y libre.
+          </p>
+          <p className="mt-3 max-w-2xl leading-7 text-earth">
+            Su fundamento es la Cognitología para la vida cotidiana; Caracoles Resonando muestra una de sus aplicaciones prácticas para trabajar Proyectos Académicos de Telesecundaria.
           </p>
           <div className="mt-5 flex flex-col gap-3 min-[420px]:flex-row sm:mt-6">
-            <ExternalLink className="btn-primary" href={LINKS.youtube} label="Seguir en YouTube">
-              <Youtube size={18} aria-hidden="true" />
-              Seguir en YouTube
-            </ExternalLink>
-            <ExternalLink className="btn-secondary" href={LINKS.whatsapp} label="Escribirme por WhatsApp">
-              <MessageCircle size={18} aria-hidden="true" />
-              Escribirme por WhatsApp
-            </ExternalLink>
+            <a className="btn-primary" href="/empieza-aqui">
+              Empieza aquí
+              <ArrowUpRight size={18} aria-hidden="true" />
+            </a>
+            <a className="btn-secondary" href="/recursos/caracoles-resonando">
+              Abrir Caracoles Resonando
+              <Shell size={18} aria-hidden="true" />
+            </a>
           </div>
-          <a className="mt-5 inline-flex items-center gap-2 text-sm font-semibold text-forest sm:mt-7" href="#explora">
-            Explorar
-            <ArrowDown size={17} aria-hidden="true" />
+          <a className="mt-5 inline-flex items-center gap-2 text-sm font-semibold text-forest sm:mt-7" href="/cognitologia">
+            Leer el fundamento
+            <ArrowUpRight size={17} aria-hidden="true" />
           </a>
         </div>
 
@@ -917,7 +1042,7 @@ function Hero() {
             className="h-full w-full object-cover object-[50%_24%]"
           />
           <figcaption className="absolute bottom-4 left-4 rounded-full bg-cream/90 px-4 py-2 text-xs font-semibold uppercase tracking-[0.14em] text-forest">
-            Portal vivo
+            Portal pedagógico
           </figcaption>
         </figure>
       </div>
@@ -1263,15 +1388,6 @@ function CognitologyPage() {
     },
   ];
 
-  const practiceRoutes = [
-    ['Asamblea', 'Aprender a decidir con otras personas, escuchar argumentos y construir acuerdos con sentido comunitario.'],
-    ['Semillero de Conciencia', 'Convertir el conflicto, la duda o la inquietud en pregunta formativa, no en castigo ni en silencio.'],
-    ['Contrato pedagógico', 'Nombrar quién soy, cómo aprendo y para qué aprendo con mi comunidad.'],
-    ['Mapa para pensar', 'Organizar ideas para comprender relaciones, no para decorar información.'],
-    ['Resonancia', 'Pasar de “me gustó” a reconocer qué me pasó, qué nos pasó y qué puede cambiar.'],
-    ['Aula habitable', 'Cuidar el espacio escolar como lugar donde se puede pensar, equivocarse, crear y pertenecer.'],
-  ];
-
   const protectedNotes = [
     'Los libros, cuadernos y fascículos completos forman parte del corpus original de la autora.',
     'Esta página ofrece una entrada pública breve, no sustituye los materiales completos ni libera sus contenidos.',
@@ -1287,9 +1403,7 @@ function CognitologyPage() {
             <h1 className="section-title">Una pedagogía para mirar cómo pensamos la vida.</h1>
           </div>
           <p className="max-w-3xl leading-8 text-earth">
-            La Cognitología para la vida cotidiana es una puerta teórica y práctica del universo Ecos: ayuda a formar
-            criterios de pensamiento, cuidar la experiencia escolar y convertir la vida diaria en territorio de
-            conciencia.
+            La Cognitología para la vida cotidiana es el fundamento transversal de Ecos de Emancipación. No clasifica personas ni ofrece recetas: propone formar criterios de pensamiento para leer la realidad, cuidar la experiencia escolar y convertir la vida diaria en territorio de conciencia.
           </p>
         </div>
 
@@ -1300,8 +1414,7 @@ function CognitologyPage() {
               ¿Qué cambia en el aprendizaje cuando la conciencia empieza a mirar cómo piensa?
             </h2>
             <p className="mt-5 leading-8 text-cream/80">
-              Desde esta pregunta, enseñar deja de ser solo organizar actividades: se vuelve un acto de acompañamiento
-              para que cada sujeto pueda nombrarse, decidir, comprender su realidad y participar con dignidad.
+              Atiende una dificultad cotidiana de la educación: muchas veces se cumplen actividades sin detenerse a mirar cómo se piensa, qué criterios orientan una decisión y qué sentido humano tiene lo aprendido. Desde esta pregunta, enseñar se vuelve acompañar a cada sujeto para nombrarse, decidir, comprender su realidad y participar con dignidad.
             </p>
             <a className="btn-gold mt-7" href="/resonancias">
               Leer resonancias
@@ -1326,6 +1439,25 @@ function CognitologyPage() {
           </article>
         </div>
 
+        <div className="mt-5 rounded-[1.5rem] border border-earth/15 bg-cream p-5 shadow-soft sm:p-7">
+          <p className="section-kicker text-terracotta">Cinco criterios de pensamiento</p>
+          <h2 className="mt-3 font-serif text-3xl leading-tight text-forest">Criterios para leer la realidad con responsabilidad.</h2>
+          <p className="mt-4 max-w-4xl leading-8 text-earth">
+            Estos criterios no son etiquetas psicológicas ni niveles para medir personas. Son orientaciones para pensar mejor la vida cotidiana, la escuela y la comunidad.
+          </p>
+          <div className="mt-5 grid gap-3 lg:grid-cols-5">
+            {cognitologyCriteria.map(({ title, text }, index) => (
+              <article key={title} className="rounded-[1.15rem] border border-earth/15 bg-white/75 p-4">
+                <span className="inline-flex h-9 w-9 items-center justify-center rounded-full bg-gold text-sm font-black text-ink">
+                  {index + 1}
+                </span>
+                <h3 className="mt-4 font-serif text-xl leading-tight text-forest">{title}</h3>
+                <p className="mt-3 text-sm leading-7 text-earth">{text}</p>
+              </article>
+            ))}
+          </div>
+        </div>
+
         <div className="mt-5 grid gap-4 md:grid-cols-3">
           {coreIdeas.map(({ title, text, icon: Icon }) => (
             <article key={title} className="compact-card flex min-h-full flex-col">
@@ -1342,7 +1474,7 @@ function CognitologyPage() {
         <div className="mt-5 grid gap-4 lg:grid-cols-[0.85fr_1.15fr]">
           <article className="compact-card bg-white/85">
             <p className="section-kicker text-terracotta">Del concepto a la práctica</p>
-            <h2 className="mt-3 font-serif text-3xl leading-tight text-forest">Artilugios para hacer habitable la escuela.</h2>
+            <h2 className="mt-3 font-serif text-3xl leading-tight text-forest">Artilugios para hacer habitable la escuela y la vida cotidiana.</h2>
             <p className="mt-4 leading-8 text-earth">
               En Ecos, un artilugio no es un adorno metodológico: es una forma pequeña y concreta de mover la práctica
               educativa para que el aula piense, dialogue, decida y resuene.
@@ -1350,13 +1482,26 @@ function CognitologyPage() {
           </article>
 
           <div className="grid gap-3 sm:grid-cols-2">
-            {practiceRoutes.map(([title, text]) => (
+            {pedagogicalArtifacts.map(([title, text]) => (
               <article key={title} className="rounded-[1.25rem] border border-earth/15 bg-cream p-5 shadow-soft">
                 <h3 className="font-serif text-2xl leading-tight text-forest">{title}</h3>
                 <p className="mt-3 text-sm leading-7 text-earth">{text}</p>
               </article>
             ))}
           </div>
+        </div>
+
+        <div className="mt-5 grid gap-4 lg:grid-cols-3">
+          {[
+            ['En la escuela', 'Ayuda a que una clase no sea solo cumplimiento: abre preguntas, criterios, diálogo y evidencias con sentido.'],
+            ['En la vida cotidiana', 'Permite mirar decisiones, emociones, lenguaje y conflictos como oportunidades para pensar mejor.'],
+            ['En Caracoles Resonando', 'Se vuelve herramienta concreta cuando orienta mapas mentales, resonancias, autoevaluación y planeación de Proyectos Académicos.'],
+          ].map(([title, text]) => (
+            <article key={title} className="compact-card bg-white/85">
+              <h2 className="font-serif text-2xl leading-tight text-forest">{title}</h2>
+              <p className="mt-3 leading-7 text-earth">{text}</p>
+            </article>
+          ))}
         </div>
 
         <div className="mt-5 rounded-[1.5rem] border border-gold/35 bg-[#fff8ee] p-5 shadow-soft sm:p-7">
@@ -1422,18 +1567,18 @@ function Projects() {
 function CaracolesSpotlight() {
   return (
     <section aria-labelledby="caracoles-home-title" className="section-pad bg-forest text-cream">
-      <div className="mx-auto flex max-w-7xl flex-col gap-7 lg:flex-row lg:items-center lg:justify-between">
+      <div className="mx-auto max-w-7xl">
+      <div className="flex flex-col gap-7 lg:flex-row lg:items-center lg:justify-between">
         <div className="max-w-3xl">
           <div className="flex items-center gap-3 text-gold">
             <Shell size={27} aria-hidden="true" />
-            <p className="section-kicker text-gold">Herramienta pedagógica</p>
+            <p className="section-kicker text-gold">Recurso insignia</p>
           </div>
           <h2 id="caracoles-home-title" className="mt-4 font-serif text-4xl leading-tight sm:text-5xl">
             Caracoles Resonando
           </h2>
           <p className="mt-4 max-w-3xl text-lg leading-8 text-cream/85">
-            Planea tu Proyecto Académico de Telesecundaria: ficha curricular, fuentes, mapa mental y autoevaluación en
-            un solo lugar.
+            Herramienta gratuita para trabajar Proyectos Académicos de Telesecundaria desde una ficha curricular, fuentes, mapa mental, autoevaluación y formato imprimible.
           </p>
         </div>
         <a
@@ -1444,6 +1589,16 @@ function CaracolesSpotlight() {
           Abrir herramienta
           <ArrowUpRight size={18} aria-hidden="true" />
         </a>
+      </div>
+      <div className="mt-7 grid gap-3 md:grid-cols-3">
+        {caracolesHighlights.map(({ title, text, icon: Icon }) => (
+          <article key={title} className="rounded-2xl border border-cream/15 bg-cream/[0.07] p-5">
+            <Icon className="text-gold" size={24} aria-hidden="true" />
+            <h3 className="mt-4 font-serif text-2xl leading-tight text-cream">{title}</h3>
+            <p className="mt-2 text-sm leading-7 text-cream/78">{text}</p>
+          </article>
+        ))}
+      </div>
       </div>
     </section>
   );
@@ -1498,7 +1653,8 @@ function Resources() {
             <div>
               <h3 className="font-serif text-3xl leading-tight text-forest">Caracoles Resonando</h3>
               <p className="mt-3 leading-7 text-earth">
-                Guía para comprender proyectos académicos, criterios de pensamiento, resonancias y juegos de repaso.
+                Consulta curricular para docentes y experiencia de repaso para estudiantes: ficha, fuentes, mapa mental,
+                autoevaluación y formato imprimible cuando el proyecto lo permite.
               </p>
               <a className="btn-primary mt-5" href="/recursos/caracoles-resonando">
                 Abrir herramienta
@@ -1603,6 +1759,59 @@ function ResourcesPage() {
               </a>
             </article>
           ))}
+        </div>
+
+        <div className="mt-5 rounded-[1.5rem] border border-earth/15 bg-cream p-5 shadow-soft sm:p-7">
+          <div className="grid gap-4 lg:grid-cols-[0.75fr_1.25fr] lg:items-end">
+            <div>
+              <p className="section-kicker text-terracotta">Biblioteca actual</p>
+              <h2 className="mt-3 font-serif text-3xl leading-tight text-forest">
+                Recursos organizados por uso real.
+              </h2>
+            </div>
+            <p className="leading-8 text-earth">
+              Por ahora la biblioteca se mantiene sencilla: primero experiencia web útil; solo se vuelve PDF aquello que
+              necesita imprimirse, trabajarse o circular fuera de la página.
+            </p>
+          </div>
+          <div className="mt-5 grid gap-3 lg:grid-cols-2">
+            {resourceLibrary.map(({ title, audience, theme, type, format, access, href, action, icon: Icon }) => (
+              <article key={title} className="rounded-[1.25rem] border border-earth/15 bg-white/75 p-5">
+                <div className="flex flex-col gap-4 sm:flex-row sm:items-start sm:justify-between">
+                  <div className="flex items-start gap-3">
+                    <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-gold/20 text-terracotta">
+                      <Icon size={22} aria-hidden="true" />
+                    </span>
+                    <div>
+                      <h3 className="font-serif text-2xl leading-tight text-forest">{title}</h3>
+                      <p className="mt-2 text-sm leading-7 text-earth">{theme}</p>
+                    </div>
+                  </div>
+                  <span className="self-start rounded-full bg-forest px-3 py-1 text-xs font-black uppercase tracking-[0.12em] text-cream">
+                    {access}
+                  </span>
+                </div>
+                <dl className="mt-4 grid gap-2 text-sm leading-6 text-earth sm:grid-cols-3">
+                  <div>
+                    <dt className="font-black uppercase tracking-[0.12em] text-terracotta">Audiencia</dt>
+                    <dd>{audience}</dd>
+                  </div>
+                  <div>
+                    <dt className="font-black uppercase tracking-[0.12em] text-terracotta">Tipo</dt>
+                    <dd>{type}</dd>
+                  </div>
+                  <div>
+                    <dt className="font-black uppercase tracking-[0.12em] text-terracotta">Formato</dt>
+                    <dd>{format}</dd>
+                  </div>
+                </dl>
+                <a className="mt-4 inline-flex items-center gap-2 text-sm font-semibold text-forest" href={href}>
+                  {action}
+                  <ArrowUpRight size={16} aria-hidden="true" />
+                </a>
+              </article>
+            ))}
+          </div>
         </div>
 
         <div className="mt-5 grid gap-4 lg:grid-cols-[0.9fr_1.1fr]">
@@ -1927,11 +2136,10 @@ function StartHere() {
             <h2 className="section-title">Elige una puerta de entrada.</h2>
           </div>
           <p className="max-w-3xl leading-8 text-earth">
-            Esta sección orienta a cada visitante hacia el primer beneficio concreto del sitio: una herramienta, una ruta
-            de reflexión, una lectura o una forma clara de participar en Ecos de Emancipación.
+            Esta ruta ayuda a elegir una primera acción sin perderse: planear, comprender un proyecto, acompañar un proceso o leer el fundamento que sostiene la propuesta.
           </p>
         </div>
-        <div className="mt-8 grid gap-3 md:grid-cols-2 lg:mt-10 xl:grid-cols-4 xl:gap-4">
+        <div className="mt-8 grid gap-3 md:grid-cols-3 lg:mt-10 xl:gap-4">
           {paths.map(({ audience, title, question, text, action, href, icon: Icon }) => (
             <article key={audience} className="compact-card flex min-h-full flex-col">
               <div className="flex items-center gap-4">
@@ -1949,14 +2157,37 @@ function StartHere() {
                 {action}
                 <ArrowUpRight size={16} aria-hidden="true" />
               </a>
-              {audience === 'Soy estudiante o joven curioso' && (
-                <a className="mt-3 inline-flex items-center gap-2 text-sm font-semibold text-terracotta" href="/recursos/caracoles-resonando">
-                  Caracoles Resonando
-                  <ArrowUpRight size={16} aria-hidden="true" />
-                </a>
-              )}
             </article>
           ))}
+        </div>
+
+        <div className="mt-5 grid gap-3 lg:grid-cols-[0.95fr_1.05fr]">
+          <article className="compact-card bg-forest text-cream">
+            <p className="section-kicker text-gold">Fundamento transversal</p>
+            <h3 className="mt-3 font-serif text-3xl leading-tight">Cognitología para la vida cotidiana</h3>
+            <p className="mt-4 leading-8 text-cream/80">
+              No es una sección aislada: es el fundamento que ayuda a mirar cómo pensamos, decidimos, aprendemos y acompañamos. Caracoles Resonando, Recursos y Resonancias muestran algunas aplicaciones prácticas de esa mirada.
+            </p>
+            <a className="btn-gold mt-5" href="/cognitologia">
+              Comprender el fundamento
+              <ArrowUpRight size={18} aria-hidden="true" />
+            </a>
+          </article>
+          <article className="compact-card bg-white/80">
+            <p className="section-kicker text-terracotta">Recorrido sencillo</p>
+            <ol className="mt-5 grid gap-3">
+              {startHereSteps.map(([title, text], index) => (
+                <li key={title} className="flex gap-3 leading-7 text-earth">
+                  <span className="mt-1 inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-gold text-sm font-black text-ink">
+                    {index + 1}
+                  </span>
+                  <span>
+                    <strong className="text-forest">{title}:</strong> {text}
+                  </span>
+                </li>
+              ))}
+            </ol>
+          </article>
         </div>
 
         <article className="mt-8 overflow-hidden rounded-[1.6rem] border border-earth/15 bg-forest text-cream shadow-soft lg:mt-10">
