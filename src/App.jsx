@@ -439,18 +439,24 @@ const schoolRoutes = [
     subtitle: 'Pedagogía del sujeto en el aula',
     text: 'Planeación, vínculo y evaluación desde la dignidad de cada estudiante.',
     icon: GraduationCap,
+    href: '/escuela#practica-docente',
+    action: 'Explorar ruta docente',
   },
   {
     title: 'Ruta familias',
     subtitle: 'Acompañar sin miedo',
     text: 'Claves para conversar, orientar y sostener desde el cuidado.',
     icon: UsersRound,
+    href: '/familias',
+    action: 'Explorar ruta para familias',
   },
   {
     title: 'Ruta jóvenes',
     subtitle: 'Pensar la vida y la escuela',
     text: 'Preguntas, identidad, proyecto de vida y palabra propia.',
     icon: Sparkles,
+    href: '/jovenes',
+    action: 'Explorar ruta para jóvenes',
   },
 ];
 
@@ -1050,20 +1056,6 @@ const youthDecisionCompass = [
   ['El paso revisable', '¿Qué acción pequeña puedo realizar y después volver a valorar?'],
 ];
 
-const routeDevelopmentProgress = [
-  ['Inicio', 80],
-  ['Empieza aquí', 72],
-  ['Cognitología', 84],
-  ['Caracoles Resonando', 88],
-  ['Recursos', 86],
-  ['Resonancias', 76],
-  ['Familias', 78],
-  ['Jóvenes', 79],
-  ['Escuela', 74],
-  ['Manifiesto y pilares', 82],
-  ['Tienda / apoyo solidario', 76],
-];
-
 function ExternalLink({ href, children, className, label }) {
   return (
     <a href={href} target="_blank" rel="noopener noreferrer" className={className} aria-label={label}>
@@ -1333,7 +1325,7 @@ function App() {
   if (currentPath === '/escuela') {
     return (
       <SiteRoute>
-        <SchoolSection />
+        <SchoolSection isPage />
       </SiteRoute>
     );
   }
@@ -1384,10 +1376,10 @@ function App() {
         <Manifesto />
         <Resonances />
         <Pillars />
+        <SchoolSection />
         <Projects />
         <Resources />
         <Store />
-        <SchoolSection />
         <MusicUniverse />
         <Families />
         <Youth />
@@ -2624,29 +2616,6 @@ function ResourcesPage() {
           </div>
         </div>
 
-        <div className="mt-5 rounded-[1.5rem] border border-earth/15 bg-white/75 p-5 shadow-soft sm:p-7">
-          <p className="section-kicker text-terracotta">Avance vivo del sitio</p>
-          <h2 className="mt-3 font-serif text-3xl leading-tight text-forest">
-            Desarrollo por rutas principales.
-          </h2>
-          <p className="mt-3 max-w-4xl leading-8 text-earth">
-            Estos porcentajes son una brújula de trabajo editorial: indican qué tan funcional está cada ruta, no una
-            calificación pedagógica ni un cierre definitivo.
-          </p>
-          <div className="mt-5 grid gap-3 md:grid-cols-2">
-            {routeDevelopmentProgress.map(([route, percent]) => (
-              <div key={route} className="rounded-2xl border border-earth/15 bg-cream p-4">
-                <div className="flex items-center justify-between gap-3 text-sm font-bold text-forest">
-                  <span>{route}</span>
-                  <span>{percent}%</span>
-                </div>
-                <div className="mt-3 h-2.5 overflow-hidden rounded-full bg-earth/12">
-                  <div className="h-full rounded-full bg-forest" style={{ width: `${percent}%` }} />
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
       </div>
     </section>
   );
@@ -2706,7 +2675,7 @@ function Store({ isPage = false }) {
   );
 }
 
-function SchoolSection() {
+function SchoolSection({ isPage = false }) {
   return (
     <section id="escuela" className="section-pad bg-forest text-cream">
       <div className="mx-auto grid max-w-7xl gap-9 lg:grid-cols-[0.98fr_1.02fr] lg:items-center">
@@ -2715,7 +2684,7 @@ function SchoolSection() {
             <School size={26} aria-hidden="true" />
           </div>
           <p className="section-kicker mt-7 text-gold">Escuela Ecos de Emancipación</p>
-          <h1 className="section-title text-cream">Habitar la escuela con conciencia.</h1>
+          {isPage ? <h1 className="section-title text-cream">Habitar la escuela con conciencia.</h1> : <h2 className="section-title text-cream">Habitar la escuela con conciencia.</h2>}
           <p className="mt-5 leading-8 text-cream/78">
             Escuela Ecos es una ruta para comprender el aula como territorio de sujetos, relaciones, saberes y
             decisiones. Reúne criterios y artilugios para planear, acompañar y valorar experiencias educativas sin
@@ -2724,20 +2693,17 @@ function SchoolSection() {
           <div className="mt-6 rounded-2xl border border-gold/25 bg-cream/[0.06] p-4 sm:mt-7 sm:p-5">
             <div className="flex items-start gap-4">
               <KeyRound className="mt-1 shrink-0 text-gold" size={22} aria-hidden="true" />
-              <p className="leading-7 text-cream/82">
-                La ruta pública ya puede utilizarse. Los talleres y trayectos formativos extensos siguen en preparación
-                y se abrirán solo cuando tengan claridad pedagógica, materiales completos y condiciones de cuidado.
-              </p>
+              <p className="leading-7 text-cream/82">Elige la ruta que dialogue con tu lugar en la comunidad educativa. Cada entrada ofrece preguntas, situaciones y recursos que pueden llevarse a la vida cotidiana.</p>
             </div>
           </div>
           <div id="escuela-rutas" className="mt-6 grid gap-3 md:mt-8 md:grid-cols-3 md:gap-4">
-            {schoolRoutes.map(({ title, subtitle, text, icon: Icon }) => (
+            {schoolRoutes.map(({ title, subtitle, text, icon: Icon, href, action }) => (
               <article key={title} className="rounded-2xl border border-cream/15 bg-cream/[0.06] p-4 sm:p-5">
                 <Icon className="text-gold" size={25} aria-hidden="true" />
-                <p className="mt-4 text-xs font-semibold uppercase tracking-[0.14em] text-gold sm:mt-5">En preparación</p>
-                <h3 className="mt-3 font-serif text-2xl leading-tight">{title}</h3>
+                <h3 className="mt-4 font-serif text-2xl leading-tight sm:mt-5">{title}</h3>
                 <p className="mt-1 font-semibold text-cream/85">{subtitle}</p>
                 <p className="mt-2 leading-7 text-cream/76 sm:mt-3">{text}</p>
+                <a className="mt-4 inline-flex min-h-11 items-center gap-2 font-bold text-gold" href={href}>{action}<ArrowUpRight size={16} aria-hidden="true" /></a>
               </article>
             ))}
           </div>
