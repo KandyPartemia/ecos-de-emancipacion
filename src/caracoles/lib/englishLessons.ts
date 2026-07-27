@@ -316,7 +316,7 @@ function buildEvaluation(lesson: EnglishRawLesson, vocabulary: string[], product
 function shortItem(value: string, fallback: string) {
   const clean = repairText(value).replace(/\s+/g, ' ').trim();
   if (!clean) return fallback;
-  return clean.length > 82 ? `${clean.slice(0, 79).trim()}...` : clean;
+  return clean;
 }
 
 function buildMindMap(

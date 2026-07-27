@@ -1282,10 +1282,10 @@ function splitMindMapText(value?: string, fallback: string[] = []) {
   const text = (value || '').replace(/\s+/g, ' ').trim();
   if (!text) return fallback;
   const parts = text
-    .split(/(?<=[.!?])\s+/)
-    .map((item) => normalizeMindMapText(item.replace(/[.!?]+$/, '')))
+    .split(/(?<=[!?])\s+|(?<=\.)\s+(?=[A-ZÁÉÍÓÚÑ¿¡])/)
+    .map((item) => normalizeMindMapText(item))
     .filter(Boolean);
-  return parts.length ? parts.slice(0, 4) : fallback;
+  return parts.length ? parts : fallback;
 }
 
 function fieldThinkingCriteria(field: string) {
@@ -1452,18 +1452,18 @@ function ConceptMindMap({
   const product = record.finalProduct || 'Estrategia detonadora pendiente';
   const horizonItems =
     record.horizon.text && record.horizon.status !== 'pending'
-      ? splitMindMapText(record.horizon.text).slice(0, 2)
+      ? splitMindMapText(record.horizon.text)
       : ['Pendiente de transcripción literal desde ' + source + '.'];
   const purposeItems = splitMindMapText(record.teacherOrientation, [
     'Comprender el sentido del proyecto "' + record.academicProjectTitle + '".',
     'Retomar conceptos académicos y fuentes del campo formativo.',
     'Construir evidencias para desarrollar: ' + product + '.',
-  ]).slice(0, 4);
+  ]);
   const situationItems = splitMindMapText(record.resonanceQuestion, [
     'Identificar una situación del entorno relacionada con el proyecto.',
     'Reconocer dudas, necesidades o problemas que orientan la indagación.',
     'Conectar el desafío inicial con la estrategia detonadora.',
-  ]).slice(0, 4);
+  ]);
   const stepItems = [
     'Seleccionar información clave.',
     'Investigar en fuentes confiables.',

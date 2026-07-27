@@ -41,15 +41,34 @@ function normalizeKey(value: string) {
 }
 
 function repairMojibake(value?: string) {
-  if (!value || !/[ÃÂâ]/.test(value)) {
-    return value || '';
+  let repaired = value || '';
+
+  for (let pass = 0; pass < 3 && /[ÃÂâ]/.test(repaired); pass += 1) {
+    try {
+      const decoded = decodeURIComponent(escape(repaired));
+      if (decoded === repaired) break;
+      repaired = decoded;
+    } catch {
+      break;
+    }
   }
 
-  try {
-    return decodeURIComponent(escape(value));
-  } catch {
-    return value;
+  return repaired
+    .replace(/\uFFFD/g, '')
+    .replace(/[\u0000-\u0008\u000B\u000C\u000E-\u001F]/g, '')
+    .replace(/\s+([,.;:!?])/g, '$1')
+    .replace(/([¿¡])\s+/g, '$1');
+}
+
+function repairDisplayValue<T>(value: T): T {
+  if (typeof value === 'string') return repairMojibake(value) as T;
+  if (Array.isArray(value)) return value.map((item) => repairDisplayValue(item)) as T;
+  if (value && typeof value === 'object') {
+    return Object.fromEntries(
+      Object.entries(value as Record<string, unknown>).map(([key, item]) => [key, repairDisplayValue(item)]),
+    ) as T;
   }
+  return value;
 }
 
 function buildAcademicProjectResourceKey(project: AcademicProject) {
@@ -1607,7 +1626,7 @@ export function buildAcademicProjectRecord(
   const finalProduct = view?.developmentProject?.finalProduct?.title || project.finalProduct || '';
   const resonance = buildResonanceQuestion(project, view, finalProduct, horizon.text || '');
 
-  return {
+  return repairDisplayValue({
     id: project.id,
     grade: project.grade,
     field: project.field,
@@ -1638,5 +1657,5 @@ export function buildAcademicProjectRecord(
       matchingReady: Boolean(matchingActivity?.pairs.length),
       gameReady: game.status === 'ready',
     },
-  };
+  });
 }
