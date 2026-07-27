@@ -31,6 +31,7 @@ FILES = [
     "brujula-cognitologica-vida-cotidiana",
     "bitacora-docente-practica-con-conciencia",
     "mapa-para-elegir-recurso-ecos",
+    "manifiesto-y-pilares-en-accion",
 ]
 
 FOREST = colors.HexColor("#234D3C")
@@ -189,6 +190,9 @@ def parse_markdown(text, style):
             story.append(Spacer(1, 2 * mm))
             story.append(HRFlowable(width="100%", thickness=0.8, color=GOLD, spaceBefore=2 * mm, spaceAfter=3 * mm))
             in_closing = True
+            continue
+        if line.startswith("### "):
+            story.append(Paragraph(inline_markup(line[4:]), style["subtitle"]))
             continue
         if line.startswith("## "):
             story.append(Paragraph(inline_markup(line[3:]), style["h2"]))

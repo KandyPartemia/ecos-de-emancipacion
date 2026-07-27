@@ -266,6 +266,21 @@ const pillars = [
   },
 ];
 
+const manifestoConvictions = [
+  { title: 'La persona no es un recipiente', principle: 'Cada sujeto llega con historia, saberes, preguntas, afectos y capacidad de decidir.', question: '¿Qué sabe ya esta persona y qué necesita poder nombrar?', action: 'Escuchar antes de explicar y recuperar una experiencia concreta.', href: '/resonancias', linkLabel: 'Abrir una resonancia', icon: UserRound },
+  { title: 'La vida cotidiana también produce saber', principle: 'La casa, el aula y la comunidad son territorios legítimos para pensar y aprender.', question: '¿Dónde aparece este conocimiento en la vida real?', action: 'Relacionar el contenido con una decisión, un problema o una práctica cercana.', href: '/cognitologia', linkLabel: 'Conocer la Cognitología', icon: Home },
+  { title: 'Educar implica formar criterio', principle: 'Comprender no basta: importa aprender a distinguir, relacionar, decidir y actuar con responsabilidad.', question: '¿Qué razones sostienen lo que pensamos y qué consecuencias tendría actuar así?', action: 'Abrir preguntas que permitan comparar perspectivas y revisar decisiones.', href: '/escuela', linkLabel: 'Explorar Escuela Ecos', icon: Brain },
+  { title: 'La comunidad no es un decorado', principle: 'El aprendizaje cobra sentido cuando reconoce vínculos, necesidades y posibilidades compartidas.', question: '¿A quién beneficia lo que estamos aprendiendo y construyendo?', action: 'Convertir una evidencia escolar en conversación o aportación comunitaria.', href: '/recursos/caracoles-resonando', linkLabel: 'Abrir Caracoles Resonando', icon: UsersRound },
+  { title: 'La esperanza se practica', principle: 'No es optimismo vacío: es reconocer límites y construir un siguiente paso posible.', question: '¿Qué acción pequeña, digna y revisable podemos realizar ahora?', action: 'Cerrar cada proceso con un acuerdo concreto y una fecha para volver a mirarlo.', href: '/empieza-aqui', linkLabel: 'Elegir una ruta', icon: Sparkles },
+];
+
+const pillarPractices = [
+  { title: 'Conciencia crítica', meaning: 'Mirar la realidad sin naturalizar la desigualdad, el silencio ni las respuestas automáticas.', question: '¿Qué está ocurriendo, quiénes participan y qué voces todavía no escuchamos?', practice: 'Distinguir hechos, interpretaciones e intereses antes de tomar postura.', icon: Eye },
+  { title: 'Pedagogía del sujeto', meaning: 'Reconocer a cada persona como presencia, historia, voz y posibilidad; nunca como dato o carencia.', question: '¿Qué necesita esta persona para comprender sin perder dignidad ni autonomía?', practice: 'Ofrecer opciones para participar, expresarse y mostrar lo aprendido.', icon: Leaf },
+  { title: 'Vida cotidiana', meaning: 'Partir de experiencias concretas para que el conocimiento pueda relacionarse, discutirse y transformarse.', question: '¿Dónde toca este aprendizaje nuestra casa, escuela o comunidad?', practice: 'Situar la actividad en una experiencia cercana y recuperar sus saberes previos.', icon: BookOpen },
+  { title: 'Comunidad y esperanza', meaning: 'Construir vínculos y decisiones compartidas capaces de cuidar la vida y abrir posibilidades reales.', question: '¿Qué podemos hacer juntos que no sería posible de manera aislada?', practice: 'Acordar una acción común, responsabilidades y una forma de valorar su efecto.', icon: HandHeart },
+];
+
 const projects = [
   {
     title: 'Ecos de Emancipación',
@@ -763,6 +778,13 @@ const publicDownloads = [
     href: '/descargables/mapa-para-elegir-recurso-ecos.pdf',
     icon: Map,
   },
+  {
+    title: 'Manifiesto y pilares en acción',
+    text: 'Principios, preguntas y acciones breves para llevar la propuesta de Ecos a la práctica cotidiana.',
+    audience: 'Docentes, familias y comunidad educativa',
+    href: '/descargables/manifiesto-y-pilares-en-accion.pdf',
+    icon: Leaf,
+  },
 ];
 
 const resourceNeedPaths = [
@@ -980,6 +1002,7 @@ const routeDevelopmentProgress = [
   ['Familias', 78],
   ['Jóvenes', 79],
   ['Escuela', 74],
+  ['Manifiesto y pilares', 82],
   ['Tienda / apoyo solidario', 40],
 ];
 
@@ -1236,7 +1259,7 @@ function App() {
   if (currentPath === '/manifiesto') {
     return (
       <SiteRoute>
-        <Manifesto />
+        <Manifesto isPage />
       </SiteRoute>
     );
   }
@@ -1244,7 +1267,7 @@ function App() {
   if (currentPath === '/pilares') {
     return (
       <SiteRoute>
-        <Pillars />
+        <Pillars isPage />
       </SiteRoute>
     );
   }
@@ -1612,7 +1635,7 @@ function UniverseMap() {
   );
 }
 
-function Manifesto() {
+function Manifesto({ isPage = false }) {
   return (
     <section id="manifiesto" className="section-pad">
       <div className="mx-auto grid max-w-7xl gap-8 md:grid-cols-[0.78fr_1.22fr] md:items-center">
@@ -1621,7 +1644,7 @@ function Manifesto() {
             <Leaf size={25} aria-hidden="true" />
           </div>
           <p className="section-kicker">Manifiesto breve</p>
-          <h2 className="section-title">Educar es escuchar lo que el territorio ya sabe.</h2>
+          {isPage ? <h1 className="section-title">Educar es escuchar lo que el territorio ya sabe.</h1> : <h2 className="section-title">Educar es escuchar lo que el territorio ya sabe.</h2>}
         </div>
         <div className="rounded-[1.35rem] border border-earth/15 bg-white/50 p-6 shadow-soft sm:p-8">
           <p className="font-serif text-3xl leading-tight text-forest sm:text-4xl">
@@ -1636,7 +1659,36 @@ function Manifesto() {
           </div>
         </div>
       </div>
+      {isPage && <ManifestoDetails />}
     </section>
+  );
+}
+
+function ManifestoDetails() {
+  return (
+    <div className="mx-auto mt-12 max-w-7xl">
+      <div className="max-w-3xl">
+        <p className="section-kicker">Convicciones en acción</p>
+        <h2 className="font-serif text-3xl leading-tight text-forest sm:text-5xl">Un manifiesto se vuelve verdadero cuando orienta la práctica.</h2>
+        <p className="mt-5 leading-8 text-earth">Estas convicciones no son consignas cerradas. Son puntos de partida para observar, preguntar, decidir y volver a mirar lo que hacemos en la escuela, la familia y la comunidad.</p>
+      </div>
+      <div className="mt-8 grid gap-5 lg:grid-cols-2">
+        {manifestoConvictions.map(({ title, principle, question, action, href, linkLabel, icon: Icon }) => (
+          <article key={title} className="rounded-[1.35rem] border border-earth/15 bg-white/65 p-6 shadow-soft sm:p-7">
+            <Icon className="text-terracotta" size={28} aria-hidden="true" />
+            <h3 className="mt-5 font-serif text-3xl text-forest">{title}</h3>
+            <p className="mt-3 leading-7 text-earth">{principle}</p>
+            <div className="mt-5 border-l-2 border-gold pl-4"><p className="text-xs font-bold uppercase tracking-[0.16em] text-terracotta">Pregunta para resonar</p><p className="mt-2 font-serif text-xl leading-relaxed text-forest">{question}</p></div>
+            <p className="mt-5 text-sm leading-6 text-earth"><strong>En la práctica:</strong> {action}</p>
+            <SmartLink href={href} className="mt-5 inline-flex min-h-11 items-center gap-2 rounded-full border border-forest/25 px-5 py-2.5 text-sm font-bold text-forest">{linkLabel} <ArrowUpRight size={17} aria-hidden="true" /></SmartLink>
+          </article>
+        ))}
+      </div>
+      <div className="mt-8 flex flex-col gap-5 rounded-[1.35rem] bg-forest p-6 text-cream sm:flex-row sm:items-center sm:justify-between sm:p-8">
+        <div className="max-w-3xl"><p className="section-kicker text-gold">Para conservar y compartir</p><h2 className="mt-2 font-serif text-3xl">Manifiesto y pilares en acción</h2><p className="mt-3 leading-7 text-cream/80">Una síntesis pública para conversar, planear o abrir una jornada colectiva.</p></div>
+        <a href="/descargables/manifiesto-y-pilares-en-accion.pdf" download className="inline-flex min-h-12 shrink-0 items-center justify-center gap-2 rounded-full bg-gold px-6 py-3 font-bold text-ink"><FileText size={19} aria-hidden="true" /> Descargar PDF</a>
+      </div>
+    </div>
   );
 }
 
@@ -1816,13 +1868,13 @@ function Resonances({ isPage = false }) {
   );
 }
 
-function Pillars() {
+function Pillars({ isPage = false }) {
   return (
     <section id="pilares" className="section-pad bg-forest text-cream">
       <div className="mx-auto grid max-w-7xl gap-9 lg:grid-cols-[0.95fr_1.05fr] lg:items-center">
         <div>
           <p className="section-kicker text-gold">Pilares</p>
-          <h2 className="section-title text-cream">Raíces para sostener una pedagogía esperanzadora.</h2>
+          {isPage ? <h1 className="section-title text-cream">Raíces para sostener una pedagogía esperanzadora.</h1> : <h2 className="section-title text-cream">Raíces para sostener una pedagogía esperanzadora.</h2>}
           <div className="mt-7 grid gap-3 sm:mt-9 sm:grid-cols-2 sm:gap-4">
             {pillars.map(({ title, text, icon: Icon }) => (
               <article key={title} className="rounded-2xl border border-cream/15 bg-cream/[0.06] p-4 sm:p-6">
@@ -1841,7 +1893,30 @@ function Pillars() {
           />
         </figure>
       </div>
+      {isPage && <PillarDetails />}
     </section>
+  );
+}
+
+function PillarDetails() {
+  return (
+    <div className="mx-auto mt-12 max-w-7xl border-t border-cream/15 pt-10">
+      <p className="section-kicker text-gold">Del principio a la práctica</p>
+      <h2 className="max-w-4xl font-serif text-3xl leading-tight text-cream sm:text-5xl">Cuatro raíces que se necesitan entre sí.</h2>
+      <p className="mt-5 max-w-3xl leading-8 text-cream/75">La conciencia sin comunidad puede aislarse; la comunidad sin criterio puede repetir inercias. La vida cotidiana ofrece el territorio y la esperanza convierte lo comprendido en posibilidad de acción.</p>
+      <div className="mt-8 grid gap-5 md:grid-cols-2">
+        {pillarPractices.map(({ title, meaning, question, practice, icon: Icon }, index) => (
+          <article key={title} className="rounded-[1.35rem] border border-cream/15 bg-cream/[0.07] p-6 sm:p-7">
+            <div className="flex items-center gap-4"><span className="flex size-11 shrink-0 items-center justify-center rounded-full bg-gold font-bold text-ink">{index + 1}</span><Icon className="text-gold" size={27} aria-hidden="true" /></div>
+            <h3 className="mt-5 font-serif text-3xl text-cream">{title}</h3><p className="mt-3 leading-7 text-cream/78">{meaning}</p><p className="mt-5 font-serif text-xl leading-relaxed text-gold">{question}</p><p className="mt-4 text-sm leading-6 text-cream/75"><strong className="text-cream">Práctica posible:</strong> {practice}</p>
+          </article>
+        ))}
+      </div>
+      <div className="mt-8 grid gap-4 rounded-[1.35rem] border border-gold/30 bg-gold/10 p-6 sm:grid-cols-4 sm:p-8">
+        {['Reconocer la dignidad', 'Leer con conciencia', 'Construir en comunidad', 'Actuar con esperanza'].map((step, index) => <div key={step} className="flex items-center gap-3 sm:flex-col sm:items-start"><span className="flex size-9 shrink-0 items-center justify-center rounded-full bg-gold text-sm font-bold text-ink">{index + 1}</span><p className="font-semibold text-cream">{step}</p></div>)}
+      </div>
+      <div className="mt-8 flex flex-wrap gap-3"><SmartLink href="/manifiesto" className="inline-flex min-h-12 items-center gap-2 rounded-full bg-gold px-6 py-3 font-bold text-ink">Leer el manifiesto <ArrowUpRight size={18} aria-hidden="true" /></SmartLink><a href="/descargables/manifiesto-y-pilares-en-accion.pdf" download className="inline-flex min-h-12 items-center gap-2 rounded-full border border-cream/35 px-6 py-3 font-bold text-cream"><FileText size={18} aria-hidden="true" /> Descargar PDF</a></div>
+    </div>
   );
 }
 
