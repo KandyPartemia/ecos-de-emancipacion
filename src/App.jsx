@@ -817,6 +817,48 @@ const familyGuideSteps = [
   ['Cerrar con resonancia', 'Preguntar qué aprendió, qué puede explicar y qué apoyo necesita después.'],
 ];
 
+const familySituations = [
+  {
+    title: 'La tarea provoca rechazo o enojo',
+    context: 'Antes de exigir que termine',
+    avoid: '"Si no lo haces ahora, te quitaré todo."',
+    tryInstead: '"Primero entendamos qué te piden. Después decidimos por dónde empezar y cuánto tiempo necesitamos."',
+    criterion: 'Distinguir falta de comprensión, cansancio, organización y desacuerdo antes de sancionar.',
+    icon: BookOpen,
+  },
+  {
+    title: 'Dice que no entiende nada',
+    context: 'Cuando pide que le resuelvan',
+    avoid: '"Dame, yo lo hago porque así acabamos rápido."',
+    tryInstead: '"Explícame qué parte sí reconoces y señala el primer punto donde te pierdes."',
+    criterion: 'Ofrecer una pista, una fuente o una pregunta sin sustituir el proceso de pensamiento.',
+    icon: Brain,
+  },
+  {
+    title: 'Llega una calificación baja',
+    context: 'Antes de comparar o castigar',
+    avoid: '"¿Por qué no puedes como las demás personas?"',
+    tryInstead: '"Veamos qué muestra esta calificación, qué no muestra y qué puedes hacer diferente la próxima vez."',
+    criterion: 'Leer la calificación como un dato parcial dentro de un proceso más amplio.',
+    icon: CheckCircle2,
+  },
+  {
+    title: 'Las pantallas ocupan todo el tiempo',
+    context: 'Cuando hay cansancio y conflicto',
+    avoid: '"El teléfono es el problema; desde hoy queda prohibido."',
+    tryInstead: '"Revisemos para qué lo usas, qué necesita descanso y qué acuerdo podemos cumplir todas las personas."',
+    criterion: 'Construir límites claros y compartidos sin convertir la tecnología en explicación única.',
+    icon: Eye,
+  },
+];
+
+const familySchoolBridge = [
+  ['Preparar', 'Registrar la situación concreta, lo que ya se intentó y la pregunta que necesita conversarse.'],
+  ['Escuchar', 'Pedir la lectura de la persona joven y de la escuela sin buscar culpables antes de comprender.'],
+  ['Acordar', 'Definir una acción posible para casa, otra para escuela y un tiempo razonable para observar cambios.'],
+  ['Revisar', 'Volver al acuerdo: reconocer avances, ajustar apoyos y evitar que una dificultad se vuelva etiqueta.'],
+];
+
 const youthGuideSteps = [
   ['Nombrar', 'Explicar con tus palabras qué está pasando en una tarea, conflicto, decisión o proyecto.'],
   ['Relacionar', 'Buscar causas, consecuencias, voces, datos o palabras que ayuden a comprender mejor.'],
@@ -831,7 +873,7 @@ const routeDevelopmentProgress = [
   ['Caracoles Resonando', 88],
   ['Recursos', 66],
   ['Resonancias', 76],
-  ['Familias', 52],
+  ['Familias', 78],
   ['Jóvenes', 52],
   ['Escuela', 74],
   ['Tienda / apoyo solidario', 40],
@@ -2725,6 +2767,79 @@ function Families() {
           Cuidado central: esta ruta no pide datos personales, relatos íntimos ni evidencias de menores. Propone
           conversación y acompañamiento local, dentro de la familia y la comunidad escolar.
         </p>
+      </div>
+
+      <div className="mx-auto mt-8 max-w-7xl">
+        <div className="max-w-4xl">
+          <p className="section-kicker text-terracotta">Situaciones cotidianas</p>
+          <h2 className="mt-3 font-serif text-4xl leading-tight text-forest sm:text-5xl">
+            Acompañar también significa cambiar la pregunta con la que entramos al conflicto.
+          </h2>
+          <p className="mt-4 leading-8 text-earth">
+            Estas escenas no ofrecen frases mágicas. Ayudan a bajar la reacción, comprender qué está ocurriendo y
+            devolver a la persona joven una parte real de la responsabilidad sobre su aprendizaje.
+          </p>
+        </div>
+        <div className="mt-6 grid gap-4 md:grid-cols-2">
+          {familySituations.map(({ title, context, avoid, tryInstead, criterion, icon: Icon }) => (
+            <article key={title} className="rounded-[1.35rem] border border-earth/15 bg-white/75 p-5 shadow-soft sm:p-6">
+              <div className="flex items-start justify-between gap-4">
+                <span className="inline-flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-forest text-gold">
+                  <Icon size={22} aria-hidden="true" />
+                </span>
+                <span className="rounded-full border border-gold/35 px-3 py-1 text-right text-xs font-bold uppercase text-earth">{context}</span>
+              </div>
+              <h3 className="mt-5 font-serif text-3xl leading-tight text-forest">{title}</h3>
+              <div className="mt-5 grid gap-3">
+                <div className="rounded-2xl bg-terracotta/10 p-4">
+                  <p className="text-xs font-black uppercase tracking-widest text-terracotta">Conviene evitar</p>
+                  <p className="mt-2 text-sm leading-7 text-earth">{avoid}</p>
+                </div>
+                <div className="rounded-2xl bg-forest p-4 text-cream">
+                  <p className="text-xs font-black uppercase tracking-widest text-gold">Podría abrirse así</p>
+                  <p className="mt-2 font-serif text-xl leading-8">{tryInstead}</p>
+                </div>
+              </div>
+              <p className="mt-4 text-sm leading-7 text-earth"><strong>Criterio de cuidado:</strong> {criterion}</p>
+            </article>
+          ))}
+        </div>
+      </div>
+
+      <div className="mx-auto mt-8 grid max-w-7xl gap-4 lg:grid-cols-[1.05fr_0.95fr]">
+        <article className="rounded-[1.5rem] border border-earth/15 bg-cream p-5 shadow-soft sm:p-7">
+          <p className="section-kicker text-terracotta">Puente familia-escuela</p>
+          <h2 className="mt-3 font-serif text-4xl leading-tight text-forest">Conversar para comprender y acordar, no para repartir culpas.</h2>
+          <div className="mt-6 grid gap-3 sm:grid-cols-2">
+            {familySchoolBridge.map(([title, text], index) => (
+              <div key={title} className="flex gap-4 rounded-2xl border border-earth/15 bg-white/75 p-4">
+                <span className="inline-flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-gold font-black text-ink">{index + 1}</span>
+                <div>
+                  <h3 className="font-serif text-2xl text-forest">{title}</h3>
+                  <p className="mt-2 text-sm leading-7 text-earth">{text}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </article>
+        <article className="rounded-[1.5rem] border border-cream/15 bg-forest p-5 text-cream shadow-soft sm:p-7">
+          <p className="section-kicker text-gold">Cuándo pedir más apoyo</p>
+          <h2 className="mt-3 font-serif text-4xl leading-tight">Acompañar también es reconocer lo que una familia no tiene que resolver sola.</h2>
+          <p className="mt-5 leading-8 text-cream/78">
+            Si una dificultad es persistente, afecta el bienestar, implica violencia o rebasa los recursos familiares y
+            escolares, conviene buscar orientación profesional o institucional adecuada. Esta ruta pedagógica no sustituye esa atención.
+          </p>
+          <div className="mt-6 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
+            <a className="btn-gold" href="/descargables/guia-familias-acompanar-sin-vigilar.pdf" download>
+              Descargar guía en PDF
+              <ArrowDown size={18} aria-hidden="true" />
+            </a>
+            <a className="inline-flex min-h-11 items-center justify-center gap-2 rounded-full border border-cream/30 px-5 py-3 font-bold text-cream" href="/escuela">
+              Conocer Escuela Ecos
+              <ArrowUpRight size={17} aria-hidden="true" />
+            </a>
+          </div>
+        </article>
       </div>
     </section>
   );
