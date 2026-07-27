@@ -417,19 +417,22 @@ const musicChannels = [
 
 const storeItems = [
   {
-    title: 'Cuaderno de resonancias docentes',
-    text: 'Bitácora para registrar preguntas, hallazgos y decisiones pedagógicas.',
+    title: 'Semillero de Conciencia',
+    text: 'Guía docente para convertir una situación del aula en pregunta, diálogo, criterio y acuerdo.',
     icon: BookOpenText,
+    href: '/descargables/guia-docente-semillero-conciencia.pdf',
   },
   {
-    title: 'Banco de preguntas para pensar',
-    text: 'Tarjetas de indagación para abrir diálogo crítico en clase.',
-    icon: Brain,
+    title: 'Acompañar sin vigilar',
+    text: 'Guía para familias que desean estar presentes sin sustituir la voz ni la autonomía de las y los jóvenes.',
+    icon: Home,
+    href: '/descargables/guia-familias-acompanar-sin-vigilar.pdf',
   },
   {
-    title: 'Mapas mentales y esquemas pedagógicos',
-    text: 'Plantillas para organizar ideas, rutas didácticas y proyectos.',
-    icon: FileText,
+    title: 'Mi resonancia',
+    text: 'Bitácora para jóvenes que ayuda a reconocer aprendizajes, criterios y un siguiente paso posible.',
+    icon: Sparkles,
+    href: '/descargables/bitacora-jovenes-resonancia.pdf',
   },
 ];
 
@@ -488,7 +491,7 @@ const schoolStartModules = [
   },
   {
     title: 'Tienda docente',
-    text: 'Cuadernos, tarjetas, mapas y recursos pedagógicos en preparación.',
+    text: 'Guías, bitácoras, mapas y recursos pedagógicos para descargar y llevar a la práctica.',
     icon: ShoppingBag,
   },
   {
@@ -521,33 +524,22 @@ const ethicalCatalog = [
     tone: 'available',
   },
   {
-    status: 'En preparación',
-    title: 'Cuadernos y rutas ampliadas',
-    text: 'Materiales de mayor profundidad para docentes, familias, jóvenes y procesos comunitarios.',
-    detail: 'Se publicarán solo después de su revisión pedagógica, editorial y técnica.',
-    href: NEWSLETTER_FORM_URL,
-    action: 'Recibir novedades',
-    icon: NotebookTabs,
-    tone: 'preparing',
-    external: true,
-  },
-  {
-    status: 'Corpus protegido',
-    title: 'Obra teórica y editorial original',
-    text: 'Tesis, libros, fascículos, cómic y cuadernos preliminares que sostienen conceptualmente la propuesta.',
-    detail: 'No están disponibles para descarga libre ni deben circular como versiones definitivas.',
-    href: '/cognitologia',
-    action: 'Conocer la propuesta pública',
-    icon: KeyRound,
-    tone: 'protected',
+    status: 'Disponible',
+    title: 'Manifiesto y pilares en acción',
+    text: 'Síntesis para conversar sobre conciencia, dignidad, vida cotidiana, comunidad y esperanza.',
+    detail: 'PDF breve para lectura personal, trabajo colegiado o conversación comunitaria.',
+    href: '/descargables/manifiesto-y-pilares-en-accion.pdf',
+    action: 'Descargar PDF',
+    icon: Leaf,
+    tone: 'available',
   },
 ];
 
 const ethicalAccessPrinciples = [
-  ['Claridad', 'Cada material debe indicar qué ofrece, para quién fue creado y cuál es su estado editorial.'],
-  ['Utilidad antes que venta', 'Un recurso no se ofrecerá por su apariencia, sino por la función pedagógica que pueda cumplir.'],
-  ['Autoría y cuidado', 'Compartir no significa borrar la autoría ni liberar borradores, corpus privados o materiales sin revisión.'],
-  ['Sostenibilidad solidaria', 'El apoyo voluntario ayuda a investigar, diseñar, revisar y mantener recursos públicos sin convertir la ayuda en presión.'],
+  ['Parte de una necesidad', 'Nombra primero qué quieres comprender, acompañar, conversar o transformar.'],
+  ['Piensa en las personas', 'Elige un material adecuado para la edad, el contexto y el momento de quienes participarán.'],
+  ['Adáptalo con cuidado', 'Conserva el propósito del recurso y relaciona sus preguntas con la vida cotidiana de tu comunidad.'],
+  ['Vuelve a mirar', 'Después de usarlo, reconoce qué ayudó, qué hizo falta y cuál podría ser el siguiente paso.'],
 ];
 
 const schoolTeacherSituations = [
@@ -772,17 +764,6 @@ const resourceLibrary = [
     action: 'Escuchar',
     icon: Music,
   },
-  {
-    title: 'Materiales ampliados en preparación',
-    audience: 'Docentes y personas interesadas',
-    theme: 'Cuadernos, guías y recursos futuros',
-    type: 'Catálogo ético',
-    format: 'En preparación',
-    access: 'Aportación solidaria o pago futuro',
-    href: '/tienda',
-    action: 'Ver estado',
-    icon: ShoppingBag,
-  },
 ];
 
 const publicDownloads = [
@@ -841,13 +822,6 @@ const publicDownloads = [
     audience: 'Docentes, familias y comunidad educativa',
     href: '/descargables/manifiesto-y-pilares-en-accion.pdf',
     icon: Leaf,
-  },
-  {
-    title: 'Guía de acceso ético a los recursos',
-    text: 'Orientación para distinguir materiales públicos, recursos en preparación, corpus protegido y apoyo solidario.',
-    audience: 'Toda la comunidad Ecos',
-    href: '/descargables/guia-de-acceso-etico-ecos.pdf',
-    icon: KeyRound,
   },
 ];
 
@@ -1114,12 +1088,12 @@ const ROUTE_METADATA = {
   '/cognitologia': {
     title: '¿Qué es la Cognitología para la vida cotidiana? | Ecos de Emancipación',
     description:
-      'Entrada pública a la Cognitología para la vida cotidiana: problema, propósito, criterios de pensamiento, artilugios pedagógicos y relación con Caracoles Resonando.',
+      'Comprende la Cognitología para la vida cotidiana mediante preguntas, criterios de pensamiento y prácticas para el aula, la familia y la comunidad.',
   },
   '/que-es-la-cognitologia': {
     title: '¿Qué es la Cognitología para la vida cotidiana? | Ecos de Emancipación',
     description:
-      'Entrada pública a la Cognitología para la vida cotidiana: problema, propósito, criterios de pensamiento, artilugios pedagógicos y relación con Caracoles Resonando.',
+      'Comprende la Cognitología para la vida cotidiana mediante preguntas, criterios de pensamiento y prácticas para el aula, la familia y la comunidad.',
   },
   '/manifiesto': {
     title: 'Manifiesto | Ecos de Emancipación',
@@ -1620,7 +1594,7 @@ function UniverseMap() {
                 </>
               )}
             </div>
-            <p className="mt-8 text-xs font-semibold uppercase tracking-[0.16em] text-terracotta">Sección activa</p>
+            <p className="mt-8 text-xs font-semibold uppercase tracking-[0.16em] text-terracotta">Para explorar</p>
             <h3 className="mt-3 font-serif text-4xl leading-none text-forest">{activeNode.title}</h3>
             <p className="mt-5 leading-8 text-earth">{activeNode.text}</p>
             <figure className="universe-static-map mt-8 overflow-hidden rounded-2xl border border-earth/15 bg-cream/70 p-2">
@@ -1655,7 +1629,7 @@ function UniverseMap() {
                   <div id={`mobile-universe-${id}`} className="border-t border-earth/15 px-4 pb-4 pt-3">
                     <p className="leading-7 text-earth">{text}</p>
                     <a className="mt-4 inline-flex items-center gap-2 text-sm font-semibold text-forest" href={href}>
-                      Ir a la sección
+                      Explorar
                       <ArrowUpRight size={16} aria-hidden="true" />
                     </a>
                   </div>
@@ -1990,9 +1964,9 @@ function CognitologyPage() {
   ];
 
   const protectedNotes = [
-    'Los libros, cuadernos y fascículos completos forman parte del corpus original de la autora.',
-    'Esta página ofrece una entrada pública breve, no sustituye los materiales completos ni libera sus contenidos.',
-    'La propuesta seguirá creciendo con recursos, rutas formativas y materiales preparados para docentes, familias y estudiantes.',
+    'La Cognitología relaciona conciencia, pensamiento, vida cotidiana y acción responsable.',
+    'Sus preguntas pueden llevarse al aula, la familia y la comunidad sin convertirlas en etiquetas sobre las personas.',
+    'Las obras completas de la autora profundizan esta propuesta; aquí encontrarás una síntesis para comenzar a ponerla en práctica.',
   ];
 
   return (
@@ -2024,7 +1998,7 @@ function CognitologyPage() {
           </article>
 
           <article className="compact-card bg-cream/90">
-            <p className="section-kicker text-terracotta">Qué ofrece esta entrada</p>
+            <p className="section-kicker text-terracotta">Qué puedes explorar</p>
             <ul className="mt-5 grid gap-3 text-earth">
               {[
                 'Un lenguaje inicial para comprender el corazón teórico de Ecos.',
@@ -2210,7 +2184,7 @@ function CognitologyPage() {
         </div>
 
         <div className="mt-5 rounded-[1.5rem] border border-gold/35 bg-[#fff8ee] p-5 shadow-soft sm:p-7">
-          <p className="section-kicker text-terracotta">Resguardo del corpus</p>
+          <p className="section-kicker text-terracotta">Para llevarlo a la vida cotidiana</p>
           <div className="mt-4 grid gap-3 md:grid-cols-3">
             {protectedNotes.map((note) => (
               <p key={note} className="rounded-2xl bg-cream px-4 py-3 text-sm font-semibold leading-7 text-earth">
@@ -2329,7 +2303,7 @@ function Resources() {
                 <div className="flex h-14 w-14 items-center justify-center rounded-full bg-gold/25 text-terracotta">
                   <Icon size={27} aria-hidden="true" />
                 </div>
-                <p className="mt-4 text-xs font-black uppercase tracking-[0.14em] text-terracotta">Entrada disponible</p>
+                <p className="mt-4 text-xs font-black uppercase tracking-[0.14em] text-terracotta">Para acompañar</p>
               </div>
               <h3 className="mt-5 font-serif text-2xl leading-tight text-forest">{title}</h3>
               <p className="mt-3 leading-7 text-earth">{text}</p>
@@ -2420,20 +2394,20 @@ function ResourcesPage() {
             <h1 className="section-title">Herramientas para acompañar procesos.</h1>
           </div>
           <p className="max-w-3xl leading-8 text-earth">
-            Esta ruta reúne los materiales más útiles del sitio para planear, conversar, crear evidencias, cuidar el
-            aprendizaje y sostener una práctica educativa con conciencia.
+            Encuentra herramientas para planear, conversar, crear evidencias, cuidar el aprendizaje y sostener una
+            práctica educativa con conciencia.
           </p>
         </div>
 
         <div className="mt-8">
           <article className="compact-card bg-cream/90">
-            <p className="section-kicker text-terracotta">Cómo usar esta ruta</p>
+            <p className="section-kicker text-terracotta">Elige tu siguiente paso</p>
             <ol className="mt-5 grid gap-3 text-earth md:grid-cols-2">
               {[
                 'Elige primero el tipo de acompañamiento que necesitas.',
-                'Abre la herramienta o sección relacionada.',
+                'Abre el recurso que responda mejor a tu necesidad.',
                 'Recupera una pregunta, una fuente o una evidencia concreta.',
-                'Vuelve a la página principal cuando quieras recorrer el proyecto completo.',
+                'Regresa al mapa cuando quieras descubrir otra posibilidad.',
               ].map((item, index) => (
                 <li key={item} className="flex gap-3 leading-7">
                   <span className="mt-1 inline-flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-gold text-sm font-black text-ink">
@@ -2508,8 +2482,8 @@ function ResourcesPage() {
               </h2>
             </div>
             <p className="leading-8 text-earth">
-              La experiencia web orienta y conecta. Todo material preparado para descargar, imprimir o compartir se
-              publica en PDF para facilitar su distribución y conservar su diseño editorial.
+              Consulta cada material desde la página o descárgalo en PDF para trabajarlo, imprimirlo y compartirlo con
+              mayor facilidad.
             </p>
           </div>
           <div className="mt-5 grid gap-3 lg:grid-cols-2">
@@ -2557,12 +2531,11 @@ function ResourcesPage() {
             <div>
               <p className="section-kicker text-terracotta">Descargables públicos</p>
               <h2 className="mt-3 font-serif text-3xl leading-tight text-forest">
-                Recursos breves para imprimir, compartir o trabajar fuera del sitio.
+                Recursos breves para acompañar una conversación, una clase o una reflexión personal.
               </h2>
             </div>
             <p className="leading-8 text-earth">
-              Son materiales de orientación, no fragmentos de libros preliminares. Se publican porque tienen una función
-              práctica: acompañar una conversación, una clase o una resonancia personal.
+              Elige el material que responda a tu momento y adáptalo con cuidado a las personas y al contexto donde será utilizado.
             </p>
           </div>
           <div className="mt-5 grid gap-3 md:grid-cols-3">
@@ -2639,30 +2612,31 @@ function Store({ isPage = false }) {
           <p className="section-kicker text-forest">Tienda docente</p>
           {isPage ? <h1 className="section-title">Recursos para la práctica educativa.</h1> : <h2 className="section-title">Recursos para la práctica educativa.</h2>}
           <p className="mt-5 leading-8 text-earth">
-            Un espacio futuro para reunir materiales, cuadernos, guías, tarjetas, recursos imprimibles y herramientas
-            que acompañen la práctica docente desde la conciencia, el cuidado y el pensamiento crítico.
+            Encuentra materiales, cuadernos y herramientas para acompañar la práctica educativa desde la conciencia,
+            el cuidado y el pensamiento crítico.
           </p>
           <p className="mt-4 rounded-2xl border border-gold/35 bg-[#fff8ee] px-5 py-4 text-sm font-semibold leading-7 text-earth">
-            La sostenibilidad vendrá después de la claridad y la utilidad: ningún recurso se ofrecerá como producto si
-            antes no tiene función pedagógica, cuidado editorial y sentido para quien lo use.
+            Elige un recurso a partir de una necesidad concreta y úsalo como apoyo para preguntar, dialogar, decidir o
+            volver a mirar una experiencia.
           </p>
           <div className="mt-6 grid gap-3 md:mt-8 md:grid-cols-3 md:gap-4">
-            {storeItems.map(({ title, text, icon: Icon }) => (
+            {storeItems.map(({ title, text, icon: Icon, href }) => (
               <article key={title} className="catalog-card">
                 <div className="flex items-start justify-between gap-3">
                   <Icon className="text-terracotta" size={27} aria-hidden="true" />
                   <span className="status-pill">
                     <Tag size={13} aria-hidden="true" />
-                    Próximamente
+                    PDF
                   </span>
                 </div>
                 <h3 className="mt-5 font-serif text-2xl leading-tight text-forest">{title}</h3>
                 <p className="mt-3 leading-7 text-earth">{text}</p>
+                <a className="mt-4 inline-flex min-h-11 items-center gap-2 font-bold text-forest" href={href} download>Descargar <ArrowDown size={16} aria-hidden="true" /></a>
               </article>
             ))}
           </div>
-          <ExternalLink className="btn-primary mt-6 sm:mt-7" href={LINKS.whatsapp} label="Solicitar información sobre tienda docente">
-            Solicitar información
+          <ExternalLink className="btn-primary mt-6 sm:mt-7" href={LINKS.whatsapp} label="Sugerir un recurso educativo por WhatsApp">
+            Sugerir un recurso
             <MessageCircle size={18} aria-hidden="true" />
           </ExternalLink>
           <a className="btn-secondary mt-3 sm:ml-3 sm:mt-6" href="/recursos">
@@ -2715,7 +2689,7 @@ function SchoolSection({ isPage = false }) {
         <figure className="editorial-image min-h-[20rem] lg:min-h-[38rem]">
           <img
             src={IMAGES.school}
-            alt="Escuela Ecos de Emancipación como espacio visual para formación digital futura"
+            alt="Escuela Ecos de Emancipación como espacio de formación, reflexión y acompañamiento educativo"
             className="h-full w-full object-cover object-center"
           />
         </figure>
@@ -2821,8 +2795,8 @@ function SchoolSection({ isPage = false }) {
               Una orientación inicial para recorrer la escuela.
             </h3>
             <p className="mt-4 max-w-3xl leading-7 text-cream/78 sm:leading-8">
-              Continúa desde las rutas de estudio, recursos y acompañamiento. La entrada docente ya está disponible;
-              las formaciones extensas crecerán de manera gradual, crítica, esperanzadora y situada.
+              Elige una situación de la práctica, prueba un artilugio pedagógico y registra lo que cambia. También puedes
+              recorrer los materiales para familias y jóvenes cuando el proceso necesite otras voces.
             </p>
           </div>
           <a className="btn-gold justify-self-start lg:justify-self-end" href="#escuela-rutas" aria-label="Comenzar recorrido por las rutas de Escuela Ecos">
@@ -2895,10 +2869,10 @@ function EthicalStoreDetails() {
     <div className="mx-auto mt-12 max-w-7xl">
       <div className="grid gap-5 lg:grid-cols-[0.72fr_1.28fr] lg:items-end">
         <div>
-          <p className="section-kicker text-forest">Catálogo ético</p>
-          <h2 className="font-serif text-4xl leading-tight text-forest sm:text-5xl">Saber qué está disponible también es una forma de cuidado.</h2>
+          <p className="section-kicker text-forest">Recursos para comenzar</p>
+          <h2 className="font-serif text-4xl leading-tight text-forest sm:text-5xl">Elige según lo que quieres comprender, acompañar o transformar.</h2>
         </div>
-        <p className="leading-8 text-earth">Esta ruta distingue los recursos públicos de los materiales que continúan en preparación y del corpus original protegido. Así, nadie necesita adivinar si un botón conduce a una descarga, a una herramienta o a una obra todavía no publicada.</p>
+        <p className="leading-8 text-earth">Puedes comenzar con una guía breve, preparar un Proyecto Académico o abrir una conversación colectiva. Cada recurso propone un uso concreto para que encuentres una ayuda pertinente sin acumular materiales innecesarios.</p>
       </div>
 
       <div className="mt-8 grid gap-5 md:grid-cols-2">
@@ -2917,8 +2891,8 @@ function EthicalStoreDetails() {
       </div>
 
       <div className="mt-10 rounded-[1.5rem] bg-forest p-6 text-cream shadow-soft sm:p-8">
-        <p className="section-kicker text-gold">Compromisos editoriales</p>
-        <h2 className="mt-3 max-w-4xl font-serif text-4xl leading-tight sm:text-5xl">Compartir con generosidad también exige límites claros.</h2>
+        <p className="section-kicker text-gold">Una elección con sentido</p>
+        <h2 className="mt-3 max-w-4xl font-serif text-4xl leading-tight sm:text-5xl">Del material descargado a una experiencia que pueda transformar.</h2>
         <div className="mt-7 grid gap-4 md:grid-cols-2">
           {ethicalAccessPrinciples.map(([title, text], index) => (
             <article key={title} className="flex gap-4 rounded-2xl border border-cream/15 bg-cream/[0.06] p-5">
@@ -2937,10 +2911,10 @@ function EthicalStoreDetails() {
           <a href="/descargables/mapa-para-elegir-recurso-ecos.pdf" download className="btn-primary mt-6"><FileText size={18} aria-hidden="true" /> Descargar mapa en PDF</a>
         </article>
         <article className="rounded-[1.35rem] border border-earth/15 bg-white/70 p-6 shadow-soft sm:p-7">
-          <p className="section-kicker text-forest">Guía de acceso</p>
-          <h2 className="mt-3 font-serif text-3xl text-forest">Qué puedes usar, compartir o esperar.</h2>
-          <p className="mt-4 leading-8 text-earth">Una hoja de orientación sobre recursos públicos, materiales en preparación, autoría y apoyo solidario.</p>
-          <a href="/descargables/guia-de-acceso-etico-ecos.pdf" download className="btn-secondary mt-6"><FileText size={18} aria-hidden="true" /> Descargar guía en PDF</a>
+          <p className="section-kicker text-forest">Profundiza</p>
+          <h2 className="mt-3 font-serif text-3xl text-forest">Manifiesto y pilares en acción.</h2>
+          <p className="mt-4 leading-8 text-earth">Lleva conciencia, dignidad, vida cotidiana, comunidad y esperanza a una conversación educativa.</p>
+          <a href="/descargables/manifiesto-y-pilares-en-accion.pdf" download className="btn-secondary mt-6"><FileText size={18} aria-hidden="true" /> Descargar PDF</a>
         </article>
       </div>
     </div>
@@ -3303,7 +3277,7 @@ function StartHere() {
             <p className="section-kicker text-gold">Fundamento transversal</p>
             <h3 className="mt-3 font-serif text-3xl leading-tight">Cognitología para la vida cotidiana</h3>
             <p className="mt-4 leading-8 text-cream/80">
-              No es una sección aislada: es el fundamento que ayuda a mirar cómo pensamos, decidimos, aprendemos y acompañamos. Caracoles Resonando, Recursos y Resonancias muestran algunas aplicaciones prácticas de esa mirada.
+              Ayuda a mirar cómo pensamos, decidimos, aprendemos y acompañamos. Sus criterios toman forma en Caracoles Resonando, los recursos pedagógicos y las preguntas de Resonancias.
             </p>
             <a className="btn-gold mt-5" href="/cognitologia">
               Comprender el fundamento
