@@ -633,6 +633,37 @@ const schoolPracticeCycle = [
   ['Después', 'Valorar proceso y producto; escuchar resonancias; comunicar hallazgos y elegir un siguiente paso revisable.'],
 ];
 
+const schoolPracticeLibrary = [
+  {
+    moment: 'Abrir una experiencia',
+    need: 'El grupo necesita reconocer para qué vale la pena aprender algo.',
+    question: '¿Qué situación de nuestra vida permite comprender este contenido de otra manera?',
+    resource: 'Semillero de Conciencia',
+    icon: DoorOpen,
+  },
+  {
+    moment: 'Recuperar saberes',
+    need: 'Las respuestas iniciales son distintas y hace falta relacionarlas sin decidir demasiado pronto cuál vale.',
+    question: '¿Qué sabemos, de dónde lo aprendimos y qué necesitamos contrastar?',
+    resource: 'Mapa dialógico-dialéctico',
+    icon: Brain,
+  },
+  {
+    moment: 'Sostener el proceso',
+    need: 'La actividad avanza, pero algunas voces, decisiones o dificultades quedan invisibles.',
+    question: '¿Qué está cambiando en la comprensión y qué apoyo necesita cada equipo?',
+    resource: 'Diario de Resonancias',
+    icon: NotebookTabs,
+  },
+  {
+    moment: 'Valorar lo aprendido',
+    need: 'El producto está terminado y se necesita reconocer algo más que su apariencia final.',
+    question: '¿Qué criterio utilizamos, qué decisión tomamos y qué haríamos diferente?',
+    resource: 'Bitácora docente',
+    icon: CheckCircle2,
+  },
+];
+
 const paths = [
   {
     audience: 'Soy docente',
@@ -1128,6 +1159,13 @@ const familySchoolBridge = [
   ['Revisar', 'Volver al acuerdo: reconocer avances, ajustar apoyos y evitar que una dificultad se vuelva etiqueta.'],
 ];
 
+const familyAgreements = [
+  ['Tareas', 'Primero comprender la consigna; después acordar tiempo, lugar y tipo de ayuda.'],
+  ['Pantallas', 'Distinguir estudio, comunicación, descanso y entretenimiento antes de fijar límites compartidos.'],
+  ['Calificaciones', 'Conversar sobre el proceso y elegir una mejora concreta antes de comparar o castigar.'],
+  ['Conflictos', 'Pausar cuando sube el tono, escuchar las versiones y regresar para construir un acuerdo revisable.'],
+];
+
 const youthGuideSteps = [
   ['Nombrar', 'Explicar con tus palabras qué está pasando en una tarea, conflicto, decisión o proyecto.'],
   ['Relacionar', 'Buscar causas, consecuencias, voces, datos o palabras que ayuden a comprender mejor.'],
@@ -1172,6 +1210,14 @@ const youthDecisionCompass = [
   ['Lo que puede ocurrir', '¿Qué consecuencias podría tener para mí y para otras personas?'],
   ['Con quién puedo pensar', '¿Qué persona confiable puede escucharme sin decidir en mi lugar?'],
   ['El paso revisable', '¿Qué acción pequeña puedo realizar y después volver a valorar?'],
+];
+
+const youthVoiceChallenge = [
+  ['Observa', 'Elige algo de tu escuela o comunidad que te preocupe, te alegre o te parezca injusto.'],
+  ['Pregunta', 'Escribe una pregunta que ayude a comprenderlo sin culpar ni simplificar.'],
+  ['Contrasta', 'Escucha dos voces distintas y busca un dato, experiencia o fuente que amplíe tu mirada.'],
+  ['Crea', 'Exprésalo como texto, audio, cartel, fotografía comentada o propuesta para conversar.'],
+  ['Comparte', 'Decide con quién, para qué y de qué manera segura quieres hacerlo visible.'],
 ];
 
 function ExternalLink({ href, children, className, label }) {
@@ -3035,6 +3081,29 @@ function SchoolSection({ isPage = false }) {
         </article>
       </div>
 
+      <div className="mx-auto mt-10 max-w-7xl rounded-[1.5rem] bg-cream p-5 text-ink shadow-soft sm:p-8">
+        <div className="max-w-4xl">
+          <p className="section-kicker text-terracotta">Biblioteca práctica docente</p>
+          <h2 className="mt-3 font-serif text-4xl leading-tight text-forest sm:text-5xl">Elige el apoyo por el momento que vive tu grupo.</h2>
+          <p className="mt-4 leading-8 text-earth">No hace falta usar todas las herramientas a la vez. Parte de una necesidad concreta, abre una pregunta y registra qué cambia.</p>
+        </div>
+        <div className="mt-6 grid gap-4 md:grid-cols-2">
+          {schoolPracticeLibrary.map(({ moment, need, question, resource, icon: Icon }) => (
+            <article key={moment} className="rounded-[1.25rem] border border-earth/15 bg-white/75 p-5 sm:p-6">
+              <div className="flex items-start gap-4">
+                <span className="inline-flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-forest text-gold"><Icon size={22} aria-hidden="true" /></span>
+                <div>
+                  <p className="text-xs font-black uppercase tracking-[0.15em] text-terracotta">{moment}</p>
+                  <p className="mt-3 leading-7 text-earth">{need}</p>
+                </div>
+              </div>
+              <p className="mt-5 border-l-2 border-gold pl-4 font-serif text-xl leading-8 text-forest">{question}</p>
+              <p className="mt-4 text-sm font-bold text-earth">Apoyo sugerido: {resource}</p>
+            </article>
+          ))}
+        </div>
+      </div>
+
       <aside className="mx-auto mt-10 max-w-7xl rounded-[1.35rem] border border-gold/30 bg-ink/20 p-5 sm:p-7">
         <p className="section-kicker text-gold">Cuidado pedagógico</p>
         <p className="mt-3 max-w-5xl font-serif text-2xl leading-relaxed text-cream">
@@ -3419,6 +3488,28 @@ function Families() {
           </div>
         </article>
       </div>
+
+      <div className="mx-auto mt-8 max-w-7xl rounded-[1.5rem] border border-earth/15 bg-clay/45 p-5 shadow-soft sm:p-7">
+        <p className="section-kicker text-terracotta">Acuerdos que pueden revisarse</p>
+        <div className="mt-4 grid gap-5 lg:grid-cols-[0.72fr_1.28fr] lg:items-start">
+          <div>
+            <h2 className="font-serif text-4xl leading-tight text-forest">Un acuerdo cuida mejor cuando es claro, posible y temporal.</h2>
+            <p className="mt-4 leading-8 text-earth">Elijan una sola situación, escriban qué hará cada persona y acuerden cuándo volverán a conversar. Revisar no significa fracasar: significa aprender del proceso.</p>
+          </div>
+          <div className="grid gap-3 sm:grid-cols-2">
+            {familyAgreements.map(([title, text]) => (
+              <article key={title} className="rounded-2xl border border-earth/15 bg-white/80 p-5">
+                <h3 className="font-serif text-2xl text-forest">{title}</h3>
+                <p className="mt-3 text-sm leading-7 text-earth">{text}</p>
+              </article>
+            ))}
+          </div>
+        </div>
+        <div className="mt-6 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
+          <a className="btn-primary" href="/descargables/guia-familias-acompanar-sin-vigilar.pdf" download>Practicar con la guía <FileText size={17} aria-hidden="true" /></a>
+          <a className="btn-secondary" href="/resonancias">Seguir comprendiendo <ArrowUpRight size={17} aria-hidden="true" /></a>
+        </div>
+      </div>
     </section>
   );
 }
@@ -3541,6 +3632,28 @@ function Youth() {
               <ArrowDown size={18} aria-hidden="true" />
             </a>
           </article>
+        </div>
+      </div>
+
+      <div className="mx-auto mt-8 max-w-7xl rounded-[1.5rem] border border-earth/15 bg-white/75 p-5 shadow-soft sm:p-7">
+        <div className="grid gap-6 lg:grid-cols-[0.72fr_1.28fr] lg:items-start">
+          <div>
+            <p className="section-kicker text-terracotta">Reto de voz propia</p>
+            <h2 className="mt-3 font-serif text-4xl leading-tight text-forest">Convierte una inquietud en una expresión con sentido.</h2>
+            <p className="mt-4 leading-8 text-earth">No se trata de producir para conseguir aprobación. Se trata de mirar, formar criterio y decidir cómo quieres participar en el mundo que compartes.</p>
+          </div>
+          <ol className="grid gap-3 sm:grid-cols-2">
+            {youthVoiceChallenge.map(([title, text], index) => (
+              <li key={title} className="flex gap-4 rounded-2xl border border-earth/15 bg-cream p-4">
+                <span className="inline-flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-gold font-black text-ink">{index + 1}</span>
+                <div><h3 className="font-serif text-2xl text-forest">{title}</h3><p className="mt-2 text-sm leading-7 text-earth">{text}</p></div>
+              </li>
+            ))}
+          </ol>
+        </div>
+        <div className="mt-6 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
+          <a className="btn-primary" href="/descargables/bitacora-jovenes-resonancia.pdf" download>Registrar en mi bitácora <FileText size={17} aria-hidden="true" /></a>
+          <a className="btn-secondary" href="/recursos/caracoles-resonando">Llevarlo a un proyecto <Shell size={17} aria-hidden="true" /></a>
         </div>
       </div>
     </section>
