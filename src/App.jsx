@@ -2683,28 +2683,46 @@ function ResourcesPage() {
 function Store({ isPage = false }) {
   return (
     <section id="tienda" className="section-pad bg-clay">
-      <div className="mx-auto grid max-w-7xl gap-8 lg:grid-cols-[0.85fr_1.15fr] lg:items-center">
-        <figure className="editorial-image min-h-[20rem] lg:min-h-[34rem]">
-          <img
-            src={IMAGES.store}
-            alt="Materiales y recursos docentes preparados con estética editorial cálida"
-            className="h-full w-full object-cover object-center"
-          />
-        </figure>
-        <div>
-          <div className="section-icon">
-            <ShoppingBag size={25} aria-hidden="true" />
+      <div className="mx-auto max-w-7xl">
+        <div className="grid gap-8 lg:grid-cols-[0.85fr_1.15fr] lg:items-center">
+          <figure className="editorial-image min-h-[20rem] lg:min-h-[34rem]">
+            <img
+              src={IMAGES.store}
+              alt="Materiales y recursos docentes preparados con estética editorial cálida"
+              className="h-full w-full object-cover object-center"
+            />
+          </figure>
+          <div>
+            <div className="section-icon">
+              <ShoppingBag size={25} aria-hidden="true" />
+            </div>
+            <p className="section-kicker text-forest">{isPage ? 'Catálogo pedagógico' : 'Tienda docente'}</p>
+            {isPage ? <h1 className="section-title">Recursos y apoyo solidario para sostener la práctica.</h1> : <h2 className="section-title">Recursos para la práctica educativa.</h2>}
+            <p className="mt-5 leading-8 text-earth">
+              Encuentra materiales, cuadernos y herramientas para acompañar la práctica educativa desde la conciencia,
+              el cuidado y el pensamiento crítico.
+            </p>
+            <p className="mt-4 rounded-2xl border border-gold/35 bg-[#fff8ee] px-5 py-4 text-sm font-semibold leading-7 text-earth">
+              Elige un recurso a partir de una necesidad concreta y úsalo como apoyo para preguntar, dialogar, decidir o
+              volver a mirar una experiencia.
+            </p>
+            {isPage && (
+              <div className="mt-6 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
+                <a className="btn-primary" href="#catalogo-recursos">Explorar recursos <ArrowDown size={17} aria-hidden="true" /></a>
+                <a className="btn-secondary" href="/descargables/mapa-para-elegir-recurso-ecos.pdf" download>Elegir con el mapa <FileText size={17} aria-hidden="true" /></a>
+              </div>
+            )}
           </div>
-          <p className="section-kicker text-forest">Tienda docente</p>
-          {isPage ? <h1 className="section-title">Recursos para la práctica educativa.</h1> : <h2 className="section-title">Recursos para la práctica educativa.</h2>}
-          <p className="mt-5 leading-8 text-earth">
-            Encuentra materiales, cuadernos y herramientas para acompañar la práctica educativa desde la conciencia,
-            el cuidado y el pensamiento crítico.
-          </p>
-          <p className="mt-4 rounded-2xl border border-gold/35 bg-[#fff8ee] px-5 py-4 text-sm font-semibold leading-7 text-earth">
-            Elige un recurso a partir de una necesidad concreta y úsalo como apoyo para preguntar, dialogar, decidir o
-            volver a mirar una experiencia.
-          </p>
+        </div>
+
+        <div id="catalogo-recursos" className="mt-10 scroll-mt-28">
+          {isPage && (
+            <div className="max-w-4xl">
+              <p className="section-kicker text-terracotta">Recursos públicos en PDF</p>
+              <h2 className="mt-3 font-serif text-4xl leading-tight text-forest sm:text-5xl">Elige lo que dialogue con tu momento.</h2>
+              <p className="mt-4 leading-8 text-earth">Cada material propone una experiencia breve y puede imprimirse, compartirse o trabajarse en comunidad.</p>
+            </div>
+          )}
           <div className="mt-6 grid gap-3 md:mt-8 md:grid-cols-3 md:gap-4">
             {storeItems.map(({ title, text, icon: Icon, href }) => (
               <article key={title} className="catalog-card">
@@ -2717,19 +2735,56 @@ function Store({ isPage = false }) {
                 </div>
                 <h3 className="mt-5 font-serif text-2xl leading-tight text-forest">{title}</h3>
                 <p className="mt-3 leading-7 text-earth">{text}</p>
-                <a className="mt-4 inline-flex min-h-11 items-center gap-2 font-bold text-forest" href={href} download>Descargar <ArrowDown size={16} aria-hidden="true" /></a>
+                <a className="mt-5 inline-flex min-h-11 items-center gap-2 rounded-full border border-forest/25 px-5 py-2.5 font-bold text-forest" href={href} download>Descargar PDF <ArrowDown size={16} aria-hidden="true" /></a>
               </article>
             ))}
           </div>
-          <ExternalLink className="btn-primary mt-6 sm:mt-7" href={LINKS.whatsapp} label="Sugerir un recurso educativo por WhatsApp">
-            Sugerir un recurso
-            <MessageCircle size={18} aria-hidden="true" />
-          </ExternalLink>
-          <a className="btn-secondary mt-3 sm:ml-3 sm:mt-6" href="/recursos">
-            Ver recursos gratuitos
-            <ArrowUpRight size={18} aria-hidden="true" />
-          </a>
         </div>
+
+        {isPage && (
+          <>
+            <div className="mt-10 grid gap-5 lg:grid-cols-3">
+              {[
+                ['Necesito orientar una clase', 'Comienza con Semillero de Conciencia para convertir una situación del aula en pregunta, diálogo y acuerdo.', '/descargables/guia-docente-semillero-conciencia.pdf', GraduationCap],
+                ['Necesito acompañar en casa', 'Usa Acompañar sin vigilar para conversar con límites dignos sin sustituir la autonomía.', '/descargables/guia-familias-acompanar-sin-vigilar.pdf', Home],
+                ['Necesito escuchar mi propia voz', 'Abre Mi resonancia para reconocer aprendizajes, criterios y un siguiente paso posible.', '/descargables/bitacora-jovenes-resonancia.pdf', Sparkles],
+              ].map(([title, text, href, Icon]) => (
+                <article key={title} className="rounded-[1.35rem] border border-earth/15 bg-white/75 p-6 shadow-soft">
+                  <Icon className="text-terracotta" size={24} aria-hidden="true" />
+                  <h3 className="mt-5 font-serif text-3xl leading-tight text-forest">{title}</h3>
+                  <p className="mt-3 leading-7 text-earth">{text}</p>
+                  <a className="mt-5 inline-flex min-h-11 items-center gap-2 font-bold text-forest" href={href} download>Abrir PDF <ArrowUpRight size={16} aria-hidden="true" /></a>
+                </article>
+              ))}
+            </div>
+
+            <div className="mt-10 grid gap-5 lg:grid-cols-[1.1fr_0.9fr]">
+              <article className="rounded-[1.5rem] bg-forest p-6 text-cream shadow-soft sm:p-8">
+                <p className="section-kicker text-gold">Obra editorial de Ecos</p>
+                <h2 className="mt-3 font-serif text-3xl leading-tight sm:text-4xl">Pensamiento original que se comparte con cuidado.</h2>
+                <p className="mt-4 leading-8 text-cream/80">La Cognitología, los cuadernos de resonancias y otras obras originales alimentan esta propuesta. En el sitio encontrarás aproximaciones, preguntas y recursos públicos que permiten conocer su sentido sin sustituir las ediciones completas.</p>
+                <a className="mt-6 inline-flex min-h-11 items-center gap-2 rounded-full border border-cream/25 px-5 py-2.5 font-bold text-cream" href="/cognitologia">Conocer la Cognitología <ArrowUpRight size={17} aria-hidden="true" /></a>
+              </article>
+              <article className="rounded-[1.5rem] border border-gold/35 bg-[#fff8ee] p-6 shadow-soft sm:p-8">
+                <p className="section-kicker text-terracotta">¿Qué recurso hace falta?</p>
+                <h2 className="mt-3 font-serif text-3xl leading-tight text-forest">Tu experiencia también puede orientar lo que sigue.</h2>
+                <p className="mt-4 leading-8 text-earth">Comparte una necesidad educativa concreta: para quién sería el recurso, qué situación ayudaría a trabajar y qué formato sería más útil.</p>
+                <ExternalLink className="btn-primary mt-6" href={LINKS.whatsapp} label="Sugerir un recurso educativo por WhatsApp">
+                  Sugerir un recurso <MessageCircle size={18} aria-hidden="true" />
+                </ExternalLink>
+              </article>
+            </div>
+          </>
+        )}
+
+        {!isPage && (
+          <div className="mt-6 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
+            <ExternalLink className="btn-primary" href={LINKS.whatsapp} label="Sugerir un recurso educativo por WhatsApp">
+              Sugerir un recurso <MessageCircle size={18} aria-hidden="true" />
+            </ExternalLink>
+            <a className="btn-secondary" href="/recursos">Ver recursos gratuitos <ArrowUpRight size={18} aria-hidden="true" /></a>
+          </div>
+        )}
       </div>
     </section>
   );
