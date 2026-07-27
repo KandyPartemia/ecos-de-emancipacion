@@ -397,24 +397,6 @@ function CaracolesApp() {
         </footer>
       </div>
 
-      <div className="fixed bottom-5 right-5 z-50 grid gap-2">
-        <a
-          href="#caracoles-project-dashboard"
-          aria-label="Subir al inicio del proyecto"
-          title="Subir al inicio del proyecto"
-          className="inline-flex h-12 w-12 items-center justify-center rounded-full bg-[#315344] text-lg font-black text-[#f8f1e6] shadow-[0_16px_40px_rgba(36,26,18,0.22)] transition hover:bg-[#241a12] focus:outline-none focus:ring-4 focus:ring-[#d9b56d]/35"
-        >
-          ↑
-        </a>
-        <a
-          href="/"
-          aria-label="Volver al sitio principal"
-          title="Volver al sitio principal"
-          className="inline-flex h-12 w-12 items-center justify-center rounded-full bg-[#d9b56d] text-sm font-black text-[#241a12] shadow-[0_16px_40px_rgba(36,26,18,0.18)] transition hover:bg-[#315344] hover:text-[#f8f1e6] focus:outline-none focus:ring-4 focus:ring-[#d9b56d]/35"
-        >
-          Eco
-        </a>
-      </div>
     </main>
   );
 }
