@@ -34,6 +34,10 @@ FILES = [
     "mapa-para-elegir-recurso-ecos",
     "manifiesto-y-pilares-en-accion",
     "guia-escucha-consciente-resonancia-musical",
+    "resonancia-conciencia-critica-dialogos",
+    "resonancia-pedagogia-del-sujeto-dialogos",
+    "resonancia-vida-cotidiana-dialogos",
+    "resonancia-comunidad-esperanza-dialogos",
 ]
 
 FOREST = colors.HexColor("#234D3C")
@@ -151,6 +155,7 @@ def escape(text):
 def inline_markup(text):
     escaped = escape(text)
     marked = re.sub(r"\*\*(.+?)\*\*", r"<b>\1</b>", escaped)
+    marked = re.sub(r"\*(.+?)\*", r"<i>\1</i>", marked)
     return re.sub(
         r"(https://[^\s<]+)",
         r'<link href="\1" color="#234D3C"><u>\1</u></link>',

@@ -1036,6 +1036,41 @@ const resonancePillarTerritories = [
   },
 ];
 
+const resonanceSupportDocuments = [
+  {
+    pillar: 'Conciencia crítica',
+    title: 'Lo normal no es neutral',
+    authors: 'En diálogo con Paulo Freire y Enrique Dussel',
+    text: 'Una resonancia sobre prácticas escolares naturalizadas, exterioridad y lectura crítica del mundo.',
+    href: '/descargables/resonancia-conciencia-critica-dialogos.pdf',
+    icon: Eye,
+  },
+  {
+    pillar: 'Pedagogía del sujeto',
+    title: 'Nadie aprende como recipiente',
+    authors: 'En diálogo con Benjamín Berlanga y Paulo Freire',
+    text: 'Una reflexión sobre etiquetas, autonomía, narración y la posibilidad de reautoría de sí.',
+    href: '/descargables/resonancia-pedagogia-del-sujeto-dialogos.pdf',
+    icon: UserRound,
+  },
+  {
+    pillar: 'Vida cotidiana',
+    title: 'La vida cotidiana también piensa',
+    authors: 'En diálogo con Agnes Heller, Lluís Duch y Orlando Fals Borda',
+    text: 'Una lectura de la experiencia, el territorio y el conocimiento sentipensante como materia educativa.',
+    href: '/descargables/resonancia-vida-cotidiana-dialogos.pdf',
+    icon: Home,
+  },
+  {
+    pillar: 'Comunidad y esperanza',
+    title: 'Organizar la esperanza',
+    authors: 'En diálogo con Ernst Bloch, Ana C. Dinerstein y Raquel Gutiérrez Aguilar',
+    text: 'Una resonancia sobre lo todavía posible, la producción de lo común y la acción compartida.',
+    href: '/descargables/resonancia-comunidad-esperanza-dialogos.pdf',
+    icon: HandHeart,
+  },
+];
+
 const resonancePractice = [
   ['Detenerse', 'Respira y elige una situación que siga haciendo eco. No intentes resolverla todavía.'],
   ['Nombrar', 'Escribe qué ocurrió, qué sentiste y qué idea apareció, sin convertir la experiencia en sentencia.'],
@@ -1940,6 +1975,31 @@ function Resonances({ isPage = false }) {
                 </section>
               ))}
             </div>
+
+            <section className="lg:col-span-2 rounded-[1.6rem] border border-earth/15 bg-white/75 p-5 shadow-soft sm:p-8" aria-labelledby="resonancias-dialogo-title">
+              <div className="grid gap-5 lg:grid-cols-[1fr_0.7fr] lg:items-end">
+                <div>
+                  <p className="section-kicker text-terracotta">Documentos de apoyo</p>
+                  <h2 id="resonancias-dialogo-title" className="mt-3 font-serif text-4xl leading-tight text-forest sm:text-5xl">Resonancias de Kandy en diálogo con otras voces.</h2>
+                  <p className="mt-4 max-w-4xl leading-8 text-earth">Estas piezas desarrollan una resonancia completa desde cada pilar. La voz de Ecos conduce la reflexión y conversa con autoras y autores que ayudan a ampliar, tensionar y fundamentar la mirada.</p>
+                </div>
+                <p className="rounded-2xl bg-clay/55 p-5 text-sm leading-7 text-earth"><strong className="text-forest">Para crear las tuyas:</strong> al final de cada documento encontrarás bibliografía verificada y una secuencia para elaborar una resonancia propia sin imitar una voz ajena.</p>
+              </div>
+              <div className="mt-7 grid gap-4 md:grid-cols-2">
+                {resonanceSupportDocuments.map(({ pillar, title, authors, text, href, icon: Icon }) => (
+                  <article key={title} className="flex min-h-full flex-col rounded-[1.3rem] border border-earth/15 bg-cream p-5 sm:p-6">
+                    <div className="flex items-start justify-between gap-4">
+                      <span className="flex size-11 shrink-0 items-center justify-center rounded-full bg-forest text-gold"><Icon size={22} aria-hidden="true" /></span>
+                      <span className="max-w-[70%] text-right text-[0.68rem] font-black uppercase tracking-[0.12em] text-terracotta">{pillar}</span>
+                    </div>
+                    <h3 className="mt-5 font-serif text-3xl leading-tight text-forest">{title}</h3>
+                    <p className="mt-2 text-sm font-bold leading-6 text-terracotta">{authors}</p>
+                    <p className="mt-4 leading-7 text-earth">{text}</p>
+                    <a className="mt-auto inline-flex min-h-11 items-center gap-2 pt-5 font-bold text-forest" href={href} download>Descargar resonancia en PDF <FileText size={17} aria-hidden="true" /></a>
+                  </article>
+                ))}
+              </div>
+            </section>
 
             <article className="lg:col-span-2 overflow-hidden rounded-[1.5rem] border border-cream/15 bg-forest text-cream shadow-soft">
               <div className="grid lg:grid-cols-[0.72fr_1.28fr]">
