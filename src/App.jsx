@@ -718,35 +718,35 @@ const publicDownloads = [
     title: 'Guía docente: Semillero de Conciencia',
     text: 'Secuencia breve para convertir una situación del aula en pregunta, diálogo, criterio y acuerdo revisable.',
     audience: 'Docentes',
-    href: '/descargables/guia-docente-semillero-conciencia.md',
+    href: '/descargables/guia-docente-semillero-conciencia.pdf',
     icon: GraduationCap,
   },
   {
     title: 'Guía para familias: acompañar sin vigilar',
     text: 'Preguntas cuidadas para estar presentes sin hacer la tarea por la persona joven ni convertir el aprendizaje en presión.',
     audience: 'Familias y acompañantes',
-    href: '/descargables/guia-familias-acompanar-sin-vigilar.md',
+    href: '/descargables/guia-familias-acompanar-sin-vigilar.pdf',
     icon: Home,
   },
   {
     title: 'Bitácora joven: mi resonancia',
     text: 'Formato breve para reconocer qué se comprendió, qué criterio apareció y qué acción pequeña puede seguir.',
     audience: 'Estudiantes y jóvenes',
-    href: '/descargables/bitacora-jovenes-resonancia.md',
+    href: '/descargables/bitacora-jovenes-resonancia.pdf',
     icon: Sparkles,
   },
   {
     title: 'Brújula cognitólogica para la vida cotidiana',
     text: 'Recorrido para percibir, nombrar, relacionar, discernir y actuar ante una experiencia concreta.',
     audience: 'Docentes, familias y jóvenes',
-    href: '/descargables/brujula-cognitologica-vida-cotidiana.md',
+    href: '/descargables/brujula-cognitologica-vida-cotidiana.pdf',
     icon: Compass,
   },
   {
     title: 'Bitácora docente para una práctica con conciencia',
     text: 'Formato para preparar, observar y valorar una experiencia educativa sin reducirla al cumplimiento.',
     audience: 'Docentes',
-    href: '/descargables/bitacora-docente-practica-con-conciencia.md',
+    href: '/descargables/bitacora-docente-practica-con-conciencia.pdf',
     icon: NotebookTabs,
   },
 ];
@@ -1632,7 +1632,7 @@ function Resonances({ isPage = false }) {
                     No es una receta para sentirse bien. Es una pausa para pasar de la reacción a una comprensión
                     situada y de la comprensión a una acción responsable.
                   </p>
-                  <a className="btn-gold mt-7" href="/descargables/cuaderno-breve-de-resonancias.md" download>
+                  <a className="btn-gold mt-7" href="/descargables/cuaderno-breve-de-resonancias.pdf" download>
                     Descargar cuaderno breve
                     <ArrowDown size={18} aria-hidden="true" />
                   </a>
@@ -1843,7 +1843,7 @@ function CognitologyPage() {
                 Esta secuencia no es una fórmula rígida. Es una brújula para volver sobre una experiencia cuando la
                 prisa, la costumbre o una explicación única impiden mirarla con amplitud.
               </p>
-              <a className="btn-gold mt-7" href="/descargables/brujula-cognitologica-vida-cotidiana.md" download>
+              <a className="btn-gold mt-7" href="/descargables/brujula-cognitologica-vida-cotidiana.pdf" download>
                 Descargar brújula de trabajo
                 <ArrowDown size={18} aria-hidden="true" />
               </a>
@@ -2515,7 +2515,7 @@ function SchoolSection() {
             La bitácora ayuda a mirar decisiones, voces, evidencias y resonancias. No solicita datos sensibles ni
             convierte observaciones situadas en etiquetas sobre el alumnado.
           </p>
-          <a className="btn-gold mt-7" href="/descargables/bitacora-docente-practica-con-conciencia.md" download>
+          <a className="btn-gold mt-7" href="/descargables/bitacora-docente-practica-con-conciencia.pdf" download>
             Descargar bitácora
             <ArrowDown size={18} aria-hidden="true" />
           </a>
@@ -2696,7 +2696,7 @@ function Families() {
             escucha, límites dignos y preguntas que no sustituyen el pensamiento de la persona joven.
           </p>
           <div className="mt-6 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
-            <a className="btn-primary" href="/descargables/guia-familias-acompanar-sin-vigilar.md">
+            <a className="btn-primary" href="/descargables/guia-familias-acompanar-sin-vigilar.pdf">
               Abrir guía breve
               <ArrowUpRight size={17} aria-hidden="true" />
             </a>
@@ -2742,7 +2742,7 @@ function Youth() {
             una resonancia sin quedar obligados a exponer su intimidad.
           </p>
           <div className="mt-6 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
-            <a className="btn-primary" href="/descargables/bitacora-jovenes-resonancia.md">
+            <a className="btn-primary" href="/descargables/bitacora-jovenes-resonancia.pdf">
               Abrir bitácora breve
               <ArrowUpRight size={17} aria-hidden="true" />
             </a>
