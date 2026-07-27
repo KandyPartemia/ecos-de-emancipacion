@@ -3804,7 +3804,7 @@ function StartHere() {
         </div>
 
         <div className="mt-5 grid gap-3 lg:grid-cols-[0.95fr_1.05fr]">
-          <article className="compact-card bg-forest text-cream">
+          <article className="compact-card compact-card-dark">
             <p className="section-kicker text-gold">Fundamento transversal</p>
             <h3 className="mt-3 font-serif text-3xl leading-tight">Cognitología para la vida cotidiana</h3>
             <p className="mt-4 leading-8 text-cream/80">

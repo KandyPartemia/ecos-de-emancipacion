@@ -337,6 +337,17 @@ footer {
   box-shadow: 0 16px 48px rgba(21, 18, 14, 0.08);
 }
 
+.compact-card.compact-card-dark {
+  border-color: rgba(213, 165, 71, 0.32);
+  background: #315c45;
+  color: #f4efe7;
+}
+
+.compact-card.compact-card-dark h3,
+.compact-card.compact-card-dark p {
+  color: #f4efe7;
+}
+
 .school-start-card {
   display: flex;
   min-height: 12rem;
