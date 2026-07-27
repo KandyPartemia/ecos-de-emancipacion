@@ -29,6 +29,7 @@ import {
   NotebookTabs,
   Play,
   School,
+  Search,
   ShoppingBag,
   Shell,
   Sparkles,
@@ -272,6 +273,34 @@ const manifestoConvictions = [
   { title: 'Educar implica formar criterio', principle: 'Comprender no basta: importa aprender a distinguir, relacionar, decidir y actuar con responsabilidad.', question: '¿Qué razones sostienen lo que pensamos y qué consecuencias tendría actuar así?', action: 'Abrir preguntas que permitan comparar perspectivas y revisar decisiones.', href: '/escuela', linkLabel: 'Explorar Escuela Ecos', icon: Brain },
   { title: 'La comunidad no es un decorado', principle: 'El aprendizaje cobra sentido cuando reconoce vínculos, necesidades y posibilidades compartidas.', question: '¿A quién beneficia lo que estamos aprendiendo y construyendo?', action: 'Convertir una evidencia escolar en conversación o aportación comunitaria.', href: '/recursos/caracoles-resonando', linkLabel: 'Abrir Caracoles Resonando', icon: UsersRound },
   { title: 'La esperanza se practica', principle: 'No es optimismo vacío: es reconocer límites y construir un siguiente paso posible.', question: '¿Qué acción pequeña, digna y revisable podemos realizar ahora?', action: 'Cerrar cada proceso con un acuerdo concreto y una fecha para volver a mirarlo.', href: '/empieza-aqui', linkLabel: 'Elegir una ruta', icon: Sparkles },
+];
+
+const siteSearchItems = [
+  { title: 'Empieza aquí', description: 'Orientación inicial para elegir una ruta según lo que necesitas.', href: '/empieza-aqui', keywords: 'inicio comenzar ruta ayuda docente familia joven' },
+  { title: 'Caracoles Resonando', description: 'Planeación, ficha curricular, mapa mental y autoevaluación de Proyectos Académicos.', href: '/recursos/caracoles-resonando', keywords: 'pa telesecundaria proyecto académico planeación evaluación mapa mental docente estudiante' },
+  { title: 'Cognitología', description: 'Fundamento para formar criterios de pensamiento desde la vida cotidiana.', href: '/cognitologia', keywords: 'conciencia criterio pensamiento vida cotidiana fundamento' },
+  { title: 'Resonancias', description: 'Textos, preguntas y diálogos para relacionar ideas con la propia experiencia.', href: '/resonancias', keywords: 'reflexión autores freire dussel heller esperanza comunidad' },
+  { title: 'Pilares de Ecos', description: 'Conciencia crítica, sujeto, vida cotidiana, comunidad y esperanza.', href: '/pilares', keywords: 'pilares propuesta pedagogía sujeto conciencia comunidad esperanza' },
+  { title: 'Escuela Ecos', description: 'Biblioteca práctica y rutas para planear, acompañar y evaluar con sentido.', href: '/escuela', keywords: 'docentes aula clase planeación evaluación bitácora práctica' },
+  { title: 'Familias que acompañan', description: 'Conversaciones y acuerdos para acompañar sin vigilar ni sustituir.', href: '/familias', keywords: 'familia tareas pantallas calificaciones conflictos acuerdos jóvenes' },
+  { title: 'Jóvenes con criterio', description: 'Preguntas, decisiones, identidad, expresión y proyecto propio.', href: '/jovenes', keywords: 'jóvenes estudiantes identidad voz decisiones proyecto vida bitácora' },
+  { title: 'Biblioteca de recursos', description: 'Guías, bitácoras, mapas y herramientas pedagógicas en PDF.', href: '/recursos', keywords: 'pdf descargar guía recurso material mapa bitácora' },
+  { title: 'Universo musical', description: 'Escucha consciente, música, memoria, expresión y diálogo.', href: '/universo-musical', keywords: 'música canción audio escucha emoción memoria' },
+  { title: 'Manifiesto', description: 'Convicciones que sostienen la propuesta Ecos de Emancipación.', href: '/manifiesto', keywords: 'manifiesto educación dignidad sujeto propuesta' },
+  { title: 'Proyectos', description: 'Mapa de proyectos, herramientas y rutas activas del universo Ecos.', href: '/proyectos', keywords: 'proyectos herramientas canales recursos ecos' },
+  { title: 'Guía para familias', description: 'PDF para acompañar aprendizajes sin vigilar ni resolver por la persona joven.', href: '/descargables/guia-familias-acompanar-sin-vigilar.pdf', keywords: 'familias tareas acuerdos pdf descargar' },
+  { title: 'Bitácora para jóvenes', description: 'PDF para nombrar experiencias, formar criterio y registrar resonancias.', href: '/descargables/bitacora-jovenes-resonancia.pdf', keywords: 'jóvenes bitácora voz decisiones pdf descargar' },
+  { title: 'Bitácora docente', description: 'PDF para registrar decisiones, evidencias y resonancias de la práctica.', href: '/descargables/bitacora-docente-practica-con-conciencia.pdf', keywords: 'docente evaluación práctica registro pdf descargar' },
+  { title: 'Brújula Cognitológica', description: 'PDF para pensar situaciones de la vida cotidiana con criterios.', href: '/descargables/brujula-cognitologica-vida-cotidiana.pdf', keywords: 'cognitología criterios brújula vida cotidiana pdf descargar' },
+  { title: 'Cuaderno de resonancias', description: 'PDF breve para detenerse, escribir, relacionar y actuar.', href: '/descargables/cuaderno-breve-de-resonancias.pdf', keywords: 'resonancias escritura reflexión cuaderno pdf descargar' },
+];
+
+const startNeeds = [
+  { title: 'Quiero planear', text: 'Organiza un Proyecto Académico o una experiencia de aula con propósito, fuentes y evaluación.', href: '/recursos/caracoles-resonando', icon: Map },
+  { title: 'Necesito acompañar', text: 'Encuentra preguntas y acuerdos para cuidar el aprendizaje sin sustituir a la persona.', href: '/familias', icon: HandHeart },
+  { title: 'Quiero comprender', text: 'Entra al fundamento de la Cognitología y sus criterios para la vida cotidiana.', href: '/cognitologia', icon: Brain },
+  { title: 'Busco un recurso', text: 'Explora guías, bitácoras, mapas y herramientas disponibles para descargar.', href: '/recursos', icon: NotebookTabs },
+  { title: 'Necesito resonar', text: 'Detente ante una pregunta, relaciónala con tu experiencia y encuentra un paso posible.', href: '/resonancias', icon: CircleDot },
 ];
 
 const pillarPractices = [
@@ -1557,8 +1586,66 @@ function App() {
   );
 }
 
+function SiteSearch({ isOpen, onClose }) {
+  const [query, setQuery] = useState('');
+
+  useEffect(() => {
+    if (!isOpen) return undefined;
+    const closeWithEscape = (event) => {
+      if (event.key === 'Escape') onClose();
+    };
+    document.addEventListener('keydown', closeWithEscape);
+    return () => document.removeEventListener('keydown', closeWithEscape);
+  }, [isOpen, onClose]);
+
+  if (!isOpen) return null;
+
+  const normalizedQuery = query.trim().toLocaleLowerCase('es');
+  const results = normalizedQuery
+    ? siteSearchItems.filter(({ title, description, keywords }) => `${title} ${description} ${keywords}`.toLocaleLowerCase('es').includes(normalizedQuery))
+    : siteSearchItems.slice(0, 8);
+
+  return (
+    <div className="fixed inset-0 z-[100] flex items-start justify-center bg-ink/55 px-4 py-20 backdrop-blur-sm sm:py-24" role="presentation" onMouseDown={(event) => { if (event.target === event.currentTarget) onClose(); }}>
+      <section className="w-full max-w-3xl overflow-hidden rounded-[1.5rem] border border-earth/15 bg-cream shadow-2xl" role="dialog" aria-modal="true" aria-labelledby="site-search-title">
+        <div className="flex items-center justify-between gap-4 border-b border-earth/15 p-4 sm:p-5">
+          <div>
+            <p className="section-kicker text-terracotta">Búsqueda en Ecos</p>
+            <h2 id="site-search-title" className="mt-1 font-serif text-2xl text-forest sm:text-3xl">¿Qué necesitas encontrar?</h2>
+          </div>
+          <button type="button" onClick={onClose} className="inline-flex h-11 w-11 shrink-0 items-center justify-center rounded-full border border-earth/20 text-forest focus:outline-none focus:ring-4 focus:ring-gold/35" aria-label="Cerrar buscador"><X size={20} aria-hidden="true" /></button>
+        </div>
+        <div className="p-4 sm:p-5">
+          <label className="flex min-h-14 items-center gap-3 rounded-2xl border border-earth/25 bg-white px-4 focus-within:border-gold focus-within:ring-4 focus-within:ring-gold/20">
+            <Search className="shrink-0 text-terracotta" size={21} aria-hidden="true" />
+            <span className="sr-only">Buscar por tema, palabra clave o interés</span>
+            <input autoFocus value={query} onChange={(event) => setQuery(event.target.value)} className="min-w-0 flex-1 bg-transparent py-3 text-base text-ink outline-none" type="search" placeholder="Ejemplo: familias, evaluación, PA, jóvenes..." />
+          </label>
+          <p className="mt-3 text-sm text-earth">{normalizedQuery ? `${results.length} resultado${results.length === 1 ? '' : 's'}` : 'Rutas y recursos recomendados'}</p>
+          <div className="mt-4 grid max-h-[52vh] gap-2 overflow-y-auto pr-1">
+            {results.map(({ title, description, href }) => (
+              <a key={`${title}-${href}`} href={href} onClick={onClose} className="group flex items-start justify-between gap-4 rounded-2xl border border-earth/15 bg-white/75 p-4 transition hover:border-gold/60 hover:bg-white focus:outline-none focus:ring-4 focus:ring-gold/25">
+                <span><strong className="block font-serif text-xl text-forest">{title}</strong><span className="mt-1 block text-sm leading-6 text-earth">{description}</span></span>
+                <ArrowUpRight className="mt-1 shrink-0 text-terracotta transition group-hover:-translate-y-0.5 group-hover:translate-x-0.5" size={18} aria-hidden="true" />
+              </a>
+            ))}
+            {results.length === 0 && <p className="rounded-2xl bg-clay/55 p-5 leading-7 text-earth">No encontramos esa palabra. Prueba con un tema más breve, como “familias”, “docente”, “música” o “evaluación”.</p>}
+          </div>
+        </div>
+      </section>
+    </div>
+  );
+}
+
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
+  const [isSearchOpen, setIsSearchOpen] = useState(false);
+
+  useEffect(() => {
+    const openSearch = () => setIsSearchOpen(true);
+    window.addEventListener('ecos:open-search', openSearch);
+    return () => window.removeEventListener('ecos:open-search', openSearch);
+  }, []);
 
   return (
     <header className="fixed inset-x-0 top-0 z-50 border-b border-earth/15 bg-cream/92 px-4 py-3 shadow-[0_18px_55px_rgba(21,18,14,0.08)] backdrop-blur-xl sm:px-8 lg:px-10">
@@ -1576,11 +1663,13 @@ function Header() {
               </li>
             ))}
           </ul>
+          <button type="button" onClick={() => setIsSearchOpen(true)} className="hidden h-10 w-10 shrink-0 items-center justify-center rounded-full border border-earth/20 text-forest transition hover:border-gold hover:bg-gold/10 focus:outline-none focus:ring-4 focus:ring-gold/35 xl:inline-flex" aria-label="Buscar en Ecos de Emancipación"><Search size={19} aria-hidden="true" /></button>
           <BuyMeACoffeeLink variant="header" className="hidden shrink-0 xl:inline-flex" />
           <div className="relative z-[60] ml-auto flex shrink-0 items-center gap-2 xl:hidden">
             <a className="nav-cta hidden sm:inline-flex" href="/empieza-aqui">
               Empieza Aquí
             </a>
+            <button type="button" onClick={() => setIsSearchOpen(true)} className="inline-flex h-11 w-11 flex-shrink-0 items-center justify-center rounded-full border border-earth/25 bg-cream text-forest shadow-sm focus:outline-none focus:ring-4 focus:ring-gold/35" aria-label="Buscar en Ecos de Emancipación"><Search size={20} aria-hidden="true" /></button>
             <button
               type="button"
               className="relative z-[70] inline-flex h-11 w-11 flex-shrink-0 items-center justify-center rounded-full border border-earth/25 bg-cream text-forest shadow-sm focus:outline-none focus:ring-4 focus:ring-gold/35"
@@ -1609,6 +1698,7 @@ function Header() {
           </ul>
         )}
       </nav>
+      <SiteSearch isOpen={isSearchOpen} onClose={() => setIsSearchOpen(false)} />
     </header>
   );
 }
@@ -1647,6 +1737,11 @@ function Hero() {
             Leer el fundamento
             <ArrowUpRight size={17} aria-hidden="true" />
           </a>
+          <button type="button" onClick={() => window.dispatchEvent(new Event('ecos:open-search'))} className="mt-5 flex min-h-12 w-full max-w-xl items-center gap-3 rounded-full border border-earth/25 bg-cream/75 px-5 text-left text-sm font-semibold text-earth shadow-sm transition hover:border-gold hover:bg-cream focus:outline-none focus:ring-4 focus:ring-gold/30" aria-label="Abrir buscador de Ecos de Emancipación">
+            <Search className="shrink-0 text-terracotta" size={20} aria-hidden="true" />
+            <span className="min-w-0 flex-1">Buscar por palabra, tema o interés</span>
+            <span className="hidden text-xs uppercase tracking-wider text-terracotta sm:inline">Abrir</span>
+          </button>
         </div>
 
         <figure className="hero-image-card">
@@ -3672,6 +3767,19 @@ function StartHere() {
           <p className="max-w-3xl leading-8 text-earth">
             Esta ruta ayuda a elegir una primera acción sin perderse: planear, comprender un proyecto, acompañar un proceso o leer el fundamento que sostiene la propuesta.
           </p>
+        </div>
+        <div className="mt-7 rounded-[1.5rem] border border-cream/15 bg-forest p-5 text-cream shadow-soft sm:p-7">
+          <p className="section-kicker text-gold">¿Qué necesitas hoy?</p>
+          <div className="mt-5 grid gap-3 md:grid-cols-2 xl:grid-cols-5">
+            {startNeeds.map(({ title, text, href, icon: Icon }) => (
+              <a key={title} href={href} className="group flex min-h-full flex-col rounded-[1.15rem] border border-cream/15 bg-cream/[0.07] p-5 transition hover:border-gold/60 hover:bg-cream/[0.11] focus:outline-none focus:ring-4 focus:ring-gold/30">
+                <Icon className="text-gold" size={23} aria-hidden="true" />
+                <strong className="mt-4 font-serif text-2xl leading-tight text-cream">{title}</strong>
+                <span className="mt-3 text-sm leading-7 text-cream/76">{text}</span>
+                <span className="mt-auto inline-flex items-center gap-2 pt-4 text-sm font-bold text-gold">Entrar <ArrowUpRight size={15} aria-hidden="true" /></span>
+              </a>
+            ))}
+          </div>
         </div>
         <div className="mt-8 grid gap-3 md:grid-cols-3 lg:mt-10 xl:gap-4">
           {paths.map(({ audience, title, question, text, action, href, icon: Icon }) => (
