@@ -478,6 +478,52 @@ const schoolStartModules = [
   },
 ];
 
+const schoolTeacherSituations = [
+  {
+    title: 'Planear sin vaciar el sentido',
+    situation: 'Hay muchas actividades, pero el grupo no reconoce qué problema intenta comprender ni para qué creará el producto.',
+    question: '¿Qué pregunta viva puede mantener unido el proyecto?',
+    action: 'Nombrar propósito, situación, producto y criterio antes de distribuir tareas.',
+    icon: Map,
+  },
+  {
+    title: 'Escuchar sin perder la orientación',
+    situation: 'Las voces del grupo abren experiencias valiosas, pero la conversación puede dispersarse o exponer de más.',
+    question: '¿Cómo abrir palabra y, al mismo tiempo, cuidar el propósito y los límites?',
+    action: 'Acordar una pregunta, tiempos de escucha y derecho a no compartir asuntos personales.',
+    icon: MessageCircle,
+  },
+  {
+    title: 'Evaluar sin reducir',
+    situation: 'El producto está terminado, pero una calificación no muestra las decisiones, dificultades ni aprendizajes del proceso.',
+    question: '¿Qué evidencia permite reconocer cómo cambió la comprensión?',
+    action: 'Registrar un avance, una tensión, un criterio utilizado y un siguiente paso.',
+    icon: CheckCircle2,
+  },
+  {
+    title: 'Vincular comunidad sin usarla como escenario',
+    situation: 'El proyecto menciona la comunidad, aunque sus saberes y decisiones no participan realmente en el trabajo.',
+    question: '¿Quién conoce esta situación y cómo puede participar con dignidad?',
+    action: 'Definir una escucha, devolución o colaboración concreta que no extraiga ni exhiba experiencias.',
+    icon: UsersRound,
+  },
+];
+
+const schoolArtifactUses = [
+  ['Semillero de Conciencia', 'Cuando una inquietud necesita convertirse en pregunta compartida.', 'Pregunta fundante, primeras relaciones y acuerdo de indagación.'],
+  ['Asamblea comunitaria', 'Cuando el grupo necesita escuchar voces y decidir con otras personas.', 'Acuerdos, responsabilidades y razones que sostienen una decisión.'],
+  ['Contrato pedagógico', 'Cuando conviene hacer visibles compromisos y formas de cuidado.', 'Acuerdos revisables sobre participación, trabajo y convivencia.'],
+  ['Diario de Resonancias', 'Cuando el proceso necesita registrar lo que mueve, pregunta o transforma.', 'Notas breves de comprensión, tensiones y nuevas preguntas.'],
+  ['Mapa dialógico-dialéctico', 'Cuando hay ideas, voces o contradicciones que deben ponerse en relación.', 'Representación de relaciones, tensiones y posibilidades de acción.'],
+  ['Perfiles en formación', 'Cuando se requiere mirar el desarrollo sin encasillar a la persona.', 'Descripción situada de avances, apoyos y posibilidades de crecimiento.'],
+];
+
+const schoolPracticeCycle = [
+  ['Antes', 'Reconocer al grupo y el territorio; precisar propósito, pregunta, criterios, cuidados y evidencias posibles.'],
+  ['Durante', 'Observar decisiones y relaciones; documentar voces sin invadir; ajustar apoyos y devolver preguntas.'],
+  ['Después', 'Valorar proceso y producto; escuchar resonancias; comunicar hallazgos y elegir un siguiente paso revisable.'],
+];
+
 const paths = [
   {
     audience: 'Soy docente',
@@ -689,6 +735,20 @@ const publicDownloads = [
     href: '/descargables/bitacora-jovenes-resonancia.md',
     icon: Sparkles,
   },
+  {
+    title: 'Brújula cognitólogica para la vida cotidiana',
+    text: 'Recorrido para percibir, nombrar, relacionar, discernir y actuar ante una experiencia concreta.',
+    audience: 'Docentes, familias y jóvenes',
+    href: '/descargables/brujula-cognitologica-vida-cotidiana.md',
+    icon: Compass,
+  },
+  {
+    title: 'Bitácora docente para una práctica con conciencia',
+    text: 'Formato para preparar, observar y valorar una experiencia educativa sin reducirla al cumplimiento.',
+    audience: 'Docentes',
+    href: '/descargables/bitacora-docente-practica-con-conciencia.md',
+    icon: NotebookTabs,
+  },
 ];
 
 const resonanceSeeds = [
@@ -773,7 +833,7 @@ const routeDevelopmentProgress = [
   ['Resonancias', 76],
   ['Familias', 52],
   ['Jóvenes', 52],
-  ['Escuela', 44],
+  ['Escuela', 74],
   ['Tienda / apoyo solidario', 40],
 ];
 
@@ -2343,16 +2403,18 @@ function SchoolSection() {
             <School size={26} aria-hidden="true" />
           </div>
           <p className="section-kicker mt-7 text-gold">Escuela Ecos de Emancipación</p>
-          <h2 className="section-title text-cream">Formación digital en preparación.</h2>
+          <h1 className="section-title text-cream">Habitar la escuela con conciencia.</h1>
           <p className="mt-5 leading-8 text-cream/78">
-            Una futura escuela digital para profundizar en pedagogía del sujeto, conciencia crítica, vida cotidiana, recursos docentes y formación para familias.
+            Escuela Ecos es una ruta para comprender el aula como territorio de sujetos, relaciones, saberes y
+            decisiones. Reúne criterios y artilugios para planear, acompañar y valorar experiencias educativas sin
+            reducirlas a actividades, control o calificación.
           </p>
           <div className="mt-6 rounded-2xl border border-gold/25 bg-cream/[0.06] p-4 sm:mt-7 sm:p-5">
             <div className="flex items-start gap-4">
               <KeyRound className="mt-1 shrink-0 text-gold" size={22} aria-hidden="true" />
               <p className="leading-7 text-cream/82">
-                Área formativa en construcción. Antes de abrir talleres o cursos, esta ruta ordena qué se estudiará,
-                cómo se cuidará la experiencia y qué materiales estarán disponibles sin saturación.
+                La ruta pública ya puede utilizarse. Los talleres y trayectos formativos extensos siguen en preparación
+                y se abrirán solo cuando tengan claridad pedagógica, materiales completos y condiciones de cuidado.
               </p>
             </div>
           </div>
@@ -2367,10 +2429,10 @@ function SchoolSection() {
               </article>
             ))}
           </div>
-          <ExternalLink className="btn-gold mt-7" href={LINKS.whatsapp} label="Solicitar acceso a Escuela Ecos de Emancipación">
-            Solicitar acceso
-            <DoorOpen size={18} aria-hidden="true" />
-          </ExternalLink>
+          <a className="btn-gold mt-7" href="#practica-docente">
+            Explorar la ruta docente
+            <ArrowDown size={18} aria-hidden="true" />
+          </a>
         </div>
         <figure className="editorial-image min-h-[20rem] lg:min-h-[38rem]">
           <img
@@ -2381,6 +2443,98 @@ function SchoolSection() {
         </figure>
       </div>
 
+      <div id="practica-docente" className="mx-auto mt-10 max-w-7xl">
+        <div className="max-w-4xl">
+          <p className="section-kicker text-gold">Situaciones de la práctica</p>
+          <h2 className="mt-3 font-serif text-4xl leading-tight text-cream sm:text-5xl">
+            La pedagogía empieza donde una situación deja de parecernos normal.
+          </h2>
+          <p className="mt-4 leading-8 text-cream/78">
+            Estas escenas funcionan como puertas para reconocer una tensión, formular una pregunta y elegir una acción
+            que pueda revisarse con el grupo.
+          </p>
+        </div>
+        <div className="mt-6 grid gap-4 md:grid-cols-2">
+          {schoolTeacherSituations.map(({ title, situation, question, action, icon: Icon }) => (
+            <article key={title} className="rounded-[1.35rem] border border-cream/15 bg-cream/[0.07] p-5 shadow-soft sm:p-6">
+              <span className="inline-flex h-11 w-11 items-center justify-center rounded-full bg-gold text-ink">
+                <Icon size={22} aria-hidden="true" />
+              </span>
+              <h3 className="mt-5 font-serif text-3xl leading-tight text-cream">{title}</h3>
+              <p className="mt-3 text-sm leading-7 text-cream/74">{situation}</p>
+              <p className="mt-4 font-serif text-xl leading-8 text-gold">{question}</p>
+              <p className="mt-4 border-t border-cream/15 pt-4 text-sm leading-7 text-cream/82"><strong>Movimiento posible:</strong> {action}</p>
+            </article>
+          ))}
+        </div>
+      </div>
+
+      <div className="mx-auto mt-10 max-w-7xl rounded-[1.5rem] bg-cream p-5 text-ink shadow-soft sm:p-8">
+        <div className="grid gap-5 lg:grid-cols-[0.75fr_1.25fr] lg:items-end">
+          <div>
+            <p className="section-kicker text-terracotta">Artilugios pedagógicos</p>
+            <h2 className="mt-3 font-serif text-4xl leading-tight text-forest sm:text-5xl">Pequeñas estructuras que mueven la práctica.</h2>
+          </div>
+          <p className="leading-8 text-earth">
+            Un artilugio no es una dinámica para ocupar el tiempo. Se elige porque ayuda a abrir palabra, organizar
+            relaciones, tomar decisiones o reconocer un proceso.
+          </p>
+        </div>
+        <div className="mt-6 grid gap-3 md:grid-cols-2 xl:grid-cols-3">
+          {schoolArtifactUses.map(([title, use, evidence], index) => (
+            <article key={title} className="rounded-[1.2rem] border border-earth/15 bg-white/75 p-5">
+              <span className="inline-flex h-9 w-9 items-center justify-center rounded-full bg-forest text-sm font-black text-gold">{index + 1}</span>
+              <h3 className="mt-4 font-serif text-2xl leading-tight text-forest">{title}</h3>
+              <p className="mt-3 text-sm leading-7 text-earth"><strong>Cuándo usarlo:</strong> {use}</p>
+              <p className="mt-3 rounded-2xl bg-clay/55 p-4 text-sm leading-7 text-earth"><strong>Evidencia posible:</strong> {evidence}</p>
+            </article>
+          ))}
+        </div>
+      </div>
+
+      <div className="mx-auto mt-10 grid max-w-7xl gap-4 lg:grid-cols-[1.05fr_0.95fr]">
+        <article className="rounded-[1.5rem] border border-cream/15 bg-cream/[0.07] p-5 shadow-soft sm:p-7">
+          <p className="section-kicker text-gold">Antes, durante y después</p>
+          <h2 className="mt-3 font-serif text-4xl leading-tight text-cream">Una práctica que puede observarse y volver a pensarse.</h2>
+          <div className="mt-6 grid gap-3">
+            {schoolPracticeCycle.map(([title, text], index) => (
+              <div key={title} className="flex gap-4 rounded-2xl border border-cream/15 bg-ink/15 p-4">
+                <span className="inline-flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-gold font-black text-ink">{index + 1}</span>
+                <div>
+                  <h3 className="font-serif text-2xl text-cream">{title}</h3>
+                  <p className="mt-2 text-sm leading-7 text-cream/76">{text}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </article>
+        <article className="rounded-[1.5rem] border border-gold/30 bg-gold/10 p-5 shadow-soft sm:p-7">
+          <p className="section-kicker text-gold">Bitácora docente</p>
+          <h2 className="mt-3 font-serif text-4xl leading-tight text-cream">Registrar para comprender, no para vigilar.</h2>
+          <p className="mt-5 leading-8 text-cream/78">
+            La bitácora ayuda a mirar decisiones, voces, evidencias y resonancias. No solicita datos sensibles ni
+            convierte observaciones situadas en etiquetas sobre el alumnado.
+          </p>
+          <a className="btn-gold mt-7" href="/descargables/bitacora-docente-practica-con-conciencia.md" download>
+            Descargar bitácora
+            <ArrowDown size={18} aria-hidden="true" />
+          </a>
+          <a className="mt-4 inline-flex items-center gap-2 font-bold text-cream" href="/cognitologia">
+            Revisar criterios de pensamiento
+            <ArrowUpRight size={17} aria-hidden="true" />
+          </a>
+        </article>
+      </div>
+
+      <aside className="mx-auto mt-10 max-w-7xl rounded-[1.35rem] border border-gold/30 bg-ink/20 p-5 sm:p-7">
+        <p className="section-kicker text-gold">Cuidado pedagógico</p>
+        <p className="mt-3 max-w-5xl font-serif text-2xl leading-relaxed text-cream">
+          Escuchar no obliga a contar la intimidad. Acompañar no sustituye atención profesional. Evaluar no autoriza
+          a encasillar. Cada herramienta debe cuidar el derecho a participar, guardar silencio, disentir y ser reconocido
+          como una persona en formación.
+        </p>
+      </aside>
+
       <div id="escuela-empieza" className="mx-auto mt-9 max-w-7xl rounded-[1.35rem] border border-cream/15 bg-cream/[0.07] p-4 shadow-soft sm:mt-12 sm:p-7">
         <div className="grid gap-6 lg:grid-cols-[0.82fr_1.18fr] lg:items-end">
           <div>
@@ -2389,7 +2543,8 @@ function SchoolSection() {
               Una orientación inicial para recorrer la escuela.
             </h3>
             <p className="mt-4 max-w-3xl leading-7 text-cream/78 sm:leading-8">
-              Escuela Ecos de Emancipación es un espacio en construcción para recorrer rutas de estudio, videos, materiales, artículos y recursos pedagógicos desde una mirada crítica, esperanzadora y situada.
+              Continúa desde las rutas de estudio, recursos y acompañamiento. La entrada docente ya está disponible;
+              las formaciones extensas crecerán de manera gradual, crítica, esperanzadora y situada.
             </p>
           </div>
           <a className="btn-gold justify-self-start lg:justify-self-end" href="#escuela-rutas" aria-label="Comenzar recorrido por las rutas de Escuela Ecos">
