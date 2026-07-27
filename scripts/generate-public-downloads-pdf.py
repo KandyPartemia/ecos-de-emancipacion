@@ -32,6 +32,7 @@ FILES = [
     "bitacora-docente-practica-con-conciencia",
     "mapa-para-elegir-recurso-ecos",
     "manifiesto-y-pilares-en-accion",
+    "guia-de-acceso-etico-ecos",
 ]
 
 FOREST = colors.HexColor("#234D3C")

@@ -493,6 +493,57 @@ const schoolStartModules = [
   },
 ];
 
+const ethicalCatalog = [
+  {
+    status: 'Disponible',
+    title: 'Biblioteca pública de Ecos',
+    text: 'Guías, bitácoras y mapas breves preparados para descargar, compartir y usar con atribución.',
+    detail: 'Acceso gratuito en PDF desde la ruta Recursos.',
+    href: '/recursos',
+    action: 'Explorar biblioteca',
+    icon: BookOpen,
+    tone: 'available',
+  },
+  {
+    status: 'Disponible',
+    title: 'Caracoles Resonando',
+    text: 'Herramienta pública para consultar y acompañar Proyectos Académicos de Telesecundaria.',
+    detail: 'Uso web gratuito; algunos recursos enlazan a fuentes oficiales externas.',
+    href: '/recursos/caracoles-resonando',
+    action: 'Abrir herramienta',
+    icon: Shell,
+    tone: 'available',
+  },
+  {
+    status: 'En preparación',
+    title: 'Cuadernos y rutas ampliadas',
+    text: 'Materiales de mayor profundidad para docentes, familias, jóvenes y procesos comunitarios.',
+    detail: 'Se publicarán solo después de su revisión pedagógica, editorial y técnica.',
+    href: NEWSLETTER_FORM_URL,
+    action: 'Recibir novedades',
+    icon: NotebookTabs,
+    tone: 'preparing',
+    external: true,
+  },
+  {
+    status: 'Corpus protegido',
+    title: 'Obra teórica y editorial original',
+    text: 'Tesis, libros, fascículos, cómic y cuadernos preliminares que sostienen conceptualmente la propuesta.',
+    detail: 'No están disponibles para descarga libre ni deben circular como versiones definitivas.',
+    href: '/cognitologia',
+    action: 'Conocer la propuesta pública',
+    icon: KeyRound,
+    tone: 'protected',
+  },
+];
+
+const ethicalAccessPrinciples = [
+  ['Claridad', 'Cada material debe indicar qué ofrece, para quién fue creado y cuál es su estado editorial.'],
+  ['Utilidad antes que venta', 'Un recurso no se ofrecerá por su apariencia, sino por la función pedagógica que pueda cumplir.'],
+  ['Autoría y cuidado', 'Compartir no significa borrar la autoría ni liberar borradores, corpus privados o materiales sin revisión.'],
+  ['Sostenibilidad solidaria', 'El apoyo voluntario ayuda a investigar, diseñar, revisar y mantener recursos públicos sin convertir la ayuda en presión.'],
+];
+
 const schoolTeacherSituations = [
   {
     title: 'Planear sin vaciar el sentido',
@@ -785,6 +836,13 @@ const publicDownloads = [
     href: '/descargables/manifiesto-y-pilares-en-accion.pdf',
     icon: Leaf,
   },
+  {
+    title: 'Guía de acceso ético a los recursos',
+    text: 'Orientación para distinguir materiales públicos, recursos en preparación, corpus protegido y apoyo solidario.',
+    audience: 'Toda la comunidad Ecos',
+    href: '/descargables/guia-de-acceso-etico-ecos.pdf',
+    icon: KeyRound,
+  },
 ];
 
 const resourceNeedPaths = [
@@ -1003,7 +1061,7 @@ const routeDevelopmentProgress = [
   ['Jóvenes', 79],
   ['Escuela', 74],
   ['Manifiesto y pilares', 82],
-  ['Tienda / apoyo solidario', 40],
+  ['Tienda / apoyo solidario', 76],
 ];
 
 function ExternalLink({ href, children, className, label }) {
@@ -1283,7 +1341,7 @@ function App() {
   if (currentPath === '/tienda') {
     return (
       <SiteRoute>
-        <Store />
+        <Store isPage />
       </SiteRoute>
     );
   }
@@ -2594,7 +2652,7 @@ function ResourcesPage() {
   );
 }
 
-function Store() {
+function Store({ isPage = false }) {
   return (
     <section id="tienda" className="section-pad bg-clay">
       <div className="mx-auto grid max-w-7xl gap-8 lg:grid-cols-[0.85fr_1.15fr] lg:items-center">
@@ -2610,7 +2668,7 @@ function Store() {
             <ShoppingBag size={25} aria-hidden="true" />
           </div>
           <p className="section-kicker text-forest">Tienda docente</p>
-          <h2 className="section-title">Recursos para la práctica educativa.</h2>
+          {isPage ? <h1 className="section-title">Recursos para la práctica educativa.</h1> : <h2 className="section-title">Recursos para la práctica educativa.</h2>}
           <p className="mt-5 leading-8 text-earth">
             Un espacio futuro para reunir materiales, cuadernos, guías, tarjetas, recursos imprimibles y herramientas
             que acompañen la práctica docente desde la conciencia, el cuidado y el pensamiento crítico.
@@ -2861,7 +2919,65 @@ function SchoolSection() {
           ))}
         </div>
       </div>
+      {isPage && <EthicalStoreDetails />}
     </section>
+  );
+}
+
+function EthicalStoreDetails() {
+  return (
+    <div className="mx-auto mt-12 max-w-7xl">
+      <div className="grid gap-5 lg:grid-cols-[0.72fr_1.28fr] lg:items-end">
+        <div>
+          <p className="section-kicker text-forest">Catálogo ético</p>
+          <h2 className="font-serif text-4xl leading-tight text-forest sm:text-5xl">Saber qué está disponible también es una forma de cuidado.</h2>
+        </div>
+        <p className="leading-8 text-earth">Esta ruta distingue los recursos públicos de los materiales que continúan en preparación y del corpus original protegido. Así, nadie necesita adivinar si un botón conduce a una descarga, a una herramienta o a una obra todavía no publicada.</p>
+      </div>
+
+      <div className="mt-8 grid gap-5 md:grid-cols-2">
+        {ethicalCatalog.map(({ status, title, text, detail, href, action, icon: Icon, tone, external }) => (
+          <article key={title} className="rounded-[1.35rem] border border-earth/15 bg-white/70 p-6 shadow-soft sm:p-7">
+            <div className="flex items-start justify-between gap-4">
+              <span className="flex size-12 shrink-0 items-center justify-center rounded-full bg-forest text-gold"><Icon size={24} aria-hidden="true" /></span>
+              <span className={`rounded-full px-3 py-1.5 text-xs font-bold uppercase tracking-[0.12em] ${tone === 'available' ? 'bg-forest text-cream' : tone === 'preparing' ? 'bg-gold text-ink' : 'border border-terracotta/30 text-terracotta'}`}>{status}</span>
+            </div>
+            <h3 className="mt-5 font-serif text-3xl leading-tight text-forest">{title}</h3>
+            <p className="mt-3 leading-7 text-earth">{text}</p>
+            <p className="mt-4 rounded-2xl bg-clay/55 p-4 text-sm leading-7 text-earth">{detail}</p>
+            <SmartLink href={href} external={external} className="mt-5 inline-flex min-h-11 items-center gap-2 rounded-full border border-forest/25 px-5 py-2.5 text-sm font-bold text-forest">{action} <ArrowUpRight size={17} aria-hidden="true" /></SmartLink>
+          </article>
+        ))}
+      </div>
+
+      <div className="mt-10 rounded-[1.5rem] bg-forest p-6 text-cream shadow-soft sm:p-8">
+        <p className="section-kicker text-gold">Compromisos editoriales</p>
+        <h2 className="mt-3 max-w-4xl font-serif text-4xl leading-tight sm:text-5xl">Compartir con generosidad también exige límites claros.</h2>
+        <div className="mt-7 grid gap-4 md:grid-cols-2">
+          {ethicalAccessPrinciples.map(([title, text], index) => (
+            <article key={title} className="flex gap-4 rounded-2xl border border-cream/15 bg-cream/[0.06] p-5">
+              <span className="flex size-9 shrink-0 items-center justify-center rounded-full bg-gold text-sm font-black text-ink">{index + 1}</span>
+              <div><h3 className="font-serif text-2xl text-cream">{title}</h3><p className="mt-2 text-sm leading-7 text-cream/76">{text}</p></div>
+            </article>
+          ))}
+        </div>
+      </div>
+
+      <div className="mt-10 grid gap-5 lg:grid-cols-2">
+        <article className="rounded-[1.35rem] border border-gold/35 bg-[#fff8ee] p-6 shadow-soft sm:p-7">
+          <p className="section-kicker text-terracotta">Antes de descargar</p>
+          <h2 className="mt-3 font-serif text-3xl text-forest">Elige por necesidad, no por acumulación.</h2>
+          <p className="mt-4 leading-8 text-earth">El mapa de recursos ayuda a reconocer qué material conviene según la audiencia, el momento y la pregunta que se quiere trabajar.</p>
+          <a href="/descargables/mapa-para-elegir-recurso-ecos.pdf" download className="btn-primary mt-6"><FileText size={18} aria-hidden="true" /> Descargar mapa en PDF</a>
+        </article>
+        <article className="rounded-[1.35rem] border border-earth/15 bg-white/70 p-6 shadow-soft sm:p-7">
+          <p className="section-kicker text-forest">Guía de acceso</p>
+          <h2 className="mt-3 font-serif text-3xl text-forest">Qué puedes usar, compartir o esperar.</h2>
+          <p className="mt-4 leading-8 text-earth">Una hoja de orientación sobre recursos públicos, materiales en preparación, autoría y apoyo solidario.</p>
+          <a href="/descargables/guia-de-acceso-etico-ecos.pdf" download className="btn-secondary mt-6"><FileText size={18} aria-hidden="true" /> Descargar guía en PDF</a>
+        </article>
+      </div>
+    </div>
   );
 }
 
