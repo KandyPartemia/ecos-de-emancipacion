@@ -14,8 +14,15 @@ Fecha: 2026-07-26
 
 La interfaz pública debe explicar beneficios, destinatarios, formas de uso, disponibilidad real y siguientes pasos. Los porcentajes, prioridades de implementación, notas de desarrollo y control técnico no forman parte de la experiencia pública.
 
-## Verificación prevista
+## Verificación realizada
 
-- Comprobación de rutas y anclas internas.
-- Build de producción.
-- Revisión de portada y Escuela Ecos en escritorio y móvil.
+- Build de producción correcto con Vite 7.3.3.
+- Respuesta HTTP 200 confirmada para 14 rutas: inicio, Empieza aquí, Manifiesto, Resonancias, Pilares, Cognitología, Escuela, Recursos, Universo musical, Tienda, Familias, Jóvenes, Proyectos y Caracoles Resonando.
+- Escuela Ecos confirmada en la portada y en `/escuela`.
+- Accesos directos confirmados hacia ruta docente, Familias y Jóvenes.
+- Revisión móvil a 390 px mediante captura de producción.
+- Panel público de porcentajes eliminado.
+
+## Pendientes internos
+
+Los porcentajes y prioridades de desarrollo continuarán registrándose en documentos internos y no se mostrarán a visitantes.
