@@ -285,6 +285,8 @@ const projects = [
   {
     title: 'Ecos de Emancipación',
     text: 'Canal y casa editorial para pensar educación, comunidad y esperanza.',
+    audience: 'Docentes, familias, jóvenes y comunidades',
+    result: 'Ideas, conversaciones y recursos para mirar la educación con conciencia.',
     status: 'Activo',
     action: 'Ver canal',
     href: LINKS.youtube,
@@ -294,6 +296,8 @@ const projects = [
   {
     title: 'Recursos para docentes',
     text: 'Cuadernos, preguntas y materiales para el aula como territorio vivo.',
+    audience: 'Maestras, maestros y colectivos escolares',
+    result: 'Materiales listos para orientar una experiencia, una conversación o una planeación.',
     status: 'Activo',
     action: 'Explorar recursos',
     href: '/recursos',
@@ -302,6 +306,8 @@ const projects = [
   {
     title: 'Familias que acompañan',
     text: 'Rutas sencillas para orientar sin miedo, culpa ni recetas vacías.',
+    audience: 'Madres, padres, tutoras y personas acompañantes',
+    result: 'Preguntas y acuerdos para acompañar sin sustituir la voz de niñas, niños y jóvenes.',
     status: 'Activo',
     action: 'Leer propuesta',
     href: '/familias',
@@ -310,6 +316,8 @@ const projects = [
   {
     title: 'Jóvenes con criterio',
     text: 'Preguntas e ideas para pensar la vida, la escuela y el lugar propio.',
+    audience: 'Adolescentes y jóvenes',
+    result: 'Una ruta para nombrar lo que viven, formar criterio y expresar una postura propia.',
     status: 'Activo',
     action: 'Ver ruta',
     href: '/jovenes',
@@ -318,6 +326,8 @@ const projects = [
   {
     title: 'Producción poética y musical',
     text: 'Palabra sensible para nombrar memoria, territorio y transformación.',
+    audience: 'Personas que desean escuchar, crear y conversar',
+    result: 'Canciones y prácticas de escucha para transformar resonancia en expresión.',
     status: 'Activo',
     action: 'Explorar música',
     href: '/universo-musical',
@@ -326,6 +336,8 @@ const projects = [
   {
     title: 'Resonancias',
     text: 'Reflexiones, relatos, artículos poéticos y meditaciones escritas para despertar conciencia.',
+    audience: 'Lectores, docentes, familias y comunidades',
+    result: 'Textos y preguntas para detenerse, escribir y abrir una conversación significativa.',
     status: 'Activo',
     action: 'Leer resonancias',
     href: '/resonancias',
@@ -1359,7 +1371,7 @@ function App() {
   if (currentPath === '/proyectos') {
     return (
       <SiteRoute>
-        <Projects />
+        <Projects isPage />
         <CaracolesSpotlight />
       </SiteRoute>
     );
@@ -2226,32 +2238,61 @@ function CognitologyPage() {
   );
 }
 
-function Projects() {
+function Projects({ isPage = false }) {
   const [showAllProjects, setShowAllProjects] = useState(false);
 
   return (
-    <section id="proyectos" className="section-pad">
+    <section id="proyectos" className={`section-pad ${isPage ? 'bg-clay/35' : ''}`}>
       <div className="mx-auto max-w-7xl">
-        <div className="flex flex-col justify-between gap-5 md:flex-row md:items-end">
-          <div className="max-w-3xl">
+        <div className={`grid gap-7 ${isPage ? 'lg:grid-cols-[1fr_0.82fr] lg:items-center' : ''}`}>
+          <div className="max-w-4xl">
             <p className="section-kicker">Proyectos vivos</p>
-            <h2 className="section-title">Áreas activas y en crecimiento.</h2>
+            {isPage ? (
+              <h1 className="section-title">Elige una puerta para aprender, acompañar o crear.</h1>
+            ) : (
+              <h2 className="section-title">Rutas para llevar la propuesta a la vida.</h2>
+            )}
+            <p className="mt-5 max-w-3xl leading-8 text-earth">
+              Cada proyecto nace de una necesidad distinta. Puedes entrar por el aula, la familia, la voz joven, la lectura o la música y encontrar una acción concreta para comenzar.
+            </p>
+            {isPage && (
+              <div className="mt-6 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
+                <a className="btn-primary" href="#rutas-proyectos">Explorar proyectos <ArrowDown size={17} aria-hidden="true" /></a>
+                <a className="btn-secondary" href="/descargables/mapa-para-elegir-recurso-ecos.pdf" download>
+                  Descargar mapa de elección <FileText size={17} aria-hidden="true" />
+                </a>
+              </div>
+            )}
           </div>
-          <ExternalLink className="btn-secondary" href={LINKS.youtube} label="Ir al canal de YouTube">
-            Ver canal
-            <ArrowUpRight size={17} aria-hidden="true" />
-          </ExternalLink>
+          {isPage && (
+            <aside className="rounded-[1.5rem] bg-forest p-6 text-cream shadow-soft sm:p-8">
+              <p className="section-kicker text-gold">Tres preguntas para elegir</p>
+              <ol className="mt-5 space-y-4">
+                {[
+                  '¿Quién necesita hoy este acompañamiento?',
+                  '¿Qué situación, pregunta o necesidad queremos atender?',
+                  '¿Qué acción o expresión sería posible al terminar?',
+                ].map((question, index) => (
+                  <li key={question} className="flex gap-3 text-sm leading-7 text-cream/85">
+                    <span className="flex size-8 shrink-0 items-center justify-center rounded-full bg-gold font-black text-ink">{index + 1}</span>
+                    <span>{question}</span>
+                  </li>
+                ))}
+              </ol>
+            </aside>
+          )}
         </div>
-        <div className="mt-8 grid gap-3 md:mt-10 md:grid-cols-2 md:gap-4 xl:grid-cols-3">
-          {projects.map(({ title, text, status, action, href, external, icon: Icon }, index) => (
+        <div id="rutas-proyectos" className="mt-8 grid scroll-mt-28 gap-3 md:mt-10 md:grid-cols-2 md:gap-4 xl:grid-cols-3">
+          {projects.map(({ title, text, audience, result, action, href, external, icon: Icon }, index) => (
             <article key={title} className={`compact-card ${index >= 3 && !showAllProjects ? 'hidden md:block' : ''}`}>
               <div className="flex items-start justify-between gap-4">
-                <Icon className="text-terracotta" size={25} aria-hidden="true" />
-                <span className="status-pill">{status}</span>
+                <span className="flex size-11 items-center justify-center rounded-full bg-gold/20 text-terracotta"><Icon size={23} aria-hidden="true" /></span>
+                <span className="rounded-full border border-earth/15 px-3 py-1 text-right text-[0.68rem] font-bold uppercase tracking-[0.1em] text-earth">{audience}</span>
               </div>
               <h3 className="mt-5 font-serif text-2xl leading-tight text-forest">{title}</h3>
               <p className="mt-3 leading-7 text-earth">{text}</p>
-              <SmartLink href={href} external={external} className="mt-5 inline-flex items-center gap-2 text-sm font-semibold text-forest" label={action}>
+              {isPage && <p className="mt-4 rounded-2xl bg-clay/55 p-4 text-sm leading-7 text-earth"><strong className="text-forest">Te llevas:</strong> {result}</p>}
+              <SmartLink href={href} external={external} className="mt-5 inline-flex min-h-11 items-center gap-2 rounded-full border border-forest/25 px-5 py-2.5 text-sm font-semibold text-forest" label={action}>
                 {action}
                 <ArrowUpRight size={16} aria-hidden="true" />
               </SmartLink>
@@ -2266,6 +2307,23 @@ function Projects() {
         >
           {showAllProjects ? 'Ver menos proyectos' : 'Ver más proyectos'}
         </button>
+
+        {isPage && (
+          <div className="mt-10 grid gap-5 lg:grid-cols-2">
+            <article className="rounded-[1.5rem] border border-gold/35 bg-[#fff8ee] p-6 shadow-soft sm:p-8">
+              <p className="section-kicker text-terracotta">Si vienes desde una necesidad concreta</p>
+              <h2 className="mt-3 font-serif text-3xl leading-tight text-forest">El mapa de recursos te ayuda a elegir sin acumular materiales.</h2>
+              <p className="mt-4 leading-8 text-earth">Relaciona audiencia, momento y propósito con una ruta del sitio y un recurso que pueda ponerse en práctica.</p>
+              <a className="btn-primary mt-6" href="/descargables/mapa-para-elegir-recurso-ecos.pdf" download>Descargar mapa en PDF <FileText size={17} aria-hidden="true" /></a>
+            </article>
+            <article className="rounded-[1.5rem] border border-earth/15 bg-white/75 p-6 shadow-soft sm:p-8">
+              <p className="section-kicker text-forest">Si trabajas en Telesecundaria</p>
+              <h2 className="mt-3 font-serif text-3xl leading-tight text-forest">Caracoles Resonando convierte la elección en una herramienta de trabajo.</h2>
+              <p className="mt-4 leading-8 text-earth">Selecciona grado, campo formativo y Proyecto Académico para consultar ficha, fuentes, mapa mental y actividades.</p>
+              <a className="btn-secondary mt-6" href="/recursos/caracoles-resonando">Abrir Caracoles Resonando <Shell size={17} aria-hidden="true" /></a>
+            </article>
+          </div>
+        )}
       </div>
     </section>
   );
