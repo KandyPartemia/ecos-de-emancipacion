@@ -537,6 +537,57 @@ const cognitologyCriteria = [
   },
 ];
 
+const cognitologySituations = [
+  {
+    title: 'Una versión circula y todos la repiten',
+    context: 'Aula, redes y vida cotidiana',
+    question: '¿Qué sabemos, qué suponemos y qué relación causal estamos dando por cierta?',
+    criterion: 'Criterio lógico',
+    movement: 'Separar hechos, interpretaciones y consecuencias antes de tomar postura.',
+    icon: CircleDot,
+  },
+  {
+    title: 'Una cifra parece explicar a todo un grupo',
+    context: 'Evaluación y comunidad',
+    question: '¿Qué muestra el dato, qué deja fuera y con qué otras evidencias necesita dialogar?',
+    criterion: 'Criterio lógico-matemático',
+    movement: 'Leer proporciones y diferencias sin convertir un número en identidad.',
+    icon: FileText,
+  },
+  {
+    title: 'Una palabra hiere aunque parezca normal',
+    context: 'Lenguaje y convivencia',
+    question: '¿Qué significado sostiene esa expresión y qué relación produce entre las personas?',
+    criterion: 'Criterio lógico-lingüístico',
+    movement: 'Revisar el sentido, el contexto y las posibilidades de nombrar con mayor dignidad.',
+    icon: MessageCircle,
+  },
+  {
+    title: 'Una explicación convence, pero no tiene sustento',
+    context: 'Proyecto y conocimiento',
+    question: '¿Cómo podríamos observar, contrastar o registrar para saber si la afirmación se sostiene?',
+    criterion: 'Criterio científico-metodológico',
+    movement: 'Diseñar una indagación posible y reconocer también sus límites.',
+    icon: Eye,
+  },
+  {
+    title: 'Un problema se presenta como culpa individual',
+    context: 'Historia y vida comunitaria',
+    question: '¿Qué condiciones históricas, sociales y materiales participan en esta experiencia?',
+    criterion: 'Conciencia social, histórica, ética y moral',
+    movement: 'Relacionar responsabilidad personal, condiciones colectivas y posibilidades de transformación.',
+    icon: UsersRound,
+  },
+];
+
+const cognitologyCompass = [
+  ['Percibir', 'Detenerse ante lo que ocurre sin reducirlo de inmediato a una etiqueta.'],
+  ['Nombrar', 'Poner palabras a la experiencia y reconocer desde dónde la estamos interpretando.'],
+  ['Relacionar', 'Buscar causas, condiciones, voces, datos, contradicciones y consecuencias.'],
+  ['Discernir', 'Elegir los criterios que permiten comprender y decidir con responsabilidad.'],
+  ['Actuar y resonar', 'Realizar una acción revisable y observar qué transforma en la realidad y en quien participa.'],
+];
+
 const pedagogicalArtifacts = [
   ['Semillero de Conciencia', 'Convertir preguntas, conflictos o inquietudes en posibilidades de pensamiento y acción.'],
   ['Asamblea comunitaria', 'Abrir palabra, escucha y acuerdos para decidir con otras personas.'],
@@ -716,7 +767,7 @@ const youthGuideSteps = [
 const routeDevelopmentProgress = [
   ['Inicio', 80],
   ['Empieza aquí', 72],
-  ['Cognitología', 68],
+  ['Cognitología', 84],
   ['Caracoles Resonando', 88],
   ['Recursos', 66],
   ['Resonancias', 76],
@@ -1721,6 +1772,110 @@ function CognitologyPage() {
               <p className="mt-3 leading-7 text-earth">{text}</p>
             </article>
           ))}
+        </div>
+
+        <div className="mt-5 overflow-hidden rounded-[1.5rem] border border-cream/15 bg-forest text-cream shadow-soft">
+          <div className="grid lg:grid-cols-[0.72fr_1.28fr]">
+            <div className="border-b border-cream/15 p-6 sm:p-8 lg:border-b-0 lg:border-r">
+              <p className="section-kicker text-gold">Brújula cognitólogica</p>
+              <h2 className="mt-3 font-serif text-4xl leading-tight sm:text-5xl">Pensar no es llenar una respuesta: es aprender a orientarse.</h2>
+              <p className="mt-5 leading-8 text-cream/80">
+                Esta secuencia no es una fórmula rígida. Es una brújula para volver sobre una experiencia cuando la
+                prisa, la costumbre o una explicación única impiden mirarla con amplitud.
+              </p>
+              <a className="btn-gold mt-7" href="/descargables/brujula-cognitologica-vida-cotidiana.md" download>
+                Descargar brújula de trabajo
+                <ArrowDown size={18} aria-hidden="true" />
+              </a>
+            </div>
+            <ol className="grid gap-px bg-cream/15 sm:grid-cols-2">
+              {cognitologyCompass.map(([title, text], index) => (
+                <li key={title} className="bg-forest p-5 sm:p-6">
+                  <div className="flex gap-4">
+                    <span className="inline-flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-gold font-black text-ink">
+                      {index + 1}
+                    </span>
+                    <div>
+                      <h3 className="font-serif text-2xl text-cream">{title}</h3>
+                      <p className="mt-2 text-sm leading-7 text-cream/78">{text}</p>
+                    </div>
+                  </div>
+                </li>
+              ))}
+            </ol>
+          </div>
+        </div>
+
+        <div className="mt-5">
+          <div className="max-w-4xl">
+            <p className="section-kicker text-terracotta">Criterios en movimiento</p>
+            <h2 className="mt-3 font-serif text-3xl leading-tight text-forest sm:text-5xl">
+              Cinco situaciones para reconocer qué criterio necesitamos.
+            </h2>
+            <p className="mt-4 leading-8 text-earth">
+              Un criterio cobra sentido cuando ayuda a leer algo que sucede. Estas escenas no ofrecen respuestas
+              cerradas: muestran cómo una pregunta puede desplazar la mirada y abrir una acción más consciente.
+            </p>
+          </div>
+          <div className="mt-6 grid gap-4 md:grid-cols-2 xl:grid-cols-3">
+            {cognitologySituations.map(({ title, context, question, criterion, movement, icon: Icon }) => (
+              <article key={title} className="flex min-h-full flex-col rounded-[1.35rem] border border-earth/15 bg-white/75 p-5 shadow-soft sm:p-6">
+                <div className="flex items-start justify-between gap-4">
+                  <span className="inline-flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-forest text-gold">
+                    <Icon size={22} aria-hidden="true" />
+                  </span>
+                  <span className="max-w-[12rem] rounded-full border border-gold/35 px-3 py-1 text-right text-xs font-bold uppercase text-earth">
+                    {context}
+                  </span>
+                </div>
+                <h3 className="mt-5 font-serif text-2xl leading-tight text-forest">{title}</h3>
+                <p className="mt-4 font-serif text-xl leading-8 text-terracotta">{question}</p>
+                <div className="mt-5 rounded-2xl bg-clay/55 p-4">
+                  <p className="text-xs font-black uppercase tracking-widest text-forest">Criterio que orienta</p>
+                  <p className="mt-2 font-bold leading-6 text-earth">{criterion}</p>
+                </div>
+                <p className="mt-4 text-sm leading-7 text-earth"><strong>Movimiento posible:</strong> {movement}</p>
+              </article>
+            ))}
+          </div>
+        </div>
+
+        <div className="mt-5 grid gap-4 lg:grid-cols-[1.05fr_0.95fr]">
+          <article className="rounded-[1.5rem] border border-earth/15 bg-cream p-5 shadow-soft sm:p-7">
+            <p className="section-kicker text-terracotta">Lo que la Cognitología no es</p>
+            <h2 className="mt-3 font-serif text-3xl leading-tight text-forest">Una propuesta pedagógica necesita también declarar sus límites.</h2>
+            <ul className="mt-5 grid gap-3 text-earth">
+              {[
+                'No es una prueba para clasificar inteligencias, personalidades o capacidades.',
+                'No es una receta de bienestar ni una promesa de soluciones inmediatas.',
+                'No sustituye la enseñanza disciplinar, la evidencia ni la atención profesional cuando se necesita.',
+                'No separa el pensamiento de la historia, el lenguaje, el cuerpo, los vínculos y las condiciones de vida.',
+              ].map((item) => (
+                <li key={item} className="flex gap-3 leading-7">
+                  <CircleDot className="mt-1 shrink-0 text-terracotta" size={18} aria-hidden="true" />
+                  <span>{item}</span>
+                </li>
+              ))}
+            </ul>
+          </article>
+          <article className="rounded-[1.5rem] border border-cream/15 bg-forest p-5 text-cream shadow-soft sm:p-7">
+            <p className="section-kicker text-gold">Una primera experiencia</p>
+            <h2 className="mt-3 font-serif text-3xl leading-tight">Elige algo que ocurrió hoy y sigue una sola vuelta de la brújula.</h2>
+            <p className="mt-4 leading-8 text-cream/80">
+              No necesitas resolver toda la situación. Basta con reconocer qué dabas por hecho, qué relación no
+              habías visto y qué criterio puede ayudarte a dar el siguiente paso.
+            </p>
+            <div className="mt-6 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
+              <a className="btn-gold" href="/resonancias">
+                Llevarla a Resonancias
+                <ArrowUpRight size={17} aria-hidden="true" />
+              </a>
+              <a className="inline-flex min-h-11 items-center justify-center gap-2 rounded-full border border-cream/30 px-5 py-3 font-bold text-cream" href="/recursos/caracoles-resonando">
+                Verla aplicada en Caracoles
+                <ArrowUpRight size={17} aria-hidden="true" />
+              </a>
+            </div>
+          </article>
         </div>
 
         <div className="mt-5 rounded-[1.5rem] border border-gold/35 bg-[#fff8ee] p-5 shadow-soft sm:p-7">
