@@ -30,6 +30,7 @@ FILES = [
     "cuaderno-breve-de-resonancias",
     "brujula-cognitologica-vida-cotidiana",
     "bitacora-docente-practica-con-conciencia",
+    "mapa-para-elegir-recurso-ecos",
 ]
 
 FOREST = colors.HexColor("#234D3C")
@@ -146,7 +147,12 @@ def escape(text):
 
 def inline_markup(text):
     escaped = escape(text)
-    return re.sub(r"\*\*(.+?)\*\*", r"<b>\1</b>", escaped)
+    marked = re.sub(r"\*\*(.+?)\*\*", r"<b>\1</b>", escaped)
+    return re.sub(
+        r"(https://[^\s<]+)",
+        r'<link href="\1" color="#234D3C"><u>\1</u></link>',
+        marked,
+    )
 
 
 def header_footer(canvas, doc):

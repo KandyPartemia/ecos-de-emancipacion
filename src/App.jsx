@@ -749,6 +749,71 @@ const publicDownloads = [
     href: '/descargables/bitacora-docente-practica-con-conciencia.pdf',
     icon: NotebookTabs,
   },
+  {
+    title: 'Cuaderno breve de resonancias',
+    text: 'Pausa guiada para detenerse, nombrar, relacionar, discernir y actuar ante una experiencia cotidiana.',
+    audience: 'Comunidad Ecos',
+    href: '/descargables/cuaderno-breve-de-resonancias.pdf',
+    icon: Feather,
+  },
+  {
+    title: 'Mapa para elegir un recurso de Ecos',
+    text: 'Guía de orientación por necesidad, audiencia, momento de uso y siguiente paso sugerido.',
+    audience: 'Todas las audiencias',
+    href: '/descargables/mapa-para-elegir-recurso-ecos.pdf',
+    icon: Map,
+  },
+];
+
+const resourceNeedPaths = [
+  {
+    title: 'Necesito planear un Proyecto Académico',
+    text: 'Consulta ficha curricular, estrategia detonadora, fuentes, mapa mental, evaluación y formato imprimible.',
+    destination: 'Caracoles Resonando',
+    href: '/recursos/caracoles-resonando',
+    action: 'Abrir herramienta',
+    icon: Shell,
+  },
+  {
+    title: 'Necesito volver a mirar mi práctica',
+    text: 'Prepara, observa y valora una experiencia sin convertir la bitácora en vigilancia del alumnado.',
+    destination: 'Escuela Ecos',
+    href: '/escuela',
+    action: 'Ir a Escuela Ecos',
+    icon: GraduationCap,
+  },
+  {
+    title: 'Necesito acompañar sin controlar',
+    text: 'Encuentra preguntas y acuerdos para tareas, calificaciones, pantallas y comunicación con la escuela.',
+    destination: 'Ruta Familias',
+    href: '/familias',
+    action: 'Abrir ruta Familias',
+    icon: HandHeart,
+  },
+  {
+    title: 'Necesito pensar una decisión',
+    text: 'Relaciona lo que importa, la información disponible, las consecuencias y una acción revisable.',
+    destination: 'Ruta Jóvenes',
+    href: '/jovenes',
+    action: 'Abrir ruta Jóvenes',
+    icon: Compass,
+  },
+  {
+    title: 'Necesito una pregunta que abra conciencia',
+    text: 'Parte de una experiencia cotidiana y conviértela en palabra, relación, criterio y acción posible.',
+    destination: 'Resonancias',
+    href: '/resonancias',
+    action: 'Leer Resonancias',
+    icon: BookOpenText,
+  },
+  {
+    title: 'Necesito comprender el fundamento',
+    text: 'Conoce la Cognitología, sus criterios de pensamiento, su brújula y sus límites pedagógicos.',
+    destination: 'Cognitología',
+    href: '/cognitologia',
+    action: 'Comprender la propuesta',
+    icon: Brain,
+  },
 ];
 
 const resonanceSeeds = [
@@ -910,7 +975,7 @@ const routeDevelopmentProgress = [
   ['Empieza aquí', 72],
   ['Cognitología', 84],
   ['Caracoles Resonando', 88],
-  ['Recursos', 66],
+  ['Recursos', 86],
   ['Resonancias', 76],
   ['Familias', 78],
   ['Jóvenes', 79],
@@ -2256,6 +2321,39 @@ function ResourcesPage() {
           </article>
         </div>
 
+        <div className="mt-5 rounded-[1.5rem] border border-cream/15 bg-forest p-5 text-cream shadow-soft sm:p-7">
+          <div className="grid gap-5 lg:grid-cols-[0.75fr_1.25fr] lg:items-end">
+            <div>
+              <p className="section-kicker text-gold">Elige desde tu necesidad</p>
+              <h2 className="mt-3 font-serif text-4xl leading-tight sm:text-5xl">No necesitas conocer todo Ecos para encontrar una primera ayuda.</h2>
+            </div>
+            <p className="leading-8 text-cream/78">
+              Busca la frase que más se parece a lo que necesitas hoy. Cada entrada conduce a una experiencia concreta,
+              no a una categoría vacía ni a una lista interminable de materiales.
+            </p>
+          </div>
+          <div className="mt-6 grid gap-3 md:grid-cols-2 xl:grid-cols-3">
+            {resourceNeedPaths.map(({ title, text, destination, href, action, icon: Icon }) => (
+              <article key={title} className="flex min-h-full flex-col rounded-[1.2rem] border border-cream/15 bg-cream/[0.07] p-5">
+                <div className="flex items-start justify-between gap-4">
+                  <Icon className="shrink-0 text-gold" size={24} aria-hidden="true" />
+                  <span className="text-right text-xs font-black uppercase tracking-widest text-gold">{destination}</span>
+                </div>
+                <h3 className="mt-5 font-serif text-2xl leading-tight text-cream">{title}</h3>
+                <p className="mt-3 text-sm leading-7 text-cream/74">{text}</p>
+                <a className="mt-auto inline-flex items-center gap-2 pt-5 text-sm font-bold text-gold" href={href}>
+                  {action}
+                  <ArrowUpRight size={16} aria-hidden="true" />
+                </a>
+              </article>
+            ))}
+          </div>
+          <a className="btn-gold mt-6" href="/descargables/mapa-para-elegir-recurso-ecos.pdf" download>
+            Descargar mapa de recursos en PDF
+            <ArrowDown size={18} aria-hidden="true" />
+          </a>
+        </div>
+
         <div className="mt-5 grid gap-4 md:grid-cols-3">
           {resourceSteps.map(({ title, text, label, result, href, action, icon: Icon }) => (
             <article key={title} className="compact-card flex min-h-full flex-col overflow-hidden">
@@ -2285,8 +2383,8 @@ function ResourcesPage() {
               </h2>
             </div>
             <p className="leading-8 text-earth">
-              Por ahora la biblioteca se mantiene sencilla: primero experiencia web útil; solo se vuelve PDF aquello que
-              necesita imprimirse, trabajarse o circular fuera de la página.
+              La experiencia web orienta y conecta. Todo material preparado para descargar, imprimir o compartir se
+              publica en PDF para facilitar su distribución y conservar su diseño editorial.
             </p>
           </div>
           <div className="mt-5 grid gap-3 lg:grid-cols-2">
@@ -2349,9 +2447,9 @@ function ResourcesPage() {
                 <p className="mt-4 text-xs font-black uppercase tracking-[0.14em] text-terracotta">{audience}</p>
                 <h3 className="mt-3 font-serif text-2xl leading-tight text-forest">{title}</h3>
                 <p className="mt-3 text-sm leading-7 text-earth">{text}</p>
-                <a className="mt-4 inline-flex items-center gap-2 text-sm font-semibold text-forest" href={href}>
-                  Abrir descargable
-                  <ArrowUpRight size={16} aria-hidden="true" />
+                <a className="mt-4 inline-flex items-center gap-2 text-sm font-semibold text-forest" href={href} download>
+                  Descargar PDF
+                  <ArrowDown size={16} aria-hidden="true" />
                 </a>
               </article>
             ))}
