@@ -866,6 +866,45 @@ const youthGuideSteps = [
   ['Resonar', 'Registrar qué cambió en tu forma de pensar y qué pregunta sigue abierta.'],
 ];
 
+const youthSituations = [
+  {
+    title: 'Siento que ya debería saber qué haré con mi vida',
+    question: '¿Qué parte de esa urgencia nace de mí y qué parte viene de expectativas ajenas?',
+    movement: 'Distinguir una decisión inmediata de una dirección que puede explorarse, cambiar y madurar.',
+    prompt: 'Hoy puedo investigar, probar o conversar sobre...',
+    icon: Compass,
+  },
+  {
+    title: 'Una opinión en redes se vuelve verdad para el grupo',
+    question: '¿Qué sabemos realmente, quién lo afirma y qué puede provocar compartirlo?',
+    movement: 'Separar evidencia, interpretación y rumor antes de reaccionar o reproducir.',
+    prompt: 'Antes de compartir, necesito verificar...',
+    icon: Eye,
+  },
+  {
+    title: 'No estoy de acuerdo con una persona adulta',
+    question: '¿Cómo puedo expresar mi desacuerdo sin renunciar a mi voz ni negar la dignidad de la otra persona?',
+    movement: 'Nombrar el punto concreto, explicar razones, escuchar la respuesta y proponer un acuerdo revisable.',
+    prompt: 'Lo que necesito que se comprenda es...',
+    icon: MessageCircle,
+  },
+  {
+    title: 'Algo no salió como esperaba',
+    question: '¿El resultado define lo que soy o me ofrece información para revisar el proceso?',
+    movement: 'Reconocer lo que sí avanzó, ubicar una dificultad concreta y elegir un siguiente intento posible.',
+    prompt: 'En mi siguiente intento cambiaré...',
+    icon: Sparkles,
+  },
+];
+
+const youthDecisionCompass = [
+  ['Lo que importa', '¿Qué valor, necesidad o propósito quiero cuidar con esta decisión?'],
+  ['Lo que sé', '¿Qué datos tengo, qué estoy suponiendo y qué necesito preguntar?'],
+  ['Lo que puede ocurrir', '¿Qué consecuencias podría tener para mí y para otras personas?'],
+  ['Con quién puedo pensar', '¿Qué persona confiable puede escucharme sin decidir en mi lugar?'],
+  ['El paso revisable', '¿Qué acción pequeña puedo realizar y después volver a valorar?'],
+];
+
 const routeDevelopmentProgress = [
   ['Inicio', 80],
   ['Empieza aquí', 72],
@@ -874,7 +913,7 @@ const routeDevelopmentProgress = [
   ['Recursos', 66],
   ['Resonancias', 76],
   ['Familias', 78],
-  ['Jóvenes', 52],
+  ['Jóvenes', 79],
   ['Escuela', 74],
   ['Tienda / apoyo solidario', 40],
 ];
@@ -2898,6 +2937,71 @@ function Youth() {
             Ver criterios de pensamiento
             <ArrowUpRight size={17} aria-hidden="true" />
           </a>
+        </div>
+      </div>
+
+      <div className="mx-auto mt-8 max-w-7xl">
+        <div className="max-w-4xl">
+          <p className="section-kicker text-terracotta">Situaciones para pensar con voz propia</p>
+          <h2 className="mt-3 font-serif text-4xl leading-tight text-forest sm:text-5xl">
+            Tener criterio no significa pensar a solas ni tener respuestas perfectas.
+          </h2>
+          <p className="mt-4 leading-8 text-earth">
+            Significa aprender a reconocer lo que importa, buscar información, escuchar otras voces y decidir sin
+            entregar por completo a alguien más la responsabilidad sobre la propia vida.
+          </p>
+        </div>
+        <div className="mt-6 grid gap-4 md:grid-cols-2">
+          {youthSituations.map(({ title, question, movement, prompt, icon: Icon }) => (
+            <article key={title} className="rounded-[1.35rem] border border-earth/15 bg-white/75 p-5 shadow-soft sm:p-6">
+              <span className="inline-flex h-11 w-11 items-center justify-center rounded-full bg-forest text-gold">
+                <Icon size={22} aria-hidden="true" />
+              </span>
+              <h3 className="mt-5 font-serif text-3xl leading-tight text-forest">{title}</h3>
+              <p className="mt-4 font-serif text-xl leading-8 text-terracotta">{question}</p>
+              <p className="mt-4 text-sm leading-7 text-earth"><strong>Movimiento posible:</strong> {movement}</p>
+              <p className="mt-4 rounded-2xl bg-clay/55 p-4 text-sm font-semibold leading-7 text-forest">Para tu bitácora: {prompt}</p>
+            </article>
+          ))}
+        </div>
+      </div>
+
+      <div className="mx-auto mt-8 grid max-w-7xl gap-4 lg:grid-cols-[1.08fr_0.92fr]">
+        <article className="rounded-[1.5rem] border border-cream/15 bg-forest p-5 text-cream shadow-soft sm:p-7">
+          <p className="section-kicker text-gold">Brújula para decidir</p>
+          <h2 className="mt-3 font-serif text-4xl leading-tight">Una decisión consciente puede construirse por aproximaciones.</h2>
+          <div className="mt-6 grid gap-3 sm:grid-cols-2">
+            {youthDecisionCompass.map(([title, text], index) => (
+              <div key={title} className="flex gap-4 rounded-2xl border border-cream/15 bg-cream/[0.07] p-4">
+                <span className="inline-flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-gold font-black text-ink">{index + 1}</span>
+                <div>
+                  <h3 className="font-serif text-2xl text-cream">{title}</h3>
+                  <p className="mt-2 text-sm leading-7 text-cream/76">{text}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </article>
+        <div className="grid gap-4">
+          <article className="rounded-[1.5rem] border border-earth/15 bg-cream p-5 shadow-soft sm:p-7">
+            <p className="section-kicker text-terracotta">Tu intimidad también cuenta</p>
+            <h2 className="mt-3 font-serif text-3xl leading-tight text-forest">Participar no obliga a contar todo.</h2>
+            <p className="mt-4 leading-8 text-earth">
+              Puedes pensar una experiencia sin escribir nombres ni detalles personales. También puedes pedir otro
+              modo de participar cuando una actividad te expone o no respeta tus límites.
+            </p>
+          </article>
+          <article className="rounded-[1.5rem] border border-gold/35 bg-[#fff8ee] p-5 shadow-soft sm:p-7">
+            <p className="section-kicker text-terracotta">No tienes que resolverlo en soledad</p>
+            <p className="mt-3 leading-8 text-earth">
+              Si una situación implica violencia, riesgo, miedo persistente o afecta seriamente tu bienestar, busca a una
+              persona adulta confiable o una instancia de apoyo. Esta ruta pedagógica no sustituye atención especializada.
+            </p>
+            <a className="btn-primary mt-6" href="/descargables/bitacora-jovenes-resonancia.pdf" download>
+              Descargar bitácora en PDF
+              <ArrowDown size={18} aria-hidden="true" />
+            </a>
+          </article>
         </div>
       </div>
     </section>

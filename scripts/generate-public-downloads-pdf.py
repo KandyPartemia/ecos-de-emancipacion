@@ -1,5 +1,6 @@
 from pathlib import Path
 import re
+import sys
 
 from reportlab.lib import colors
 from reportlab.lib.enums import TA_CENTER, TA_LEFT
@@ -229,5 +230,9 @@ def build_pdf(stem):
 
 
 if __name__ == "__main__":
-    for file_stem in FILES:
+    selected_files = sys.argv[1:] or FILES
+    unknown = sorted(set(selected_files) - set(FILES))
+    if unknown:
+        raise SystemExit(f"Descargables desconocidos: {', '.join(unknown)}")
+    for file_stem in selected_files:
         build_pdf(file_stem)
