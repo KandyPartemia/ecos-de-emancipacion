@@ -3592,7 +3592,7 @@ function StartHere() {
                 </div>
               </div>
 
-              <a className="btn-secondary justify-self-start" href="#jovenes">
+            <a className="btn-secondary justify-self-start" href="/jovenes">
                 Ir a la ruta joven
                 <ArrowUpRight size={17} aria-hidden="true" />
               </a>
@@ -3647,11 +3647,11 @@ function StartHere() {
               </div>
 
               <div className="flex flex-col gap-3 sm:flex-row sm:flex-wrap">
-                <a className="btn-gold" href="#manifiesto">
+                <a className="btn-gold" href="/manifiesto">
                   Leer manifiesto
                   <ArrowUpRight size={17} aria-hidden="true" />
                 </a>
-                <a className="btn-light" href="#mapa-universo">
+                <a className="btn-light" href="/#mapa-universo">
                   Ver mapa del universo Ecos
                   <ArrowUpRight size={17} aria-hidden="true" />
                 </a>
