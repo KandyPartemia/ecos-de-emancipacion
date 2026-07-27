@@ -15,6 +15,7 @@ from reportlab.platypus import (
     HRFlowable,
     KeepTogether,
     PageTemplate,
+    PageBreak,
     Paragraph,
     Spacer,
 )
@@ -32,6 +33,7 @@ FILES = [
     "bitacora-docente-practica-con-conciencia",
     "mapa-para-elegir-recurso-ecos",
     "manifiesto-y-pilares-en-accion",
+    "guia-escucha-consciente-resonancia-musical",
 ]
 
 FOREST = colors.HexColor("#234D3C")
@@ -183,6 +185,9 @@ def parse_markdown(text, style):
 
     for raw in lines[1:]:
         line = raw.strip()
+        if line == "<!-- pagebreak -->":
+            story.append(PageBreak())
+            continue
         if not line:
             story.append(Spacer(1, 1.4 * mm))
             continue

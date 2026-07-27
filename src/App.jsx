@@ -436,6 +436,34 @@ const storeItems = [
   },
 ];
 
+const musicAudiencePaths = [
+  {
+    title: 'Para docentes',
+    text: 'Abre o cierra una experiencia de aprendizaje con una escucha que ayude a nombrar emociones, ideas y preguntas.',
+    prompt: '¿Qué palabra, imagen o pregunta deja esta canción para el trabajo del grupo?',
+    icon: GraduationCap,
+  },
+  {
+    title: 'Para jóvenes',
+    text: 'Escucha con libertad, reconoce lo que te mueve y transforma esa resonancia en palabra, dibujo, movimiento o conversación.',
+    prompt: '¿Qué parte de mi historia o de mi mundo cotidiano resuena aquí?',
+    icon: Sparkles,
+  },
+  {
+    title: 'Para familias',
+    text: 'Comparte una canción sin convertirla en lección: escucha primero y conversa desde la curiosidad y el respeto.',
+    prompt: '¿Qué recuerdo, esperanza o preocupación nos permite compartir esta música?',
+    icon: UsersRound,
+  },
+];
+
+const consciousListeningSteps = [
+  ['Preparar', 'Elegir una canción y disponer un momento sin interrupciones.'],
+  ['Escuchar', 'Atender letra, ritmo, silencios y emociones sin buscar una respuesta correcta.'],
+  ['Resonar', 'Nombrar una palabra, imagen, recuerdo o pregunta que haya surgido.'],
+  ['Crear', 'Convertir lo escuchado en una conversación, texto breve, dibujo, movimiento o acuerdo.'],
+];
+
 const schoolRoutes = [
   {
     title: 'Ruta docente',
@@ -2927,19 +2955,63 @@ function MusicUniverse() {
   return (
     <section id="universo-musical" className="section-pad bg-clay/45">
       <div className="mx-auto max-w-7xl">
-        <div className="grid gap-6 lg:grid-cols-[0.78fr_1.22fr] lg:items-end">
-          <div>
+        <div className="grid gap-7 lg:grid-cols-[0.92fr_1.08fr] lg:items-center">
+          <div className="order-2 lg:order-1">
             <p className="section-kicker">Universo musical</p>
-            <h2 className="section-title">La palabra también canta.</h2>
-          </div>
-          <div>
-            <p className="leading-8 text-earth">
-              Ecos de Emancipación también canta. En este universo musical convergen dos espacios que acompañan la vida interior, la memoria, la conciencia y la esperanza: Plenitud en Canto y Resonancias de Libertad.
+            <h1 className="section-title">La palabra también canta y abre conciencia.</h1>
+            <p className="mt-5 max-w-2xl leading-8 text-earth">
+              Este universo reúne canciones para escuchar con calma, reconocer lo que nos mueve y convertir la resonancia en diálogo, memoria, expresión y esperanza. Puedes recorrerlo desde el aula, la vida joven o la conversación familiar.
             </p>
+            <div className="mt-6 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
+              <a href="#canales-sonoros" className="btn-primary">Escuchar los canales <Play size={17} aria-hidden="true" /></a>
+              <a href="/descargables/guia-escucha-consciente-resonancia-musical.pdf" className="btn-secondary" download>
+                Descargar guía en PDF <FileText size={17} aria-hidden="true" />
+              </a>
+            </div>
+          </div>
+          <figure className="editorial-image order-1 min-h-[18rem] lg:order-2 lg:min-h-[28rem]">
+            <img
+              src="/images/ecos-universo-musical-visual.webp"
+              alt="Universo musical de Ecos de Emancipación: escucha, palabra, conciencia y esperanza"
+              className="h-full w-full object-cover object-center"
+            />
+          </figure>
+        </div>
+
+        <div className="mt-10 rounded-[1.5rem] border border-gold/35 bg-white/75 p-6 shadow-soft sm:p-8">
+          <p className="section-kicker text-terracotta">Una práctica de escucha consciente</p>
+          <h2 className="mt-3 max-w-4xl font-serif text-3xl leading-tight text-forest sm:text-4xl">La música no se usa para llenar un silencio, sino para abrir una experiencia.</h2>
+          <div className="mt-7 grid gap-4 md:grid-cols-2 xl:grid-cols-4">
+            {consciousListeningSteps.map(([title, text], index) => (
+              <article key={title} className="rounded-[1.2rem] border border-earth/15 bg-cream p-5">
+                <span className="flex size-9 items-center justify-center rounded-full bg-forest text-sm font-black text-cream">{index + 1}</span>
+                <h3 className="mt-4 font-serif text-2xl text-forest">{title}</h3>
+                <p className="mt-2 text-sm leading-7 text-earth">{text}</p>
+              </article>
+            ))}
           </div>
         </div>
 
-        <div className="mt-8 grid gap-4 lg:grid-cols-2">
+        <div className="mt-10">
+          <p className="section-kicker">Elige tu recorrido</p>
+          <h2 className="mt-3 max-w-4xl font-serif text-4xl leading-tight text-forest sm:text-5xl">Una misma canción puede abrir preguntas distintas.</h2>
+          <div className="mt-7 grid gap-4 lg:grid-cols-3">
+            {musicAudiencePaths.map(({ title, text, prompt, icon: Icon }) => (
+              <article key={title} className="rounded-[1.35rem] border border-earth/15 bg-white/75 p-6 shadow-soft">
+                <span className="flex size-11 items-center justify-center rounded-full bg-gold/25 text-forest"><Icon size={22} aria-hidden="true" /></span>
+                <h3 className="mt-5 font-serif text-3xl text-forest">{title}</h3>
+                <p className="mt-3 leading-7 text-earth">{text}</p>
+                <p className="mt-5 border-l-2 border-gold pl-4 font-serif text-xl leading-7 text-terracotta">{prompt}</p>
+              </article>
+            ))}
+          </div>
+        </div>
+
+        <div id="canales-sonoros" className="mt-12 scroll-mt-28">
+          <p className="section-kicker">Canales sonoros</p>
+          <h2 className="mt-3 max-w-4xl font-serif text-4xl leading-tight text-forest sm:text-5xl">Dos sensibilidades para acompañar la vida.</h2>
+        </div>
+        <div className="mt-7 grid gap-4 lg:grid-cols-2">
           {musicChannels.map(({ title, description, channelUrl, popularVideoId, tone }) => {
             const Icon = getSoundIcon(tone);
 
@@ -2979,9 +3051,18 @@ function MusicUniverse() {
           })}
         </div>
 
-        <p className="mx-auto mt-8 max-w-2xl text-center font-serif text-2xl leading-tight text-terracotta">
-          La palabra también canta cuando busca tocar la conciencia.
-        </p>
+        <div className="mt-10 rounded-[1.5rem] bg-forest p-6 text-cream shadow-soft sm:p-8">
+          <p className="section-kicker text-gold">Para llevar contigo</p>
+          <div className="mt-3 grid gap-6 lg:grid-cols-[1fr_auto] lg:items-center">
+            <div>
+              <h2 className="font-serif text-3xl leading-tight sm:text-4xl">Guía de escucha consciente y resonancia musical.</h2>
+              <p className="mt-3 max-w-3xl leading-8 text-cream/80">Incluye una secuencia breve, preguntas para docentes, jóvenes y familias, y una bitácora sencilla para transformar la escucha en expresión y diálogo.</p>
+            </div>
+            <a href="/descargables/guia-escucha-consciente-resonancia-musical.pdf" className="btn-gold" download>
+              Descargar PDF <FileText size={17} aria-hidden="true" />
+            </a>
+          </div>
+        </div>
       </div>
     </section>
   );
