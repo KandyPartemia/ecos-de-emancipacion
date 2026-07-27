@@ -347,19 +347,24 @@ const projects = [
 
 const resonanceCards = [
   {
+    title: 'Conciencia crítica',
+    text: 'Mirar lo normalizado, reconocer relaciones y escuchar las voces que suelen quedar fuera.',
+    icon: Eye,
+  },
+  {
+    title: 'Pedagogía del sujeto',
+    text: 'Reconocer dignidad, historia, saberes y autonomía en cada experiencia educativa.',
+    icon: UserRound,
+  },
+  {
     title: 'Vida cotidiana',
-    text: 'Textos breves para mirar lo simple como territorio de conciencia.',
-    icon: Leaf,
+    text: 'Leer el aula, la casa y la comunidad como territorios legítimos de conocimiento.',
+    icon: Home,
   },
   {
-    title: 'Espiritualidad situada',
-    text: 'Palabra serena para cuidar el alma sin perder raíz ni pensamiento crítico.',
-    icon: Sparkles,
-  },
-  {
-    title: 'Educación y conciencia',
-    text: 'Reflexiones para docentes, familias y jóvenes que buscan otra forma de mirar.',
-    icon: BookOpenText,
+    title: 'Comunidad y esperanza',
+    text: 'Convertir lo comprendido en cuidado, participación y una acción posible compartida.',
+    icon: HandHeart,
   },
 ];
 
@@ -916,54 +921,118 @@ const resourceNeedPaths = [
   },
 ];
 
-const resonanceSeeds = [
-  ['Para el aula', '¿Qué actividad estamos cumpliendo y qué pregunta viva podría abrirse desde ella?'],
-  ['Para la vida cotidiana', '¿Qué palabra, gesto o decisión de hoy merece ser pensada con más cuidado?'],
-  ['Para la comunidad', '¿Qué problema se repite como si fuera individual, pero tiene historia, condiciones y relaciones?'],
-];
-
-const resonanceThemes = [
+const resonancePillarTerritories = [
   {
-    title: 'Cuando enseñar también cansa',
-    audience: 'Docentes',
-    question: '¿Qué parte del cansancio viene de la tarea y qué parte de sostener en silencio lo que la escuela no alcanza a nombrar?',
-    action: 'Distinguir lo urgente de lo importante y elegir una carga que pueda compartirse.',
-    icon: GraduationCap,
-  },
-  {
-    title: 'La voz joven no es ruido',
-    audience: 'Estudiantes y jóvenes',
-    question: '¿Qué cambia cuando una persona joven puede explicar lo que piensa sin tener que defender primero su derecho a hablar?',
-    action: 'Abrir un turno de palabra sin interrupciones y devolver una pregunta, no un juicio.',
-    icon: Mic2,
-  },
-  {
-    title: 'Acompañar sin ocupar el lugar del otro',
-    audience: 'Familias',
-    question: '¿Cómo estar cerca sin convertir el cuidado en vigilancia ni resolver lo que la otra persona necesita aprender?',
-    action: 'Preguntar qué apoyo se necesita antes de ofrecer una solución.',
-    icon: HandHeart,
-  },
-  {
-    title: 'El territorio también enseña',
-    audience: 'Comunidad educativa',
-    question: '¿Qué saberes de la comunidad quedan fuera cuando el aula solo reconoce lo que viene escrito?',
-    action: 'Recuperar una voz, práctica o memoria local y relacionarla con una pregunta escolar.',
-    icon: Map,
-  },
-  {
-    title: 'Atención en tiempos de prisa',
-    audience: 'Vida cotidiana',
-    question: '¿Estamos eligiendo a qué atender o solo respondiendo a todo lo que reclama nuestra mirada?',
-    action: 'Hacer una pausa breve sin pantalla y registrar qué pensamiento vuelve cuando baja el ruido.',
+    title: 'Conciencia crítica',
+    intro: 'Detener la respuesta automática para reconocer supuestos, relaciones de poder, condiciones históricas y voces ausentes.',
     icon: Eye,
+    headingClass: 'text-[#8f3f32]',
+    accentClass: 'border-[#a84e32]/35 bg-[#fff7f1]',
+    badgeClass: 'bg-[#a84e32] text-cream',
+    resonances: [
+      {
+        title: 'Lo normal también fue aprendido',
+        text: 'Muchas prácticas escolares parecen naturales porque las hemos repetido durante años. Mirarlas críticamente no significa negar todo lo anterior, sino preguntar a quién beneficia, a quién limita y qué otras posibilidades quedaron sin nombrar.',
+        question: '¿Qué práctica seguimos repitiendo porque “siempre se ha hecho así” y qué ocurriría si escucháramos a quienes la viven de otra manera?',
+        lens: 'Distingue hechos, costumbres, interpretaciones e intereses. Observa qué voces sostienen la práctica y cuáles permanecen fuera.',
+        practice: 'Elige una regla o rutina. Escribe qué busca cuidar, qué efecto produce y qué cambio pequeño podría conservar su sentido sin dañar la dignidad.',
+        href: '/manifiesto',
+        linkLabel: 'Continuar en el Manifiesto',
+      },
+      {
+        title: 'Cuando el cansancio se vuelve privado',
+        text: 'El agotamiento docente suele narrarse como falta individual de organización o fortaleza. Sin embargo, también guarda relación con cargas invisibles, exigencias contradictorias y responsabilidades que la comunidad no siempre distribuye.',
+        question: '¿Qué parte de mi cansancio me corresponde cuidar y qué parte necesita ser nombrada, compartida o transformada colectivamente?',
+        lens: 'Evita convertir un problema relacional o institucional en culpa personal. Reconoce cargas, tiempos, apoyos y silencios.',
+        practice: 'Haz dos columnas: “puedo decidir” y “necesitamos acordar”. Elige una carga de la segunda columna para conversar con alguien.',
+        href: '/escuela',
+        linkLabel: 'Llevarla a Escuela Ecos',
+      },
+    ],
   },
   {
-    title: 'Evaluar sin reducir a una persona',
-    audience: 'Aula y acompañamiento',
-    question: '¿Qué aprende alguien sobre sí mismo cuando solo recibe una calificación y no una lectura de su proceso?',
-    action: 'Nombrar un avance, una dificultad concreta y un siguiente paso posible.',
-    icon: CheckCircle2,
+    title: 'Pedagogía del sujeto',
+    intro: 'Reconocer a cada persona como presencia, historia, saber y posibilidad; nunca como calificación, problema o recipiente vacío.',
+    icon: UserRound,
+    headingClass: 'text-[#315f4b]',
+    accentClass: 'border-[#315f4b]/30 bg-[#f3f8f3]',
+    badgeClass: 'bg-[#315f4b] text-cream',
+    resonances: [
+      {
+        title: 'La voz joven no es ruido',
+        text: 'Una persona joven no comienza a ser sujeto cuando aprende a expresarse como espera el mundo adulto. Ya trae preguntas, lenguajes, contradicciones y formas de comprender que necesitan interlocución, no permiso para existir.',
+        question: '¿Qué cambia cuando alguien puede explicar lo que piensa sin tener que defender primero su derecho a hablar?',
+        lens: 'Observa si escuchas para comprender o solamente para corregir. Distingue desacuerdo, irreverencia, búsqueda de autonomía y necesidad de cuidado.',
+        practice: 'Abre un turno de palabra sin interrupciones. Devuelve lo que comprendiste mediante una pregunta antes de emitir un juicio o consejo.',
+        href: '/jovenes',
+        linkLabel: 'Continuar en Jóvenes',
+      },
+      {
+        title: 'Evaluar sin reducir a una persona',
+        text: 'Una evidencia habla de un momento del proceso, no de la totalidad de quien aprende. Cuando la evaluación se vuelve identidad, la posibilidad de mejorar queda atrapada en etiquetas como “puede”, “no puede” o “no se esfuerza”.',
+        question: '¿Qué aprende alguien sobre sí mismo cuando solo recibe una calificación y no una lectura cuidadosa de su proceso?',
+        lens: 'Separa persona, evidencia, contexto y criterio. Pregunta qué muestra el trabajo, qué todavía no permite ver y qué apoyo haría posible avanzar.',
+        practice: 'Sustituye una etiqueta por tres frases: un avance observable, una dificultad concreta y un siguiente paso alcanzable.',
+        href: '/recursos/caracoles-resonando',
+        linkLabel: 'Ver evaluación formativa en Caracoles',
+      },
+    ],
+  },
+  {
+    title: 'Vida cotidiana',
+    intro: 'Partir de lo que ocurre en el aula, la casa y la comunidad para relacionar conocimiento, afectos, decisiones y experiencia.',
+    icon: Home,
+    headingClass: 'text-[#78553d]',
+    accentClass: 'border-[#9a7656]/30 bg-[#fffaf0]',
+    badgeClass: 'bg-[#8f694b] text-cream',
+    resonances: [
+      {
+        title: 'El territorio también enseña',
+        text: 'La comunidad contiene saberes que no siempre llegan al cuaderno: formas de cultivar, construir, narrar, cuidar, resistir y resolver. Reconocerlos no reemplaza el conocimiento escolar; amplía las relaciones desde las cuales puede comprenderse.',
+        question: '¿Qué saber de nuestra comunidad queda fuera cuando el aula solo reconoce aquello que viene escrito?',
+        lens: 'Relaciona fuente, experiencia, lenguaje y contexto. Evita idealizar la tradición: también puede examinarse, contrastarse y transformarse.',
+        practice: 'Recupera una voz, práctica o memoria local y formula una pregunta que permita ponerla en diálogo con un contenido escolar.',
+        href: '/escuela',
+        linkLabel: 'Explorar la práctica docente',
+      },
+      {
+        title: 'Atención en tiempos de prisa',
+        text: 'Atender no es solamente permanecer quietos. La atención se construye cuando algo encuentra sentido, cuando el cuerpo puede estar presente y cuando las demandas dejan de competir durante un momento.',
+        question: '¿Estamos eligiendo a qué atender o solo respondiendo a todo lo que reclama nuestra mirada?',
+        lens: 'Reconoce ritmos, estímulos, cansancio, deseo y propósito. No conviertas toda distracción en falta de voluntad.',
+        practice: 'Haz una pausa breve sin pantalla. Registra qué pensamiento vuelve cuando baja el ruido y decide a qué merece la pena regresar.',
+        href: '/cognitologia',
+        linkLabel: 'Abrir la brújula cognitológica',
+      },
+    ],
+  },
+  {
+    title: 'Comunidad y esperanza',
+    intro: 'Pasar de la comprensión aislada al cuidado mutuo, la responsabilidad compartida y una acción pequeña que abra posibilidad.',
+    icon: HandHeart,
+    headingClass: 'text-[#7e5631]',
+    accentClass: 'border-gold/40 bg-[#fff8e8]',
+    badgeClass: 'bg-gold text-ink',
+    resonances: [
+      {
+        title: 'Acompañar sin ocupar el lugar del otro',
+        text: 'Acompañar no consiste en evitar toda dificultad ni anticipar cada decisión. Es estar disponibles sin retirar a la otra persona la oportunidad de comprender, elegir, equivocarse y construir una voz propia.',
+        question: '¿Cómo estar cerca sin convertir el cuidado en vigilancia ni resolver lo que la otra persona necesita aprender?',
+        lens: 'Distingue presencia, control, ayuda y sustitución. Pregunta qué apoyo fue solicitado y cuál responde más a tu propio temor.',
+        practice: 'Antes de ofrecer una solución, pregunta: “¿Qué necesitas comprender y qué apoyo sí te ayudaría en este momento?”.',
+        href: '/familias',
+        linkLabel: 'Continuar en Familias',
+      },
+      {
+        title: 'La esperanza necesita una acción',
+        text: 'La esperanza pedagógica no niega el conflicto ni promete resultados inmediatos. Reconoce límites, reúne capacidades y construye un siguiente paso digno que pueda revisarse junto con otras personas.',
+        question: '¿Qué posibilidad pequeña sigue abierta incluso cuando no podemos resolver todo el problema?',
+        lens: 'Distingue deseo, promesa y posibilidad real. Reconoce recursos, alianzas, responsabilidades y consecuencias.',
+        practice: 'Formula una acción que pueda realizarse, compartirse y revisarse. Define quién participa, cuándo comienza y cómo sabrán qué produjo.',
+        href: '/proyectos',
+        linkLabel: 'Convertirla en proyecto',
+      },
+    ],
   },
 ];
 
@@ -1775,11 +1844,11 @@ function Resonances({ isPage = false }) {
               <h2 className="section-title">Palabra escrita para volver a mirar.</h2>
             )}
             <p className="mt-5 max-w-2xl leading-8 text-earth">
-              Reflexiones escritas para mirar la vida cotidiana, la espiritualidad, la educación y la conciencia desde una palabra amorosa, crítica y emancipadora.
+              Reflexiones para fortalecer la visión pedagógica desde cuatro raíces: conciencia crítica, pedagogía del sujeto, vida cotidiana, comunidad y esperanza.
             </p>
           </div>
-          <div className="grid gap-3 sm:grid-cols-3">
-            {resonanceCards.map(({ title, text, icon: Icon }) => (
+          <div className="grid gap-3 sm:grid-cols-2">
+            {resonanceCards.map(({ title, text, icon: Icon }, index) => (
               <article key={title} className="compact-card flex min-h-full flex-col">
                 <div className="rounded-[1.2rem] bg-forest p-5 text-cream">
                   <Icon className="text-gold" size={27} aria-hidden="true" />
@@ -1787,8 +1856,8 @@ function Resonances({ isPage = false }) {
                 </div>
                 <h3 className="mt-5 font-serif text-2xl leading-tight text-forest">{title}</h3>
                 <p className="mt-3 leading-7 text-earth">{text}</p>
-                <a className="mt-auto inline-flex items-center gap-2 pt-5 text-sm font-semibold text-forest" href="/resonancias">
-                  Leer esta ruta
+                <a className="mt-auto inline-flex items-center gap-2 pt-5 text-sm font-semibold text-forest" href={isPage ? `#resonancia-pilar-${index + 1}` : '/resonancias'}>
+                  {isPage ? 'Entrar a este pilar' : 'Leer esta ruta'}
                   <ArrowUpRight size={16} aria-hidden="true" />
                 </a>
               </article>
@@ -1827,62 +1896,49 @@ function Resonances({ isPage = false }) {
               ))}
             </div>
 
-            <div className="lg:col-span-2 rounded-[1.5rem] border border-earth/15 bg-cream p-5 shadow-soft sm:p-7">
-              <p className="section-kicker text-terracotta">Semillas de resonancia</p>
-              <h2 className="mt-3 font-serif text-3xl leading-tight text-forest">
-                Preguntas breves para no salir igual de una lectura.
-              </h2>
-              <div className="mt-5 grid gap-3 md:grid-cols-3">
-                {resonanceSeeds.map(([title, text]) => (
-                  <article key={title} className="rounded-[1.2rem] border border-earth/15 bg-white/75 p-5">
-                    <h3 className="font-serif text-2xl leading-tight text-forest">{title}</h3>
-                    <p className="mt-3 text-sm leading-7 text-earth">{text}</p>
-                  </article>
-                ))}
+            <div className="lg:col-span-2 space-y-8">
+              <div className="max-w-4xl">
+                <p className="section-kicker text-terracotta">Cuatro pilares que se vuelven palabra</p>
+                <h2 className="mt-3 font-serif text-4xl leading-tight text-forest sm:text-5xl">Lee para fortalecer tu visión pedagógica y madurar una idea.</h2>
+                <p className="mt-4 leading-8 text-earth">Cada territorio contiene dos resonancias. No buscan cerrar una explicación, sino ayudarte a reconocer relaciones, formar criterio y encontrar una acción posible.</p>
               </div>
-              <div className="mt-5 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
-                <a className="btn-primary" href="/cognitologia">
-                  Comprender la Cognitología
-                  <ArrowUpRight size={17} aria-hidden="true" />
-                </a>
-                <a className="btn-secondary" href="/recursos">
-                  Buscar un recurso para actuar
-                  <ArrowUpRight size={17} aria-hidden="true" />
-                </a>
-              </div>
-            </div>
 
-            <div className="lg:col-span-2">
-              <div className="max-w-3xl">
-                <p className="section-kicker text-terracotta">Ecos para pensar la vida</p>
-                <h2 className="mt-3 font-serif text-3xl leading-tight text-forest sm:text-5xl">
-                  Temas que no piden respuestas rápidas, sino una mirada más despierta.
-                </h2>
-                <p className="mt-4 leading-8 text-earth">
-                  Cada entrada parte de una experiencia cotidiana y abre una pregunta para reconocer relaciones,
-                  criterios y posibilidades de acción. Puedes elegir una, conversar sobre ella o llevarla a tu bitácora.
-                </p>
-              </div>
-              <div className="mt-6 grid gap-4 md:grid-cols-2 xl:grid-cols-3">
-                {resonanceThemes.map(({ title, audience, question, action, icon: Icon }) => (
-                  <article key={title} className="flex min-h-full flex-col rounded-[1.35rem] border border-earth/15 bg-white/70 p-5 shadow-soft sm:p-6">
-                    <div className="flex items-start justify-between gap-4">
-                      <span className="inline-flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-forest text-gold">
-                        <Icon size={22} aria-hidden="true" />
-                      </span>
-                      <span className="rounded-full border border-gold/35 px-3 py-1 text-xs font-bold uppercase text-earth">
-                        {audience}
-                      </span>
+              {resonancePillarTerritories.map(({ title, intro, icon: Icon, headingClass, accentClass, badgeClass, resonances }, pillarIndex) => (
+                <section key={title} id={`resonancia-pilar-${pillarIndex + 1}`} className={`scroll-mt-28 rounded-[1.6rem] border p-5 shadow-soft sm:p-8 ${accentClass}`}>
+                  <div className="grid gap-5 lg:grid-cols-[0.35fr_1.65fr] lg:items-start">
+                    <div>
+                      <span className={`flex size-12 items-center justify-center rounded-full ${badgeClass}`}><Icon size={24} aria-hidden="true" /></span>
+                      <p className="mt-5 text-xs font-black uppercase tracking-[0.16em] text-earth">Pilar {pillarIndex + 1}</p>
+                      <h3 className={`mt-2 font-serif text-3xl leading-tight sm:text-4xl ${headingClass}`}>{title}</h3>
+                      <p className="mt-4 text-sm leading-7 text-earth">{intro}</p>
                     </div>
-                    <h3 className="mt-5 font-serif text-2xl leading-tight text-forest">{title}</h3>
-                    <p className="mt-4 font-serif text-xl leading-8 text-terracotta">{question}</p>
-                    <div className="mt-auto border-t border-earth/10 pt-4">
-                      <p className="text-xs font-black uppercase tracking-widest text-forest">Una acción posible</p>
-                      <p className="mt-2 text-sm leading-7 text-earth">{action}</p>
+                    <div className="grid gap-4 xl:grid-cols-2">
+                      {resonances.map(({ title: resonanceTitle, text, question, lens, practice, href, linkLabel }, resonanceIndex) => (
+                        <article key={resonanceTitle} className="flex min-h-full flex-col rounded-[1.3rem] border border-earth/15 bg-white/85 p-5 sm:p-6">
+                          <p className="text-xs font-black uppercase tracking-[0.14em] text-terracotta">Resonancia {pillarIndex + 1}.{resonanceIndex + 1}</p>
+                          <h4 className="mt-3 font-serif text-3xl leading-tight text-forest">{resonanceTitle}</h4>
+                          <p className="mt-4 leading-7 text-earth">{text}</p>
+                          <div className="mt-5 border-l-2 border-gold pl-4">
+                            <p className="text-xs font-black uppercase tracking-widest text-forest">Pregunta fundante</p>
+                            <p className="mt-2 font-serif text-xl leading-8 text-terracotta">{question}</p>
+                          </div>
+                          <div className="mt-5 grid gap-3 sm:grid-cols-2 xl:grid-cols-1 2xl:grid-cols-2">
+                            <div className="rounded-2xl bg-clay/55 p-4">
+                              <p className="text-xs font-black uppercase tracking-widest text-forest">Mirada cognitológica</p>
+                              <p className="mt-2 text-sm leading-6 text-earth">{lens}</p>
+                            </div>
+                            <div className="rounded-2xl bg-gold/10 p-4">
+                              <p className="text-xs font-black uppercase tracking-widest text-forest">Práctica breve</p>
+                              <p className="mt-2 text-sm leading-6 text-earth">{practice}</p>
+                            </div>
+                          </div>
+                          <a className="mt-auto inline-flex min-h-11 items-center gap-2 pt-5 font-bold text-forest" href={href}>{linkLabel} <ArrowUpRight size={16} aria-hidden="true" /></a>
+                        </article>
+                      ))}
                     </div>
-                  </article>
-                ))}
-              </div>
+                  </div>
+                </section>
+              ))}
             </div>
 
             <article className="lg:col-span-2 overflow-hidden rounded-[1.5rem] border border-cream/15 bg-forest text-cream shadow-soft">
