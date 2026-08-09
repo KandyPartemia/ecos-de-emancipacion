@@ -8,6 +8,8 @@ import {
   BookOpenText,
   Brain,
   CheckCircle2,
+  ChevronLeft,
+  ChevronRight,
   CircleDot,
   Compass,
   DoorOpen,
@@ -60,6 +62,48 @@ const IMAGES = {
   map: '/images/ecos-universo-mapa-cognitologia.png',
 };
 
+const publications = [
+  {
+    id: 'casa-aprende',
+    line: 'Cognitología para madres y familias',
+    title: 'Una casa que aprende',
+    subtitle: 'Acompañar sin vigilar, cuidar sin sustituir',
+    description:
+      'Un ensayo para pensar el hogar como un espacio de aprendizaje, cuidado y autonomía, sin reemplazar la voz de quienes crecen.',
+    audience: 'Madres, padres, familias y personas acompañantes',
+    image: '/images/publicaciones/una-casa-que-aprende.jpg',
+    route: '/familias',
+    routeLabel: 'Explorar la ruta para familias',
+    availability: 'Consulta disponibilidad',
+  },
+  {
+    id: 'escuela-pregunta',
+    line: 'Cognitología para quienes enseñan',
+    title: 'La escuela como pregunta',
+    subtitle: 'Criterios de pensamiento, autonomía y resonancia para quienes enseñan',
+    description:
+      'Un ensayo pedagógico para volver a mirar el aula, las decisiones docentes y las preguntas que forman criterio.',
+    audience: 'Maestras, maestros y comunidades educativas',
+    image: '/images/publicaciones/la-escuela-como-pregunta.jpg',
+    route: '/escuela',
+    routeLabel: 'Explorar Escuela Ecos',
+    availability: 'Consulta disponibilidad',
+  },
+  {
+    id: 'archivos-ollin',
+    line: 'Narrativa para adolescentes',
+    title: 'La señal de las preguntas perdidas',
+    subtitle: 'Los archivos de Ollin, Tomo I',
+    description:
+      'Una historia para jóvenes donde las preguntas, la amistad y el misterio abren caminos para pensar el mundo y el lugar propio.',
+    audience: 'Adolescentes, jóvenes, familias y mediadores de lectura',
+    image: '/images/publicaciones/la-senal-de-las-preguntas-perdidas.jpg',
+    route: '/jovenes',
+    routeLabel: 'Explorar la ruta para jóvenes',
+    availability: 'Disponible',
+  },
+];
+
 const navItems = [
   { label: 'Inicio', href: '/#inicio' },
   { label: 'Manifiesto', href: '/manifiesto' },
@@ -69,7 +113,7 @@ const navItems = [
   { label: 'Escuela', href: '/escuela' },
   { label: 'Recursos', href: '/recursos' },
   { label: 'Universo musical', href: '/universo-musical' },
-  { label: 'Tienda', href: '/tienda' },
+  { label: 'Publicaciones', href: '/publicaciones' },
   { label: 'Empieza Aquí', href: '/empieza-aqui', cta: true },
 ];
 
@@ -84,7 +128,7 @@ const quickLinks = [
   { title: 'Escuela', href: '/escuela', icon: School },
   { title: 'Recursos', href: '/recursos', icon: NotebookTabs },
   { title: 'Universo musical', href: '/universo-musical', icon: Music },
-  { title: 'Tienda', href: '/tienda', icon: ShoppingBag },
+  { title: 'Publicaciones', href: '/publicaciones', icon: BookOpenText },
   { title: 'Empieza Aquí', href: '/empieza-aqui', icon: DoorOpen },
 ];
 
@@ -276,6 +320,10 @@ const manifestoConvictions = [
 ];
 
 const siteSearchItems = [
+  { title: 'Publicaciones de Ecos', description: 'Ensayos de Cognitología y narrativa para adolescentes.', href: '/publicaciones', keywords: 'libros publicaciones comprar precio casa aprende escuela pregunta archivos ollin saga adolescentes' },
+  { title: 'Una casa que aprende', description: 'Ensayo para madres y familias: acompañar sin vigilar, cuidar sin sustituir.', href: '/publicaciones#casa-aprende', keywords: 'libro madres padres familias casa aprende precio' },
+  { title: 'La escuela como pregunta', description: 'Ensayo pedagógico sobre criterios de pensamiento, autonomía y resonancia.', href: '/publicaciones#escuela-pregunta', keywords: 'libro docentes escuela pregunta cognitología precio' },
+  { title: 'La señal de las preguntas perdidas', description: 'Tomo I de Los archivos de Ollin, saga para adolescentes.', href: '/publicaciones#archivos-ollin', keywords: 'libro saga adolescentes ollin preguntas perdidas precio' },
   { title: 'Empieza aquí', description: 'Orientación inicial para elegir una ruta según lo que necesitas.', href: '/empieza-aqui', keywords: 'inicio comenzar ruta ayuda docente familia joven' },
   { title: 'Caracoles Resonando', description: 'Planeación, ficha curricular, mapa mental y autoevaluación de Proyectos Académicos.', href: '/recursos/caracoles-resonando', keywords: 'pa telesecundaria proyecto académico planeación evaluación mapa mental docente estudiante' },
   { title: 'Cognitología', description: 'Fundamento para formar criterios de pensamiento desde la vida cotidiana.', href: '/cognitologia', keywords: 'conciencia criterio pensamiento vida cotidiana fundamento' },
@@ -1334,6 +1382,11 @@ const ROUTE_METADATA = {
     description:
       'Entrada a recursos, cuadernos, materiales digitales y herramientas pedagógicas del universo Ecos de Emancipación.',
   },
+  '/publicaciones': {
+    title: 'Publicaciones | Ecos de Emancipación',
+    description:
+      'Conoce las líneas editoriales de Ecos de Emancipación: Cognitología para familias, pensamiento pedagógico y narrativa para adolescentes.',
+  },
   '/familias': {
     title: 'Familias | Ecos de Emancipación',
     description:
@@ -1531,6 +1584,14 @@ function App() {
     );
   }
 
+  if (currentPath === '/publicaciones') {
+    return (
+      <SiteRoute>
+        <Publications />
+      </SiteRoute>
+    );
+  }
+
   if (currentPath === '/familias') {
     return (
       <SiteRoute>
@@ -1571,6 +1632,7 @@ function App() {
         <Pillars />
         <SchoolSection />
         <Projects />
+        <PublicationsSpotlight />
         <Resources />
         <Store />
         <MusicUniverse />
@@ -2934,6 +2996,215 @@ function ResourcesPage() {
 
       </div>
     </section>
+  );
+}
+
+function PublicationsSpotlight() {
+  return (
+    <section className="section-pad bg-forest text-cream" aria-labelledby="publicaciones-inicio-titulo">
+      <div className="mx-auto max-w-7xl">
+        <div className="grid gap-8 lg:grid-cols-[0.85fr_1.15fr] lg:items-center">
+          <div>
+            <p className="section-kicker text-gold">Publicaciones de Ecos</p>
+            <h2 id="publicaciones-inicio-titulo" className="section-title text-cream">
+              Tres líneas editoriales para pensar, acompañar y preguntar.
+            </h2>
+            <p className="mt-5 max-w-2xl leading-8 text-cream/80">
+              Conoce los ensayos de Cognitología para familias y docentes, y el primer tomo de una saga creada para
+              adolescentes que todavía confían en el poder de una buena pregunta.
+            </p>
+            <a className="btn-gold mt-7" href="/publicaciones">
+              Ver publicaciones
+              <BookOpenText size={18} aria-hidden="true" />
+            </a>
+          </div>
+
+          <div className="grid grid-cols-3 items-end gap-2 sm:gap-4" aria-label="Portadas de publicaciones de Ecos">
+            {publications.map(({ title, image }, index) => (
+              <a
+                key={title}
+                href={`/publicaciones#${publications[index].id}`}
+                className={`block overflow-hidden rounded-md border border-cream/20 bg-cream shadow-soft transition hover:-translate-y-1 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-gold ${index === 1 ? 'mb-5' : ''}`}
+                aria-label={`Conocer ${title}`}
+              >
+                <img src={image} alt={`Portada de ${title}`} className="h-auto w-full object-contain" loading="lazy" />
+              </a>
+            ))}
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+function Publications() {
+  const [activeIndex, setActiveIndex] = useState(0);
+  const activePublication = publications[activeIndex];
+
+  const showPrevious = () => {
+    setActiveIndex((current) => (current - 1 + publications.length) % publications.length);
+  };
+
+  const showNext = () => {
+    setActiveIndex((current) => (current + 1) % publications.length);
+  };
+
+  return (
+    <>
+      <section className="section-pad bg-forest text-cream">
+        <div className="mx-auto max-w-7xl">
+          <p className="section-kicker text-gold">Casa editorial Ecos de Emancipación</p>
+          <h1 className="mt-4 max-w-5xl font-serif text-5xl leading-[1.04] sm:text-6xl lg:text-7xl">
+            Libros para acompañar la vida, la escuela y las preguntas jóvenes.
+          </h1>
+          <p className="mt-6 max-w-3xl text-lg leading-8 text-cream/80">
+            Cada línea editorial nace de una misma convicción: pensar con autonomía también se aprende cuando una
+            pregunta encuentra cuidado, lenguaje y tiempo para madurar.
+          </p>
+        </div>
+      </section>
+
+      <section className="section-pad bg-clay" aria-labelledby="visor-publicaciones-titulo">
+        <div className="mx-auto max-w-7xl">
+          <div className="mb-7 flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
+            <div>
+              <p className="section-kicker text-terracotta">Visor de portadas</p>
+              <h2 id="visor-publicaciones-titulo" className="mt-3 font-serif text-4xl leading-tight text-forest sm:text-5xl">
+                Conoce las tres obras.
+              </h2>
+            </div>
+            <p className="max-w-xl leading-7 text-earth">Selecciona una portada para conocer su línea editorial y solicitar información directa.</p>
+          </div>
+
+          <div className="grid gap-8 lg:grid-cols-[minmax(17rem,0.72fr)_1.28fr] lg:items-center">
+            <div className="relative mx-auto w-full max-w-[25rem]">
+              <img
+                src={activePublication.image}
+                alt={`Portada de ${activePublication.title}`}
+                className="h-auto max-h-[42rem] w-full rounded-md object-contain shadow-soft"
+              />
+              <button
+                type="button"
+                onClick={showPrevious}
+                className="absolute left-2 top-1/2 flex h-11 w-11 -translate-y-1/2 items-center justify-center rounded-full bg-forest text-cream shadow-soft focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold"
+                aria-label="Ver portada anterior"
+              >
+                <ChevronLeft size={22} aria-hidden="true" />
+              </button>
+              <button
+                type="button"
+                onClick={showNext}
+                className="absolute right-2 top-1/2 flex h-11 w-11 -translate-y-1/2 items-center justify-center rounded-full bg-forest text-cream shadow-soft focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold"
+                aria-label="Ver portada siguiente"
+              >
+                <ChevronRight size={22} aria-hidden="true" />
+              </button>
+            </div>
+
+            <div className="min-w-0">
+              <span className="inline-flex rounded-full border border-gold/45 bg-gold/15 px-4 py-2 text-xs font-black uppercase tracking-[0.16em] text-forest">
+                {activePublication.availability}
+              </span>
+              <p className="mt-5 text-sm font-black uppercase tracking-[0.16em] text-terracotta">{activePublication.line}</p>
+              <h3 className="mt-3 break-words font-serif text-4xl leading-tight text-forest sm:text-6xl">{activePublication.title}</h3>
+              <p className="mt-4 font-serif text-2xl leading-9 text-earth">{activePublication.subtitle}</p>
+              <p className="mt-5 max-w-3xl leading-8 text-earth">{activePublication.description}</p>
+              <p className="mt-4 text-sm font-semibold leading-7 text-forest">Para: {activePublication.audience}</p>
+              <div className="mt-7 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
+                <ExternalLink
+                  className="btn-primary"
+                  href={LINKS.whatsapp}
+                  label={`Solicitar información y precio de ${activePublication.title} por WhatsApp`}
+                >
+                  Información y precio
+                  <MessageCircle size={18} aria-hidden="true" />
+                </ExternalLink>
+                <a className="btn-secondary" href={activePublication.route}>
+                  {activePublication.routeLabel}
+                  <ArrowUpRight size={18} aria-hidden="true" />
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div className="mt-8 grid grid-cols-3 gap-2 sm:gap-4">
+            {publications.map((publication, index) => (
+              <button
+                key={publication.id}
+                type="button"
+                onClick={() => setActiveIndex(index)}
+                className={`rounded-md border p-1.5 text-left transition focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-forest sm:p-2 ${activeIndex === index ? 'border-forest bg-white shadow-soft' : 'border-earth/15 bg-white/55'}`}
+                aria-label={`Mostrar portada de ${publication.title}`}
+                aria-pressed={activeIndex === index}
+              >
+                <img src={publication.image} alt="" className="mx-auto h-24 w-auto max-w-full object-contain sm:h-40" loading="lazy" />
+                <span className="mt-2 hidden text-center text-sm font-bold leading-5 text-forest sm:block">{publication.title}</span>
+              </button>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="section-pad bg-cream" aria-labelledby="lineas-editoriales-titulo">
+        <div className="mx-auto max-w-7xl">
+          <p className="section-kicker text-terracotta">Líneas editoriales</p>
+          <h2 id="lineas-editoriales-titulo" className="mt-3 max-w-4xl font-serif text-4xl leading-tight text-forest sm:text-5xl">
+            Una obra distinta para cada conversación necesaria.
+          </h2>
+          <div className="mt-8 grid gap-6 lg:grid-cols-3">
+            {publications.map(({ id, line, title, subtitle, description, audience, image }) => (
+              <article id={id} key={id} className="scroll-mt-28 overflow-hidden rounded-md border border-earth/15 bg-white shadow-soft">
+                <img src={image} alt={`Portada de ${title}`} className="h-auto max-h-[34rem] w-full object-contain" loading="lazy" />
+                <div className="p-6 sm:p-7">
+                  <p className="text-xs font-black uppercase tracking-[0.16em] text-terracotta">{line}</p>
+                  <h3 className="mt-4 break-words font-serif text-3xl leading-tight text-forest">{title}</h3>
+                  <p className="mt-3 font-semibold leading-7 text-earth">{subtitle}</p>
+                  <p className="mt-4 leading-7 text-earth">{description}</p>
+                  <p className="mt-4 text-sm leading-7 text-forest"><strong>Lectores:</strong> {audience}</p>
+                  <ExternalLink
+                    className="btn-primary mt-6 w-full justify-center"
+                    href={LINKS.whatsapp}
+                    label={`Pedir informes y precio de ${title} por WhatsApp`}
+                  >
+                    Pedir informes y precio
+                    <MessageCircle size={18} aria-hidden="true" />
+                  </ExternalLink>
+                </div>
+              </article>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="section-pad bg-[#071f35] text-cream">
+        <div className="mx-auto grid max-w-7xl gap-8 lg:grid-cols-[1.05fr_0.95fr] lg:items-center">
+          <figure className="overflow-hidden rounded-md border border-cream/15 bg-black/10 shadow-soft">
+            <img
+              src="/images/publicaciones/la-senal-de-las-preguntas-perdidas-promocional.jpg"
+              alt="Dos jóvenes leen La señal de las preguntas perdidas junto a un radio, bajo el lema Sigue la señal"
+              className="h-auto w-full object-contain"
+              loading="lazy"
+            />
+          </figure>
+          <div>
+            <p className="section-kicker text-gold">Los archivos de Ollin</p>
+            <h2 className="mt-3 font-serif text-4xl leading-tight sm:text-6xl">Sigue la señal. La primera pregunta ya está esperando.</h2>
+            <p className="mt-5 max-w-2xl leading-8 text-cream/80">
+              El Tomo I de la saga para adolescentes ya está disponible. Solicita información sobre formato, precio y
+              forma de entrega directamente por WhatsApp.
+            </p>
+            <ExternalLink
+              className="btn-gold mt-7"
+              href={LINKS.whatsapp}
+              label="Solicitar información y precio del Tomo I de Los archivos de Ollin por WhatsApp"
+            >
+              Consultar el Tomo I
+              <MessageCircle size={18} aria-hidden="true" />
+            </ExternalLink>
+          </div>
+        </div>
+      </section>
+    </>
   );
 }
 
