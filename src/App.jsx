@@ -64,42 +64,54 @@ const IMAGES = {
 
 const publications = [
   {
-    id: 'casa-aprende',
-    line: 'Cognitología para madres y familias',
-    title: 'Una casa que aprende',
-    subtitle: 'Acompañar sin vigilar, cuidar sin sustituir',
+    id: 'cognitologia-familias',
+    legacyId: 'casa-aprende',
+    line: 'Colección Cognitología',
+    title: 'Cognitología para familias',
+    subtitle: 'Una pedagogía del vínculo para acompañar la vida cotidiana',
+    author: 'Kandy Partemia González Torreblanca',
+    category: 'Ensayo pedagógico para familias y personas cuidadoras',
     description:
-      'Un ensayo para pensar el hogar como un espacio de aprendizaje, cuidado y autonomía, sin reemplazar la voz de quienes crecen.',
-    audience: 'Madres, padres, familias y personas acompañantes',
-    image: '/images/publicaciones/una-casa-que-aprende.jpg',
-    route: '/familias',
-    routeLabel: 'Explorar la ruta para familias',
-    availability: 'Consulta disponibilidad',
+      'Una invitación a acompañar a niñas, niños y adolescentes desde el vínculo, la escucha, los límites y la construcción de criterio.',
+    promotionalDescription:
+      'Entre el deseo de proteger y la necesidad de permitir que niñas, niños y adolescentes construyan su propio criterio, la vida familiar está llena de decisiones sin respuestas perfectas. Este ensayo propone comprender el acompañamiento como una práctica de vínculo, escucha, límites y pensamiento compartido. No es un recetario para familias ideales, sino una invitación a sostener conversaciones difíciles y construir acuerdos respetuosos de la dignidad, la autonomía y la vida en común.',
+    audience: 'Familias y personas cuidadoras',
+    image: '/images/publicaciones/cognitologia-familias-portada.png',
+    webImage: '/images/publicaciones/cognitologia-familias-portada.webp',
+    alt: 'Portada de Cognitología para familias, de Kandy Partemia González Torreblanca',
+    detailRoute: '/publicaciones/cognitologia-familias',
   },
   {
-    id: 'escuela-pregunta',
-    line: 'Cognitología para quienes enseñan',
-    title: 'La escuela como pregunta',
-    subtitle: 'Criterios de pensamiento, autonomía y resonancia para quienes enseñan',
+    id: 'cognitologia-docentes',
+    legacyId: 'escuela-pregunta',
+    line: 'Colección Cognitología',
+    title: 'Cognitología para docentes',
+    subtitle: 'Una pedagogía del criterio para transformar la vida cotidiana',
+    author: 'Kandy Partemia González Torreblanca',
+    category: 'Ensayo pedagógico',
     description:
-      'Un ensayo pedagógico para volver a mirar el aula, las decisiones docentes y las preguntas que forman criterio.',
-    audience: 'Maestras, maestros y comunidades educativas',
-    image: '/images/publicaciones/la-escuela-como-pregunta.jpg',
-    route: '/escuela',
-    routeLabel: 'Explorar Escuela Ecos',
-    availability: 'Consulta disponibilidad',
+      'Un ensayo pedagógico para mirar la práctica docente, formar criterios de pensamiento y transformar la vida cotidiana desde una perspectiva humana, crítica y situada.',
+    promotionalDescription:
+      'En medio de rutinas, exigencias y respuestas prefabricadas, la práctica docente puede perder su capacidad de leer la vida que ocurre frente a ella. Este libro presenta la Cognitología como una propuesta pedagógica, gnoseológica y política situada, emergente y revisable. No ofrece recetas ni promete resultados universales: invita a preguntar, contrastar, nombrar y construir formas más humanas, solidarias y justas de habitar la educación.',
+    audience: 'Docentes y comunidades educativas',
+    image: '/images/publicaciones/cognitologia-docentes-portada.png',
+    webImage: '/images/publicaciones/cognitologia-docentes-portada.webp',
+    alt: 'Portada de Cognitología para docentes, de Kandy Partemia González Torreblanca',
+    detailRoute: '/publicaciones/cognitologia-docentes',
   },
   {
     id: 'archivos-ollin',
     line: 'Narrativa para adolescentes',
     title: 'La señal de las preguntas perdidas',
     subtitle: 'Los archivos de Ollin, Tomo I',
+    author: 'Kandy Partemia González Torreblanca',
+    category: 'Narrativa para adolescentes',
     description:
       'Una historia para jóvenes donde las preguntas, la amistad y el misterio abren caminos para pensar el mundo y el lugar propio.',
     audience: 'Adolescentes, jóvenes, familias y mediadores de lectura',
     image: '/images/publicaciones/la-senal-de-las-preguntas-perdidas.jpg',
-    route: '/jovenes',
-    routeLabel: 'Explorar la ruta para jóvenes',
+    alt: 'Portada de La señal de las preguntas perdidas, Tomo I de Los archivos de Ollin',
+    detailRoute: '/publicaciones#archivos-ollin',
     availability: 'Disponible',
   },
 ];
@@ -321,8 +333,8 @@ const manifestoConvictions = [
 
 const siteSearchItems = [
   { title: 'Publicaciones de Ecos', description: 'Ensayos de Cognitología y narrativa para adolescentes.', href: '/publicaciones', keywords: 'libros publicaciones comprar precio casa aprende escuela pregunta archivos ollin saga adolescentes' },
-  { title: 'Una casa que aprende', description: 'Ensayo para madres y familias: acompañar sin vigilar, cuidar sin sustituir.', href: '/publicaciones#casa-aprende', keywords: 'libro madres padres familias casa aprende precio' },
-  { title: 'La escuela como pregunta', description: 'Ensayo pedagógico sobre criterios de pensamiento, autonomía y resonancia.', href: '/publicaciones#escuela-pregunta', keywords: 'libro docentes escuela pregunta cognitología precio' },
+  { title: 'Cognitología para familias', description: 'Una pedagogía del vínculo para acompañar la vida cotidiana.', href: '/publicaciones/cognitologia-familias', keywords: 'libro madres padres familias casa aprende vínculo cuidado criterio' },
+  { title: 'Cognitología para docentes', description: 'Una pedagogía del criterio para transformar la vida cotidiana.', href: '/publicaciones/cognitologia-docentes', keywords: 'libro docentes escuela pregunta cognitología pedagogía criterio' },
   { title: 'La señal de las preguntas perdidas', description: 'Tomo I de Los archivos de Ollin, saga para adolescentes.', href: '/publicaciones#archivos-ollin', keywords: 'libro saga adolescentes ollin preguntas perdidas precio' },
   { title: 'Empieza aquí', description: 'Orientación inicial para elegir una ruta según lo que necesitas.', href: '/empieza-aqui', keywords: 'inicio comenzar ruta ayuda docente familia joven' },
   { title: 'Caracoles Resonando', description: 'Planeación, ficha curricular, mapa mental y autoevaluación de Proyectos Académicos.', href: '/recursos/caracoles-resonando', keywords: 'pa telesecundaria proyecto académico planeación evaluación mapa mental docente estudiante' },
@@ -1387,6 +1399,30 @@ const ROUTE_METADATA = {
     description:
       'Conoce las líneas editoriales de Ecos de Emancipación: Cognitología para familias, pensamiento pedagógico y narrativa para adolescentes.',
   },
+  '/publicaciones/cognitologia-docentes': {
+    title: 'Cognitología para docentes | Ecos de Emancipación',
+    description:
+      'Una pedagogía del criterio para transformar la vida cotidiana, de Kandy Partemia González Torreblanca.',
+    image: '/images/publicaciones/cognitologia-docentes-portada.png',
+  },
+  '/publicaciones/la-escuela-como-pregunta': {
+    title: 'Cognitología para docentes | Ecos de Emancipación',
+    description:
+      'Una pedagogía del criterio para transformar la vida cotidiana, de Kandy Partemia González Torreblanca.',
+    image: '/images/publicaciones/cognitologia-docentes-portada.png',
+  },
+  '/publicaciones/cognitologia-familias': {
+    title: 'Cognitología para familias | Ecos de Emancipación',
+    description:
+      'Una pedagogía del vínculo para acompañar la vida cotidiana, de Kandy Partemia González Torreblanca.',
+    image: '/images/publicaciones/cognitologia-familias-portada.png',
+  },
+  '/publicaciones/una-casa-que-aprende': {
+    title: 'Cognitología para familias | Ecos de Emancipación',
+    description:
+      'Una pedagogía del vínculo para acompañar la vida cotidiana, de Kandy Partemia González Torreblanca.',
+    image: '/images/publicaciones/cognitologia-familias-portada.png',
+  },
   '/familias': {
     title: 'Familias | Ecos de Emancipación',
     description:
@@ -1463,6 +1499,11 @@ function App() {
     updateMetaTag('meta[property="og:title"]', 'content', metadata.title);
     updateMetaTag('meta[property="og:description"]', 'content', metadata.description);
     updateMetaTag('meta[property="og:url"]', 'content', url);
+    if (metadata.image) {
+      const imageUrl = new URL(metadata.image, 'https://ecos-de-emancipacion.vercel.app').toString();
+      updateMetaTag('meta[property="og:image"]', 'content', imageUrl);
+      updateMetaTag('meta[name="twitter:image"]', 'content', imageUrl);
+    }
   }, [currentPath]);
 
   if (currentPath === '/recursos/caracoles-resonando') {
@@ -1588,6 +1629,22 @@ function App() {
     return (
       <SiteRoute>
         <Publications />
+      </SiteRoute>
+    );
+  }
+
+  if (currentPath === '/publicaciones/cognitologia-docentes' || currentPath === '/publicaciones/la-escuela-como-pregunta') {
+    return (
+      <SiteRoute>
+        <PublicationDetail publication={publications.find(({ id }) => id === 'cognitologia-docentes')} />
+      </SiteRoute>
+    );
+  }
+
+  if (currentPath === '/publicaciones/cognitologia-familias' || currentPath === '/publicaciones/una-casa-que-aprende') {
+    return (
+      <SiteRoute>
+        <PublicationDetail publication={publications.find(({ id }) => id === 'cognitologia-familias')} />
       </SiteRoute>
     );
   }
@@ -2999,6 +3056,22 @@ function ResourcesPage() {
   );
 }
 
+function BookCover({ publication, className = '', loading = 'lazy' }) {
+  return (
+    <picture className="block">
+      {publication.webImage && <source srcSet={publication.webImage} type="image/webp" />}
+      <img
+        src={publication.image}
+        alt={publication.alt}
+        className={className}
+        loading={loading}
+        width="1024"
+        height="1536"
+      />
+    </picture>
+  );
+}
+
 function PublicationsSpotlight() {
   return (
     <section className="section-pad bg-forest text-cream" aria-labelledby="publicaciones-inicio-titulo">
@@ -3010,8 +3083,8 @@ function PublicationsSpotlight() {
               Tres líneas editoriales para pensar, acompañar y preguntar.
             </h2>
             <p className="mt-5 max-w-2xl leading-8 text-cream/80">
-              Conoce los ensayos de Cognitología para familias y docentes, y el primer tomo de una saga creada para
-              adolescentes que todavía confían en el poder de una buena pregunta.
+              Conoce la colección Cognitología para familias y docentes, junto con una línea narrativa independiente
+              para adolescentes que todavía confían en el poder de una buena pregunta.
             </p>
             <a className="btn-gold mt-7" href="/publicaciones">
               Ver publicaciones
@@ -3020,14 +3093,14 @@ function PublicationsSpotlight() {
           </div>
 
           <div className="grid grid-cols-3 items-end gap-2 sm:gap-4" aria-label="Portadas de publicaciones de Ecos">
-            {publications.map(({ title, image }, index) => (
+            {publications.map((publication, index) => (
               <a
-                key={title}
-                href={`/publicaciones#${publications[index].id}`}
+                key={publication.title}
+                href={publication.detailRoute}
                 className={`block overflow-hidden rounded-md border border-cream/20 bg-cream shadow-soft transition hover:-translate-y-1 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-gold ${index === 1 ? 'mb-5' : ''}`}
-                aria-label={`Conocer ${title}`}
+                aria-label={`Conocer ${publication.title}`}
               >
-                <img src={image} alt={`Portada de ${title}`} className="h-auto w-full object-contain" loading="lazy" />
+                <BookCover publication={publication} className="h-auto w-full object-contain" />
               </a>
             ))}
           </div>
@@ -3078,10 +3151,10 @@ function Publications() {
 
           <div className="grid gap-8 lg:grid-cols-[minmax(17rem,0.72fr)_1.28fr] lg:items-center">
             <div className="relative mx-auto w-full max-w-[25rem]">
-              <img
-                src={activePublication.image}
-                alt={`Portada de ${activePublication.title}`}
+              <BookCover
+                publication={activePublication}
                 className="h-auto max-h-[42rem] w-full rounded-md object-contain shadow-soft"
+                loading="eager"
               />
               <button
                 type="button"
@@ -3102,27 +3175,31 @@ function Publications() {
             </div>
 
             <div className="min-w-0">
-              <span className="inline-flex rounded-full border border-gold/45 bg-gold/15 px-4 py-2 text-xs font-black uppercase tracking-[0.16em] text-forest">
-                {activePublication.availability}
-              </span>
+              {activePublication.availability && (
+                <span className="inline-flex rounded-full border border-gold/45 bg-gold/15 px-4 py-2 text-xs font-black uppercase tracking-[0.16em] text-forest">
+                  {activePublication.availability}
+                </span>
+              )}
               <p className="mt-5 text-sm font-black uppercase tracking-[0.16em] text-terracotta">{activePublication.line}</p>
               <h3 className="mt-3 break-words font-serif text-4xl leading-tight text-forest sm:text-6xl">{activePublication.title}</h3>
               <p className="mt-4 font-serif text-2xl leading-9 text-earth">{activePublication.subtitle}</p>
               <p className="mt-5 max-w-3xl leading-8 text-earth">{activePublication.description}</p>
+              <p className="mt-4 text-sm font-semibold leading-7 text-earth">{activePublication.category}</p>
+              <p className="text-sm font-semibold leading-7 text-forest">{activePublication.author}</p>
               <p className="mt-4 text-sm font-semibold leading-7 text-forest">Para: {activePublication.audience}</p>
               <div className="mt-7 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
-                <ExternalLink
-                  className="btn-primary"
-                  href={LINKS.whatsapp}
-                  label={`Solicitar información y precio de ${activePublication.title} por WhatsApp`}
-                >
-                  Información y precio
-                  <MessageCircle size={18} aria-hidden="true" />
-                </ExternalLink>
-                <a className="btn-secondary" href={activePublication.route}>
-                  {activePublication.routeLabel}
+                <a className="btn-primary" href={activePublication.detailRoute}>
+                  Conocer el libro
                   <ArrowUpRight size={18} aria-hidden="true" />
                 </a>
+                <ExternalLink
+                  className="btn-secondary"
+                  href={LINKS.whatsapp}
+                  label={`Solicitar información de ${activePublication.title} por WhatsApp`}
+                >
+                  Solicitar información
+                  <MessageCircle size={18} aria-hidden="true" />
+                </ExternalLink>
               </div>
             </div>
           </div>
@@ -3137,7 +3214,7 @@ function Publications() {
                 aria-label={`Mostrar portada de ${publication.title}`}
                 aria-pressed={activeIndex === index}
               >
-                <img src={publication.image} alt="" className="mx-auto h-24 w-auto max-w-full object-contain sm:h-40" loading="lazy" />
+                <BookCover publication={{ ...publication, alt: '' }} className="mx-auto h-24 w-auto max-w-full object-contain sm:h-40" />
                 <span className="mt-2 hidden text-center text-sm font-bold leading-5 text-forest sm:block">{publication.title}</span>
               </button>
             ))}
@@ -3152,23 +3229,21 @@ function Publications() {
             Una obra distinta para cada conversación necesaria.
           </h2>
           <div className="mt-8 grid gap-6 lg:grid-cols-3">
-            {publications.map(({ id, line, title, subtitle, description, audience, image }) => (
-              <article id={id} key={id} className="scroll-mt-28 overflow-hidden rounded-md border border-earth/15 bg-white shadow-soft">
-                <img src={image} alt={`Portada de ${title}`} className="h-auto max-h-[34rem] w-full object-contain" loading="lazy" />
+            {publications.map((publication) => (
+              <article id={publication.id} key={publication.id} className="relative scroll-mt-28 overflow-hidden rounded-md border border-earth/15 bg-white shadow-soft">
+                {publication.legacyId && <span id={publication.legacyId} className="absolute top-0 scroll-mt-28" aria-hidden="true" />}
+                <BookCover publication={publication} className="h-auto max-h-[34rem] w-full object-contain" />
                 <div className="p-6 sm:p-7">
-                  <p className="text-xs font-black uppercase tracking-[0.16em] text-terracotta">{line}</p>
-                  <h3 className="mt-4 break-words font-serif text-3xl leading-tight text-forest">{title}</h3>
-                  <p className="mt-3 font-semibold leading-7 text-earth">{subtitle}</p>
-                  <p className="mt-4 leading-7 text-earth">{description}</p>
-                  <p className="mt-4 text-sm leading-7 text-forest"><strong>Lectores:</strong> {audience}</p>
-                  <ExternalLink
-                    className="btn-primary mt-6 w-full justify-center"
-                    href={LINKS.whatsapp}
-                    label={`Pedir informes y precio de ${title} por WhatsApp`}
-                  >
-                    Pedir informes y precio
-                    <MessageCircle size={18} aria-hidden="true" />
-                  </ExternalLink>
+                  <p className="text-xs font-black uppercase tracking-[0.16em] text-terracotta">{publication.line}</p>
+                  <h3 className="mt-4 break-words font-serif text-3xl leading-tight text-forest">{publication.title}</h3>
+                  <p className="mt-3 font-semibold leading-7 text-earth">{publication.subtitle}</p>
+                  <p className="mt-4 leading-7 text-earth">{publication.description}</p>
+                  <p className="mt-4 text-sm leading-7 text-forest"><strong>Autora:</strong> {publication.author}</p>
+                  <p className="text-sm leading-7 text-forest"><strong>Categoría:</strong> {publication.category}</p>
+                  <a className="btn-primary mt-6 w-full justify-center" href={publication.detailRoute}>
+                    Conocer el libro
+                    <ArrowUpRight size={18} aria-hidden="true" />
+                  </a>
                 </div>
               </article>
             ))}
@@ -3204,6 +3279,83 @@ function Publications() {
           </div>
         </div>
       </section>
+    </>
+  );
+}
+
+function PublicationDetail({ publication }) {
+  const relatedBook = publications.find(
+    ({ id }) => id !== publication.id && id.startsWith('cognitologia-'),
+  );
+
+  return (
+    <>
+      <article className="section-pad bg-cream">
+        <div className="mx-auto grid max-w-7xl gap-10 lg:grid-cols-[minmax(18rem,0.78fr)_1.22fr] lg:items-start">
+          <figure className="mx-auto w-full max-w-[29rem] overflow-hidden rounded-md border border-earth/15 bg-white shadow-soft">
+            <BookCover publication={publication} className="h-auto w-full object-contain" loading="eager" />
+          </figure>
+
+          <div className="min-w-0 lg:pt-4">
+            <a className="inline-flex min-h-11 items-center gap-2 font-bold text-forest" href="/publicaciones">
+              <ChevronLeft size={18} aria-hidden="true" />
+              Volver a publicaciones
+            </a>
+            <p className="section-kicker mt-8 text-terracotta">{publication.category}</p>
+            <h1 className="mt-4 break-words font-serif text-5xl leading-[1.03] text-forest sm:text-6xl lg:text-7xl">
+              {publication.title}
+            </h1>
+            <p className="mt-5 max-w-3xl font-serif text-2xl leading-9 text-earth sm:text-3xl">
+              {publication.subtitle}
+            </p>
+            <p className="mt-5 font-semibold text-forest">{publication.author}</p>
+            <p className="mt-7 max-w-3xl text-lg leading-8 text-earth">{publication.description}</p>
+
+            <div className="mt-8 max-w-3xl border-l-2 border-gold pl-5 sm:pl-7">
+              <p className="leading-8 text-earth">{publication.promotionalDescription}</p>
+            </div>
+
+            <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
+              <ExternalLink
+                className="btn-primary"
+                href={LINKS.whatsapp}
+                label={`Solicitar información de ${publication.title} por WhatsApp`}
+              >
+                Solicitar información
+                <MessageCircle size={18} aria-hidden="true" />
+              </ExternalLink>
+              <a className="btn-secondary" href="/cognitologia">
+                Conocer la Cognitología
+                <ArrowUpRight size={18} aria-hidden="true" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      {relatedBook && (
+        <section className="section-pad bg-clay" aria-labelledby="coleccion-relacionada-titulo">
+          <div className="mx-auto grid max-w-7xl gap-8 lg:grid-cols-[1fr_18rem] lg:items-center">
+            <div>
+              <p className="section-kicker text-terracotta">Colección Cognitología</p>
+              <h2 id="coleccion-relacionada-titulo" className="mt-3 max-w-4xl font-serif text-4xl leading-tight text-forest sm:text-5xl">
+                Dos ámbitos de la vida cotidiana, una invitación común a formar criterio.
+              </h2>
+              <p className="mt-5 max-w-3xl leading-8 text-earth">
+                La colección reúne una mirada para la práctica docente y otra para el acompañamiento familiar. Cada obra
+                tiene una voz y un ámbito propios, pero ambas reconocen la dignidad, la autonomía y el pensamiento compartido.
+              </p>
+              <a className="btn-secondary mt-7" href={relatedBook.detailRoute}>
+                Conocer {relatedBook.title}
+                <ArrowUpRight size={18} aria-hidden="true" />
+              </a>
+            </div>
+            <a href={relatedBook.detailRoute} className="mx-auto block w-full max-w-[18rem] overflow-hidden rounded-md border border-earth/15 bg-white shadow-soft" aria-label={`Conocer ${relatedBook.title}`}>
+              <BookCover publication={relatedBook} className="h-auto w-full object-contain" />
+            </a>
+          </div>
+        </section>
+      )}
     </>
   );
 }
