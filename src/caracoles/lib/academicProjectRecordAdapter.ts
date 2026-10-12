@@ -1079,6 +1079,7 @@ function inferUrlStatus(
   const normalized = normalizeKey(entry?.urlStatus || fallbackStatus || entry?.status || '');
   if (normalized.includes('active')) return 'active';
   if (normalized.includes('confirmed')) return 'confirmed';
+  if (normalized.includes('revalidated specific')) return 'confirmed';
   if (
     normalized.includes('pending') ||
     normalized.includes('review') ||

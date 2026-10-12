@@ -110,11 +110,12 @@
         "sourceValidation": {
           "sourceStatus": "linked",
           "possibilitiesPages": [
-            29
+            29,
+            30
           ],
           "possibilitiesMaterialId": "grade-1-posibilidades-pos-len-1",
           "possibilitiesColumnIndex": 1,
-          "columnEvidence": "Bloque PPA 13 Los mensajes artísticos y la vida saludable localizado en pp. 29, 30; PA 37 presente en el bloque, pero el OCR multicolumna no permite fijar columna con confianza automática."
+          "columnEvidence": "Columna 1 confirmada por geometría del PDF de Posibilidades de uso; continuidad 1 de 2 / 2 de 2 en pp. 29-30."
         },
         "finalProduct": {
           "title": "Esquema comparativo",
@@ -392,11 +393,12 @@
         "sourceValidation": {
           "sourceStatus": "linked",
           "possibilitiesPages": [
-            29
+            29,
+            30
           ],
           "possibilitiesMaterialId": "grade-1-posibilidades-pos-len-1",
           "possibilitiesColumnIndex": 2,
-          "columnEvidence": "Bloque PPA 13 Los mensajes artísticos y la vida saludable localizado en pp. 29, 30; PA 38 presente en el bloque, pero el OCR multicolumna no permite fijar columna con confianza automática."
+          "columnEvidence": "Columna 2 confirmada por geometría del PDF de Posibilidades de uso; continuidad 1 de 2 / 2 de 2 en pp. 29-30."
         },
         "finalProduct": {
           "title": "Articulo de divulgacion",
@@ -433,9 +435,28 @@
               "pagesLabel": "pp. 145-147",
               "topicTitle": "Trascendencia simbolica de la milpa en las comunidades indigenas de Mexico",
               "status": "confirmed-source"
+            },
+            {
+              "materialId": "grade-1-conceptos-lenguajes-primer-grado",
+              "label": "Lenguajes",
+              "startPage": 253,
+              "endPage": 260,
+              "pagesLabel": "pp. 253-260",
+              "topicTitle": "La tradición y comunidad en textos literarios",
+              "status": "confirmed-by-column-layout"
             }
           ],
-          "multiplesLenguajes": [],
+          "multiplesLenguajes": [
+            {
+              "materialId": "grade-1-apoyo-muiltiples-lenguajes-primer-grado",
+              "label": "Múltiples Lenguajes",
+              "startPage": 100,
+              "endPage": 107,
+              "pagesLabel": "pp. 100-107",
+              "topicTitle": "El momento imperfecto",
+              "status": "confirmed-by-column-layout"
+            }
+          ],
           "otherMaterials": [
             {
               "label": "Video PA 38: Artículo de divulgación • Lenguajes • 1er grado",
@@ -648,7 +669,7 @@
           ],
           "possibilitiesMaterialId": "grade-1-posibilidades-pos-len-1",
           "possibilitiesColumnIndex": 3,
-          "columnEvidence": "Bloque PPA 13 Los mensajes artísticos y la vida saludable localizado en pp. 29, 30; PA 39 presente en el bloque, pero el OCR multicolumna no permite fijar columna con confianza automática."
+          "columnEvidence": "Columna 3 confirmada por geometría del PDF de Posibilidades de uso; continuidad 1 de 2 / 2 de 2 en pp. 29-30."
         },
         "finalProduct": {
           "title": "Historieta corta",

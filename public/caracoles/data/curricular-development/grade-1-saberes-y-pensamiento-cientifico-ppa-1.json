@@ -109,12 +109,11 @@
         "sourceValidation": {
           "sourceStatus": "linked",
           "possibilitiesPages": [
-            6,
-            7
+            6
           ],
           "possibilitiesMaterialId": "grade-1-posibilidades-pos-sypc-1",
           "possibilitiesColumnIndex": 1,
-          "columnEvidence": "Bloque PPA 1 Un buen inicio! localizado en pp. 6-7; la columna 1 se confirma por el orden de proyectos, productos y continuidad del mismo bloque."
+          "columnEvidence": "Columna 1 confirmada por geometría del PDF de Posibilidades de uso; ficha 1 de 1 en p. 6."
         },
         "finalProduct": {
           "title": "Carteles graficos",
@@ -137,11 +136,20 @@
             {
               "materialId": "grade-1-conceptos-saberes-y-pensamiento-cientifico-primer-grado",
               "label": "Saberes y Pensamiento Cientifico",
+              "startPage": 108,
+              "endPage": 119,
+              "pagesLabel": "pp. 108-119",
+              "topicTitle": "Obtención y representación de información",
+              "status": "confirmed-by-column-layout"
+            },
+            {
+              "materialId": "grade-1-conceptos-saberes-y-pensamiento-cientifico-primer-grado",
+              "label": "Saberes y Pensamiento Cientifico",
               "startPage": 300,
-              "endPage": 302,
-              "pagesLabel": "pp. 300-302",
+              "endPage": 309,
+              "pagesLabel": "pp. 300-309",
               "topicTitle": "Sistema nervioso y endocrino / El sistema nervioso",
-              "status": "confirmed-source"
+              "status": "confirmed-by-column-layout"
             }
           ],
           "multiplesLenguajes": [],
@@ -315,12 +323,11 @@
         "sourceValidation": {
           "sourceStatus": "linked",
           "possibilitiesPages": [
-            6,
-            7
+            6
           ],
           "possibilitiesMaterialId": "grade-1-posibilidades-pos-sypc-1",
           "possibilitiesColumnIndex": 2,
-          "columnEvidence": "Bloque PPA 1 Un buen inicio! localizado en pp. 6-7; la columna 2 se confirma por el orden de proyectos, productos y continuidad del mismo bloque."
+          "columnEvidence": "Columna 2 confirmada por geometría del PDF de Posibilidades de uso; ficha 1 de 1 en p. 6."
         },
         "finalProduct": {
           "title": "Infografia combinada",
@@ -343,20 +350,20 @@
             {
               "materialId": "grade-1-conceptos-saberes-y-pensamiento-cientifico-primer-grado",
               "label": "Saberes y Pensamiento Cientifico",
-              "startPage": 300,
-              "endPage": 309,
-              "pagesLabel": "pp. 300-309",
-              "topicTitle": "Sistema nervioso y endocrino / El sistema endocrino / Hormonas",
-              "status": "confirmed-source"
-            },
-            {
-              "materialId": "grade-1-conceptos-saberes-y-pensamiento-cientifico-primer-grado",
-              "label": "Saberes y Pensamiento Cientifico",
               "startPage": 108,
               "endPage": 119,
               "pagesLabel": "pp. 108-119",
               "topicTitle": "Obtencion y representacion de informacion",
               "status": "confirmed-by-column-inference"
+            },
+            {
+              "materialId": "grade-1-conceptos-saberes-y-pensamiento-cientifico-primer-grado",
+              "label": "Saberes y Pensamiento Cientifico",
+              "startPage": 300,
+              "endPage": 309,
+              "pagesLabel": "pp. 300-309",
+              "topicTitle": "Sistema nervioso y endocrino / El sistema endocrino / Hormonas",
+              "status": "confirmed-source"
             }
           ],
           "multiplesLenguajes": [],
@@ -598,12 +605,11 @@
         "sourceValidation": {
           "sourceStatus": "linked",
           "possibilitiesPages": [
-            6,
-            7
+            6
           ],
           "possibilitiesMaterialId": "grade-1-posibilidades-pos-sypc-1",
           "possibilitiesColumnIndex": 3,
-          "columnEvidence": "Bloque PPA 1 Un buen inicio! localizado en pp. 6-7; la columna 3 se confirma por el orden de proyectos, productos y continuidad del mismo bloque."
+          "columnEvidence": "Columna 3 confirmada por geometría del PDF de Posibilidades de uso; ficha 1 de 1 en p. 6."
         },
         "finalProduct": {
           "title": "Infografia con dimensiones",
@@ -626,19 +632,19 @@
             {
               "materialId": "grade-1-conceptos-saberes-y-pensamiento-cientifico-primer-grado",
               "label": "Saberes y Pensamiento Cientifico",
-              "startPage": 300,
-              "endPage": 302,
-              "pagesLabel": "pp. 300-302",
-              "topicTitle": "Sistema nervioso y endocrino / El sistema nervioso",
+              "startPage": 108,
+              "endPage": 119,
+              "pagesLabel": "pp. 108-119",
+              "topicTitle": "Obtencion y representacion de informacion",
               "status": "confirmed-by-column-inference"
             },
             {
               "materialId": "grade-1-conceptos-saberes-y-pensamiento-cientifico-primer-grado",
               "label": "Saberes y Pensamiento Cientifico",
-              "startPage": 108,
-              "endPage": 119,
-              "pagesLabel": "pp. 108-119",
-              "topicTitle": "Obtencion y representacion de informacion",
+              "startPage": 300,
+              "endPage": 302,
+              "pagesLabel": "pp. 300-302",
+              "topicTitle": "Sistema nervioso y endocrino / El sistema nervioso",
               "status": "confirmed-by-column-inference"
             },
             {
