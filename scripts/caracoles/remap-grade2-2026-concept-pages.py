@@ -9,19 +9,29 @@ from pypdf import PdfReader
 
 
 ROOT = Path(__file__).resolve().parents[2]
+GRADE = int(os.environ.get("AUDIT_GRADE", "2"))
 BOOK_ROOT = Path(
     os.environ.get(
-        "GRADE2_BOOK_ROOT",
+        f"GRADE{GRADE}_BOOK_ROOT",
         r"C:\Users\KANDI\OneDrive\Documentos\TELES\2026-2027\SEGUNDO",
     )
 )
-INDEX_PATH = ROOT / "content/caracoles/generated-private/grade-2/pages-index.full.json"
+INDEX_PATH = ROOT / f"content/caracoles/generated-private/grade-{GRADE}/pages-index.full.json"
 BUNDLE_ROOT = ROOT / "public/caracoles/data/curricular-development"
-AUDIT_PATH = ROOT / "tmp/grade2-2026-concept-page-remap.json"
+AUDIT_PATH = ROOT / f"tmp/grade{GRADE}-2026-concept-page-remap.json"
 
-BOOKS = {
-    "grade-2-conceptos-lenguajes-segundo-grado": "2_TS_LENGUAJES-BAJA.pdf",
-}
+BOOKS = (
+    {"grade-2-conceptos-lenguajes-segundo-grado": "2_TS_LENGUAJES-BAJA.pdf"}
+    if GRADE == 2
+    else {
+        "grade-1-conceptos-de-lo-humano-y-lo-comunitario-primer-grado": "1_TS-HC-BAJA.pdf",
+        "grade-1-conceptos-etica-naturaleza-y-sociedades-primer-grado": "1_TS-ENS-BAJA.pdf",
+        "grade-1-conceptos-lenguajes-primer-grado": "1_TS-LENGUAJES-BAJA.pdf",
+        "grade-1-conceptos-saberes-y-pensamiento-cientifico-primer-grado": "1_TS_SPC-BAJA.pdf",
+        "grade-1-apoyo-muiltiples-lenguajes-primer-grado": "1_TS-ML-BAJA.pdf",
+        "grade-1-ingles-ingles-primer-grado": "1_TS-INGLES-BAJA.pdf",
+    }
+)
 
 
 def normalize(value):
@@ -76,7 +86,7 @@ for material_id, pages in old_pages.items():
 
 results = []
 changed_files = set()
-for bundle_path in sorted(BUNDLE_ROOT.glob("grade-2-*.json")):
+for bundle_path in sorted(BUNDLE_ROOT.glob(f"grade-{GRADE}-*.json")):
     bundle = json.loads(bundle_path.read_text(encoding="utf-8-sig"))
     file_changed = False
     for project in bundle.get("development", {}).get("academicProjects", []):
