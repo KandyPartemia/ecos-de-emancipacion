@@ -20,18 +20,30 @@ INDEX_PATH = ROOT / f"content/caracoles/generated-private/grade-{GRADE}/pages-in
 BUNDLE_ROOT = ROOT / "public/caracoles/data/curricular-development"
 AUDIT_PATH = ROOT / f"tmp/grade{GRADE}-2026-concept-page-remap.json"
 
-BOOKS = (
-    {"grade-2-conceptos-lenguajes-segundo-grado": "2_TS_LENGUAJES-BAJA.pdf"}
-    if GRADE == 2
-    else {
+BOOKS_BY_GRADE = {
+    1: {
         "grade-1-conceptos-de-lo-humano-y-lo-comunitario-primer-grado": "1_TS-HC-BAJA.pdf",
         "grade-1-conceptos-etica-naturaleza-y-sociedades-primer-grado": "1_TS-ENS-BAJA.pdf",
         "grade-1-conceptos-lenguajes-primer-grado": "1_TS-LENGUAJES-BAJA.pdf",
         "grade-1-conceptos-saberes-y-pensamiento-cientifico-primer-grado": "1_TS_SPC-BAJA.pdf",
         "grade-1-apoyo-muiltiples-lenguajes-primer-grado": "1_TS-ML-BAJA.pdf",
         "grade-1-ingles-ingles-primer-grado": "1_TS-INGLES-BAJA.pdf",
-    }
-)
+    },
+    2: {
+        "grade-2-conceptos-lenguajes-segundo-grado": "2_TS_LENGUAJES-BAJA.pdf",
+    },
+    3: {
+        "grade-3-conceptos-de-lo-humano-y-lo-comunitario-tercer-grado": "3_TS-HC-BAJA.pdf",
+        "grade-3-conceptos-etica-naturaleza-y-sociedades-tercer-grado": "3_TS-ENS-BAJA.pdf",
+        "grade-3-conceptos-lenguajes-tercer-grado": "3_TS-LENGUAJES-BAJA.pdf",
+        "grade-3-conceptos-saberes-y-pensamiento-cientifico-tercer-grado": "3_TS-SPC-BAJA.pdf",
+        "grade-3-apoyo-muiltiples-lenguajes-tercer-grado": "3_TS-ML-BAJA.pdf",
+        "grade-3-ingles-ingles-tercer-grado": "3_TS-INGLES-BAJA.pdf",
+    },
+}
+BOOKS = BOOKS_BY_GRADE.get(GRADE, {})
+if not BOOKS:
+    raise ValueError(f"No hay catálogo de libros configurado para el grado {GRADE}")
 
 
 def normalize(value):
@@ -128,7 +140,9 @@ for bundle_path in sorted(BUNDLE_ROOT.glob(f"grade-{GRADE}-*.json")):
                     if [old_start, old_end] != [new_start, new_end]:
                         reference["startPage"] = new_start
                         reference["endPage"] = new_end
-                        reference["pages"] = f"p. {new_start}" if new_start == new_end else f"pp. {new_start}-{new_end}"
+                        page_label = f"p. {new_start}" if new_start == new_end else f"pp. {new_start}-{new_end}"
+                        reference["pages"] = page_label
+                        reference["pagesLabel"] = page_label
                         file_changed = True
                 results.append(record)
     if file_changed:
