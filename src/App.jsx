@@ -1633,6 +1633,7 @@ function App() {
         <Hero />
         <HomeGateway />
         <CaracolesSpotlight />
+        <AmazonBooksCarousel />
         <EditorialDirections />
         <PublicationsSpotlight />
         <AudiencePaths />
@@ -2775,6 +2776,109 @@ function CaracolesSpotlight() {
           </article>
         ))}
       </div>
+      </div>
+    </section>
+  );
+}
+
+function AmazonBooksCarousel() {
+  const amazonBooks = publications.filter(({ amazonUrl, status }) => amazonUrl && status === 'available');
+  const [activeIndex, setActiveIndex] = useState(0);
+  const activeBook = amazonBooks[activeIndex];
+
+  if (!activeBook) return null;
+
+  const selectPrevious = () => {
+    setActiveIndex((current) => (current - 1 + amazonBooks.length) % amazonBooks.length);
+  };
+
+  const selectNext = () => {
+    setActiveIndex((current) => (current + 1) % amazonBooks.length);
+  };
+
+  return (
+    <section id="libros-amazon" className="section-pad bg-[#f6ecdd]" aria-labelledby="amazon-books-title">
+      <div className="mx-auto max-w-7xl">
+        <div className="grid gap-5 lg:grid-cols-[0.72fr_1.28fr] lg:items-end">
+          <div>
+            <p className="section-kicker text-terracotta">Obras disponibles</p>
+            <h2 id="amazon-books-title" className="section-title text-forest">
+              Libros de Ecos en Amazon
+            </h2>
+          </div>
+          <p className="max-w-2xl leading-8 text-earth lg:justify-self-end">
+            Recorre las portadas y entra directamente a la ficha de cada obra en Amazon México.
+          </p>
+        </div>
+
+        <div className="mt-8 overflow-hidden rounded-[1.5rem] border border-earth/15 bg-white/80 shadow-soft">
+          <div className="grid gap-0 md:grid-cols-[minmax(15rem,0.72fr)_1.28fr]">
+            <div className="flex items-center justify-center bg-forest/5 p-6 sm:p-8">
+              <BookCover
+                publication={activeBook}
+                className="aspect-[2/3] max-h-[31rem] w-full max-w-[20rem] rounded-md object-contain shadow-[0_18px_38px_rgba(50,45,37,0.2)]"
+                loading="eager"
+              />
+            </div>
+
+            <div className="flex min-h-[28rem] flex-col justify-between p-6 sm:p-9">
+              <div aria-live="polite">
+                <p className="text-xs font-black uppercase tracking-[0.16em] text-terracotta">{activeBook.category}</p>
+                <h3 className="mt-4 max-w-2xl font-serif text-3xl leading-tight text-forest sm:text-4xl">{activeBook.title}</h3>
+                {activeBook.subtitle && <p className="mt-3 text-lg font-semibold leading-7 text-earth">{activeBook.subtitle}</p>}
+                <p className="mt-5 max-w-2xl leading-8 text-earth">{activeBook.description}</p>
+                <p className="mt-4 text-sm font-bold text-forest">{activeBook.author}</p>
+              </div>
+
+              <div className="mt-8 flex flex-wrap items-center justify-between gap-4">
+                <a
+                  className="btn-primary"
+                  href={activeBook.amazonUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label={`Comprar ${activeBook.title} en Amazon México`}
+                >
+                  Comprar en Amazon
+                  <ShoppingBag size={18} aria-hidden="true" />
+                </a>
+                <div className="flex items-center gap-2" aria-label="Controles del carrusel">
+                  <button type="button" className="amazon-carousel-control" onClick={selectPrevious} aria-label="Ver libro anterior">
+                    <ChevronLeft size={21} aria-hidden="true" />
+                  </button>
+                  <span className="min-w-14 text-center text-sm font-bold text-earth" aria-hidden="true">
+                    {activeIndex + 1} / {amazonBooks.length}
+                  </span>
+                  <button type="button" className="amazon-carousel-control" onClick={selectNext} aria-label="Ver libro siguiente">
+                    <ChevronRight size={21} aria-hidden="true" />
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="border-t border-earth/10 bg-cream/75 p-4 sm:p-5">
+            <div className="grid grid-cols-4 gap-2 sm:gap-4" role="tablist" aria-label="Elegir una obra">
+              {amazonBooks.map((book, index) => (
+                <button
+                  key={book.id}
+                  type="button"
+                  role="tab"
+                  aria-selected={index === activeIndex}
+                  aria-label={`Ver ${book.title}`}
+                  className={`amazon-carousel-thumb ${index === activeIndex ? 'amazon-carousel-thumb-active' : ''}`}
+                  onClick={() => setActiveIndex(index)}
+                >
+                  <img src={book.image} alt="" className="aspect-[2/3] h-16 w-auto shrink-0 rounded-sm object-contain sm:h-24" loading="lazy" />
+                  <span className="hidden text-left text-sm font-bold leading-5 text-forest lg:block">{book.title}</span>
+                </button>
+              ))}
+            </div>
+          </div>
+        </div>
+
+        <p className="mt-4 text-sm leading-6 text-earth/80">
+          La compra, disponibilidad y entrega se gestionan directamente en Amazon México.
+        </p>
       </div>
     </section>
   );

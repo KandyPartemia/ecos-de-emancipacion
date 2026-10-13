@@ -86,6 +86,51 @@ footer {
   line-height: 1.1;
 }
 
+.amazon-carousel-control {
+  display: inline-flex;
+  width: 2.75rem;
+  height: 2.75rem;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgb(47 91 71 / 28%);
+  border-radius: 9999px;
+  color: var(--color-forest);
+  background: rgb(255 255 255 / 82%);
+  transition: background-color 160ms ease, color 160ms ease, transform 160ms ease;
+}
+
+.amazon-carousel-control:hover {
+  color: var(--color-cream);
+  background: var(--color-forest);
+  transform: translateY(-1px);
+}
+
+.amazon-carousel-control:focus-visible,
+.amazon-carousel-thumb:focus-visible {
+  outline: 3px solid rgb(198 151 61 / 55%);
+  outline-offset: 3px;
+}
+
+.amazon-carousel-thumb {
+  display: flex;
+  min-width: 0;
+  align-items: center;
+  justify-content: center;
+  gap: 0.85rem;
+  border: 1px solid transparent;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  opacity: 0.68;
+  transition: border-color 160ms ease, background-color 160ms ease, opacity 160ms ease;
+}
+
+.amazon-carousel-thumb:hover,
+.amazon-carousel-thumb-active {
+  border-color: rgb(198 151 61 / 55%);
+  background: rgb(255 255 255 / 78%);
+  opacity: 1;
+}
+
 .section-kicker::before {
   content: "";
   display: inline-block;
