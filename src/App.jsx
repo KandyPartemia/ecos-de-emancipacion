@@ -1,6 +1,12 @@
 import { lazy, Suspense, useEffect, useState } from 'react';
 import BuyMeACoffeeLink from './components/BuyMeACoffeeLink';
 import {
+  editorialDirections,
+  editorialStatuses,
+  featuredPublications,
+  publications,
+} from './data/editorialCatalog';
+import {
   ArrowDown,
   ArrowUp,
   ArrowUpRight,
@@ -61,60 +67,6 @@ const IMAGES = {
   youth: '/images/jovenes-criterio.webp',
   map: '/images/ecos-universo-mapa-cognitologia.png',
 };
-
-const publications = [
-  {
-    id: 'cognitologia-familias',
-    legacyId: 'casa-aprende',
-    line: 'Colección Cognitología',
-    title: 'Cognitología para familias',
-    subtitle: 'Una pedagogía del vínculo para acompañar la vida cotidiana',
-    author: 'Kandy Partemia González Torreblanca',
-    category: 'Ensayo pedagógico para familias y personas cuidadoras',
-    description:
-      'Una invitación a acompañar a niñas, niños y adolescentes desde el vínculo, la escucha, los límites y la construcción de criterio.',
-    promotionalDescription:
-      'Entre el deseo de proteger y la necesidad de permitir que niñas, niños y adolescentes construyan su propio criterio, la vida familiar está llena de decisiones sin respuestas perfectas. Este ensayo propone comprender el acompañamiento como una práctica de vínculo, escucha, límites y pensamiento compartido. No es un recetario para familias ideales, sino una invitación a sostener conversaciones difíciles y construir acuerdos respetuosos de la dignidad, la autonomía y la vida en común.',
-    audience: 'Familias y personas cuidadoras',
-    image: '/images/publicaciones/cognitologia-familias-portada.png',
-    webImage: '/images/publicaciones/cognitologia-familias-portada.webp',
-    alt: 'Portada de Cognitología para familias, de Kandy Partemia González Torreblanca',
-    detailRoute: '/publicaciones/cognitologia-familias',
-  },
-  {
-    id: 'cognitologia-docentes',
-    legacyId: 'escuela-pregunta',
-    line: 'Colección Cognitología',
-    title: 'Cognitología para docentes',
-    subtitle: 'Una pedagogía del criterio para transformar la vida cotidiana',
-    author: 'Kandy Partemia González Torreblanca',
-    category: 'Ensayo pedagógico',
-    description:
-      'Un ensayo pedagógico para mirar la práctica docente, formar criterios de pensamiento y transformar la vida cotidiana desde una perspectiva humana, crítica y situada.',
-    promotionalDescription:
-      'En medio de rutinas, exigencias y respuestas prefabricadas, la práctica docente puede perder su capacidad de leer la vida que ocurre frente a ella. Este libro presenta la Cognitología como una propuesta pedagógica, gnoseológica y política situada, emergente y revisable. No ofrece recetas ni promete resultados universales: invita a preguntar, contrastar, nombrar y construir formas más humanas, solidarias y justas de habitar la educación.',
-    audience: 'Docentes y comunidades educativas',
-    image: '/images/publicaciones/cognitologia-docentes-portada.png',
-    webImage: '/images/publicaciones/cognitologia-docentes-portada.webp',
-    alt: 'Portada de Cognitología para docentes, de Kandy Partemia González Torreblanca',
-    detailRoute: '/publicaciones/cognitologia-docentes',
-  },
-  {
-    id: 'archivos-ollin',
-    line: 'Narrativa para adolescentes',
-    title: 'La señal de las preguntas perdidas',
-    subtitle: 'Los archivos de Ollin, Tomo I',
-    author: 'Kandy Partemia González Torreblanca',
-    category: 'Narrativa para adolescentes',
-    description:
-      'Una historia para jóvenes donde las preguntas, la amistad y el misterio abren caminos para pensar el mundo y el lugar propio.',
-    audience: 'Adolescentes, jóvenes, familias y mediadores de lectura',
-    image: '/images/publicaciones/la-senal-de-las-preguntas-perdidas.jpg',
-    alt: 'Portada de La señal de las preguntas perdidas, Tomo I de Los archivos de Ollin',
-    detailRoute: '/publicaciones#archivos-ollin',
-    availability: 'Disponible',
-  },
-];
 
 const navItems = [
   { label: 'Inicio', href: '/#inicio' },
@@ -1335,9 +1287,9 @@ function SmartLink({ href, children, className, label, external = false }) {
 
 const ROUTE_METADATA = {
   '/': {
-    title: 'Ecos de Emancipación | Educación crítica, conciencia y recursos pedagógicos',
+    title: 'Ecos de Emancipación | Plataforma pedagógica, cultural y editorial',
     description:
-      'Ecos de Emancipación es una propuesta pedagógica y cultural de la Maestra Kandy Partemia basada en la Cognitología para la vida cotidiana, Caracoles Resonando y recursos para docentes, estudiantes y familias.',
+      'Plataforma pedagógica, cultural y editorial de Kandy Partemia González Torreblanca: Cognitología, Caracoles Resonando, publicaciones y rutas para docentes, familias y juventudes.',
   },
   '/recursos/caracoles-resonando': {
     title: 'Caracoles Resonando — Planea tu PA de Telesecundaria',
@@ -1395,9 +1347,9 @@ const ROUTE_METADATA = {
       'Entrada a recursos, cuadernos, materiales digitales y herramientas pedagógicas del universo Ecos de Emancipación.',
   },
   '/publicaciones': {
-    title: 'Publicaciones | Ecos de Emancipación',
+    title: 'Biblioteca y publicaciones | Ecos de Emancipación',
     description:
-      'Conoce las líneas editoriales de Ecos de Emancipación: Cognitología para familias, pensamiento pedagógico y narrativa para adolescentes.',
+      'Explora las cuatro vertientes editoriales de Ecos de Emancipación y distingue las obras disponibles de los proyectos en revisión o desarrollo.',
   },
   '/publicaciones/cognitologia-docentes': {
     title: 'Cognitología para docentes | Ecos de Emancipación',
@@ -1679,23 +1631,13 @@ function App() {
       <Header />
       <main className="min-h-screen overflow-hidden bg-cream pt-[4.75rem] text-ink sm:pt-[5rem]">
         <Hero />
+        <HomeGateway />
         <CaracolesSpotlight />
-        <QuickExplore />
+        <EditorialDirections />
+        <PublicationsSpotlight />
+        <AudiencePaths />
         <About />
         <BuyMeACoffeeLink variant="inline" />
-        <UniverseMap />
-        <Manifesto />
-        <Resonances />
-        <Pillars />
-        <SchoolSection />
-        <Projects />
-        <PublicationsSpotlight />
-        <Resources />
-        <Store />
-        <MusicUniverse />
-        <Families />
-        <Youth />
-        <StartHere />
         <Invitation />
         <Footer />
         <BackToMap />
@@ -1842,25 +1784,20 @@ function Hero() {
           <p className="mt-3 max-w-2xl leading-7 text-earth">
             Su fundamento es la Cognitología para la vida cotidiana; Caracoles Resonando muestra una de sus aplicaciones prácticas para trabajar Proyectos Académicos de Telesecundaria.
           </p>
-          <div className="mt-5 flex flex-col gap-3 min-[420px]:flex-row sm:mt-6">
+          <div className="mt-5 flex flex-col gap-3 sm:mt-6 sm:flex-row sm:flex-wrap">
             <a className="btn-primary" href="/empieza-aqui">
-              Empieza aquí
+              Conocer la propuesta
               <ArrowUpRight size={18} aria-hidden="true" />
             </a>
             <a className="btn-secondary" href="/recursos/caracoles-resonando">
-              Abrir Caracoles Resonando
+              Explorar Caracoles
               <Shell size={18} aria-hidden="true" />
             </a>
+            <a className="btn-secondary" href="/publicaciones">
+              Descubrir publicaciones
+              <BookOpenText size={18} aria-hidden="true" />
+            </a>
           </div>
-          <a className="mt-5 inline-flex items-center gap-2 text-sm font-semibold text-forest sm:mt-7" href="/cognitologia">
-            Leer el fundamento
-            <ArrowUpRight size={17} aria-hidden="true" />
-          </a>
-          <button type="button" onClick={() => window.dispatchEvent(new Event('ecos:open-search'))} className="mt-5 flex min-h-12 w-full max-w-xl items-center gap-3 rounded-full border border-earth/25 bg-cream/75 px-5 text-left text-sm font-semibold text-earth shadow-sm transition hover:border-gold hover:bg-cream focus:outline-none focus:ring-4 focus:ring-gold/30" aria-label="Abrir buscador de Ecos de Emancipación">
-            <Search className="shrink-0 text-terracotta" size={20} aria-hidden="true" />
-            <span className="min-w-0 flex-1">Buscar por palabra, tema o interés</span>
-            <span className="hidden text-xs uppercase tracking-wider text-terracotta sm:inline">Abrir</span>
-          </button>
         </div>
 
         <figure className="hero-image-card">
@@ -1873,6 +1810,104 @@ function Hero() {
             Portal pedagógico
           </figcaption>
         </figure>
+      </div>
+    </section>
+  );
+}
+
+function HomeGateway() {
+  const entries = [
+    {
+      title: 'Comprender la propuesta',
+      text: 'Conoce el fundamento, el manifiesto y las preguntas que orientan Ecos.',
+      href: '/empieza-aqui',
+      icon: Compass,
+    },
+    {
+      title: 'Planear con Caracoles',
+      text: 'Consulta Proyectos Académicos, fuentes y apoyos para Telesecundaria.',
+      href: '/recursos/caracoles-resonando',
+      icon: Shell,
+    },
+    {
+      title: 'Leer y descubrir',
+      text: 'Explora ensayos, pensamiento crítico y narrativa para jóvenes.',
+      href: '/publicaciones',
+      icon: BookOpenText,
+    },
+  ];
+
+  return (
+    <section className="px-5 pb-10 sm:px-10 lg:px-14" aria-labelledby="puertas-ecos-titulo">
+      <div className="mx-auto max-w-7xl">
+        <h2 id="puertas-ecos-titulo" className="sr-only">Tres puertas para entrar a Ecos</h2>
+        <div className="grid gap-3 md:grid-cols-3">
+          {entries.map(({ title, text, href, icon: Icon }) => (
+            <a key={title} href={href} className="group border-t border-earth/20 py-5 transition hover:border-terracotta md:px-4">
+              <Icon className="text-terracotta" size={24} aria-hidden="true" />
+              <h3 className="mt-4 font-serif text-2xl font-semibold leading-tight text-forest">{title}</h3>
+              <p className="mt-2 leading-7 text-earth">{text}</p>
+              <span className="mt-4 inline-flex items-center gap-2 text-sm font-bold text-forest">
+                Entrar <ArrowUpRight size={16} aria-hidden="true" />
+              </span>
+            </a>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
+
+function EditorialDirections() {
+  return (
+    <section className="section-pad bg-cream" aria-labelledby="vertientes-inicio-titulo">
+      <div className="mx-auto max-w-7xl">
+        <div className="max-w-3xl">
+          <p className="section-kicker text-terracotta">Universo editorial</p>
+          <h2 id="vertientes-inicio-titulo" className="section-title">Cuatro vertientes para leer el presente.</h2>
+          <p className="mt-5 leading-8 text-earth">
+            Ecos enlaza pedagogía, historia, economía y pensamiento simbólico sin convertirlos en compartimentos aislados.
+          </p>
+        </div>
+        <div className="mt-8 grid gap-x-8 gap-y-3 md:grid-cols-2">
+          {editorialDirections.map((direction, index) => (
+            <a key={direction.id} href={`/publicaciones?vertiente=${direction.id}`} className="group grid grid-cols-[2.5rem_1fr] gap-4 border-t border-earth/20 py-6">
+              <span className="font-mono text-sm font-semibold text-gold">0{index + 1}</span>
+              <span>
+                <strong className="block font-serif text-2xl leading-tight text-forest">{direction.title}</strong>
+                <span className="mt-2 block leading-7 text-earth">{direction.description}</span>
+                <span className="mt-3 inline-flex items-center gap-2 text-sm font-bold text-terracotta">Explorar títulos <ArrowUpRight size={16} aria-hidden="true" /></span>
+              </span>
+            </a>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
+
+function AudiencePaths() {
+  const paths = [
+    { title: 'Docentes', text: 'Pensamiento pedagógico, práctica situada y herramientas para el aula.', href: '/escuela', icon: GraduationCap },
+    { title: 'Familias', text: 'Vínculo, escucha y criterios para acompañar la vida cotidiana.', href: '/familias', icon: UsersRound },
+    { title: 'Juventudes', text: 'Narrativa, preguntas y recursos para construir una voz propia.', href: '/jovenes', icon: Sparkles },
+  ];
+
+  return (
+    <section className="section-pad bg-clay/55" aria-labelledby="rutas-audiencias-titulo">
+      <div className="mx-auto max-w-7xl">
+        <p className="section-kicker text-terracotta">Rutas para cada comunidad</p>
+        <h2 id="rutas-audiencias-titulo" className="section-title">Un mismo horizonte, distintas puertas de entrada.</h2>
+        <div className="mt-8 grid gap-4 md:grid-cols-3">
+          {paths.map(({ title, text, href, icon: Icon }) => (
+            <a key={title} href={href} className="rounded-md border border-earth/15 bg-cream p-6 shadow-sm transition hover:-translate-y-1 hover:shadow-soft">
+              <Icon className="text-terracotta" size={26} aria-hidden="true" />
+              <h3 className="mt-5 font-serif text-3xl text-forest">{title}</h3>
+              <p className="mt-3 leading-7 text-earth">{text}</p>
+              <span className="mt-5 inline-flex items-center gap-2 font-bold text-forest">Ver ruta <ArrowUpRight size={17} aria-hidden="true" /></span>
+            </a>
+          ))}
+        </div>
       </div>
     </section>
   );
@@ -3080,11 +3115,10 @@ function PublicationsSpotlight() {
           <div>
             <p className="section-kicker text-gold">Publicaciones de Ecos</p>
             <h2 id="publicaciones-inicio-titulo" className="section-title text-cream">
-              Tres líneas editoriales para pensar, acompañar y preguntar.
+              Ensayo y narrativa para pensar la vida desde distintos lugares.
             </h2>
             <p className="mt-5 max-w-2xl leading-8 text-cream/80">
-              Conoce la colección Cognitología para familias y docentes, junto con una línea narrativa independiente
-              para adolescentes que todavía confían en el poder de una buena pregunta.
+              Una selección de obras de Cognitología y la colección narrativa juvenil Los archivos de Ollin. La biblioteca completa reúne las cuatro vertientes de Ecos y distingue con claridad los títulos disponibles de los que continúan en proceso editorial.
             </p>
             <a className="btn-gold mt-7" href="/publicaciones">
               Ver publicaciones
@@ -3093,7 +3127,7 @@ function PublicationsSpotlight() {
           </div>
 
           <div className="grid grid-cols-3 items-end gap-2 sm:gap-4" aria-label="Portadas de publicaciones de Ecos">
-            {publications.map((publication, index) => (
+            {featuredPublications.map((publication, index) => (
               <a
                 key={publication.title}
                 href={publication.detailRoute}
@@ -3111,16 +3145,15 @@ function PublicationsSpotlight() {
 }
 
 function Publications() {
-  const [activeIndex, setActiveIndex] = useState(0);
-  const activePublication = publications[activeIndex];
-
-  const showPrevious = () => {
-    setActiveIndex((current) => (current - 1 + publications.length) % publications.length);
-  };
-
-  const showNext = () => {
-    setActiveIndex((current) => (current + 1) % publications.length);
-  };
+  const initialDirection = typeof window !== 'undefined'
+    ? new URLSearchParams(window.location.search).get('vertiente') || 'all'
+    : 'all';
+  const [directionFilter, setDirectionFilter] = useState(initialDirection);
+  const [statusFilter, setStatusFilter] = useState('all');
+  const visiblePublications = publications.filter((publication) =>
+    (directionFilter === 'all' || publication.direction === directionFilter)
+    && (statusFilter === 'all' || publication.status === statusFilter));
+  const availablePublications = publications.filter(({ status }) => status === 'available');
 
   return (
     <>
@@ -3128,130 +3161,99 @@ function Publications() {
         <div className="mx-auto max-w-7xl">
           <p className="section-kicker text-gold">Casa editorial Ecos de Emancipación</p>
           <h1 className="mt-4 max-w-5xl font-serif text-5xl leading-[1.04] sm:text-6xl lg:text-7xl">
-            Libros para acompañar la vida, la escuela y las preguntas jóvenes.
+            Una biblioteca para comprender, preguntar y abrir posibilidades.
           </h1>
           <p className="mt-6 max-w-3xl text-lg leading-8 text-cream/80">
-            Cada línea editorial nace de una misma convicción: pensar con autonomía también se aprende cuando una
-            pregunta encuentra cuidado, lenguaje y tiempo para madurar.
+            Ensayo, pensamiento crítico y narrativa se encuentran en cuatro vertientes intelectuales. Cada ficha indica su estado editorial para distinguir las obras disponibles de las que siguen madurando.
           </p>
         </div>
       </section>
 
-      <section className="section-pad bg-clay" aria-labelledby="visor-publicaciones-titulo">
+      <section className="section-pad bg-cream" aria-labelledby="vertientes-publicaciones-titulo">
         <div className="mx-auto max-w-7xl">
-          <div className="mb-7 flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
-            <div>
-              <p className="section-kicker text-terracotta">Visor de portadas</p>
-              <h2 id="visor-publicaciones-titulo" className="mt-3 font-serif text-4xl leading-tight text-forest sm:text-5xl">
-                Conoce las tres obras.
-              </h2>
-            </div>
-            <p className="max-w-xl leading-7 text-earth">Selecciona una portada para conocer su línea editorial y solicitar información directa.</p>
-          </div>
-
-          <div className="grid gap-8 lg:grid-cols-[minmax(17rem,0.72fr)_1.28fr] lg:items-center">
-            <div className="relative mx-auto w-full max-w-[25rem]">
-              <BookCover
-                publication={activePublication}
-                className="h-auto max-h-[42rem] w-full rounded-md object-contain shadow-soft"
-                loading="eager"
-              />
-              <button
-                type="button"
-                onClick={showPrevious}
-                className="absolute left-2 top-1/2 flex h-11 w-11 -translate-y-1/2 items-center justify-center rounded-full bg-forest text-cream shadow-soft focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold"
-                aria-label="Ver portada anterior"
-              >
-                <ChevronLeft size={22} aria-hidden="true" />
-              </button>
-              <button
-                type="button"
-                onClick={showNext}
-                className="absolute right-2 top-1/2 flex h-11 w-11 -translate-y-1/2 items-center justify-center rounded-full bg-forest text-cream shadow-soft focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold"
-                aria-label="Ver portada siguiente"
-              >
-                <ChevronRight size={22} aria-hidden="true" />
-              </button>
-            </div>
-
-            <div className="min-w-0">
-              {activePublication.availability && (
-                <span className="inline-flex rounded-full border border-gold/45 bg-gold/15 px-4 py-2 text-xs font-black uppercase tracking-[0.16em] text-forest">
-                  {activePublication.availability}
-                </span>
-              )}
-              <p className="mt-5 text-sm font-black uppercase tracking-[0.16em] text-terracotta">{activePublication.line}</p>
-              <h3 className="mt-3 break-words font-serif text-4xl leading-tight text-forest sm:text-6xl">{activePublication.title}</h3>
-              <p className="mt-4 font-serif text-2xl leading-9 text-earth">{activePublication.subtitle}</p>
-              <p className="mt-5 max-w-3xl leading-8 text-earth">{activePublication.description}</p>
-              <p className="mt-4 text-sm font-semibold leading-7 text-earth">{activePublication.category}</p>
-              <p className="text-sm font-semibold leading-7 text-forest">{activePublication.author}</p>
-              <p className="mt-4 text-sm font-semibold leading-7 text-forest">Para: {activePublication.audience}</p>
-              <div className="mt-7 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
-                <a className="btn-primary" href={activePublication.detailRoute}>
-                  Conocer el libro
-                  <ArrowUpRight size={18} aria-hidden="true" />
-                </a>
-                <ExternalLink
-                  className="btn-secondary"
-                  href={LINKS.whatsapp}
-                  label={`Solicitar información de ${activePublication.title} por WhatsApp`}
-                >
-                  Solicitar información
-                  <MessageCircle size={18} aria-hidden="true" />
-                </ExternalLink>
-              </div>
-            </div>
-          </div>
-
-          <div className="mt-8 grid grid-cols-3 gap-2 sm:gap-4">
-            {publications.map((publication, index) => (
-              <button
-                key={publication.id}
-                type="button"
-                onClick={() => setActiveIndex(index)}
-                className={`rounded-md border p-1.5 text-left transition focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-forest sm:p-2 ${activeIndex === index ? 'border-forest bg-white shadow-soft' : 'border-earth/15 bg-white/55'}`}
-                aria-label={`Mostrar portada de ${publication.title}`}
-                aria-pressed={activeIndex === index}
-              >
-                <BookCover publication={{ ...publication, alt: '' }} className="mx-auto h-24 w-auto max-w-full object-contain sm:h-40" />
-                <span className="mt-2 hidden text-center text-sm font-bold leading-5 text-forest sm:block">{publication.title}</span>
-              </button>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      <section className="section-pad bg-cream" aria-labelledby="lineas-editoriales-titulo">
-        <div className="mx-auto max-w-7xl">
-          <p className="section-kicker text-terracotta">Líneas editoriales</p>
-          <h2 id="lineas-editoriales-titulo" className="mt-3 max-w-4xl font-serif text-4xl leading-tight text-forest sm:text-5xl">
-            Una obra distinta para cada conversación necesaria.
-          </h2>
-          <div className="mt-8 grid gap-6 lg:grid-cols-3">
-            {publications.map((publication) => (
-              <article id={publication.id} key={publication.id} className="relative scroll-mt-28 overflow-hidden rounded-md border border-earth/15 bg-white shadow-soft">
-                {publication.legacyId && <span id={publication.legacyId} className="absolute top-0 scroll-mt-28" aria-hidden="true" />}
-                <BookCover publication={publication} className="h-auto max-h-[34rem] w-full object-contain" />
-                <div className="p-6 sm:p-7">
-                  <p className="text-xs font-black uppercase tracking-[0.16em] text-terracotta">{publication.line}</p>
-                  <h3 className="mt-4 break-words font-serif text-3xl leading-tight text-forest">{publication.title}</h3>
-                  <p className="mt-3 font-semibold leading-7 text-earth">{publication.subtitle}</p>
-                  <p className="mt-4 leading-7 text-earth">{publication.description}</p>
-                  <p className="mt-4 text-sm leading-7 text-forest"><strong>Autora:</strong> {publication.author}</p>
-                  <p className="text-sm leading-7 text-forest"><strong>Categoría:</strong> {publication.category}</p>
-                  <a className="btn-primary mt-6 w-full justify-center" href={publication.detailRoute}>
-                    Conocer el libro
-                    <ArrowUpRight size={18} aria-hidden="true" />
-                  </a>
-                </div>
+          <p className="section-kicker text-terracotta">Arquitectura editorial</p>
+          <h2 id="vertientes-publicaciones-titulo" className="section-title">Cuatro vertientes, una conversación común.</h2>
+          <div className="mt-8 grid gap-4 md:grid-cols-2">
+            {editorialDirections.map((direction, index) => (
+              <article key={direction.id} className="border-t border-earth/20 py-6 md:px-4">
+                <p className="font-mono text-xs font-semibold tracking-widest text-gold">VERTIENTE 0{index + 1}</p>
+                <h3 className="mt-3 font-serif text-3xl leading-tight text-forest">{direction.title}</h3>
+                <p className="mt-3 leading-7 text-earth">{direction.description}</p>
               </article>
             ))}
           </div>
         </div>
       </section>
 
-      <section className="section-pad bg-[#071f35] text-cream">
+      <section className="section-pad bg-clay/55" aria-labelledby="catalogo-publicaciones-titulo">
+        <div className="mx-auto max-w-7xl">
+          <div className="flex flex-col gap-4 lg:flex-row lg:items-end lg:justify-between">
+            <div>
+              <p className="section-kicker text-terracotta">Biblioteca de publicaciones</p>
+              <h2 id="catalogo-publicaciones-titulo" className="section-title">Obras y proyectos editoriales.</h2>
+            </div>
+            <p className="max-w-xl leading-7 text-earth">Filtra la biblioteca para conocer el lugar que ocupa cada obra y su momento editorial.</p>
+          </div>
+
+          <div className="mt-8 grid gap-4 rounded-md border border-earth/15 bg-cream p-4 sm:grid-cols-2 sm:p-5">
+            <label className="grid gap-2 text-sm font-bold text-forest">
+              Vertiente
+              <select className="min-h-12 w-full rounded-md border border-earth/25 bg-white px-4 text-base font-medium text-ink" value={directionFilter} onChange={(event) => setDirectionFilter(event.target.value)}>
+                <option value="all">Todas las vertientes</option>
+                {editorialDirections.map((direction) => <option key={direction.id} value={direction.id}>{direction.shortLabel}</option>)}
+              </select>
+            </label>
+            <label className="grid gap-2 text-sm font-bold text-forest">
+              Estado editorial
+              <select className="min-h-12 w-full rounded-md border border-earth/25 bg-white px-4 text-base font-medium text-ink" value={statusFilter} onChange={(event) => setStatusFilter(event.target.value)}>
+                <option value="all">Todos los estados</option>
+                {Object.entries(editorialStatuses).map(([value, label]) => <option key={value} value={value}>{label}</option>)}
+              </select>
+            </label>
+          </div>
+
+          <p className="mt-6 text-sm font-semibold text-earth" aria-live="polite">{visiblePublications.length} {visiblePublications.length === 1 ? 'título encontrado' : 'títulos encontrados'}</p>
+          <div className="mt-5 grid gap-5 md:grid-cols-2 xl:grid-cols-3">
+            {visiblePublications.map((publication) => {
+              const direction = editorialDirections.find(({ id }) => id === publication.direction);
+              return (
+              <article id={publication.id} key={publication.id} className="relative flex min-w-0 scroll-mt-28 flex-col overflow-hidden rounded-md border border-earth/15 bg-white shadow-sm">
+                {publication.legacyId && <span id={publication.legacyId} className="absolute top-0 scroll-mt-28" aria-hidden="true" />}
+                {publication.image ? (
+                  <div className="flex aspect-[4/3] items-center justify-center bg-[#eee4d6] p-5">
+                    <BookCover publication={publication} className="h-full w-auto max-w-full object-contain shadow-soft" />
+                  </div>
+                ) : (
+                  <div className="flex aspect-[4/3] items-end bg-forest p-6 text-cream">
+                    <div>
+                      <BookOpenText className="mb-5 text-gold" size={30} aria-hidden="true" />
+                      <p className="font-mono text-xs font-semibold uppercase tracking-[0.16em] text-gold">Proyecto editorial</p>
+                      <p className="mt-2 font-serif text-2xl leading-tight">Ecos de Emancipación</p>
+                    </div>
+                  </div>
+                )}
+                <div className="flex flex-1 flex-col p-6">
+                  <div className="flex flex-wrap gap-2">
+                    <span className="rounded-full border border-earth/20 px-3 py-1 text-xs font-bold text-forest">{editorialStatuses[publication.status]}</span>
+                  </div>
+                  <p className="mt-4 text-xs font-black uppercase tracking-[0.14em] text-terracotta">{publication.collection || direction?.shortLabel}</p>
+                  <h3 className="mt-4 break-words font-serif text-3xl leading-tight text-forest">{publication.title}</h3>
+                  {publication.subtitle && <p className="mt-3 font-semibold leading-7 text-earth">{publication.subtitle}</p>}
+                  <p className="mt-4 leading-7 text-earth">{publication.description}</p>
+                  {publication.author && <p className="mt-4 text-sm leading-7 text-forest"><strong>Autora:</strong> {publication.author}</p>}
+                  {publication.detailRoute && <a className="btn-secondary mt-auto pt-6" href={publication.detailRoute}>
+                    Conocer el libro
+                    <ArrowUpRight size={18} aria-hidden="true" />
+                  </a>}
+                </div>
+              </article>
+              );
+            })}
+          </div>
+        </div>
+      </section>
+
+      <section className="section-pad bg-forest text-cream" aria-labelledby="conseguir-libros-titulo">
         <div className="mx-auto grid max-w-7xl gap-8 lg:grid-cols-[1.05fr_0.95fr] lg:items-center">
           <figure className="overflow-hidden rounded-md border border-cream/15 bg-black/10 shadow-soft">
             <img
@@ -3262,18 +3264,17 @@ function Publications() {
             />
           </figure>
           <div>
-            <p className="section-kicker text-gold">Los archivos de Ollin</p>
-            <h2 className="mt-3 font-serif text-4xl leading-tight sm:text-6xl">Sigue la señal. La primera pregunta ya está esperando.</h2>
+            <p className="section-kicker text-gold">Dónde conseguir los libros</p>
+            <h2 id="conseguir-libros-titulo" className="mt-3 font-serif text-4xl leading-tight sm:text-6xl">Información directa, sin confundir catálogo y disponibilidad.</h2>
             <p className="mt-5 max-w-2xl leading-8 text-cream/80">
-              El Tomo I de la saga para adolescentes ya está disponible. Solicita información sobre formato, precio y
-              forma de entrega directamente por WhatsApp.
+              {availablePublications.length === 1 ? 'Actualmente hay una obra señalada como disponible.' : `Actualmente hay ${availablePublications.length} obras señaladas como disponibles.`} Consulta por WhatsApp sus formatos y condiciones vigentes. Los títulos en revisión o desarrollo no se ofrecen como disponibles.
             </p>
             <ExternalLink
               className="btn-gold mt-7"
               href={LINKS.whatsapp}
               label="Solicitar información y precio del Tomo I de Los archivos de Ollin por WhatsApp"
             >
-              Consultar el Tomo I
+              Consultar obras disponibles
               <MessageCircle size={18} aria-hidden="true" />
             </ExternalLink>
           </div>
@@ -3301,6 +3302,9 @@ function PublicationDetail({ publication }) {
               <ChevronLeft size={18} aria-hidden="true" />
               Volver a publicaciones
             </a>
+            <p className="mt-7 inline-flex rounded-full border border-earth/20 px-4 py-2 text-xs font-bold text-forest">
+              Estado editorial: {editorialStatuses[publication.status]}
+            </p>
             <p className="section-kicker mt-8 text-terracotta">{publication.category}</p>
             <h1 className="mt-4 break-words font-serif text-5xl leading-[1.03] text-forest sm:text-6xl lg:text-7xl">
               {publication.title}
