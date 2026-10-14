@@ -1,4 +1,4 @@
-import { lazy, Suspense, useEffect, useState } from 'react';
+import { lazy, Suspense, useEffect, useRef, useState } from 'react';
 import BuyMeACoffeeLink from './components/BuyMeACoffeeLink';
 import {
   editorialDirections,
@@ -6,6 +6,7 @@ import {
   featuredPublications,
   publications,
 } from './data/editorialCatalog';
+import { homeBanners } from './data/homeBanners';
 import {
   ArrowDown,
   ArrowUp,
@@ -1631,6 +1632,7 @@ function App() {
       <Header />
       <main className="min-h-screen overflow-hidden bg-cream pt-[4.75rem] text-ink sm:pt-[5rem]">
         <Hero />
+        <HomeBannerCarousel />
         <HomeGateway />
         <CaracolesSpotlight />
         <AmazonBooksCarousel />
@@ -1811,6 +1813,118 @@ function Hero() {
             Portal pedagógico
           </figcaption>
         </figure>
+      </div>
+    </section>
+  );
+}
+
+function HomeBannerCarousel() {
+  const [activeIndex, setActiveIndex] = useState(0);
+  const [hasInteracted, setHasInteracted] = useState(false);
+  const [isHovering, setIsHovering] = useState(false);
+  const [prefersReducedMotion, setPrefersReducedMotion] = useState(false);
+  const pointerStartX = useRef(null);
+
+  useEffect(() => {
+    const mediaQuery = window.matchMedia('(prefers-reduced-motion: reduce)');
+    const updatePreference = () => setPrefersReducedMotion(mediaQuery.matches);
+    updatePreference();
+    mediaQuery.addEventListener('change', updatePreference);
+    return () => mediaQuery.removeEventListener('change', updatePreference);
+  }, []);
+
+  useEffect(() => {
+    if (prefersReducedMotion || hasInteracted || isHovering) return undefined;
+    const timer = window.setInterval(() => {
+      setActiveIndex((current) => (current + 1) % homeBanners.length);
+    }, 5000);
+    return () => window.clearInterval(timer);
+  }, [hasInteracted, isHovering, prefersReducedMotion]);
+
+  const selectBanner = (index) => {
+    setHasInteracted(true);
+    setActiveIndex((index + homeBanners.length) % homeBanners.length);
+  };
+
+  const handlePointerDown = (event) => {
+    pointerStartX.current = event.clientX;
+  };
+
+  const handlePointerUp = (event) => {
+    if (pointerStartX.current === null) return;
+    const distance = event.clientX - pointerStartX.current;
+    pointerStartX.current = null;
+    if (Math.abs(distance) < 42) return;
+    selectBanner(activeIndex + (distance < 0 ? 1 : -1));
+  };
+
+  return (
+    <section
+      id="destacados"
+      className="home-banner-shell"
+      aria-label="Anuncios destacados de Ecos de Emancipación"
+      aria-roledescription="carrusel"
+      onMouseEnter={() => setIsHovering(true)}
+      onMouseLeave={() => setIsHovering(false)}
+      onFocusCapture={() => setHasInteracted(true)}
+    >
+      <div
+        className="home-banner-viewport"
+        onPointerDown={handlePointerDown}
+        onPointerUp={handlePointerUp}
+        onPointerCancel={() => { pointerStartX.current = null; }}
+        onPointerLeave={() => { pointerStartX.current = null; }}
+      >
+        <div
+          className="home-banner-track"
+          style={{ transform: `translateX(-${activeIndex * 100}%)` }}
+        >
+          {homeBanners.map((banner, index) => (
+            <article
+              key={banner.id}
+              className={`home-banner-slide home-banner-${banner.theme}`}
+              aria-hidden={index !== activeIndex}
+            >
+              <div className="home-banner-copy">
+                <p className="home-banner-eyebrow">{banner.eyebrow}</p>
+                <h2>{banner.title}</h2>
+                <p>{banner.description}</p>
+                <a
+                  href={banner.href}
+                  className="home-banner-link"
+                  tabIndex={index === activeIndex ? 0 : -1}
+                  onClick={() => setHasInteracted(true)}
+                >
+                  {banner.action}
+                  <ArrowUpRight size={17} aria-hidden="true" />
+                </a>
+              </div>
+              <div className="home-banner-media">
+                <img
+                  src={banner.image}
+                  alt={banner.alt}
+                  style={{ objectPosition: banner.imagePosition }}
+                  loading={index === 0 ? 'eager' : 'lazy'}
+                  width="1731"
+                  height="909"
+                />
+              </div>
+            </article>
+          ))}
+        </div>
+      </div>
+
+      <div className="home-banner-dots" role="group" aria-label="Elegir anuncio">
+        {homeBanners.map((banner, index) => (
+          <button
+            key={banner.id}
+            type="button"
+            className={index === activeIndex ? 'home-banner-dot home-banner-dot-active' : 'home-banner-dot'}
+            onClick={() => selectBanner(index)}
+            aria-label={`Mostrar anuncio: ${banner.title}`}
+            aria-current={index === activeIndex ? 'true' : undefined}
+          />
+        ))}
       </div>
     </section>
   );
