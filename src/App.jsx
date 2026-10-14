@@ -1912,6 +1912,23 @@ function HomeBannerCarousel() {
             </article>
           ))}
         </div>
+
+        <button
+          type="button"
+          className="home-banner-arrow home-banner-arrow-previous"
+          onClick={() => selectBanner(activeIndex - 1)}
+          aria-label="Mostrar anuncio anterior"
+        >
+          <ChevronLeft size={24} aria-hidden="true" />
+        </button>
+        <button
+          type="button"
+          className="home-banner-arrow home-banner-arrow-next"
+          onClick={() => selectBanner(activeIndex + 1)}
+          aria-label="Mostrar anuncio siguiente"
+        >
+          <ChevronRight size={24} aria-hidden="true" />
+        </button>
       </div>
 
       <div className="home-banner-dots" role="group" aria-label="Elegir anuncio">
