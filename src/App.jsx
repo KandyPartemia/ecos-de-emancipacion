@@ -112,7 +112,7 @@ const universeNodes = [
     text: 'Declaración ética, espiritual y pedagógica del proyecto.',
     href: '/manifiesto',
     icon: Leaf,
-    position: 'left-[74%] top-[14%] -translate-x-1/2',
+    position: 'left-[72%] top-[14%] -translate-x-1/2',
   },
   {
     id: 'resonancias',
@@ -120,7 +120,7 @@ const universeNodes = [
     text: 'Reflexiones, relatos, artículos poéticos, textos pedagógicos y meditaciones escritas para despertar conciencia.',
     href: '/resonancias',
     icon: BookOpenText,
-    position: 'left-[88%] top-[30%] -translate-x-1/2',
+    position: 'left-[80%] top-[30%] -translate-x-1/2',
   },
   {
     id: 'cognitologia',
@@ -128,7 +128,7 @@ const universeNodes = [
     text: 'Entrada teórica y práctica para mirar cómo pensamos, sentimos, aprendemos y decidimos en la vida cotidiana.',
     href: '/cognitologia',
     icon: Brain,
-    position: 'left-[92%] top-[52%] -translate-x-1/2',
+    position: 'left-[76%] top-[47%] -translate-x-1/2',
   },
   {
     id: 'pilares',
@@ -136,7 +136,7 @@ const universeNodes = [
     text: 'Fundamentos del proyecto: conciencia, emancipación, espiritualidad, pedagogía, amor, justicia y pensamiento crítico.',
     href: '/pilares',
     icon: CircleDot,
-    position: 'left-[84%] top-[72%] -translate-x-1/2',
+    position: 'left-[80%] top-[65%] -translate-x-1/2',
   },
   {
     id: 'escuela',
@@ -144,7 +144,7 @@ const universeNodes = [
     text: 'Talleres, cursos, rutas formativas, comunidad de aprendizaje y propuestas pedagógicas.',
     href: '/escuela',
     icon: School,
-    position: 'left-[67%] top-[87%] -translate-x-1/2',
+    position: 'left-[68%] top-[80%] -translate-x-1/2',
   },
   {
     id: 'publicaciones',
@@ -152,7 +152,7 @@ const universeNodes = [
     text: 'Biblioteca editorial con ensayos, herramientas de pensamiento y la colección narrativa juvenil Los archivos de Ollin.',
     href: '/publicaciones',
     icon: BookOpenText,
-    position: 'left-[50%] top-[92%] -translate-x-1/2',
+    position: 'left-[50%] top-[88%] -translate-x-1/2',
   },
   {
     id: 'recursos',
@@ -160,7 +160,7 @@ const universeNodes = [
     text: 'Guías, cuadernos, audios, lecturas, materiales descargables y herramientas para acompañar procesos de transformación.',
     href: '/recursos',
     icon: NotebookTabs,
-    position: 'left-[33%] top-[87%] -translate-x-1/2',
+    position: 'left-[32%] top-[80%] -translate-x-1/2',
   },
   {
     id: 'universo-musical',
@@ -168,7 +168,7 @@ const universeNodes = [
     text: 'Canciones, álbumes y proyectos sonoros vinculados a la conciencia, la esperanza, la plenitud y la transformación interior.',
     href: '/universo-musical',
     icon: Music,
-    position: 'left-[16%] top-[72%] -translate-x-1/2',
+    position: 'left-[20%] top-[65%] -translate-x-1/2',
   },
   {
     id: 'caracoles',
@@ -176,7 +176,7 @@ const universeNodes = [
     text: 'Herramienta central para consultar, comprender y planear los Proyectos Académicos de Telesecundaria.',
     href: '/recursos/caracoles-resonando',
     icon: Shell,
-    position: 'left-[8%] top-[52%] -translate-x-1/2',
+    position: 'left-[24%] top-[47%] -translate-x-1/2',
   },
   {
     id: 'tienda',
@@ -184,7 +184,7 @@ const universeNodes = [
     text: 'Libros, cuadernos, recursos digitales, materiales formativos y productos del ecosistema.',
     href: '/tienda',
     icon: ShoppingBag,
-    position: 'left-[12%] top-[30%] -translate-x-1/2',
+    position: 'left-[20%] top-[30%] -translate-x-1/2',
   },
   {
     id: 'empieza',
@@ -192,7 +192,7 @@ const universeNodes = [
     text: 'Ruta inicial para quienes llegan por primera vez y quieren comprender el corazón del proyecto.',
     href: '/empieza-aqui',
     icon: DoorOpen,
-    position: 'left-[26%] top-[14%] -translate-x-1/2',
+    position: 'left-[28%] top-[14%] -translate-x-1/2',
   },
 ];
 
@@ -1549,6 +1549,7 @@ function App() {
         <main className="min-h-screen overflow-hidden bg-cream pt-[4.75rem] text-ink sm:pt-[5rem]">
           <UniverseMap />
           <Footer />
+          <BackToMap />
           <BackToTop />
         </main>
       </>
@@ -5122,9 +5123,9 @@ function Footer() {
 function BackToMap() {
   return (
     <a
-      href="/mapa"
-      aria-label="Volver al mapa del universo Ecos"
-      title="Volver al mapa del universo Ecos"
+      href="/mapa#mapa-interactivo"
+      aria-label="Abrir el mapa del universo Ecos"
+      title="Abrir el mapa del universo Ecos"
       className="map-floating-button"
     >
       <Compass size={20} aria-hidden="true" />
