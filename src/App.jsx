@@ -112,7 +112,7 @@ const universeNodes = [
     text: 'Declaración ética, espiritual y pedagógica del proyecto.',
     href: '/manifiesto',
     icon: Leaf,
-    position: 'left-[75%] top-[16%] -translate-x-1/2',
+    position: 'left-[74%] top-[14%] -translate-x-1/2',
   },
   {
     id: 'resonancias',
@@ -120,7 +120,7 @@ const universeNodes = [
     text: 'Reflexiones, relatos, artículos poéticos, textos pedagógicos y meditaciones escritas para despertar conciencia.',
     href: '/resonancias',
     icon: BookOpenText,
-    position: 'left-[90%] top-[34%] -translate-x-1/2',
+    position: 'left-[88%] top-[30%] -translate-x-1/2',
   },
   {
     id: 'cognitologia',
@@ -128,7 +128,7 @@ const universeNodes = [
     text: 'Entrada teórica y práctica para mirar cómo pensamos, sentimos, aprendemos y decidimos en la vida cotidiana.',
     href: '/cognitologia',
     icon: Brain,
-    position: 'left-[90%] top-[58%] -translate-x-1/2',
+    position: 'left-[92%] top-[52%] -translate-x-1/2',
   },
   {
     id: 'pilares',
@@ -136,7 +136,7 @@ const universeNodes = [
     text: 'Fundamentos del proyecto: conciencia, emancipación, espiritualidad, pedagogía, amor, justicia y pensamiento crítico.',
     href: '/pilares',
     icon: CircleDot,
-    position: 'left-[78%] top-[78%] -translate-x-1/2',
+    position: 'left-[84%] top-[72%] -translate-x-1/2',
   },
   {
     id: 'escuela',
@@ -144,7 +144,15 @@ const universeNodes = [
     text: 'Talleres, cursos, rutas formativas, comunidad de aprendizaje y propuestas pedagógicas.',
     href: '/escuela',
     icon: School,
-    position: 'left-[62%] top-[88%] -translate-x-1/2',
+    position: 'left-[67%] top-[87%] -translate-x-1/2',
+  },
+  {
+    id: 'publicaciones',
+    title: 'Publicaciones',
+    text: 'Biblioteca editorial con ensayos, herramientas de pensamiento y la colección narrativa juvenil Los archivos de Ollin.',
+    href: '/publicaciones',
+    icon: BookOpenText,
+    position: 'left-[50%] top-[92%] -translate-x-1/2',
   },
   {
     id: 'recursos',
@@ -152,7 +160,7 @@ const universeNodes = [
     text: 'Guías, cuadernos, audios, lecturas, materiales descargables y herramientas para acompañar procesos de transformación.',
     href: '/recursos',
     icon: NotebookTabs,
-    position: 'left-[38%] top-[88%] -translate-x-1/2',
+    position: 'left-[33%] top-[87%] -translate-x-1/2',
   },
   {
     id: 'universo-musical',
@@ -160,7 +168,15 @@ const universeNodes = [
     text: 'Canciones, álbumes y proyectos sonoros vinculados a la conciencia, la esperanza, la plenitud y la transformación interior.',
     href: '/universo-musical',
     icon: Music,
-    position: 'left-[22%] top-[78%] -translate-x-1/2',
+    position: 'left-[16%] top-[72%] -translate-x-1/2',
+  },
+  {
+    id: 'caracoles',
+    title: 'Caracoles Resonando',
+    text: 'Herramienta central para consultar, comprender y planear los Proyectos Académicos de Telesecundaria.',
+    href: '/recursos/caracoles-resonando',
+    icon: Shell,
+    position: 'left-[8%] top-[52%] -translate-x-1/2',
   },
   {
     id: 'tienda',
@@ -168,7 +184,7 @@ const universeNodes = [
     text: 'Libros, cuadernos, recursos digitales, materiales formativos y productos del ecosistema.',
     href: '/tienda',
     icon: ShoppingBag,
-    position: 'left-[10%] top-[58%] -translate-x-1/2',
+    position: 'left-[12%] top-[30%] -translate-x-1/2',
   },
   {
     id: 'empieza',
@@ -176,7 +192,7 @@ const universeNodes = [
     text: 'Ruta inicial para quienes llegan por primera vez y quieren comprender el corazón del proyecto.',
     href: '/empieza-aqui',
     icon: DoorOpen,
-    position: 'left-[25%] top-[16%] -translate-x-1/2',
+    position: 'left-[26%] top-[14%] -translate-x-1/2',
   },
 ];
 
@@ -229,6 +245,20 @@ const SECTION_VISUALS = {
     label: 'Herramientas vivas',
     tone: 'recursos',
     alt: 'Imagen simbólica de la sección Recursos de Ecos de Emancipación',
+  },
+  publicaciones: {
+    image: '/images/publicaciones/cognitologia-docentes-portada.png',
+    assetName: 'cognitologia-docentes-portada.png',
+    label: 'Biblioteca editorial',
+    tone: 'publicaciones',
+    alt: 'Portada de Cognitología para docentes, una de las publicaciones de Ecos de Emancipación',
+  },
+  caracoles: {
+    image: '/images/og-caracoles-resonando.png',
+    assetName: 'og-caracoles-resonando.png',
+    label: 'Herramienta pedagógica',
+    tone: 'caracoles',
+    alt: 'Identidad visual de la herramienta Caracoles Resonando',
   },
   'universo-musical': {
     image: '/images/ecos-universo-musical-visual.webp',
@@ -1427,6 +1457,11 @@ const ROUTE_METADATA = {
     description:
       'Mapa de proyectos, canales, recursos y rutas activas de Ecos de Emancipación para docentes, familias y estudiantes.',
   },
+  '/mapa': {
+    title: 'Mapa del universo Ecos | Ecos de Emancipación',
+    description:
+      'Explora las rutas pedagógicas, culturales, editoriales y musicales que integran el universo Ecos de Emancipación.',
+  },
 };
 
 const CaracolesApp = lazy(() => import('./caracoles/CaracolesApp'));
@@ -1503,6 +1538,19 @@ function App() {
         </Suspense>
         <BackToMap />
         <BackToTop />
+      </>
+    );
+  }
+
+  if (currentPath === '/mapa') {
+    return (
+      <>
+        <Header />
+        <main className="min-h-screen overflow-hidden bg-cream pt-[4.75rem] text-ink sm:pt-[5rem]">
+          <UniverseMap />
+          <Footer />
+          <BackToTop />
+        </main>
       </>
     );
   }
@@ -2265,7 +2313,7 @@ function UniverseMap() {
   const activeVisual = SECTION_VISUALS[activeNode.id] ?? SECTION_VISUALS.inicio;
   const mobileUniverseNodes = showFullMobileMap
     ? universeNodes
-    : universeNodes.filter(({ id }) => ['inicio', 'manifiesto', 'cognitologia', 'resonancias', 'escuela'].includes(id));
+    : universeNodes.filter(({ id }) => ['inicio', 'caracoles', 'publicaciones', 'cognitologia', 'empieza'].includes(id));
 
   return (
     <section id="mapa-universo" className="section-pad bg-clay/55">
@@ -2331,13 +2379,10 @@ function UniverseMap() {
             <p className="mt-8 text-xs font-semibold uppercase tracking-[0.16em] text-terracotta">Para explorar</p>
             <h3 className="mt-3 font-serif text-4xl leading-none text-forest">{activeNode.title}</h3>
             <p className="mt-5 leading-8 text-earth">{activeNode.text}</p>
-            <figure className="universe-static-map mt-8 overflow-hidden rounded-2xl border border-earth/15 bg-cream/70 p-2">
-              <img
-                src={IMAGES.map}
-                alt="Mapa del universo Ecos de Emancipación con las secciones Inicio, Manifiesto, Resonancias, Cognitología, Pilares, Escuela, Recursos, Universo musical, Tienda y Empieza Aquí"
-                className="h-auto w-full rounded-xl opacity-90"
-              />
-            </figure>
+            <a className="mt-8 inline-flex min-h-11 items-center gap-2 rounded-full border border-forest/25 px-5 py-2.5 text-sm font-bold text-forest" href={activeNode.href}>
+              Entrar a {activeNode.title}
+              <ArrowUpRight size={17} aria-hidden="true" />
+            </a>
           </aside>
         </div>
 
@@ -2379,13 +2424,6 @@ function UniverseMap() {
           >
             {showFullMobileMap ? 'Ver menos nodos' : 'Ver mapa completo'}
           </button>
-          <figure className="mt-4 overflow-hidden rounded-2xl border border-earth/15 bg-cream p-2 shadow-soft">
-            <img
-              src={IMAGES.map}
-              alt="Mapa del universo Ecos de Emancipación con las secciones Inicio, Manifiesto, Resonancias, Cognitología, Pilares, Escuela, Recursos, Universo musical, Tienda y Empieza Aquí"
-              className="h-auto w-full rounded-xl"
-            />
-          </figure>
         </div>
         </div>
       </div>
@@ -5007,7 +5045,7 @@ function StartHere() {
                   Leer manifiesto
                   <ArrowUpRight size={17} aria-hidden="true" />
                 </a>
-                <a className="btn-light" href="/#mapa-universo">
+                <a className="btn-light" href="/mapa">
                   Ver mapa del universo Ecos
                   <ArrowUpRight size={17} aria-hidden="true" />
                 </a>
@@ -5084,7 +5122,7 @@ function Footer() {
 function BackToMap() {
   return (
     <a
-      href="/#mapa-interactivo"
+      href="/mapa"
       aria-label="Volver al mapa del universo Ecos"
       title="Volver al mapa del universo Ecos"
       className="map-floating-button"
