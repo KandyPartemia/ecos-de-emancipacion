@@ -188,7 +188,7 @@ export const OFFICIAL_YOUTUBE_ACADEMIC_PROJECT_VIDEO_URLS: Record<string, string
   "2|etica naturaleza y sociedades|PA3": "https://www.youtube.com/watch?v=0JlGDqCTTo8",
   "2|etica naturaleza y sociedades|PA30": "https://www.youtube.com/watch?v=XYG_rNyV-68",
   "2|etica naturaleza y sociedades|PA31": "https://www.youtube.com/watch?v=4REKkAq5faY",
-  "2|etica naturaleza y sociedades|PA32": "https://www.youtube.com/watch?v=PTEvvWfEDYQ",
+  "2|etica naturaleza y sociedades|PA32": "https://www.youtube.com/watch?v=oy1ZYgBMtnA",
   "2|etica naturaleza y sociedades|PA33": "https://www.youtube.com/watch?v=PTEvvWfEDYQ",
   "2|etica naturaleza y sociedades|PA34": "https://www.youtube.com/watch?v=chgj4AxNSUI",
   "2|etica naturaleza y sociedades|PA35": "https://www.youtube.com/watch?v=4KhZFFbq4vM",
