@@ -432,7 +432,8 @@ export const OFFICIAL_YOUTUBE_ACADEMIC_PROJECT_VIDEO_URLS: Record<string, string
   "3|saberes y pensamiento cientifico|PA6": "https://www.youtube.com/watch?v=jv8DyrGv4qE",
   "3|saberes y pensamiento cientifico|PA7": "https://www.youtube.com/watch?v=RZo9JOoqj3E",
   "3|saberes y pensamiento cientifico|PA8": "https://www.youtube.com/watch?v=RJ_WwccOf3k",
-  "3|saberes y pensamiento cientifico|PA9": "https://www.youtube.com/watch?v=ZcZ23oZZUAk"
+  "3|saberes y pensamiento cientifico|PA9": "https://www.youtube.com/watch?v=ZcZ23oZZUAk",
+  "2|etica naturaleza y sociedades|PA12": "https://www.youtube.com/watch?v=XPvf8yhMss8"
 };
 
 export const OFFICIAL_YOUTUBE_ACADEMIC_PROJECT_VIDEO_TITLES: Record<string, string> = {
@@ -843,7 +844,8 @@ export const OFFICIAL_YOUTUBE_ACADEMIC_PROJECT_VIDEO_TITLES: Record<string, stri
   "3|saberes y pensamiento cientifico|PA6": "Demostración con la comunidad",
   "3|saberes y pensamiento cientifico|PA7": "Demostración de mezclas homogéneas y heterogéneas",
   "3|saberes y pensamiento cientifico|PA8": "Prototipo 3D de equipo de...• Saberes y pensamiento científico • 3er grado | Video detonador",
-  "3|saberes y pensamiento cientifico|PA9": "Maqueta didáctica • Saberes y pensamiento científico • 3er grado | Video detonador"
+  "3|saberes y pensamiento cientifico|PA9": "Maqueta didáctica • Saberes y pensamiento científico • 3er grado | Video detonador",
+  "2|etica naturaleza y sociedades|PA12": "Cartel informativo"
 };
 
 export const OFFICIAL_YOUTUBE_PARTIAL_CLASSROOM_VIDEO_URLS: Record<string, string> = {
