@@ -26,6 +26,7 @@
     "caracoles:selectable-projects": "node scripts/caracoles/publish-selectable-projects.mjs",
     "caracoles:curricular-pipeline": "npm run caracoles:structure && npm run caracoles:catalog-from-tomes && npm run caracoles:link-possibilities && npm run caracoles:concepts-registry && npm run caracoles:heuristic-matrix && npm run caracoles:self-assessment && npm run caracoles:selectable-projects",
     "caracoles:validate": "node scripts/caracoles/validate-corpus.mjs",
+    "caracoles:sync-revalidated-videos": "node scripts/caracoles/sync-revalidated-videos-to-official-map.mjs",
     "caracoles:build-corpus": "npm run caracoles:extract && npm run caracoles:index && npm run caracoles:validate"
   },
   "dependencies": {

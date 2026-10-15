@@ -531,17 +531,28 @@ function classifyAcademicVideoEvidence(
   project: AcademicProject,
   view: CurricularDevelopmentProjectView | null,
   effectiveUrl?: string,
+  strategy?: Partial<CurricularStrategyEntry>,
 ): {
   urlStatus: ProjectStrategyRecord['urlStatus'];
   resourceLabel: string;
   validationNote?: string;
 } {
   const url = effectiveUrl || validatedAcademicProjectVideoUrl(project);
+  const strategyStatus = normalizeKey(strategy?.urlStatus || strategy?.status || '');
+  const isSpecificallyRevalidated = strategyStatus === 'revalidated-specific';
   if (!url) {
     return {
       urlStatus: 'not-found',
       resourceLabel: 'Video específico pendiente de validación',
       validationNote: 'No hay enlace directo confirmado para el video específico del Proyecto Académico.',
+    };
+  }
+
+  if (isSpecificallyRevalidated) {
+    return {
+      urlStatus: 'confirmed',
+      resourceLabel: 'Video/recurso del Proyecto Académico',
+      validationNote: 'Enlace específico revalidado para este Proyecto Académico.',
     };
   }
 
@@ -746,9 +757,16 @@ function buildComplementaryResources(
   const ppaNumber = Number(resolvePpaNumber(project, view) || 0);
   const validatedAcademicUrl = validatedAcademicProjectVideoUrl(project);
   const validatedPpaUrl = validatedPartialClassroomResourceUrl(project, view);
-  const academicSupportEvidence = classifyAcademicVideoEvidence(project, view, validatedAcademicUrl);
+  const academicStrategy = strategyList.find((strategy) => strategy.scope === 'academic-project');
+  const academicSupportEvidence = academicStrategy
+    ? {
+        urlStatus: academicStrategy.urlStatus,
+        resourceLabel: academicStrategy.resourceLabel,
+        validationNote: academicStrategy.validationNote,
+      }
+    : classifyAcademicVideoEvidence(project, view, validatedAcademicUrl);
   const academicProjectUrl =
-    strategyList.find((strategy) => strategy.scope === 'academic-project' && strategy.videoUrl)?.videoUrl ||
+    academicStrategy?.videoUrl ||
     validatedAcademicUrl ||
     '';
   const partialClassroomUrl =
@@ -1184,7 +1202,7 @@ function buildStrategies(project: AcademicProject, view: CurricularDevelopmentPr
   const academicEntry = developmentProject?.academicProjectStrategy || project.academicProjectStrategy;
   const academicEntryUrl = academicEntry?.url || extractReferenceUrl(academicEntry?.text || academicEntry?.reference || '') || '';
   const academicEffectiveUrl = isDirectVideoUrl(academicEntryUrl) ? academicEntryUrl : validatedAcademicVideoUrl;
-  const academicVideoEvidence = classifyAcademicVideoEvidence(project, view, academicEffectiveUrl);
+  const academicVideoEvidence = classifyAcademicVideoEvidence(project, view, academicEffectiveUrl, academicEntry);
 
   const academicProjectStrategy = buildStrategyEntry(
     academicEntry,
@@ -1200,7 +1218,11 @@ function buildStrategies(project: AcademicProject, view: CurricularDevelopmentPr
       validationNote: academicVideoEvidence.validationNote,
     },
   );
-  const academicProjectVideoTitle = validatedAcademicProjectVideoTitle(project);
+  const academicEntryStatus = normalizeKey(academicEntry?.urlStatus || academicEntry?.status || '');
+  const academicProjectVideoTitle =
+    academicEntryStatus === 'revalidated-specific' && academicEntry?.title
+      ? repairMojibake(academicEntry.title)
+      : validatedAcademicProjectVideoTitle(project);
   const academicProjectStrategyWithDisplayTitle =
     academicProjectStrategy && academicProjectVideoTitle
       ? {
