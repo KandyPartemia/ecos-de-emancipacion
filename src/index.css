@@ -338,6 +338,197 @@ footer {
   }
 }
 
+.youtube-channels-section {
+  padding: 2rem 1rem 4.5rem;
+  background: #f4eee4;
+}
+
+.youtube-channels-heading {
+  width: min(100%, 80rem);
+  margin: 0 auto 1.5rem;
+}
+
+.youtube-channels-heading > p:last-child {
+  max-width: 46rem;
+  margin-top: 0.9rem;
+  color: #6d5c50;
+  line-height: 1.75;
+}
+
+.youtube-carousel {
+  width: min(100%, 80rem);
+  margin: 0 auto;
+  overflow: hidden;
+  border: 1px solid rgba(99, 75, 52, 0.14);
+  border-radius: 0.75rem;
+  background: #fffaf1;
+  box-shadow: 0 1.25rem 3rem rgba(52, 62, 47, 0.11);
+}
+
+.youtube-carousel-viewport {
+  position: relative;
+  overflow: hidden;
+  touch-action: pan-y;
+}
+
+.youtube-carousel-track {
+  display: flex;
+  transition: transform 600ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.youtube-channel-slide {
+  display: grid;
+  flex: 0 0 100%;
+  min-width: 0;
+  background: #fffaf1;
+}
+
+.youtube-channel-image {
+  min-height: 17rem;
+  overflow: hidden;
+  background: #345b48;
+}
+
+.youtube-channel-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.youtube-channel-copy {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  min-width: 0;
+  padding: 2rem 3.75rem 2.25rem;
+}
+
+.youtube-channel-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.75rem;
+  height: 2.75rem;
+  margin-bottom: 1.15rem;
+  border-radius: 50%;
+  color: #fffaf1;
+  background: #a94f36;
+}
+
+.youtube-channel-eyebrow {
+  margin: 0 0 0.65rem;
+  color: #98653d;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.youtube-channel-copy h3 {
+  max-width: 100%;
+  margin: 0;
+  color: #315845;
+  font-family: var(--font-serif);
+  font-size: clamp(2rem, 5vw, 3.6rem);
+  font-weight: 500;
+  line-height: 1.03;
+  overflow-wrap: anywhere;
+}
+
+.youtube-channel-copy > p:not(.youtube-channel-eyebrow) {
+  max-width: 38rem;
+  margin: 1rem 0 1.5rem;
+  color: #6d5c50;
+  line-height: 1.75;
+}
+
+.youtube-channel-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+  min-height: 3rem;
+  padding: 0.7rem 1.15rem;
+  border: 1px solid #315845;
+  border-radius: 999px;
+  color: #315845;
+  font-weight: 700;
+  text-decoration: none;
+  transition: background-color 180ms ease, color 180ms ease;
+}
+
+.youtube-channel-link:hover {
+  color: #fffaf1;
+  background: #315845;
+}
+
+.youtube-carousel-arrow {
+  position: absolute;
+  top: 50%;
+  z-index: 2;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.75rem;
+  height: 2.75rem;
+  border: 1px solid rgba(255, 250, 241, 0.75);
+  border-radius: 50%;
+  color: #fffaf1;
+  background: rgba(49, 88, 69, 0.92);
+  box-shadow: 0 0.4rem 1rem rgba(31, 48, 39, 0.2);
+  transform: translateY(-50%);
+}
+
+.youtube-carousel-previous { left: 0.65rem; }
+.youtube-carousel-next { right: 0.65rem; }
+
+.youtube-carousel-dots {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  min-height: 2.75rem;
+  background: #315845;
+}
+
+.youtube-carousel-dot {
+  width: 0.55rem;
+  height: 0.55rem;
+  padding: 0;
+  border: 0;
+  border-radius: 999px;
+  background: rgba(255, 250, 241, 0.45);
+  transition: width 180ms ease, background-color 180ms ease;
+}
+
+.youtube-carousel-dot.is-active {
+  width: 1.8rem;
+  background: #d2a545;
+}
+
+.youtube-carousel-arrow:focus-visible,
+.youtube-carousel-dot:focus-visible,
+.youtube-channel-link:focus-visible {
+  outline: 3px solid #d2a545;
+  outline-offset: 3px;
+}
+
+@media (min-width: 768px) {
+  .youtube-channels-section { padding: 3rem 2rem 6rem; }
+  .youtube-channel-slide { grid-template-columns: minmax(20rem, 0.82fr) minmax(0, 1.18fr); }
+  .youtube-channel-image { min-height: 30rem; }
+  .youtube-channel-copy { padding: 3rem 5.5rem; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .youtube-carousel-track,
+  .youtube-carousel-dot,
+  .youtube-channel-link {
+    transition: none;
+  }
+}
+
 .section-kicker::before {
   content: "";
   display: inline-block;

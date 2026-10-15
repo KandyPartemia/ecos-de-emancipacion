@@ -474,6 +474,42 @@ const musicChannels = [
   },
 ];
 
+const youtubeChannels = [
+  {
+    id: 'ecos-pedagogia',
+    eyebrow: 'Pedagogía y vida cotidiana',
+    title: 'Maestra Kandy Partemia',
+    description: 'Reflexiones, propuestas y recursos para acompañar la educación desde la conciencia, el criterio y la raíz comunitaria.',
+    href: LINKS.youtube,
+    image: '/images/retrato-editorial-kandy.webp',
+    alt: 'Retrato editorial de Kandy Partemia, autora de Ecos de Emancipación',
+    imagePosition: '50% 24%',
+    tone: 'pedagogy',
+  },
+  {
+    id: 'plenitud-en-canto',
+    eyebrow: 'Música para la vida cotidiana',
+    title: 'Plenitud en Canto',
+    description: 'Canciones para acompañar el alma, la gratitud, la serenidad y esos momentos en que necesitamos volver a escucharnos.',
+    href: musicChannels[0].channelUrl,
+    image: '/images/ecos-universo-musical-visual.webp',
+    alt: 'Composición editorial del universo musical de Ecos de Emancipación',
+    imagePosition: '50% 50%',
+    tone: 'music',
+  },
+  {
+    id: 'resonancias-de-libertad',
+    eyebrow: 'Memoria, dignidad y esperanza',
+    title: 'Resonancias de Libertad',
+    description: 'Canciones con conciencia para pensar el mundo, cuidar la memoria y sostener una sensibilidad emancipadora.',
+    href: musicChannels[1].channelUrl,
+    image: '/images/ecos-resonancias-visual.webp',
+    alt: 'Composición editorial de las resonancias de Ecos de Emancipación',
+    imagePosition: '50% 50%',
+    tone: 'resonance',
+  },
+];
+
 const storeItems = [
   {
     title: 'Semillero de Conciencia',
@@ -1640,6 +1676,7 @@ function App() {
         <PublicationsSpotlight />
         <AudiencePaths />
         <About />
+        <YouTubeChannelsCarousel />
         <BuyMeACoffeeLink variant="inline" />
         <Invitation />
         <Footer />
@@ -2088,6 +2125,132 @@ function About() {
           <p className="mt-8 border-l-4 border-gold pl-5 font-serif text-3xl leading-tight text-terracotta">
             Educar también es abrir caminos de conciencia.
           </p>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+function YouTubeChannelsCarousel() {
+  const [activeIndex, setActiveIndex] = useState(0);
+  const [hasInteracted, setHasInteracted] = useState(false);
+  const [isHovering, setIsHovering] = useState(false);
+  const [prefersReducedMotion, setPrefersReducedMotion] = useState(false);
+  const pointerStartX = useRef(null);
+
+  useEffect(() => {
+    const mediaQuery = window.matchMedia('(prefers-reduced-motion: reduce)');
+    const updatePreference = () => setPrefersReducedMotion(mediaQuery.matches);
+    updatePreference();
+    mediaQuery.addEventListener('change', updatePreference);
+    return () => mediaQuery.removeEventListener('change', updatePreference);
+  }, []);
+
+  useEffect(() => {
+    if (prefersReducedMotion || hasInteracted || isHovering) return undefined;
+    const timer = window.setInterval(() => {
+      setActiveIndex((current) => (current + 1) % youtubeChannels.length);
+    }, 5500);
+    return () => window.clearInterval(timer);
+  }, [hasInteracted, isHovering, prefersReducedMotion]);
+
+  const selectChannel = (index) => {
+    setHasInteracted(true);
+    setActiveIndex((index + youtubeChannels.length) % youtubeChannels.length);
+  };
+
+  const handlePointerDown = (event) => {
+    pointerStartX.current = event.clientX;
+  };
+
+  const handlePointerUp = (event) => {
+    if (pointerStartX.current === null) return;
+    const distance = event.clientX - pointerStartX.current;
+    pointerStartX.current = null;
+    if (Math.abs(distance) < 42) return;
+    selectChannel(activeIndex + (distance < 0 ? 1 : -1));
+  };
+
+  return (
+    <section id="canales-youtube" className="youtube-channels-section" aria-labelledby="youtube-channels-title">
+      <div className="youtube-channels-heading">
+        <p className="section-kicker">Canales de YouTube</p>
+        <h2 id="youtube-channels-title" className="section-title">Escucha, piensa y resuena con Ecos.</h2>
+        <p>Explora los canales donde la pedagogía, la música y la conciencia continúan la conversación.</p>
+      </div>
+
+      <div
+        className="youtube-carousel"
+        aria-roledescription="carrusel"
+        aria-label="Canales de YouTube de Ecos de Emancipación"
+        onMouseEnter={() => setIsHovering(true)}
+        onMouseLeave={() => setIsHovering(false)}
+        onFocusCapture={() => setHasInteracted(true)}
+      >
+        <div
+          className="youtube-carousel-viewport"
+          onPointerDown={handlePointerDown}
+          onPointerUp={handlePointerUp}
+          onPointerCancel={() => { pointerStartX.current = null; }}
+          onPointerLeave={() => { pointerStartX.current = null; }}
+        >
+          <div className="youtube-carousel-track" style={{ transform: `translateX(-${activeIndex * 100}%)` }}>
+            {youtubeChannels.map((channel, index) => (
+              <article
+                key={channel.id}
+                className={`youtube-channel-slide youtube-channel-${channel.tone}`}
+                aria-hidden={index !== activeIndex}
+              >
+                <div className="youtube-channel-image">
+                  <img
+                    src={channel.image}
+                    alt={channel.alt}
+                    style={{ objectPosition: channel.imagePosition }}
+                    loading="lazy"
+                    width="900"
+                    height="900"
+                  />
+                </div>
+                <div className="youtube-channel-copy">
+                  <span className="youtube-channel-icon" aria-hidden="true"><Youtube size={23} /></span>
+                  <p className="youtube-channel-eyebrow">{channel.eyebrow}</p>
+                  <h3>{channel.title}</h3>
+                  <p>{channel.description}</p>
+                  <a
+                    href={channel.href}
+                    className="youtube-channel-link"
+                    target="_blank"
+                    rel="noreferrer"
+                    tabIndex={index === activeIndex ? 0 : -1}
+                    onClick={() => setHasInteracted(true)}
+                  >
+                    Visitar el canal
+                    <ArrowUpRight size={17} aria-hidden="true" />
+                  </a>
+                </div>
+              </article>
+            ))}
+          </div>
+
+          <button type="button" className="youtube-carousel-arrow youtube-carousel-previous" onClick={() => selectChannel(activeIndex - 1)} aria-label="Mostrar canal anterior">
+            <ChevronLeft size={24} aria-hidden="true" />
+          </button>
+          <button type="button" className="youtube-carousel-arrow youtube-carousel-next" onClick={() => selectChannel(activeIndex + 1)} aria-label="Mostrar canal siguiente">
+            <ChevronRight size={24} aria-hidden="true" />
+          </button>
+        </div>
+
+        <div className="youtube-carousel-dots" role="group" aria-label="Elegir canal de YouTube">
+          {youtubeChannels.map((channel, index) => (
+            <button
+              key={channel.id}
+              type="button"
+              className={index === activeIndex ? 'youtube-carousel-dot is-active' : 'youtube-carousel-dot'}
+              onClick={() => selectChannel(index)}
+              aria-label={`Mostrar canal: ${channel.title}`}
+              aria-current={index === activeIndex ? 'true' : undefined}
+            />
+          ))}
         </div>
       </div>
     </section>
