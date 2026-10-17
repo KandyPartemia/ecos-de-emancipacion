@@ -21,6 +21,8 @@ GRADE_DIRS = {
     "tercer-grado": "3",
 }
 
+TARGET_GRADE = str(__import__("os").environ.get("TARGET_GRADE", "")).strip()
+
 FIELD_CODES = {
     "DHC": "De lo Humano y lo Comunitario",
     "ENS": "Ética, Naturaleza y Sociedades",
@@ -123,6 +125,7 @@ def parse_sources(lines):
     in_multiples = False
     buffer = []
     bullet_buffer = False
+    current_parent = None
 
     for raw_line in lines:
         line = compact(raw_line)
@@ -130,6 +133,7 @@ def parse_sources(lines):
             continue
         if re.search(r"Múltiples Lenguajes", line, re.I):
             in_multiples = True
+            current_parent = None
             line = re.sub(r"^.*?Múltiples Lenguajes\s*:\s*", "", line, flags=re.I)
             buffer = []
             bullet_buffer = False
@@ -142,47 +146,42 @@ def parse_sources(lines):
             continue
 
         is_bullet = line.startswith(("•", "·", "�", "-"))
-        pages = page_range(line)
-        if pages:
-            target = multiples if in_multiples else concepts
-            if is_bullet or bullet_buffer:
-                if target:
-                    target[-1]["endPage"] = max(target[-1]["endPage"], pages[1])
-                    target[-1]["pagesLabel"] = (
-                        f"p. {target[-1]['startPage']}"
-                        if target[-1]["startPage"] == target[-1]["endPage"]
-                        else f"pp. {target[-1]['startPage']}-{target[-1]['endPage']}"
-                    )
-            else:
-                prefix = re.split(r"\bpp?\.\s*\d+", line, maxsplit=1, flags=re.I)[0]
-                prefix = re.sub(r"^[•·�\-\s]+", "", prefix).strip(" ,.;:")
-                title_parts = []
-                if len(prefix.split()) < 3:
-                    title_parts.extend(buffer[-2:])
-                title_parts.append(prefix)
-                title = compact(" ".join(part for part in title_parts if part)).strip(" ,.;:")
-                if title:
-                    target.append(
-                        {
-                            "title": title,
-                            "startPage": pages[0],
-                            "endPage": pages[1],
-                            "pagesLabel": f"p. {pages[0]}" if pages[0] == pages[1] else f"pp. {pages[0]}-{pages[1]}",
-                        }
-                    )
-            buffer = []
-            bullet_buffer = False
+        if is_bullet:
+            buffer = [re.sub(r"^[•·�\-\s]+", "", line)]
+            bullet_buffer = True
+        elif buffer and buffer[-1].endswith("-"):
+            buffer[-1] = buffer[-1][:-1] + line
+        else:
+            buffer.append(line)
+
+        joined = compact(" ".join(buffer))
+        pages = page_range(joined)
+        if not pages:
             continue
 
-        if is_bullet:
-            bullet_buffer = True
-            buffer = [re.sub(r"^[•·�\-\s]+", "", line)]
-        else:
-            if buffer and buffer[-1].endswith("-"):
-                buffer[-1] = buffer[-1][:-1] + line
-            else:
-                buffer.append(line)
-                buffer = buffer[-3:]
+        target = multiples if in_multiples else concepts
+        prefix = re.split(r"\bpp?\.\s*\d+", joined, maxsplit=1, flags=re.I)[0]
+        prefix = re.sub(r"^[•·�\-\s]+", "", prefix).strip(" ,.;:")
+        if bullet_buffer:
+            if current_parent is not None and current_parent < len(target):
+                target[current_parent]["endPage"] = max(target[current_parent]["endPage"], pages[1])
+                target[current_parent]["pagesLabel"] = (
+                    f"p. {target[current_parent]['startPage']}"
+                    if target[current_parent]["startPage"] == target[current_parent]["endPage"]
+                    else f"pp. {target[current_parent]['startPage']}-{target[current_parent]['endPage']}"
+                )
+        elif prefix:
+            target.append(
+                {
+                    "title": prefix,
+                    "startPage": pages[0],
+                    "endPage": pages[1],
+                    "pagesLabel": f"p. {pages[0]}" if pages[0] == pages[1] else f"pp. {pages[0]}-{pages[1]}",
+                }
+            )
+            current_parent = len(target) - 1
+        buffer = []
+        bullet_buffer = False
 
     return concepts, multiples
 
@@ -239,6 +238,8 @@ records = []
 warnings = []
 
 for grade_dir, grade in GRADE_DIRS.items():
+    if TARGET_GRADE and grade != TARGET_GRADE:
+        continue
     possibility_dir = SOURCE_ROOT / grade_dir / "posibilidades"
     for pdf_path in sorted(possibility_dir.glob("POS_*.pdf")):
         reader = PdfReader(str(pdf_path))
@@ -269,7 +270,10 @@ for grade_dir, grade in GRADE_DIRS.items():
                 ]
             seen_project_numbers.update(number for _, number in positions)
 
-            columns = split_columns(layout_reader.pages[page_index], float(layout_reader.pages[page_index].height) * 0.18)
+            # The source lists begin below the product row. Starting here prevents
+            # project titles, products and the shared PPA video from contaminating
+            # the first curricular reference in each column.
+            columns = split_columns(layout_reader.pages[page_index], float(layout_reader.pages[page_index].height) * 0.39)
             page_count_match = re.search(r"\b1 de ([12])\b", plain)
             table_page_count = int(page_count_match.group(1)) if page_count_match else 1
             reviewed_pages = [page_index + 1]
