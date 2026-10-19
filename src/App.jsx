@@ -3147,11 +3147,22 @@ function AmazonBooksCarousel() {
         <div className="mt-8 overflow-hidden rounded-[1.5rem] border border-earth/15 bg-white/80 shadow-soft">
           <div className="grid gap-0 md:grid-cols-[minmax(15rem,0.72fr)_1.28fr]">
             <div className="flex items-center justify-center bg-forest/5 p-6 sm:p-8">
-              <BookCover
-                publication={activeBook}
-                className="aspect-[2/3] max-h-[31rem] w-full max-w-[20rem] rounded-md object-contain shadow-[0_18px_38px_rgba(50,45,37,0.2)]"
-                loading="eager"
-              />
+              {activeBook.image ? (
+                <BookCover
+                  publication={activeBook}
+                  className="aspect-[2/3] max-h-[31rem] w-full max-w-[20rem] rounded-md object-contain shadow-[0_18px_38px_rgba(50,45,37,0.2)]"
+                  loading="eager"
+                />
+              ) : (
+                <div className="flex aspect-[2/3] max-h-[31rem] w-full max-w-[20rem] flex-col justify-between rounded-md bg-forest p-7 text-cream shadow-[0_18px_38px_rgba(50,45,37,0.2)]">
+                  <BookOpenText size={34} className="text-gold" aria-hidden="true" />
+                  <div>
+                    <p className="font-mono text-xs font-semibold uppercase tracking-[0.16em] text-gold">Ecos de Emancipación</p>
+                    <p className="mt-4 font-serif text-3xl leading-tight">{activeBook.title}</p>
+                    <p className="mt-5 text-sm leading-6 text-cream/75">{activeBook.author}</p>
+                  </div>
+                </div>
+              )}
             </div>
 
             <div className="flex min-h-[28rem] flex-col justify-between p-6 sm:p-9">
@@ -3190,7 +3201,7 @@ function AmazonBooksCarousel() {
           </div>
 
           <div className="border-t border-earth/10 bg-cream/75 p-4 sm:p-5">
-            <div className="grid grid-cols-4 gap-2 sm:gap-4" role="tablist" aria-label="Elegir una obra">
+            <div className="grid grid-cols-2 gap-2 sm:grid-cols-3 sm:gap-4 lg:grid-cols-5" role="tablist" aria-label="Elegir una obra">
               {amazonBooks.map((book, index) => (
                 <button
                   key={book.id}
@@ -3201,7 +3212,13 @@ function AmazonBooksCarousel() {
                   className={`amazon-carousel-thumb ${index === activeIndex ? 'amazon-carousel-thumb-active' : ''}`}
                   onClick={() => setActiveIndex(index)}
                 >
-                  <img src={book.image} alt="" className="aspect-[2/3] h-16 w-auto shrink-0 rounded-sm object-contain sm:h-24" loading="lazy" />
+                  {book.image ? (
+                    <img src={book.image} alt="" className="aspect-[2/3] h-16 w-auto shrink-0 rounded-sm object-contain sm:h-24" loading="lazy" />
+                  ) : (
+                    <span className="flex aspect-[2/3] h-16 shrink-0 items-center justify-center rounded-sm bg-forest text-gold sm:h-24" aria-hidden="true">
+                      <BookOpenText size={22} />
+                    </span>
+                  )}
                   <span className="hidden text-left text-sm font-bold leading-5 text-forest lg:block">{book.title}</span>
                 </button>
               ))}
