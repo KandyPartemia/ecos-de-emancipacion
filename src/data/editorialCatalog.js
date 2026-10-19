@@ -142,6 +142,8 @@ export const publications = [
     author: 'Kandy Partemia González Torreblanca',
     category: 'Filosofía, simbolismo y pensamiento masónico',
     description: 'Una reflexión sobre la verdad, el error y el diálogo fraterno desde la epistemología masónica.',
+    image: '/images/publicaciones/la-razon-bajo-la-escuadra.png',
+    alt: 'Portada de La razón bajo la escuadra, de Kandy Partemia González Torreblanca',
     amazonUrl: 'https://www.amazon.com.mx/dp/B0HMR5HJ4L',
     status: 'available',
   },
