@@ -56,6 +56,24 @@ const LINKS = {
   whatsapp: 'https://wa.me/message/XRGTMKCKFGWZP1?src=qr',
 };
 
+function getPublicationDestination(publication) {
+  if (publication.amazonUrl) {
+    return {
+      href: publication.amazonUrl,
+      label: `Comprar ${publication.title} en Amazon México`,
+      text: 'Comprar en Amazon',
+      type: 'amazon',
+    };
+  }
+
+  return {
+    href: LINKS.whatsapp,
+    label: `Pedir informes sobre ${publication.title} por WhatsApp`,
+    text: 'Pedir informes',
+    type: 'whatsapp',
+  };
+}
+
 const NEWSLETTER_FORM_URL = 'https://forms.gle/gP9vBgFaYdUgZNXg7';
 
 const IMAGES = {
@@ -3146,7 +3164,13 @@ function AmazonBooksCarousel() {
 
         <div className="mt-8 overflow-hidden rounded-[1.5rem] border border-earth/15 bg-white/80 shadow-soft">
           <div className="grid gap-0 md:grid-cols-[minmax(15rem,0.72fr)_1.28fr]">
-            <div className="flex items-center justify-center bg-forest/5 p-6 sm:p-8">
+            <a
+              href={activeBook.amazonUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center justify-center bg-forest/5 p-6 transition hover:bg-forest/10 focus-visible:outline focus-visible:outline-3 focus-visible:outline-offset-[-3px] focus-visible:outline-gold sm:p-8"
+              aria-label={`Comprar ${activeBook.title} en Amazon México`}
+            >
               {activeBook.image ? (
                 <BookCover
                   publication={activeBook}
@@ -3163,7 +3187,7 @@ function AmazonBooksCarousel() {
                   </div>
                 </div>
               )}
-            </div>
+            </a>
 
             <div className="flex min-h-[28rem] flex-col justify-between p-6 sm:p-9">
               <div aria-live="polite">
@@ -3584,9 +3608,11 @@ function PublicationsSpotlight() {
             {featuredPublications.map((publication, index) => (
               <a
                 key={publication.title}
-                href={publication.detailRoute}
+                href={getPublicationDestination(publication).href}
+                target="_blank"
+                rel="noopener noreferrer"
                 className={`block overflow-hidden rounded-md border border-cream/20 bg-cream shadow-soft transition hover:-translate-y-1 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-gold ${index === 1 ? 'mb-5' : ''}`}
-                aria-label={`Conocer ${publication.title}`}
+                aria-label={getPublicationDestination(publication).label}
               >
                 <BookCover publication={publication} className="h-auto w-full object-contain" />
               </a>
@@ -3670,21 +3696,22 @@ function Publications() {
           <div className="mt-5 grid gap-5 md:grid-cols-2 xl:grid-cols-3">
             {visiblePublications.map((publication) => {
               const direction = editorialDirections.find(({ id }) => id === publication.direction);
+              const destination = getPublicationDestination(publication);
               return (
               <article id={publication.id} key={publication.id} className="relative flex min-w-0 scroll-mt-28 flex-col overflow-hidden rounded-md border border-earth/15 bg-white shadow-sm">
                 {publication.legacyId && <span id={publication.legacyId} className="absolute top-0 scroll-mt-28" aria-hidden="true" />}
                 {publication.image ? (
-                  <div className="flex aspect-[4/3] items-center justify-center bg-[#eee4d6] p-5">
+                  <ExternalLink className="flex aspect-[4/3] items-center justify-center bg-[#eee4d6] p-5 transition hover:bg-[#e6d8c4] focus-visible:outline focus-visible:outline-3 focus-visible:outline-offset-[-3px] focus-visible:outline-gold" href={destination.href} label={destination.label}>
                     <BookCover publication={publication} className="h-full w-auto max-w-full object-contain shadow-soft" />
-                  </div>
+                  </ExternalLink>
                 ) : (
-                  <div className="flex aspect-[4/3] items-end bg-forest p-6 text-cream">
+                  <ExternalLink className="flex aspect-[4/3] items-end bg-forest p-6 text-cream transition hover:bg-[#244b3a] focus-visible:outline focus-visible:outline-3 focus-visible:outline-offset-[-3px] focus-visible:outline-gold" href={destination.href} label={destination.label}>
                     <div>
                       <BookOpenText className="mb-5 text-gold" size={30} aria-hidden="true" />
                       <p className="font-mono text-xs font-semibold uppercase tracking-[0.16em] text-gold">Proyecto editorial</p>
                       <p className="mt-2 font-serif text-2xl leading-tight">Ecos de Emancipación</p>
                     </div>
-                  </div>
+                  </ExternalLink>
                 )}
                 <div className="flex flex-1 flex-col p-6">
                   <div className="flex flex-wrap gap-2">
@@ -3695,10 +3722,16 @@ function Publications() {
                   {publication.subtitle && <p className="mt-3 font-semibold leading-7 text-earth">{publication.subtitle}</p>}
                   <p className="mt-4 leading-7 text-earth">{publication.description}</p>
                   {publication.author && <p className="mt-4 text-sm leading-7 text-forest"><strong>Autora:</strong> {publication.author}</p>}
-                  {publication.detailRoute && <a className="btn-secondary mt-auto pt-6" href={publication.detailRoute}>
-                    Conocer el libro
-                    <ArrowUpRight size={18} aria-hidden="true" />
-                  </a>}
+                  <div className="mt-auto flex flex-wrap gap-3 pt-6">
+                    <ExternalLink className="btn-primary" href={destination.href} label={destination.label}>
+                      {destination.text}
+                      {destination.type === 'amazon' ? <ShoppingBag size={18} aria-hidden="true" /> : <MessageCircle size={18} aria-hidden="true" />}
+                    </ExternalLink>
+                    {publication.detailRoute && <a className="btn-secondary" href={publication.detailRoute}>
+                      Conocer el libro
+                      <ArrowUpRight size={18} aria-hidden="true" />
+                    </a>}
+                  </div>
                 </div>
               </article>
               );
@@ -3721,7 +3754,7 @@ function Publications() {
             <p className="section-kicker text-gold">Dónde conseguir los libros</p>
             <h2 id="conseguir-libros-titulo" className="mt-3 font-serif text-4xl leading-tight sm:text-6xl">Información directa, sin confundir catálogo y disponibilidad.</h2>
             <p className="mt-5 max-w-2xl leading-8 text-cream/80">
-              {availablePublications.length === 1 ? 'Actualmente hay una obra señalada como disponible.' : `Actualmente hay ${availablePublications.length} obras señaladas como disponibles.`} Consulta por WhatsApp sus formatos y condiciones vigentes. Los títulos en revisión o desarrollo no se ofrecen como disponibles.
+              {availablePublications.length === 1 ? 'Actualmente hay una obra señalada como disponible.' : `Actualmente hay ${availablePublications.length} obras señaladas como disponibles.`} Las obras con ficha en Amazon enlazan directamente a su compra; para ediciones en proceso, venta directa o materiales especiales, solicita información por WhatsApp.
             </p>
             <ExternalLink
               className="btn-gold mt-7"
@@ -3742,14 +3775,20 @@ function PublicationDetail({ publication }) {
   const relatedBook = publications.find(
     ({ id }) => id !== publication.id && id.startsWith('cognitologia-'),
   );
+  const publicationDestination = getPublicationDestination(publication);
+  const relatedDestination = relatedBook ? getPublicationDestination(relatedBook) : null;
 
   return (
     <>
       <article className="section-pad bg-cream">
         <div className="mx-auto grid max-w-7xl gap-10 lg:grid-cols-[minmax(18rem,0.78fr)_1.22fr] lg:items-start">
-          <figure className="mx-auto w-full max-w-[29rem] overflow-hidden rounded-md border border-earth/15 bg-white shadow-soft">
+          <ExternalLink
+            className="mx-auto block w-full max-w-[29rem] overflow-hidden rounded-md border border-earth/15 bg-white shadow-soft transition hover:-translate-y-1 focus-visible:outline focus-visible:outline-3 focus-visible:outline-offset-4 focus-visible:outline-gold"
+            href={publicationDestination.href}
+            label={publicationDestination.label}
+          >
             <BookCover publication={publication} className="h-auto w-full object-contain" loading="eager" />
-          </figure>
+          </ExternalLink>
 
           <div className="min-w-0 lg:pt-4">
             <a className="inline-flex min-h-11 items-center gap-2 font-bold text-forest" href="/publicaciones">
@@ -3776,11 +3815,11 @@ function PublicationDetail({ publication }) {
             <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
               <ExternalLink
                 className="btn-primary"
-                href={LINKS.whatsapp}
-                label={`Solicitar información de ${publication.title} por WhatsApp`}
+                href={publicationDestination.href}
+                label={publicationDestination.label}
               >
-                Solicitar información
-                <MessageCircle size={18} aria-hidden="true" />
+                {publicationDestination.text}
+                {publicationDestination.type === 'amazon' ? <ShoppingBag size={18} aria-hidden="true" /> : <MessageCircle size={18} aria-hidden="true" />}
               </ExternalLink>
               <a className="btn-secondary" href="/cognitologia">
                 Conocer la Cognitología
@@ -3808,9 +3847,9 @@ function PublicationDetail({ publication }) {
                 <ArrowUpRight size={18} aria-hidden="true" />
               </a>
             </div>
-            <a href={relatedBook.detailRoute} className="mx-auto block w-full max-w-[18rem] overflow-hidden rounded-md border border-earth/15 bg-white shadow-soft" aria-label={`Conocer ${relatedBook.title}`}>
+            <ExternalLink href={relatedDestination.href} className="mx-auto block w-full max-w-[18rem] overflow-hidden rounded-md border border-earth/15 bg-white shadow-soft transition hover:-translate-y-1 focus-visible:outline focus-visible:outline-3 focus-visible:outline-offset-4 focus-visible:outline-gold" label={relatedDestination.label}>
               <BookCover publication={relatedBook} className="h-auto w-full object-contain" />
-            </a>
+            </ExternalLink>
           </div>
         </section>
       )}
