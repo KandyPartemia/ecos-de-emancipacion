@@ -10,25 +10,61 @@ import pdfplumber
 
 ROOT = Path(__file__).resolve().parents[2]
 BUNDLE_ROOT = ROOT / "public" / "caracoles" / "data" / "curricular-development"
-SOURCE_ROOT = ROOT / "content" / "caracoles" / "source-pdfs" / "segundo-grado" / "conceptos"
-INDEX_PATH = ROOT / "content" / "caracoles" / "generated-private" / "grade-2" / "pages-index.full.json"
-REPORT_JSON = ROOT / "reports" / "caracoles" / "grade2-concept-page-revalidation.json"
-REPORT_MD = ROOT / "reports" / "caracoles" / "grade2-concept-page-revalidation.md"
 POSSIBILITIES_PATH = ROOT / "tmp" / "caracoles-possibilities-columns.json"
 
-BOOKS = {
-    "grade-2-conceptos-de-lo-humano-y-lo-comunitario-segundo-grado": SOURCE_ROOT / "de lo humano y lo comunitario segundo grado.pdf",
-    "grade-2-conceptos-etica-naturaleza-y-sociedades-segundo-grado": SOURCE_ROOT / "ética, naturaleza y sociedades segundo grado.pdf",
-    "grade-2-conceptos-lenguajes-segundo-grado": SOURCE_ROOT / "lenguajes segundo grado.pdf",
-    "grade-2-conceptos-saberes-y-pensamiento-cientifico-segundo-grado": SOURCE_ROOT / "saberes y pensamiento cientifico segundo grado.pdf",
+GRADE_NAMES = {
+    1: ("primer-grado", "primer grado"),
+    2: ("segundo-grado", "segundo grado"),
+    3: ("tercer-grado", "tercer grado"),
 }
 
-FIELD_BOOKS = {
-    "de lo humano y lo comunitario": "grade-2-conceptos-de-lo-humano-y-lo-comunitario-segundo-grado",
-    "etica naturaleza y sociedades": "grade-2-conceptos-etica-naturaleza-y-sociedades-segundo-grado",
-    "lenguajes": "grade-2-conceptos-lenguajes-segundo-grado",
-    "saberes y pensamiento cientifico": "grade-2-conceptos-saberes-y-pensamiento-cientifico-segundo-grado",
+TITLE_OVERRIDES = {
+    (3, "etica naturaleza y sociedades", 8): ("fasciculosinformativos", "El islam"),
+    (3, "lenguajes", 29): ("epseerriovdairs", "El periodismo como herramienta para preservar la memoria colectiva"),
+    (3, "lenguajes", 33): ("cancionesliricastradicionales", "Las pirekuas en lengua p'urhépecha y otras canciones líricas tradicionales"),
+    (1, "lenguajes", 32): ("nliatrerraatrivioo", "Género narrativo y sus recursos"),
+    (1, "lenguajes", 43): ("herramientaparalainclusion", "Elementos de las artes como herramienta para la inclusión"),
+    (1, "etica naturaleza y sociedades", 9): ("relacionesinterculturalesbasadasenelrespeto", "Relaciones interculturales basadas en el respeto"),
 }
+
+OCR_PREFIXES = (
+    "mapas mentales ", "textos argumentativos breves ", "cuadros comparativos ",
+    "piramide demografica ", "cuadro comparativo novedoso ",
+    "periodico mural resaltado ", "juntos a resolver problemas ",
+)
+
+
+def grade_configuration(grade):
+    folder_name, label = GRADE_NAMES[grade]
+    source_root = ROOT / "content" / "caracoles" / "source-pdfs" / folder_name / "conceptos"
+    available = {normalize(path.name): path for path in source_root.glob("*.pdf")}
+
+    def find_pdf(fragment):
+        matches = [path for key, path in available.items() if fragment in key]
+        if len(matches) != 1:
+            raise FileNotFoundError(f"No se pudo resolver el libro '{fragment}' en {source_root}")
+        return matches[0]
+
+    material_ids = {
+        "de lo humano y lo comunitario": f"grade-{grade}-conceptos-de-lo-humano-y-lo-comunitario-{label.replace(' ', '-')}",
+        "etica naturaleza y sociedades": f"grade-{grade}-conceptos-etica-naturaleza-y-sociedades-{label.replace(' ', '-')}",
+        "lenguajes": f"grade-{grade}-conceptos-lenguajes-{label.replace(' ', '-')}",
+        "saberes y pensamiento cientifico": f"grade-{grade}-conceptos-saberes-y-pensamiento-cientifico-{label.replace(' ', '-')}",
+    }
+    books = {
+        material_ids["de lo humano y lo comunitario"]: find_pdf("humano y lo comunitario"),
+        material_ids["etica naturaleza y sociedades"]: find_pdf("etica naturaleza y sociedades"),
+        material_ids["lenguajes"]: find_pdf("lenguajes"),
+        material_ids["saberes y pensamiento cientifico"]: find_pdf("saberes y pensamiento"),
+    }
+    return {
+        "label": label,
+        "books": books,
+        "fieldBooks": material_ids,
+        "indexPath": ROOT / "content" / "caracoles" / "generated-private" / f"grade-{grade}" / "pages-index.full.json",
+        "reportJson": ROOT / "reports" / "caracoles" / f"grade{grade}-concept-page-revalidation.json",
+        "reportMd": ROOT / "reports" / "caracoles" / f"grade{grade}-concept-page-revalidation.md",
+    }
 
 
 def normalize(value):
@@ -43,6 +79,18 @@ def title_tokens(value):
         "de", "del", "la", "las", "el", "los", "una", "uno", "unos", "unas", "y", "e", "o", "en",
     }
     return [token for token in normalize(value).split() if len(token) >= 3 and token not in ignored]
+
+
+def clean_ocr_title(value):
+    value = re.sub(r"^\s*\d+\s+", "", str(value or "")).strip()
+    normalized = normalize(value)
+    for prefix in OCR_PREFIXES:
+        normalized_prefix = normalize(prefix)
+        if normalized.startswith(normalized_prefix):
+            words_to_remove = len(normalized_prefix.split())
+            value = " ".join(value.split()[words_to_remove:]).strip()
+            break
+    return value
 
 
 def group_pages(pages, allowed_gap=2):
@@ -77,7 +125,7 @@ def title_similarity(left, right):
 def extract_toc_entries(pdf_path):
     entries = []
     with pdfplumber.open(pdf_path) as pdf:
-        for pdf_index in range(8, min(13, len(pdf.pages))):
+        for pdf_index in range(8, min(17, len(pdf.pages))):
             words = pdf.pages[pdf_index].extract_words(extra_attrs=["size"])
             lines = []
             for word in sorted(words, key=lambda item: (round(item["top"], 1), item["x0"])):
@@ -136,7 +184,7 @@ def extract_ocr_toc_entries(pages):
         "indice", "lenguajes", "espanol", "ingles", "artes",
         "lengua indigena como lengua materna", "lengua indigena como segunda lengua",
     }
-    for page_number in range(9, 14):
+    for page_number in range(9, 18):
         page = pages.get(page_number)
         if not page:
             continue
@@ -180,7 +228,9 @@ def extract_ocr_toc_entries(pages):
     return entries
 
 
-def choose_range(title, pages, toc_entries):
+def choose_range(title, pages, toc_entries, expected_start=None, expected_end=None):
+    expected_start = int(expected_start or 0)
+    expected_end = int(expected_end or expected_start)
     compact_title = normalize(title).replace(" ", "")
     embedded_candidates = []
     for entry in toc_entries:
@@ -248,10 +298,22 @@ def choose_range(title, pages, toc_entries):
         }
 
     normalized_title = normalize(title)
+    if expected_start and expected_start in pages:
+        expected_page = pages[expected_start]
+        if normalized_title and normalized_title in expected_page["normalized"]:
+            return {
+                "startPage": int(expected_start),
+                "endPage": max(int(expected_start), int(expected_end or expected_start)),
+                "matchPages": [int(expected_start)],
+                "method": "exact-title-at-source-book-page",
+                "confidence": "high",
+                "status": "confirmed",
+            }
+    content_start = min((entry["startPage"] for entry in toc_entries), default=1)
     exact_pages = [
         page_number
         for page_number, page in pages.items()
-        if page_number > 13 and normalized_title and normalized_title in page["normalized"]
+        if page_number >= content_start and normalized_title and normalized_title in page["normalized"]
     ]
     exact_groups = group_pages(exact_pages)
 
@@ -275,6 +337,16 @@ def choose_range(title, pages, toc_entries):
         }
 
     if len(exact_groups) > 1:
+        if expected_start and expected_start in exact_pages:
+            return {
+                "startPage": expected_start,
+                "endPage": max(expected_start, int(expected_end or expected_start)),
+                "matchPages": exact_pages,
+                "candidateGroups": exact_groups,
+                "method": "exact-title-at-referenced-source-page",
+                "confidence": "high",
+                "status": "confirmed",
+            }
         return {
             "matchPages": exact_pages,
             "candidateGroups": exact_groups,
@@ -286,8 +358,17 @@ def choose_range(title, pages, toc_entries):
     fuzzy_pages = [
         page_number
         for page_number, page in pages.items()
-        if page_number > 13 and coverage(title, page["tokens"]) >= 0.85
+        if page_number >= content_start and coverage(title, page["tokens"]) >= 0.85
     ]
+    if expected_start and expected_start in fuzzy_pages:
+        return {
+            "startPage": expected_start,
+            "endPage": max(expected_start, expected_end),
+            "matchPages": fuzzy_pages,
+            "method": "strong-title-match-at-source-book-page",
+            "confidence": "high",
+            "status": "confirmed",
+        }
     fuzzy_groups = group_pages(fuzzy_pages, allowed_gap=1)
     if len(fuzzy_groups) == 1 and len(fuzzy_groups[0]) >= 2:
         group = fuzzy_groups[0]
@@ -334,10 +415,18 @@ def update_academic_concepts(project, old_start, old_end, new_start, new_end):
 
 def main():
     parser = argparse.ArgumentParser()
+    parser.add_argument("--grade", type=int, choices=(1, 2, 3), default=2)
     parser.add_argument("--apply", action="store_true")
     args = parser.parse_args()
 
-    for pdf_path in BOOKS.values():
+    config = grade_configuration(args.grade)
+    books = config["books"]
+    field_books = config["fieldBooks"]
+    index_path = config["indexPath"]
+    report_json = config["reportJson"]
+    report_md = config["reportMd"]
+
+    for pdf_path in books.values():
         if not pdf_path.exists():
             raise FileNotFoundError(f"No se localizó el libro fuente: {pdf_path}")
     if not POSSIBILITIES_PATH.exists():
@@ -345,8 +434,8 @@ def main():
             "Primero ejecuta extract-possibilities-columns.py con TARGET_GRADE=2."
         )
 
-    index = read_json(INDEX_PATH)
-    book_pages = {material_id: {} for material_id in BOOKS}
+    index = read_json(index_path)
+    book_pages = {material_id: {} for material_id in books}
     for page in index.get("pages", []):
         material_id = page.get("materialId")
         if material_id in book_pages:
@@ -363,7 +452,7 @@ def main():
         raise RuntimeError(f"El índice no contiene páginas para: {', '.join(missing)}")
 
     book_toc = {}
-    for material_id, pdf_path in BOOKS.items():
+    for material_id, pdf_path in books.items():
         entries = extract_toc_entries(pdf_path)
         entries.extend(extract_ocr_toc_entries(book_pages[material_id]))
         book_toc[material_id] = entries
@@ -371,12 +460,12 @@ def main():
     possibilities = read_json(POSSIBILITIES_PATH)
     possibility_records = {}
     for record in possibilities.get("records", []):
-        if str(record.get("grade")) != "2":
+        if str(record.get("grade")) != str(args.grade):
             continue
         key = (normalize(record.get("field")), int(record.get("academicProjectNumber") or 0))
         possibility_records[key] = record
 
-    files = sorted(BUNDLE_ROOT.glob("grade-2-*.json"))
+    files = sorted(BUNDLE_ROOT.glob(f"grade-{args.grade}-*.json"))
     records = []
     changed_files = []
     range_cache = {}
@@ -391,8 +480,8 @@ def main():
             pa_number = int(project.get("academicProjectNumber") or 0)
             field_key = normalize(bundle.get("field"))
             possibility = possibility_records.get((field_key, pa_number))
-            material_id = FIELD_BOOKS.get(field_key)
-            if not possibility or material_id not in BOOKS:
+            material_id = field_books.get(field_key)
+            if not possibility or material_id not in books:
                 summary["projectsWithoutPossibilities"] += 1
                 continue
 
@@ -402,13 +491,25 @@ def main():
                 title = str(extracted.get("title") or "").strip()
                 if not title:
                     continue
+                extracted_title = title
+                title = clean_ocr_title(title)
+                override = TITLE_OVERRIDES.get((args.grade, field_key, pa_number))
+                if override and override[0] in normalize(title).replace(" ", ""):
+                    title = override[1]
                 summary["references"] += 1
-                cache_key = (material_id, normalize(title))
+                cache_key = (
+                    material_id,
+                    normalize(title),
+                    int(extracted.get("startPage") or 0),
+                    int(extracted.get("endPage") or 0),
+                )
                 if cache_key not in range_cache:
                     range_cache[cache_key] = choose_range(
                         title,
                         book_pages[material_id],
                         book_toc[material_id],
+                        extracted.get("startPage"),
+                        extracted.get("endPage"),
                     )
                 result = dict(range_cache[cache_key])
                 record = {
@@ -417,6 +518,7 @@ def main():
                     "pa": pa_number,
                     "projectTitle": project.get("title"),
                     "topicTitle": title,
+                    "extractedTitle": extracted_title,
                     "materialId": material_id,
                     "possibilitiesStart": extracted.get("startPage"),
                     "possibilitiesEnd": extracted.get("endPage"),
@@ -487,13 +589,13 @@ def main():
         "changedFiles": changed_files,
         "records": records,
     }
-    REPORT_JSON.parent.mkdir(parents=True, exist_ok=True)
-    REPORT_JSON.write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    report_json.parent.mkdir(parents=True, exist_ok=True)
+    report_json.write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
     ambiguous = [record for record in records if record["status"] != "confirmed"]
     changed_records = [record for record in records if record.get("changed")]
     lines = [
-        "# Revalidación de páginas de libros de campo - segundo grado",
+        f"# Revalidación de páginas de libros de campo - {config['label']}",
         "",
         "Posibilidades de Uso se empleó únicamente para identificar el tema. Las páginas se localizaron en el PDF del libro de campo correspondiente.",
         "",
@@ -519,10 +621,10 @@ def main():
             f"- {record['field']} PA{record['pa']} - {record['topicTitle']}: "
             f"{record['method']}; candidatos {groups or record.get('matchPages', [])}."
         )
-    REPORT_MD.write_text("\n".join(lines) + "\n", encoding="utf-8")
+    report_md.write_text("\n".join(lines) + "\n", encoding="utf-8")
     print(json.dumps(report["summary"], ensure_ascii=False, indent=2))
-    print(REPORT_JSON)
-    print(REPORT_MD)
+    print(report_json)
+    print(report_md)
 
 
 if __name__ == "__main__":
