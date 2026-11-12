@@ -274,17 +274,27 @@ for grade_dir, grade in GRADE_DIRS.items():
             # project titles, products and the shared PPA video from contaminating
             # the first curricular reference in each column.
             columns = split_columns(layout_reader.pages[page_index], float(layout_reader.pages[page_index].height) * 0.39)
-            page_count_match = re.search(r"\b1 de ([12])\b", plain)
+            page_count_match = re.search(r"\b1 de (\d+)\b", plain)
             table_page_count = int(page_count_match.group(1)) if page_count_match else 1
             reviewed_pages = [page_index + 1]
 
-            if table_page_count == 2 and page_index + 1 < len(reader.pages):
-                append_continuation(columns, layout_reader.pages[page_index + 1])
-                reviewed_pages.append(page_index + 2)
+            for continuation_offset in range(1, table_page_count):
+                continuation_index = page_index + continuation_offset
+                if continuation_index >= len(reader.pages):
+                    warnings.append(
+                        f"{pdf_path.name} p. {page_index + 1}: "
+                        f"faltó la continuación {continuation_offset + 1} de {table_page_count}"
+                    )
+                    break
+                append_continuation(columns, layout_reader.pages[continuation_index])
+                reviewed_pages.append(continuation_index + 1)
 
             unicode_source = plain
-            if table_page_count == 2 and page_index + 1 < len(reader.pages):
-                unicode_source += "\n\n" + clean(reader.pages[page_index + 1].extract_text() or "")
+            for continuation_offset in range(1, table_page_count):
+                continuation_index = page_index + continuation_offset
+                if continuation_index >= len(reader.pages):
+                    break
+                unicode_source += "\n\n" + clean(reader.pages[continuation_index].extract_text() or "")
             unicode_concepts, unicode_multiples = parse_sources(unicode_source.splitlines())
 
             volume_match = re.search(r"Tomo\s+(I{1,3})", plain, re.I)

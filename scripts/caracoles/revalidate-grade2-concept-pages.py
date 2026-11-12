@@ -1,12 +1,15 @@
 import argparse
 import difflib
 import json
+import os
 import re
+import subprocess
 import unicodedata
 from collections import defaultdict
 from pathlib import Path
 
 import pdfplumber
+from pypdf import PdfReader
 
 ROOT = Path(__file__).resolve().parents[2]
 BUNDLE_ROOT = ROOT / "public" / "caracoles" / "data" / "curricular-development"
@@ -36,10 +39,26 @@ OCR_PREFIXES = (
 
 def grade_configuration(grade):
     folder_name, label = GRADE_NAMES[grade]
-    source_root = ROOT / "content" / "caracoles" / "source-pdfs" / folder_name / "conceptos"
+    current_root = os.environ.get(f"GRADE{grade}_BOOK_ROOT")
+    source_root = (
+        Path(current_root)
+        if current_root
+        else ROOT / "content" / "caracoles" / "source-pdfs" / folder_name / "conceptos"
+    )
+    current_filenames = {
+        2: {
+            "humano y lo comunitario": "2_TS-HC-BAJA.pdf",
+            "etica naturaleza y sociedades": "2_TS-ENS-BAJA.pdf",
+            "lenguajes": "2_TS_LENGUAJES-BAJA.pdf",
+            "saberes y pensamiento": "2_TS-SPC-BAJA.pdf",
+        }
+    }
     available = {normalize(path.name): path for path in source_root.glob("*.pdf")}
 
     def find_pdf(fragment):
+        filename = current_filenames.get(grade, {}).get(fragment)
+        if filename and (source_root / filename).exists():
+            return source_root / filename
         matches = [path for key, path in available.items() if fragment in key]
         if len(matches) != 1:
             raise FileNotFoundError(f"No se pudo resolver el libro '{fragment}' en {source_root}")
@@ -417,6 +436,7 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--grade", type=int, choices=(1, 2, 3), default=2)
     parser.add_argument("--apply", action="store_true")
+    parser.add_argument("--field", default="")
     args = parser.parse_args()
 
     config = grade_configuration(args.grade)
@@ -434,11 +454,29 @@ def main():
             "Primero ejecuta extract-possibilities-columns.py con TARGET_GRADE=2."
         )
 
-    index = read_json(index_path)
     book_pages = {material_id: {} for material_id in books}
-    for page in index.get("pages", []):
-        material_id = page.get("materialId")
-        if material_id in book_pages:
+    if os.environ.get(f"GRADE{args.grade}_BOOK_ROOT"):
+        for material_id, pdf_path in books.items():
+            pdftotext = Path(r"C:\Program Files\Calibre2\app\bin\pdftotext.exe")
+            completed = subprocess.run(
+                [str(pdftotext), "-layout", str(pdf_path), "-"],
+                check=True,
+                capture_output=True,
+            )
+            document_text = completed.stdout.decode("utf-8", errors="replace")
+            for page_number, text in enumerate(document_text.split("\f"), start=1):
+                normalized = normalize(text)
+                book_pages[material_id][page_number] = {
+                    "text": text,
+                    "normalized": normalized,
+                    "tokens": set(normalized.split()),
+                }
+    else:
+        index = read_json(index_path)
+        for page in index.get("pages", []):
+            material_id = page.get("materialId")
+            if material_id not in book_pages:
+                continue
             text = page.get("text") or ""
             normalized = normalize(text)
             book_pages[material_id][int(page["pageNumber"])] = {
@@ -474,6 +512,8 @@ def main():
 
     for bundle_path in files:
         bundle = read_json(bundle_path)
+        if args.field and normalize(bundle.get("field")) != normalize(args.field):
+            continue
         changed = False
         for project in bundle.get("development", {}).get("academicProjects", []):
             summary["projects"] += 1

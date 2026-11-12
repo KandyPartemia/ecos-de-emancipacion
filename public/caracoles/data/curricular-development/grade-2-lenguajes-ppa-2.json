@@ -115,11 +115,12 @@
           "sourceStatus": "linked",
           "possibilitiesPages": [
             8,
-            9
+            9,
+            10
           ],
           "possibilitiesMaterialId": "grade-2-posibilidades-pos-len-2",
           "possibilitiesColumnIndex": 1,
-          "columnEvidence": "Columna 1 confirmada por geometría del PDF de Posibilidades de uso; ficha 1 de 1 en p. 8."
+          "columnEvidence": "Columna 1 revisada completa en Posibilidades de uso, pp. 8-10."
         },
         "finalProduct": {
           "title": "Club de lectura",
@@ -143,28 +144,36 @@
               "materialId": "grade-2-conceptos-lenguajes-segundo-grado",
               "topicTitle": "La diversidad del español mexicano",
               "startPage": 21,
-              "endPage": 21,
-              "pagesLabel": "p. 21",
-              "status": "confirmed-from-source-book"
+              "endPage": 28,
+              "pagesLabel": "pp. 21-28",
+              "status": "confirmed-current-edition-full-range"
             },
             {
               "materialId": "grade-2-conceptos-lenguajes-segundo-grado",
               "topicTitle": "El bilingüismo asimétrico y el desplazamiento de las lenguas y culturas de los pueblos indígenas",
-              "startPage": 104,
-              "endPage": 104,
-              "pagesLabel": "p. 104",
-              "status": "confirmed-from-source-book"
+              "startPage": 85,
+              "endPage": 89,
+              "pagesLabel": "pp. 85-89",
+              "status": "confirmed-current-edition-full-range"
+            },
+            {
+              "materialId": "grade-2-conceptos-lenguajes-segundo-grado",
+              "topicTitle": "La expresión de ideas para la construcción de una sociedad incluyente",
+              "startPage": 163,
+              "endPage": 171,
+              "pagesLabel": "pp. 163-171",
+              "status": "confirmed-current-edition-full-range"
             }
           ],
           "multiplesLenguajes": [
             {
               "materialId": "grade-2-apoyo-multiples-lenguajes-segundo-grado",
-              "label": "Multiples Lenguajes",
+              "label": "Múltiples Lenguajes",
               "startPage": 132,
               "endPage": 132,
               "pagesLabel": "p. 132",
               "topicTitle": "El sembrador [Tocani]",
-              "status": "confirmed-by-column-inference"
+              "status": "confirmed-current-edition"
             }
           ],
           "otherMaterials": [
@@ -183,9 +192,9 @@
         "supportMaterials": [
           {
             "title": "El sembrador [Tocani]",
-            "kind": "Multiples Lenguajes",
+            "kind": "Múltiples Lenguajes",
             "pages": "p. 132",
-            "status": "confirmed-by-column-inference"
+            "status": "confirmed-current-edition"
           }
         ],
         "horizonOrPurpose": {
@@ -242,11 +251,14 @@
             "sourceBook": "Lenguajes",
             "sourcePages": [
               22,
+              23,
+              24,
+              25,
               26
             ],
             "sourcePagesLabel": "pp. 22-26",
             "topicTitle": "La diversidad lingüística",
-            "status": "confirmed",
+            "status": "confirmed-current-edition",
             "reason": "La fuente validada \"La diversidad lingüística\" aporta base suficiente para trabajar diversidad lingüística dentro del proyecto 4.",
             "pedagogicalUse": "Ayuda a fortalecer club de lectura y a explicar las tensiones y conflictos de las sociedades multiculturales para promover comunicación, interacción y soluciones críticas con mayor claridad mediante diversidad lingüística.",
             "activityReadiness": "usable-for-autoevaluation"
@@ -256,12 +268,11 @@
             "description": "Problemas sociales que dañan la convivencia al negar valor y derechos a pueblos, lenguas y culturas distintas.",
             "sourceBook": "Lenguajes",
             "sourcePages": [
-              104,
-              104
+              85
             ],
-            "sourcePagesLabel": "p. 104",
+            "sourcePagesLabel": "p. 85",
             "topicTitle": "El bilingüismo asimétrico y el desplazamiento de las lenguas y culturas de los pueblos indígenas",
-            "status": "confirmed-from-source-book",
+            "status": "confirmed-current-edition",
             "reason": "La fuente validada \"El bilingüismo asimétrico y el desplazamiento de las lenguas y culturas de los pueblos indígenas\" aporta base suficiente para trabajar racismo y discriminación dentro del proyecto 4.",
             "pedagogicalUse": "Ayuda a fortalecer club de lectura y a explicar las tensiones y conflictos de las sociedades multiculturales para promover comunicación, interacción y soluciones críticas con mayor claridad mediante racismo y discriminación.",
             "activityReadiness": "usable-for-autoevaluation"
@@ -271,12 +282,18 @@
             "description": "Cosmovisión de los pueblos originarios es una idea clave para comprender las tensiones y conflictos de las sociedades multiculturales para promover comunicación, interacción y soluciones críticas.",
             "sourceBook": "Lenguajes",
             "sourcePages": [
-              112,
-              119
+              93,
+              94,
+              95,
+              96,
+              97,
+              98,
+              99,
+              100
             ],
-            "sourcePagesLabel": "pp. 112-119",
+            "sourcePagesLabel": "pp. 93-100",
             "topicTitle": "Las lenguas y cosmovisión de los pueblos originarios",
-            "status": "confirmed",
+            "status": "confirmed-current-edition",
             "reason": "La fuente validada \"Las lenguas y cosmovisión de los pueblos originarios\" aporta base suficiente para trabajar cosmovisión de los pueblos originarios dentro del proyecto 4.",
             "pedagogicalUse": "Ayuda a fortalecer club de lectura y a explicar las tensiones y conflictos de las sociedades multiculturales para promover comunicación, interacción y soluciones críticas con mayor claridad mediante cosmovisión de los pueblos originarios.",
             "activityReadiness": "usable-for-autoevaluation"
@@ -286,12 +303,17 @@
             "description": "Reconocimiento de que en una misma sociedad conviven personas y grupos con historias, lenguas e identidades diversas.",
             "sourceBook": "Lenguajes",
             "sourcePages": [
+              167,
+              168,
+              169,
+              170,
+              171,
               172,
-              178
+              173
             ],
-            "sourcePagesLabel": "pp. 172-178",
+            "sourcePagesLabel": "pp. 167-173",
             "topicTitle": "Las identidades plurales en las sociedades contemporáneas",
-            "status": "confirmed",
+            "status": "confirmed-current-edition",
             "reason": "La fuente validada \"Las identidades plurales en las sociedades contemporáneas\" aporta base suficiente para trabajar identidades plurales dentro del proyecto 4.",
             "pedagogicalUse": "Ayuda a fortalecer club de lectura y a explicar las tensiones y conflictos de las sociedades multiculturales para promover comunicación, interacción y soluciones críticas con mayor claridad mediante identidades plurales.",
             "activityReadiness": "usable-for-autoevaluation"
@@ -382,24 +404,56 @@
             {
               "materialId": "grade-2-conceptos-lenguajes-segundo-grado",
               "topicTitle": "Las lenguas y cosmovisión de los pueblos originarios",
-              "startPage": 112,
-              "endPage": 112,
-              "pagesLabel": "p. 112",
-              "status": "confirmed-from-source-book"
+              "startPage": 93,
+              "endPage": 100,
+              "pagesLabel": "pp. 93-100",
+              "status": "confirmed-current-edition-full-range"
             },
             {
               "materialId": "grade-2-conceptos-lenguajes-segundo-grado",
               "topicTitle": "Prácticas sociales y culturales centradas en la organización social y el cuidado mutuo",
-              "startPage": 129,
-              "endPage": 129,
-              "pagesLabel": "p. 129",
-              "status": "confirmed-from-source-book"
+              "startPage": 115,
+              "endPage": 119,
+              "pagesLabel": "pp. 115-119",
+              "status": "confirmed-current-edition-full-range"
+            },
+            {
+              "materialId": "grade-2-conceptos-lenguajes-segundo-grado",
+              "topicTitle": "Las lenguas indígenas: identidad y cultura de los pueblos originarios",
+              "startPage": 174,
+              "endPage": 176,
+              "pagesLabel": "pp. 174-176",
+              "status": "confirmed-current-edition-full-range"
+            },
+            {
+              "materialId": "grade-2-conceptos-lenguajes-segundo-grado",
+              "topicTitle": "Prácticas culturales y ceremoniales de los pueblos indígenas",
+              "startPage": 181,
+              "endPage": 186,
+              "pagesLabel": "pp. 181-186",
+              "status": "confirmed-current-edition-full-range"
+            },
+            {
+              "materialId": "grade-2-conceptos-lenguajes-segundo-grado",
+              "topicTitle": "Rasgos identitarios y diálogos de los pueblos indígenas",
+              "startPage": 187,
+              "endPage": 194,
+              "pagesLabel": "pp. 187-194",
+              "status": "confirmed-current-edition-full-range"
+            },
+            {
+              "materialId": "grade-2-conceptos-lenguajes-segundo-grado",
+              "topicTitle": "Interculturalidad crítica",
+              "startPage": 289,
+              "endPage": 291,
+              "pagesLabel": "pp. 289-291",
+              "status": "confirmed-current-edition-full-range"
             }
           ],
           "multiplesLenguajes": [
             {
               "materialId": "grade-2-apoyo-multiples-lenguajes-segundo-grado",
-              "label": "Multiples Lenguajes",
+              "label": "Múltiples Lenguajes",
               "startPage": 133,
               "endPage": 140,
               "pagesLabel": "pp. 133-140",
@@ -423,7 +477,7 @@
         "supportMaterials": [
           {
             "title": "Conquista y Renacimiento",
-            "kind": "Multiples Lenguajes",
+            "kind": "Múltiples Lenguajes",
             "pages": "pp. 133-140",
             "status": "confirmed-current-edition"
           }
@@ -481,12 +535,17 @@
             "description": "Intercambio respetuoso entre culturas que busca comprensión mutua sin borrar diferencias ni jerarquizar identidades.",
             "sourceBook": "Lenguajes",
             "sourcePages": [
+              188,
+              189,
+              190,
+              191,
+              192,
               193,
-              199
+              194
             ],
-            "sourcePagesLabel": "pp. 193-199",
+            "sourcePagesLabel": "pp. 188-194",
             "topicTitle": "Rasgos identitarios y diálogos de los pueblos indígenas",
-            "status": "confirmed",
+            "status": "confirmed-current-edition",
             "reason": "La fuente validada \"Rasgos identitarios y diálogos de los pueblos indígenas\" aporta base suficiente para trabajar diálogo intercultural dentro del proyecto 5.",
             "pedagogicalUse": "Ayuda a fortalecer fichero informativo cultural y a explicar el diálogo intercultural y los rasgos identitarios de los pueblos indígenas de México, América Latina y el mundo con mayor claridad mediante diálogo intercultural.",
             "activityReadiness": "usable-for-autoevaluation"
@@ -496,12 +555,17 @@
             "description": "Rasgos identitarios es una idea clave para comprender el diálogo intercultural y los rasgos identitarios de los pueblos indígenas de México, América Latina y el mundo.",
             "sourceBook": "Lenguajes",
             "sourcePages": [
+              188,
+              189,
+              190,
+              191,
+              192,
               193,
-              199
+              194
             ],
-            "sourcePagesLabel": "pp. 193-199",
+            "sourcePagesLabel": "pp. 188-194",
             "topicTitle": "Rasgos identitarios y diálogos de los pueblos indígenas",
-            "status": "confirmed",
+            "status": "confirmed-current-edition",
             "reason": "La fuente validada \"Rasgos identitarios y diálogos de los pueblos indígenas\" aporta base suficiente para trabajar rasgos identitarios dentro del proyecto 5.",
             "pedagogicalUse": "Ayuda a fortalecer fichero informativo cultural y a explicar el diálogo intercultural y los rasgos identitarios de los pueblos indígenas de México, América Latina y el mundo con mayor claridad mediante rasgos identitarios.",
             "activityReadiness": "usable-for-autoevaluation"
@@ -511,12 +575,17 @@
             "description": "Identidades plurales es una idea clave para comprender el diálogo intercultural y los rasgos identitarios de los pueblos indígenas de México, América Latina y el mundo.",
             "sourceBook": "Lenguajes",
             "sourcePages": [
+              167,
+              168,
+              169,
+              170,
+              171,
               172,
-              178
+              173
             ],
-            "sourcePagesLabel": "pp. 172-178",
+            "sourcePagesLabel": "pp. 167-173",
             "topicTitle": "Las identidades plurales en las sociedades contemporáneas",
-            "status": "confirmed",
+            "status": "confirmed-current-edition",
             "reason": "La fuente validada \"Las identidades plurales en las sociedades contemporáneas\" aporta base suficiente para trabajar identidades plurales dentro del proyecto 5.",
             "pedagogicalUse": "Ayuda a fortalecer fichero informativo cultural y a explicar el diálogo intercultural y los rasgos identitarios de los pueblos indígenas de México, América Latina y el mundo con mayor claridad mediante identidades plurales.",
             "activityReadiness": "usable-for-autoevaluation"
@@ -526,12 +595,15 @@
             "description": "Prácticas culturales y ceremoniales es una idea clave para comprender el diálogo intercultural y los rasgos identitarios de los pueblos indígenas de México, América Latina y el mundo.",
             "sourceBook": "Lenguajes",
             "sourcePages": [
-              187,
-              191
+              182,
+              183,
+              184,
+              185,
+              186
             ],
-            "sourcePagesLabel": "pp. 187-191",
+            "sourcePagesLabel": "pp. 182-186",
             "topicTitle": "Prácticas culturales y ceremoniales de los pueblos indígenas",
-            "status": "confirmed",
+            "status": "confirmed-current-edition",
             "reason": "La fuente validada \"Prácticas culturales y ceremoniales de los pueblos indígenas\" aporta base suficiente para trabajar prácticas culturales y ceremoniales dentro del proyecto 5.",
             "pedagogicalUse": "Ayuda a fortalecer fichero informativo cultural y a explicar el diálogo intercultural y los rasgos identitarios de los pueblos indígenas de México, América Latina y el mundo con mayor claridad mediante prácticas culturales y ceremoniales.",
             "activityReadiness": "usable-for-autoevaluation"
@@ -541,12 +613,13 @@
             "description": "Comunidades con historia, lengua, memoria y formas de vida propias que sostienen una parte fundamental de la diversidad cultural.",
             "sourceBook": "Lenguajes",
             "sourcePages": [
-              179,
-              181
+              174,
+              175,
+              176
             ],
-            "sourcePagesLabel": "pp. 179-181",
+            "sourcePagesLabel": "pp. 174-176",
             "topicTitle": "Las lenguas indígenas: identidad y cultura de los pueblos originarios",
-            "status": "confirmed",
+            "status": "confirmed-current-edition",
             "reason": "La fuente validada \"Las lenguas indígenas: identidad y cultura de los pueblos originarios\" aporta base suficiente para trabajar pueblos indígenas dentro del proyecto 5.",
             "pedagogicalUse": "Ayuda a fortalecer fichero informativo cultural y a explicar el diálogo intercultural y los rasgos identitarios de los pueblos indígenas de México, América Latina y el mundo con mayor claridad mediante pueblos indígenas.",
             "activityReadiness": "usable-for-autoevaluation"
@@ -609,11 +682,12 @@
           "sourceStatus": "linked",
           "possibilitiesPages": [
             8,
-            9
+            9,
+            10
           ],
           "possibilitiesMaterialId": "grade-2-posibilidades-pos-len-2",
           "possibilitiesColumnIndex": 3,
-          "columnEvidence": "Columna 3 confirmada por geometría del PDF de Posibilidades de uso; la ficha del PA 6 inicia en p. 8 y continúa en p. 9."
+          "columnEvidence": "Columna 3 revisada completa en Posibilidades de uso, pp. 8-10."
         },
         "finalProduct": {
           "title": "Exposición artística multicultural",
@@ -637,25 +711,33 @@
               "materialId": "grade-2-conceptos-lenguajes-segundo-grado",
               "topicTitle": "Somos formas, colores, movimientos y sonidos",
               "startPage": 242,
-              "endPage": 247,
-              "pagesLabel": "pp. 242-247",
-              "status": "confirmed-current-edition"
+              "endPage": 248,
+              "pagesLabel": "pp. 242-248",
+              "status": "confirmed-current-edition-full-range"
+            },
+            {
+              "materialId": "grade-2-conceptos-lenguajes-segundo-grado",
+              "topicTitle": "La expresión de ideas para la construcción de una sociedad incluyente",
+              "startPage": 163,
+              "endPage": 173,
+              "pagesLabel": "pp. 163-173",
+              "status": "confirmed-current-edition-full-range"
             },
             {
               "materialId": "grade-2-conceptos-lenguajes-segundo-grado",
               "topicTitle": "Rasgos identitarios y diálogos de los pueblos indígenas",
               "startPage": 187,
-              "endPage": 192,
-              "pagesLabel": "pp. 187-192",
-              "status": "confirmed-current-edition"
+              "endPage": 194,
+              "pagesLabel": "pp. 187-194",
+              "status": "confirmed-current-edition-full-range"
             },
             {
               "materialId": "grade-2-conceptos-lenguajes-segundo-grado",
               "topicTitle": "Arte, identidad y territorio",
               "startPage": 231,
-              "endPage": 232,
-              "pagesLabel": "pp. 231-232",
-              "status": "confirmed-current-edition"
+              "endPage": 233,
+              "pagesLabel": "pp. 231-233",
+              "status": "confirmed-current-edition-full-range"
             }
           ],
           "multiplesLenguajes": [],
@@ -726,12 +808,15 @@
             "description": "Manifestaciones artísticas y culturales es una idea clave para comprender las manifestaciones lingüísticas y artísticas de distintos orígenes para valorar la diversidad cultural y fomentar comunicación asertiva.",
             "sourceBook": "Lenguajes",
             "sourcePages": [
-              243,
-              247
+              151,
+              152,
+              153,
+              227,
+              228
             ],
-            "sourcePagesLabel": "pp. 243-247",
+            "sourcePagesLabel": "pp. 151-153; pp. 227-228",
             "topicTitle": "Somos formas, colores, movimientos y sonidos",
-            "status": "confirmed",
+            "status": "confirmed-current-edition",
             "reason": "La fuente validada \"Manifestaciones artísticas y culturales para una sociedad incluyente\" aporta base suficiente para trabajar manifestaciones artísticas y culturales dentro del proyecto 6.",
             "pedagogicalUse": "Ayuda a fortalecer exposición artística multicultural y a explicar las manifestaciones lingüísticas y artísticas de distintos orígenes para valorar la diversidad cultural y fomentar comunicación asertiva con mayor claridad mediante manifestaciones artísticas y culturales.",
             "activityReadiness": "usable-for-autoevaluation"
@@ -741,12 +826,16 @@
             "description": "Rasgos identitarios es una idea clave para comprender las manifestaciones lingüísticas y artísticas de distintos orígenes para valorar la diversidad cultural y fomentar comunicación asertiva.",
             "sourceBook": "Lenguajes",
             "sourcePages": [
-              187,
-              192
+              182,
+              183,
+              184,
+              185,
+              186,
+              187
             ],
-            "sourcePagesLabel": "pp. 187-192",
+            "sourcePagesLabel": "pp. 182-187",
             "topicTitle": "Rasgos identitarios y diálogos de los pueblos indígenas",
-            "status": "confirmed",
+            "status": "confirmed-current-edition",
             "reason": "La fuente validada \"Rasgos identitarios y diálogos de los pueblos indígenas\" aporta base suficiente para trabajar rasgos identitarios dentro del proyecto 6.",
             "pedagogicalUse": "Ayuda a fortalecer exposición artística multicultural y a explicar las manifestaciones lingüísticas y artísticas de distintos orígenes para valorar la diversidad cultural y fomentar comunicación asertiva con mayor claridad mediante rasgos identitarios.",
             "activityReadiness": "usable-for-autoevaluation"
@@ -756,12 +845,12 @@
             "description": "Arte, identidad y territorio es una idea clave para comprender las manifestaciones lingüísticas y artísticas de distintos orígenes para valorar la diversidad cultural y fomentar comunicación asertiva.",
             "sourceBook": "Lenguajes",
             "sourcePages": [
-              231,
-              232
+              110,
+              226
             ],
-            "sourcePagesLabel": "pp. 231-232",
+            "sourcePagesLabel": "p. 110; p. 226",
             "topicTitle": "Arte, identidad y territorio",
-            "status": "confirmed",
+            "status": "confirmed-current-edition",
             "reason": "La fuente validada \"Arte, identidad y territorio\" aporta base suficiente para trabajar arte, identidad y territorio dentro del proyecto 6.",
             "pedagogicalUse": "Ayuda a fortalecer exposición artística multicultural y a explicar las manifestaciones lingüísticas y artísticas de distintos orígenes para valorar la diversidad cultural y fomentar comunicación asertiva con mayor claridad mediante arte, identidad y territorio.",
             "activityReadiness": "usable-for-autoevaluation"
@@ -777,8 +866,8 @@
           "readyForActivities": false,
           "needsReviewReasons": [
             "El bloque 2 ya es usable como lectura docente, pero el video del PPA 2 y el recurso informatico siguen pendientes de validacion de destino final.",
-            "La lectura Un poeta con alas de pintor aparece en la columna del PA 6 en Posibilidades de uso, pero no está presente en el PDF 2026-2027 disponible de Múltiples Lenguajes; se retira de la ficha hasta confirmar la edición física vigente.",
-            "No mover a actividades interactivas ni desbloquear juegos completos hasta ampliar validacion de videos y recursos complementarios."
+            "No mover a actividades interactivas ni desbloquear juegos completos hasta ampliar validacion de videos y recursos complementarios.",
+            "La dosificación menciona Un poeta con alas de pintor, pero la lectura no aparece en el PDF 2026-2027 disponible de Múltiples Lenguajes."
           ]
         },
         "readinessLevel": "development-partial",

@@ -2,228 +2,139 @@
 
 Posibilidades de Uso se empleó únicamente para identificar el tema. Las páginas se localizaron en el PDF del libro de campo correspondiente.
 
-- Referencias revisadas: 383
-- Referencias confirmadas en el libro: 383
-- Rangos corregidos: 214
+- Referencias revisadas: 170
+- Referencias confirmadas en el libro: 170
+- Rangos corregidos: 125
 - Referencias que requieren revisión visual: 0
-- Archivos modificados: 48
+- Archivos modificados: 15
 
 ## Rangos corregidos
 
-- De lo Humano y lo Comunitario PA1 - Identidad, sentido de pertenencia y formas de expresión e i dentidad, sentido en los adolescentes: sin rango previo equivalente -> pp. 199-203.
-- De lo Humano y lo Comunitario PA2 - Diseño de ambientes donde se favorece la participación de todxs: sin rango previo equivalente -> pp. 137-142.
-- De lo Humano y lo Comunitario PA2 - Pensamiento estratégico y creativo en la resolución de problemas: sin rango previo equivalente -> pp. 86-89.
-- De lo Humano y lo Comunitario PA2 - Cómo los sentimientos se construyen a partir de ideas y experiencias para la toma de decisiones asertivas: sin rango previo equivalente -> pp. 181-187.
-- De lo Humano y lo Comunitario PA3 - Cómo los sentimientos se construyen a partir de ideas y experiencias para la toma de decisiones asertivas: sin rango previo equivalente -> pp. 181-187.
-- De lo Humano y lo Comunitario PA4 - Los procesos técnicos de servicios en el desarrollo de la comunidad: sin rango previo equivalente -> pp. 74-79.
-- De lo Humano y lo Comunitario PA5 - Construcción de alternativas en situaciones de riesgo: sin rango previo equivalente -> pp. 242-249.
-- De lo Humano y lo Comunitario PA6 - Los procesos técnicos de servicios en el desarrollo de la comunidad: sin rango previo equivalente -> pp. 74-79.
-- De lo Humano y lo Comunitario PA6 - 2 ed 2 La transformación de los materiales, el cuidado de la comunidad y el medio ambiente: sin rango previo equivalente -> pp. 90-105.
-- De lo Humano y lo Comunitario PA7 - Construcción de alternativas en situaciones de riesgo: sin rango previo equivalente -> pp. 242-249.
-- De lo Humano y lo Comunitario PA9 - Diseño de ambientes donde se favorece la participación de todxs: sin rango previo equivalente -> pp. 137-142.
-- De lo Humano y lo Comunitario PA10 - Herramientas, máquinas e instrumentos en la comunidad: sin rango previo equivalente -> pp. 35-41.
-- De lo Humano y lo Comunitario PA10 - Los procesos técnicos de servicios en el desarrollo de la comunidad: sin rango previo equivalente -> pp. 74-79.
-- De lo Humano y lo Comunitario PA11 - Construcción de alternativas en situaciones de riesgo: sin rango previo equivalente -> pp. 242-249.
-- De lo Humano y lo Comunitario PA12 - La tecnología en la solución de problemas en diversos contextos: sin rango previo equivalente -> pp. 42-56.
-- De lo Humano y lo Comunitario PA13 - De lo Humano y lo Comunitario | Segundo grado | Nuestro libro de proyectos | Tomo III Características de los sistemas técnicos: sin rango previo equivalente -> pp. 14-24.
-- De lo Humano y lo Comunitario PA13 - Pensamiento estratégico y creativo en la resolución de problemas: sin rango previo equivalente -> pp. 86-89.
-- De lo Humano y lo Comunitario PA13 - Construcción de alternativas en la situaciones de riesgo: sin rango previo equivalente -> pp. 234-241.
-- De lo Humano y lo Comunitario PA14 - Diseño de ambientes donde se favorece la participación de todxs: sin rango previo equivalente -> pp. 137-142.
-- De lo Humano y lo Comunitario PA15 - Pensamiento estratégico y creativo en la resolución de problemas: sin rango previo equivalente -> pp. 86-89.
-- De lo Humano y lo Comunitario PA17 - Los procesos técnicos de servicios en el desarrollo de la comunidad: sin rango previo equivalente -> pp. 74-79.
-- De lo Humano y lo Comunitario PA18 - Cómo los sentimientos se construyen a partir de ideas y experiencias para la toma de decisiones asertivas: sin rango previo equivalente -> pp. 181-187.
-- Etica, Naturaleza y Sociedades PA1 - Acciones orientadas a fortalecer la igualdad, el bienestar colectivo yel respeto a los derechos humanos en poblaciones históricamente marginadas y vulneradas: sin rango previo equivalente -> pp. 230-236.
-- Etica, Naturaleza y Sociedades PA28 - Cardenismo: sin rango previo equivalente -> pp. 155-162.
-- Etica, Naturaleza y Sociedades PA29 - de crecimiento sin desarrollo Cuadro descriptivo. Disidencia y represión: la estabilidad política y social cuestionada: sin rango previo equivalente -> pp. 175-180.
-- Etica, Naturaleza y Sociedades PA30 - Distintas formasde resolver conflictos sociales y políticos ocurridos en México y América Latina para generar estrategias de mediación desde la cultura de paz: sin rango previo equivalente -> pp. 259-264.
-- Etica, Naturaleza y Sociedades PA30 - EZLN: resistencia indígena ante las políticas neoliberales: pp. 214-221 -> p. 214.
-- Etica, Naturaleza y Sociedades PA31 - Disidencia y represión: la estabilidad política ysocial cuestionada: sin rango previo equivalente -> pp. 175-180.
-- Etica, Naturaleza y Sociedades PA32 - por los derechos humanos en México y el mundo Cuento breve El movimiento estudiantil de 1968: sin rango previo equivalente -> pp. 181-192.
-- Etica, Naturaleza y Sociedades PA33 - Acciones orientadas a fortalecer la igualdad, el bienestar colectivo y el respeto a los derechos humanos en poblaciones históricamente marginadas y vulneradas: sin rango previo equivalente -> pp. 230-236.
-- Etica, Naturaleza y Sociedades PA34 - Inicio de la crisis y represión: sin rango previo equivalente -> pp. 193-197.
-- Etica, Naturaleza y Sociedades PA35 - y rendición de cuentas Espejos de comparación Impulso y resistencia al neoliberalismo: sin rango previo equivalente -> pp. 205-213.
-- Etica, Naturaleza y Sociedades PA35 - EZLN: Resistencia indígena ante las políticas neoliberales: pp. 214-221 -> p. 214.
-- Etica, Naturaleza y Sociedades PA36 - 29 2 ed 2 Proyectos orientados a resolver necesidades y problemas relacionados con la violencia escolar y de género aprovechando los recursos de la ciudadanía digital: sin rango previo equivalente -> pp. 319-330.
-- Etica, Naturaleza y Sociedades PA8 - Ruleta histórica Virreinato de la Nueva España: minería, forma de gobierno, economía, cultura y sociedad: sin rango previo equivalente -> pp. 51-56.
-- Etica, Naturaleza y Sociedades PA9 - Acciones orientadas a fortalecer la igualdad, el bienestar colectivo yel respeto a los derechos humanos en poblaciones históricamente marginadas y vulneradas: sin rango previo equivalente -> pp. 230-236.
-- Etica, Naturaleza y Sociedades PA9 - Consecuencias de la desigualdad socioeconómica en la calidad de vida y acciones que garanticen el derecho a una vida digna y justa: sin rango previo equivalente -> pp. 245-252.
-- Etica, Naturaleza y Sociedades PA9 - Esclavitud y exclusión en la Nueva España: sin rango previo equivalente -> pp. 57-64.
-- Etica, Naturaleza y Sociedades PA12 - 83 Juicios éticos sobre problemas de injusticia y discriminación y propuestas congruentes con la inclusión, la interculturalidad y la perspectiva de género: sin rango previo equivalente -> pp. 293-300.
-- Etica, Naturaleza y Sociedades PA14 - Debate crítico Rumbo a la construcción de un Estado: sin rango previo equivalente -> pp. 84-90.
-- Etica, Naturaleza y Sociedades PA16 - Dictadura de Santa Anna y Revolución de Ayutla (1853-1858): sin rango previo equivalente -> pp. 91-97.
-- Etica, Naturaleza y Sociedades PA17 - Historieta Las Leyes de Reforma y la Constitución de 1857: sin rango previo equivalente -> pp. 98-105.
-- Etica, Naturaleza y Sociedades PA18 - Acciones orientadas a fortalecer la igualdad, el bienestar colectivo y el respeto a los derechos humanos en poblaciones históricamente marginadas y vulneradas: sin rango previo equivalente -> pp. 230-236.
-- Etica, Naturaleza y Sociedades PA19 - Guerra de Reforma: sin rango previo equivalente -> pp. 106-113.
-- Etica, Naturaleza y Sociedades PA19 - Imposición y derrota del Segundo Imperio mexicano (1864-1867): sin rango previo equivalente -> pp. 114-120.
-- Etica, Naturaleza y Sociedades PA20 - Mapa comentado Del triunfo de la República a la dictadura porfirista: sin rango previo equivalente -> pp. 121-129.
-- Etica, Naturaleza y Sociedades PA21 - Creación y transformación de normas y leyes orientadas a favorecer la igualdad, la libertad, la justicia ylos derechos humanos: sin rango previo equivalente -> pp. 253-258.
-- Etica, Naturaleza y Sociedades PA23 - Desigualdad y derecho a una vida digna Periódico escolar comunitario Conflictos entre grupos revolucionarios y la Constitución de 1917: sin rango previo equivalente -> pp. 140-147.
-- Etica, Naturaleza y Sociedades PA24 - Consecuencias de la desigualdad socioeconómica en la calidad de vida y acciones que garanticen el derecho a una vida digna y justa: sin rango previo equivalente -> pp. 245-252.
-- Etica, Naturaleza y Sociedades PA26 - Nota periodística Cardenismo: sin rango previo equivalente -> pp. 155-162.
-- Etica, Naturaleza y Sociedades PA27 - La importancia de la participación ciudadana, organizaciones sociales y partidos políticos en México: sin rango previo equivalente -> pp. 331-340.
-- Etica, Naturaleza y Sociedades PA27 - La participación ciudadana para vigilar que se administren los recursos públicos con honestidad, transparencia y legalidad: sin rango previo equivalente -> pp. 341-345.
-- Lenguajes PA1 - La diversidad del español mexicano: pp. 21-28 -> p. 21.
-- Lenguajes PA1 - La interpretación de textos literarios: análisis y disfrute: pp. 37-234 -> p. 37.
 - Lenguajes PA2 - ¡Y voy narrando lo que somos! Esquema ilustrado La diversidad del español mexicano: sin rango previo equivalente -> p. 21.
-- Lenguajes PA2 - Valoración de textos tradicionales y contemporáneos: pp. 68-73 -> p. 68.
-- Lenguajes PA2 - Las posibilidades de la investigación en el arte: sin rango previo equivalente -> p. 76.
-- Lenguajes PA2 - La literatura y el arte de la palabra en las lenguas originarias de México: pp. 120-126 -> p. 120.
-- Lenguajes PA2 - Las lenguas indígenas: identidad y cultura de los pueblos originarios: pp. 179-184 -> p. 179.
-- Lenguajes PA2 - Pueblos indígenas y afrodescendientes del México y el mundo: sin rango previo equivalente -> p. 238.
-- Lenguajes PA2 - Nuestra fiesta comunitaria como espacio de enseñanza, reconocimiento, recreación y disfrute: sin rango previo equivalente -> p. 293.
-- Lenguajes PA3 - Prácticas culturales y ceremoniales de los pueblos indígenas: pp. 186-191 -> p. 186.
-- Lenguajes PA3 - Rasgos identitarios y diálogos de los pueblos indígenas: pp. 192-197 -> p. 192.
-- Lenguajes PA3 - 7 El lenguaje a través de hablantes nativos y no nativos: sin rango previo equivalente -> p. 221.
+- Lenguajes PA2 - Las posibilidades de la investigación en el arte: p. 76 -> p. 277.
+- Lenguajes PA2 - La literatura y el arte de la palabra en las lenguas originarias de México: p. 120 -> p. 101.
+- Lenguajes PA2 - Las lenguas indígenas: identidad y cultura de los pueblos originarios: p. 179 -> p. 174.
+- Lenguajes PA2 - Pueblos indígenas y afrodescendientes del México y el mundo: sin rango previo equivalente -> p. 146.
+- Lenguajes PA3 - Prácticas culturales y ceremoniales de los pueblos indígenas: p. 186 -> p. 181.
+- Lenguajes PA3 - Rasgos identitarios y diálogos de los pueblos indígenas: p. 192 -> p. 187.
+- Lenguajes PA3 - El lenguaje a través de hablantes nativos y no nativos: p. 221 -> p. 216.
 - Lenguajes PA28 - Reportaje detectivesco El comentario crítico de una obra literaria como instrumento para la reflexiónpersonal: sin rango previo equivalente -> p. 12.
-- Lenguajes PA28 - La interpretación de textos literarios: análisis y disfrute: pp. 37-81 -> p. 37.
-- Lenguajes PA28 - La autobiografía y la crónica como vehículos para el conocimiento personal y comunitario: pp. 52-58 -> p. 52.
-- Lenguajes PA28 - Valoración de textos tradicionales y contemporáneos: pp. 68-75 -> p. 68.
-- Lenguajes PA28 - Acciones comunes para la solución de problemas comunitarios: pp. 200-202 -> pp. 201-202.
-- Lenguajes PA29 - La autobiografía y la crónica como vehículos para el conocimiento personal y comunitario: sin rango previo equivalente -> p. 52.
-- Lenguajes PA29 - El lenguaje a través hablantes nativos y no nativos: sin rango previo equivalente -> p. 221.
-- Lenguajes PA30 - Valoración de textos tradicionales y contemporáneos: pp. 68-70 -> p. 68.
-- Lenguajes PA30 - Somos formas,colores, movimientos y sonidos: pp. 88-91 -> p. 88.
-- Lenguajes PA30 - Prácticas sociales y culturales centradas en la organización social y el cuidado mutuo: sin rango previo equivalente -> p. 129.
+- Lenguajes PA28 - Acciones comunes para la solución de problemas comunitarios: sin rango previo equivalente -> p. 195.
+- Lenguajes PA29 - El lenguaje a través hablantes nativos y no nativos: sin rango previo equivalente -> p. 216.
+- Lenguajes PA30 - Somos formas,colores, movimientos y sonidos: p. 88 -> p. 242.
+- Lenguajes PA30 - Prácticas sociales y culturales centradas en la organización social y el cuidado mutuo: p. 129 -> p. 115.
 - Lenguajes PA31 - Tertulia literaria comunitaria El comentario crítico de una obra literaria como instrumento para la reflexión personal: sin rango previo equivalente -> p. 12.
-- Lenguajes PA31 - La autobiografía y la crónica como vehículos para el conocimiento personal y comunitario: pp. 52-58 -> p. 52.
-- Lenguajes PA31 - La literatura y el arte de la palabra en las lenguas originarias de México: pp. 120-124 -> p. 120.
-- Lenguajes PA31 - Prácticas culturales y ceremoniales de los pueblos indígenas: pp. 186-189 -> p. 186.
-- Lenguajes PA32 - Criterios para valorar la estética de obras culturales y artísticas, y cómo trascenderlos: pp. 277-292 -> p. 277.
-- Lenguajes PA32 - Nuestra fiesta comunitaria como espacio de enseñanza, reconocimiento, recreación y disfrute: pp. 293-298 -> p. 293.
-- Lenguajes PA33 - Prácticas sociales y culturales centradas en la organización social y el cuidado mutuo: sin rango previo equivalente -> p. 129.
-- Lenguajes PA33 - El trabajo comunitario y las formas de construir acuerdos en los pueblos indígenas: pp. 139-148 -> p. 139.
-- Lenguajes PA33 - El trabajo de la milpa como práctica cultural de las comunidades indígenas: pp. 149-159 -> p. 149.
-- Lenguajes PA33 - Prácticas culturales y ceremoniales de los pueblos indígenas: pp. 186-191 -> p. 186.
-- Lenguajes PA34 - El debate y su función para solucionar problemas sociales: pp. 29-32 -> p. 29.
-- Lenguajes PA34 - La expresión de ideas para la construcción de una sociedad incluyente: pp. 168-178 -> p. 168.
-- Lenguajes PA35 - El debate y su función para solucionar problemas sociales: pp. 29-36 -> p. 29.
-- Lenguajes PA36 - El debate y su función para solucionar problemas sociales: pp. 29-36 -> p. 29.
-- Lenguajes PA36 - Artivismo con impacto ambiental y reconciliación: pp. 255-262 -> p. 255.
-- Lenguajes PA36 - 2 ed 2 Colectivos y proyectos artísticos en contextos rurales y urbanos: sin rango previo equivalente -> p. 263.
-- Lenguajes PA37 - Sanación, plenitud y reconocimiento: pp. 82-87 -> p. 82.
-- Lenguajes PA37 - Somos formas, colores, movimientos y sonidos: pp. 88-94 -> p. 88.
-- Lenguajes PA38 - Somos formas, colores, movimientos y sonidos: pp. 88-94 -> p. 88.
-- Lenguajes PA38 - Acciones comunes para la solución de problemas comunitarios: pp. 200-206 -> pp. 201-202.
-- Lenguajes PA39 - La adaptación entre medios de comunicación: pp. 45-51 -> p. 45.
-- Lenguajes PA39 - El lenguaje a través hablantes nativos y no nativos: sin rango previo equivalente -> p. 221.
-- Lenguajes PA39 - Preservación de la lengua a través de la escritura y la literatura: sin rango previo equivalente -> p. 232.
-- Lenguajes PA39 - Artivismo con impacto ambiental y reconciliación: pp. 255-262 -> p. 255.
-- Lenguajes PA40 - El texto de divulgación científica: pp. 59-67 -> p. 59.
-- Lenguajes PA41 - Las posibilidades de la investigación en el arte: sin rango previo equivalente -> p. 76.
-- Lenguajes PA41 - Concepto y relevancia del territorio para los pueblos y las comunidades indígenas: pp. 95-97 -> p. 95.
-- Lenguajes PA41 - Las lenguas y cosmovisión de los pueblos originarios: pp. 112-117 -> p. 112.
-- Lenguajes PA41 - El trabajo de la milpa como práctica cultural de las comunidades indígenas: pp. 149-159 -> p. 149.
-- Lenguajes PA42 - Valoración de textos tradicionales y contemporáneos: pp. 68-70 -> p. 68.
-- Lenguajes PA42 - La literatura y el arte de la palabra en las lenguas originarias de México: pp. 120-126 -> p. 120.
-- Lenguajes PA42 - Las lenguas indígenas: identidad y cultura de los pueblos originarios: pp. 179-184 -> p. 179.
-- Lenguajes PA43 - Sistemas alternativos y aumentativos de comunicación en manifestaciones artísticas por y para personas con discapacidad: pp. 207-214 -> p. 207.
-- Lenguajes PA44 - La expresión de ideas para la construcción de una sociedad incluyente: pp. 168-178 -> p. 168.
-- Lenguajes PA44 - Componentes de la ritualidad: cuerpo, pensamiento y organización política: pp. 271-276 -> p. 271.
-- Lenguajes PA44 - To'on, palabra maya para nombrar el “nosotros”: pp. 309-314 -> p. 309.
-- Lenguajes PA45 - Pueblos indígenas y afrodescendientes de México y el mundo: pp. 237-245 -> p. 237.
-- Lenguajes PA45 - Arte, identidad y territorio: pp. 250-252 -> p. 250.
-- Lenguajes PA45 - 2 ed 2 Colectivos y proyectos artísticos en contextos rurales y urbanos: sin rango previo equivalente -> p. 263.
-- Lenguajes PA45 - Movimientos artísticos por la defensa de la diversidad sexual y con perspectiva de género: pp. 266-270 -> p. 266.
-- Lenguajes PA4 - Club de lectura La diversidad del español mexicano: pp. 21-28 -> p. 21.
-- Lenguajes PA4 - El bilingüismo asimétrico y el desplazamiento de las lenguas y culturas de los pueblos indígenas: pp. 104-108 -> p. 104.
-- Lenguajes PA5 - Las lenguas y cosmovisión de los pueblos originarios: pp. 112-119 -> p. 112.
-- Lenguajes PA5 - Prácticas sociales y culturales centradas en la organización social y el cuidado mutuo: sin rango previo equivalente -> p. 129.
-- Lenguajes PA6 - Somos formas, colores, movimientos y sonidos: pp. 88-94 -> p. 88.
-- Lenguajes PA6 - La expresión de ideas para la construcción de una sociedad incluyente: pp. 168-178 -> p. 168.
+- Lenguajes PA31 - La literatura y el arte de la palabra en las lenguas originarias de México: p. 120 -> p. 101.
+- Lenguajes PA31 - Prácticas culturales y ceremoniales de los pueblos indígenas: p. 186 -> p. 181.
+- Lenguajes PA32 - Criterios para valorar la estética de obras culturales y artísticas, y cómo trascenderlos: p. 277 -> p. 271.
+- Lenguajes PA33 - Prácticas sociales y culturales centradas en la organización social y el cuidado mutuo: p. 129 -> p. 115.
+- Lenguajes PA33 - El trabajo comunitario y las formas de construir acuerdos en los pueblos indígenas: p. 139 -> p. 125.
+- Lenguajes PA33 - El trabajo de la milpa como práctica cultural de las comunidades indígenas: p. 149 -> p. 135.
+- Lenguajes PA33 - Prácticas culturales y ceremoniales de los pueblos indígenas: p. 186 -> p. 181.
+- Lenguajes PA34 - La expresión de ideas para la construcción de una sociedad incluyente: p. 168 -> p. 163.
+- Lenguajes PA36 - Artivismo con impacto ambiental y reconciliación: p. 255 -> p. 249.
+- Lenguajes PA36 - ed 2 Colectivos y proyectos artísticos en contextos rurales y urbanos: sin rango previo equivalente -> p. 257.
+- Lenguajes PA37 - Sanación, plenitud y reconocimiento: p. 82 -> p. 236.
+- Lenguajes PA37 - Somos formas, colores, movimientos y sonidos: p. 88 -> p. 242.
+- Lenguajes PA38 - Somos formas, colores, movimientos y sonidos: p. 88 -> p. 242.
+- Lenguajes PA38 - Acciones comunes para la solución de problemas comunitarios: sin rango previo equivalente -> p. 195.
+- Lenguajes PA39 - El lenguaje a través hablantes nativos y no nativos: sin rango previo equivalente -> p. 216.
+- Lenguajes PA39 - Preservación de la lengua a través de la escritura y la literatura: p. 232 -> p. 110.
+- Lenguajes PA39 - Artivismo con impacto ambiental y reconciliación: p. 255 -> p. 249.
+- Lenguajes PA41 - Las posibilidades de la investigación en el arte: p. 76 -> p. 277.
+- Lenguajes PA41 - Concepto y relevancia del territorio para los pueblos y las comunidades indígenas: p. 95 -> p. 76.
+- Lenguajes PA41 - Las lenguas y cosmovisión de los pueblos originarios: p. 112 -> p. 93.
+- Lenguajes PA41 - El trabajo de la milpa como práctica cultural de las comunidades indígenas: p. 149 -> p. 135.
+- Lenguajes PA42 - La literatura y el arte de la palabra en las lenguas originarias de México: p. 120 -> p. 101.
+- Lenguajes PA42 - Las lenguas indígenas: identidad y cultura de los pueblos originarios: p. 179 -> p. 174.
+- Lenguajes PA43 - Sistemas alternativos y aumentativos de comunicación en manifestaciones artísticas por y para personas con discapacidad: p. 207 -> p. 202.
+- Lenguajes PA44 - La expresión de ideas para la construcción de una sociedad incluyente: p. 168 -> p. 163.
+- Lenguajes PA44 - Componentes de la ritualidad: cuerpo, pensamiento y organización política: p. 271 -> p. 265.
+- Lenguajes PA45 - Pueblos indígenas y afrodescendientes de México y el mundo: p. 237 -> p. 145.
+- Lenguajes PA45 - Arte, identidad y territorio: p. 250 -> p. 231.
+- Lenguajes PA45 - ed 2 Colectivos y proyectos artísticos en contextos rurales y urbanos: sin rango previo equivalente -> p. 257.
+- Lenguajes PA45 - Movimientos artísticos por la defensa de la diversidad sexual y con perspectiva de género: p. 266 -> p. 260.
+- Lenguajes PA4 - Club de lectura La diversidad del español mexicano: sin rango previo equivalente -> p. 21.
+- Lenguajes PA4 - El bilingüismo asimétrico y el desplazamiento de las lenguas y culturas de los pueblos indígenas: p. 104 -> p. 85.
+- Lenguajes PA4 - Lenguajes | Segundo grado | Nuestro libro de proyectos | Tomo I 2 de 3 9 La expresión de ideas para la construcción de una sociedad incluyente: sin rango previo equivalente -> p. 163.
+- Lenguajes PA5 - Las lenguas y cosmovisión de los pueblos originarios: p. 112 -> p. 93.
+- Lenguajes PA5 - Prácticas sociales y culturales centradas en la organización social y el cuidado mutuo: p. 129 -> p. 115.
+- Lenguajes PA5 - Las lenguas indígenas: identidad y cultura de los pueblos originarios: sin rango previo equivalente -> p. 174.
+- Lenguajes PA5 - Prácticas culturales y ceremoniales de los pueblos indígenas: sin rango previo equivalente -> p. 181.
+- Lenguajes PA5 - Rasgos identitarios y diálogos de los pueblos indígenas: sin rango previo equivalente -> p. 187.
+- Lenguajes PA5 - Interculturalidad crítica: sin rango previo equivalente -> p. 289.
+- Lenguajes PA6 - Somos formas, colores, movimientos y sonidos: pp. 242-247 -> p. 242.
+- Lenguajes PA6 - La expresión de ideas para la construcción de una sociedad incluyente: sin rango previo equivalente -> p. 163.
+- Lenguajes PA6 - ed 2 Rasgos identitarios y diálogos de los pueblos indígenas: sin rango previo equivalente -> p. 187.
+- Lenguajes PA6 - Arte, identidad y territorio: pp. 231-232 -> p. 231.
 - Lenguajes PA7 - Lenguajes | Segundo grado | Nuestro libro de proyectos | Tomo I El comentario crítico de una obra literaria como instrumento para la reflexión personal: sin rango previo equivalente -> p. 12.
-- Lenguajes PA7 - La diversidad del español mexicano: pp. 21-26 -> p. 21.
-- Lenguajes PA7 - La interpretación de textos literarios: análisis y disfrute: sin rango previo equivalente -> p. 37.
-- Lenguajes PA7 - Valoración de textos tradicionales y contemporáneos: pp. 68-73 -> p. 68.
-- Lenguajes PA7 - La entrevista para conocer el sentir y pensar cotidiano de las personas y de mi localidad: pp. 215-220 -> p. 215.
-- Lenguajes PA8 - La diversidad del español mexicano: pp. 21-22 -> p. 21.
-- Lenguajes PA8 - Rasgos identitarios y diálogos de los pueblos indígenas: pp. 192-193 -> p. 192.
-- Lenguajes PA8 - El lenguaje a través de hablantes nativos y no nativos: pp. 221-223 -> p. 221.
-- Lenguajes PA9 - Las lenguas y cosmovisión de los pueblos originarios: pp. 112-119 -> p. 112.
-- Lenguajes PA9 - La literatura y el arte de la palabra en las lenguas originarias de México: pp. 120-172 -> p. 120.
-- Lenguajes PA9 - Las lenguas indígenas: identidad y cultura de los pueblos originarios: pp. 179-184 -> p. 179.
-- Lenguajes PA9 - Rasgos identitarios y diálogos de los pueblos indígenas: pp. 192-199 -> p. 192.
+- Lenguajes PA7 - La entrevista para conocer el sentir y pensar cotidiano de las personas y de mi localidad: p. 215 -> p. 210.
+- Lenguajes PA8 - Rasgos identitarios y diálogos de los pueblos indígenas: p. 192 -> p. 187.
+- Lenguajes PA8 - El lenguaje a través de hablantes nativos y no nativos: p. 221 -> p. 216.
+- Lenguajes PA9 - Las lenguas y cosmovisión de los pueblos originarios: p. 112 -> p. 93.
+- Lenguajes PA9 - La literatura y el arte de la palabra en las lenguas originarias de México: p. 120 -> p. 101.
+- Lenguajes PA9 - Las lenguas indígenas: identidad y cultura de los pueblos originarios: p. 179 -> p. 174.
+- Lenguajes PA9 - Rasgos identitarios y diálogos de los pueblos indígenas: p. 192 -> p. 187.
 - Lenguajes PA10 - Lenguajes | Segundo grado | Nuestro libro de proyectos | Tomo I La diversidad del español mexicano: sin rango previo equivalente -> p. 21.
-- Lenguajes PA10 - El debate y su función para solucionar problemas sociales: pp. 29-34 -> p. 29.
-- Lenguajes PA11 - Concepto y relevancia del territorio para los pueblos y las comunidades indígenas: pp. 95-103 -> p. 95.
-- Lenguajes PA12 - La interpretación de textos literarios: análisis y disfrute: sin rango previo equivalente -> p. 37.
-- Lenguajes PA12 - La adaptación entre medios de comunicación: pp. 45-51 -> p. 45.
-- Lenguajes PA12 - Valoración de textos tradicionales y contemporáneos: pp. 68-75 -> p. 68.
+- Lenguajes PA10 - El trabajo comunitario y las formas de construir acuerdos en los pueblos indígenas: sin rango previo equivalente -> p. 125.
+- Lenguajes PA11 - Concepto y relevancia del territorio para los pueblos y las comunidades indígenas: p. 95 -> p. 76.
+- Lenguajes PA11 - de 3 14 El bilingüismo asimétrico y el desplazamiento de las lenguas y culturas de los pueblos indígenas: sin rango previo equivalente -> p. 85.
+- Lenguajes PA11 - Las lenguas y cosmovisión de los pueblos originarios: sin rango previo equivalente -> p. 93.
+- Lenguajes PA11 - Las lenguas indígenas: identidad y cultura de los pueblos originarios: sin rango previo equivalente -> p. 174.
+- Lenguajes PA11 - El lenguaje cotidiano a través del tiempo: sin rango previo equivalente -> p. 222.
+- Lenguajes PA11 - Preservación de la lengua a través de la escritura y la literatura: sin rango previo equivalente -> p. 110.
+- Lenguajes PA12 - Las lenguas y cosmovisión de los pueblos originarios: sin rango previo equivalente -> p. 93.
+- Lenguajes PA12 - La literatura y el arte de la palabra en las lenguas originarias de México: sin rango previo equivalente -> p. 101.
+- Lenguajes PA12 - Canto, voz y sabiduría en la tradición indígena: sin rango previo equivalente -> p. 154.
+- Lenguajes PA12 - ed 3 Los textos narrativos como formas para conocer el pasado: sin rango previo equivalente -> p. 227.
+- Lenguajes PA12 - Proceso de adaptación de textos literarios, formas de registro originarias y saberes antiguos a otros medios artísticos: sin rango previo equivalente -> p. 299.
 - Lenguajes PA13 - Lenguajes | Segundo grado | Nuestro libro de proyectos | Tomo I El debate y su función para solucionar problemas sociales: sin rango previo equivalente -> p. 29.
-- Lenguajes PA13 - Prácticas sociales y culturales centradas en la organización social y el cuidado mutuo: pp. 129-133 -> p. 129.
-- Lenguajes PA13 - El trabajo comunitario y las formas de construir acuerdos en los pueblos indígenas: pp. 139-148 -> p. 139.
-- Lenguajes PA13 - Acciones comunes para la solución de problemas comunitarios: pp. 200-206 -> pp. 201-202.
-- Lenguajes PA13 - Artivismo con impacto ambiental y reconciliación: pp. 255-262 -> p. 255.
+- Lenguajes PA13 - Prácticas sociales y culturales centradas en la organización social y el cuidado mutuo: p. 129 -> p. 115.
+- Lenguajes PA13 - El trabajo comunitario y las formas de construir acuerdos en los pueblos indígenas: p. 139 -> p. 125.
+- Lenguajes PA13 - Acciones comunes para la solución de problemas comunitarios: sin rango previo equivalente -> p. 195.
+- Lenguajes PA13 - Artivismo con impacto ambiental y reconciliación: p. 255 -> p. 249.
 - Lenguajes PA14 - El comentario crítico de una obra literaria como instrumentos para la reflexión personal: sin rango previo equivalente -> p. 12.
-- Lenguajes PA14 - Concepto y relevancia del territorio para los pueblos y las comunidades indígenas: pp. 95-103 -> p. 95.
-- Lenguajes PA14 - Acciones comunes para la solución de problemas comunitarios: pp. 200-2002 -> pp. 201-202.
-- Lenguajes PA14 - To'on, palabra maya para nombrar el “nosotros”: pp. 309-312 -> p. 309.
-- Lenguajes PA15 - La expresión de ideas para la construcción de una sociedad incluyente: pp. 168-178 -> p. 168.
-- Lenguajes PA15 - Interculturalidad crítica: pp. 289-292 -> p. 289.
-- Lenguajes PA15 - 2 ed 2 To'on,palabra maya para nombrar el “nosotros”: sin rango previo equivalente -> p. 309.
-- Lenguajes PA16 - La interpretación de textos literarios: análisis y disfrute: sin rango previo equivalente -> p. 37.
-- Lenguajes PA16 - Valoración de textos tradicionales y contemporáneos: pp. 68-70 -> p. 68.
-- Lenguajes PA16 - Somos formas, colores, movimientos y sonidos: pp. 88-94 -> p. 88.
-- Lenguajes PA17 - El comentario crítico de una obra literaria como instrumento para la reflexión personal: pp. 12-41 -> p. 12.
-- Lenguajes PA17 - Canto,voz y sabiduría en la tradición indígena: pp. 159-161 -> p. 159.
-- Lenguajes PA17 - Proceso de adaptación de textos literarios,formas de registro originarias y saberes antiguos a otros medios artísticos: pp. 299-308 -> p. 299.
-- Lenguajes PA18 - La adaptación entre medios de comunicación: pp. 45-51 -> p. 45.
-- Lenguajes PA18 - Sanación, plenitud y reconocimiento: pp. 82-87 -> p. 82.
-- Lenguajes PA18 - La literatura y el arte de la palabra en las lenguas originarias de México: pp. 120-128 -> p. 120.
-- Lenguajes PA18 - 2 ed 2 Artivismo con impacto ambiental y reconciliación: sin rango previo equivalente -> p. 255.
-- Lenguajes PA18 - Proceso de adaptación de textos literarios, formas de registro originarias y saberes antiguos a otros medios artísticos: pp. 299-308 -> p. 299.
-- Lenguajes PA19 - La interpretación de textos literarios: análisis y disfrute: sin rango previo equivalente -> p. 37.
-- Lenguajes PA19 - Canto, voz y sabiduría en la tradición indígena: pp. 159-161 -> p. 159.
-- Lenguajes PA20 - El comentario crítico de una obra literaria como instrumento para la reflexión personal: sin rango previo equivalente -> p. 12.
-- Lenguajes PA20 - La interpretación de textos literarios: análisis y disfrute: sin rango previo equivalente -> p. 37.
-- Lenguajes PA20 - Valoración de textos tradicionales y contemporáneos: pp. 68-75 -> p. 68.
-- Lenguajes PA21 - Somos formas, colores, movimientos y sonidos: pp. 88-94 -> p. 88.
-- Lenguajes PA21 - Artivismo con impacto ambiental y reconciliación: pp. 255-262 -> p. 255.
-- Lenguajes PA21 - 2 ed 2 Colectivos y proyectos artísticos en contextos rurales y urbanos: sin rango previo equivalente -> p. 263.
-- Lenguajes PA21 - Componentes de la ritualidad: cuerpo, pensamiento y organización política: pp. 271-276 -> p. 271.
-- Lenguajes PA21 - Criterios para valorar la estética de obras culturales y artísticas, y cómo trascenderlos: sin rango previo equivalente -> p. 277.
+- Lenguajes PA14 - Concepto y relevancia del territorio para los pueblos y las comunidades indígenas: p. 95 -> p. 76.
+- Lenguajes PA14 - Acciones comunes para la solución de problemas comunitarios: sin rango previo equivalente -> p. 195.
+- Lenguajes PA15 - La expresión de ideas para la construcción de una sociedad incluyente: p. 168 -> p. 163.
+- Lenguajes PA15 - ed 2 To'on,palabra maya para nombrar el “nosotros”: sin rango previo equivalente -> p. 309.
+- Lenguajes PA16 - Somos formas, colores, movimientos y sonidos: p. 88 -> p. 242.
+- Lenguajes PA17 - Canto,voz y sabiduría en la tradición indígena: p. 159 -> p. 154.
+- Lenguajes PA18 - Sanación, plenitud y reconocimiento: p. 82 -> p. 236.
+- Lenguajes PA18 - La literatura y el arte de la palabra en las lenguas originarias de México: p. 120 -> p. 101.
+- Lenguajes PA18 - ed 2 Artivismo con impacto ambiental y reconciliación: sin rango previo equivalente -> p. 249.
+- Lenguajes PA19 - Canto, voz y sabiduría en la tradición indígena: p. 159 -> p. 154.
+- Lenguajes PA21 - Somos formas, colores, movimientos y sonidos: p. 88 -> p. 242.
+- Lenguajes PA21 - Artivismo con impacto ambiental y reconciliación: p. 255 -> p. 249.
+- Lenguajes PA21 - ed 2 Colectivos y proyectos artísticos en contextos rurales y urbanos: sin rango previo equivalente -> p. 257.
+- Lenguajes PA21 - Componentes de la ritualidad: cuerpo, pensamiento y organización política: p. 271 -> p. 265.
+- Lenguajes PA21 - Criterios para valorar la estética de obras culturales y artísticas, y cómo trascenderlos: p. 277 -> p. 271.
 - Lenguajes PA22 - Me gusta, no me gusta o sólo un poco Videoblog Catálogo de artesanías 1 de 3 Lenguajes | Segundo grado | Nuestro libro de proyectos | Tomo II Valoración de textos tradicionales y contemporáneos: sin rango previo equivalente -> p. 68.
-- Lenguajes PA22 - La literatura y el arte de la palabra en las lenguas originarias de México: pp. 120-128 -> p. 120.
-- Lenguajes PA23 - La interpretación de textos literarios: análisis y disfrute: sin rango previo equivalente -> p. 37.
-- Lenguajes PA23 - La adaptación entre medios de comunicación: pp. 45-51 -> p. 45.
-- Lenguajes PA23 - La literatura y el arte de la palabra en las lenguas originarias de México: pp. 120-128 -> p. 120.
-- Lenguajes PA24 - Criterios para valorar la estética de obras culturales y artísticas, y cómo trascenderlos: pp. 277-282 -> p. 277.
-- Lenguajes PA24 - Escuela y arte: pp. 283-284 -> p. 283.
+- Lenguajes PA22 - La literatura y el arte de la palabra en las lenguas originarias de México: p. 120 -> p. 101.
+- Lenguajes PA22 - El trabajo de la milpa como práctica cultural de las comunidades indígenas: sin rango previo equivalente -> p. 135.
+- Lenguajes PA22 - Canto, voz y sabiduría en la tradición indígena: sin rango previo equivalente -> p. 154.
+- Lenguajes PA22 - Las lenguas indígenas: identidad y cultura de los pueblos originarios: sin rango previo equivalente -> p. 174.
+- Lenguajes PA22 - Prácticas culturales y ceremoniales de los pueblos indígenas: sin rango previo equivalente -> p. 181.
+- Lenguajes PA22 - Rasgos identitarios y diálogos de los pueblos indígenas: sin rango previo equivalente -> p. 187.
+- Lenguajes PA22 - El lenguaje cotidiano a través del tiempo: sin rango previo equivalente -> p. 222.
+- Lenguajes PA22 - Pueblos indígenas y afrodescendientes de México y el mundo: sin rango previo equivalente -> p. 145.
+- Lenguajes PA22 - Los textos narrativos como formas para conocer el pasado: sin rango previo equivalente -> p. 227.
+- Lenguajes PA22 - Interculturalidad crítica: sin rango previo equivalente -> p. 289.
+- Lenguajes PA23 - La literatura y el arte de la palabra en las lenguas originarias de México: p. 120 -> p. 101.
+- Lenguajes PA23 - Prácticas culturales y ceremoniales de los pueblos indígenas: sin rango previo equivalente -> p. 181.
+- Lenguajes PA23 - Los textos narrativos como formas para conocer el pasado: sin rango previo equivalente -> p. 227.
+- Lenguajes PA23 - Proceso de adaptación de textos literarios,formas de registro originarias y saberes antiguos a otros medios artísticos: sin rango previo equivalente -> p. 299.
+- Lenguajes PA24 - Criterios para valorar la estética de obras culturales y artísticas, y cómo trascenderlos: p. 277 -> p. 271.
 - Lenguajes PA25 - La autobiografía y la crónica como vehículos para elconocimiento personal y comunitario: sin rango previo equivalente -> p. 52.
-- Lenguajes PA25 - Los textos narrativos como formas para conocer el pasado: pp. 246-248 -> p. 246.
-- Lenguajes PA25 - Artivismocon impacto ambiental y reconciliación: pp. 255-261 -> p. 255.
-- Lenguajes PA26 - Sanación,plenitud y reconocimiento: pp. 82-85 -> p. 82.
-- Lenguajes PA26 - Somos formas,colores,movimientos y sonidos: pp. 88-94 -> p. 88.
-- Lenguajes PA26 - Canto,voz y sabiduría en la tradición indígena: pp. 159-163 -> p. 159.
-- Lenguajes PA26 - Artivismocon impacto ambiental y reconciliación: pp. 255-262 -> p. 255.
-- Lenguajes PA26 - Nuestra fiesta comunitaria como espacio de enseñanza, reconocimiento, recreación y disfrute: sin rango previo equivalente -> p. 293.
-- Lenguajes PA27 - El comentario crítico de una obra literaria como instrumento para la reflexión personal: pp. 12-16 -> p. 12.
-- Lenguajes PA27 - La diversidad del español mexicano: pp. 21-28 -> p. 21.
-- Lenguajes PA27 - La interpretación de textos literarios: análisis y disfrute: sin rango previo equivalente -> p. 37.
-- Lenguajes PA27 - 2 ed 2 Valoración de textos tradicionales y contemporáneos: sin rango previo equivalente -> p. 68.
-- Lenguajes PA27 - Canto,voz y sabiduría en la tradición indígena: pp. 159-161 -> p. 159.
-- Lenguajes PA27 - El lenguaje através de hablantes nativos y no nativos: sin rango previo equivalente -> p. 221.
-- Saberes y Pensamiento Científico PA3 - Tendencias en los datos: sin rango previo equivalente -> pp. 92-97.
-- Saberes y Pensamiento Científico PA28 - Medidas de tendencia central y de dispersión: sin rango previo equivalente -> pp. 85-91.
-- Saberes y Pensamiento Científico PA31 - Múltiplos y submúltiplos de sistemasde medidas: sin rango previo equivalente -> pp. 62-68.
-- Saberes y Pensamiento Científico PA32 - Feria geométrica Construcción de polígonos regulares: sin rango previo equivalente -> pp. 14-16.
-- Saberes y Pensamiento Científico PA40 - 33 Fuentes de energía: sin rango previo equivalente -> pp. 208-221.
-- Saberes y Pensamiento Científico PA41 - Representación algebraica de áreas: sin rango previo equivalente -> pp. 17-21.
-- Saberes y Pensamiento Científico PA42 - Representación algebraica de áreas: sin rango previo equivalente -> pp. 17-21.
-- Saberes y Pensamiento Científico PA5 - Glosario de conceptos Instrumentos de medición sencillos Propiedades de los exponentes para la resolución de operaciones algebraicas: sin rango previo equivalente -> pp. 22-26.
-- Saberes y Pensamiento Científico PA8 - Intersecciones entre círculos y figuras: sin rango previo equivalente -> pp. 57-61.
-- Saberes y Pensamiento Científico PA9 - Representaciones visuales de los átomos Gráficas poligonales y de línea Recolección, registro, análisis y comunicación de datos: sin rango previo equivalente -> pp. 80-84.
-- Saberes y Pensamiento Científico PA9 - Estructura de la materia: sin rango previo equivalente -> pp. 198-203.
-- Saberes y Pensamiento Científico PA10 - Perímetro y área de figuras compuestas: sin rango previo equivalente -> pp. 69-79.
-- Saberes y Pensamiento Científico PA12 - Representación algebraica de áreas: sin rango previo equivalente -> pp. 17-21.
-- Saberes y Pensamiento Científico PA13 - Recolección, registro, análisis y comunicación de datos: sin rango previo equivalente -> pp. 80-84.
-- Saberes y Pensamiento Científico PA14 - Representación algebraica de áreas: sin rango previo equivalente -> pp. 17-21.
-- Saberes y Pensamiento Científico PA14 - Sistemas de dos ecuaciones linealescon dos incógnitas: sin rango previo equivalente -> pp. 33-40.
-- Saberes y Pensamiento Científico PA15 - Álbum de predicciones científicas Demostración de las leyes de Newton Propiedades de los exponentes para la resolución de operaciones algebraicas: sin rango previo equivalente -> pp. 22-26.
-- Saberes y Pensamiento Científico PA17 - Construcción de polígonos regulares: sin rango previo equivalente -> pp. 14-16.
-- Saberes y Pensamiento Científico PA21 - Serie de carteles ilustrados Comercial concientizador teatralizado Energía solar: sin rango previo equivalente -> pp. 177-181.
-- Saberes y Pensamiento Científico PA24 - Cuento corto Cómic científico Propiedades de los exponentes para la resolución de operaciones algebraicas: sin rango previo equivalente -> pp. 22-26.
-- Saberes y Pensamiento Científico PA26 - Construcción a escala de triángulos, cuadrilateros y polítgonos regulares o irregulares: sin rango previo equivalente -> pp. 47-51.
-- Saberes y Pensamiento Científico PA27 - Electromagnetismo: sin rango previo equivalente -> pp. 316-325.
+- Lenguajes PA25 - Los textos narrativos como formas para conocer el pasado: p. 246 -> p. 227.
+- Lenguajes PA25 - Artivismocon impacto ambiental y reconciliación: sin rango previo equivalente -> p. 249.
+- Lenguajes PA26 - Sanación,plenitud y reconocimiento: p. 82 -> p. 236.
+- Lenguajes PA26 - Somos formas,colores,movimientos y sonidos: p. 88 -> p. 242.
+- Lenguajes PA26 - Canto,voz y sabiduría en la tradición indígena: p. 159 -> p. 154.
+- Lenguajes PA26 - Artivismocon impacto ambiental y reconciliación: sin rango previo equivalente -> p. 249.
+- Lenguajes PA27 - ed 2 Valoración de textos tradicionales y contemporáneos: sin rango previo equivalente -> p. 68.
+- Lenguajes PA27 - Canto,voz y sabiduría en la tradición indígena: p. 159 -> p. 154.
+- Lenguajes PA27 - El lenguaje através de hablantes nativos y no nativos: sin rango previo equivalente -> p. 216.
 
 ## Revisión visual pendiente
 
