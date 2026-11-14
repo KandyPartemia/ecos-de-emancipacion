@@ -1,3 +1,4 @@
+import argparse
 import json
 import re
 import unicodedata
@@ -7,7 +8,6 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[2]
 POSSIBILITIES = ROOT / "tmp" / "caracoles-possibilities-columns.json"
 BUNDLES = ROOT / "public" / "caracoles" / "data" / "curricular-development"
-REPORT = ROOT / "reports" / "caracoles" / "grade2-lenguajes-multiples-2026-validation.json"
 MATERIAL_ID = "grade-2-apoyo-multiples-lenguajes-segundo-grado"
 MISSING_CURRENT_EDITION = {"un poeta con alas de pintor", "un poeta con las alas de pintor"}
 
@@ -22,16 +22,23 @@ def page_label(start, end):
     return f"p. {start}" if start == end else f"pp. {start}-{end}"
 
 
+parser = argparse.ArgumentParser()
+parser.add_argument("--field", default="Lenguajes")
+parser.add_argument("--bundle-pattern", default="grade-2-lenguajes-*.json")
+parser.add_argument("--report-name", default="grade2-lenguajes-multiples-2026-validation.json")
+args = parser.parse_args()
+report_path = ROOT / "reports" / "caracoles" / args.report_name
+
 possibilities = json.loads(POSSIBILITIES.read_text(encoding="utf-8-sig"))
 records = {
     int(record["academicProjectNumber"]): record
     for record in possibilities["records"]
-    if str(record.get("grade")) == "2" and record.get("field") == "Lenguajes"
+    if str(record.get("grade")) == "2" and record.get("field") == args.field
 }
 
 results = []
 changed_files = []
-for bundle_path in sorted(BUNDLES.glob("grade-2-lenguajes-*.json")):
+for bundle_path in sorted(BUNDLES.glob(args.bundle_pattern)):
     bundle = json.loads(bundle_path.read_text(encoding="utf-8-sig"))
     changed = False
     for project in bundle.get("development", {}).get("academicProjects", []):
@@ -115,6 +122,6 @@ report = {
     "changedFiles": changed_files,
     "results": results,
 }
-REPORT.parent.mkdir(parents=True, exist_ok=True)
-REPORT.write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+report_path.parent.mkdir(parents=True, exist_ok=True)
+report_path.write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 print(json.dumps(report["summary"], ensure_ascii=False, indent=2))
