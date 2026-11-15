@@ -84,20 +84,35 @@ for bundle_path in sorted(BUNDLES.glob(args.bundle_pattern)):
         existing = project.setdefault("sourcePages", {}).get("conceptBook", [])
         rebuilt = []
         for position, item in enumerate(source.get("conceptBook", [])):
-            mapped = [map_page(page) for page in range(int(item["startPage"]), int(item["endPage"]) + 1)]
+            source_start = int(item["startPage"])
+            source_end = int(item["endPage"])
+            mapped = [map_page(page) for page in range(source_start, source_end + 1)]
             mapped_pages = [page for page, _ in mapped]
             scores = [score for _, score in mapped]
             contiguous = mapped_pages == list(range(mapped_pages[0], mapped_pages[-1] + 1))
             confirmed = contiguous and min(scores, default=0) >= 0.7
-            current_reference = existing[position] if position < len(existing) else {}
+            current_reference = max(
+                existing,
+                key=lambda reference: similarity(tokens(item["title"]), tokens(reference.get("topicTitle"))),
+                default={},
+            )
             title = re.sub(r"[\x00-\x1f]+", "", str(current_reference.get("topicTitle") or item["title"])).strip()
+            confirmation = "confirmed"
+            if not confirmed and 1 <= source_start <= source_end <= len(current_pages):
+                range_tokens = set().union(*current_tokens[source_start - 1:source_end])
+                title_score = similarity(tokens(item["title"]), range_tokens)
+                if title_score >= 0.55:
+                    mapped_pages = list(range(source_start, source_end + 1))
+                    scores = [title_score]
+                    confirmed = True
+                    confirmation = "confirmed-source-range-title"
             result = {
                 "pa": pa,
                 "topicTitle": title,
                 "oldRange": [item["startPage"], item["endPage"]],
                 "mappedPages": mapped_pages,
                 "minimumScore": min(scores, default=0),
-                "status": "confirmed" if confirmed else "needsReview",
+                "status": confirmation if confirmed else "needsReview",
             }
             results.append(result)
             if not confirmed:
@@ -122,12 +137,12 @@ for bundle_path in sorted(BUNDLES.glob(args.bundle_pattern)):
 report = {
     "summary": {
         "references": len(results),
-        "confirmed": sum(row["status"] == "confirmed" for row in results),
-        "needsReview": sum(row["status"] != "confirmed" for row in results),
+        "confirmed": sum(row["status"].startswith("confirmed") for row in results),
+        "needsReview": sum(not row["status"].startswith("confirmed") for row in results),
         "changedFiles": len(changed_files),
     },
     "changedFiles": changed_files,
-    "needsReview": [row for row in results if row["status"] != "confirmed"],
+    "needsReview": [row for row in results if not row["status"].startswith("confirmed")],
     "results": results,
 }
 report_path.parent.mkdir(parents=True, exist_ok=True)

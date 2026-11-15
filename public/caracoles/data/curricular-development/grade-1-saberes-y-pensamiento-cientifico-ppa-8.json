@@ -142,17 +142,17 @@
               "materialId": "grade-1-conceptos-saberes-y-pensamiento-cientifico-primer-grado",
               "topicTitle": "Observaciones microscópicas",
               "startPage": 262,
-              "endPage": 262,
-              "pagesLabel": "p. 262",
-              "status": "confirmed-from-source-book"
+              "endPage": 271,
+              "pagesLabel": "pp. 262-271",
+              "status": "confirmed-current-edition-full-range"
             },
             {
               "materialId": "grade-1-conceptos-saberes-y-pensamiento-cientifico-primer-grado",
               "topicTitle": "Desigualdad del triángulo",
               "startPage": 30,
-              "endPage": 30,
-              "pagesLabel": "p. 30",
-              "status": "confirmed-from-source-book"
+              "endPage": 31,
+              "pagesLabel": "pp. 30-31",
+              "status": "confirmed-current-edition-full-range"
             }
           ],
           "multiplesLenguajes": [],
@@ -226,11 +226,13 @@
             "sourceBook": "Saberes y Pensamiento Cientifico",
             "sourcePages": [
               263,
+              264,
+              265,
               266
             ],
             "sourcePagesLabel": "pp. 263-266",
             "topicTitle": "Observaciones microscopicas",
-            "status": "confirmed",
+            "status": "confirmed-current-edition",
             "reason": "La investigacion del proyecto gira alrededor de sus funciones y proposito.",
             "pedagogicalUse": "Permite entrar al tema desde un objeto cientifico concreto y cercano al asombro estudiantil.",
             "activityReadiness": "usable-for-autoevaluation"
@@ -241,11 +243,13 @@
             "sourceBook": "Saberes y Pensamiento Cientifico",
             "sourcePages": [
               268,
+              269,
+              270,
               271
             ],
             "sourcePagesLabel": "pp. 268-271",
             "topicTitle": "Observaciones microscopicas",
-            "status": "confirmed",
+            "status": "confirmed-current-edition",
             "reason": "La etapa 1 del proyecto la nombra dentro del caso de observacion a sintetizar.",
             "pedagogicalUse": "Vuelve visible un mundo microscopico que suele nombrarse sin comprenderse.",
             "activityReadiness": "usable-for-autoevaluation"
@@ -259,7 +263,7 @@
             ],
             "sourcePagesLabel": "p. 271",
             "topicTitle": "Observaciones microscopicas",
-            "status": "confirmed",
+            "status": "confirmed-current-edition",
             "reason": "Posibilidades y el proyecto la incluyen junto con bacterias y celulas.",
             "pedagogicalUse": "Ayuda a comparar microorganismos y a ordenar mejor lo que el proyecto observa.",
             "activityReadiness": "usable-for-autoevaluation"
@@ -269,12 +273,11 @@
             "description": "Relacion entre las longitudes de los lados de un triangulo que ayuda a decidir si puede construirse o no.",
             "sourceBook": "Saberes y Pensamiento Cientifico",
             "sourcePages": [
-              30,
               30
             ],
             "sourcePagesLabel": "p. 30",
             "topicTitle": "Desigualdad del triangulo",
-            "status": "confirmed-from-source-book",
+            "status": "confirmed-current-edition",
             "reason": "Posibilidades la asigna de forma directa a este PA y el proyecto la enlaza con la observacion del microscopio.",
             "pedagogicalUse": "Permite tender un puente entre observacion cientifica y pensamiento geometrico.",
             "activityReadiness": "usable-for-autoevaluation"
@@ -298,7 +301,10 @@
         "readyForActivities": false,
         "needsReviewReasons": [
           "No mover a actividades interactivas ni desbloquear juegos completos."
-        ]
+        ],
+        "validationStatus": {
+          "needsReviewReasons": []
+        }
       },
       {
         "id": "saberes-y-pensamiento-cientifico-1-ppa-8-pa23",
@@ -343,38 +349,28 @@
               "materialId": "grade-1-conceptos-saberes-y-pensamiento-cientifico-primer-grado",
               "topicTitle": "Estructura y funciones básicas de la célula",
               "startPage": 241,
-              "endPage": 241,
-              "pagesLabel": "p. 241",
-              "status": "confirmed-from-source-book"
+              "endPage": 247,
+              "pagesLabel": "pp. 241-247",
+              "status": "confirmed-current-edition-full-range"
             },
             {
               "materialId": "grade-1-conceptos-saberes-y-pensamiento-cientifico-primer-grado",
               "topicTitle": "Observaciones microscópicas",
               "startPage": 262,
-              "endPage": 262,
-              "pagesLabel": "p. 262",
-              "status": "confirmed-from-source-book"
+              "endPage": 270,
+              "pagesLabel": "pp. 262-270",
+              "status": "confirmed-current-edition-full-range"
             },
             {
               "materialId": "grade-1-conceptos-saberes-y-pensamiento-cientifico-primer-grado",
               "topicTitle": "Conversión de números",
               "startPage": 27,
-              "endPage": 27,
-              "pagesLabel": "p. 27",
-              "status": "confirmed-from-source-book"
+              "endPage": 29,
+              "pagesLabel": "pp. 27-29",
+              "status": "confirmed-current-edition-full-range"
             }
           ],
-          "multiplesLenguajes": [
-            {
-              "materialId": "grade-1-apoyo-muiltiples-lenguajes-primer-grado",
-              "label": "Multiples Lenguajes",
-              "startPage": 114,
-              "endPage": 114,
-              "pagesLabel": "p. 114",
-              "topicTitle": "Flexalogos",
-              "status": "confirmed-by-column-inference"
-            }
-          ],
+          "multiplesLenguajes": [],
           "otherMaterials": [
             {
               "label": "Video PA 23: Las celulas animales y vegetales usan los numeros fraccionarios",
@@ -388,14 +384,7 @@
             }
           ]
         },
-        "supportMaterials": [
-          {
-            "title": "Flexalogos",
-            "kind": "Multiples Lenguajes",
-            "pages": "p. 114",
-            "status": "confirmed-by-column-inference"
-          }
-        ],
+        "supportMaterials": [],
         "horizonOrPurpose": {
           "status": "official",
           "text": "Elaborar modelos de plastilina de celulas animales o vegetales, de un metazoo y de un metafito tipico. Identificar sus caracteristicas y como se puede relacionar con el uso de la conversion de numeros fraccionarios para la interpretacion de datos.",
@@ -452,11 +441,16 @@
             "sourceBook": "Saberes y Pensamiento Cientifico",
             "sourcePages": [
               241,
+              242,
+              243,
+              244,
+              245,
+              246,
               247
             ],
             "sourcePagesLabel": "pp. 241-247",
             "topicTitle": "Estructura y funciones basicas de la celula",
-            "status": "confirmed",
+            "status": "confirmed-current-edition",
             "reason": "La etapa 1 del proyecto la coloca como base para modelar y comparar celulas.",
             "pedagogicalUse": "Da sentido cientifico a los modelos y evita que se queden como manualidad.",
             "activityReadiness": "usable-for-autoevaluation"
@@ -467,11 +461,13 @@
             "sourceBook": "Saberes y Pensamiento Cientifico",
             "sourcePages": [
               242,
+              243,
+              244,
               245
             ],
             "sourcePagesLabel": "pp. 242-245",
             "topicTitle": "Estructura y funciones basicas de la celula",
-            "status": "confirmed",
+            "status": "confirmed-current-edition",
             "reason": "El proyecto pide construir y explicar modelos de celulas animales.",
             "pedagogicalUse": "Permite comparar funciones y formas con otros tipos de celula.",
             "activityReadiness": "usable-for-autoevaluation"
@@ -482,11 +478,13 @@
             "sourceBook": "Saberes y Pensamiento Cientifico",
             "sourcePages": [
               242,
+              243,
+              244,
               245
             ],
             "sourcePagesLabel": "pp. 242-245",
             "topicTitle": "Estructura y funciones basicas de la celula",
-            "status": "confirmed",
+            "status": "confirmed-current-edition",
             "reason": "El proyecto pide construir y explicar modelos de celulas vegetales.",
             "pedagogicalUse": "Favorece comparaciones utiles para entender diferencias biologicas.",
             "activityReadiness": "usable-for-autoevaluation"
@@ -496,12 +494,11 @@
             "description": "Transformacion entre fracciones y otras formas numericas para interpretar mejor datos y medidas.",
             "sourceBook": "Saberes y Pensamiento Cientifico",
             "sourcePages": [
-              27,
               27
             ],
             "sourcePagesLabel": "p. 27",
             "topicTitle": "Conversion de numeros",
-            "status": "confirmed-from-source-book",
+            "status": "confirmed-current-edition",
             "reason": "Posibilidades y la etapa 1 la nombran como apoyo matematico del proyecto.",
             "pedagogicalUse": "Permite leer proporciones y datos sin separar matematicas del contenido biologico.",
             "activityReadiness": "usable-for-autoevaluation"
@@ -540,7 +537,10 @@
         "readyForActivities": false,
         "needsReviewReasons": [
           "No mover a actividades interactivas ni desbloquear juegos completos."
-        ]
+        ],
+        "validationStatus": {
+          "needsReviewReasons": []
+        }
       },
       {
         "id": "saberes-y-pensamiento-cientifico-1-ppa-8-pa24",
@@ -585,9 +585,9 @@
               "materialId": "grade-1-conceptos-saberes-y-pensamiento-cientifico-primer-grado",
               "topicTitle": "Estructura y funciones básicas de la célula",
               "startPage": 241,
-              "endPage": 241,
-              "pagesLabel": "p. 241",
-              "status": "confirmed-from-source-book"
+              "endPage": 247,
+              "pagesLabel": "pp. 241-247",
+              "status": "confirmed-current-edition-full-range"
             }
           ],
           "multiplesLenguajes": [],
@@ -749,7 +749,10 @@
         "readyForActivities": false,
         "needsReviewReasons": [
           "No mover a actividades interactivas ni desbloquear juegos completos."
-        ]
+        ],
+        "validationStatus": {
+          "needsReviewReasons": []
+        }
       }
     ]
   },

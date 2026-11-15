@@ -140,7 +140,7 @@
               "startPage": 12,
               "endPage": 18,
               "pagesLabel": "pp. 12-18",
-              "status": "confirmed-from-source-book"
+              "status": "confirmed-current-edition-full-range"
             },
             {
               "materialId": "grade-1-conceptos-de-lo-humano-y-lo-comunitario-primer-grado",
@@ -148,15 +148,15 @@
               "startPage": 28,
               "endPage": 33,
               "pagesLabel": "pp. 28-33",
-              "status": "confirmed-from-source-book"
+              "status": "confirmed-current-edition-full-range"
             },
             {
               "materialId": "grade-1-conceptos-de-lo-humano-y-lo-comunitario-primer-grado",
               "topicTitle": "Función de la energía",
               "startPage": 34,
-              "endPage": 44,
-              "pagesLabel": "pp. 34-44",
-              "status": "confirmed-from-source-book"
+              "endPage": 40,
+              "pagesLabel": "pp. 34-40",
+              "status": "confirmed-current-edition-full-range"
             },
             {
               "materialId": "grade-1-conceptos-de-lo-humano-y-lo-comunitario-primer-grado",
@@ -164,26 +164,26 @@
               "startPage": 70,
               "endPage": 77,
               "pagesLabel": "pp. 70-77",
-              "status": "confirmed-from-source-book"
+              "status": "confirmed-current-edition-full-range"
             },
             {
               "materialId": "grade-1-conceptos-de-lo-humano-y-lo-comunitario-primer-grado",
               "topicTitle": "Sistemas técnicos",
-              "startPage": 38,
-              "endPage": 40,
-              "pagesLabel": "pp. 38-40",
-              "status": "confirmed-from-source-book"
+              "startPage": 90,
+              "endPage": 96,
+              "pagesLabel": "pp. 90-96",
+              "status": "confirmed-current-edition-full-range"
             }
           ],
           "multiplesLenguajes": [
             {
               "materialId": "grade-1-apoyo-muiltiples-lenguajes-primer-grado",
-              "label": "Multiples Lenguajes",
+              "label": "Múltiples Lenguajes",
               "startPage": 18,
               "endPage": 19,
               "pagesLabel": "pp. 18-19",
-              "topicTitle": "El origen de la muneca Lele",
-              "status": "confirmed-by-column-inference"
+              "topicTitle": "El origen de la muñeca Lele",
+              "status": "confirmed-current-edition"
             }
           ],
           "otherMaterials": [
@@ -201,10 +201,10 @@
         },
         "supportMaterials": [
           {
-            "title": "El origen de la muneca Lele",
-            "kind": "Multiples Lenguajes",
+            "title": "El origen de la muñeca Lele",
+            "kind": "Múltiples Lenguajes",
             "pages": "pp. 18-19",
-            "status": "confirmed-by-column-inference"
+            "status": "confirmed-current-edition"
           }
         ],
         "horizonOrPurpose": {
@@ -406,7 +406,7 @@
               "startPage": 34,
               "endPage": 44,
               "pagesLabel": "pp. 34-44",
-              "status": "confirmed-from-source-book"
+              "status": "confirmed-current-edition-full-range"
             },
             {
               "materialId": "grade-1-conceptos-de-lo-humano-y-lo-comunitario-primer-grado",
@@ -414,15 +414,15 @@
               "startPage": 70,
               "endPage": 77,
               "pagesLabel": "pp. 70-77",
-              "status": "confirmed-from-source-book"
+              "status": "confirmed-current-edition-full-range"
             },
             {
               "materialId": "grade-1-conceptos-de-lo-humano-y-lo-comunitario-primer-grado",
               "topicTitle": "Sistemas técnicos",
-              "startPage": 38,
-              "endPage": 40,
-              "pagesLabel": "pp. 38-40",
-              "status": "confirmed-from-source-book"
+              "startPage": 90,
+              "endPage": 96,
+              "pagesLabel": "pp. 90-96",
+              "status": "confirmed-current-edition-full-range"
             },
             {
               "materialId": "grade-1-conceptos-de-lo-humano-y-lo-comunitario-primer-grado",
@@ -430,7 +430,7 @@
               "startPage": 110,
               "endPage": 115,
               "pagesLabel": "pp. 110-115",
-              "status": "confirmed-from-source-book"
+              "status": "confirmed-current-edition-full-range"
             }
           ],
           "multiplesLenguajes": [],
@@ -505,11 +505,17 @@
             "sourceBook": "De lo Humano y lo Comunitario",
             "sourcePages": [
               70,
+              71,
+              72,
+              73,
+              74,
+              75,
+              76,
               77
             ],
             "sourcePagesLabel": "pp. 70-77",
             "topicTitle": "Procesos e innovacion tecnica",
-            "status": "confirmed",
+            "status": "confirmed-current-edition",
             "reason": "La fuente validada \"Procesos e innovacion tecnica\" aporta base suficiente para trabajar evaluacion de procesos dentro del proyecto 17.",
             "pedagogicalUse": "Ayuda a fortalecer acciones innovadoras de mejora y a explicar la evaluacion y mejora de procesos tecnicos con mayor claridad mediante evaluacion de procesos.",
             "activityReadiness": "usable-for-autoevaluation"
@@ -520,11 +526,17 @@
             "sourceBook": "De lo Humano y lo Comunitario",
             "sourcePages": [
               70,
+              71,
+              72,
+              73,
+              74,
+              75,
+              76,
               77
             ],
             "sourcePagesLabel": "pp. 70-77",
             "topicTitle": "Procesos e innovacion tecnica",
-            "status": "confirmed",
+            "status": "confirmed-current-edition",
             "reason": "La fuente validada \"Procesos e innovacion tecnica\" aporta base suficiente para trabajar innovacion tecnica dentro del proyecto 17.",
             "pedagogicalUse": "Ayuda a fortalecer acciones innovadoras de mejora y a explicar la evaluacion y mejora de procesos tecnicos con mayor claridad mediante innovacion tecnica.",
             "activityReadiness": "usable-for-autoevaluation"
@@ -535,11 +547,12 @@
             "sourceBook": "De lo Humano y lo Comunitario",
             "sourcePages": [
               38,
+              39,
               40
             ],
             "sourcePagesLabel": "pp. 38-40",
             "topicTitle": "Sistemas tecnicos",
-            "status": "confirmed-from-source-book",
+            "status": "confirmed-current-edition",
             "reason": "La fuente validada \"Sistemas tecnicos\" aporta base suficiente para trabajar sistemas tecnicos dentro del proyecto 17.",
             "pedagogicalUse": "Ayuda a fortalecer acciones innovadoras de mejora y a explicar la evaluacion y mejora de procesos tecnicos con mayor claridad mediante sistemas tecnicos.",
             "activityReadiness": "usable-for-autoevaluation"
@@ -647,15 +660,15 @@
               "startPage": 168,
               "endPage": 174,
               "pagesLabel": "pp. 168-174",
-              "status": "confirmed-from-source-book"
+              "status": "confirmed-current-edition-full-range"
             },
             {
               "materialId": "grade-1-conceptos-de-lo-humano-y-lo-comunitario-primer-grado",
               "topicTitle": "Empatía",
               "startPage": 175,
-              "endPage": 181,
-              "pagesLabel": "pp. 175-181",
-              "status": "confirmed-from-source-book"
+              "endPage": 177,
+              "pagesLabel": "pp. 175-177",
+              "status": "confirmed-current-edition-full-range"
             },
             {
               "materialId": "grade-1-conceptos-de-lo-humano-y-lo-comunitario-primer-grado",
@@ -663,7 +676,7 @@
               "startPage": 182,
               "endPage": 185,
               "pagesLabel": "pp. 182-185",
-              "status": "confirmed-from-source-book"
+              "status": "confirmed-current-edition-full-range"
             },
             {
               "materialId": "grade-1-conceptos-de-lo-humano-y-lo-comunitario-primer-grado",
@@ -671,7 +684,7 @@
               "startPage": 193,
               "endPage": 198,
               "pagesLabel": "pp. 193-198",
-              "status": "confirmed-from-source-book"
+              "status": "confirmed-current-edition-full-range"
             },
             {
               "materialId": "grade-1-conceptos-de-lo-humano-y-lo-comunitario-primer-grado",
@@ -679,18 +692,18 @@
               "startPage": 199,
               "endPage": 210,
               "pagesLabel": "pp. 199-210",
-              "status": "confirmed-from-source-book"
+              "status": "confirmed-current-edition-full-range"
             }
           ],
           "multiplesLenguajes": [
             {
               "materialId": "grade-1-apoyo-muiltiples-lenguajes-primer-grado",
-              "label": "Multiples Lenguajes",
+              "label": "Múltiples Lenguajes",
               "startPage": 6,
               "endPage": 7,
               "pagesLabel": "pp. 6-7",
-              "topicTitle": "Eso es leer?!",
-              "status": "confirmed-by-column-inference"
+              "topicTitle": "¡¿Eso es leer?!",
+              "status": "confirmed-current-edition"
             }
           ],
           "otherMaterials": [
@@ -708,10 +721,10 @@
         },
         "supportMaterials": [
           {
-            "title": "Eso es leer?!",
-            "kind": "Multiples Lenguajes",
+            "title": "¡¿Eso es leer?!",
+            "kind": "Múltiples Lenguajes",
             "pages": "pp. 6-7",
-            "status": "confirmed-by-column-inference"
+            "status": "confirmed-current-edition"
           }
         ],
         "horizonOrPurpose": {
@@ -771,11 +784,16 @@
             "sourceBook": "De lo Humano y lo Comunitario",
             "sourcePages": [
               175,
+              176,
+              177,
+              178,
+              179,
+              180,
               181
             ],
             "sourcePagesLabel": "pp. 175-181",
             "topicTitle": "Empatia",
-            "status": "confirmed-from-source-book",
+            "status": "confirmed-current-edition",
             "reason": "La fuente validada \"Empatia\" aporta base suficiente para trabajar empatia dentro del proyecto 18.",
             "pedagogicalUse": "Ayuda a fortalecer hoja volante y a explicar la empatia, la expresion emocional y la gestion de sentimientos con mayor claridad mediante empatia.",
             "activityReadiness": "usable-for-autoevaluation"
@@ -786,11 +804,13 @@
             "sourceBook": "De lo Humano y lo Comunitario",
             "sourcePages": [
               182,
+              183,
+              184,
               185
             ],
             "sourcePagesLabel": "pp. 182-185",
             "topicTitle": "Expresion de las emociones y los sentimientos",
-            "status": "confirmed",
+            "status": "confirmed-current-edition",
             "reason": "La fuente validada \"Expresion de las emociones y los sentimientos\" aporta base suficiente para trabajar emociones dentro del proyecto 18.",
             "pedagogicalUse": "Ayuda a fortalecer hoja volante y a explicar la empatia, la expresion emocional y la gestion de sentimientos con mayor claridad mediante emociones.",
             "activityReadiness": "usable-for-autoevaluation"
@@ -801,11 +821,27 @@
             "sourceBook": "De lo Humano y lo Comunitario",
             "sourcePages": [
               193,
+              194,
+              195,
+              196,
+              197,
+              198,
+              199,
+              200,
+              201,
+              202,
+              203,
+              204,
+              205,
+              206,
+              207,
+              208,
+              209,
               210
             ],
             "sourcePagesLabel": "pp. 193-210",
             "topicTitle": "Gestion de emociones y habilidades socioemocionales",
-            "status": "confirmed",
+            "status": "confirmed-current-edition",
             "reason": "La fuente validada \"Gestion de emociones y habilidades socioemocionales\" aporta base suficiente para trabajar gestion emocional dentro del proyecto 18.",
             "pedagogicalUse": "Ayuda a fortalecer hoja volante y a explicar la empatia, la expresion emocional y la gestion de sentimientos con mayor claridad mediante gestion emocional.",
             "activityReadiness": "usable-for-autoevaluation"
@@ -816,11 +852,27 @@
             "sourceBook": "De lo Humano y lo Comunitario",
             "sourcePages": [
               193,
+              194,
+              195,
+              196,
+              197,
+              198,
+              199,
+              200,
+              201,
+              202,
+              203,
+              204,
+              205,
+              206,
+              207,
+              208,
+              209,
               210
             ],
             "sourcePagesLabel": "pp. 193-210",
             "topicTitle": "Gestion de emociones y habilidades socioemocionales",
-            "status": "confirmed",
+            "status": "confirmed-current-edition",
             "reason": "La fuente validada \"Gestion de emociones y habilidades socioemocionales\" aporta base suficiente para trabajar habilidades socioemocionales dentro del proyecto 18.",
             "pedagogicalUse": "Ayuda a fortalecer hoja volante y a explicar la empatia, la expresion emocional y la gestion de sentimientos con mayor claridad mediante habilidades socioemocionales.",
             "activityReadiness": "usable-for-autoevaluation"
