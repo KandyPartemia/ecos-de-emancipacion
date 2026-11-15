@@ -7,7 +7,6 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[2]
-INDEX = ROOT / "content" / "caracoles" / "generated-private" / "grade-2" / "pages-index.full.json"
 BUNDLES = ROOT / "public" / "caracoles" / "data" / "curricular-development"
 
 
@@ -45,12 +44,14 @@ def pages_label(numbers):
 
 
 parser = argparse.ArgumentParser()
+parser.add_argument("--grade", default="2")
 parser.add_argument("--source-book", default="Lenguajes")
 parser.add_argument("--material-id", default="grade-2-conceptos-lenguajes-segundo-grado")
 parser.add_argument("--current-text", default="tmp/leng2-current.txt")
 parser.add_argument("--bundle-pattern", default="grade-2-lenguajes-*.json")
 args = parser.parse_args()
 
+INDEX = ROOT / "content" / "caracoles" / "generated-private" / f"grade-{args.grade}" / "pages-index.full.json"
 material_id = args.material_id
 current_text = ROOT / args.current_text
 

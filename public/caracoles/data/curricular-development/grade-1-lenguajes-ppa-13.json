@@ -141,7 +141,7 @@
               "startPage": 164,
               "endPage": 168,
               "pagesLabel": "pp. 164-168",
-              "status": "confirmed-from-source-book"
+              "status": "confirmed-current-edition-full-range"
             },
             {
               "materialId": "grade-1-conceptos-lenguajes-primer-grado",
@@ -149,18 +149,18 @@
               "startPage": 268,
               "endPage": 271,
               "pagesLabel": "pp. 268-271",
-              "status": "confirmed-from-source-book"
+              "status": "confirmed-current-edition-full-range"
             }
           ],
           "multiplesLenguajes": [
             {
               "materialId": "grade-1-apoyo-muiltiples-lenguajes-primer-grado",
-              "label": "Multiples Lenguajes",
+              "label": "Múltiples Lenguajes",
               "startPage": 86,
               "endPage": 87,
               "pagesLabel": "pp. 86-87",
               "topicTitle": "Maderas que cantan",
-              "status": "confirmed-source"
+              "status": "confirmed-current-edition"
             }
           ],
           "otherMaterials": [
@@ -194,9 +194,9 @@
         "supportMaterials": [
           {
             "title": "Maderas que cantan",
-            "kind": "Multiples Lenguajes",
+            "kind": "Múltiples Lenguajes",
             "pages": "pp. 86-87",
-            "status": "confirmed-source"
+            "status": "confirmed-current-edition"
           }
         ],
         "horizonOrPurpose": {
@@ -240,7 +240,7 @@
           },
           {
             "concept": "fuentes de investigacion",
-            "status": "confirmed",
+            "status": "confirmed-current-edition",
             "sourceBook": "Lenguajes",
             "sourcePages": [
               164,
@@ -256,7 +256,7 @@
           },
           {
             "concept": "tipos de fuentes de informacion",
-            "status": "confirmed",
+            "status": "confirmed-current-edition",
             "sourceBook": "Lenguajes",
             "sourcePages": [
               165,
@@ -271,7 +271,7 @@
           },
           {
             "concept": "mensajes informativos",
-            "status": "confirmed",
+            "status": "confirmed-current-edition",
             "sourceBook": "Lenguajes",
             "sourcePages": [
               166,
@@ -287,7 +287,7 @@
           },
           {
             "concept": "beneficios de las artes para la salud individual y comunitaria",
-            "status": "confirmed",
+            "status": "confirmed-current-edition",
             "sourceBook": "Lenguajes",
             "sourcePages": [
               268,
@@ -420,17 +420,17 @@
               "materialId": "grade-1-conceptos-lenguajes-primer-grado",
               "topicTitle": "Prácticas sociales relacionadas con la tierra como madre y como territorio",
               "startPage": 138,
-              "endPage": 144,
-              "pagesLabel": "pp. 138-144",
-              "status": "confirmed-from-source-book"
+              "endPage": 141,
+              "pagesLabel": "pp. 138-141",
+              "status": "confirmed-current-edition-full-range"
             },
             {
               "materialId": "grade-1-conceptos-lenguajes-primer-grado",
               "topicTitle": "Trascendencia simbólica de la milpa en las comunidades indígenas de México",
               "startPage": 145,
-              "endPage": 148,
-              "pagesLabel": "pp. 145-148",
-              "status": "confirmed-from-source-book"
+              "endPage": 147,
+              "pagesLabel": "pp. 145-147",
+              "status": "confirmed-current-edition-full-range"
             },
             {
               "materialId": "grade-1-conceptos-lenguajes-primer-grado",
@@ -438,7 +438,7 @@
               "startPage": 253,
               "endPage": 260,
               "pagesLabel": "pp. 253-260",
-              "status": "confirmed-from-source-book"
+              "status": "confirmed-current-edition-full-range"
             }
           ],
           "multiplesLenguajes": [
@@ -449,7 +449,7 @@
               "endPage": 107,
               "pagesLabel": "pp. 100-107",
               "topicTitle": "El momento imperfecto",
-              "status": "confirmed-by-column-layout"
+              "status": "confirmed-current-edition"
             }
           ],
           "otherMaterials": [
@@ -480,7 +480,14 @@
             }
           ]
         },
-        "supportMaterials": [],
+        "supportMaterials": [
+          {
+            "title": "El momento imperfecto",
+            "kind": "Múltiples Lenguajes",
+            "pages": "pp. 100-107",
+            "status": "confirmed-current-edition"
+          }
+        ],
         "horizonOrPurpose": {
           "status": "confirmed-from-project-book",
           "text": "Aprender acerca de la estructura y características de un artículo de divulgación para iniciar con una investigación en diferentes fuentes de consulta, como libros, revistas especializadas, internet, entre otras.",
@@ -539,7 +546,7 @@
           },
           {
             "concept": "practicas sociales relacionadas con la tierra como madre y como territorio",
-            "status": "confirmed",
+            "status": "confirmed-current-edition",
             "sourceBook": "Lenguajes",
             "sourcePages": [
               138,
@@ -556,10 +563,12 @@
           },
           {
             "concept": "trascendencia simbolica de la milpa",
-            "status": "confirmed-from-source-book",
+            "status": "confirmed-current-edition",
             "sourceBook": "Lenguajes",
             "sourcePages": [
               145,
+              146,
+              147,
               148
             ],
             "sourcePagesLabel": "pp. 145-148",
@@ -571,7 +580,7 @@
           },
           {
             "concept": "uso de las lenguas indigenas en la cultura agricola",
-            "status": "confirmed",
+            "status": "confirmed-current-edition",
             "sourceBook": "Lenguajes",
             "sourcePages": [
               146
@@ -585,7 +594,7 @@
           },
           {
             "concept": "narraciones de distintos generos en torno a la tierra",
-            "status": "suggested",
+            "status": "confirmed-current-edition",
             "sourceBook": "Lenguajes",
             "sourcePages": [
               141
@@ -599,7 +608,7 @@
           },
           {
             "concept": "narraciones de distintos generos en torno a la milpa",
-            "status": "suggested",
+            "status": "confirmed-current-edition",
             "sourceBook": "Lenguajes",
             "sourcePages": [
               147
@@ -621,7 +630,6 @@
           "readinessLevel": "development-partial",
           "readyForActivities": false,
           "needsReviewReasons": [
-            "No se localizo apoyo confirmado de Multiples Lenguajes para esta columna.",
             "El articulo se sostiene con fuerza en el proyecto y las paginas de tierra y milpa, pero el enlace corto sigue pendiente de validacion."
           ]
         },
@@ -689,7 +697,7 @@
               "startPage": 149,
               "endPage": 156,
               "pagesLabel": "pp. 149-156",
-              "status": "confirmed-from-source-book"
+              "status": "confirmed-current-edition-full-range"
             },
             {
               "materialId": "grade-1-conceptos-lenguajes-primer-grado",
@@ -697,27 +705,18 @@
               "startPage": 268,
               "endPage": 271,
               "pagesLabel": "pp. 268-271",
-              "status": "confirmed-from-source-book"
+              "status": "confirmed-current-edition-full-range"
             }
           ],
           "multiplesLenguajes": [
             {
               "materialId": "grade-1-apoyo-muiltiples-lenguajes-primer-grado",
-              "label": "Multiples Lenguajes",
+              "label": "Múltiples Lenguajes",
               "startPage": 40,
               "endPage": 45,
               "pagesLabel": "pp. 40-45",
-              "topicTitle": "Man Ray: pintar con fotografias",
-              "status": "confirmed-source"
-            },
-            {
-              "materialId": "grade-1-apoyo-muiltiples-lenguajes-primer-grado",
-              "label": "Multiples Lenguajes",
-              "startPage": 100,
-              "endPage": 107,
-              "pagesLabel": "pp. 100-107",
-              "topicTitle": "El momento imperfecto",
-              "status": "confirmed-source"
+              "topicTitle": "Man Ray: pintar con fotografías",
+              "status": "confirmed-current-edition"
             }
           ],
           "otherMaterials": [
@@ -750,16 +749,10 @@
         },
         "supportMaterials": [
           {
-            "title": "Man Ray: pintar con fotografias",
-            "kind": "Multiples Lenguajes",
+            "title": "Man Ray: pintar con fotografías",
+            "kind": "Múltiples Lenguajes",
             "pages": "pp. 40-45",
-            "status": "confirmed-source"
-          },
-          {
-            "title": "El momento imperfecto",
-            "kind": "Multiples Lenguajes",
-            "pages": "pp. 100-107",
-            "status": "confirmed-source"
+            "status": "confirmed-current-edition"
           }
         ],
         "horizonOrPurpose": {
@@ -820,7 +813,7 @@
           },
           {
             "concept": "diversidad linguistica de Mexico y America Latina",
-            "status": "confirmed",
+            "status": "confirmed-current-edition",
             "sourceBook": "Lenguajes",
             "sourcePages": [
               149,
@@ -841,7 +834,7 @@
           },
           {
             "concept": "revitalizacion cultural a traves de las lenguas indigenas",
-            "status": "confirmed",
+            "status": "confirmed-current-edition",
             "sourceBook": "Lenguajes",
             "sourcePages": [
               155,
@@ -856,7 +849,7 @@
           },
           {
             "concept": "tradicion y comunidad en textos literarios",
-            "status": "confirmed",
+            "status": "confirmed-current-edition",
             "sourceBook": "Lenguajes",
             "sourcePages": [
               253,
@@ -877,7 +870,7 @@
           },
           {
             "concept": "beneficios de las artes para la salud individual y comunitaria",
-            "status": "confirmed",
+            "status": "confirmed-current-edition",
             "sourceBook": "Lenguajes",
             "sourcePages": [
               268,
@@ -894,7 +887,7 @@
           },
           {
             "concept": "tradiciones literarias: mitos, fabulas y leyendas",
-            "status": "suggested",
+            "status": "confirmed-current-edition",
             "sourceBook": "Lenguajes",
             "sourcePages": [
               254,
@@ -910,7 +903,7 @@
           },
           {
             "concept": "literatura contemporanea en lengua inglesa",
-            "status": "needsReview",
+            "status": "confirmed-current-edition",
             "sourceBook": "Lenguajes",
             "sourcePages": [
               257,
@@ -925,7 +918,7 @@
           },
           {
             "concept": "medios para la promocion y difusion de la literatura",
-            "status": "confirmed",
+            "status": "confirmed-current-edition",
             "sourceBook": "Lenguajes",
             "sourcePages": [
               258,

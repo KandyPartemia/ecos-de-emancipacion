@@ -159,7 +159,7 @@
               "startPage": 199,
               "endPage": 204,
               "pagesLabel": "pp. 199-204",
-              "status": "confirmed-from-source-book"
+              "status": "confirmed-current-edition-full-range"
             },
             {
               "materialId": "grade-1-conceptos-lenguajes-primer-grado",
@@ -167,7 +167,7 @@
               "startPage": 205,
               "endPage": 213,
               "pagesLabel": "pp. 205-213",
-              "status": "confirmed-from-source-book"
+              "status": "confirmed-current-edition-full-range"
             },
             {
               "materialId": "grade-1-conceptos-lenguajes-primer-grado",
@@ -175,7 +175,7 @@
               "startPage": 214,
               "endPage": 220,
               "pagesLabel": "pp. 214-220",
-              "status": "confirmed-from-source-book"
+              "status": "confirmed-current-edition-full-range"
             }
           ],
           "multiplesLenguajes": [],
@@ -280,12 +280,17 @@
           },
           {
             "concept": "diversidad y el punto de vista",
-            "status": "confirmed",
+            "status": "confirmed-current-edition",
             "sourceBook": "Lenguajes",
             "sourcePages": [
               205,
               206,
+              207,
+              208,
+              209,
               210,
+              211,
+              212,
               213
             ],
             "sourcePagesLabel": "pp. 205-213",
@@ -297,7 +302,7 @@
           },
           {
             "concept": "exposición de un punto de vista",
-            "status": "confirmed",
+            "status": "confirmed-current-edition",
             "sourceBook": "Lenguajes",
             "sourcePages": [
               206,
@@ -329,7 +334,7 @@
           },
           {
             "concept": "uso de la lengua indígena para expresar problemáticas sociales",
-            "status": "suggested",
+            "status": "confirmed-current-edition",
             "sourceBook": "Lenguajes",
             "sourcePages": [
               199,
@@ -344,7 +349,7 @@
           },
           {
             "concept": "textos literarios e informativos que aborden temas de la comunidad",
-            "status": "suggested",
+            "status": "confirmed-current-edition",
             "sourceBook": "Lenguajes",
             "sourcePages": [
               200,
@@ -361,7 +366,7 @@
           },
           {
             "concept": "creaciones literarias en lenguas indígenas: difusión, métodos y objetivos",
-            "status": "needsReview",
+            "status": "confirmed-current-edition",
             "sourceBook": "Lenguajes",
             "sourcePages": [
               203,
@@ -398,6 +403,9 @@
           "evidence": "Extraído por visión de imagen de la página 31 del libro de proyectos. Confianza: alta.",
           "status": "confirmed-from-project-book",
           "extractedAt": "2026-06-16T05:00:28.681Z"
+        },
+        "validationStatus": {
+          "needsReviewReasons": []
         }
       },
       {
@@ -444,7 +452,7 @@
               "startPage": 89,
               "endPage": 96,
               "pagesLabel": "pp. 89-96",
-              "status": "confirmed-from-source-book"
+              "status": "confirmed-current-edition-full-range"
             },
             {
               "materialId": "grade-1-conceptos-lenguajes-primer-grado",
@@ -452,7 +460,7 @@
               "startPage": 214,
               "endPage": 220,
               "pagesLabel": "pp. 214-220",
-              "status": "confirmed-from-source-book"
+              "status": "confirmed-current-edition-full-range"
             }
           ],
           "multiplesLenguajes": [
@@ -463,7 +471,7 @@
               "endPage": 150,
               "pagesLabel": "pp. 144-150",
               "topicTitle": "La grieta",
-              "status": "confirmed-by-column-layout"
+              "status": "confirmed-current-edition"
             }
           ],
           "otherMaterials": [
@@ -489,7 +497,14 @@
             }
           ]
         },
-        "supportMaterials": [],
+        "supportMaterials": [
+          {
+            "title": "La grieta",
+            "kind": "Múltiples Lenguajes",
+            "pages": "pp. 144-150",
+            "status": "confirmed-current-edition"
+          }
+        ],
         "horizonOrPurpose": {
           "status": "confirmed-from-project-book",
           "text": "Analizar notas periodísticas para identificar las causas y los factores de riesgo en situaciones de violencia. Éstas servirán para elaborar un collage y explicarlo, ante la comunidad, como método de prevención de la violencia.",
@@ -533,12 +548,15 @@
           },
           {
             "concept": "expresiones de violencia en inglés",
-            "status": "confirmed",
+            "status": "confirmed-current-edition",
             "sourceBook": "Lenguajes",
             "sourcePages": [
               214,
               215,
+              216,
               217,
+              218,
+              219,
               220
             ],
             "sourcePagesLabel": "pp. 214-220",
@@ -550,7 +568,7 @@
           },
           {
             "concept": "situaciones de violencia en los ambientes familiar y escolar",
-            "status": "confirmed",
+            "status": "confirmed-current-edition",
             "sourceBook": "Lenguajes",
             "sourcePages": [
               215,
@@ -566,7 +584,7 @@
           },
           {
             "concept": "expresiones de rechazo a las violencias familiar, social y escolar, y su difusión",
-            "status": "confirmed",
+            "status": "confirmed-current-edition",
             "sourceBook": "Lenguajes",
             "sourcePages": [
               217,
@@ -599,7 +617,7 @@
           },
           {
             "concept": "géneros periodísticos informativos",
-            "status": "confirmed",
+            "status": "confirmed-current-edition",
             "sourceBook": "Lenguajes",
             "sourcePages": [
               94,
@@ -667,6 +685,9 @@
           "evidence": "Extraído por visión de imagen de la página 36 del libro de proyectos. Confianza: alta.",
           "status": "confirmed-from-project-book",
           "extractedAt": "2026-06-16T05:07:22.044Z"
+        },
+        "validationStatus": {
+          "needsReviewReasons": []
         }
       },
       {
@@ -713,20 +734,10 @@
               "startPage": 233,
               "endPage": 240,
               "pagesLabel": "pp. 233-240",
-              "status": "confirmed-from-source-book"
+              "status": "confirmed-current-edition-full-range"
             }
           ],
-          "multiplesLenguajes": [
-            {
-              "materialId": "grade-1-apoyo-muiltiples-lenguajes-primer-grado",
-              "label": "Múltiples Lenguajes",
-              "startPage": 144,
-              "endPage": 150,
-              "pagesLabel": "pp. 144-150",
-              "topicTitle": "La grieta",
-              "status": "confirmed-source"
-            }
-          ],
+          "multiplesLenguajes": [],
           "otherMaterials": [
             {
               "label": "Video PA 36: Decálogo de acciones • Lenguajes • 1er grado",
@@ -750,14 +761,7 @@
             }
           ]
         },
-        "supportMaterials": [
-          {
-            "title": "La grieta",
-            "kind": "Múltiples Lenguajes",
-            "pages": "pp. 144-150",
-            "status": "confirmed-source"
-          }
-        ],
+        "supportMaterials": [],
         "horizonOrPurpose": {
           "status": "confirmed-from-project-book",
           "text": "Investigar diversas acciones que contribuyan a erradicar la violencia en diversos contextos para elaborar un decálogo de acciones.",
@@ -833,7 +837,7 @@
           },
           {
             "concept": "identificación de problemas comunitarios",
-            "status": "confirmed",
+            "status": "confirmed-current-edition",
             "sourceBook": "Lenguajes",
             "sourcePages": [
               233,
@@ -849,7 +853,7 @@
           },
           {
             "concept": "soluciones a problemas comunitarios",
-            "status": "confirmed",
+            "status": "confirmed-current-edition",
             "sourceBook": "Lenguajes",
             "sourcePages": [
               236,
@@ -865,7 +869,7 @@
           },
           {
             "concept": "redacción de un informe",
-            "status": "suggested",
+            "status": "confirmed-current-edition",
             "sourceBook": "Lenguajes",
             "sourcePages": [
               238,
@@ -916,6 +920,9 @@
           "evidence": "Extraído por visión de imagen de la página 40 del libro de proyectos. Confianza: alta.",
           "status": "confirmed-from-project-book",
           "extractedAt": "2026-06-16T05:00:37.390Z"
+        },
+        "validationStatus": {
+          "needsReviewReasons": []
         }
       }
     ]

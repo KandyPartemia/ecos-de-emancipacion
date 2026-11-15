@@ -8,7 +8,6 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[2]
 POSSIBILITIES = ROOT / "tmp" / "caracoles-possibilities-columns.json"
 BUNDLES = ROOT / "public" / "caracoles" / "data" / "curricular-development"
-MATERIAL_ID = "grade-2-apoyo-multiples-lenguajes-segundo-grado"
 MISSING_CURRENT_EDITION = {"un poeta con alas de pintor", "un poeta con las alas de pintor"}
 
 
@@ -23,17 +22,20 @@ def page_label(start, end):
 
 
 parser = argparse.ArgumentParser()
+parser.add_argument("--grade", default="2")
 parser.add_argument("--field", default="Lenguajes")
+parser.add_argument("--material-id", default="grade-2-apoyo-multiples-lenguajes-segundo-grado")
 parser.add_argument("--bundle-pattern", default="grade-2-lenguajes-*.json")
 parser.add_argument("--report-name", default="grade2-lenguajes-multiples-2026-validation.json")
 args = parser.parse_args()
+MATERIAL_ID = args.material_id
 report_path = ROOT / "reports" / "caracoles" / args.report_name
 
 possibilities = json.loads(POSSIBILITIES.read_text(encoding="utf-8-sig"))
 records = {
     int(record["academicProjectNumber"]): record
     for record in possibilities["records"]
-    if str(record.get("grade")) == "2" and record.get("field") == args.field
+    if str(record.get("grade")) == str(args.grade) and record.get("field") == args.field
 }
 
 results = []

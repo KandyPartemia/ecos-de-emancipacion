@@ -106,9 +106,9 @@
               "materialId": "grade-1-conceptos-lenguajes-primer-grado",
               "topicTitle": "Figuras retóricas en textos literarios y orales en español",
               "startPage": 61,
-              "endPage": 61,
-              "pagesLabel": "p. 61",
-              "status": "confirmed-from-source-book"
+              "endPage": 71,
+              "pagesLabel": "pp. 61-71",
+              "status": "confirmed-current-edition-full-range"
             },
             {
               "materialId": "grade-1-conceptos-lenguajes-primer-grado",
@@ -116,7 +116,7 @@
               "startPage": 184,
               "endPage": 191,
               "pagesLabel": "pp. 184-191",
-              "status": "confirmed-from-source-book"
+              "status": "confirmed-current-edition-full-range"
             },
             {
               "materialId": "grade-1-conceptos-lenguajes-primer-grado",
@@ -124,7 +124,7 @@
               "startPage": 296,
               "endPage": 300,
               "pagesLabel": "pp. 296-300",
-              "status": "confirmed-from-source-book"
+              "status": "confirmed-current-edition-full-range"
             }
           ],
           "multiplesLenguajes": [
@@ -135,7 +135,7 @@
               "endPage": 53,
               "pagesLabel": "pp. 48-53",
               "topicTitle": "Carta desde Varsovia",
-              "status": "confirmed-source"
+              "status": "confirmed-current-edition"
             }
           ],
           "otherMaterials": [
@@ -166,7 +166,7 @@
             "title": "Carta desde Varsovia",
             "kind": "Múltiples Lenguajes",
             "pages": "pp. 48-53",
-            "status": "confirmed-source"
+            "status": "confirmed-current-edition"
           }
         ],
         "horizonOrPurpose": {
@@ -242,13 +242,19 @@
           },
           {
             "concept": "figuras retóricas",
-            "status": "confirmed",
+            "status": "confirmed-current-edition",
             "sourceBook": "Lenguajes",
             "sourcePages": [
               61,
               62,
               63,
+              64,
+              65,
+              66,
+              67,
               68,
+              69,
+              70,
               71
             ],
             "sourcePagesLabel": "pp. 61-71",
@@ -260,7 +266,7 @@
           },
           {
             "concept": "lenguaje connotativo",
-            "status": "suggested",
+            "status": "confirmed-current-edition",
             "sourceBook": "Lenguajes",
             "sourcePages": [
               62,
@@ -275,7 +281,7 @@
           },
           {
             "concept": "lenguaje denotativo",
-            "status": "suggested",
+            "status": "confirmed-current-edition",
             "sourceBook": "Lenguajes",
             "sourcePages": [
               62,
@@ -290,7 +296,7 @@
           },
           {
             "concept": "comparación",
-            "status": "suggested",
+            "status": "confirmed-current-edition",
             "sourceBook": "Lenguajes",
             "sourcePages": [
               63,
@@ -309,7 +315,7 @@
           },
           {
             "concept": "metáfora",
-            "status": "suggested",
+            "status": "confirmed-current-edition",
             "sourceBook": "Lenguajes",
             "sourcePages": [
               63,
@@ -328,7 +334,7 @@
           },
           {
             "concept": "hipérbole",
-            "status": "suggested",
+            "status": "confirmed-current-edition",
             "sourceBook": "Lenguajes",
             "sourcePages": [
               63,
@@ -347,7 +353,7 @@
           },
           {
             "concept": "metonimia",
-            "status": "suggested",
+            "status": "confirmed-current-edition",
             "sourceBook": "Lenguajes",
             "sourcePages": [
               63,
@@ -366,7 +372,7 @@
           },
           {
             "concept": "sensaciones e ideas a través de los lenguajes en lenguas indígenas",
-            "status": "needsReview",
+            "status": "confirmed-current-edition",
             "sourceBook": "Lenguajes",
             "sourcePages": [
               185,
@@ -383,7 +389,7 @@
           },
           {
             "concept": "biografía",
-            "status": "discarded",
+            "status": "confirmed-current-edition",
             "sourceBook": "Lenguajes",
             "sourcePages": [
               101,
@@ -398,7 +404,7 @@
           },
           {
             "concept": "expresiones artísticas escénicas",
-            "status": "needsReview",
+            "status": "confirmed-current-edition",
             "sourceBook": "Lenguajes",
             "sourcePages": [
               296,
@@ -447,6 +453,9 @@
           "evidence": "Extraído por visión de imagen de la página 75 del libro de proyectos. Confianza: alta.",
           "status": "confirmed-from-project-book",
           "extractedAt": "2026-06-16T05:00:08.039Z"
+        },
+        "validationStatus": {
+          "needsReviewReasons": []
         }
       },
       {
@@ -494,7 +503,7 @@
               "startPage": 44,
               "endPage": 52,
               "pagesLabel": "pp. 44-52",
-              "status": "confirmed-from-source-book"
+              "status": "confirmed-current-edition-full-range"
             },
             {
               "materialId": "grade-1-conceptos-lenguajes-primer-grado",
@@ -502,7 +511,7 @@
               "startPage": 97,
               "endPage": 102,
               "pagesLabel": "pp. 97-102",
-              "status": "confirmed-from-source-book"
+              "status": "confirmed-current-edition-full-range"
             },
             {
               "materialId": "grade-1-conceptos-lenguajes-primer-grado",
@@ -510,7 +519,7 @@
               "startPage": 149,
               "endPage": 156,
               "pagesLabel": "pp. 149-156",
-              "status": "confirmed-from-source-book"
+              "status": "confirmed-current-edition-full-range"
             }
           ],
           "multiplesLenguajes": [],
@@ -596,7 +605,7 @@
           },
           {
             "concept": "comentario de texto",
-            "status": "confirmed",
+            "status": "confirmed-current-edition",
             "sourceBook": "Lenguajes",
             "sourcePages": [
               44,
@@ -612,7 +621,7 @@
           },
           {
             "concept": "exposición oral y escrita",
-            "status": "confirmed",
+            "status": "confirmed-current-edition",
             "sourceBook": "Lenguajes",
             "sourcePages": [
               47,
@@ -628,7 +637,7 @@
           },
           {
             "concept": "técnicas para la comunicación oral y escrita",
-            "status": "confirmed",
+            "status": "confirmed-current-edition",
             "sourceBook": "Lenguajes",
             "sourcePages": [
               50,
@@ -644,7 +653,7 @@
           },
           {
             "concept": "diversidad lingüística",
-            "status": "confirmed",
+            "status": "confirmed-current-edition",
             "sourceBook": "Lenguajes",
             "sourcePages": [
               149,
@@ -659,7 +668,7 @@
           },
           {
             "concept": "lenguas más y menos habladas de México y América Latina",
-            "status": "suggested",
+            "status": "confirmed-current-edition",
             "sourceBook": "Lenguajes",
             "sourcePages": [
               152,
@@ -675,7 +684,7 @@
           },
           {
             "concept": "revitalización cultural a través de las lenguas indígenas",
-            "status": "suggested",
+            "status": "confirmed-current-edition",
             "sourceBook": "Lenguajes",
             "sourcePages": [
               155,
@@ -736,6 +745,9 @@
           "evidence": "Extraído por visión de imagen de la página 79 del libro de proyectos. Confianza: alta.",
           "status": "confirmed-from-project-book",
           "extractedAt": "2026-06-16T05:00:12.240Z"
+        },
+        "validationStatus": {
+          "needsReviewReasons": []
         }
       },
       {
@@ -781,9 +793,9 @@
               "materialId": "grade-1-conceptos-lenguajes-primer-grado",
               "topicTitle": "Comprensión lectora",
               "startPage": 12,
-              "endPage": 12,
-              "pagesLabel": "p. 12",
-              "status": "confirmed-from-source-book"
+              "endPage": 24,
+              "pagesLabel": "pp. 12-24",
+              "status": "confirmed-current-edition-full-range"
             },
             {
               "materialId": "grade-1-conceptos-lenguajes-primer-grado",
@@ -791,7 +803,7 @@
               "startPage": 149,
               "endPage": 156,
               "pagesLabel": "pp. 149-156",
-              "status": "confirmed-from-source-book"
+              "status": "confirmed-current-edition-full-range"
             },
             {
               "materialId": "grade-1-conceptos-lenguajes-primer-grado",
@@ -799,7 +811,7 @@
               "startPage": 184,
               "endPage": 191,
               "pagesLabel": "pp. 184-191",
-              "status": "confirmed-from-source-book"
+              "status": "confirmed-current-edition-full-range"
             }
           ],
           "multiplesLenguajes": [
@@ -810,7 +822,7 @@
               "endPage": 57,
               "pagesLabel": "pp. 54-57",
               "topicTitle": "David Lara",
-              "status": "confirmed-source"
+              "status": "confirmed-current-edition"
             }
           ],
           "otherMaterials": [
@@ -841,7 +853,7 @@
             "title": "David Lara",
             "kind": "Múltiples Lenguajes",
             "pages": "pp. 54-57",
-            "status": "confirmed-source"
+            "status": "confirmed-current-edition"
           }
         ],
         "horizonOrPurpose": {
@@ -886,7 +898,7 @@
           },
           {
             "concept": "diversidad lingüística",
-            "status": "confirmed",
+            "status": "confirmed-current-edition",
             "sourceBook": "Lenguajes",
             "sourcePages": [
               149,
@@ -917,12 +929,19 @@
           },
           {
             "concept": "comprensión lectora",
-            "status": "suggested",
+            "status": "confirmed-current-edition",
             "sourceBook": "Lenguajes",
             "sourcePages": [
               12,
               13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
               20,
+              21,
               22
             ],
             "sourcePagesLabel": "pp. 12-22",
@@ -934,7 +953,7 @@
           },
           {
             "concept": "tipos de texto",
-            "status": "suggested",
+            "status": "confirmed-current-edition",
             "sourceBook": "Lenguajes",
             "sourcePages": [
               13,
@@ -952,7 +971,7 @@
           },
           {
             "concept": "ideas principales y secundarias",
-            "status": "suggested",
+            "status": "confirmed-current-edition",
             "sourceBook": "Lenguajes",
             "sourcePages": [
               22
@@ -966,7 +985,7 @@
           },
           {
             "concept": "expresiones artísticas escénicas",
-            "status": "discarded",
+            "status": "confirmed-current-edition",
             "sourceBook": "Lenguajes",
             "sourcePages": [
               296,
@@ -1000,7 +1019,7 @@
           },
           {
             "concept": "revitalización cultural a través de las lenguas indígenas",
-            "status": "suggested",
+            "status": "confirmed-current-edition",
             "sourceBook": "Lenguajes",
             "sourcePages": [
               155,
@@ -1015,7 +1034,7 @@
           },
           {
             "concept": "sensaciones e ideas a través de los lenguajes en lenguas indígenas",
-            "status": "suggested",
+            "status": "confirmed-current-edition",
             "sourceBook": "Lenguajes",
             "sourcePages": [
               185,
@@ -1063,6 +1082,9 @@
           "evidence": "Extraído por visión de imagen de la página 84 del libro de proyectos. Confianza: alta.",
           "status": "confirmed-from-project-book",
           "extractedAt": "2026-06-16T05:00:15.563Z"
+        },
+        "validationStatus": {
+          "needsReviewReasons": []
         }
       }
     ]

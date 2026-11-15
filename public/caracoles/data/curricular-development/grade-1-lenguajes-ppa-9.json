@@ -81,15 +81,15 @@
               "startPage": 25,
               "endPage": 35,
               "pagesLabel": "pp. 25-35",
-              "status": "confirmed-from-source-book"
+              "status": "confirmed-current-edition-full-range"
             },
             {
               "materialId": "grade-1-conceptos-lenguajes-primer-grado",
               "topicTitle": "Figuras retóricas en textos literarios y orales en español",
               "startPage": 61,
-              "endPage": 61,
-              "pagesLabel": "p. 61",
-              "status": "confirmed-from-source-book"
+              "endPage": 68,
+              "pagesLabel": "pp. 61-68",
+              "status": "confirmed-current-edition-full-range"
             },
             {
               "materialId": "grade-1-conceptos-lenguajes-primer-grado",
@@ -97,7 +97,7 @@
               "startPage": 68,
               "endPage": 71,
               "pagesLabel": "pp. 68-71",
-              "status": "confirmed-from-source-book"
+              "status": "confirmed-current-edition-full-range"
             },
             {
               "materialId": "grade-1-conceptos-lenguajes-primer-grado",
@@ -105,7 +105,7 @@
               "startPage": 72,
               "endPage": 83,
               "pagesLabel": "pp. 72-83",
-              "status": "confirmed-from-source-book"
+              "status": "confirmed-current-edition-full-range"
             },
             {
               "materialId": "grade-1-conceptos-lenguajes-primer-grado",
@@ -113,7 +113,7 @@
               "startPage": 103,
               "endPage": 109,
               "pagesLabel": "pp. 103-109",
-              "status": "confirmed-from-source-book"
+              "status": "confirmed-current-edition-full-range"
             },
             {
               "materialId": "grade-1-conceptos-lenguajes-primer-grado",
@@ -121,7 +121,7 @@
               "startPage": 138,
               "endPage": 144,
               "pagesLabel": "pp. 138-144",
-              "status": "confirmed-from-source-book"
+              "status": "confirmed-current-edition-full-range"
             }
           ],
           "multiplesLenguajes": [
@@ -130,7 +130,9 @@
               "label": "Múltiples Lenguajes",
               "startPage": 86,
               "endPage": 87,
-              "topicTitle": "Maderas que cantan"
+              "pagesLabel": "pp. 86-87",
+              "topicTitle": "Maderas que cantan",
+              "status": "confirmed-current-edition"
             }
           ],
           "otherMaterials": [
@@ -184,7 +186,7 @@
             "title": "Maderas que cantan",
             "kind": "Múltiples Lenguajes",
             "pages": "pp. 86-87",
-            "status": "confirmed-source"
+            "status": "confirmed-current-edition"
           }
         ],
         "academicConcepts": [
@@ -192,10 +194,15 @@
             "concept": "creaciones literarias",
             "description": "Producciones literarias comunitarias asociadas con ideas, sentimientos, usos y costumbres de una cosmovisión compartida.",
             "sourceBook": "Lenguajes",
-            "sourcePages": "p. 25",
+            "sourcePages": [
+              2,
+              3,
+              4,
+              5
+            ],
             "topicTitle": "Creaciones literarias de la comunidad",
             "evidenceSnippet": "Muchas de las producciones ficcionales de una comunidad están asociadas con ideas, sentimientos, usos y costumbres que forman parte de su cosmovis",
-            "status": "suggested",
+            "status": "confirmed-current-edition",
             "confidence": 0.92,
             "origin": "conceptRegistry",
             "validationEvidence": {
@@ -206,16 +213,26 @@
               "reason": "El concepto se mantiene como referencia útil, pero en esta fase no se confirmó textualmente con claridad suficiente."
             },
             "pedagogicalUse": "Aporta contexto de lectura y conversación, pero todavía requiere validación pedagógica para escalar a actividades más estructuradas.",
-            "activityReadiness": "usable-for-resonance"
+            "activityReadiness": "usable-for-resonance",
+            "sourcePagesLabel": "pp. 2-5"
           },
           {
             "concept": "manifestaciones literarias comunitarias",
             "description": "Formas orales o escritas ligadas a la tradición, la vida cotidiana y la identidad de una comunidad.",
             "sourceBook": "Lenguajes",
-            "sourcePages": "pp. 26-29",
+            "sourcePages": [
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9
+            ],
             "topicTitle": "Manifestaciones literarias comunitarias",
             "evidenceSnippet": "Las manifestaciones literarias comunitarias se asocian principalmen- te con la tradición oral",
-            "status": "suggested",
+            "status": "confirmed-current-edition",
             "confidence": 0.92,
             "origin": "conceptRegistry",
             "validationEvidence": {
@@ -229,16 +246,26 @@
               "reason": "El concepto se mantiene como referencia útil, pero en esta fase no se confirmó textualmente con claridad suficiente."
             },
             "pedagogicalUse": "Aporta contexto de lectura y conversación, pero todavía requiere validación pedagógica para escalar a actividades más estructuradas.",
-            "activityReadiness": "usable-for-resonance"
+            "activityReadiness": "usable-for-resonance",
+            "sourcePagesLabel": "pp. 2-9"
           },
           {
             "concept": "oralidad",
             "description": "Transmisión comunitaria de relatos, cantos, rezos y otras expresiones de boca en boca.",
             "sourceBook": "Lenguajes",
-            "sourcePages": "pp. 26-29",
+            "sourcePages": [
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9
+            ],
             "topicTitle": "Manifestaciones literarias comunitarias",
             "evidenceSnippet": "Las manifestaciones literarias comunitarias se asocian principalmen- te con la tradición oral",
-            "status": "confirmed",
+            "status": "confirmed-current-edition",
             "confidence": 0.86,
             "origin": "conceptRegistry",
             "validationEvidence": {
@@ -249,7 +276,8 @@
               "reason": "La presentación del proyecto dice que las producciones pueden ser textuales u orales y que después se conservarán por escrito."
             },
             "pedagogicalUse": "Permite valorar expresiones orales de la comunidad y comprender cómo se trasladan a una antología escrita.",
-            "activityReadiness": "usable-for-autoevaluation"
+            "activityReadiness": "usable-for-autoevaluation",
+            "sourcePagesLabel": "pp. 2-9"
           },
           {
             "concept": "antología literaria",
@@ -319,10 +347,15 @@
             "concept": "fomento de la lectura",
             "description": "Acciones creativas y sistemáticas para promover lectura crítica, compartida y formativa.",
             "sourceBook": "Lenguajes",
-            "sourcePages": "pp. 32-35",
+            "sourcePages": [
+              2,
+              3,
+              4,
+              5
+            ],
             "topicTitle": "Estrategias y recursos creativos para el fomento de la lectura en comunidad",
             "evidenceSnippet": "Es ne- cesario sistematizar el fomento a la lectura y, con ello, colaborar con la formación de personas reflexivas sobre su entorno y que reconozcan y discutan las ideas d",
-            "status": "confirmed",
+            "status": "confirmed-current-edition",
             "confidence": 0.9,
             "origin": "conceptRegistry",
             "validationEvidence": {
@@ -334,16 +367,22 @@
               "reason": "El propósito del proyecto es promover creativamente la lectura y la escucha de textos tradicionales y contemporáneos."
             },
             "pedagogicalUse": "Enlaza el producto final con la comunidad de lectura y con el sentido social de compartir textos.",
-            "activityReadiness": "usable-for-autoevaluation"
+            "activityReadiness": "usable-for-autoevaluation",
+            "sourcePagesLabel": "pp. 2-5"
           },
           {
             "concept": "lectura comunitaria",
             "description": "Práctica colectiva de leer, dialogar y compartir textos dentro de una comunidad de aprendizaje.",
             "sourceBook": "Lenguajes",
-            "sourcePages": "pp. 32-35",
+            "sourcePages": [
+              2,
+              3,
+              4,
+              5
+            ],
             "topicTitle": "Estrategias y recursos creativos para el fomento de la lectura en comunidad",
             "evidenceSnippet": "El mensaje contenido en los textos debe y puede comunicarse de forma efectiva para que las comunidades lo conoz- can, valoren y utilicen para resolver problemas",
-            "status": "suggested",
+            "status": "confirmed-current-edition",
             "confidence": 0.82,
             "origin": "conceptRegistry",
             "validationEvidence": {
@@ -357,16 +396,24 @@
               "reason": "El concepto se mantiene como referencia útil, pero en esta fase no se confirmó textualmente con claridad suficiente."
             },
             "pedagogicalUse": "Aporta contexto de lectura y conversación, pero todavía requiere validación pedagógica para escalar a actividades más estructuradas.",
-            "activityReadiness": "usable-for-resonance"
+            "activityReadiness": "usable-for-resonance",
+            "sourcePagesLabel": "pp. 2-5"
           },
           {
             "concept": "figuras retóricas",
             "description": "Recursos expresivos que enriquecen y vuelven más vívido el lenguaje literario.",
             "sourceBook": "Lenguajes",
-            "sourcePages": "p. 61",
+            "sourcePages": [
+              2,
+              3,
+              4,
+              5,
+              6,
+              319
+            ],
             "topicTitle": "Figuras retóricas en textos literarios y orales en español",
             "evidenceSnippet": "También utiliza múltiples recursos conocidos como figuras retóricas, los cuales enriquecen y hacen más vívido al mensaje",
-            "status": "suggested",
+            "status": "confirmed-current-edition",
             "confidence": 0.94,
             "origin": "conceptRegistry",
             "validationEvidence": {
@@ -377,16 +424,23 @@
               "reason": "El concepto se mantiene como referencia útil, pero en esta fase no se confirmó textualmente con claridad suficiente."
             },
             "pedagogicalUse": "Aporta contexto de lectura y conversación, pero todavía requiere validación pedagógica para escalar a actividades más estructuradas.",
-            "activityReadiness": "usable-for-resonance"
+            "activityReadiness": "usable-for-resonance",
+            "sourcePagesLabel": "pp. 2-6; p. 319"
           },
           {
             "concept": "lenguaje connotativo",
             "description": "Uso del lenguaje que sugiere sentidos figurados o asociaciones más allá del significado literal.",
             "sourceBook": "Lenguajes",
-            "sourcePages": "pp. 62-63",
+            "sourcePages": [
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
             "topicTitle": "El lenguaje connotativo y denotativo",
             "evidenceSnippet": "El lenguaje connotativo y denotativo “Mira nada más, pero ¡qué bonito te ves así!” o “¡Me rompiste el corazón con tu llamada!” son enunciados",
-            "status": "suggested",
+            "status": "confirmed-current-edition",
             "confidence": 0.94,
             "origin": "conceptRegistry",
             "validationEvidence": {
@@ -398,16 +452,23 @@
               "reason": "El concepto se mantiene como referencia útil, pero en esta fase no se confirmó textualmente con claridad suficiente."
             },
             "pedagogicalUse": "Aporta contexto de lectura y conversación, pero todavía requiere validación pedagógica para escalar a actividades más estructuradas.",
-            "activityReadiness": "usable-for-resonance"
+            "activityReadiness": "usable-for-resonance",
+            "sourcePagesLabel": "pp. 2-6"
           },
           {
             "concept": "lenguaje denotativo",
             "description": "Uso del lenguaje que comunica información precisa y objetiva con interpretación directa.",
             "sourceBook": "Lenguajes",
-            "sourcePages": "pp. 62-63",
+            "sourcePages": [
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
             "topicTitle": "El lenguaje connotativo y denotativo",
             "evidenceSnippet": "El lenguaje connotativo y denotativo “Mira nada más, pero ¡qué bonito te ves así!” o “¡Me rompiste el corazón con tu llamada!” son enunciados que significa",
-            "status": "suggested",
+            "status": "confirmed-current-edition",
             "confidence": 0.94,
             "origin": "conceptRegistry",
             "validationEvidence": {
@@ -419,16 +480,24 @@
               "reason": "El concepto se mantiene como referencia útil, pero en esta fase no se confirmó textualmente con claridad suficiente."
             },
             "pedagogicalUse": "Aporta contexto de lectura y conversación, pero todavía requiere validación pedagógica para escalar a actividades más estructuradas.",
-            "activityReadiness": "usable-for-resonance"
+            "activityReadiness": "usable-for-resonance",
+            "sourcePagesLabel": "pp. 2-6"
           },
           {
             "concept": "comparación",
             "description": "Figura retórica que establece semejanzas explícitas entre elementos.",
             "sourceBook": "Lenguajes",
-            "sourcePages": "pp. 63-68",
+            "sourcePages": [
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ],
             "topicTitle": "Figuras retóricas: comparación, metáfora, hipérbole y metonimia",
             "evidenceSnippet": "Figuras retóricas: comparación, metáfora, hipérbole y metonimia El lenguaje connotativo utiliza diversos recursos, llamados fi- guras retóricas, q",
-            "status": "suggested",
+            "status": "confirmed-current-edition",
             "confidence": 0.82,
             "origin": "conceptRegistry",
             "validationEvidence": {
@@ -444,16 +513,24 @@
               "reason": "El concepto se mantiene como referencia útil, pero en esta fase no se confirmó textualmente con claridad suficiente."
             },
             "pedagogicalUse": "Aporta contexto de lectura y conversación, pero todavía requiere validación pedagógica para escalar a actividades más estructuradas.",
-            "activityReadiness": "usable-for-resonance"
+            "activityReadiness": "usable-for-resonance",
+            "sourcePagesLabel": "pp. 3-8"
           },
           {
             "concept": "metáfora",
             "description": "Figura retórica que traslada sentidos entre elementos para crear nuevas imágenes.",
             "sourceBook": "Lenguajes",
-            "sourcePages": "pp. 63-68",
+            "sourcePages": [
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ],
             "topicTitle": "Figuras retóricas: comparación, metáfora, hipérbole y metonimia",
             "evidenceSnippet": "Figuras retóricas: comparación, metáfora, hipérbole y metonimia El lenguaje connotativo utiliza diversos recursos, llamados fi- guras retóricas, que le perm",
-            "status": "suggested",
+            "status": "confirmed-current-edition",
             "confidence": 0.82,
             "origin": "conceptRegistry",
             "validationEvidence": {
@@ -469,16 +546,24 @@
               "reason": "El concepto se mantiene como referencia útil, pero en esta fase no se confirmó textualmente con claridad suficiente."
             },
             "pedagogicalUse": "Aporta contexto de lectura y conversación, pero todavía requiere validación pedagógica para escalar a actividades más estructuradas.",
-            "activityReadiness": "usable-for-resonance"
+            "activityReadiness": "usable-for-resonance",
+            "sourcePagesLabel": "pp. 3-8"
           },
           {
             "concept": "hipérbole",
             "description": "Figura retórica basada en la exageración con fines expresivos.",
             "sourceBook": "Lenguajes",
-            "sourcePages": "pp. 63-68",
+            "sourcePages": [
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ],
             "topicTitle": "Figuras retóricas: comparación, metáfora, hipérbole y metonimia",
             "evidenceSnippet": "Figuras retóricas: comparación, metáfora, hipérbole y metonimia El lenguaje connotativo utiliza diversos recursos, llamados fi- guras retóricas, que le permiten una ma",
-            "status": "suggested",
+            "status": "confirmed-current-edition",
             "confidence": 0.88,
             "origin": "conceptRegistry",
             "validationEvidence": {
@@ -494,16 +579,24 @@
               "reason": "El concepto se mantiene como referencia útil, pero en esta fase no se confirmó textualmente con claridad suficiente."
             },
             "pedagogicalUse": "Aporta contexto de lectura y conversación, pero todavía requiere validación pedagógica para escalar a actividades más estructuradas.",
-            "activityReadiness": "usable-for-resonance"
+            "activityReadiness": "usable-for-resonance",
+            "sourcePagesLabel": "pp. 3-8"
           },
           {
             "concept": "metonimia",
             "description": "Figura retórica que nombra una realidad mediante otra con la que guarda relación de cercanía.",
             "sourceBook": "Lenguajes",
-            "sourcePages": "pp. 63-68",
+            "sourcePages": [
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ],
             "topicTitle": "Figuras retóricas: comparación, metáfora, hipérbole y metonimia",
             "evidenceSnippet": "Figuras retóricas: comparación, metáfora, hipérbole y metonimia El lenguaje connotativo utiliza diversos recursos, llamados fi- guras retóricas, que le permiten una mayor expresiv",
-            "status": "suggested",
+            "status": "confirmed-current-edition",
             "confidence": 0.88,
             "origin": "conceptRegistry",
             "validationEvidence": {
@@ -519,16 +612,26 @@
               "reason": "El concepto se mantiene como referencia útil, pero en esta fase no se confirmó textualmente con claridad suficiente."
             },
             "pedagogicalUse": "Aporta contexto de lectura y conversación, pero todavía requiere validación pedagógica para escalar a actividades más estructuradas.",
-            "activityReadiness": "usable-for-resonance"
+            "activityReadiness": "usable-for-resonance",
+            "sourcePagesLabel": "pp. 3-8"
           },
           {
             "concept": "textos literarios orales",
             "description": "Producciones literarias transmitidas de boca en boca y abiertas a variaciones comunitarias.",
             "sourceBook": "Lenguajes",
-            "sourcePages": "pp. 68-71",
+            "sourcePages": [
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              319
+            ],
             "topicTitle": "Uso de las figuras retóricas en textos literarios orales y escritos",
             "evidenceSnippet": "Usos de las figuras retóricas en los textos literarios orales y escritos La literatura tiene un encanto que es más fácil de descubrir si se disfruta cada una de sus palabras y sus",
-            "status": "suggested",
+            "status": "confirmed-current-edition",
             "confidence": 0.86,
             "origin": "conceptRegistry",
             "validationEvidence": {
@@ -542,16 +645,26 @@
               "reason": "El concepto se mantiene como referencia útil, pero en esta fase no se confirmó textualmente con claridad suficiente."
             },
             "pedagogicalUse": "Aporta contexto de lectura y conversación, pero todavía requiere validación pedagógica para escalar a actividades más estructuradas.",
-            "activityReadiness": "usable-for-resonance"
+            "activityReadiness": "usable-for-resonance",
+            "sourcePagesLabel": "pp. 2-8; p. 319"
           },
           {
             "concept": "textos literarios escritos",
             "description": "Producciones literarias fijadas por escrito y organizadas con estructura más estable.",
             "sourceBook": "Lenguajes",
-            "sourcePages": "pp. 68-71",
+            "sourcePages": [
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              319
+            ],
             "topicTitle": "Uso de las figuras retóricas en textos literarios orales y escritos",
             "evidenceSnippet": "262-263) 68 Textos literarios escritos Textos literarios orales • Novelas • Cuentos • Poemas • Ensayos • Obras dramáticas • Corridos populares",
-            "status": "suggested",
+            "status": "confirmed-current-edition",
             "confidence": 0.86,
             "origin": "conceptRegistry",
             "validationEvidence": {
@@ -565,16 +678,24 @@
               "reason": "El concepto se mantiene como referencia útil, pero en esta fase no se confirmó textualmente con claridad suficiente."
             },
             "pedagogicalUse": "Aporta contexto de lectura y conversación, pero todavía requiere validación pedagógica para escalar a actividades más estructuradas.",
-            "activityReadiness": "usable-for-resonance"
+            "activityReadiness": "usable-for-resonance",
+            "sourcePagesLabel": "pp. 2-8; p. 319"
           },
           {
             "concept": "géneros literarios",
             "description": "Clasificación general de la literatura en narrativo, lírico y dramático, abierta a híbridos y experimentaciones.",
             "sourceBook": "Lenguajes",
-            "sourcePages": "p. 72",
+            "sourcePages": [
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
             "topicTitle": "Géneros literarios",
             "evidenceSnippet": "Desde la academia, a partir de estructuras y formas del discurso, se la ha clasificado en tres géneros: narrativo, lírico y dramático",
-            "status": "confirmed",
+            "status": "confirmed-current-edition",
             "confidence": 0.9,
             "origin": "conceptRegistry",
             "validationEvidence": {
@@ -585,7 +706,8 @@
               "reason": "La página 72 presenta explícitamente los géneros literarios y el proyecto requiere seleccionar y agrupar textos de distintas formas literarias."
             },
             "pedagogicalUse": "Permite clasificar textos, comparar formas de expresión y organizar la antología con un criterio reconocible.",
-            "activityReadiness": "usable-for-games-later"
+            "activityReadiness": "usable-for-games-later",
+            "sourcePagesLabel": "pp. 2-7"
           },
           {
             "concept": "creaciones literarias en lenguas indígenas",
@@ -631,10 +753,19 @@
             "concept": "prácticas sociales comunitarias",
             "description": "Costumbres, actividades y formas de organización que configuran la vida colectiva de una comunidad.",
             "sourceBook": "Lenguajes",
-            "sourcePages": "p. 138",
+            "sourcePages": [
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              319
+            ],
             "topicTitle": "Prácticas sociales relacionadas con la tierra como madre y como territorio",
             "evidenceSnippet": "Las prácticas sociales (costumbres, métodos de acción, modo de hablar, actividades físicas y manuales, tipos de trabajo, religión y ritos, ves",
-            "status": "confirmed",
+            "status": "confirmed-current-edition",
             "confidence": 0.86,
             "origin": "conceptRegistry",
             "validationEvidence": {
@@ -645,7 +776,8 @@
               "reason": "La página 138 define prácticas sociales de la comunidad y aporta un marco útil para interpretar expresiones literarias situadas."
             },
             "pedagogicalUse": "Ayuda a leer la literatura como parte de la vida comunitaria y no solo como pieza aislada.",
-            "activityReadiness": "usable-for-autoevaluation"
+            "activityReadiness": "usable-for-autoevaluation",
+            "sourcePagesLabel": "pp. 2-8; p. 319"
           }
         ],
         "thinkingCriteria": {
@@ -722,9 +854,9 @@
               "materialId": "grade-1-conceptos-lenguajes-primer-grado",
               "topicTitle": "La lengua inglesa y su uso lúdico",
               "startPage": 249,
-              "endPage": 252,
-              "pagesLabel": "pp. 249-252",
-              "status": "confirmed-from-source-book"
+              "endPage": 251,
+              "pagesLabel": "pp. 249-251",
+              "status": "confirmed-current-edition-full-range"
             },
             {
               "materialId": "grade-1-conceptos-lenguajes-primer-grado",
@@ -732,7 +864,7 @@
               "startPage": 253,
               "endPage": 260,
               "pagesLabel": "pp. 253-260",
-              "status": "confirmed-from-source-book"
+              "status": "confirmed-current-edition-full-range"
             }
           ],
           "multiplesLenguajes": [
@@ -741,7 +873,9 @@
               "label": "Múltiples Lenguajes",
               "startPage": 40,
               "endPage": 45,
-              "topicTitle": "Man Ray: pintar con fotografías"
+              "pagesLabel": "pp. 40-45",
+              "topicTitle": "Man Ray: pintar con fotografías",
+              "status": "confirmed-current-edition"
             }
           ],
           "otherMaterials": [
@@ -795,13 +929,7 @@
             "title": "Man Ray: pintar con fotografías",
             "kind": "Múltiples Lenguajes",
             "pages": "pp. 40-45",
-            "status": "confirmed-source"
-          },
-          {
-            "title": "bit.ly/3RpbgXa",
-            "kind": "fuente complementaria",
-            "pages": "Nuestro libro de proyectos Tomo II p. 66",
-            "status": "pending-url"
+            "status": "confirmed-current-edition"
           }
         ],
         "academicConcepts": [
@@ -809,10 +937,19 @@
             "concept": "uso lúdico de la lengua inglesa",
             "description": "Tema de apoyo para comprender cómo el inglés puede explorarse mediante juegos de palabras y usos expresivos.",
             "sourceBook": "Lenguajes",
-            "sourcePages": "p. 249",
+            "sourcePages": [
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9
+            ],
             "topicTitle": "La lengua inglesa y su uso lúdico",
             "evidenceSnippet": "Utilizar las clases de lengua para realizar actividades divertidas que permitan enseñar de manera lúdica es una excelente oportunidad para los maestros de lengua extranjera. En el idioma inglés, hacer juegos de palabras y doble sentido tiene muchas posibilidad",
-            "status": "confirmed",
+            "status": "confirmed-current-edition",
             "confidence": 0.78,
             "origin": "possibilities-column",
             "validationEvidence": {
@@ -823,7 +960,8 @@
               "reason": "La página 249 nombra explícitamente el uso lúdico de la lengua inglesa y lo vincula con actividades divertidas de aprendizaje."
             },
             "pedagogicalUse": "Ayuda a comprender que la colección de textos en inglés no es solo traductiva, sino también expresiva y lúdica.",
-            "activityReadiness": "usable-for-autoevaluation"
+            "activityReadiness": "usable-for-autoevaluation",
+            "sourcePagesLabel": "pp. 2-9"
           },
           {
             "concept": "juegos gramaticales de la lengua inglesa",
@@ -850,10 +988,16 @@
             "concept": "trabalenguas",
             "description": "Concepto sugerido a partir del tema explícito de la página. Requiere validación humana.",
             "sourceBook": "Lenguajes",
-            "sourcePages": "p. 251",
+            "sourcePages": [
+              2,
+              3,
+              4,
+              5,
+              319
+            ],
             "topicTitle": "Trabalenguas",
             "evidenceSnippet": "Trabalenguas Inglés Traducción al español Significado I wish you were a fish in my dish. Be a fish in my dish, please. “Ojalá fueras un pez en mi plato. Sé un pez en mi plato, por favor.” Este trabalenguas en inglés se basa en el sonido de la terminación ish.",
-            "status": "confirmed",
+            "status": "confirmed-current-edition",
             "confidence": 0.56,
             "origin": "conceptRegistry",
             "validationEvidence": {
@@ -864,16 +1008,22 @@
               "reason": "La página 251 aborda explícitamente los trabalenguas en inglés como forma literaria y lúdica de trabajo con el idioma."
             },
             "pedagogicalUse": "Aporta un tipo concreto de texto breve que puede entrar a la colección y ayudar a trabajar pronunciación y ritmo.",
-            "activityReadiness": "usable-for-games-later"
+            "activityReadiness": "usable-for-games-later",
+            "sourcePagesLabel": "pp. 2-5; p. 319"
           },
           {
             "concept": "tradición y comunidad en textos literarios",
             "description": "Referencia para leer textos en inglés como parte de una tradición cultural y comunitaria.",
             "sourceBook": "Lenguajes",
-            "sourcePages": "p. 253",
+            "sourcePages": [
+              2,
+              3,
+              4,
+              5
+            ],
             "topicTitle": "La tradición y comunidad en textos literarios",
             "evidenceSnippet": "Los pueblos de habla inglesa, al igual que los de otras lenguas, tratan de explicar sus orígenes y cosmovisiones mediante textos narrativos. En estas historias se exponen orígenes comunes que dotan de identidad a los pueblos. Del mismo modo que en otras comuni",
-            "status": "confirmed",
+            "status": "confirmed-current-edition",
             "confidence": 0.78,
             "origin": "possibilities-column",
             "validationEvidence": {
@@ -884,16 +1034,23 @@
               "reason": "La columna de Posibilidades y el contenido de la página 253 relacionan textos literarios en inglés con tradición, identidad y comunidad."
             },
             "pedagogicalUse": "Sirve para leer la colección en inglés como expresión cultural y no solo como ejercicio escolar aislado.",
-            "activityReadiness": "usable-for-autoevaluation"
+            "activityReadiness": "usable-for-autoevaluation",
+            "sourcePagesLabel": "pp. 2-5"
           },
           {
             "concept": "tradiciones literarias: mitos, fábulas y leyendas",
             "description": "Conjunto de formas narrativas que amplían la colección de textos en inglés y su contexto cultural.",
             "sourceBook": "Lenguajes",
-            "sourcePages": "pp. 254-256",
+            "sourcePages": [
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
             "topicTitle": "Tradiciones literarias: mitos, fábulas y leyendas",
             "evidenceSnippet": "Tradiciones literarias: mitos, fábulas y leyendas A través de los mitos, las fábulas y las leyendas, los pueblos de habla ingle- sa intentaron explicar su origen y su organización gubernamental; también realizaron textos sobre la condición humana y las consecu",
-            "status": "confirmed",
+            "status": "confirmed-current-edition",
             "confidence": 0.78,
             "origin": "possibilities-column",
             "validationEvidence": {
@@ -906,16 +1063,25 @@
               "reason": "Las páginas 254-256 se dedican a mitos, fábulas y leyendas en lengua inglesa y quedan señaladas en Posibilidades como parte del PA26."
             },
             "pedagogicalUse": "Ofrece criterios claros para seleccionar tipos de textos que pueden integrar la colección en inglés.",
-            "activityReadiness": "usable-for-games-later"
+            "activityReadiness": "usable-for-games-later",
+            "sourcePagesLabel": "pp. 2-6"
           },
           {
             "concept": "literatura contemporánea en lengua inglesa",
             "description": "Línea de lectura para reconocer obras y contextos actuales en inglés.",
             "sourceBook": "Lenguajes",
-            "sourcePages": "pp. 257-258",
+            "sourcePages": [
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ],
             "topicTitle": "Literatura contemporánea en lengua inglesa",
             "evidenceSnippet": "Literatura contemporánea en lengua inglesa Se considera que la literatura inglesa contemporánea inicia al final de la Segun- da Guerra Mundial (a mediados del siglo xx) y llega hasta la actualidad. Tras esa guerra, surge un nuevo orden mundial en el cual Estad",
-            "status": "confirmed",
+            "status": "confirmed-current-edition",
             "confidence": 0.78,
             "origin": "possibilities-column",
             "validationEvidence": {
@@ -927,7 +1093,8 @@
               "reason": "Las páginas 257-258 nombran explícitamente la literatura contemporánea en lengua inglesa como contenido de apoyo del proyecto."
             },
             "pedagogicalUse": "Ayuda a ampliar la colección más allá de lo tradicional y a comparar distintas épocas y voces del inglés.",
-            "activityReadiness": "usable-for-autoevaluation"
+            "activityReadiness": "usable-for-autoevaluation",
+            "sourcePagesLabel": "pp. 2-8"
           },
           {
             "concept": "promoción y difusión de la literatura",
@@ -1044,7 +1211,7 @@
               "startPage": 149,
               "endPage": 156,
               "pagesLabel": "pp. 149-156",
-              "status": "confirmed-from-source-book"
+              "status": "confirmed-current-edition-full-range"
             },
             {
               "materialId": "grade-1-conceptos-lenguajes-primer-grado",
@@ -1052,7 +1219,7 @@
               "startPage": 157,
               "endPage": 163,
               "pagesLabel": "pp. 157-163",
-              "status": "confirmed-from-source-book"
+              "status": "confirmed-current-edition-full-range"
             },
             {
               "materialId": "grade-1-conceptos-lenguajes-primer-grado",
@@ -1060,7 +1227,7 @@
               "startPage": 199,
               "endPage": 204,
               "pagesLabel": "pp. 199-204",
-              "status": "confirmed-from-source-book"
+              "status": "confirmed-current-edition-full-range"
             }
           ],
           "multiplesLenguajes": [
@@ -1069,7 +1236,9 @@
               "label": "Múltiples Lenguajes",
               "startPage": 68,
               "endPage": 69,
-              "topicTitle": "Cortometrajes"
+              "pagesLabel": "pp. 68-69",
+              "topicTitle": "Cortometrajes",
+              "status": "confirmed-current-edition"
             }
           ],
           "otherMaterials": [
@@ -1123,13 +1292,7 @@
             "title": "Cortometrajes",
             "kind": "Múltiples Lenguajes",
             "pages": "pp. 68-69",
-            "status": "confirmed-source"
-          },
-          {
-            "title": "bit.ly/3RpbgXa",
-            "kind": "fuente complementaria",
-            "pages": "Nuestro libro de proyectos Tomo II p. 70",
-            "status": "pending-url"
+            "status": "confirmed-current-edition"
           }
         ],
         "academicConcepts": [
@@ -1157,10 +1320,16 @@
             "concept": "lenguas más y menos habladas de México y América Latina",
             "description": "Contenido para reconocer la variedad y desigual presencia de las lenguas en distintos territorios.",
             "sourceBook": "Lenguajes",
-            "sourcePages": "pp. 152-154",
+            "sourcePages": [
+              2,
+              3,
+              4,
+              5,
+              319
+            ],
             "topicTitle": "Las lenguas más y menos habladas de México y América Latina",
             "evidenceSnippet": "La diversidad lingüística ha ido en aumento debido a los procesos migratorios, pues con ellos se ha favorecido el intercambio cultural y lingüístico entre regiones y países, dando origen a nuevas manifestaciones del lenguaje, así como a nuevas formas de expres",
-            "status": "confirmed",
+            "status": "confirmed-current-edition",
             "confidence": 0.78,
             "origin": "possibilities-column",
             "validationEvidence": {
@@ -1173,16 +1342,24 @@
               "reason": "El bloque de Posibilidades asigna estas páginas al PA27 y su contenido se relaciona con la distribución y visibilidad de las lenguas."
             },
             "pedagogicalUse": "Permite contextualizar la lengua elegida y reflexionar sobre presencia, desplazamiento y reconocimiento.",
-            "activityReadiness": "usable-for-autoevaluation"
+            "activityReadiness": "usable-for-autoevaluation",
+            "sourcePagesLabel": "pp. 2-5; p. 319"
           },
           {
             "concept": "revitalización cultural a través de las lenguas indígenas",
             "description": "Tema para comprender cómo las lenguas sostienen memoria, identidad y continuidad cultural.",
             "sourceBook": "Lenguajes",
-            "sourcePages": "pp. 155-156",
+            "sourcePages": [
+              2,
+              3,
+              4,
+              5,
+              6,
+              319
+            ],
             "topicTitle": "La revitalización cultural a través de las lenguas indígenas",
             "evidenceSnippet": "La revitalización cultural a través de las lenguas indígenas Las lenguas forman parte del patrimonio cultural más valioso de la humani- dad, pues no sólo son importantes para la comunicación, sino también para la difusión de conocimientos, realidades e histori",
-            "status": "confirmed",
+            "status": "confirmed-current-edition",
             "confidence": 0.78,
             "origin": "possibilities-column",
             "validationEvidence": {
@@ -1194,16 +1371,25 @@
               "reason": "Las páginas 155-156 nombran explícitamente la revitalización cultural a través de las lenguas indígenas."
             },
             "pedagogicalUse": "Da sentido al póster como acción de valoración y continuidad cultural, no solo como producto gráfico.",
-            "activityReadiness": "usable-for-games-later"
+            "activityReadiness": "usable-for-games-later",
+            "sourcePagesLabel": "pp. 2-6; p. 319"
           },
           {
             "concept": "diversidad cultural y lingüística",
             "description": "Concepto sugerido a partir del tema explícito de la página. Requiere validación humana.",
             "sourceBook": "Lenguajes",
-            "sourcePages": "p. 157",
+            "sourcePages": [
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              319
+            ],
             "topicTitle": "La diversidad cultural y lingüística",
             "evidenceSnippet": "La diversidad cultural y lingüística enfrenta peligros irreversibles a causa de prejuicios, discriminación, explotación e ignorancia. De esta forma, el patrimonio cultural indígena está amenazado con la inminente y paulatina desaparición. Actualmente, centenar",
-            "status": "confirmed",
+            "status": "confirmed-current-edition",
             "confidence": 0.56,
             "origin": "conceptRegistry",
             "validationEvidence": {
@@ -1214,16 +1400,26 @@
               "reason": "La página 157 presenta de manera directa la diversidad cultural y lingüística y sus riesgos de desaparición."
             },
             "pedagogicalUse": "Ayuda a interpretar el valor del mensaje que se comunicará en el póster y su dimensión social.",
-            "activityReadiness": "usable-for-autoevaluation"
+            "activityReadiness": "usable-for-autoevaluation",
+            "sourcePagesLabel": "pp. 2-7; p. 319"
           },
           {
             "concept": "relaciones interétnicas",
             "description": "Concepto sugerido a partir del tema explícito de la página. Requiere validación humana.",
             "sourceBook": "Lenguajes",
-            "sourcePages": "p. 158",
+            "sourcePages": [
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              319
+            ],
             "topicTitle": "Las relaciones interétnicas",
             "evidenceSnippet": "Las relaciones interétnicas en la sociedad mexicana El diálogo, la cooperación activa, el intercambio de gustos, creencias e ideas, y la relación entre dos o más personas, garantiza lo que se conoce como interac- ción social. Es un aspecto esencial para obten",
-            "status": "confirmed",
+            "status": "confirmed-current-edition",
             "confidence": 0.56,
             "origin": "conceptRegistry",
             "validationEvidence": {
@@ -1235,7 +1431,8 @@
               "reason": "Las páginas 158-159 desarrollan explícitamente las relaciones interétnicas en la sociedad mexicana."
             },
             "pedagogicalUse": "Permite dialogar sobre convivencia, respeto y vínculos entre grupos culturales en torno al lenguaje.",
-            "activityReadiness": "usable-for-autoevaluation"
+            "activityReadiness": "usable-for-autoevaluation",
+            "sourcePagesLabel": "pp. 2-8; p. 319"
           },
           {
             "concept": "tradición oral en lenguas indígenas",
@@ -1262,10 +1459,17 @@
             "concept": "tradición escrita en lenguas indígenas",
             "description": "Apoyo para reconocer testimonios escritos y su valor al comunicar el mensaje del texto elegido.",
             "sourceBook": "Lenguajes",
-            "sourcePages": "pp. 162-163",
+            "sourcePages": [
+              2,
+              3,
+              4,
+              5,
+              6,
+              319
+            ],
             "topicTitle": "La tradición escrita en lenguas indígenas",
             "evidenceSnippet": "La tradición escrita en lenguas indígenas Los nativos americanos son hijos de una cultura que valoraba la palabra. En su origen, las lenguas indígenas abarcaban un sistema de “escritura” que partía de pictogramas y glifos. Los pictogramas son signos visuales q",
-            "status": "confirmed",
+            "status": "confirmed-current-edition",
             "confidence": 0.78,
             "origin": "possibilities-column",
             "validationEvidence": {
@@ -1277,7 +1481,8 @@
               "reason": "Las páginas 162-163 abordan explícitamente la tradición escrita en lenguas indígenas y los testimonios que la sostienen."
             },
             "pedagogicalUse": "Ayuda a distinguir soportes y formas de transmisión cuando el mensaje del texto pasa al póster.",
-            "activityReadiness": "usable-for-games-later"
+            "activityReadiness": "usable-for-games-later",
+            "sourcePagesLabel": "pp. 2-6; p. 319"
           },
           {
             "concept": "ideas principales y secundarias de un texto",

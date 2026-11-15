@@ -121,26 +121,26 @@
               "startPage": 89,
               "endPage": 96,
               "pagesLabel": "pp. 89-96",
-              "status": "confirmed-from-source-book"
+              "status": "confirmed-current-edition-full-range"
             },
             {
               "materialId": "grade-1-conceptos-lenguajes-primer-grado",
               "topicTitle": "El uso de la lengua indígena para expresar problemáticas sociales",
               "startPage": 199,
-              "endPage": 204,
-              "pagesLabel": "pp. 199-204",
-              "status": "confirmed-from-source-book"
+              "endPage": 203,
+              "pagesLabel": "pp. 199-203",
+              "status": "confirmed-current-edition-full-range"
             }
           ],
           "multiplesLenguajes": [
             {
               "materialId": "grade-1-apoyo-muiltiples-lenguajes-primer-grado",
-              "label": "Multiples Lenguajes",
+              "label": "Múltiples Lenguajes",
               "startPage": 10,
               "endPage": 11,
               "pagesLabel": "pp. 10-11",
               "topicTitle": "El asombroso mundo de los arrecifes de coral",
-              "status": "confirmed-source"
+              "status": "confirmed-current-edition"
             }
           ],
           "otherMaterials": [
@@ -169,9 +169,9 @@
         "supportMaterials": [
           {
             "title": "El asombroso mundo de los arrecifes de coral",
-            "kind": "Multiples Lenguajes",
+            "kind": "Múltiples Lenguajes",
             "pages": "pp. 10-11",
-            "status": "confirmed-source"
+            "status": "confirmed-current-edition"
           }
         ],
         "horizonOrPurpose": {
@@ -231,7 +231,7 @@
           },
           {
             "concept": "memoria colectiva",
-            "status": "confirmed",
+            "status": "confirmed-current-edition",
             "sourceBook": "Lenguajes",
             "sourcePages": [
               89,
@@ -246,7 +246,7 @@
           },
           {
             "concept": "generos periodisticos informativos",
-            "status": "confirmed",
+            "status": "confirmed-current-edition",
             "sourceBook": "Lenguajes",
             "sourcePages": [
               94,
@@ -278,7 +278,7 @@
           },
           {
             "concept": "textos literarios e informativos que aborden temas de la comunidad",
-            "status": "suggested",
+            "status": "confirmed-current-edition",
             "sourceBook": "Lenguajes",
             "sourcePages": [
               200,
@@ -295,7 +295,7 @@
           },
           {
             "concept": "uso de la lengua indigena para expresar problematicas sociales",
-            "status": "needsReview",
+            "status": "confirmed-current-edition",
             "sourceBook": "Lenguajes",
             "sourcePages": [
               199,
@@ -343,6 +343,9 @@
           "evidence": "Extraído por visión de imagen de la página 14 del libro de proyectos. Confianza: alta.",
           "status": "confirmed-from-project-book",
           "extractedAt": "2026-06-16T05:26:33.157Z"
+        },
+        "validationStatus": {
+          "needsReviewReasons": []
         }
       },
       {
@@ -387,9 +390,9 @@
               "materialId": "grade-1-conceptos-lenguajes-primer-grado",
               "topicTitle": "Género narrativo y sus recursos",
               "startPage": 73,
-              "endPage": 75,
-              "pagesLabel": "pp. 73-75",
-              "status": "confirmed-from-source-book"
+              "endPage": 83,
+              "pagesLabel": "pp. 73-83",
+              "status": "confirmed-current-edition-full-range"
             },
             {
               "materialId": "grade-1-conceptos-lenguajes-primer-grado",
@@ -397,26 +400,26 @@
               "startPage": 89,
               "endPage": 96,
               "pagesLabel": "pp. 89-96",
-              "status": "confirmed-from-source-book"
+              "status": "confirmed-current-edition-full-range"
             },
             {
               "materialId": "grade-1-conceptos-lenguajes-primer-grado",
               "topicTitle": "Manifestaciones culturales y artísticas",
               "startPage": 261,
-              "endPage": 267,
-              "pagesLabel": "pp. 261-267",
-              "status": "confirmed-from-source-book"
+              "endPage": 265,
+              "pagesLabel": "pp. 261-265",
+              "status": "confirmed-current-edition-full-range"
             }
           ],
           "multiplesLenguajes": [
             {
               "materialId": "grade-1-apoyo-muiltiples-lenguajes-primer-grado",
-              "label": "Multiples Lenguajes",
+              "label": "Múltiples Lenguajes",
               "startPage": 30,
               "endPage": 33,
               "pagesLabel": "pp. 30-33",
               "topicTitle": "Somos fuerza",
-              "status": "confirmed-source"
+              "status": "confirmed-current-edition"
             }
           ],
           "otherMaterials": [
@@ -445,10 +448,9 @@
         "supportMaterials": [
           {
             "title": "Somos fuerza",
-            "kind": "Multiples Lenguajes",
+            "kind": "Múltiples Lenguajes",
             "pages": "pp. 30-33",
-            "status": "confirmed-source",
-            "note": "El OCR del apoyo es debil, pero la asignacion por columna quedo validada visualmente en Posibilidades."
+            "status": "confirmed-current-edition"
           }
         ],
         "horizonOrPurpose": {
@@ -509,12 +511,17 @@
           },
           {
             "concept": "generos literarios",
-            "status": "confirmed",
+            "status": "confirmed-current-edition",
             "sourceBook": "Lenguajes",
             "sourcePages": [
               72,
               73,
+              74,
+              75,
               76,
+              77,
+              78,
+              79,
               80
             ],
             "sourcePagesLabel": "pp. 72-80",
@@ -526,7 +533,7 @@
           },
           {
             "concept": "genero narrativo",
-            "status": "confirmed",
+            "status": "confirmed-current-edition",
             "sourceBook": "Lenguajes",
             "sourcePages": [
               73,
@@ -542,7 +549,7 @@
           },
           {
             "concept": "genero lirico",
-            "status": "confirmed",
+            "status": "confirmed-current-edition",
             "sourceBook": "Lenguajes",
             "sourcePages": [
               76,
@@ -559,7 +566,7 @@
           },
           {
             "concept": "genero dramatico",
-            "status": "confirmed",
+            "status": "confirmed-current-edition",
             "sourceBook": "Lenguajes",
             "sourcePages": [
               80,
@@ -576,7 +583,7 @@
           },
           {
             "concept": "manifestaciones culturales y artisticas",
-            "status": "confirmed",
+            "status": "confirmed-current-edition",
             "sourceBook": "Lenguajes",
             "sourcePages": [
               261,
@@ -594,7 +601,7 @@
           },
           {
             "concept": "generos periodisticos informativos",
-            "status": "suggested",
+            "status": "confirmed-current-edition",
             "sourceBook": "Lenguajes",
             "sourcePages": [
               94,
@@ -610,7 +617,7 @@
           },
           {
             "concept": "manifestaciones de los pueblos de habla inglesa",
-            "status": "suggested",
+            "status": "confirmed-current-edition",
             "sourceBook": "Lenguajes",
             "sourcePages": [
               262,
@@ -675,6 +682,9 @@
           "evidence": "Extraído por visión de imagen de la página 20 del libro de proyectos. Confianza: alta.",
           "status": "confirmed-from-project-book",
           "extractedAt": "2026-06-16T05:00:22.574Z"
+        },
+        "validationStatus": {
+          "needsReviewReasons": []
         }
       },
       {
@@ -721,26 +731,26 @@
               "startPage": 296,
               "endPage": 300,
               "pagesLabel": "pp. 296-300",
-              "status": "confirmed-from-source-book"
+              "status": "confirmed-current-edition-full-range"
             },
             {
               "materialId": "grade-1-conceptos-lenguajes-primer-grado",
               "topicTitle": "La reinterpretación de obras comunitarias tradicionales",
               "startPage": 301,
-              "endPage": 305,
-              "pagesLabel": "pp. 301-305",
-              "status": "confirmed-from-source-book"
+              "endPage": 304,
+              "pagesLabel": "pp. 301-304",
+              "status": "confirmed-current-edition-full-range"
             }
           ],
           "multiplesLenguajes": [
             {
               "materialId": "grade-1-apoyo-muiltiples-lenguajes-primer-grado",
-              "label": "Multiples Lenguajes",
+              "label": "Múltiples Lenguajes",
               "startPage": 34,
               "endPage": 38,
               "pagesLabel": "pp. 34-38",
-              "topicTitle": "El Museo Nacional de Antropologia",
-              "status": "confirmed-source"
+              "topicTitle": "El Museo Nacional de Antropología",
+              "status": "confirmed-current-edition"
             }
           ],
           "otherMaterials": [
@@ -768,10 +778,10 @@
         },
         "supportMaterials": [
           {
-            "title": "El Museo Nacional de Antropologia",
-            "kind": "Multiples Lenguajes",
+            "title": "El Museo Nacional de Antropología",
+            "kind": "Múltiples Lenguajes",
             "pages": "pp. 34-38",
-            "status": "confirmed-source"
+            "status": "confirmed-current-edition"
           }
         ],
         "horizonOrPurpose": {
@@ -863,7 +873,7 @@
           },
           {
             "concept": "reinterpretacion de obras comunitarias tradicionales",
-            "status": "confirmed",
+            "status": "confirmed-current-edition",
             "sourceBook": "Lenguajes",
             "sourcePages": [
               301,
@@ -878,7 +888,7 @@
           },
           {
             "concept": "comunidad y tradicion",
-            "status": "confirmed",
+            "status": "confirmed-current-edition",
             "sourceBook": "Lenguajes",
             "sourcePages": [
               302
@@ -892,12 +902,13 @@
           },
           {
             "concept": "expresiones artisticas escenicas",
-            "status": "needsReview",
+            "status": "confirmed-current-edition",
             "sourceBook": "Lenguajes",
             "sourcePages": [
               296,
               297,
               298,
+              299,
               300
             ],
             "sourcePagesLabel": "pp. 296-300",
@@ -909,7 +920,7 @@
           },
           {
             "concept": "cultura tradicional de Mexico",
-            "status": "suggested",
+            "status": "confirmed-current-edition",
             "sourceBook": "Lenguajes",
             "sourcePages": [
               303
@@ -923,7 +934,7 @@
           },
           {
             "concept": "musica y danzas tradicionales de Mexico",
-            "status": "suggested",
+            "status": "confirmed-current-edition",
             "sourceBook": "Lenguajes",
             "sourcePages": [
               304
@@ -970,6 +981,9 @@
           "evidence": "Extraído por visión de imagen de la página 23 del libro de proyectos. Confianza: alta.",
           "status": "confirmed-from-project-book",
           "extractedAt": "2026-06-16T05:26:40.338Z"
+        },
+        "validationStatus": {
+          "needsReviewReasons": []
         }
       }
     ]

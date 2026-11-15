@@ -6,7 +6,6 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[2]
-INDEX = ROOT / "content" / "caracoles" / "generated-private" / "grade-2" / "pages-index.full.json"
 POSSIBILITIES = ROOT / "tmp" / "caracoles-possibilities-columns.json"
 BUNDLES = ROOT / "public" / "caracoles" / "data" / "curricular-development"
 
@@ -32,6 +31,7 @@ def label(start, end):
 
 
 parser = argparse.ArgumentParser()
+parser.add_argument("--grade", default="2")
 parser.add_argument("--field", default="Lenguajes")
 parser.add_argument("--material-id", default="grade-2-conceptos-lenguajes-segundo-grado")
 parser.add_argument("--current-text", default="tmp/leng2-current.txt")
@@ -39,6 +39,7 @@ parser.add_argument("--bundle-pattern", default="grade-2-lenguajes-*.json")
 parser.add_argument("--report-name", default="grade2-lenguajes-full-range-map.json")
 args = parser.parse_args()
 
+INDEX = ROOT / "content" / "caracoles" / "generated-private" / f"grade-{args.grade}" / "pages-index.full.json"
 material_id = args.material_id
 current_text = ROOT / args.current_text
 report_path = ROOT / "reports" / "caracoles" / args.report_name
@@ -67,7 +68,7 @@ possibilities = json.loads(POSSIBILITIES.read_text(encoding="utf-8-sig"))
 records = {
     int(record["academicProjectNumber"]): record
     for record in possibilities["records"]
-    if str(record.get("grade")) == "2" and record.get("field") == args.field
+    if str(record.get("grade")) == str(args.grade) and record.get("field") == args.field
 }
 
 results = []
