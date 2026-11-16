@@ -104,11 +104,13 @@
         "sourceValidation": {
           "sourceStatus": "linked",
           "possibilitiesPages": [
-            6
+            6,
+            7,
+            8
           ],
           "possibilitiesMaterialId": "grade-3-posibilidades-pos-len-3",
           "possibilitiesColumnIndex": 1,
-          "columnEvidence": "Columna 1 confirmada por geometría del PDF de Posibilidades de uso; ficha 1 de 1 en p. 6."
+          "columnEvidence": "Columna 1 revisada completa en Posibilidades de uso, pp. 6-8."
         },
         "finalProduct": {
           "title": "Debate cultural con tarjetas comparativas",
@@ -132,20 +134,46 @@
               "materialId": "grade-3-conceptos-lenguajes-tercer-grado",
               "topicTitle": "El valor de la diversidad lingüística desde la interculturalidad",
               "startPage": 71,
-              "endPage": 71,
-              "pagesLabel": "p. 71",
-              "status": "confirmed-from-source-book"
+              "endPage": 76,
+              "pagesLabel": "pp. 71-76",
+              "status": "confirmed-current-edition-full-range"
             },
             {
               "materialId": "grade-3-conceptos-lenguajes-tercer-grado",
               "topicTitle": "Importancia de las lenguas originarias para el desarrollo armónico y el enriquecimiento de nuestra vida",
               "startPage": 117,
-              "endPage": 117,
-              "pagesLabel": "p. 117",
-              "status": "confirmed-from-source-book"
+              "endPage": 121,
+              "pagesLabel": "pp. 117-121",
+              "status": "confirmed-current-edition-full-range"
+            },
+            {
+              "materialId": "grade-3-conceptos-lenguajes-tercer-grado",
+              "topicTitle": "El valor de la diversidad lingüística desde la interculturalidad",
+              "startPage": 183,
+              "endPage": 188,
+              "pagesLabel": "pp. 183-188",
+              "status": "confirmed-current-edition-full-range"
+            },
+            {
+              "materialId": "grade-3-conceptos-lenguajes-tercer-grado",
+              "topicTitle": "El valor de la diversidad lingüística desde la interculturalidad",
+              "startPage": 244,
+              "endPage": 246,
+              "pagesLabel": "pp. 244-246",
+              "status": "confirmed-current-edition-full-range"
             }
           ],
-          "multiplesLenguajes": [],
+          "multiplesLenguajes": [
+            {
+              "materialId": "grade-3-apoyo-multiples-lenguajes-tercer-grado",
+              "label": "Múltiples Lenguajes",
+              "startPage": 36,
+              "endPage": 37,
+              "pagesLabel": "pp. 36-37",
+              "topicTitle": "Árbol sagrado: La ceiba",
+              "status": "confirmed-current-edition"
+            }
+          ],
           "otherMaterials": [
             {
               "label": "Video PA 1: 1. ¡Nuestras culturas y lenguas: todas cuentan y valen! • Lenguajes • 3er grado",
@@ -159,7 +187,14 @@
             }
           ]
         },
-        "supportMaterials": [],
+        "supportMaterials": [
+          {
+            "title": "Árbol sagrado: La ceiba",
+            "kind": "Múltiples Lenguajes",
+            "pages": "pp. 36-37",
+            "status": "confirmed-current-edition"
+          }
+        ],
         "horizonOrPurpose": {
           "status": "pending",
           "text": "",
@@ -204,7 +239,7 @@
             ],
             "sourcePagesLabel": "p. 39",
             "topicTitle": "Proyecto academico 1",
-            "status": "confirmed",
+            "status": "confirmed-current-edition",
             "reason": "Concepto vinculado al PA 1, al PPA 1 y a las fuentes curriculares de tercer grado.",
             "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
             "activityReadiness": "usable-for-autoevaluation"
@@ -218,7 +253,7 @@
             ],
             "sourcePagesLabel": "p. 39",
             "topicTitle": "Proyecto academico 1",
-            "status": "confirmed",
+            "status": "confirmed-current-edition",
             "reason": "Concepto vinculado al PA 1, al PPA 1 y a las fuentes curriculares de tercer grado.",
             "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
             "activityReadiness": "usable-for-autoevaluation"
@@ -232,7 +267,7 @@
             ],
             "sourcePagesLabel": "p. 154",
             "topicTitle": "Proyecto academico 1",
-            "status": "confirmed",
+            "status": "confirmed-current-edition",
             "reason": "Concepto vinculado al PA 1, al PPA 1 y a las fuentes curriculares de tercer grado.",
             "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
             "activityReadiness": "usable-for-autoevaluation"
@@ -246,7 +281,7 @@
             ],
             "sourcePagesLabel": "p. 39",
             "topicTitle": "Proyecto academico 1",
-            "status": "confirmed",
+            "status": "confirmed-current-edition",
             "reason": "Concepto vinculado al PA 1, al PPA 1 y a las fuentes curriculares de tercer grado.",
             "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
             "activityReadiness": "usable-for-autoevaluation"
@@ -260,7 +295,7 @@
             ],
             "sourcePagesLabel": "p. 39",
             "topicTitle": "Proyecto academico 1",
-            "status": "confirmed",
+            "status": "confirmed-current-edition",
             "reason": "Concepto vinculado al PA 1, al PPA 1 y a las fuentes curriculares de tercer grado.",
             "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
             "activityReadiness": "usable-for-autoevaluation"
@@ -274,7 +309,7 @@
             ],
             "sourcePagesLabel": "p. 39",
             "topicTitle": "Proyecto academico 1",
-            "status": "suggested",
+            "status": "confirmed-current-edition",
             "reason": "Concepto vinculado al PA 1, al PPA 1 y a las fuentes curriculares de tercer grado.",
             "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
             "activityReadiness": "teacher-review"
@@ -324,11 +359,13 @@
         "sourceValidation": {
           "sourceStatus": "linked",
           "possibilitiesPages": [
-            6
+            6,
+            7,
+            8
           ],
           "possibilitiesMaterialId": "grade-3-posibilidades-pos-len-3",
           "possibilitiesColumnIndex": 2,
-          "columnEvidence": "Columna 2 confirmada por geometría del PDF de Posibilidades de uso; ficha 1 de 1 en p. 6."
+          "columnEvidence": "Columna 2 revisada completa en Posibilidades de uso, pp. 6-8."
         },
         "finalProduct": {
           "title": "Diversidad étnica, cultural y lingüística",
@@ -352,20 +389,70 @@
               "materialId": "grade-3-conceptos-lenguajes-tercer-grado",
               "topicTitle": "Manifestaciones culturales y su difusión en lengua inglesa Cultural manifestations and their spread in the english language",
               "startPage": 183,
-              "endPage": 183,
-              "pagesLabel": "p. 183",
-              "status": "confirmed-from-source-book"
+              "endPage": 186,
+              "pagesLabel": "pp. 183-186",
+              "status": "confirmed-current-edition-full-range"
             },
             {
               "materialId": "grade-3-conceptos-lenguajes-tercer-grado",
               "topicTitle": "Diversidad étnica, cultural y lingüística de México",
               "startPage": 244,
-              "endPage": 244,
-              "pagesLabel": "p. 244",
-              "status": "confirmed-from-source-book"
+              "endPage": 250,
+              "pagesLabel": "pp. 244-250",
+              "status": "confirmed-current-edition-full-range"
+            },
+            {
+              "materialId": "grade-3-conceptos-lenguajes-tercer-grado",
+              "topicTitle": "Diversidad étnica, cultural y lingüística de México",
+              "startPage": 251,
+              "endPage": 268,
+              "pagesLabel": "pp. 251-268",
+              "status": "confirmed-current-edition-full-range"
+            },
+            {
+              "materialId": "grade-3-conceptos-lenguajes-tercer-grado",
+              "topicTitle": "Diversidad étnica, cultural y lingüística de México",
+              "startPage": 269,
+              "endPage": 274,
+              "pagesLabel": "pp. 269-274",
+              "status": "confirmed-current-edition-full-range"
+            },
+            {
+              "materialId": "grade-3-conceptos-lenguajes-tercer-grado",
+              "topicTitle": "Manifestaciones culturales y su difusión en lengua inglesa Cultural manifestations and their spread in the english language",
+              "startPage": 275,
+              "endPage": 281,
+              "pagesLabel": "pp. 275-281",
+              "status": "confirmed-current-edition-full-range"
+            },
+            {
+              "materialId": "grade-3-conceptos-lenguajes-tercer-grado",
+              "topicTitle": "Manifestaciones culturales y su difusión en lengua inglesa Cultural manifestations and their spread in the english language",
+              "startPage": 282,
+              "endPage": 288,
+              "pagesLabel": "pp. 282-288",
+              "status": "confirmed-current-edition-full-range"
+            },
+            {
+              "materialId": "grade-3-conceptos-lenguajes-tercer-grado",
+              "topicTitle": "Manifestaciones culturales y su difusión en lengua inglesa Cultural manifestations and their spread in the english language",
+              "startPage": 289,
+              "endPage": 302,
+              "pagesLabel": "pp. 289-302",
+              "status": "confirmed-current-edition-full-range"
             }
           ],
-          "multiplesLenguajes": [],
+          "multiplesLenguajes": [
+            {
+              "materialId": "grade-3-apoyo-multiples-lenguajes-tercer-grado",
+              "label": "Múltiples Lenguajes",
+              "startPage": 92,
+              "endPage": 95,
+              "pagesLabel": "pp. 92-95",
+              "topicTitle": "David Lara",
+              "status": "confirmed-current-edition"
+            }
+          ],
           "otherMaterials": [
             {
               "label": "Video PA 2: Diversidad étnica, cultural y lingüística • Lenguajes • 3º grado",
@@ -379,7 +466,14 @@
             }
           ]
         },
-        "supportMaterials": [],
+        "supportMaterials": [
+          {
+            "title": "David Lara",
+            "kind": "Múltiples Lenguajes",
+            "pages": "pp. 92-95",
+            "status": "confirmed-current-edition"
+          }
+        ],
         "horizonOrPurpose": {
           "status": "pending",
           "text": "",
@@ -424,7 +518,7 @@
             ],
             "sourcePagesLabel": "p. 44",
             "topicTitle": "Proyecto academico 2",
-            "status": "confirmed",
+            "status": "confirmed-current-edition",
             "reason": "Concepto vinculado al PA 2, al PPA 1 y a las fuentes curriculares de tercer grado.",
             "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
             "activityReadiness": "usable-for-autoevaluation"
@@ -438,7 +532,7 @@
             ],
             "sourcePagesLabel": "p. 44",
             "topicTitle": "Proyecto academico 2",
-            "status": "confirmed",
+            "status": "confirmed-current-edition",
             "reason": "Concepto vinculado al PA 2, al PPA 1 y a las fuentes curriculares de tercer grado.",
             "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
             "activityReadiness": "usable-for-autoevaluation"
@@ -452,7 +546,7 @@
             ],
             "sourcePagesLabel": "p. 154",
             "topicTitle": "Proyecto academico 2",
-            "status": "confirmed",
+            "status": "confirmed-current-edition",
             "reason": "Concepto vinculado al PA 2, al PPA 1 y a las fuentes curriculares de tercer grado.",
             "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
             "activityReadiness": "usable-for-autoevaluation"
@@ -466,7 +560,7 @@
             ],
             "sourcePagesLabel": "p. 44",
             "topicTitle": "Proyecto academico 2",
-            "status": "confirmed",
+            "status": "confirmed-current-edition",
             "reason": "Concepto vinculado al PA 2, al PPA 1 y a las fuentes curriculares de tercer grado.",
             "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
             "activityReadiness": "usable-for-autoevaluation"
@@ -480,7 +574,7 @@
             ],
             "sourcePagesLabel": "p. 44",
             "topicTitle": "Proyecto academico 2",
-            "status": "confirmed",
+            "status": "confirmed-current-edition",
             "reason": "Concepto vinculado al PA 2, al PPA 1 y a las fuentes curriculares de tercer grado.",
             "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
             "activityReadiness": "usable-for-autoevaluation"
@@ -494,7 +588,7 @@
             ],
             "sourcePagesLabel": "p. 44",
             "topicTitle": "Proyecto academico 2",
-            "status": "suggested",
+            "status": "confirmed-current-edition",
             "reason": "Concepto vinculado al PA 2, al PPA 1 y a las fuentes curriculares de tercer grado.",
             "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
             "activityReadiness": "teacher-review"
@@ -544,11 +638,13 @@
         "sourceValidation": {
           "sourceStatus": "linked",
           "possibilitiesPages": [
-            6
+            6,
+            7,
+            8
           ],
           "possibilitiesMaterialId": "grade-3-posibilidades-pos-len-3",
           "possibilitiesColumnIndex": 3,
-          "columnEvidence": "Columna 3 confirmada por geometría del PDF de Posibilidades de uso; ficha 1 de 1 en p. 6."
+          "columnEvidence": "Columna 3 revisada completa en Posibilidades de uso, pp. 6-8."
         },
         "finalProduct": {
           "title": "Folleto de divulgación lingüística",
@@ -572,20 +668,46 @@
               "materialId": "grade-3-conceptos-lenguajes-tercer-grado",
               "topicTitle": "Lenguas indígenas, identidad y sentido de pertenencia",
               "startPage": 122,
-              "endPage": 122,
-              "pagesLabel": "p. 122",
-              "status": "confirmed-from-source-book"
+              "endPage": 129,
+              "pagesLabel": "pp. 122-129",
+              "status": "confirmed-current-edition-full-range"
             },
             {
               "materialId": "grade-3-conceptos-lenguajes-tercer-grado",
               "topicTitle": "Variedad y transformaciones en las lenguas originarias de México",
               "startPage": 130,
-              "endPage": 130,
-              "pagesLabel": "p. 130",
-              "status": "confirmed-from-source-book"
+              "endPage": 140,
+              "pagesLabel": "pp. 130-140",
+              "status": "confirmed-current-edition-full-range"
+            },
+            {
+              "materialId": "grade-3-conceptos-lenguajes-tercer-grado",
+              "topicTitle": "Variedad y transformaciones en las lenguas originarias de México",
+              "startPage": 244,
+              "endPage": 248,
+              "pagesLabel": "pp. 244-248",
+              "status": "confirmed-current-edition-full-range"
+            },
+            {
+              "materialId": "grade-3-conceptos-lenguajes-tercer-grado",
+              "topicTitle": "Lenguas indígenas, identidad y sentido de pertenencia",
+              "startPage": 249,
+              "endPage": 250,
+              "pagesLabel": "pp. 249-250",
+              "status": "confirmed-current-edition-full-range"
             }
           ],
-          "multiplesLenguajes": [],
+          "multiplesLenguajes": [
+            {
+              "materialId": "grade-3-apoyo-multiples-lenguajes-tercer-grado",
+              "label": "Múltiples Lenguajes",
+              "startPage": 22,
+              "endPage": 22,
+              "pagesLabel": "p. 22",
+              "topicTitle": "Parejas primigenias",
+              "status": "confirmed-current-edition"
+            }
+          ],
           "otherMaterials": [
             {
               "label": "Video PA 3: 7. Arte, lengua y cultura: las manifestaciones de nuestro lugar • Lenguajes • 3er grado",
@@ -599,7 +721,14 @@
             }
           ]
         },
-        "supportMaterials": [],
+        "supportMaterials": [
+          {
+            "title": "Parejas primigenias",
+            "kind": "Múltiples Lenguajes",
+            "pages": "p. 22",
+            "status": "confirmed-current-edition"
+          }
+        ],
         "horizonOrPurpose": {
           "status": "pending",
           "text": "",
@@ -644,7 +773,7 @@
             ],
             "sourcePagesLabel": "p. 48",
             "topicTitle": "Proyecto academico 3",
-            "status": "confirmed",
+            "status": "confirmed-current-edition",
             "reason": "Concepto vinculado al PA 3, al PPA 1 y a las fuentes curriculares de tercer grado.",
             "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
             "activityReadiness": "usable-for-autoevaluation"
@@ -658,7 +787,7 @@
             ],
             "sourcePagesLabel": "p. 48",
             "topicTitle": "Proyecto academico 3",
-            "status": "confirmed",
+            "status": "confirmed-current-edition",
             "reason": "Concepto vinculado al PA 3, al PPA 1 y a las fuentes curriculares de tercer grado.",
             "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
             "activityReadiness": "usable-for-autoevaluation"
@@ -672,7 +801,7 @@
             ],
             "sourcePagesLabel": "p. 154",
             "topicTitle": "Proyecto academico 3",
-            "status": "confirmed",
+            "status": "confirmed-current-edition",
             "reason": "Concepto vinculado al PA 3, al PPA 1 y a las fuentes curriculares de tercer grado.",
             "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
             "activityReadiness": "usable-for-autoevaluation"
@@ -686,7 +815,7 @@
             ],
             "sourcePagesLabel": "p. 48",
             "topicTitle": "Proyecto academico 3",
-            "status": "confirmed",
+            "status": "confirmed-current-edition",
             "reason": "Concepto vinculado al PA 3, al PPA 1 y a las fuentes curriculares de tercer grado.",
             "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
             "activityReadiness": "usable-for-autoevaluation"
@@ -700,7 +829,7 @@
             ],
             "sourcePagesLabel": "p. 48",
             "topicTitle": "Proyecto academico 3",
-            "status": "confirmed",
+            "status": "confirmed-current-edition",
             "reason": "Concepto vinculado al PA 3, al PPA 1 y a las fuentes curriculares de tercer grado.",
             "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
             "activityReadiness": "usable-for-autoevaluation"
@@ -714,7 +843,7 @@
             ],
             "sourcePagesLabel": "p. 48",
             "topicTitle": "Proyecto academico 3",
-            "status": "suggested",
+            "status": "confirmed-current-edition",
             "reason": "Concepto vinculado al PA 3, al PPA 1 y a las fuentes curriculares de tercer grado.",
             "pedagogicalUse": "Se puede usar para responder la pregunta de resonancia, construir la relacion de columnas y resolver el juego de autoevaluacion.",
             "activityReadiness": "teacher-review"

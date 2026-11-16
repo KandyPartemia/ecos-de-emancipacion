@@ -25,9 +25,9 @@ TARGET_GRADE = str(__import__("os").environ.get("TARGET_GRADE", "")).strip()
 
 FIELD_CODES = {
     "DHC": "De lo Humano y lo Comunitario",
-    "ENS": "Ética, Naturaleza y Sociedades",
+    "ENS": "\u00c9tica, Naturaleza y Sociedades",
     "LEN": "Lenguajes",
-    "SYPC": "Saberes y Pensamiento Científico",
+    "SYPC": "Saberes y Pensamiento Cient\u00edfico",
 }
 
 INTRO_MARKERS = (
