@@ -77,11 +77,14 @@ const PROJECT_TITLE_DISPLAY_OVERRIDES: Record<string, string> = {
   'saberes-y-pensamiento-cientifico-1-ppa-15-pa45': '¡Un tema candente que nos interesa a todxs!',
 };
 
+const CARACOLES_LAB_URL = 'https://caracoles-lab-kandy.vercel.app/';
+
 const CARACOLES_NAV_ITEMS = [
   { label: 'Selector', href: '#caracoles-selector' },
   { label: 'Ficha', href: '#caracoles-project-dashboard' },
   { label: 'Mapa mental', href: '#caracoles-mapa-mental' },
   { label: 'Memorama', href: ENGLISH_MEMORY_GAME_URL, external: true },
+  { label: 'Laboratorios', href: CARACOLES_LAB_URL, external: true },
   { label: 'Autoevaluación', href: '#caracoles-autoevaluacion' },
 ];
 
