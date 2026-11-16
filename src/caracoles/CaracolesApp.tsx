@@ -84,7 +84,7 @@ const CARACOLES_NAV_ITEMS = [
   { label: 'Ficha', href: '#caracoles-project-dashboard' },
   { label: 'Mapa mental', href: '#caracoles-mapa-mental' },
   { label: 'Memorama', href: ENGLISH_MEMORY_GAME_URL, external: true },
-  { label: 'Laboratorios', href: CARACOLES_LAB_URL, external: true },
+  { label: 'STEAM', href: CARACOLES_LAB_URL, external: true },
   { label: 'Autoevaluación', href: '#caracoles-autoevaluacion' },
 ];
 
