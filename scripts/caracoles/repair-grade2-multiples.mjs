@@ -3,7 +3,7 @@ import { readFileSync, writeFileSync, readdirSync } from 'node:fs';
 
 const root = new URL('../../public/caracoles/data/curricular-development/', import.meta.url);
 const replacement = ['San Julián', 54, 61, 'Un poeta con alas de pintor'];
-const repairs = {
+const grade2 = {
   lenguajes: { 6: [replacement], 19: [replacement], 30: [['David Lara', 50, 53], replacement], 39: [['Corales', 120], ['Estrellas de mar', 121]] },
   'etica-naturaleza-y-sociedades': { 15: [replacement], 30: [replacement] },
   'de-lo-humano-y-lo-comunitario': { 12: [['Se construyen robotbums', 142, 147]], 13: [['A. Vanegas Arroyo', 99, 101]] },
@@ -22,11 +22,38 @@ const repairs = {
     40: [['Jardines flotantes', 92]],
   },
 };
+const grade3 = {
+  lenguajes: {},
+  'etica-naturaleza-y-sociedades': {
+    2: [['Cuentan que el maíz...', 142, 147], ['Huehuetéotl, dios viejo del fuego', 81], ['Cajete funerario de Calakmul', 49], ['Árbol sagrado: La ceiba', 36, 37]],
+    3: [['Mujeres', 30, 33], ['Cortometrajes', 26, 27]],
+    4: [['El origen del teatro griego', 148, 151], ['Hipatia de Alejandría', 28, 29], ['Las otras vidas de Ychi', 118, 121]],
+    15: [['Los celos no son amor', 122, 127]],
+    16: [['Sueños de José', 18, 21]],
+    18: [['Ramón Cano Manilla, cuéntanos más, abuelo...', 58, 63], ['Tradiciones', 68, 71]],
+    19: [['Cortometrajes', 26, 27]],
+    21: [['Cortometrajes', 26, 27], ['Sueños de José', 18, 21]],
+  },
+  'de-lo-humano-y-lo-comunitario': {
+    14: [['Árbol sagrado: La ceiba', 36, 37]],
+    18: [['A. Vanegas Arroyo', 104, 111]],
+  },
+  'saberes-y-pensamiento-cientifico': {
+    1: [['¿Cuánto vale el pasado de un pueblo?', 136, 141]],
+    2: [['Hipatia de Alejandría', 28, 29]],
+    6: [['Relojes de arena', 42]],
+    25: [['Cuentan que el maíz...', 142]],
+    38: [['La verdadera historia de la muerte de un planeta', 114]],
+  },
+};
+const grade = process.argv[2] ?? '2';
+assert.ok(['2', '3'].includes(grade));
+const repairs = grade === '3' ? grade3 : grade2;
 
 let count = 0;
 const writes = [];
 for (const file of readdirSync(root)) {
-  const field = /^grade-2-(.+)-ppa-\d+\.json$/.exec(file)?.[1];
+  const field = new RegExp(`^grade-${grade}-(.+)-ppa-\\d+\\.json$`).exec(file)?.[1];
   if (!repairs[field]) continue;
   const path = new URL(file, root);
   const raw = readFileSync(path, 'utf8');
@@ -39,7 +66,7 @@ for (const file of readdirSync(root)) {
     count++;
     changed = true;
     project.sourcePages.multiplesLenguajes = rows.map(([topicTitle, startPage, endPage = startPage, replaces]) => ({
-      materialId: 'grade-2-apoyo-multiples-lenguajes-segundo-grado',
+      materialId: grade === '3' ? 'grade-3-apoyo-multiples-lenguajes-tercer-grado' : 'grade-2-apoyo-multiples-lenguajes-segundo-grado',
       label: 'Múltiples Lenguajes',
       startPage, endPage,
       pagesLabel: startPage === endPage ? `p. ${startPage}` : `pp. ${startPage}-${endPage}`,
@@ -60,6 +87,6 @@ for (const file of readdirSync(root)) {
   const output = JSON.stringify(bundle, null, 2) + '\n';
   writes.push([path, raw.includes('\r\n') ? output.replaceAll('\n', '\r\n') : output]);
 }
-assert.equal(count, 22);
+assert.equal(count, Object.values(repairs).reduce((total, field) => total + Object.keys(field).length, 0));
 for (const [path, output] of writes) writeFileSync(path, output);
 console.log(`Verified ${count} projects across ${writes.length} bundles.`);
