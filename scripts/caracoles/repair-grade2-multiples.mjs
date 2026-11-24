@@ -2,6 +2,23 @@ import assert from 'node:assert/strict';
 import { readFileSync, writeFileSync, readdirSync } from 'node:fs';
 
 const root = new URL('../../public/caracoles/data/curricular-development/', import.meta.url);
+const animals = ['¿Los animales tienen derechos?', 40, 45, 'Man Ray: pintar con fotografías'];
+const grade1 = {
+  lenguajes: {
+    21: [['El samba: música y baile de resistencia y dignidad', 96, 99]],
+    26: [animals],
+    39: [animals],
+    42: [['Diversidad de esqueletos de equinodermos del Golfo de México', 153]],
+  },
+  'etica-naturaleza-y-sociedades': { 31: [['Vive el cantar de los viejos', 46, 47]] },
+  'saberes-y-pensamiento-cientifico': {
+    1: [['El cerebro de Einstein', 70]],
+    10: [['La flor nacional de México', 28]],
+    11: [['El asombroso mundo de los arrecifes de coral', 10]],
+    13: [['La flor nacional de México', 28]],
+    24: [['Flexágonos', 114]],
+  },
+};
 const replacement = ['San Julián', 54, 61, 'Un poeta con alas de pintor'];
 const grade2 = {
   lenguajes: { 6: [replacement], 19: [replacement], 30: [['David Lara', 50, 53], replacement], 39: [['Corales', 120], ['Estrellas de mar', 121]] },
@@ -47,8 +64,8 @@ const grade3 = {
   },
 };
 const grade = process.argv[2] ?? '2';
-assert.ok(['2', '3'].includes(grade));
-const repairs = grade === '3' ? grade3 : grade2;
+const repairs = { 1: grade1, 2: grade2, 3: grade3 }[grade];
+assert.ok(repairs);
 
 let count = 0;
 const writes = [];
@@ -66,7 +83,11 @@ for (const file of readdirSync(root)) {
     count++;
     changed = true;
     project.sourcePages.multiplesLenguajes = rows.map(([topicTitle, startPage, endPage = startPage, replaces]) => ({
-      materialId: grade === '3' ? 'grade-3-apoyo-multiples-lenguajes-tercer-grado' : 'grade-2-apoyo-multiples-lenguajes-segundo-grado',
+      materialId: {
+        1: 'grade-1-apoyo-muiltiples-lenguajes-primer-grado',
+        2: 'grade-2-apoyo-multiples-lenguajes-segundo-grado',
+        3: 'grade-3-apoyo-multiples-lenguajes-tercer-grado',
+      }[grade],
       label: 'Múltiples Lenguajes',
       startPage, endPage,
       pagesLabel: startPage === endPage ? `p. ${startPage}` : `pp. ${startPage}-${endPage}`,

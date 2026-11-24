@@ -590,7 +590,17 @@
               "status": "confirmed-current-edition-full-range"
             }
           ],
-          "multiplesLenguajes": [],
+          "multiplesLenguajes": [
+            {
+              "materialId": "grade-1-apoyo-muiltiples-lenguajes-primer-grado",
+              "label": "Múltiples Lenguajes",
+              "startPage": 114,
+              "endPage": 114,
+              "pagesLabel": "p. 114",
+              "topicTitle": "Flexágonos",
+              "status": "confirmed-current-edition"
+            }
+          ],
           "otherMaterials": [
             {
               "label": "Video PA 24: Los genes tienen una carga muy pesada!",
@@ -604,7 +614,14 @@
             }
           ]
         },
-        "supportMaterials": [],
+        "supportMaterials": [
+          {
+            "title": "Flexágonos",
+            "kind": "Múltiples Lenguajes",
+            "pages": "p. 114",
+            "status": "confirmed-current-edition"
+          }
+        ],
         "horizonOrPurpose": {
           "status": "official",
           "text": "Mediante la elaboracion de un dibujo genetico-algebraico, estudiar el contenido de los genes como portadores de informacion, la manipulacion genetica y su vinculo con una representacion algebraica o una progresion aritmetica.",
