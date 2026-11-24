@@ -71,16 +71,14 @@
             "projectId": "saberes-y-pensamiento-cientifico-2-ppa-2-pa4",
             "projectTitle": "El álgebra y las unidades de medida",
             "finalProduct": "Demostración de medidas",
-            "supportMaterials": []
+              "supportMaterials": ["La operación estrella, p. 14"]
           },
           {
             "columnIndex": 2,
             "projectId": "saberes-y-pensamiento-cientifico-2-ppa-2-pa5",
             "projectTitle": "Símbolos y exponentes",
             "finalProduct": "Glosario de conceptos",
-            "supportMaterials": [
-              "La operación estrella, p. 14"
-            ]
+              "supportMaterials": []
           },
           {
             "columnIndex": 3,
@@ -141,7 +139,17 @@
               "status": "confirmed-current-edition-full-range"
             }
           ],
-          "multiplesLenguajes": [],
+          "multiplesLenguajes": [
+            {
+              "materialId": "grade-2-apoyo-multiples-lenguajes-segundo-grado",
+              "label": "Múltiples Lenguajes",
+              "startPage": 14,
+              "endPage": 14,
+              "pagesLabel": "p. 14",
+              "topicTitle": "La operación estrella",
+              "status": "confirmed-current-edition"
+            }
+          ],
           "otherMaterials": [
             {
               "label": "Video PA 4: 14. Un futuro con energía • Saberes y pensamiento científico• 2do grado",
@@ -155,7 +163,14 @@
             }
           ]
         },
-        "supportMaterials": [],
+        "supportMaterials": [
+          {
+            "title": "La operación estrella",
+            "kind": "Múltiples Lenguajes",
+            "pages": "p. 14",
+            "status": "confirmed-current-edition"
+          }
+        ],
         "horizonOrPurpose": {
           "status": "official",
           "text": "Aplicar las unidades de medida del Sistema Internacional y del sistema inglés en una demostración de medidas con reglas, reglillas o flexómetros.",
