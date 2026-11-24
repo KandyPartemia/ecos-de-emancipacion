@@ -393,7 +393,18 @@
               "status": "confirmed-current-edition-full-range"
             }
           ],
-          "multiplesLenguajes": [],
+          "multiplesLenguajes": [
+            {
+              "materialId": "grade-2-apoyo-multiples-lenguajes-segundo-grado",
+              "label": "Múltiples Lenguajes",
+              "startPage": 76,
+              "endPage": 77,
+              "pagesLabel": "pp. 76-77",
+              "topicTitle": "Cortometrajes",
+              "status": "confirmed-current-edition",
+              "replaces": "Cubismo, el arte de la geometría"
+            }
+          ],
           "otherMaterials": [
             {
               "label": "Video PA 32: 13. Las figuras del Universo :su composición...• Saberes y pensamiento científico• 2do grado",
@@ -407,7 +418,14 @@
             }
           ]
         },
-        "supportMaterials": [],
+        "supportMaterials": [
+          {
+            "title": "Cortometrajes",
+            "kind": "Múltiples Lenguajes",
+            "pages": "pp. 76-77",
+            "status": "confirmed-current-edition"
+          }
+        ],
         "horizonOrPurpose": {
           "status": "official",
           "text": "Usar instrumentos de medición para construir triángulos, cuadriláteros y polígonos regulares e irregulares a escala en una feria geométrica tras tomar en cuenta las relaciones entre ángulos inscritos y centrales, lados y diagonales.",

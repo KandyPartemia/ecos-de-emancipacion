@@ -71,14 +71,16 @@
             "projectId": "saberes-y-pensamiento-cientifico-2-ppa-2-pa4",
             "projectTitle": "El álgebra y las unidades de medida",
             "finalProduct": "Demostración de medidas",
-              "supportMaterials": ["La operación estrella, p. 14"]
+            "supportMaterials": [
+              "La operación estrella, p. 14"
+            ]
           },
           {
             "columnIndex": 2,
             "projectId": "saberes-y-pensamiento-cientifico-2-ppa-2-pa5",
             "projectTitle": "Símbolos y exponentes",
             "finalProduct": "Glosario de conceptos",
-              "supportMaterials": []
+            "supportMaterials": []
           },
           {
             "columnIndex": 3,
@@ -642,7 +644,17 @@
               "status": "confirmed-current-edition-full-range"
             }
           ],
-          "multiplesLenguajes": [],
+          "multiplesLenguajes": [
+            {
+              "materialId": "grade-2-apoyo-multiples-lenguajes-segundo-grado",
+              "label": "Múltiples Lenguajes",
+              "startPage": 18,
+              "endPage": 18,
+              "pagesLabel": "p. 18",
+              "topicTitle": "Cholula, la pirámide que se disfrazó de cerro",
+              "status": "confirmed-current-edition"
+            }
+          ],
           "otherMaterials": [
             {
               "label": "Video PA 6: 6. El taller de Pascal y Arquímedes • Saberes y pensamiento científico• 2do grado",
@@ -656,7 +668,14 @@
             }
           ]
         },
-        "supportMaterials": [],
+        "supportMaterials": [
+          {
+            "title": "Cholula, la pirámide que se disfrazó de cerro",
+            "kind": "Múltiples Lenguajes",
+            "pages": "p. 18",
+            "status": "confirmed-current-edition"
+          }
+        ],
         "horizonOrPurpose": {
           "status": "official",
           "text": "Aplicar conversiones y procedimientos de medición para construir instrumentos de medición sencillos y usarlos en la comunidad.",
